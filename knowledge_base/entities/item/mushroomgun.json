@@ -1,0 +1,65 @@
+{
+  "entity_id": "mushroomgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fungal Gun",
+  "name_zh": "真菌枪",
+  "description_en": "Tiny little explosive buddies spew out of this thing.\r\nArea-Damage weapon, Floran",
+  "description_zh": "可发射细小的可爆炸性弹药。\n范围性武器，叶族",
+  "rarity": "uncommon",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "bioweapon",
+    "floran",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 6,
+  "critBonus": 2,
+  "altAbilityType": "mushroomgrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 24
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "fu_carbon",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Fungal Gun.md",
+  "quality_tier": "A"
+}

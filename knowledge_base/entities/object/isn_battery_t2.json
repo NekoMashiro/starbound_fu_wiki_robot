@@ -1,0 +1,42 @@
+{
+  "entity_id": "isn_battery_t2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Improved Battery",
+  "name_zh": "改良电池",
+  "description_en": "A slightly upgraded form of battery. Scan for Info\nStorage Capacity: 2500J",
+  "description_zh": "略微升级的电力储存设备。\n扫描以查看更多信息\n储存电能：2500J",
+  "rarity": "Uncommon",
+  "category": "wire",
+  "price": 450,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 2
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

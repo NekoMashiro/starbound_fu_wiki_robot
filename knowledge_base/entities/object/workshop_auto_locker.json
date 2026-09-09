@@ -1,0 +1,46 @@
+{
+  "entity_id": "workshop_auto_locker",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Factory Locker",
+  "name_zh": "工厂储物柜",
+  "description_en": "A storage locker with an input and output channel.",
+  "description_zh": "带有输入和输出端口的储物柜。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 320,
+  "tags": [
+    "factorypaint",
+    "storage",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

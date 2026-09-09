@@ -1,0 +1,125 @@
+{
+  "entity_id": "snowball",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snowball",
+  "name_zh": "雪球",
+  "description_en": "A snowball, the perfect size for throwing.",
+  "description_zh": "一个雪球，拥有最适合投掷的完美尺寸。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "snow",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Iron Crafting Table",
+          "name_zh": "铁制工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 7,
+        "examples": [
+          "avesmingoicecream",
+          "bananaicecream",
+          "cactiicecream",
+          "coconuticecream",
+          "eggshooticecream"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mediumsnowball"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowChestTreasure",
+          "probability": 0.4597,
+          "count": 10
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.3584,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.3584,
+        0.4597
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowTreasure",
+          "probability": 0.3226,
+          "count": 10
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.2515,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2515,
+        0.3226
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "snowball",
+    "mediumsnowball",
+    "snowcone"
+  ],
+  "quality_tier": "S"
+}

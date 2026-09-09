@@ -1,0 +1,58 @@
+{
+  "entity_id": "advalloycrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Crossbow",
+  "name_zh": "合金弩",
+  "description_en": "A bulky crossbow. But it's not actually that heavy.",
+  "description_zh": "这把弩实际上并没有看上去那么笨重。",
+  "rarity": "Uncommon",
+  "category": "crossbow",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 5,
+  "critBonus": 8,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

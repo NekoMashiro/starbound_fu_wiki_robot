@@ -1,0 +1,36 @@
+{
+  "entity_id": "scumslim",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Scumslim",
+  "name_zh": "氰化物",
+  "description_en": "Looks pretty toxic, but it tastes surprisingly great.\nDrunk, +30% Poison Res (1m)",
+  "description_zh": "看起来很毒。但它的味道整挺好！\n醉酒，+30%毒素抗性(持续1m)",
+  "rarity": "uncommon",
+  "category": "drink",
+  "price": 3500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidbioooze",
+          "count": 5
+        },
+        {
+          "item": "agedrum",
+          "count": 1
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

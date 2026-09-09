@@ -1,0 +1,78 @@
+{
+  "entity_id": "orion_rocketLauncher_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "OC APL",
+  "name_zh": "俄里翁APL",
+  "description_en": "An Orion launcher that fires electric shots. Inflicts Eletrified. No knockback.",
+  "description_zh": "进行雷电射击的俄里翁发射器。造成带电。无击退。",
+  "rarity": "Legendary",
+  "category": "rocketLauncher",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "electric",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 15.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 12
+        },
+        {
+          "item": "orion_crafting_jupiterCell",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "artifact_blastRifle_neonGenesis"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionBlueprint",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

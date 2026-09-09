@@ -1,0 +1,39 @@
+{
+  "entity_id": "fupetsummoner",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Companion Recall Device",
+  "name_zh": "伙伴召回装置",
+  "description_en": "Used to summon your pets to your side.\r\nHold Shift to summon crew instead.\r\nConsumes ALL energy",
+  "description_zh": "将你的宠物传送至身旁。\n按住Shift召唤船员。\n消 耗 所 有 能 量",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 1440,
+  "tags": [
+    "tool"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1440
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

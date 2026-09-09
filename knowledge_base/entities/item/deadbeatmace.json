@@ -1,0 +1,59 @@
+{
+  "entity_id": "deadbeatmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Mace",
+  "name_zh": "废料钉头锤",
+  "description_en": "Dense, deadly and heavy.\r\nInflicts bleeding",
+  "description_zh": "密集、致命且沉重。\n造成出血效果",
+  "rarity": "uncommon",
+  "category": "mace",
+  "price": 2600,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "deadbeat"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 4,
+  "critBonus": 1,
+  "primaryAbilityType": "macecombo",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

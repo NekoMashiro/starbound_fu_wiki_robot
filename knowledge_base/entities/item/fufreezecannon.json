@@ -1,0 +1,63 @@
+{
+  "entity_id": "fufreezecannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coldsnap",
+  "name_zh": "骤霜",
+  "description_en": "A cloud-laying ice weapon.\r\nBlasts cause targets to slip\r\nAlt-fire freezes enemies",
+  "description_zh": "属于雾状冰冻武器。\n爆炸对目标附加滑行效果\n次要攻击会冻结敌人",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 8.8,
+  "critChance": 5,
+  "critBonus": 6,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 6
+        },
+        {
+          "item": "refinedferozium",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "industrialtable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Table",
+  "name_zh": "工业桌",
+  "description_en": "A cold metal table, built to survive turbulent trips.",
+  "description_zh": "为经受湍流旅行而制造的冰金属桌。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 85,
+  "tags": [
+    "commerce",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "hazard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

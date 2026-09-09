@@ -1,0 +1,49 @@
+{
+  "entity_id": "at_ext_b2",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC][Power]Erchius reactor",
+  "name_zh": "[泰坦拓展][电源]厄尔吉斯反应炉",
+  "description_en": "A reactor that burns Erchius Fuel.Can be wired to other machines.",
+  "description_zh": "一个烧厄尔吉斯燃料的反应炉。可与其它机器连接。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "at_ext_b3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

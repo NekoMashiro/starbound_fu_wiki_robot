@@ -1,0 +1,43 @@
+{
+  "entity_id": "astralstool",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Stool",
+  "name_zh": "星辰凳",
+  "description_en": "A stellar stool, now 99.99% empty space, just like the \"atoms\" it's made of.",
+  "description_zh": "一个恒星凳，现在99.99% 的空间，就像它的“原子”组成。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralwood",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

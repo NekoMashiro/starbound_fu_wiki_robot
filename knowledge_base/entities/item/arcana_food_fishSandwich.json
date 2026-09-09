@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcana_food_fishSandwich",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fish Sandwich",
+  "name_zh": "鱼三明治",
+  "description_en": "A cheap but tasty fish sandwich that fills your stomach. +20% max health for 120s.",
+  "description_zh": "便宜但美味的三明治，可以填饱你的肚子。120秒内+20%最大生命值。",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 22
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu-Fast Food",
+      "station_zh": "菜单-快餐",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

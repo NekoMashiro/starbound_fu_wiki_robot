@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_farmable_veinberrySeed",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Veinberry Seed",
+  "name_zh": "脉莓种子",
+  "description_en": "Grows berries used to heal wounded by some Hyltols.",
+  "description_zh": "能长出一种被鲛人用于治愈的莓果。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 25,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_farmable_veinberry",
+          "probability": 1.16,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

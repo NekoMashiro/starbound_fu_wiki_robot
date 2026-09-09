@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_actransformer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "AC Transformer",
+  "name_zh": "交流变压器",
+  "description_en": "When active, it rapidly alternates between /'on'/ and /'off'/ states.",
+  "description_zh": "激活后它将会在/ON/和/OFF/之间快速切换。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "thefishpainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Deep Seer",
+  "name_zh": "深渊预言者",
+  "description_en": "A horrifying sea creature.",
+  "description_zh": "一种可怖的海中生物。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Deep Seer.md",
+  "quality_tier": "A"
+}

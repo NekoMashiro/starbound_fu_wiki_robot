@@ -1,0 +1,47 @@
+{
+  "entity_id": "farmwell",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Well",
+  "name_zh": "井",
+  "description_en": "Generates water for use around your home. Stores up to 200 water. Less effective when stacked. Scan for Info.",
+  "description_zh": "生成用于你家周围的水。最多可储存200滴水。水堆叠时效率会降低。扫描以浏览更多信息。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 8
+        },
+        {
+          "item": "climbingrope",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Well.md",
+  "quality_tier": "A"
+}

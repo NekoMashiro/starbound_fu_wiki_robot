@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_ardenreefSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Ardenreef Seed",
+  "name_zh": "烈珊瑚种子",
+  "description_en": "A fiery coral-like plant, burning with fire energy.",
+  "description_zh": "一种火红的珊瑚状植物，燃烧着火焰能量。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_ardenreef",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

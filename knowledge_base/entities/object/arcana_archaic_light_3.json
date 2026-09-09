@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_archaic_light_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Small Lamp",
+  "name_zh": "古朴小灯笼",
+  "description_en": "A tiny shining orb device stationed as a lamp.",
+  "description_zh": "一个充当灯笼的小型发光球状装置。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 40,
+  "tags": [
+    "light",
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

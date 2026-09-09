@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_armor_horizonDisciple_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Horizon Disciple Pants",
+  "name_zh": "地平线学徒护腿",
+  "description_en": "A battle suit armor worn by Horizon Disciples.",
+  "description_zh": "地平线学徒穿戴的战斗甲。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 1600,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

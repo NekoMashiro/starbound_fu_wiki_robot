@@ -1,0 +1,69 @@
+{
+  "entity_id": "fuatropusspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fleshweave Spear",
+  "name_zh": "血肉长矛",
+  "description_en": "A revolting bio-weapon.\nPlague Bearing\nHunting weapon",
+  "description_zh": "令人作呕的生物武器。\n瘟疫附着\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 780,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "atropus",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 6,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "elementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_nodule",
+          "count": 2
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 12
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

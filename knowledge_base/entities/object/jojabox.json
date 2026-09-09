@@ -1,0 +1,51 @@
+{
+  "entity_id": "jojabox",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Joja Box",
+  "name_zh": "Joja盒子",
+  "description_en": "A blue cardboard box, adorned with an ominous blue \"J\".",
+  "description_zh": "一个蓝色纸箱，上面装饰着不祥的蓝色“J”。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "joja",
+    "commerce",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jojaset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "tier4switch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Durasteel Console",
+  "name_zh": "耐钢控制台",
+  "description_en": "A durasteel control console. Press all the buttons!",
+  "description_zh": "一个耐钢制的控制台。按下所有的按钮！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 65,
+  "tags": [
+    "wired",
+    "tier4"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

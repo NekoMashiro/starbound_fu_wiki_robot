@@ -1,0 +1,40 @@
+{
+  "entity_id": "misc_soul_icon_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Lost lantern",
+  "name_zh": "迷失魂灯",
+  "description_en": "A small soul lodged in a lantern.\n[Primary]Spawn/Despawn,[Alt]Fire. This one can auto attack\nDonator:NorthseaIndustry",
+  "description_zh": "一朵寄宿在小小灯笼中的可控灵魂，是一种从夜雾星上发掘的技术。\n [左键]释放/回收，[右键]开火\n捐赠者物品：北海重工",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机^reset;",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 700
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

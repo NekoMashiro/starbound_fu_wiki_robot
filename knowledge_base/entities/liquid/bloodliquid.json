@@ -1,0 +1,32 @@
+{
+  "entity_id": "bloodliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "bloodliquid",
+  "name_zh": "",
+  "description_en": "This appears to be blood. Wonderful.",
+  "description_zh": "这似乎是血。太棒了。",
+  "status_effects": [
+    "swimming",
+    "wetblood"
+  ],
+  "interactions": [
+    {
+      "liquid": 3,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 47,
+      "materialResult": "bloodstonetile"
+    },
+    {
+      "liquid": 48,
+      "materialResult": "bloodstonetile2"
+    }
+  ],
+  "quality_tier": "C"
+}

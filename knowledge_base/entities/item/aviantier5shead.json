@@ -1,0 +1,54 @@
+{
+  "entity_id": "aviantier5shead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Phoenix Helm",
+  "name_zh": "凤凰头盔",
+  "description_en": "Set Bonuses:\n Wand/Staff: Mastery +22%\n Immune: Poisoned",
+  "description_zh": "套装奖励:\n 魔杖/法杖: 伤害 x1.22\n 免疫: 中毒",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 2880,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 6
+        },
+        {
+          "item": "canvas",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "aviantier6shead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

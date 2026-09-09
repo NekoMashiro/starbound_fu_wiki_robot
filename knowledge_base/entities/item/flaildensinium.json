@@ -1,0 +1,54 @@
+{
+  "entity_id": "flaildensinium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Striker",
+  "name_zh": "超致密打击者",
+  "description_en": "Heavy, cumbersome and awesome.\r\nBreaks blocks\r\nStuns and electrifies",
+  "description_zh": "沉重、笨重、令人敬畏。\n打断格挡\n 眩晕并感电",
+  "rarity": "legendary",
+  "category": "Striker",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 12,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

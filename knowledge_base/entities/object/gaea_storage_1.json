@@ -1,0 +1,49 @@
+{
+  "entity_id": "gaea_storage_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Florastone Chest",
+  "name_zh": "花叶石箱",
+  "description_en": "An ancient chest fused with spirits of the verdant earth.",
+  "description_zh": "凝聚了青翠大地精神与力量的远古宝箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "gaea",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_florastone",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

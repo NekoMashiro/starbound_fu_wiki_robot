@@ -1,0 +1,61 @@
+{
+  "entity_id": "ancientscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Scythe",
+  "name_zh": "古代镰刀",
+  "description_en": "Mastery of the ancients contained within.\r\nEradicating Alt-Fire",
+  "description_zh": "这把镰刀包含了古人的非凡技艺。\n湮灭性的次要攻击",
+  "rarity": "legendary",
+  "category": "scythe",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "melee",
+    "cosmic",
+    "scythe",
+    "upgradeableWeapon",
+    "ancient"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.67,
+  "critChance": 4,
+  "critBonus": 14,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 8000
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

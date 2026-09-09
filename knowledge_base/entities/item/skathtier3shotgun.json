@@ -1,0 +1,66 @@
+{
+  "entity_id": "skathtier3shotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Plasma Shotgun",
+  "name_zh": "绘世者霰弹枪·等离子",
+  "description_en": "'A high tech shotgun that fires plasma rounds.'",
+  "description_zh": "发射等离子弹的高科技霰弹枪。",
+  "rarity": "Legendary",
+  "category": "Assault Shotgun",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon",
+    "plasma"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 13.5,
+  "altAbilityType": " 等离子手榴弹",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier2shotgun",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "tethyde",
+          "count": 3
+        },
+        {
+          "item": "hydrolium",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

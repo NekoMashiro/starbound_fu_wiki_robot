@@ -1,0 +1,41 @@
+{
+  "entity_id": "ornatetorch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Ornate Lantern",
+  "name_zh": "华丽灯笼",
+  "description_en": "This ornate lamp flickers softly.",
+  "description_zh": "轻柔闪烁着的华丽的灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "light"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.085,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityTreasure",
+          "probability": 0.0565,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

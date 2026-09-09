@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_pickaxe_aureaEnergyPickaxe",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aurea Energy Pickaxe",
+  "name_zh": "恒金能量镐",
+  "description_en": "A standard mining tool for Aurea Seekers.",
+  "description_zh": "恒金的搜寻者们使用的制式挖掘工具。",
+  "rarity": "Rare",
+  "category": "tool",
+  "price": 0,
+  "tags": [
+    "miningtool",
+    "pickaxe"
+  ],
+  "elementalType": "physical",
+  "twoHanded": true,
+  "primaryAbilityType": "pickslash",
+  "altAbilityType": "pickslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_emeraldGlimpseExtra",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

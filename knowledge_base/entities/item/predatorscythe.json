@@ -1,0 +1,40 @@
+{
+  "entity_id": "predatorscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Predator Scythe",
+  "name_zh": "捕食者镰刀",
+  "description_en": "Despite simplicity, it leaks with deadly toxins.",
+  "description_zh": "造型简单，却能释放致命的毒素。",
+  "rarity": "legendary",
+  "category": "scythe",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0037,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

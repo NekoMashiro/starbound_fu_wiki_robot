@@ -1,0 +1,48 @@
+{
+  "entity_id": "solar_lance_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Molten Skewer",
+  "name_zh": "熔火刺枪",
+  "description_en": "A burning lance made from solar crystals.",
+  "description_zh": "由太阳晶体制成的燃烧长枪。",
+  "rarity": "Legendary",
+  "category": "spear",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "arcana_solar",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 11.8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 10
+        },
+        {
+          "item": "solar_crafting_solarCore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

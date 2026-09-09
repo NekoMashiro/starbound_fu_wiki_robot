@@ -1,0 +1,49 @@
+{
+  "entity_id": "shadowcouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Couch",
+  "name_zh": "阴影长沙发",
+  "description_en": "A comfy dark colored couch.",
+  "description_zh": "一张舒适的深色沙发。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "shadow",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 15
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

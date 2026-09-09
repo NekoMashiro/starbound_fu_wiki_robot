@@ -1,0 +1,199 @@
+{
+  "entity_id": "goldenglowleaf",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Goldenglow Petal",
+  "name_zh": "重瓣金光菊",
+  "description_en": "+12.5% E. Regen & -6.25% E. Regen Block, +50% Run: 1m",
+  "description_zh": "+12.5%能量恢复 & -6.25%能量重充能时间, +50%速度: 1m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 106,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "goldenglowHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 63,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1369,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0699,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.026,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0143,
+          "count": 1.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0141,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1369
+      ]
+    },
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0196,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0157,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0102,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0071,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0196
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0106,
+          "count": 1
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0087,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0106
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0014,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0014
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0003
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

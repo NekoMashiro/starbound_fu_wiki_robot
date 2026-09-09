@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowerpurple",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Purple Flower",
+  "name_zh": "紫色花种子",
+  "description_en": "Happy little flowers of purple hue",
+  "description_zh": "一朵有着愉悦紫色调的花儿。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerpurpleHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

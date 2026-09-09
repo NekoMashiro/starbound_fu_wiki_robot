@@ -1,0 +1,71 @@
+{
+  "entity_id": "feathercrown",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Feathercrown",
+  "name_zh": "羽冠花",
+  "description_en": "Feathercrown, you have to pluck it before consuming. Type: Vegetable",
+  "description_zh": "羽冠花，你必须在还没自行掉落之前采摘。\n类型：蔬菜reset;",
+  "rarity": "Common",
+  "category": "food",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feathercrownbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 5,
+        "examples": [
+          "desertsalsa",
+          "eggshootsalad",
+          "feathercrownjam",
+          "featherfood",
+          "spicyfeathercrown"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "feathercrownbasket"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "ultimatejuice"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "feathercrownHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "feathercrownjam"
+  ],
+  "quality_tier": "S"
+}

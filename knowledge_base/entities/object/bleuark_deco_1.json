@@ -1,0 +1,53 @@
+{
+  "entity_id": "bleuark_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bleuark Plant Pot",
+  "name_zh": "海舟植物盆栽",
+  "description_en": "A fancy plant pot made of Atla gold.",
+  "description_zh": "由海金制成的花盆。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "atlantic",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 6
+        },
+        {
+          "item": "bleuark_tile8",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Bleuark Crafting Table",
+      "station_zh": "海舟制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

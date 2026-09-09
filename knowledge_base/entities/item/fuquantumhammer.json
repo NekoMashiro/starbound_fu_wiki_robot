@@ -1,0 +1,60 @@
+{
+  "entity_id": "fuquantumhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Hammer",
+  "name_zh": "量子锤",
+  "description_en": "Straddles two universes. Amazing.\r\nDeals Physical Damage",
+  "description_zh": "跨越两个宇宙。太神了。\n 造成物理伤害",
+  "rarity": "rare",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 13,
+  "critChance": 5,
+  "critBonus": 5,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 8
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

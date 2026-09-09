@@ -1,0 +1,42 @@
+{
+  "entity_id": "flamebreakerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stormbreaker Helmet",
+  "name_zh": "风暴克星头盔",
+  "description_en": "Stormbreakers are responsible for collecting charged gems from the surface.",
+  "description_zh": "风暴克星负责从地表收集带电的宝石。",
+  "rarity": "uncommon",
+  "category": "headwear",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

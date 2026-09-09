@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_greentea",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Verdant Can Tea",
+  "name_zh": "青岚罐装绿茶",
+  "description_en": "Canned green tea with a crisp, refreshing taste.\nGrants the [Verdant Can Tea] effect when consumed.",
+  "description_zh": "罐装的绿茶，口味清爽。\n饮用后给予[青岚绿茶]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 320
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

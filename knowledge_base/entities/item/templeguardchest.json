@@ -1,0 +1,36 @@
+{
+  "entity_id": "templeguardchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Temple Shirt",
+  "name_zh": "寺院衬衫",
+  "description_en": "A sleeveless shirt woven from crystal.",
+  "description_zh": "这款无袖衬衫采用水晶编织而成。",
+  "rarity": "uncommon",
+  "category": "chestwear",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wovencrystal",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "oceanite",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Loom",
+      "station_zh": "水晶织机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

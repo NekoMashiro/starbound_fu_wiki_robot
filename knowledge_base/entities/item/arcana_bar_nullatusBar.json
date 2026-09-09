@@ -1,0 +1,132 @@
+{
+  "entity_id": "arcana_bar_nullatusBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Nullatus Bar",
+  "name_zh": "归零锭",
+  "description_en": "A material for creating Tier 9 equipment, radiating an overwhelming aura.",
+  "description_zh": "一种散发压倒性光环的材料，其耐用性未知。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 6400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_luminariumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_solarMedallion",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_lunarInsignia",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_aeonLeaf",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金锻造厂",
+      "station_zh": "恒金锻造厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 6,
+        "examples": [
+          "artifact_katana_mikazuki",
+          "artifact_magiblade_trayodhatava",
+          "exousia_sovereign_katana_1",
+          "exousia_sovereign_katana_2",
+          "mwhaddon_nightmare_gazeOfCosmo"
+        ]
+      },
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "arcana_armor_aeternus_head",
+          "arcana_armor_fusang_head",
+          "arcana_armor_heartseeker_head",
+          "arcana_armor_horncaster_head",
+          "arcana_armor_skullbearer_head"
+        ]
+      },
+      "chestwear": {
+        "count": 5,
+        "examples": [
+          "arcana_armor_aeternus_chest",
+          "arcana_armor_fusang_chest",
+          "arcana_armor_heartseeker_chest",
+          "arcana_armor_horncaster_chest",
+          "arcana_armor_skullbearer_chest"
+        ]
+      },
+      "legwear": {
+        "count": 5,
+        "examples": [
+          "arcana_armor_aeternus_legs",
+          "arcana_armor_fusang_legs",
+          "arcana_armor_heartseeker_legs",
+          "arcana_armor_horncaster_legs",
+          "arcana_armor_skullbearer_legs"
+        ]
+      },
+      "staff": {
+        "count": 4,
+        "examples": [
+          "artifact_staff_corrodingElm",
+          "exousia_church_staff_1",
+          "mwhaddon_nightmare_perditionFractal",
+          "mwhaddon_shadastrophe"
+        ]
+      },
+      "spear": {
+        "count": 3,
+        "examples": [
+          "artifact_greatspear_luxiant",
+          "artifact_lance_astrifer",
+          "solar_glaive_1"
+        ]
+      },
+      "wand": {
+        "count": 2,
+        "examples": [
+          "artifact_orb_perpetuityEye",
+          "artifact_wand_idunsBlessing"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_hFrequencyBattleaxe"
+        ]
+      }
+    },
+    "total": 32
+  },
+  "wiki_ref": "Nullatus Bar.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "batterypack_quantum",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Energy Pack",
+  "name_zh": "量子能量背包",
+  "description_en": "Extremely powerful energy tank. Blocks electrical storms. Energy x1.25, +40% E. Regen, -20% E. Block, and a slight glow.",
+  "description_zh": "非常强大的储能背包。抵御雷电风暴，能量x1.25，+40%能量恢复速度，自带微弱的发光效果。",
+  "rarity": "legendary",
+  "category": "enviroProtectionPack",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "helium3gasliquid",
+          "count": 40
+        },
+        {
+          "item": "batterypack_morphite",
+          "count": 1
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "particlecore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

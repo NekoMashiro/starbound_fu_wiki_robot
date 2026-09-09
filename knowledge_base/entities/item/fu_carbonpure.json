@@ -1,0 +1,93 @@
+{
+  "entity_id": "fu_carbonpure",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pure Carbon",
+  "name_zh": "纯碳",
+  "description_en": "Pure carbon graphite.",
+  "description_zh": "纯碳石墨。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 55,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shield": {
+        "count": 2,
+        "examples": [
+          "cuteshield",
+          "xithriciteshield"
+        ]
+      },
+      "crossbow": {
+        "count": 2,
+        "examples": [
+          "xithricitecrossbow",
+          "xithricitestynger"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "biomorphchest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "biomorphhead"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "biomorphpants"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "powderednarcotics"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "radienaugment1"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "slimebiolumepp"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "coalore",
+      "bonus": [
+        "fu_carbon",
+        "diamond",
+        "fu_carbonpure"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "coalore",
+      "bonus": [
+        "fu_carbon",
+        "diamond",
+        "fu_carbonpure"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

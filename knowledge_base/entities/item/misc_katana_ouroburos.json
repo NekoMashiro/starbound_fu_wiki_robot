@@ -1,0 +1,37 @@
+{
+  "entity_id": "misc_katana_ouroburos",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ouroboros",
+  "name_zh": "大蛇丸",
+  "description_en": "A twisted blade made from alien material.",
+  "description_zh": "由异星材料制成的扭曲刀刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.8,
+  "primaryAbilityType": "arcana_katana_combo",
+  "altAbilityType": "arcana_tachi_ability_serpentineStrike",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

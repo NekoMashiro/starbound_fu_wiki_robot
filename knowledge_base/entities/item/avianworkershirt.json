@@ -1,0 +1,56 @@
+{
+  "entity_id": "avianworkershirt",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Worker Shirt",
+  "name_zh": "工人衬衫",
+  "description_en": "A shirt made from a comfortable, breathable fabric. Perfect for working outside all day!",
+  "description_zh": "一件用舒适的透气面料制成的衬衫。适合一整天在外工作。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 20
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

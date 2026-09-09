@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcana_food_arcaneJuice",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Juice",
+  "name_zh": "秘果汁",
+  "description_en": "A space colored juice made of arcane essence. Grants glowing for 360s.",
+  "description_zh": "由奥术精纯制成的太空彩色果汁。赋予360s发光。",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 360,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 45
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_cafe.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

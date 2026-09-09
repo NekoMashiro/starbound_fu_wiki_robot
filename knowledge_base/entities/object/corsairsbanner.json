@@ -1,0 +1,50 @@
+{
+  "entity_id": "corsairsbanner",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corsair's Banner",
+  "name_zh": "海盗船旗",
+  "description_en": "A cheery wall banner embroidered with a skull and crossbones.",
+  "description_zh": "绣有骷髅和十字骨的欢快的墙上旗帜。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "corsair",
+    "evil"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "corsairset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

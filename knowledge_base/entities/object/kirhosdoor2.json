@@ -1,0 +1,50 @@
+{
+  "entity_id": "kirhosdoor2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Door",
+  "name_zh": "Kirhosi门",
+  "description_en": "Shiny and nice, and keeps out the bugs.",
+  "description_zh": "闪亮而精致，并且能把虫子们拒之门外。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 350,
+  "tags": [
+    "kirhos",
+    "fukirhos",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

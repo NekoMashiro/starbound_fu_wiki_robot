@@ -1,0 +1,165 @@
+{
+  "entity_id": "neptuniumore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neptunium Ore",
+  "name_zh": "镎矿",
+  "description_en": "Commonly used in weapons development\n+4 Fuel",
+  "description_zh": "通常用在武器开发上。\n燃料+4",
+  "rarity": "rare",
+  "category": "craftingOre",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuluxurygoods",
+          "count": 7
+        }
+      ],
+      "output_count": 7,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "neptuniumradien"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "neptuniumrod"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "radienhook"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "neptuniumrod",
+      "bonus": [
+        "lead",
+        "uraniumore",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "neptuniumrod",
+      "bonus": [
+        "lead",
+        "uraniumore",
+        "unstableparticles"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "erchibudHarvest",
+          "probability": 0.15,
+          "count": 1
+        },
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.15
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.02,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "underground1b",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground5c",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground0d",
+      "weight": 0.7
+    },
+    {
+      "biome": "zen",
+      "weight": 0.7
+    },
+    {
+      "biome": "cellcaves",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground3b",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground3c",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_tundraDeepUnderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "asteroidfield",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground5b",
+      "weight": 0.7
+    }
+  ],
+  "wiki_ref": "Neptunium Ore.md",
+  "quality_tier": "S"
+}

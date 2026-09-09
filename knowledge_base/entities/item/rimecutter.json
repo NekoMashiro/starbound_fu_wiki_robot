@@ -1,0 +1,59 @@
+{
+  "entity_id": "rimecutter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rime Cutter",
+  "name_zh": "霜冻切割者",
+  "description_en": "Freezing rounds mince enemies good.\r\nInflicts freezing",
+  "description_zh": "噢，被定住了？来拍个照！\n附加冻结效果",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 3,
+  "critBonus": 3,
+  "altAbilityType": "rimecutteraltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

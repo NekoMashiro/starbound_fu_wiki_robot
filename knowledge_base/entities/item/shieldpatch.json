@@ -1,0 +1,225 @@
+{
+  "entity_id": "shieldpatch",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shield Patch",
+  "name_zh": "盾牌补丁",
+  "description_en": "Repair 140% Shield HP, and gain +42% Defense Tech Efficiency (30s)",
+  "description_zh": "回复140%盾牌耐久，+42%防御科技效率(30s内)",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vialproto",
+          "count": 6
+        },
+        {
+          "item": "iodine",
+          "count": 4
+        },
+        {
+          "item": "aliencompound",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 109,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fuprecursorMedical",
+          "probability": 0.278,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 4
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0304,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.278
+      ]
+    },
+    "monster_drops": {
+      "count": 22,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0818,
+          "count": 1.0
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0245,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0069,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1
+      ]
+    },
+    "chest_loot": {
+      "count": 64,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0962,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 4
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0441,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0405,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0962
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0376
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0012,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

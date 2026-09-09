@@ -1,0 +1,54 @@
+{
+  "entity_id": "advalloykatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Katana",
+  "name_zh": "宗师武士刀",
+  "description_en": "The wounds caused by these swords are said to never heal.\r\nCombo Strikes causes targets to bleed\r\n8 hit combo",
+  "description_zh": "据说它造成的伤口永远无法愈合。\n连击造成流血。\n8连击",
+  "rarity": "rare",
+  "category": "katana",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

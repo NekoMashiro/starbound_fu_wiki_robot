@@ -1,0 +1,44 @@
+{
+  "entity_id": "bee_shrouded_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shrouded Queen",
+  "name_zh": "隐蔽蜂后",
+  "description_en": "Shrouded Queen",
+  "description_zh": "隐蔽蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "effigiumbar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bee_shrouded",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_shrouded"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

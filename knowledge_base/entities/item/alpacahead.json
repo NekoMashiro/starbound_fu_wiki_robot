@@ -1,0 +1,46 @@
+{
+  "entity_id": "alpacahead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Alien Alpaca Mask",
+  "name_zh": "外星羊驼面具",
+  "description_en": "An Alpaca mask. It's warm and cute.",
+  "description_zh": "一个羊驼面具。温暖又可爱。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "alpineChestTreasure",
+          "probability": 0.0347,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlpineTreasure",
+          "probability": 0.0226,
+          "count": 1
+        },
+        {
+          "pool": "alpineTreasure",
+          "probability": 0.0189,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0189,
+        0.0226
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

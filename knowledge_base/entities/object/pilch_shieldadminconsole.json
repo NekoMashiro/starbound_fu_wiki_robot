@@ -1,0 +1,39 @@
+{
+  "entity_id": "pilch_shieldadminconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Field Admin Console",
+  "name_zh": "力场管理者控制器",
+  "description_en": "For the administration and shutdown of troublesome fields. Requires admin",
+  "description_zh": "用于管理和关闭有问题的力场。需要管理员权限",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 105,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Field Admin Console.md",
+  "quality_tier": "A"
+}

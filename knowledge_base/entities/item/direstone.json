@@ -1,0 +1,45 @@
+{
+  "entity_id": "direstone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dire Stone",
+  "name_zh": "可怕的石头",
+  "description_en": "Little wormlike forms wriggle beneath the surface of this glassy stone.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "有小蠕虫在这种玻璃状石头的表面下蠕动。\n可萃取，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_terraformer_eminsnow"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "coalore",
+        "sulphur"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "coalore",
+        "sulphur"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

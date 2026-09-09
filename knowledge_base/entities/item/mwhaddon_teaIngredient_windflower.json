@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_windflower",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Grand Windflower",
+  "name_zh": "大拂风花",
+  "description_en": "A great flower found grown in the Windswept highlands.\n During cooldown time, gain Windswept.",
+  "description_zh": "一种在拂风高地中生长的巨大花朵。\n饮用后，若处于冷却期间，获得拂风。",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

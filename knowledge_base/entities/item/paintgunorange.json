@@ -1,0 +1,55 @@
+{
+  "entity_id": "paintgunorange",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Orange Paintgun",
+  "name_zh": "橙色彩弹枪",
+  "description_en": "For shooting anyone who says nothing rhymes with orange.",
+  "description_zh": "如果你能说出与orange押韵的字，我就不射你一脸。",
+  "rarity": "Uncommon",
+  "category": "toy",
+  "price": 500,
+  "tags": [
+    "toy"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "clay",
+          "count": 10
+        },
+        {
+          "item": "orangedye",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchipspeed",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Voyager Module",
+  "name_zh": "旅者模块",
+  "description_en": "Increases mech speed but lowers maneuverability and jump height.",
+  "description_zh": "提高机甲速度，但降低机动性和跳跃高度。",
+  "rarity": "Common",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "opul",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

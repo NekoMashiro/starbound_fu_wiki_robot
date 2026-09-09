@@ -1,0 +1,57 @@
+{
+  "entity_id": "teslastaff1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tesla's Wand",
+  "name_zh": "特斯拉魔杖",
+  "description_en": "The fury of storms in the palm of your hand.",
+  "description_zh": "狂风暴雨，握于掌上。",
+  "rarity": "uncommon",
+  "category": "wand",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "wand",
+    "electric",
+    "energy",
+    "tesla",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": false,
+  "primaryAbilityType": "guidedbolt",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

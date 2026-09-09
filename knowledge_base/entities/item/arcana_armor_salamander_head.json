@@ -1,0 +1,51 @@
+{
+  "entity_id": "arcana_armor_salamander_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aneides Helmet",
+  "name_zh": "异螈头盔",
+  "description_en": "A piece of heavy armor made from obsidian. \n\nSet Bonus: \nGrants +25% Fire Resistance.",
+  "description_zh": "由黑曜石制成的重甲。\n\n套装效果：\n获得+25%烈焰抗性.",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 900,
+  "tags": [],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 3
+        },
+        {
+          "item": "refinedviolium",
+          "count": 3
+        },
+        {
+          "item": "obsidian",
+          "count": 18
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

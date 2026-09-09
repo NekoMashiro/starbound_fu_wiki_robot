@@ -1,0 +1,69 @@
+{
+  "entity_id": "mwhaddon_blastRifle_tsukitsune",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Tsukitsune",
+  "name_zh": "月狐",
+  "description_en": "Any attempts to seize the desolate moonshine into one's own hands have all been proved futile. Not this copy.",
+  "description_zh": "所有妄图将荒芜之月光攫为己有的尝试均以徒劳告终，唯独这一复制品除外。",
+  "rarity": "essential",
+  "category": "uniqueWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle"
+  ],
+  "elementalType": "arcana_lunar",
+  "level": 9,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_lunarSigil",
+          "count": 1
+        },
+        {
+          "item": "arcana_boss_cosmoNemesis_blastRifle_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_illusionaryLuna"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

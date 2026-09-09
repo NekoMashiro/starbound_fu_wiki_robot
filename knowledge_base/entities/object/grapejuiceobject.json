@@ -1,0 +1,41 @@
+{
+  "entity_id": "grapejuiceobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grape Juice",
+  "name_zh": "葡萄汁",
+  "description_en": "A sweet juice made of grapes.",
+  "description_zh": "用葡萄制成的甜汁。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapejuice",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "grapejuice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

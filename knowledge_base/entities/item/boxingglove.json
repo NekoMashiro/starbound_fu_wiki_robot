@@ -1,0 +1,69 @@
+{
+  "entity_id": "boxingglove",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Boxing Glove",
+  "name_zh": "拳击手套",
+  "description_en": "Now you can be a contender.",
+  "description_zh": "现在你可以成为一个竞争者。",
+  "rarity": "Rare",
+  "category": "fistWeapon",
+  "price": 250,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

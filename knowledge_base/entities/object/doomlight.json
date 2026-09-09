@@ -1,0 +1,59 @@
+{
+  "entity_id": "doomlight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Doom Light",
+  "name_zh": "毁灭之光",
+  "description_en": "A doom light. The eye glows in the dark.",
+  "description_zh": "毁灭之光。在黑暗中发光。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "evil",
+    "light",
+    "doom"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "rarefurniture",
+          "probability": 0.027,
+          "count": 1
+        },
+        {
+          "pool": "elduurarefurniture",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.027
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0065
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

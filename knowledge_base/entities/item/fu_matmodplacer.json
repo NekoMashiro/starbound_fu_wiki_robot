@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_matmodplacer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Material Mod Placer",
+  "name_zh": "材料放置枪",
+  "description_en": "Primary: Place Foreground\r\nSecondary: Place Background\r\nShift + Primary: Select Mod\r\nShift + Secondary: Change Mode",
+  "description_zh": "左键： 放置前景\n右键： 放置背景\nShift + 左键： 选择模式\nShift + 右键： 改变模式",
+  "rarity": "Legendary",
+  "category": "tool",
+  "price": 0,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Material Mod Placer.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "flowercandle",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aromatic Candle",
+  "name_zh": "芳香蜡烛",
+  "description_en": "A candle made with flowers.",
+  "description_zh": "用鲜花做成的蜡烛。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "bees",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 10
+        },
+        {
+          "item": "flowercomb",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

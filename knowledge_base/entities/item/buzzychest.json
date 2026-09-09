@@ -1,0 +1,46 @@
+{
+  "entity_id": "buzzychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Buzzy Shirt",
+  "name_zh": "嗡嗡衬衫",
+  "description_en": "A fuzzy striped shirt. It smells faintly of honey.",
+  "description_zh": "一件毛绒绒的条纹衫。闻起来有淡淡的蜜糖香气。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "giantflowerChestTreasure",
+          "probability": 0.1062,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoGiantFlowerTreasure",
+          "probability": 0.069,
+          "count": 1
+        },
+        {
+          "pool": "giantflowerTreasure",
+          "probability": 0.0577,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0577,
+        0.069
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

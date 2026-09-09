@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_scorpio_deco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bathroom Stall",
+  "name_zh": "卫生间",
+  "description_en": "A bathroom stall. Don't get stuck!",
+  "description_zh": "卫生间。别卡住！",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 110,
+  "tags": [
+    "scorpio"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Scorpio Furniture Printer",
+      "station_zh": "天蝎家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "scorpio.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

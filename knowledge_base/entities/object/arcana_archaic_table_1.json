@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_archaic_table_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Wooden Table",
+  "name_zh": "古朴木桌",
+  "description_en": "An ancient table with an ornate wooden surface.",
+  "description_zh": "一张古老的桌子，有着华丽的木制桌面。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 120,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

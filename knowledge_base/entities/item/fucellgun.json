@@ -1,0 +1,61 @@
+{
+  "entity_id": "fucellgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cellular Rifle",
+  "name_zh": "细胞步枪",
+  "description_en": "A truly unique long-ranged rifle, firing freezing, poisonous blasts of cellular matter.",
+  "description_zh": "一支真正独特的远程步枪，发射冻结有毒的爆炸的细胞物质。",
+  "rarity": "uncommon",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.214,
+  "critChance": 3,
+  "critBonus": 8,
+  "altAbilityType": "explosiveburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 12
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Cellular Rifle.md",
+  "quality_tier": "A"
+}

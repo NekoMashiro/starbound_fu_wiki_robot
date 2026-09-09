@@ -1,0 +1,59 @@
+{
+  "entity_id": "hylotlgreatscion",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Great Scion",
+  "name_zh": "伟大后裔",
+  "description_en": "A traditional Hylotl weapon of war.\r\nHuge striking power. Cold edged.\r\nSlowing Alt",
+  "description_zh": "一把鲛人族常用的武器，用于战争。\n其内蕴含着强大的冰冷之力.\n次要攻击：附加减速效果",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fuwaterslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

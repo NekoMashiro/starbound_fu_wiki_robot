@@ -1,0 +1,51 @@
+{
+  "entity_id": "isn_glowgel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glowing Gel",
+  "name_zh": "发光凝胶",
+  "description_en": "Place it on a surface to coat it in glowing gel.",
+  "description_zh": "给地形的表面涂上这种物质，可以发光。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 4,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 1
+        },
+        {
+          "item": "methanol",
+          "count": 1
+        },
+        {
+          "item": "biospore",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "isn_glowgel_b",
+          "isn_glowgel_g",
+          "isn_glowgel_p",
+          "isn_glowgel_r",
+          "isn_glowgel_y"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

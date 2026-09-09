@@ -1,0 +1,60 @@
+{
+  "entity_id": "aetheriumrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Rapier",
+  "name_zh": "阳清刺剑",
+  "description_en": "My name is...",
+  "description_zh": "吾名为...",
+  "rarity": "legendary",
+  "category": "Rapier",
+  "price": 3600,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "morphiteore",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "aetheriumrapiert8.png",
+    "seed": "",
+    "shortdescription": "阳清刺穿者",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

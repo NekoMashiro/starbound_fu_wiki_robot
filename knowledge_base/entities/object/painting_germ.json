@@ -1,0 +1,35 @@
+{
+  "entity_id": "painting_germ",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Disturbing Painting",
+  "name_zh": "令人不安的绘画",
+  "description_en": "This strange painting is titled ''Germ of an Idea''. I'll be stumped as to what I think about this.",
+  "description_zh": "这幅奇怪的画名为“思想的萌芽”。我会被震住，不知道自己是怎么想的。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 190,
+  "tags": [
+    "odd",
+    "valuable",
+    "neon",
+    "ccccc",
+    "science",
+    "painting",
+    "human"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0028,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

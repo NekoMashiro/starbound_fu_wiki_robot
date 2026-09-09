@@ -1,0 +1,307 @@
+{
+  "entity_id": "ff_mercury",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mercury",
+  "name_zh": "汞",
+  "description_en": "Mercury is the only metal that is liquid at standard temperatures and pressures. Caution: Toxic\nExtractable, Centrifugable.",
+  "description_zh": "水银是唯一一种在标准温度和压力下是液态的金属。警告：有毒。\n可萃取，可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwastewater",
+          "count": 1
+        },
+        {
+          "item": "ironore",
+          "count": 1
+        },
+        {
+          "item": "ff_silicon",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 18,
+        "examples": [
+          "batterystem",
+          "beetlesproutseed",
+          "bluemelonseed",
+          "caprioleplantseed",
+          "fletchweed"
+        ]
+      },
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "apexbrainjar3",
+          "c_subliminalmessaging",
+          "madnessadultpoptop",
+          "madnessjuvenilepoptop",
+          "madnesspoptop"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "battlepack",
+          "battlepack2",
+          "battlepack3"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "apexartifactaugment",
+          "berserkeraugment"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "",
+          "money"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "blobbushjelly",
+          "darkmatter"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "honeyboon",
+          "myphisinjector"
+        ]
+      },
+      "shield": {
+        "count": 2,
+        "examples": [
+          "atropusshield",
+          "bubbleshield"
+        ]
+      }
+    },
+    "total": 43
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "cinnabarore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "cinnabarore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "cinnabarore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 63,
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "gasbagLoot",
+          "probability": 0.7536,
+          "count": 6,
+          "monsters": [
+            "gasbag",
+            "gasbagstat",
+            "skywhale",
+            "skywhale2"
+          ]
+        },
+        {
+          "pool": "gorgolithLoot",
+          "probability": 0.1196,
+          "count": 6
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 6,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 80
+        },
+        {
+          "pool": "toxicgolemLoot",
+          "probability": 0.0417,
+          "count": 12,
+          "monsters": [
+            "futoxicgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.7536
+      ]
+    },
+    "monster_drops": {
+      "count": 21,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 6
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 6
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0665,
+          "count": 3,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 6,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 6
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1026
+      ]
+    },
+    "chest_loot": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 80
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 3.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0187,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.025,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.025
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 3.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    }
+  },
+  "wiki_ref": "Mercury.md",
+  "quality_tier": "S"
+}

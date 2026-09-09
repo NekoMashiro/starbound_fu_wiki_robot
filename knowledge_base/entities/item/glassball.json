@@ -1,0 +1,52 @@
+{
+  "entity_id": "glassball",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glass Ball",
+  "name_zh": "玻璃球",
+  "description_en": "Because we all know what cats like to do to ornaments...",
+  "description_zh": "因为我们都知道猫喜欢对装饰品做什么……",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 30
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 30
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

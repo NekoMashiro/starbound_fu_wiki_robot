@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_spectwing_chakram_4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Umbral Chakram",
+  "name_zh": "暗影环刃",
+  "description_en": "A sharp chakram for hunting prey.",
+  "description_zh": "用于狩猎猎物的锋利环刃。",
+  "rarity": "Uncommon",
+  "category": "chakram",
+  "price": 900,
+  "tags": [
+    "weapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

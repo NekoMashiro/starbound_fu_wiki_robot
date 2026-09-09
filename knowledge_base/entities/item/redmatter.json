@@ -1,0 +1,126 @@
+{
+  "entity_id": "redmatter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Matter",
+  "name_zh": "赤物质",
+  "description_en": "Long thought impossible to create, this supreme energy is exceptionally dangerous.",
+  "description_zh": "长久以来被认为不可能创造，这种至高无上的能量异常危险。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 6,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidblood",
+          "count": 300
+        },
+        {
+          "item": "psionicenergy",
+          "count": 50
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "vialproto",
+          "count": 20
+        }
+      ],
+      "output_count": 5,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 65000
+        },
+        {
+          "item": "essence",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "erchiusghostback2",
+          "erchiusghostback3"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "fuobliterator",
+          "pistolaegisaltfu"
+        ]
+      },
+      "sniperRifle": {
+        "count": 2,
+        "examples": [
+          "fushocklance",
+          "rifleaegisaltfu"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "isn_annihilator",
+          "isn_microwaveray"
+        ]
+      },
+      "fuel": {
+        "count": 2,
+        "examples": [
+          "neutronium",
+          "tritium"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "fucosmicresistanceaugment3"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "cthulhuplush"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "fucharmbomb"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "quality_tier": "S"
+}

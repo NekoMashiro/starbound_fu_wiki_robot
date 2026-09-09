@@ -1,0 +1,40 @@
+{
+  "entity_id": "slimebiolumepp",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Bio-Light Growth",
+  "name_zh": "史莱姆生物光增生",
+  "description_en": "A glowing slime crystal. Grants +12% to Fire, Ice, Poison and Electric Resists. Immune: Moderate Heat/Cold/Radiation, Oxygen. Glows best with bright slimes.",
+  "description_zh": "发光的史莱姆水晶。\n火炎/寒气/毒素/电系抗性+12%。免疫严酷炎热/寒冷/辐射，窒息。\n和亮色的史莱姆搭配更佳。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimebioluminescence",
+          "count": 1
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 12
+        },
+        {
+          "item": "fu_carbonpure",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

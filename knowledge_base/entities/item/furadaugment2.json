@@ -1,0 +1,36 @@
+{
+  "entity_id": "furadaugment2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Radiation Shield II",
+  "name_zh": "EPP模块（辐射护盾 II）",
+  "description_en": "An EPP module that repels extreme varieties of radiation, including radiation burn.\nImmune: Extreme Radiation\n+15% Rad Resistance.",
+  "description_zh": "一个能够抵御极端种类的辐射的EPP模块，还包括抵御辐射烧伤。\n免疫: 极端辐射\n+15%辐射抗性。",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "iodine",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

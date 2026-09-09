@@ -1,0 +1,71 @@
+{
+  "entity_id": "fubutter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Butter",
+  "name_zh": "黄油",
+  "description_en": "It's butter. I don't think you need a description. Type: Dairy",
+  "description_zh": "这是黄油。我觉得你不需要任何描述。\n 类型：蛋奶",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 15,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "bowelchocolate",
+          "butteronastick",
+          "tearnutbuttercookie"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

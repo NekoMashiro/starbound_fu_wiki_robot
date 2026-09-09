@@ -1,0 +1,47 @@
+{
+  "entity_id": "mecharmmissilerack",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Missile Rack Mech Arm",
+  "name_zh": "导弹机架机甲臂",
+  "description_en": "Fires a swarm of guided mini missiles.",
+  "description_zh": "发射一群微型制导导弹。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmsinrack"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

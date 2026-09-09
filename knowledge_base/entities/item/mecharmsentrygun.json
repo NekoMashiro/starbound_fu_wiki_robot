@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmsentrygun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sentry Gun Arm",
+  "name_zh": "哨兵枪机械臂",
+  "description_en": "Launches a defensive turret. 10s reload.",
+  "description_zh": "发射一个防御炮塔。装载时间10秒。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

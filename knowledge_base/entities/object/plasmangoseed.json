@@ -1,0 +1,60 @@
+{
+  "entity_id": "plasmangoseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasmango Seed",
+  "name_zh": "等离子芒果种子",
+  "description_en": "Plasmango, the galaxy's most dangerous fruit.",
+  "description_zh": "等离子芒果，星际中最危险的水果。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 65,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "darkmatter",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 24
+        },
+        {
+          "item": "phasematter",
+          "count": 8
+        },
+        {
+          "item": "liquidirradium",
+          "count": 9
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "plasmangoHarvest",
+          "probability": 0.6944,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

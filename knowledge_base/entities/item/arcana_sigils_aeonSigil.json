@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_sigils_aeonSigil",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Sigil, Siorraidh",
+  "name_zh": "纪元魔印 · 永恒 Siorraidh",
+  "description_en": "An alien sigil, once a construct used by the ancients.",
+  "description_zh": "外星魔印，曾被古人使用的构造。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_aeonLeaf",
+          "count": 1
+        },
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 20
+        },
+        {
+          "item": "workshop_crafting_rawDustrium",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wand": {
+        "count": 2,
+        "examples": [
+          "artifact_orb_perpetuityEye",
+          "artifact_wand_idunsBlessing"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,176 @@
+{
+  "entity_id": "unknowngene",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Unknown Gene",
+  "name_zh": "未知基因",
+  "description_en": "A bizarre quadruple-helix gene.",
+  "description_zh": "一种奇怪的四螺旋基因。",
+  "rarity": "legendary",
+  "category": "craftingMaterial",
+  "price": 3200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cell_mutated",
+          "count": 1
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        },
+        {
+          "item": "alienwoodsap",
+          "count": 5
+        },
+        {
+          "item": "exoticmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Gene Sequencer",
+          "name_zh": "基因定序仪"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "madnessbrainbeast",
+          "madnessfleshreaper",
+          "madnessfleshtyrant"
+        ]
+      },
+      "bioweapon": {
+        "count": 2,
+        "examples": [
+          "shoggothgun",
+          "swarmgun2"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitchestkhe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitheadkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitlegskhe"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "fuscienceresource"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0392,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0173,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0173,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "gasbagLoot",
+          "probability": 0.4118,
+          "count": 3,
+          "monsters": [
+            "gasbag",
+            "gasbagstat",
+            "skywhale",
+            "skywhale2"
+          ]
+        },
+        {
+          "pool": "fleshreaperhuntLoot",
+          "probability": 0.0679,
+          "count": 1,
+          "monsters": [
+            "fleshreaper"
+          ]
+        },
+        {
+          "pool": "minishoggothLoot",
+          "probability": 0.0062,
+          "count": 1,
+          "monsters": [
+            "fleshleech",
+            "fleshleech2",
+            "fleshleechold",
+            "minishoggoth",
+            "minishoggoth2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0062,
+        0.4118
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0035,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

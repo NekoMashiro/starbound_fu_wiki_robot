@@ -1,0 +1,38 @@
+{
+  "entity_id": "mint",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Star Mint",
+  "name_zh": "星光薄荷",
+  "description_en": "+5% E. Regen & -2.5% E. Regen Block: 2m",
+  "description_zh": "+5%能量回复 & -2.5%能量重充能速度: 2m",
+  "rarity": "uncommon",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "minthumbug"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mintHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

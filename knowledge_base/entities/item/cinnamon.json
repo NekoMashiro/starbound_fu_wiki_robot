@@ -1,0 +1,54 @@
+{
+  "entity_id": "cinnamon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cinnamon",
+  "name_zh": "肉桂",
+  "description_en": "Spicy cinnamon sticks!",
+  "description_zh": "香辣的肉桂棒。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 11,
+        "examples": [
+          "applecinnamonpie",
+          "bigbreakfast",
+          "cinnamonchallenge",
+          "cinnamonoatmeal",
+          "cinnamonroll"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "cinnamonschnapps"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "fayshroomseed"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cinnamonHarvest",
+          "probability": 2.3798,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

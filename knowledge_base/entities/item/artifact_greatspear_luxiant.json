@@ -1,0 +1,64 @@
+{
+  "entity_id": "artifact_greatspear_luxiant",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Luxiant",
+  "name_zh": "奢灿",
+  "description_en": "Luxiant, the spear of light that pierces through the darkness. Special unlocks the blade's power.",
+  "description_zh": "奢灿，刺穿黑暗的光之矛. 特殊攻击释放矛刃的力量.",
+  "rarity": "Essential",
+  "category": "spear",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "arcana_light",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 11.2,
+  "primaryAbilityType": "arcana_greatspear_combo",
+  "altAbilityType": "光辉，无羁",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_arkFragment",
+          "count": 12
+        },
+        {
+          "item": "arcana_essence_lightEssence",
+          "count": 24
+        },
+        {
+          "item": "arcana_flowers_whiteDaisy",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

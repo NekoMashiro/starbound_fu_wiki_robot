@@ -1,0 +1,63 @@
+{
+  "entity_id": "animus_axe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Animus Axe",
+  "name_zh": "魇灵斧",
+  "description_en": "An axe forged from Anima Chunk and Arcanium. Inflicts Soulburn, dealing true damage over time.",
+  "description_zh": "使用生源块和秘钢制成的斧。造成灵魂灼烧，随着时间推移造成真实伤害。",
+  "rarity": "Rare",
+  "category": "axe",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "animus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 8.0,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 9
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 12
+        },
+        {
+          "item": "corefragmentore",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "魇灵斧^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

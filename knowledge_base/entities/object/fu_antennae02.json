@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_antennae02",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Communications Array",
+  "name_zh": "通信阵列",
+  "description_en": "Some kind of communication array that includes sensors.",
+  "description_zh": "某种包含传感器的通信阵列。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "ship",
+    "object",
+    "generic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

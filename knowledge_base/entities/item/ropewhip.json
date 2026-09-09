@@ -1,0 +1,214 @@
+{
+  "entity_id": "ropewhip",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rope Whip",
+  "name_zh": "绳鞭",
+  "description_en": "A rope fashioned into a whip. Get cracking!",
+  "description_zh": "一根用绳子做成的鞭子。出击！",
+  "rarity": "common",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "whip"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "climbingrope",
+          "count": 6
+        },
+        {
+          "item": "leather",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 137,
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "uniqueWeapon",
+          "probability": 0.1333,
+          "count": 1
+        },
+        {
+          "pool": "elduuuniqueWeapon",
+          "probability": 0.1333,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.0705,
+          "count": 1.0
+        },
+        {
+          "pool": "naturalcaveLore",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.0036,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0036,
+        0.1333
+      ]
+    },
+    "chest_loot": {
+      "count": 61,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arkFragment",
+          "probability": 0.0703,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_apexWeaponTreasure",
+          "probability": 0.0703,
+          "count": 1.0
+        },
+        {
+          "pool": "dungeoncrawlerRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "LargeDungeonReward",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "hylotlruinedcastleChestTreasure",
+          "probability": 0.0045,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0021,
+        0.0703
+      ]
+    },
+    "monster_drops": {
+      "count": 65,
+      "top": [
+        {
+          "pool": "apextestfacilityRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "apexbaseRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "apexcampRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "apexcityRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0667
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0037,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0037,
+        0.0667
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0036,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0036,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0006,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0036
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "ropewhip_l6.png:idle",
+    "seed": "",
+    "shortdescription": "绳鞭^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

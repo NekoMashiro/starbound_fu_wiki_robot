@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_terraformer_superstormExpanse",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Superstorm Expanse Terraformer",
+  "name_zh": "奔雷瀚土转换器",
+  "description_en": "Transforms a planet into a superstorm, endless lightning fills the skies.",
+  "description_zh": "将一个星球的气候转变成奔雷瀚土",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "superstormExpanse_tile1",
+          "count": 5
+        },
+        {
+          "item": "superstormExpanse_tile2",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_corridor",
+          "probability": 0.0714,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

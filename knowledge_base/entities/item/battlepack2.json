@@ -1,0 +1,54 @@
+{
+  "entity_id": "battlepack2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battle Pack II",
+  "name_zh": "作战用背包 II",
+  "description_en": "Damage x1.15. +7 Health, +7 Energy, +7 Shield Bash.",
+  "description_zh": "伤害x1.15。+7HP，+7能量，+7盾牌反伤。",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 1250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "ff_mercury",
+          "count": 24
+        },
+        {
+          "item": "mutagene1",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

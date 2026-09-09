@@ -1,0 +1,38 @@
+{
+  "entity_id": "rustyrailplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rusty Rail Platform",
+  "name_zh": "生锈轨道平台",
+  "description_en": "A platform that follows a set path when placed on a rail.",
+  "description_zh": "一个放置在轨道上的，有固定路径的平台。",
+  "rarity": "rare",
+  "category": "railPlatform",
+  "price": 150,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

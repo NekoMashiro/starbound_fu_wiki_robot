@@ -1,0 +1,40 @@
+{
+  "entity_id": "beanstalk",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Beanstalk",
+  "name_zh": "豆茎",
+  "description_en": "A beanstalk, it grows up to the sky. ",
+  "description_zh": "一条豆茎，这玩意直通天际。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 200,
+  "tags": [
+    "jungle"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessChestTreasure",
+          "probability": 0.046,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessTreasure",
+          "probability": 0.025,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Beanstalk.md",
+  "quality_tier": "A"
+}

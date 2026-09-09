@@ -1,0 +1,56 @@
+{
+  "entity_id": "astralnebulabed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Nebula Bed",
+  "name_zh": "星辰迷雾床",
+  "description_en": "A stellar bed, it can produce hypnotic nebulae, making you rest easy. Reduces madness via relaxation.",
+  "description_zh": "一张恒星床，它可以产生催眠星云，让你放松。在这里通过放松减少疯狂。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 625,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralbed",
+          "count": 1
+        },
+        {
+          "item": "funanofibre",
+          "count": 2
+        },
+        {
+          "item": "liquidaether",
+          "count": 10
+        },
+        {
+          "item": "plasmamaterial",
+          "count": 3
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

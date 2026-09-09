@@ -1,0 +1,86 @@
+{
+  "entity_id": "elderpainting8",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shub-Niggurath",
+  "name_zh": "莎布·尼古拉丝",
+  "description_en": "I shudder to think that this might be a portrait. I can only hope it isn't.",
+  "description_zh": "一想到这可能是一幅肖像画，我就不寒而栗。我只能希望它不是。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.4715,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0196,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.4715
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.3493,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.031,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "fusubcontroller",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Triton Sub Controller",
+  "name_zh": "潜艇控制器",
+  "description_en": "Create a submarine from stored nanites.",
+  "description_zh": "这个纳米舱内储存了一艘潜艇。\n尝试穿过不可通过液体时会停止移动",
+  "rarity": "legendary",
+  "category": "vehicleController",
+  "price": 12000,
+  "tags": [
+    "vehiclecontroller"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 70
+        },
+        {
+          "item": "glass",
+          "count": 20
+        },
+        {
+          "item": "tungstenbar",
+          "count": 50
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "vehicleController": {
+        "count": 1,
+        "examples": [
+          "hazardsubcontroller"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Triton Sub Controller.md",
+  "quality_tier": "S"
+}

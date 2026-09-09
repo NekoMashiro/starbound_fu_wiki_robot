@@ -1,0 +1,58 @@
+{
+  "entity_id": "fualienlaser",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alien Laser",
+  "name_zh": "外星激光枪",
+  "description_en": "An alien laser blaster, very colourful.",
+  "description_zh": "一把怪异构造的外星武器，它的外形非常漂亮。",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "energy"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 1,
+  "critBonus": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        },
+        {
+          "item": "alienweirdwood",
+          "count": 2
+        },
+        {
+          "item": "uraniumrod",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

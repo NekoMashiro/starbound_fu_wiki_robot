@@ -1,0 +1,35 @@
+{
+  "entity_id": "swtjc_wp_relay",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Relay",
+  "name_zh": "中继器",
+  "description_en": "A /'Relay'/. It simply serves as an anchor for relaying distant signals.",
+  "description_zh": "一个中继器。它主要作用于中继远距离信号。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Relay.md",
+  "quality_tier": "A"
+}

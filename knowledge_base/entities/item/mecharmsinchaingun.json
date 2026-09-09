@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmsinchaingun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ripper Cannon",
+  "name_zh": "撕裂加农炮",
+  "description_en": "Higher velocity kinetic rifle.",
+  "description_zh": "更高速度的动力学步枪。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 6000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 20
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "mecharmgatling",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "scb-watertrap",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "SCB Water Emitter",
+  "name_zh": "SCB射水器",
+  "description_en": "Much fresh, such wet, so dripping~ \nInput 1 : Water Spray. \nInput 2 : Particles.",
+  "description_zh": "十分新鲜，十分潮湿，十分滴水 ~ \n输入1喷水。\n输入2：粒子。",
+  "rarity": "common",
+  "category": "trap",
+  "price": 0,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

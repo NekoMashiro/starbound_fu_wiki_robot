@@ -1,0 +1,39 @@
+{
+  "entity_id": "tier3switch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Console",
+  "name_zh": "钛控制台",
+  "description_en": "A titanium control console. Press all the buttons!",
+  "description_zh": "一个钛制的控制台。按下所有的按钮！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 50,
+  "tags": [
+    "wired",
+    "tier3"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

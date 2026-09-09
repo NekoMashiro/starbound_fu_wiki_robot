@@ -1,0 +1,69 @@
+{
+  "entity_id": "kimonolegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Kimono Skirt",
+  "name_zh": "和服裙",
+  "description_en": "A sleek traditional kimono.",
+  "description_zh": "一件时尚的传统和服。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0242,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

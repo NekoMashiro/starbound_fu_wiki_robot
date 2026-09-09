@@ -1,0 +1,50 @@
+{
+  "entity_id": "precursortinybuttonkey",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tiny Keyed Button",
+  "name_zh": "微型钥匙屏幕",
+  "description_en": "Some sort of ancient button, it ignores your touch but has a key icon.",
+  "description_zh": "某种古老的按钮，它忽略你的触摸，但其上有一个钥匙图标。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired",
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "wiki_ref": "Tiny Keyed Button.md",
+  "quality_tier": "A"
+}

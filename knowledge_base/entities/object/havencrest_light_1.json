@@ -1,0 +1,49 @@
+{
+  "entity_id": "havencrest_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Oasis Candle",
+  "name_zh": "绿洲蜡烛",
+  "description_en": "A small candle made from arcanium.",
+  "description_zh": "一个由秘钢制成的小蜡烛",
+  "rarity": "Common",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "havencrest",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_tile1",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

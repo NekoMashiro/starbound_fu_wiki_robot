@@ -1,0 +1,37 @@
+{
+  "entity_id": "fullbunnyhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bunny Mask",
+  "name_zh": "兔子面具",
+  "description_en": "Look just like a bunny with this mask.",
+  "description_zh": "带上面具看起来就像一只兔子。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avianmission1RareChest3",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostbunny",
+          "probability": 0.15,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

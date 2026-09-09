@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_lunar_light_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "White Paper Lamp",
+  "name_zh": "白色棉纸灯",
+  "description_en": "A simple traditional paper lamp.",
+  "description_zh": "一个简单的传统纸灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "kuromatsu"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 1
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "arcana_lunar_chair_3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

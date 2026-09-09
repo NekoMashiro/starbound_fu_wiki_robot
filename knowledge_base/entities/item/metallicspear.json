@@ -1,0 +1,129 @@
+{
+  "entity_id": "metallicspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Spear",
+  "name_zh": "废料长矛",
+  "description_en": "Made from all sorts of junk.\r\nHunting weapon",
+  "description_zh": "由各种各样的垃圾制成。\n狩猎武器",
+  "rarity": "Uncommon",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "huntspearstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brittlejunk",
+          "count": 35
+        },
+        {
+          "item": "ff_spareparts",
+          "count": 2
+        },
+        {
+          "item": "rustymetal",
+          "count": 35
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.055,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0277,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0155,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0068,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0042,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0042,
+        0.0277
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0207,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

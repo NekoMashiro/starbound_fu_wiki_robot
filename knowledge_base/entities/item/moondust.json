@@ -1,0 +1,45 @@
+{
+  "entity_id": "moondust",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Moondust",
+  "name_zh": "月尘",
+  "description_en": "Moondust, the thing dreams are made of.\nExtractable, Siftable.",
+  "description_zh": "月尘，织梦之尘。\n可萃取，可筛分。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "marbleblock",
+          "marblepillarblock"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "erchiusghostback"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "spaceTrash",
+          "probability": 0.0769,
+          "count": 25
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

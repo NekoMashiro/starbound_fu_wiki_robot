@@ -1,0 +1,50 @@
+{
+  "entity_id": "quantumextractor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Extractor",
+  "name_zh": "量子萃取器",
+  "description_en": "The ultimate in block extraction technology. Requires 60J per extraction. Can be placed on floors -or- ceilings.",
+  "description_zh": "萃取工艺的终极设备。\n每次萃取需要60J能量。\n可以放置在地板或天花板上。",
+  "rarity": "legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 800,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "radiation"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 10
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 4
+        },
+        {
+          "item": "liquidmetallichydrogen",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Quantum Extractor.md",
+  "quality_tier": "A"
+}

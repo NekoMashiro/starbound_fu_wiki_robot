@@ -1,0 +1,52 @@
+{
+  "entity_id": "bothealingstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bot Healing Station",
+  "name_zh": "机器人修复站",
+  "description_en": "This bot repair station is used to repair compressed robots.",
+  "description_zh": "这个机器人修复站可以用来修复被损坏的机器人。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "laserdiode",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "bothealingstationauto"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Bot Healing Station.md",
+  "quality_tier": "S"
+}

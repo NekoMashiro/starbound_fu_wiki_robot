@@ -1,0 +1,57 @@
+{
+  "entity_id": "workshop_light_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Panel Light",
+  "name_zh": "工坊面板灯",
+  "description_en": "An orange lighting device.",
+  "description_zh": "一个橙色的照明装置。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "titancorp",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

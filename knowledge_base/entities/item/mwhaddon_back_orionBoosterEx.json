@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_back_orionBoosterEx",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Reinforced OC Booster",
+  "name_zh": "强化俄里翁推进器",
+  "description_en": "A reinforced OC Booster. Grants max health, energy, jump and run boost, also works as a Tripolar EPP.",
+  "description_zh": "强化过的俄里翁推进器。提供最大生命、能量、奔跑和跳跃加成，也能作为三极EPP的平替。",
+  "rarity": "Essential",
+  "category": "enviroProtectionPack",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_back_orionBooster",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 2
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 3
+        },
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_avostone",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

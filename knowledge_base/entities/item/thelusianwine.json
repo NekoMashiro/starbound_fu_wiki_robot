@@ -1,0 +1,40 @@
+{
+  "entity_id": "thelusianwine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Fire Wine",
+  "name_zh": "蚁族烈焰葡萄酒",
+  "description_en": "One of the strongest known alcohols.\n+10% Physical & Knockback Res. & +20% Ice Res, Frost Immunity, 35% Slow, Hammered (30s)",
+  "description_zh": "已知最强的酒精之一。\n+10%物理和+20%寒气抗性，赋予冰冻免疫，35%减速，醉酒(持续30s)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbondioxide",
+          "count": 3
+        },
+        {
+          "item": "liquidcrystal",
+          "count": 2
+        },
+        {
+          "item": "liquidblood",
+          "count": 2
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

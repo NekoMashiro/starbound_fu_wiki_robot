@@ -1,0 +1,57 @@
+{
+  "entity_id": "reefcola",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Reef-Cola",
+  "name_zh": "礁荚可乐",
+  "description_en": "Taste the ocean, with Reef-Cola.",
+  "description_zh": "品尝海洋一样的礁荚可乐！",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reefcolaobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_cafe.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "reefcolaobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

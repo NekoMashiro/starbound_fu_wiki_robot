@@ -1,0 +1,43 @@
+{
+  "entity_id": "shadowswitchred",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Red Switch",
+  "name_zh": "红色阴影开关",
+  "description_en": "A switch for activating... Something.",
+  "description_zh": "一个用于激活什么东西的开关。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "shadow",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

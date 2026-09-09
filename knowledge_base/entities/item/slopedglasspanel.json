@@ -1,0 +1,109 @@
+{
+  "entity_id": "slopedglasspanel",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sloped Glass Panel",
+  "name_zh": "倾斜玻璃板",
+  "description_en": "I can see my reflection.",
+  "description_zh": "我能看到自己的倒影。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 13,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "slopedMaterial",
+          "probability": 0.2,
+          "count": 50
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0089,
+          "count": 50
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0025,
+          "count": 50
+        },
+        {
+          "pool": "capsulespace",
+          "probability": 0.0013,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.2
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0036,
+          "count": 50
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.0025,
+          "count": 50
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.0025,
+          "count": 50
+        },
+        {
+          "pool": "penguinshipChest",
+          "probability": 0.0025,
+          "count": 50
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0015,
+          "count": 50.0
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0036
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0029,
+          "count": 50
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0006,
+          "count": 50
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

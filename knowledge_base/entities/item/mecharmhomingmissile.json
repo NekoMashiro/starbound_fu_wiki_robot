@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmhomingmissile",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Homing Missile Mech Arm",
+  "name_zh": "自动导弹机甲臂",
+  "description_en": "A military mech arm that fires a homing missile with onboard guidance systems.",
+  "description_zh": "一种军事机甲臂，它发射一枚带有制导系统的自动导弹。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "irondagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Dagger",
+  "name_zh": "铁制匕首",
+  "description_en": "A crudely-made iron dagger.",
+  "description_zh": "一把粗糙的铁制匕首。",
+  "rarity": "Common",
+  "category": "dagger",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 9.0,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "climbingrope",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

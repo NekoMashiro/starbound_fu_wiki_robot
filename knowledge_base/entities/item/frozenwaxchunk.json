@@ -1,0 +1,41 @@
+{
+  "entity_id": "frozenwaxchunk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frozen Beeswax",
+  "name_zh": "冷冻蜂蜡",
+  "description_en": "A frozen chunk of beeswax.",
+  "description_zh": "一块被冰封的蜂蜡。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 3,
+        "examples": [
+          "bluecandle",
+          "bluecandledouble",
+          "bluecandletriple"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "frozenwaxblock"
+        ]
+      },
+      "platform": {
+        "count": 1,
+        "examples": [
+          "frozenwaxplatform"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "A"
+}

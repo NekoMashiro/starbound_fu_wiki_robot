@@ -1,0 +1,35 @@
+{
+  "entity_id": "flagpeglaci",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Peglaci Flag",
+  "name_zh": "羊蹄族旗帜",
+  "description_en": "The flag of the Peglaci. Use [E] to bookmark a teleportation location.",
+  "description_zh": "羊蹄族的旗帜。使用[E]将远程传送位置设置为书签。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "peglaci"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

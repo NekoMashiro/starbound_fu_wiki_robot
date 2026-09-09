@@ -1,0 +1,63 @@
+{
+  "entity_id": "gravitonpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Graviton Pistol",
+  "name_zh": "引力手枪",
+  "description_en": "Micro-gravity turned into a weapon.\r\nShort-ranged\r\nHuge knockback",
+  "description_zh": "将重力化为武器。\n巨大的击退\n短射程",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon",
+    "gravity"
+  ],
+  "elementalType": "cosmic",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.5,
+  "critChance": 1,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

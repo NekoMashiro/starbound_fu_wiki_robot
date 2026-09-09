@@ -1,0 +1,56 @@
+{
+  "entity_id": "woollyback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Prehistoric Fur Tail",
+  "name_zh": "史前毛绒尾巴",
+  "description_en": "This woolly tail won't help with balance, but it will make you look a bit like a woolly mammoth!",
+  "description_zh": "这条毛茸茸的尾巴不会对保持平衡起什么帮助，但是会让你看起来有点儿像只长毛象！",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarChestTreasure",
+          "probability": 0.1213,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarTreasure",
+          "probability": 0.0788,
+          "count": 1
+        },
+        {
+          "pool": "tarTreasure",
+          "probability": 0.0659,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0659,
+        0.0788
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostweasel",
+          "probability": 0.05,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

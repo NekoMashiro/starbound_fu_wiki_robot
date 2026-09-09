@@ -1,0 +1,55 @@
+{
+  "entity_id": "swtjc_ewg_raremultigrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Multi-Grenade Launcher",
+  "name_zh": "精良的榴弹发射器",
+  "description_en": "For when you need to quickly lob multiple grenades the extra distance.",
+  "description_zh": "当你需要远距离使某种东西爆炸时的最佳选择。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_multiGrenadeLauncher",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    5.5,
+    6.6
+  ],
+  "critChance": 2,
+  "critBonus": 9,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

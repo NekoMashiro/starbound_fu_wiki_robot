@@ -1,0 +1,66 @@
+{
+  "entity_id": "sewerfrieswithbacon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sewer Fries with Bacon",
+  "name_zh": "培根腐臭薯条",
+  "description_en": "Fries with a fermented gravy, adorned with bacon. What a crappy meal. -5% Health  Madness Gain 2 Type: Cooked Meat + Vegetables",
+  "description_zh": "配发酵肉汁和培根的薯条。多么糟糕的一餐-5 %运行状况癫狂2 类型：熟肉+素食",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "price": 45,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rawbacon",
+          "count": 1
+        },
+        {
+          "item": "sewage",
+          "count": 1
+        },
+        {
+          "item": "potato",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

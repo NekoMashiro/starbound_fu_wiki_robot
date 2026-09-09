@@ -1,0 +1,44 @@
+{
+  "entity_id": "irondoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Sharp Door",
+  "name_zh": "刀锋之门",
+  "description_en": "A door of crossed blades. It looks like they can be withdrawn.",
+  "description_zh": "由交叉的刀锋组成的门。看上去它们可以被取下来。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 105,
+  "tags": [
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

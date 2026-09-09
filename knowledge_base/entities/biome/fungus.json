@@ -1,0 +1,115 @@
+{
+  "entity_id": "fungus",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fungal",
+  "name_zh": "真菌",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Fungal",
+  "friendly_name_zh": "真菌",
+  "ores": [
+    {
+      "ore": "magnesium",
+      "weight": 0.75
+    },
+    {
+      "ore": "algaeore",
+      "weight": 0.7
+    },
+    {
+      "ore": "iron",
+      "weight": 0.62
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.55
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.55
+    },
+    {
+      "ore": "violium",
+      "weight": 0.55
+    },
+    {
+      "ore": "corruption",
+      "weight": 0.5
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.45
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.45
+    },
+    {
+      "ore": "lead",
+      "weight": 0.4
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.4
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.35
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.2
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "anglure4",
+    "bandraflora",
+    "bee_artisan",
+    "bee_assassin",
+    "bee_redbanded",
+    "bee_tunguskudae",
+    "breakercritter",
+    "breakerfemalecritter",
+    "bulbop2",
+    "fawnfly",
+    "fireflyspawner",
+    "fuallergen3",
+    "furaccooncritter",
+    "fushroomdude",
+    "gleapalpha",
+    "glump",
+    "leafscabcritter",
+    "pandorasboxhummingbug",
+    "pandorasboxmushtop",
+    "pandorasboxshroombop",
+    "slugcritter",
+    "smallshroom",
+    "snailcritter",
+    "snakecritter",
+    "snaunt",
+    "snaunt2",
+    "sporelingcritter",
+    "sporgus",
+    "sporgus2",
+    "sporgus3",
+    "sporgus4"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:fungal",
+        "/weather.config:fungalrainy",
+        "/weather.config:fungalwindy",
+        "/weather.config:fungaldeadly"
+      ]
+    ]
+  ],
+  "wiki_ref": "Fungal.md",
+  "quality_tier": "C"
+}

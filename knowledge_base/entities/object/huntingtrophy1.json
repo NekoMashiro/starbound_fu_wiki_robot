@@ -1,0 +1,41 @@
+{
+  "entity_id": "huntingtrophy1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Round Mounted Skull",
+  "name_zh": "裱着头骨的圆盘",
+  "description_en": "A head mounted on a round plaque. Its eyes follow you...",
+  "description_zh": "裱着头骨的圆形饰板。它的眼睛在盯着你…",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "floran",
+    "floranhuntinggrounds",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

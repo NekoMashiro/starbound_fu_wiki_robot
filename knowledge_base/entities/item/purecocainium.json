@@ -1,0 +1,198 @@
+{
+  "entity_id": "purecocainium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pure Narcotium",
+  "name_zh": "",
+  "description_en": "You probably shouldn't be seen carrying this around.\n+30 EP, Extremely Caffeinated, -30 Defense, Insanity, Poisoned (220s) Madness Gain 3",
+  "description_zh": "你可能不应该被看到随身携带这个。\n+30EP极度含咖啡因-30 ；防御疯狂中毒（220s）癫狂3.",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1200
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 29,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0091,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0091
+      ]
+    },
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffbanditTreasure",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0008
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "fuboneaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Axe",
+  "name_zh": "骸骨之斧",
+  "description_en": "Great for those lost in the wilds.\r\nFloran",
+  "description_zh": "迷失荒野之人的最佳拍档。\n叶族",
+  "rarity": "common",
+  "category": "axe",
+  "price": 64,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 8
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

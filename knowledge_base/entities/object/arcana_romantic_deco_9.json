@@ -1,0 +1,52 @@
+{
+  "entity_id": "arcana_romantic_deco_9",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Mansion Standing Mirror",
+  "name_zh": "公馆立地镜子",
+  "description_en": "A large standing mirror.",
+  "description_zh": "一面巨大的立地镜子。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "romantic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Studio & Romantic Cft. Table",
+      "station_zh": "工作室&浪漫制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_studio.json",
+          "name_zh": ""
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

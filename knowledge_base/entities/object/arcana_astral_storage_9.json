@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_astral_storage_9",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Beverage Crate",
+  "name_zh": "饮料箱",
+  "description_en": "A crate for storing beverages.",
+  "description_zh": "用于存放饮料的板条箱。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "astral",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

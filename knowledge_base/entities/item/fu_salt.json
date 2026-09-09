@@ -1,0 +1,84 @@
+{
+  "entity_id": "fu_salt",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Salt",
+  "name_zh": "盐",
+  "description_en": "Common table salt NaCl is extremely useful in everything from culinary arts to chemical engineering.",
+  "description_zh": "普通食盐NaCl在从烹饪艺术到化学工程的所有领域都非常有用。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 6,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 7,
+        "examples": [
+          "fu_driedradleaf",
+          "futeltikparasite",
+          "honeyboon",
+          "powderednarcotics",
+          "serumstim"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "ff_fertilizer",
+          "mutagene1",
+          "mutagene4",
+          "pesticide",
+          "polymer"
+        ]
+      },
+      "fuel": {
+        "count": 3,
+        "examples": [
+          "biofuelcannister",
+          "biofuelcannisteradv",
+          "biofuelcannistermax"
+        ]
+      },
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "bowlofbrains",
+          "fuchurros",
+          "fulobsterbisque"
+        ]
+      },
+      "seed": {
+        "count": 3,
+        "examples": [
+          "coralcreepseed",
+          "gemglowseed",
+          "reefpodseed"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "chickenjuice",
+          "pukacolaquantum"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "fusaltwater"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "kelpsteelhatchet"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "quality_tier": "A"
+}

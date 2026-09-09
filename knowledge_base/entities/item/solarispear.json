@@ -1,0 +1,56 @@
+{
+  "entity_id": "solarispear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Spear",
+  "name_zh": "月晶长矛",
+  "description_en": "Crystalline lunari to pierce foes throats.\r\nHunting weapon",
+  "description_zh": "用月晶刺穿敌人的喉咙。\n狩猎武器",
+  "rarity": "common",
+  "category": "lance",
+  "price": 211,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9.15,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstablunari",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

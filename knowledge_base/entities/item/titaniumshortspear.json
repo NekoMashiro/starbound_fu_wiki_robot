@@ -1,0 +1,59 @@
+{
+  "entity_id": "titaniumshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Shortspear",
+  "name_zh": "钛制短矛",
+  "description_en": "Doesn't feel so short to enemies.\r\nHunting weapon",
+  "description_zh": "不要觉得它很短。\n狩猎武器",
+  "rarity": "Uncommon",
+  "category": "shortspear",
+  "price": 530,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

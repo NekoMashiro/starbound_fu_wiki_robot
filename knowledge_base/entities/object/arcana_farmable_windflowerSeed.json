@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_windflowerSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Windflower Seed",
+  "name_zh": "拂风花种子",
+  "description_en": "A flower found grown in the Windswept highlands.",
+  "description_zh": "一种在拂风高地中生长的花。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_windflower",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

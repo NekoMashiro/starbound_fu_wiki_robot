@@ -1,0 +1,37 @@
+{
+  "entity_id": "woodenboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wooden Boomerang",
+  "name_zh": "木制回旋镖",
+  "description_en": "An aboriginal design made in the bush.\r\nHunting weapon",
+  "description_zh": "居住于灌木丛中的原住民的设计。\n狩猎武器",
+  "rarity": "common",
+  "category": "boomerang",
+  "price": 10,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon",
+    "wood"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

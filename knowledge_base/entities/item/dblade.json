@@ -1,0 +1,181 @@
+{
+  "entity_id": "dblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tek Blade",
+  "name_zh": "泰克宽剑",
+  "description_en": "A sturdy, techy one-handed sword.",
+  "description_zh": "一把结实的、做工精湛的单手剑。",
+  "rarity": "Rare",
+  "category": "shortsword",
+  "price": 720,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon"
+  ],
+  "twoHanded": false,
+  "baseDps": [
+    6.5,
+    7.5
+  ],
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "shortswordcombo",
+  "drop_sources": {
+    "total_pools": 40,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0446,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffjunkerTreasure",
+          "probability": 0.0366,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0026,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0026,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0017,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0366
+      ]
+    },
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0229,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0229
+      ]
+    },
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0042,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0041,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0011,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0008,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0042
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

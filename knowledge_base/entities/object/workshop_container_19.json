@@ -1,0 +1,53 @@
+{
+  "entity_id": "workshop_container_19",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Heavy Crate",
+  "name_zh": "泰坦重工重型板条箱",
+  "description_en": "A heavy duty crate for storing minerals and equipment for mining operations.",
+  "description_zh": "重型武器箱，用于存放挖掘作业的矿物和装备。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "tags": [
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_plastic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

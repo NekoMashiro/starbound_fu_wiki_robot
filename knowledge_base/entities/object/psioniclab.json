@@ -1,0 +1,65 @@
+{
+  "entity_id": "psioniclab",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionic Amplifier",
+  "name_zh": "灵能放大器",
+  "description_en": "Generates nascent psionic energy with a little help from some brains. Requires 100J per extraction.",
+  "description_zh": "在一些大脑的帮助下生产新的灵能。\n每次萃取需要100J能量。",
+  "rarity": "rare",
+  "category": "^#d1d1d1;Extractor^reset;",
+  "price": 450,
+  "tags": [
+    "elder",
+    "science",
+    "madness",
+    "scienceoutpost"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 5
+        },
+        {
+          "item": "aichip",
+          "count": 5
+        },
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 260
+        },
+        {
+          "item": "moonstonebar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "c_psionicharvester"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Psionic Amplifier.md",
+  "quality_tier": "S"
+}

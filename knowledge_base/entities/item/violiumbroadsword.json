@@ -1,0 +1,60 @@
+{
+  "entity_id": "violiumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Violium Broadsword",
+  "name_zh": "维奥巨剑",
+  "description_en": "This hardened violium hilt houses the projector for a wicked energy blade.",
+  "description_zh": "这把由维奥合金制成的剑柄上安装上了有邪恶能量的光刃发生器。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "violium"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 6
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

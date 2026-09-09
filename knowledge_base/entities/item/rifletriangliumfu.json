@@ -1,0 +1,59 @@
+{
+  "entity_id": "rifletriangliumfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trianglium Rifle",
+  "name_zh": "三棱步枪",
+  "description_en": "Reliable and accurate, and cheap to produce.",
+  "description_zh": "精准可靠，生产成本低廉。",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "trianglium"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 2,
+  "critBonus": 8,
+  "altAbilityType": "swtjc_ewg_phaseburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 7
+        },
+        {
+          "item": "liquidcrystal",
+          "count": 12
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

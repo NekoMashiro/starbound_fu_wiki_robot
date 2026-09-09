@@ -1,0 +1,42 @@
+{
+  "entity_id": "mwhaddon_throwable_azureCrate",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Alchemical Creation Box",
+  "name_zh": "炼金造物匣",
+  "description_en": "Throw it to summon an Azure Golem fights for you.",
+  "description_zh": "丢出它召唤一个蔚蓝魔像为你而战。",
+  "rarity": "legendary",
+  "category": "throwableItem",
+  "price": 850,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_azuriumOre",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_lapisShard",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

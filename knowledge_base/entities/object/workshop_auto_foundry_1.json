@@ -1,0 +1,56 @@
+{
+  "entity_id": "workshop_auto_foundry_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Foundry",
+  "name_zh": "熔铸厂",
+  "description_en": "An automatic foundry for smelting minerals into metal bars. Can be wired to other machines.",
+  "description_zh": "将矿物熔炼为矿物锭的自动机器。可以与其它机器相连接。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 1600,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "at_ext_foundry2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

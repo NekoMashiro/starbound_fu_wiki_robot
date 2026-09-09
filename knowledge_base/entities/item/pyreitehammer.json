@@ -1,0 +1,56 @@
+{
+  "entity_id": "pyreitehammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Hammer",
+  "name_zh": "永燃锤",
+  "description_en": "Probably not intended for carpentry.\r\nInflicts Napalm",
+  "description_zh": "锻造这个锤子的人应该不是为了做木工活。\n附加凝固效果",
+  "rarity": "legendary",
+  "category": "hammer",
+  "price": 2000,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12.5,
+  "critChance": 3,
+  "critBonus": 8,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "fugroundslamfire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

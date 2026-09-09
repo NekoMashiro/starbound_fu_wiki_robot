@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_fusang_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fusang Leggings",
+  "name_zh": "扶桑腿甲",
+  "description_en": "A Solar-forged armor that can withstand intense heat. +10% Solar and Fire res.",
+  "description_zh": "太阳之力锻造的盔甲，可以抵御强烈的热量。+10% 日耀＆烈焰抗性。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 16
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 20
+        },
+        {
+          "item": "solar_crafting_solarCore",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

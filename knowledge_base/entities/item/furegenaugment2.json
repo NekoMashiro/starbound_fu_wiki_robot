@@ -1,0 +1,40 @@
+{
+  "entity_id": "furegenaugment2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Regeneration II",
+  "name_zh": "EPP模块（再生 II）",
+  "description_en": "An EPP module that slowly regenerates living cells, providing 0.74% HP/s.",
+  "description_zh": "一个能够缓慢地再生体内细胞的EPP模块，提供0.74% HP/s的再生效果。",
+  "rarity": "uncommon",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 32
+        },
+        {
+          "item": "miraclegrass",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

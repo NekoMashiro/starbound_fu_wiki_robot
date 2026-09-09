@@ -1,0 +1,71 @@
+{
+  "entity_id": "precursormatrix",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Matrix",
+  "name_zh": "先驱矩阵",
+  "description_en": "A massive power matrix of ancient design.",
+  "description_zh": "一个巨大的能源矩阵，其设计风格非常古老。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 500,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0192,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0192,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0107,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0107,
+        0.0192
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursormatrix"
+  ],
+  "quality_tier": "S"
+}

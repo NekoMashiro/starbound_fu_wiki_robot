@@ -1,0 +1,53 @@
+{
+  "entity_id": "ar_sp2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "BP-13",
+  "name_zh": "",
+  "description_en": "A modified seeker pistol, AKA BP-13. Used for self-defense.",
+  "description_zh": "一把改装过的搜寻者手枪，也叫BP-13。用于单兵自卫。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 5,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "ar_sp2_mk2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

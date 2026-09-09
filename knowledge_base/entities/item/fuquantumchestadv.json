@@ -1,0 +1,55 @@
+{
+  "entity_id": "fuquantumchestadv",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Morphite Chestpiece MK2",
+  "name_zh": "异极胸甲 MK2",
+  "description_en": "Set Bonuses:\r\n Immune: Extreme Heat/Cold/Radiation, Acid",
+  "description_zh": "套装奖励:\n 免疫: 极端炎热/寒冷/辐射, 酸蚀",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 950,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuquantumchest",
+          "count": 1
+        },
+        {
+          "item": "mutagene3",
+          "count": 1
+        },
+        {
+          "item": "funanofibre",
+          "count": 4
+        },
+        {
+          "item": "liquidmetallichydrogen",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "aetheriumcrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Crossbow",
+  "name_zh": "阳清弩",
+  "description_en": "Military grade crossbow not designed for hunting.",
+  "description_zh": "军用弩，绝非狩猎用。",
+  "rarity": "Legendary",
+  "category": "crossbow",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 4,
+  "critBonus": 8,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 10
+        },
+        {
+          "item": "graphene",
+          "count": 6
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

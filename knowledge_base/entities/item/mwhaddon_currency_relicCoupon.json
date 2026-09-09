@@ -1,0 +1,28 @@
+{
+  "entity_id": "mwhaddon_currency_relicCoupon",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Relic Coupon",
+  "name_zh": "遗物兑换券",
+  "description_en": "Coupon issued by Japera to those trading relics.\n[Can be used for trading unidentified relics.]",
+  "description_zh": "贾匹菈发放给那些交易遗物之人的兑换券。\n[可用于兑换未鉴定的遗物]",
+  "rarity": "Legendary",
+  "category": "currency",
+  "price": 0,
+  "tags": [
+    "coupon"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_lootbox_unidentifiedRelic_1",
+          "mwhaddon_lootbox_unidentifiedRelic_2"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "A"
+}

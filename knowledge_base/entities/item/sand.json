@@ -1,0 +1,60 @@
+{
+  "entity_id": "sand",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Loose Silt",
+  "name_zh": "松散的泥沙",
+  "description_en": "It's Silt. It's very silty.\nExtractable, Siftable, Smeltable.",
+  "description_zh": "这是泥沙，它粉粉的。\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "elduubricks",
+          "fadedblocks",
+          "sandpillar1",
+          "sandpillar2"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fusilverhourglass"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "limestone",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "limestone",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "limestone",
+      "bonus": [
+        "fu_carbon"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "slimenpclamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Lamp",
+  "name_zh": "史莱姆灯",
+  "description_en": "A small slimy lamp.",
+  "description_zh": "一盏粘糊糊的小灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "slimenpc",
+    "slimenpchuman",
+    "slimeperson",
+    "slimevillage",
+    "light",
+    "slime"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 1
+        },
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "slimegoo",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

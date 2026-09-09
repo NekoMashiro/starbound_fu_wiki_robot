@@ -1,0 +1,59 @@
+{
+  "entity_id": "arcana_mwhaddon_healItem_3",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Marineblue Stim",
+  "name_zh": "海蓝兴奋剂",
+  "description_en": "A healing stim with miraculous effect.\nRestores a total of 1000 health over 20 seconds. This won't block other healing effects.\nHealing effect will immediately expire if you get hit!",
+  "description_zh": "具有神奇效果的治疗用兴奋剂。\n在20秒钟内提供持续生命恢复，累计可恢复1000点生命值，此效果生效期间你依然可以使用其它治疗道具。\n受伤时治疗效果将立刻结束！",
+  "rarity": "Legendary",
+  "category": "medicine",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_evernightCrystal",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 4
+        },
+        {
+          "item": "syringe",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_healItem3",
+          "probability": 1.0,
+          "count": 1.4
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

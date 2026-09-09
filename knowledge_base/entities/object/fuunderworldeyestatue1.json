@@ -1,0 +1,51 @@
+{
+  "entity_id": "fuunderworldeyestatue1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flesh Monument",
+  "name_zh": "血肉纪念碑",
+  "description_en": "Some sort of disturbing statue, carved in bone and flesh by who-knows-what.",
+  "description_zh": "某种令人不安的雕像，到底是谁用骨头和血肉雕刻而成的？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "atropus",
+    "creepy",
+    "flesh",
+    "decoration"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 2
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

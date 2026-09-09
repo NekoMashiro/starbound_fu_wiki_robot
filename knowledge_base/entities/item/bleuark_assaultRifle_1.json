@@ -1,0 +1,69 @@
+{
+  "entity_id": "bleuark_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Golden Triumph",
+  "name_zh": "金之凯旋",
+  "description_en": "A golden rifle made from Atla gold.",
+  "description_zh": "一把由海金铸构而成的金色步枪。",
+  "rarity": "Rare",
+  "category": "assaultRifle",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 63.0,
+  "altAbilityType": "arcana_ranged_ability_homingRocket",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 16
+        },
+        {
+          "item": "arcana_liquid_arcaneWater",
+          "count": 32
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_seabreak"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "金之凯旋^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

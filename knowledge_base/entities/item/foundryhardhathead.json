@@ -1,0 +1,40 @@
+{
+  "entity_id": "foundryhardhathead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Hard Hat",
+  "name_zh": "铸造安全帽",
+  "description_en": "A bright safety helmet with massive goggles attached.",
+  "description_zh": "加装了大号护目镜的闪亮的安全头盔。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [
+    "tier2armour"
+  ],
+  "level": 2,
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

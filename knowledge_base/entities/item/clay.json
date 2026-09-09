@@ -1,0 +1,125 @@
+{
+  "entity_id": "clay",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Clay",
+  "name_zh": "黏土",
+  "description_en": "Heavy, sticky clay.\nExtractable, Siftable, Smeltable.",
+  "description_zh": "沉重而又黏糊糊的粘土。\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_digger_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "dirtmaterial",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "pot": {
+        "count": 6,
+        "examples": [
+          "imperialvaselarge1",
+          "imperialvaselarge2",
+          "imperialvasemedium1",
+          "imperialvasemedium2",
+          "imperialvasesmall1"
+        ]
+      },
+      "toy": {
+        "count": 6,
+        "examples": [
+          "paintgunblue",
+          "paintgungreen",
+          "paintgunorange",
+          "paintgunpurple",
+          "paintgunred"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "fu_alienwood_flowerpot",
+          "imperialcup"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "concretematerial"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "firedclay"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "glowbushlamp"
+        ]
+      }
+    },
+    "total": 17
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "firedclay",
+      "bonus": [
+        "firedclay"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "firedclay",
+      "bonus": [
+        "firedclay"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "firedclay",
+      "bonus": [
+        "firedclay"
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "brickmaterial",
+    "rooftiles"
+  ],
+  "quality_tier": "S"
+}

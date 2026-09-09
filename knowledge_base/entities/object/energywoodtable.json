@@ -1,0 +1,41 @@
+{
+  "entity_id": "energywoodtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energy Wood Table",
+  "name_zh": "能量木桌",
+  "description_en": "A table made from energy wood.",
+  "description_zh": "由能量木制成的桌子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 110,
+  "tags": [
+    "energywood",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "energywood",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

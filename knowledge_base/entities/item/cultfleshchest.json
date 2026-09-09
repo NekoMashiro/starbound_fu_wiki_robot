@@ -1,0 +1,68 @@
+{
+  "entity_id": "cultfleshchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flesh Chestplate",
+  "name_zh": "血肉胸甲",
+  "description_en": "Set Bonuses:\r\n Scythe/Bio-Weapon: +3% Crit Chance\r\n Immune: Insanity",
+  "description_zh": "套装奖励：\n 镰刀/生物武器: +3% 暴击几率\n 免疫: 精神错乱",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 6
+        },
+        {
+          "item": "corruptionseed",
+          "count": 4
+        },
+        {
+          "item": "rottingfleshmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

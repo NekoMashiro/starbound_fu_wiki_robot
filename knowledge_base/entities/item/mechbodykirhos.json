@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechbodykirhos",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Starlancer Body",
+  "name_zh": "星际枪骑兵躯体",
+  "description_en": "Immune: Pressure, Extreme Heat/Cold, Mild Radiation/Poison, Proto\n+25% Fuel Boost",
+  "description_zh": "免疫：压强，极端寒冷/炎热，轻度辐射/毒素，原毒\n+25%燃料",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 2200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodykirhosproto",
+          "count": 1
+        },
+        {
+          "item": "refinedferozium",
+          "count": 20
+        },
+        {
+          "item": "nuclearcore",
+          "count": 2
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

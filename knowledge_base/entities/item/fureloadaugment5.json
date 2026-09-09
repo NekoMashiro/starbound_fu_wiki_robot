@@ -1,0 +1,36 @@
+{
+  "entity_id": "fureloadaugment5",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reloader V",
+  "name_zh": "EPP模块（重新装弹V）",
+  "description_en": "Decreases weapon reload time by -0.5s.",
+  "description_zh": "减少武器0.5s的重新装弹时间。",
+  "rarity": "essential",
+  "category": "eppAugment",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "fureloadaugment4",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

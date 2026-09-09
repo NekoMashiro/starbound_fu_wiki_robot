@@ -1,0 +1,54 @@
+{
+  "entity_id": "energyblade2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Antimatter Blade",
+  "name_zh": "反物质宽剑",
+  "description_en": "Highly destructive. Don't poke your eye out.\r\nInflicts Electrified\r\nEpic Swooshy Alt",
+  "description_zh": "这玩意儿极具破坏性。小心别把你的眼睛戳出来。\n 感电\n史诗般的嗖嗖Alt ",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1650,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12.3,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fusuperflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "energyblade",
+          "count": 1
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 4
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "nuclearcore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

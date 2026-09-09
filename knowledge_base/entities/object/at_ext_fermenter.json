@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_fermenter",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Fermentation Tank",
+  "name_zh": "[泰坦拓展]发酵罐",
+  "description_en": "A fully automated, all-in-one fermentation system that lets you brew beer with ease! Requires 20kW of Power.",
+  "description_zh": "全自动的一体式发酵设备，能让你轻松酿造出啤酒！需要 20 kW 电力。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

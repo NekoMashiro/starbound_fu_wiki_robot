@@ -1,0 +1,45 @@
+{
+  "entity_id": "designlab",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Greenhouse",
+  "name_zh": "温室",
+  "description_en": "Create plants from raw materials.",
+  "description_zh": "使用材料培育出植物的种子。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 8
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 20
+        },
+        {
+          "item": "liquidwater",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

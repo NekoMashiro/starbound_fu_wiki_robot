@@ -1,0 +1,58 @@
+{
+  "entity_id": "nitrogenpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nitrogen SMG",
+  "name_zh": "氮气手枪",
+  "description_en": "Effective in most situations, though somewhat chilling.\r\nInflicts freezing",
+  "description_zh": "虽然拿上去有些冰冷，却是一个优秀的武器。\n附加冻结效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 3,
+  "critChance": 4,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidnitrogenitem",
+          "count": 12
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

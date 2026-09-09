@@ -1,0 +1,106 @@
+{
+  "entity_id": "skullreaperhelm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mask of Nekron",
+  "name_zh": "黑死帝面具",
+  "description_en": "Evil lurks within.",
+  "description_zh": "里面隐藏着可怕的恶魔。",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 3000,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 1
+        },
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0009
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0004
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

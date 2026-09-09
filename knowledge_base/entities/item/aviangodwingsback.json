@@ -1,0 +1,60 @@
+{
+  "entity_id": "aviangodwingsback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avian God Wings",
+  "name_zh": "翼神翅",
+  "description_en": "It's incredible how lifelike these wings are. The added energy and health is nice, too.",
+  "description_zh": "这些翅膀真是栩栩如生。提供的额外能量和健康也很不错。",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 750,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "valuableAvianTreasure",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "valuableTombTreasure",
+          "probability": 0.0075,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        0.1
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "aviantombChestTreasure",
+          "probability": 0.075,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleChestTreasure",
+          "probability": 0.0556,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0556,
+        0.075
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

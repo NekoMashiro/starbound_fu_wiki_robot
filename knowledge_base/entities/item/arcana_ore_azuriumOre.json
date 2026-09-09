@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_ore_azuriumOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Azurium Ore",
+  "name_zh": "天青矿",
+  "description_en": "An azurium ore, can be used to craft azurium bars.",
+  "description_zh": "天青矿石，可用于冶炼天青锭。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 170,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_throwable_azureCrate",
+          "mwhaddon_throwable_azureVortex"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_azuriumBar"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "biomes": [
+    {
+      "biome": "arcana_azureDesert",
+      "weight": 1.1
+    }
+  ],
+  "wiki_ref": "Azurium Ore.md",
+  "quality_tier": "S"
+}

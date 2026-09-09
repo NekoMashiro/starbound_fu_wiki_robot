@@ -1,0 +1,37 @@
+{
+  "entity_id": "m1helmethead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "M1 Helmet",
+  "name_zh": "M1头盔",
+  "description_en": "G.I. standard issue military helmet.",
+  "description_zh": "特勤队配发的标准军用头盔。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexcampChestTreasure",
+          "probability": 0.0312,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexcampTreasure",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

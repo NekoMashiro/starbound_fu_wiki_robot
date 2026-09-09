@@ -1,0 +1,70 @@
+{
+  "entity_id": "avesmingo",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avesmingo",
+  "name_zh": "百味果",
+  "description_en": "Avesmingo, the plant of a 100 different flavours. Type: Fruit",
+  "description_zh": "百味果。100种不同味道的植物。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "avesmingobasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "avesmingoicecream",
+          "hothothotpot",
+          "volcanicsalsa"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "avesmingobasket"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "avesmingojuice"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avesmingoHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "avesmingojuice",
+    "avesmingoicecream"
+  ],
+  "quality_tier": "S"
+}

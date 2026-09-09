@@ -1,0 +1,38 @@
+{
+  "entity_id": "flowerred",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Red Flower",
+  "name_zh": "红色花朵",
+  "description_en": "A flower with bright red petals. Useful for making dye.",
+  "description_zh": "一朵有亮红色的花瓣的花，用于制造染料。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "flowerredHarvest",
+          "probability": 0.128,
+          "count": 1
+        },
+        {
+          "pool": "floweryellowHarvest",
+          "probability": 0.032,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.032,
+        0.128
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

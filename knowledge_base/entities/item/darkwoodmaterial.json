@@ -1,0 +1,320 @@
+{
+  "entity_id": "darkwoodmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Timber",
+  "name_zh": "木材",
+  "description_en": "Wood that has been prepared for building and crafting.\nExtractable.",
+  "description_zh": "为建筑与打造物品所准备的木材。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_carpenter_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 68,
+        "examples": [
+          "bamboo",
+          "cabinroofing",
+          "crosshatch",
+          "dollhousewood2",
+          "fence"
+        ]
+      },
+      "furniture": {
+        "count": 52,
+        "examples": [
+          "apexcampshopcounter",
+          "apexshopcounter",
+          "bonebed",
+          "feneroxbookcase",
+          "feneroxcabinet"
+        ]
+      },
+      "storage": {
+        "count": 42,
+        "examples": [
+          "beerkeg",
+          "copperbox1",
+          "eggincubator",
+          "feneroxchestlarge",
+          "feneroxchestsmall"
+        ]
+      },
+      "decorative": {
+        "count": 42,
+        "examples": [
+          "c_hobbytable",
+          "cardboardbed",
+          "champagnebucket",
+          "eggstraclock",
+          "farmwell"
+        ]
+      },
+      "crafting": {
+        "count": 34,
+        "examples": [
+          "apexkitchencounter",
+          "arcana_abyssal_crafting_1",
+          "arcana_crafting_main_1",
+          "armory",
+          "beestation"
+        ]
+      },
+      "other": {
+        "count": 11,
+        "examples": [
+          "",
+          "copperpickaxe",
+          "cravenmannequin",
+          "generalgoodsstore",
+          "goldpickaxe"
+        ]
+      },
+      "platform": {
+        "count": 10,
+        "examples": [
+          "fancywoodstairs",
+          "fudarkwoodenplatform",
+          "fudynastwoodenplatform",
+          "fulightwoodenplatform",
+          "furawwoodenplatform"
+        ]
+      },
+      "door": {
+        "count": 9,
+        "examples": [
+          "fuwitchdoor",
+          "geodedoor",
+          "giantflowerdoor",
+          "reeddoor",
+          "shroomdoor"
+        ]
+      }
+    },
+    "total": 342
+  },
+  "drop_sources": {
+    "total_pools": 151,
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.4388,
+          "count": 10.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1297,
+          "count": 10.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1257,
+          "count": 10.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0711,
+          "count": 10.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0702,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.4388
+      ]
+    },
+    "monster_drops": {
+      "count": 58,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.3077,
+          "count": 10
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.2639,
+          "count": 10
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.1797,
+          "count": 10
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0979,
+          "count": 10
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0963,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.3077
+      ]
+    },
+    "other": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.2452,
+          "count": 10
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.2366,
+          "count": 20
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0531,
+          "count": 10
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0436,
+          "count": 10
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0106,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.2452
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0069,
+          "count": 10.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0068,
+          "count": 10
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0059,
+          "count": 10
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0014,
+          "count": 10
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0014,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0069
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0015,
+          "count": 10
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0003,
+          "count": 10
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0002,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0015
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0003,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

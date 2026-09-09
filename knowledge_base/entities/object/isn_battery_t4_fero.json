@@ -1,0 +1,46 @@
+{
+  "entity_id": "isn_battery_t4_fero",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ultra Battery",
+  "name_zh": "究极电池",
+  "description_en": "A huge, powerful battery perfect for massive energy storage. Scan for Info\nStorage Capacity: 18000J",
+  "description_zh": "巨大而强力的电力储存设备，完美的巨量能量储存。\n扫描以查看更多信息\n储存电能：18000J",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 1200,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 8
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 2
+        },
+        {
+          "item": "liquidmetallichydrogen",
+          "count": 10
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "iceslimewhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Slime Whip",
+  "name_zh": "寒气粘液鞭",
+  "description_en": "A whip made of sticky, cold slime.",
+  "description_zh": "冰冷的粘性粘液制成的鞭子。",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "slime",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimewhip",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

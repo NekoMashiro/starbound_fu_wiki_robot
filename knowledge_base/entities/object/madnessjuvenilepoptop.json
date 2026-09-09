@@ -1,0 +1,63 @@
+{
+  "entity_id": "madnessjuvenilepoptop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptop Juvenile",
+  "name_zh": "青春期吐舌娃",
+  "description_en": "An less adorable poptop companion.",
+  "description_zh": "一个不那么可爱的吐舌娃伙伴。",
+  "rarity": "uncommon",
+  "category": "decorative",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 300
+        },
+        {
+          "item": "madnesspoptop",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 4
+        },
+        {
+          "item": "petalred",
+          "count": 20
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 4
+        },
+        {
+          "item": "ff_mercury",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessadultpoptop"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

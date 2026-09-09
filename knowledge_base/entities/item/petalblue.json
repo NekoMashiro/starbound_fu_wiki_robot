@@ -1,0 +1,140 @@
+{
+  "entity_id": "petalblue",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Petal",
+  "name_zh": "蓝色的花瓣",
+  "description_en": "A blue petal, could be turned into dye.",
+  "description_zh": "蓝色的花瓣，可以变成染料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 7,
+        "examples": [
+          "avesmingoseed",
+          "bluemelonseed",
+          "corvexseed",
+          "erithianalgaeseed",
+          "floralytplantseed"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "flowerlamp",
+          "toxiclamp1",
+          "toxiclamp2"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "isn_glowgel_b",
+          "isn_glowgel_g",
+          "isn_glowgel_p"
+        ]
+      },
+      "clothingDye": {
+        "count": 2,
+        "examples": [
+          "bluedye",
+          "fu_bluedye"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "bluestim",
+          "greenstim"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "flowerbox"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "floweryblock"
+        ]
+      },
+      "longsword": {
+        "count": 1,
+        "examples": [
+          "fupetalsword"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "flowerblueHarvest",
+          "probability": 2.44,
+          "count": 1.0
+        },
+        {
+          "pool": "flowerspringHarvest",
+          "probability": 2.44,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        2.44,
+        2.44
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerBush",
+          "probability": 0.6667,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "springChestTreasure",
+          "probability": 0.2044,
+          "count": 3.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSpringTreasure",
+          "probability": 0.1329,
+          "count": 3
+        },
+        {
+          "pool": "springTreasure",
+          "probability": 0.1111,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        0.1329
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

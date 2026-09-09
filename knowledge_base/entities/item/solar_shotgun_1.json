@@ -1,0 +1,47 @@
+{
+  "entity_id": "solar_shotgun_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Thermal Shotgun",
+  "name_zh": "极热霰弹枪",
+  "description_en": "Fires a burst of solar projectiles.",
+  "description_zh": "发射一连串的太阳弹。",
+  "rarity": "Legendary",
+  "category": "shotgun",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun"
+  ],
+  "elementalType": "fire",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 11.2,
+  "altAbilityType": "burstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 14
+        },
+        {
+          "item": "solar_crafting_solarCore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

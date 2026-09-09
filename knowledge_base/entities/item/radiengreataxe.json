@@ -1,0 +1,56 @@
+{
+  "entity_id": "radiengreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Greataxe",
+  "name_zh": "艾肯巨斧",
+  "description_en": "Dense, thickly rooted X'ian bulbs and roots.",
+  "description_zh": "致密，厚实的艾肯球茎和根。",
+  "rarity": "common",
+  "category": "greataxe",
+  "price": 4,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 6,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "shockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 20
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        },
+        {
+          "item": "ff_silicon",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

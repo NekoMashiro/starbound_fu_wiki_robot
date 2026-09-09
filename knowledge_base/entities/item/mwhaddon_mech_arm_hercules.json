@@ -1,0 +1,27 @@
+{
+  "entity_id": "mwhaddon_mech_arm_hercules",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Palm of Hercules",
+  "name_zh": "力神巨掌",
+  "description_en": "An Ancient mech arm, somehow can be used on your modular mech.",
+  "description_zh": "一台古代机甲臂，不知道为何能适配你的模块化机甲。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 8460,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_hidden_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

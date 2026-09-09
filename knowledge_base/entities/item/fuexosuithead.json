@@ -1,0 +1,70 @@
+{
+  "entity_id": "fuexosuithead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bio-Flesh Head",
+  "name_zh": "活肉头盔",
+  "description_en": "Set Bonuses:\r\n1/2% Health Regen when under 50/25% Health\r\n 12% Speed, Jump\r\n 5% Energy Regen, reduced recharge time\r\n Bio-Weapon: Damage x1.15\r\nImmune: Pus",
+  "description_zh": "套装奖励：\n1/2% HP恢复当HP低于50/25%\n 12% 速度, 跳跃\n 5% 能量恢复, 降低重充能时间\n 生物武器: 伤害x1.15\n免疫: 脓液",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 5
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 1
+        },
+        {
+          "item": "reanimationfluid",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitheadkhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

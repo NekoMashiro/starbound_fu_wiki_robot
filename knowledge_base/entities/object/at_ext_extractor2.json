@@ -1,0 +1,58 @@
+{
+  "entity_id": "at_ext_extractor2",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Extractor MK2",
+  "name_zh": "[泰坦拓展]资源萃取器MK2",
+  "description_en": "An automatic machine that extracts materials from tiles. Require 10Kw power. Can be wired to other machines.",
+  "description_zh": "一台能从物块中萃取出有用的资源的机器。需要10Kw电能。可以与其它机器连接。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_motor",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 10
+        },
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 8
+        },
+        {
+          "item": "at_ext_extractor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

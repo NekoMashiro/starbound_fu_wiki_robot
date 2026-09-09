@@ -1,0 +1,54 @@
+{
+  "entity_id": "extrachargebeam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Charge Beam",
+  "name_zh": "充能光束",
+  "description_en": "An ancient Avian weapon that fires chargeable blasts of energy.",
+  "description_zh": "一种古老的翼族武器，能发射可蓄力的能量冲击波。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraavianhydrochargebeam",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "extrachargebeam"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_steelblades_deco_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Steelblades Reactor H",
+  "name_zh": "钢刃反应堆 H",
+  "description_en": "A pillar-like reactor.",
+  "description_zh": "柱状刚刃反应堆。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "steelblades",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 2
+        },
+        {
+          "item": "slopedrustypanel",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁工作站",
+      "station_zh": "俄里翁工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

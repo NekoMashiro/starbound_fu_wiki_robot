@@ -1,0 +1,57 @@
+{
+  "entity_id": "aetheriumassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Decimator",
+  "name_zh": "阳清抽取器",
+  "description_en": "Sleek, deadly perfection.\r\nEnergy weapon\r\nCosmic, Fire and Radiation damage",
+  "description_zh": "流畅，致命的完美。\n能量武器\n宇宙，火焰和辐射伤害",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 2160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 5,
+  "altAbilityType": "fusionblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

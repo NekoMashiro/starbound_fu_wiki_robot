@@ -1,0 +1,56 @@
+{
+  "entity_id": "tritaniumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tritanium Spear",
+  "name_zh": "三相长矛",
+  "description_en": "You should shove this in a foe. For science!\r\nInflicts Electrified\r\nHunting weapon",
+  "description_zh": "你应该把这个推给敌人。为了科学！\n感电\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 1990,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "tritanium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.92,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 6
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

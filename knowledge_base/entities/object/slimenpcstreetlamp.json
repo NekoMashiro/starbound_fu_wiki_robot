@@ -1,0 +1,47 @@
+{
+  "entity_id": "slimenpcstreetlamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tall Slime Lamp",
+  "name_zh": "史莱姆高台灯",
+  "description_en": "A tall lamp made of slime.",
+  "description_zh": "史莱姆做的高台灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "slimenpc",
+    "slimenpchuman",
+    "slimeperson",
+    "slimevillage",
+    "light",
+    "slime"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 3
+        },
+        {
+          "item": "greenslime",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "slimegoo",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,204 @@
+{
+  "entity_id": "crunchychickevil",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crunchy Evil Chick",
+  "name_zh": "邪恶小鸡",
+  "description_en": "Possessed by Richard Simmons. Unimaginably evil. And fit.\nInsanity (1m)\nType: Raw Meat",
+  "description_zh": "理查德·西蒙斯所有。难以置信的邪恶，以及美味。\n精神错乱(持续1m)\n类型：生肉食",
+  "rarity": "legendary",
+  "category": "food",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crunchychickdeluxe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Esoteric Research",
+      "station_zh": "深奥的研究",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 133,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0608,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0059,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0046,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0046,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0608
+      ]
+    },
+    "monster_drops": {
+      "count": 46,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0079,
+          "count": 1
+        },
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0031,
+          "count": 1
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0028,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffbanditTreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0079
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0055,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0042,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0011,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0056
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0024,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0024,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0024
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0005
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

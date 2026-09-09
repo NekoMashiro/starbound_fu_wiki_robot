@@ -1,0 +1,67 @@
+{
+  "entity_id": "hypercompressor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hyper Compressor",
+  "name_zh": "究极压缩机",
+  "description_en": "Compress pixels and research for storage instantly, for a small fee.",
+  "description_zh": "即时压缩像素或研究点数并进行存储，代价甚微。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 2400,
+  "tags": [
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pixelcompressor",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        },
+        {
+          "item": "precursorfluid",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "建筑师工作台",
+          "name_zh": "建筑师工作台"
+        },
+        {
+          "name": "缔造者工作台",
+          "name_zh": "缔造者工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "weaponcompressor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "mineralrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Particle Rapier",
+  "name_zh": "粒子刺剑",
+  "description_en": "Harnessing science helps kill things! yay!\r\ncounts as Energy for set bonuses",
+  "description_zh": "科学助你消灭敌人！呀啊啊！\n能量武器",
+  "rarity": "rare",
+  "category": "Rapier",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5.45,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

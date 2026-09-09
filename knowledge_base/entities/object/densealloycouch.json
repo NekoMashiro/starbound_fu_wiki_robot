@@ -1,0 +1,45 @@
+{
+  "entity_id": "densealloycouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Alloy Couch",
+  "name_zh": "致密合金沙发",
+  "description_en": "A couch made from dense alloy.",
+  "description_zh": "一张由致密合金制成的沙发。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "densealloy",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

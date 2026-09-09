@@ -1,0 +1,63 @@
+{
+  "entity_id": "k3rifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "K3 Double-Tap",
+  "name_zh": "K3 双管枪",
+  "description_en": "Made with that second shot in mind. Sporting.\r\nBurst fire",
+  "description_zh": "双重保障，敌人无处可逃。\n喷射火焰",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon",
+    "zerchesium"
+  ],
+  "elementalType": "radioactive",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8.55,
+  "critChance": 4,
+  "critBonus": 4,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "staticcell",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

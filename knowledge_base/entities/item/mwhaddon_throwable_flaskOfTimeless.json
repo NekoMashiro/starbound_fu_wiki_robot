@@ -1,0 +1,42 @@
+{
+  "entity_id": "mwhaddon_throwable_flaskOfTimeless",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Flask of Timeless",
+  "name_zh": "须臾药剂",
+  "description_en": "Create a zone that freeze your enemies' time, then explodes after a while.",
+  "description_zh": "生成一个领域冻结敌人的时间，并在一段时间后爆炸。",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 1
+        },
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 2
+        }
+      ],
+      "output_count": 8,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

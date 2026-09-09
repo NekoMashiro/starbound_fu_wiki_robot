@@ -1,0 +1,190 @@
+{
+  "entity_id": "fleshstrand",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flesh Strand",
+  "name_zh": "肉串",
+  "description_en": "A long, sinewy strand of flesh.",
+  "description_zh": "一块发达的肌肉。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 23,
+        "examples": [
+          "atropusbed",
+          "atropusbookcase",
+          "atropuscabinet",
+          "atropuschair",
+          "atropuscouch"
+        ]
+      },
+      "seed": {
+        "count": 16,
+        "examples": [
+          "avikanspiceplantseed",
+          "biscornseed",
+          "caprioleplantseed",
+          "energiflowerseed",
+          "fletchweed"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "atropusceilinglamp",
+          "atropusdesklamp",
+          "atropuslamp",
+          "fuunderworldcandles",
+          "fuunderworldcandles2"
+        ]
+      },
+      "door": {
+        "count": 3,
+        "examples": [
+          "fleshdoor",
+          "fuunderworlddoor",
+          "fuunderworlddoor2"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "fuunderworldfountain",
+          "fuunderworldfountain2",
+          "madnessbunnythingmeat"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "atropuschest",
+          "fleshchest"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "atropusfridge",
+          "atropusminifridge"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "cultfleshhead",
+          "fuexosuithead"
+        ]
+      }
+    },
+    "total": 80
+  },
+  "drop_sources": {
+    "total_pools": 13,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxhemogoblinHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "isn_meatplant",
+          "probability": 0.775,
+          "count": 1
+        },
+        {
+          "pool": "fleshblobLoot",
+          "probability": 0.6603,
+          "count": 1.9,
+          "monsters": [
+            "fuheckblob"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1348,
+          "count": 72.2,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0147,
+          "count": 66.7
+        }
+      ],
+      "prob_range": [
+        0.0147,
+        0.775
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fleshChestTreasure",
+          "probability": 0.5412,
+          "count": 10.0
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.1103,
+          "count": 6.7
+        }
+      ],
+      "prob_range": [
+        0.1103,
+        0.5412
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoFleshTreasure",
+          "probability": 0.3517,
+          "count": 10
+        },
+        {
+          "pool": "fleshTreasure",
+          "probability": 0.2941,
+          "count": 10
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1262,
+          "count": 72.2
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.1242,
+          "count": 72.2
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0162,
+          "count": 72.2
+        }
+      ],
+      "prob_range": [
+        0.0159,
+        0.3517
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

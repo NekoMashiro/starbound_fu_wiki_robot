@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_shipcontroller2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "''Steelbreaker''",
+  "name_zh": "“钢陨”",
+  "description_en": "Deploy/Store an unarmed Titancorp light aircraft.",
+  "description_zh": "部署/收回一架未武装的泰坦重工轻型飞行器。",
+  "rarity": "Legendary",
+  "category": "tool",
+  "price": 0,
+  "tags": [
+    "vehiclecontroller"
+  ],
+  "level": 8,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

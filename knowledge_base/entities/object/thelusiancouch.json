@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusiancouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Couch",
+  "name_zh": "蚁族沙发",
+  "description_en": "A couch made from Thelusian resin.",
+  "description_zh": "用蚁族树脂做的沙发。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 300,
+  "tags": [
+    "thelusian",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

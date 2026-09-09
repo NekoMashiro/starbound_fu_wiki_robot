@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechrepairpod",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mech Repair Pod",
+  "name_zh": "机甲修理仓",
+  "description_en": "Periodically releases restorative nanites. Requires 20J per 3.5s if a mech is nearby.",
+  "description_zh": "这个设备可制造出纳米机器人修复机甲。如果附近有机甲，每3.5s需要20W电力。",
+  "rarity": "essential",
+  "category": "trap",
+  "price": 3000,
+  "tags": [
+    "tech",
+    "mech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 25
+        },
+        {
+          "item": "ff_plastic",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mech Repair Pod.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "sabertoothhelm",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sabertooth Helm",
+  "name_zh": "剑齿虎头盔",
+  "description_en": "A menacing helmet made from what appears to be a sabertooth skull.",
+  "description_zh": "一个看似由剑齿虎头骨制作的凶恶头盔。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarChestTreasure",
+          "probability": 0.0809,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarTreasure",
+          "probability": 0.0526,
+          "count": 1
+        },
+        {
+          "pool": "tarTreasure",
+          "probability": 0.044,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.044,
+        0.0526
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

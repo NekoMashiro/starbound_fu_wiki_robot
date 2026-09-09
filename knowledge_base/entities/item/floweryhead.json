@@ -1,0 +1,46 @@
+{
+  "entity_id": "floweryhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flowery Mask",
+  "name_zh": "鲜花面具",
+  "description_en": "I better make sure to keep this mask watered.",
+  "description_zh": "我最好确保能坚持给这个面具浇水。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "springChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSpringTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "springTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

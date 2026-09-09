@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_plant_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Flora",
+  "name_zh": "冥界花",
+  "description_en": "A patch of violet flowers.",
+  "description_zh": "一片紫色的花。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

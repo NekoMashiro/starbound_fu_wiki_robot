@@ -1,0 +1,40 @@
+{
+  "entity_id": "stripe4painting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stripe 4",
+  "name_zh": "条纹 4",
+  "description_en": "Tasteful and elegant.",
+  "description_zh": "高贵优雅。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

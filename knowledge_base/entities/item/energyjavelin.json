@@ -1,0 +1,40 @@
+{
+  "entity_id": "energyjavelin",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Energy Javelin",
+  "name_zh": "能源标枪",
+  "description_en": "A powerful javelin full of kinetic energy. Suitable for hunting.",
+  "description_zh": "充满动能的标枪。很适合用来打猎。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 10,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

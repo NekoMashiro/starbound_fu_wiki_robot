@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_throwable_meltedCrystalBomb",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Melted Crystal Bomb",
+  "name_zh": "熔融水晶炸弹",
+  "description_en": "A bomb that creates a range of Solite Crystal Blocks on collide.",
+  "description_zh": "在接触时在范围内爆炸出日光水晶块的炸弹。",
+  "rarity": "legendary",
+  "category": "throwableItem",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

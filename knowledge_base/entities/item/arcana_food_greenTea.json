@@ -1,0 +1,71 @@
+{
+  "entity_id": "arcana_food_greenTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Green Tea",
+  "name_zh": "绿茶",
+  "description_en": "Luye's traditional green tea. gives a minor run boost for 120s.",
+  "description_zh": "绿叶出品的传统绿茶。赋予120s的小幅移速加成。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_greenTeabag",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_greenTea"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_greenTea_drop",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_hq1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

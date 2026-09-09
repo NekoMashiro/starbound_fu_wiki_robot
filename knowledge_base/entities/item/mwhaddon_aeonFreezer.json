@@ -1,0 +1,58 @@
+{
+  "entity_id": "mwhaddon_aeonFreezer",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aeon Freezer",
+  "name_zh": "时元凝滞者",
+  "description_en": "For all your escaping need (or just for fun).",
+  "description_zh": "满足你所有的逃跑需要（或者纯粹为了好玩）。",
+  "rarity": "Legendary",
+  "category": "machinePistol",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "aeon"
+  ],
+  "elementalType": "arcana_chryso",
+  "level": 8,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_aeonLeaf",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "meatpickle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meat Pickle",
+  "name_zh": "腌制肉",
+  "description_en": "The origin of this meat is not clear, but it sure -looks- familiar...\n+10% HP (75s) \nType: Raw Meat",
+  "description_zh": "这些肉的来源尚不清楚，但是毫无疑问，它-看起来-相当眼熟...\n+10%HP(持续75s)\n类型：生肉食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 45,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 140
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "butteronastick"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_shipcontroller3",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "''Steelbreaker''[missile]",
+  "name_zh": "“钢陨”[导弹]",
+  "description_en": "Deploy/Store an Titancorp light aircraft. armed with missiles, ammo:60\n[altfire]: activate shield",
+  "description_zh": "部署/收回一架泰坦重工轻型飞行器。已挂载导弹, 备弹量: 60\n[右键]: 激活护盾",
+  "rarity": "Legendary",
+  "category": "tool",
+  "price": 0,
+  "tags": [
+    "vehiclecontroller"
+  ],
+  "level": 8,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 4000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

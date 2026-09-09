@@ -1,0 +1,35 @@
+# [FU] Forest of Fae
+
+**来源**: Frackin' Universe Wiki | **链接**: https://frackinuniverse.miraheze.org/wiki/Forest_of_Fae
+
+---
+
+** The Forest of Fae** is an extra dungeon categorized as threat 5. Talk to S.A.I.L. to beam there.
+
+> Acquisition : You will need to find and interact with a map to receive this quest. Despite being among the rarest maps to find, it's guaranteed to appear in special Cultist-themed variants of Novakid asteroid mining mech encounters.
+
+> Quest Rewards : 5 Microparticle Brush, 1 Druid Staff, 1 Mandraflora Figurine, 1 Nutmidge Figurine, 3000 Research
+
+> Item Requirements: S.A.I.L. will tell you at the beginning of the mission that you need a Grappling Hook. Other means to fly freely might be usable aswell, but i would still recommend the grappling hook.
+
+## Dungeon Guide
+Despite being a threat 5 dungeon, the Forest of Fae does not pose a difficult challenge during the fight. The hard parts of this mission are the "platforming" part where you need to swing around with your grappling hook while dodging all kinds of traps.
+
+### Beginning of the dungeon
+You will start the mission to the left of a huge tree. Head toward that tree and you will be able to enter it and go into its depth. Right after you enter the tree, you will find a small room to your right with healing water and a chest at the bottom of the pond. Then keep descending deeper into the tree and jump down the pit you will find. A pond of water await you below, so don't worry about fall dammages. Exit the pond to the left and you will find 2 Status Pod. Activate them if you're feeling luck or just ignore them. Climb down the beanstalk to the left of the room and you will reach the first, and only, crossroad of the Forest of Fae. The path to the right cross a water pond and lead you to some ennemies and a little bit of platforming, while you will find fewer ennemies and a room to cross with your grappling hook if you keep climbing down the beanstalk.
+
+#### Crossing the water pond
+If you decide to cross the water pond, be warned that poison will fall from the roof while you're midway through the pond, turning everything into poison. In the next room to the right, you will find 3 cultists wielding melee weapons. You can easily shoot them down from the entrance of the room, they have no ranged attack and cannot climb to reach you. Then cross the room and activate the Blood Altar on your way if you want some quick healing. Once you reach the middle of the next cave, the light will turn off and 2 Mandrafloras will spawn behind you and 2 Nutmidges will spawn in front of you. Climb down the platform to the right of that room and you will reach a small platforming area: the lever near you will make the platforms start moving up and down in the poison pool. If you do not have poison immunity, try to not fall in the poison. Also you cannot use your grappling hook on the roof of this room for some reason, so you will have to cross it using the platforms. You will then reach the room where both paths converge.
+
+#### Climbing the beanstalk
+At the foot of the beanstalk, 2 Snaunts will attack you. To your right you will find a room covered in hot coals and deadly lasers shooting from the roof. You will need to swing across the room with your grappling hook with the right timing to dodge the lasers. The lever on the other side of the room turn off definitely those lasers. You will then reach the room where both path converge.
+
+### The exploration continues
+No matter from which side you enter the room, you will be attacked by 2 melee cultists and 2 Mandrafloras. Watch out for the thorny bushes in the room. Then climb down the beanstalk. The door to your left is a shortcut you can open later in the dungeon so don't mind it. The room to your right has a pool of oil (that will slow you if you touch it) and hard light platforms that appear/disappear every few seconds. You will need to cross the room while dodging more lasers from the roof. Note that you can just cross the room by walking inside the oil and get out on the other side using your grappling hook. The lever on the other side will make the lasers stop and the platforms stop disappearing. Keep climbing down and you will find a small opening to your right. You can use your Sphere tech to reach a chest there. The next room will have lasers shooting from the left side of the room. You can dodge them by hiding in the pits along the way. The second pit is guarded by a Mandraflora. If you have it, the Microsphere tech will allow you to crawl under the lasers to easily cross the room. Exit the room from the top left and you will find a healing water pond is the room to your left.
+
+Keep going deeper into the dungeon and you will reach a platform with a switch. The switch open the door of the mushroom merchant house in front of you so you can empty your pockets before the end of the dungeon. In the room below, 4 melee cultists await you. You will then reach the hardest part of the dungeon: a pretty long grappling hook section. Once you reach the middle of the first room, 2 Spookits will spawn (1 behind you and 1 in front of you). You may want to go back to the entrance of the room to take them out so they don't pester you during this part. The first room is pretty straightforward: use your grappling hook to swing forth and don't land on the hot coals on the ground. You will then reach a hallway leading down. There fire and ice traps will regulary activate, so slowly descend there by extending your grappling hook. The last part of this section will require you to swing with your hook to not land on hot coals once more, but with lasers shooting horizontally for more fun. After crossing this section, a lever will open a door above you to go back if needed. Don't forget that this dungeon has no checkpoint, so a death on this grappling hook section will send you back to your ship.
+
+The last part of the dungeon is pretty easy. Follow the stairs leading you further below: 4 melee cultists await you at the end of the stairs. You will the need to cross a single last platforming room: spikes on the floor, saws on the roof and platforms moving up and down. You will be hit by the saws if you stay on the platform until it reach its highest point, but you will not touch the spikes on the lowest point. Just wait for the first platform to be at the lowest and jump on it. When it start moving, jump on the next platform. Just be careful to not glitch through the platform when they start moving up. You might want to jump just before the platform start moving to not fall through it. You will then reach the last room of the dungeon, with the diamond pedestal to turn in the quest, a teleporter to get back to your ship and a decent ammount of chests.
+
+## Secret
+The Forest of Fae has 1 hidden chest. The walkthrough to get it is on this page.

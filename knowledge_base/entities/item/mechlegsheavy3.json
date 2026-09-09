@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechlegsheavy3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Falcon III Legs",
+  "name_zh": "隼鹰机甲足 III",
+  "description_en": "Exceptionally heavy.",
+  "description_zh": "它特别重。",
+  "rarity": "legendary",
+  "category": "mechPart",
+  "price": 5200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechlegsheavy2",
+          "count": 1
+        },
+        {
+          "item": "liquidcrystal",
+          "count": 25
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

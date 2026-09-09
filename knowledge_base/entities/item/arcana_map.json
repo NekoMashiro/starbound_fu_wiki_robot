@@ -1,0 +1,51 @@
+{
+  "entity_id": "arcana_map",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Galactic Map",
+  "name_zh": "银河地图",
+  "description_en": "A set of coordinates given to trusted Protectors. Use this to open the Galactic Map.",
+  "description_zh": "一组被交付给受信任的守护者的坐标。使用它打开银河地图。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Iron Crafting Table",
+          "name_zh": "铁制工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "arcana_atlas"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Galactic Map.md",
+  "quality_tier": "S"
+}

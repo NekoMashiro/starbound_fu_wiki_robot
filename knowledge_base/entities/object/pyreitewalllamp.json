@@ -1,0 +1,49 @@
+{
+  "entity_id": "pyreitewalllamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Wall Lamp",
+  "name_zh": "永燃壁灯",
+  "description_en": "An orange wall lamp. It feels like it's on fire.",
+  "description_zh": "橙色的壁灯。感觉像是着火了。",
+  "rarity": "rare",
+  "category": "light",
+  "price": 160,
+  "tags": [
+    "pyreite",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

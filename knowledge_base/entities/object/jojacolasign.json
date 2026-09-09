@@ -1,0 +1,50 @@
+{
+  "entity_id": "jojacolasign",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Joja Cola Billboard",
+  "name_zh": "Joja可乐广告牌",
+  "description_en": "A billboard advertising the flagship product of the Joja corporation.",
+  "description_zh": "为Joja的旗舰产品做广告的广告牌。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "joja",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jojaset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

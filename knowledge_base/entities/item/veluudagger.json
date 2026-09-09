@@ -1,0 +1,51 @@
+{
+  "entity_id": "veluudagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vel'uuish Dagger",
+  "name_zh": "灵猫匕首",
+  "description_en": "A shockingly sharp blade.",
+  "description_zh": "锋利得惊人。",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon",
+    "veluu"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 6,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "duskiline",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

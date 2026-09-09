@@ -1,0 +1,45 @@
+{
+  "entity_id": "hephaestus_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Hanging Magifire Lamp",
+  "name_zh": "火灵吊灯",
+  "description_en": "A hanging lamp.",
+  "description_zh": "一盏吊灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "hephaestus",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

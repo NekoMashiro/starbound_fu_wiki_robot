@@ -1,0 +1,59 @@
+{
+  "entity_id": "funeochakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Chakram",
+  "name_zh": "原始环刃",
+  "description_en": "Crackling with destructive energy.",
+  "description_zh": "带有大量毁灭性的能量。",
+  "rarity": "uncommon",
+  "category": "chakram",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "chakram",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 6,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 6
+        },
+        {
+          "item": "obsidian",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Proto Chakram.md",
+  "quality_tier": "A"
+}

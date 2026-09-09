@@ -1,0 +1,58 @@
+{
+  "entity_id": "snubber",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snub Gun",
+  "name_zh": "缓冲型自动手枪",
+  "description_en": "Fires 3-round bursts of diamond-tipped rounds.\r\nPiercing bursts\r\nHunting Weapon",
+  "description_zh": "这把枪攻击时连射3轮钻石般坚硬的子弹\n穿透攻击\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 660,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "energy"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 9.5,
+  "critChance": 1,
+  "critBonus": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

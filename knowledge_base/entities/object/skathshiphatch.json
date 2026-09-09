@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathshiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Ship Hatch",
+  "name_zh": "绘世者船舱门",
+  "description_en": "A hatch suitable for a spaceship.",
+  "description_zh": "一个适合于宇宙飞船的舱口。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "skath",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

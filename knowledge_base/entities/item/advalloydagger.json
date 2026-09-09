@@ -1,0 +1,54 @@
+{
+  "entity_id": "advalloydagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Dagger",
+  "name_zh": "宗师匕首",
+  "description_en": "Sleek and shadowy. Cool to the touch.\r\nInflicts bleeding",
+  "description_zh": "光滑而阴暗。触感凉爽。\n造成出血效果",
+  "rarity": "rare",
+  "category": "dagger",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.72,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

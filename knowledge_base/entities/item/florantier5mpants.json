@@ -1,0 +1,53 @@
+{
+  "entity_id": "florantier5mpants",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cannibal's Trousers",
+  "name_zh": "食人魔长裤",
+  "description_en": "Set Bonuses:\n Spear/Bow: Mastery +22%\n Immune: Burning",
+  "description_zh": "套装奖励:\n 长矛/弓: 伤害 x1.22\n 免疫: 烧伤",
+  "rarity": "Rare",
+  "category": "legarmour",
+  "price": 1920,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 4
+        },
+        {
+          "item": "silk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "florantier6mpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

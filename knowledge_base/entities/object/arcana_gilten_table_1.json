@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_gilten_table_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Gilten Simple Table",
+  "name_zh": "镀人朴素桌",
+  "description_en": "A simple table.",
+  "description_zh": "一张简单的桌子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 160,
+  "tags": [
+    "gilten"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

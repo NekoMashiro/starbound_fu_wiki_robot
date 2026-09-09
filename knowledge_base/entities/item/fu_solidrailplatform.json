@@ -1,0 +1,43 @@
+{
+  "entity_id": "fu_solidrailplatform",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solid Rail Platform",
+  "name_zh": "坚固轨道平台",
+  "description_en": "Place a self-propelled platform that follows rails and can't be fallen through.",
+  "description_zh": "放置一个沿着轨道运行的自走式平台，且无法从其上坠落。",
+  "rarity": "rare",
+  "category": "railPlatform",
+  "price": 650,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Solid Rail Platform.md",
+  "quality_tier": "A"
+}

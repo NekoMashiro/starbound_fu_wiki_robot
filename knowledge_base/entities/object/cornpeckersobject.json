@@ -1,0 +1,41 @@
+{
+  "entity_id": "cornpeckersobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corn Peckers",
+  "name_zh": "啄玉米鸟",
+  "description_en": "Beakseed and dried corn. A common Avian trail mix, or breakfast cereal.",
+  "description_zh": "种子和干玉米。一种常见的翼族痕迹混合物，或早餐麦片。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cornpeckers",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "cornpeckers"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

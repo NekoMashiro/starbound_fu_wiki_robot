@@ -1,0 +1,48 @@
+{
+  "entity_id": "mecharmspikefist",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Spikefist Mech Arm",
+  "name_zh": "尖拳机甲臂",
+  "description_en": "A mech weapon that fires a self-returning fist tipped with durasteel spikes.",
+  "description_zh": "一种机甲武器，发射带耐钢尖刺的自回归拳套。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 30
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmsinfist",
+          "mecharmspikefist3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

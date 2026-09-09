@@ -1,0 +1,81 @@
+{
+  "entity_id": "petfood2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wartweed Kibble",
+  "name_zh": "瘤块粗粮",
+  "description_en": "For the ship pet in your life. Do Not Consume.\n-5% HP, Poisoned (1m)",
+  "description_zh": "用来喂食你船舱内的宠物。请勿食用。\n-5% HP, 中毒(持续5s)",
+  "rarity": "common",
+  "category": "petfood",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wartweed",
+          "count": 4
+        },
+        {
+          "item": "sweetscoop",
+          "count": 1
+        }
+      ],
+      "output_count": 12,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 55
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

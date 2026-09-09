@@ -1,0 +1,55 @@
+{
+  "entity_id": "biomorphhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Biomorphic Helm",
+  "name_zh": "生物态头盔",
+  "description_en": "+40% X'i Bulb Regen Rate (120%)\r\nSet Bonuses:\r\n 5% Speed, Damage x1.07, Health x1.25, Energy x1.2\r\n X'i Weapons: Defense x1.1\r\n Sulphuric Biome: Energy x1.05, +5% Knockback Resist\r\n Immune: Acid, Burning, All Radiation, Snow, Slush, Ice, Oxygen",
+  "description_zh": "+40% 艾肯球茎再生速率(120%)\n套装奖励：\n 5% 速度, 伤害x1.07, 最大HPx1.25, 能量x1.2\n 艾肯武器: 防御x1.1\n 硫酸生物群落: 能量x1.05, +5% 击退抗性 \n 免疫: 酸蚀, 烧伤, 一切辐射, 雪, 泥泞, 冰, 窒息",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 750,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "explorer"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 25
+        },
+        {
+          "item": "isogenbar",
+          "count": 2
+        },
+        {
+          "item": "pyreitebar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbonpure",
+          "count": 4
+        },
+        {
+          "item": "mutachitinhead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

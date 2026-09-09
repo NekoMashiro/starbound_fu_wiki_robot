@@ -1,0 +1,47 @@
+{
+  "entity_id": "futoolbox2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Toolbox",
+  "name_zh": "工具箱",
+  "description_en": "This should be perfect for tool storage.",
+  "description_zh": "这应该是最完美的工具存放装置了。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

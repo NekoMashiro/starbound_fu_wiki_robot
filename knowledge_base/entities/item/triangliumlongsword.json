@@ -1,0 +1,55 @@
+{
+  "entity_id": "triangliumlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trianglium Longsword",
+  "name_zh": "三棱长剑",
+  "description_en": "Dangerously irradiated. Also cutty and pretty.",
+  "description_zh": "带有危险的辐射，也很锐利和漂亮。",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "trianglium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.3,
+  "critChance": 1,
+  "critBonus": 9,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 7
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

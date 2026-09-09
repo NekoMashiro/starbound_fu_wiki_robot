@@ -1,0 +1,53 @@
+{
+  "entity_id": "flaregun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flare Gun",
+  "name_zh": "信号枪",
+  "description_en": "Fires non-threatening light sources.",
+  "description_zh": "用来发射信号弹。",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 0.5,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "polymer",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

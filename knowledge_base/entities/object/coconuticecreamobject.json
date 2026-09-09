@@ -1,0 +1,42 @@
+{
+  "entity_id": "coconuticecreamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coconut Ice Cream",
+  "name_zh": "椰子冰淇淋",
+  "description_en": "Perfect for when you're stranded on a tropical island.",
+  "description_zh": "非常适合被困在热带岛屿上。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 195,
+  "tags": [
+    "cooking",
+    "parlor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coconuticecream",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "coconuticecream"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "diodiahybridseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diodia Hybrid Seed",
+  "name_zh": "杂交钮扣果种子",
+  "description_en": "Hybridized Diodia. Still coppery, but helps resist poison.",
+  "description_zh": "可以收获杂交钮扣果，食用后会免疫中毒。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 16,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 122
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 2
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "diodiaseed",
+          "count": 3
+        },
+        {
+          "item": "currentcornseed",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "diodiahybridHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

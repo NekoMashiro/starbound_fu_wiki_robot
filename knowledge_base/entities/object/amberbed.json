@@ -1,0 +1,50 @@
+{
+  "entity_id": "amberbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Bed",
+  "name_zh": "琥珀床",
+  "description_en": "Nothing quite like sleeping on a solid mass of ancient amber. Your spine will hate you. Just like your parents.",
+  "description_zh": "没有什么比睡在这张床上更难受的了，我想你的脊椎会抗议的。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 875,
+  "tags": [
+    "bees",
+    "bone",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 2
+        },
+        {
+          "item": "beesilk",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

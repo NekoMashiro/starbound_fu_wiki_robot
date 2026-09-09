@@ -1,0 +1,42 @@
+{
+  "entity_id": "hiddenproximityscanner",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hidden Proximity Scanner",
+  "name_zh": "隐藏式近距离扫描仪",
+  "description_en": "Stealthily watch for anything nearby",
+  "description_zh": "偷偷地观察附近的任何东西",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 80,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

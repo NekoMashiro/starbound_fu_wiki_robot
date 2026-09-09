@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_astral_wireddeco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Power Core",
+  "name_zh": "群星动力核心",
+  "description_en": "An Azurium power core, it's best to not touch it if you don't know what you're doing.",
+  "description_zh": "一个天青动力核心，如果你不知道自己在做什么，最好别碰它。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 280,
+  "tags": [
+    "light",
+    "astral",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_oceanicTechCard",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

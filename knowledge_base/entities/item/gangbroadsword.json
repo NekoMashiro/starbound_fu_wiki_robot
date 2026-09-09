@@ -1,0 +1,39 @@
+{
+  "entity_id": "gangbroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Broadsword",
+  "name_zh": "普通大刀",
+  "description_en": "A powerful improvised weapon.",
+  "description_zh": "强大的简易武器。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "twoHanded": true,
+  "baseDps": [
+    10.5,
+    11.5
+  ],
+  "primaryAbilityType": "broadswordcombo",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gangmemberTreasure",
+          "probability": 0.012,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

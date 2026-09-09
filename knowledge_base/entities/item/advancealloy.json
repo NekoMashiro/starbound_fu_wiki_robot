@@ -1,0 +1,143 @@
+{
+  "entity_id": "advancealloy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Alloy",
+  "name_zh": "高级合金",
+  "description_en": "Compression of various metals has resulted in a super strong metal plating.",
+  "description_zh": "经过压缩的多种金属，塑造了极其强壮的金属面板。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 950,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "lead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 12,
+        "examples": [
+          "densealloybed",
+          "densealloybookcase",
+          "densealloycabinet",
+          "densealloychair",
+          "densealloycouch"
+        ]
+      },
+      "headarmour": {
+        "count": 10,
+        "examples": [
+          "conquerorhead",
+          "fudiverhead2",
+          "fuguardianhead",
+          "fumantizitier6mhead",
+          "fustarkillerhead"
+        ]
+      },
+      "mechPart": {
+        "count": 10,
+        "examples": [
+          "exitusblaster",
+          "fudualcannon",
+          "fuflamearm2",
+          "fuicearm2",
+          "fumechmining1"
+        ]
+      },
+      "legarmour": {
+        "count": 7,
+        "examples": [
+          "conquerorlegs",
+          "fudiverlegs2",
+          "fuguardianpants",
+          "fumantizitier6mpants",
+          "fustarkillerpants"
+        ]
+      },
+      "chestarmour": {
+        "count": 7,
+        "examples": [
+          "conquerorchest",
+          "fudiverchest2",
+          "fuguardianchest",
+          "fumantizitier6mchest",
+          "fustarkillerchest"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "densealloydesklamp",
+          "densealloylamp",
+          "fu_booster_large4",
+          "fu_booster_medium4",
+          "fu_booster_small4"
+        ]
+      },
+      "hammer": {
+        "count": 4,
+        "examples": [
+          "advalloyhammer",
+          "fishboneheadbasher",
+          "fuquantumhammer",
+          "uraniumhammer"
+        ]
+      },
+      "machinePistol": {
+        "count": 4,
+        "examples": [
+          "arconcannon",
+          "curvepistol",
+          "manstoppersmg",
+          "murdermanipulator2"
+        ]
+      }
+    },
+    "total": 132
+  },
+  "quality_tier": "S"
+}

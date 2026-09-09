@@ -1,0 +1,214 @@
+# [FU] Contributors
+
+**来源**: Frackin' Universe Wiki | **链接**: https://frackinuniverse.miraheze.org/wiki/Contributors
+
+---
+
+The following individuals have all contributed time, work or effort into Frackin Universe. If you contributed but do not see your name below, please inform us so we can correct this oversight. 
+
+- AbsoluteXeroEX
+- anoobindisguise - instrumental in helping with Research system
+- Aegonian - ERM integration with FU, some scripts
+- Aelfgifu - Moderation, Microdungeons, Sprites
+- alberto-rota - Golemancer Core
+- Alu
+- Amee102 - Numerous contributed Mech Parts
+- Amethystumn
+- amirmiked12 - Cultist weapons
+- Anomnum - Rusty and Non-Rusty Alternate BYOS Ship design
+- Ashey
+- AsPerrUsual / rare_candy_bracelet - Prop Pack, Foodies Furniture, Frontier Expansion, Racial Kitchen Counters
+- Auren
+- Bam300
+- Beitol
+- bk3k 
+- B-Reif (Advanced Liquid Sensor revisions)
+- C0bra5 
+- Cactaur
+- CariTheKitty - Community Manager, Sprites, Deployables, Tiny Tethers, Pet Fixes
+- cat2002 - Power system, various other core features
+- Cat Face
+- Cgeta
+- Chris1497
+- Common_fruit - Various art contributions
+- CrimzonWolf777
+- Crowcrew
+- CrypticXenon
+- C'thulu Reformed - Original music compositions
+- DarkPursuer - Sprites for deployables and monsters
+- Darth Biomech
+- Darvond - Discord Moderator
+- dasmole
+- Dekadrachm
+- Dilrax
+- Djinn
+- Dleowolf
+- DoctorM64
+- Dracyoshi
+- Dr. Pilchenstein (field generator)
+- dragonrod342
+- DraLUSAD
+- DubShoe
+- Duskitty
+- Edward Chernenko / edwardspec - Wiki help. Lots of it. Many typo and code adjustments.
+- Endertrot
+- FDAVILOKA
+- Firel
+- Fractil
+- Frann
+- Gainem - Tons of sprites and art
+- Gamzam
+- Gezbo
+- Gigabit
+- GoreFly
+- Green / 0x00FF00 - Telebrium Sprites, Miscellaneous dyes
+- Grim
+- GTG3000 - Ammo bar, Thelusian base
+- Guidez 
+- HALLEYSHURA
+- Hatsya Souji - Weapon sprites, Armor sprites
+- Hayden - Art contributions
+- Hellession - Script permissions, Celestial
+- Hieru-chan
+- Hubnester - BYOS, various core features
+- Hullaballoonatic - UI updates
+- Hydro
+- IHart - Weapons (Quarterstaves)
+- iMisterX - Nightar Race
+- Immirik - Dramatic Terrain tiles
+- Imri - Contributions for tile dyes
+- Inny - Early FU staff and contributor. You are missed.
+- Iris Blanche - Inspiration for weather reworks, and for helping out with Community so much 
+- Iroaseta
+- I Said No / Gay Monster Dad - ISN content
+- Sock_Bunny - Swim Physics 
+- Izuna
+- Jaxine
+- Jorhlok - Mushroom Tech mod
+- Jotunbane
+- Jude
+- Junosato - Contributed art
+- Jzpelaez - Sprites for weapons and mech parts
+- Karyuu_no_Tsume
+- Katorone
+- Kherae - Thousands of contributions over the years in scripts, code and much more
+- kingofcrows - Starbooze
+- KinkyBlueBastard
+- kitikira - NPC and Monster Fall Damage
+- kokorogensou
+- Koritastic - Tiny Tether coding
+- Kreon the Insane - Numerous art contributions
+- kukagres - instrumental in helping with Research system
+- Leon
+- Le Poisson
+- LimitedListener
+- Llarys - Numerous art conttributions
+- loudwhitenoise
+- Lucifers Vermin - Thelusian flag
+- Lunchghost
+- Mackinz - Legacy FU content.
+- Mad Jack
+- ManicRykker - Pandora's Box, balance adjustments, script contributions
+- marac008
+- Malthinae - status icons
+- Mika
+- Mikenno - Massacre Blade, Giant Spider
+- MinHui12G
+- missandri
+- MissMarifire
+- Moxy - various sprites
+- Moonlit Comet - Tons of amazing art in the form of sprites, radio animations, etc.
+- Mr.Pigeon
+- MShadowy
+- Nebulox - Weapons (especially RNG bows)
+- NeWeeGee
+- NiKiNiT
+- NotMrFlibble - Core systems and feature scripts, Collections rework
+- OCRemix.org
+- ohgoditburns
+- Omega
+- Opaque - Some deployables
+- Orbyter
+- Osoreshi
+- O^O - Sprites, especially monsters
+- Peter Crowley - Music
+- phail/thephail
+- pithon - Xi Ship Parts
+- Pizzacat
+- PParrot - Core scripts, rebalancing, coding
+- Pixelflame - Aether enhancements
+- quiksilver / ThatThunderCookie - tons of little weapon additions
+- Ramagno
+- Renbear - Lots of legacy FU content
+- Retoid
+- Robur Velvetclaw - Deployables such as Mantizi Vases, Pipe Organs. NPC speech (racial)
+- RockCat - Weapon sprites
+- Rylasasin - Balance, scripting
+- RyuujinZERO
+- Sacre - Weapon and deployable sprites
+- Sad Loser
+- Sam Dillard
+- santiago
+- SentientCookie - Tiles, huge number of integrations
+- SentientSupper - Weapon/NPC related integrations
+- Shadow Wolf - Legacy Weapons, Legacy Dungeons, other Legacy mod content
+- Sepredia
+- shadow_absorber - Collections, community/server management
+- Sheeplord
+- Shinigami Apples - Sprites for Weapons, Armors, Stations, Decorations
+- Shreddys
+- Silvertip / Argenttip - Scripting and balancing
+- Sinful Creature
+- sistergrace - Food items (banana, strawberry)
+- Skies912 - Numerous FU features, including BYOS additions
+- Sky
+- Slugbait - Weapons and other sprites
+- SquidSalsa
+- steelndirt
+- Storm_UK - Tile Effects and Tile Damage, Falling Damage revamp
+- Streema - Skath race
+- SubmarineKnight
+- SupaCURE
+- SuperMandrew - Gravity Jump
+- SysraMusic
+- tamamo89/Kanako Katsura - Cute sprites, Elemental integrations
+- TanzNukeTerror 
+- tcst013
+- Terminal
+- TheAdmiral
+- TheBigBlueSerpent - More Food Mod integration, Bamboo
+- TheBlueLeafeon - Playable Cats
+- thegamemaster1234 - Frackin Races core, And hundreds of additional contributions over the years
+- The Observer - Extra Dungeons
+- ThunderBird123 - Critters n Scenery
+- timaeus222
+- TimothyWiggins127 - Sprites for Armors, Weapons, Deployables
+- Tommey Lee
+- Tori
+- TotalBlazing
+- TP
+- tynaut - Eggstra Clucks
+- UnsubRedun- Mantizi
+- Uxie - Contributed weapon and deployable sprites
+- Vagak
+- Valo - Weapon and decoration sprites
+- Vetpetmon - Sprites for weapons
+- Vincent - Weapon and decorative sprites
+- Vinderex
+- Wannas
+- Wartavian
+- WatcherCCG
+- WLerin
+- XanTheDragon - Codex System
+- Xel - Slime Race
+- Xelaxon
+- Xondaii
+- Yako (Kirhos)
+- YAMEROOOOO
+- Ycar - Animated monsters (Fleshreaper, Wraith)
+- Zarra
+- Zebub
+- Zennle
+- zimberzimber - Beevamp, core systems, ztarbound, tricorder
+- zircon
+- ZomberZamber

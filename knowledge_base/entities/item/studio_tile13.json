@@ -1,0 +1,55 @@
+{
+  "entity_id": "studio_tile13",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Catacomb Stone Brick",
+  "name_zh": "墓穴石砖",
+  "description_en": "Slightly worn stone bricks, found in the catacombs.",
+  "description_zh": "轻微磨损的石砖，能在墓穴找到。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 10
+        }
+      ],
+      "output_count": 20,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.5376,
+          "count": 4
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

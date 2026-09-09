@@ -1,0 +1,52 @@
+{
+  "entity_id": "arcana_armor_exousia_soldat_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Soldat Leggings",
+  "name_zh": "列兵护腿",
+  "description_en": "A standard military armor worn by Exousian soldiers.",
+  "description_zh": "威权士兵装备的标准军用盔甲。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 800,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 20
+        },
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T6",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier6broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nhydri Broadsword",
+  "name_zh": "纳德宽剑",
+  "description_en": "This sword has a grand design, but it looks like it would be difficult to wield.",
+  "description_zh": "这把剑设计得非常豪华，但是看起来很难挥舞它。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 650,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feya",
+          "count": 70
+        },
+        {
+          "item": "nhydri",
+          "count": 8
+        },
+        {
+          "item": "refinedferozium",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

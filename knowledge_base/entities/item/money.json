@@ -1,0 +1,537 @@
+{
+  "entity_id": "money",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pixels",
+  "name_zh": "像素",
+  "description_en": "Pixels are a universal currency. They can also be used for 3D Printing.",
+  "description_zh": "像素是宇宙的通用货币，也可用于3D打印。",
+  "rarity": "Common",
+  "category": "",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "aegisaltore",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 1
+        }
+      ],
+      "output_count": 60,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "bee_aquarum_youngQueen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_renatineFragment",
+          "count": 1
+        }
+      ],
+      "output_count": 25,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Arcana"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_sceantine",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Arcana"
+    },
+    {
+      "inputs": [
+        {
+          "item": "artifact5",
+          "count": 1
+        }
+      ],
+      "output_count": 22000,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "bee_artisan_youngQueen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "bee_assassin_youngQueen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "blooddiamond",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "bee_bumblebee_youngQueen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Refinery",
+      "station_zh": "矿石精炼机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "bee_carpenter_youngQueen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 659,
+        "examples": [
+          "SIV_shipApexEdgeMed",
+          "SIV_shipApexEdgeSmall",
+          "SIV_shipApexGunDecoLarge",
+          "SIV_shipApexGunDecoMed",
+          "SIV_shipApexGunDecoSmall"
+        ]
+      },
+      "furniture": {
+        "count": 206,
+        "examples": [
+          "alienplanter",
+          "apexartifactaltarclear",
+          "apexshipbed",
+          "apexshipbed2",
+          "applebarrel"
+        ]
+      },
+      "other": {
+        "count": 154,
+        "examples": [
+          "atropusbiome-codex",
+          "atropusbiome2-codex",
+          "atropusbiome3-codex",
+          "atropusbiome4-codex",
+          "bees1-codex"
+        ]
+      },
+      "storage": {
+        "count": 112,
+        "examples": [
+          "apextinyshiplocker1",
+          "apextinyshiplocker2",
+          "arcana_lykoi_storage_1",
+          "arcana_lykoi_storage_2",
+          "arcana_lykoi_storage_3"
+        ]
+      },
+      "preparedFood": {
+        "count": 75,
+        "examples": [
+          "applecrumble",
+          "baconpancakes",
+          "baconpancakes",
+          "blam",
+          "bloodycorpsewaffles"
+        ]
+      },
+      "crewcontract": {
+        "count": 45,
+        "examples": [
+          "crewcontract",
+          "crewcontract_arctic",
+          "crewcontract_biohazard",
+          "crewcontract_bountyhunter",
+          "crewcontract_chef"
+        ]
+      },
+      "petCollar": {
+        "count": 35,
+        "examples": [
+          "cosmicauracollar",
+          "cosmicauracollar2",
+          "cosmicauracollar3",
+          "damagecollar1",
+          "damagecollar2"
+        ]
+      },
+      "chestwear": {
+        "count": 32,
+        "examples": [
+          "apexcommanderjacket",
+          "apexnavyjacket",
+          "apexofficerjacket",
+          "apexspecialistjacket",
+          "avianadventurershirt"
+        ]
+      }
+    },
+    "total": 1629
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "treasurehoard"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "treasurehoard"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 577,
+    "monster_drops": {
+      "count": 324,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 5.2804,
+          "count": 12.0
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 2.6074,
+          "count": 12.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 2.5091,
+          "count": 11.9
+        },
+        {
+          "pool": "apextreasure",
+          "probability": 2.24,
+          "count": 12.0
+        },
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 2.1629,
+          "count": 31.0
+        }
+      ],
+      "prob_range": [
+        0.0196,
+        5.2804
+      ]
+    },
+    "chest_loot": {
+      "count": 95,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 4.8503,
+          "count": 42.7
+        },
+        {
+          "pool": "florancanyonchesttreasure",
+          "probability": 3.6601,
+          "count": 20.1
+        },
+        {
+          "pool": "apexbasechesttreasure",
+          "probability": 2.9281,
+          "count": 20.1
+        },
+        {
+          "pool": "evilfortresschesttreasure",
+          "probability": 2.9281,
+          "count": 20.1
+        },
+        {
+          "pool": "mwhaddon_lootbox_mainStory",
+          "probability": 2.4459,
+          "count": 46.5
+        }
+      ],
+      "prob_range": [
+        0.1079,
+        4.8503
+      ]
+    },
+    "other": {
+      "count": 107,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 3.9121,
+          "count": 12.0,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 2.8,
+          "count": 31.0
+        },
+        {
+          "pool": "mwhaddon_npc_horizon_cryoHopliteNoBadge",
+          "probability": 2.4,
+          "count": 340.3
+        },
+        {
+          "pool": "mwhaddon_npc_horizon_omenkyrie",
+          "probability": 2.1666,
+          "count": 375.7
+        },
+        {
+          "pool": "frankLoot",
+          "probability": 2.1,
+          "count": 12.0,
+          "monsters": [
+            "bighairyfrank"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0296,
+        3.9121
+      ]
+    },
+    "boss_mission": {
+      "count": 42,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 3.073,
+          "count": 31.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 3.073,
+          "count": 31.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 3.073,
+          "count": 31.0
+        },
+        {
+          "pool": "cultistbosstreasure",
+          "probability": 2.66,
+          "count": 31.0
+        },
+        {
+          "pool": "lesserBossTreasure",
+          "probability": 2.2176,
+          "count": 12.0
+        }
+      ],
+      "prob_range": [
+        0.1136,
+        3.073
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 1.1124,
+          "count": 12.0
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.8899,
+          "count": 12.0,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.2786,
+          "count": 12.2,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2786,
+        1.1124
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxmisterwisperHarvest",
+          "probability": 1.0,
+          "count": 1376.9
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.8918,
+          "count": 31.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.6506,
+          "count": 31.0
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.448,
+          "count": 12.0
+        }
+      ],
+      "prob_range": [
+        0.448,
+        1.0
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.7624,
+          "count": 31.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.5005,
+          "count": 31.0
+        }
+      ],
+      "prob_range": [
+        0.5005,
+        0.7624
+      ]
+    }
+  },
+  "wiki_ref": "Pixels.md",
+  "quality_tier": "S"
+}

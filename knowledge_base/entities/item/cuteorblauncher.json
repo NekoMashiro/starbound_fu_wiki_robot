@@ -1,0 +1,60 @@
+{
+  "entity_id": "cuteorblauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Orb Launcher",
+  "name_zh": "棱镜能量球发射器",
+  "description_en": "Fire destructive balls of energy.\r\nCounts as 'Energy' for set bonuses",
+  "description_zh": "发射破坏性的能量球。\n能量武器",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 560,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 5,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

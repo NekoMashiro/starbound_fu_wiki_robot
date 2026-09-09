@@ -1,0 +1,46 @@
+{
+  "entity_id": "pesticide",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pesticide",
+  "name_zh": "杀虫剂",
+  "description_en": "Kills bugs dead.\nGrowth Rate x3 & +2 produce.\nUses +2 fluid use & -1 seed use",
+  "description_zh": "专杀虫子。\n生长速率x3&产量+2\n液体消耗+2&种子消耗-1",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 350,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "calciumnitrate",
+          "count": 4
+        },
+        {
+          "item": "methyliodide",
+          "count": 1
+        },
+        {
+          "item": "fu_salt",
+          "count": 8
+        },
+        {
+          "item": "ammoniumsulfate",
+          "count": 3
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 6
+        }
+      ],
+      "output_count": 20,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

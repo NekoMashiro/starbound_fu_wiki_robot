@@ -1,0 +1,47 @@
+{
+  "entity_id": "generalgoodsstore",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "General Store",
+  "name_zh": "杂货店",
+  "description_en": "Whoa! It already has a shopkeep and everything!",
+  "description_zh": "哇！这就已经有一个店主和货物！",
+  "rarity": "Common",
+  "category": "other",
+  "price": 20,
+  "tags": [
+    "commerce",
+    "novakid",
+    "novakidvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 50
+        },
+        {
+          "item": "logblock",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "General Store.md",
+  "quality_tier": "A"
+}

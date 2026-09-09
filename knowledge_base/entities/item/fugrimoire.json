@@ -1,0 +1,30 @@
+{
+  "entity_id": "fugrimoire",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tattered Grimoire",
+  "name_zh": "残破秘典",
+  "description_en": "Whispers from the cosmos compel you to write this text.",
+  "description_zh": "来自宇宙的低语迫使你写下这段文字。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 2600,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "theTome",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Tattered Grimoire.md",
+  "quality_tier": "A"
+}

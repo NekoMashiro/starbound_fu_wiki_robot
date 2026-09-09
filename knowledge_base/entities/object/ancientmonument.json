@@ -1,0 +1,37 @@
+{
+  "entity_id": "ancientmonument",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Monument",
+  "name_zh": "古代纪念碑",
+  "description_en": "A massive Ancient monument, clearly only part of a larger whole.",
+  "description_zh": "一座巨大的古代纪念碑，显然只是一座更大纪念碑的一部分。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "ancient"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 210000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

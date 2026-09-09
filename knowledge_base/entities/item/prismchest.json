@@ -1,0 +1,46 @@
+{
+  "entity_id": "prismchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Prism Shirt",
+  "name_zh": "棱镜衫",
+  "description_en": "Wrap up warm in the cold with this fleecy thermal jacket.",
+  "description_zh": "在冷天里穿上这件羊毛保暖夹克暖和下吧。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "prismChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoPrismTreasure",
+          "probability": 0.1157,
+          "count": 1
+        },
+        {
+          "pool": "prismTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0968,
+        0.1157
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

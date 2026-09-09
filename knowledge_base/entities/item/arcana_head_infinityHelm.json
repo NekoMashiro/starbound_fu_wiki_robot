@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_head_infinityHelm",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Infinity Helm",
+  "name_zh": "无限头盔",
+  "description_en": "Once worn by the guardian of time, the infinity helm rests eternal.",
+  "description_zh": "从须臾守卫佩戴之始，无限头盔就已为世间永恒。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 1200,
+  "tags": [],
+  "level": 1,
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        },
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 0.5,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

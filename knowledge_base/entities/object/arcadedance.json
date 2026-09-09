@@ -1,0 +1,32 @@
+{
+  "entity_id": "arcadedance",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Dance-Dance Machine",
+  "name_zh": "跳舞机",
+  "description_en": "Let's play some Dance-Dance!",
+  "description_zh": "来跳舞吧！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 240,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "electronic",
+    "musical"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0242,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

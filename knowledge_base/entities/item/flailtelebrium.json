@@ -1,0 +1,55 @@
+{
+  "entity_id": "flailtelebrium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Striker",
+  "name_zh": "月海打击者",
+  "description_en": "Laced with telebrium. Pretty.\r\nBreaks blocks\r\nInflicts Poisoned",
+  "description_zh": "",
+  "rarity": "common",
+  "category": "Striker",
+  "price": 90,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "energy",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 9.25,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

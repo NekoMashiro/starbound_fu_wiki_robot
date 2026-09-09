@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_augment_13",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Neocharge",
+  "name_zh": "增幅器 - 雷蓄",
+  "description_en": "Grants +20% resist to Electric, immunity to electrified and +60% energy.",
+  "description_zh": "赋予20%的电气抗性和免疫带电。+60%最大能量。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_refinedNoxion",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_refinedImmorite",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 20
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "elderbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Bed",
+  "name_zh": "远古床",
+  "description_en": "You could sleep on it. If you're brave enough.",
+  "description_zh": "如果你足够勇敢，你可以睡在上面。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 625,
+  "tags": [
+    "elder",
+    "bed",
+    "hideous"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 12
+        },
+        {
+          "item": "elderstonematerial",
+          "count": 8
+        },
+        {
+          "item": "agaranichor",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

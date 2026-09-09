@@ -1,0 +1,104 @@
+{
+  "entity_id": "arcana_misc_archaicCircuit",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Circuit",
+  "name_zh": "古朴回路",
+  "description_en": "A circuit created from an ancient Gilten tech blueprint.",
+  "description_zh": "一份诞生于古代镀人科技蓝图的回路。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 260,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "goldore",
+          "count": 1
+        },
+        {
+          "item": "feroziumore",
+          "count": 1
+        },
+        {
+          "item": "aegisaltore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 8,
+        "examples": [
+          "arcana_aurea_deco_19",
+          "arcana_aurea_deco_5",
+          "arcana_aurea_deco_6",
+          "arcana_aurea_deco_8",
+          "arcana_aurea_light_1"
+        ]
+      },
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "arcana_aurea_booster_1",
+          "arcana_aurea_deco_15",
+          "arcana_aurea_deco_16",
+          "arcana_aurea_deco_2",
+          "arcana_aurea_deco_3"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "arcana_archaic_storage_4",
+          "arcana_archaic_storage_5"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_beholder_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_beholder_chest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_beholder_head"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_tech_auricFeather"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "fishinglurelight",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Illuminated Lure",
+  "name_zh": "发光鱼饵",
+  "description_en": "A lure with a bright internal light for night fishing.",
+  "description_zh": "一个有着明亮的灯的鱼饵，适用于夜间钓鱼。",
+  "rarity": "Uncommon",
+  "category": "fishingLure",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 10
+        },
+        {
+          "item": "ff_plastic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fishingUpgrade",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.05,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0081,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

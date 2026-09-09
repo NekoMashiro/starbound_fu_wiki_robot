@@ -1,0 +1,148 @@
+{
+  "entity_id": "corruptionore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lasombrium",
+  "name_zh": "混乱原生质",
+  "description_en": "A strange entropy-riddled ore that bridges two realities together.",
+  "description_zh": "一种奇怪的、混乱无序的矿石，连接了两种现实。",
+  "rarity": "rare",
+  "category": "craftingOre",
+  "price": 300,
+  "tags": [
+    "reagent",
+    "norecycling",
+    "norecycler",
+    "nouncrafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_exspiravit_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "unusualRelic": {
+        "count": 1,
+        "examples": [
+          "carving"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "corruptionseed"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquiddarkwater"
+        ]
+      },
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "fu_byosteleporterprecursor"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "shadowspirits"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "corruptionseed",
+      "bonus": [
+        "liquiddarkwater",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "corruptionseed",
+      "bonus": [
+        "liquiddarkwater",
+        "unstableparticles"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "huntingDarkMetroid",
+          "probability": 0.2632,
+          "count": 10,
+          "monsters": [
+            "darkmetroid"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "corruptedforest",
+      "weight": 1.1
+    },
+    {
+      "biome": "corrupt",
+      "weight": 1.1
+    },
+    {
+      "biome": "corruptmoon",
+      "weight": 1.1
+    },
+    {
+      "biome": "corruptasteroid",
+      "weight": 0.6
+    },
+    {
+      "biome": "corruptmoonunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "aethercorelayer",
+      "weight": 0.5
+    },
+    {
+      "biome": "aetherseaunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "futentacleunderground",
+      "weight": 0.25
+    },
+    {
+      "biome": "fleshcorelayer",
+      "weight": 0.25
+    },
+    {
+      "biome": "ffshadow",
+      "weight": 0.25
+    }
+  ],
+  "wiki_ref": "Lasombrium.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "quietusshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Shotgun",
+  "name_zh": "寂灭霰弹枪",
+  "description_en": "A unique flavor of bioweapon that avoids violations of intergalactic law.\r\nReduces healing on targets by 30%. (10s)",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 560,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7.75,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "swtjc_ewg_bouncingorbitals",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

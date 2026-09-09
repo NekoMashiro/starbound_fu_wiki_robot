@@ -1,0 +1,48 @@
+{
+  "entity_id": "mechbodythelusian",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chitron Mech Body",
+  "name_zh": "Chitron机甲躯体",
+  "description_en": "Immune: Pressure, Extreme Heat/Cold, Mild Radiation/Poison, Proto, Lava/L.Nitro",
+  "description_zh": "免疫：压强，岩浆，极端炎热/寒冷，轻度毒素/辐射，原毒，岩浆/液氮",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 15200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodythelusianproto",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 25
+        },
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 8
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "nuclearcore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

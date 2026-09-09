@@ -1,0 +1,41 @@
+{
+  "entity_id": "avianWallLamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Avian Wall Lamp",
+  "name_zh": "翼族墙灯",
+  "description_en": "A beautiful wall-mounted lamp built from Avian crystal tech.",
+  "description_zh": "一盏用翼族水晶技制作的漂亮的壁挂式灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 55,
+  "tags": [
+    "avian",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blooddiamond",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

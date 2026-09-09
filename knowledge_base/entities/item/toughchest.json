@@ -1,0 +1,46 @@
+{
+  "entity_id": "toughchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tough Chest",
+  "name_zh": "结实的护胸",
+  "description_en": "A muscle suit for tough people!",
+  "description_zh": "给硬汉穿的筋肉服装！",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.1155,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.097,
+          "count": 1
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.0811,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0811,
+        0.097
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

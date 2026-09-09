@@ -1,0 +1,50 @@
+{
+  "entity_id": "stonebroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Broadsword",
+  "name_zh": "原始宽剑",
+  "description_en": "Great for early meat and hide gathering.",
+  "description_zh": "适合早期的肉类和兽皮收集。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "stone"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 6
+        },
+        {
+          "item": "plantfibre",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

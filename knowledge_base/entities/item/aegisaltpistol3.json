@@ -1,0 +1,55 @@
+{
+  "entity_id": "aegisaltpistol3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Pistol",
+  "name_zh": "守护团手枪",
+  "description_en": "A basic Protectorate sidearm. Reliable and compact.",
+  "description_zh": "一把标准、可靠、坚实耐用的守护团成员配枪。",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "aegisalt",
+    "protectorate"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "baseDps": 7.14,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aegisaltpistol2",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Protectorate Pistol.md",
+  "quality_tier": "A"
+}

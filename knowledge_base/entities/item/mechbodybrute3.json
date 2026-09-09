@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechbodybrute3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Brute III Mech Body",
+  "name_zh": "残暴机甲躯体 III",
+  "description_en": "Immune: Pressure, Extreme Heat/Cold/Radiation, Mild Poison, Proto, Lava/L.Nitro",
+  "description_zh": "免疫：压强，极端炎热/寒冷/辐射, 原毒, 轻度毒素, 岩浆/液氮",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 15200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodybrute2",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 15
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

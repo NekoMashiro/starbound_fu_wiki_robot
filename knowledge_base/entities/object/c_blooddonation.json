@@ -1,0 +1,37 @@
+{
+  "entity_id": "c_blooddonation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Drive",
+  "name_zh": "献血装置",
+  "description_en": "Encourage your tenants to donate blood and other stuff. For science, of course.\n-1 Happiness",
+  "description_zh": "鼓励你的租客捐献血液和其他东西，当然，一切为了科学、\n-1幸福",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "ff_plastic",
+          "count": 30
+        },
+        {
+          "item": "glass",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Blood Drive.md",
+  "quality_tier": "A"
+}

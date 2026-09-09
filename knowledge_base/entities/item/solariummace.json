@@ -1,0 +1,55 @@
+{
+  "entity_id": "solariummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solarium Mace",
+  "name_zh": "日耀钉头锤",
+  "description_en": "Honed into a perfect lethal shape.",
+  "description_zh": "这完美武器的攻击是极其致命的。",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "solarium"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 1,
+  "critBonus": 10,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

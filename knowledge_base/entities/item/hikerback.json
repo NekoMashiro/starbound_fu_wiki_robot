@@ -1,0 +1,46 @@
+{
+  "entity_id": "hikerback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hiker Backpack",
+  "name_zh": "徒步旅行者背包",
+  "description_en": "A backpack large enough to store all the essentials for exploring.",
+  "description_zh": "这个背包很大，足以装下所有探索时要用到的东西。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "forestChestTreasure",
+          "probability": 0.1469,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.1078,
+          "count": 1
+        },
+        {
+          "pool": "forestTreasure",
+          "probability": 0.1031,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1031,
+        0.1078
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

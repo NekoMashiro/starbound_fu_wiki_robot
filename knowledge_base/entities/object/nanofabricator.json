@@ -1,0 +1,45 @@
+{
+  "entity_id": "nanofabricator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tinkering Table",
+  "name_zh": "改造台",
+  "description_en": "This station helps with upgrading gear and creating ideas.",
+  "description_zh": "这个设备可以升级你的物品。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

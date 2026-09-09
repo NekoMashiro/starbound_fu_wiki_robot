@@ -1,0 +1,48 @@
+{
+  "entity_id": "craftingmedical",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Apothecary",
+  "name_zh": "药剂工作台",
+  "description_en": "The apothecary is used to produce healing items and medicine.",
+  "description_zh": "药剂工作台是用来生产一些医疗物品与药物的。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 75,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "bottle",
+          "count": 5
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

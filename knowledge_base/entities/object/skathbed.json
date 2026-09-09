@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Bed",
+  "name_zh": "绘世者床",
+  "description_en": "A sturdy bed, made by the Skath.",
+  "description_zh": "一张结实的床，由绘世者制作。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 135,
+  "tags": [
+    "skath",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "kelpfabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

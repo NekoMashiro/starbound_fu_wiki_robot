@@ -1,0 +1,41 @@
+{
+  "entity_id": "erchibudegg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erchibud Egg",
+  "name_zh": "Erchibud蛋",
+  "description_en": "Hatches into a tiny erchibud, a bouncing lunar creature.",
+  "description_zh": "可以孵化出小小的Erchibud，它是一只蹦蹦跳跳的月球生物。",
+  "rarity": "Rare",
+  "category": "farmBeastEgg",
+  "price": 100,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "erchiusomlette"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erchiushorrorTreasure",
+          "probability": 1.0,
+          "count": 3,
+          "monsters": [
+            "crystalboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

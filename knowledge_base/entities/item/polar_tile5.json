@@ -1,0 +1,36 @@
+{
+  "entity_id": "polar_tile5",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Thin Bamboo Stalk",
+  "name_zh": "薄薄的竹杆",
+  "description_en": "A thin bamboo tile.",
+  "description_zh": "一块薄薄的竹制瓦片。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_lootbox_thinBambooBundle",
+          "probability": 1.0,
+          "count": 400
+        },
+        {
+          "pool": "arcana_lootbox_arcanaStarterSet",
+          "probability": 1.0,
+          "count": 400
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

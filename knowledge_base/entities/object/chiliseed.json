@@ -1,0 +1,59 @@
+{
+  "entity_id": "chiliseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Chilli Seed",
+  "name_zh": "辣椒种子",
+  "description_en": "Hot, hot, hot fiesta!! Extra hot to anyone but the humans.",
+  "description_zh": "火辣，火辣，火辣的狂欢祭！！对人类之外的种族来说更加火辣。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 50,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 30
+        },
+        {
+          "item": "corefragmentore",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "ignuschiliseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "chiliHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

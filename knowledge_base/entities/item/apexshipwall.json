@@ -1,0 +1,58 @@
+{
+  "entity_id": "apexshipwall",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wall Panel",
+  "name_zh": "墙板",
+  "description_en": "A sleek metal wall panel.",
+  "description_zh": "一块光滑的金属墙面板。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.2727,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "apexshipwall"
+  ],
+  "quality_tier": "S"
+}

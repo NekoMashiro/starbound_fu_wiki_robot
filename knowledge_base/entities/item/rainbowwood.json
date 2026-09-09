@@ -1,0 +1,104 @@
+{
+  "entity_id": "rainbowwood",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rainbow Wood",
+  "name_zh": "彩虹木",
+  "description_en": "Rainbow Wood, the most colourful wood of all.",
+  "description_zh": "彩虹木。最多彩的一种木头。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 3,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "backwear": {
+        "count": 6,
+        "examples": [
+          "crayonblueback",
+          "crayongreenback",
+          "crayonorangeback",
+          "crayonpurpleback",
+          "crayonredback"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "rainbowbed",
+          "rainbowchair",
+          "rainbowtable"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "arkaentree"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "elemental_crafting_anemoneWood"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "rainbowchest"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "rainbowdoor"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "rainbowwoodblock"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.2421,
+          "count": 10.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.1573,
+          "count": 10
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.1316,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.1316,
+        0.1573
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "rainbowwoodblock"
+  ],
+  "quality_tier": "S"
+}

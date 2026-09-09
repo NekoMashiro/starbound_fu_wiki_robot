@@ -1,0 +1,58 @@
+{
+  "entity_id": "durasteelaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Axe",
+  "name_zh": "耐钢斧",
+  "description_en": "Few axes would surpass this masterpiece.",
+  "description_zh": "只有一小部分的武器能与之媲美。",
+  "rarity": "Uncommon",
+  "category": "axe",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 9.5,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "shroombasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mushroom Basket",
+  "name_zh": "蘑菇篮",
+  "description_en": "Mushrooms. The farmer who plants these is a fun guy.",
+  "description_zh": "蘑菇。种植这些植物的农民是个有趣的家伙。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "mushroompatch"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "shroom"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

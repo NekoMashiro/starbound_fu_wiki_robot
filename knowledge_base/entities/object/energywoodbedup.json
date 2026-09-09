@@ -1,0 +1,37 @@
+{
+  "entity_id": "energywoodbedup",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energy Wood Bed (Up)",
+  "name_zh": "能量木床（上）",
+  "description_en": "A bed made from energy wood.",
+  "description_zh": "由能量木制成的床。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "energywood",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "energywood",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

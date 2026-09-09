@@ -1,0 +1,27 @@
+{
+  "entity_id": "wagneridcard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wagner's ID card",
+  "name_zh": "瓦格纳的ID卡",
+  "description_en": "I guess that settles it. This...thing...was Wagner.",
+  "description_zh": "我想任务解决了，这应该就是……瓦格纳的ID卡，我是说曾经是。",
+  "rarity": "Common",
+  "category": "quest",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

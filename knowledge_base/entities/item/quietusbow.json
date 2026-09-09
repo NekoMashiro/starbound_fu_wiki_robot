@@ -1,0 +1,60 @@
+{
+  "entity_id": "quietusbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Bow",
+  "name_zh": "寂灭弓",
+  "description_en": "Laced with poisonous quantities of Quietus.",
+  "description_zh": "融入了让万籁俱寂的寂灭之毒。",
+  "rarity": "rare",
+  "category": "bow",
+  "price": 350,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "bioweapon",
+    "quietus"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 4,
+  "critBonus": 2,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_backpedal3",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "blooddiamond",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

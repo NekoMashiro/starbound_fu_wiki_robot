@@ -1,0 +1,64 @@
+{
+  "entity_id": "floralytplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floralyt Seed",
+  "name_zh": "小碎花种子",
+  "description_en": "One of the greatest healing agents known anywhere.",
+  "description_zh": "可以收获小碎花，食用后回复生命值。这是非常有效的治疗手段。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 44,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "phosphorus",
+          "count": 15
+        },
+        {
+          "item": "agaranichor",
+          "count": 7
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 16
+        },
+        {
+          "item": "petalblue",
+          "count": 30
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floralytHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

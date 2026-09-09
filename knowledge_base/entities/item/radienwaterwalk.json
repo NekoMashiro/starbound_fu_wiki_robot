@@ -1,0 +1,42 @@
+{
+  "entity_id": "radienwaterwalk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Water Repulsor",
+  "name_zh": "艾肯排水器",
+  "description_en": "Allows a X'i to walk on top of liquids.  +2 Gene production.",
+  "description_zh": "允许艾肯在液体的表面上漫步。\n+2基因产量",
+  "rarity": "common",
+  "category": "enviroProtectionPack",
+  "price": 1,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xi_bulb",
+          "count": 3
+        },
+        {
+          "item": "xibulb",
+          "count": 5
+        },
+        {
+          "item": "ff_silicon",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "tier1door",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Iron Door",
+  "name_zh": "铁门",
+  "description_en": "A basic iron door.",
+  "description_zh": "一扇基本的铁门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 40,
+  "tags": [
+    "door",
+    "tier1"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glassmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

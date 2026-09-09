@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_back_aeonCape",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Cape",
+  "name_zh": "古纪披风",
+  "description_en": "A cape that can withstand even the tide of time.",
+  "description_zh": "甚至能抵御时间长河冲刷的结实披风。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 1800,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        },
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 0.5,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

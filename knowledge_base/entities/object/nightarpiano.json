@@ -1,0 +1,48 @@
+{
+  "entity_id": "nightarpiano",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Resonance Organ",
+  "name_zh": "共鸣风琴",
+  "description_en": "A well-loved instrument popular among Nightar.",
+  "description_zh": "一种深受夜族喜爱的乐器。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 48
+        },
+        {
+          "item": "bone",
+          "count": 24
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

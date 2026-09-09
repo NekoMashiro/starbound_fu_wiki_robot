@@ -1,0 +1,48 @@
+{
+  "entity_id": "fuaetherstardesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Aether Desk",
+  "name_zh": "宇宙以太书桌",
+  "description_en": "A pretty study desk with room for storing supplies.",
+  "description_zh": "一个漂亮的书桌，提供了一个存储日常用品的空间。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 150,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 6
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 10
+        },
+        {
+          "item": "liquidaether",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

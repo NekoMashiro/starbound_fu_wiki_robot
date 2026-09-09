@@ -1,0 +1,54 @@
+{
+  "entity_id": "ghostlycollar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ghostly Collar",
+  "name_zh": "幽灵项圈",
+  "description_en": "A collar that gives your pet a ghostly visage.",
+  "description_zh": "一个能让你的宠物看起来像幽灵的项圈。",
+  "rarity": "Legendary",
+  "category": "petCollar",
+  "price": 7500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "phasematter",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 5
+        },
+        {
+          "item": "goldore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Treasured Trophies",
+      "station_zh": "珍稀战利品行",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

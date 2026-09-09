@@ -1,0 +1,142 @@
+{
+  "entity_id": "protocitebar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Bar",
+  "name_zh": "原体锭",
+  "description_en": "A bar of compressed protocite, found on Protoworlds.",
+  "description_zh": "一块压缩过的原体矿。\n被发现于原体世界。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 270,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protociteore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 8,
+        "examples": [
+          "bmcspeedscoutvisor",
+          "ff_slimehead2",
+          "fuinvaderhead",
+          "fujunkerhead",
+          "fuprotectorhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 6,
+        "examples": [
+          "ff_slimechest2",
+          "fuinvaderchest",
+          "fujunkerchest",
+          "fuprotectorchest",
+          "fusteampunkchest"
+        ]
+      },
+      "legarmour": {
+        "count": 6,
+        "examples": [
+          "ff_slimelegs2",
+          "fuinvaderpants",
+          "fujunkerpants",
+          "fuprotectorpants",
+          "fusteampunklegs"
+        ]
+      },
+      "pistol": {
+        "count": 4,
+        "examples": [
+          "chargepistol",
+          "fucarbonhandcannon",
+          "isn_plasmapistol",
+          "pistolprotofu"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "advancealloy",
+          "fuprocessor",
+          "hydroliumcircuitry"
+        ]
+      },
+      "machinePistol": {
+        "count": 3,
+        "examples": [
+          "fuenergyblaster",
+          "mobiuspistol",
+          "protopistol"
+        ]
+      },
+      "mechChip": {
+        "count": 3,
+        "examples": [
+          "mechenergyfield3",
+          "mechmasscancel2",
+          "mechmobility3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "batterypack_protocyte",
+          "quiverbackenergy"
+        ]
+      }
+    },
+    "total": 61
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "protociteore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "protociteore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "protociteore"
+    }
+  ],
+  "wiki_ref": "Protocite Bar.md",
+  "quality_tier": "S"
+}

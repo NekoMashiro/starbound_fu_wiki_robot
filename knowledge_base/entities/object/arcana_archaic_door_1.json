@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_archaic_door_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Door",
+  "name_zh": "古朴门",
+  "description_en": "An ancient door with golden glass embedded within.",
+  "description_zh": "嵌入了金色玻璃的古老门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 115,
+  "tags": [
+    "archaic",
+    "gilten",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

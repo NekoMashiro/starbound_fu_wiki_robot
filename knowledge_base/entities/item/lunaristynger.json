@@ -1,0 +1,55 @@
+{
+  "entity_id": "lunaristynger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Stynger",
+  "name_zh": "月晶发射器",
+  "description_en": "You heard of crystal storms? This makes them.",
+  "description_zh": "你听说过水晶风暴吗？那就亲自尝试一下。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 70,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "lunari",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 3,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

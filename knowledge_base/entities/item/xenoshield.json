@@ -1,0 +1,51 @@
+{
+  "entity_id": "xenoshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X10 Shield",
+  "name_zh": "X10盾",
+  "description_en": "+0.05 HP Regen, -20% Fall Damage",
+  "description_zh": "生命恢复速度+0.05%，掉落伤害-20%",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "phasematter",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

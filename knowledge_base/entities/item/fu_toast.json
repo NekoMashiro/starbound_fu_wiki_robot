@@ -1,0 +1,39 @@
+{
+  "entity_id": "fu_toast",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Yeah Toast",
+  "name_zh": "烤面包",
+  "description_en": "You know what they say, all toasters toast toast.\n+25% HP (3m) Type: Grain",
+  "description_zh": "常言，烤面包机都只烤吐司面包。\n+25%HP(持续3m)\n类型：谷物",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hi-tech Toaster",
+      "station_zh": "高科技烤吐司机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "toastburnt"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

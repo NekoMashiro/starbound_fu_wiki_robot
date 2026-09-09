@@ -1,0 +1,46 @@
+{
+  "entity_id": "raptoregg2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dinosaur Egg",
+  "name_zh": "恐龙蛋",
+  "description_en": "Jammed full of genetic materials.",
+  "description_zh": "这里面充满了遗传物质。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "raptornestLoot",
+          "probability": 0.178,
+          "count": 1.9
+        },
+        {
+          "pool": "dinoLoot",
+          "probability": 0.0441,
+          "count": 1,
+          "monsters": [
+            "fubahamut",
+            "furaptor",
+            "furaptor10",
+            "furaptor11",
+            "furaptor2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0441,
+        0.178
+      ]
+    }
+  },
+  "wiki_ref": "Dinosaur Egg.md",
+  "quality_tier": "A"
+}

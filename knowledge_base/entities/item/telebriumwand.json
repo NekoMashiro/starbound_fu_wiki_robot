@@ -1,0 +1,50 @@
+{
+  "entity_id": "telebriumwand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Wand",
+  "name_zh": "月海魔杖",
+  "description_en": "Toxifies the air, poisoning enemies.",
+  "description_zh": "毒害空气，毒害敌人。",
+  "rarity": "common",
+  "category": "wand",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

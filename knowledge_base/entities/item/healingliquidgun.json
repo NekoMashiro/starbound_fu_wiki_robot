@@ -1,0 +1,55 @@
+{
+  "entity_id": "healingliquidgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Healing Water Gun",
+  "name_zh": "生命之水手枪",
+  "description_en": "This gun shoots healing water. Nifty.",
+  "description_zh": "这把枪发射生命之水。真漂亮。",
+  "rarity": "uncommon",
+  "category": "liquidGun",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidhealing",
+          "count": 20
+        },
+        {
+          "item": "miraclegrass",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

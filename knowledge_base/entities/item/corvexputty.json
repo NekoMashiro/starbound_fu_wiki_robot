@@ -1,0 +1,40 @@
+{
+  "entity_id": "corvexputty",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corvex Putty",
+  "name_zh": "防滑粉末",
+  "description_en": "Coat yourself in no-stick putty to prevent slipping and sticking.",
+  "description_zh": "用粉末涂抹自己，防止滑倒或被黏住。",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 255,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corvex",
+          "count": 2
+        },
+        {
+          "item": "magnesiumsulfate",
+          "count": 2
+        },
+        {
+          "item": "liquidblacktar",
+          "count": 5
+        },
+        {
+          "item": "liquidorganicsoup",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "健康中心",
+      "station_zh": "健康中心",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

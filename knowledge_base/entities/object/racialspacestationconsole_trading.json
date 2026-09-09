@@ -1,0 +1,41 @@
+{
+  "entity_id": "racialspacestationconsole_trading",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Racial Space Station Terminal (trading)",
+  "name_zh": "种族空间站终端(交易)",
+  "description_en": "A terminal used to interact with this space station.",
+  "description_zh": "一个用于与空间站互动的终端。",
+  "rarity": "Common",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 130000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Racial Space Station Terminal (trading).md",
+  "quality_tier": "A"
+}

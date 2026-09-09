@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmspikefist2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Smasher Mech Arm",
+  "name_zh": "重击机械臂",
+  "description_en": "Causes massive impact damage.",
+  "description_zh": "造成巨大的撞击伤害。",
+  "rarity": "uncommon",
+  "category": "mechPart",
+  "price": 3800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 20
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

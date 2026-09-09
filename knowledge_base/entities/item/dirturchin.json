@@ -1,0 +1,63 @@
+{
+  "entity_id": "dirturchin",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dirturchin",
+  "name_zh": "泥海胆",
+  "description_en": "Kind of squidgy and a bit tasteless. Type: Vegetable",
+  "description_zh": "干巴巴的。没有什么味道。\n类型：蔬菜reset;",
+  "rarity": "Common",
+  "category": "food",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dirturchinbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "soggysack",
+          "stuffeddirturchin"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "dirturchinbasket"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dirturchinHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "stuffeddirturchin",
+    "soggysack"
+  ],
+  "quality_tier": "S"
+}

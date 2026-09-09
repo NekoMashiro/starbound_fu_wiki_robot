@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_tech_nobleWalkers",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Noble Walkers",
+  "name_zh": "鳌行象步",
+  "description_en": "Passively grants +20% max HP and -30% run speed. [Use to gain a new type of tech!]",
+  "description_zh": "被动：+20%最大生命值，但是会-30%奔跑速度。[使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 12
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

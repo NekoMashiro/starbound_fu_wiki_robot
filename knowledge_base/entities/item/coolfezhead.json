@@ -1,0 +1,102 @@
+{
+  "entity_id": "coolfezhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cool Fez",
+  "name_zh": "酷毡帽",
+  "description_en": "Fezzes are...  neat!",
+  "description_zh": "这些毡帽是…整洁的！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 13,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "humancampChestTreasure",
+          "probability": 0.0714,
+          "count": 1
+        },
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.0279,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0007,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0714
+      ]
+    },
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.0196,
+          "count": 1
+        },
+        {
+          "pool": "humancampTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0051,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0026,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0018,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0196
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.0025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

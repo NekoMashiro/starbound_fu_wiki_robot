@@ -1,0 +1,76 @@
+{
+  "entity_id": "cheese",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cheese",
+  "name_zh": "奶酪",
+  "description_en": "A wedge of cheese. Type: Dairy",
+  "description_zh": "一块楔形奶酪。\n类型：蛋奶",
+  "rarity": "Common",
+  "category": "food",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 13,
+        "examples": [
+          "8gbpizzap",
+          "bluecheese",
+          "cheeseburger",
+          "erchiusomlette",
+          "mushroomquiche"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "blueprints_unlocked": [
+    "pizzaslice"
+  ],
+  "quality_tier": "S"
+}

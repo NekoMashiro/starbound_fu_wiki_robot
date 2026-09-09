@@ -1,0 +1,61 @@
+{
+  "entity_id": "cutebow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Longbow",
+  "name_zh": "可爱长弓",
+  "description_en": "Counts as 'energy' for set bonuses",
+  "description_zh": "能量武器",
+  "rarity": "rare",
+  "category": "bow",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 5,
+  "critBonus": 3,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

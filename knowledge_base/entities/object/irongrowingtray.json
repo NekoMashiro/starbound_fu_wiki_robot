@@ -1,0 +1,47 @@
+{
+  "entity_id": "irongrowingtray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heatlamp Tray",
+  "name_zh": "热灯托盘",
+  "description_en": "A heatlamp powered growing tray. Requires 3 seeds and additional water. Requires 1W power to increase production. Scan for info.",
+  "description_zh": "一个用热灯供电的生长盘。需要3粒种子和额外的水。\n需要1W电力来增加产量。\n扫描以查看更多信息。",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 4
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Heatlamp Tray.md",
+  "quality_tier": "A"
+}

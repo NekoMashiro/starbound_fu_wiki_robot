@@ -1,0 +1,53 @@
+{
+  "entity_id": "bamboobed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bamboo Bed",
+  "name_zh": "竹床",
+  "description_en": "A comfortable bamboo bed. Looks pretty sleek.",
+  "description_zh": "一个舒适的竹床。看起来很光滑。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 1500,
+  "tags": [
+    "thickjungle",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_bambooshoot",
+          "count": 12
+        },
+        {
+          "item": "fabric",
+          "count": 12
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

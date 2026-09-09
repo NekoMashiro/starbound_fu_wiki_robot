@@ -1,0 +1,52 @@
+{
+  "entity_id": "oculemonade",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Oculemonade",
+  "name_zh": "眼球柠檬汁",
+  "description_en": "Nothing better on a hot day than a cool, refreshing can of Oculemonade.",
+  "description_zh": "没有比在大热天来一罐冰镇的眼球柠檬汁更爽的事了。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemonadeobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "oculemonadeobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vendingtreasure",
+          "probability": 0.325,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

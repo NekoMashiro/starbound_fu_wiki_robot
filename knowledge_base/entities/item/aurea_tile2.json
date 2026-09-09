@@ -1,0 +1,34 @@
+{
+  "entity_id": "aurea_tile2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Minimal Ark Panel",
+  "name_zh": "极简的方舟嵌板",
+  "description_en": "A durable white smooth panel tile, used to construct complex buildings.",
+  "description_zh": "用于建造复杂耐用建筑的白色斜面板瓦。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

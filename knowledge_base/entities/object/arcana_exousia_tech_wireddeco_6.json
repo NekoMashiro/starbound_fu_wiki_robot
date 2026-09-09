@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_exousia_tech_wireddeco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Exousia Board",
+  "name_zh": "威权帝国LED立牌",
+  "description_en": "A LED display board showing the Exousia Empire.",
+  "description_zh": "显示威权帝国力量的 LED 显示板。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 300,
+  "tags": [
+    "light",
+    "exousia",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

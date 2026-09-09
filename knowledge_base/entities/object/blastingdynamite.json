@@ -1,0 +1,40 @@
+{
+  "entity_id": "blastingdynamite",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blasting Dynamite",
+  "name_zh": "爆破炸药",
+  "description_en": "A compact, specially crafted explosive for mining. Detonation requires impact.",
+  "description_zh": "一种用于采矿的特制小型爆炸物。注意安全。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 250,
+  "tags": [
+    "human",
+    "humanbunker",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ammoniumsulfate",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        },
+        {
+          "item": "ff_plastic",
+          "count": 5
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

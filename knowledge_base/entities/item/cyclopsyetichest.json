@@ -1,0 +1,46 @@
+{
+  "entity_id": "cyclopsyetichest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cyclops Yeti Shirt",
+  "name_zh": "独眼雪巨人衬衫",
+  "description_en": "A chestpiece made from a cyclops yeti.",
+  "description_zh": "以独眼雪巨人制成的胸甲。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceChestTreasure",
+          "probability": 0.1003,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "iceTreasure",
+          "probability": 0.0545,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0545,
+        0.0652
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

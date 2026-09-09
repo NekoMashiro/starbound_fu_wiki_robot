@@ -1,0 +1,59 @@
+{
+  "entity_id": "rawtentacle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Tentacle",
+  "name_zh": "生触手",
+  "description_en": "A raw tentacle. Might be more edible if it's cooked... Type: Raw Meat",
+  "description_zh": "一条生触手，或许我得先把这玩意弄熟了再吃？\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "tentacleblock",
+          "tentaclepipe"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedtentacle"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "slew"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

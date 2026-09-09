@@ -1,0 +1,54 @@
+{
+  "entity_id": "outpostairlockrailhatchsmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Airlock Rail Hatch",
+  "name_zh": "小型气闸轨道舱门",
+  "description_en": "A small airlock hatch that has a built-in rail connector for use with elevators.",
+  "description_zh": "一个小型的气闸舱门，有一个内置的轨道连接器，可与电梯一起使用。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 150,
+  "tags": [
+    "outpost",
+    "door",
+    "rails"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

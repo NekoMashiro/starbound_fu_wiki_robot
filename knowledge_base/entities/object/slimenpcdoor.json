@@ -1,0 +1,39 @@
+{
+  "entity_id": "slimenpcdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Door",
+  "name_zh": "史莱姆门",
+  "description_en": "Door made of slime.",
+  "description_zh": "用史莱姆做的门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "slimenpc",
+    "slimeperson",
+    "slimevillage",
+    "door",
+    "slimenpchuman",
+    "slime"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 5
+        },
+        {
+          "item": "slimegoo",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

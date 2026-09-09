@@ -1,0 +1,60 @@
+{
+  "entity_id": "commonsniperrifle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Semi-Automatic Rifle",
+  "name_zh": "普通半自动步枪",
+  "description_en": "A traditional favorite of snipers and marksmen. Ideal for covering long distances.",
+  "description_zh": "一支传统狙击手和射手的最爱，是长距离掩护的理想选择。",
+  "rarity": "Common",
+  "category": "sniperRifle",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    6.5,
+    8
+  ],
+  "critChance": 2,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "testarenaRanged",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "extrachallengelabsniper",
+          "probability": 0.75,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.75,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

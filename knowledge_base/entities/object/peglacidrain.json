@@ -1,0 +1,59 @@
+{
+  "entity_id": "peglacidrain",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sturdy Drain",
+  "name_zh": "坚固的排水管",
+  "description_en": "These powerful pumps drain water and pump it into the purification system.",
+  "description_zh": "这些强大的水泵排出水并将其泵入净化系统。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

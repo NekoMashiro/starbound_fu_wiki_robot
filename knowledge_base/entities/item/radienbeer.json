@@ -1,0 +1,36 @@
+{
+  "entity_id": "radienbeer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Ale",
+  "name_zh": "艾肯扎啤",
+  "description_en": "A mug of irradium beer. Unsafe for most species\nDrunk (25s)\nHeal 125 (10s)",
+  "description_zh": "一杯镭啤酒。对大多数物种都不安全。\n醉酒(持续25s)\n治疗125点生命值(10s内)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "caramel",
+          "count": 2
+        },
+        {
+          "item": "amberrum",
+          "count": 1
+        },
+        {
+          "item": "liquidirradium",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,104 @@
+{
+  "entity_id": "fugaussrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gauss Rifle",
+  "name_zh": "高斯步枪",
+  "description_en": "Brutally effective magnet-based weaponry.\r\nArea damage\r\nHunting weapon",
+  "description_zh": "极其有效的磁性武器\n范围伤害\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon",
+    "gauss",
+    "gauss"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.2,
+  "critChance": 1,
+  "critBonus": 3,
+  "altAbilityType": "spray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_gaussturret",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 8
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "vehicleController": {
+        "count": 1,
+        "examples": [
+          "fusubcontroller2"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_gaussturret"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fugaussmecha"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "graphenechest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Graphene Jacket",
+  "name_zh": "石墨夹克",
+  "description_en": "Set Bonuses:\r\n Energy weapons: Damage x1.25\r\n Immune: Stun, Electrify",
+  "description_zh": "套装奖励：\n 能量武器: 伤害x1.25\n 免疫: 击晕, 带电",
+  "rarity": "uncommon",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "ff_silicon",
+          "count": 8
+        },
+        {
+          "item": "durasteelbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

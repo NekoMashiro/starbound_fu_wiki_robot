@@ -1,0 +1,56 @@
+{
+  "entity_id": "tritaniumshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tritanium Shortspear",
+  "name_zh": "三相短矛",
+  "description_en": "A marvelously stabby device.\r\nInflicts Electrified\r\nHunting weapon",
+  "description_zh": "一个非常锋利的装置。\n感电；\n狩猎武器",
+  "rarity": "rare",
+  "category": "shortspear",
+  "price": 530,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "tritanium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

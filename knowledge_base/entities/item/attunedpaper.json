@@ -1,0 +1,232 @@
+{
+  "entity_id": "attunedpaper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Attuned Papyrus",
+  "name_zh": "调和纸草",
+  "description_en": "Able to hold the energy of the cosmos.",
+  "description_zh": "能够容纳宇宙的能量。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 40,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nicepaper",
+          "count": 10
+        },
+        {
+          "item": "aliencompound",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Great At Parties": {
+        "count": 1,
+        "examples": [
+          "bloodritual"
+        ]
+      },
+      "unusualRelic": {
+        "count": 1,
+        "examples": [
+          "madequation"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "strangetome"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 30,
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "evilbooktreasure5",
+          "probability": 0.0516,
+          "count": 15
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.002,
+          "count": 25
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0016,
+          "count": 25,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.001,
+          "count": 25
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0007,
+          "count": 25
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0516
+      ]
+    },
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0083,
+          "count": 25
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0009,
+          "count": 25
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0003,
+          "count": 25
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0002,
+          "count": 25
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0002,
+          "count": 25
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0083
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0026,
+          "count": 25.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0025,
+          "count": 25.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0004,
+          "count": 25.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0002,
+          "count": 25.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0002,
+          "count": 25.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0026
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 25.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 25.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 25.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 25
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

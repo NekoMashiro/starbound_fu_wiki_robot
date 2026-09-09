@@ -1,0 +1,53 @@
+{
+  "entity_id": "slimepersoncompost",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compost Bin",
+  "name_zh": "肥料箱",
+  "description_en": "A compost bin. Things rot faster in here.",
+  "description_zh": "一个肥料箱。这里的东西腐烂得更快。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "slimeperson",
+    "slimenpchuman",
+    "slimenpc",
+    "storage",
+    "farming"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 5
+        },
+        {
+          "item": "plantfibre",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Compost Bin.md",
+  "quality_tier": "A"
+}

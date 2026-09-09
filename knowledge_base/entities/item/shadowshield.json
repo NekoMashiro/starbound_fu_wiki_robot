@@ -1,0 +1,61 @@
+{
+  "entity_id": "shadowshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Shield",
+  "name_zh": "暗影盾",
+  "description_en": "+3 Defense\r\nImmune: Acid",
+  "description_zh": "防御+3；\n免疫酸蚀",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "matteritem",
+          "count": 8
+        },
+        {
+          "item": "agaranichor",
+          "count": 24
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 36
+        },
+        {
+          "item": "phasematter",
+          "count": 12
+        },
+        {
+          "item": "shadowgasliquid",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Shadow Shield.md",
+  "quality_tier": "A"
+}

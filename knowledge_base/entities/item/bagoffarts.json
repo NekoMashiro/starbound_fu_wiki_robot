@@ -1,0 +1,59 @@
+{
+  "entity_id": "bagoffarts",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bag of Farts",
+  "name_zh": "放屁袋",
+  "description_en": "Uh.....",
+  "description_zh": "啊这....",
+  "rarity": "legendary",
+  "category": "fuel",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0404,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0391,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0391,
+        0.0404
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0245,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "madnessBrainHarvestingPlasma",
+          "probability": 0.01,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Bag of Farts.md",
+  "quality_tier": "A"
+}

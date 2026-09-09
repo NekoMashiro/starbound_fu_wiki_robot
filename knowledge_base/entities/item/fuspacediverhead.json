@@ -1,0 +1,47 @@
+{
+  "entity_id": "fuspacediverhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Space Diver Helmet",
+  "name_zh": "太空潜水头盔",
+  "description_en": "Set Bonuses:\r\n +20% Knockback Resist, 2x Breath\r\n Harpoon Gun: Damage x1.2",
+  "description_zh": "套装奖励:\n +20% 击退抗性, 2x呼吸\n 鱼叉枪: 伤害 x1.2",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 100,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

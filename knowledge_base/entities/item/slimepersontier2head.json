@@ -1,0 +1,36 @@
+{
+  "entity_id": "slimepersontier2head",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Face Protection Gems",
+  "name_zh": "史莱姆护脸宝石组",
+  "description_en": "Small gems made of slime which provide limited protection.",
+  "description_zh": "一些用粘胶制成的小宝石，能提供有限的保护。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 480,
+  "tags": [
+    "tier1armour",
+    "balanced"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegem",
+          "count": 5
+        },
+        {
+          "item": "slimepersontier1head",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,104 @@
+{
+  "entity_id": "fu_portablewaterpumpback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Portable Water Pump",
+  "name_zh": "便携式水泵",
+  "description_en": "A water pump that can be worn on your back.",
+  "description_zh": "一种随时收集环境中液体的便携式水泵，它会持续地在你的背包里生产水。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidpumpwell",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1996,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0159,
+        0.1996
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0488,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Portable Water Pump.md",
+  "quality_tier": "S"
+}

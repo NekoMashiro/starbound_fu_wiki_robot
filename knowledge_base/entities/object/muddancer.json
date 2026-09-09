@@ -1,0 +1,32 @@
+{
+  "entity_id": "muddancer",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Muddancer",
+  "name_zh": "舞泥虫",
+  "description_en": "These bugs can be seen dancing at dusk.",
+  "description_zh": "能看到这种虫子在昏暗中飞舞。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "muddancer",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "muddancer"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

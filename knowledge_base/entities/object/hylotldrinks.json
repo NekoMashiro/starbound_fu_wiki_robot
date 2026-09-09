@@ -1,0 +1,31 @@
+{
+  "entity_id": "hylotldrinks",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Blue Vending Machine",
+  "name_zh": "蓝色自动售货机",
+  "description_en": "A vending machine filled with popular beverages.",
+  "description_zh": "一台装满受鲛人喜爱的饮料的自动售货机。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 135,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "commerce"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0605,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

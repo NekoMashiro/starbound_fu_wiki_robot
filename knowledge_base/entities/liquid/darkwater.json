@@ -1,0 +1,40 @@
+{
+  "entity_id": "darkwater",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "darkwater",
+  "name_zh": "",
+  "description_en": "This probably isn't swim-safe.",
+  "description_zh": "在这里游泳很可能不安全！",
+  "status_effects": [
+    "swimming",
+    "darkwaterpoison"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "penumbradirt"
+    },
+    {
+      "liquid": 6,
+      "materialResult": "penumbrastone"
+    },
+    {
+      "liquid": 41,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 42,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 49,
+      "materialResult": "retexaetherdust"
+    },
+    {
+      "liquid": 50,
+      "materialResult": "retexaetherdust"
+    }
+  ],
+  "quality_tier": "C"
+}

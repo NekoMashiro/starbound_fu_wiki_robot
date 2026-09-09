@@ -1,0 +1,71 @@
+{
+  "entity_id": "nissseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Niss Seed",
+  "name_zh": "尼斯花种子",
+  "description_en": "Terrible taste, but utterly immune to tar, mud and clay.",
+  "description_zh": "这种植物会散发出难闻的气味。可以收获尼斯花，食用后会免疫焦油、泥、黏土。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 144
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 6
+        },
+        {
+          "item": "sulphur",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "itaseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "nissHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

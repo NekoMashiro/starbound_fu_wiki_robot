@@ -1,0 +1,42 @@
+{
+  "entity_id": "mechassemblystation",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mech Assembly Station",
+  "name_zh": "机甲装配站",
+  "description_en": "Equip and customise your personal mech!",
+  "description_zh": "装备和定制您的个人机甲！",
+  "rarity": "Legendary",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "outpost"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

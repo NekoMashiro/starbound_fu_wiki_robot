@@ -1,0 +1,58 @@
+{
+  "entity_id": "advalloyshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Shotgun",
+  "name_zh": "合金霰弹枪",
+  "description_en": "Super-quality shotgun with a hair trigger.",
+  "description_zh": "品质极高的霰弹枪，带有一个微力扳机。",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 560,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.33,
+  "critChance": 4,
+  "critBonus": 6,
+  "altAbilityType": "swtjc_ewg_slowgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

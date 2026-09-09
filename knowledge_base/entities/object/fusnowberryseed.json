@@ -1,0 +1,75 @@
+{
+  "entity_id": "fusnowberryseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snowberry Seed",
+  "name_zh": "雪浆果种子",
+  "description_en": "Resistant to snow and ice.",
+  "description_zh": "可以收获雪浆果，食用后会免疫雪、雪泥、冰。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 17,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "kiwiseed",
+          "count": 3
+        },
+        {
+          "item": "cryonicextract",
+          "count": 5
+        },
+        {
+          "item": "petalblue",
+          "count": 20
+        },
+        {
+          "item": "petalyellow",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "blizzberryseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fusnowberryseedHarvest",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

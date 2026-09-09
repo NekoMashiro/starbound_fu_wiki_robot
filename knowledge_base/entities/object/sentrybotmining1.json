@@ -1,0 +1,59 @@
+{
+  "entity_id": "sentrybotmining1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ore Drone I",
+  "name_zh": "矿石机器人 I",
+  "description_en": "Will scan ores up to Tier 3.",
+  "description_zh": "可扫描岩层内T3以下矿石。",
+  "rarity": "uncommon",
+  "category": "decorative",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "oredetector1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 172
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Ore Drone I.md",
+  "quality_tier": "A"
+}

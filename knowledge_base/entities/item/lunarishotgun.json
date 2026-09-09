@@ -1,0 +1,55 @@
+{
+  "entity_id": "lunarishotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Shotgun",
+  "name_zh": "月晶霰弹枪",
+  "description_en": "Scattered lunari blasts with wide reach.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "分散的宽范围弓形爆炸。\n照亮区域\n发射物长时间存在",
+  "rarity": "common",
+  "category": "shotgun",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 6.8,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "icemist",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

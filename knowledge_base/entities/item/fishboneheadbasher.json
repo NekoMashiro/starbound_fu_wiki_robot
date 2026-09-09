@@ -1,0 +1,60 @@
+{
+  "entity_id": "fishboneheadbasher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fishbone Basher",
+  "name_zh": "鱼骨痛击者",
+  "description_en": "Fishbone, sea-steel and tears.",
+  "description_zh": "鱼骨，金属，还有泪水。",
+  "rarity": "common",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon",
+    "bone"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 13.1,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "blinkexplosion",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbon",
+          "count": 12
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 24
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

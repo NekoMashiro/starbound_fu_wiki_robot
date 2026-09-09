@@ -1,0 +1,64 @@
+{
+  "entity_id": "crewcontract_magicalgirl",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magical Girl Contract",
+  "name_zh": "合同：魔法少女",
+  "description_en": "A magic girl with a staff. Provides Shadow Taint and Caliginous Gas Immunity, and 5% reduced fuel costs.",
+  "description_zh": "雇用一名带着法杖的魔法少女。赋予你暗影污染及暗影气体免疫，且降低5%的飞船燃料消耗。",
+  "rarity": "Legendary",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 5,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 3000
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 200
+        },
+        {
+          "item": "prisilitestar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dollfaceTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "dollboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

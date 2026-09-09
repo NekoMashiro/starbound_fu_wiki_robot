@@ -1,0 +1,58 @@
+{
+  "entity_id": "yokataf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Yokat Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Greedy and sly in nature. If disturbed whilst sneaking it will give you the evil eye.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "yokatVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "yokatTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "electricyokat",
+            "shadowyokat",
+            "yokat"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "yokatHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "electricyokat",
+            "shadowyokat",
+            "yokat"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

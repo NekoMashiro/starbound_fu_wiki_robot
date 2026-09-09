@@ -1,0 +1,101 @@
+{
+  "entity_id": "milk",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Milk",
+  "name_zh": "牛奶",
+  "description_en": "Mmm, milk. Type: Dairy",
+  "description_zh": "嗯，牛奶。\n类型：蛋奶",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "milkcarton",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 46,
+        "examples": [
+          "applecinnamonpie",
+          "avesmingoicecream",
+          "awfuloffalsmoothie",
+          "baconpancakes",
+          "bananacreamdonut"
+        ]
+      },
+      "drink": {
+        "count": 9,
+        "examples": [
+          "automatoshake",
+          "bananamilk",
+          "filteredcoffee",
+          "flatwhite",
+          "mocha"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cheese"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "milkcarton"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "polymer"
+        ]
+      }
+    },
+    "total": 58
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mooshiHarvest",
+          "probability": 0.95,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "porridge",
+    "flatwhite",
+    "cheese"
+  ],
+  "quality_tier": "S"
+}

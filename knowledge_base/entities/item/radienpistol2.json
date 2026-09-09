@@ -1,0 +1,56 @@
+{
+  "entity_id": "radienpistol2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Acid Gun",
+  "name_zh": "艾肯酸液枪",
+  "description_en": "A strange X'i-formed weapon.\r\nEats Tiles\r\nPoison Rad Gas",
+  "description_zh": "一种奇怪的X’i制式武器。\n腐蚀地面\n放射性毒气",
+  "rarity": "uncommon",
+  "category": "bioweapon",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "radien",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 4,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 20
+        },
+        {
+          "item": "volatilepowder",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "X'ian Acid Gun.md",
+  "quality_tier": "A"
+}

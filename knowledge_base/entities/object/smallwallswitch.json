@@ -1,0 +1,50 @@
+{
+  "entity_id": "smallwallswitch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Small Wall Switch",
+  "name_zh": "小型墙壁开关",
+  "description_en": "Flippin' awesome! Can even be toggled when its input node is /'on'/.",
+  "description_zh": "真是太棒了，切换为/ON/时就可以激活接入的节点。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 2,
+        "examples": [
+          "swtjc_wp_advancedswitch",
+          "swtjc_wp_advancedswitch_nolatch"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

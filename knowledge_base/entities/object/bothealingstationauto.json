@@ -1,0 +1,36 @@
+{
+  "entity_id": "bothealingstationauto",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Automatic Bot Healer",
+  "name_zh": "自动机器修复仪",
+  "description_en": "This bot repair station is used to repair compressed robots, and is automated and Item Network capable.",
+  "description_zh": "这个机器人修复站可以用来修复被损坏的机器人。\n适用于自动化物品传输网络。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bothealingstation",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "network_containerlink",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

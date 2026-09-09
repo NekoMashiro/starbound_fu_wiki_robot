@@ -1,0 +1,30 @@
+{
+  "entity_id": "pieobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pie",
+  "name_zh": "馅饼",
+  "description_en": "A pie with a delightfully flakey crust.",
+  "description_zh": "一块令人愉快的片状外壳的馅饼。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "ff_bubblegun2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Jake",
+  "name_zh": "杰克",
+  "description_en": "It looks like a harmless bubble gun. It isn't.\r\nInflicts radiation burn",
+  "description_zh": "它看起来像一个无害的泡泡枪。 事实并非如此。\n附加辐射烧伤效果",
+  "rarity": "legendary",
+  "category": "pistol",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.75,
+  "critChance": 1,
+  "critBonus": 2,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0462,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

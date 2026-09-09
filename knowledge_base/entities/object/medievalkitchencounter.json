@@ -1,0 +1,46 @@
+{
+  "entity_id": "medievalkitchencounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medieval Kitchen Counter",
+  "name_zh": "中世纪厨房柜台",
+  "description_en": "It's recommended when chopping currentcorn to wear insulated gloves.",
+  "description_zh": "切碎玉米时，建议戴上绝缘手套。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

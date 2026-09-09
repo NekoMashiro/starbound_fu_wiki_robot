@@ -1,0 +1,34 @@
+{
+  "entity_id": "mwhaddon_anarkyonHandcannon",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Anarkyon Handcannon",
+  "name_zh": "黑鸩党手炮",
+  "description_en": "A handcannon used by Anarkyons.",
+  "description_zh": "黑鸩党使用的手炮。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 2100,
+  "tags": [
+    "weapon",
+    "ranged"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "arcana_chargefire",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

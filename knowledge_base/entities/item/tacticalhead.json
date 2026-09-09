@@ -1,0 +1,55 @@
+{
+  "entity_id": "tacticalhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost-Weave Mask",
+  "name_zh": "幽灵面具",
+  "description_en": "Set Bonuses:\r\n Health x1.05\r\n (Machine) Pistol: Damage x1.25\r\n 20% chance for bonus defense below 33% Health",
+  "description_zh": "套装奖励：\n 最大HPx1.05\n机枪/手枪: 伤害x1.25\n HP低于33时有20% 的几率格挡伤害",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 3
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 7
+        },
+        {
+          "item": "monsterplating",
+          "count": 2
+        },
+        {
+          "item": "blooddiamond",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

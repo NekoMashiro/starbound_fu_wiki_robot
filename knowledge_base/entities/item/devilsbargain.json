@@ -1,0 +1,69 @@
+{
+  "entity_id": "devilsbargain",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Devil's Bargain",
+  "name_zh": "恶魔契约药剂",
+  "description_en": "-25% HP & EP,\n+20% All Res & Damage,\n+55% Run (2m)\nMadness Gain 3",
+  "description_zh": "-25%HP &EP，\n+20%全部Res&伤害，\n+55%奔跑（2m）\n 癫狂3",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 1200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fucontrabandgoods",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 1
+        },
+        {
+          "item": "biospore",
+          "count": 5
+        },
+        {
+          "item": "aliencompound",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

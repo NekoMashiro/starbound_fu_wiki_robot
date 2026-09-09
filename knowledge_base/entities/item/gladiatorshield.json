@@ -1,0 +1,77 @@
+{
+  "entity_id": "gladiatorshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gladiator Shield",
+  "name_zh": "角斗士盾",
+  "description_en": "+4 Defense",
+  "description_zh": "防御+4",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 8
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

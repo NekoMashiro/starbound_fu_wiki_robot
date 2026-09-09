@@ -1,0 +1,57 @@
+{
+  "entity_id": "artifact_orb_nil",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Frostshard Lamp",
+  "name_zh": "霜断之灯",
+  "description_en": "A device extracting power from a fragment of the mirrorscape.",
+  "description_zh": "从一面残镜中提取力量的装置。",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ice",
+          "count": 24
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_cryogenicCell",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

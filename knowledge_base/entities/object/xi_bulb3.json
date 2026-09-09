@@ -1,0 +1,36 @@
+{
+  "entity_id": "xi_bulb3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Alpha Bulb",
+  "name_zh": "艾肯起源球荚",
+  "description_en": "Provides light, and can be used to form many X'ian tools. Radioactive.\r\nDoesn't work on your ship.",
+  "description_zh": "提供光线，可用于制作大多数艾肯工具。具有放射性。\n在飞船上无法生长。",
+  "rarity": "legendary",
+  "category": "seed",
+  "price": 1,
+  "tags": [
+    "nature",
+    "radien"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 50
+        },
+        {
+          "item": "xi_bulb",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "X'ian Alpha Bulb.md",
+  "quality_tier": "A"
+}

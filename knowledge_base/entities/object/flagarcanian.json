@@ -1,0 +1,34 @@
+{
+  "entity_id": "flagarcanian",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "arcanian Flag",
+  "name_zh": "守秘族旗帜",
+  "description_en": "The flag of the Protectorate. Use [E] to bookmark a teleportation location.",
+  "description_zh": "守秘一族的旗帜。按[E]保存一个传送坐标。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "arcanian"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

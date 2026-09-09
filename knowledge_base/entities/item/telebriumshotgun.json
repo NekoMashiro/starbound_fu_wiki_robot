@@ -1,0 +1,55 @@
+{
+  "entity_id": "telebriumshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Shotgun",
+  "name_zh": "月海霰弹枪",
+  "description_en": "A strange, poisonous shotgun.",
+  "description_zh": "一把猎奇毒辣的霰弹枪。",
+  "rarity": "common",
+  "category": "shotgun",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 6.33,
+  "critChance": 4,
+  "critBonus": 4,
+  "altAbilityType": "swtjc_ewg_slowgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 6
+        },
+        {
+          "item": "solidfuel",
+          "count": 7
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

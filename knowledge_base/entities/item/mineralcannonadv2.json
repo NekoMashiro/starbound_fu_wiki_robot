@@ -1,0 +1,63 @@
+{
+  "entity_id": "mineralcannonadv2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hyperion Particle Cannon",
+  "name_zh": "海伯利安粒子炮",
+  "description_en": "Unsurpassed in its weapon class.\r\nUtterly eradicates tiles",
+  "description_zh": "无与伦比的武器。\n可彻底地消灭物块",
+  "rarity": "legendary",
+  "category": "rocketLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 7.45,
+  "critChance": 8,
+  "critBonus": 23,
+  "altAbilityType": "guidedrocket",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neutronium",
+          "count": 3
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 2
+        },
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

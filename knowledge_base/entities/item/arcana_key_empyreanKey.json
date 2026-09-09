@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_key_empyreanKey",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Surface Access Card",
+  "name_zh": "地面通行卡",
+  "description_en": "An special card that grants you access to the surface of the Empyrean.",
+  "description_zh": "一个允许你前往皇天行星地面的特殊卡片。",
+  "rarity": "Legendary",
+  "category": "arcana_key",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonEliteBadge",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

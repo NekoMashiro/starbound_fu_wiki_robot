@@ -1,0 +1,43 @@
+{
+  "entity_id": "gnomefactory",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gnome Workshop",
+  "name_zh": "地精工坊",
+  "description_en": "Uses gnome slave labor to craft your stuff. This is super illegal, but who's going to stop you? Certainly not the gnomes.",
+  "description_zh": "使用地精奴隶来制作你的东西。这铁定违法，但谁能阻止你呢？还能是地精？",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 100
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 50
+        },
+        {
+          "item": "throwinggnome",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Gnome Workshop.md",
+  "quality_tier": "A"
+}

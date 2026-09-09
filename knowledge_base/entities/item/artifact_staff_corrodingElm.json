@@ -1,0 +1,50 @@
+{
+  "entity_id": "artifact_staff_corrodingElm",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corroding Elm",
+  "name_zh": "腐榆杖",
+  "description_en": "May insuperable death guide you.",
+  "description_zh": "愿无越天险指引你！",
+  "rarity": "Essential",
+  "category": "staff",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "poison",
+  "level": 9,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_poisonSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

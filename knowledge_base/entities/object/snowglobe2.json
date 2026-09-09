@@ -1,0 +1,49 @@
+{
+  "entity_id": "snowglobe2",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Penguin Snowglobe",
+  "name_zh": "企鹅水晶球",
+  "description_en": "A snowglobe with a penguin inside. The bird looks angry.",
+  "description_zh": "一个里面有只企鹅的水晶球。它看起来很生气。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 75,
+  "tags": [
+    "ice",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceChestTreasure",
+          "probability": 0.1003,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "iceTreasure",
+          "probability": 0.0545,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0545,
+        0.0652
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "fumantizimerchchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hawker's Top",
+  "name_zh": "小贩头盔",
+  "description_en": "Simple, multi-layered top made of delicate fabrics.",
+  "description_zh": "简单，多层纺织制成的精致面料。",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 75,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

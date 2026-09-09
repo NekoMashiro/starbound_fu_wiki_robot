@@ -1,0 +1,55 @@
+{
+  "entity_id": "fuinfernochest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Inferno Chest",
+  "name_zh": "炼狱胸甲",
+  "description_en": "Set Bonuses:\r\n Fire Nova when hit\r\n Flamethrower: Damage x1.3\r\n Immune: Moderate Heat, Burning",
+  "description_zh": "套装奖励：\n 受击时释放火炎新星\n 火焰喷射器: 伤害x1.3\n 免疫: 严酷炎热, 烧伤",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 1050,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "agaranichor",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

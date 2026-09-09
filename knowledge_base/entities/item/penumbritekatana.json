@@ -1,0 +1,67 @@
+{
+  "entity_id": "penumbritekatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbral Katana",
+  "name_zh": "半影武士刀",
+  "description_en": "Shiny, honed and deadly.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "katana",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "energy",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "katanacombo",
+  "altAbilityType": "parrykatana",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 6
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "fumobility2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mobility II",
+  "name_zh": "EPP模块（移动性 II）",
+  "description_en": "An EPP module that removes the slowing and slipping effects of mud, clay, jungle, snow, slush and ice.",
+  "description_zh": "免疫来自泥、黏土、丛林泥块、冰、雪和雪泥的减速和滑行效果",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "ammoniumsulfate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "swtjc_wp_sequencer2bitv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "2-Bit Sequencer",
+  "name_zh": "2-Bit定序器",
+  "description_en": "A 2-bit sequencer. Outputs a signal based on which of the 4 states it's currently on.",
+  "description_zh": "一个2-Bit定序器。输出信号取决于当前处于这四个状态中的哪一个。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "persistentswitch",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

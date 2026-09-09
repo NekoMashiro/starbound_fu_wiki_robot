@@ -1,0 +1,53 @@
+{
+  "entity_id": "monarch_storage_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Palace Chest",
+  "name_zh": "宫廷箱子",
+  "description_en": "A white stone chest.",
+  "description_zh": "一个白色的石箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "monarch",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "monarch_tile1",
+          "count": 16
+        },
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Monarch Crafting Table",
+      "station_zh": "帝王制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

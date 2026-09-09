@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_nand3i",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "NAND Gate (3 Inputs)",
+  "name_zh": "与非门(三输入)",
+  "description_en": "A /'NAND'/ gate. Requires at least 1 input to be /'off'/ to work.",
+  "description_zh": "一个与非门。至少需要接入一个输入节点才能激活/OFF/。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

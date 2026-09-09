@@ -1,0 +1,88 @@
+{
+  "entity_id": "lavaballoon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Lava Balloon",
+  "name_zh": "熔岩球",
+  "description_en": "Just like a water balloon, with one noticeable difference.",
+  "description_zh": "就像个水球，但是有点明显的区别。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidlava",
+          "count": 50
+        },
+        {
+          "item": "ff_plastic",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "volcanicChestTreasure",
+          "probability": 0.6477,
+          "count": 5
+        },
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.3755,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.3755,
+        0.6477
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoVolcanicTreasure",
+          "probability": 0.5435,
+          "count": 5
+        },
+        {
+          "pool": "volcanicTreasure",
+          "probability": 0.4545,
+          "count": 5
+        },
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.2041,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.2041,
+        0.5435
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

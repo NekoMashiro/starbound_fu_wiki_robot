@@ -1,0 +1,52 @@
+{
+  "entity_id": "fuluxurygoods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Luxury Goods",
+  "name_zh": "奢侈品",
+  "description_en": "A sealed crate of luxorious trinkets, valuable for interstellar trade.",
+  "description_zh": "一些高价值的奢侈品，对星际贸易很有价值。",
+  "rarity": "Common",
+  "category": "tradeGoods",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 732
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingOre": {
+        "count": 2,
+        "examples": [
+          "neptuniumore",
+          "solarishard"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "plutoniumore"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "pixelcompressor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pixel Compressor",
+  "name_zh": "像素压缩机",
+  "description_en": "Compress pixels for storage.",
+  "description_zh": "把像素压缩起来以便存储。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 2400,
+  "tags": [
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 15
+        },
+        {
+          "item": "goldbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "hypercompressor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

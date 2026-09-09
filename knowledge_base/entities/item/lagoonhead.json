@@ -1,0 +1,46 @@
+{
+  "entity_id": "lagoonhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Lagoon Mask",
+  "name_zh": "泻湖面具",
+  "description_en": "This mask undoubtedly belonged to a lagoon dwelling creature.",
+  "description_zh": "这面具毫无疑问属于一只在泻湖定居的生物。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "swampChestTreasure",
+          "probability": 0.1472,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSwampTreasure",
+          "probability": 0.0957,
+          "count": 1
+        },
+        {
+          "pool": "swampTreasure",
+          "probability": 0.08,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.08,
+        0.0957
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

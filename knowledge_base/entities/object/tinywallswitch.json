@@ -1,0 +1,38 @@
+{
+  "entity_id": "tinywallswitch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tiny Wall Switch",
+  "name_zh": "迷你贴墙开关",
+  "description_en": "A compact switch that can be flipped on or off.",
+  "description_zh": "一个能被打开或者关闭的小巧的开关。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

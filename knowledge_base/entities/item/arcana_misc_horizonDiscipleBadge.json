@@ -1,0 +1,143 @@
+{
+  "entity_id": "arcana_misc_horizonDiscipleBadge",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Horizon Disciple Badge",
+  "name_zh": "地平线学徒徽章",
+  "description_en": "A badge worn by the Horizon's trainee operatives.",
+  "description_zh": "地平线实习兵佩戴的徽章。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 11,
+        "examples": [
+          "arcana_bar_enartz",
+          "arcana_bar_exoslate",
+          "arcana_essence_vermilionEssence",
+          "arcana_misc_arkFragment",
+          "arcana_misc_avostone"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_aureaUniform_legs",
+          "arcana_armor_horizonDisciple_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_aureaUniform_chest",
+          "arcana_armor_horizonDisciple_chest"
+        ]
+      },
+      "tool": {
+        "count": 2,
+        "examples": [
+          "arcana_parasol_gold",
+          "mwhaddon_pickaxe_aureaEnergyPickaxe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_horizonDisciple_head"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "arcana_auricDye"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "arcana_back_goldenCape"
+        ]
+      },
+      "bow": {
+        "count": 1,
+        "examples": [
+          "aurea_bow_1"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_pool_horizonDiscipleBadge",
+          "probability": 1.0,
+          "count": 2.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.5187,
+          "count": 2.4
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_rare",
+          "probability": 0.42,
+          "count": 2.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.42,
+          "count": 2.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 0.42,
+          "count": 2.5
+        }
+      ],
+      "prob_range": [
+        0.2028,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_horizon_disciple",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

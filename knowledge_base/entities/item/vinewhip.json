@@ -1,0 +1,59 @@
+{
+  "entity_id": "vinewhip",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Vine Whip",
+  "name_zh": "藤鞭",
+  "description_en": "A whip made from a thorny vine. Get cracking!",
+  "description_zh": "一根用荆棘做成的藤鞭。出击！",
+  "rarity": "uncommon",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "whip",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wildvines",
+          "count": 6
+        },
+        {
+          "item": "livingroot",
+          "count": 4
+        },
+        {
+          "item": "mutagene1",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "vinewhip_l6.png:idle",
+    "seed": "",
+    "shortdescription": "藤鞭^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

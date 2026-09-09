@@ -1,0 +1,43 @@
+{
+  "entity_id": "deckardhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vagabond's Visor",
+  "name_zh": "漂泊者护目镜",
+  "description_en": "Set Bonuses: \r\n +10% Speed\r\n (Machine) Pistol: Damage x1.075/1.15",
+  "description_zh": "套装奖励：\n +10% 速度\n (自动) 手枪: 伤害x1.075/1.15",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 450,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

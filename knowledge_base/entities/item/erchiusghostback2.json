@@ -1,0 +1,53 @@
+{
+  "entity_id": "erchiusghostback2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erchius Bro",
+  "name_zh": "厄尔吉斯兄弟",
+  "description_en": "Provides an air supply, Ghost Immunity and a bright purple glow. No penalty.",
+  "description_zh": "提供氧气供给，幽灵免疫和明亮的紫色光源。没有惩罚。",
+  "rarity": "legendary",
+  "category": "enviroProtectionPack",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "erchiusghostback",
+          "count": 1
+        },
+        {
+          "item": "erchiusartifactaugment",
+          "count": 1
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Shrine of Lost Souls",
+      "station_zh": "迷失灵魂的圣殿",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0289,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

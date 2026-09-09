@@ -1,0 +1,50 @@
+{
+  "entity_id": "borealcounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Boreal Counter",
+  "name_zh": "北风柜台",
+  "description_en": "A lovingly carved pine wood counter with a pot bellied stove. Enough firewood is key to surviving bitter winter nights.",
+  "description_zh": "一个雕刻精美的松木柜台，带有一个锅肚炉。足够的木柴是熬过严冬的关键。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "boreal",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

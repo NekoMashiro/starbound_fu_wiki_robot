@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_automated",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Automated",
+  "name_zh": "机工",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Automated",
+  "friendly_name_zh": "机工",
+  "ores": [
+    {
+      "ore": "arcana_mod_rawDustrium",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "adultpoptop",
+    "anglure",
+    "arcana_omnicannon",
+    "arcana_spinemine",
+    "bigwormcritter",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "krawlcritter",
+    "skywurmcritter",
+    "taroni"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:scorchedcity"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_supercharged"
+  ],
+  "wiki_ref": "Automated.md",
+  "quality_tier": "C"
+}

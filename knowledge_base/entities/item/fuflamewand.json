@@ -1,0 +1,51 @@
+{
+  "entity_id": "fuflamewand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Wand",
+  "name_zh": "骨制魔杖",
+  "description_en": "Primitive shaman's implement.",
+  "description_zh": "古时萨满祈祷时用的就是这种工具。",
+  "rarity": "common",
+  "category": "wand",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "fire",
+    "bone"
+  ],
+  "elementalType": "fire",
+  "level": 1,
+  "twoHanded": false,
+  "primaryAbilityType": "flamewand",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 1
+        },
+        {
+          "item": "bone",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Bone Wand.md",
+  "quality_tier": "A"
+}

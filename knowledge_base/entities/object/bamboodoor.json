@@ -1,0 +1,51 @@
+{
+  "entity_id": "bamboodoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bamboo Door",
+  "name_zh": "竹门",
+  "description_en": "This door is strong and sustainably sourced.",
+  "description_zh": "这扇门很结实，可以长期使用。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "door",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_bambooshoot",
+          "count": 10
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

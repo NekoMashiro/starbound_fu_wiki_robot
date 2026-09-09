@@ -1,0 +1,46 @@
+{
+  "entity_id": "wildfunguschest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wild Fungus Rags",
+  "name_zh": "荒野菌衣",
+  "description_en": "These rags will make you look like a fun guy!",
+  "description_zh": "这件衣服会让你看起来非常有趣！",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.1363,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.0886,
+          "count": 1
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.0741,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0741,
+        0.0886
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

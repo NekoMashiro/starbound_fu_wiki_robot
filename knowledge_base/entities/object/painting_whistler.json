@@ -1,0 +1,41 @@
+{
+  "entity_id": "painting_whistler",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bizarre Painting",
+  "name_zh": "古怪绘画",
+  "description_en": "It's an image of a seated Human female. Supposed to be, that is.",
+  "description_zh": "这是一个坐着的人类女性的形象。应该是的。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 19000,
+  "tags": [
+    "human",
+    "valuable",
+    "odd",
+    "ccccc",
+    "painting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 190000
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

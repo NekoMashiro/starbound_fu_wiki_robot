@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_raresubmachinegun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Submachine Gun",
+  "name_zh": "精良的冲锋枪",
+  "description_en": "The power of an assault rifle in a compact one-handed package. Shame that it isn't anywhere nearly as accurate...",
+  "description_zh": "射速非常快的单手武器，可惜不是很准……",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_submachineGun",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    6.4,
+    8.0
+  ],
+  "critChance": 1,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

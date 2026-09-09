@@ -1,0 +1,60 @@
+{
+  "entity_id": "ancientcarbine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Carbine",
+  "name_zh": "古代卡宾枪",
+  "description_en": "Versatile and lethal ancient weapon.\r\nFast projectiles\r\nPhasing alt-fire",
+  "description_zh": "万能且致命的古代武器。\n快速射击\n次要攻击：相位弹",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 4602,
+  "tags": [
+    "weapon",
+    "ranged",
+    "ancient",
+    "upgradeableWeapon",
+    "assaultrifle",
+    "ancient"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 10.45,
+  "critChance": 0.5,
+  "critBonus": 2,
+  "altAbilityType": "波动枪",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 8000
+        },
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "neopistol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Neo Pistol",
+  "name_zh": "NEO手枪",
+  "description_en": "A common black-market laser weapon.",
+  "description_zh": "一种黑市常见的激光武器。",
+  "rarity": "Rare",
+  "category": "uniqueWeapon",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "twoHanded": false,
+  "baseDps": 6,
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagguns",
+          "probability": 0.2669,
+          "count": 1
+        },
+        {
+          "pool": "fu_neoguns",
+          "probability": 0.25,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.2669
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gangmemberTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

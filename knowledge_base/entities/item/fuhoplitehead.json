@@ -1,0 +1,51 @@
+{
+  "entity_id": "fuhoplitehead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hoplite Helm",
+  "name_zh": "重装头盔",
+  "description_en": "Set Bonuses:\r\n +20% Shield Regen, +10% Shield Bash/Push\r\n +12% Knockback Resist\r\n (Short) Spears: +3% Crit Chance\r\n Mountainous: +2.5% Crit Chance\r\n Immune: Proto-Poison",
+  "description_zh": "套装奖励:\n +20% 盾牌耐久回复, +10% 盾击/推\n +12% 击退抗性\n (短) 矛: +3% 暴击几率\n 山脉: +2.5% 暴击几率\n 免疫: 原毒",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 75,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "silk",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

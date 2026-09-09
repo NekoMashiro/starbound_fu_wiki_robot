@@ -1,0 +1,110 @@
+{
+  "entity_id": "elderrelic3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blade Shard",
+  "name_zh": "刀剑碎片",
+  "description_en": "A small shard from a larger blade. Ancient.",
+  "description_zh": "一块来自大型刀剑的细小碎片，年代久远。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 600,
+  "tags": [
+    "reagent",
+    "artifactElder"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "aetheriumcleaver"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 11,
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.4715,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0784,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0498,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0449,
+          "count": 1
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0018,
+        0.4715
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.3493,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.3493
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.1239,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

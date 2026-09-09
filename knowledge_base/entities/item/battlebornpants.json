@@ -1,0 +1,62 @@
+{
+  "entity_id": "battlebornpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battleborn Greaves",
+  "name_zh": "战狂腿甲",
+  "description_en": "Set Bonuses:\r\n Broadsword Mastery: +15%\r\n Cyber/Wasteland/Scorched: Health x1.24, Damage x1.12, 10% Phys./Poison Resist\r\n Immune: Acid",
+  "description_zh": "套装奖励:\n 阔剑专精： +15%\n 赛博/废土: 最大HPx1.24, 伤害x1.12, 10% 物理/毒素抗性\n 免疫: 酸蚀",
+  "rarity": "Uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fukingslayerpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_beaconworld",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Beaconworld",
+  "name_zh": "炬界",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Beaconworld",
+  "friendly_name_zh": "炬界",
+  "ores": [
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_ariostone",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "arcana_ariomutt",
+    "birdcritter",
+    "bunnycritter",
+    "butterbee",
+    "fawnfly",
+    "fishcritter",
+    "gleap",
+    "hedgehogcritter",
+    "mousecritter",
+    "mudstag",
+    "nutmidge",
+    "poptop",
+    "snailcritter",
+    "tortoisecritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_windswept"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

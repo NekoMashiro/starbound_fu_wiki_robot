@@ -1,0 +1,373 @@
+{
+  "entity_id": "phasematter",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Phase Matter",
+  "name_zh": "月相物质",
+  "description_en": "A substance that appears to be almost intangible. Can be used for crafting.",
+  "description_zh": "看起来几乎没有确定形态的物质。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "thoriumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 8,
+        "examples": [
+          "darklightflower",
+          "fusoulleafseed",
+          "melodistarseed",
+          "phasefruitseed",
+          "plasmangoseed"
+        ]
+      },
+      "eppAugment": {
+        "count": 5,
+        "examples": [
+          "arcana_augment_energyDrain",
+          "arcana_augment_radiance",
+          "arcana_augment_supercharged",
+          "ghostimmunityaug",
+          "radienaugment1"
+        ]
+      },
+      "storage": {
+        "count": 4,
+        "examples": [
+          "multitether",
+          "multitinytether",
+          "pettether",
+          "tinytether"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "madnessfleshtyrant",
+          "madnessmegapoptop",
+          "madnessratthing"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "matteritem",
+          "morphiteore",
+          "reanimationfluid"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "fuguardianhead",
+          "xenohead"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "fuguardianpants",
+          "xenolegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "fuguardianchest",
+          "xenochest"
+        ]
+      }
+    },
+    "total": 50
+  },
+  "drop_sources": {
+    "total_pools": 174,
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_phasematter",
+          "probability": 2.0,
+          "count": 1.2
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.184,
+          "count": 1.2
+        },
+        {
+          "pool": "shadowtopLoot",
+          "probability": 0.1782,
+          "count": 1,
+          "monsters": [
+            "tentaclecometsporefu"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.0736,
+          "count": 1.2
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0567,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        2.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "nautileechHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "nautileech"
+          ]
+        },
+        {
+          "pool": "squeemHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "firesqueem",
+            "squeem"
+          ]
+        },
+        {
+          "pool": "spookitHunting",
+          "probability": 0.3992,
+          "count": 1,
+          "monsters": [
+            "firespookit",
+            "pandorasboxerchit",
+            "spookit"
+          ]
+        },
+        {
+          "pool": "gosmetHunting",
+          "probability": 0.3992,
+          "count": 1,
+          "monsters": [
+            "firegosmet",
+            "gosmet"
+          ]
+        },
+        {
+          "pool": "ignomeHunting",
+          "probability": 0.1996,
+          "count": 1,
+          "monsters": [
+            "electricignome",
+            "ignome"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.4
+      ]
+    },
+    "monster_drops": {
+      "count": 66,
+      "top": [
+        {
+          "pool": "nautileechVaultTreasure",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "spookitVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "squeemVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "nautileechTreasure",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "nautileech"
+          ]
+        },
+        {
+          "pool": "spookitTreasure",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "doomspirit",
+            "firespookit",
+            "pandorasboxerchit",
+            "spookit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.2
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.093,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0311,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0309,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0238,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.096
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.003
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

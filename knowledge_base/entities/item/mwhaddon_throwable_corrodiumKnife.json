@@ -1,0 +1,42 @@
+{
+  "entity_id": "mwhaddon_throwable_corrodiumKnife",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Corrodium Knife",
+  "name_zh": "蚀金投刀",
+  "description_en": "Inflict acid burning on enemy hit.",
+  "description_zh": "命中敌人时造成酸性灼伤。",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_corrodiumOre",
+          "count": 1
+        },
+        {
+          "item": "arcana_ore_verrostinOre",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "elduubookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Eld'uukhar Bookcase",
+  "name_zh": "厄休安书架。",
+  "description_en": "A bookcase made from cultivated crystal and gold.",
+  "description_zh": "一个用人工水晶和黄金制成的书架。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "elduukhar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

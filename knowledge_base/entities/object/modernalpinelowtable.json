@@ -1,0 +1,50 @@
+{
+  "entity_id": "modernalpinelowtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alpine Low Table",
+  "name_zh": "阿尔卑斯矮桌",
+  "description_en": "A wooden coffee table with a stylish pattern embedded on top.",
+  "description_zh": "一张木质咖啡桌，上面嵌有时髦的图案。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "modernalpine",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "modernalpineset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

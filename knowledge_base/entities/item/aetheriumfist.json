@@ -1,0 +1,55 @@
+{
+  "entity_id": "aetheriumfist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Claw",
+  "name_zh": "阳清爪",
+  "description_en": "A lesson in hard love.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "艰难爱情中的一课。\n能量武器",
+  "rarity": "legendary",
+  "category": "fistWeapon",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "fist",
+    "energy",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 8,
+  "critChance": 7,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "morphiteore",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcana_tech_airDash",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Air Dash",
+  "name_zh": "空中冲刺",
+  "description_en": "This tech allows you to do a quick dash in the air! [Use to gain a new type of tech!]",
+  "description_zh": "这个科技允许你在空中进行快速冲刺！[使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 0,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_seekerIntro_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

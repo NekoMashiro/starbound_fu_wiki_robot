@@ -1,0 +1,58 @@
+{
+  "entity_id": "prismaticbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Bow",
+  "name_zh": "棱镜弓",
+  "description_en": "Pulsing with cosmic energy.",
+  "description_zh": "发射宇宙能量攻击你的敌人。",
+  "rarity": "rare",
+  "category": "bow",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "cute"
+  ],
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 3,
+  "critBonus": 9,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 6
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

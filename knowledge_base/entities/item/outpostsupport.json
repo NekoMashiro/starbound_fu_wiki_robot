@@ -1,0 +1,41 @@
+{
+  "entity_id": "outpostsupport",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Outpost Support Beam",
+  "name_zh": "前哨站支撑柱",
+  "description_en": "A reinforced support beam.",
+  "description_zh": "一根被加固过的前哨站支撑柱。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "concretematerial",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "outpostsupport"
+  ],
+  "quality_tier": "A"
+}

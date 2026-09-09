@@ -1,0 +1,46 @@
+{
+  "entity_id": "cyclopsyetihead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cyclops Yeti Mask",
+  "name_zh": "独眼雪巨人面罩",
+  "description_en": "It doesn't even blink! How terrifying.",
+  "description_zh": "它连眼睛都不眨一下！好可怕。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceChestTreasure",
+          "probability": 0.1003,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "iceTreasure",
+          "probability": 0.0545,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0545,
+        0.0652
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

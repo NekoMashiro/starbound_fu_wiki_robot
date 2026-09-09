@@ -1,0 +1,60 @@
+{
+  "entity_id": "lightningcrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lightning Crossbow",
+  "name_zh": "闪电弩",
+  "description_en": "Electrifying!",
+  "description_zh": "小心，有电！",
+  "rarity": "rare",
+  "category": "crossbow",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon",
+    "electric",
+    "energy"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "shockburstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

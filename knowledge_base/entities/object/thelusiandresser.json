@@ -1,0 +1,40 @@
+{
+  "entity_id": "thelusiandresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Drawers",
+  "name_zh": "蚁族抽屉",
+  "description_en": "A set of chitinous drawers.",
+  "description_zh": "一套几丁质抽屉。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "thelusian",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 4
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_raresawedoffshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Short-Barreled Shotgun",
+  "name_zh": "精良的短桶霰弹枪",
+  "description_en": "A compact shotgun that sacrifices accuracy for the ability to be easily-concealable and held in one hand.",
+  "description_zh": "牺牲准确度，攻击范围广的单手霰弹枪。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_sawedOffShotgun",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    8,
+    9
+  ],
+  "critChance": 3,
+  "critBonus": 12,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

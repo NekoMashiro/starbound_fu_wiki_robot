@@ -1,0 +1,55 @@
+{
+  "entity_id": "fuoperativelegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Operative Leg Armor",
+  "name_zh": "守卫裤子",
+  "description_en": "Set Bonuses:\r\n +4% Crit Chance, +20% Crit Damage\r\n +8% Speed/Jump",
+  "description_zh": "套装奖励:\n +4% 暴击几率, +20% 暴击伤害\n +8% 速度/跳跃",
+  "rarity": "common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 4
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "agilitysuitlegs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

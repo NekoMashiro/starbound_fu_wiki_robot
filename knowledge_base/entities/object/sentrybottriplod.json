@@ -1,0 +1,58 @@
+{
+  "entity_id": "sentrybottriplod",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Triplod Guard",
+  "name_zh": "三足机器人",
+  "description_en": "A reliable sidekick to protect you.",
+  "description_zh": "非常可靠的伙伴，在激活后，它会在地面持续地跟随并保护你。",
+  "rarity": "common",
+  "category": "decorative",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "ff_spareparts",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1222
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

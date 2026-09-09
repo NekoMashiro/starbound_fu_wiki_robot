@@ -1,0 +1,39 @@
+{
+  "entity_id": "skathworktable1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rustic Skath Workbench",
+  "name_zh": "基础级绘世者工作台",
+  "description_en": "A rustic Skath-made workbench, used to craft furniture and farming supplies.",
+  "description_zh": "一个基础级绘世者工作台，用来制作家具和农具。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 25,
+  "tags": [
+    "skath",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 10
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

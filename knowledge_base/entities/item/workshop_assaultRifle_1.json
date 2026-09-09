@@ -1,0 +1,67 @@
+{
+  "entity_id": "workshop_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "TC Forgeline",
+  "name_zh": "泰坦重工锻造线",
+  "description_en": "A dark rifle made from Dustrium.",
+  "description_zh": "由尘石制成的黑色步枪。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "titancorp"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 30.6,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 6
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 2
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_trilineatu5"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

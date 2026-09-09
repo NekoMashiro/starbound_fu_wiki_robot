@@ -1,0 +1,46 @@
+{
+  "entity_id": "icearmorchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ice Armor Shirt",
+  "name_zh": "冰甲衬衫",
+  "description_en": "A chestpiece formed from solid ice.",
+  "description_zh": "坚冰打造的胸甲。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceCaveChestTreasure",
+          "probability": 0.2083,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceCaveTreasure",
+          "probability": 0.1354,
+          "count": 1
+        },
+        {
+          "pool": "iceCaveTreasure",
+          "probability": 0.1132,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1132,
+        0.1354
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

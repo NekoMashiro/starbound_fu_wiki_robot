@@ -1,0 +1,70 @@
+{
+  "entity_id": "warbotartifact",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hyper Targeting Chip",
+  "name_zh": "超瞄准芯片",
+  "description_en": "+3% Crit Chance\r\n+20% Crit Damage",
+  "description_zh": "+3%暴击率\n+20%暴击伤害",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "precursorchip",
+          "count": 1
+        },
+        {
+          "item": "precursordatadrive",
+          "count": 1
+        },
+        {
+          "item": "precursorram",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

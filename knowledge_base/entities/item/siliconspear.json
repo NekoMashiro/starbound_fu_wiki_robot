@@ -1,0 +1,59 @@
+{
+  "entity_id": "siliconspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tek Lance",
+  "name_zh": "泰克长矛",
+  "description_en": "This heavy spear will puncture even well-armored foes.\r\nHunting weapon",
+  "description_zh": "这种沉重的长矛甚至可以刺穿盔甲坚固的敌人。\n狩猎武器",
+  "rarity": "Uncommon",
+  "category": "lance",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 12.5,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "heavyspearcombo",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_silicon",
+          "count": 5
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

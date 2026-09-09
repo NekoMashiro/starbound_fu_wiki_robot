@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_emberCoral",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Living Ember Coral",
+  "name_zh": "活暗烬珊瑚",
+  "description_en": "It radiates a pleasant warmth.\n For 35 seconds after drinking, gain Extra Mobility in liquid.",
+  "description_zh": "它散发出一种宜人的温暖。\n饮用后35秒内在液体中的移动速度提升。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "xenostation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xeno Research Lab",
+  "name_zh": "基因提取器",
+  "description_en": "This station is designed to pull genes from seeds for study and experimentation.",
+  "description_zh": "这个装置可以从种子中提取出基因，以便于进行下一步操作。",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "radiation"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "xenostationadvnew"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Xeno Research Lab.md",
+  "quality_tier": "S"
+}

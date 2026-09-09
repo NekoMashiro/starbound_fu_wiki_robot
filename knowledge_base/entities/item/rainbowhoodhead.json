@@ -1,0 +1,46 @@
+{
+  "entity_id": "rainbowhoodhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rainbow Hood",
+  "name_zh": "彩虹面罩",
+  "description_en": "A hood in all the colours of the rainbow. Glorious.",
+  "description_zh": "一个有着彩虹的颜色的面罩，辉煌灿烂。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.0243,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.0157,
+          "count": 1
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.0132,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0132,
+        0.0157
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

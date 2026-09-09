@@ -1,0 +1,31 @@
+# 密钥
+.env
+rag/.env
+
+# 向量库和 BM25 缓存（体积大，本机 ingest 后单独 rsync）
+rag/chroma_db/
+rag/bm25_cache.pkl
+
+# 解包的游戏资源，不进仓库
+unpacked_data/
+
+# Wiki 原始 dump（单文件超过 GitHub 100MB）和解析后的资源索引
+*wiki*.xml
+resolved_assets/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# 中间产物
+wiki_output/
+wiki_knowledge_base/
+
+# 系统
+.DS_Store
+*.log

@@ -1,0 +1,138 @@
+{
+  "entity_id": "arcana_bar_thoriumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Electrolite Superstone",
+  "name_zh": "紫电锭",
+  "description_en": "A solid superstone that is often used in machining parts, can be used to craft advanced equipment.",
+  "description_zh": "一块紫电锭，可用来制作俄里翁装备。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 230,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_thoriumOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1380
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 11,
+        "examples": [
+          "arcana_bar_aureolaBar",
+          "arcana_bar_galvasteelBar",
+          "arcana_misc_raidenComponent",
+          "mwhaddon_misc_mechComponent_1",
+          "mwhaddon_misc_mechComponent_2"
+        ]
+      },
+      "block": {
+        "count": 7,
+        "examples": [
+          "arcana_platform_orionPlatform",
+          "orion_tile10",
+          "orion_tile19",
+          "orion_tile2",
+          "orion_tile4"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "arcana_back_tripolarEPP",
+          "mwhaddon_back_aureaProstheticWingEX"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "arcana_orion_crafting_1",
+          "mwhaddon_crafting_mechCrafting_alt"
+        ]
+      },
+      "shield": {
+        "count": 2,
+        "examples": [
+          "arcana_shield_ampliftShield",
+          "arcana_shield_voltaicShield"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "arcana_tech_quintJump",
+          "arcana_tech_voltaicSurge"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_throwable_alchemicalExplosive_greater",
+          "mwhaddon_throwable_orionBeacon"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "orion_broadsword_1",
+          "orion_greatsword_1"
+        ]
+      }
+    },
+    "total": 37
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionBlueprint",
+          "probability": 1.0,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_thoriumBar"
+  ],
+  "wiki_ref": "Electrolite Superstone.md",
+  "quality_tier": "S"
+}

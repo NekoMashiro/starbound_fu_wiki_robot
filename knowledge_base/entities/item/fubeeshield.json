@@ -1,0 +1,52 @@
+{
+  "entity_id": "fubeeshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Queen's Shield",
+  "name_zh": "蜂后之盾",
+  "description_en": "+0.07% HP Regen, +5 Defense, Immune: Bee Sting",
+  "description_zh": "生命恢复速度+0.07%，防御+5；免疫蜂蜇",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 12
+        },
+        {
+          "item": "fu_redhoneycombblock",
+          "count": 8
+        },
+        {
+          "item": "apiary_frame_dawn",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

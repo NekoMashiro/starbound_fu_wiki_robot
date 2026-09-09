@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_aurea_deco_15",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Hologram",
+  "name_zh": "大型全息图",
+  "description_en": "A hologram display that is showing some information about the Gilten.",
+  "description_zh": "显示一些关于镀人信息的全息图。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 310,
+  "tags": [
+    "aurea",
+    "gilten",
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

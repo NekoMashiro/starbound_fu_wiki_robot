@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_heishe_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Heishe Chestplate",
+  "name_zh": "黑蛇胸甲",
+  "description_en": "A light armor crafted from corrodium. \n\nSet Bonus: \nGrants +5% Poison RES, Poisoned and Acidic Burning Immunity, and +10% Crit. damage.",
+  "description_zh": "使用蚀金制成的轻量级盔甲。\n\n套装效果：\n+5%蛊毒抗性，免疫中毒和酸性烧伤，并+10%暴击伤害。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 1800,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 18
+        },
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 12
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

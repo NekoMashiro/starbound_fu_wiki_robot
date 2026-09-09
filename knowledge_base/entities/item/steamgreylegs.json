@@ -1,0 +1,37 @@
+{
+  "entity_id": "steamgreylegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Warm Grey Trousers",
+  "name_zh": "灰色保暖裤子",
+  "description_en": "These trousers are lined inside to provide extra protection and warmth.",
+  "description_zh": "这条裤子内缝有内衬，以提供额外的防护及温暖。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

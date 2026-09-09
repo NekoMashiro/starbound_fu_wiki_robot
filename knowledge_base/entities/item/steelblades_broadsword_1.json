@@ -1,0 +1,53 @@
+{
+  "entity_id": "steelblades_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Steelblades Broadsword",
+  "name_zh": "钢刃阔剑",
+  "description_en": "A broadsword used by the Steelblades.",
+  "description_zh": "钢刃使用的阔剑。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "verrostin"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 13,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "heavy_risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

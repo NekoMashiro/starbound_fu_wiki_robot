@@ -1,0 +1,43 @@
+{
+  "entity_id": "bouncewrap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bounce Wrap",
+  "name_zh": "弹跳包",
+  "description_en": "Gives you tremendous bounce.",
+  "description_zh": "带给你巨大的弹跳能力。",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 355,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "magnesiumsulfate",
+          "count": 2
+        },
+        {
+          "item": "bandage",
+          "count": 1
+        },
+        {
+          "item": "aliencompound",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bounce Wrap.md",
+  "quality_tier": "A"
+}

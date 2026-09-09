@@ -1,0 +1,42 @@
+{
+  "entity_id": "slimerooftrap",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Acid Trap",
+  "name_zh": "硫酸陷阱",
+  "description_en": "An automated slime spitting sprinkler.",
+  "description_zh": "一种自动喷洒硫酸的装置。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "trap"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "biosample",
+          "count": 8
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

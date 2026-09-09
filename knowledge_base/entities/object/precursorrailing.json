@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorrailing",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Railing",
+  "name_zh": "先驱栅栏",
+  "description_en": "A wonderfully glowy railing.",
+  "description_zh": "一个令人惊叹的绚丽栅栏。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 400,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 20
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 20
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

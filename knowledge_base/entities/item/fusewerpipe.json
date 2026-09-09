@@ -1,0 +1,46 @@
+{
+  "entity_id": "fusewerpipe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sloped Sewer Pipe",
+  "name_zh": "倾斜下水管道",
+  "description_en": "A sewer pipe used for transporting waste.",
+  "description_zh": "用于输送废物的下水道管。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "sewage",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

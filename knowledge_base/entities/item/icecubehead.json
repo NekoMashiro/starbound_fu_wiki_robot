@@ -1,0 +1,46 @@
+{
+  "entity_id": "icecubehead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ice Cube Mask",
+  "name_zh": "冰块面具",
+  "description_en": "A big ice cube carved with a friendly face. It's a wonder it doesn't melt.",
+  "description_zh": "雕刻着友善脸庞的大冰块。它是一个不会融化的奇迹。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceCaveChestTreasure",
+          "probability": 0.0347,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceCaveTreasure",
+          "probability": 0.0226,
+          "count": 1
+        },
+        {
+          "pool": "iceCaveTreasure",
+          "probability": 0.0189,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0189,
+        0.0226
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

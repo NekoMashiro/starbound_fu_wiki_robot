@@ -1,0 +1,36 @@
+{
+  "entity_id": "weyene",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weyene",
+  "name_zh": "共夜霓",
+  "description_en": "Red, red wine.\nHeal 20 (2s), 35% Slow, Drunk (30s)",
+  "description_zh": "红的，红酒。\n治疗20点生命值(2s内)\n35%减速、醉酒 (30s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemon",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

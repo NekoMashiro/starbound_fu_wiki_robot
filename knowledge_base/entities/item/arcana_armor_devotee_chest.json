@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_devotee_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Devotee Armor",
+  "name_zh": "虔信者盔甲",
+  "description_en": "Clothing once worn by the ancient holy devotees. +2% Light Res. -2% Physical Res.",
+  "description_zh": "曾由远古的神圣虔信者所穿着的衣服。+2光辉抗性。 -2%物理抗性。",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 1400,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

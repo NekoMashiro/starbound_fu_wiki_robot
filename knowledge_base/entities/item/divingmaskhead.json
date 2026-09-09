@@ -1,0 +1,37 @@
+{
+  "entity_id": "divingmaskhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Diving Mask",
+  "name_zh": "潜水面罩",
+  "description_en": "Get a close look at those fish.",
+  "description_zh": "让你能仔细地观察那些鱼。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.0826,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.058,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "wizardscandle",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wizard's Candle",
+  "name_zh": "巫师的蜡烛",
+  "description_en": "Its constant bobbing light makes it useless for everything but creating an atmosphere.",
+  "description_zh": "不断的摆动使一切都变得无用，但创造出一种光的氛围。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "wizard",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wizardset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

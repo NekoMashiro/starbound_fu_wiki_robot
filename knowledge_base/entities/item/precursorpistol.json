@@ -1,0 +1,69 @@
+{
+  "entity_id": "precursorpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Protector",
+  "name_zh": "先驱保护者",
+  "description_en": "Projects Regen Zones that:\nProvide Defense. Convert Energy to Health.\nReduce Energy and Shield Regen.",
+  "description_zh": "投射出一个回复领域：\n提供防御增益。将能量转换为HP。\n在领域范围内，阻止能量回复和盾牌耐久回复",
+  "rarity": "rare",
+  "category": "bioweapon",
+  "price": 1600,
+  "tags": [
+    "ranged",
+    "pistol",
+    "precursor",
+    "bioweapon",
+    "theaUninfusable",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 7,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

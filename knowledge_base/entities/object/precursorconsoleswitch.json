@@ -1,0 +1,43 @@
+{
+  "entity_id": "precursorconsoleswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Console",
+  "name_zh": "先驱控制台",
+  "description_en": "A touch-screen console with unrecognizable symbols.",
+  "description_zh": "一个触屏的控制台，上面的符号全部是无法识别的。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 695,
+  "tags": [
+    "precursor",
+    "ancient",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 20
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursorconsoleswitch"
+  ],
+  "quality_tier": "A"
+}

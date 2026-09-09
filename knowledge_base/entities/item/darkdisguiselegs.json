@@ -1,0 +1,57 @@
+{
+  "entity_id": "darkdisguiselegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dark Disguise Trousers",
+  "name_zh": "黑暗伪装裤子",
+  "description_en": "These trousers are brimming with dark energy.",
+  "description_zh": "裤子中充盈着黑暗之力。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "darkdisguiselegskhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shadowChestTreasure",
+          "probability": 0.2036,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoShadowTreasure",
+          "probability": 0.1708,
+          "count": 1
+        },
+        {
+          "pool": "shadowTreasure",
+          "probability": 0.1429,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1429,
+        0.1708
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

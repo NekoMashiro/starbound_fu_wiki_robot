@@ -1,0 +1,108 @@
+{
+  "entity_id": "liquidirradium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Irradium",
+  "name_zh": "液态镭",
+  "description_en": "A measure of liquid irradium.\n+2 Fuel\nCentrifugable.",
+  "description_zh": "一定量的液态镭。\n燃料+2\n可离心。",
+  "rarity": "rare",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 1
+        },
+        {
+          "item": "precursorgel",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "irradiumbed",
+          "irradiumbookcase",
+          "irradiumcabinet",
+          "irradiumchair",
+          "irradiumcouch"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "irradiumdesklamp",
+          "irradiumlavalamp",
+          "irradiumwalllamp"
+        ]
+      },
+      "shortsword": {
+        "count": 2,
+        "examples": [
+          "irradiumblade",
+          "shadowburst"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "irradiumchestlarge",
+          "irradiumchestsmall"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "irradiumfridge",
+          "irradiumminifridge"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuprophetchest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuprophethead"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuprophetpants"
+        ]
+      }
+    },
+    "total": 34
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "targolemLoot",
+          "probability": 0.0507,
+          "count": 12
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

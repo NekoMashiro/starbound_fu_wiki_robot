@@ -1,0 +1,92 @@
+{
+  "entity_id": "fu_liquidhoney",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pure Honey",
+  "name_zh": "纯蜂蜜",
+  "description_en": "A measure of sweet, sweet honey.\nCentrifugable.",
+  "description_zh": "一定量的蜂蜜，非常非常甜。\n可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "833honeycrystalblock",
+          "goldenleaves",
+          "honeycombmaterial",
+          "honeystone",
+          "redhoneycombmaterial"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "devilsbargain",
+          "fuhoneysilkbandage",
+          "honeyboon"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fuhoneycrystalbed",
+          "fuhoneycrystalchair",
+          "fuhoneycrystaltable"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "ambrosia",
+          "goldmead"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "fuhoneybarrel",
+          "fuhoneycrystalchest"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "fuhoneycrystallamp",
+          "honeylavalamp"
+        ]
+      },
+      "platform": {
+        "count": 2,
+        "examples": [
+          "honeyplatform",
+          "redhoneyplatform"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "fuamberchunk"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.3675,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

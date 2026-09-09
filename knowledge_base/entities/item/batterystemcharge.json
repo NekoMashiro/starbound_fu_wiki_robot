@@ -1,0 +1,27 @@
+{
+  "entity_id": "batterystemcharge",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battery Stem Charge",
+  "name_zh": "能量茎干",
+  "description_en": "+40 EP, +2.5% E Regen & -1.25% E. Block: 2m",
+  "description_zh": "+40能量, +2.5%能量回复& -1.25% 能量重充能时间: 2m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "batterystem",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

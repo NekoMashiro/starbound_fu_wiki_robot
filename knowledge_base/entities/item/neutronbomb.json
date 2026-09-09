@@ -1,0 +1,39 @@
+{
+  "entity_id": "neutronbomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neutron Bomb",
+  "name_zh": "中子弹",
+  "description_en": "20 second fuse. Planet-busting power. Run. DO NOT THROW IN BASE, EVER.",
+  "description_zh": "20S的导火线。足以毁灭星球的力量。快跑！\n不要把它投放到基地里，永远都不",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "antineutronium",
+          "count": 1
+        },
+        {
+          "item": "precursorgel",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Neutron Bomb.md",
+  "quality_tier": "A"
+}

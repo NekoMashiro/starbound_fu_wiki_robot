@@ -1,0 +1,171 @@
+{
+  "entity_id": "shroom",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mushroom",
+  "name_zh": "蘑菇",
+  "description_en": "A mushroom. I could make quite a few things with enough of these.",
+  "description_zh": "一个蘑菇。只要有足够的蘑菇我就能做相当多东西出来。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroombasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 5,
+        "examples": [
+          "bellamorte",
+          "ghostmushroomseed",
+          "goldshroomseed",
+          "lactariusindigoseed",
+          "shockshroomseed"
+        ]
+      },
+      "preparedFood": {
+        "count": 5,
+        "examples": [
+          "mushroombread",
+          "mushroomquiche",
+          "mushroomrice",
+          "omelette",
+          "roastedmushrooms"
+        ]
+      },
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "bioshroomtable",
+          "shroombed",
+          "shroomchair",
+          "shroomtable"
+        ]
+      },
+      "block": {
+        "count": 3,
+        "examples": [
+          "shroomblock",
+          "shroomblockglow",
+          "shroomblockmaterial"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "shroomchest",
+          "shroomwardrobe"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "8bitpowerup"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "fushroomsword"
+        ]
+      },
+      "headwear": {
+        "count": 1,
+        "examples": [
+          "mushroomhead"
+        ]
+      }
+    },
+    "total": 27
+  },
+  "drop_sources": {
+    "total_pools": 10,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomHarvest",
+          "probability": 1.3,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mushroomUndergroundChestTreasure",
+          "probability": 0.5257,
+          "count": 10.0
+        },
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.4543,
+          "count": 10.0
+        },
+        {
+          "pool": "luminousCaveChestTreasure",
+          "probability": 0.3755,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.3755,
+        0.5257
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomUndergroundTreasure",
+          "probability": 0.3417,
+          "count": 10
+        },
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.2953,
+          "count": 10
+        },
+        {
+          "pool": "mushroomUndergroundTreasure",
+          "probability": 0.2857,
+          "count": 10
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.2469,
+          "count": 10
+        },
+        {
+          "pool": "pandorasboxtrapogoLuminousCaveTreasure",
+          "probability": 0.244,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2041,
+        0.3417
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "shroomblock",
+    "roastedmushrooms",
+    "mushroombread"
+  ],
+  "quality_tier": "S"
+}

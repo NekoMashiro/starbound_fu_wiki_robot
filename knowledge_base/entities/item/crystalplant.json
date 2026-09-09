@@ -1,0 +1,27 @@
+{
+  "entity_id": "crystalplant",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Crystal Plant",
+  "name_zh": "晶体植物",
+  "description_en": "A plant formed of crystal. Magical!\nExtracted into Crystal Broccoli",
+  "description_zh": "一种由水晶制成的植物。神奇的！\n 提取到水晶西兰花",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "crystalplantHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

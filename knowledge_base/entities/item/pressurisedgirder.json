@@ -1,0 +1,59 @@
+{
+  "entity_id": "pressurisedgirder",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pressurised Girder",
+  "name_zh": "承重柱",
+  "description_en": "A girder designed to accommodate pressurisation changes.",
+  "description_zh": "一种被设计成能够适应压力变化的钢梁。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.1181,
+          "count": 10
+        },
+        {
+          "pool": "hylotloceancityTreasure",
+          "probability": 0.0565,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0565,
+        0.1181
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "pressurisedgirder"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarmedievalchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medieval Chest",
+  "name_zh": "中世纪的箱子",
+  "description_en": "An old wooden chest, still going strong.",
+  "description_zh": "一个旧的木制箱子，却依旧很结实。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

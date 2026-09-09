@@ -1,0 +1,38 @@
+{
+  "entity_id": "apiary_frame_narcotic",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Narcotic Frame",
+  "name_zh": "麻醉巢框",
+  "description_en": "Drugged up Drones.\n<beeData>",
+  "description_zh": "将工蜂麻醉。\n<beeData>",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dirtmaterial",
+          "count": 8
+        },
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "myphisinjector",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

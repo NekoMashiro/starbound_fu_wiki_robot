@@ -1,0 +1,55 @@
+{
+  "entity_id": "shoggothhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shoggoth Mask",
+  "name_zh": "修格斯面具",
+  "description_en": "Set Bonuses (Part 1):\r\n Immune: Oxygen, Pressure, Extreme Heat/Cold/Radiation, Darkness",
+  "description_zh": "套装奖励（第1部分）：\n 免疫：缺氧、压力、极端高温/低温/辐射、黑暗",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 1750,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer"
+  ],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shoggothflesh",
+          "count": 4
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 2
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 10
+        },
+        {
+          "item": "aliencompound",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "craftingfurniture",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Wooden Workbench",
+  "name_zh": "木制合成台",
+  "description_en": "Can be used to produce materials and objects needed to build a settlement.",
+  "description_zh": "能用来生产建造殖民地必须的材料与物品。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 40,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "logblock",
+          "count": 4
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

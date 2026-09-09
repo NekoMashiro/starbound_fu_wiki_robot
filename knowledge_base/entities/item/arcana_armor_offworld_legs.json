@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_offworld_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Offworld Leggings",
+  "name_zh": "异界护腿",
+  "description_en": "A white futuristic leggings. \n\nSet Bonus: \nGrants +10% Ranged damage, +10% Electric RES and +40% Energy Regen Rate.",
+  "description_zh": "白色的未来派护腿。\n\n套装效果：\n获得+10%远程伤害、+10%雷鸣抗性和+40%能量恢复速率。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 10
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,51 @@
+{
+  "entity_id": "feroziumwand",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ferozium Wand",
+  "name_zh": "菲洛法杖",
+  "description_en": "What is this, a staff for ants?",
+  "description_zh": "这是什么，为蚂蚁准备的法杖？",
+  "rarity": "Rare",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "ferozium"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "primaryAbilityType": "plasmabarrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 3
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

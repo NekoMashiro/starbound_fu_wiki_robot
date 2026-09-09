@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_reed",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Reed",
+  "name_zh": "精选芦苇",
+  "description_en": "A bunch of selected reeds.\n For 50 seconds after drinking, +25% Max Energy.",
+  "description_zh": "一束精选芦苇。\n饮用后50秒内+25%能量上限。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

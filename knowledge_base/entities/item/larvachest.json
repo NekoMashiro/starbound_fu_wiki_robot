@@ -1,0 +1,46 @@
+{
+  "entity_id": "larvachest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Larva Chest",
+  "name_zh": "幼虫胸甲",
+  "description_en": "A bug like chest, with a pair of extra arms attached.",
+  "description_zh": "虫形胸甲，加装了一对额外的上肢。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hiveChestTreasure",
+          "probability": 0.1903,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoHiveTreasure",
+          "probability": 0.1237,
+          "count": 1
+        },
+        {
+          "pool": "hiveTreasure",
+          "probability": 0.1034,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1034,
+        0.1237
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

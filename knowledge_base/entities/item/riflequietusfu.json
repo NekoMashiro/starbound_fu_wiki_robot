@@ -1,0 +1,59 @@
+{
+  "entity_id": "riflequietusfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Toxin Rifle",
+  "name_zh": "毒素步枪",
+  "description_en": "Reliable and accurate, and cheap to produce.",
+  "description_zh": "精准可靠，生产成本低廉。",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "swtjc_ewg_elementalspray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 7
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,144 @@
+{
+  "entity_id": "liquidpus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pus",
+  "name_zh": "脓液",
+  "description_en": "A measure of pus. This is absolutely disgusting.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的脓液。这种液体实在是恶心。\n可萃取，可离心。",
+  "rarity": "Uncommon",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwastewater",
+          "count": 1
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2500
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "chunkymeatcoffee",
+          "pukacolaquantum"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidalienjuice"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "atropuslavalamp"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "cell_spliced"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "kirifruitseed"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "pussplumseed"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "frankLoot",
+          "probability": 1.5,
+          "count": 10,
+          "monsters": [
+            "bighairyfrank"
+          ]
+        },
+        {
+          "pool": "fucaterpillarLoot",
+          "probability": 0.118,
+          "count": 20,
+          "monsters": [
+            "fucaterpillar"
+          ]
+        },
+        {
+          "pool": "toxicgolemLoot",
+          "probability": 0.0625,
+          "count": 12,
+          "monsters": [
+            "futoxicgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0625,
+        1.5
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "frankLootBoss",
+          "probability": 1.5,
+          "count": 10,
+          "monsters": [
+            "bighairyfrankboss"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Pus.md",
+  "quality_tier": "S"
+}

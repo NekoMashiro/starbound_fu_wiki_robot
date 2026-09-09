@@ -1,0 +1,68 @@
+{
+  "entity_id": "crystallineblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Blade",
+  "name_zh": "水晶长剑",
+  "description_en": "Beautiful, shiny, and deadly.",
+  "description_zh": "漂亮、闪亮、致命。",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "longsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 30
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 8
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 8
+        },
+        {
+          "item": "obsidian",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

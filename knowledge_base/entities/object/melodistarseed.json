@@ -1,0 +1,68 @@
+{
+  "entity_id": "melodistarseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Melodistar Seed",
+  "name_zh": "旋律星种子",
+  "description_en": "Melodistar can increase your health and energy.",
+  "description_zh": "可以收获旋律星，食用后会提高生命值和能量值上限。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 48
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "littlerascalseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 24
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 42
+        },
+        {
+          "item": "phasematter",
+          "count": 4
+        },
+        {
+          "item": "cellmatter",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "melodistarHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

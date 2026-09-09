@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_aurea_storage_8_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ship Cabinet",
+  "name_zh": "恒金船柜",
+  "description_en": "A simple cabinet, partially painted in gold.",
+  "description_zh": "一个简单的柜子，部分漆成金色。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "storage",
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

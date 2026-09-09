@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_teleporter_lunarCorridor",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Corridor Door",
+  "name_zh": "月明走廊之门",
+  "description_en": "A mysterious doorway leading into an unknown dimension. Destroyed when used or broken.",
+  "description_zh": "通往一个未知维度的神秘通道。使用或破坏后消失。",
+  "rarity": "Legendary",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "ancient"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ancientblock",
+          "count": 20
+        },
+        {
+          "item": "arcana_bar_luminariumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 10
+        },
+        {
+          "item": "essence",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "yeastwater",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Yeast Water",
+  "name_zh": "酵母水",
+  "description_en": "A bottle filled with brewing yeast.",
+  "description_zh": "一个装满了酵母水的瓶子。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grainwater",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 23,
+        "examples": [
+          "agedrum",
+          "amberrum",
+          "applecider",
+          "beer",
+          "champagne"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidbeer"
+        ]
+      }
+    },
+    "total": 24
+  },
+  "quality_tier": "S"
+}

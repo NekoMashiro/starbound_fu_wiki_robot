@@ -1,0 +1,106 @@
+{
+  "entity_id": "mysteriousparcel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mysterious Parcel",
+  "name_zh": "神秘包裹",
+  "description_en": "Post-marked directly to you at your current location. No return-to-sender. Origin unknown.",
+  "description_zh": "在您当前的位置直接为您加邮戳。没有退回发件人。源头未知。",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 10,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 16,
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0829,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.028,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0102,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0829
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0177,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0049,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0049,
+        0.0177
+      ]
+    },
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0143,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0126,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0036,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0014,
+        0.0143
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

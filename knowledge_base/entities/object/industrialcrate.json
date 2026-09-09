@@ -1,0 +1,64 @@
+{
+  "entity_id": "industrialcrate",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Crate",
+  "name_zh": "工业箱",
+  "description_en": "A pressurised cargo crate, designed to withstand the conditions of space travel.",
+  "description_zh": "加压货物箱，用来抵御太空旅行的条件。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 160,
+  "tags": [
+    "industrial",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "yellowdye",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "yellowdye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

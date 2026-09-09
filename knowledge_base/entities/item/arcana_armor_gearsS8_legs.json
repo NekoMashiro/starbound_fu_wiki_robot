@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_armor_gearsS8_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Machinist Leggings",
+  "name_zh": "机械工护腿",
+  "description_en": "A piece of leggings worn by Titancorp machinists. \n\nSet Bonus: \nGrants +5% Fire RES and +10% Axe and Hammer damage.",
+  "description_zh": "泰坦重工机械工所穿戴的一件护腿。\n\n套装效果：\n+5%烈焰抗性且+10%斧与锤伤害。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8E_legs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

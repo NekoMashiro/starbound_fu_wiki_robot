@@ -1,0 +1,52 @@
+{
+  "entity_id": "precursorscreentall2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Glyph Monitor",
+  "name_zh": "大型雕纹监视器",
+  "description_en": "Pretty display.",
+  "description_zh": "漂亮的显示器。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "precursorscreentallbroken"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "precursorscreentall",
+    "precursorscreentall2",
+    "precursorscreentallbroken"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "irradiumgreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Greataxe",
+  "name_zh": "镭制巨斧",
+  "description_en": "Not at all fun to be cleaved by.\r\nInflicts Rad-Burn",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "greataxe",
+  "price": 1350,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "fusuperflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

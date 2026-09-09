@@ -1,0 +1,36 @@
+{
+  "entity_id": "testtubes",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Test Tubes",
+  "name_zh": "试管",
+  "description_en": "Not recommended for drinking.",
+  "description_zh": "不建议饮用。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

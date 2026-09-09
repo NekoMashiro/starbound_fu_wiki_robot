@@ -1,0 +1,67 @@
+{
+  "entity_id": "isn_atmosregulatorwarped",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Warped Regulator",
+  "name_zh": "扭曲调节器",
+  "description_en": "Generates a mysterious field at significantly higher range. Requires 320W of power.",
+  "description_zh": "在明显更大的区域内产生一个神秘的领域。\n需要320W电力。",
+  "rarity": "essential",
+  "category": "wire",
+  "price": 412001,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        },
+        {
+          "item": "elderrelic6",
+          "count": 1
+        },
+        {
+          "item": "isn_atmosregulatornew",
+          "count": 1
+        },
+        {
+          "item": "spacetimeobeliskmodified",
+          "count": 1
+        },
+        {
+          "item": "neutronium",
+          "count": 2
+        },
+        {
+          "item": "antineutronium",
+          "count": 2
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 12
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Warped Regulator.md",
+  "quality_tier": "A"
+}

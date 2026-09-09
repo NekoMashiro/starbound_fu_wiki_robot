@@ -1,0 +1,109 @@
+{
+  "entity_id": "rawbacon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Bacon",
+  "name_zh": "生培根",
+  "description_en": "Raw strips of bacon. I should cook them first, right? Type: Raw Meat",
+  "description_zh": "一大块奇怪的外星肉，或许我得先把这玩意弄熟了再吃？\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 57
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 10,
+        "examples": [
+          "baconpancakes",
+          "bananacon",
+          "erchiusomlette",
+          "mwhaddon_food_bambooShootSoup",
+          "omelette"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedbacon"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "meatFat",
+          "probability": 0.3333,
+          "count": 1
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.08,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.08,
+        0.3333
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "huntingminiboss",
+          "probability": 0.0833,
+          "count": 1,
+          "monsters": [
+            "fualien",
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "sweetmeat"
+  ],
+  "quality_tier": "S"
+}

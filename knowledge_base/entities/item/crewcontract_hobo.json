@@ -1,0 +1,53 @@
+{
+  "entity_id": "crewcontract_hobo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hobo Contract",
+  "name_zh": "合同：酒鬼",
+  "description_en": "Hires... a homeless guy that pukes on things. Increases max fuel by 250, but constantly makes you drunk.",
+  "description_zh": "雇用...一个无家可归的酒鬼。他能为你的飞船提供燃料，提高250刻度的最大飞船燃料，但是会经常让你喝醉。",
+  "rarity": "Legendary",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 5
+        },
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "crewcontract_hobo"
+  ],
+  "wiki_ref": "Hobo Contract.md",
+  "quality_tier": "A"
+}

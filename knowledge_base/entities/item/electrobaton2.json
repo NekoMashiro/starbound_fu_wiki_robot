@@ -1,0 +1,47 @@
+{
+  "entity_id": "electrobaton2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zipzap The Astounder",
+  "name_zh": "电棍破坏神",
+  "description_en": "Originally developed for Miniknog riot police. It's shockingly effective.",
+  "description_zh": "最初是为科技发展部的防暴警察开发的。非常有效。",
+  "rarity": "Legendary",
+  "category": "shortsword",
+  "price": 3640,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "energy",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "shortswordcombo",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.052,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "electrobaton2icon_l6.png",
+    "seed": "",
+    "shortdescription": "两棒灭魂^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

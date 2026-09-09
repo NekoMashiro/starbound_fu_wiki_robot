@@ -1,0 +1,42 @@
+{
+  "entity_id": "mannequin",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mannequin",
+  "name_zh": "人体模特",
+  "description_en": "Display and easily equip armour sets!",
+  "description_zh": "展示并方便装备护甲套装！",
+  "rarity": "Common",
+  "category": "other",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

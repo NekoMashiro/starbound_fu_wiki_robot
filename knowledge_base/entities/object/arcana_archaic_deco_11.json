@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_archaic_deco_11",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Map",
+  "name_zh": "古朴地图",
+  "description_en": "An old map with ancient writings scribbled within.",
+  "description_zh": "一张写着古代文字的老地图。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 230,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

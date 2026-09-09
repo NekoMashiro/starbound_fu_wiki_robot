@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_armor_borrhas_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Borrhas Jacket",
+  "name_zh": "北境夹克",
+  "description_en": "A jacket for staying warm in the cold. +5% Ice Res.",
+  "description_zh": "一件用于在寒冷中保持温暖的夹克。 +5% 纱冰抗性。",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 460,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_frostclad_chest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

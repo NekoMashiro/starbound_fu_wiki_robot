@@ -1,0 +1,51 @@
+{
+  "entity_id": "darkale",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mild Ale",
+  "name_zh": "淡啤酒",
+  "description_en": "A bottle of mild ale. The alcohol content is around 5%.\n+3 Defense (45s)\n35% Slow (10s)\nBuzzed (15s)",
+  "description_zh": "一瓶淡啤酒，酒精含量约为5%。\n35%减速(持续10s)\n耳鸣(持续15s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkalemash",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "placeabledarkalebottle"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

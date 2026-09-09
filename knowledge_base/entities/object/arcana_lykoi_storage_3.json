@@ -1,0 +1,32 @@
+{
+  "entity_id": "arcana_lykoi_storage_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lykoi Weapon Crate",
+  "name_zh": "狼猫武器箱",
+  "description_en": "A specially made weapon crate for storing firearms.",
+  "description_zh": "一个特制的武器箱，用于存放枪支。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "lykoi",
+    "storage",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Frogg Furnishing",
+      "station_zh": "蛤蛤家具",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

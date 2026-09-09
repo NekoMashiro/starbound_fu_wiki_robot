@@ -1,0 +1,45 @@
+{
+  "entity_id": "hazardsubcontroller",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poseidon Sub Controller",
+  "name_zh": "波塞冬潜艇控制器",
+  "description_en": "Create a super-tough submarine from stored nanites.",
+  "description_zh": "这个纳米舱内储存了一艘非常强韧的潜艇。\n可以通过除了岩浆、液态铁以外的任何液体",
+  "rarity": "legendary",
+  "category": "vehicleController",
+  "price": 5000,
+  "tags": [
+    "vehiclecontroller"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fusubcontroller",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 20
+        },
+        {
+          "item": "thoriumrod",
+          "count": 20
+        },
+        {
+          "item": "advancealloy",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Poseidon Sub Controller.md",
+  "quality_tier": "A"
+}

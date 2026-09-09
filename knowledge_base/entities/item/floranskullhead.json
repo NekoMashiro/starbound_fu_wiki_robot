@@ -1,0 +1,46 @@
+{
+  "entity_id": "floranskullhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Floran Skull Mask",
+  "name_zh": "叶族头骨面具",
+  "description_en": "A Floran skull. Ssspooky.",
+  "description_zh": "一个叶族头骨。令人毛毛毛骨悚然。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.0504,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneTreasure",
+          "probability": 0.0328,
+          "count": 1
+        },
+        {
+          "pool": "boneTreasure",
+          "probability": 0.0274,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0274,
+        0.0328
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "arcana_essence_mirageEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Terminus Essence",
+  "name_zh": "赤渊精纯",
+  "description_en": "A small pool of essence of the shattered Red Terminus. Can be converted to ancient essence or used to craft nanopacks.",
+  "description_zh": "破碎赤渊的一小簇精华，可以被转化为古代精华，或是用于纳米包合成。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 500,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_voidPhase",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "arcana_evoNanopack",
+          "mwhaddon_potion_twilight"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "essence"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddonarcana_sigils_ssSigil"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_terminusReaper",
+          "probability": 1.0,
+          "count": 120,
+          "monsters": [
+            "arcana_boss_terminusReaperFinal"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

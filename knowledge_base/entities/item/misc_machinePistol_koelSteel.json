@@ -1,0 +1,58 @@
+{
+  "entity_id": "misc_machinePistol_koelSteel",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Koel Steel",
+  "name_zh": "噪鹊之钢",
+  "description_en": "A special machine pistol used by Koel Industries's outpost guards that shoots rapid reflecting bullets.",
+  "description_zh": "特制的机械手枪，由噪鹊工业前哨站的守卫使用。",
+  "rarity": "Rare",
+  "category": "machinePistol",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 12
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        },
+        {
+          "item": "orangedye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

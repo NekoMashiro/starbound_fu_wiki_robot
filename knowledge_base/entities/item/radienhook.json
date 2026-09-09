@@ -1,0 +1,43 @@
+{
+  "entity_id": "radienhook",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Grapple Vine",
+  "name_zh": "艾肯藤蔓钩爪",
+  "description_en": "A useful genetic trick of the X'i.",
+  "description_zh": "X'i的一种遗传技巧。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 2,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 24
+        },
+        {
+          "item": "plantfibre",
+          "count": 20
+        },
+        {
+          "item": "neptuniumore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "barsectional",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bar Sectional",
+  "name_zh": "钢筋截面",
+  "description_en": "This cozy bar seating can sit at least four.",
+  "description_zh": "这个舒适的酒吧座位至少可以坐四个人。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "barsectional",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

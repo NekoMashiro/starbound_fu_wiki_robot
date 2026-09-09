@@ -1,0 +1,124 @@
+{
+  "entity_id": "snowflake",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snowflake",
+  "name_zh": "雪花",
+  "description_en": "A perfectly preserved snowflake. They say no two of these are ever the same.",
+  "description_zh": "一个保存完好的雪花。有人说世界上没有两个一模一样的雪花。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shortsword": {
+        "count": 2,
+        "examples": [
+          "icy_shortsword_1",
+          "icy_shortsword_2"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_frostclad_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_frostclad_chest"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_frostclad_legs"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_tundraVest"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_essence_iceEssence"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "icy_broadsword_1"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "snowflakeshuriken"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iceCaveChestTreasure",
+          "probability": 1.1805,
+          "count": 3.5
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoIceCaveTreasure",
+          "probability": 0.767,
+          "count": 3.5
+        },
+        {
+          "pool": "iceCaveTreasure",
+          "probability": 0.6416,
+          "count": 3.5
+        }
+      ],
+      "prob_range": [
+        0.6416,
+        0.767
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "iceBreakables",
+          "probability": 0.6,
+          "count": 1
+        },
+        {
+          "pool": "arcana_farmable_wintercorn",
+          "probability": 0.16,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.16,
+        0.6
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "snowflakeshuriken"
+  ],
+  "quality_tier": "S"
+}

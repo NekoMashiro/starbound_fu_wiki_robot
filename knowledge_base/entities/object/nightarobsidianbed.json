@@ -1,0 +1,50 @@
+{
+  "entity_id": "nightarobsidianbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Obsidian Bed",
+  "name_zh": "黑曜石床",
+  "description_en": "Nightar obsidian bed. Not built for comfort.",
+  "description_zh": "夜族黑曜石床。不是为了舒适而建造的。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 50,
+  "tags": [
+    "misc",
+    "nightar",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 8
+        },
+        {
+          "item": "cotton",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

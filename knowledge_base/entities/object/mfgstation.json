@@ -1,0 +1,51 @@
+{
+  "entity_id": "mfgstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Manufacturing Station",
+  "name_zh": "制造台",
+  "description_en": "An assembly line for processing raw materials into finished products.\nRequires 140J of power per craft.",
+  "description_zh": "一个将原材料加工成成品的自动化组装线。\n每次制造需要140J能量。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "powercore",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 10
+        },
+        {
+          "item": "stickofram",
+          "count": 4
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        },
+        {
+          "item": "upgrademodule",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Manufacturing Station.md",
+  "quality_tier": "A"
+}

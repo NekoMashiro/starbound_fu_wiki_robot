@@ -1,0 +1,42 @@
+{
+  "entity_id": "fubeesuithead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bee Keeper's Helm",
+  "name_zh": "养蜂人帽子",
+  "description_en": "Prevents nasty bee stings!",
+  "description_zh": "防止讨厌的蜜蜂蜇伤你。\n免疫蜂蛰",
+  "rarity": "common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "polymer",
+          "count": 4
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "ignuschili2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Adv. Ignus Chili Pepper",
+  "name_zh": "高级伊格纳斯辣椒",
+  "description_en": "Toss this pepper and burn your foes.",
+  "description_zh": "扔出这个辣椒，烧死你的敌人。",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "price": 15,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ignuschili2Harvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Adv. Ignus Chili Pepper.md",
+  "quality_tier": "A"
+}

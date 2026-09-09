@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_exousia_wachter_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Wachter Suit",
+  "name_zh": "卫视外套",
+  "description_en": "A standard armor worn by Exousian police officers. +4% Physical res.",
+  "description_zh": "威权帝国警卫装备的标准盔甲。+4%物理抗性。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 1400,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_enartz",
+          "count": 24
+        },
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 8
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

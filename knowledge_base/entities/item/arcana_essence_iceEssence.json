@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_essence_iceEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ice Essence",
+  "name_zh": "纱冰精纯",
+  "description_en": "An essence fragment of pure crystalline polymers, extracted from exotic liquids such as Illuminated and Ruinous water.",
+  "description_zh": "从黯光弱水和祸津液中提取的精纯碎片，内有纯洁的水晶聚合物。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "snowflake",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_bar_borealiteBar",
+          "arcana_misc_borealiteMagnus",
+          "cryonicextract",
+          "crystal"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_10"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_evoNanopack"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "wiki_ref": "Ice Essence.md",
+  "quality_tier": "S"
+}

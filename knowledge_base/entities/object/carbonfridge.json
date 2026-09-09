@@ -1,0 +1,50 @@
+{
+  "entity_id": "carbonfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Fridge",
+  "name_zh": "碳制冰箱",
+  "description_en": "A fridge made from carbon.",
+  "description_zh": "碳制的冰箱。",
+  "rarity": "common",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "carbon",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 5
+        },
+        {
+          "item": "coalore",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

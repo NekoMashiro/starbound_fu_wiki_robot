@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_head_fakegiltenhorns",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fake Gilten Horns",
+  "name_zh": "假镀人角",
+  "description_en": "A pair of fake horns mimicking those of the holy dragons. [INVADA]",
+  "description_zh": "模仿那些圣龙的一对假角。[INVADA]",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 800,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_hatcoupon",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hat Shop",
+      "station_zh": "帽店",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "contribhats.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

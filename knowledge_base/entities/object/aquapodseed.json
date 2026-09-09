@@ -1,0 +1,75 @@
+{
+  "entity_id": "aquapodseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aquapod Bud",
+  "name_zh": "水荚种子",
+  "description_en": "Its fruit increases swim speed. Must be planted in liquid.",
+  "description_zh": "可以收获水荚，食用后会提高游泳速度。必须种在液体里。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 44
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "reefpodseed",
+          "count": 3
+        },
+        {
+          "item": "kelp",
+          "count": 8
+        },
+        {
+          "item": "reed",
+          "count": 5
+        },
+        {
+          "item": "iodine",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "voritseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "aquapodHarvest",
+          "probability": 0.325,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

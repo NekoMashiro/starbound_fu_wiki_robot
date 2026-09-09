@@ -1,0 +1,52 @@
+{
+  "entity_id": "coconut",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Coconut",
+  "name_zh": "椰子",
+  "description_en": "This coconut is just waiting to be thrown.",
+  "description_zh": "一个等着你投掷的椰子。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 10,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 3,
+        "examples": [
+          "coconutmilk",
+          "coconutmilk",
+          "tropicalpunch"
+        ]
+      },
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "choconut",
+          "coconuticecream"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarGift",
+          "probability": 0.037,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "choconut",
+    "coconuticecream",
+    "coconutmilk"
+  ],
+  "quality_tier": "S"
+}

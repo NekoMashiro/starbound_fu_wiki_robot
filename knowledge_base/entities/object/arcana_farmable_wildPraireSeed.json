@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_wildPraireSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Wild Praire Seed",
+  "name_zh": "野篱棘种子",
+  "description_en": "A flower that's abundant in verdant planets.",
+  "description_zh": "一种在蓊茏星球上盛产的花。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_wildPraire",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

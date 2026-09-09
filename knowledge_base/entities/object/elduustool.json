@@ -1,0 +1,43 @@
+{
+  "entity_id": "elduustool",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Stool",
+  "name_zh": "水晶凳子。",
+  "description_en": "A stool made from cultivated crystals.",
+  "description_zh": "一个人工水晶制成的板凳。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 150,
+  "tags": [
+    "elduukhar",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 5
+        },
+        {
+          "item": "oceanite",
+          "count": 10
+        },
+        {
+          "item": "wovencrystal",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

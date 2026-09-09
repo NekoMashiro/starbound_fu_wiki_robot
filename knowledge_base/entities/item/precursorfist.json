@@ -1,0 +1,71 @@
+{
+  "entity_id": "precursorfist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honed Lunari Cestus",
+  "name_zh": "精炼月晶拳套",
+  "description_en": "Potent, ancient design.",
+  "description_zh": "一把古代人设计的强有力的武器。",
+  "rarity": "Legendary",
+  "category": "fistWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon",
+    "precursor",
+    "energy"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 9.5,
+  "critChance": 2,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

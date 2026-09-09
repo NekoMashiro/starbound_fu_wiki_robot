@@ -1,0 +1,62 @@
+{
+  "entity_id": "reaperassault",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tk-12 Akasha",
+  "name_zh": "Tk-12 阿卡莎",
+  "description_en": "Fires super-cold dark matter infused rounds.\r\nSpawns defensive drones",
+  "description_zh": "发射注入极寒暗物质的子弹。\n生成防御无人机",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.7,
+  "critChance": 1,
+  "critBonus": 4,
+  "altAbilityType": "fudronelauncherakasha",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "darkmatter",
+          "count": 3
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

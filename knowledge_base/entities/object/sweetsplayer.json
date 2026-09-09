@@ -1,0 +1,50 @@
+{
+  "entity_id": "sweetsplayer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sweets Music Player",
+  "name_zh": "糖果音乐播放器",
+  "description_en": "A macaroon themed record player. It plays a sweet little song.",
+  "description_zh": "以杏仁饼为主题的录音机。它播放一首甜美的小歌。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "sweets",
+    "musical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sweetsset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "penumbritepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Revolver",
+  "name_zh": "半影左轮",
+  "description_en": "Specially treated rounds for a special occasion. High calibre.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 2,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

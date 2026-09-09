@@ -1,0 +1,46 @@
+{
+  "entity_id": "woollychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Prehistoric Woolly Coat",
+  "name_zh": "史前羊毛外套",
+  "description_en": "It's woolly in order to retain warmth, and yet it doesn't cover much skin. Curious!",
+  "description_zh": "它为了保暖而使用毛皮制成，却没有包裹太多肌肤。真有意思。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarChestTreasure",
+          "probability": 0.1213,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarTreasure",
+          "probability": 0.0788,
+          "count": 1
+        },
+        {
+          "pool": "tarTreasure",
+          "probability": 0.0659,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0659,
+        0.0788
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

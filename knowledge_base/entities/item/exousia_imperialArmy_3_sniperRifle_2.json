@@ -1,0 +1,75 @@
+{
+  "entity_id": "exousia_imperialArmy_3_sniperRifle_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA3 Nordwolf Hunter",
+  "name_zh": "EIA3北境狼狩猎者",
+  "description_en": "An enhanced sniper rifle issued to Exousian Nordwolves, used only in special operations.",
+  "description_zh": "威权北境狼部队配备的制式增强狙击步枪，仅用于特殊行动。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 1040,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 16
+        },
+        {
+          "item": "arcana_misc_behestDongle",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T8",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

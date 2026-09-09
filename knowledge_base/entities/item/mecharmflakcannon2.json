@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmflakcannon2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flak Cannon II Arm",
+  "name_zh": "地对空集束炮 II",
+  "description_en": "A slight upgrade to the basic model.",
+  "description_zh": "对基本型号的微小升级。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmflakcannon",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

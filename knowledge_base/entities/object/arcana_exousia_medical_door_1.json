@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_exousia_medical_door_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Exousian Medical Door",
+  "name_zh": "威权帝国医疗门",
+  "description_en": "A simple door separating medical quarters.",
+  "description_zh": "分隔医疗区的简单门。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 130,
+  "tags": [
+    "exousia",
+    "door",
+    "medical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_enartzComposite",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

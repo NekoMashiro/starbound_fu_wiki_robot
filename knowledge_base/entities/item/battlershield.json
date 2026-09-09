@@ -1,0 +1,52 @@
+{
+  "entity_id": "battlershield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battler Shield",
+  "name_zh": "勇士盾",
+  "description_en": "+10% Shield Bash",
+  "description_zh": "盾牌反伤+10%",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 500,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "nightar"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "aliencompound",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

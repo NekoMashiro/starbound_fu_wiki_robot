@@ -1,0 +1,38 @@
+{
+  "entity_id": "protoblockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Block",
+  "name_zh": "原体石料",
+  "description_en": "Seems awfully wasteful. This is fuel.",
+  "description_zh": "只当做建筑材料用太浪费了。这可以作为燃料。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

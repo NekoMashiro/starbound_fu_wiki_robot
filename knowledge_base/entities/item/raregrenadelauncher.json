@@ -1,0 +1,78 @@
+{
+  "entity_id": "raregrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rare Handheld Grenade Launcher",
+  "name_zh": "罕见手持榴弹发射器",
+  "description_en": "For when you need to lob grenades the extra distance using just one hand.",
+  "description_zh": "为你需要用一只手高抛榴弹而准备。",
+  "rarity": "Rare",
+  "category": "grenadeLauncher",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "explosive",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.4,
+    7
+  ],
+  "critChance": 3,
+  "critBonus": 8,
+  "drop_sources": {
+    "total_pools": 5,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.1632,
+          "count": 1,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.1202,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

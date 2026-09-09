@@ -1,0 +1,48 @@
+{
+  "entity_id": "mwhaddon_tech_auricFeather",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Auric Feather",
+  "name_zh": "金源之羽",
+  "description_en": "Passively grants falling damage protection. Press [Jump] in mid-air to activate/deactivate infinite flight. Holding shift to slow down. [Use to gain a new type of tech!]",
+  "description_zh": "被动：免疫摔落伤害。在空中按下[跳]来激活/关闭无限飞行。按住Shift减速。[使用以获取一个新的科技！]",
+  "rarity": "Essential",
+  "category": "mysteriousReward",
+  "price": 1800,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_3",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 6
+        },
+        {
+          "item": "mwhaddon_tech_steadilyFlight",
+          "count": 1
+        },
+        {
+          "item": "arcana_tech_goldenFlight",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

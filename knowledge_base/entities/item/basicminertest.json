@@ -1,0 +1,65 @@
+{
+  "entity_id": "basicminertest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mining Laser",
+  "name_zh": "激光挖掘器",
+  "description_en": "A neat little mining weapon. Does a bit of damage, too.\r\nUpgrade using your Tricorder.",
+  "description_zh": "一把利索的采矿武器。也有一点点危险。\n可在工具升级站进行升级。",
+  "rarity": "common",
+  "category": "upgradeableTool",
+  "price": 100,
+  "tags": [
+    "ranged",
+    "tool",
+    "mininggun",
+    "mininglaser",
+    "theaUninfusable",
+    "upgradeableTool"
+  ],
+  "elementalType": "electric",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 0.5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Mining Laser.md",
+  "quality_tier": "S"
+}

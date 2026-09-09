@@ -1,0 +1,41 @@
+{
+  "entity_id": "aztectech",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avian Tech Block",
+  "name_zh": "翼族科技块 ",
+  "description_en": "An advanced synthetic Avian material with printed markings.",
+  "description_zh": "一种上面印有标识的先进的翼族人造材料。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aztecmaterial",
+          "count": 5
+        },
+        {
+          "item": "metallicmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "aztectech"
+  ],
+  "quality_tier": "A"
+}

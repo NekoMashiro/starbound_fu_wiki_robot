@@ -1,0 +1,83 @@
+{
+  "entity_id": "grapes",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Grapes",
+  "name_zh": "葡萄",
+  "description_en": "Grapes, nature's snackfood. Type: Fruit",
+  "description_zh": "葡萄。天然的糖果。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapebasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 4,
+        "examples": [
+          "grapejuice",
+          "grapeschnapps",
+          "gygaxjuice",
+          "sweetpunch"
+        ]
+      },
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "apegrapes",
+          "fruitsalad"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "grapebasket"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "grapehoneystraw"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "grapemash"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "grapesHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "grapejuice"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "wateringcan",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Watering Can",
+  "name_zh": "喷壶",
+  "description_en": "Water your crops with this fashionable watering can.",
+  "description_zh": "用这个时髦的喷壶来为你的作物浇水。",
+  "rarity": "Uncommon",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "greendye",
+          "count": 1
+        },
+        {
+          "item": "reddye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

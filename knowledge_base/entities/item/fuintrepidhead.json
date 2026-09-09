@@ -1,0 +1,50 @@
+{
+  "entity_id": "fuintrepidhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Intrepid Hood",
+  "name_zh": "无畏面具",
+  "description_en": "Set Bonuses:\r\n +15% Knockback Resist\r\n Striker, Hammer: +2% Crit Chance, Damage x1.2\r\n Mountainous: +12% Knockback Resist",
+  "description_zh": "套装奖励:\n +15% 击退抗性\n 打击者, 锤子: +2% 暴击几率, 伤害x1.2\n 山脉: +12% 击退抗性",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "scorchedcore",
+          "count": 1
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

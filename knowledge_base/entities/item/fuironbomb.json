@@ -1,0 +1,38 @@
+{
+  "entity_id": "fuironbomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Bomb",
+  "name_zh": "变铁炸弹",
+  "description_en": "Alchemical creation! Turn tiles into iron!",
+  "description_zh": "炼金大发明！它可以把块变成铁！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 50,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

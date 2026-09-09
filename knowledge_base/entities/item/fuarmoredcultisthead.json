@@ -1,0 +1,68 @@
+{
+  "entity_id": "fuarmoredcultisthead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corrupted Hood",
+  "name_zh": "堕落头盔",
+  "description_en": "Set Bonuses:\r\n Flings Eyeballs\r\n Aether/Lightless Worlds: Damage x1.15, Health x1.25\r\n Immune: Poisoned, Acid",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corruptionseed",
+          "count": 3
+        },
+        {
+          "item": "irradiumbar",
+          "count": 3
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

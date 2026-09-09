@@ -1,0 +1,27 @@
+{
+  "entity_id": "mwhaddon_armor_brigade_chest",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Brigade Coat",
+  "name_zh": "旅团外套",
+  "description_en": "Only for those who make their own contribution to the Guild. ",
+  "description_zh": "只有那些为公会做出贡献的人才配穿上。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_brigade",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

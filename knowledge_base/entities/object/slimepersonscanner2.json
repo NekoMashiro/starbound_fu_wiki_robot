@@ -1,0 +1,49 @@
+{
+  "entity_id": "slimepersonscanner2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Slime Scanner",
+  "name_zh": "高级粘液扫描器",
+  "description_en": "Keeps an eye out for you and your friends.",
+  "description_zh": "这只眼留意着你和你的朋友。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired",
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "oculemon",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

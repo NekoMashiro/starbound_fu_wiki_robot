@@ -1,0 +1,46 @@
+{
+  "entity_id": "sahkite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sahkite Crystal",
+  "name_zh": "萨克特水晶",
+  "description_en": "A gem harvested in a similar shape to Thanatite.",
+  "description_zh": "一种量产的形状类似于心叶矿的宝石。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "koaniteore"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "sahkitedye"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sahkiteHarvest",
+          "probability": 10.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

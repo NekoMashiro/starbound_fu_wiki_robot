@@ -1,0 +1,46 @@
+{
+  "entity_id": "irradiumchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Chest",
+  "name_zh": "镭制胸甲",
+  "description_en": "Set Bonuses:\r\n Irradium weapons: +3% Crit Chance, +10% Rad Resist\r\n Immune: All Radiation",
+  "description_zh": "套装奖励：\n 镭制武器: +3% 暴击几率, +10% 辐射抗性\n 免疫: 一切辐射",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 5
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,112 @@
+{
+  "entity_id": "fuapplehoneypie",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apple Honey Pie",
+  "name_zh": "苹果蜂蜜馅饼",
+  "description_en": "Pie.\n+25% HP & EP (90s) \nType: Fruit Dessert",
+  "description_zh": "派。\n+25%HP& EP(持续90s)\n类型：水果甜食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuapplehoneypieplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "redapple",
+          "count": 3
+        },
+        {
+          "item": "honeyjar",
+          "count": 1
+        },
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 225
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fuapplehoneypieplate"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

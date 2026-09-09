@@ -1,0 +1,45 @@
+{
+  "entity_id": "elderpedestal",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Pedestal",
+  "name_zh": "远古底座",
+  "description_en": "A pedestal for putting your fanciness on display.",
+  "description_zh": "一个可以把你的想法展示出来的基座。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 350,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderstone2material",
+          "count": 3
+        },
+        {
+          "item": "elderstonematerial",
+          "count": 3
+        },
+        {
+          "item": "agaranichor",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

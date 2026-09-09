@@ -1,0 +1,37 @@
+{
+  "entity_id": "shockarang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shock Boomerang",
+  "name_zh": "电击回旋镖",
+  "description_en": "Zap your foes with super fun electricity!",
+  "description_zh": "有趣的带电回旋镖，好好让你的敌人尝尝吧。",
+  "rarity": "Legendary",
+  "category": "boomerang",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon",
+    "electric",
+    "energy"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 7,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0058,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

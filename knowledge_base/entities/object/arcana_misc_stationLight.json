@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_misc_stationLight",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tall Station Light",
+  "name_zh": "高空间站灯",
+  "description_en": "A long industrial looking fluorescent light.",
+  "description_zh": "长的工业外观的荧光灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "station",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "bulbopaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bulbop Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It looks like a large and chunky leek. It bleeds when you cut it, though.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bulbopVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "bulbopTreasure",
+          "probability": 0.0007,
+          "count": 1,
+          "monsters": [
+            "bulbop",
+            "bulbop2",
+            "bulbopfriendly",
+            "poisonbulbop"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bulbopHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bulbop",
+            "bulbop2",
+            "bulbopfriendly",
+            "poisonbulbop"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

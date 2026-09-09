@@ -1,0 +1,55 @@
+{
+  "entity_id": "violiumshortsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Violium Shortsword",
+  "name_zh": "维奥短剑",
+  "description_en": "This violium hilt houses the projector for a wicked energy blade.",
+  "description_zh": "这把由维奥合金制成的剑柄上安装上了有邪恶能量的光刃发生器。",
+  "rarity": "Rare",
+  "category": "shortsword",
+  "price": 480,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "violium"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 3
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

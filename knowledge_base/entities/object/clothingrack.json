@@ -1,0 +1,37 @@
+{
+  "entity_id": "clothingrack",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Clothing Rack",
+  "name_zh": "衣架",
+  "description_en": "This calls for a dress up montage!",
+  "description_zh": "这需要一个化妆蒙太奇！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "commerce",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 70
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

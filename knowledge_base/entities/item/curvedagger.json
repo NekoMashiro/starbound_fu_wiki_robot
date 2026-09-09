@@ -1,0 +1,56 @@
+{
+  "entity_id": "curvedagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Knife",
+  "name_zh": "劫掠小刀",
+  "description_en": "Charged plasma-laced dagger. Handy, that.\r\nInflicts Burning",
+  "description_zh": "充能过的等离子匕首，非常便于使用。\n附加燃烧效果",
+  "rarity": "uncommon",
+  "category": "dagger",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "plasma",
+    "upgradeableWeapon",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5.5,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

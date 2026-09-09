@@ -1,0 +1,38 @@
+{
+  "entity_id": "flagcat",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Scratching Post",
+  "name_zh": "猫抓板",
+  "description_en": "Cats find the waving flag to be a little TOO enticing, so they tend to use scratching posts as markers instead.",
+  "description_zh": "猫觉得飘扬的旗帜有点太诱人了，所以它们用抓痕作为标记",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "cat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "climbingrope",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

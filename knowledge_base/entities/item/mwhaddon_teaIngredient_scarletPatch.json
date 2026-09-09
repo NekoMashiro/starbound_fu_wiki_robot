@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_scarletPatch",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Scarlet plant",
+  "name_zh": "猩红植株",
+  "description_en": "A scarlet plant native to Sanguine biomes.\n For 60 seconds after drinking, +20% Damage (does not stack with food). +30s Cooldown Time",
+  "description_zh": "一株来自蕴血的猩红色植物。\n饮用后60秒内+20%伤害（不与食物叠加）。冷却时间+30秒",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

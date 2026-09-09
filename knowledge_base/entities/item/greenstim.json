@@ -1,0 +1,142 @@
+{
+  "entity_id": "greenstim",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Green Stim Pack",
+  "name_zh": "绿色兴奋剂",
+  "description_en": "A stimpack full of green liquid, gives your run a boost!",
+  "description_zh": "能让你跑的更快的绿色兴奋剂。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalblue",
+          "count": 2
+        },
+        {
+          "item": "petalyellow",
+          "count": 2
+        },
+        {
+          "item": "phasematter",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crewcontract": {
+        "count": 1,
+        "examples": [
+          "crewcontract_plur"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 15,
+    "monster_drops": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "stimtreasure",
+          "probability": 0.525,
+          "count": 2
+        },
+        {
+          "pool": "pandorasboxhedgeleapTreasure",
+          "probability": 0.0982,
+          "count": 1
+        },
+        {
+          "pool": "apexstimtreasure",
+          "probability": 0.0645,
+          "count": 2
+        },
+        {
+          "pool": "apexfacilitytreasure",
+          "probability": 0.025,
+          "count": 2
+        },
+        {
+          "pool": "labguardtreasure",
+          "probability": 0.0211,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.525
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxhedgeleapHunting",
+          "probability": 0.3275,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "stim",
+          "probability": 0.25,
+          "count": 2
+        },
+        {
+          "pool": "elduustim",
+          "probability": 0.25,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexfacilitychesttreasure",
+          "probability": 0.0375,
+          "count": 2
+        },
+        {
+          "pool": "apextestfacilityChestTreasure",
+          "probability": 0.028,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.028,
+        0.0375
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

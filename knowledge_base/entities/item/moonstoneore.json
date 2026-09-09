@@ -1,0 +1,118 @@
+{
+  "entity_id": "moonstoneore",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Telebrium Crystal",
+  "name_zh": "月海水晶",
+  "description_en": "An unusually conductive crystal that channels energy even better than Quartz.",
+  "description_zh": "一种异常导电的晶体，其能量传输能力甚至优于石英。",
+  "rarity": "common",
+  "category": "craftingOre",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "moonstonebar"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "moonstonebar",
+      "bonus": [
+        "helium3gasliquid",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "moonstonebar",
+      "bonus": [
+        "helium3gasliquid",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "moonstonebar",
+      "bonus": [
+        "helium3gasliquid",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagores",
+          "probability": 19.2,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_toxicMoon",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_frostMoon",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_toxic",
+      "weight": 0.75
+    },
+    {
+      "biome": "metalworks",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_frostMoonUnderground",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_stone",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_redMoonUnderground",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_volcanic",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_redMoon",
+      "weight": 0.75
+    }
+  ],
+  "wiki_ref": "Telebrium Crystal.md",
+  "quality_tier": "S"
+}

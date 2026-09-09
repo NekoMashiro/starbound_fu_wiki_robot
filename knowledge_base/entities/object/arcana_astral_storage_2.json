@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_astral_storage_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Dresser",
+  "name_zh": "群星置物柜",
+  "description_en": "A tall dresser with astral markings on the side.",
+  "description_zh": "一个侧面带有星体标记的高大置物柜。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "astral",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

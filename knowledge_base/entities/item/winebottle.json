@@ -1,0 +1,48 @@
+{
+  "entity_id": "winebottle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "White Wine",
+  "name_zh": "白酒",
+  "description_en": "A bottle of white wine, made from clarified wine.\n-25% Run & Jump (10s)\nDrunk (5s)",
+  "description_zh": "一瓶白葡萄酒，由澄清的葡萄酒制成\n-25% 速度和跳跃(持续10s)\n醉酒(持续5s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapejuice",
+          "count": 5
+        },
+        {
+          "item": "grapemash",
+          "count": 3
+        },
+        {
+          "item": "yeastwater",
+          "count": 2
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 2
+        },
+        {
+          "item": "whitespineshell",
+          "count": 2
+        },
+        {
+          "item": "bottle",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

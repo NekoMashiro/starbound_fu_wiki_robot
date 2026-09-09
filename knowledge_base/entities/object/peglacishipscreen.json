@@ -1,0 +1,59 @@
+{
+  "entity_id": "peglacishipscreen",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Screen",
+  "name_zh": "合金屏幕",
+  "description_en": "A big display screen made of a metallic alloy.",
+  "description_zh": "由金属合金制成的大显示屏。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 125,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_shellfruitSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Shellfruit Seed",
+  "name_zh": "贝壳果种子",
+  "description_en": "A fruit that is often found in caverns, with a hardened shell. The inside however, is soft and creamy.",
+  "description_zh": "一种经常能在洞穴中发现的水果，外壳坚硬。但里面的果肉却柔软而绵密。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_shellfruit",
+          "probability": 1.1,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

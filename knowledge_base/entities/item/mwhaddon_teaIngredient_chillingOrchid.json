@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_chillingOrchid",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Chilling Orchid",
+  "name_zh": "苍雪兰",
+  "description_en": "A rare blossom only spotted on Arcane Tundra.\n Disable direct healing. Heal 10% of Max Health/s until Cooldown expires or healed 180% of direct healing (no more than 2500).",
+  "description_zh": "只在魔冻塬发现的稀有花朵。\n禁用并记录饮茶时的直接治疗量。饮茶后若处于冷却期间且自身生命值不为满，每秒恢复最大生命值10%点生命值，至多恢复所记录治疗量的180%（不超过2500）。",
+  "rarity": "essential",
+  "category": "tradingCard",
+  "price": 750,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t5",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0375,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0375,
+        0.25
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

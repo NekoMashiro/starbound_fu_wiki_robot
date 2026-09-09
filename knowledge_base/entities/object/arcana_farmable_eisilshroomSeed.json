@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_eisilshroomSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Eisilshroom Spore",
+  "name_zh": "艾希尔菇孢子",
+  "description_en": "An unassuming blue mushroom found amidst the underground of Superstorm planets, its unadorned appearance concealing its remarkable medicinal properties.",
+  "description_zh": "这是一种在奔雷行星地下发现的不起眼的蓝色蘑菇，朴素的外表下隐藏着非凡的药用价值。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_eisilshroom",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

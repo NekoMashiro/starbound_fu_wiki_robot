@@ -1,0 +1,54 @@
+{
+  "entity_id": "labdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Door",
+  "name_zh": "实验室门",
+  "description_en": "This door is made of some sort of bulletproof material.",
+  "description_zh": "这门是用某种防弹材料制成的。",
+  "rarity": "uncommon",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "fu",
+    "science",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

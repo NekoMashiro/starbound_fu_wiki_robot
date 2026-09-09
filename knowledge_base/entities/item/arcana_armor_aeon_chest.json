@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_armor_aeon_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon's Minute",
+  "name_zh": "纪元之分",
+  "description_en": "The hand of minute, hot as the celestial sun. \n\nSet Bonus: \nGrants +5% Physical RES, +15% Speed, +15% Aeon weapon damage.",
+  "description_zh": "分之执掌，热如骄阳。\n\n套装效果：\n获得+5%物理抗性、+15%移速、+15%纪元武器伤害。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 6400,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_aeonLeaf",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 6
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_horncaster_chest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

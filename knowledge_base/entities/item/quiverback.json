@@ -1,0 +1,69 @@
+{
+  "entity_id": "quiverback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Basic Quiver",
+  "name_zh": "基础箭袋",
+  "description_en": "+10% Damage (Bows)\n+10% Draw Speed (Bows)\n+2% Airborne Damage (Bows)\n-2 Energy Per Shot (Bows)",
+  "description_zh": "伤害（弓箭）+10%\n上弦速度（弓箭）+10% \n空射伤害（弓箭）+2%\n每击能量消耗（弓箭）-2",
+  "rarity": "common",
+  "category": "backwear",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 4,
+        "examples": [
+          "quiverback2",
+          "quiverbackenergy",
+          "quiverbackpower",
+          "quiverbackspeed"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dungeoncrawlerChestTreasure",
+          "probability": 0.0286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

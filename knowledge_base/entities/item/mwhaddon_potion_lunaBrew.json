@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_potion_lunaBrew",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Luna Brew",
+  "name_zh": "月明古酿",
+  "description_en": "Traditional rice wine with a long history of brewing.\nYou emit a soft moonlight, grants 20% damage and 30% jump boost, but defense is weakened by 10.",
+  "description_zh": "使用古法酿造的米酒，历史悠久。\n你散发一道柔和的月光，并获得20%伤害和30%跳跃提升，但防御降低10。",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 1
+        },
+        {
+          "item": "arcana_flowers_lunarClematis",
+          "count": 1
+        },
+        {
+          "item": "rice",
+          "count": 1
+        },
+        {
+          "item": "bottledwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

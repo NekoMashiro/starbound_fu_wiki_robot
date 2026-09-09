@@ -1,0 +1,48 @@
+{
+  "entity_id": "blam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blam",
+  "name_zh": "布拉姆",
+  "description_en": "'Blam', short for Butchered Lambian, a now extinct Floran favorite.\n+10% Fire Res, Fire Immunity (2m) Type: Cooked Meat",
+  "description_zh": "“布拉姆”，屠宰好的羔羊的简称，一种现已灭绝的叶族人的最爱。\n+10% 火炎抗性，赋予火炎免疫(持续2m)\n类型：熟肉食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadloot",
+          "probability": 0.0533,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

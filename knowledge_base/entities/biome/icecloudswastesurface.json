@@ -1,0 +1,49 @@
+{
+  "entity_id": "icecloudswastesurface",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frozen Wastes Ice Clouds",
+  "name_zh": "冰冻废土冰云",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Frozen Wastes Ice Clouds",
+  "friendly_name_zh": "冰冻废土冰云",
+  "ores": [
+    {
+      "ore": "lunariore",
+      "weight": 1
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.55
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.45
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.21
+    },
+    {
+      "ore": "cinnabar",
+      "weight": 0.2
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:icewaste"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomecold3"
+  ],
+  "quality_tier": "C"
+}

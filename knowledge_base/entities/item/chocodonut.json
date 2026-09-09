@@ -1,0 +1,35 @@
+{
+  "entity_id": "chocodonut",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chocolate Donut",
+  "name_zh": "巧克力甜甜圈",
+  "description_en": "Delicious donut. Type: Grain + Dairy + Eggs + Sugar",
+  "description_zh": "美味的甜甜圈。\n类型：谷物 + 蛋奶",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 180
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

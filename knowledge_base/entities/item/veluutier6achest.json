@@ -1,0 +1,77 @@
+{
+  "entity_id": "veluutier6achest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat's Prime Energy Collar",
+  "name_zh": "优质能量猫项圈",
+  "description_en": "Imbued with extra defensive power, this collar fills its wielder with extra energy.",
+  "description_zh": "这个项圈有额外的防御能力，也使持用者充满额外的能量。",
+  "rarity": "Legendary",
+  "category": "chestarmour",
+  "price": 6400,
+  "tags": [
+    "tier6armour",
+    "balanced",
+    "ranged"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 20
+        },
+        {
+          "item": "veluutier5achest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

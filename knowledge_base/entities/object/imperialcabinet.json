@@ -1,0 +1,50 @@
+{
+  "entity_id": "imperialcabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Cabinet",
+  "name_zh": "甲虫橱柜",
+  "description_en": "With hidden compartments for valuables.",
+  "description_zh": "有隐藏的贵重物品隔间。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 130,
+  "tags": [
+    "mantizi",
+    "mantizivillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

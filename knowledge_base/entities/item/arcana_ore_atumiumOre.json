@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_ore_atumiumOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atumium Ore",
+  "name_zh": "烈原矿",
+  "description_en": "An atumium ore, can be used to craft atumium bars.",
+  "description_zh": "烈原矿石，可用于冶炼烈原锭。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 170,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_atumiumBar"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_sunlitDragonbreath"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "biomes": [
+    {
+      "biome": "arcana_solarizedLakes",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ancientCave",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_solarized",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_daybroken",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_dracoRidge",
+      "weight": 0.1
+    }
+  ],
+  "wiki_ref": "Atumium Ore.md",
+  "quality_tier": "S"
+}

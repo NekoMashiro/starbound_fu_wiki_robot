@@ -1,0 +1,62 @@
+{
+  "entity_id": "isn_napalmsprayer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Scorchburst",
+  "name_zh": "爆裂焦痕",
+  "description_en": "Huge gouts of dangerous napalm. Keep away from children.\r\nInflicts burning",
+  "description_zh": "使用巨大的凝固汽油弹作为攻击手段，请远离未成年人。\n附加燃烧效果",
+  "rarity": "uncommon",
+  "category": "flamethrower",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "flamethrower",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.2,
+  "critChance": 2,
+  "critBonus": 8,
+  "altAbilityType": "funapalmspray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "liquidoil",
+          "count": 50
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

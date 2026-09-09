@@ -1,0 +1,27 @@
+{
+  "entity_id": "petrifiedroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Umbral Stalk",
+  "name_zh": "阴影根茎",
+  "description_en": "Immune: Caliginous Gas, +6 Defense: 2m",
+  "description_zh": "免疫: 暗影气体, +6 防御: 2m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "petrifiedrootHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

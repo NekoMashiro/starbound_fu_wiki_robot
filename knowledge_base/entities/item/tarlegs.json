@@ -1,0 +1,46 @@
+{
+  "entity_id": "tarlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tar Trousers",
+  "name_zh": "沥青裤子",
+  "description_en": "Trousers made from warm, sticky tar.",
+  "description_zh": "由温暖而黏稠的沥青打造的裤子。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.0977,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.0635,
+          "count": 1
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.0531,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0531,
+        0.0635
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

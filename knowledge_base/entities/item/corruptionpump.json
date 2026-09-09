@@ -1,0 +1,44 @@
+{
+  "entity_id": "corruptionpump",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corruption Pump",
+  "name_zh": "腐败气体泵",
+  "description_en": "Perfect for biowarfare",
+  "description_zh": "最棒的生物武器。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon"
+  ],
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 7,
+  "critBonus": 7,
+  "primaryAbilityType": "bowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pollenpump",
+          "count": 1
+        },
+        {
+          "item": "corruptionseed",
+          "count": 8
+        },
+        {
+          "item": "mutagene2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "rustymetal",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rusty Metal",
+  "name_zh": "生锈的金属",
+  "description_en": "Old metal encrusted with rust.\nExtractable.",
+  "description_zh": "这老旧的金属表面布满了锈迹。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "metalliccleaver",
+          "metallicsword"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "arcana_tile32"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "metallichammer"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "metallicspear"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "blueprints_unlocked": [
+    "rustymetal"
+  ],
+  "quality_tier": "S"
+}

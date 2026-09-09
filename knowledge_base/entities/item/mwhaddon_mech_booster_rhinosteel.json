@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_mech_booster_rhinosteel",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Rhinosteel Power Pauldron",
+  "name_zh": "钢犀动力肩甲",
+  "description_en": "Specially designed Exousian booster, saving the speed cap for sheer mobility. ",
+  "description_zh": "特化的威权推进器，牺牲速度上限以换取绝佳的机动性。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 7200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_rufesciteComposite",
+          "count": 30
+        },
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 30
+        },
+        {
+          "item": "arcana_misc_behestDongle",
+          "count": 4
+        },
+        {
+          "item": "mwhaddon_misc_mechComponent_4",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_assaultPowerCore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Advanced Mech Station",
+      "station_zh": "高级机甲制造台",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Mech Parts Crafting",
+          "name_zh": "机甲部件合成"
+        },
+        {
+          "name": "mwhaddon_crafting_mechCrafting.json",
+          "name_zh": ""
+        },
+        {
+          "name": "基础科技站",
+          "name_zh": "基础科技站"
+        },
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

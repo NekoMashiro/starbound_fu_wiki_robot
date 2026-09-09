@@ -1,0 +1,201 @@
+{
+  "entity_id": "pearlpea",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pearlpeas",
+  "name_zh": "珍珠豆",
+  "description_en": "Pearlpeas! I'll need to bite down hard. Type: Legumes",
+  "description_zh": "珍珠豆！我需要使劲地咬。\n类型：豆类",
+  "rarity": "Common",
+  "category": "food",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pearlpeabasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 14,
+        "examples": [
+          "boiledpearlpeas",
+          "fishstew",
+          "meatstew",
+          "mwhaddon_food_dryStew",
+          "pearlpeajam"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "pearlpeabasket"
+        ]
+      }
+    },
+    "total": 15
+  },
+  "drop_sources": {
+    "total_pools": 71,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pearlpeaHarvest",
+          "probability": 1.246,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0655,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0655,
+        1.246
+      ]
+    },
+    "monster_drops": {
+      "count": 49,
+      "top": [
+        {
+          "pool": "foodTreasureMedium",
+          "probability": 0.8318,
+          "count": 3
+        },
+        {
+          "pool": "elduufoodTreasureMedium",
+          "probability": 0.8318,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.6631,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.6631,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.6631,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0019,
+        0.8318
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "food",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "produce",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "elduufood",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "elduuproduce",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.2614,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.2727
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1285,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1012,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0192,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0191,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0039,
+          "count": 3,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0038,
+        0.1285
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0256,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0182,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0182,
+        0.0256
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

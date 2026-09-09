@@ -1,0 +1,45 @@
+{
+  "entity_id": "snowgoggles",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snow Goggles",
+  "name_zh": "雪地护目镜",
+  "description_en": "This will protect your eyes in blizzards.\r\n+8% Ice Resist",
+  "description_zh": "这将在暴风雪中保护你的眼睛。\n+寒气抗性8%",
+  "rarity": "common",
+  "category": "headwear",
+  "price": 100,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

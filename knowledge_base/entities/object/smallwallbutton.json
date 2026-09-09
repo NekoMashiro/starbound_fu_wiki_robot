@@ -1,0 +1,38 @@
+{
+  "entity_id": "smallwallbutton",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Small Wall Button",
+  "name_zh": "贴墙小按钮",
+  "description_en": "Who knows what it might activate... just press it!",
+  "description_zh": "谁知道它会触发什么…按下它就是了！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,88 @@
+{
+  "entity_id": "crankrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Puncturer",
+  "name_zh": "穿孔器",
+  "description_en": "Penetrating rounds cause devastating wounds.\r\nInflicts bleeding",
+  "description_zh": "穿透性子弹，将撕开毁灭性的创伤。\n附加出血效果",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 2,
+  "critBonus": 9,
+  "altAbilityType": "explosiveburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brittlejunk",
+          "count": 60
+        },
+        {
+          "item": "ff_spareparts",
+          "count": 6
+        },
+        {
+          "item": "junktech",
+          "count": 5
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0222,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasure",
+          "probability": 0.0183,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,77 @@
+{
+  "entity_id": "cookedfish",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cooked Fish",
+  "name_zh": "熟鱼片",
+  "description_en": "A tasty fillet of cooked fish. Type: Cooked Seafood",
+  "description_zh": "一块美味的熟鱼片。\n类型：熟海鲜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rawfish",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

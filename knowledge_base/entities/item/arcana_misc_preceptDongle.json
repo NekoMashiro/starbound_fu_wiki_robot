@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_misc_preceptDongle",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Precept Dongle",
+  "name_zh": "戒律加密科技卡",
+  "description_en": "A tech dongle that contains details of Exousia's policing technologies.",
+  "description_zh": "一个包含威权帝国警用技术细节的科技加密器。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 260,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_police_blastRifle_1"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "exousia_police_pistol_1"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_exousianTech",
+          "probability": 1.2,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

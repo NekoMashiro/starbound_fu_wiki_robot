@@ -1,0 +1,86 @@
+{
+  "entity_id": "roastedmushrooms",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Roasted Mushrooms",
+  "name_zh": "烤蘑菇",
+  "description_en": "Roasting them really brings out all the flavour. Type: Mushroom",
+  "description_zh": "焙烤确实带出了它们所有的味道。\n类型：蘑菇",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxshroombopHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "pandorasboxshroombop"
+          ]
+        },
+        {
+          "pool": "pandorasboxmushtopHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "pandorasboxmushtop"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

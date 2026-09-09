@@ -1,0 +1,57 @@
+{
+  "entity_id": "plutoniumstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nuclear Staff",
+  "name_zh": "核素法杖",
+  "description_en": "A highly radioactive staff.",
+  "description_zh": "一把高辐射的法杖。",
+  "rarity": "legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "plutonium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "nuclearburst",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "enrichedplutonium",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

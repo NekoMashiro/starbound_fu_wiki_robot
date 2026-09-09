@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_stargleam_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Stargleam Bottoms",
+  "name_zh": "星烁下装",
+  "description_en": "A bygone outfit, once worn by Arcanian starfarers.",
+  "description_zh": "现已消失的服装，曾由守秘族星旅者所穿。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 70,
+  "tags": [],
+  "level": 1,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_cosmeticlegs",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

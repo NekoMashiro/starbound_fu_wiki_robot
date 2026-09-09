@@ -1,0 +1,42 @@
+{
+  "entity_id": "mwhaddon_throwable_discus",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Discus",
+  "name_zh": "光辉之雷",
+  "description_en": "Despite its name, this grenade will explode your enemies with light magic!",
+  "description_zh": "这个手雷会使用光辉魔法把你的敌人炸上天！",
+  "rarity": "legendary",
+  "category": "throwableItem",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_whiteDaisy",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lightEssence",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

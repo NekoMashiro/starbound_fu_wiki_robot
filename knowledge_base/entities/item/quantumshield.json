@@ -1,0 +1,51 @@
+{
+  "entity_id": "quantumshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Shield",
+  "name_zh": "量子盾",
+  "description_en": "+12% Energy Regen, -40% Fall Damage, Immune:: Cold,Rad,Heat,Proto",
+  "description_zh": "能量回复速度+12%，掉落伤害-40%，免疫：寒冷，辐射，炎热，原毒",
+  "rarity": "legendary",
+  "category": "shield",
+  "price": 1000,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 3
+        },
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,75 @@
+{
+  "entity_id": "pinkloomseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pinkloom Seed",
+  "name_zh": "粉色织机草种子",
+  "description_en": "Causes rage while increasing energy.",
+  "description_zh": "可以收获粉色织机草，食用后会提高伤害和能量值上限。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 24,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "yellowfootseed",
+          "count": 1
+        },
+        {
+          "item": "ff_mercury",
+          "count": 16
+        },
+        {
+          "item": "staticcell",
+          "count": 4
+        },
+        {
+          "item": "cellmatter",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "porphisplantseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pinkloomHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

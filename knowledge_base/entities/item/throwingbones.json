@@ -1,0 +1,134 @@
+{
+  "entity_id": "throwingbones",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Bones",
+  "name_zh": "可投掷的骨头",
+  "description_en": "Throwing bones at your enemies is primitive, but effective.",
+  "description_zh": "把骨头扔向敌人是一种原始但有效的方法。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 4,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "改造台",
+          "name_zh": "改造台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 8
+        }
+      ],
+      "output_count": 3,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.5376,
+          "count": 6
+        },
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.2521,
+          "count": 25.0
+        },
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.2091,
+          "count": 25.0
+        }
+      ],
+      "prob_range": [
+        0.2091,
+        0.5376
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneTreasure",
+          "probability": 0.1638,
+          "count": 25
+        },
+        {
+          "pool": "boneTreasure",
+          "probability": 0.137,
+          "count": 25
+        },
+        {
+          "pool": "pandorasboxtrapogoBoneCaveTreasure",
+          "probability": 0.1359,
+          "count": 25
+        },
+        {
+          "pool": "boneCaveTreasure",
+          "probability": 0.1136,
+          "count": 25
+        }
+      ],
+      "prob_range": [
+        0.1136,
+        0.1638
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

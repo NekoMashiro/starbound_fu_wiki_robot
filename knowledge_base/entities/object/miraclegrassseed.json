@@ -1,0 +1,74 @@
+{
+  "entity_id": "miraclegrassseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Miracle Grass",
+  "name_zh": "奇迹草种子",
+  "description_en": "Grass renowned for its healing ability. Produces a weak long-term regeneration effect.",
+  "description_zh": "可以收获奇迹草，食用后会提高生命恢复速度。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 11,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "petalred",
+          "count": 5
+        },
+        {
+          "item": "petalblue",
+          "count": 10
+        },
+        {
+          "item": "plantfibre",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "greenleafseed",
+          "guamseed"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "grassremedy"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "miraclegrassHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

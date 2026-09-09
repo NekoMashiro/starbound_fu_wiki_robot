@@ -1,0 +1,94 @@
+{
+  "entity_id": "fudynastwood",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dynast Timber",
+  "name_zh": "皇家木材",
+  "description_en": "Dynast wood that has been prepared for building and crafting.",
+  "description_zh": "为建筑与打造物品所准备的皇家木材。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "methanol",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 6,
+        "examples": [
+          "imperialbed",
+          "imperialchair",
+          "imperialchairtall",
+          "imperialcouch",
+          "imperialtable"
+        ]
+      },
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "imperialbowl",
+          "imperialbowlfruit",
+          "imperialbucket",
+          "imperialshieldstand",
+          "imperialwallshield"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "imperialbookcase",
+          "imperialcabinet",
+          "imperialchest",
+          "imperialchestlong",
+          "imperialdresser"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "imperialhanginglight",
+          "imperialwalllight"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "imperialdoor"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "quality_tier": "S"
+}

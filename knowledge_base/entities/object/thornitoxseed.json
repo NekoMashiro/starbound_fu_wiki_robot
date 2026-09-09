@@ -1,0 +1,71 @@
+{
+  "entity_id": "thornitoxseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thornitox Seed",
+  "name_zh": "棘刺种子",
+  "description_en": "Poisonous and spiky. Thornitox could have use in weapons manufacture.",
+  "description_zh": "这是有毒的多刺植物。可以收获棘刺，可用来制作武器。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 24,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "cornseed",
+          "count": 3
+        },
+        {
+          "item": "toxictop",
+          "count": 12
+        },
+        {
+          "item": "bone",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "vashtaplantseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thornitoxHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

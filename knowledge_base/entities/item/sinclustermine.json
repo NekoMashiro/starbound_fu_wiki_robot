@@ -1,0 +1,36 @@
+{
+  "entity_id": "sinclustermine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cluster Mine II",
+  "name_zh": "集束地雷 II",
+  "description_en": "Side effects may include burst eardrums.",
+  "description_zh": "副作用——可能会炸毁你的耳膜。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 6000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 40
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "mecharmclustermine",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

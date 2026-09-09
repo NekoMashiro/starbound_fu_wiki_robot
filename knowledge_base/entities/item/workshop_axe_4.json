@@ -1,0 +1,73 @@
+{
+  "entity_id": "workshop_axe_4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "TC Searing Axe",
+  "name_zh": "泰坦重工灼烧斧",
+  "description_en": "A variant heavy axe emitting high heat.",
+  "description_zh": "散发高热量的重斧变体。",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "titancorp"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 8.4,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_titancorpBlueprint",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

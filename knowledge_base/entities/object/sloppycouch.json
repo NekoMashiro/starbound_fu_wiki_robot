@@ -1,0 +1,49 @@
+{
+  "entity_id": "sloppycouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sloppy Couch",
+  "name_zh": "邋遢的沙发",
+  "description_en": "Oh look! Free chips!",
+  "description_zh": "哦，看！免费薯片！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "sloppy"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sloppyset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

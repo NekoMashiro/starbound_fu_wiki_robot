@@ -1,0 +1,37 @@
+{
+  "entity_id": "igloo",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Igloo",
+  "name_zh": "雪块砌成的圆顶小屋",
+  "description_en": "An igloo. It's much warmer than you'd expect!",
+  "description_zh": "冰屋。天气比你想象的要暖和得多！",
+  "rarity": "Uncommon",
+  "category": "furniture",
+  "price": 50,
+  "tags": [
+    "ice",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

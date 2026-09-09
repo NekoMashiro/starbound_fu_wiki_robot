@@ -1,0 +1,85 @@
+{
+  "entity_id": "hazmatchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hazmat Shirt",
+  "name_zh": "危险品处理组的外套",
+  "description_en": "When worn as a full set, grants +50% Radiation Resist and Moderate Radiation Immunity.",
+  "description_zh": "套装效果：辐射抗性+50%，免疫辐射喝和严酷辐射免疫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 13,
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "swampChestTreasure",
+          "probability": 0.0736,
+          "count": 1.0
+        },
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.0385,
+          "count": 1
+        },
+        {
+          "pool": "alienChestTreasure",
+          "probability": 0.0385,
+          "count": 1
+        },
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0246,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0172,
+        0.0736
+      ]
+    },
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSwampTreasure",
+          "probability": 0.0478,
+          "count": 1
+        },
+        {
+          "pool": "swampTreasure",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0172,
+        0.0478
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

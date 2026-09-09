@@ -1,0 +1,50 @@
+{
+  "entity_id": "azure_machinePistol_3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sirius A",
+  "name_zh": "天狼星A",
+  "description_en": "Sirius, the Great Oracle.",
+  "description_zh": "天庭之狼，无上之诣。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_machinePistol_1",
+          "count": 1
+        },
+        {
+          "item": "azure_machinePistol_2",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_borealiteMagnus",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_virusacSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Virusac Seed",
+  "name_zh": "瘤孢种子",
+  "description_en": "A common ingredient for certain medications and drugs, akin to psychedelics, able to improve the mood of its consumers.",
+  "description_zh": "一种常见于特定医药中的材料，类似致幻剂，能够改善使用者的情绪。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_virusac",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

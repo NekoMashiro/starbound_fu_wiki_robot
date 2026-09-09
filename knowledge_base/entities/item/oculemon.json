@@ -1,0 +1,156 @@
+{
+  "entity_id": "oculemon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Oculemon",
+  "name_zh": "眼球菜",
+  "description_en": "Sour but so worth it. Type: Meaty Plant",
+  "description_zh": "酸，但是值得。\n类型：肉性植物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemonbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 9,
+        "examples": [
+          "acutaque",
+          "burningeyeballs",
+          "eyebowls",
+          "fulemonlobster",
+          "ictea"
+        ]
+      },
+      "drink": {
+        "count": 4,
+        "examples": [
+          "cyanider",
+          "premiumcyanider",
+          "ultimatejuice",
+          "weyene"
+        ]
+      },
+      "seed": {
+        "count": 2,
+        "examples": [
+          "gazelemonseed",
+          "glarestalkseed"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "madnessoculob",
+          "oculemonbasket"
+        ]
+      },
+      "wire": {
+        "count": 2,
+        "examples": [
+          "slimepersonscanner",
+          "slimepersonscanner2"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "eyepiles"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "fu_lasereyestaff"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "drop_sources": {
+    "total_pools": 8,
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "oculemonHarvest",
+          "probability": 1.246,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxoculemicHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxocueyeHunting",
+          "probability": 0.7843,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.7843,
+        1.246
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.4089,
+          "count": 3.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.2657,
+          "count": 3
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.2222,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxoculemicTreasure",
+          "probability": 0.0889,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxocueyeTreasure",
+          "probability": 0.0471,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0471,
+        0.2657
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "cyanider",
+    "oculemonmeringue",
+    "eyepiles"
+  ],
+  "quality_tier": "S"
+}

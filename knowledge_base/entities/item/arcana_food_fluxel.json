@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_food_fluxel",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fluxel",
+  "name_zh": "橙光糕",
+  "description_en": "An energizing bake that will make you rush back for more! [Hyou]\n\n+Run Speed 5 min.\n+Jump Boost 5 min.",
+  "description_zh": "这款充满活力的烘焙点心定会让你忍不住再来一份！[Hyou]\n\n5分钟奔跑速度提升\n5分钟跳跃高度提升",
+  "rarity": "Legendary",
+  "category": "preparedFood",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_orangeFluxroot",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_wintercorn",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

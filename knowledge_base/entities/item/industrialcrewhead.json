@@ -1,0 +1,80 @@
+{
+  "entity_id": "industrialcrewhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Crew Helmet",
+  "name_zh": "工业乘员头盔",
+  "description_en": "Typical communication equipment for working on industrial cargo ships.",
+  "description_zh": "用于工业货船的典型通信设备。",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceCostume",
+          "probability": 0.3333,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.0033,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0033,
+        0.3333
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0035,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0035
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

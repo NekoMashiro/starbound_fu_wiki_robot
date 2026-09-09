@@ -1,0 +1,68 @@
+{
+  "entity_id": "ff_bambooshoot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bamboo Shoot",
+  "name_zh": "竹子",
+  "description_en": "Bamboo for crafting goods.",
+  "description_zh": "竹子，可以作为建筑材料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 14,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "bamboobed",
+          "bamboochair",
+          "bamboosofa",
+          "bambootable"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "bamboocabinet",
+          "bamboochest"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "bamboo"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "bamboodoor"
+        ]
+      },
+      "platform": {
+        "count": 1,
+        "examples": [
+          "bambooplatform"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bambooHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

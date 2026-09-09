@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_spectwing_chakram_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Bewitching Chakram",
+  "name_zh": "迷魔环刃",
+  "description_en": "A sharp chakram for hunting prey.",
+  "description_zh": "用于狩猎猎物的锋利环刃。",
+  "rarity": "Common",
+  "category": "chakram",
+  "price": 400,
+  "tags": [
+    "weapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

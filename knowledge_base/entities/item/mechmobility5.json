@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechmobility5",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mobility Unit V",
+  "name_zh": "机动性单元 V",
+  "description_en": "Improves performance of mech Legs and Boosters.\r\n+50% Mobility",
+  "description_zh": "提高机械腿和助推器的性能。\n机动性+50%",
+  "rarity": "essential",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "solariumstar",
+          "count": 8
+        },
+        {
+          "item": "precursorchip",
+          "count": 2
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

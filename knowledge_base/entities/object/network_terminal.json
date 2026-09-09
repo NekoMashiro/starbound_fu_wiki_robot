@@ -1,0 +1,45 @@
+{
+  "entity_id": "network_terminal",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Network Terminal",
+  "name_zh": "物品网络终端",
+  "description_en": "Provides access to the contents of connected storage containers.\nInput: item network UNRELIABLE AT RANGE!",
+  "description_zh": "提供对已连接的存储容器内容的访问权限。\n输入：物品网络\n远距离运行不可靠！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Item Network Terminal.md",
+  "quality_tier": "A"
+}

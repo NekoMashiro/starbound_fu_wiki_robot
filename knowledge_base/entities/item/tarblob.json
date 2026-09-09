@@ -1,0 +1,46 @@
+{
+  "entity_id": "tarblob",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Thick Tar Mask",
+  "name_zh": "黏稠沥青面具",
+  "description_en": "A thick tar mask.",
+  "description_zh": "一个黏稠沥青面具。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.0162,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.0106,
+          "count": 1
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.0088,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0088,
+        0.0106
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

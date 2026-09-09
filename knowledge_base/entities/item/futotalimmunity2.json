@@ -1,0 +1,61 @@
+{
+  "entity_id": "futotalimmunity2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Immunity Field",
+  "name_zh": "EPP模块（防护 II）",
+  "description_en": "Immune: Extreme Heat/Cold/Radiation, Liq. Nitrogen, Gas, (Proto) Poison",
+  "description_zh": "免疫极端炎热/寒冷/辐射、液氮、气体、炎热、原毒、中毒",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "ultronium",
+          "count": 2
+        },
+        {
+          "item": "deuterium",
+          "count": 2
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 2
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

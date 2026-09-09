@@ -1,0 +1,34 @@
+{
+  "entity_id": "particlegrenade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Particle Grenade",
+  "name_zh": "粒子手雷",
+  "description_en": "Eradicates large swathes of terrain.",
+  "description_zh": "这颗手雷爆炸时会破坏附近的地形。",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

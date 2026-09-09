@@ -1,0 +1,85 @@
+# [FU] Fd:Pets
+
+**来源**: Frackin' Universe Wiki | **分类**: Imported | **链接**: https://frackinuniverse.miraheze.org/wiki/Fd:Pets
+
+---
+
+There are a variety of capturable monsters in the Frackin Universe mod, with somewhere around 100 capturable monsters. Different monsters require different levels of lowered health to become capturable, down to 0.005% health, making some very difficult to capture.
+
+- Adult Shadowtop
+- Aquapod
+- Baby Corvulraptor
+- Baby Dilophiraptor
+- Baby Erichiraptor
+- Baby Gariraptor
+- Baby Reliraptor
+- Bee
+- Bloodbound Pteropod
+- Bulbop Hop
+- Chromingo
+- Cleaning Bot
+- Corvulraptor
+- Crisper
+- Cryopod
+- Dilophiraptor
+- Ecto Slime
+- Ecto Slime (Magma)
+- Effigiflora
+- Electropod
+- Shocktop
+- Erichiraptor
+- Fear Moth
+- Firetop
+- Forest Anglure
+- Frost Rotter
+- Frosttop
+- Gariraptor
+- Gas Bag
+- Gelatinous Eye
+- Giant Bee
+- Glarp
+- Gloop
+- Glump
+- Hemogolem
+- Ice Scorpion
+- Ice Troll
+- Jallaraptor
+- Jungle Ixoling
+- Juvinile Poptop
+- Knifetop
+- Large Rock Troll
+- Large Toxic Fly
+- Meatbag
+- Nanobot Swarm
+- Nikaw
+- Ocumera
+- Psilimander
+- Pyropod
+- Red Bee
+- Reliraptor
+- Rock Troll
+- Rot Anglure
+- Servitor Drone
+- Shadow Bat
+- Shadowtop
+- Shadowwraith Shroom
+- Shockjelli
+- Sky Whale
+- Slime Eye
+- Slimetop
+- Snapper
+- Snarker Trap
+- Spider Mk 1
+- Stone Brute
+- Sulphur Troll
+- Tentacool
+- Timber Wolf
+- Toxic Fly
+- Vampire Bat
+- Vectus
+- Wattsper
+- Webber
+- Webber Juvinile
+- WiltCrab
+- Wretched Rat
+- Wretched Rat Matriarch

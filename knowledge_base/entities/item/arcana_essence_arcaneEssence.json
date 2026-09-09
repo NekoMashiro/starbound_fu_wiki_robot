@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcana_essence_arcaneEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "[Base] Arcane Essence",
+  "name_zh": "奥术精纯",
+  "description_en": "A solidified essence of arcane magic.",
+  "description_zh": "奥法秘术之凝髓。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_liquid_arcaneWater",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "ionrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ion Rifle",
+  "name_zh": "离子步枪",
+  "description_en": "Reliable infantry weapon for anti-robot warfare.\r\nInflicts Electrified\r\nArea-Denial Alt",
+  "description_zh": "用于反机器人战争的可靠步兵武器。\n附加感电效果\n次要攻击：区域封锁",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 4.5,
+  "critChance": 1.2,
+  "critBonus": 5,
+  "altAbilityType": "iongrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "helium3gasliquid",
+          "count": 12
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

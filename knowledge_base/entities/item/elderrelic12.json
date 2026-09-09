@@ -1,0 +1,122 @@
+{
+  "entity_id": "elderrelic12",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Fragment",
+  "name_zh": "远古残卷",
+  "description_en": "Lost knowledge of an unknown race.",
+  "description_zh": "某个未知种族的失落知识。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 600,
+  "tags": [
+    "reagent",
+    "artifactElder"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "cultiststaff3"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "elderbookstand"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "fumadnessresource"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 11,
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.4715,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0784,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0498,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0449,
+          "count": 1
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0018,
+        0.4715
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.3493,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.3493
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.1239,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_redbanded_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red-Banded Queen",
+  "name_zh": "红缎蜂后",
+  "description_en": "Red-Banded Queen",
+  "description_zh": "红缎蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "blobbushjelly"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "redqueen",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "redbee"
+          ]
+        },
+        {
+          "pool": "bee_redbanded",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_redbanded"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

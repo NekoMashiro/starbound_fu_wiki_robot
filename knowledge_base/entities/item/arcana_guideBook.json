@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_guideBook",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcana Guidebook",
+  "name_zh": "奥法秘境教程书",
+  "description_en": "A beginner's guide for Arcana progression. Use this to open the guidebook.",
+  "description_zh": "奥法秘境流程推进的新手教程书。使用以打开教程书。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Iron Crafting Table",
+          "name_zh": "铁制工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

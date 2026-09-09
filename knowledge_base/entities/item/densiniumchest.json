@@ -1,0 +1,63 @@
+{
+  "entity_id": "densiniumchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Armor",
+  "name_zh": "超致密胸甲",
+  "description_en": "Set Bonuses:\r\n Densinium Weapons: +2% Crit Chance, Damage x1.25\r\n Immune: Poisoned, Oxygen, Gas, Pressure",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "chestarmour",
+  "price": 950,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 7
+        },
+        {
+          "item": "solariumstar",
+          "count": 3
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumchestkhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

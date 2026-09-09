@@ -1,0 +1,48 @@
+{
+  "entity_id": "fuaetherdoor4",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Gem Door",
+  "name_zh": "以太宝石门",
+  "description_en": "This door is made of hardened and compressed aether materials.",
+  "description_zh": "这扇门由硬化且压缩过的以太材料制成。",
+  "rarity": "Legendary",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 14
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 8
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

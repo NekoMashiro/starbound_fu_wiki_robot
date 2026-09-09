@@ -1,0 +1,49 @@
+{
+  "entity_id": "effigiumdressingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Dressing Table",
+  "name_zh": "幻影梳妆台。",
+  "description_en": "A dressing table that seem to fade in and out of existence.",
+  "description_zh": "一个似乎在逐渐消失的梳妆台。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "effigium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,125 @@
+{
+  "entity_id": "liquidhealing",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Healing Water",
+  "name_zh": "生命之水",
+  "description_en": "A measure of cool, clear, healing water. Drinking it will restore your body.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的冰冷而清澈的治疗之水。喝下它，你的身体就会得到恢复。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "bottledhealingwater",
+          "mwhaddon_potion_twilight"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "hydrolium",
+          "hydrolium"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "ambrosia"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_15"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "dyeremover"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "healinglavalamp"
+        ]
+      },
+      "liquidGun": {
+        "count": 1,
+        "examples": [
+          "healingliquidgun"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "bubbleshield"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxspringbopHarvest",
+          "probability": 0.9333,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxpetalbopHunting",
+          "probability": 0.4237,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxglofaeHunting",
+          "probability": 0.2667,
+          "count": 1,
+          "monsters": [
+            "pandorasboxglofae"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2667,
+        0.9333
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxpetalbopTreasure",
+          "probability": 0.128,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxglofaeTreasure",
+          "probability": 0.0421,
+          "count": 1,
+          "monsters": [
+            "pandorasboxglofae"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0421,
+        0.128
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "bottledhealingwater"
+  ],
+  "wiki_ref": "Healing Water.md",
+  "quality_tier": "S"
+}

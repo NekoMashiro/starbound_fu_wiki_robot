@@ -1,0 +1,29 @@
+{
+  "entity_id": "poison",
+  "entity_type": "liquid",
+  "source_mod": "Starbound",
+  "name_en": "poison",
+  "name_zh": "",
+  "description_en": "This liquid looks poisonous.",
+  "description_zh": "这些液体看起来有毒。",
+  "status_effects": [
+    "swimming",
+    "weakpoison"
+  ],
+  "interactions": [
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 43,
+      "liquidResult": 43
+    },
+    {
+      "liquid": 46,
+      "liquidResult": 46
+    }
+  ],
+  "wiki_ref": "Poison.md",
+  "quality_tier": "C"
+}

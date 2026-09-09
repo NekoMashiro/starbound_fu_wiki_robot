@@ -1,0 +1,44 @@
+{
+  "entity_id": "elduufridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Fridge",
+  "name_zh": "水晶冰箱",
+  "description_en": "A fridge made from crystal.",
+  "description_zh": "水晶做的冰箱。",
+  "rarity": "uncommon",
+  "category": "fridgeStorage",
+  "price": 300,
+  "tags": [
+    "elduukhar",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

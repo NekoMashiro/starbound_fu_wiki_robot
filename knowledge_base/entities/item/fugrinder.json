@@ -1,0 +1,61 @@
+{
+  "entity_id": "fugrinder",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grinder",
+  "name_zh": "碎裂",
+  "description_en": "This is the pinnacle of kinetic rifle technology.\r\nExtreme Fire Rate",
+  "description_zh": "这就是动力步枪的巅峰之作。\n极高的射速",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 2,
+  "critBonus": 9,
+  "altAbilityType": "explosiveburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

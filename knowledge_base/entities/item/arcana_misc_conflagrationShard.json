@@ -1,0 +1,98 @@
+{
+  "entity_id": "arcana_misc_conflagrationShard",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Conflagration Shard",
+  "name_zh": "爆燃碎片",
+  "description_en": "A burning shard of the neverceasing great fire.",
+  "description_zh": "永不停息之火的碎片。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 3
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "machinePistol": {
+        "count": 2,
+        "examples": [
+          "conflagration_machinePistol_1",
+          "conflagration_machinePistol_2"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_salamander_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_salamander_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_salamander_chest"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "arcana_back_solarFangs"
+        ]
+      },
+      "bow": {
+        "count": 1,
+        "examples": [
+          "conflagration_shortbow_1"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "conflagration_shortsword_1"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "conflagration_sniperRifle_1"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "quality_tier": "S"
+}

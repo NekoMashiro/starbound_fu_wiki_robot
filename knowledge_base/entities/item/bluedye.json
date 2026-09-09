@@ -1,0 +1,100 @@
+{
+  "entity_id": "bluedye",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Dye",
+  "name_zh": "蓝色染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalblue",
+          "count": 5
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 7,
+        "examples": [
+          "aeolus_painting_1",
+          "aeolus_painting_2",
+          "aeolus_painting_3",
+          "bleuark_painting_1",
+          "bleuark_painting_2"
+        ]
+      },
+      "backwear": {
+        "count": 2,
+        "examples": [
+          "arcana_back_orionCape",
+          "crayonblueback"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "glowchair",
+          "tier3chair"
+        ]
+      },
+      "clothingDye": {
+        "count": 2,
+        "examples": [
+          "greendye",
+          "purpledye"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "paintingrandom",
+          "paintingrandom2"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "ornateroofing",
+          "workshop_tile9"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "bluecheese"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "fireworkblue"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "quality_tier": "S"
+}

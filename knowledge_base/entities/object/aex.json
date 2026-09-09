@@ -1,0 +1,40 @@
+{
+  "entity_id": "aex",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Augment Extractor",
+  "name_zh": "模块提取器",
+  "description_en": "Pull the augments right out. Removes your pet's collar, too.",
+  "description_zh": "用于把模块提取出来。(模块包括EPP模块、宠物项圈、鱼饵、渔线轮)",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 8
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

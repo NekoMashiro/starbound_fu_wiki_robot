@@ -1,0 +1,45 @@
+{
+  "entity_id": "stonetiles",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Stone Tiles",
+  "name_zh": "石砖",
+  "description_en": "Tiles made from smoothly polished stone.",
+  "description_zh": "由石头精心打磨出来的砖。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 20
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "stonetiles"
+  ],
+  "quality_tier": "A"
+}

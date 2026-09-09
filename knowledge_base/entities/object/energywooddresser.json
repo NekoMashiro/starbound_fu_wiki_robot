@@ -1,0 +1,41 @@
+{
+  "entity_id": "energywooddresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energy Wood Dresser",
+  "name_zh": "能量木梳妆台",
+  "description_en": "An energy wood dresser.",
+  "description_zh": "能量木梳妆台。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 135,
+  "tags": [
+    "energywood",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "energywood",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

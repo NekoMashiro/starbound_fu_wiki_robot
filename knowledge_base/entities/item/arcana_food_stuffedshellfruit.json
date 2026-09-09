@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_stuffedshellfruit",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Stuffed Shellfruit",
+  "name_zh": "填料贝壳果",
+  "description_en": "A Shellfruit stuffed with a mix of meat and fish. It looks like a turtle and even tastes like one! [Malevolent VoidHeart]\n\n+20% Max Health 7 min.",
+  "description_zh": "用肉和鱼的混合馅料填馅的贝壳果。它不仅看起来像乌龟，味道也像！\n[Malevolent VoidHeart]\n\n7分钟+20%最大生命",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "rawfish",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_shellfruit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "fudesertwalkerchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nomad Robes",
+  "name_zh": "游牧人长袍",
+  "description_en": "Set Bonuses:\r\n +20% Shield Regen\r\n Dagger/Shortspear: Damage x1.15\r\n Assault/Sniper Rifle: Damage x1.08\r\n Immune: Burning, Sandstorms, Quicksand",
+  "description_zh": "套装奖励:\n +20%盾牌耐久恢复\n 匕首/短矛: 伤害x1.15\n 突击/狙击步枪: Damage x1.08\n 免疫: 烧伤, 沙暴，流沙",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "bugshell",
+          "count": 5
+        },
+        {
+          "item": "cottonwool",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "chitinchest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

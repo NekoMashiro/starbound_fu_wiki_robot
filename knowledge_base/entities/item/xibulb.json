@@ -1,0 +1,129 @@
+{
+  "entity_id": "xibulb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Bulb",
+  "name_zh": "艾肯球茎",
+  "description_en": "A highly radioactive plant-like bulb.",
+  "description_zh": "高放射性的类似植物的球茎。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 1
+        },
+        {
+          "item": "liquidalienjuice",
+          "count": 24
+        }
+      ],
+      "output_count": 2,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "bioweapon": {
+        "count": 5,
+        "examples": [
+          "radiencarbine",
+          "radienflamer",
+          "radiengrenadelauncher",
+          "radienpistol",
+          "radienpistol2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "algaegreen",
+          "ff_silicon",
+          "fu_carbondioxide",
+          "xibulb"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "biomorphchest",
+          "mutachitinchest",
+          "shellplatechest",
+          "xibasicchest"
+        ]
+      },
+      "headarmour": {
+        "count": 4,
+        "examples": [
+          "biomorphhead",
+          "mutachitinhead",
+          "shellplatehead",
+          "xibasichead"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "biomorphpants",
+          "mutachitinpants",
+          "shellplatepants",
+          "xibasicpants"
+        ]
+      },
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "neptuniumradien",
+          "plutoniumradien",
+          "thoriumradien",
+          "uraniumradien"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "radienlantern",
+          "radienwaterwalk",
+          "xiback"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "reactivegel",
+          "reactivegel2",
+          "reactivegel3"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "xiHarvest",
+          "probability": 1.0,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

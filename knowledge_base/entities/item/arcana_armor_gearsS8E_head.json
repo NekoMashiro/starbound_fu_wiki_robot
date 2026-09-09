@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_gearsS8E_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gearshift Visor",
+  "name_zh": "排档目镜",
+  "description_en": "Titancorp elite's uniform. \n\nSet Bonus: \n+10% Titancorp weapon damage. Recover Health to max and +40% Speed for 30s when Health drops below 60%, Cooldown 120s.",
+  "description_zh": "泰坦重工精英的制服。\n\n套装效果：\n+10%泰坦重工武器伤害。生命值低于60%时恢复所有生命值并在30秒内获得+40%移速提升，冷却120秒。",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 1600,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_armor_gearsS8_head",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_slipstreamComposite",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

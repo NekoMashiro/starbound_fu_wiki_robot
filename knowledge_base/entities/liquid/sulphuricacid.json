@@ -1,0 +1,40 @@
+{
+  "entity_id": "sulphuricacid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "sulphuricacid",
+  "name_zh": "",
+  "description_en": "Sulphuric acid pools are best avoided.",
+  "description_zh": "硫酸，你最好避开这种腐蚀性液体。",
+  "status_effects": [
+    "swimming",
+    "sulphuricacideffect"
+  ],
+  "interactions": [
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 41,
+      "materialResult": "wastestone"
+    },
+    {
+      "liquid": 42,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 43,
+      "liquidResult": 42
+    },
+    {
+      "liquid": 44,
+      "materialResult": "wastestone"
+    },
+    {
+      "liquid": 47,
+      "liquidResult": 46
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "fuhoneycrystalchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Crystal Chest",
+  "name_zh": "蜂蜜水晶箱子",
+  "description_en": "A honey crystal chest. Perhaps the chest itself is the treasure?",
+  "description_zh": "一个蜂蜜水晶箱子，这个箱子本身就能卖大价钱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 120,
+  "tags": [
+    "bees",
+    "crystal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 8
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 8
+        },
+        {
+          "item": "crystalblock",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_emeticPufferbone",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Emetic Pufferbone",
+  "name_zh": "催吐河豚骨",
+  "description_en": "Ew!\nRemove all Full Belly buff while drinking and gain Infirm for 30s. -40% Cooldown Time",
+  "description_zh": "呃！\n饮茶时解除已有的饱腹buff，并获得30秒的虚弱。冷却时间-40%",
+  "rarity": "legendary",
+  "category": "tradingCard",
+  "price": 500,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t4",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

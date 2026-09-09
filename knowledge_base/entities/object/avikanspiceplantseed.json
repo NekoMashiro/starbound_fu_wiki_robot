@@ -1,0 +1,60 @@
+{
+  "entity_id": "avikanspiceplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kadavan Spice Seed",
+  "name_zh": "卡达文香料果种子",
+  "description_en": "Spices can be made by drying this plants fruits.",
+  "description_zh": "你可以通过烘干这株植物的果实来制作卡达文香料。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 45
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "wartweedseed",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 6
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avikanspiceplantHarvest",
+          "probability": 0.7412,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

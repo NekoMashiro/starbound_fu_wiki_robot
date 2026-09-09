@@ -1,0 +1,48 @@
+{
+  "entity_id": "kirhostier3chest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corsair Breastplate",
+  "name_zh": "海盗胸甲",
+  "description_en": "Set Bonuses\r\n +5% Jump, Speed\r\n +150% Bomb Tech Damage\r\n +100s Oxygen\r\n Assault Rifles, (Machine) Pistols: Damage x1.15\r\n Immune: Pus, Black Tar",
+  "description_zh": "套装奖励\n +5% 跳跃, 速度\n +150% 炸弹科技伤害;\n +00s 氧气 \n 突击步枪, (自动) 手枪: 伤害x1.15\n 免疫: 脓液, 焦油",
+  "rarity": "Uncommon",
+  "category": "chestarmour",
+  "price": 500,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "bugshell",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

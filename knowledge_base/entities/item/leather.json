@@ -1,0 +1,286 @@
+{
+  "entity_id": "leather",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Leather",
+  "name_zh": "皮革",
+  "description_en": "A square of leather.",
+  "description_zh": "一块皮革。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_reaper_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 56,
+        "examples": [
+          "apextier2chest",
+          "apextier3chest",
+          "apextier4chest",
+          "apextier5achest",
+          "aviantier2chest"
+        ]
+      },
+      "headarmour": {
+        "count": 33,
+        "examples": [
+          "apextier4head",
+          "apextier5ahead",
+          "arcana_armor_arcka_head",
+          "arcana_armor_borrhas_head",
+          "arcana_armor_mistRider_head"
+        ]
+      },
+      "legarmour": {
+        "count": 28,
+        "examples": [
+          "apextier4pants",
+          "apextier5apants",
+          "aviantier4pants",
+          "aviantier5apants",
+          "cannoneerlegs"
+        ]
+      },
+      "furniture": {
+        "count": 23,
+        "examples": [
+          "bonechair",
+          "feneroxbookcase",
+          "feneroxcabinet",
+          "feneroxcouch",
+          "feneroxdesk"
+        ]
+      },
+      "chestwear": {
+        "count": 11,
+        "examples": [
+          "arcana_armor_arcka_chest",
+          "arcana_armor_borrhas_chest",
+          "arcana_armor_devotee_chest",
+          "arcana_armor_gralsigh_chest",
+          "arcana_armor_mistRider_chest"
+        ]
+      },
+      "legwear": {
+        "count": 6,
+        "examples": [
+          "arcana_armor_arcka_legs",
+          "arcana_armor_borrhas_legs",
+          "arcana_armor_mistRider_legs",
+          "arcana_armor_zealot_legs",
+          "arcana_faetheri_legs"
+        ]
+      },
+      "seed": {
+        "count": 6,
+        "examples": [
+          "bonebooseed",
+          "fayshroomseed",
+          "littlerascalseed",
+          "phasefruitseed",
+          "victorleaf"
+        ]
+      },
+      "headwear": {
+        "count": 6,
+        "examples": [
+          "centurionhead",
+          "flamebreakerhead",
+          "scrapperhead",
+          "snowgoggles",
+          "treyarchhead"
+        ]
+      }
+    },
+    "total": 233
+  },
+  "drop_sources": {
+    "total_pools": 33,
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "motherpoptopTreasure",
+          "probability": 1.0,
+          "count": 5,
+          "monsters": [
+            "motherpoptop",
+            "motherpoptop2"
+          ]
+        },
+        {
+          "pool": "agrobatVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "batongVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "capricoatVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "paratailVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.08,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "snakeHunting",
+          "probability": 0.495,
+          "count": 1,
+          "monsters": [
+            "fukingsnake"
+          ]
+        },
+        {
+          "pool": "adultpoptopHunting",
+          "probability": 0.4946,
+          "count": 1,
+          "monsters": [
+            "adultpoptop",
+            "adultpoptopmadnesspet",
+            "albinoadultpoptop",
+            "arcana_monster_primoPoptop",
+            "juvenilepoptop"
+          ]
+        },
+        {
+          "pool": "poptopHunting",
+          "probability": 0.4241,
+          "count": 1,
+          "monsters": [
+            "albinopoptop",
+            "deathbunny",
+            "firetop",
+            "frosttop",
+            "knifetop"
+          ]
+        },
+        {
+          "pool": "agrobatHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "agrobat",
+            "fublackbat",
+            "iceagrobat"
+          ]
+        },
+        {
+          "pool": "batongHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_mistBat",
+            "batong",
+            "poisonbatong",
+            "shadowbat",
+            "squidbeast"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2,
+        0.495
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bogdinoLoot",
+          "probability": 0.445,
+          "count": 1,
+          "monsters": [
+            "derrickmadnesspet",
+            "fusnapper"
+          ]
+        },
+        {
+          "pool": "ratthingLoot",
+          "probability": 0.1514,
+          "count": 1,
+          "monsters": [
+            "furatthing",
+            "furatthing2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1514,
+        0.445
+      ]
+    }
+  },
+  "wiki_ref": "Leather.md",
+  "quality_tier": "S"
+}

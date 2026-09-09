@@ -1,0 +1,60 @@
+{
+  "entity_id": "quietusknight",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Knight Blade",
+  "name_zh": "骑士宽剑",
+  "description_en": "Heavy-duty quietus weapon.",
+  "description_zh": "重型的寂灭武器。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.12,
+  "critChance": 1,
+  "critBonus": 15,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 8
+        },
+        {
+          "item": "blooddiamond",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

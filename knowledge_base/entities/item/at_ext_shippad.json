@@ -1,0 +1,39 @@
+{
+  "entity_id": "at_ext_shippad",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Titanship transponder",
+  "name_zh": "飞船应答器",
+  "description_en": "Use this to aboard your Titan ship.If you lose it, you can buy a new one in the Magician's Table, but you'd better not lose it!",
+  "description_zh": "用来登上你的泰坦飞船。如果你搞丢了，可以在魔导师之桌重新获取一个，但你最好别弄丢！",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "魔导师之桌",
+          "name_zh": "魔导师之桌"
+        },
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

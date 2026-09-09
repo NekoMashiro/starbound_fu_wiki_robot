@@ -1,0 +1,47 @@
+{
+  "entity_id": "fuaetherjar",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Jar",
+  "name_zh": "以太罐",
+  "description_en": "A small pretty jar made of pure dreams.",
+  "description_zh": "一个由幻梦制成的漂亮的小罐子。",
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 3
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

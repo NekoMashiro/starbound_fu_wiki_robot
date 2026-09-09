@@ -1,0 +1,48 @@
+{
+  "entity_id": "empress_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Boutique Chair",
+  "name_zh": "精品椅",
+  "description_en": "A small boutique chair. Makes you feel important while sitting in it.",
+  "description_zh": "一把小型的精品椅子。你很怕把它压垮了。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "empress"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

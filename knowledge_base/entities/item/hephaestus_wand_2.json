@@ -1,0 +1,57 @@
+{
+  "entity_id": "hephaestus_wand_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Grandfire Wand",
+  "name_zh": "烈火魔杖",
+  "description_en": "Flame-infused wand of the ancient fire.",
+  "description_zh": "注入了古老火炎的火焰魔杖。",
+  "rarity": "Rare",
+  "category": "wand",
+  "price": 2000,
+  "tags": [
+    "weapon",
+    "wand"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hephaestus_wand_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

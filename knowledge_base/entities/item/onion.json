@@ -1,0 +1,58 @@
+{
+  "entity_id": "onion",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gurn Onion",
+  "name_zh": "胶洋葱",
+  "description_en": "Heal in Light 250.2-252.5% HP: 5m",
+  "description_zh": "光照下回复250.2-252.5% HP: 5m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "onionHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "bulbopHunting",
+          "probability": 0.1992,
+          "count": 1,
+          "monsters": [
+            "bulbop",
+            "bulbop2",
+            "bulbopfriendly",
+            "poisonbulbop"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1992,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bulbopTreasure",
+          "probability": 0.0727,
+          "count": 1,
+          "monsters": [
+            "bulbop",
+            "bulbop2",
+            "bulbopfriendly",
+            "poisonbulbop"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

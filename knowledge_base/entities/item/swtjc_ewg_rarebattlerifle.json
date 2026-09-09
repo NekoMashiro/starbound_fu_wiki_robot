@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_rarebattlerifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Battle Rifle",
+  "name_zh": "精良的战斗步枪",
+  "description_en": "Fires more powerful rounds than an ordinary assault rifle, with better accuracy, at the cost of rate-of-fire.",
+  "description_zh": "发射比普通突击步枪更有威力的子弹，精确度更高，代价是射速。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_battleRifle",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    8.75,
+    11
+  ],
+  "critChance": 1,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

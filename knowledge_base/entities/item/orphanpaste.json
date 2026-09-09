@@ -1,0 +1,235 @@
+{
+  "entity_id": "orphanpaste",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orphan Paste",
+  "name_zh": "孤儿膏",
+  "description_en": "Made from only the finest ingredients. A perfect food for Vegans! Can fuel ships (40) and mechs.\n+10% HP (75s) Madness Gain 3 Type: Raw Meat",
+  "description_zh": "仅由最优质的原料制成。素食主义者的完美食物！可以为船只（40艘）和机甲提供燃料。\n+10%HP （75s）癫狂3 ；类型：生肉",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 405,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orphanpasteobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "jarredfetus",
+          "count": 1
+        },
+        {
+          "item": "aliencompound",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "jarredfetus",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 420
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 485
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "orphanpasteobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.138,
+          "count": 2
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.1244,
+          "count": 2
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0512,
+          "count": 2
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0241,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0126,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "fuCorpseMeat",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.7332,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.037,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0245,
+          "count": 2
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.007,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.007,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0559,
+          "count": 2
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0349,
+          "count": 2
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0179,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0179,
+        0.0559
+      ]
+    }
+  },
+  "wiki_ref": "Orphan Paste.md",
+  "quality_tier": "S"
+}

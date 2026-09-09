@@ -1,0 +1,109 @@
+{
+  "entity_id": "duskiline",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Duskiline Crystal",
+  "name_zh": "薄暮水晶",
+  "description_en": "A purely cosmetic gemstone to the Eld'uukhar. It is grown purely to trade.",
+  "description_zh": "一块对于厄休安龙人来说是纯粹装饰的宝石。它纯粹是为了贸易而生长的。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "solidfuel",
+          "count": 10
+        }
+      ],
+      "output_count": 5,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "armcannon": {
+        "count": 5,
+        "examples": [
+          "armcannonveluu",
+          "armcannonveluubullet",
+          "armcannonveluufire",
+          "armcannonveluuice",
+          "armcannonveluupoison"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "duskilinedye"
+        ]
+      },
+      "Magnorb": {
+        "count": 1,
+        "examples": [
+          "magnorbveluu"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "shrineoflostsouls"
+        ]
+      },
+      "fistWeapon": {
+        "count": 1,
+        "examples": [
+          "veluuclaws"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "veluudagger"
+        ]
+      },
+      "longsword": {
+        "count": 1,
+        "examples": [
+          "veluulongsword"
+        ]
+      },
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "veluupistol"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "duskilineHarvest",
+          "probability": 10.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

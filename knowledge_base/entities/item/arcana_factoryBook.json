@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_factoryBook",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Factory Handbook",
+  "name_zh": "工厂手册",
+  "description_en": "A beginner's guide for handling factory machines. Use this to open the handbook.",
+  "description_zh": "关于处理工厂机器的新手教程。使用以打开手册。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

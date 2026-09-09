@@ -1,0 +1,53 @@
+{
+  "entity_id": "throwingstar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Star",
+  "name_zh": "十字镖",
+  "description_en": "A throwing star, pocket-sized and deadly.",
+  "description_zh": "一个十字镖，便携且致命。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 5,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 15,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlruinedcityTreasure",
+          "probability": 0.028,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

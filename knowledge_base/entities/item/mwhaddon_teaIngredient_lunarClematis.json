@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_lunarClematis",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Evernight Clematis",
+  "name_zh": "永夜莲",
+  "description_en": "A blue-purple flower rarely found in Eminsnow planets.\n Direct healing is reduced by 5% of Max Health, but you'll heal 2.5% of Max Health/s for 10 seconds after drinking until getting hits.",
+  "description_zh": "生长在明雪星球的蓝紫色花朵，十分稀少。\n饮用时的生命值恢复减少5%最大生命值，但在饮用后10秒每秒恢复2.5%最大生命值的生命，受到伤害时效果立刻结束。",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

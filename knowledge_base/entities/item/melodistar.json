@@ -1,0 +1,27 @@
+{
+  "entity_id": "melodistar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Melodistar",
+  "name_zh": "旋律星",
+  "description_en": "+17 HP, +40 EP: 2m",
+  "description_zh": "",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "melodistarHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

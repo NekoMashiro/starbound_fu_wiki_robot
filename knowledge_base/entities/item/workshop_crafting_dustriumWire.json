@@ -1,0 +1,115 @@
+{
+  "entity_id": "workshop_crafting_dustriumWire",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Dustrium Wire",
+  "name_zh": "尘石电线",
+  "description_en": "A roll of wire for use in electronics.",
+  "description_zh": "一卷用于电子元件的电线。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 14,
+        "examples": [
+          "arcana_auto_battery_1",
+          "arcana_auto_battery_2",
+          "at_ext_b3",
+          "at_ext_condenser2",
+          "at_ext_extractor2"
+        ]
+      },
+      "light": {
+        "count": 10,
+        "examples": [
+          "workshop_console_1",
+          "workshop_light_1",
+          "workshop_light_2",
+          "workshop_light_3",
+          "workshop_light_4"
+        ]
+      },
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "workshop_wireddeco_2",
+          "workshop_wireddeco_3",
+          "workshop_wireddeco_4",
+          "workshop_wireddeco_5",
+          "workshop_wireddeco_6"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "workshop_auto_locker",
+          "workshop_auto_storage_1"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_tripleJump"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_misc_mechComponent_4"
+        ]
+      },
+      "^yellow;1级攻击无人机": {
+        "count": 1,
+        "examples": [
+          "sd_exp_t1titandrone_controller"
+        ]
+      }
+    },
+    "total": 34
+  },
+  "wiki_ref": "Dustrium Wire.md",
+  "quality_tier": "S"
+}

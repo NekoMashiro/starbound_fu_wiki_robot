@@ -1,0 +1,77 @@
+{
+  "entity_id": "bottledwater",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bottled Water",
+  "name_zh": "瓶装水",
+  "description_en": "Fresh, clean water. Soothing and rejuvenating.",
+  "description_zh": "清澈透明的水，使人充满活力。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 10
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 5,
+        "examples": [
+          "arcana_chargeflowPotion",
+          "arcana_magiksensePotion",
+          "arcana_voidphasePotion",
+          "mwhaddon_potion_fates",
+          "mwhaddon_potion_lunaBrew"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

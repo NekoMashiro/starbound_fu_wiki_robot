@@ -1,0 +1,53 @@
+{
+  "entity_id": "shadowflowers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Bush",
+  "name_zh": "阴影灌木丛",
+  "description_en": "A decorative bush. The flowers softly glow.",
+  "description_zh": "装饰性灌木。花儿轻轻地发光。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "shadow",
+    "dark"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 15
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 15
+        },
+        {
+          "item": "darklightblossom",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

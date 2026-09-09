@@ -1,0 +1,27 @@
+{
+  "entity_id": "mwhaddon_food_abyssalReef",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Abyssal Reef",
+  "name_zh": "深渊之礁",
+  "description_en": "Make you feel vigorous despite its awful appearance. \n\n+Run boost 10 min.\n+Jump boost 10 min.",
+  "description_zh": "虽然看起来不怎么样，但这饮料能让你感到活力四射。\n\n10分钟奔跑提升\n10分钟跳跃提升",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 800,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_starter",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

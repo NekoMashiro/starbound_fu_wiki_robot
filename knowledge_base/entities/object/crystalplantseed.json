@@ -1,0 +1,72 @@
+{
+  "entity_id": "crystalplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Plant Seed",
+  "name_zh": "晶体植物种子",
+  "description_en": "A Crystal plant. Turns out money does grow on trees.",
+  "description_zh": "一株晶体植物。原来钱真的可以长在树上。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 82
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "crystal",
+          "count": 75
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "crystallite"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fucrystalplantHarvest",
+          "probability": 1.2368,
+          "count": 1.0
+        },
+        {
+          "pool": "crystalplantHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        1.014,
+        1.2368
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

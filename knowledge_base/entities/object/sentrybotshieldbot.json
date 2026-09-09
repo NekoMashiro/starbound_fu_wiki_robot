@@ -1,0 +1,40 @@
+{
+  "entity_id": "sentrybotshieldbot",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shield Bot",
+  "name_zh": "两足机器人",
+  "description_en": "A well protected little buddy.",
+  "description_zh": "非常可靠的伙伴，在激活后，它会在空中持续地跟随并保护你。",
+  "rarity": "common",
+  "category": "decorative",
+  "price": 450,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

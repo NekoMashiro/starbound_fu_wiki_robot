@@ -1,0 +1,58 @@
+{
+  "entity_id": "fu_blastfurnace",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blast Furnace",
+  "name_zh": "高炉",
+  "description_en": "A superior furnace for processing mass quantities. Can smelt up to rare ores, and many more materials. Requires 50W power.",
+  "description_zh": "用于大批量冶炼的优质熔炉。可以冶炼稀有及以下矿石和更多的原料。\n需要50W电力。",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 2000,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electricfurnace",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 8
+        },
+        {
+          "item": "powercore",
+          "count": 2
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 150
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "isn_arcsmelter"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Blast Furnace.md",
+  "quality_tier": "S"
+}

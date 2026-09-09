@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_head_energyorb",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Energy Orb",
+  "name_zh": "能量珠",
+  "description_en": "A convenient and comfortable headpiece that projects a ball of pure energy above your head!",
+  "description_zh": "一款方便舒适的头饰，可将一颗纯粹的能量球投射到你的头顶！",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 800,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_hatcoupon",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hat Shop",
+      "station_zh": "帽店",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "contribhats.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

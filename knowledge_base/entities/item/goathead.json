@@ -1,0 +1,51 @@
+{
+  "entity_id": "goathead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Goat Skull Mask",
+  "name_zh": "山羊头骨面具",
+  "description_en": "Haunt your friends and enemies with this demonic goat skull mask!",
+  "description_zh": "戴上这邪恶的山羊头骨面具，让你的朋友和敌人感到困惑！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "florangladiatortreasure",
+          "probability": 0.4,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoBoneCaveTreasure",
+          "probability": 0.0815,
+          "count": 1
+        },
+        {
+          "pool": "boneCaveTreasure",
+          "probability": 0.0682,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0682,
+        0.4
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.1255,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

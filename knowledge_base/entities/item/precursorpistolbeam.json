@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorpistolbeam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Beamgun",
+  "name_zh": "先驱光束枪",
+  "description_en": "Ejects energy beams.\r\nProjects energy beams",
+  "description_zh": "可射出能量光束。\n射出能量光束",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 8.52,
+  "critChance": 4,
+  "critBonus": 12,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1497,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0119,
+        0.1497
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0366,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

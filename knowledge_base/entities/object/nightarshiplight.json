@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarshiplight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Green Ship Light",
+  "name_zh": "绿色飞船灯",
+  "description_en": "A small green light.",
+  "description_zh": "一个小绿灯。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

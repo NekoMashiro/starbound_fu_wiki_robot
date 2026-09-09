@@ -1,0 +1,66 @@
+{
+  "entity_id": "mythicalhoneyjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mythical Honey Jar",
+  "name_zh": "罐装神秘蜂蜜",
+  "description_en": "A delicious jar of imaginary honey!\n+30% Cosmic Resistance (5m)\nHeal 57.5 (30s)",
+  "description_zh": "一罐想象中的美味蜂蜜！\n+30%射线抗性(持续5m)\n治疗57.5生命值(30s内)",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mythicalcomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "godlycomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "kilvratjug",
+          "vxspecialblend"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "solariumcookie"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

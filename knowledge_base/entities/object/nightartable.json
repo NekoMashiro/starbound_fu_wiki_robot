@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightartable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Table",
+  "name_zh": "夜族桌子",
+  "description_en": "An electronic table.",
+  "description_zh": "一个电子桌",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "nightar",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

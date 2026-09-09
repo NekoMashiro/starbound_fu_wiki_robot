@@ -1,0 +1,49 @@
+{
+  "entity_id": "moltenblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Molten Sword",
+  "name_zh": "熔火剑",
+  "description_en": "Burning with a need for blood.",
+  "description_zh": "燃烧着，它渴望着鲜血。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonblade",
+          "count": 1
+        },
+        {
+          "item": "pyreitebar",
+          "count": 2
+        },
+        {
+          "item": "scorchedcore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

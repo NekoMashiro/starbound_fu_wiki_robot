@@ -1,0 +1,118 @@
+{
+  "entity_id": "arcana_bar_atlaGoldBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atla Gold Bar",
+  "name_zh": "海金锭",
+  "description_en": "An enchanted Atla gold bar, can be used to craft Atlantis Equipment and enhance Arcane EPP.",
+  "description_zh": "一块附魔的海金锭。可以用来制作海金装备或是增强奥秘EPP。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 320,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_atlaGoldOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1920
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "bleuark_tile11",
+          "bleuark_tile3",
+          "bleuark_tile5",
+          "bleuark_tile6",
+          "bleuark_tile8"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_aureolaBar",
+          "arcana_misc_auricPlate"
+        ]
+      },
+      "spear": {
+        "count": 2,
+        "examples": [
+          "aurea_glaive_1",
+          "bleuark_spear_1"
+        ]
+      },
+      "wand": {
+        "count": 2,
+        "examples": [
+          "aurea_orb_1",
+          "bleuark_wand_1"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_corekeeper_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_corekeeper_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_corekeeper_chest"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_4"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_atlaGoldBar"
+  ],
+  "wiki_ref": "Atla Gold Bar.md",
+  "quality_tier": "S"
+}

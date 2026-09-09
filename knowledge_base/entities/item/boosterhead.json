@@ -1,0 +1,44 @@
+{
+  "entity_id": "boosterhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Booster Shades",
+  "name_zh": "增强墨镜",
+  "description_en": "Popular lower-street wear.\r\n+10% Crit Damage",
+  "description_zh": "Popular lower-street wear.\n+10% 暴击伤害",
+  "rarity": "common",
+  "category": "headwear",
+  "price": 32,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

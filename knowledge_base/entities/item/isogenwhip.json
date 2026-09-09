@@ -1,0 +1,54 @@
+{
+  "entity_id": "isogenwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Whip",
+  "name_zh": "寒霜鞭",
+  "description_en": "Hit 'em with the snap freeze.\r\nInflicts Freezing",
+  "description_zh": "以凛冬严寒鞭笞来敌。\n造成冻结",
+  "rarity": "Legendary",
+  "category": "whip",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "isogen",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

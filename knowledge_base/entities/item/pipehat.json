@@ -1,0 +1,37 @@
+{
+  "entity_id": "pipehat",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pipe Hat",
+  "name_zh": "水管帽",
+  "description_en": "This hat is steam powered.",
+  "description_zh": "该帽由蒸汽供能。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

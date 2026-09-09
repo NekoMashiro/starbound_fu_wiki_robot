@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechbodyheavy2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Falcon II Body",
+  "name_zh": "隼鹰躯体 II",
+  "description_en": "Immune: Acid, Extreme Heat, Moderate Radiation, Mild Cold/Poison, Proto",
+  "description_zh": "免疫：酸蚀，极端炎热，中度辐射，轻度毒素/寒冷，原毒",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 11200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodyheavy",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 2
+        },
+        {
+          "item": "stickofram",
+          "count": 6
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "floatstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gravity Wand",
+  "name_zh": "重力魔杖",
+  "description_en": "Forged by quiqksilver. Control gravity!",
+  "description_zh": "由筷银制成。可控制重力！",
+  "rarity": "uncommon",
+  "category": "wand",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "wand",
+    "gravity"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "elementorb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "icecrystal",
+          "count": 3
+        },
+        {
+          "item": "precursorfluid",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Gravity Wand.md",
+  "quality_tier": "A"
+}

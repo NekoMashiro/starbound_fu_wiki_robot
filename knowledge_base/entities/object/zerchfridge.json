@@ -1,0 +1,50 @@
+{
+  "entity_id": "zerchfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Fridge",
+  "name_zh": "高熔点矿冰箱",
+  "description_en": "A fridge made from polished zerchesium.",
+  "description_zh": "一种用抛光的高熔点矿制成的冰箱。",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "zerchesium",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 10
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

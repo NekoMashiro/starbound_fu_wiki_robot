@@ -1,0 +1,35 @@
+{
+  "entity_id": "timeless_tile1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Timeless Stone Brick",
+  "name_zh": "须臾石砖",
+  "description_en": "A yellowish stone brick tile.",
+  "description_zh": "黄色的石地块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "aeon_tile1",
+          "aeon_tile2",
+          "aeon_tile3",
+          "aeon_tile4",
+          "arcana_platform_aeonPlatform"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_terraformer_timeless"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "A"
+}

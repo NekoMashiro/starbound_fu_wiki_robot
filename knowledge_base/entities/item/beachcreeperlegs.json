@@ -1,0 +1,46 @@
+{
+  "entity_id": "beachcreeperlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Creepling Trousers",
+  "name_zh": "爬行者胸甲",
+  "description_en": "These trousers have the texture of mouldy leather. Gross.",
+  "description_zh": "这裤子有着霉烂皮革般的纹理。真恶心。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "alienChestTreasure",
+          "probability": 0.1155,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.097,
+          "count": 1
+        },
+        {
+          "pool": "alienTreasure",
+          "probability": 0.0811,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0811,
+        0.097
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

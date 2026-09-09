@@ -1,0 +1,53 @@
+{
+  "entity_id": "lightsensor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Light Sensor",
+  "name_zh": "光线传感器",
+  "description_en": "Activates the bottom node in dim light and the top node in bright light.",
+  "description_zh": "在昏暗的光照下激活底部节点，在明亮的光照下激活顶部节点。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_advancedlightsensor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

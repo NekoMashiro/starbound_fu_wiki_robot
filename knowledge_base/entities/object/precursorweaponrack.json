@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursorweaponrack",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Weapon Rack",
+  "name_zh": "先驱武器架",
+  "description_en": "An array of alien weaponry.",
+  "description_zh": "一组外星武器。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 1500,
+  "tags": [
+    "precursor",
+    "combat"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0576,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0576,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0321,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0321,
+        0.0576
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

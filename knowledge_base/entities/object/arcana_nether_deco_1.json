@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_nether_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Crystal Stand",
+  "name_zh": "冥界水晶架",
+  "description_en": "A stand holding a crystal.",
+  "description_zh": "放置着一块水晶的架子。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "nether"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        },
+        {
+          "item": "arcana_spectwing_tile15",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

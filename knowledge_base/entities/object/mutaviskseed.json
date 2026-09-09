@@ -1,0 +1,64 @@
+{
+  "entity_id": "mutaviskseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutavisk",
+  "name_zh": "飞螳种子",
+  "description_en": "A strange and wonderful plant that produces an unrivaled silk-like material.",
+  "description_zh": "这真是一种奇妙的植物，它能够长出无比坚韧的丝状纤维。可以收获飞螳丝。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 29
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "plantfibre",
+          "count": 3
+        },
+        {
+          "item": "petalyellow",
+          "count": 9
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 14
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 8
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mutaviskHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

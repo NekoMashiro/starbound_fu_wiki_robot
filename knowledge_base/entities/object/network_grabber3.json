@@ -1,0 +1,50 @@
+{
+  "entity_id": "network_grabber3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grabber v3",
+  "name_zh": "采集器 III",
+  "description_en": "Highest capacity Grabber. Grabs items from the world. Range: 12.\r\nInput: On/Off Switch\r\nOutput: item network",
+  "description_zh": "容量最大的采集器，从世界中采集物品。范围：12格。\n输入节点： 电源开关\n输出节点： 物品网络",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 64,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "network_grabber2",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_grabbership"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Grabber v3.md",
+  "quality_tier": "S"
+}

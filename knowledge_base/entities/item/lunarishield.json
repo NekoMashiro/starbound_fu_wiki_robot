@@ -1,0 +1,52 @@
+{
+  "entity_id": "lunarishield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Shield",
+  "name_zh": "月晶盾",
+  "description_en": "Immune: Slime",
+  "description_zh": "免疫黏液",
+  "rarity": "common",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "lunari"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "miraclegrass",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

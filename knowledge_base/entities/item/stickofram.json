@@ -1,0 +1,391 @@
+{
+  "entity_id": "stickofram",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Stick of RAM",
+  "name_zh": "内存条",
+  "description_en": "A classic universal computer chip. Can be used for crafting.",
+  "description_zh": "一个典型的通用计算机芯片。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "polymer",
+          "count": 2
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 80
+        }
+      ],
+      "output_count": 20,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 12,
+        "examples": [
+          "fuenemysensor",
+          "fufriendlysensor",
+          "fumonstersensor",
+          "funpcsensor",
+          "fuplayersensor"
+        ]
+      },
+      "light": {
+        "count": 7,
+        "examples": [
+          "arcana_exousia_tech_wireddeco_1",
+          "arcana_exousia_tech_wireddeco_2",
+          "arcana_exousia_tech_wireddeco_3",
+          "arcana_exousia_tech_wireddeco_4",
+          "arcana_exousia_tech_wireddeco_5"
+        ]
+      },
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "fu_byostechstation",
+          "fu_byostechstationdeco",
+          "sentrybotmining3",
+          "sentrybotmining4"
+        ]
+      },
+      "upgradeComponent": {
+        "count": 2,
+        "examples": [
+          "techcard",
+          "upgrademodule"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "arcana_tech_quadJump",
+          "punchyspawner"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmpointdefense2",
+          "mechbodyheavy2"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "mfgstation",
+          "wiringstation"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "crankrifle"
+        ]
+      }
+    },
+    "total": 40
+  },
+  "drop_sources": {
+    "total_pools": 191,
+    "monster_drops": {
+      "count": 80,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 1.411,
+          "count": 1.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "servitorTreasure",
+          "probability": 0.4545,
+          "count": 1.0,
+          "monsters": [
+            "eyebaht",
+            "fuchiropterror",
+            "fuomnicannon",
+            "fuomnicannon2",
+            "futrifangle"
+          ]
+        },
+        {
+          "pool": "pipkinVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "pipkinTreasure",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "pipkin",
+            "pipkin_monarch",
+            "poisonpipkin"
+          ]
+        },
+        {
+          "pool": "bobotTreasure",
+          "probability": 0.1439,
+          "count": 1.0,
+          "monsters": [
+            "bobot",
+            "chromabot",
+            "firebobot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        1.411
+      ]
+    },
+    "hunting_harvest": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "extraMonsterRobotHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking"
+          ]
+        },
+        {
+          "pool": "pipkinHunting",
+          "probability": 0.3992,
+          "count": 1,
+          "monsters": [
+            "pipkin",
+            "pipkin_monarch",
+            "poisonpipkin"
+          ]
+        },
+        {
+          "pool": "furobotHuntingnoChassis",
+          "probability": 0.2,
+          "count": 1,
+          "monsters": [
+            "cleaningbot",
+            "deathdroid",
+            "deathdroid2",
+            "repairbot",
+            "spiderwalker2"
+          ]
+        },
+        {
+          "pool": "bobotHunting",
+          "probability": 0.1996,
+          "count": 1,
+          "monsters": [
+            "bobot",
+            "chromabot",
+            "firebobot"
+          ]
+        },
+        {
+          "pool": "scandroidHunting",
+          "probability": 0.1996,
+          "count": 1,
+          "monsters": [
+            "cultistscandroid",
+            "scandroid"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.4
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.313,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.313
+      ]
+    },
+    "chest_loot": {
+      "count": 70,
+      "top": [
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.2346,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1955,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0641,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.2346
+      ]
+    },
+    "other": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "extraMonsterRobot",
+          "probability": 0.224,
+          "count": 1.0
+        },
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 1
+        },
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.0763,
+          "count": 1.0
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0567,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.224
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

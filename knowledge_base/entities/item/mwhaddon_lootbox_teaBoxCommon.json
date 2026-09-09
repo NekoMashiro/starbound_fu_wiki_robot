@@ -1,0 +1,49 @@
+{
+  "entity_id": "mwhaddon_lootbox_teaBoxCommon",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Tea Box - Common",
+  "name_zh": "茶叶盒 - 普通",
+  "description_en": "Use to get a Tea Ingredient and coupons!",
+  "description_zh": "使用以获得一份泡茶物和一些兑换券！",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 3000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_currency_teaCoupon",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "Anon",
+      "station_zh": "爱音",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_anon.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.1353,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "irradiumshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Burstgun",
+  "name_zh": "镭制破裂枪",
+  "description_en": "Fires irradiated bursts of projectiles.\r\nInflicts radiation burn",
+  "description_zh": "射出带有放射性的弹药。\n附加辐射烧伤效果",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "critChance": 6,
+  "critBonus": 5,
+  "altAbilityType": "irradiumshotgunshotpower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 6
+        },
+        {
+          "item": "lead",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

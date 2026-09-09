@@ -1,0 +1,45 @@
+{
+  "entity_id": "neonmelonbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neonmelon Basket",
+  "name_zh": "霓虹瓜篮",
+  "description_en": "The vibrant flesh of a neonmelon tastes like bubblegum.",
+  "description_zh": "霓虹瓜那生机勃勃的果肉尝起来像泡泡糖。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "volcanic",
+    "novakid",
+    "novakidvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neonmelon",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "neonmelon"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

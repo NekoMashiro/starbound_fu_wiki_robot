@@ -1,0 +1,47 @@
+{
+  "entity_id": "magnus_assaultRifle_selach",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Selach",
+  "name_zh": "鲨拉",
+  "description_en": "Selach, the Great Shark.",
+  "description_zh": "鲨拉，大大鲨鱼。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 2700,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 62.0,
+  "altAbilityType": "arcana_ranged_ability_homingRocket",
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_seabreak"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

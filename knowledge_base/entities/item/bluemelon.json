@@ -1,0 +1,27 @@
+{
+  "entity_id": "bluemelon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blue Melon",
+  "name_zh": "蓝瓜",
+  "description_en": "Water Walking, Immune: Freeze & +25% Ice Res: 1m",
+  "description_zh": "水面行走, 免疫: 冻结 & +25%寒气抗性: 1m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bluemelonHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

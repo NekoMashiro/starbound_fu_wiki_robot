@@ -1,0 +1,57 @@
+{
+  "entity_id": "targetinggoggles",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Targeting Goggles",
+  "name_zh": "定位护目镜",
+  "description_en": "Helps all of your strikes really count.",
+  "description_zh": "能帮助你定位敌人。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 2500,
+  "tags": [],
+  "level": 2,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gorgolithLoot",
+          "probability": 0.0392,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0021,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0007
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

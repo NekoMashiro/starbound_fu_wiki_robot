@@ -1,0 +1,30 @@
+{
+  "entity_id": "buildinghathead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Building Hat",
+  "name_zh": "建筑帽子",
+  "description_en": "A hat made from a tiny building.",
+  "description_zh": "一顶用微型建筑打造的帽子。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "miniVillageTreasure",
+          "probability": 0.0015,
+          "count": 1,
+          "monsters": [
+            "gnomewarriors"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "artifact_lance_astrifer",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Astrifer",
+  "name_zh": "寒星",
+  "description_en": "A lance comparable to the brightest azure star.",
+  "description_zh": "与最亮的天蓝星相比也毫不逊色的长矛。",
+  "rarity": "Essential",
+  "category": "spear",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 15.2,
+  "primaryAbilityType": "arcana_lance_combo",
+  "altAbilityType": "arcana_spear_ability_burstFlurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_azureSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

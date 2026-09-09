@@ -1,0 +1,72 @@
+{
+  "entity_id": "bloodyfinger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "A Bloody Finger",
+  "name_zh": "一根带血的手指",
+  "description_en": "It looks identical to your index finger.",
+  "description_zh": "看起来和你的食指一模一样。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0083,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0083
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

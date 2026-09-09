@@ -1,0 +1,39 @@
+{
+  "entity_id": "mwhaddon_farmable_bambooShoot",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Bamboo Shoot",
+  "name_zh": "竹笋",
+  "description_en": "The frest part of a newborn bamboo's stem, also a staple diet for a panda.",
+  "description_zh": "新生竹子的嫩芽，同时也是熊猫的主食。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 180,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_food_bambooShootSoup",
+          "mwhaddon_food_sunRouBao"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_farmable_bambooShoot",
+          "probability": 1.44,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

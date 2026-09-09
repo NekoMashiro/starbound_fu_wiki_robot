@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_crudeharpoon",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Crude Harpoon",
+  "name_zh": "粗糙鱼叉枪",
+  "description_en": "A harpoon spear made from scrap parts, not very durable. Tidal: +20% Damage while underwater.",
+  "description_zh": "使用碎片制成的鱼叉枪，不是很牢靠。潮汐：在水下+20%伤害。",
+  "rarity": "Common",
+  "category": "spear",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "scavengers"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "primaryAbilityType": "spearstab",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_scavdiver",
+          "probability": 0.0263,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

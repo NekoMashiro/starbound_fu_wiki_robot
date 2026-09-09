@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_arcaneSea_floor",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Sea Floor",
+  "name_zh": "玄溟之底",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Arcane Sea Floor",
+  "friendly_name_zh": "玄溟之底",
+  "ores": [
+    {
+      "ore": "arcana_mod_atlaGoldOre",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "aggroLargeFish",
+    "jellycritter",
+    "passiveLargeFish",
+    "smallFishOcean1",
+    "smallFishOcean2",
+    "squidcritter"
+  ],
+  "status_effects": [
+    "arcana_status_energyDrain"
+  ],
+  "quality_tier": "C"
+}

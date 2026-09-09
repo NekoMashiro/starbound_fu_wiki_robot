@@ -1,0 +1,43 @@
+{
+  "entity_id": "hydrotubematerial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydroponic Tubing",
+  "name_zh": "水培管",
+  "description_en": "Just till these and you'll have auto-watered soil! Quite useful.",
+  "description_zh": "到现在为止，你的土壤现在会自动浇水了！这相当有用。",
+  "rarity": "legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "ff_plastic",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Hydroponic Tubing.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "shadowtoilet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Toilet",
+  "name_zh": "阴影厕所",
+  "description_en": "A normal looking toilet! Thank the stars!",
+  "description_zh": "外观正常的厕所！谢谢星星！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "shadow"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 15
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "liquidwater",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

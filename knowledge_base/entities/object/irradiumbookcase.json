@@ -1,0 +1,45 @@
+{
+  "entity_id": "irradiumbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Bookcase",
+  "name_zh": "镭素书架",
+  "description_en": "A bookcase made from irradium.",
+  "description_zh": "用镭矿制成的书架。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "irradium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 10
+        },
+        {
+          "item": "uraniumrod",
+          "count": 5
+        },
+        {
+          "item": "liquidirradium",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

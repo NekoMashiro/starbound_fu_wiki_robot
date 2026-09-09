@@ -1,0 +1,215 @@
+{
+  "entity_id": "commonmachinepistol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Machine Pistol",
+  "name_zh": "普通的自动手枪",
+  "description_en": "A small fully automatic pistol that lacks stopping power, but can be wielded in one hand with decent accuracy.",
+  "description_zh": "一支小型全自动手枪，缺乏制动力，但可以单手操作，准确度相当高。",
+  "rarity": "Common",
+  "category": "machinePistol",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.4,
+    6.5
+  ],
+  "critChance": 1,
+  "critBonus": 1,
+  "drop_sources": {
+    "total_pools": 228,
+    "other": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "testarenaRanged",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fu_bountyrewardbagguns",
+          "probability": 0.6863,
+          "count": 1
+        },
+        {
+          "pool": "commonGun",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "elduucommonGun",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "weapon",
+          "probability": 0.0962,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0789,
+          "count": 1
+        },
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.0682,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0438,
+          "count": 1.0
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0064,
+          "count": 1
+        },
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.0012,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0012,
+        0.0789
+      ]
+    },
+    "chest_loot": {
+      "count": 85,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.0438,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.0438,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.0438,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.0438,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.0438,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0041,
+        0.0438
+      ]
+    },
+    "monster_drops": {
+      "count": 116,
+      "top": [
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0392,
+          "count": 1
+        },
+        {
+          "pool": "thalassa_treasure_1",
+          "probability": 0.0283,
+          "count": 1.0
+        },
+        {
+          "pool": "gaea_treasure_1",
+          "probability": 0.0283,
+          "count": 1.0
+        },
+        {
+          "pool": "aeolus_treasure_1",
+          "probability": 0.0283,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_hephaestus_treasure_1",
+          "probability": 0.0283,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0392
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0322,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0308,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0064,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0064,
+        0.0322
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0096,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0038,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0038,
+        0.0096
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

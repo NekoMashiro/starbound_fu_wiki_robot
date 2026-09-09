@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_lunar_walldeco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Tsukikage Banner",
+  "name_zh": "月影旗",
+  "description_en": "A decorative banner of the Tsukikage clan.",
+  "description_zh": "月影族的装饰旗帜。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "kuromatsu",
+    "tsukikage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 1
+        },
+        {
+          "item": "whitedye",
+          "count": 1
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

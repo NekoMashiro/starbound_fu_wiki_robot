@@ -1,0 +1,67 @@
+{
+  "entity_id": "arcana_boss_cosmoNemesis_blastRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Kitsunebi",
+  "name_zh": "狐炎",
+  "description_en": "A blast-rifle that shoots concentrated fire rounds.",
+  "description_zh": "射出集中火力弹的爆破步枪。",
+  "rarity": "Rare",
+  "category": "uniqueWeapon",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle"
+  ],
+  "elementalType": "fire",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_broadsword_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_blastRifle_tsukitsune"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

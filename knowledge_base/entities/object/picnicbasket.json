@@ -1,0 +1,38 @@
+{
+  "entity_id": "picnicbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Picnic Basket",
+  "name_zh": "野餐篮",
+  "description_en": "A small woven basket. It's light and timeless.",
+  "description_zh": "编织的小篮子。它是轻的，永恒的。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage",
+    "cooking",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

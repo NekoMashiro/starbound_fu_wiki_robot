@@ -1,0 +1,57 @@
+{
+  "entity_id": "arcana_tech_cinderSurge",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cinder Surge",
+  "name_zh": "烬灰之涌",
+  "description_en": "Grants +10% attack and +20% run speed for 30s. 50s cooldown. [F] [Use to gain a new type of tech!]",
+  "description_zh": "激活后提供+10%攻击和+20%奔跑速度加成。持续时间为30秒。冷却时间为50秒。[F] [使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 6
+        },
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_voltaicSurge"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "telebriumcrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Crossbow",
+  "name_zh": "月海弩",
+  "description_en": "High-impact poison bolts.",
+  "description_zh": "高冲击力的有毒箭头。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 6,
+  "critChance": 4,
+  "critBonus": 4,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

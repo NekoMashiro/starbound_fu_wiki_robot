@@ -1,0 +1,115 @@
+{
+  "entity_id": "neutronium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neutronium Rod",
+  "name_zh": "中子棒",
+  "description_en": "A substance composed purely of neutrons. Ultra-dense.\n+300 Fuel",
+  "description_zh": "一种完全由中子组成的物质。密度极高。\n燃料+300",
+  "rarity": "legendary",
+  "category": "fuel",
+  "price": 1300,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ultronium",
+          "count": 1
+        },
+        {
+          "item": "redmatter",
+          "count": 4
+        },
+        {
+          "item": "darkmatter",
+          "count": 24
+        },
+        {
+          "item": "exoticmatter",
+          "count": 6
+        },
+        {
+          "item": "helium3gasliquid",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "energy": {
+        "count": 2,
+        "examples": [
+          "atomsmasher",
+          "atomsmasher"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "fugrenadearm",
+          "mechbodyfuorbus"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumchestkhe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumheadkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumlegskhe"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "hailstrike"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "isn_atmosregulatorwarped"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "neutronbomb"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxLegendaryModule",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

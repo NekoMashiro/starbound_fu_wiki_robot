@@ -1,0 +1,49 @@
+{
+  "entity_id": "mushroomshield",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mushroom Shield",
+  "name_zh": "蘑菇盾",
+  "description_en": "A thick disc of hardened fungus.",
+  "description_zh": "一碟厚实的坚硬真菌。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 600,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.1363,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.0886,
+          "count": 1
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.0741,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0741,
+        0.0886
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

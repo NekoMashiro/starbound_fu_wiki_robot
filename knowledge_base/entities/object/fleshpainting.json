@@ -1,0 +1,31 @@
+{
+  "entity_id": "fleshpainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Titan",
+  "name_zh": "泰坦",
+  "description_en": "A mass of flesh and hate.",
+  "description_zh": "一团血肉和仇恨。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

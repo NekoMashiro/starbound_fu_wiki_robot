@@ -1,0 +1,64 @@
+{
+  "entity_id": "crystalmoon",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystalline World",
+  "name_zh": "水晶世界",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Crystalline World",
+  "friendly_name_zh": "水晶世界",
+  "ores": [
+    {
+      "ore": "lunariore",
+      "weight": 1
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.55
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.45
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.21
+    },
+    {
+      "ore": "cinnabar",
+      "weight": 0.2
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bee_crystalwing",
+    "bouncercritter",
+    "crustoise",
+    "electropod",
+    "frostlit",
+    "fusnowball",
+    "glarp",
+    "narfin",
+    "psionitop",
+    "reasonablecritter",
+    "skimbus",
+    "snooglecritter",
+    "snowskater",
+    "wattsper",
+    "xenofly"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:crystalmoon",
+        "/weather.config:crystalmoonsafe"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

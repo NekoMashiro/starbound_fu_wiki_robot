@@ -1,0 +1,49 @@
+{
+  "entity_id": "amberdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Door",
+  "name_zh": "琥珀门",
+  "description_en": "Shiny and wonderful.",
+  "description_zh": "闪亮而精彩。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "bees",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

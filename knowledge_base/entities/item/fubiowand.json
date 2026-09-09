@@ -1,0 +1,56 @@
+{
+  "entity_id": "fubiowand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bio Wand",
+  "name_zh": "生物魔杖",
+  "description_en": "Organic meets Magic.",
+  "description_zh": "有机与魔法的碰撞。",
+  "rarity": "rare",
+  "category": "wand",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "bioweapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "biowand",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 12
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bio Wand.md",
+  "quality_tier": "A"
+}

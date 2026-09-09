@@ -1,0 +1,77 @@
+{
+  "entity_id": "precursormainframe",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Mainframe",
+  "name_zh": "先驱主机",
+  "description_en": "A truly amazing, ancient computer. Can devise the perfect cup of coffee.\nResearch Rate: 6% (1.2%), 0.5s",
+  "description_zh": "一台令人叹为观止的古代计算机。可以设计出完美的咖啡。\n研究效率: 6% (1.2%), 0.5s",
+  "rarity": "legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "precursor",
+    "technology",
+    "science",
+    "ancient"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 60
+        },
+        {
+          "item": "precursorchip",
+          "count": 4
+        },
+        {
+          "item": "precursordatadrive",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0729,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0073,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0073,
+        0.0729
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0073,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursormainframe"
+  ],
+  "wiki_ref": "Precursor Mainframe.md",
+  "quality_tier": "S"
+}

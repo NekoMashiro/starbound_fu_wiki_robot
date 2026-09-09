@@ -1,0 +1,148 @@
+{
+  "entity_id": "bonematerial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Packed Bones",
+  "name_zh": "骨块",
+  "description_en": "A collection of bones tightly packed together.\nExtractable, Smeltable.",
+  "description_zh": "一批紧紧凑在一起的骨头。\n可萃取，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_revenant_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_revenant_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_revenant_chest"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "bonemealmaterial"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "bonemealmaterial",
+      "bonus": [
+        "liquidoil"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "bonemealmaterial",
+      "bonus": [
+        "liquidoil"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "bonemealmaterial",
+      "bonus": [
+        "liquidoil"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingbones",
+          "probability": 1.3333,
+          "count": 5
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombbooks",
+          "probability": 0.7042,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.5376,
+          "count": 6
+        },
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.2091,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.2091,
+        1.3333
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneCaveTreasure",
+          "probability": 0.1359,
+          "count": 10
+        },
+        {
+          "pool": "boneCaveTreasure",
+          "probability": 0.1136,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.1136,
+        0.1359
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

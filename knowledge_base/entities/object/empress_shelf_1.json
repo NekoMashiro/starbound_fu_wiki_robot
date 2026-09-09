@@ -1,0 +1,48 @@
+{
+  "entity_id": "empress_shelf_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luxurious Wall Shelf",
+  "name_zh": "奢华壁架",
+  "description_en": "A wall shelf with a gold surface.",
+  "description_zh": "金色表面的壁架。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "empress"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

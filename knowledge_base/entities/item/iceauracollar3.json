@@ -1,0 +1,45 @@
+{
+  "entity_id": "iceauracollar3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Aura Collar III",
+  "name_zh": "冰霜光环项圈III",
+  "description_en": "Your pet gets a ice aura!\r\n+60% Ice Resistance",
+  "description_zh": "装备后，你的宠物可获得冰霜光环！\n+60%寒气抗性",
+  "rarity": "legendary",
+  "category": "petCollar",
+  "price": 7500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 18600
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "petCollar": {
+        "count": 1,
+        "examples": [
+          "glitchtopcollar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

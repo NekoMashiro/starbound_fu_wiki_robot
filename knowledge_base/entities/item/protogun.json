@@ -1,0 +1,56 @@
+{
+  "entity_id": "protogun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Gun",
+  "name_zh": "原体霰弹枪",
+  "description_en": "Blast foes happily with this energy shotgun.\r\nBouncing projectiles",
+  "description_zh": "能量猎枪，一枪做掉！\n弹跳弹",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon",
+    "proto"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "protobomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

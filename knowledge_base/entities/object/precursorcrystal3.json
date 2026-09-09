@@ -1,0 +1,45 @@
+{
+  "entity_id": "precursorcrystal3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Charged Lunari",
+  "name_zh": "大型充能月晶",
+  "description_en": "Highly energized Lunari crystals.",
+  "description_zh": "高度充能的月晶。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 750,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 30
+        },
+        {
+          "item": "honedlunari",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursorcrystal1",
+    "precursorcrystal2",
+    "precursorcrystal3"
+  ],
+  "quality_tier": "A"
+}

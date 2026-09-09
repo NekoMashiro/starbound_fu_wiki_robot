@@ -1,0 +1,52 @@
+{
+  "entity_id": "xithricitechakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Chakram",
+  "name_zh": "赛德瑞瑟环刃",
+  "description_en": "Condensed cosmic power. Thrown for fun. Or murder.",
+  "description_zh": "凝聚着宇宙力量。丢着图个快乐。或者是谋杀。",
+  "rarity": "legendary",
+  "category": "chakram",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "chakram",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 3
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Xithricite Chakram.md",
+  "quality_tier": "A"
+}

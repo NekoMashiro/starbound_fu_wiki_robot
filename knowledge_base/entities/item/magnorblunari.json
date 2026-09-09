@@ -1,0 +1,51 @@
+{
+  "entity_id": "magnorblunari",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shard Field",
+  "name_zh": "碎片之珠",
+  "description_en": "This lunari-forged weapon can both defend and attack. Quite useful.",
+  "description_zh": "这把月晶锻造的武器用于防守和进攻相当奏效。",
+  "rarity": "common",
+  "category": "Magnorb",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

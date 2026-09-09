@@ -1,0 +1,47 @@
+{
+  "entity_id": "rustlegs2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shielded Legs",
+  "name_zh": "庇护护腿",
+  "description_en": "Set Bonuses:\r\n +15% Speed\r\n Immune: Oxygen, Gas",
+  "description_zh": "套装奖励:\n +15% 速度\n 免疫: 窒息, 气体",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

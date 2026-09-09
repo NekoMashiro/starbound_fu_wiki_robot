@@ -1,0 +1,40 @@
+{
+  "entity_id": "crewcontract_cultist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cultist Contract",
+  "name_zh": "合同：邪教徒",
+  "description_en": "Hires a flesh-hungry cultist. Increases max ship fuel by 150 and provides Insanity Immunity and Moderate Poison Protection.",
+  "description_zh": "雇用一名邪教徒，他能通过黑暗献祭的方式增加飞船150刻度的最大燃料容量。他也能帮你抵御精神错乱与提供中度毒素防护。",
+  "rarity": "Rare",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 18000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

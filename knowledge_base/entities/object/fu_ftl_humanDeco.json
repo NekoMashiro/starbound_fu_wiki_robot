@@ -1,0 +1,36 @@
+{
+  "entity_id": "fu_ftl_humanDeco",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Replica Human FTL Drive",
+  "name_zh": "人族FTL引擎复制品",
+  "description_en": "Replica of a Human FTL drive. Does nothing.",
+  "description_zh": "人族FTL引擎的复制品。没有屌用。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science",
+    "decorative",
+    "decor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

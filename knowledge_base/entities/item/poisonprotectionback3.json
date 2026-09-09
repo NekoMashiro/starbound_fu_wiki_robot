@@ -1,0 +1,46 @@
+{
+  "entity_id": "poisonprotectionback3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison EPP III",
+  "name_zh": "祛毒EPP III",
+  "description_en": "Gives +60% Poison Resist. Use it on planets with extreme poison levels. Provides air.",
+  "description_zh": "对在严酷毒素的星球上的探险很有帮助。\n毒素抗性+60%，供给氧气",
+  "rarity": "legendary",
+  "category": "enviroProtectionPack",
+  "price": 1250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "poisonprotectionback2",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

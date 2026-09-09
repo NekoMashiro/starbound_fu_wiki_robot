@@ -1,0 +1,168 @@
+{
+  "entity_id": "wrappedbodybirb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrapped Avian Corpse",
+  "name_zh": "被包裹的翼族人尸体",
+  "description_en": "A corpse, bound in an elaborate gold-plated casket.",
+  "description_zh": "一具尸体，被装在精心制作的镀金棺材里。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 20,
+    "other": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "deadBodiesAvian",
+          "probability": 0.3922,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.231,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0031,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.3922
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1507,
+          "count": 1
+        },
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0042,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0019,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1507
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0006,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0002,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0006
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

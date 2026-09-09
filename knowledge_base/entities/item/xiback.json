@@ -1,0 +1,42 @@
+{
+  "entity_id": "xiback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'i Acid Node",
+  "name_zh": "艾肯酸性节点",
+  "description_en": "Immune: Acid, Oxygen. Helpful on Sulphuric planets.",
+  "description_zh": "免疫酸蚀。+155s氧气，呼吸速率减半。",
+  "rarity": "rare",
+  "category": "enviroProtectionPack",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 8
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

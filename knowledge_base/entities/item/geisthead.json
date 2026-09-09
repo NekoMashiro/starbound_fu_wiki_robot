@@ -1,0 +1,55 @@
+{
+  "entity_id": "geisthead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Geist Helm",
+  "name_zh": "感性头盔",
+  "description_en": "Set Bonuses:\r\n Health x1.25\r\n Melee: +1.5/3% Crit Chance\r\n Immune: Acid, Oxygen",
+  "description_zh": "套装奖励：\n 最大HPx1.25\n 近战武器: +1.5/3% 暴击几率\n免疫: 酸蚀, 窒息",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 2
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "fukingslayerhead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

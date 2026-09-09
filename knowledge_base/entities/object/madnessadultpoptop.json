@@ -1,0 +1,59 @@
+{
+  "entity_id": "madnessadultpoptop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptop Adult",
+  "name_zh": "成年吐舌娃",
+  "description_en": "An adult, voracious Poptop.",
+  "description_zh": "一只成年，贪婪的吐舌娃。",
+  "rarity": "uncommon",
+  "category": "decorative",
+  "price": 450,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 600
+        },
+        {
+          "item": "madnessjuvenilepoptop",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 16
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "ff_mercury",
+          "count": 32
+        }
+      ],
+      "output_count": 1,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessmegapoptop"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

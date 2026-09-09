@@ -1,0 +1,48 @@
+{
+  "entity_id": "silverwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Silver Whip",
+  "name_zh": "银制鞭",
+  "description_en": "Vanquish monsters with stylish silver!\nAble to damage all elements equally",
+  "description_zh": "用时尚的银色征服怪物！\n能够对所有元素造成相等伤害",
+  "rarity": "common",
+  "category": "whip",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "silverweapon",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 1.25,
+  "critBonus": 10,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 4
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

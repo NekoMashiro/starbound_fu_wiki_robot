@@ -1,0 +1,56 @@
+{
+  "entity_id": "radienspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Spear",
+  "name_zh": "艾肯长矛",
+  "description_en": "Made from your own parts. Sturdy and dangerous.\r\nHunting weapon",
+  "description_zh": "以己之身铸成，可靠而又危险。\n狩猎武器",
+  "rarity": "common",
+  "category": "spear",
+  "price": 2,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 20
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

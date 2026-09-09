@@ -1,0 +1,58 @@
+{
+  "entity_id": "magmalamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Magma Lamp",
+  "name_zh": "熔岩灯",
+  "description_en": "A lamp illuminated by suspended globules of lava.",
+  "description_zh": "一盏内置悬浮岩浆球来照明的灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 125,
+  "tags": [
+    "foundry",
+    "pretty",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "metallic",
+          "count": 10
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 10
+        },
+        {
+          "item": "liquidlava",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "mecharmpointdefense3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Point Defense III",
+  "name_zh": "对点防御 III",
+  "description_en": "Densinium blasts shred foes within 12 feet.",
+  "description_zh": "超致密爆炸撕碎在12英尺内的敌人。",
+  "rarity": "legendary",
+  "category": "mechPart",
+  "price": 8800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmpointdefense2",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 10
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Point Defense III.md",
+  "quality_tier": "A"
+}

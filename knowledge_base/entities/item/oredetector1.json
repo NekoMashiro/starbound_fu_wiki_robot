@@ -1,0 +1,67 @@
+{
+  "entity_id": "oredetector1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Multi-ore Detector",
+  "name_zh": "复合矿物探测器",
+  "description_en": "Analyzes the composition of nearby minerals. Upgrade using your Tricorder.",
+  "description_zh": "分析附近的矿物成分。\n可在三度仪进行升级。",
+  "rarity": "uncommon",
+  "category": "detector",
+  "price": 2500,
+  "tags": [
+    "tool",
+    "upgradeableTool",
+    "detector"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "sentrybotmining1",
+          "sentrybotmining2",
+          "sentrybotmining3",
+          "sentrybotmining4"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "upgrade_path": {
+    "upgrades_to": "oredetector2icon.png",
+    "seed": "",
+    "shortdescription": "复合矿物探测器 MKII ^cyan;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Multi-ore Detector.md",
+  "quality_tier": "S"
+}

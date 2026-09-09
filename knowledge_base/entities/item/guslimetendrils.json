@@ -1,0 +1,60 @@
+{
+  "entity_id": "guslimetendrils",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gu's Slime Tendrils",
+  "name_zh": "Gu的粘液触须",
+  "description_en": "Constantly searching for bleach.",
+  "description_zh": "不断地寻找漂白剂。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.4,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimetendrils3",
+          "count": 1
+        },
+        {
+          "item": "venomsample",
+          "count": 13
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "scorchedcore",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "guslimetendrilsstaricon.png",
+    "seed": "",
+    "shortdescription": "Gu的粘液触须 ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

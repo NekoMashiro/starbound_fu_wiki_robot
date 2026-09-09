@@ -1,0 +1,56 @@
+{
+  "entity_id": "rockbrickmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rock Bricks",
+  "name_zh": "岩砖",
+  "description_en": "A crudely produced set of rock bricks.\nExtractable, Crushable.",
+  "description_zh": "一组制作粗糙的岩砖。\n可萃取，可破碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 4
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "darksmoothstonematerial"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "rockbrickmaterial"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_astral_deco_9",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Wide Arid Plant",
+  "name_zh": "宽干旱植物花盆",
+  "description_en": "A wide plant box filled with arid plants.",
+  "description_zh": "装有干旱植物的宽植物花盆。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "astral",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 3
+        },
+        {
+          "item": "plantfibre",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

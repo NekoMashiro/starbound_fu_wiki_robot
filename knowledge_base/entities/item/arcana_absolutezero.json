@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_absolutezero",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Absolute Zero",
+  "name_zh": "绝对零度",
+  "description_en": "A greatspear that has been enchanted by ice magic.",
+  "description_zh": "被冰魔法附魔的巨矛。",
+  "rarity": "Legendary",
+  "category": "spear",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "primaryAbilityType": "arcana_greatspear_projcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ice",
+          "count": 24
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_cryogenicCell",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

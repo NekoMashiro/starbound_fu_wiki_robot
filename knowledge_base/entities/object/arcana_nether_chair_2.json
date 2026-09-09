@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_nether_chair_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Small Stool",
+  "name_zh": "冥界小凳子",
+  "description_en": "A stool made from nether wood.",
+  "description_zh": "使用冥界木做的凳子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "nether",
+    "spectwing"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "azure_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fomalhaut SMG",
+  "name_zh": "军门SMG",
+  "description_en": "An azurium submachinegun, has lowered damage but a fast firing rate.",
+  "description_zh": "天青金制成的冲锋枪，伤害较低但射速很快。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 20.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 24
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

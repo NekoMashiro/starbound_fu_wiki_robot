@@ -1,0 +1,41 @@
+{
+  "entity_id": "fossilbrushultra",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Microparticle Brush",
+  "name_zh": "微观化石刷",
+  "description_en": "Impossibly precise.",
+  "description_zh": "超乎你的想象。",
+  "rarity": "legendary",
+  "category": "tool",
+  "price": 700,
+  "tags": [
+    "fossilbrush"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 1
+        },
+        {
+          "item": "energywood",
+          "count": 4
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Fossil Station",
+      "station_zh": "化石工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Microparticle Brush.md",
+  "quality_tier": "A"
+}

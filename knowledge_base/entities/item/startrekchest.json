@@ -1,0 +1,38 @@
+{
+  "entity_id": "startrekchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Starfarer's Shirt",
+  "name_zh": "星间远征者衬衫",
+  "description_en": "A shirt worn by attractive spacefarers.",
+  "description_zh": "有魅力的太空旅行者穿的衬衫。",
+  "rarity": "uncommon",
+  "category": "chestwear",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

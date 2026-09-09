@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_food_sharpplatter",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sharp Platter",
+  "name_zh": "锋利大拼盘",
+  "description_en": "A surprisingly tasty dish, despite its forbidding appearance with all those shards and thorns. [Malevolent VoidHeart]\n\n+Health Regen 1 min.\n+Thorns 3 min.",
+  "description_zh": "尽管这道布满了碎片和刺的菜看起来令人望而生畏，但味道却出乎意料地赞。[Malevolent VoidHeart]\n\n1分钟生命恢复\n3分钟荆棘",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornfruit",
+          "count": 2
+        },
+        {
+          "item": "arcana_farmable_bloodyGem",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

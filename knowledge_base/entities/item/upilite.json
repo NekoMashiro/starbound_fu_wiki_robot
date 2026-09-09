@@ -1,0 +1,87 @@
+{
+  "entity_id": "upilite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Upilite Crystal",
+  "name_zh": "优普利水晶",
+  "description_en": "A gemstone often used to strengthen Emera to create more sturdy fabric.",
+  "description_zh": "一种宝石，经常用来加强艾米拉，以创造更坚固的织物。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 13,
+        "examples": [
+          "elduuhammock",
+          "exonitebed",
+          "exonitebookcase",
+          "exonitecabinet",
+          "exonitechair"
+        ]
+      },
+      "headwear": {
+        "count": 6,
+        "examples": [
+          "templeguardhead",
+          "worshipperhead",
+          "worshipperhead2",
+          "worshipperhead3",
+          "worshipperhead4"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "elduuglasssloped2",
+          "elduupanelsloped2"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "exonitechestlarge",
+          "exonitechestsmall"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "exonitefridge",
+          "exoniteminifridge"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "exonitelamp"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "upilitedye"
+        ]
+      }
+    },
+    "total": 27
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "phositeHarvest",
+          "probability": 5.05,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "flailxithricite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Striker",
+  "name_zh": "宇宙打击者",
+  "description_en": "Charged impact hammer.\r\nBreaks blocks",
+  "description_zh": "充能冲击锤。\n破坏方块",
+  "rarity": "legendary",
+  "category": "Striker",
+  "price": 650,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 11.25,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 8
+        },
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "liquidaether",
+          "count": 140
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "wildfungushead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wild Fungus Cap",
+  "name_zh": "荒野菌帽",
+  "description_en": "If you wear this cap, all of your friends will think you're a fun guy!",
+  "description_zh": "如果你戴了这顶帽子，你所有的朋友都会认为你是个有趣的家伙！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.1363,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.0886,
+          "count": 1
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.0741,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0741,
+        0.0886
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

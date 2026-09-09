@@ -1,0 +1,187 @@
+{
+  "entity_id": "bluegravball",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Anti-Grav",
+  "name_zh": "先驱反引力",
+  "description_en": "Precursor device that inverts gravity.",
+  "description_zh": "反重力的先驱装置。",
+  "rarity": "uncommon",
+  "category": "tool",
+  "price": 160,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 138,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fuGravBalls",
+          "probability": 0.3333,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0914,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.3333
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0171,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0165,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0042,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0041,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0032,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0171
+      ]
+    },
+    "monster_drops": {
+      "count": 49,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0103,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0103,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0067,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0043,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0103
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0018,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0018,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0015,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0018
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

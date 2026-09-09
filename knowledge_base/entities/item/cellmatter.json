@@ -1,0 +1,320 @@
+{
+  "entity_id": "cellmatter",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cell Matter",
+  "name_zh": "细胞物质",
+  "description_en": "Cell Matter - it can be used to craft unspeakable things.",
+  "description_zh": "细胞物质—可以用来制作不能明说的东西。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 12
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 2
+        },
+        {
+          "item": "magnesiumpowder",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 8
+        },
+        {
+          "item": "fu_mulch",
+          "count": 10
+        },
+        {
+          "item": "magnesiumpowder",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 11,
+        "examples": [
+          "bambooseed",
+          "blexplantseed",
+          "genesiberryseed",
+          "isn_meatplant",
+          "melodistarseed"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 7,
+        "examples": [
+          "cell_mutated",
+          "cell_spliced",
+          "cell_viral",
+          "cellmateria",
+          "exoticmatter"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "8bitpowerup",
+          "apexartifactaugment"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "cellchair",
+          "celltable"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "agilitysuitchest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "agilitysuithead"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "agilitysuitlegs"
+        ]
+      },
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "bonethresher"
+        ]
+      }
+    },
+    "total": 37
+  },
+  "drop_sources": {
+    "total_pools": 70,
+    "chest_loot": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "cellChestTreasure",
+          "probability": 1.4046,
+          "count": 5.0
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.3675,
+          "count": 8.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 50
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 5.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.4046
+      ]
+    },
+    "monster_drops": {
+      "count": 23,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoCellTreasure",
+          "probability": 0.9128,
+          "count": 5.0
+        },
+        {
+          "pool": "cellTreasure",
+          "probability": 0.7634,
+          "count": 5
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.2148,
+          "count": 28.5
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.2114,
+          "count": 28.5
+        },
+        {
+          "pool": "jellyfishTreasure",
+          "probability": 0.1064,
+          "count": 1,
+          "monsters": [
+            "clearjelly",
+            "deathjelly",
+            "deathjellypeaceful"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.9128
+      ]
+    },
+    "other": {
+      "count": 22,
+      "top": [
+        {
+          "pool": "fleshreaperhuntLoot",
+          "probability": 0.5432,
+          "count": 4.5,
+          "monsters": [
+            "fleshreaper"
+          ]
+        },
+        {
+          "pool": "fucaterpillarLoot",
+          "probability": 0.236,
+          "count": 4,
+          "monsters": [
+            "fucaterpillar"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.2295,
+          "count": 28.5,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "bloodgolemLoot",
+          "probability": 0.1921,
+          "count": 4,
+          "monsters": [
+            "atropuseye",
+            "atropusfish",
+            "fubloodgolem"
+          ]
+        },
+        {
+          "pool": "gorgolithLoot",
+          "probability": 0.1306,
+          "count": 50.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.5432
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 5.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

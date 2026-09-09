@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_food_marrowsteep",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tatalot Marrow-Steep",
+  "name_zh": "汁骨髓茶",
+  "description_en": "Looks disgusting, might taste disgusting, but enhances the consumer with Thorns and Regeneration. [Ewok]\n\n+Thorns 4 min.\n+20% Max Energy 4 min.\n+Restores 10 Health per second, 15 sec.",
+  "description_zh": "看起来很恶心，尝起来可能也很恶心，但吃下去就能得到荆棘和回血。[Ewok]\n\n4分钟荆棘\n20分钟+20%最大能量\n15秒每秒恢复10生命值",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 110,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 2
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_teaPlant",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_tatalot",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

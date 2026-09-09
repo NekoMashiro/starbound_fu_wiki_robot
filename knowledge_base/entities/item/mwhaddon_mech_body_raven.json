@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_mech_body_raven",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Raven Armored Mech Core",
+  "name_zh": "渡鸦装甲机甲核心",
+  "description_en": "A prototype assault mech body made by Hylotl.",
+  "description_zh": "由鲛人制作的原型突击机甲机体。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 10000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenStahlite",
+          "count": 36
+        },
+        {
+          "item": "arcana_bar_refinedNoxion",
+          "count": 27
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 2
+        },
+        {
+          "item": "mwhaddon_misc_mechComponent_3",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Advanced Mech Station",
+      "station_zh": "高级机甲制造台",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Mech Parts Crafting",
+          "name_zh": "机甲部件合成"
+        },
+        {
+          "name": "mwhaddon_crafting_mechCrafting.json",
+          "name_zh": ""
+        },
+        {
+          "name": "基础科技站",
+          "name_zh": "基础科技站"
+        },
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

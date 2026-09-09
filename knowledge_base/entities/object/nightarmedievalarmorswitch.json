@@ -1,0 +1,48 @@
+{
+  "entity_id": "nightarmedievalarmorswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Suspicious Display Armour",
+  "name_zh": "可疑展示装甲",
+  "description_en": "Shiny armour stands resolute. Hmm... The shield looks loose.",
+  "description_zh": "闪亮的盔甲坚不可摧。额...防护罩看起来松了。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 195,
+  "tags": [
+    "nightar",
+    "glitchcastle",
+    "combat",
+    "pretty",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "obsidian",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

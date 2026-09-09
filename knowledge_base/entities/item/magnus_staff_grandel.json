@@ -1,0 +1,35 @@
+{
+  "entity_id": "magnus_staff_grandel",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Grandel",
+  "name_zh": "格兰德尔",
+  "description_en": "Grandel, the Great Wilderness.",
+  "description_zh": "格兰德尔，大荒星陨。",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "elementswarm",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "titaniumspear",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Spear",
+  "name_zh": "钛制长矛",
+  "description_en": "A spear made for keeping enemies at bay.",
+  "description_zh": "一把能将敌人阻挡在海滩的长矛。",
+  "rarity": "Uncommon",
+  "category": "spear",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "spearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

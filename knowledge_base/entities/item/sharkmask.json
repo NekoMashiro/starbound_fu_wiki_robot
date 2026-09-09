@@ -1,0 +1,40 @@
+{
+  "entity_id": "sharkmask",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shark Mask",
+  "name_zh": "鲨鱼面具",
+  "description_en": "Adorable man-eater.",
+  "description_zh": "可爱的食人鲨",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.003,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

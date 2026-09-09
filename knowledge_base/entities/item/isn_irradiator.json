@@ -1,0 +1,66 @@
+{
+  "entity_id": "isn_irradiator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradiator",
+  "name_zh": "烈辐",
+  "description_en": "Most certainly against intergalactic weapons laws.\r\nArea-Effect weapon\r\nInflicts radiation burn",
+  "description_zh": "绝对违反了星际武器法的武器。\n附加辐射烧伤效果\n范围性武器",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive",
+    "explosive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.0,
+  "critChance": 1,
+  "critBonus": 3,
+  "altAbilityType": "swtjc_ewg_bouncingorbitals",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 2
+        },
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 6
+        },
+        {
+          "item": "toxicwaste",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Irradiator.md",
+  "quality_tier": "A"
+}

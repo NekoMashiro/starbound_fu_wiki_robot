@@ -1,0 +1,58 @@
+{
+  "entity_id": "network_grabber",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grabber v1",
+  "name_zh": "采集器 I",
+  "description_en": "Basic Grabber. Grabs items from the world. Range: 4.\r\nInput: On/Off Switch\r\nOutput: item network",
+  "description_zh": "基础采集器，从世界中采集物品。范围：4格。\n输入节点： 电源开关\n输出节点： 物品网络",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_grabber2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Grabber v1.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "radienquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Quarterstaff",
+  "name_zh": "艾肯长棍",
+  "description_en": "A X'ian staff, made from their own Bulbs.",
+  "description_zh": "用艾肯自己的球茎制成。",
+  "rarity": "common",
+  "category": "Quarterstaff",
+  "price": 2,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 5.2,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffelementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 12
+        },
+        {
+          "item": "ff_silicon",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

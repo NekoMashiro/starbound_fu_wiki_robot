@@ -1,0 +1,53 @@
+{
+  "entity_id": "shadowflowerpot",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Flower Pot",
+  "name_zh": "阴影花盆",
+  "description_en": "A dark vase. The flowers softly glow.",
+  "description_zh": "一个深色的花盆。这里面的花儿发出柔和的光。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "shadow",
+    "dark"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "darklightblossom",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

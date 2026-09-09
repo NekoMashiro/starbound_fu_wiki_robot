@@ -1,0 +1,151 @@
+{
+  "entity_id": "zerchesiumbar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Bar",
+  "name_zh": "高熔点锭",
+  "description_en": "Has the highest melting point of any known alloy, much greater than even tungsten! Found on Mountainous worlds.",
+  "description_zh": "拥有迄今为止比钨还高的熔点，甚至连钨也自叹不如！\n被发现于山脉世界。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 336,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 18,
+        "examples": [
+          "zerchbed",
+          "zerchbookcase",
+          "zerchcabinet",
+          "zerchchair",
+          "zerchcouch"
+        ]
+      },
+      "light": {
+        "count": 7,
+        "examples": [
+          "zerchceilinglamp",
+          "zerchdesklamp",
+          "zerchesiumlamplarge",
+          "zerchesiumlampsmall",
+          "zerchesiumlight"
+        ]
+      },
+      "assaultRifle": {
+        "count": 6,
+        "examples": [
+          "chargemachinegun",
+          "fugaussrifle",
+          "fugrinder",
+          "k3rifle",
+          "mobiusrifle"
+        ]
+      },
+      "mechPart": {
+        "count": 6,
+        "examples": [
+          "fugaussmecha",
+          "mecharmdrill2",
+          "mechbodybrute2",
+          "mechbodyheavy2",
+          "mechbodysinbody"
+        ]
+      },
+      "storage": {
+        "count": 6,
+        "examples": [
+          "zerchchestlarge",
+          "zerchchestsmall",
+          "zerchesiumcabinet",
+          "zerchesiumdesk",
+          "zerchesiumdrawer"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "advancealloy",
+          "apiary_frame_antimite3",
+          "apiary_frame_protective",
+          "hydrolium",
+          "moltencore"
+        ]
+      },
+      "eppAugment": {
+        "count": 5,
+        "examples": [
+          "feedaugment3",
+          "fuammoaugment4",
+          "fudefenseaugment2",
+          "furegenaugment2",
+          "fureloadaugment4"
+        ]
+      },
+      "shotgun": {
+        "count": 5,
+        "examples": [
+          "chargeshotgun",
+          "fugaussshotgun",
+          "longarm",
+          "longarmpistol",
+          "zerchesiumshotgun"
+        ]
+      }
+    },
+    "total": 142
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "zerchesiumore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "zerchesiumore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "zerchesiumore"
+    }
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "pyreitechestsmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Pyreite Chest",
+  "name_zh": "小型永燃箱",
+  "description_en": "A small chest. It's very hot.",
+  "description_zh": "这是一个小箱子。但却很热。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 170,
+  "tags": [
+    "pyreite",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 5
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

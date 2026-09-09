@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathairlock",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pressurised Tethyde Door",
+  "name_zh": "加压韧影合金门",
+  "description_en": "A sturdy airlock made out of Tethyde.",
+  "description_zh": "用韧影合金制成的坚固的气闸。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 175,
+  "tags": [
+    "skath",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 4
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

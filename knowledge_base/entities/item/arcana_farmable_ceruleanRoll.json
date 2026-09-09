@@ -1,0 +1,27 @@
+{
+  "entity_id": "arcana_farmable_ceruleanRoll",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cerulean Roll",
+  "name_zh": "桑黍卷",
+  "description_en": "A roll that grows on plants? Sweet!",
+  "description_zh": "能从地里种出来的甜甜卷？又甜又好吃！",
+  "rarity": "Common",
+  "category": "food",
+  "price": 200,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_ceruleanRoll",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

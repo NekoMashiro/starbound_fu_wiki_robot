@@ -1,0 +1,37 @@
+{
+  "entity_id": "turtleshellback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Turtle Shell",
+  "name_zh": "龟壳",
+  "description_en": "A turtle shell. It's quite spacious inside! Increases Defense.",
+  "description_zh": "龟壳。里面相当宽敞！\n增加防御",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.0219,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.0154,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

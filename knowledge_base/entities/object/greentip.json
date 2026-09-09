@@ -1,0 +1,32 @@
+{
+  "entity_id": "greentip",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Greentip",
+  "name_zh": "绿点虫",
+  "description_en": "This bug looks like it's wearing tiny green shoes.",
+  "description_zh": "这只虫子像是穿了小绿鞋子。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "greentip",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "greentip"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

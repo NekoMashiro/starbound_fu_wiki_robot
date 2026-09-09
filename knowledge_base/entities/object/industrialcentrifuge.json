@@ -1,0 +1,41 @@
+{
+  "entity_id": "industrialcentrifuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Industrial Centrifuge",
+  "name_zh": "工业用离心机",
+  "description_en": "An enormous centrifuge with expandable attachments. Fast but inefficient. Requires 12W power.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "^orange;Centrifuge^reset;",
+  "price": 200,
+  "tags": [
+    "hive",
+    "bees",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironcentrifuge",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Industrial Centrifuge.md",
+  "quality_tier": "A"
+}

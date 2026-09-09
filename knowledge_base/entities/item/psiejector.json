@@ -1,0 +1,56 @@
+{
+  "entity_id": "psiejector",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionic Focus",
+  "name_zh": "灵力光束",
+  "description_en": "Focuses mental power via Psionic energy.\r\nCan use various types of ammo.",
+  "description_zh": "通过灵能聚焦精神力量。\n可以使用各种类型的弹药。",
+  "rarity": "rare",
+  "category": "armcannon",
+  "price": 2240,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "psionic"
+  ],
+  "elementalType": "cosmic",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 3.5,
+  "critChance": 1,
+  "critBonus": 3,
+  "altAbilityType": "reloadammo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "staticcell",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Psionic Focus.md",
+  "quality_tier": "A"
+}

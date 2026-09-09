@@ -1,0 +1,63 @@
+{
+  "entity_id": "fuminelayer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mine Launcher",
+  "name_zh": "地雷发射器",
+  "description_en": "Make minced-meat with minefields.\r\nInflicts burning\r\nDevastates large area",
+  "description_zh": "用雷区把你的敌人轰杀至渣。\n附加燃烧效果\n超级地雷会造成很大的破坏范围",
+  "rarity": "rare",
+  "category": "grenadeLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 4,
+  "critChance": 1,
+  "critBonus": 12,
+  "altAbilityType": "fubigmine",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 12
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Mine Launcher.md",
+  "quality_tier": "A"
+}

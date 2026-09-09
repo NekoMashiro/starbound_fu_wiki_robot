@@ -1,0 +1,55 @@
+{
+  "entity_id": "skathfusionreactor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Fusion Reactor",
+  "name_zh": "大型聚变反应堆",
+  "description_en": "Generates 35-600w power from hydrogen isotopes. Each slot outputs independently. Needs coolant. Left Input: On/Off Switch",
+  "description_zh": "利用氢同位素产生35-600w的电力。每格燃料格独立输出。\n需要液体冷却剂。\n左侧输入：电源开关",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 4500,
+  "tags": [
+    "space",
+    "power",
+    "radioactive"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 10
+        },
+        {
+          "item": "fuprocessor",
+          "count": 4
+        },
+        {
+          "item": "particlecore",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "能源设备制造器",
+          "name_zh": "能源设备制造器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Large Fusion Reactor.md",
+  "quality_tier": "A"
+}

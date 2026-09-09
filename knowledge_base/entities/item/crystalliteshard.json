@@ -1,0 +1,27 @@
+{
+  "entity_id": "crystalliteshard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystallite Shard",
+  "name_zh": "晶粒镖",
+  "description_en": "Ludicrously dangerous shards.",
+  "description_zh": "这是异常危险的投掷型武器。",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "price": 7,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "crystallite",
+          "probability": 1.25,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

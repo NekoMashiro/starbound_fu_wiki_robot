@@ -1,0 +1,84 @@
+{
+  "entity_id": "aethersea",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether World",
+  "name_zh": "以太世界",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Aether World",
+  "friendly_name_zh": "以太世界",
+  "ores": [
+    {
+      "ore": "neptunium",
+      "weight": 0.4
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.3
+    },
+    {
+      "ore": "penumbrite",
+      "weight": 0.3
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.3
+    },
+    {
+      "ore": "xithricite",
+      "weight": 0.25
+    },
+    {
+      "ore": "corruption",
+      "weight": 0.24
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.2
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.2
+    },
+    {
+      "ore": "violium",
+      "weight": 0.2
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "adultshadowtop",
+    "bee_stellar",
+    "crisper",
+    "fearmoth",
+    "fubat",
+    "furatthing2",
+    "orbide",
+    "pyropod",
+    "sackbagcritter",
+    "shadowmoth",
+    "shadowtop",
+    "slugbluecritter",
+    "toxin"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:aether",
+        "/weather.config:aethercalm",
+        "/weather.config:aetherharsh",
+        "/weather.config:aetherrainy"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "aetherweathernew"
+  ],
+  "wiki_ref": "Aether World.md",
+  "quality_tier": "C"
+}

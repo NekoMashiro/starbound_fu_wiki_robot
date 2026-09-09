@@ -1,0 +1,36 @@
+{
+  "entity_id": "at_ext_ship",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "TC aircraft model",
+  "name_zh": "轻型飞行器模型",
+  "description_en": "An unarmed ''Steelbreaker'' model.",
+  "description_zh": "一架未武装的“钢陨”模型。",
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

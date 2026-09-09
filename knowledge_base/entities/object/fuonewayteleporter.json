@@ -1,0 +1,33 @@
+{
+  "entity_id": "fuonewayteleporter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Escape Teleporter",
+  "name_zh": "逃脱传送门",
+  "description_en": "Small, handy and cheap! Gets you up to your ship again, no matter where you are!",
+  "description_zh": "体积小，方便，便宜！而且不论你在哪里，它都可以把你弄到船上。",
+  "rarity": "rare",
+  "category": "teleporter",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "unstableparticles",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Escape Teleporter.md",
+  "quality_tier": "A"
+}

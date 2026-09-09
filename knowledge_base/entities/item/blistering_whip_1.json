@@ -1,0 +1,33 @@
+{
+  "entity_id": "blistering_whip_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Blistering Whip",
+  "name_zh": "酷热之鞭",
+  "description_en": "A molten whip found in the Blistering Sanctums. Inflicts burning.",
+  "description_zh": "一条在酷热圣堂中找到的熔火鞭。造成燃烧。",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 1500,
+  "tags": [
+    "weapon"
+  ],
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "whipcrack",
+  "altAbilityType": "energyorb",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_blisteringTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

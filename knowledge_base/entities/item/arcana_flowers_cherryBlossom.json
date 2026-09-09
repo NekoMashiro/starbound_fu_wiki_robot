@@ -1,0 +1,98 @@
+{
+  "entity_id": "arcana_flowers_cherryBlossom",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cherry Blossom",
+  "name_zh": "樱花",
+  "description_en": "A pretty pink flower, often used for ornamental decoration parts.",
+  "description_zh": "一种漂亮的粉红色花朵，常被用于观赏装饰部分。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "arcana_lunar_deco_13",
+          "arcana_lunar_deco_2",
+          "arcana_lunar_deco_3",
+          "arcana_lunar_deco_4"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "lunar_katana_1",
+          "lunar_katana_2"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "lunar_tile14",
+          "lunar_tile16"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_terraformer_senbonzakura"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "lunar_dagger_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_blastRifle_tsukitsune"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_potion_lunaBrew"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_lunarPoptop",
+          "probability": 1.12,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_lunarPoptop"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_dheral",
+          "probability": 1.0,
+          "count": 5,
+          "monsters": [
+            "arcana_boss_dheral",
+            "arcana_boss_herald"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

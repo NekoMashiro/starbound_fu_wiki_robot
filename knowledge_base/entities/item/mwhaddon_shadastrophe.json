@@ -1,0 +1,65 @@
+{
+  "entity_id": "mwhaddon_shadastrophe",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Shadastrophe",
+  "name_zh": "灾劫鬼影",
+  "description_en": "Anchor of all Memories. No mortal tongue can grasp this empty shell - the singularity of all absolutes, where every concept collapses into its own annihilation.",
+  "description_zh": "万千记忆之锚。没有任何概念可以界定这柄空壳。它即是一切概念本身。",
+  "rarity": "Essential",
+  "category": "staff",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "staff",
+    "ranged",
+    "melee",
+    "otherworldly"
+  ],
+  "elementalType": "mwhaddon_ultimate_truth",
+  "level": 11,
+  "twoHanded": true,
+  "primaryAbilityType": "mwhaddon_shadastrophe_primary",
+  "altAbilityType": "mwhaddon_shadastrophe_alt",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "mwhaddonarcana_sigils_ssSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_memoryForge.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "elderhealingstationauto",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutari Automatic Healer",
+  "name_zh": "穆塔里自动治疗站",
+  "description_en": "A station to heal pets, robots and...others.\nAutomated and Item Network capable.",
+  "description_zh": "一个治疗宠物、机器人和...其他玩意的工作站。\n自动化且兼容物品传输网络。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 1250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderhealingstation",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        },
+        {
+          "item": "elderrelic6",
+          "count": 1
+        },
+        {
+          "item": "network_containerlink",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

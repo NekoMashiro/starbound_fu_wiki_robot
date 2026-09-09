@@ -1,0 +1,49 @@
+{
+  "entity_id": "carbondesklamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Desk Lamp",
+  "name_zh": "碳素台灯",
+  "description_en": "A desk lamp made from carbon.",
+  "description_zh": "碳制的台灯。",
+  "rarity": "common",
+  "category": "light",
+  "price": 300,
+  "tags": [
+    "carbon",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "coalore",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

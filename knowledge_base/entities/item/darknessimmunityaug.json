@@ -1,0 +1,36 @@
+{
+  "entity_id": "darknessimmunityaug",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Darkness Shield",
+  "name_zh": "EPP模块（暗灵护盾）",
+  "description_en": "An EPP module that protects against impenetrable darkness. Immune: Darkness",
+  "description_zh": "一个能够抵御难以捉摸的暗灵的EPP模块。\n免疫暗灵",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "darklightblossom",
+          "count": 2
+        },
+        {
+          "item": "honedlunari",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

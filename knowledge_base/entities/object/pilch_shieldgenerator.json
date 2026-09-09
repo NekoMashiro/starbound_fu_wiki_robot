@@ -1,0 +1,49 @@
+{
+  "entity_id": "pilch_shieldgenerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Field Generator",
+  "name_zh": "力场发生器",
+  "description_en": "Generates fields to protect construction, provide air or alter gravity within a defined area.",
+  "description_zh": "生成立场以保护建筑、提供空气或改变定义区域内的重力。",
+  "rarity": "Common",
+  "category": "tool",
+  "price": 1,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "staticcell",
+          "count": 10
+        },
+        {
+          "item": "electromagnet",
+          "count": 5
+        },
+        {
+          "item": "battery",
+          "count": 2
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Field Generator.md",
+  "quality_tier": "A"
+}

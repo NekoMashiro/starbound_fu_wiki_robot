@@ -1,0 +1,36 @@
+{
+  "entity_id": "fu_pickuprangeaugment1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Magnet I",
+  "name_zh": "EPP模块（自动拾取 I）",
+  "description_en": "Pulls items towards you from up to 10 blocks away.",
+  "description_zh": "自动拾取10格范围内的可拾取物品。",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

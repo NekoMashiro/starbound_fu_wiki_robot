@@ -1,0 +1,68 @@
+{
+  "entity_id": "biogun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bio Rifle",
+  "name_zh": "生化步枪",
+  "description_en": "Bone-formed biological weapon.\r\nInflicts bio-ooze effect\r\nAimable stun-balls",
+  "description_zh": "一把外包骨骼的生物类武器。\n附加生物软泥效果\n延迟性的眩晕弹",
+  "rarity": "rare",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 4,
+  "critBonus": 12,
+  "altAbilityType": "biogrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "biosample",
+          "count": 20
+        },
+        {
+          "item": "mutagene4",
+          "count": 1
+        },
+        {
+          "item": "larva",
+          "count": 8
+        },
+        {
+          "item": "corruptionseed",
+          "count": 2
+        },
+        {
+          "item": "cell_viral",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bio Rifle.md",
+  "quality_tier": "A"
+}

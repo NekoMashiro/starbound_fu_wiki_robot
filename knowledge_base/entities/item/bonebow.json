@@ -1,0 +1,49 @@
+{
+  "entity_id": "bonebow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Bow",
+  "name_zh": "骨制弓",
+  "description_en": "A primitive bone bow, almost too stiff to draw.\r\nFloran",
+  "description_zh": "非常原始的骨制武器，完全没有艺术感。\n叶族",
+  "rarity": "Common",
+  "category": "bow",
+  "price": 50,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "tripleshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

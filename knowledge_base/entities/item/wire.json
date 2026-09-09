@@ -1,0 +1,335 @@
+{
+  "entity_id": "wire",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Copper Wire",
+  "name_zh": "铜线",
+  "description_en": "A spool of copper wire.",
+  "description_zh": "一卷铜线。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 2,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 9,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 167,
+        "examples": [
+          "aetherlavalamp2",
+          "alarm",
+          "alienjuicelavalamp",
+          "arcana_archaic_light_1",
+          "arcana_archaic_light_2"
+        ]
+      },
+      "wire": {
+        "count": 145,
+        "examples": [
+          "and",
+          "bigredbutton",
+          "bulb",
+          "configurable3statecycler",
+          "countdowntimer"
+        ]
+      },
+      "decorative": {
+        "count": 46,
+        "examples": [
+          "apexbrainjar",
+          "apexbrainjar2",
+          "apexbrainjar3",
+          "apexbrainjar4",
+          "arcana_exousia_science_deco_1"
+        ]
+      },
+      "door": {
+        "count": 40,
+        "examples": [
+          "airlockdoor",
+          "airlockhatch",
+          "apexshipdoor",
+          "apexshiphatch",
+          "arcana_astral_door_1"
+        ]
+      },
+      "mechPart": {
+        "count": 24,
+        "examples": [
+          "fuflamearm",
+          "fuicearm",
+          "mecharmdrill",
+          "mecharmdrill0",
+          "mecharmdrill2"
+        ]
+      },
+      "crafting": {
+        "count": 14,
+        "examples": [
+          "3dprinter",
+          "acceleratoraddon",
+          "arcana_crafting_cookingStation_2",
+          "arcana_crafting_workbench_2",
+          "arcana_luye_crafting_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 14,
+        "examples": [
+          "apiary_frame_computerised",
+          "arcana_misc_archaicCircuit",
+          "arcana_misc_copperComponent",
+          "arcana_misc_oceanicTechCard",
+          "arcana_misc_verrostinComponent"
+        ]
+      },
+      "storage": {
+        "count": 12,
+        "examples": [
+          "arcana_exousia_general_crate_1",
+          "arcana_exousia_general_crate_2",
+          "arcana_exousia_medical_storage_1",
+          "arcana_exousia_medical_storage_2",
+          "arcana_exousia_modern_fridge_1"
+        ]
+      }
+    },
+    "total": 557
+  },
+  "drop_sources": {
+    "total_pools": 46,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_wire",
+          "probability": 2.5,
+          "count": 4.6
+        },
+        {
+          "pool": "arcana_monsterdrops_orionDrone3",
+          "probability": 0.9999,
+          "count": 3.0,
+          "monsters": [
+            "arcana_monster_orionDrone3"
+          ]
+        },
+        {
+          "pool": "arcana_monsterdrops_neoBomb",
+          "probability": 0.9999,
+          "count": 3.0,
+          "monsters": [
+            "arcana_monster_neoBomb"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.2875,
+          "count": 4.6
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.1151,
+          "count": 4.6
+        }
+      ],
+      "prob_range": [
+        0.0125,
+        2.5
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_exousianTech",
+          "probability": 2.4,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_dungeonloots_orionBasicTreasure",
+          "probability": 0.75,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_orionHeavy",
+            "at_ext_orion_heavyrobot"
+          ]
+        },
+        {
+          "pool": "techChestTreasure",
+          "probability": 0.675,
+          "count": 3.0
+        },
+        {
+          "pool": "elduutechChestTreasure",
+          "probability": 0.675,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.6189,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.5997,
+        2.4
+      ]
+    },
+    "monster_drops": {
+      "count": 29,
+      "top": [
+        {
+          "pool": "robothenbabyTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "furobothenbaby",
+            "robothenbaby"
+          ]
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.8621,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "pandorasboxtrapogoTechTreasure",
+          "probability": 0.5874,
+          "count": 3.0
+        },
+        {
+          "pool": "techTreasure",
+          "probability": 0.375,
+          "count": 3.0,
+          "monsters": [
+            "arcana_monster_cerueonPearl"
+          ]
+        },
+        {
+          "pool": "elduutechTreasure",
+          "probability": 0.375,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.05,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "extraMonsterRobotHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking"
+          ]
+        },
+        {
+          "pool": "madnessBrainHarvestingRobot",
+          "probability": 0.3333,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fatalcircuit",
+            "infernusdroid",
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "furobotHunting",
+          "probability": 0.2222,
+          "count": 1,
+          "monsters": [
+            "serpentdroid"
+          ]
+        },
+        {
+          "pool": "furobotHuntingnoChassis",
+          "probability": 0.2,
+          "count": 1,
+          "monsters": [
+            "cleaningbot",
+            "deathdroid",
+            "deathdroid2",
+            "repairbot",
+            "spiderwalker2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2,
+        0.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

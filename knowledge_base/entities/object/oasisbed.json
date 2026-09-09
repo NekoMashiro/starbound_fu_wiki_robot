@@ -1,0 +1,58 @@
+{
+  "entity_id": "oasisbed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Deck Lounge Chair",
+  "name_zh": "折叠式休闲躺椅",
+  "description_en": "A deck lounge chair with a parasol, perfect for sun weather.",
+  "description_zh": "一个带遮阳伞的折叠式休闲躺椅，很适合大晴天。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "oasis",
+    "bed"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oasisChestTreasure",
+          "probability": 0.0049,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0027,
+        0.0049
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoOasisTreasure",
+          "probability": 0.0032,
+          "count": 1
+        },
+        {
+          "pool": "oasisTreasure",
+          "probability": 0.0027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0027,
+        0.0032
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

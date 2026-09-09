@@ -1,0 +1,86 @@
+{
+  "entity_id": "densiniumchestkhe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium EVA Armor",
+  "name_zh": "超致密EVA胸甲",
+  "description_en": "Set Bonuses (Part 2):\r\n Densinium/Rifle/Chainblades: Damage x1.25, +3% Crit Chance\r\n Fall Damage x0.25. +75% Knockback Resist. +15% Speed.",
+  "description_zh": "套装奖励(第二部分):\n\n 超致密武器/狙击步枪/链刃: 伤害x1.25, +3% 暴击几率\n 坠落伤害x0.25. +75% 击退抗性. +15% 速度.",
+  "rarity": "legendary",
+  "category": "chestarmour",
+  "price": 950,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer",
+    "hyper",
+    "specialist"
+  ],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumchest",
+          "count": 1
+        },
+        {
+          "item": "warangelchest",
+          "count": 1
+        },
+        {
+          "item": "fureconchest3",
+          "count": 1
+        },
+        {
+          "item": "hydrogencore",
+          "count": 1
+        },
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "antineutronium",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

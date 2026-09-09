@@ -1,0 +1,50 @@
+{
+  "entity_id": "cat",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "猫族",
+  "description_en": "",
+  "description_zh": "一种被灵猫族开化的种族。他们天生拥有灵力和念力，追随其开化者的文化和科学技术。他们也喜欢创造可怕的猫咪双关语。\n\n饮食：食肉\n\n天赋:\n\n增益:\n他们非常灵活。+20%跳跃高度，+8%移动速度\n抗性: +15%寒气抗性\n免疫：丛林泥土，泥\n\n环境:\n丛林，原始森林，森林，雨林，沙漠生态：HP x1.1, 能量 x1.15\n\n武器:\n拳套，匕首，短剑：+1%暴击几率\n投掷武器/手榴弹：伤害x1.25\n磁力珠： +2%暴击几率\n臂炮：防御 & 伤害x1.15，\n\n弱点:\n 抗性：-20%射线抗性和电系抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "fumudslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.2
+      },
+      {
+        "stat": "fujungleslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "bowDrawTimeBonus",
+        "amount": 0.1
+      }
+    ],
+    "diet": "carnivore",
+    "controlModifiers": {
+      "speedModifier": 1.08,
+      "airJumpModifier": 1.2
+    },
+    "tech": [
+      "veluuclaw"
+    ]
+  },
+  "quality_tier": "B"
+}

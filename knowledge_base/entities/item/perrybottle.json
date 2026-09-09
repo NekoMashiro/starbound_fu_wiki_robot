@@ -1,0 +1,44 @@
+{
+  "entity_id": "perrybottle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poire",
+  "name_zh": "超大瓶甜梨酒",
+  "description_en": "Jeroboam of sweet perry!\n+10 Defense (45s)\n35% Slow, Drunk (1m)",
+  "description_zh": "这是超大瓶的甜梨酒！\n+10防御(持续45s)\n35%减速，n醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 2300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 5
+        },
+        {
+          "item": "pearmash",
+          "count": 2
+        },
+        {
+          "item": "pearjuice",
+          "count": 5
+        },
+        {
+          "item": "yeastwater",
+          "count": 10
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

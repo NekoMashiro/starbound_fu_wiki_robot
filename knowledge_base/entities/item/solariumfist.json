@@ -1,0 +1,54 @@
+{
+  "entity_id": "solariumfist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solarium Cestus",
+  "name_zh": "日耀石拳套",
+  "description_en": "Really unhealthily radioactive.",
+  "description_zh": "非常不健康的辐射。",
+  "rarity": "legendary",
+  "category": "fistWeapon",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon",
+    "solarium",
+    "crystal"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 8.5,
+  "critChance": 4,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 4
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

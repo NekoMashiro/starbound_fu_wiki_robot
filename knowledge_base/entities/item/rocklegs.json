@@ -1,0 +1,46 @@
+{
+  "entity_id": "rocklegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rock Trousers",
+  "name_zh": "岩石裤",
+  "description_en": "Perfect camouflage for miners.",
+  "description_zh": "矿工的完美伪装。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stoneCaveChestTreasure",
+          "probability": 0.1623,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoStoneCaveTreasure",
+          "probability": 0.1055,
+          "count": 1
+        },
+        {
+          "pool": "stoneCaveTreasure",
+          "probability": 0.0882,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0882,
+        0.1055
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

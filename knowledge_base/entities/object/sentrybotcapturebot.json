@@ -1,0 +1,44 @@
+{
+  "entity_id": "sentrybotcapturebot",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capture Bot",
+  "name_zh": "抓捕机器人",
+  "description_en": "Captures creatures in Pet Balls.",
+  "description_zh": "可以把生物抓进捕捉舱。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        },
+        {
+          "item": "laserdiode",
+          "count": 2
+        },
+        {
+          "item": "capturepod",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "fossilbrushstudent",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Advanced Fossil Brush",
+  "name_zh": "高级化石刷",
+  "description_en": "Can be used once to excavate a fossil, with moderate success.",
+  "description_zh": "只能使用一次来发掘化石，成功率中等。",
+  "rarity": "Uncommon",
+  "category": "tool",
+  "price": 30,
+  "tags": [
+    "fossilbrush"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "string",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Fossil Station",
+      "station_zh": "化石工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

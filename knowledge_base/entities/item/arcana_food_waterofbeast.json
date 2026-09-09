@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_waterofbeast",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Water of Beast",
+  "name_zh": "野兽之水",
+  "description_en": "A can of sports drink that looks very dangerous...and powerful. [Kumochan]\n\n+20% Max Energy 3 min.\n+Run Boost 3 min.\n+Jump Boost 3 min.\n+Each additional drink grants +20% Damage, but reduces 20% Max Health.",
+  "description_zh": "一罐看起来非常危险……又充满力量的运动饮料。[云酱]\n\n3分钟+20%最大能量\n3分钟奔跑提升\n3分钟跳跃提升\n效果期间每次额外饮用都会+20%伤害并-20%最大生命值（可叠加致死）",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 160,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_virusac",
+          "count": 2
+        },
+        {
+          "item": "arcana_farmable_teaPlant",
+          "count": 2
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

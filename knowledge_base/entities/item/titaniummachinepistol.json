@@ -1,0 +1,57 @@
+{
+  "entity_id": "titaniummachinepistol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Machine Pistol",
+  "name_zh": "钛制自动手枪",
+  "description_en": "A large handgun that packs a kick.",
+  "description_zh": "一支强力的大型手枪。",
+  "rarity": "Uncommon",
+  "category": "machinePistol",
+  "price": 480,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7.0,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

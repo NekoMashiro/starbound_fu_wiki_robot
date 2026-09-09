@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_flowers_oceanIvy",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ocean Ivy",
+  "name_zh": "海青藤",
+  "description_en": "A beautiful ivy with colors of the arcane seas.",
+  "description_zh": "一株染上奥术之色的美丽常春藤。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_head_oceanivynymphhat"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "bleuark_deco_4"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_potion_swimmingFish"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

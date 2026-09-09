@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_moxieAweto",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Moxie Aweto",
+  "name_zh": "毅力虫草",
+  "description_en": "Nutritious fungus for the brave.\n For 60 seconds after drinking, revive you and heals 50% of Max Health for once if you've killed. This effect has a 60s Cooldown.",
+  "description_zh": "只有勇者才能享用的营养菌类。\n饮用后60秒内，受到致命伤害时恢复最大生命值50%的生命。该效果有60秒冷却。",
+  "rarity": "legendary",
+  "category": "tradingCard",
+  "price": 500,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t4",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

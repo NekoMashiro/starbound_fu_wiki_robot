@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarmedievalcounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medieval Counter",
+  "name_zh": "中世纪计数器",
+  "description_en": "Ye olde counter.",
+  "description_zh": "旧柜台。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 105,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

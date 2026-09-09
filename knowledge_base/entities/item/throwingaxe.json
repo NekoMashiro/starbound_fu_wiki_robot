@@ -1,0 +1,225 @@
+{
+  "entity_id": "throwingaxe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Axe",
+  "name_zh": "投斧",
+  "description_en": "A throwing axe, for chopping things down at a distance.",
+  "description_zh": "一把可投掷的斧子，可以在远处砍东西。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 3,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 147,
+    "monster_drops": {
+      "count": 54,
+      "top": [
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.2639,
+          "count": 5
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.1797,
+          "count": 5
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0979,
+          "count": 5
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0784,
+          "count": 5,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0512,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.2639
+      ]
+    },
+    "other": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.2452,
+          "count": 5
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.067,
+          "count": 12
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0531,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0436,
+          "count": 5
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0106,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.2452
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1297,
+          "count": 5.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1257,
+          "count": 5.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0711,
+          "count": 5.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0702,
+          "count": 5.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0158,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1297
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0069,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0068,
+          "count": 5
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0059,
+          "count": 5
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0014,
+          "count": 5
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0014,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0069
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0015,
+          "count": 5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0003,
+          "count": 5
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0002,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0015
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0003,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

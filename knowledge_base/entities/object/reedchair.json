@@ -1,0 +1,49 @@
+{
+  "entity_id": "reedchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Reed Chair",
+  "name_zh": "芦苇椅",
+  "description_en": "A chair made of wood and reed.",
+  "description_zh": "一个由木与芦苇制成的椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 45,
+  "tags": [
+    "oasis",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reed",
+          "count": 30
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

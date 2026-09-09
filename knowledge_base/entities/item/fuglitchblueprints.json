@@ -1,0 +1,28 @@
+{
+  "entity_id": "fuglitchblueprints",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glitch Schematics (Health)",
+  "name_zh": "电子族盔甲架构图(生命)",
+  "description_en": "The blueprints for sturdy Glitch armour.",
+  "description_zh": "电子族坚固盔甲的蓝图。",
+  "rarity": "legendary",
+  "category": "Blueprint",
+  "price": 4500,
+  "tags": [],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "glitchmission1Reward",
+          "probability": 0.0646,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

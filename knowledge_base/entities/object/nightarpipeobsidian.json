@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarpipeobsidian",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Obsidian Wall Pipe",
+  "name_zh": "黑曜石壁管",
+  "description_en": "Allows flow of water and air through underground warrens.",
+  "description_zh": "让水和空气在地下管网中流动。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "nightar",
+    "combat",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 12
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

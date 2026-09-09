@@ -1,0 +1,32 @@
+{
+  "entity_id": "lavahopper",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Lavahopper",
+  "name_zh": "熔岩跳虫",
+  "description_en": "This tiny creature skips across hot lakes of lava.",
+  "description_zh": "这只小东西跳过了熔岩池。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lavahopper",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "lavahopper"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,82 @@
+{
+  "entity_id": "tentaclestatue",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Abhorrent Statue",
+  "name_zh": "可憎的雕像",
+  "description_en": "My very being aches to caress every perfect curve and smooth edge of this wonderful carving.",
+  "description_zh": "我的指腹轻柔地划过这雕像的每一寸，啊，这刀工是多么地妙不可言。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elder",
+    "hideous",
+    "statue"
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.132,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0174,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0157,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0157,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0157,
+        0.132
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.1239,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0978,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

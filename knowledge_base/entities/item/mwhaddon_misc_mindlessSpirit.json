@@ -1,0 +1,34 @@
+{
+  "entity_id": "mwhaddon_misc_mindlessSpirit",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Mindless Spirit",
+  "name_zh": "失罔魂灵",
+  "description_en": "Figurative fragments of a shattered nightmare, dropped from Defiled Monarch.",
+  "description_zh": "破碎噩魇的具象化碎片，由诡灵之王掉落。",
+  "rarity": "essential",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_misc_soulseaSpirit",
+          "mwhaddon_misc_shadowstarBlossom_2"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_tech_phantomStep"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

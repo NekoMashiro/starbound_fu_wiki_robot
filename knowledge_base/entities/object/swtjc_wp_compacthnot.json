@@ -1,0 +1,61 @@
+{
+  "entity_id": "swtjc_wp_compacthnot",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compact NOT Gate",
+  "name_zh": "紧凑型非门",
+  "description_en": "A /'NOT'/ gate. Inverts the input on the circuit.",
+  "description_zh": "一个非门。颠倒的输入电路。例：输入ON，则输出OFF",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_compactvnot",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_compactvnot"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

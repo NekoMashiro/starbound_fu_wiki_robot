@@ -1,0 +1,35 @@
+{
+  "entity_id": "gorgecake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gorge Cake",
+  "name_zh": "暴食蛋糕",
+  "description_en": "A 'cake' made from rendered fat and bonemeal. Type: Cooked Meat",
+  "description_zh": "一种由固化脂肪和骨粉制作成的蛋糕。\n类型：熟肉食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

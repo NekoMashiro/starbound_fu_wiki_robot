@@ -1,0 +1,41 @@
+{
+  "entity_id": "woodencentrifuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wooden Centrifuge",
+  "name_zh": "木制离心机",
+  "description_en": "An effective device for extraction involving liquids.",
+  "description_zh": "可用于液体。",
+  "rarity": "essential",
+  "category": "^orange;Centrifuge^reset;",
+  "price": 200,
+  "tags": [
+    "hive",
+    "bees",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 8
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Wooden Centrifuge.md",
+  "quality_tier": "A"
+}

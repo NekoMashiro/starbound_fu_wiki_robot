@@ -1,0 +1,58 @@
+{
+  "entity_id": "hylotllesserscion",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Scion Clawblade",
+  "name_zh": "后裔爪刃",
+  "description_en": "Coral and steel. Blood and glory.",
+  "description_zh": "珊瑚与钢铁，血与荣耀。",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

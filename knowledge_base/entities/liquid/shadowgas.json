@@ -1,0 +1,23 @@
+{
+  "entity_id": "shadowgas",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "shadowgas",
+  "name_zh": "",
+  "description_en": "A dangerous gas named for its unique light and gravity absorption properties.",
+  "description_zh": "一种危险的气体，因其独特的光和重力吸收特性而得名。",
+  "status_effects": [
+    "shadowgasfx"
+  ],
+  "interactions": [
+    {
+      "liquid": 3,
+      "materialResult": "darkness"
+    },
+    {
+      "liquid": 8,
+      "materialResult": "darkstone"
+    }
+  ],
+  "quality_tier": "C"
+}

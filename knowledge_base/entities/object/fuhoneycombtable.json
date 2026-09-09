@@ -1,0 +1,49 @@
+{
+  "entity_id": "fuhoneycombtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeycomb Table",
+  "name_zh": "蜂巢桌子",
+  "description_en": "An edible table, made with real honeycombs!",
+  "description_zh": "一张可食用的桌子，使用真正的蜂巢材料制成。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "bees",
+    "tables"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 10
+        },
+        {
+          "item": "normalcomb",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

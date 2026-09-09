@@ -1,0 +1,59 @@
+{
+  "entity_id": "fusavethequeen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Queensguard",
+  "name_zh": "蜂后之庇护",
+  "description_en": "Pink, but not wimpy.\r\nInflicts Poisoned\r\nInflicts Bee Stings",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "elementalType": "poison",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 12
+        },
+        {
+          "item": "quietusbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarshiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Ship Hatch",
+  "name_zh": "夜族船舱口",
+  "description_en": "A hatch suitable for a spaceship.",
+  "description_zh": "一个适合于宇宙飞船的舱口。",
+  "rarity": "Legendary",
+  "category": "door",
+  "price": 250,
+  "tags": [
+    "nightar",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

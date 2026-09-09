@@ -1,0 +1,88 @@
+{
+  "entity_id": "skulltorch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Skull Torch Stand",
+  "name_zh": "骷髅头火炬支架",
+  "description_en": "Deep shadows stretch away from this menacing torch.",
+  "description_zh": "险恶的火炬中投射出深深的影子。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "floran",
+    "floranhuntinggrounds",
+    "light",
+    "evil",
+    "bone"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 10
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhutvillageTreasure",
+          "probability": 0.0371,
+          "count": 1
+        },
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0339,
+        0.0371
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

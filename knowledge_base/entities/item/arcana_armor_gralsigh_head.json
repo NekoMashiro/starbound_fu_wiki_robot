@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_armor_gralsigh_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gralsigh Helm",
+  "name_zh": "金息头盔",
+  "description_en": "A glinting golden armor from the ancient times. +4% Fire and Ice Res.",
+  "description_zh": "远古时代的闪光黄金铠甲。+4%烈焰和纱冰抗性。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 420,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "canvas",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

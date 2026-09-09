@@ -1,0 +1,222 @@
+{
+  "entity_id": "protorockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Stone",
+  "name_zh": "远古岩",
+  "description_en": "A strange sort of rock.\nCrushable, Smeltable.",
+  "description_zh": "一种奇怪的岩石。\n可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "aliencompound"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "cthulhuplush"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "fu_nitrogen",
+        "aliencompound",
+        "liquidbioooze",
+        "fu_carbondioxide"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "fu_nitrogen",
+        "aliencompound",
+        "liquidbioooze",
+        "fu_carbondioxide"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 50,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0688,
+          "count": 5,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0688
+      ]
+    },
+    "chest_loot": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 50
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.036,
+          "count": 5.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0147,
+          "count": 5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0061,
+          "count": 5.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0041,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.063
+      ]
+    },
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0435,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0276,
+          "count": 5
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0249,
+          "count": 5
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0114,
+          "count": 5
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0041,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0435
+      ]
+    },
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0022,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0018,
+          "count": 5
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0004,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0036
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0008,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0007,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    }
+  },
+  "wiki_ref": "Elder Stone.md",
+  "quality_tier": "S"
+}

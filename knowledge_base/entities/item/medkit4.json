@@ -1,0 +1,38 @@
+{
+  "entity_id": "medkit4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medical Kit IV",
+  "name_zh": "医疗包 IV",
+  "description_en": "Heal 200 (10s)\nCures Burning, Cold, Electrified, Poisoned",
+  "description_zh": "在10s内治疗200点生命值\n治疗烧伤，冰冻，带电，中毒",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 260,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wretchel",
+          "count": 1
+        },
+        {
+          "item": "nanowrap",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "fletchweedstem",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fletchweed Stem",
+  "name_zh": "弗莱彻草茎",
+  "description_en": "+145 EP: 1m",
+  "description_zh": "+145能量: 1m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "futeltikparasite"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fletchweed",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

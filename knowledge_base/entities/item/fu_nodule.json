@@ -1,0 +1,104 @@
+{
+  "entity_id": "fu_nodule",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strange Nodule",
+  "name_zh": "奇异结核",
+  "description_en": "Primarily found in rare deep-water plants, this unusual compound is rich with aberrant genes.",
+  "description_zh": "这种不寻常的化合物主要存在于稀有的深水植物中，富含异常基因。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 7,
+        "examples": [
+          "aenemaflower",
+          "corvexseed",
+          "darklightflower",
+          "fusoulleafseed",
+          "glarestalkseed"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "fuatropusaxe"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "fuatropusbroadsword"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "fuatropusdagger"
+        ]
+      },
+      "greataxe": {
+        "count": 1,
+        "examples": [
+          "fuatropusgreataxe"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "fuatropushammer"
+        ]
+      },
+      "scythe": {
+        "count": 1,
+        "examples": [
+          "fuatropusscythe"
+        ]
+      },
+      "shortspear": {
+        "count": 1,
+        "examples": [
+          "fuatropusshortspear"
+        ]
+      }
+    },
+    "total": 18
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "seaclamHarvest",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "seaclam"
+          ]
+        },
+        {
+          "pool": "lasherHarvest",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "aquapodHarvest",
+          "probability": 0.175,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.175,
+        0.5
+      ]
+    }
+  },
+  "wiki_ref": "Strange Nodule.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "tungstenbow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tungsten Hunting Bow",
+  "name_zh": "钨猎弓",
+  "description_en": "Harvests meat and other goods from monsters.",
+  "description_zh": "从怪物身上收获肉和其他物品。",
+  "rarity": "Common",
+  "category": "bow",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "critChance": 6,
+  "critBonus": 10,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "zenshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "string",
+          "count": 1
+        },
+        {
+          "item": "liquidoil",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

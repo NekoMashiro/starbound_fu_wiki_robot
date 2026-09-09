@@ -1,0 +1,51 @@
+{
+  "entity_id": "sweetsdresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sweets Dresser",
+  "name_zh": "糖果梳妆台",
+  "description_en": "A dresser fashioned after a chocolate bar, or simply a massive hollowed out chocolate bar?",
+  "description_zh": "是按照巧克力棒设计的梳妆台，还是仅仅是一块巨大的镂空巧克力棒？",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "sweets",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sweetsset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

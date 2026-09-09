@@ -1,0 +1,56 @@
+{
+  "entity_id": "triangliummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solangrium Mace",
+  "name_zh": "原耀钉头锤",
+  "description_en": "Solarium and Trianglium. Together at last. Design by Leon.",
+  "description_zh": "三棱和日耀的完美结合。由Leon设计。",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "trianglium",
+    "solarium"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.0,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        },
+        {
+          "item": "solariumstar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "gaea_axe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Floral Breaker",
+  "name_zh": "劈花",
+  "description_en": "A one-handed hammer made of florastone.",
+  "description_zh": "一柄由花叶石制成的单手锤。",
+  "rarity": "Uncommon",
+  "category": "axe",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8.8,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_florastone",
+          "count": 14
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "axe": {
+        "count": 1,
+        "examples": [
+          "gaea_axe_2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

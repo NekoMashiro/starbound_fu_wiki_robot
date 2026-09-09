@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Quarterstaff",
+  "name_zh": "月海长棍",
+  "description_en": "Light as a penny, dangerous as...dangerous things.",
+  "description_zh": "轻如便士，险如...危险的东西。",
+  "rarity": "Common",
+  "category": "Quarterstaff",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 5.42,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

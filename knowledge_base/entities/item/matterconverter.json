@@ -1,0 +1,120 @@
+{
+  "entity_id": "matterconverter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Matter Converter",
+  "name_zh": "物态转换器",
+  "description_en": "Converts matter into new states. Quite useful for gas/liquid/solid conversions.",
+  "description_zh": "将物质转换成新的状态。对于气/液/固转换非常有用。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 6,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "liquidcrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 3000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "brain",
+          "brainpeerless",
+          "brainpeerless",
+          "hydrogencore",
+          "redmatter"
+        ]
+      },
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "madnessadultpoptop",
+          "madnessjuvenilepoptop",
+          "madnessmegapoptop",
+          "madnessmegapoptopfire",
+          "madnesspoptop"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "pistolferoziumfu",
+          "pistolvioliumfu"
+        ]
+      },
+      "sniperRifle": {
+        "count": 2,
+        "examples": [
+          "rifleferoziumfu",
+          "riflevioliumfu"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuithead"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitlegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitchest"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_nocturnarray"
+        ]
+      }
+    },
+    "total": 23
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "voritcap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vorit Cap",
+  "name_zh": "劳瑞冻",
+  "description_en": "Swim Boost 3, Immune: Oxygen: 6m",
+  "description_zh": "游泳加速 3, 免疫: 窒息: 6m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "voritHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

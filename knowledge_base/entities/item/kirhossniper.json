@@ -1,0 +1,56 @@
+{
+  "entity_id": "kirhossniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Rifle",
+  "name_zh": "啮齿步枪",
+  "description_en": "A powerful energy rifle.\r\nHunting and Energy weapon",
+  "description_zh": "一把强力的能量步枪。\n狩猎与能量武器",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "energy",
+    "kirhos"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 8,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

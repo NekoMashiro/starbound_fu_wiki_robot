@@ -1,0 +1,330 @@
+{
+  "entity_id": "agaranichor",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fungal Ichor",
+  "name_zh": "真菌脓液",
+  "description_en": "A potent natural adhesive that is commonly found in certain mushrooms.\n+1 produce & -1 seed use",
+  "description_zh": "一种有效的天然粘合剂，常见于某些蘑菇中。\n产量+1\n种子消耗-1",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 6,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Rain Barrel",
+      "station_zh": "雨水收集桶",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 250
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 21,
+        "examples": [
+          "bamboobed",
+          "bamboochair",
+          "bamboosofa",
+          "bambootable",
+          "elderbed"
+        ]
+      },
+      "seed": {
+        "count": 15,
+        "examples": [
+          "avikanspiceplantseed",
+          "beetlesproutseed",
+          "corvexseed",
+          "crystallite",
+          "deathblossomseed"
+        ]
+      },
+      "headarmour": {
+        "count": 6,
+        "examples": [
+          "cellulararmorhead",
+          "chitinhead",
+          "fuinfernohead",
+          "furavagerhead",
+          "fustarkillerhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 6,
+        "examples": [
+          "cellulararmorchest",
+          "chitinchest",
+          "fuinfernochest",
+          "furavagerchest",
+          "fustarkillerchest"
+        ]
+      },
+      "legarmour": {
+        "count": 6,
+        "examples": [
+          "cellulararmorpants",
+          "chitinlegs",
+          "fuinfernopants",
+          "furavagerpants",
+          "fustarkillerpants"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "bamboocabinet",
+          "bamboochest",
+          "elderbookcase",
+          "eldercabinet",
+          "magmacabinet"
+        ]
+      },
+      "door": {
+        "count": 4,
+        "examples": [
+          "bamboodoor",
+          "elderslidingdoor",
+          "fujellydoor",
+          "thelusianslidingdoor"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "thelusianceilinglamp",
+          "thelusianlamp",
+          "thelusiansmalllamp",
+          "thelusianwalllamp"
+        ]
+      }
+    },
+    "total": 101
+  },
+  "drop_sources": {
+    "total_pools": 54,
+    "hunting_harvest": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "tyvokkHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "vashtaplantHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "garpberryHarvest",
+          "probability": 0.3594,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterToxicPlantHunting",
+          "probability": 0.3333,
+          "count": 1,
+          "monsters": [
+            "gloop"
+          ]
+        },
+        {
+          "pool": "beetlesproutHarvest",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1667,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "sporgus2Treasure",
+          "probability": 0.7193,
+          "count": 1,
+          "monsters": [
+            "smallshroom",
+            "sporgus2",
+            "sporgus3",
+            "sporgus4"
+          ]
+        },
+        {
+          "pool": "webberTreasure",
+          "probability": 0.48,
+          "count": 1
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.194,
+          "count": 17.7
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.191,
+          "count": 17.7
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0524,
+          "count": 17.2
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.7193
+      ]
+    },
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.2074,
+          "count": 17.7,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0487,
+          "count": 17.1
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0023,
+          "count": 4
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0006,
+          "count": 4
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0004,
+          "count": 4
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2074
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.147,
+          "count": 18.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0269,
+          "count": 7.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0266,
+          "count": 7.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0069,
+          "count": 4.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0067,
+          "count": 4.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.147
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 4
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0003,
+          "count": 4.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0003,
+          "count": 4
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 4
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 4
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 4
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

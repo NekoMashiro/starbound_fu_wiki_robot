@@ -1,0 +1,50 @@
+{
+  "entity_id": "artifact_orb_perpetuityEye",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Perpetuity Eye",
+  "name_zh": "永恒之眼",
+  "description_en": "The eye of one whose vision was set on an everlasting stasis.",
+  "description_zh": "目光定格在某一永恒时刻的无名眼眸。",
+  "rarity": "Essential",
+  "category": "wand",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "wand",
+    "aeon"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_aeonSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

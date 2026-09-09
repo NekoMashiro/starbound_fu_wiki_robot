@@ -1,0 +1,35 @@
+{
+  "entity_id": "fusushi",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sushi Platter",
+  "name_zh": "寿司盘",
+  "description_en": "Raw fish. Rice. Seaweed. Clearly meant to work together.\nPowerful Swim (220s) Type: Seafood + Grain",
+  "description_zh": "生鱼、大米、海藻。显然意味着合作。\n强力游泳(持续220s)\n类型：熟海鲜 + 谷物",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "price": 161,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 122
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

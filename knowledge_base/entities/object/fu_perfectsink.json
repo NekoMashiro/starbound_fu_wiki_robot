@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_perfectsink",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perfect Sink",
+  "name_zh": "完美的盥洗盆",
+  "description_en": "A perfect sink.",
+  "description_zh": "一个完美的盥洗盆。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "perfectlygenericitem",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

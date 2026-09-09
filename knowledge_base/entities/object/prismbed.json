@@ -1,0 +1,53 @@
+{
+  "entity_id": "prismbed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Prism Bed",
+  "name_zh": "棱镜床",
+  "description_en": "A minimalist bed made from a refractive glass.",
+  "description_zh": "一个由折射玻璃做的极简风格的床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 145,
+  "tags": [
+    "prism",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisiliteore",
+          "count": 12
+        },
+        {
+          "item": "glass",
+          "count": 12
+        },
+        {
+          "item": "silk",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

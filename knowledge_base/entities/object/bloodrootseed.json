@@ -1,0 +1,60 @@
+{
+  "entity_id": "bloodrootseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Root Seed",
+  "name_zh": "血之根茎种子",
+  "description_en": "Vitality-increasing plant.",
+  "description_zh": "可以收获血之根茎，食用后会提高物理抗性。",
+  "rarity": "common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 182
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "phosphorus",
+          "count": 11
+        },
+        {
+          "item": "plantmatter",
+          "count": 15
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bloodrootHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

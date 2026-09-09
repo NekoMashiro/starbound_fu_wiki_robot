@@ -1,0 +1,52 @@
+{
+  "entity_id": "lunarichakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Chakram",
+  "name_zh": "月晶环刃",
+  "description_en": "Harnessed power of crystalline destruction.",
+  "description_zh": "利用了水晶的破坏性力量。",
+  "rarity": "common",
+  "category": "chakram",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "chakram",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 12,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "bone",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Lunari Chakram.md",
+  "quality_tier": "A"
+}

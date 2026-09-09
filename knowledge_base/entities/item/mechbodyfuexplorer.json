@@ -1,0 +1,51 @@
+{
+  "entity_id": "mechbodyfuexplorer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Explorer Mech Body",
+  "name_zh": "探索者机甲躯体 I",
+  "description_en": "Immune: Acid, Proto, Mild Heat/Cold/Radiation/Poison",
+  "description_zh": "免疫：酸蚀，轻度寒冷/辐射/毒素/炎热",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 11200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 12
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 15
+        },
+        {
+          "item": "cpu",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechbodyfuexplorer2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

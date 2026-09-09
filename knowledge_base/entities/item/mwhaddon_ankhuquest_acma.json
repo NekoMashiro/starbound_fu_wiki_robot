@@ -1,0 +1,34 @@
+{
+  "entity_id": "mwhaddon_ankhuquest_acma",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "aCMa",
+  "name_zh": "大犬座α",
+  "description_en": "A prototype weapon that can fire various elemental ammo.",
+  "description_zh": "可以发射多种元素子弹的原型武器。",
+  "rarity": "essential",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 31,
+  "altAbilityType": "mwhaddon_arcana_ammoChange",
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_aCassiopeia"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

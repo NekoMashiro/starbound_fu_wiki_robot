@@ -1,0 +1,57 @@
+{
+  "entity_id": "psionicplatformammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kinetic Ammo",
+  "name_zh": "动能弹药",
+  "description_en": "You can shape the air into useable platforms.",
+  "description_zh": "你可以将空气塑造成可用的平台。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 10,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_hydrogen",
+          "count": 100
+        },
+        {
+          "item": "psionicenergy2",
+          "count": 50
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 1
+        }
+      ],
+      "output_count": 100,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicplatformmagammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

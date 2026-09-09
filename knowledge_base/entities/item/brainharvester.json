@@ -1,0 +1,58 @@
+{
+  "entity_id": "brainharvester",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Brain Extractor",
+  "name_zh": "大脑提取器",
+  "description_en": "Extracts a targets brain at the moment of death.\r\nCollects Brains from enemies\r\nCounts as Bio-Weapon",
+  "description_zh": "在目标死亡的那一刻提取目标大脑。\n收集敌人的大脑\n生物武器",
+  "rarity": "rare",
+  "category": "Shotgun",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bioweapon",
+    "bio",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "shadow",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 20,
+  "critChance": 3,
+  "critBonus": 10,
+  "altAbilityType": "lance",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 20
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 6
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Brain Extractor.md",
+  "quality_tier": "A"
+}

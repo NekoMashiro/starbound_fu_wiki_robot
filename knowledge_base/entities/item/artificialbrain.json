@@ -1,0 +1,85 @@
+{
+  "entity_id": "artificialbrain",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Artificial Brain",
+  "name_zh": "人造大脑",
+  "description_en": "An enhanced brain, perfect for transplanting.",
+  "description_zh": "增强过的大脑，非常适合移植。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brain",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "psionicenergy2",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "brainpeerless"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "apexbrainjar3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "madnessBrainHarvestingRobot",
+          "probability": 0.3333,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fatalcircuit",
+            "infernusdroid",
+            "precursorwarbot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

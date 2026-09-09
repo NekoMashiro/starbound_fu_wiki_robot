@@ -1,0 +1,73 @@
+{
+  "entity_id": "fuvaporizer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Vaporizer",
+  "name_zh": "先驱汽化器",
+  "description_en": "Negative energy eradicates all solid matter.\r\nExtreme fire speed\r\nParalyzing alt-Fire",
+  "description_zh": "以负极能量根除所有固态物质。\n极高的射速\n次要攻击：射出瘫痪敌人的能量球",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 2280,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.19,
+  "critChance": 7,
+  "critBonus": 1,
+  "altAbilityType": "vaporizerbomb",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

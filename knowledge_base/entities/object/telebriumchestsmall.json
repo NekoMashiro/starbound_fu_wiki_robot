@@ -1,0 +1,53 @@
+{
+  "entity_id": "telebriumchestsmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Telebrium Chest",
+  "name_zh": "小型特勒贝晶体碎片箱子",
+  "description_en": "A small chest made from Telebrium.",
+  "description_zh": "一个由特勒贝晶体碎片做的小箱子。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "telebrium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "moonstone",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

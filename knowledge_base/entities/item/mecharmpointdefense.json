@@ -1,0 +1,48 @@
+{
+  "entity_id": "mecharmpointdefense",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Point Defense",
+  "name_zh": "对点防御 I",
+  "description_en": "Extremely short ranged defensive laser drones.",
+  "description_zh": "发射极短程防御型激光无人机。",
+  "rarity": "common",
+  "category": "mechPart",
+  "price": 2800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 12
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmpointdefense2",
+          "mecharmpowerdrone"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

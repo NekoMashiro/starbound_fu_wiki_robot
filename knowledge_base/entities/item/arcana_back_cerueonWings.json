@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_back_cerueonWings",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cerueon Wings",
+  "name_zh": "蜡古之翼",
+  "description_en": "A pair of golden wings.",
+  "description_zh": "一对金色翅膀。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_aeon_deco_2",
+          "count": 1
+        },
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 6
+        },
+        {
+          "item": "sewergear",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "orion_walldeco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Wall Decorative Hydroponic",
+  "name_zh": "墙面装饰水培设备",
+  "description_en": "A wall hydroponic containing some sort of plants.",
+  "description_zh": "墙面上的水培设备，里面有某种植物。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "orion",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

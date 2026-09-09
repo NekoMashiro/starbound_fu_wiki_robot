@@ -1,0 +1,138 @@
+{
+  "entity_id": "prisilitestar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Prisilite Star",
+  "name_zh": "棱镜之星",
+  "description_en": "It's a prisilite star! Some of the toughest stuff in the galaxy!",
+  "description_zh": "这是棱镜之星！宇宙中最棘手的材料之一！",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 440,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisiliteore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 10,
+        "examples": [
+          "cutearmoire1",
+          "cutearmoire2",
+          "cutebookcase1",
+          "cutebookcase2",
+          "cuteceilingbookcase"
+        ]
+      },
+      "furniture": {
+        "count": 9,
+        "examples": [
+          "cutearmchair",
+          "cutebed1",
+          "cutebed2",
+          "cutebed3",
+          "cutechair"
+        ]
+      },
+      "decorative": {
+        "count": 8,
+        "examples": [
+          "cutedrape1",
+          "cutedrape2",
+          "cutekurukuruplush",
+          "cuteribbons1",
+          "cuteribbons2"
+        ]
+      },
+      "block": {
+        "count": 7,
+        "examples": [
+          "dollhousepillar",
+          "dollhouseroofing",
+          "dollhousestriped",
+          "dollhousetiles",
+          "dollhousewall"
+        ]
+      },
+      "headarmour": {
+        "count": 4,
+        "examples": [
+          "cellulararmorhead",
+          "cutehead",
+          "fukingslayerhead",
+          "fustarkillerhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "cellulararmorchest",
+          "cutechest",
+          "fukingslayerchest",
+          "fustarkillerchest"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "cellulararmorpants",
+          "cutelegs",
+          "fukingslayerpants",
+          "fustarkillerpants"
+        ]
+      },
+      "shotgun": {
+        "count": 4,
+        "examples": [
+          "chargecannon",
+          "cuteorblauncher",
+          "cuteshotgun",
+          "densiniumshotgun"
+        ]
+      }
+    },
+    "total": 103
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "prisiliteore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "prisiliteore"
+    }
+  ],
+  "quality_tier": "S"
+}

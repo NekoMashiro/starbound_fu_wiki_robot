@@ -1,0 +1,203 @@
+{
+  "entity_id": "wheatseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Wheat Seed",
+  "name_zh": "小麦种子",
+  "description_en": "Wheat, a staple crop with many uses.",
+  "description_zh": "小麦，一种有许多用途的主要作物。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 10,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 8
+        },
+        {
+          "item": "plantfibre",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 3,
+        "examples": [
+          "bolbohnseed",
+          "dunestalkseed",
+          "whitespine"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 62,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wheatHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    },
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "seed",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "elduuseed",
+          "probability": 0.2727,
+          "count": 3
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.0409,
+          "count": 3
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.0273,
+          "count": 3
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0067,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2727
+      ]
+    },
+    "monster_drops": {
+      "count": 42,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.2174,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.2174,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.2174,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceCaveTreasure",
+          "probability": 0.2174,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoPrismTreasure",
+          "probability": 0.2174,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.2174
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranmissiontreasure",
+          "probability": 0.0701,
+          "count": 3
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0303,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0128,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0128,
+        0.0701
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0642,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0506,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0096,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0095,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0019,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0019,
+        0.0642
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0545,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

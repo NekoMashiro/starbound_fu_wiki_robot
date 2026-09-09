@@ -1,0 +1,87 @@
+{
+  "entity_id": "popcorn",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Popcorn",
+  "name_zh": "爆米花",
+  "description_en": "Pop it like it's hot! Type: Vegetable",
+  "description_zh": "像热浪一般膨胀爆开！\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corn",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "popcornobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "popcornobject"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "sweetpopcorn"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

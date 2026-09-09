@@ -1,0 +1,46 @@
+{
+  "entity_id": "swamphat",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Swamp Hat",
+  "name_zh": "沼泽帽",
+  "description_en": "It may be worn, but it still has outdoorsman appeal.",
+  "description_zh": "这可能很旧了，但他仍散发着野外活动的魅力。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "swampChestTreasure",
+          "probability": 0.1472,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSwampTreasure",
+          "probability": 0.0957,
+          "count": 1
+        },
+        {
+          "pool": "swampTreasure",
+          "probability": 0.08,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.08,
+        0.0957
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

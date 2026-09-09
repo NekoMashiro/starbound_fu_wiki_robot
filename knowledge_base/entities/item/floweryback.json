@@ -1,0 +1,46 @@
+{
+  "entity_id": "floweryback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flowery Vines",
+  "name_zh": "鲜花藤蔓",
+  "description_en": "If only I could control these vines like extra arms.",
+  "description_zh": "如果我能像控制额外的手臂一样控制这些藤蔓就好了。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "springChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSpringTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "springTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

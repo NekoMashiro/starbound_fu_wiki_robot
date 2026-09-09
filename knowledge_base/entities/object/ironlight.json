@@ -1,0 +1,48 @@
+{
+  "entity_id": "ironlight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Sharp Light",
+  "name_zh": "刀锋之灯",
+  "description_en": "Is it a light, or is it a sabre? Maybe both.",
+  "description_zh": "这是一盏灯，还是一把剑？大概都是吧。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

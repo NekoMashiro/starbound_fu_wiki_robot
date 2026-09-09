@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechbodystomper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stomper Mech Body",
+  "name_zh": "践踏者机甲躯体",
+  "description_en": "Immune: Proto, Acid, Moderate Heat/Radiation, Mild Cold/Poison",
+  "description_zh": "免疫：原毒，酸蚀，中度寒冷/炎热，轻度毒素/辐射，",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 9200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 20
+        },
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 2
+        },
+        {
+          "item": "cpu",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,94 @@
+{
+  "entity_id": "arcana_bar_luminariumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Luminarium Bar",
+  "name_zh": "月金锭",
+  "description_en": "A luminarium bar, can be used to craft Lunar equipment.",
+  "description_zh": "一块月金锭，可用于制作月光装备。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_luminariumOre",
+          "count": 2
+        },
+        {
+          "item": "solidfuel",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金锻造厂",
+      "station_zh": "恒金锻造厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1000
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 3,
+        "examples": [
+          "artifact_magiblade_trayodhatava",
+          "lunar_katana_1",
+          "lunar_katana_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_nullatusBar",
+          "arcana_sigils_lunarSigil"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "lunar_dagger_1"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "arcana_teleporter_lunarCorridor"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_luminariumBar"
+  ],
+  "wiki_ref": "Luminarium Bar.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_rf6",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Redline",
+  "name_zh": "红域",
+  "description_en": "Exousia experimental rifle that increases its fire rate and accuracy during sustained fire. Note: prolonged fire causes overheating. Consumes no energy.",
+  "description_zh": "威权实验型步枪，持续射击时会逐渐提高射速和精准度。注意：长时间射击会导致武器过热。不消耗能量。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 10,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "titancorp",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 40,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_rf6",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

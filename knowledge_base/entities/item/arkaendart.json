@@ -1,0 +1,28 @@
+{
+  "entity_id": "arkaendart",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arkaen Dart",
+  "name_zh": "奥肯刺",
+  "description_en": "Explosive, deadly biological darts.",
+  "description_zh": "这是非常致命的投掷型武器。",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 100,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arkaentree",
+          "probability": 1.25,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Arkaen Dart.md",
+  "quality_tier": "A"
+}

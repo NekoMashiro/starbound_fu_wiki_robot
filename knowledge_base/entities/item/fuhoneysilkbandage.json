@@ -1,0 +1,66 @@
+{
+  "entity_id": "fuhoneysilkbandage",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeysilk Bandage",
+  "name_zh": "甜蜜绷带",
+  "description_en": "Heal 120 over 20s\nCures Burning, Cold, Electrified, Poisoned",
+  "description_zh": "在20s内治疗120点生命值\n治疗烧伤，冰冻，带电，中毒",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 155,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "beesilk",
+          "count": 2
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Potion Brewery",
+      "station_zh": "魔药酿造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "药剂工作台",
+          "name_zh": "药剂工作台"
+        },
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "medkit2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0294,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

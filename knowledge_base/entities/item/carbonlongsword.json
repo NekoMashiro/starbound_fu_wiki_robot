@@ -1,0 +1,65 @@
+{
+  "entity_id": "carbonlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Longsword",
+  "name_zh": "碳制长剑",
+  "description_en": "A heavy carbon longsword.\r\nInflicts bleeding",
+  "description_zh": "一把沉重的碳制长剑。\n造成出血",
+  "rarity": "uncommon",
+  "category": "longsword",
+  "price": 250,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.0,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "longsword": {
+        "count": 1,
+        "examples": [
+          "blooddiamondlongsword"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

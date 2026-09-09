@@ -1,0 +1,55 @@
+{
+  "entity_id": "telebriumbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Bow",
+  "name_zh": "月海弓",
+  "description_en": "Poison-tipped arrows promise pain.",
+  "description_zh": "带毒箭头的箭，承诺着痛苦。",
+  "rarity": "common",
+  "category": "bow",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "critChance": 3,
+  "critBonus": 20,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "neuropod",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neuropod Bulb",
+  "name_zh": "神经荚",
+  "description_en": "Ingesting this 'fruit' alters your brain chemistry for a short time at the expense of defense. \nResearch Bonus: +5 ,Defense x0.5: 300s",
+  "description_zh": "摄入这种“水果”会在很短的时间内改变您的大脑化学成分，但会降低防御能力。\n研究加成: +5 , 防御x0.5: 300s,",
+  "rarity": "legendary",
+  "category": "food",
+  "price": 95,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "bow": {
+        "count": 1,
+        "examples": [
+          "carnagebow"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "druidstaff2"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "neuropodHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

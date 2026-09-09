@@ -1,0 +1,27 @@
+{
+  "entity_id": "arcana_food_atlantisRipple",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atlantis Ripple",
+  "name_zh": "沉海波纹",
+  "description_en": "An azure cerulean blueberry drink reminiscent of the ocean waves. Grants swim boost for 360s.",
+  "description_zh": "湛蓝色的蓝莓饮料，让人联想到海洋的波浪。赋予360s的游泳加速。",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 400,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityfood",
+          "probability": 0.4286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

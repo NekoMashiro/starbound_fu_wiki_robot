@@ -1,0 +1,241 @@
+{
+  "entity_id": "copperbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Copper Bar",
+  "name_zh": "铜锭",
+  "description_en": "Ore for copper bars is found at shallow depths on most planets around all stars.",
+  "description_zh": "铜矿常见于大多数行星的表层。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 21,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_mason_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "copperore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 120
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 25,
+        "examples": [
+          "apexkitchencounter",
+          "armory",
+          "beeexaminer",
+          "boozekit",
+          "distillery"
+        ]
+      },
+      "decorative": {
+        "count": 21,
+        "examples": [
+          "apexbox",
+          "apexbrainjar",
+          "apexbrainjar2",
+          "apexbrainjar3",
+          "coppershelf"
+        ]
+      },
+      "teleportMarker": {
+        "count": 21,
+        "examples": [
+          "flagapex",
+          "flagarcanian",
+          "flagavian",
+          "flagcat",
+          "flagfloran"
+        ]
+      },
+      "furniture": {
+        "count": 17,
+        "examples": [
+          "apexcampshopcounter",
+          "apexshopcounter",
+          "foundrybed",
+          "frontiershopcounter",
+          "fuokeahitechbath"
+        ]
+      },
+      "storage": {
+        "count": 13,
+        "examples": [
+          "atmoscondensermadness",
+          "bonechest",
+          "c_sewagetreatment",
+          "copperbox1",
+          "fufoodstorage"
+        ]
+      },
+      "block": {
+        "count": 12,
+        "examples": [
+          "arcana_tile25",
+          "copperblock",
+          "copperfence",
+          "copperroofing",
+          "coppersloppedpanel"
+        ]
+      },
+      "light": {
+        "count": 10,
+        "examples": [
+          "copperceilinglight",
+          "copperlantern",
+          "foundrylight",
+          "fu_copperCeilingLamp",
+          "fu_copperWallLamp"
+        ]
+      },
+      "headarmour": {
+        "count": 9,
+        "examples": [
+          "ffskullcap",
+          "fuearphones",
+          "furustedhead",
+          "fuspacediverhead",
+          "goggles1"
+        ]
+      }
+    },
+    "total": 249
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "copperore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "copperore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "copperore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox_4",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox_9",
+          "probability": 1.0,
+          "count": 1.3
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox",
+          "probability": 0.4,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox",
+          "probability": 0.2,
+          "count": 1.3
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.115,
+          "count": 8
+        }
+      ],
+      "prob_range": [
+        0.046,
+        1.0
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.1286,
+          "count": 3.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

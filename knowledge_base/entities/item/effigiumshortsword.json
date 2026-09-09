@@ -1,0 +1,56 @@
+{
+  "entity_id": "effigiumshortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm War-Knife",
+  "name_zh": "幻影战刀",
+  "description_en": "Ghostly as a spirit.",
+  "description_zh": "如鬼魅一般的武器。",
+  "rarity": "Rare",
+  "category": "shortsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "effigium",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.57,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "refinedviolium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

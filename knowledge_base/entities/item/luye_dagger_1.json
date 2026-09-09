@@ -1,0 +1,56 @@
+{
+  "entity_id": "luye_dagger_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corrodium Dagger",
+  "name_zh": "蚀金匕首",
+  "description_en": "A small dagger for experienced assassins, crafted from aegistalt and corrodium. Inflicts Acidic Burning.",
+  "description_zh": "训练有素的刺客使用的笑道，使用霓磷盐和蚀金制成。施加酸性烧伤。",
+  "rarity": "Legendary",
+  "category": "dagger",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "corrodium"
+  ],
+  "elementalType": "poison",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 17.0,
+  "primaryAbilityType": "arcana_daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 10
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 8
+        },
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

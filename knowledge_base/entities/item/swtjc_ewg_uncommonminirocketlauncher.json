@@ -1,0 +1,41 @@
+{
+  "entity_id": "swtjc_ewg_uncommonminirocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uncommon Mini-Rocket Launcher",
+  "name_zh": "优秀的微型火箭发射器",
+  "description_en": "Launches smaller anti-personnel rockets in fairly quick succession.",
+  "description_zh": "相当快地连续发射较小的杀伤性火箭。",
+  "rarity": "Uncommon",
+  "category": "swtjc_ewg_miniRocketLauncher",
+  "price": 1320,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    7.3,
+    10.4
+  ],
+  "critChance": 1,
+  "critBonus": 8,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

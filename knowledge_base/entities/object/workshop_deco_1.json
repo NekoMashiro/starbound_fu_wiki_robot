@@ -1,0 +1,53 @@
+{
+  "entity_id": "workshop_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Plant Box",
+  "name_zh": "工坊盆景",
+  "description_en": "A small greenery in the midst of Titancorp's machinery.",
+  "description_zh": "为工坊单调杂乱的环境带来一丝绿意。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "titancorp",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

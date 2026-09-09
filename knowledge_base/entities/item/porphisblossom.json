@@ -1,0 +1,27 @@
+{
+  "entity_id": "porphisblossom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Porphis Blossom",
+  "name_zh": "态射草",
+  "description_en": "Damage x1.15, Health x1.25: 1m",
+  "description_zh": "伤害x1.15, 最大HPx1.25: 1m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "porphisplantHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

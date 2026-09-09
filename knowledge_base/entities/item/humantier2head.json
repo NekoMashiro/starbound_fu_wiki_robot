@@ -1,0 +1,74 @@
+{
+  "entity_id": "humantier2head",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Scavenger's Helmet",
+  "name_zh": "拾荒者头盔",
+  "description_en": "Set Bonuses:\n Assault Rifle/Shortsword: Damage x1.13",
+  "description_zh": "套装奖励:\n 突击步枪/短剑: 伤害 x1.13",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 1440,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0241,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

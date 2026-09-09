@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_throwable_alchemicalExplosive",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Alchemical Explosive",
+  "name_zh": "炼金爆弹",
+  "description_en": "Destroy a range of tiles on collide. May harm yourself!",
+  "description_zh": "接触时摧毁范围内的物块。可能会伤到你自己！",
+  "rarity": "uncommon",
+  "category": "throwableItem",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

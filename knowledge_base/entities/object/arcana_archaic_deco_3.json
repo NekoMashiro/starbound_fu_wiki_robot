@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_archaic_deco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Golden Fence",
+  "name_zh": "古朴金栅栏",
+  "description_en": "An arched golden fence.",
+  "description_zh": "一个拱形的金栅栏。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 130,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

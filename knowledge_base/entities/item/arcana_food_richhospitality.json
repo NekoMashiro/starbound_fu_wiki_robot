@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_food_richhospitality",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rich Hospitality",
+  "name_zh": "待客之道",
+  "description_en": "A classic dish from the Empire, showing the genuine kindness of Exousians. [Minewithhim]\n\n+20% Max Health 20 min.",
+  "description_zh": "威权帝国经典菜肴，展示威权人慷慨的待客之道。[本mod译者兼远行（矿奥附属）的作者，和him一起挖矿]\n\n20分钟+20%最大生命值",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "tomato",
+          "count": 1
+        },
+        {
+          "item": "potato",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_tatalot",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

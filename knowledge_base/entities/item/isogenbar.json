@@ -1,0 +1,220 @@
+{
+  "entity_id": "isogenbar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Bar",
+  "name_zh": "寒霜锭",
+  "description_en": "A super-cold alloy with numerous powerful applications.\nOften located on Ice Wastes.",
+  "description_zh": "一种极其寒冷的合金，具有广泛且强大的用途。\n通常被发现于冰冻废土。",
+  "rarity": "legendary",
+  "category": "craftingMaterial",
+  "price": 860,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Fission Furnace",
+      "station_zh": "裂变反应炉",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "裂变熔炉",
+          "name_zh": "裂变熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "isogenbed",
+          "isogencabinet",
+          "isogenchair",
+          "isogencouch",
+          "isogendesk"
+        ]
+      },
+      "chestarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphchest",
+          "fubonearmor3chest",
+          "fuisogenchest",
+          "hytalisarmorchest",
+          "warangelchest"
+        ]
+      },
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphhead",
+          "fubonearmor3head",
+          "fuisogenhead",
+          "hytalisarmorhead",
+          "warangelhead"
+        ]
+      },
+      "legarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphpants",
+          "fubonearmor3legs",
+          "fuisogenpants",
+          "hytalisarmorpants",
+          "warangellegs"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "isogenbookcase",
+          "isogenchestlarge",
+          "isogenchestsmall",
+          "isogendrawers",
+          "isogennightstand"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "isogenceilinglamp",
+          "isogendesklamp",
+          "isogenwalllamp"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "densiniumsword",
+          "isogenbroadsword"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "isogenfridge",
+          "isogenminifridge"
+        ]
+      }
+    },
+    "total": 60
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "isogenore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 13,
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.1244,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0221,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0201,
+          "count": 3
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0082,
+          "count": 1
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0012,
+        0.1244
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0654,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0287,
+          "count": 3
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0089,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0056,
+        0.0287
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0066,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.0066
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

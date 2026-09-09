@@ -1,0 +1,58 @@
+{
+  "entity_id": "giantflowerlamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Giant Flower Lamp",
+  "name_zh": "巨型花瓣台灯",
+  "description_en": "A flower that seems to emit the sun's rays.",
+  "description_zh": "这朵花看起来在散发着太阳的光芒。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 75,
+  "tags": [
+    "giantflower",
+    "light",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "giantflowerpetal",
+          "count": 15
+        },
+        {
+          "item": "plantfibre",
+          "count": 5
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

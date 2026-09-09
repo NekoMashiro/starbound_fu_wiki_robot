@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechboosterfuobserver",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Observer Mech Boosters",
+  "name_zh": "探索者机甲推进器",
+  "description_en": "Average speed. Fantastic control.",
+  "description_zh": "速度均衡，容易控制。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 25
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 10
+        },
+        {
+          "item": "liquidirradium",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,85 @@
+{
+  "entity_id": "junktech",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Junk Tech",
+  "name_zh": "科技垃圾",
+  "description_en": "Useless scrap metal, mostly remnants of outmoded technology.\nExtractable.",
+  "description_zh": "没用的金属碎片，大多数是过时的科技残留物。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "crankgun"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "crankpistol"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "crankrifle"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.1623,
+          "count": 3.8
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "junktech"
+  ],
+  "quality_tier": "S"
+}

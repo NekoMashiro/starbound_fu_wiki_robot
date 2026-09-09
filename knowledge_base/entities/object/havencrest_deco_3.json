@@ -1,0 +1,49 @@
+{
+  "entity_id": "havencrest_deco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Oasis Plant Stand",
+  "name_zh": "绿洲植物架",
+  "description_en": "A decorative sandstone stand filled with plants.",
+  "description_zh": "装满植物的装饰用沙石架。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "havencrest",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_tile1",
+          "count": 6
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "fuhoneycombchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeycomb Chair",
+  "name_zh": "蜂巢椅",
+  "description_en": "A beautiful honeycomb chair.",
+  "description_zh": "一个漂亮的蜂巢椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "bees",
+    "chairs"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "beesilk",
+          "count": 3
+        },
+        {
+          "item": "normalcomb",
+          "count": 3
+        },
+        {
+          "item": "waxchunk",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

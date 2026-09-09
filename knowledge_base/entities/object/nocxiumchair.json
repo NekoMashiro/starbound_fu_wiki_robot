@@ -1,0 +1,45 @@
+{
+  "entity_id": "nocxiumchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nocxium Stool",
+  "name_zh": "诺克石凳子",
+  "description_en": "A stool made from Nocxium. Not exactly comfortable.",
+  "description_zh": "用诺克石做的凳子。不太舒服。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "nocxium",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 5
+        },
+        {
+          "item": "uraniumrod",
+          "count": 10
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "avikanspices",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kadavan Spices",
+  "name_zh": "卡达文香料",
+  "description_en": "Strong spices from Kadavan.",
+  "description_zh": "来自卡达文的烈性香料",
+  "rarity": "Uncommon",
+  "category": "cookingIngredient",
+  "price": 50,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "avikanmeal",
+          "spicebol"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "fuavikanspices"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avikanspiceplantHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "avikanmeal",
+    "spicebol",
+    "fuavikanspices"
+  ],
+  "quality_tier": "S"
+}

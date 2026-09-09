@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_aionickey",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aionic Key",
+  "name_zh": "光之钥",
+  "description_en": "An ancient key-staff, able to focus light into form.",
+  "description_zh": "古老的键杖，能将光辉投影为实体。",
+  "rarity": "Uncommon",
+  "category": "wand",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "staff",
+    "ranged"
+  ],
+  "elementalType": "arcana_light",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "altAbilityType": "arcana_staff_ability_spellBurst",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_aionickey",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,68 @@
+{
+  "entity_id": "standingturret",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Defense Turret",
+  "name_zh": "防御炮塔",
+  "description_en": "Turret for your protection! Can only be placed once.",
+  "description_zh": "用来自我保护的炮塔！只能放置一次。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scanner",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电子设备制造机",
+          "name_zh": "电子设备制造机"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 10,
+        "examples": [
+          "fu_autoBeamer",
+          "fu_autoBeamer2",
+          "fu_autoBeamer3",
+          "fu_cripplerturret",
+          "fu_flameturret"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "quality_tier": "S"
+}

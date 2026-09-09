@@ -1,0 +1,40 @@
+{
+  "entity_id": "violiroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Violiroot",
+  "name_zh": "维奥根",
+  "description_en": "Both tasty and useful! Not!\nHealth x1.2: 1m\nBurning: 10s",
+  "description_zh": "不尝尝，心刺挠！呕！\n最大HPx1.2: 1m\n烧伤: 10s",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 40,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "glowburger",
+          "uberdinner",
+          "violirootplate"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "violirootHarvest",
+          "probability": 1.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

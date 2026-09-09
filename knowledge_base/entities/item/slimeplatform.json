@@ -1,0 +1,32 @@
+{
+  "entity_id": "slimeplatform",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Platform",
+  "name_zh": "粘液平台",
+  "description_en": "Sticky platform. Looks like it's falling apart.",
+  "description_zh": "黏黏的平台。看起来要散架了。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 20
+        },
+        {
+          "item": "greenslime",
+          "count": 5
+        }
+      ],
+      "output_count": 40,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,69 @@
+{
+  "entity_id": "workshop_axe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "TC Dustrium Axe",
+  "name_zh": "泰坦重工尘石锈斧",
+  "description_en": "A heavy axe, forged from dustrium.",
+  "description_zh": "一把沉重的斧头，由尘石锻造。",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "titancorp"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 11.0,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 4
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_titancorpBlueprint",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

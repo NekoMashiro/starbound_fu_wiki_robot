@@ -1,0 +1,74 @@
+{
+  "entity_id": "insaneramblings",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Insane Notes",
+  "name_zh": "疯狂的笔记",
+  "description_en": "Your lab notes. Thoroughly nutters.",
+  "description_zh": "你的实验笔记。彻头彻尾的疯子。",
+  "rarity": "rare",
+  "category": "Work of a Genius",
+  "price": 23,
+  "tags": [],
+  "level": 2,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nicepaper",
+          "count": 50
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "americancoffee",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Writing Desk",
+      "station_zh": "著书桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Tome Dais",
+          "name_zh": "宝典讲坛"
+        },
+        {
+          "name": "Ancient Texts",
+          "name_zh": "古代文本"
+        },
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "elderbookstandwood",
+          "psionicbench"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "strangetome"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

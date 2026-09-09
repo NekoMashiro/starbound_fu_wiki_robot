@@ -1,0 +1,43 @@
+{
+  "entity_id": "blacktar",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "blacktar",
+  "name_zh": "",
+  "description_en": "Thick, encumbering, and goopy tar.",
+  "description_zh": "又厚又碍事的粘稠焦油。",
+  "status_effects": [
+    "blacktarslow"
+  ],
+  "interactions": [
+    {
+      "liquid": 3,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 8,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 41,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 44,
+      "liquidResult": 44
+    },
+    {
+      "liquid": 46,
+      "materialResult": "tarstone"
+    },
+    {
+      "liquid": 47,
+      "liquidResult": 47
+    },
+    {
+      "liquid": 60,
+      "materialResult": "tarstone"
+    }
+  ],
+  "quality_tier": "C"
+}

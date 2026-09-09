@@ -1,0 +1,55 @@
+{
+  "entity_id": "reedshelf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Reed Shelf",
+  "name_zh": "芦苇架",
+  "description_en": "A reed shelf.",
+  "description_zh": "一个芦苇架子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 75,
+  "tags": [
+    "oasis",
+    "knowledge",
+    "storage",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reed",
+          "count": 60
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "paper",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,355 @@
+{
+  "entity_id": "venomsample",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Venom Sample",
+  "name_zh": "毒液样本",
+  "description_en": "A sample of volatile venomous fluid. Can be used for crafting.",
+  "description_zh": "挥发性有毒液体的样品。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 5
+        },
+        {
+          "item": "biosample",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "liquidpoison",
+          "count": 2
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 2
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 5,
+        "examples": [
+          "adaptablecrossbow",
+          "guslimetendrils",
+          "poisonslimetendrils",
+          "poisonslimetendrils2",
+          "poisonslimetendrils3"
+        ]
+      },
+      "terraformer": {
+        "count": 5,
+        "examples": [
+          "terraformeralien",
+          "terraformerforest",
+          "terraformergarden",
+          "terraformerirradiated",
+          "terraformerjungle"
+        ]
+      },
+      "whip": {
+        "count": 4,
+        "examples": [
+          "poisonslimeconcwhip",
+          "poisonslimewhip",
+          "poisonslimewhip2",
+          "poisonslimewhip3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "acidprotectionback",
+          "poisonprotectionback",
+          "tw_spacesuitback"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "biooozeprotection",
+          "radienaugment1"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "madnesseyeslime",
+          "madnessjellyking"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "antidote"
+        ]
+      },
+      "armcannon": {
+        "count": 1,
+        "examples": [
+          "armcannonveluupoison"
+        ]
+      }
+    },
+    "total": 31
+  },
+  "drop_sources": {
+    "total_pools": 205,
+    "other": {
+      "count": 24,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_venomsample",
+          "probability": 2.0,
+          "count": 1.2
+        },
+        {
+          "pool": "frankLoot",
+          "probability": 1.0,
+          "count": 3,
+          "monsters": [
+            "bighairyfrank"
+          ]
+        },
+        {
+          "pool": "toxicgolemLoot",
+          "probability": 0.3542,
+          "count": 1,
+          "monsters": [
+            "futoxicgolem"
+          ]
+        },
+        {
+          "pool": "fugiantscorpionLoot",
+          "probability": 0.269,
+          "count": 1
+        },
+        {
+          "pool": "toxicflyLoot",
+          "probability": 0.2155,
+          "count": 1,
+          "monsters": [
+            "futoxicflylarge"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        2.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 24,
+      "top": [
+        {
+          "pool": "pandorasboxtoxixHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "poisonFluffaloHarvest",
+          "probability": 0.95,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxpandorbpoisonHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxpandorbpoisonlargeHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterPoisonHunting",
+          "probability": 0.6,
+          "count": 1,
+          "monsters": [
+            "eyejelly2",
+            "toxinthird"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "frankLootBoss",
+          "probability": 1.0,
+          "count": 10,
+          "monsters": [
+            "bighairyfrankboss"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 78,
+      "top": [
+        {
+          "pool": "webberTreasure",
+          "probability": 0.32,
+          "count": 1
+        },
+        {
+          "pool": "crutterVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "oculobVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "pteropodVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "quagmuttVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.32
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.093,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0471,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0311,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0309,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.096
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

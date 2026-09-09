@@ -1,0 +1,48 @@
+{
+  "entity_id": "centrifuge2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gas Centrifuge",
+  "name_zh": "气体离心机",
+  "description_en": "The ultimate centrifuge, capable of extracting from gasses and processing radioactive isotopes. Efficient but slow. Requires 36W power.",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "^orange;Centrifuge^reset;",
+  "price": 2200,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 6
+        },
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "morphiteore",
+          "count": 2
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Gas Centrifuge.md",
+  "quality_tier": "A"
+}

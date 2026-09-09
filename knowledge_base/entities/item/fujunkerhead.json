@@ -1,0 +1,52 @@
+{
+  "entity_id": "fujunkerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junker Helm",
+  "name_zh": "容克头盔",
+  "description_en": "Headlamp 2\r\nSet Bonuses:\r\n +200s Oxygen, +15% E. Regen, -10% E. Regen Block\r\n +450% Bomb Tech Damage\r\n +35% Dash/Dodge Tech Speed\r\n +15% Jump Tech Height\r\n Immune: Acid, Gas",
+  "description_zh": "头灯 2\n套装奖励:\n +200s 氧气, +15% 能量恢复, -10% 能量恢复延迟\n +450% 炸弹科技伤害\n +35% 冲刺/闪避科技速度\n +15% 跳跃科技高度\n 免疫: 酸蚀, 气体",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 675,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

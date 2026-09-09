@@ -1,0 +1,44 @@
+{
+  "entity_id": "currentcornbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Currentcorn Basket",
+  "name_zh": "液体玉米篮",
+  "description_en": "Currentcorn, full of acid. Not good for fleshy creatures.",
+  "description_zh": "液体玉米，富含酸。对肉质动物不好。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "glitch",
+    "glitchvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "currentcorn",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "currentcorn"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

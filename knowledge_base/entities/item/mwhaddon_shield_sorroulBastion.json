@@ -1,0 +1,45 @@
+{
+  "entity_id": "mwhaddon_shield_sorroulBastion",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Sorroul Bastion",
+  "name_zh": "恸魂壁垒",
+  "description_en": "A mysterious shield, seemingly forged with arts not of this universe.\n+18% Physical, Light and Abyss Resistance as well as +20% damage when held.",
+  "description_zh": "神秘莫测的盾牌，使用的锻造技艺似乎并不来自这个宇宙。\n持握时+18%物理、光辉和深渊抗性，并+20%伤害。",
+  "rarity": "Essential",
+  "category": "shield",
+  "price": 3000,
+  "tags": [
+    "shield",
+    "otherworldly"
+  ],
+  "level": 9,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_1",
+          "count": 8
+        },
+        {
+          "item": "arcana_shield_atlanticShield",
+          "count": 1
+        },
+        {
+          "item": "arcana_shield_voltaicShield",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

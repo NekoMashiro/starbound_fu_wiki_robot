@@ -1,0 +1,38 @@
+{
+  "entity_id": "greydye",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Grey Dye",
+  "name_zh": "灰色染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "whitedye",
+          "count": 1
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

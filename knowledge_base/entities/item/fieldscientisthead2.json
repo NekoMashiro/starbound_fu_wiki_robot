@@ -1,0 +1,89 @@
+{
+  "entity_id": "fieldscientisthead2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Geologist's Hardy Goggles",
+  "name_zh": "地质学家防御眼镜",
+  "description_en": "Vision enhancement repurposed into a protective shielding system: Defense x1.1",
+  "description_zh": "搭载的盾防系统替换了视野增强功能：防御 x1.1。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0125,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.0125
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0071,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0071
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0047,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

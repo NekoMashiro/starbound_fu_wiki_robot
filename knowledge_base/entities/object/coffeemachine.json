@@ -1,0 +1,34 @@
+{
+  "entity_id": "coffeemachine",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coffee Machine",
+  "name_zh": "咖啡机",
+  "description_en": "A coffee machine, for the perfect pick-me-up.",
+  "description_zh": "一台咖啡机，提供完美的提神饮料。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 65,
+  "tags": [
+    "outpost"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

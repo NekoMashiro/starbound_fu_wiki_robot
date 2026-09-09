@@ -1,0 +1,44 @@
+{
+  "entity_id": "furegenaugment3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Regeneration III",
+  "name_zh": "EPP模块（再生 III）",
+  "description_en": "An EPP module that slowly regenerates living cells, providing 1.11% HP/s.",
+  "description_zh": "一个能够缓慢地再生体内细胞的EPP模块，提供1.11% HP/s的再生效果。",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 5
+        },
+        {
+          "item": "aliencompound",
+          "count": 5
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 48
+        },
+        {
+          "item": "miraclegrass",
+          "count": 24
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "fugoldchakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Chakram",
+  "name_zh": "金制环刃",
+  "description_en": "Expensive. Sharpened. Fun.",
+  "description_zh": "制作昂贵，不过乐趣十足！",
+  "rarity": "common",
+  "category": "chakram",
+  "price": 90,
+  "tags": [
+    "weapon",
+    "chakram",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 6,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 4
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Golden Chakram.md",
+  "quality_tier": "A"
+}

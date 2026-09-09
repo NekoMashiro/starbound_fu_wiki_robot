@@ -1,0 +1,44 @@
+{
+  "entity_id": "isn_powdersifter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Powder Sifter",
+  "name_zh": "高级筛粉机",
+  "description_en": "This advanced Sifter efficiently extracts materials from loose or powdery materials. Requires 40W power.",
+  "description_zh": "这种萃取设备可用来从松散或粉状的块中更有效地提取有用材料。需要40W电力。",
+  "rarity": "common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 500,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "fu_woodensifter",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Powder Sifter.md",
+  "quality_tier": "A"
+}

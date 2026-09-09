@@ -1,0 +1,144 @@
+{
+  "entity_id": "solarishard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Shard",
+  "name_zh": "月晶碎片",
+  "description_en": "A sparkling yellow crystal shard.",
+  "description_zh": "一块闪闪发光的黄色水晶碎片。",
+  "rarity": "Common",
+  "category": "craftingOre",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuluxurygoods",
+          "count": 3
+        }
+      ],
+      "output_count": 5,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "cutebackgrounddoor"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "yellowglowdoor"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "solaricrystal"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "pekkitfreeze_freezegrenade"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "solaricrystal",
+      "bonus": [
+        "liquidnitrogenitem",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "solaricrystal",
+      "bonus": [
+        "liquidnitrogenitem",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "solaricrystal",
+      "bonus": [
+        "liquidnitrogenitem",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "crystalmoonunderground",
+      "weight": 0.85
+    },
+    {
+      "biome": "ffcrystalcavern",
+      "weight": 0.85
+    },
+    {
+      "biome": "ffcrystalrealm",
+      "weight": 0.85
+    },
+    {
+      "biome": "ffsupermatter",
+      "weight": 0.85
+    },
+    {
+      "biome": "crystalswampaether",
+      "weight": 0.65
+    },
+    {
+      "biome": "crystalswamp",
+      "weight": 0.65
+    },
+    {
+      "biome": "supermatterzoneaether2",
+      "weight": 0.65
+    },
+    {
+      "biome": "icecloudswastesurface",
+      "weight": 0.65
+    },
+    {
+      "biome": "crystalplain",
+      "weight": 0.65
+    },
+    {
+      "biome": "crystalmoon",
+      "weight": 0.65
+    }
+  ],
+  "wiki_ref": "Lunari Shard.md",
+  "quality_tier": "S"
+}

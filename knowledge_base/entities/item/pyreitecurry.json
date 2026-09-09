@@ -1,0 +1,35 @@
+{
+  "entity_id": "pyreitecurry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Curry",
+  "name_zh": "永燃咖喱",
+  "description_en": "About 672 degrees hot.\nIcy Immunity , +20% Ice Res (5m), Burning (10s)",
+  "description_zh": "热辣的程度大概达到了672摄氏度。\n赋予冰冻免疫，+20%寒气抗性(持续5m)\n烧伤(10s)",
+  "rarity": "legendary",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 310
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

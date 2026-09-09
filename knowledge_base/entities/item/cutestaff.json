@@ -1,0 +1,58 @@
+{
+  "entity_id": "cutestaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heart Staff",
+  "name_zh": "善心法杖",
+  "description_en": "Kill them with kindness.",
+  "description_zh": "以善之名，抹灭他们。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "staff",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "cuteblast",
+  "altAbilityType": "cutecloud",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

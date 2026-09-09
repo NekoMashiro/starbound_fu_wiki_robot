@@ -1,0 +1,27 @@
+{
+  "entity_id": "talonseed",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Talon Sprout",
+  "name_zh": "鹰爪芽",
+  "description_en": "+20% Ice Res: 2m",
+  "description_zh": "+20%寒气抗性: 2m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "talonseedHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

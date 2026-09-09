@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreitemace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Mace",
+  "name_zh": "永燃钉头锤",
+  "description_en": "Masterful crafting, deadly edges.\r\nInflicts Napalm",
+  "description_zh": "精湛的工艺，致命的武器。\n致命凝固汽油弹",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 890,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.7,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "corefragmentore",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

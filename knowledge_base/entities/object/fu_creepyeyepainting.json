@@ -1,0 +1,33 @@
+{
+  "entity_id": "fu_creepyeyepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Gaze",
+  "name_zh": "目光",
+  "description_en": "Something about this painting...",
+  "description_zh": "关于这幅画...",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 3000,
+  "tags": [
+    "evil",
+    "elder",
+    "madness",
+    "insanity",
+    "fun"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

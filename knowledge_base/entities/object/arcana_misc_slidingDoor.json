@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_misc_slidingDoor",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Sliding Door",
+  "name_zh": "滑动门",
+  "description_en": "A lightweight sliding door, advertised as being slimmer, faster, and more expensive.",
+  "description_zh": "轻盈的滑动门，广告说它更平滑、更快、也更贵。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

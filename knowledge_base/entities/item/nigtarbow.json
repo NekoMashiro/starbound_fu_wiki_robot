@@ -1,0 +1,58 @@
+{
+  "entity_id": "nigtarbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Brightsteel Bow",
+  "name_zh": "亮钢猎弓",
+  "description_en": "Specially constructed arrows damage all elements equally, but still work for hunting.",
+  "description_zh": "特制的箭头对所有元素造成的伤害相等，视为狩猎弓使用。",
+  "rarity": "uncommon",
+  "category": "bow",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "nightar",
+    "silver",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "silverweapon",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cryonicextract",
+          "count": 6
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "crystal",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

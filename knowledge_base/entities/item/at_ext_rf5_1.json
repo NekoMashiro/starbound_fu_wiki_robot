@@ -1,0 +1,49 @@
+{
+  "entity_id": "at_ext_rf5_1",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Forgeline-471",
+  "name_zh": "锻造线-471",
+  "description_en": "The latest mass-produced rifle from Section 8, available in multiple variants.",
+  "description_zh": "工坊八科最新一代的量产型步枪，拥有多种变体。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 10,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "titancorp",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 35,
+  "altAbilityType": "grenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 3000
+        },
+        {
+          "item": "at_ext_coupon",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_jungleMangoSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Jungle Mango Seed",
+  "name_zh": "丛林芒果种子",
+  "description_en": "A sweet mango fruit found commonly growing in tropical environments.",
+  "description_zh": "一种甜美的芒果，常见于热带地区。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_jungleMango",
+          "probability": 0.15,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

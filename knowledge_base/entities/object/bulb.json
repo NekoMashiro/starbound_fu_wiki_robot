@@ -1,0 +1,38 @@
+{
+  "entity_id": "bulb",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bulb",
+  "name_zh": "指示灯",
+  "description_en": "An output light. Indicates whether something is on or off.",
+  "description_zh": "一盏输出信号指示灯。指示出某物是否处于激活状态。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

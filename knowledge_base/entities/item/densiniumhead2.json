@@ -1,0 +1,52 @@
+{
+  "entity_id": "densiniumhead2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium X7 Helm",
+  "name_zh": "X7 超致密头盔",
+  "description_en": "Set Bonuses:\r\n Densinium Weapons: +2% Crit Chance, Damage x1.25\r\n Immune: Poisoned, Oxygen, Gas, Pressure",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 575,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "solariumstar",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

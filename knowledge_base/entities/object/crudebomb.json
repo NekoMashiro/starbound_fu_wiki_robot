@@ -1,0 +1,40 @@
+{
+  "entity_id": "crudebomb",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crude Bomb",
+  "name_zh": "自制炸弹",
+  "description_en": "A specially crafted explosive for mining. Detonation requires impact.",
+  "description_zh": "用于采矿的特制爆炸物。注意安全。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 75,
+  "tags": [
+    "human",
+    "humanbunker",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ammoniumsulfate",
+          "count": 5
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

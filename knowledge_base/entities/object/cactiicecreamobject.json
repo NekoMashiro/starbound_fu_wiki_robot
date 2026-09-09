@@ -1,0 +1,42 @@
+{
+  "entity_id": "cactiicecreamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cacti Ice Cream",
+  "name_zh": "仙人掌冰淇淋",
+  "description_en": "A tasty, prickly treat!",
+  "description_zh": "一个美味的，多刺的款待！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 180,
+  "tags": [
+    "cooking",
+    "parlor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cactiicecream",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "cactiicecream"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "microformercalichefield",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Caliche Microformer",
+  "name_zh": "钙质矿脉转换器(微型)",
+  "description_en": "Transforms an area of a planet into rich caliche stone.",
+  "description_zh": "(可放置于任何地方，安装后拆除将会毁坏，激活后请耐心等待)可将转换器一定范围内的星球特征转换为钙质矿脉。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 3000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 500
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

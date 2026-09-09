@@ -1,0 +1,80 @@
+{
+  "entity_id": "arcana_essence_vermilionEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Vermilion Essence",
+  "name_zh": "朱红精纯",
+  "description_en": "A solidified essence of iron and blood.",
+  "description_zh": "朱红铁血之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_5"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_sigils_vermilionSigil"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_vermilionGolem",
+          "probability": 1.4,
+          "count": 6.6,
+          "monsters": [
+            "arcana_monster_miseri",
+            "arcana_monster_vermilionGolem"
+          ]
+        },
+        {
+          "pool": "arcana_randomitem_rufescite",
+          "probability": 0.3,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.3,
+        1.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

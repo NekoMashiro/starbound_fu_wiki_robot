@@ -1,0 +1,129 @@
+{
+  "entity_id": "elemental_crafting_florastone",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Florastone",
+  "name_zh": "花叶石",
+  "description_en": "A stone found only at the deepest of the overgrown jungle.",
+  "description_zh": "仅能在过度生长的丛林的最深处发现的一种石头。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "gaea_deco_1",
+          "gaea_deco_2",
+          "gaea_deco_3",
+          "gaea_deco_4",
+          "gaea_deco_5"
+        ]
+      },
+      "block": {
+        "count": 4,
+        "examples": [
+          "gaea_tile1",
+          "gaea_tile2",
+          "gaea_tile3",
+          "gaea_tile4"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "gaea_light_1",
+          "gaea_light_2"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "arcana_shield_floralShield"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_jungleVest"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "gaea_axe_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "gaea_spear_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "gaea_staff_1"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "gaea_treasure_1",
+          "probability": 2.25,
+          "count": 1
+        },
+        {
+          "pool": "arcana_treasure_elemental_crafting_florastone",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        2.25
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_jadeMorass",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_verdant",
+      "weight": 0.6
+    }
+  ],
+  "quality_tier": "S"
+}

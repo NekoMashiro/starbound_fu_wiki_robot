@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_terminusPeony",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Terminus Peony",
+  "name_zh": "赤冥牡丹",
+  "description_en": "Flower of the red terminus.\n 30 seconds later after drinking, +10% Crit Rate and heals 20 Health/s until Cooldown expires.",
+  "description_zh": "赤色深渊之花。\n饮用的30秒后若茶杯仍处于冷却期间，在剩余冷却期间获得+10%暴击率且每秒恢复20点生命值。",
+  "rarity": "legendary",
+  "category": "tradingCard",
+  "price": 500,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t4",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

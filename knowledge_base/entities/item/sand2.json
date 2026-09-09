@@ -1,0 +1,67 @@
+{
+  "entity_id": "sand2",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sand",
+  "name_zh": "细沙",
+  "description_en": "A fine glittering sand. Could probably be made into glass!\nExtractable, Siftable, Smeltable.",
+  "description_zh": "闪耀着光芒的细沙。也许可以做成玻璃！\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 6,
+        "examples": [
+          "arcana_platform_runicPlatform",
+          "astral_tile11",
+          "astral_tile12",
+          "astral_tile13",
+          "astral_tile14"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "glass"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_terraformer_stahlernBadlands"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_bloodPlum",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Blood Plum",
+  "name_zh": "朱血梅",
+  "description_en": "It takes months of blood irrigation to bloom this flower of omen for one single hour.\n For 40 seconds after drinking, Damage hits stack extra Damage Boost (up to 150%). Reset if no hit's inflicted in 2.5s.",
+  "description_zh": "七七四十九天的血液灌溉才能让这朵恶兆之花得到半个时辰的绽放。\n饮用后40秒内，持续攻击命中会不断累加额外伤害提升（至多+150%），2.5秒内未命中则清空加成。",
+  "rarity": "essential",
+  "category": "tradingCard",
+  "price": 750,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t5",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0375,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0375,
+        0.25
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

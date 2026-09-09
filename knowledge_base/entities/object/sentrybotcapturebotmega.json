@@ -1,0 +1,35 @@
+{
+  "entity_id": "sentrybotcapturebotmega",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mega Capture Bot",
+  "name_zh": "",
+  "description_en": "Captures creatures in Mega Pet Balls.",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "decorative",
+  "price": 250000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "voxel10k",
+          "count": 4000
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,112 @@
+{
+  "entity_id": "arcana_misc_renatineCrystal",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Renatine Crystal",
+  "name_zh": "雷纳汀水晶",
+  "description_en": "A shining yet stable crystal capable of storing large amounts of energy.",
+  "description_zh": "闪亮而坚固的晶体，可以储存大量能量。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 240,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 800
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "orion_tile13",
+          "orion_tile14"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_misc_borealiteMagnus"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_2_3",
+          "probability": 1.0,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_superstormExpanse_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_superstormExpanse_night",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_illuminated_underground_1",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_neonSea",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_azureSea_floor",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_superstormExpanse_day",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_nihil",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_azureSea",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_superstormExpanse",
+      "weight": 0.7
+    },
+    {
+      "biome": "arcana_neonSea_floor",
+      "weight": 0.7
+    }
+  ],
+  "blueprints_unlocked": [
+    "arcana_misc_renatineCrystal"
+  ],
+  "quality_tier": "S"
+}

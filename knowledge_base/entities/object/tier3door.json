@@ -1,0 +1,41 @@
+{
+  "entity_id": "tier3door",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Door",
+  "name_zh": "钛门",
+  "description_en": "A strong titanium door.",
+  "description_zh": "一扇牢固的钛门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 80,
+  "tags": [
+    "door",
+    "tier3"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

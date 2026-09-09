@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_tunguskudae_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tunguskudae Queen",
+  "name_zh": "钨头蜂后",
+  "description_en": "Tunguskudae Queen",
+  "description_zh": "钨头蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingOre": {
+        "count": 1,
+        "examples": [
+          "uraniumore"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "radioactivequeen",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "radioactivebee"
+          ]
+        },
+        {
+          "pool": "bee_tunguskudae",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_tunguskudae"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

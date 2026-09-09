@@ -1,0 +1,32 @@
+{
+  "entity_id": "phoenixfly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Phoenixfly",
+  "name_zh": "凤凰蝇",
+  "description_en": "This bug rubs its legs together to produce tiny sparks.",
+  "description_zh": "这虫子摩擦自己的腿来制造小火花。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "phoenixfly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "phoenixfly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

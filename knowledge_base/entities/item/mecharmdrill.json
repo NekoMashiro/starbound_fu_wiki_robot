@@ -1,0 +1,40 @@
+{
+  "entity_id": "mecharmdrill",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tungsten Drill Arm",
+  "name_zh": "钨制机甲钻头臂",
+  "description_en": "A basic mining drill that can serve as a weapon in a pinch.",
+  "description_zh": "一个基本的采矿钻头，必要时可以作为武器。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 20
+        },
+        {
+          "item": "wire",
+          "count": 10
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

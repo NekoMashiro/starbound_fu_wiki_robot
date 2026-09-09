@@ -1,0 +1,46 @@
+{
+  "entity_id": "deadbeathornmaskhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Deadbeat Horn Mask",
+  "name_zh": "落魄者面具",
+  "description_en": "This cap offers little protection, but the glasses look cool.",
+  "description_zh": "这帽子几乎不能提供保护，但是眼镜看上去挺酷的。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

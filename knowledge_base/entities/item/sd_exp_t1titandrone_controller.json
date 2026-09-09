@@ -1,0 +1,48 @@
+{
+  "entity_id": "sd_exp_t1titandrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "GS8 Welder Controller",
+  "name_zh": "GS8 焊工控制器",
+  "description_en": "A robot manufactured by the Workshop.\r\n  [Primary]Spawn/Despawn，[Alt]Fire.\r\n  This one can auto attack",
+  "description_zh": "GS8斥候无人机的变种，附带一个可以自动发射导弹的发射筒。\n[左键]释放/收回，[右键]开火射击[Shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1400
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

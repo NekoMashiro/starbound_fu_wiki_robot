@@ -1,0 +1,114 @@
+{
+  "entity_id": "slimeworld",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gelatinous",
+  "name_zh": "凝胶",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Gelatinous",
+  "friendly_name_zh": "凝胶",
+  "ores": [
+    {
+      "ore": "copper",
+      "weight": 0.95
+    },
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.8
+    },
+    {
+      "ore": "silver",
+      "weight": 0.75
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.75
+    },
+    {
+      "ore": "gold",
+      "weight": 0.55
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.55
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.55
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.55
+    },
+    {
+      "ore": "violium",
+      "weight": 0.55
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.5
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.45
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.45
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.35
+    },
+    {
+      "ore": "iron",
+      "weight": 0.25
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "bee_isovapitdae",
+    "bouncebagcritter",
+    "bulbopfriendly",
+    "eyejelly",
+    "eyejellyking",
+    "eyeslime",
+    "eyeslimeking",
+    "fualien",
+    "fuallergen",
+    "fugooshoat",
+    "fugreenshoat",
+    "fuslimeshoat",
+    "fuspidercritter",
+    "gloop",
+    "glump",
+    "oculob",
+    "po",
+    "pogolem",
+    "slime",
+    "slimetop",
+    "sluggreencritter",
+    "stinkjack"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:slimeworld"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "biomepoison1"
+  ],
+  "wiki_ref": "Gelatinous.md",
+  "quality_tier": "C"
+}

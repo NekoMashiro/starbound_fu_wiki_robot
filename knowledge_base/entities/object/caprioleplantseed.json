@@ -1,0 +1,64 @@
+{
+  "entity_id": "caprioleplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capriole Seed",
+  "name_zh": "跳跃花种子",
+  "description_en": "Increases your limb strength for jumping. Contains a potent narcotic.",
+  "description_zh": "通过增加你的肢体力量，让你跳得更高。其中含有一种强效麻醉剂。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 13,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 200
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cell_viral",
+          "count": 3
+        },
+        {
+          "item": "flowerspring",
+          "count": 3
+        },
+        {
+          "item": "ff_mercury",
+          "count": 4
+        },
+        {
+          "item": "fleshstrand",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "caprioleHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

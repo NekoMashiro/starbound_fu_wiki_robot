@@ -1,0 +1,48 @@
+{
+  "entity_id": "astralcabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Cabinet",
+  "name_zh": "星辰柜子",
+  "description_en": "A stellar cabinet, it breaks reality just to store your stuff.",
+  "description_zh": "一个恒星柜，它打破现实只是为了存储你的东西。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 160,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralwood",
+          "count": 8
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 1
+        },
+        {
+          "item": "liquidaether",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

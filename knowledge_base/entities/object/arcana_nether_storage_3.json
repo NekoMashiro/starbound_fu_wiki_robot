@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_nether_storage_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Long Counter",
+  "name_zh": "冥界长柜台",
+  "description_en": "A long counter with a few cabinets, often used in kitchens.",
+  "description_zh": "一条长长的柜台，配有几个橱柜，常用于厨房。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 120,
+  "tags": [
+    "storage",
+    "nether",
+    "spectwing"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

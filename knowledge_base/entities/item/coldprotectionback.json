@@ -1,0 +1,61 @@
+{
+  "entity_id": "coldprotectionback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heating EPP",
+  "name_zh": "供暖EPP I",
+  "description_en": "+20% Ice Resist. Useful on mildly cold planets.",
+  "description_zh": "对在轻度寒冷的星球上的探险很有帮助。\n寒气抗性+20%",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbon",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "scorchedcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "coldprotectionback2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

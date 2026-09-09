@@ -1,0 +1,56 @@
+{
+  "entity_id": "fusoluskatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solus Katana",
+  "name_zh": "独奏之刃",
+  "description_en": "A solarium-infused sword, forged by Asra Nox, refabricated into a proper Katana by you.",
+  "description_zh": "一柄充盈着日曜之力的宝剑，由阿斯拉·诺克斯铸造，后被你改造成了一把合适的武士刀。",
+  "rarity": "Legendary",
+  "category": "katana",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7.0,
+  "critChance": 4,
+  "critBonus": 6,
+  "primaryAbilityType": "katanacombo2h",
+  "altAbilityType": "kunaiblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "soluskatana",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "solariumstar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "fusoluskatanaicon_l5.png",
+    "seed": "",
+    "shortdescription": "勇士之刃",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

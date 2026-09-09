@@ -1,0 +1,44 @@
+{
+  "entity_id": "network_containerlink2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Storage Bridge V2",
+  "name_zh": "储存桥接器 V2",
+  "description_en": "Marks containers for use by an item network. Place near object placement point.\r\nInput: item network\nOutput: item network\r\nLower output: item network\nUpper outputs: Partial/Complete Fill",
+  "description_zh": "标记容器以供项目网络使用。放置在对象放置点附近。\n 输入：项目网络\n ；输出：项目网络\n 输出较低：项目网络\n ；上部输出：部分/全部填充",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "network_containerlink",
+          "count": 1
+        },
+        {
+          "item": "network_capacitySensor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "electronmicroscope2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Storage Bridge V2.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,205 @@
+{
+  "entity_id": "uraniumore",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Uranium Ore",
+  "name_zh": "铀(U)",
+  "description_en": "Uranium has many highly radioactive isotopes.\n+7 Fuel",
+  "description_zh": "铀具有许多高放射性同位素。\n+7燃料",
+  "rarity": "Uncommon",
+  "category": "craftingOre",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_tunguskudae_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "fufoodgoods",
+          "count": 8
+        }
+      ],
+      "output_count": 6,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "xi_bulb",
+          "count": 1
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 200
+        }
+      ],
+      "output_count": 3,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "uraniumcookie",
+          "uraniumradien"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "fu_blockUranium"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "radienaugment1"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "uraniumrod"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "uraniumrod",
+      "bonus": [
+        "lead",
+        "thoriumore",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "uraniumrod",
+      "bonus": [
+        "lead",
+        "thoriumore",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "uraniumrod",
+      "bonus": [
+        "lead",
+        "thoriumore",
+        "unstableparticles"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.02,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "chromaticunderground",
+      "weight": 1.0
+    },
+    {
+      "biome": "ffcellcaves",
+      "weight": 0.65
+    },
+    {
+      "biome": "irradiatedunderground",
+      "weight": 0.65
+    },
+    {
+      "biome": "atropuscellcaves",
+      "weight": 0.65
+    },
+    {
+      "biome": "atropusunderground",
+      "weight": 0.62
+    },
+    {
+      "biome": "atropusbonecaves",
+      "weight": 0.62
+    },
+    {
+      "biome": "arboreal2underground",
+      "weight": 0.62
+    },
+    {
+      "biome": "atropusboneunderground",
+      "weight": 0.62
+    },
+    {
+      "biome": "atropusfleshcaves",
+      "weight": 0.62
+    },
+    {
+      "biome": "thickjungleunderground",
+      "weight": 0.62
+    }
+  ],
+  "blueprints_unlocked": [
+    "uraniumrod"
+  ],
+  "wiki_ref": "Uranium Ore.md",
+  "quality_tier": "S"
+}

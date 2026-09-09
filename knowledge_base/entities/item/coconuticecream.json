@@ -1,0 +1,106 @@
+{
+  "entity_id": "coconuticecream",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Coconut Ice Cream",
+  "name_zh": "椰子冰淇淋",
+  "description_en": "Perfect for when you're stranded on a tropical island. Type: Fruit Dairy Dessert",
+  "description_zh": "当你被捆在一个热带岛屿时最适合吃这个。\n类型: 水果蛋奶甜食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 195,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coconuticecreamobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "snowball",
+          "count": 1
+        },
+        {
+          "item": "milk",
+          "count": 1
+        },
+        {
+          "item": "coconut",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "coconuticecreamobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityfood",
+          "probability": 0.4286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

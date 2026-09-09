@@ -1,0 +1,46 @@
+{
+  "entity_id": "bolbohn",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bolbohn",
+  "name_zh": "波庞薯",
+  "description_en": "A root with a strong taste that few enjoy. \n+10% Crit Chance: 1m \nType: Vegetable",
+  "description_zh": "一种很少有人喜欢且气味浓烈的块茎。\n+10% 暴击几率: 1m \n食物类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 80,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "avikanmeal",
+          "bolbohnjam",
+          "spicebol",
+          "stuffeddunebun"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bolbohnHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "avikanmeal",
+    "bolbohnjam",
+    "spicebol"
+  ],
+  "quality_tier": "S"
+}

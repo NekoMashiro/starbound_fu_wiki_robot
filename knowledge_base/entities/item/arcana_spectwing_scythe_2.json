@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_spectwing_scythe_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Forest Scythe",
+  "name_zh": "森林镰刀",
+  "description_en": "A corrosive scythe, bound to the woods. On Crit: Inflict Hexed (-10% Damage, inflict a random elemental status when expiring).",
+  "description_zh": "一把绑在木头上的腐蚀镰刀。暴击时：施加邪咒（-10%伤害，效果结束时随机施加一个元素状态）。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "primaryAbilityType": "arcana_scythe_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

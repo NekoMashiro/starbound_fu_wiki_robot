@@ -1,0 +1,46 @@
+{
+  "entity_id": "elderchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Chair",
+  "name_zh": "远古石椅",
+  "description_en": "A malignant stone chair.",
+  "description_zh": "一把令人不安的石椅。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 375,
+  "tags": [
+    "elder",
+    "chair",
+    "hideous"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderstone2material",
+          "count": 2
+        },
+        {
+          "item": "elderstonematerial",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

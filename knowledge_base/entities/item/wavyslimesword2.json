@@ -1,0 +1,57 @@
+{
+  "entity_id": "wavyslimesword2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Rapier II",
+  "name_zh": "黏液刺剑 II",
+  "description_en": "A wobbly-looking sword made of slime.",
+  "description_zh": "用黏液制成的摇摇晃晃的剑。",
+  "rarity": "Rare",
+  "category": "Rapier",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "slime",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.7,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "slimegoo",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Rapier": {
+        "count": 1,
+        "examples": [
+          "wavyslimesword3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

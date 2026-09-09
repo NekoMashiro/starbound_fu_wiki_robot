@@ -1,0 +1,41 @@
+{
+  "entity_id": "snowpersonbodyfloran",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floran Snowbody",
+  "name_zh": "叶族人雪人",
+  "description_en": "The body of a Snowfloran.",
+  "description_zh": "叶族雪人的躯体。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "peglaci",
+    "floran",
+    "peglacivillage",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "largesnowball",
+          "count": 1
+        },
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Snowprinter",
+      "station_zh": "雪人打印机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

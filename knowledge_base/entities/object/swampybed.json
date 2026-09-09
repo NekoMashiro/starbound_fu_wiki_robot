@@ -1,0 +1,49 @@
+{
+  "entity_id": "swampybed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Swamp Cot",
+  "name_zh": "沼泽营地床",
+  "description_en": "An unusual bed, with sides made of roots and leaf bedding.",
+  "description_zh": "一张不寻常的床，有着树根制成的床板和叶子制成的被褥。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 140,
+  "tags": [
+    "swamp",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "plantfibre",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

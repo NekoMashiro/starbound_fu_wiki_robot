@@ -1,0 +1,54 @@
+{
+  "entity_id": "fu_crewbed5",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crew Bunk (Wall)",
+  "name_zh": "船员用双层床(壁式)",
+  "description_en": "Lovely wall-recessed sleepy spots. Crew +1. Counts as a deed. BYOS Only",
+  "description_zh": "可爱的壁凹睡眠斑点舱。\n船员上限+1。\n视为一份契约。\n只限BYOS",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "cotton",
+          "count": 7
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "fu_crewbedracialwall_apex",
+          "fu_crewbedracialwall_avian",
+          "fu_crewbedracialwall_floran",
+          "fu_crewbedracialwall_glitch",
+          "fu_crewbedracialwall_human"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "quality_tier": "S"
+}

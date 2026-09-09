@@ -1,0 +1,49 @@
+{
+  "entity_id": "mwhaddon_boss_voidMerisis_staff_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Heavensong",
+  "name_zh": "天籁",
+  "description_en": "It plays not notes, but chaos.",
+  "description_zh": "它演奏的并非音符，而是混乱。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1260,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "elementportal",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 14
+        },
+        {
+          "item": "mwhaddon_misc_defyingFragment",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

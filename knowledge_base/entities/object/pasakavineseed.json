@@ -1,0 +1,75 @@
+{
+  "entity_id": "pasakavineseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pasaka Vine",
+  "name_zh": "帕斯卡果种子",
+  "description_en": "This vine gives off a useful miasma that cancels out radiation.",
+  "description_zh": "可以收获帕斯卡果，食用后可消除辐射。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cell_spliced",
+          "count": 1
+        },
+        {
+          "item": "bonebooseed",
+          "count": 1
+        },
+        {
+          "item": "mutagene1",
+          "count": 1
+        },
+        {
+          "item": "biospore",
+          "count": 5
+        },
+        {
+          "item": "bugshell",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "lumivineseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pasakaHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "durasteelhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Hammer",
+  "name_zh": "耐钢锤",
+  "description_en": "A formidable durasteel hammer.",
+  "description_zh": "一把强大的耐钢锤。",
+  "rarity": "Uncommon",
+  "category": "hammer",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "physicalshockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

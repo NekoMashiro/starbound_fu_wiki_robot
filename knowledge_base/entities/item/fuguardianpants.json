@@ -1,0 +1,51 @@
+{
+  "entity_id": "fuguardianpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Guardian Greaves",
+  "name_zh": "守护者护胫",
+  "description_en": "Set Bonuses:\r\n +25% Shield Regen/Shield Stamina, +20% Shield Bash\r\n Mace: Damage x1.15\r\n Shield: +25% Knockback Resistance",
+  "description_zh": "套装奖励：\n+25% 盾牌耐久回复/盾牌耐久, +20% 盾击\n钉头锤: 伤害x1.15\n盾: +25% 击退抗性",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

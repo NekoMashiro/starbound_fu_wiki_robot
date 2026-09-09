@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_milk",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Dawnfresh Milk",
+  "name_zh": "晨鲜纯牛奶",
+  "description_en": "A carton of pure milk. One cup in the morning, one at night!\nGrants the [Dawnfresh Milk] effect when consumed.",
+  "description_zh": "盒装的纯牛奶，早晚各一杯！\n饮用后给予[晨鲜纯牛奶]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

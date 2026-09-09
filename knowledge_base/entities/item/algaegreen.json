@@ -1,0 +1,297 @@
+{
+  "entity_id": "algaegreen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Algae",
+  "name_zh": "藻豆荚",
+  "description_en": "A decent fuel source once refined.\nGrowth Rate x1.25 & +1 produce.\nUses -0.5 fluid use & -1 seed use",
+  "description_zh": "它正是植物们所渴望的。\n生长速率x1.25&产量+1\n液体消耗-0.5&种子消耗-1",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 6,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 5
+        },
+        {
+          "item": "liquidwater",
+          "count": 5
+        },
+        {
+          "item": "xibulb",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "ff_slimelegs",
+          "fflagoonlegs"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "ff_slimehead",
+          "fflagoonhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "ff_slimechest",
+          "fflagoonchest"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "biofuelcannister"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "fualgaemeal"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "garpberryseed"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "pollenpump"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "reactivegel"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "drop_sources": {
+    "total_pools": 54,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "algaeHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "shadowhoundLoot",
+          "probability": 0.2514,
+          "count": 7.5,
+          "monsters": [
+            "shadowhound"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.1226,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 50
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0045,
+          "count": 5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0028,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2514
+      ]
+    },
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 5
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.017,
+          "count": 5
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0052,
+          "count": 5
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0042,
+          "count": 5,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0651
+      ]
+    },
+    "chest_loot": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 50
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 5.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 5.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0051,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 5.0
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "bog",
+      "weight": 0.7
+    },
+    {
+      "biome": "murkyswamp",
+      "weight": 0.7
+    },
+    {
+      "biome": "fungus",
+      "weight": 0.7
+    },
+    {
+      "biome": "blackslimebog",
+      "weight": 0.7
+    },
+    {
+      "biome": "fungusunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "bogunderground",
+      "weight": 0.5
+    }
+  ],
+  "wiki_ref": "Algae.md",
+  "quality_tier": "S"
+}

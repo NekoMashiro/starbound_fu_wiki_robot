@@ -1,0 +1,40 @@
+{
+  "entity_id": "stripe2painting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stripe 2",
+  "name_zh": "条纹 2",
+  "description_en": "An astute visual demonstrating mans inhumanity to man.",
+  "description_zh": "一幅隐喻的幻觉展示了人对人的不人道。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

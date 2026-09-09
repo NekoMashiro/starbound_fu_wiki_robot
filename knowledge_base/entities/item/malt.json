@@ -1,0 +1,71 @@
+{
+  "entity_id": "malt",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Malt",
+  "name_zh": "麦芽",
+  "description_en": "Roasted sprouted wheat!",
+  "description_zh": "这是烤过的发芽小麦！",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 60,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheatsprout",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "cookingIngredient": {
+        "count": 3,
+        "examples": [
+          "alemash",
+          "darkmalt",
+          "wort"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmpowerdrone2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sniper Drone II",
+  "name_zh": "狙击蜂 II",
+  "description_en": "3 long-ranged sniper drones.",
+  "description_zh": "最多制造出3个能够远距离攻击的狙击蜂飞行器。",
+  "rarity": "rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmpowerdrone",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

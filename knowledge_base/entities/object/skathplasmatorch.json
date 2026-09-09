@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathplasmatorch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Plasma Torch",
+  "name_zh": "绘世者等离子火炬",
+  "description_en": "This torch suspends a tiny plasma orb to provide light.",
+  "description_zh": "这个火炬悬挂着一个微小的等离子球来提供光线。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "hellfirebow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Bow",
+  "name_zh": "地狱火之弓",
+  "description_en": "Burn your targets to cinders. Counterproductive, but fun.",
+  "description_zh": "将你的目标燃烧成灰烬，虽然连渣都不剩，但是很有趣。",
+  "rarity": "legendary",
+  "category": "bow",
+  "price": 1150,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 12,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scorchedcore",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 4
+        },
+        {
+          "item": "pyreitebar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

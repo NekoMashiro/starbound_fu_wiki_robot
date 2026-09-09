@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Console",
+  "name_zh": "夜族控制台",
+  "description_en": "A small console made by the Nightar.",
+  "description_zh": "夜族人制作的小型控制台。",
+  "rarity": "Legendary",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "wired",
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

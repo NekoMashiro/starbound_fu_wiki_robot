@@ -1,0 +1,43 @@
+{
+  "entity_id": "prototyper",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Machining Table",
+  "name_zh": "加工台",
+  "description_en": "(Frackin' Universe main table) Craft all sorts of useful gear.",
+  "description_zh": "(富兰克林宇宙主设备)用于制作各种设备与基础道具。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "combat",
+    "laser"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "paper",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Machining Table.md",
+  "quality_tier": "A"
+}

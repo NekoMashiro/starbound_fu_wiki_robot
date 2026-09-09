@@ -1,0 +1,45 @@
+{
+  "entity_id": "effigiumnightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Nightstand",
+  "name_zh": "幻影床头柜",
+  "description_en": "A small nightstand that seems to fade in and out of existence.",
+  "description_zh": "一个小床头柜，似乎在渐渐消失。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "effigium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

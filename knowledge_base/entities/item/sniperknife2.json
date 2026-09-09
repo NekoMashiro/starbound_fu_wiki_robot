@@ -1,0 +1,39 @@
+{
+  "entity_id": "sniperknife2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kyle",
+  "name_zh": "凯尔",
+  "description_en": "This weapon sucks ass. Just like the name it is cursed with.",
+  "description_zh": "这武器很烂，就像它被诅咒的名字一样。",
+  "rarity": "rare",
+  "category": "dagger",
+  "price": 2,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 2,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareWeapons",
+          "probability": 0.0392,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

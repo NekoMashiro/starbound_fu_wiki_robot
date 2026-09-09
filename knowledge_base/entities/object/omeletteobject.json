@@ -1,0 +1,30 @@
+{
+  "entity_id": "omeletteobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Omurice",
+  "name_zh": "蛋包饭",
+  "description_en": "A hot omelette made with rice and topped with ketchup.",
+  "description_zh": "一种用米饭做成的热煎蛋，上面涂有番茄酱。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

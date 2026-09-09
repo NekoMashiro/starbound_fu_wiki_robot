@@ -1,0 +1,46 @@
+{
+  "entity_id": "erchiuseye",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Erchius Eye",
+  "name_zh": "能源之眼",
+  "description_en": "The eye of the Erchius Horror! Focus it upon your enemies.",
+  "description_zh": "能源恐怖的眼睛！专注于你的敌人。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "primaryAbilityType": "erchiusbeam",
+  "altAbilityType": "erchiuslauncher",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erchiushorrorTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "crystalboss"
+          ]
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "erchiuseye_l6.png",
+    "seed": "",
+    "shortdescription": "能源之眼^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

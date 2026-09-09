@@ -1,0 +1,68 @@
+{
+  "entity_id": "deepdiverhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Deep Diver Helmet",
+  "name_zh": "深潜者头盔",
+  "description_en": "A rusted, old diving helmet. It's not very easy to see with one of these on!",
+  "description_zh": "一个锈蚀的老旧潜水头盔。戴着它看东西可没那么容易！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.0826,
+          "count": 1
+        },
+        {
+          "pool": "hylotlruinedcastleChestTreasure",
+          "probability": 0.03,
+          "count": 1
+        },
+        {
+          "pool": "hylotlruinedcityChestTreasure",
+          "probability": 0.0283,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0283,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0283,
+        0.0826
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.058,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0142,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0142,
+        0.058
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

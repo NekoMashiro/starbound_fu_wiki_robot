@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_wired_darkscanner",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Dark Proximity Scanner",
+  "name_zh": "深色近距离扫描器",
+  "description_en": "Perfect for all your automated door needs!",
+  "description_zh": "完美满足你关于自动门的所有需求！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

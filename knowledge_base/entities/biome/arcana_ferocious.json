@@ -1,0 +1,70 @@
+{
+  "entity_id": "arcana_ferocious",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Ferocious",
+  "name_zh": "恶土",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Ferocious",
+  "friendly_name_zh": "恶土",
+  "ores": [
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "durasteel",
+      "weight": 1.0
+    },
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_necroiumFragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    }
+  ],
+  "monsters": [
+    "batong",
+    "bigwormcritter",
+    "crustoise",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "heathugger",
+    "krawlcritter",
+    "petricub",
+    "phoenixfly",
+    "pteropod",
+    "scandroid",
+    "scaveran",
+    "skywurmcritter",
+    "smoglin",
+    "spookit"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:scorchedcity"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "quality_tier": "C"
+}

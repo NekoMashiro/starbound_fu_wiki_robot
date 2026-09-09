@@ -1,0 +1,49 @@
+{
+  "entity_id": "fujaildoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pressure Door",
+  "name_zh": "压力门",
+  "description_en": "A heavy pressure door, great for use on ships.",
+  "description_zh": "一种重型压力门，适合在飞船上使用。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "wood",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

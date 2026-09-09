@@ -1,0 +1,41 @@
+{
+  "entity_id": "breadloaf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bread Loaf",
+  "name_zh": "面包条",
+  "description_en": "A loaf of bread.",
+  "description_zh": "一条面包。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "bread"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

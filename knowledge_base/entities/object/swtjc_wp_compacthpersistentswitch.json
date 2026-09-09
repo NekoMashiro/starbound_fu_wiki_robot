@@ -1,0 +1,49 @@
+{
+  "entity_id": "swtjc_wp_compacthpersistentswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compact Persistent Switch",
+  "name_zh": "紧凑型持久开关",
+  "description_en": "Once triggered this switch will remain in its switched state.",
+  "description_zh": "一旦激活，此开关将会保持在所选状态内。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_compacthpersistentswitchinteractive"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

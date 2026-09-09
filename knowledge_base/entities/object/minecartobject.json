@@ -1,0 +1,32 @@
+{
+  "entity_id": "minecartobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Minecart",
+  "name_zh": "矿车",
+  "description_en": "You can hop in, but there's nowhere for it to go.",
+  "description_zh": "你可以跳进去，但它却无处可去。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "mining",
+    "novakid",
+    "novakidvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "General Store",
+      "station_zh": "杂货店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

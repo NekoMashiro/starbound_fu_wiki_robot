@@ -1,0 +1,81 @@
+{
+  "entity_id": "cultiststaff3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Staff of Madness",
+  "name_zh": "怪异疯病",
+  "description_en": "Fashioned from bones and petrified wood.",
+  "description_zh": "用骨头和化石木制成。",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "elder"
+  ],
+  "elementalType": "shadow",
+  "level": 7,
+  "twoHanded": true,
+  "altAbilityType": "madnesszone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderrelic10",
+          "count": 1
+        },
+        {
+          "item": "elderrelic12",
+          "count": 1
+        },
+        {
+          "item": "glarestalkeye",
+          "count": 1
+        },
+        {
+          "item": "corruptionseed",
+          "count": 12
+        },
+        {
+          "item": "energywood",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

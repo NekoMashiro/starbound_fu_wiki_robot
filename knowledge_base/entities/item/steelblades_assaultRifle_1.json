@@ -1,0 +1,72 @@
+{
+  "entity_id": "steelblades_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verrostin Repeater",
+  "name_zh": "肃钉连发枪",
+  "description_en": "An assault-rifle made from verrostin. Used by the Steelblades.",
+  "description_zh": "由肃钉制成的突击步枪。由钢刃使用。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "verrostin"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 28.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 12
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_aCassiopeia"
+        ]
+      },
+      "mwhaddon_submachineGun": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_submachineGun_eschatonSeeker"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "mwhaddon_blueprint_mech_set_erebus",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "BP - Erebus Exoskeleton",
+  "name_zh": "蓝图 - 冥渊外骨骼",
+  "description_en": "A blueprint for parts from Horizon Erebus Exoskeleton.",
+  "description_zh": "地平线冥渊外骨骼各个部件的一份蓝图。",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1600,
+  "tags": [
+    "blueprint"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_3",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "techconsole",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tech Console",
+  "name_zh": "科技控制台",
+  "description_en": "Equip and enhance your techs at this station.",
+  "description_zh": "在这个控制台装备并强化你的科技。",
+  "rarity": "Legendary",
+  "category": "techManagement",
+  "price": 1000,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

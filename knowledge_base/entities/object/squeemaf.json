@@ -1,0 +1,56 @@
+{
+  "entity_id": "squeemaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Squeem Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Its movement is determined by temperature levels in the atmosphere.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "squeemVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "squeemTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "firesqueem",
+            "squeem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "squeemHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "firesqueem",
+            "squeem"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

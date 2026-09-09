@@ -1,0 +1,84 @@
+{
+  "entity_id": "fleshblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flesh Chunk",
+  "name_zh": "肉块",
+  "description_en": "Some hideous, foul-smelling kind of flesh.\nExtractable.",
+  "description_zh": "一些丑陋的、散发着恶臭的肉。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 3
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "atropusbed",
+          "atropusbookcase",
+          "atropuscabinet",
+          "atropuschair",
+          "atropuscouch"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "atropusceilinglamp",
+          "atropusdesklamp",
+          "atropuslamp"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "atropusfridge",
+          "atropusminifridge"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "doombackgrounddoor"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "fleshcookie"
+        ]
+      }
+    },
+    "total": 18
+  },
+  "quality_tier": "S"
+}

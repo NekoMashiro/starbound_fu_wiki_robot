@@ -1,0 +1,46 @@
+{
+  "entity_id": "warspinner",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Warspinner",
+  "name_zh": "战争螺旋",
+  "description_en": "Sharpened edges make this boomerang cut foes deeply.\r\nInflicts bleeding",
+  "description_zh": "锋利的边缘使这种回力镖能深深地切入敌人。\n造成出血效果",
+  "rarity": "common",
+  "category": "boomerang",
+  "price": 40,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

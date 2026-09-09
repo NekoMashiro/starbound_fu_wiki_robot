@@ -1,0 +1,53 @@
+{
+  "entity_id": "oillantern1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Oil Lantern",
+  "name_zh": "油灯",
+  "description_en": "A pretty oil lantern.",
+  "description_zh": "一盏漂亮的油灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light"
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.1103,
+          "count": 2
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.077,
+          "count": 2
+        },
+        {
+          "pool": "hylotlcityTreasureMedium",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0622,
+          "count": 2
+        },
+        {
+          "pool": "novakidvillageMiningTreasure",
+          "probability": 0.0593,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0232,
+        0.1103
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

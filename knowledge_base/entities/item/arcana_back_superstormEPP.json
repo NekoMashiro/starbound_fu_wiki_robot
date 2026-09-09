@@ -1,0 +1,101 @@
+{
+  "entity_id": "arcana_back_superstormEPP",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Superstorm EPP",
+  "name_zh": "奔雷 EPP",
+  "description_en": "This EPP upgrade also provides Supercharged immunity on top of previous benefits. Useful on Superstorm Star planets.",
+  "description_zh": "这个升级版EPP在原来的好处上新增了对奔雷风暴的免疫，适用于奔雷星系星球。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 1
+        },
+        {
+          "item": "arcana_back_illuminatedEPP",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 1
+        },
+        {
+          "item": "arcana_back_illuminatedEPP",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_supercharged"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "arcana_back_tripolarEPP"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

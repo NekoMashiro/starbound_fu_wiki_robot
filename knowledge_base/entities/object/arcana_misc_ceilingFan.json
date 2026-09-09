@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_misc_ceilingFan",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Ceiling Fan",
+  "name_zh": "吊扇",
+  "description_en": "A fan for cooling off a room if you can't afford an air conditioner.",
+  "description_zh": "如果买不起空调，还可以用这个风扇为房间降温。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 90,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

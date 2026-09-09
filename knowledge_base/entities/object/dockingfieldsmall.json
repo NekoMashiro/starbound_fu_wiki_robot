@@ -1,0 +1,30 @@
+{
+  "entity_id": "dockingfieldsmall",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Docking Field (Small)",
+  "name_zh": "对接场（小）",
+  "description_en": "This energy field can contain both atmosphere and artificial gravity.",
+  "description_zh": "这个能量场可以同时包含大气和人造重力。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 0,
+  "tags": [
+    "station"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

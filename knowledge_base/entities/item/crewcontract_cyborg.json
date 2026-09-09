@@ -1,0 +1,40 @@
+{
+  "entity_id": "crewcontract_cyborg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cyborg Contract",
+  "name_zh": "合同：半机械体",
+  "description_en": "Hires a deadly cyborg. Increases ship speed by 1.25 and grants Aether Immunity.",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 92000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

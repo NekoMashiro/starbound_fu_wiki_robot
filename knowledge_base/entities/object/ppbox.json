@@ -1,0 +1,36 @@
+{
+  "entity_id": "ppbox",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prop Packaging Box",
+  "name_zh": "道具包装盒",
+  "description_en": "The signature bright green and yellow cardboard box of Prop Packaging.",
+  "description_zh": "道具包装的标志性亮绿色和黄色纸箱。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

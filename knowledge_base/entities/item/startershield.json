@@ -1,0 +1,79 @@
+{
+  "entity_id": "startershield",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Basic Shield",
+  "name_zh": "普通盾",
+  "description_en": "Slightly more durable than your bare hands.",
+  "description_zh": "比你的双手更耐用。",
+  "rarity": "Common",
+  "category": "shield",
+  "price": 570,
+  "tags": [
+    "shield"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "string",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dungeoncrawlerChestTreasure",
+          "probability": 0.0286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

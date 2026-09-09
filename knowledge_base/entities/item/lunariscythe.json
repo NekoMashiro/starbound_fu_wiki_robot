@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunariscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Scythe",
+  "name_zh": "月晶镰刀",
+  "description_en": "Crystalline sharpness and cuddles.",
+  "description_zh": "月晶的锋利和这武器的造型简直是最完美的搭配。",
+  "rarity": "common",
+  "category": "scythe",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "lunari",
+    "scythe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

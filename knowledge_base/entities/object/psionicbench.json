@@ -1,0 +1,48 @@
+{
+  "entity_id": "psionicbench",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionics Table",
+  "name_zh": "灵能工作台",
+  "description_en": "Create psionic weapons and gear.",
+  "description_zh": "制造灵能武器和装备。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 2400,
+  "tags": [
+    "combat",
+    "madness",
+    "psionics"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "apexbrainjar",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 12
+        },
+        {
+          "item": "insaneramblings",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,118 @@
+{
+  "entity_id": "arcana_bar_azuriumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Azurium Bar",
+  "name_zh": "天青锭",
+  "description_en": "An azurium bar, can be used to craft Astral equipment.",
+  "description_zh": "一块天青锭，可以用来制作群星装备。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 440,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_azuriumOre",
+          "count": 2
+        },
+        {
+          "item": "goldore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金锻造厂",
+      "station_zh": "恒金锻造厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2640
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_bar_nullatusBar",
+          "arcana_misc_oceanicTechCard",
+          "arcana_sigils_azureSigil"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "artifact_magiblade_trayodhatava",
+          "azure_broadsword_1"
+        ]
+      },
+      "customskill": {
+        "count": 1,
+        "examples": [
+          "FD|GrandCrossZana"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_oceanite_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_oceanite_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_oceanite_chest"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "astral_tile9"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "azure_assaultRifle_1"
+        ]
+      }
+    },
+    "total": 15
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_azuriumBar"
+  ],
+  "wiki_ref": "Azurium Bar.md",
+  "quality_tier": "S"
+}

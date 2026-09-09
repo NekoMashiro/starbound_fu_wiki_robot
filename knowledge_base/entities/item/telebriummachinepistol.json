@@ -1,0 +1,54 @@
+{
+  "entity_id": "telebriummachinepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium SMG",
+  "name_zh": "月海自动手枪",
+  "description_en": "Rapid fire poison-tipped rounds.",
+  "description_zh": "发射高速的有毒子弹。",
+  "rarity": "common",
+  "category": "machinePistol",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 3,
+  "critChance": 5,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solidfuel",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

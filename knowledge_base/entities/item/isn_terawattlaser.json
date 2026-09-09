@@ -1,0 +1,59 @@
+{
+  "entity_id": "isn_terawattlaser",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "XT Laser Repeater",
+  "name_zh": "XT激光中继器",
+  "description_en": "You wanted firing speed? You've got it!\r\nBouncing projectiles",
+  "description_zh": "想要射击速度？ 就是它了！\n弹跳子弹",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 3,
+  "critBonus": 7,
+  "altAbilityType": "lasershrapnel",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 6
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

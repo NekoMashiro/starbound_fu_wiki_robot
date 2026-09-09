@@ -1,0 +1,69 @@
+{
+  "entity_id": "statustablet",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Personal Tricorder",
+  "name_zh": "三度仪",
+  "description_en": "Primary: Check Status\r\nSecondary: Quest Menu\r\nShift + Primary: Research Tree\r\nShift + Secondary: Configure MM",
+  "description_zh": "左键：检查状态\n右键：任务菜单\nShift+左键：科研树\nShift+右键：物质枪设置",
+  "rarity": "essential",
+  "category": "Console",
+  "price": 44,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "fu_monsterdetector"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Personal Tricorder.md",
+  "quality_tier": "S"
+}

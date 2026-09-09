@@ -1,0 +1,35 @@
+{
+  "entity_id": "pumpoutfu",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Mover Pump",
+  "name_zh": "液体输出泵",
+  "description_en": "Blue - connect to Liquid Pump",
+  "description_zh": "蓝色端——连接至液体泵",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Liquid Mover Pump.md",
+  "quality_tier": "A"
+}

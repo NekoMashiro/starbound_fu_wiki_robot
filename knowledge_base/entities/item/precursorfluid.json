@@ -1,0 +1,144 @@
+{
+  "entity_id": "precursorfluid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Fluid",
+  "name_zh": "量子流体",
+  "description_en": "A nearly magical space-time fluid suspended in a portable gravity well.\n+200 Fuel",
+  "description_zh": "这种神奇的时空流体悬浮在一个便携式重力井中。\n燃料+200",
+  "rarity": "legendary",
+  "category": "fuel",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "aetheriumcleaver"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "floatstaff"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fu_NFPA_precursor_fluid"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "honedlunari"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "hypercompressor"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "gravitystaff"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "antineutronium"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "fuscienceresource"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0378,
+        0.1264
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0036,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "furobotTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fualien",
+            "fumechspider",
+            "fumechspiderletheiafacility"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0378
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "aetheriumpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Vigilant",
+  "name_zh": "阳清警戒",
+  "description_en": "Powerful, focused blasts of raw cosmic energy.\r\nEnergy weapon",
+  "description_zh": "强大而聚焦的原始宇宙能量冲击。\n能量武器",
+  "rarity": "legendary",
+  "category": "machinePistol",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 1,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_arcaneSea_underground_1",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Luminescent",
+  "name_zh": "流光",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Luminescent",
+  "friendly_name_zh": "流光",
+  "ores": [
+    {
+      "ore": "arcana_mod_atlaGoldOre",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "fennix",
+    "ignome",
+    "pulpin",
+    "pyromantle",
+    "wisper"
+  ],
+  "quality_tier": "C"
+}

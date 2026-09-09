@@ -1,0 +1,32 @@
+{
+  "entity_id": "hivehog",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hivehog",
+  "name_zh": "蜂巢猪虫",
+  "description_en": "This bug never stops eating.",
+  "description_zh": "这只虫子从不停止进食。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hivehog",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "hivehog"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

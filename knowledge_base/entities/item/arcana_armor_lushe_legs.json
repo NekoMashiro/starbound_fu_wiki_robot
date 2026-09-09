@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_lushe_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Lushe Pants",
+  "name_zh": "绿蛇裤",
+  "description_en": "A casual clothing piece worn by the Gelsemis. +10% Poison res.",
+  "description_zh": "葛蔓藤穿的一种休闲服装。+10%毒素抗性。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 14
+        },
+        {
+          "item": "fabric",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "chargepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glacial Pistol",
+  "name_zh": "冰川手枪",
+  "description_en": "Eject super-cold fun at enemies.\r\nCharge increases damage",
+  "description_zh": "可发射出超冷的子弹攻击敌人。\n充能将会增加伤害",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 3,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 3
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 35
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

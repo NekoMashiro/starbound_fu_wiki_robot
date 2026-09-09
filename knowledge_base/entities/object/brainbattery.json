@@ -1,0 +1,52 @@
+{
+  "entity_id": "brainbattery",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionic Battery",
+  "name_zh": "灵能电池",
+  "description_en": "Use brains to store and transfer electrical energy! Substantial storage! Scan for Info\nStorage Capacity: 5000J",
+  "description_zh": "使用大脑来储存和转移电能！超高的传输速率，和巨大的容量！\n扫描以查看更多信息\n储存电能：5000J",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 12500,
+  "tags": [
+    "science",
+    "elder",
+    "macabre"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 12
+        },
+        {
+          "item": "psionicenergy",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 160
+        },
+        {
+          "item": "brain",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

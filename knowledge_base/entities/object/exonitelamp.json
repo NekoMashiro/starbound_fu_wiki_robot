@@ -1,0 +1,43 @@
+{
+  "entity_id": "exonitelamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Lamp",
+  "name_zh": "长石灯。",
+  "description_en": "A light made from exonite. It floats gently.",
+  "description_zh": "一个由长石制作的水晶灯，它轻轻地漂浮着。",
+  "rarity": "uncommon",
+  "category": "light",
+  "price": 400,
+  "tags": [
+    "elduukhar",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 5
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

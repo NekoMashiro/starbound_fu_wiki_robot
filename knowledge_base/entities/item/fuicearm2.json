@@ -1,0 +1,47 @@
+{
+  "entity_id": "fuicearm2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Arm II",
+  "name_zh": "寒冰臂 II",
+  "description_en": "Freezinate!",
+  "description_zh": "冻结吧！",
+  "rarity": "rare",
+  "category": "mechPart",
+  "price": 2800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 16
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        },
+        {
+          "item": "fuicearm",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fuicearm3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

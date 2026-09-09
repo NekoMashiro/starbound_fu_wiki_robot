@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_back_cherubimWings",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cherubim Wings",
+  "name_zh": "智天使之翼",
+  "description_en": "A pair of wings of the Gilten race, the holy dragons.",
+  "description_zh": "神圣之龙，镀人族的翅膀。",
+  "rarity": "Legendary",
+  "category": "backwear",
+  "price": 1600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "giltenStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "fuslopedaetherdustpanel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Dust Panel",
+  "name_zh": "以太尘面板",
+  "description_en": "Sturdy hull panels made from tungsten and aether material.",
+  "description_zh": "由钨和以太物质制成的坚固船体板。",
+  "rarity": "Legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "retexaetherdust",
+          "count": 15
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

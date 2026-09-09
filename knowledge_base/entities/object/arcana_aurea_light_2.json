@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_aurea_light_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ceiling Light",
+  "name_zh": "恒金吸顶灯",
+  "description_en": "A simple ceiling light.",
+  "description_zh": "一个简单的吸顶灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 90,
+  "tags": [
+    "light",
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

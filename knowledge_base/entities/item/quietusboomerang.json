@@ -1,0 +1,51 @@
+{
+  "entity_id": "quietusboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Boomerang",
+  "name_zh": "寂灭回旋镖",
+  "description_en": "How does this heavy boomerang even function properly?",
+  "description_zh": "这个笨重的回旋镖是如何保持正常工作的？",
+  "rarity": "rare",
+  "category": "boomerang",
+  "price": 110,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

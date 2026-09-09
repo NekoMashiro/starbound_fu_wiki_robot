@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_aurea_table_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Standard Table",
+  "name_zh": "恒金制式桌子",
+  "description_en": "A table. The purpose of this specific table is to hold items. Or even people, if they're not too heavy.",
+  "description_zh": "一张桌子。这张桌子的用途是放置物品。如果不是太重的话，还可以放人。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 160,
+  "tags": [
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

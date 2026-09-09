@@ -1,0 +1,55 @@
+{
+  "entity_id": "florandrum2",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Large Bongo",
+  "name_zh": "大型手鼓",
+  "description_en": "A bongo drum fashioned out of leather and wood.",
+  "description_zh": "一个用皮革和木头做成的手鼓。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 75,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "musical"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranvillagetowerTreasure",
+          "probability": 0.0429,
+          "count": 1
+        },
+        {
+          "pool": "floranhutvillageTreasure",
+          "probability": 0.0371,
+          "count": 1
+        },
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0339,
+        0.0429
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

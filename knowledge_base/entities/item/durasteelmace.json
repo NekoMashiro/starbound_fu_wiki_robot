@@ -1,0 +1,58 @@
+{
+  "entity_id": "durasteelmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Mace",
+  "name_zh": "耐钢钉头锤",
+  "description_en": "Thick and weighty. Design by Sacre.",
+  "description_zh": "用料扎实，异常沉重。由Sacre设计。",
+  "rarity": "uncommon",
+  "category": "mace",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

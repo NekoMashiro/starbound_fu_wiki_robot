@@ -1,0 +1,47 @@
+{
+  "entity_id": "mechlegsintrepid",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Intrepid Mech Legs",
+  "name_zh": "无畏机甲腿",
+  "description_en": "Heavy duty mech legs that balance speed and thruster power.",
+  "description_zh": "重型机甲腿，平衡速度与推进器功率。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4480,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 30
+        },
+        {
+          "item": "morphiteore",
+          "count": 8
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 35
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechlegsfuintrepid"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_crystalizedGrape",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Crystalized Grape",
+  "name_zh": "晶化葡萄",
+  "description_en": "A bunch of brilliant grapes.\n 50 seconds later after drinking, +30% Crit Rate but Damage is reduced by 40%.",
+  "description_zh": "一串明亮的葡萄。\n饮用后50秒内，+30%暴击率但伤害降低40%。",
+  "rarity": "legendary",
+  "category": "tradingCard",
+  "price": 500,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_currency_teaCoupon",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Anon",
+      "station_zh": "爱音",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_anon.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

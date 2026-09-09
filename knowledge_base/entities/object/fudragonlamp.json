@@ -1,0 +1,49 @@
+{
+  "entity_id": "fudragonlamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Brazier",
+  "name_zh": "骨制火盆",
+  "description_en": "Boney, yet tasteful.",
+  "description_zh": "别看着是骨头做成的，其实还蛮雅致的。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "science",
+    "bone"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

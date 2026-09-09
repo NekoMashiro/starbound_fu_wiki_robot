@@ -1,0 +1,41 @@
+{
+  "entity_id": "fumantizimerchlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hawker's Trousers",
+  "name_zh": "小贩裤子",
+  "description_en": "Simple leggings made from comfortably soft materials.",
+  "description_zh": "用舒适柔软的材料做成的简单打底裤。",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 35,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

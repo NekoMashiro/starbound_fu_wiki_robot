@@ -1,0 +1,39 @@
+{
+  "entity_id": "fuheartalien",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Unknown Heart",
+  "name_zh": "未知心脏",
+  "description_en": "Something had a heart. This was it.",
+  "description_zh": "某个生物曾拥有的心脏。曾经是这样的。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.1848,
+          "count": 1.5
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1206,
+          "count": 1.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

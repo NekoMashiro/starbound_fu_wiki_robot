@@ -1,0 +1,59 @@
+{
+  "entity_id": "kineticrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Redirector",
+  "name_zh": "归零",
+  "description_en": "A truly unique weapon!\r\nIncapacitate enemies\r\nRedirect in zero-g",
+  "description_zh": "这把武器非常独特。\n敌人将毫无还手之力\n将重力归零",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5.2,
+  "critChance": 4,
+  "critBonus": 5,
+  "altAbilityType": "furocketboom",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 20
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

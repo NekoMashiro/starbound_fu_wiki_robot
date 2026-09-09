@@ -1,0 +1,46 @@
+{
+  "entity_id": "elduukhartier3broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Feya Broadsword",
+  "name_zh": "菲亚宽剑",
+  "description_en": "An ornate greatsword crafted from metal and crystal.",
+  "description_zh": "一把由金属和水晶制成的华丽的大剑。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 330,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "downstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feya",
+          "count": 50
+        },
+        {
+          "item": "tungstenbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

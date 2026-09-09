@@ -1,0 +1,77 @@
+{
+  "entity_id": "furniturestation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Workbench",
+  "name_zh": "水晶工作台",
+  "description_en": "A workbench for creating furniture and decorations.",
+  "description_zh": "用来制作家具和装饰品的工作台。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "elduukhar",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 40
+        },
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "nhydri",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "furniturestation",
+    "elduubed",
+    "elduubookcase",
+    "elduucabinet",
+    "elduuceilinglamp",
+    "elduuchair",
+    "elduuconsole1",
+    "elduuconsole2",
+    "elduucouch",
+    "elduudesk",
+    "elduudesklamp",
+    "elduudrawers",
+    "elduuendtable",
+    "elduufridge",
+    "elduugemlamp",
+    "elduulongtable",
+    "elduuminifridge",
+    "elduunightstand",
+    "elduuspotlamp",
+    "elduustool",
+    "elduutable",
+    "elduuwalllamp"
+  ],
+  "quality_tier": "A"
+}

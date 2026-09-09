@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_armor_cryoHoplite_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cryocraze Helm",
+  "name_zh": "癫寒头盔",
+  "description_en": "A battle suit armor worn by Horizon Cryo Hoplites. Grants +5% Ice Res.",
+  "description_zh": "地平线癫寒重装兵穿戴的战斗服。获得+5%纱冰抗性",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 2200,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonEliteBadge",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_horizon_cryoHoplite",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

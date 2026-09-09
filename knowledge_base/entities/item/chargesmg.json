@@ -1,0 +1,72 @@
+{
+  "entity_id": "chargesmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Reaver",
+  "name_zh": "先驱掠夺者",
+  "description_en": "An ancient and terribly deadly sidearm.\r\nInflicts radiation burn",
+  "description_zh": "一把古老而可怕的致命武器。\n附加辐射烧伤效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 4.5,
+  "critChance": 2,
+  "critBonus": 2,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

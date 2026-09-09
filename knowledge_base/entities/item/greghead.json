@@ -1,0 +1,51 @@
+{
+  "entity_id": "greghead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Greg Head",
+  "name_zh": "格雷格的头",
+  "description_en": "The severed head of a Greg\nHeal 20% HP (20s)\nDrunk (1m) Madness Gain 2\nType: Raw Meat",
+  "description_zh": "Greg\n 被砍下的头颅；治愈20%HP （20s）\n 醉酒（1m）癫狂；2\n类型：生肉",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "faceskin"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "greggnog"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "idiotsandwich"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.18,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Greg Head.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "railtramstop",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rail Tram Stop",
+  "name_zh": "轨道电车站",
+  "description_en": "Calls and stops rail trams",
+  "description_zh": "按键即停轨道停靠站",
+  "rarity": "Common",
+  "category": "railPoint",
+  "price": 600,
+  "tags": [
+    "rails"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 10
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

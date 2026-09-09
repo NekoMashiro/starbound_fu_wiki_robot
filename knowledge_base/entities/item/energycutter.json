@@ -1,0 +1,64 @@
+{
+  "entity_id": "energycutter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Cutter",
+  "name_zh": "劫掠切割机",
+  "description_en": "Built to cut through hulls. Energy weapon.\r\nShort range. Slows target.\r\nAlt-Fire causes bleed, electrified",
+  "description_zh": "这把枪设计出来是被用来切割船体的。\n短射程；可破坏方块；减速目标\n次要攻击会附加出血、感电效果\n能量武器",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5,
+  "critChance": 5,
+  "critBonus": 13,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Breach Cutter.md",
+  "quality_tier": "A"
+}

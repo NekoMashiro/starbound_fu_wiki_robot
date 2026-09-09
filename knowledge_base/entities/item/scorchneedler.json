@@ -1,0 +1,146 @@
+{
+  "entity_id": "scorchneedler",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Scorch Needler",
+  "name_zh": "灼热风暴",
+  "description_en": "Blast the enemy with incendiary needles.\r\nInflicts burning",
+  "description_zh": "使用燃烧的弹药杀伤敌人！\n附加燃烧效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "fire",
+    "upgradeableWeapon",
+    "crystal"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 2,
+  "critBonus": 2,
+  "drop_sources": {
+    "total_pools": 14,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuRareWeapons",
+          "probability": 0.049,
+          "count": 1
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.03,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.049
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0378
+      ]
+    },
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.028,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0102,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0053,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0036,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0025,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0025,
+        0.028
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0009,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "elduutable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Table",
+  "name_zh": "水晶桌子",
+  "description_en": "A table made from cultivated crystal.",
+  "description_zh": "一张人工水晶制成的桌子。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "elduukhar",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcana_lykoi_storage_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lykoi Small Crate",
+  "name_zh": "狼猫小板条箱",
+  "description_en": "A small metal crate for storing goods.",
+  "description_zh": "用于存放货物的小型金属板条箱。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "lykoi",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Frogg Furnishing",
+      "station_zh": "蛤蛤家具",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

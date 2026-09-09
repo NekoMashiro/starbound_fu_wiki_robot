@@ -1,0 +1,150 @@
+{
+  "entity_id": "orion_crafting_ursaplate",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ursaplate",
+  "name_zh": "大熊星板",
+  "description_en": "A reinforced plate material used to manufacture most of Orion's goods.",
+  "description_zh": "一种增强板材，用于制造俄里翁的大多数产品。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 8,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 26,
+        "examples": [
+          "orion_booster_1",
+          "orion_booster_2",
+          "orion_booster_3",
+          "orion_booster_4",
+          "orion_deco_15"
+        ]
+      },
+      "light": {
+        "count": 15,
+        "examples": [
+          "orion_console_1",
+          "orion_console_2",
+          "orion_console_3",
+          "orion_console_4",
+          "orion_light_1"
+        ]
+      },
+      "storage": {
+        "count": 14,
+        "examples": [
+          "orion_bookcase_1",
+          "orion_bookcase_3",
+          "orion_storage_1",
+          "orion_storage_10",
+          "orion_storage_11"
+        ]
+      },
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "orion_chair_1",
+          "orion_chair_2",
+          "orion_chair_3",
+          "orion_chair_4",
+          "orion_server_1"
+        ]
+      },
+      "mechPart": {
+        "count": 5,
+        "examples": [
+          "mwhaddon_mech_arm_dualstalker",
+          "mwhaddon_mech_arm_gemini",
+          "mwhaddon_mech_body_peregrine",
+          "mwhaddon_mech_booster_comet",
+          "mwhaddon_mech_leg_mercury"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "orion_door_1",
+          "orion_door_2"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_back_orionBoosterEx"
+        ]
+      },
+      "^yellow;1级攻击无人机": {
+        "count": 1,
+        "examples": [
+          "sd_exp_t1oriondrone_controller"
+        ]
+      }
+    },
+    "total": 75
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionChestTreasure",
+          "probability": 2.8571,
+          "count": 2
+        },
+        {
+          "pool": "arcana_dungeonloots_orionBasicTreasure",
+          "probability": 0.75,
+          "count": 2,
+          "monsters": [
+            "arcana_monster_orionHeavy",
+            "at_ext_orion_heavyrobot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.75,
+        2.8571
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_orionDrone3",
+          "probability": 1.0,
+          "count": 4,
+          "monsters": [
+            "arcana_monster_orionDrone3"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Ursaplate.md",
+  "quality_tier": "S"
+}

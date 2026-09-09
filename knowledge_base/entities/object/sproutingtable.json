@@ -1,0 +1,42 @@
+{
+  "entity_id": "sproutingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sprouting Table",
+  "name_zh": "植物分析台",
+  "description_en": "Extracts useful Genes from Seeds.",
+  "description_zh": "用于从种子中提取基因。",
+  "rarity": "Essential",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "fu",
+    "science",
+    "booze",
+    "plants"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "firedclay",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Sprouting Table.md",
+  "quality_tier": "A"
+}

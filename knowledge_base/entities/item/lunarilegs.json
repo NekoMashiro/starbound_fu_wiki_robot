@@ -1,0 +1,47 @@
+{
+  "entity_id": "lunarilegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Greaves",
+  "name_zh": "月晶腿甲",
+  "description_en": "Set Bonuses:\r\n +12% Energy Regen\r\n Lunari weapons: Damage x1.15, +4% Crit Chance",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

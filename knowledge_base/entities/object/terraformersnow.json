@@ -1,0 +1,56 @@
+{
+  "entity_id": "terraformersnow",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Snowy Terraformer",
+  "name_zh": "寒带地形转换器",
+  "description_en": "Transforms a planet's climate into a chilly taiga.",
+  "description_zh": "将星球的气候转换为寒冷的针叶林。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cryonicextract",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "snow",
+          "count": 60
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

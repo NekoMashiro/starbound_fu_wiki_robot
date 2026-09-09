@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_essence_intimaEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Intima Essence",
+  "name_zh": "脉动精纯",
+  "description_en": "A solidified essence of the beating, aspiring heart.",
+  "description_zh": "渴跃活心之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_terraformer_animus"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_randomitem_aspirite",
+          "probability": 0.4,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

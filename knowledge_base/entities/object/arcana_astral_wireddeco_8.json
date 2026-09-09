@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_astral_wireddeco_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Atlantis Display",
+  "name_zh": "海金显示屏",
+  "description_en": "An advertisement screen of Atlantis.",
+  "description_zh": "这个LED屏上有着大大的海金logo。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 320,
+  "tags": [
+    "light",
+    "astral",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_oceanicTechCard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

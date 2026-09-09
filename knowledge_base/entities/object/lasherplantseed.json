@@ -1,0 +1,81 @@
+{
+  "entity_id": "lasherplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lasher Seed",
+  "name_zh": "鞭笞者种子",
+  "description_en": "Lashers are nasty things, and can induce rage. Their tongues are useful, too.",
+  "description_zh": "可以收获鞭笞者茎干，食用后会提高伤害。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 16,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 7
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "stranglevineseed",
+          "count": 3
+        },
+        {
+          "item": "pussplum",
+          "count": 10
+        },
+        {
+          "item": "fleshstrand",
+          "count": 8
+        },
+        {
+          "item": "mutagene1",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^#e43774;Upgradeable Tool^reset;": {
+        "count": 1,
+        "examples": [
+          "lasherhook"
+        ]
+      },
+      "whip": {
+        "count": 1,
+        "examples": [
+          "lasherwhip"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lasherHarvest",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

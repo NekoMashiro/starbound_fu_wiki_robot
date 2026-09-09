@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Rapier",
+  "name_zh": "先驱刺剑",
+  "description_en": "Cosmic power in slim, dangerous styling.\r\nInflicts Rad-Burn",
+  "description_zh": "纤细而危险的造型中蕴含着宇宙的力量。\n附加辐射烧伤效果",
+  "rarity": "legendary",
+  "category": "Rapier",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "precursor"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.45,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "piercecombo",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1597,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0127,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0127,
+        0.1597
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0391,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0127,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

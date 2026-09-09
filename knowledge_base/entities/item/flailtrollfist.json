@@ -1,0 +1,162 @@
+{
+  "entity_id": "flailtrollfist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trollfist Striker",
+  "name_zh": "“上钩”拳",
+  "description_en": "What is this?\r\nBreaks blocks.",
+  "description_zh": "这是什么鬼？！\n能够破坏方块",
+  "rarity": "rare",
+  "category": "Striker",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "upgradeableWeapon",
+    "failtrollflail"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 1,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "drop_sources": {
+    "total_pools": 31,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0578,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0103,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0578
+      ]
+    },
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0019,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0018,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0019
+      ]
+    },
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0012,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0002
+      ]
+    }
+  },
+  "wiki_ref": "Trollfist Striker.md",
+  "quality_tier": "A"
+}

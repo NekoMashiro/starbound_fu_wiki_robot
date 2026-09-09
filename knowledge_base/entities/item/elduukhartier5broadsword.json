@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier5broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fused Thanatite Broadsword",
+  "name_zh": "熔炼的心叶石宽剑",
+  "description_en": "An elegant greatsword with a dragon's head as a pommel.",
+  "description_zh": "一把优雅的大剑，剑的圆头是一只巨龙的头部。",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 530,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.22,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thanatite",
+          "count": 20
+        },
+        {
+          "item": "durasteelbar",
+          "count": 15
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

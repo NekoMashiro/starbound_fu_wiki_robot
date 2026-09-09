@@ -1,0 +1,149 @@
+{
+  "entity_id": "salvagearm",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Salvaged Power Coupling",
+  "name_zh": "回收动力联结",
+  "description_en": "This component could be useful for crafting mech arms.",
+  "description_zh": "该组件可以用于制作机甲手臂。",
+  "rarity": "Common",
+  "category": "salvageComponent",
+  "price": 50,
+  "tags": [
+    "reagent",
+    "salvage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 80
+        }
+      ],
+      "output_count": 20,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 26,
+    "chest_loot": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.75,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.2554,
+          "count": 1
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.1786,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.1786,
+          "count": 1
+        },
+        {
+          "pool": "penguinshipChest",
+          "probability": 0.1786,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0048,
+        0.75
+      ]
+    },
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "capsulespace",
+          "probability": 0.5893,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_npcdrops_scavdiver",
+          "probability": 0.4211,
+          "count": 1
+        },
+        {
+          "pool": "salvageComponent",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.1786,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0442,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0242,
+        0.5893
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.2036,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuorbisHarvest",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "huntingmechanicalLarge",
+          "probability": 0.0403,
+          "count": 1,
+          "monsters": [
+            "eyebaht",
+            "nanoswarm"
+          ]
+        },
+        {
+          "pool": "huntingmechanical",
+          "probability": 0.0207,
+          "count": 1,
+          "monsters": [
+            "fudrone"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0207,
+        0.2
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

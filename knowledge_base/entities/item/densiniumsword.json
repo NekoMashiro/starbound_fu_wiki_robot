@@ -1,0 +1,57 @@
+{
+  "entity_id": "densiniumsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Broadsword",
+  "name_zh": "超致密宽剑",
+  "description_en": "A powerful, super-dense blade.\r\nInflicts Electrified",
+  "description_zh": "一把强大的、超密集的刀刃。\n感电",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 425,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "nightar",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.2,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "权能",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 7
+        },
+        {
+          "item": "isogenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

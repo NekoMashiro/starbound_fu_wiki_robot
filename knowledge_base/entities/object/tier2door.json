@@ -1,0 +1,53 @@
+{
+  "entity_id": "tier2door",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tungsten Door",
+  "name_zh": "钨门",
+  "description_en": "A basic tungsten door.",
+  "description_zh": "一扇基本的钨门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 60,
+  "tags": [
+    "door",
+    "tier2"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 2
+        },
+        {
+          "item": "reddye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

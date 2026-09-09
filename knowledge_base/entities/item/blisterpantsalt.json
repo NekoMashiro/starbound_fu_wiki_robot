@@ -1,0 +1,52 @@
+{
+  "entity_id": "blisterpantsalt",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pustule Legplates",
+  "name_zh": "脓包头盔腿甲",
+  "description_en": "Set Bonuses:\r\n Glow\r\n Resist: Mental 20%\r\n Bio/Blister Weapons: +4% Crit Chance and Damage x1.15\r\n Immune: Poisoned, Proto-Poison, Pus, Liq.Nitrogen",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blisterbushplantfood",
+          "count": 5
+        },
+        {
+          "item": "blisterpants",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

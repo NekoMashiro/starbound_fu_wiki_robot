@@ -1,0 +1,46 @@
+{
+  "entity_id": "causticstaghead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Caustic Stag Helmet",
+  "name_zh": "腐蚀鹿盔",
+  "description_en": "Fear the mighty bug!",
+  "description_zh": "畏惧强大的臭虫吧！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "alienChestTreasure",
+          "probability": 0.1155,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.097,
+          "count": 1
+        },
+        {
+          "pool": "alienTreasure",
+          "probability": 0.0811,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0811,
+        0.097
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

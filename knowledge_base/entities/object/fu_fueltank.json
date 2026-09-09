@@ -1,0 +1,38 @@
+{
+  "entity_id": "fu_fueltank",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fuel Tank",
+  "name_zh": "燃料罐",
+  "description_en": "A tank for storing ship fuel. Holds 1000 Fuel. BYOS Only",
+  "description_zh": "用来储存船上燃料的油箱。可装1000单位的燃料。\n只限BYOS",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "mechanical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 25
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

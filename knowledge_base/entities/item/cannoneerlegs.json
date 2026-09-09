@@ -1,0 +1,42 @@
+{
+  "entity_id": "cannoneerlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Swashbuckler Pants",
+  "name_zh": "暴徒长裤",
+  "description_en": "Set Bonuses:\r\n Rapier Mastery: +15%\r\n +8% Jump, -20% Hunger Drain\r\n Rapier/Pistol: Damage x1.075/1.15",
+  "description_zh": "套装奖励:\n 刺剑专精：+15%\n +8% 跳跃, -20%饥饿速率\n 刺剑/手枪: 伤害x1.075/1.15.",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 7
+        },
+        {
+          "item": "leather",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

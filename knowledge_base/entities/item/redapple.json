@@ -1,0 +1,94 @@
+{
+  "entity_id": "redapple",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Red Apple",
+  "name_zh": "红苹果",
+  "description_en": "A ripe red apple. Type: Fruit",
+  "description_zh": "一颗熟透的红苹果。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 4,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 7,
+        "examples": [
+          "applecinnamonpie",
+          "applecrumble",
+          "bigbreakfast",
+          "candyapple",
+          "eldurkey"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "applejuice",
+          "appleschnapps"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "applehoneystraw"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "applemash"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "monarch_deco_7"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "avianairshipTreasure",
+          "probability": 0.0685,
+          "count": 1.4
+        },
+        {
+          "pool": "avianvillageTreasure",
+          "probability": 0.065,
+          "count": 1.4
+        },
+        {
+          "pool": "aviannativevillageTreasure",
+          "probability": 0.065,
+          "count": 1.4
+        },
+        {
+          "pool": "glitchcastleTreasure",
+          "probability": 0.065,
+          "count": 1.4
+        },
+        {
+          "pool": "glitchvillageTreasure",
+          "probability": 0.065,
+          "count": 1.4
+        }
+      ],
+      "prob_range": [
+        0.065,
+        0.0685
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "candyapple"
+  ],
+  "quality_tier": "S"
+}

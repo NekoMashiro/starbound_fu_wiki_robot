@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_plant_9",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Wild Flowers",
+  "name_zh": "野生小花",
+  "description_en": "A patch of small wild flowers.",
+  "description_zh": "一片野生的小花。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

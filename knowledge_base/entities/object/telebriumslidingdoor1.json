@@ -1,0 +1,53 @@
+{
+  "entity_id": "telebriumslidingdoor1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Force Door",
+  "name_zh": "特勒贝晶体碎片原力门",
+  "description_en": "Telebrium force-field barrier. Opens... Closes...",
+  "description_zh": "特勒贝晶体碎片力场屏障。打开...关闭...",
+  "rarity": "uncommon",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "door",
+    "telebrium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "moonstone",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

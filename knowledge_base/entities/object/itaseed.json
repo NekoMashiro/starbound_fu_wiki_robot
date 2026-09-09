@@ -1,0 +1,64 @@
+{
+  "entity_id": "itaseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ita Flower Seed",
+  "name_zh": "伊达花种子",
+  "description_en": "A unique strain of Lotus, full of potent antitoxins.",
+  "description_zh": "可以收获伊达花，食用后会免疫蜂蜇、中毒和脓液。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "cell_spliced",
+          "count": 1
+        },
+        {
+          "item": "nissseed",
+          "count": 1
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 20
+        },
+        {
+          "item": "ff_silicon",
+          "count": 6
+        },
+        {
+          "item": "phosphorus",
+          "count": 13
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "itaHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

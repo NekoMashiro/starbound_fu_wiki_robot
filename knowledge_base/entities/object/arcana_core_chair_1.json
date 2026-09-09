@@ -1,0 +1,30 @@
+{
+  "entity_id": "arcana_core_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Core Stool",
+  "name_zh": "炉芯椅子",
+  "description_en": "A stool made from core fragments.",
+  "description_zh": "由炉芯碎片制成的凳子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "core"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 400
+        }
+      ],
+      "output_count": 1,
+      "station": "Frogg Furnishing",
+      "station_zh": "蛤蛤家具",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

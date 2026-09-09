@@ -1,0 +1,49 @@
+{
+  "entity_id": "protectoratedormlight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Light",
+  "name_zh": "大地守护团之光",
+  "description_en": "A sleek light fixture commonplace in Protectorate structures.",
+  "description_zh": "大地守护团建筑中常见的光滑灯具。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "protectorate"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "protectorateset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

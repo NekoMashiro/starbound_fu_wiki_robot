@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_archaic_table_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Wall Shelves",
+  "name_zh": "古朴壁架",
+  "description_en": "A set of ancient wall shelves.",
+  "description_zh": "一套古代壁架。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 70,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

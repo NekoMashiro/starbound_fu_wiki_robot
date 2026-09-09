@@ -1,0 +1,40 @@
+{
+  "entity_id": "rustmead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rust Mead",
+  "name_zh": "生锈蜜酒",
+  "description_en": "A Glitch favorite.\n+4 Defense (1m)\n35% Slow , Drunk (30s)",
+  "description_zh": "电子人的最爱。\n+4防御(持续1m)\n35%减速，醉酒(持续30s)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 700,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkalemash",
+          "count": 2
+        },
+        {
+          "item": "liquidblacktar",
+          "count": 4
+        },
+        {
+          "item": "shellhoneyjar",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

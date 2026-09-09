@@ -1,0 +1,42 @@
+{
+  "entity_id": "swtjc_ewg_commonmultigrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Common Multi-Grenade Launcher",
+  "name_zh": "普通的榴弹发射器",
+  "description_en": "For when you need to quickly lob multiple grenades the extra distance.",
+  "description_zh": "当你需要远距离使某种东西爆炸时的最佳选择。",
+  "rarity": "Common",
+  "category": "swtjc_ewg_multiGrenadeLauncher",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    5.5,
+    6.5
+  ],
+  "critChance": 2,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

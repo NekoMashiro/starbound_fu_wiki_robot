@@ -1,0 +1,31 @@
+{
+  "entity_id": "placeablechampagne",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Placeable Champagne",
+  "name_zh": "香槟",
+  "description_en": "Brand New! Placeable Champagne!",
+  "description_zh": "还没喝过的香槟！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "champagne",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

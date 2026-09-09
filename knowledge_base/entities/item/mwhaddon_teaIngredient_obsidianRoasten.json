@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_obsidianRoasten",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Obsidian Roasten",
+  "name_zh": "曜石岩茶",
+  "description_en": "The philosophical game of life and rocks.\n For 45 seconds after drinking, gain Burning Immunity and +10% Fire Res.",
+  "description_zh": "生命与岩石的哲学思辨。\n饮用后45秒内，免疫燃烧且烈焰抗性+10%。",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

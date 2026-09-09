@@ -1,0 +1,53 @@
+{
+  "entity_id": "triwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trianglium Whip",
+  "name_zh": "三棱鞭",
+  "description_en": "Trianglium shards gravitated into a whip. Don't ask, just whip.\r\nShoots radioactive exploding shards",
+  "description_zh": "三棱石碎片镶嵌进了鞭子。别问，问就是鞭笞。\n发射爆炸放射性碎片。",
+  "rarity": "rare",
+  "category": "whip",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "whipcrack",
+  "altAbilityType": "triangliumblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

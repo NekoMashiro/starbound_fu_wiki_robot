@@ -1,0 +1,64 @@
+{
+  "entity_id": "irradiumblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium War Knife",
+  "name_zh": "镭制战刀",
+  "description_en": "Built for conquest.\r\nInflicts Rad-Burn",
+  "description_zh": "为征服而铸。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 5
+        },
+        {
+          "item": "ff_mercury",
+          "count": 5
+        },
+        {
+          "item": "liquidirradium",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

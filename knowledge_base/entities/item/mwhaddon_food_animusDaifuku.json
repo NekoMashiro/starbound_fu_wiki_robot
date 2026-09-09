@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_food_animusDaifuku",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Animus Daifuku",
+  "name_zh": "生源大福",
+  "description_en": "[Voyage] A common food from Hylotls.\n\n+Restores 25% Health in 15 sec.\n+20% Max Health 2 min 15 sec.",
+  "description_zh": "[远行]鲛人间流行的食物。\n\n15秒逐渐恢复25%生命值\n2分钟15秒+20%最大生命值",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rice",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_farmable_veinberry",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

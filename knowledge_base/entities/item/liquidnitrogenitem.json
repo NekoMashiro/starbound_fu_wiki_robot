@@ -1,0 +1,112 @@
+{
+  "entity_id": "liquidnitrogenitem",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Nitrogen",
+  "name_zh": "液氮",
+  "description_en": "A measure of nitrogen at temperatures at or below 77K. Proceed with care.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的温度在77K或低于77K的温度的氮。谨慎使用。\n可离心。",
+  "rarity": "uncommon",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "isogenbed",
+          "isogencabinet",
+          "isogenchair",
+          "isogencouch",
+          "isogendesk"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "isogenbookcase",
+          "isogenchestlarge",
+          "isogenchestsmall",
+          "isogendrawers",
+          "isogennightstand"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "isogenceilinglamp",
+          "isogendesklamp",
+          "isogenwalllamp"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "chargepistol",
+          "isogensemiautopistol"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "isogenfridge",
+          "isogenminifridge"
+        ]
+      },
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "fufreezecannon"
+        ]
+      },
+      "flamethrower": {
+        "count": 1,
+        "examples": [
+          "frostcannonarm"
+        ]
+      },
+      "Magnorb": {
+        "count": 1,
+        "examples": [
+          "magnorbfrost"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.1044,
+          "count": 30
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Liquid Nitrogen.md",
+  "quality_tier": "S"
+}

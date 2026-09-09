@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorpillar2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Bright Pillar",
+  "name_zh": "先驱亮柱",
+  "description_en": "A strong support made of unknown metals.",
+  "description_zh": "一个由未知金属制成的牢固支架。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "thatch",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Thatch",
+  "name_zh": "茅草屋顶",
+  "description_en": "Traditional thatched roofing.",
+  "description_zh": "传统的茅草屋顶。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 5
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "nightarmedievalcellbed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

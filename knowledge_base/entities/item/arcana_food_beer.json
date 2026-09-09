@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_food_beer",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Beer",
+  "name_zh": "啤酒",
+  "description_en": "A refreshing pint of golden, frothy beer in a clear glass.",
+  "description_zh": "装在透明玻璃杯中的金色泡沫啤酒，令人神清气爽。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_cafe.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_beer",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Beer.md",
+  "quality_tier": "S"
+}

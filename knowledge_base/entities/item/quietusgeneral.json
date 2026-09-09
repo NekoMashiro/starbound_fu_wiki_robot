@@ -1,0 +1,59 @@
+{
+  "entity_id": "quietusgeneral",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Generals' Blade",
+  "name_zh": "将军长剑",
+  "description_en": "Heavy-duty quietus weapon with seriously sharp edges.",
+  "description_zh": "重型的寂灭武器，带有不能忽视的利刃。",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 12,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "blooddiamond",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

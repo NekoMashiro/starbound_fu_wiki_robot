@@ -1,0 +1,57 @@
+{
+  "entity_id": "monarch_deco_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Apple Barrels",
+  "name_zh": "苹果桶",
+  "description_en": "Some barrels of tasty red apples.",
+  "description_zh": "桶装的美味红苹果。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "glitch",
+    "glitchcastle"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "barrellarge",
+          "count": 1
+        },
+        {
+          "item": "barrel",
+          "count": 1
+        },
+        {
+          "item": "redapple",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Monarch Crafting Table",
+      "station_zh": "帝王制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

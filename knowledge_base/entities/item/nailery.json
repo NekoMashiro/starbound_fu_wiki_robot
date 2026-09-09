@@ -1,0 +1,44 @@
+{
+  "entity_id": "nailery",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nailery",
+  "name_zh": "射钉草",
+  "description_en": "Craft into bombs, or extract for iron.\nPoisoned: 5s\nType: Robot Food",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "nailbomb"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "oilstew"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "naileryHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

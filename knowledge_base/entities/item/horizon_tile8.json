@@ -1,0 +1,68 @@
+{
+  "entity_id": "horizon_tile8",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Reinforced Wall",
+  "name_zh": "强化墙壁",
+  "description_en": "A reinforced solid defense wall.",
+  "description_zh": "强化过的坚实防御墙。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 2
+        }
+      ],
+      "output_count": 60,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_horizonTiles",
+          "probability": 0.35,
+          "count": 20
+        },
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.35,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.35,
+        0.35
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

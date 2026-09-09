@@ -1,0 +1,93 @@
+{
+  "entity_id": "pureerchius",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pure Erchius Crystal",
+  "name_zh": "纯净厄尔吉斯晶体",
+  "description_en": "You've never seen a more pristine erchius crystal.\n+25 Fuel",
+  "description_zh": "你不会看见比它更纯净的厄尔吉斯晶体了。\n燃料+25",
+  "rarity": "Common",
+  "category": "fuel",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 5
+        },
+        {
+          "item": "alienwoodsap",
+          "count": 2
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 23,
+        "examples": [
+          "fu_booster_large4",
+          "fu_booster_large5",
+          "fu_booster_large6",
+          "fu_booster_large7",
+          "fu_booster_large8"
+        ]
+      },
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "fu_ftl_humanUpgrade",
+          "fu_ftldrivemk3a",
+          "fu_ftldrivemk3b",
+          "fu_ftldrivemk3c"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "erchiusartifactaugment"
+        ]
+      },
+      "Motion Device": {
+        "count": 1,
+        "examples": [
+          "perpetualaccelerator"
+        ]
+      }
+    },
+    "total": 29
+  },
+  "quality_tier": "S"
+}

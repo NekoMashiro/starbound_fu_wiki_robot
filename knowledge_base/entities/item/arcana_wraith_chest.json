@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_wraith_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Wraith Carapace",
+  "name_zh": "幽灵甲壳",
+  "description_en": "A more refined armor, built with good swiftness and toughness.",
+  "description_zh": "精心锻造的盔甲，具有更好的机动性和坚固性。",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 2000,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "silk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

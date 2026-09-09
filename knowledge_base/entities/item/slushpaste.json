@@ -1,0 +1,43 @@
+{
+  "entity_id": "slushpaste",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slushpaste",
+  "name_zh": "观音土",
+  "description_en": "A pureed mixture of snow and plant matter that can barely be termed food. It'll keep you from starving, but only just.\nHeal 10 (2s) Type: Plant",
+  "description_zh": "一种雪泥和植物的混合物，几乎称不上是食物。不过这样你就不会饿肚子了，但也只是刚刚好。\n治疗10点生命值(2s内)\n类型：植物",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "snow",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "redsnow"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

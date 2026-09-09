@@ -1,0 +1,75 @@
+{
+  "entity_id": "pineapple",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pineapple",
+  "name_zh": "菠萝",
+  "description_en": "A tropical treat! Type: Fruit",
+  "description_zh": "热带的盛宴！\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 160,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pineapplebasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 6,
+        "examples": [
+          "bananasplit",
+          "brineapple",
+          "fruitsalad",
+          "oceansalsa",
+          "pineapplejam"
+        ]
+      },
+      "drink": {
+        "count": 4,
+        "examples": [
+          "fupinacolada",
+          "pineapplejuice",
+          "sweetpunch",
+          "tropicalpunch"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "pineapplebasket"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pineappleHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "pineapplepizzaslice",
+    "pineapplejuice"
+  ],
+  "quality_tier": "S"
+}

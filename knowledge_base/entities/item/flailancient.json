@@ -1,0 +1,58 @@
+{
+  "entity_id": "flailancient",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Striker",
+  "name_zh": "远古打击者",
+  "description_en": "Powerful, statement making fun.\r\nBreaks blocks\r\nStuns enemies",
+  "description_zh": "强大，能够带来愉悦的感受。\n能够破坏方块\n击晕敌人",
+  "rarity": "legendary",
+  "category": "Striker",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "upgradeableWeapon",
+    "ancient"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 12,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 8000
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

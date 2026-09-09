@@ -1,0 +1,42 @@
+{
+  "entity_id": "weaponshuffler",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weapon Shuffler",
+  "name_zh": "武器乱序机",
+  "description_en": "Re-randomizes items using Upgrade Modules.",
+  "description_zh": "使用升级模块重新随机分配物品的数值。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 2001,
+  "tags": [
+    "crafting",
+    "science",
+    "tech",
+    "fu"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_upgradetable",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Weapon Shuffler.md",
+  "quality_tier": "A"
+}

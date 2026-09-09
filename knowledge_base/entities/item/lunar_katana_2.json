@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunar_katana_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Mamushi",
+  "name_zh": "蛇蝮",
+  "description_en": "A katana forged from luminarium, also known as the serpent blade. Inflicts Doomed on crit.",
+  "description_zh": "由月金锻造的武士刀，又称蛇形刀。暴击时施加毁灭。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 3200,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "arcana_lunar",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 9.6,
+  "primaryAbilityType": "arcana_tachi_combo",
+  "altAbilityType": "arcana_tachi_ability_serpentineStrike",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_luminariumBar",
+          "count": 18
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 24
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "magnorbpenumbrite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Magnorb",
+  "name_zh": "半影磁力珠",
+  "description_en": "Frosty balls of danger decimate the enemy.",
+  "description_zh": "危险的冰霜球会消灭敌人。",
+  "rarity": "uncommon",
+  "category": "Magnorb",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

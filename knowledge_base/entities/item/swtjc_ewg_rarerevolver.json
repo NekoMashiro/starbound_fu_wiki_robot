@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_rarerevolver",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare High-Caliber Pistol",
+  "name_zh": "精良的左轮手枪",
+  "description_en": "A small handgun with a powerful punch.",
+  "description_zh": "射速慢的手枪。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_revolver",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.0,
+    5.65
+  ],
+  "critChance": 1,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

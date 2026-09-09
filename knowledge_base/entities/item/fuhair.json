@@ -1,0 +1,48 @@
+{
+  "entity_id": "fuhair",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bunch of hair",
+  "name_zh": "头发束",
+  "description_en": "A pile of hair.",
+  "description_zh": "一堆头发。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "kevintrash",
+          "probability": 0.576,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.1848,
+          "count": 1.5
+        }
+      ],
+      "prob_range": [
+        0.1848,
+        0.576
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1206,
+          "count": 1.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

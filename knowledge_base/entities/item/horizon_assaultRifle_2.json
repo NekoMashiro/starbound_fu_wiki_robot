@@ -1,0 +1,62 @@
+{
+  "entity_id": "horizon_assaultRifle_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tormentum",
+  "name_zh": "苦楚",
+  "description_en": "A dark rifle, shoots necroium-made bullets.",
+  "description_zh": "由死金制成的黑暗步枪。",
+  "rarity": "Rare",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "horizon"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 44.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_assaultRifle"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

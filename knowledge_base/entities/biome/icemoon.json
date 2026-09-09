@@ -1,0 +1,85 @@
+{
+  "entity_id": "icemoon",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frozen Moon",
+  "name_zh": "冰冻卫星",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Frozen Moon",
+  "friendly_name_zh": "冰冻卫星",
+  "ores": [
+    {
+      "ore": "copper",
+      "weight": 0.9
+    },
+    {
+      "ore": "silver",
+      "weight": 0.9
+    },
+    {
+      "ore": "gold",
+      "weight": 0.9
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.9
+    },
+    {
+      "ore": "erchius",
+      "weight": 0.9
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.8
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.7
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.7
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.4
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.15
+    }
+  ],
+  "monsters": [
+    "bee_loamzipper",
+    "bee_rimewing",
+    "cryopod",
+    "frostlit",
+    "frosttop",
+    "fusnowball",
+    "fusnowfennix",
+    "glitchtop",
+    "rimeling",
+    "wisper",
+    "wisper7"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:moon",
+        "/weather.config:snowy",
+        "/weather.config:snowywindy",
+        "/weather.config:snowywet",
+        "/weather.config:snowyfrozenlesser",
+        "/weather.config:snowyfrozen"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomecold2",
+    "biomeairless"
+  ],
+  "wiki_ref": "Frozen Moon.md",
+  "quality_tier": "C"
+}

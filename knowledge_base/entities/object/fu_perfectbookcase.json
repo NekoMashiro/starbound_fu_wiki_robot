@@ -1,0 +1,41 @@
+{
+  "entity_id": "fu_perfectbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perfect Bookcase",
+  "name_zh": "完美的书柜",
+  "description_en": "A perfect bookcase full of books.",
+  "description_zh": "一个摆满了书籍的完美的书柜。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "knowledge",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "perfectlygenericitem",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

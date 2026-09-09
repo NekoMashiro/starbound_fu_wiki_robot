@@ -1,0 +1,27 @@
+{
+  "entity_id": "vextonguestamen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vextongue Stamen",
+  "name_zh": "凸舌蕊",
+  "description_en": "Immune: Proto-Poison: 2m\nHeal 60% HP: 90s",
+  "description_zh": "免疫: 原毒: 2m\n治疗 60% HP: 90s",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vextongueHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

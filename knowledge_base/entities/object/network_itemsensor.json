@@ -1,0 +1,37 @@
+{
+  "entity_id": "network_itemsensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Sensor",
+  "name_zh": "物品感应器",
+  "description_en": "Detects item drops within 8 tiles.",
+  "description_zh": "检测8格内的物品掉落。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Item Sensor.md",
+  "quality_tier": "A"
+}

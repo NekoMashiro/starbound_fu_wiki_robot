@@ -1,0 +1,77 @@
+{
+  "entity_id": "rareshotgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rare Shotgun",
+  "name_zh": "稀有的的霰弹枪",
+  "description_en": "Fires a spread that's lethal at close and mid range.",
+  "description_zh": "在近距离和中距离发射致命的霰弹。",
+  "rarity": "Rare",
+  "category": "shotgun",
+  "price": 1140,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    9.5,
+    10.5
+  ],
+  "critChance": 3,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 5,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.2331,
+          "count": 1,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.1717,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

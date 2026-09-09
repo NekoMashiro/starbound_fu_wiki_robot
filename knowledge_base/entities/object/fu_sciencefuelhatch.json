@@ -1,0 +1,38 @@
+{
+  "entity_id": "fu_sciencefuelhatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Science Fuel Hatch",
+  "name_zh": "科学燃料仓",
+  "description_en": "Accepts fuel for the ship's FTL dive.",
+  "description_zh": "接受飞船FTL行驶所需的燃料。",
+  "rarity": "Common",
+  "category": "container",
+  "price": 0,
+  "tags": [
+    "newfuelhatch"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 25
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

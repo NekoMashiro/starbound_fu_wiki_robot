@@ -1,0 +1,51 @@
+{
+  "entity_id": "lunaristaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Staff",
+  "name_zh": "月晶法杖",
+  "description_en": "Powered by the crystal moon.",
+  "description_zh": "水晶之月能量",
+  "rarity": "common",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "lunari"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "altAbilityType": "slowzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 6
+        },
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

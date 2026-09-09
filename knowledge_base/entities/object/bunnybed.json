@@ -1,0 +1,50 @@
+{
+  "entity_id": "bunnybed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bunny Bed",
+  "name_zh": "兔子床",
+  "description_en": "Hop on off to dreamland in this adorable bunny themed bed!",
+  "description_zh": "在这张可爱的兔子主题床上跳到梦乡吧！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "bunny",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bunnyset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

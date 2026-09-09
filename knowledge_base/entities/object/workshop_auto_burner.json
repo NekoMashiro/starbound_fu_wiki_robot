@@ -1,0 +1,45 @@
+{
+  "entity_id": "workshop_auto_burner",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "[Power] Burner",
+  "name_zh": "[动力]烧炉",
+  "description_en": "A simple furnace that burns wood, plant fibre or coal to produce power. Can be wired to other machines.",
+  "description_zh": "熔炼木头、植物纤维或煤炭产生电力的简易熔炉。可以与其它机器相连接。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 12
+        },
+        {
+          "item": "copperbar",
+          "count": 8
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

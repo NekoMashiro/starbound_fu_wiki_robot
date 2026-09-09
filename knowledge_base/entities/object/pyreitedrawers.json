@@ -1,0 +1,45 @@
+{
+  "entity_id": "pyreitedrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Drawers",
+  "name_zh": "永燃抽屉",
+  "description_en": "A set of drawers. They're too hot to touch.",
+  "description_zh": "一套抽屉。它们太热了，摸不着。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "pyreite",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,195 @@
+{
+  "entity_id": "titaniumbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Bar",
+  "name_zh": "钛锭",
+  "description_en": "Ore for titanium bars is primarily found on planets orbiting temperate stars.",
+  "description_zh": "钛矿常见于温和星系的行星。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 85,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_cybernetic_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "titaniumore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 480
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 41,
+        "examples": [
+          "carbonbed",
+          "carbonbookcase",
+          "carboncabinet",
+          "carbonchair",
+          "carboncouch"
+        ]
+      },
+      "door": {
+        "count": 29,
+        "examples": [
+          "apexshipdoor",
+          "apexshiphatch",
+          "avianshipdoor",
+          "avianshiphatch",
+          "catshipdoor"
+        ]
+      },
+      "mechPart": {
+        "count": 28,
+        "examples": [
+          "fu_dumecharm",
+          "fumechmining0",
+          "mecharmdrill2",
+          "mecharmflakcannon2",
+          "mecharmfuhuntergun"
+        ]
+      },
+      "headarmour": {
+        "count": 23,
+        "examples": [
+          "apextier3head",
+          "arcana_armor_astraea_head",
+          "arcana_armor_goldmonger_head",
+          "arcana_armor_gralsigh_head",
+          "arcana_wraith_head"
+        ]
+      },
+      "decorative": {
+        "count": 20,
+        "examples": [
+          "Antena_Things_smll_totalblazing",
+          "apexbox",
+          "avaligun1",
+          "avalipart1",
+          "c_subliminalmessaging"
+        ]
+      },
+      "chestarmour": {
+        "count": 20,
+        "examples": [
+          "apextier3chest",
+          "aviantier3chest",
+          "battlebornchest",
+          "evachest",
+          "ff_scoutchest"
+        ]
+      },
+      "legarmour": {
+        "count": 18,
+        "examples": [
+          "apextier3pants",
+          "aviantier3pants",
+          "battlebornpants",
+          "evapants",
+          "ff_scoutpants"
+        ]
+      },
+      "block": {
+        "count": 18,
+        "examples": [
+          "avianmetalceiling",
+          "avianmetalfloor",
+          "avianmetaltrim",
+          "avianmetaltrim2",
+          "composite01material"
+        ]
+      }
+    },
+    "total": 441
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "titaniumore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "titaniumore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "titaniumore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0161,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

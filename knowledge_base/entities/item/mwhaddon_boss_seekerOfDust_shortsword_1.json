@@ -1,0 +1,51 @@
+{
+  "entity_id": "mwhaddon_boss_seekerOfDust_shortsword_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Pyrolysite",
+  "name_zh": "热熔",
+  "description_en": "A sharp blade of Arcane power.",
+  "description_zh": "充盈着奥术能量的利刃。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 1260,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 14.4,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 7
+        },
+        {
+          "item": "mwhaddon_misc_seekerShard",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

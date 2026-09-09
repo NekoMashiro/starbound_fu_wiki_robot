@@ -1,0 +1,71 @@
+{
+  "entity_id": "javelin",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Javelin",
+  "name_zh": "标枪",
+  "description_en": "A sharp throwing javelin, suitable for hunting.",
+  "description_zh": "一根适用于打猎的尖锐的投掷标枪。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 3,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "logblock",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_smashables_pod_geoelectra_throwables",
+          "probability": 0.1455,
+          "count": 3
+        },
+        {
+          "pool": "tarGift",
+          "probability": 0.0741,
+          "count": 3
+        },
+        {
+          "pool": "arcana_smashables_pod_geoelectra",
+          "probability": 0.0291,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0291,
+        0.1455
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

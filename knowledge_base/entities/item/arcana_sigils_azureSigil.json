@@ -1,0 +1,59 @@
+{
+  "entity_id": "arcana_sigils_azureSigil",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Azure Sigil, Astecrois",
+  "name_zh": "蔚蓝魔印 · 星海 Astecrois",
+  "description_en": "An alien sigil, once a construct used by the ancients.",
+  "description_zh": "外星魔印，曾被古人使用的构造。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_lapisShard",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 10
+        },
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 20
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "spear": {
+        "count": 1,
+        "examples": [
+          "artifact_lance_astrifer"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

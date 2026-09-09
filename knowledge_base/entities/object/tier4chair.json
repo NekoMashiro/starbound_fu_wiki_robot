@@ -1,0 +1,45 @@
+{
+  "entity_id": "tier4chair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Durasteel Chair",
+  "name_zh": "耐钢椅子",
+  "description_en": "A comfortable durasteel chair.",
+  "description_zh": "一把舒适的耐钢椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 110,
+  "tags": [
+    "misc",
+    "tier4"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 5
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

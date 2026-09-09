@@ -1,0 +1,50 @@
+{
+  "entity_id": "shadowdesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Desk",
+  "name_zh": "阴影书桌",
+  "description_en": "A dark desk. Are those eyes peeking out at you...?",
+  "description_zh": "一张深色的桌子。那些眼睛在偷看你吗...？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "shadow",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

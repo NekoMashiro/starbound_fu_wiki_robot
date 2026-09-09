@@ -1,0 +1,50 @@
+{
+  "entity_id": "shiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship Hatch",
+  "name_zh": "船舱口",
+  "description_en": "This gargantuan ship hatch is made of some sort of bulletproof material.",
+  "description_zh": "这个巨大的船舱口是用某种防弹材料制成的。",
+  "rarity": "uncommon",
+  "category": "door",
+  "price": 2000,
+  "tags": [
+    "fu",
+    "science",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 20
+        },
+        {
+          "item": "tungstenbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

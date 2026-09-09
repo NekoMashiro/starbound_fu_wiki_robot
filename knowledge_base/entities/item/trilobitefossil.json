@@ -1,0 +1,43 @@
+{
+  "entity_id": "trilobitefossil",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Trilobite",
+  "name_zh": "三叶虫",
+  "description_en": "A fossilised trilobite.",
+  "description_zh": "三叶虫化石。",
+  "rarity": "Uncommon",
+  "category": "smallFossil",
+  "price": 75,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "smallfossil",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.04,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.04,
+        0.1
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

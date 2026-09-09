@@ -1,0 +1,59 @@
+{
+  "entity_id": "flaileffigium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Striker",
+  "name_zh": "幻影打击者",
+  "description_en": "Emits dense shadow matter.\r\nBreaks blocks",
+  "description_zh": "发射致密的暗影物质。\n能够破坏方块",
+  "rarity": "rare",
+  "category": "Striker",
+  "price": 420,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "upgradeableWeapon",
+    "effigium",
+    "shadow"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 9.25,
+  "critChance": 1,
+  "critBonus": 6,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

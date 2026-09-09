@@ -1,0 +1,56 @@
+{
+  "entity_id": "aetheriumkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Katana",
+  "name_zh": "阳清武士刀",
+  "description_en": "There isn't any katana that can top this.\r\nMassive 10-hit combo!",
+  "description_zh": "没有任何一把武士刀能比得上它。\n魁伟的10连斩！",
+  "rarity": "legendary",
+  "category": "katana",
+  "price": 4500,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 8,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

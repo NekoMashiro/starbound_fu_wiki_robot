@@ -1,0 +1,79 @@
+{
+  "entity_id": "fishingluresinking",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sinking Lure",
+  "name_zh": "下沉鱼饵",
+  "description_en": "A heavy lure that sinks quickly.",
+  "description_zh": "一个沉重的鱼饵，下沉非常快。",
+  "rarity": "Uncommon",
+  "category": "fishingLure",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fishingUpgrade",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.05,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0081,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

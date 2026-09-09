@@ -1,0 +1,69 @@
+{
+  "entity_id": "automatostew",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Automato Stew",
+  "name_zh": "硬番茄炖汤",
+  "description_en": "A surprisingly tasty stew, if you watch out for the bits of metal. Type: Robot Food",
+  "description_zh": "有着惊人美味的炖汤，前提是你要小心汤里的金属碎片。\n类型：机械食物",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "currentcorn",
+          "count": 1
+        },
+        {
+          "item": "automato",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "stuffedautomato"
+  ],
+  "quality_tier": "A"
+}

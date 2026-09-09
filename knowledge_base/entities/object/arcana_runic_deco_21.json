@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_runic_deco_21",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Metal Gleap",
+  "name_zh": "金属葛利普",
+  "description_en": "A gleap statue made from metal.",
+  "description_zh": "一个金属制成的葛利普雕像。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 320,
+  "tags": [
+    "runic"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_end",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

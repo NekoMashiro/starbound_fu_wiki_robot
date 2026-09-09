@@ -1,0 +1,51 @@
+{
+  "entity_id": "telebriumkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Katana",
+  "name_zh": "月海武士刀",
+  "description_en": "Super light and agile.\r\n4 hit combo",
+  "description_zh": "极其轻便而灵巧。\n4连斩",
+  "rarity": "common",
+  "category": "katana",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.3,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

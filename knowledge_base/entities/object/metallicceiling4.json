@@ -1,0 +1,49 @@
+{
+  "entity_id": "metallicceiling4",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Artifact",
+  "name_zh": "先驱电枢纽",
+  "description_en": "A Precursor power junction. It's broken.",
+  "description_zh": "一个能源连接器。它已经坏了。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 200,
+  "tags": [
+    "metallic",
+    "rusted"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0288,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0288,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.016,
+        0.0288
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

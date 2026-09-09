@@ -1,0 +1,63 @@
+{
+  "entity_id": "shadowstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Staff",
+  "name_zh": "暗影法杖",
+  "description_en": "This powerful staff summons a deadly shadow snake.",
+  "description_zh": "这把强大的法杖可召唤出影之蛇。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": true,
+  "primaryAbilityType": "elementorb",
+  "altAbilityType": "elementorb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 6
+        },
+        {
+          "item": "corruptionseed",
+          "count": 7
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "",
+    "seed": "",
+    "shortdescription": "阴影收割者^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Shadow Staff.md",
+  "quality_tier": "A"
+}

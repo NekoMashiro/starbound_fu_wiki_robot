@@ -1,0 +1,82 @@
+{
+  "entity_id": "boneboo",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Boneboo",
+  "name_zh": "骨竹",
+  "description_en": "Spooky. Type: Meaty Plant",
+  "description_zh": "令人毛骨悚然。\n类型：肉性植物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 160,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boneboobasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 7,
+        "examples": [
+          "coldmarrowpanini",
+          "fishinabone",
+          "hotbone",
+          "marrowsoup",
+          "slew"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "boneboobasket"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "ultimatejuice"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bonebooHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingbones",
+          "probability": 0.1333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "spookypie",
+    "fishinabone"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_seatea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sea Tea",
+  "name_zh": "海泡茶",
+  "description_en": "Refreshing tea made out of seaberries and tidenuts. [Astrycion]\n\n+Swim Boost 5 min.\n+Health Regen. 3 min.\n+10% Max Energy 5 min.",
+  "description_zh": "使用海莓和汐坚果制成的新鲜泡茶。[Astrycion]\n\n5分钟游泳提升\n3分钟生命恢复提升\n5分钟+10%最大能量",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_seaberry",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_tidenut",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

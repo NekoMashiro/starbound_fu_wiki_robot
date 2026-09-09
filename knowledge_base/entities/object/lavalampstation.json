@@ -1,0 +1,44 @@
+{
+  "entity_id": "lavalampstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Lamporium",
+  "name_zh": "熔岩灯制作站",
+  "description_en": "A station for creating different lava lamps.",
+  "description_zh": "制造不同熔岩灯的工作站。",
+  "rarity": "legendary",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "glass",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

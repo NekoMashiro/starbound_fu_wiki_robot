@@ -1,0 +1,46 @@
+{
+  "entity_id": "blackteleporter",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Executive Teleporter",
+  "name_zh": "执行传送门",
+  "description_en": "A personal teleporter, connects to bookmarked locations. \nDestroyed when broken.",
+  "description_zh": "一个私人传送门，连接着标记过的传送点。\n拆卸后将被永久破坏。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 3000,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "2 Stop Teleshop",
+      "station_zh": "双向传送商店",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "shadowblock",
+          "count": 100
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

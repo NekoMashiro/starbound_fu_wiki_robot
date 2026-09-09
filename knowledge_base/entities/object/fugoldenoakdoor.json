@@ -1,0 +1,54 @@
+{
+  "entity_id": "fugoldenoakdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Door",
+  "name_zh": "金色门",
+  "description_en": "A golden wooden door.",
+  "description_zh": "金色的木门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 100,
+  "tags": [
+    "bees",
+    "insects",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldenwood",
+          "count": 1
+        },
+        {
+          "item": "waxchunk",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

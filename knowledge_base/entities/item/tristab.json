@@ -1,0 +1,87 @@
+{
+  "entity_id": "tristab",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trimark",
+  "name_zh": "三重烙印",
+  "description_en": "A fantastic foe-stabber.\r\nHunting weapon",
+  "description_zh": "梦幻的致命一刺。\n狩猎武器",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 22000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.84,
+  "critChance": 3,
+  "critBonus": 12,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "drop_sources": {
+    "total_pools": 9,
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0014,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0115
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0007
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

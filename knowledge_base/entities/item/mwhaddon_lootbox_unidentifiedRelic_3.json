@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_lootbox_unidentifiedRelic_3",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Unidentified Exquisite Relic",
+  "name_zh": "未鉴定的精美遗物",
+  "description_en": "Use to get a random Relic with great quality.\nRare(30%)\nLegendary(70%)",
+  "description_zh": "使用以获得一个品质卓越的遗物。\n稀有（30%）\n传说（70%）",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 2000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.0271,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

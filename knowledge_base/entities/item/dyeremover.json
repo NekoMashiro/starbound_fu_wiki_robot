@@ -1,0 +1,38 @@
+{
+  "entity_id": "dyeremover",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dye Remover",
+  "name_zh": "染料漂洗剂",
+  "description_en": "Apply this dye remover to any clothing with a right-click to restore its base colour",
+  "description_zh": "用这瓶染料漂洗剂将任意衣服重置为初始颜色。",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidhealing",
+          "count": 5
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

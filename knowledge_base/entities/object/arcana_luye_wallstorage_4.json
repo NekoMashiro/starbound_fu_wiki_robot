@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_luye_wallstorage_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luye Wall Locker",
+  "name_zh": "绿叶壁柜",
+  "description_en": "A metal wall locker, customized by the Luye.",
+  "description_zh": "绿叶定制的金属壁柜。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "luye",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

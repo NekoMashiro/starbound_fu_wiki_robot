@@ -1,0 +1,49 @@
+{
+  "entity_id": "empress_display_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Accessory Display",
+  "name_zh": "金配饰展示柜",
+  "description_en": "A glassed display of a golden accessory.",
+  "description_zh": "一个玻璃材质的金配饰展示柜。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "empress",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 4
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

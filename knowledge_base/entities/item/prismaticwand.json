@@ -1,0 +1,65 @@
+{
+  "entity_id": "prismaticwand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Wand",
+  "name_zh": "棱镜魔杖",
+  "description_en": "Sufficiently Advanced Technology.",
+  "description_zh": "尤为先进的科技。",
+  "rarity": "rare",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "plasmabarrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 8
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Prismatic Wand.md",
+  "quality_tier": "A"
+}

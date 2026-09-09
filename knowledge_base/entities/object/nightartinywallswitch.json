@@ -1,0 +1,35 @@
+{
+  "entity_id": "nightartinywallswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Tiny Switch",
+  "name_zh": "夜族微型开关",
+  "description_en": "A compact switch that can be flipped on or off.",
+  "description_zh": "可以打开或关闭的小型开关。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "wired",
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

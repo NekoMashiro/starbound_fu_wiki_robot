@@ -1,0 +1,56 @@
+{
+  "entity_id": "densiniumshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Shield",
+  "name_zh": "超致密盾",
+  "description_en": "+0.07% HP regen, +5% Energy regen, -20% Fall Damage, Immune: Shock",
+  "description_zh": "生命恢复速度+0.07%，能量回复速度+5%，免疫：感电",
+  "rarity": "legendary",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "densinium"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "morphiteore",
+          "count": 5
+        },
+        {
+          "item": "staticcell",
+          "count": 3
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "horizon_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tenebrosity",
+  "name_zh": "冥府",
+  "description_en": "A dark broadsword forged from Necroium. Tenacity: +20% Damage while at 50% health or less.",
+  "description_zh": "使用死金制成的黑暗阔剑。坚韧：生命值小于等于50%时+20%伤害。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "horizon"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 10.2,
+  "primaryAbilityType": "arcana_broadswordvorago",
+  "altAbilityType": "traildash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_broadsword"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "冥府^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

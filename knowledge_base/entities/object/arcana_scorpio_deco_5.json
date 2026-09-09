@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_scorpio_deco_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Scorpio Monitor",
+  "name_zh": "天蝎显示器",
+  "description_en": "A large monitor.",
+  "description_zh": "一个大型显示器。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 200,
+  "tags": [
+    "light",
+    "scorpio",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Scorpio Furniture Printer",
+      "station_zh": "天蝎家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "scorpio.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

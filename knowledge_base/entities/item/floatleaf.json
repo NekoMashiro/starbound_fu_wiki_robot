@@ -1,0 +1,43 @@
+{
+  "entity_id": "floatleaf",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Floatbulb",
+  "name_zh": "艾肯浮泡",
+  "description_en": "Open to gently float while falling.",
+  "description_zh": "开启时缓慢降落。",
+  "rarity": "common",
+  "category": "tool",
+  "price": 1,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 8
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        },
+        {
+          "item": "ff_silicon",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

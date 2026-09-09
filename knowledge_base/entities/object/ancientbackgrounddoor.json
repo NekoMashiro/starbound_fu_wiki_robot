@@ -1,0 +1,41 @@
+{
+  "entity_id": "ancientbackgrounddoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Background Door",
+  "name_zh": "古代传送门",
+  "description_en": "An Ancient teleporter door. Connect to another door to teleport between them.\nInput 1: Lock\nInput 2/Output: Door connections",
+  "description_zh": "古代传送门。连接到另一扇门以在它们之间传送。\n 输入1: 锁定\n 输入2/输出: 门与门间的连接",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "ancient",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "essence",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

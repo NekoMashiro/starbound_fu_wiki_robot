@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_mistRider_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Mist Rider's Armor",
+  "name_zh": "雾骑士的盔甲",
+  "description_en": "A dark armor worn by the Mist Rider. \n\nSet Bonus: \nGrants +25% Damage when there's a monster with more health than you within 50 tiles.",
+  "description_zh": "雾骑士使用的黑色盔甲。\n\n套装效果：\n当50格以内有生命值比你高的怪物时+25%伤害。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1480,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_soulseaSpirit",
+          "count": 16
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

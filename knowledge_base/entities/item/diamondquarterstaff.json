@@ -1,0 +1,56 @@
+{
+  "entity_id": "diamondquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diamond Quarterstaff",
+  "name_zh": "钻石长棍",
+  "description_en": "This is a very high-value weapon.",
+  "description_zh": "挥舞这把武器时要小心，别磕到了它。",
+  "rarity": "rare",
+  "category": "Quarterstaff",
+  "price": 4600,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "elementalType": "cosmic",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffelementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 6
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

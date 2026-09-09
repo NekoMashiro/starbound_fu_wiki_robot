@@ -1,0 +1,38 @@
+{
+  "entity_id": "eldershield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Shield",
+  "name_zh": "远古盾",
+  "description_en": "+8% Energy Regen, +2 Defense, Immune: Bio-Ooze",
+  "description_zh": "能量回复速度+8%，防御+2；免疫生物软泥",
+  "rarity": "legendary",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "elder"
+  ],
+  "level": 7,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.031,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

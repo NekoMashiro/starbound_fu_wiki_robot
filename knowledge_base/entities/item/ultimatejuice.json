@@ -1,0 +1,97 @@
+{
+  "entity_id": "ultimatejuice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ultimate Juice",
+  "name_zh": "终极果汁",
+  "description_en": "All the fruit, in a juice. Type: Fruits",
+  "description_zh": "包含所有水果的果汁。\n类型：水果",
+  "rarity": "Legendary",
+  "category": "drink",
+  "price": 1200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ultimatejuiceobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "boneboo",
+          "count": 1
+        },
+        {
+          "item": "feathercrown",
+          "count": 1
+        },
+        {
+          "item": "oculemon",
+          "count": 1
+        },
+        {
+          "item": "neonmelon",
+          "count": 1
+        },
+        {
+          "item": "toxictop",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "ultimatejuiceobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

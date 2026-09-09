@@ -1,0 +1,71 @@
+{
+  "entity_id": "tungstenspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tungsten Spear",
+  "name_zh": "钨制矛",
+  "description_en": "This tungsten spear is quite heavy.\r\nHunting weapon",
+  "description_zh": "这把矛非常重。\n狩猎武器",
+  "rarity": "Common",
+  "category": "spear",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

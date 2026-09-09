@@ -1,0 +1,61 @@
+{
+  "entity_id": "cutedagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Dagger",
+  "name_zh": "棱镜匕首",
+  "description_en": "Favorite weapon of colorful assassins.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "富有情趣的刺客们的最爱。\n能量武器",
+  "rarity": "rare",
+  "category": "dagger",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8.2,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

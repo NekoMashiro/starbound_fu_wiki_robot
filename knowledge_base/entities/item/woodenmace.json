@@ -1,0 +1,41 @@
+{
+  "entity_id": "woodenmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wooden Club",
+  "name_zh": "木制棍棒",
+  "description_en": "It's a piece of wood. You whack things with it.",
+  "description_zh": "一块木头，你用它来敲打东西。",
+  "rarity": "common",
+  "category": "mace",
+  "price": 5,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "wood"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 8.2,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

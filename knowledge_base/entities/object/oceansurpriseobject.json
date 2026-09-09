@@ -1,0 +1,42 @@
+{
+  "entity_id": "oceansurpriseobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ocean Surprise",
+  "name_zh": "海洋惊喜",
+  "description_en": "A Hylotl dish, overloaded with ingredients of questionable oceanic origin.",
+  "description_zh": "一道鲛人菜肴，含有大量来源于海洋的可疑成分。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "sushibar",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceansurprise",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "oceansurprise"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

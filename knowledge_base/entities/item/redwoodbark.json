@@ -1,0 +1,38 @@
+{
+  "entity_id": "redwoodbark",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Redwood Bark",
+  "name_zh": "红杉树皮",
+  "description_en": "Redwood bark. Peeled from the logs of large trees.\nExtractable.",
+  "description_zh": "红木树皮。从大树的原木上剥取来的。\n可萃取。",
+  "rarity": "common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fu_harpsichord"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "woodShed",
+          "probability": 0.0696,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

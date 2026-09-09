@@ -1,0 +1,49 @@
+{
+  "entity_id": "matterblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Matter Block",
+  "name_zh": "物质块",
+  "description_en": "A matter block. A block that matters.\nExtractable, Smeltable.",
+  "description_zh": "一块物质块。物质块一块。\n可萃取，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "matteritem"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "fugeneticmaterial",
+      "bonus": [
+        "corruptionore",
+        "liquiddarkwater",
+        "ff_mercury",
+        "shadowgasliquid"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "fugeneticmaterial",
+      "bonus": [
+        "corruptionore",
+        "liquiddarkwater",
+        "ff_mercury",
+        "shadowgasliquid"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

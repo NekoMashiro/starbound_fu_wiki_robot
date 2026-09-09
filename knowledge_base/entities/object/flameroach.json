@@ -1,0 +1,32 @@
+{
+  "entity_id": "flameroach",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Flameroach",
+  "name_zh": "火焰蟑螂",
+  "description_en": "Hot to the touch, its shell flickers like flame.",
+  "description_zh": "摸着很热，它闪烁的外壳像火焰。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flameroach",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "flameroach"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

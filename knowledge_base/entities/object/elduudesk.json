@@ -1,0 +1,40 @@
+{
+  "entity_id": "elduudesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Desk",
+  "name_zh": "水晶书桌",
+  "description_en": "A desk made from cultivated crystal.",
+  "description_zh": "一个用人工水晶做成的书桌。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "elduukhar",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 15
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,75 @@
+{
+  "entity_id": "ighantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ighant Seed",
+  "name_zh": "艾恩茎种子",
+  "description_en": "The ighant is a curious, fast-growing plant. Provides bounce.",
+  "description_zh": "这是速生植物。可以收获艾恩茎，食用后会提高弹跳力。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 14,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "biosample",
+          "count": 4
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 16
+        },
+        {
+          "item": "fleshstrand",
+          "count": 15
+        },
+        {
+          "item": "ff_silicon",
+          "count": 12
+        }
+      ],
+      "output_count": 5,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "springvaultseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ighantHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

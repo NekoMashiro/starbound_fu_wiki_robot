@@ -1,0 +1,96 @@
+{
+  "entity_id": "wovencrystal",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Woven Crystal",
+  "name_zh": "编织水晶",
+  "description_en": "Crystal stretched and spun into fabric.",
+  "description_zh": "这块水晶被拉伸和织成了纺织物。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 45,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "emera",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Loom",
+      "station_zh": "水晶织机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 12,
+        "examples": [
+          "appleplush",
+          "elduubannerlarge",
+          "elduubannersmall",
+          "elduubannertiny1",
+          "elduubannertiny2"
+        ]
+      },
+      "headwear": {
+        "count": 7,
+        "examples": [
+          "inviselduuhead",
+          "templeguardhead",
+          "worshipperhead",
+          "worshipperhead2",
+          "worshipperhead3"
+        ]
+      },
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "elduubed",
+          "elduucouch",
+          "elduuhammock",
+          "elduustool"
+        ]
+      },
+      "chestwear": {
+        "count": 3,
+        "examples": [
+          "inviselduuchest",
+          "templeguardchest",
+          "worshipperchest"
+        ]
+      },
+      "legwear": {
+        "count": 3,
+        "examples": [
+          "inviselduupants",
+          "templeguardpants",
+          "worshipperpants"
+        ]
+      },
+      "teleportMarker": {
+        "count": 1,
+        "examples": [
+          "flagelduukhar"
+        ]
+      }
+    },
+    "total": 30
+  },
+  "quality_tier": "S"
+}

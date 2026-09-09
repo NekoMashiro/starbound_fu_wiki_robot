@@ -1,0 +1,51 @@
+{
+  "entity_id": "imperialbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Bookcase",
+  "name_zh": "甲虫书柜",
+  "description_en": "Probably filled with gossip and smut.",
+  "description_zh": "可能充满了流言蜚语和淫秽。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "mantizi",
+    "mantizivillage",
+    "knowledge",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

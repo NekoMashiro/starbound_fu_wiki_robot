@@ -1,0 +1,50 @@
+{
+  "entity_id": "eyechest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Eye Chest",
+  "name_zh": "眼球箱子",
+  "description_en": "A chest sealed with a piercing eye. Worth a look inside.",
+  "description_zh": "一个由金晴火眼密封着的箱子。值得看一下入面的东西。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "eyepatch",
+    "odd",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "eyepiles",
+          "count": 20
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

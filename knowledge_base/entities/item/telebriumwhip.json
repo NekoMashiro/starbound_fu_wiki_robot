@@ -1,0 +1,49 @@
+{
+  "entity_id": "telebriumwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Whip",
+  "name_zh": "月海鞭",
+  "description_en": "A poisonous lash made from telebrium. Not for recreational use.",
+  "description_zh": "用月海石制成的有毒的鞭子。请勿用于娱乐用途。",
+  "rarity": "Common",
+  "category": "whip",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

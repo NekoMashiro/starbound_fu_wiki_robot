@@ -1,0 +1,57 @@
+{
+  "entity_id": "halogenpack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Halogen Pack",
+  "name_zh": "卤素背包",
+  "description_en": "A backpack with an attached halogen light. It's very bright!",
+  "description_zh": "一种附加了卤素灯的背包，非常明亮！\n发出明亮的光",
+  "rarity": "Uncommon",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业级绘世者工作台",
+      "station_zh": "工业级绘世者工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "农业工作台",
+          "name_zh": "农业工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "xenonpack"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

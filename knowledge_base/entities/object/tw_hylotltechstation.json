@@ -1,0 +1,34 @@
+{
+  "entity_id": "tw_hylotltechstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "S.A.I.L Interface",
+  "name_zh": "S.A.I.L 控制面板",
+  "description_en": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short. Comes with a pet.",
+  "description_zh": "基于船舶的人工智能系统， 或简称为S.A.I.L。与一只宠物同来。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

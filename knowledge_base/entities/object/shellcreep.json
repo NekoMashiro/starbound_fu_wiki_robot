@@ -1,0 +1,32 @@
+{
+  "entity_id": "shellcreep",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Shellcreep",
+  "name_zh": "爬壳虫",
+  "description_en": "It looks as if it could slip out of its shell at a moments notice.",
+  "description_zh": "它看起来能立刻滑出壳。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shellcreep",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "shellcreep"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

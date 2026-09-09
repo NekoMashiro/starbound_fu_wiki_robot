@@ -1,0 +1,50 @@
+{
+  "entity_id": "chaospants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chaos Pants",
+  "name_zh": "混沌长裤",
+  "description_en": "Set Bonuses:\r\n Dagger Mastery: +15%\r\n +0.5% Health Regen\r\n +10% Speed\r\n Daggers, Whips, Boomerangs, Chakrams: +3% Crit Chance",
+  "description_zh": "套装奖励:\n 匕首专精： +15%\n +0.5% HP恢复\n +10% 速度\n 匕首, 鞭子, 回旋镖, 环刃: +3% 暴击几率",
+  "rarity": "Uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 3
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 1
+        },
+        {
+          "item": "bloodgarbpants",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "irradiumsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Blade",
+  "name_zh": "镭制宽剑",
+  "description_en": "Forged from irradium.\r\nInflicts Rad-Burn",
+  "description_zh": "由镭锻造而成。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.67,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 9
+        },
+        {
+          "item": "ff_mercury",
+          "count": 5
+        },
+        {
+          "item": "liquidirradium",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

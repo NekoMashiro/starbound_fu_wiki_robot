@@ -1,0 +1,40 @@
+{
+  "entity_id": "deathvodka",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Doom Vodka",
+  "name_zh": "末日伏特加",
+  "description_en": "A booze that increases shadow resistance.\nDrunk, +30% Shadow Res (1m)",
+  "description_zh": "一种增加暗影抗性的酒。\n醉酒，+30%暗影抗性(持续1m)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 1800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "spirits",
+          "count": 1
+        },
+        {
+          "item": "effigiumore",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "liquiddarkwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

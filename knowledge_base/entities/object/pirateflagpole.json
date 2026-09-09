@@ -1,0 +1,40 @@
+{
+  "entity_id": "pirateflagpole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pirate Flag",
+  "name_zh": "海盗旗",
+  "description_en": "A pirate's flag. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面海盗旗。使用 [E] 来标记一个传送点。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 0,
+  "tags": [
+    "corsair"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

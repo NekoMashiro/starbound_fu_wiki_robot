@@ -1,0 +1,85 @@
+{
+  "entity_id": "petfood3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mr. Chow's Troll Food",
+  "name_zh": "周先生的巨魔食物",
+  "description_en": "Do Not Consume. Side effects include obsessive behavior and bad body odor.\n-5% HP, Poisoned (1m)",
+  "description_zh": "请勿食用。副作用包括强迫性行为和体臭。\n-5% HP, 中毒(持续1m)",
+  "rarity": "common",
+  "category": "petfood",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 2
+        },
+        {
+          "item": "banana",
+          "count": 1
+        },
+        {
+          "item": "corvex",
+          "count": 2
+        }
+      ],
+      "output_count": 4,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 44
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

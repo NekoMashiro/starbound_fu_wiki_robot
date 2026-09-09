@@ -1,0 +1,75 @@
+{
+  "entity_id": "goldenglowseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Goldenglow Seed",
+  "name_zh": "重瓣金光菊种子",
+  "description_en": "It glows, but its real strength is in how it increases speed.",
+  "description_zh": "可以收获重瓣金光菊，食用后会提高移动速度。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 19
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "avesmingoseed",
+          "count": 3
+        },
+        {
+          "item": "floweryellow",
+          "count": 3
+        },
+        {
+          "item": "biospore",
+          "count": 20
+        },
+        {
+          "item": "ff_mercury",
+          "count": 36
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "garikleaf"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "goldenglowHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

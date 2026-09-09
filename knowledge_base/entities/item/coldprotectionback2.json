@@ -1,0 +1,57 @@
+{
+  "entity_id": "coldprotectionback2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heating EPP II",
+  "name_zh": "供暖EPP II",
+  "description_en": "+40% Ice Resist. Useful on moderately cold planets. +150s oxygen and halves how quickly you breathe.",
+  "description_zh": "+40%寒气抗性。对探索严酷严寒行星有助。+25秒氧气，且呼吸速率减半。",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 1750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coldprotectionback",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "coldprotectionback3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

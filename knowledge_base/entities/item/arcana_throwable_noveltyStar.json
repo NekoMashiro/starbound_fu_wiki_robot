@@ -1,0 +1,84 @@
+{
+  "entity_id": "arcana_throwable_noveltyStar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Super Star",
+  "name_zh": "超级星星",
+  "description_en": "It's a star!",
+  "description_zh": "这是个星星！",
+  "rarity": "Legendary",
+  "category": "throwableItem",
+  "price": 1,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "^#DBC5A6;侦察无人机工具": {
+        "count": 3,
+        "examples": [
+          "sd_exp_avalidrone_controller",
+          "sd_exp_lunardrone_controller",
+          "sd_exp_scorpiodrone_controller"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_execration_flail",
+          "mwhaddon_execration_flamethrower"
+        ]
+      },
+      "^yellow;1级攻击无人机^reset;": {
+        "count": 1,
+        "examples": [
+          "misc_soul_icon_controller"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_chest"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_crafting_horizonFurnace"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_assaultRifle"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "biomes": [
+    {
+      "biome": "arcana_ruinousCave",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_ruinousSwamp",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_ruinous",
+      "weight": 0.1
+    }
+  ],
+  "quality_tier": "S"
+}

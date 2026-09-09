@@ -1,0 +1,38 @@
+{
+  "entity_id": "penumbriteblockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Block",
+  "name_zh": "半影矿石块",
+  "description_en": "A block of penumbrite.",
+  "description_zh": "一块半影矿石。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

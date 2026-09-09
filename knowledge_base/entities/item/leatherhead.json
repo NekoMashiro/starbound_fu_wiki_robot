@@ -1,0 +1,43 @@
+{
+  "entity_id": "leatherhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Leather Cap",
+  "name_zh": "皮制帽",
+  "description_en": "Set Bonuses:\r\n +1% Crit Chance, +2.5% Speed\r\n Garden/Forest: Energy x1.05, +5% Knockback Resistance\r\n Bow/XBow: +2% Crit Chance, Damage x1.15, -4 Energy Per Shot, +5 Air Dmg, +10% Draw Speed",
+  "description_zh": "套装奖励:\n +1% 暴击几率, +2.5% 速度\n 花园/森林: 能量x1.05, +5% 击退抗性\n 弓/弩: +2% 暴击几率, 伤害x1.15, -4 每击能量消耗, +5 空射伤害,  +10% 上弦速度",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 1440,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "string",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

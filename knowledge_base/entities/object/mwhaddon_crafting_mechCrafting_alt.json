@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_crafting_mechCrafting_alt",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Advanced Mech Station",
+  "name_zh": "高级机甲制造台",
+  "description_en": "Used to produce advanced modular mech components.",
+  "description_zh": "用于制造高级模块化机甲部件。",
+  "rarity": "legendary",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "misc",
+    "crafting",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 15
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

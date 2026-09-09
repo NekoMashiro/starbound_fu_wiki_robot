@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_lightsaber_letheia",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "LSF Double-headed Lightsaber",
+  "name_zh": "莱西亚安保部双头光剑",
+  "description_en": "A lightsaber by Letheia, but double-headed. From Voyage Mod.",
+  "description_zh": "莱西亚出品的光剑，但是双头。来自远行Mod。",
+  "rarity": "Essential",
+  "category": "broadsword",
+  "price": 1260,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 11,
+  "primaryAbilityType": "mwhaddon_arcana_doubleblade_combo",
+  "altAbilityType": "mwhaddon_flipcut",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 16
+        },
+        {
+          "item": "scorchedcore",
+          "count": 1
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

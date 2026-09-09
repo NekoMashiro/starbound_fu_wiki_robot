@@ -1,0 +1,44 @@
+{
+  "entity_id": "extraresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Resistance Augment",
+  "name_zh": "EPP模块（阻力）",
+  "description_en": "An EPP module that grants immunity to knockback and stun, sets invulnerability time to 3s and grants +20% Phys. Resist.",
+  "description_zh": "一个能够赋予免疫击退与击晕，延长无敌时间3s，且+20%物理抗性的EPP模块。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 25000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraletheiafacilityaugment",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "extraresistanceaugment"
+  ],
+  "quality_tier": "S"
+}

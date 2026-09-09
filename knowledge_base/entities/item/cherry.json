@@ -1,0 +1,69 @@
+{
+  "entity_id": "cherry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cherry",
+  "name_zh": "樱桃",
+  "description_en": "A fresh cherry, red and delicious! Type: Fruit",
+  "description_zh": "一个新鲜的樱桃，红红的，很美味！\n类型：植物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 3,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "cherrycrumble",
+          "cherrypie",
+          "cherryporridge"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "cherryjuice",
+          "cherryschnapps"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "cherrymash"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "blueprints_unlocked": [
+    "cherryschnapps",
+    "cherrycrumble",
+    "cherrymash",
+    "cherryjam",
+    "cherrypie",
+    "cherryjuice"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "ff_slimelegs3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Slime Greaves",
+  "name_zh": "红色黏液腿甲",
+  "description_en": "Set Bonuses:\r\n Spawns Minions: Magma Slime\r\n Slime weapons: +6% Crit, Damage x1.2\r\n Immune: Poisoned, Bio-Ooze, Slime, Mud, Clay, Snow, Ice Slip",
+  "description_zh": "",
+  "rarity": "Rare",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 1
+        },
+        {
+          "item": "ff_slimelegs2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

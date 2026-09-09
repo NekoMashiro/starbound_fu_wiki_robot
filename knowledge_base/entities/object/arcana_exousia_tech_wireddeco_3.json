@@ -1,0 +1,67 @@
+{
+  "entity_id": "arcana_exousia_tech_wireddeco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Exoslate Large Monitor",
+  "name_zh": "异岩钢大型显示器",
+  "description_en": "A large desktop monitor in a minimal design.",
+  "description_zh": "一款简约设计的大型桌面显示器。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 240,
+  "tags": [
+    "light",
+    "exousia",
+    "science",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

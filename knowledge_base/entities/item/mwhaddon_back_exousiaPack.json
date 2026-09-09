@@ -1,0 +1,42 @@
+{
+  "entity_id": "mwhaddon_back_exousiaPack",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Exousian Battle Pack",
+  "name_zh": "威权战斗背包",
+  "description_en": "A custom Tripolar EPP from Exousia. Grants +150 max health and +100% Exousian weapon damage.",
+  "description_zh": "威权帝国自制的三极EPP。+150最大生命值，+100%威权武器伤害。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonEliteBadge",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 5
+        },
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

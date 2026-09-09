@@ -1,0 +1,64 @@
+{
+  "entity_id": "madnesspoptop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptop",
+  "name_zh": "吐舌娃",
+  "description_en": "An adorable poptop companion.",
+  "description_zh": "一只可爱的吐舌娃伙伴。",
+  "rarity": "common",
+  "category": "decorative",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 10
+        },
+        {
+          "item": "plantfibre",
+          "count": 30
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 3
+        },
+        {
+          "item": "ff_mercury",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessjuvenilepoptop"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Poptop.md",
+  "quality_tier": "S"
+}

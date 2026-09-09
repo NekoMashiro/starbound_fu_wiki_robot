@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_volcanicCave",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Volcanic Cave",
+  "name_zh": "火山洞穴",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Volcanic Cave",
+  "friendly_name_zh": "火山洞穴",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 1.0
+    },
+    {
+      "ore": "corefragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "iron",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_exoslateFragment",
+      "weight": 0.9
+    },
+    {
+      "ore": "arcana_mod_rufescite",
+      "weight": 0.1
+    },
+    {
+      "ore": "arcana_mod_enartzFragment",
+      "weight": 0.1
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_alphaRingram",
+    "arcana_alphaScaveran",
+    "arcana_firebobot",
+    "arcana_firelilodon"
+  ],
+  "quality_tier": "C"
+}

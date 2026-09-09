@@ -1,0 +1,55 @@
+{
+  "entity_id": "telebriumstynger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Stynger",
+  "name_zh": "月海发射器",
+  "description_en": "High firerate poison bolts.",
+  "description_zh": "发射高射速的毒素弹头。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 70,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "crossbow",
+    "telebrium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 4,
+  "critChance": 3,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

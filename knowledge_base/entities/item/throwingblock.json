@@ -1,0 +1,191 @@
+{
+  "entity_id": "throwingblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Block",
+  "name_zh": "投掷方块",
+  "description_en": "A block you can throw!",
+  "description_zh": "一个可以投掷的方块！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 41,
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "apexbaseTreasure",
+          "probability": 0.056,
+          "count": 5
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0029,
+          "count": 20,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0028,
+          "count": 20
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0026,
+          "count": 20,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0023,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.056
+      ]
+    },
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "elduutool",
+          "probability": 0.03,
+          "count": 20
+        },
+        {
+          "pool": "tool",
+          "probability": 0.029,
+          "count": 20
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.0029,
+          "count": 20
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.0029,
+          "count": 20
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0021,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.03
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0059,
+          "count": 20.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0043,
+          "count": 20
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0025,
+          "count": 20
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0017,
+          "count": 20
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0015,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0059
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0058,
+          "count": 20
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0013,
+          "count": 20
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0011,
+          "count": 20,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0013
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

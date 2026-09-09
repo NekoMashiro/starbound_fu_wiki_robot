@@ -1,0 +1,52 @@
+{
+  "entity_id": "booksaboutbees",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "All About Bees",
+  "name_zh": "蜂群全记",
+  "description_en": "This is the Bee Movie script. Over and over again.",
+  "description_zh": "这是一本蜜蜂电影脚本。一遍接一遍的重复着。",
+  "rarity": "uncommon",
+  "category": "Dr.Beeman's Bees",
+  "price": 280,
+  "tags": [],
+  "level": 2,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nicepaper",
+          "count": 80
+        },
+        {
+          "item": "canvas",
+          "count": 4
+        },
+        {
+          "item": "fuamberchunk",
+          "count": 4
+        }
+      ],
+      "output_count": 2,
+      "station": "Writing Desk",
+      "station_zh": "著书桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ancient Texts",
+          "name_zh": "古代文本"
+        },
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "telebriumdesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Desk",
+  "name_zh": "特勒贝晶体碎片办公桌",
+  "description_en": "A desk made from Telebrium.",
+  "description_zh": "一张由特勒贝晶体碎片做的桌子。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "telebrium",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "moonstone",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

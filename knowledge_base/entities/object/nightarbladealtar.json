@@ -1,0 +1,40 @@
+{
+  "entity_id": "nightarbladealtar",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Blade Altar",
+  "name_zh": "夜族刀锋祭坛",
+  "description_en": "An altar dedicated to the purity of the blade. Standing near slightly increases your defense.",
+  "description_zh": "供奉刀锋纯洁的祭坛。站在附近能稍微增加你的防御。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 250,
+  "tags": [
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 10
+        },
+        {
+          "item": "obsidian",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

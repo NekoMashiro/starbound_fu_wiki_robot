@@ -1,0 +1,32 @@
+{
+  "entity_id": "orphanfly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Orphanfly",
+  "name_zh": "孤独苍蝇",
+  "description_en": "The smallest and most pathetic bug I've ever seen.",
+  "description_zh": "我见过的最小而可怜的虫子。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "orphanfly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "orphanfly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

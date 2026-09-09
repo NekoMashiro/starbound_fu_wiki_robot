@@ -1,0 +1,65 @@
+{
+  "entity_id": "slimesword3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Sword III",
+  "name_zh": "",
+  "description_en": "A sword made out of slime.\tStrange, but effective.",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "slime",
+    "bioweapon",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "downstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimesword2",
+          "count": 1
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "C"
+}

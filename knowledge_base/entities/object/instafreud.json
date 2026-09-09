@@ -1,0 +1,48 @@
+{
+  "entity_id": "instafreud",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Insta-Freud",
+  "name_zh": "虚拟弗洛伊德",
+  "description_en": "A one-stop mental health kiosk.",
+  "description_zh": "一站式精神健康服务点。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 25000,
+  "tags": [
+    "madness",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 8
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Insta-Freud.md",
+  "quality_tier": "A"
+}

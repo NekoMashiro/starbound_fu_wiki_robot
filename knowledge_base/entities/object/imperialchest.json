@@ -1,0 +1,50 @@
+{
+  "entity_id": "imperialchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Chest",
+  "name_zh": "甲虫箱子",
+  "description_en": "A fancy wooden chest.",
+  "description_zh": "一个漂亮的木箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "mantizi",
+    "mantizivillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

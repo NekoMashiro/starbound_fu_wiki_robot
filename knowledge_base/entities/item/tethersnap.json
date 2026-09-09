@@ -1,0 +1,54 @@
+{
+  "entity_id": "tethersnap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nano-Tether",
+  "name_zh": "纳米系链",
+  "description_en": "An amazing grappler. Use carefully, as it is very fast.",
+  "description_zh": "一个惊人的抓钩。请小心使用，它非常地快。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 6
+        },
+        {
+          "item": "graphene",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

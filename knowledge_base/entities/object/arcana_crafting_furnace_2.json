@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_crafting_furnace_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Arcanium Furnace",
+  "name_zh": "秘钢魔炉",
+  "description_en": "A furnace infused with arcane magic.",
+  "description_zh": "一个注入了奥秘魔法的炉子。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1600,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_arcaniumOre",
+          "count": 8
+        },
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Arcanium Furnace.md",
+  "quality_tier": "A"
+}

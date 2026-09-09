@@ -1,0 +1,45 @@
+{
+  "entity_id": "reactivegel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reactive Gel I",
+  "name_zh": "活性凝胶I",
+  "description_en": "An indispensable item for a X'i.\nHeal 50 (1s)",
+  "description_zh": "一种对艾肯来说不可或缺的物质。\n治疗50点生命值(1s内)",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 160,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "algaegreen",
+          "count": 1
+        },
+        {
+          "item": "xibulb",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "reactivegel2"
+  ],
+  "quality_tier": "A"
+}

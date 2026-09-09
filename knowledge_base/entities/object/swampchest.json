@@ -1,0 +1,49 @@
+{
+  "entity_id": "swampchest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Swamp Chest",
+  "name_zh": "沼泽宝箱",
+  "description_en": "A chest made from twigs and roots.",
+  "description_zh": "一个用枝条和树根做成的宝箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "storage",
+    "swamp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wicker",
+          "count": 10
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

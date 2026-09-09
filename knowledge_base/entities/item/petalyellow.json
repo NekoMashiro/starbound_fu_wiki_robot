@@ -1,0 +1,151 @@
+{
+  "entity_id": "petalyellow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Yellow Petal",
+  "name_zh": "黄色的花瓣",
+  "description_en": "A yellow petal, could be turned into dye.",
+  "description_zh": "黄色的花瓣，可以变成染料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_stalwart_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 18,
+        "examples": [
+          "aenemaflower",
+          "arkaentree",
+          "avesmingoseed",
+          "beetlesproutseed",
+          "bladetree"
+        ]
+      },
+      "eppAugment": {
+        "count": 3,
+        "examples": [
+          "foodimmunityaugment",
+          "physicalresistanceaugment",
+          "pushbackaugment"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "giantflowerbed",
+          "giantflowerchair",
+          "giantflowertable"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "greenstim",
+          "orangestim",
+          "yellowstim"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "isn_glowgel_g",
+          "isn_glowgel_y",
+          "movingsunflower"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 2,
+        "examples": [
+          "alemash",
+          "darkalemash"
+        ]
+      },
+      "clothingDye": {
+        "count": 2,
+        "examples": [
+          "fu_yellowdye",
+          "yellowdye"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "giantflowerchest",
+          "springchest"
+        ]
+      }
+    },
+    "total": 44
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floweryellowHarvest",
+          "probability": 2.44,
+          "count": 1.0
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerBush",
+          "probability": 0.6667,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "springChestTreasure",
+          "probability": 0.2044,
+          "count": 3.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSpringTreasure",
+          "probability": 0.1329,
+          "count": 3
+        },
+        {
+          "pool": "springTreasure",
+          "probability": 0.1111,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        0.1329
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

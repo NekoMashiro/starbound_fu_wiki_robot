@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_aurea_storage_14",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Medical Cabinet",
+  "name_zh": "恒金医疗柜",
+  "description_en": "A small cabinet with some medical supplies in it.",
+  "description_zh": "一个小柜子，里面放着一些医疗用品。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 140,
+  "tags": [
+    "storage",
+    "aurea",
+    "medical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

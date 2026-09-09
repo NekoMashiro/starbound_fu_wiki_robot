@@ -1,0 +1,45 @@
+{
+  "entity_id": "pyreitebed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Bed",
+  "name_zh": "永燃床",
+  "description_en": "A bed that seems far too hot to lie on.",
+  "description_zh": "一张似乎太热而不能躺在上面的床。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "pyreite",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "fuboneclaws",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Claw",
+  "name_zh": "骨爪",
+  "description_en": "Kinda strange choice of weapon... but hey, it's sharp.\r\nFloran",
+  "description_zh": "选择这种武器有点奇怪…但是，嘿，真锋利！\n叶族",
+  "rarity": "common",
+  "category": "fistWeapon",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 8.0,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

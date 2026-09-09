@@ -1,0 +1,27 @@
+{
+  "entity_id": "bandithat2",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bandit's Hood",
+  "name_zh": "强盗面罩",
+  "description_en": "A hood that hides the wearer's face - perfect for covert operations.",
+  "description_zh": "这个面罩能遮住佩戴者的脸-对某些秘密行动来说很完美。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "banditTreasure",
+          "probability": 0.01,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

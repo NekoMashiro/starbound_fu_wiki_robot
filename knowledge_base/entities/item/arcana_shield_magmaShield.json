@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_shield_magmaShield",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magma Shield",
+  "name_zh": "熔岩之盾",
+  "description_en": "A fiery shield forged from core fragments. \n+36% Fire Resistance when held.",
+  "description_zh": "使用星核碎片制成的烈焰之盾。\n持握时+32%烈焰抗性。",
+  "rarity": "Common",
+  "category": "shield",
+  "price": 300,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 9
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

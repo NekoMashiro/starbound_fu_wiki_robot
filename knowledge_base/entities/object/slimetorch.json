@@ -1,0 +1,85 @@
+{
+  "entity_id": "slimetorch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Slime Torch",
+  "name_zh": "粘液火炬",
+  "description_en": "A torch made of slime.",
+  "description_zh": "一个由粘液制成的火炬。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "slime",
+    "light",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.4779,
+          "count": 10.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.3106,
+          "count": 10
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.2597,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2597,
+        0.3106
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "slimetorch"
+  ],
+  "quality_tier": "S"
+}

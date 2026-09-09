@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_oceanite_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Oceanite Covering",
+  "name_zh": "洋铁遮风",
+  "description_en": "An armor soaked with the scent of the azure sea.",
+  "description_zh": "浸透了蔚蓝海气息的盔甲。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 800,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

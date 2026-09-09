@@ -1,0 +1,49 @@
+{
+  "entity_id": "psionicpyroammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyrokinesis Ammo",
+  "name_zh": "燃烧弹药",
+  "description_en": "Create flame from thought, and roast enemies.",
+  "description_zh": "以想象制造火舌，炙烤敌人。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 10,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psionicenergy",
+          "count": 200
+        },
+        {
+          "item": "scorchedcore",
+          "count": 2
+        }
+      ],
+      "output_count": 400,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicpyromagammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "swtjc_ewg_uncommonbeamrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uncommon Beam Rifle",
+  "name_zh": "优秀的光束步枪",
+  "description_en": "A sniper rifle that fires streams of energy at distant targets with pinpoint accuracy.",
+  "description_zh": "一把可以精确射击远距离目标的狙击步枪。",
+  "rarity": "Uncommon",
+  "category": "swtjc_ewg_beamRifle",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    4.75,
+    5.65
+  ],
+  "critChance": 1,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

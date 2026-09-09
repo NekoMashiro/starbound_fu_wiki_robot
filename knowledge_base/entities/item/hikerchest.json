@@ -1,0 +1,46 @@
+{
+  "entity_id": "hikerchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hiker Jacket",
+  "name_zh": "徒步旅行者外套",
+  "description_en": "Makes the wearer feel like they could scale any mountain.",
+  "description_zh": "让穿戴者觉得他们可以攀登上任何一座山。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "forestChestTreasure",
+          "probability": 0.1469,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.1078,
+          "count": 1
+        },
+        {
+          "pool": "forestTreasure",
+          "probability": 0.1031,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1031,
+        0.1078
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

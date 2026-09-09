@@ -1,0 +1,77 @@
+{
+  "entity_id": "arcana_neonSea",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Neon Sea",
+  "name_zh": "霓虚",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Neon Sea",
+  "friendly_name_zh": "霓虚",
+  "ores": [
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_thoriumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.6
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "crabcano",
+    "crabcritter",
+    "fishberrycritter",
+    "fishchilicritter",
+    "fishlemoncritter",
+    "gullcritter",
+    "jellycritter",
+    "lilodon",
+    "miasmop",
+    "monopus",
+    "seahornet",
+    "snaggler",
+    "snuffish",
+    "squidcritter",
+    "tidefly",
+    "tortoisecritter",
+    "wavebird"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:ocean"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_supercharged"
+  ],
+  "wiki_ref": "Neon Sea.md",
+  "quality_tier": "C"
+}

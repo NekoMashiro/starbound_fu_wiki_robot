@@ -1,0 +1,255 @@
+{
+  "entity_id": "glassmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glass Block",
+  "name_zh": "玻璃块",
+  "description_en": "I can see my reflection.",
+  "description_zh": "我可以看见我的倒影。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "avaliaeroponics",
+          "avaliglass",
+          "copperwindow",
+          "labframedglass",
+          "labwallfence"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "labdoor3",
+          "tier1door"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "labfence",
+          "scorchedcitytv"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "tier1light",
+          "tier1spotlight"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "glasscoffeemug"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "drop_sources": {
+    "total_pools": 118,
+    "chest_loot": {
+      "count": 65,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.294,
+          "count": 25
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0644,
+          "count": 250
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0634,
+          "count": 5
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0534,
+          "count": 16.5
+        },
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.0397,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.294
+      ]
+    },
+    "monster_drops": {
+      "count": 29,
+      "top": [
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.1035,
+          "count": 7.2
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0745,
+          "count": 12.2
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0582,
+          "count": 25
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0435,
+          "count": 25,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0399,
+          "count": 8.8
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1035
+      ]
+    },
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0692,
+          "count": 12.3
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0118,
+          "count": 8.7
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0079,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 25
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.002,
+          "count": 11.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0692
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0018,
+          "count": 11.7
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0017,
+          "count": 10.9
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0016,
+          "count": 11.2
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0003,
+          "count": 11.7
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0003,
+          "count": 11.7
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0018
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0004,
+          "count": 10.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 5.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

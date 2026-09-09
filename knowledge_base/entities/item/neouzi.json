@@ -1,0 +1,54 @@
+{
+  "entity_id": "neouzi",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Neo Uzi",
+  "name_zh": "NEO乌兹",
+  "description_en": "The classic uzi, now with laser rounds. Of course.",
+  "description_zh": "经典的乌兹冲锋枪，现在是激光版，没错。",
+  "rarity": "Rare",
+  "category": "uniqueWeapon",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagguns",
+          "probability": 0.2669,
+          "count": 1
+        },
+        {
+          "pool": "fu_neoguns",
+          "probability": 0.25,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.2669
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gangmemberTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

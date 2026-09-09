@@ -1,0 +1,35 @@
+{
+  "entity_id": "mercuryliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "mercuryliquid",
+  "name_zh": "",
+  "description_en": "Definitely unsafe levels of mercury.",
+  "description_zh": "系统显示，汞的含量已经超过了最低限度。",
+  "status_effects": [
+    "mercurypoison"
+  ],
+  "interactions": [
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 41,
+      "liquidResult": 44
+    },
+    {
+      "liquid": 42,
+      "liquidResult": 43
+    },
+    {
+      "liquid": 44,
+      "liquidResult": 47
+    },
+    {
+      "liquid": 46,
+      "materialResult": "wastestone"
+    }
+  ],
+  "quality_tier": "C"
+}

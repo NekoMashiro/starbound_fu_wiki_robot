@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreiteaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Axe",
+  "name_zh": "永燃斧",
+  "description_en": "Hack them into burning bits.\r\nInflicts Napalm",
+  "description_zh": "可以把敌人烧得一丝不剩。\n附加凝固效果",
+  "rarity": "legendary",
+  "category": "axe",
+  "price": 940,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 13.75,
+  "critChance": 3,
+  "critBonus": 11,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

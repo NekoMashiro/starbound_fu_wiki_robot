@@ -1,0 +1,54 @@
+{
+  "entity_id": "fulargeterminal",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Research Mainframe",
+  "name_zh": "研究主机",
+  "description_en": "A huge central mainframe accessing multiple simultaneous data streams.\nResearch Rate: 6%, 0.5s",
+  "description_zh": "一台巨大的中央主机，访问多股同时发生的数据流。\n研究效率: 6%, 0.5s",
+  "rarity": "Legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 5120,
+  "tags": [
+    "tech",
+    "science",
+    "donkey",
+    "computer",
+    "research"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 30
+        },
+        {
+          "item": "graphene",
+          "count": 8
+        },
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 6
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 10
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

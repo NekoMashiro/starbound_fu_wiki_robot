@@ -1,0 +1,56 @@
+{
+  "entity_id": "tshirtchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plain T-Shirt",
+  "name_zh": "平凡T恤",
+  "description_en": "A plain cotton T-Shirt. Appropriate clothing for all occasions and scenarios.",
+  "description_zh": "一件平凡的棉制T恤，无论什么场合穿都行。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 20
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "network_pump_iron",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Pump",
+  "name_zh": "铁制泵",
+  "description_en": "Pumps liquids.\nInput1: On/Off Switch\nInput2: compression\nOutput1: item network\nOutput2: unused",
+  "description_zh": "用于抽取液体。\n输入节点1：电源开关\n输入节点2：压缩\n输出节点1：物品网络\n输出节点2：暂时无用",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 50
+        },
+        {
+          "item": "network_pump",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_pump_titanium"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Iron Pump.md",
+  "quality_tier": "S"
+}

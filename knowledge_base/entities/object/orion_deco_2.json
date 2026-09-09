@@ -1,0 +1,53 @@
+{
+  "entity_id": "orion_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tablet Display",
+  "name_zh": "立式显示屏",
+  "description_en": "A display of a modern tablet device.",
+  "description_zh": "现代化立式设置的显示屏。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "orion",
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "arcana_firesparkstaff",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Firespark Staff",
+  "name_zh": "火花法杖",
+  "description_en": "A simple staff with a hot crystal.",
+  "description_zh": "带有一颗炽热水晶的简易法杖。",
+  "rarity": "Uncommon",
+  "category": "wand",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "staff",
+    "ranged"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.0524,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.021,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.021,
+        0.0524
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

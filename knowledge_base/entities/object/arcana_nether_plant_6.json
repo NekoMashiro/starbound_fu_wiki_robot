@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_plant_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Virusac Plant Pot",
+  "name_zh": "瘤孢植物盆栽",
+  "description_en": "A simple pot holding a virusac plant.",
+  "description_zh": "放置着瘤孢植物的简单花盆。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_virusac",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

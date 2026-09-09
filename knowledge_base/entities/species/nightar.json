@@ -1,0 +1,54 @@
+{
+  "entity_id": "nightar",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "夜族",
+  "description_en": "",
+  "description_zh": "夜族起源于半影世界深处，极度厌光。他们皆是高贵的暗影战士。\n\n食性：杂食性\n\n天赋：\n  科技: 交锋(光环，探测怪物，反射伤害。 7s冷却)\n  抗性: +15% 暗影抗性, +10% 毒素抗性, +5% 寒气抗性\n  免疫: 中毒\n\n环境:\n  黑暗: 增加物理抗性 饥饿Damage增益。攻击吸血\n  明亮: 减少能量, HP, 物理抗性和伤害。攻击时无法吸血。\n\n武器：\n  所有剑: 在黑暗中有3%几率释放暗影冲击 (5伤害)。\n  阔剑精通 : 25%\n  短剑精通 : 25%\n  长剑精通 : 25%\n  盾: +25% 击退抗性\n\n弱点：\n\n弱点:\n  抗性: -20% 射线抗性, -15% 电系抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "iceResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "poisonStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "longswordMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "shortswordMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "broadswordMastery",
+        "amount": 0.25
+      }
+    ],
+    "diet": "omnivore",
+    "tech": [
+      "nightarconshak"
+    ]
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "pristinekitchencounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pristine Counter",
+  "name_zh": "原始柜台",
+  "description_en": "A prim and proper kitchen countertop. Be sure to clean up after yourself when you're finished!",
+  "description_zh": "一本正经的厨房台面。吃完后一定要收拾干净！",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "pristine",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pristineset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

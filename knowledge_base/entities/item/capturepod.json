@@ -1,0 +1,123 @@
+{
+  "entity_id": "capturepod",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Capture Pod",
+  "name_zh": "捕捉仓",
+  "description_en": "Throw it at a monster to forcefully capture it and bring it to a new home.",
+  "description_zh": "狠狠的丢向一个怪物，然后带他回他的新家。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "sentrybotcapturebot"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 9,
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_weapon1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.825,
+          "count": 1
+        },
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 0.801,
+          "count": 1
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 0.801,
+          "count": 1
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.6553,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.6459,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "miningtreasurepet",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "miningtreasurelore",
+          "probability": 0.801,
+          "count": 2
+        },
+        {
+          "pool": "florantreasurelore",
+          "probability": 0.534,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.534,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

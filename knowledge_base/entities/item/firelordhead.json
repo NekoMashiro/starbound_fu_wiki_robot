@@ -1,0 +1,46 @@
+{
+  "entity_id": "firelordhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Fire Lord's Helm",
+  "name_zh": "炎魔之王头盔",
+  "description_en": "Rumours say one can hear the whispers of the past wearing this helmet.",
+  "description_zh": "传闻戴上头盔之人可听见来自过去的低语。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "volcanicChestTreasure",
+          "probability": 0.1943,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoVolcanicTreasure",
+          "probability": 0.1631,
+          "count": 1
+        },
+        {
+          "pool": "volcanicTreasure",
+          "probability": 0.1364,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1364,
+        0.1631
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

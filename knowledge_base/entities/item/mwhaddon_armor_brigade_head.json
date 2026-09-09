@@ -1,0 +1,27 @@
+{
+  "entity_id": "mwhaddon_armor_brigade_head",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Brigade Hat",
+  "name_zh": "旅团帽",
+  "description_en": "You are the Sapphire Star guiding our way!",
+  "description_zh": "你就是指引明路的苍蓝星！",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_brigade",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

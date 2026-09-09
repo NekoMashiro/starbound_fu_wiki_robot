@@ -1,0 +1,54 @@
+{
+  "entity_id": "fuarmoredcultistback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Writhing Tentacles",
+  "name_zh": "纠缠触须",
+  "description_en": "Well, these are cheery...and they increase energy and shield regen!",
+  "description_zh": "哈，看它们抖得多么欢快...并且它们可以提高能量和盾牌耐久的回复速度！",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corruptionseed",
+          "count": 3
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 3
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "服装制造机",
+      "station_zh": "服装制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "amberchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Chair",
+  "name_zh": "琥珀椅子",
+  "description_en": "Somewhat hard and uncomfortable. Pretty, though.",
+  "description_zh": "虽然很漂亮，但是坐上去因为太硬了，屁股很不舒服。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "fu",
+    "bees"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

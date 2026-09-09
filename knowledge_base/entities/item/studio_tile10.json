@@ -1,0 +1,52 @@
+{
+  "entity_id": "studio_tile10",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Studio Robusta Fence",
+  "name_zh": "工作室罗布斯塔栅栏",
+  "description_en": "An ornate Robusta fence.",
+  "description_zh": "华丽的罗布斯塔木制栅栏。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 25,
+      "station": "Studio & Romantic Cft. Table",
+      "station_zh": "工作室&浪漫制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_studio.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

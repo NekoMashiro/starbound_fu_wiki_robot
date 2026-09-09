@@ -1,0 +1,58 @@
+{
+  "entity_id": "durasteelsniperrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Sniper Rifle",
+  "name_zh": "耐钢狙击枪",
+  "description_en": "Powerfully strong to cover long distances.",
+  "description_zh": "强大的远距离武器。",
+  "rarity": "Uncommon",
+  "category": "sniperRifle",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "sniperrifle"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 8,
+  "critBonus": 12,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

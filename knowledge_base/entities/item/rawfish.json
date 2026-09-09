@@ -1,0 +1,164 @@
+{
+  "entity_id": "rawfish",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Fish",
+  "name_zh": "生鱼片",
+  "description_en": "A fillet of raw fish...slimy. Type: Seafood",
+  "description_zh": "一片生鱼片…黏糊糊的。\n类型：熟海鲜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 11,
+        "examples": [
+          "arcana_food_stuffedshellfruit",
+          "fishdumplings",
+          "fishfingers",
+          "fishinabone",
+          "fishnchips"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedfish"
+        ]
+      },
+      "crewcontract": {
+        "count": 1,
+        "examples": [
+          "crewcontract_oceanographer"
+        ]
+      },
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood1"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "drop_sources": {
+    "total_pools": 9,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fishingcommon",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "dolphinTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "dolphin1",
+            "dolphin2"
+          ]
+        },
+        {
+          "pool": "smallfishtreasure",
+          "probability": 0.3,
+          "count": 1,
+          "monsters": [
+            "fish",
+            "fufish"
+          ]
+        },
+        {
+          "pool": "largefishtreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "largefish",
+            "largefish2",
+            "largefish3"
+          ]
+        },
+        {
+          "pool": "snuffishTreasure",
+          "probability": 0.0639,
+          "count": 1,
+          "monsters": [
+            "poisonsnuffish",
+            "snuffish"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0639,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "snuffishHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "poisonsnuffish",
+            "snuffish"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "fishdumplings",
+    "fishfingers"
+  ],
+  "quality_tier": "S"
+}

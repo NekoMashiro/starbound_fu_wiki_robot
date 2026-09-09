@@ -1,0 +1,40 @@
+{
+  "entity_id": "dataserver",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Research Server",
+  "name_zh": "研究用服务器",
+  "description_en": "Performs much more advanced research on items.\nResearch Rate: 5%, 1s",
+  "description_zh": "对物品执行更加高级的研究。\n研究效率: 5%, 1s",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 2750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "ff_plastic",
+          "count": 10
+        },
+        {
+          "item": "aichip",
+          "count": 5
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

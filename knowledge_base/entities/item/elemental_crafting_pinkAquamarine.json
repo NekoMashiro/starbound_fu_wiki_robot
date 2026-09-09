@@ -1,0 +1,95 @@
+{
+  "entity_id": "elemental_crafting_pinkAquamarine",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Pink Aquamarine",
+  "name_zh": "粉红海蓝石",
+  "description_en": "The crystal that hosts the oceanic magic when arcane sources infected the deep.",
+  "description_zh": "奥术能量浸染深海时生成的承载着海洋魔法的水晶。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_15"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_thalassa_cannon_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "thalassa_beamCannon_1"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "thalassa_dagger_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "thalassa_spear_1"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thalassa_treasure_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_turbulent",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_turbulent_floor",
+      "weight": 0.8
+    }
+  ],
+  "wiki_ref": "Pink Aquamarine.md",
+  "quality_tier": "S"
+}

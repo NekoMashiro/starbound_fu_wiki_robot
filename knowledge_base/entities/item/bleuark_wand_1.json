@@ -1,0 +1,45 @@
+{
+  "entity_id": "bleuark_wand_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atlantis Wand",
+  "name_zh": "海金之杖",
+  "description_en": "A wand infused with aqua magic.",
+  "description_zh": "注入了水素魔术的法杖。",
+  "rarity": "Rare",
+  "category": "wand",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "wand"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

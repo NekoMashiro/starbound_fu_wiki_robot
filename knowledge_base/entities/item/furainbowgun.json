@@ -1,0 +1,63 @@
+{
+  "entity_id": "furainbowgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Cannon",
+  "name_zh": "棱镜炮",
+  "description_en": "Prismatic blasts that have a special property.\r\nImpact with alt creates more projectiles",
+  "description_zh": "射出具有特殊性能的碎片性爆炸伤害。\n次要攻击会发射更多弹药",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "flamethrower",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "rainbowblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "chromadirtmaterial",
+          "count": 12
+        },
+        {
+          "item": "prisilitestar",
+          "count": 5
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

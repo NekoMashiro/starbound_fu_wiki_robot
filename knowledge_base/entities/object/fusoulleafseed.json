@@ -1,0 +1,77 @@
+{
+  "entity_id": "fusoulleafseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Soulleaf Seed",
+  "name_zh": "魂叶种子",
+  "description_en": "Slow to grow, but produces useful essence.",
+  "description_zh": "生长极其缓慢，但是可以收获到非常有用的古代精华。",
+  "rarity": "legendary",
+  "category": "seed",
+  "price": 1000,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 144
+        },
+        {
+          "item": "sugarcaneseed",
+          "count": 6
+        },
+        {
+          "item": "phasematter",
+          "count": 48
+        },
+        {
+          "item": "agaranichor",
+          "count": 48
+        },
+        {
+          "item": "precursorfluid",
+          "count": 2
+        },
+        {
+          "item": "fu_nodule",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "miracleambrosia",
+          "soulleafspritz"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fusoulleafHarvest",
+          "probability": 0.0901,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Soulleaf Seed.md",
+  "quality_tier": "S"
+}

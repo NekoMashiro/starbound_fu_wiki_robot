@@ -1,0 +1,37 @@
+{
+  "entity_id": "scorpio_assaultrifle_rare",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rare Assault Rifle",
+  "name_zh": "稀有的突击步枪",
+  "description_en": "A fully automatic, military grade rifle developed by Scorpio.",
+  "description_zh": "一把全自动军用步枪。",
+  "rarity": "Rare",
+  "category": "assaultRifle",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    9.6,
+    10.8
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0402,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

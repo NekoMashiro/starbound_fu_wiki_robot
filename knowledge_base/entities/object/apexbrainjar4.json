@@ -1,0 +1,73 @@
+{
+  "entity_id": "apexbrainjar4",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Brain Housing",
+  "name_zh": "高级大脑存储罐",
+  "description_en": "A psionically-boosted brain, ready for use as a battery.",
+  "description_zh": "一团灵能增强过的大脑，可以用作电池。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 750,
+  "tags": [
+    "insanity",
+    "science",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 14
+        },
+        {
+          "item": "brainpeerless",
+          "count": 1
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Psionics Table",
+          "name_zh": "灵能工作台"
+        },
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "psionicenergy4"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

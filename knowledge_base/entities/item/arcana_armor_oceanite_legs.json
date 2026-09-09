@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_oceanite_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Oceanite Pants",
+  "name_zh": "洋铁下装",
+  "description_en": "An armor soaked with the scent of the azure sea. +5% Azure res.",
+  "description_zh": "浸透了蔚蓝海气息的盔甲。+5%蔚蓝抗性。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 800,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

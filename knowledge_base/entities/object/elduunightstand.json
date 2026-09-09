@@ -1,0 +1,39 @@
+{
+  "entity_id": "elduunightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Nightstand",
+  "name_zh": "水晶床头柜",
+  "description_en": "A nightstand made from cultivated crystals.",
+  "description_zh": "一个人工水晶制成的床头柜。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 200,
+  "tags": [
+    "elduukhar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 5
+        },
+        {
+          "item": "oceanite",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

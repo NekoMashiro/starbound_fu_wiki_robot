@@ -1,0 +1,35 @@
+{
+  "entity_id": "at_ext_rl",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "''Forgehammer''",
+  "name_zh": "“锻锤”",
+  "description_en": "A prototype missile launcher.Capable of launching a series of micro-missiles, requiring a significant cooldown period after each launch.",
+  "description_zh": "一个原型导弹发射器，可以发射一连串微型导弹，每次射击后需要较长时间冷却。",
+  "rarity": "Legendary",
+  "category": "rocketLauncher",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "fire",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 16,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d7",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

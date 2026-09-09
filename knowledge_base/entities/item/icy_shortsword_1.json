@@ -1,0 +1,82 @@
+{
+  "entity_id": "icy_shortsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Icy Shortsword",
+  "name_zh": "冰之短剑",
+  "description_en": "A blade wielded by the ice knights.",
+  "description_zh": "冰霜骑士所挥舞的剑。",
+  "rarity": "Legendary",
+  "category": "shortsword",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 13,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ice",
+          "count": 16
+        },
+        {
+          "item": "snowflake",
+          "count": 3
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_ice_iceMage",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_ice_iceKnight",
+          "probability": 0.1,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1,
+        0.1
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

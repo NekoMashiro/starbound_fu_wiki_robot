@@ -1,0 +1,57 @@
+{
+  "entity_id": "solariumkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solarium Katana",
+  "name_zh": "日耀武士刀",
+  "description_en": "Cleave with sun power. Two-handed.\r\n10 hit combo",
+  "description_zh": "用太阳的力量劈砍。双手握持。\n10连斩",
+  "rarity": "legendary",
+  "category": "katana",
+  "price": 2200,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "upgradeableWeapon",
+    "solarium"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 7.0,
+  "critChance": 1,
+  "critBonus": 12,
+  "primaryAbilityType": "katanacombo2h",
+  "altAbilityType": "fuwaterslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 12
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

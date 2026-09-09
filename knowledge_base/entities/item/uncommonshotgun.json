@@ -1,0 +1,40 @@
+{
+  "entity_id": "uncommonshotgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Uncommon Shotgun",
+  "name_zh": "精良的霰弹枪",
+  "description_en": "Fires a spread that's lethal at close range.",
+  "description_zh": "在近距离有可怕的杀伤力。",
+  "rarity": "Uncommon",
+  "category": "shotgun",
+  "price": 1045,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    9.5,
+    10.5
+  ],
+  "critChance": 2,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

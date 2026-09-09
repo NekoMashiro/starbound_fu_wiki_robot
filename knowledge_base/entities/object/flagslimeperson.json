@@ -1,0 +1,33 @@
+{
+  "entity_id": "flagslimeperson",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Flag",
+  "name_zh": "史莱姆旗",
+  "description_en": "A flag made of slime.  Interact to set a name and add it to your teleporter's list of destinations.",
+  "description_zh": "用史莱姆做成的旗子。交互以设置名称并将其添加到传送者的目的地列表中。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

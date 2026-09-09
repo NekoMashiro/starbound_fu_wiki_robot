@@ -1,0 +1,59 @@
+{
+  "entity_id": "fugoldenblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Honey Blade",
+  "name_zh": "金蜜宽剑",
+  "description_en": "Impossible. Weaponized honey.\r\nNormal Strikes deal Physical Damage and inflict Bee Stings and Burning",
+  "description_zh": "不可能，绝对不可能。一种武器化的蜂蜜。\n普通打击造成物理伤害并附带蜂刺和燃烧效果",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 5
+        },
+        {
+          "item": "goldcomb",
+          "count": 5
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

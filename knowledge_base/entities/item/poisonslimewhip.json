@@ -1,0 +1,44 @@
+{
+  "entity_id": "poisonslimewhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison Slime Whip",
+  "name_zh": "毒液粘液鞭",
+  "description_en": "A whip made of sticky, poisonous slime.",
+  "description_zh": "粘性有毒黏液制成的鞭子。",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "slime",
+    "poison"
+  ],
+  "elementalType": "poison",
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimewhip",
+          "count": 1
+        },
+        {
+          "item": "venomsample",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

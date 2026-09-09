@@ -1,0 +1,48 @@
+{
+  "entity_id": "hops",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hops",
+  "name_zh": "啤酒花",
+  "description_en": "Hops! Used for making beer!",
+  "description_zh": "啤酒花！用于酿造啤酒！",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 6,
+        "examples": [
+          "beer",
+          "darkbeer",
+          "lager",
+          "lambic",
+          "meadbottle"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidbeer"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hopsHarvest",
+          "probability": 2.3798,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

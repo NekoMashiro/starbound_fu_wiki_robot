@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_bluedonut",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Blue Donut",
+  "name_zh": "蓝色甜甜圈",
+  "description_en": "A donut that can pratically last forever. Not very tasty, though.",
+  "description_zh": "这甜甜圈基本上可以保存到宇宙热寂。就是不太好吃。",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 280,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_mazeendchest",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkbasic",
+          "probability": 0.2143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2143,
+        0.8571
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "goldcomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gold Honeycomb",
+  "name_zh": "金色蜂巢",
+  "description_en": "This honeycomb contains traces of gold and can heal wounds over time.",
+  "description_zh": "这个蜂巢有黄金的痕迹，使用后可以随着时间的推移愈合伤口。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "fugoldenblade"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "goldmead"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "honeyjar"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

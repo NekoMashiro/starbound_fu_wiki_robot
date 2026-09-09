@@ -1,0 +1,51 @@
+{
+  "entity_id": "grapemash",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grape Mash",
+  "name_zh": "葡萄醪",
+  "description_en": "Grape Mash, the product of crushed and squeezed grapes.",
+  "description_zh": "葡萄压榨后的产物。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "grapes",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fruit Press",
+      "station_zh": "水果榨汁机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 5,
+        "examples": [
+          "lambic",
+          "meatwine",
+          "spirits",
+          "wartwine",
+          "winebottle"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

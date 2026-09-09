@@ -1,0 +1,36 @@
+{
+  "entity_id": "artifact_magiblade_twinDragon",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Twin Dragon",
+  "name_zh": "双龙",
+  "description_en": "A magiblade that is infused with both Fire and Ice magic.",
+  "description_zh": "同时浸染了冰火之力的魔剑",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2700,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.6,
+  "primaryAbilityType": "arcana_magiblade_combo",
+  "altAbilityType": "spearspin",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

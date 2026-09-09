@@ -1,0 +1,56 @@
+{
+  "entity_id": "wretchelchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Chestguard",
+  "name_zh": "扭力藤胸甲",
+  "description_en": "Set Bonuses:\r\n Low Gravity\r\n Immune: Poisoned, Pus, Bio-Ooze",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 1020,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wretchel",
+          "count": 8
+        },
+        {
+          "item": "darkmatter",
+          "count": 4
+        },
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "aliencompound",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

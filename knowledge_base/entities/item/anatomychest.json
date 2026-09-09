@@ -1,0 +1,46 @@
+{
+  "entity_id": "anatomychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Anatomy Shirt",
+  "name_zh": "解剖学衬衫",
+  "description_en": "It's educational! A shirt showing off musculature of the torso.",
+  "description_zh": "真有教育意义！这衬衫显示了躯干的肌肉结构。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fleshChestTreasure",
+          "probability": 0.1082,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoFleshTreasure",
+          "probability": 0.0703,
+          "count": 1
+        },
+        {
+          "pool": "fleshTreasure",
+          "probability": 0.0588,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0588,
+        0.0703
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

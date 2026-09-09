@@ -1,0 +1,48 @@
+{
+  "entity_id": "exoniteseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Crystal Seed",
+  "name_zh": "长石晶体种子",
+  "description_en": "A gem grown in secret on the Eld'uukhar homeworld. It has hallucinogenic properties.",
+  "description_zh": "一颗秘密生长在厄休安龙人家乡的宝石。它有致幻作用。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 360,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "thanatite",
+          "count": 20
+        },
+        {
+          "item": "emera",
+          "count": 20
+        },
+        {
+          "item": "feya",
+          "count": 20
+        }
+      ],
+      "output_count": 5,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

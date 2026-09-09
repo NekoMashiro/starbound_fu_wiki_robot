@@ -1,0 +1,38 @@
+{
+  "entity_id": "medicinecabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medicine Cabinet",
+  "name_zh": "药柜",
+  "description_en": "A vaguely sweet smelling cabinet filled with medicine.",
+  "description_zh": "一个有着隐约甜味的装满药的柜子。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 700
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

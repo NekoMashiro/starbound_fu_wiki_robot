@@ -1,0 +1,45 @@
+{
+  "entity_id": "zerchesiumcouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Couch",
+  "name_zh": "高熔点矿沙发",
+  "description_en": "A couch made from zerchesium.",
+  "description_zh": "高熔点矿制成的沙发。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "zerchesium",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

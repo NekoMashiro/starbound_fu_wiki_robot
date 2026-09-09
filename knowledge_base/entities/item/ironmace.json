@@ -1,0 +1,81 @@
+{
+  "entity_id": "ironmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Mace",
+  "name_zh": "铁制钉头锤",
+  "description_en": "Well crafted, but heavy.",
+  "description_zh": "除了有些沉重之外，还算是把不错的武器。",
+  "rarity": "common",
+  "category": "mace",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6.8,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "climbingrope",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mace": {
+        "count": 1,
+        "examples": [
+          "ballmace"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

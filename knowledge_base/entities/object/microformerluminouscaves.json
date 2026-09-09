@@ -1,0 +1,79 @@
+{
+  "entity_id": "microformerluminouscaves",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glowshroom Microformer",
+  "name_zh": "发光菇微型转换器",
+  "description_en": "Transforms an area of a planet into a sticky patch of glowing mushrooms.",
+  "description_zh": "将星球的一部分转变为湿热的发光蘑菇生态。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 3000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 500
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "microformerTreasure",
+          "probability": 0.0653,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0218,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0218,
+        0.0653
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "essenceBurst",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

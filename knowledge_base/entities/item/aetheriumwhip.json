@@ -1,0 +1,58 @@
+{
+  "entity_id": "aetheriumwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Whip",
+  "name_zh": "阳清鞭",
+  "description_en": "The ultimate lashing device. Just don't get it caught on the crossguard.",
+  "description_zh": "终极捆绑设备。只是不要让它陷入交叉防护中。",
+  "rarity": "Legendary",
+  "category": "whip",
+  "price": 2600,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 3
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

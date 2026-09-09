@@ -1,0 +1,85 @@
+{
+  "entity_id": "arcana_atlas",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atlas",
+  "name_zh": "旅志",
+  "description_en": "A Seeker communication device. Use this to open the Seeker Atlas.",
+  "description_zh": "搜寻者用的通讯装置。使用它来开启搜寻者旅志。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 1000,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_map",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_atlas",
+          "count": 1
+        },
+        {
+          "item": "arcana_currency_credit",
+          "count": 250
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "Multipass Arcana Addon",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "arcana_atlas"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "multipass",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

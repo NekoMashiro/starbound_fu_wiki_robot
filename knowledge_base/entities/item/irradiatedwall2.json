@@ -1,0 +1,30 @@
+{
+  "entity_id": "irradiatedwall2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Radioactive Stone",
+  "name_zh": "放射性石块",
+  "description_en": "This can't be safe.\nExtractable, Crushable.",
+  "description_zh": "这很危险。\n可萃取，可破碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "toxicgolemLoot",
+          "probability": 0.1042,
+          "count": 25,
+          "monsters": [
+            "futoxicgolem"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

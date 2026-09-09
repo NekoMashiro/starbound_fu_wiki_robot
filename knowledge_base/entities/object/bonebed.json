@@ -1,0 +1,54 @@
+{
+  "entity_id": "bonebed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bone Coffin Bed",
+  "name_zh": "骨棺床",
+  "description_en": "A coffin bed. The hottest in undead comfort.",
+  "description_zh": "一张棺木床。在死者间最为流行。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "bone",
+    "evil",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 20
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "silk",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

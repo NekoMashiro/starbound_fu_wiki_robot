@@ -1,0 +1,87 @@
+{
+  "entity_id": "arcana_magiksensePotion",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magiksense Potion",
+  "name_zh": "魔力感知药水",
+  "description_en": "A potion for immersing with the alien energy present in Arcane Stars.\r\n+20% Max Energy and Arcane Drain prot. for 2 minutes.",
+  "description_zh": "充满了奥秘星异星能量的药水。\n+20%最大能量和奥术流失免疫，持续2分钟。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bottledwater",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_2_2",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_bossdrops_evolvedGleap",
+          "probability": 1.0,
+          "count": 3,
+          "monsters": [
+            "arcana_monster_evolvedGleap"
+          ]
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

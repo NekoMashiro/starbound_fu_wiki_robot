@@ -1,0 +1,126 @@
+{
+  "entity_id": "arcana_mwhaddon_healItem_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Arcane Ointment",
+  "name_zh": "奥秘药膏",
+  "description_en": "Basic ointment made by arcane herb.\nRestores 200 health over 15 seconds, and instantly cures most status effects.",
+  "description_zh": "使用奥术草药制成的基础药膏。\n在15秒钟内恢复200点生命值，同时能治愈绝大部分负面状态。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_herb",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 18,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_maaHealItem_1",
+          "probability": 2.0,
+          "count": 2.8
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_maaHealItem_2",
+          "probability": 1.0,
+          "count": 1.5
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.4057,
+          "count": 2.3
+        }
+      ],
+      "prob_range": [
+        0.4057,
+        2.0
+      ]
+    },
+    "boss_mission": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_upper_t2",
+          "probability": 1.0773,
+          "count": 1.6
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 1.0355,
+          "count": 1.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 1.0355,
+          "count": 1.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 1.0355,
+          "count": 1.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_under_t2",
+          "probability": 0.837,
+          "count": 1.5
+        }
+      ],
+      "prob_range": [
+        0.1069,
+        1.0773
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_healItem1",
+          "probability": 1.0,
+          "count": 1.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_healitem",
+          "probability": 0.8,
+          "count": 1.5
+        }
+      ],
+      "prob_range": [
+        0.8,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

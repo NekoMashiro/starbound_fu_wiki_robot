@@ -1,0 +1,31 @@
+{
+  "entity_id": "fu_smallthruster",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Decorative Ship Booster",
+  "name_zh": "小型装饰性飞船加速器",
+  "description_en": "Small, decorative booster to represent interplanetary travel. Can be placed anywhere.",
+  "description_zh": "小型，代表超光速旅行的推进器。可以放在任何地方。",
+  "rarity": "common",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "decoration",
+    "decor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

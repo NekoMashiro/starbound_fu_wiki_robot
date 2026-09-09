@@ -1,0 +1,41 @@
+{
+  "entity_id": "alienfruitjuiceobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alien Fruit Juice",
+  "name_zh": "外星果汁",
+  "description_en": "A pleasantly sweet juice made from an alien fruit.",
+  "description_zh": "一杯外星水果制成的甜果汁。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienfruitjuice",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "alienfruitjuice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

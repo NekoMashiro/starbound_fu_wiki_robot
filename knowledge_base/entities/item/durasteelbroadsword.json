@@ -1,0 +1,59 @@
+{
+  "entity_id": "durasteelbroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Durasteel Broadsword",
+  "name_zh": "耐钢巨剑",
+  "description_en": "A blade forged from solid durasteel. Few metals are stronger.",
+  "description_zh": "一把由可靠的耐钢制成的剑。只有很少的金属比它更性能优异。",
+  "rarity": "Uncommon",
+  "category": "broadsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursorsmelter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Forge",
+  "name_zh": "先驱熔炉",
+  "description_en": "Built to process entire worlds into cyberspheres. Sifts and crushes blocks. Requires 120W power.",
+  "description_zh": "旨在将整个世界处理到网络领域。筛分和粉碎物块。\n需要120W电力。",
+  "rarity": "legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 4000,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.1042,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0104,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0104,
+        0.1042
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0104,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Forge.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "crewcontract_precursor",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Drone Control Chip",
+  "name_zh": "先驱无人机控制芯片",
+  "description_en": "The control chip for a Precursor Drone, able to increase fuel efficiency by 10%, protect you with 30% Shadow resistance and Shadow Taint immunity, and grant +3 passive research.",
+  "description_zh": "先驱无人机的控制芯片，能够降低10%的飞船燃料消耗，提供30%暗影抗性和暗影污染免疫，附加+3被动研究点数。",
+  "rarity": "Essential",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 6,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.01,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.01,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Drone Control Chip.md",
+  "quality_tier": "A"
+}

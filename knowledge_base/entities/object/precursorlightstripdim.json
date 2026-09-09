@@ -1,0 +1,69 @@
+{
+  "entity_id": "precursorlightstripdim",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Faulty Precursor Light",
+  "name_zh": "有故障的先驱灯",
+  "description_en": "This light has reached the end of its usefulness.",
+  "description_zh": "这盏灯已经到了它的使用寿命的尽头。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 230,
+  "tags": [
+    "precursor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursorlightstrip",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

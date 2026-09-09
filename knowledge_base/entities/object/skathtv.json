@@ -1,0 +1,38 @@
+{
+  "entity_id": "skathtv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath TV",
+  "name_zh": "绘世者电视",
+  "description_en": "A sturdy television made by the Skath.",
+  "description_zh": "绘世者制造的结实的电视机。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 25,
+  "tags": [
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

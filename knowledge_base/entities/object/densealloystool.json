@@ -1,0 +1,45 @@
+{
+  "entity_id": "densealloystool",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Alloy Stool",
+  "name_zh": "致密合金凳",
+  "description_en": "A stool made from dense alloy.",
+  "description_zh": "由致密合金制成的凳子。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "densealloy",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 5
+        },
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

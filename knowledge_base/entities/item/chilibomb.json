@@ -1,0 +1,44 @@
+{
+  "entity_id": "chilibomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chili Pepper Bomb",
+  "name_zh": "辣椒炸弹",
+  "description_en": "A chili pepper that explodes into flames. Fun to throw at your neighbors!",
+  "description_zh": "一种能爆炸成火焰的辣椒。扔向你的邻居会很有趣！",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ammoniumsulfate",
+          "count": 5
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "chili",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

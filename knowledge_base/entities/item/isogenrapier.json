@@ -1,0 +1,56 @@
+{
+  "entity_id": "isogenrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Rapier",
+  "name_zh": "寒霜刺剑",
+  "description_en": "Icey-cold stabby side. Deadly in almost any hand.\r\nInflicts Frost Burn",
+  "description_zh": "冰冷刺骨，不管握在哪只手上，都是极其致命的武器。\n附加霜灼效果",
+  "rarity": "legendary",
+  "category": "Rapier",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "isogen",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 5.9,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

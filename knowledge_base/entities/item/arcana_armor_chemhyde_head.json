@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_chemhyde_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Chemhyde Mask",
+  "name_zh": "化匿面具",
+  "description_en": "A gas mask necessary for safely traversing radioactive and toxic environments.",
+  "description_zh": "安全穿越放射性和有毒环境所需的防毒面具。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 1200,
+  "tags": [],
+  "level": 4,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_anarkyonselite",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

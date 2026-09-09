@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_misc_hotWater",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Hot Water",
+  "name_zh": "热水",
+  "description_en": "Watch your mouth.",
+  "description_zh": "小心烫嘴。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_3_water",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

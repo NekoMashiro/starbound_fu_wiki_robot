@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_scroll_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Laying Scrolls Stack",
+  "name_zh": "横躺卷轴堆",
+  "description_en": "A stack of scrolls tied together.",
+  "description_zh": "一堆叠在一起的卷轴。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "nether"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

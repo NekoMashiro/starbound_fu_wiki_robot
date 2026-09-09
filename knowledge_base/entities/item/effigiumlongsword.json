@@ -1,0 +1,56 @@
+{
+  "entity_id": "effigiumlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm Blade",
+  "name_zh": "幻影锋刃",
+  "description_en": "Ghostly as a spirit.\r\nInflicts Caliginous Gas",
+  "description_zh": "影伴鬼魅。\n传播暗影气体",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "effigium",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 9
+        },
+        {
+          "item": "refinedviolium",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

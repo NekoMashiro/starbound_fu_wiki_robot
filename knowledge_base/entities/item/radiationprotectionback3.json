@@ -1,0 +1,46 @@
+{
+  "entity_id": "radiationprotectionback3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Radiation EPP III",
+  "name_zh": "消辐EPP III",
+  "description_en": "+60% Radiation Resist. Use it on planets with extreme radiation levels. Provides air.",
+  "description_zh": "对在极端辐射的星球上的探险很有帮助。\n辐射抗性+60%，供给氧气",
+  "rarity": "legendary",
+  "category": "enviroProtectionPack",
+  "price": 1750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "radiationprotectionback2",
+          "count": 1
+        },
+        {
+          "item": "thoriumrod",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,82 @@
+{
+  "entity_id": "eyepiles",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pile of Eyes",
+  "name_zh": "眼球堆",
+  "description_en": "A tumbling heap of squishy eyeballs.\nExtractable.",
+  "description_zh": "一堆翻滚中的湿润眼球。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemon",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "eyebed",
+          "eyechair",
+          "eyetable"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "eyechest"
+        ]
+      },
+      "bioweapon": {
+        "count": 1,
+        "examples": [
+          "eyecannon"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "eyedoor"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "ocularoobleck"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "blueprints_unlocked": [
+    "eyepiles"
+  ],
+  "quality_tier": "S"
+}

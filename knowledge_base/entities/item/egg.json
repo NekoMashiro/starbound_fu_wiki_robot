@@ -1,0 +1,75 @@
+{
+  "entity_id": "egg",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Egg",
+  "name_zh": "鸡蛋",
+  "description_en": "It's an egg! Type: Omnivore",
+  "description_zh": "这是一个鸡蛋！\n类型：熟肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 42,
+        "examples": [
+          "apexfritter",
+          "arcana_food_overloadcherrypie",
+          "baconpancakes",
+          "bananacreamdonut",
+          "bigbreakfast"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "eggshootseed"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "greggnog"
+        ]
+      },
+      "shoategg": {
+        "count": 1,
+        "examples": [
+          "shoategg"
+        ]
+      }
+    },
+    "total": 45
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "henHarvest",
+          "probability": 0.95,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "birdsnest",
+          "probability": 0.8,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "pearlpeapancakes",
+    "fluffyruffs",
+    "omelette"
+  ],
+  "quality_tier": "S"
+}

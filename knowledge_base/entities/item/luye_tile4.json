@@ -1,0 +1,58 @@
+{
+  "entity_id": "luye_tile4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Luye Sloped Plating",
+  "name_zh": "绿叶斜面嵌板",
+  "description_en": "A rusty metal plating tile.",
+  "description_zh": "生锈的金属电镀地砖。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^yellow;1级攻击无人机": {
+        "count": 2,
+        "examples": [
+          "sd_exp_t1anarkyonsdrone_controller",
+          "sd_exp_t1luyedrone_controller"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

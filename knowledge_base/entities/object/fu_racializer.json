@@ -1,0 +1,45 @@
+{
+  "entity_id": "fu_racializer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship Component Racializer",
+  "name_zh": "种族飞船组件定义器",
+  "description_en": "Used to change ship components into various racial styles.",
+  "description_zh": "用于将飞船部件更改为各种种族的样式。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 300,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Ship Component Racializer.md",
+  "quality_tier": "A"
+}

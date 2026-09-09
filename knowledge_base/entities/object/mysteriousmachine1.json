@@ -1,0 +1,86 @@
+{
+  "entity_id": "mysteriousmachine1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mysterious Machine",
+  "name_zh": "神秘机器",
+  "description_en": "The purpose of this machine is unclear. I am most certain, however, that it would result in no good were I to strap myself to it.",
+  "description_zh": "这台机器的用途不明。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.2479,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.132,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0174,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0157,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0157,
+        0.132
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0978,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0049,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

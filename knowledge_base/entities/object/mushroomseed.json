@@ -1,0 +1,47 @@
+{
+  "entity_id": "mushroomseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mushroom Seed",
+  "name_zh": "蘑菇种子",
+  "description_en": "A mushroom. The farmer who plants these is a fun guy.",
+  "description_zh": "一株蘑菇。种植这些的农民是个有趣的家伙。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 4
+        },
+        {
+          "item": "rottenfood",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "ghostmushroomseed",
+          "oonfortaseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

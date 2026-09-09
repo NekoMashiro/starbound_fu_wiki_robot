@@ -1,0 +1,62 @@
+{
+  "entity_id": "ghostlywax",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exspiravit Wax",
+  "name_zh": "幻灵蜡",
+  "description_en": "A chunk of semi transparent, white-hued wax. Known to be a potent hallucinogen.",
+  "description_zh": "一块半透明的白色蜡块，是种强效迷幻剂。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_devoratrix_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 3,
+        "examples": [
+          "ghostcandle",
+          "ghostcandledouble",
+          "ghostcandletriple"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "shrineoflostsouls"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "whitewaxblock"
+        ]
+      },
+      "platform": {
+        "count": 1,
+        "examples": [
+          "whitewaxplatform"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

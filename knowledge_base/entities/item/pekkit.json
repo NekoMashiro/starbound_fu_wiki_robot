@@ -1,0 +1,38 @@
+{
+  "entity_id": "pekkit",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pekkit",
+  "name_zh": "霜草",
+  "description_en": "200% Ice Thorns: 1m",
+  "description_zh": "200%冰霜反伤: 1m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "pekkitfreeze_freezegrenade"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pekkitHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

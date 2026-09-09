@@ -1,0 +1,83 @@
+{
+  "entity_id": "arcana_essence_fireEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fire Essence",
+  "name_zh": "烈焰精纯",
+  "description_en": "An essence fragment of cindering heat energy, extracted from Lava.",
+  "description_zh": "从岩浆中提取的精纯碎片，内有灰烬高热能量。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_misc_conflagrationShard",
+          "coralfragment",
+          "leather",
+          "scorchedcore"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "arcana_evoNanopack",
+          "mwhaddon_potion_twilight"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "molotov",
+          "mwhaddon_throwable_kitsunetou"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_battleaxe_1"
+        ]
+      },
+      "grenadeLauncher": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_grenadeLauncher_1"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_pistol_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "solar_glaive_1"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "quality_tier": "S"
+}

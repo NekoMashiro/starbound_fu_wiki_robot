@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_augment_supercharged",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EPA - Superstorm",
+  "name_zh": "EPP增强模块 - 奔雷",
+  "description_en": "Grants Supercharged immunity. Useful as a Superstorm EPP replacement.",
+  "description_zh": "提供对过充能的免疫。作为奔雷EPP的替换十分合适。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 2100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 6
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        },
+        {
+          "item": "arcana_back_superstormEPP",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

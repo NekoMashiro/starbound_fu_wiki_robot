@@ -1,0 +1,27 @@
+{
+  "entity_id": "biscorn",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Biscorn",
+  "name_zh": "双子玉米",
+  "description_en": "+5 HP, +6 EP: 3m",
+  "description_zh": "",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "biscornHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

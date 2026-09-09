@@ -1,0 +1,50 @@
+{
+  "entity_id": "bloodyknife",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sacrificial Blade",
+  "name_zh": "牺牲匕首",
+  "description_en": "Covered in blood and creepy carvings",
+  "description_zh": "表面布满了血液和蠕动的花纹。",
+  "rarity": "Common",
+  "category": "dagger",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "elder",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "daggercombo",
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0063,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0012,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

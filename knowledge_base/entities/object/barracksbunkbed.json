@@ -1,0 +1,60 @@
+{
+  "entity_id": "barracksbunkbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Barracks Bunk Bed",
+  "name_zh": "营房双层床",
+  "description_en": "A standard military bunk bed. You could bounce a coin off those sheets!",
+  "description_zh": "一张标准的军用双层床。你可以把一枚硬币从床单上弹下来！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "barracks",
+    "combat",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "barracksset",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "barracksbunkbed",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "avesmingobasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Avesmingo Basket",
+  "name_zh": "百味果篮",
+  "description_en": "Avesmingo, the plant of a 100 different flavours.",
+  "description_zh": "百味果，一种有着100种不同口味的水果。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "jungle"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "avesmingo",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "avesmingo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

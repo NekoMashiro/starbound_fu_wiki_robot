@@ -1,0 +1,40 @@
+{
+  "entity_id": "floranflagpole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floran Flag",
+  "name_zh": "叶族旗帜",
+  "description_en": "The Floran flag. Use [E] to bookmark a teleportation location.",
+  "description_zh": "叶族人的旗帜。使用 [E] 来标记一个传送点。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 0,
+  "tags": [
+    "floran"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

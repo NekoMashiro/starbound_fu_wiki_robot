@@ -1,0 +1,62 @@
+{
+  "entity_id": "gaea_spear_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rampant Spike",
+  "name_zh": "猖虐之棘",
+  "description_en": "A poisonous spike collected from the Verdant.",
+  "description_zh": "一柄...拳头形状的长矛。",
+  "rarity": "Uncommon",
+  "category": "spear",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.6,
+  "primaryAbilityType": "spearstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_florastone",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "猖虐之棘^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

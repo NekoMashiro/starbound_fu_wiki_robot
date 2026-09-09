@@ -1,0 +1,42 @@
+{
+  "entity_id": "railstop",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rail Stop",
+  "name_zh": "轨道站",
+  "description_en": "Stops and starts rail riders",
+  "description_zh": "乘客在此停车或发车",
+  "rarity": "Common",
+  "category": "railPoint",
+  "price": 400,
+  "tags": [
+    "rails"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

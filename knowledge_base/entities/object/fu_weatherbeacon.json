@@ -1,0 +1,41 @@
+{
+  "entity_id": "fu_weatherbeacon",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weather Beacon",
+  "name_zh": "天气信标",
+  "description_en": "A scanning radar used to measure light and wind levels.",
+  "description_zh": "用于测量光线和风向的扫描雷达。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 300,
+  "tags": [
+    "wired",
+    "electronic",
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Weather Beacon.md",
+  "quality_tier": "A"
+}

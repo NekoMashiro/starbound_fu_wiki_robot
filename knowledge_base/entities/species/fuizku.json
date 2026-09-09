@@ -1,0 +1,43 @@
+{
+  "entity_id": "fuizku",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "伊兹库",
+  "description_en": "",
+  "description_zh": "伊兹库几乎什么都不懂，他们的先进技术来自于纯粹的幸运。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.8
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.5
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.25
+      },
+      {
+        "stat": "fuCharisma",
+        "effectiveMultiplier": 1.21
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.1,
+      "airJumpModifier": 1.1
+    }
+  },
+  "quality_tier": "B"
+}

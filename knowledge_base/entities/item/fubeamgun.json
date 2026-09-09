@@ -1,0 +1,60 @@
+{
+  "entity_id": "fubeamgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Beam Gun",
+  "name_zh": "光束枪",
+  "description_en": "A solid beam guaranteed to roast your foes.",
+  "description_zh": "精准的光束确保你的敌人会被烧焦。",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "beam",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.5,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "fuerchiuslauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Beam Gun.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "fuphotonpoptop",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "富光光电",
+  "description_en": "",
+  "description_zh": "我的天，这种毛绒绒的生物真是太可爱了！",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.15
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 0.88
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.4
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.4
+      },
+      {
+        "stat": "grit",
+        "amount": 0.25
+      },
+      {
+        "stat": "liquidnitrogenImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "iceslipImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "iceStatusImmunity",
+        "amount": 1
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.05
+    }
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,84 @@
+{
+  "entity_id": "solarpanel",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Solar Panel",
+  "name_zh": "太阳能电池板",
+  "description_en": "A panel that generates electricity from solar energy.",
+  "description_zh": "用太阳能发电的面板。",
+  "rarity": "Uncommon",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "space",
+    "wired"
+  ],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceObject",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.005,
+        0.5
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0053,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0053
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Solar Panel.md",
+  "quality_tier": "A"
+}

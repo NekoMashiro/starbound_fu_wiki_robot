@@ -1,0 +1,49 @@
+{
+  "entity_id": "cellchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cell Chair",
+  "name_zh": "细胞椅",
+  "description_en": "A bright, modern looking chair.",
+  "description_zh": "一张明亮，现代化设计的椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "cell",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 15
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

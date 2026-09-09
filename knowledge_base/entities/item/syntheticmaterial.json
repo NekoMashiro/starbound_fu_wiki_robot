@@ -1,0 +1,143 @@
+{
+  "entity_id": "syntheticmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Synthetic Material",
+  "name_zh": "合成材料",
+  "description_en": "A square of synthetic material.",
+  "description_zh": "一块合成材料。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbon",
+          "count": 2
+        },
+        {
+          "item": "liquidpoison",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 45
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 44,
+        "examples": [
+          "apextier5achest",
+          "apextier5mchest",
+          "apextier5schest",
+          "aviantier5achest",
+          "aviantier5mchest"
+        ]
+      },
+      "headarmour": {
+        "count": 43,
+        "examples": [
+          "apextier5ahead",
+          "arcana_armor_aeon_head",
+          "arcana_armor_anima_head",
+          "arcana_armor_ariorift_head",
+          "arcana_armor_beholder_head"
+        ]
+      },
+      "legarmour": {
+        "count": 24,
+        "examples": [
+          "apextier5apants",
+          "aviantier5apants",
+          "chaospants",
+          "cultarmorpants",
+          "fieldscientistlegs"
+        ]
+      },
+      "chestwear": {
+        "count": 21,
+        "examples": [
+          "arcana_armor_aeon_chest",
+          "arcana_armor_anima_chest",
+          "arcana_armor_ariorift_chest",
+          "arcana_armor_beholder_chest",
+          "arcana_armor_brightguard_chest"
+        ]
+      },
+      "legwear": {
+        "count": 20,
+        "examples": [
+          "arcana_armor_aeon_legs",
+          "arcana_armor_anima_legs",
+          "arcana_armor_ariorift_legs",
+          "arcana_armor_beholder_legs",
+          "arcana_armor_brightguard_legs"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "apiary_frame_eclipse",
+          "apiary_frame_entropic",
+          "apiary_frame_radioactive",
+          "funanofibre",
+          "phasematter"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "nanowrap",
+          "nanowrap"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "astral_tile10"
+        ]
+      }
+    },
+    "total": 164
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.1353,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

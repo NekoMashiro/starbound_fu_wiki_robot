@@ -1,0 +1,46 @@
+{
+  "entity_id": "bonewingsback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Skeletal Wings",
+  "name_zh": "骨翼",
+  "description_en": "Certainly the only thing spookier than a skeleton is a flying one! +5% Phys. Resist.",
+  "description_zh": "当然，唯一比骷髅更吓人的东西就是会飞的骷髅！\n物理抗性+5%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.1255,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneCaveTreasure",
+          "probability": 0.0815,
+          "count": 1
+        },
+        {
+          "pool": "boneCaveTreasure",
+          "probability": 0.0682,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0682,
+        0.0815
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

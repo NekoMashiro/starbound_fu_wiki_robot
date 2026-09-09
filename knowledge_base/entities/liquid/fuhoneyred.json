@@ -1,0 +1,24 @@
+{
+  "entity_id": "fuhoneyred",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "fuhoneyred",
+  "name_zh": "",
+  "description_en": "Blood-colored honey.",
+  "description_zh": "血色蜂蜜。",
+  "status_effects": [
+    "swimming",
+    "honeyslow2"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "redhoneycombmaterial"
+    },
+    {
+      "liquid": 73,
+      "materialResult": "redhoneycombmaterial"
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,156 @@
+{
+  "entity_id": "refinedaegisalt",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Refined Aegisalt",
+  "name_zh": "精炼霓磷盐",
+  "description_en": "Ore for refined aegisalt is primarily found on planets orbiting frozen stars.",
+  "description_zh": "霓磷盐矿常见于冰冻星系的行星。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 420,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aegisaltore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 720
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 12,
+        "examples": [
+          "apextier5achest",
+          "aviantier5achest",
+          "florantier5achest",
+          "fumantizitier5achest",
+          "glitchtier5achest"
+        ]
+      },
+      "headarmour": {
+        "count": 12,
+        "examples": [
+          "apextier5ahead",
+          "arcana_armor_ariorift_head",
+          "arcana_armor_heishe_head",
+          "aviantier5ahead",
+          "florantier5ahead"
+        ]
+      },
+      "legarmour": {
+        "count": 10,
+        "examples": [
+          "apextier5apants",
+          "aviantier5apants",
+          "florantier5apants",
+          "fumantizitier5apants",
+          "glitchtier5apants"
+        ]
+      },
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "arcana_luye_deco_1",
+          "arcana_luye_deco_4",
+          "arcana_luye_deco_7",
+          "arcana_luye_walldeco_1",
+          "arcana_luye_walldeco_2"
+        ]
+      },
+      "mechPart": {
+        "count": 9,
+        "examples": [
+          "mecharmbeamdrill",
+          "mecharmdualrifle",
+          "mecharmenergyblade",
+          "mecharmenergyrifle",
+          "mecharmguidedmissiles"
+        ]
+      },
+      "storage": {
+        "count": 8,
+        "examples": [
+          "arcana_luye_storage_1",
+          "arcana_luye_storage_2",
+          "arcana_luye_storage_3",
+          "arcana_luye_storage_4",
+          "arcana_luye_storage_7"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "arcana_luye_bed_1",
+          "arcana_luye_bed_2",
+          "arcana_luye_crafting_1"
+        ]
+      },
+      "block": {
+        "count": 3,
+        "examples": [
+          "luye_tile1",
+          "luye_tile2",
+          "luye_tile3"
+        ]
+      }
+    },
+    "total": 100
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "aegisaltore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "aegisaltore"
+    }
+  ],
+  "quality_tier": "S"
+}

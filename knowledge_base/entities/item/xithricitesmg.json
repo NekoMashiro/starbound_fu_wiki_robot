@@ -1,0 +1,54 @@
+{
+  "entity_id": "xithricitesmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite SMG",
+  "name_zh": "赛德瑞瑟SMG",
+  "description_en": "Morse code except its cosmic bullets.\r\nCosmic blasts",
+  "description_zh": "莫尔斯电码，除了它的宇宙子弹。\n射线冲击",
+  "rarity": "legendary",
+  "category": "machinePistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "baseDps": 6.6,
+  "critChance": 2,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "pumpinfu",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Mover Input",
+  "name_zh": "液体输入泵",
+  "description_en": "Blue - Connect to signal Red - connect to Liquid Outlet",
+  "description_zh": "蓝色端——连接到电流 红色端——连接到液体输出",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Liquid Mover Input.md",
+  "quality_tier": "A"
+}

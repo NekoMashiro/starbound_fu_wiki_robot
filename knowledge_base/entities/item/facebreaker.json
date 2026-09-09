@@ -1,0 +1,39 @@
+{
+  "entity_id": "facebreaker",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Facebreaker",
+  "name_zh": "毁容者",
+  "description_en": "Likely unpleasant to be smashed by. Solid durasteel.",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 4,
+  "critBonus": 6,
+  "primaryAbilityType": "macecombo",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0405,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

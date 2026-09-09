@@ -1,0 +1,36 @@
+{
+  "entity_id": "changingroomstall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Changing Room Stall",
+  "name_zh": "更衣室隔间",
+  "description_en": "A changing room stall. No peeking!",
+  "description_zh": "更衣室的隔间。不许偷看！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

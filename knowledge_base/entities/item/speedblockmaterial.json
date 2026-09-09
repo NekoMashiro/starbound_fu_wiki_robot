@@ -1,0 +1,46 @@
+{
+  "entity_id": "speedblockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Speed Block",
+  "name_zh": "加速方块",
+  "description_en": "A block that enhances the speed of the person moving over it.",
+  "description_zh": "神奇的方块，站在上面将使你跑的更快。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumwallblockmaterial",
+          "count": 1
+        },
+        {
+          "item": "vialproto",
+          "count": 2
+        },
+        {
+          "item": "ff_silicon",
+          "count": 1
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

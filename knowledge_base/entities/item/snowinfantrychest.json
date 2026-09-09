@@ -1,0 +1,70 @@
+{
+  "entity_id": "snowinfantrychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snow Infantry Chest",
+  "name_zh": "雪步兵胸甲",
+  "description_en": "Useful for when a planet is giving you the cold shoulder.",
+  "description_zh": "当你遇到一颗十分寒冷的星球的时候十分有用。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 7,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "snowChestTreasure",
+          "probability": 0.1379,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1075,
+          "count": 1
+        },
+        {
+          "pool": "iceChestTreasure",
+          "probability": 0.1003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.1003,
+        0.1379
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "snowTreasure",
+          "probability": 0.0968,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0755,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "iceTreasure",
+          "probability": 0.0545,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0545,
+        0.0968
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

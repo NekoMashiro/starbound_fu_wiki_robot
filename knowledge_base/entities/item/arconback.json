@@ -1,0 +1,54 @@
+{
+  "entity_id": "arconback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Protector",
+  "name_zh": "阿克恩保护者",
+  "description_en": "+25% Cosmic Resist. Immune: Acid, Oxygen. Helpful on Aether planets.",
+  "description_zh": "+25%射线抗性。对探索以太行星有助。+25秒氧气，且呼吸速率减半。",
+  "rarity": "rare",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

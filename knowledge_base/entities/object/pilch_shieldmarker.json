@@ -1,0 +1,33 @@
+{
+  "entity_id": "pilch_shieldmarker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Field Marker",
+  "name_zh": "力场标记器",
+  "description_en": "Marks the edge of the generated field.",
+  "description_zh": "标记生成立场的边界。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 1,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Field Marker.md",
+  "quality_tier": "A"
+}

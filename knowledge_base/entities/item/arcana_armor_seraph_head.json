@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_armor_seraph_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Seraph Helm",
+  "name_zh": "六翼天使头盔",
+  "description_en": "Sacred armor of the dragonborn angels. +4% Light Res. -4% Physical Res.",
+  "description_zh": "龙裔天使的神圣盔甲。+4%光辉抗性。 -4%物理抗性。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 3100,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 12
+        },
+        {
+          "item": "arcana_armor_beholder_head",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

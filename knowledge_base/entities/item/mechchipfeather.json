@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchipfeather",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Featherweight Module",
+  "name_zh": "羽落模块",
+  "description_en": "Decreases mech mass and defense.",
+  "description_zh": "减少机甲的总质量和防御。",
+  "rarity": "Common",
+  "category": "mechChip",
+  "price": 9251,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "prisilitestar",
+          "count": 10
+        },
+        {
+          "item": "apalite",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

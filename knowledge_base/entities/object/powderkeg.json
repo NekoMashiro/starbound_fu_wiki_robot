@@ -1,0 +1,45 @@
+{
+  "entity_id": "powderkeg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Powder Keg",
+  "name_zh": "火药桶",
+  "description_en": "A crude explosive for mining. Detonation requires impact.",
+  "description_zh": "采矿用的粗制炸药。注意安全。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 25,
+  "tags": [
+    "human",
+    "humanbunker",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sulphur",
+          "count": 5
+        },
+        {
+          "item": "volatilepowder",
+          "count": 3
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Powder Keg.md",
+  "quality_tier": "A"
+}

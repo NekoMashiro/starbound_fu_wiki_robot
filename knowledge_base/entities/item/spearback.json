@@ -1,0 +1,65 @@
+{
+  "entity_id": "spearback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Back Spear",
+  "name_zh": "背装长矛",
+  "description_en": "A decorative spear for wearing on your back.",
+  "description_zh": "一柄用来背在身后的装饰长矛。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.0977,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhutvillageChestTreasure",
+          "probability": 0.0437,
+          "count": 1
+        },
+        {
+          "pool": "floranvillagetowerChestTreasure",
+          "probability": 0.0433,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0433,
+        0.0977
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.0635,
+          "count": 1
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.0531,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        0.0635
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

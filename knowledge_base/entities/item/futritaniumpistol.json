@@ -1,0 +1,59 @@
+{
+  "entity_id": "futritaniumpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wildfire",
+  "name_zh": "野火",
+  "description_en": "Supreme fire rate with wild projectiles.",
+  "description_zh": "这把枪能够出高速的疯狂弹跳的弹丸。",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "energy",
+    "tritanium"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 1,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vialproto",
+          "count": 12
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

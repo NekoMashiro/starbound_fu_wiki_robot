@@ -1,0 +1,46 @@
+{
+  "entity_id": "tarchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tar Shirt",
+  "name_zh": "沥青衬衫",
+  "description_en": "A sticky shirt made from thick tar.",
+  "description_zh": "由黏稠沥青制造的黏黏的衬衫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.0977,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.0635,
+          "count": 1
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.0531,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0531,
+        0.0635
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

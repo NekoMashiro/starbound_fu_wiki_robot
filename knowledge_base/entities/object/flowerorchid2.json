@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowerorchid2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Purple Orchid",
+  "name_zh": "紫色兰花种子",
+  "description_en": "That's a nice rich purple, right there.",
+  "description_zh": "这紫色简直漂亮极了。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerorchid2Harvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

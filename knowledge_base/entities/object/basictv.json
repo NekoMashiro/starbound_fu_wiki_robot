@@ -1,0 +1,40 @@
+{
+  "entity_id": "basictv",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Old Television",
+  "name_zh": "老旧的电视机",
+  "description_en": "A television! I don't think this has worked for a long time.",
+  "description_zh": "一台电视机！我认为它并没有被使用过很长时间。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 55,
+  "tags": [
+    "human",
+    "humanvillage",
+    "electronic"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "humanprisonTreasure",
+          "probability": 0.026,
+          "count": 1
+        },
+        {
+          "pool": "humancampTreasure",
+          "probability": 0.0248,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0248,
+        0.026
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

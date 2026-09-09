@@ -1,0 +1,75 @@
+{
+  "entity_id": "vashtaplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vashta",
+  "name_zh": "骨刺种子",
+  "description_en": "Vashta is ugly stuff, but not as ugly as the rage it induces.",
+  "description_zh": "一种丑陋的植物。可以收获骨刺，食用后会提高伤害。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 30,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 10
+        },
+        {
+          "item": "cell_viral",
+          "count": 2
+        },
+        {
+          "item": "thornitoxseed",
+          "count": 3
+        },
+        {
+          "item": "pussplum",
+          "count": 12
+        },
+        {
+          "item": "ff_mercury",
+          "count": 28
+        },
+        {
+          "item": "bugshell",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "severedhandinabagaugment"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vashtaplantHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

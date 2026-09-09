@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_armor_evanescent_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Evanescent Visor",
+  "name_zh": "瞬刹目镜",
+  "description_en": "A moment of red in the eye of infinitum aeternum. Has no protection. Taking damage grants 4s immunity and +50% Attack and Speed, every 16s.",
+  "description_zh": "无尽永恒之眼中一抹片刻的红色。无防御。每隔16秒，受到伤害会得到4秒的无敌并提升+50%的伤害和速度。",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_armor_aeternus_head",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 10
+        },
+        {
+          "item": "essence",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Armor Altering Anvil",
+      "station_zh": "盔甲魔化砧",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

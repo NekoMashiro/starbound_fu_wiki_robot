@@ -1,0 +1,46 @@
+{
+  "entity_id": "eyehead2",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Terrifying Eye Hat",
+  "name_zh": "可怕眼睛帽",
+  "description_en": "Your piercing gaze should instil fear into even the bravest heart.",
+  "description_zh": "即使拥有最勇敢的心，遇见你敏锐的目光也会感到恐惧。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.0817,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.0531,
+          "count": 1
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.0444,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0444,
+        0.0531
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

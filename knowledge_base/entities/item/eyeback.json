@@ -1,0 +1,46 @@
+{
+  "entity_id": "eyeback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "All-Seeing Cape",
+  "name_zh": "全视角披风",
+  "description_en": "An ancient cape made from a mysterious glimmering material. +12% Crit Damage",
+  "description_zh": "一件古老的斗篷，由一种神秘的发光材料制成。\n暴击伤害+12",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.0409,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.0266,
+          "count": 1
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.0222,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0222,
+        0.0266
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "mwhaddon_misc_keyItem_tatteredGarland",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Tattered Garland",
+  "name_zh": "破损的花环",
+  "description_en": "Regardless of how you viewed her before, she will never show up any more.",
+  "description_zh": "无论你先前如何看待她，你之后都不会再看到她了。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_sally",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "mwhaddon_boss_sally"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

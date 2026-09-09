@@ -1,0 +1,50 @@
+{
+  "entity_id": "aurea_glaive_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Archa Warglaive",
+  "name_zh": "古代长刀",
+  "description_en": "A special weapon forged to use by the Aurea artifact seekers.",
+  "description_zh": "一把由恒金古物寻宝者铸造和使用的特殊武器。",
+  "rarity": "Legendary",
+  "category": "spear",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 10.4,
+  "primaryAbilityType": "arcana_glaive_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_hakenStahlite",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

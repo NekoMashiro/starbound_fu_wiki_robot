@@ -1,0 +1,126 @@
+{
+  "entity_id": "corruptionseed",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lasombrium Seed",
+  "name_zh": "混乱原生质之种",
+  "description_en": "Applied sparingly to various materials to encourage unusual changes in structure.",
+  "description_zh": "只需少量应用到各种各样的物质上，即可促使它们的结构发生不同寻常的变化。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 370,
+  "tags": [
+    "reagent",
+    "norecycling",
+    "norecycler",
+    "nouncrafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corruptionore",
+          "count": 2
+        },
+        {
+          "item": "aliencompound",
+          "count": 1
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "bioweapon": {
+        "count": 8,
+        "examples": [
+          "biogun",
+          "biopistol",
+          "eyecannon",
+          "goregun",
+          "shadowtentaclegun"
+        ]
+      },
+      "staff": {
+        "count": 5,
+        "examples": [
+          "corruptstaff",
+          "cultiststaff1",
+          "cultiststaff2",
+          "cultiststaff3",
+          "shadowstaff"
+        ]
+      },
+      "headarmour": {
+        "count": 4,
+        "examples": [
+          "cultfleshhead",
+          "fuarmoredcultisthead",
+          "fuisogenhead",
+          "shadowbonearmorhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "cultfleshchest",
+          "fuarmoredcultistchest",
+          "fuisogenchest",
+          "shadowbonearmorchest"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "cultfleshlegs",
+          "fuarmoredcultistlegs",
+          "fuisogenpants",
+          "shadowbonearmorpants"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "eyeofyokar",
+          "jellylump"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "fuarmoredcultistback",
+          "shadowbonecape"
+        ]
+      },
+      "seed": {
+        "count": 2,
+        "examples": [
+          "petrifiedrootseed",
+          "tetherhookseed"
+        ]
+      }
+    },
+    "total": 46
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "corruptionore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "corruptionore"
+    }
+  ],
+  "quality_tier": "S"
+}

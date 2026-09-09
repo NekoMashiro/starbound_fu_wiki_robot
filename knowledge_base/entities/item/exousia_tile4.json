@@ -1,0 +1,62 @@
+{
+  "entity_id": "exousia_tile4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Exousian Flooring WRB",
+  "name_zh": "威权地板 WRB",
+  "description_en": "A minimalistic black and white flooring tile used to construct composite structures.",
+  "description_zh": "用于建造复杂结构的简约黑白地砖。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_enartzComposite",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 2
+        }
+      ],
+      "output_count": 80,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

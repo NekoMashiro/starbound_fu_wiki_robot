@@ -1,0 +1,32 @@
+{
+  "entity_id": "mechdefensefield3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Defense Field III",
+  "name_zh": "防御领域 III",
+  "description_en": "Increases Mech Armor.",
+  "description_zh": "增强机甲装甲。",
+  "rarity": "rare",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 8
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

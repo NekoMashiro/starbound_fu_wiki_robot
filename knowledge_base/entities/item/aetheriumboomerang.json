@@ -1,0 +1,65 @@
+{
+  "entity_id": "aetheriumboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Boomerang",
+  "name_zh": "阳清回旋镖",
+  "description_en": "State-of-the-art microthrusters guarantee that it will always return.",
+  "description_zh": "精巧的设计保证它每次都能返回主人身边。",
+  "rarity": "legendary",
+  "category": "boomerang",
+  "price": 1220,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "energy",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 3
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "aetheriumboomerang8.png",
+    "seed": "",
+    "shortdescription": "^cyan;终极回旋镖^reset; ^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Aetherium Boomerang.md",
+  "quality_tier": "A"
+}

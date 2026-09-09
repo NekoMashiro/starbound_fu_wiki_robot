@@ -1,0 +1,35 @@
+{
+  "entity_id": "licecream",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lice Cream",
+  "name_zh": "虱淇淋",
+  "description_en": "Made from 100% lice.\n+10% Poison Res (5m)",
+  "description_zh": "由100%的虱子制成。\n+10%毒素抗性(持续5m)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 35
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

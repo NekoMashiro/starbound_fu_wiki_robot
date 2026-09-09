@@ -1,0 +1,54 @@
+{
+  "entity_id": "durasteelboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Boomerang",
+  "name_zh": "耐钢回旋镖",
+  "description_en": "Sassy and dangerous.",
+  "description_zh": "野蛮且危险。",
+  "rarity": "uncommon",
+  "category": "boomerang",
+  "price": 240,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

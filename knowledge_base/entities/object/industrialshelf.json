@@ -1,0 +1,50 @@
+{
+  "entity_id": "industrialshelf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Industrial Kitchen Shelf",
+  "name_zh": "工业厨房货架",
+  "description_en": "A restaurant-grade kitchen shelf. Perfect for tidying up a cooking area.",
+  "description_zh": "餐厅级的厨房架子。非常适合清理烹饪区。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "industrialkitchen",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "industrialkitchenset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

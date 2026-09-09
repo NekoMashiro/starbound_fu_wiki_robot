@@ -1,0 +1,231 @@
+{
+  "entity_id": "randomharpoongun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Harpoon Gun",
+  "name_zh": "鱼叉枪",
+  "description_en": "Impale your enemies, rather than just killing them.\r\nInflicts bleeding\r\nHunting weapon",
+  "description_zh": "让他们忍受穿刺之苦，可比直接做掉赏心悦目。\n附加出血效果\n狩猎武器。",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "harpoon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "critChance": 5,
+  "critBonus": 5,
+  "altAbilityType": "superharpoon",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 56,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1199,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0457,
+          "count": 1
+        },
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0405,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0108,
+          "count": 1.0
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1199
+      ]
+    },
+    "monster_drops": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1122,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0211,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasure",
+          "probability": 0.0183,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0144,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1122
+      ]
+    },
+    "chest_loot": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0541,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.028,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0085,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0028,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0541
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0224,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0038,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.0019,
+          "count": 1,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0019,
+        0.0224
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0009,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0009
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

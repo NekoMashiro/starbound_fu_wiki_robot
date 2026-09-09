@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorhookshot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Hookshot",
+  "name_zh": "先驱发射钩爪",
+  "description_en": "Be careful not to get whiplash.",
+  "description_zh": "小心别扭伤了。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 11200,
+  "tags": [],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0299,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0299,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0299,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Hookshot.md",
+  "quality_tier": "A"
+}

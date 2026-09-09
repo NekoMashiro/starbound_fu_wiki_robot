@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcana_auricDye",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Auric Dye",
+  "name_zh": "恒金染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。",
+  "rarity": "Legendary",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

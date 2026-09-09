@@ -1,0 +1,59 @@
+{
+  "entity_id": "crystalliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "crystalliquid",
+  "name_zh": "",
+  "description_en": "How does one liquefy crystal, exactly?",
+  "description_zh": "一个液化水晶怎么样呢？",
+  "status_effects": [
+    "swimming"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "crystalblock"
+    },
+    {
+      "liquid": 3,
+      "materialResult": "aegisaltcrystal"
+    },
+    {
+      "liquid": 8,
+      "materialResult": "purplecrystal"
+    },
+    {
+      "liquid": 12,
+      "materialResult": "purplecrystal"
+    },
+    {
+      "liquid": 41,
+      "materialResult": "aegisaltcrystal"
+    },
+    {
+      "liquid": 42,
+      "materialResult": "crystalblock"
+    },
+    {
+      "liquid": 43,
+      "materialResult": "crystalblock"
+    },
+    {
+      "liquid": 44,
+      "materialResult": "aegisaltcrystal"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 46,
+      "materialResult": "retexaetherdust"
+    },
+    {
+      "liquid": 47,
+      "materialResult": "retexaetherdust"
+    }
+  ],
+  "quality_tier": "C"
+}

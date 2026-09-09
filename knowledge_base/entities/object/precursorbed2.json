@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorbed2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Captain's Bed",
+  "name_zh": "先驱船长床",
+  "description_en": "Some imposing glowy bedding. I am impressed.",
+  "description_zh": "一些壮丽夺目的床具。使我印象深刻。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 60,
+  "tags": [
+    "precursor",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursorbed2"
+  ],
+  "quality_tier": "S"
+}

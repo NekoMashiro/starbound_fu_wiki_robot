@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_faetheri_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Faetheri Hood",
+  "name_zh": "灵瑟利兜帽",
+  "description_en": "A stealth focused armor piece, good for hunting in the dark.",
+  "description_zh": "注重潜行的盔甲，适合在阴影中狩猎。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 2200,
+  "tags": [],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

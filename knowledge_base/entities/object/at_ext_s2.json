@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_s2",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Factory Container small",
+  "name_zh": "[泰坦拓展]小型工厂集装箱",
+  "description_en": "A giant metal crate with a grey frame.Installed input and output channel.",
+  "description_zh": "一个大集装箱，安装了灰色的加强框架。已安装输入和输出节点。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

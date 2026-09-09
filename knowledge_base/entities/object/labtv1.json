@@ -1,0 +1,42 @@
+{
+  "entity_id": "labtv1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "LED Screen",
+  "name_zh": "LED屏幕",
+  "description_en": "LED Screen.",
+  "description_zh": "一个LED屏幕。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 3
+        },
+        {
+          "item": "ff_silicon",
+          "count": 2
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

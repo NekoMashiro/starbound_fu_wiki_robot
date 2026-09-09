@@ -1,0 +1,53 @@
+{
+  "entity_id": "bleuark_door_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bleuark Door",
+  "name_zh": "海舟门",
+  "description_en": "A door constructed from atla gold and seastone.",
+  "description_zh": "一扇由海金和海石建造的门。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 200,
+  "tags": [
+    "atlantic",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bleuark_tile1",
+          "count": 10
+        },
+        {
+          "item": "bleuark_tile8",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Bleuark Crafting Table",
+      "station_zh": "海舟制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_spectwing_broadsword_5",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Vorago",
+  "name_zh": "寂渊",
+  "description_en": "A sword reflecting the abyss realm. On Crit: Inflict Deathsprawl: Ruinous (On death, deal 80 Abyss damage to nearby enemies).",
+  "description_zh": "反射深渊领域的剑。暴击时：施加死亡蔓延（死亡时对附近敌人造成80深渊伤害）。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 2400,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "primaryAbilityType": "arcana_broadswordfast",
+  "altAbilityType": "arcana_blinkslashprojectile",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "violiumore",
+          "count": 5
+        },
+        {
+          "item": "shadowblock",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

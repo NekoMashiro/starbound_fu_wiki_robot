@@ -1,0 +1,54 @@
+{
+  "entity_id": "fuhuntingrifle2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hunting Rifle II",
+  "name_zh": "狩猎步枪 II",
+  "description_en": "Great for hunting game.",
+  "description_zh": "用于进行狩猎游戏。",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 220,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 5,
+  "critBonus": 8,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "carbonplate",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

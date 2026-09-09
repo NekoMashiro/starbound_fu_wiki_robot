@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_spell_ice_icySlash",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "< Icy Slash >",
+  "name_zh": "< 冻斩 >",
+  "description_en": "Summons an icy blade to cut through your enemies. Inflicts 1 stack of Shivery, designed for close combat.",
+  "description_zh": "召唤切开敌人的冰刃. 增加一层寒颤, 适合近战.",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "wand",
+    "spell",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_scroll_ice",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

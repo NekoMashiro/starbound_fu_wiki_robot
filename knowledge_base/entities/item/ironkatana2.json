@@ -1,0 +1,180 @@
+{
+  "entity_id": "ironkatana2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kells Flawless Katana",
+  "name_zh": "凯尔斯的无瑕疵武士刀",
+  "description_en": "Well crafted, but heavy.\r\n3 hit combo",
+  "description_zh": "一把精心制作的武士刀，只是有点重。\n3连斩",
+  "rarity": "common",
+  "category": "katana",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.75,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "drop_sources": {
+    "total_pools": 41,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuRareWeapons",
+          "probability": 0.4412,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0343,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.4412
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0064,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0062,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0016,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0015,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0012,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0064
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0039,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0038,
+          "count": 1
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0039
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0007
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

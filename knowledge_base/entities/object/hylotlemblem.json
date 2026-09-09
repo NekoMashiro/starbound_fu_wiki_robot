@@ -1,0 +1,31 @@
+{
+  "entity_id": "hylotlemblem",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hylotl Emblem",
+  "name_zh": "鲛人纹章",
+  "description_en": "It's a common emblem for the Hylotl. Three crystals representing their three eyes...",
+  "description_zh": "这是常见的鲛人纹章。三颗晶体代表他们的三只眼睛…",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.0425,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

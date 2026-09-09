@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_augment_10",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Solitude",
+  "name_zh": "增幅器 - 孤独",
+  "description_en": "Grants +20% resist to Ice and immunity to frost. Inflict ice damage to the attacker when damaged.",
+  "description_zh": "赋予20%的纱冰抗性和免疫冻结。受伤时对攻击者造成冰系伤害。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedImmorite",
+          "count": 16
+        },
+        {
+          "item": "arcana_essence_iceEssence",
+          "count": 20
+        },
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

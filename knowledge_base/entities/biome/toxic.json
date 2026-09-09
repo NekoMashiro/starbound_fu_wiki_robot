@@ -1,0 +1,85 @@
+{
+  "entity_id": "toxic",
+  "entity_type": "biome",
+  "source_mod": "Starbound",
+  "name_en": "Toxic",
+  "name_zh": "",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Toxic",
+  "friendly_name_zh": "",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "agrobat",
+    "ballooncritter",
+    "bee_isovapitdae",
+    "bee_reaper",
+    "bee_tunguskudae",
+    "bouncercritter",
+    "crutter",
+    "gasgiant",
+    "gloop",
+    "hazmatcritter",
+    "miasmop",
+    "oculob",
+    "pteropod",
+    "scuttleploom",
+    "snaggler",
+    "snaunt",
+    "squeem",
+    "stinkjack",
+    "toxiccrabcritter",
+    "toxin"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:toxic"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "radioactiveweathernew",
+    "biomepoison2"
+  ],
+  "wiki_ref": "Toxic.md",
+  "quality_tier": "D"
+}

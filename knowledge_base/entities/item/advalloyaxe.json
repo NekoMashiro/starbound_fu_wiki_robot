@@ -1,0 +1,54 @@
+{
+  "entity_id": "advalloyaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Battleaxe",
+  "name_zh": "宗师战斧",
+  "description_en": "A battleaxe modeled after a legendary Glitch knight's axe. Said to cut densinium with ease.\r\nInflicts bleeding",
+  "description_zh": "以传说中的电子人骑士之斧为原型的战斧。据说可以轻松地切割密度。\n造成出血效果",
+  "rarity": "rare",
+  "category": "axe",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "broadswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

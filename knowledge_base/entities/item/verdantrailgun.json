@@ -1,0 +1,60 @@
+{
+  "entity_id": "verdantrailgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Verdant Rifle",
+  "name_zh": "苍翠狙击步枪",
+  "description_en": "A poisonous sniping experience.\r\nInflicts Poisoned, Floran",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "bioweapon",
+    "upgradeableWeapon",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8.0,
+  "critChance": 8,
+  "critBonus": 12,
+  "altAbilityType": "corrosivegrenade",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vanusflower",
+          "count": 4
+        },
+        {
+          "item": "energywood",
+          "count": 7
+        },
+        {
+          "item": "biosample",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

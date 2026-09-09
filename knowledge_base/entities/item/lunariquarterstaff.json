@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunariquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Quarterstaff",
+  "name_zh": "月晶长棍",
+  "description_en": "Gleams with dangerous energy.",
+  "description_zh": "闪烁着危险的能量。",
+  "rarity": "common",
+  "category": "Quarterstaff",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

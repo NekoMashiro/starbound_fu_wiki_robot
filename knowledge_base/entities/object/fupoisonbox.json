@@ -1,0 +1,51 @@
+{
+  "entity_id": "fupoisonbox",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison Storage",
+  "name_zh": "毒药储存箱",
+  "description_en": "Keep dangerous crap in here.",
+  "description_zh": "把危险的物品存放在这里。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "knowledge",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "floweryblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flower Block",
+  "name_zh": "花方块",
+  "description_en": "A fragrant bundle made of flowers and leaves.\nExtractable.",
+  "description_zh": "把花朵与叶子捆在一起的芬芳的方块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        },
+        {
+          "item": "petalblue",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_verdantKey",
+          "probability": 1.0,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "floweryblock"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "fuhoneycrystaltable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Crystal Table",
+  "name_zh": "蜂蜜水晶桌子",
+  "description_en": "A table made of honey crystals. Perfect for rich foods.",
+  "description_zh": "由蜂蜜水晶制成的桌子。简直是完美的食物。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "bees",
+    "crystal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 10
+        },
+        {
+          "item": "crystalblock",
+          "count": 8
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

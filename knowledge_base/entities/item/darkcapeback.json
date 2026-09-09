@@ -1,0 +1,67 @@
+{
+  "entity_id": "darkcapeback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dark Cape",
+  "name_zh": "黑暗披风",
+  "description_en": "A midnight cape, for those that prefer shadow",
+  "description_zh": "为追逐暗影力量的人准备的午夜披风。",
+  "rarity": "Common",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 400
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shadowChestTreasure",
+          "probability": 0.2036,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoShadowTreasure",
+          "probability": 0.1708,
+          "count": 1
+        },
+        {
+          "pool": "shadowTreasure",
+          "probability": 0.1429,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1429,
+        0.1708
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

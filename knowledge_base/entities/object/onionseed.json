@@ -1,0 +1,71 @@
+{
+  "entity_id": "onionseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gurn Onion Seed",
+  "name_zh": "胶洋葱种子",
+  "description_en": "A sun-powered Gurn Onion. Quite useful, actually.",
+  "description_zh": "可以收获胶洋葱，食用后会赋予日光疗愈。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 7,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 52
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 4
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "phosphorus",
+          "count": 3
+        },
+        {
+          "item": "petalyellow",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "nakatiseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "onionHarvest",
+          "probability": 0.3571,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

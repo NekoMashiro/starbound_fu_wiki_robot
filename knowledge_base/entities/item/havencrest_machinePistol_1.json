@@ -1,0 +1,63 @@
+{
+  "entity_id": "havencrest_machinePistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Osiri Defender",
+  "name_zh": "往生之护",
+  "description_en": "An arcanium based machine pistol.",
+  "description_zh": "一支基于奥素设计的自动手枪。",
+  "rarity": "Rare",
+  "category": "machinePistol",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 10.4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "customskill": {
+        "count": 1,
+        "examples": [
+          "FD|GrandCrossZana"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "azure_machinePistol_3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

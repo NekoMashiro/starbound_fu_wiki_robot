@@ -1,0 +1,138 @@
+{
+  "entity_id": "morphiteore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Morphite",
+  "name_zh": "异极合金",
+  "description_en": "A lab-built custom alloy. Tough but malleable.",
+  "description_zh": "一种在实验室中制造的定制合金，结实而富有韧性。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 410,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 1
+        },
+        {
+          "item": "vialproto",
+          "count": 1
+        },
+        {
+          "item": "phasematter",
+          "count": 1
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 7,
+        "examples": [
+          "mechboostergallant",
+          "mechboosterhammer",
+          "mechboosterzero",
+          "mechlegshermes",
+          "mechlegsintrepid"
+        ]
+      },
+      "chestarmour": {
+        "count": 6,
+        "examples": [
+          "ff_diamondarmorchest",
+          "fuquantumchest",
+          "fusunwalkerchest",
+          "kirhostier6achest",
+          "maverickhunterchest"
+        ]
+      },
+      "legarmour": {
+        "count": 6,
+        "examples": [
+          "ff_diamondarmorpants",
+          "fuquantumlegs",
+          "fusunwalkerpants",
+          "kirhostier6apants",
+          "maverickhunterpants"
+        ]
+      },
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "ff_diamondarmorhead",
+          "fuquantumhead",
+          "fusunwalkerhead",
+          "kirhostier6ahead",
+          "tritaniumstarhead"
+        ]
+      },
+      "katana": {
+        "count": 3,
+        "examples": [
+          "aetheriumkatana",
+          "isogenkatana",
+          "pyreitekatana"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "aichip",
+          "darkmatter",
+          "nocxiumbar"
+        ]
+      },
+      "hammer": {
+        "count": 2,
+        "examples": [
+          "aetheriumhammer",
+          "fuquantumhammer"
+        ]
+      },
+      "Rapier": {
+        "count": 2,
+        "examples": [
+          "aetheriumrapier",
+          "isogenrapier"
+        ]
+      }
+    },
+    "total": 57
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "aliencompound",
+      "bonus": [
+        "liquidbioooze",
+        "fu_nitrogen"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "aliencompound",
+      "bonus": [
+        "liquidbioooze",
+        "fu_nitrogen"
+      ]
+    }
+  ],
+  "wiki_ref": "Morphite.md",
+  "quality_tier": "S"
+}

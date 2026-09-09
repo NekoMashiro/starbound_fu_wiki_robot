@@ -1,0 +1,49 @@
+{
+  "entity_id": "plantplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mossy Platform",
+  "name_zh": "苔藓平台",
+  "description_en": "The platform is slimy with moss and leaves. Better be careful not to slip!",
+  "description_zh": "这平台上满是黏糊糊的苔藓和树叶。小心别摔跤了！",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "plantplatform"
+  ],
+  "quality_tier": "A"
+}

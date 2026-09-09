@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_bean",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Nanbei Mung Nectar",
+  "name_zh": "南北绿豆汁",
+  "description_en": "100% natural mung bean juice, a refreshing drink for the heat of summer.\nGrants the [Nanbei Mung Nectar] effect when consumed.",
+  "description_zh": "100%纯天然的绿豆汁，炎炎夏日的解暑饮品。\n饮用后赋予[绿豆汁]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "eyecannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ocu Cannon",
+  "name_zh": "眼球炮",
+  "description_en": "A powerful and bizarre biological weapon.\r\nInflicts pus effect, morphs tiles\r\nMulti-explosion, weird physics",
+  "description_zh": "强大又怪异的生物武器。\n附加脓液效果，改变物块\n多重爆炸，奇怪的物理性质",
+  "rarity": "rare",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 5.35,
+  "critChance": 8,
+  "critBonus": 12,
+  "altAbilityType": "vomitrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 40
+        },
+        {
+          "item": "eyepiles",
+          "count": 4
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "mutagene3",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Ocu Cannon.md",
+  "quality_tier": "A"
+}

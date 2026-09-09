@@ -1,0 +1,59 @@
+{
+  "entity_id": "triangliumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trianglium Broadsword",
+  "name_zh": "三棱宽剑",
+  "description_en": "Stacked Trianglium Pyramids shaped into a sword blade. More effective than you think.\r\nShoots radioactive exploding shards",
+  "description_zh": "堆积成剑形的的三棱矿石。比想象的更有杀伤力。\n发射放射性爆炸碎片。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "triangliumblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "tritium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

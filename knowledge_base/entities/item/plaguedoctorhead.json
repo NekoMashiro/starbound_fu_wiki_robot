@@ -1,0 +1,55 @@
+{
+  "entity_id": "plaguedoctorhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plague Doctor Mask",
+  "name_zh": "鼠疫医生面具",
+  "description_en": "An old plague doctor's mask. Wear it and creep out your friends!",
+  "description_zh": "一个老旧的鼠疫医生面具。戴上它去吓吓你的朋友们！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0491,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0345,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0345,
+        0.0491
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0412,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0345,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0345,
+        0.0412
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

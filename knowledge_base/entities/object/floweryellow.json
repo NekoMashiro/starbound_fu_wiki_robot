@@ -1,0 +1,49 @@
+{
+  "entity_id": "floweryellow",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Yellow Flower",
+  "name_zh": "黄色花朵",
+  "description_en": "A flower with bright yellow petals. Useful for making dye.",
+  "description_zh": "一朵有亮黄色的花瓣的花，用于制造染料。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "goldenglowseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floweryellowHarvest",
+          "probability": 0.128,
+          "count": 1
+        },
+        {
+          "pool": "flowerblueHarvest",
+          "probability": 0.032,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.032,
+        0.128
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

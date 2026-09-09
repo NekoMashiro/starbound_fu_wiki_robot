@@ -1,0 +1,34 @@
+{
+  "entity_id": "misc_axe_wastecutter",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Wastecutter",
+  "name_zh": "废品切割者",
+  "description_en": "Hazarous, radioactive and nuclear!",
+  "description_zh": "小心辐射！",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "poison",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 9.2,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_input": {
+    "by_category": {
+      "axe": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_hFrequencyBattleaxe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

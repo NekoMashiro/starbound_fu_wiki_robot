@@ -1,0 +1,74 @@
+{
+  "entity_id": "skathtier2spear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reinforced Skath Spear",
+  "name_zh": "绘世者战矛·中级",
+  "description_en": "A spear made for keeping enemies at bay.",
+  "description_zh": "用来防御敌人的长矛。",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier1spear",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 6
+        },
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "spear": {
+        "count": 1,
+        "examples": [
+          "skathtier3spear"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

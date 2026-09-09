@@ -1,0 +1,54 @@
+{
+  "entity_id": "flailtungsten",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tungsten Striker",
+  "name_zh": "钨制打击者",
+  "description_en": "Heavy, cumbersome and awesome.\r\nBreaks blocks",
+  "description_zh": "超级笨重却又令人惊叹。\n能够破坏方块",
+  "rarity": "common",
+  "category": "Striker",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 11,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

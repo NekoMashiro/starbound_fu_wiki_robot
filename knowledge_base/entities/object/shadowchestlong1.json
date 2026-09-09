@@ -1,0 +1,49 @@
+{
+  "entity_id": "shadowchestlong1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Shadowy Chest",
+  "name_zh": "大型阴影箱子",
+  "description_en": "A large chest styled like a tomb.",
+  "description_zh": "一个大型的坟墓风格的箱子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "shadow",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,114 @@
+{
+  "entity_id": "desertsalsa",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Desert Salsa",
+  "name_zh": "沙漠辣调味汁",
+  "description_en": "A refreshing salsa made from desert fruits. The taste is amazing. Type: Robot Food + Vegetables",
+  "description_zh": "沙漠水果制成的爽口的辣调味汁。\n类型：机械食物 + 蔬菜",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 630,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "desertsalsaobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "kiwi",
+          "count": 1
+        },
+        {
+          "item": "feathercrown",
+          "count": 1
+        },
+        {
+          "item": "currentcorn",
+          "count": 1
+        },
+        {
+          "item": "cacti",
+          "count": 1
+        },
+        {
+          "item": "beakseed",
+          "count": 1
+        },
+        {
+          "item": "automato",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "desertsalsaobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityfood",
+          "probability": 0.4286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

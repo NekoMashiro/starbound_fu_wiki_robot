@@ -1,0 +1,59 @@
+{
+  "entity_id": "pressurisedbeam",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pressurised Beam",
+  "name_zh": "承重梁",
+  "description_en": "A support beam made for pressurised environments.",
+  "description_zh": "一种专为高压环境制造的承重梁。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.1181,
+          "count": 15
+        },
+        {
+          "pool": "hylotloceancityTreasure",
+          "probability": 0.0565,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0565,
+        0.1181
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "pressurisedbeam"
+  ],
+  "quality_tier": "S"
+}

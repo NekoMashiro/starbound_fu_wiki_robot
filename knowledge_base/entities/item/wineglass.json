@@ -1,0 +1,38 @@
+{
+  "entity_id": "wineglass",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wine Glass",
+  "name_zh": "葡萄酒杯",
+  "description_en": "It's a glass. For wine. Duh.",
+  "description_zh": "一个红酒杯。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapejuice",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

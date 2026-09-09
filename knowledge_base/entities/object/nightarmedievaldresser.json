@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarmedievaldresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medieval Dresser",
+  "name_zh": "中世纪梳妆台",
+  "description_en": "This dresser has a musty smell. It doesn't look very clean.",
+  "description_zh": "这个梳妆台有霉味。看起来不太干净。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 135,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

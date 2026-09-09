@@ -1,0 +1,55 @@
+{
+  "entity_id": "dangerbarrelback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Unstable Barrel",
+  "name_zh": "不稳定的桶",
+  "description_en": "A dangerous barrel. Try not to have a wardrobe malfunction. +15% Fire Resist.",
+  "description_zh": "一个危险的桶。尽量不要有衣服滑落。\n火焰抗性+15",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0246,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0172,
+        0.0246
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0206,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0172,
+        0.0206
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

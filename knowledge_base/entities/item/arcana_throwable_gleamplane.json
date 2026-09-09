@@ -1,0 +1,27 @@
+{
+  "entity_id": "arcana_throwable_gleamplane",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gleamplane",
+  "name_zh": "闪亮纸飞机",
+  "description_en": "A paper plane! Will it fly?",
+  "description_zh": "一只纸飞机！它能飞起来吗？",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 400,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_gleamlightTreasure",
+          "probability": 0.6,
+          "count": 8.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

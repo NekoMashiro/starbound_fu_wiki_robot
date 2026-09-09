@@ -1,0 +1,52 @@
+{
+  "entity_id": "network_capacitySensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capacity Sensor",
+  "name_zh": "容量传感器",
+  "description_en": "Outputs whether a container's slots are partially or fully filled. Place near object placement point. Scan for more info.",
+  "description_zh": "输出一个容器的格子是否部分装满或完全装满。放在对象的放置点附近。扫描以获取更多信息。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_containerlink2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Capacity Sensor.md",
+  "quality_tier": "S"
+}

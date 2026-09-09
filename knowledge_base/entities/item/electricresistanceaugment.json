@@ -1,0 +1,36 @@
+{
+  "entity_id": "electricresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electric Barrier",
+  "name_zh": "EPP模块（电系屏障）",
+  "description_en": "An EPP module that resists the Electric element, +10% Electric Resist, Shock Immunity.",
+  "description_zh": "一个能够抵抗电系元素的EPP模块。\n电系抗性+10%；免疫感电",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "staticcell",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

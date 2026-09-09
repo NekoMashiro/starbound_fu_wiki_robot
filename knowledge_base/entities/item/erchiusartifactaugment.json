@@ -1,0 +1,41 @@
+{
+  "entity_id": "erchiusartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erchius Shard",
+  "name_zh": "厄尔吉斯晶体碎片",
+  "description_en": "E. Regen x1.15\r\n+Glow",
+  "description_zh": "能量恢复x1.15\n+发光",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pureerchius",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "erchiusghostback2",
+          "erchiusghostback3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

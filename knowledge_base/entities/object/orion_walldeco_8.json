@@ -1,0 +1,56 @@
+{
+  "entity_id": "orion_walldeco_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Neon Vendor Sign",
+  "name_zh": "霓虹灯供应商招牌",
+  "description_en": "A neon sign.",
+  "description_zh": "一个霓虹灯的标志。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "orion"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

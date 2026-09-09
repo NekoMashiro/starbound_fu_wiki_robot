@@ -1,0 +1,51 @@
+{
+  "entity_id": "slimecookingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Cooking Table",
+  "name_zh": "史莱姆烹饪台",
+  "description_en": "This slimy counter seems to be used for food preparation.",
+  "description_zh": "这种黏糊糊的柜台似乎是用来准备食物的。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "slimenpc",
+    "slimeperson",
+    "slimevillage",
+    "slimenpchuman",
+    "slime",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimefire",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "greenslime",
+          "count": 5
+        },
+        {
+          "item": "slimegoo",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

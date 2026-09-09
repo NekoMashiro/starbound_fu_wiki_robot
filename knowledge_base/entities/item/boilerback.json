@@ -1,0 +1,37 @@
+{
+  "entity_id": "boilerback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Boiler",
+  "name_zh": "便携锅炉",
+  "description_en": "A portable boiler, powered by movement. +12% Ice Resist.",
+  "description_zh": "一只便携式锅炉，由运动提供动力。\n寒气抗性+12%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

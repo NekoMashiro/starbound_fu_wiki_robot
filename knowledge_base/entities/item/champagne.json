@@ -1,0 +1,60 @@
+{
+  "entity_id": "champagne",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Champagne",
+  "name_zh": "香槟",
+  "description_en": "Break out the bubbly!\n+3 Defense (45s)\n35% Slow (10s)\nDrunk (5s)",
+  "description_zh": "把香槟拿出来！\n+3防御(持续45s)\n35%减速(持续10s)\n醉酒(持续5s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 1600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapejuice",
+          "count": 3
+        },
+        {
+          "item": "sugar",
+          "count": 2
+        },
+        {
+          "item": "yeastwater",
+          "count": 3
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        },
+        {
+          "item": "whitespineshell",
+          "count": 2
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "champagnebucket",
+          "placeablechampagne"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

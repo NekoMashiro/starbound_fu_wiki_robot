@@ -1,0 +1,148 @@
+{
+  "entity_id": "thoriumore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thorium Ore",
+  "name_zh": "钍矿",
+  "description_en": "Commonly used in weapons development.\n+4 Fuel",
+  "description_zh": "通常用在武器开发上。\n燃料+4",
+  "rarity": "rare",
+  "category": "craftingOre",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumineralgoods",
+          "count": 6
+        }
+      ],
+      "output_count": 7,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "thoriumradien"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "thoriumrod"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "thoriumrod",
+      "bonus": [
+        "lead",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "thoriumrod",
+      "bonus": [
+        "lead",
+        "unstableparticles"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.02,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "underground1b",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground0b",
+      "weight": 0.7
+    },
+    {
+      "biome": "slimeworld",
+      "weight": 0.7
+    },
+    {
+      "biome": "tidewaterunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground0a",
+      "weight": 0.7
+    },
+    {
+      "biome": "underground1a",
+      "weight": 0.7
+    },
+    {
+      "biome": "zen",
+      "weight": 0.6
+    },
+    {
+      "biome": "cellcaves",
+      "weight": 0.6
+    },
+    {
+      "biome": "underground3b",
+      "weight": 0.6
+    },
+    {
+      "biome": "underground3c",
+      "weight": 0.6
+    }
+  ],
+  "wiki_ref": "Thorium Ore.md",
+  "quality_tier": "S"
+}

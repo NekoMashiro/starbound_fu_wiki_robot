@@ -1,0 +1,62 @@
+{
+  "entity_id": "fukirhos",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "鼠人",
+  "description_en": "",
+  "description_zh": "他们已经赢得了商人的声誉，因为他们乘坐巨大的方舟飞船在宇宙中游荡，这构成了他们社会的核心。这些太空啮齿动物精通经济和探索。\n\n  食性: 杂食性\n\n天赋:\n  +10% 速度\n  抗性: +15% 电系抗性, +10% 辐射 & 寒气抗性, +7% 精神抗性\n  优秀商人: +25% 魅力, +1000 初始现金\n  +72 饱腹度\n\n武器:\n  从可靠的随身武器开始\n  能量武器精通: +15%\n  打击者精通: +15%\n\n弱点:\n  抗性: -20% 毒素抗性, -10% 火炎抗性, -5%物理抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxFood",
+        "amount": 72
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 1.25
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.07
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "energyMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "flailMastery",
+        "amount": 0.16
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.1
+    }
+  },
+  "quality_tier": "B"
+}

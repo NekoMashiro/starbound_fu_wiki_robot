@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_misc_coolBoiledWater",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Cooled Boiled Water",
+  "name_zh": "凉开水",
+  "description_en": "Is it really still drinkable?",
+  "description_zh": "这真的还能喝吗？",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_water",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

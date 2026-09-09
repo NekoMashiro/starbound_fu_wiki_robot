@@ -1,0 +1,50 @@
+{
+  "entity_id": "sloppytv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sloppy TV",
+  "name_zh": "邋遢的电视",
+  "description_en": "A TV, or an impromptu table?",
+  "description_zh": "一台电视，还是一张临时桌？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "sloppy",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sloppyset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

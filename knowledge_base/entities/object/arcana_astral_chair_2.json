@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_astral_chair_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Small Chair",
+  "name_zh": "群星小椅子",
+  "description_en": "A small ornate chair covered with a piece of soft fabric.",
+  "description_zh": "华丽的小椅子，上面覆盖着一块柔软的织物。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 40,
+  "tags": [
+    "astral"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

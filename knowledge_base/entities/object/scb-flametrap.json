@@ -1,0 +1,30 @@
+{
+  "entity_id": "scb-flametrap",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "SCB Flame Emitter",
+  "name_zh": "SCB火焰发射器",
+  "description_en": "Flames, embers, and burning, oh my~ \nInput 1 : Flames. \nInput 2 : Particles.",
+  "description_zh": "火焰、余烬和燃烧，噢，我的~输入1 ：火焰。\n输入2 ：粒子。",
+  "rarity": "common",
+  "category": "trap",
+  "price": 0,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

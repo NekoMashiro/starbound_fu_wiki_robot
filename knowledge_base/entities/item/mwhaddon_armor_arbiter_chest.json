@@ -1,0 +1,55 @@
+{
+  "entity_id": "mwhaddon_armor_arbiter_chest",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Arbiter Suit",
+  "name_zh": "仲裁官战服",
+  "description_en": "A suit only worn by the most ruthless officers. +5% Fire and Ice RES. \n\nSet Bonus:\nGrants +15% Execration Weapon damage, Ruinous Immunity and +15% Abyss RES but -5% Lumen RES.",
+  "description_zh": "由最无情的军官所穿的战服。+5%烈焰和纱冰抗性。\n\n套装效果：\n获得+15%恶裁武器伤害、祸津免疫和+15%深渊抗性，但是-5%月芒抗性。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 2100,
+  "tags": [],
+  "level": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 20
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_omtreeSplinter",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

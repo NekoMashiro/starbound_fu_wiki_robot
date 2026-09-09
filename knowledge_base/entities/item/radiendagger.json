@@ -1,0 +1,51 @@
+{
+  "entity_id": "radiendagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Dagger",
+  "name_zh": "艾肯匕首",
+  "description_en": "A X'ian weapon for close combat,",
+  "description_zh": "艾肯人的近身武器。",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 4,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 9.0,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 6
+        },
+        {
+          "item": "ff_silicon",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

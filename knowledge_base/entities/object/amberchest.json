@@ -1,0 +1,49 @@
+{
+  "entity_id": "amberchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Chest",
+  "name_zh": "琥珀箱子",
+  "description_en": "A beautiful amber chest.",
+  "description_zh": "一个美丽的琥珀箱子",
+  "rarity": "common",
+  "category": "storage",
+  "price": 60,
+  "tags": [
+    "bees",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

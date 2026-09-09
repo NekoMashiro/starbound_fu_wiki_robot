@@ -1,0 +1,39 @@
+{
+  "entity_id": "frostshield",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Frost Shield",
+  "name_zh": "冰霜盾",
+  "description_en": "Stops attacks cold.",
+  "description_zh": "停止冷袭击。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 630,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_ice_iceMage",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_ice_iceKnight",
+          "probability": 0.1,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1,
+        0.1
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

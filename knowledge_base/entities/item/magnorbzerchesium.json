@@ -1,0 +1,55 @@
+{
+  "entity_id": "magnorbzerchesium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Magnorb",
+  "name_zh": "高熔点磁力珠",
+  "description_en": "Frosty balls of danger decimate the enemy.",
+  "description_zh": "危险的冰霜球会消灭敌人。",
+  "rarity": "uncommon",
+  "category": "Magnorb",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

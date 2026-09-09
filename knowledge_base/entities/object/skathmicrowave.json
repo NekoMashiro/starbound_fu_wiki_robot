@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathmicrowave",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Microwave",
+  "name_zh": "绘世者微波炉",
+  "description_en": "A microwave. For when you're hungry enough to nuke your food.",
+  "description_zh": "微波炉。当你饿到可以用核弹炸食物的时候。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 70,
+  "tags": [
+    "skath",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

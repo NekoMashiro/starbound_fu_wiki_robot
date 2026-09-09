@@ -1,0 +1,58 @@
+{
+  "entity_id": "sentrybotlightbot",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Light Bot",
+  "name_zh": "两足机器人(照明)",
+  "description_en": "Keeps a light on in the dark.",
+  "description_zh": "非常可靠的伙伴，在激活后，它会在空中持续地跟随并保护你。攻击手段比普通型少，但是亮度比普通型高。",
+  "rarity": "common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "flashlight",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 2,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 122
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

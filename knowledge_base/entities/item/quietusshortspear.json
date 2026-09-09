@@ -1,0 +1,61 @@
+{
+  "entity_id": "quietusshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Shortspear",
+  "name_zh": "寂灭短矛",
+  "description_en": "A sharp, shiny blade ready to poison foes.\r\nInflicts Poisoned\r\nHunting weapon",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "shortspear",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon",
+    "quietus",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "blooddiamond",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

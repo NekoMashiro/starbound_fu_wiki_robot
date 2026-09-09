@@ -1,0 +1,45 @@
+{
+  "entity_id": "cavechest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rock Chest",
+  "name_zh": "石头宝箱",
+  "description_en": "A chest made of rock.",
+  "description_zh": "一个石头做成的宝箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 40,
+  "tags": [
+    "stonecave",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "limestone",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

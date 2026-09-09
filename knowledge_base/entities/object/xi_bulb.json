@@ -1,0 +1,81 @@
+{
+  "entity_id": "xi_bulb",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Seed Bulb",
+  "name_zh": "艾肯种子球",
+  "description_en": "Provides light, and can be used to form many X'ian tools. Radioactive.\r\nDoesn't work on your ship.",
+  "description_zh": "提供光线，可用于制作大多数艾肯工具。具有放射性。\n在飞船上无法生长。",
+  "rarity": "uncommon",
+  "category": "seed",
+  "price": 1,
+  "tags": [
+    "nature",
+    "radien"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "xi_bulb2",
+          "xi_bulb3"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "radienbulb"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "radiencrafting"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "radienwaterwalk"
+        ]
+      },
+      "craftingOre": {
+        "count": 1,
+        "examples": [
+          "uraniumore"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuxiStarterTreasure",
+          "probability": 1.0,
+          "count": 6
+        }
+      ]
+    }
+  },
+  "wiki_ref": "X'ian Seed Bulb.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_pastedGarlic",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Pasted Garlic",
+  "name_zh": "浓烈蒜泥",
+  "description_en": "Only those who can't smell will enjoy it.\n For 80 seconds after drinking, create a repulsive force field around you.",
+  "description_zh": "只有把这东西吃进嘴的人闻不到它的味道。\n饮用后80秒内，以玩家自身为中心产生一个范围较小的斥力场。",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

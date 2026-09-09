@@ -1,0 +1,40 @@
+{
+  "entity_id": "swtjc_ewg_uncommonantimaterialrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uncommon Anti-Materiel Rifle",
+  "name_zh": "罕见的反物质步枪",
+  "description_en": "A high-powered rifle that sacrifices rate-of-fire for enough firepower to cut through armor.",
+  "description_zh": "一把高能步枪，牺牲射速以获得足够的火力穿透装甲。",
+  "rarity": "Uncommon",
+  "category": "swtjc_ewg_antiMaterialRifle",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    6.2,
+    9.25
+  ],
+  "critChance": 1,
+  "critBonus": 4,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

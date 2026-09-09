@@ -1,0 +1,45 @@
+{
+  "entity_id": "fu_ftldrivesmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small FTL Drive",
+  "name_zh": "小型FTL引擎",
+  "description_en": "An FTL drive for a space ship. Allows interstellar travel and STL travel. Ship Speed: +3. BYOS Only",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_stldrive",
+          "count": 1
+        },
+        {
+          "item": "warpmanifold",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Small FTL Drive.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "shadowstrip",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Strip Light",
+  "name_zh": "红色条形灯",
+  "description_en": "A red strip light.",
+  "description_zh": "一个红色的条形灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "shadow",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

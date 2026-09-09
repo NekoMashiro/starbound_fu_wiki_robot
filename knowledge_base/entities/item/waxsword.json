@@ -1,0 +1,52 @@
+{
+  "entity_id": "waxsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wax Sword",
+  "name_zh": "蜡制短剑",
+  "description_en": "Useless. Maybe with some upgrades...",
+  "description_zh": "好像没什么用。也许需要一些升级...",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 3.5,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 15
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Wax Sword.md",
+  "quality_tier": "A"
+}

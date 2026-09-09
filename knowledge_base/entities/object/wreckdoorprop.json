@@ -1,0 +1,36 @@
+{
+  "entity_id": "wreckdoorprop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrecked Door Prop",
+  "name_zh": "失落门",
+  "description_en": "This door is almost rusted shut.",
+  "description_zh": "这扇门几乎锈死了。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "wreck"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

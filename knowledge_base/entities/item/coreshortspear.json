@@ -1,0 +1,51 @@
+{
+  "entity_id": "coreshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Core Shortspear",
+  "name_zh": "星核短矛",
+  "description_en": "Searingly fun for everyone!\r\nHunting weapon",
+  "description_zh": "炙热的乐趣，献给所有人！\n狩猎武器",
+  "rarity": "Common",
+  "category": "shortspear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6.1,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

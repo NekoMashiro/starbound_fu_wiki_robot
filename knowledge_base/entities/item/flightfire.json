@@ -1,0 +1,63 @@
+{
+  "entity_id": "flightfire",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flightfire",
+  "name_zh": "飞火",
+  "description_en": "Well, this is super-fun!\r\nHunting weapon",
+  "description_zh": "好吧，这真有趣！\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 5.5,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear4",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonspear",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 4
+        },
+        {
+          "item": "scorchedcore",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Flightfire.md",
+  "quality_tier": "S"
+}

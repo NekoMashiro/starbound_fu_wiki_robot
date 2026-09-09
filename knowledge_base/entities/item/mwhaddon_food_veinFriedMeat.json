@@ -1,0 +1,58 @@
+{
+  "entity_id": "mwhaddon_food_veinFriedMeat",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Vein-fried Meat",
+  "name_zh": "脉莓煎肉",
+  "description_en": "[Voyage] Looks daunting, but the sweet-and-sour flavour of veinberries is just fine.\n\n+20% Max Health 7 min 30 sec.",
+  "description_zh": "[远行]看起来有些可怕，但是实际上脉莓的酸甜味刚刚好。\n\n7分钟30秒+20%最大生命",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_farmable_veinberry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

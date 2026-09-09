@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_misc_urbanShelf",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Urban Shelf",
+  "name_zh": "都市架",
+  "description_en": "A simple bookshelf.",
+  "description_zh": "简单的书柜。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 80,
+  "tags": [
+    "knowledge",
+    "storage",
+    "urban"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

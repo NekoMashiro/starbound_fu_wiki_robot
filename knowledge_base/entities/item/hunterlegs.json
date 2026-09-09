@@ -1,0 +1,37 @@
+{
+  "entity_id": "hunterlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hunter's Trousers",
+  "name_zh": "猎人裤子",
+  "description_en": "Great protection... unless it has teeth... or mandibles... or stingers.",
+  "description_zh": "很完美的防护…除非对方有牙齿…或者下颚…或者刺。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.1676,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.1176,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

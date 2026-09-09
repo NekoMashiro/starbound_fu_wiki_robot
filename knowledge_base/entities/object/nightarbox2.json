@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarbox2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Nightar Box",
+  "name_zh": "大型夜族盒子",
+  "description_en": "A mysterious Nightar box.",
+  "description_zh": "一个神秘的夜族盒子。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 175,
+  "tags": [
+    "nightar",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

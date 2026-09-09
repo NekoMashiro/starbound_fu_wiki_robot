@@ -1,0 +1,56 @@
+{
+  "entity_id": "zerchesiumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Spear",
+  "name_zh": "高熔点长矛",
+  "description_en": "A wonderfully made tool of war.\r\nHunting weapon",
+  "description_zh": "一柄精美的战争工具。\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "spear",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.3,
+  "critChance": 4,
+  "critBonus": 2,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "fucharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

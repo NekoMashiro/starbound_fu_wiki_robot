@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmenergyrifle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Energy Rifle Mech Arm",
+  "name_zh": "能量步枪机甲臂",
+  "description_en": "A well made mech arm that fires beams of something akin to pure energy.",
+  "description_zh": "一种制造精良的机甲手臂，能发射类似于纯能量的物体的光束。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 30
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "havencrest_bookcase_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Oasis Bookcase",
+  "name_zh": "绿洲书柜",
+  "description_en": "A bookcase made with sandstone and decorated with tiny arcanium crystals.",
+  "description_zh": "用砂岩制成的书架，上面装饰着微小的秘钢水晶。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "havencrest",
+    "storage",
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_tile2",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

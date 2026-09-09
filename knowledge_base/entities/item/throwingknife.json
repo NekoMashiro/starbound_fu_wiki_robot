@@ -1,0 +1,62 @@
+{
+  "entity_id": "throwingknife",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Knife",
+  "name_zh": "飞刀",
+  "description_en": "Throwing this knife requires careful precision.",
+  "description_zh": "使用这把飞刀需要准头。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 3,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_smashables_pod_geoelectra_throwables",
+          "probability": 0.291,
+          "count": 4.5
+        },
+        {
+          "pool": "arcana_smashables_pod_geoelectra",
+          "probability": 0.0582,
+          "count": 4.5
+        }
+      ],
+      "prob_range": [
+        0.0582,
+        0.291
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "artifact_blastRifle_neonGenesis",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Neon Genesis",
+  "name_zh": "霓创",
+  "description_en": "An angelic presence surges through. Hold 0.4 seconds for a charged shot.",
+  "description_zh": "天使的气息汹涌澎湃。长按0.4秒进行强化射击。",
+  "rarity": "Essential",
+  "category": "uniqueWeapon",
+  "price": 3200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle"
+  ],
+  "elementalType": "electric",
+  "level": 9,
+  "twoHanded": true,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "magnus_blastRifle_testaViola",
+          "count": 1
+        },
+        {
+          "item": "orion_rocketLauncher_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_illusionaryLuna"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "neonmelonseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Neonmelon Seed",
+  "name_zh": "霓虹瓜种子",
+  "description_en": "The vibrant flesh of a neonmelon tastes like bubblegum.",
+  "description_zh": "霓虹瓜那充满活力的果肉尝起来跟泡泡糖一样。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 70,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 29
+        },
+        {
+          "item": "toxictopseed",
+          "count": 6
+        },
+        {
+          "item": "petalyellow",
+          "count": 9
+        },
+        {
+          "item": "corefragmentore",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 15
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "bluemelonseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "neonmelonHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

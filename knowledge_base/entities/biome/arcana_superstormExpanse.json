@@ -1,0 +1,72 @@
+{
+  "entity_id": "arcana_superstormExpanse",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Superstorm Expanse",
+  "name_zh": "奔雷瀚土",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Superstorm Expanse",
+  "friendly_name_zh": "奔雷瀚土",
+  "ores": [
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_thoriumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.6
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "adultpoptop",
+    "birdcritter",
+    "bobot",
+    "chevcritter",
+    "fireflyspawner",
+    "fishcritter",
+    "frogcritter",
+    "gleap",
+    "miasmop",
+    "paratail",
+    "poptop",
+    "scandroid"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_superstormExpanse"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_supercharged"
+  ],
+  "wiki_ref": "Superstorm Expanse.md",
+  "quality_tier": "C"
+}

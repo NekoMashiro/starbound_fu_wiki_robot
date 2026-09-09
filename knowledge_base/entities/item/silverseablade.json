@@ -1,0 +1,58 @@
+{
+  "entity_id": "silverseablade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Silver Sea Blade",
+  "name_zh": "银海匕首",
+  "description_en": "Able to damage all elements equally.",
+  "description_zh": "能够对所有元素造成相等伤害。",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "silverweapon",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

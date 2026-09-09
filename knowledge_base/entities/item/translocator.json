@@ -1,0 +1,62 @@
+{
+  "entity_id": "translocator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Translocator",
+  "name_zh": "传送枪",
+  "description_en": "Fires teleport-node discs. Quite useful. Upgrade using your Tricorder.",
+  "description_zh": "发射传送节点。十分实用。\n在三度仪处升级。",
+  "rarity": "rare",
+  "category": "translocator",
+  "price": 5000,
+  "tags": [
+    "upgradeableTool",
+    "tool",
+    "theaUninfusable"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extrachallengelabtranslocator",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "translocatorb.png",
+    "seed": "",
+    "shortdescription": "传送枪 II ^cyan;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Translocator.md",
+  "quality_tier": "S"
+}

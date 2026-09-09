@@ -1,0 +1,58 @@
+{
+  "entity_id": "titaniumlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Longsword",
+  "name_zh": "钛制长剑",
+  "description_en": "A lightweight, yet strong blade.",
+  "description_zh": "一把轻巧的利刃。",
+  "rarity": "Uncommon",
+  "category": "longsword",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 1,
+  "critBonus": 9,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

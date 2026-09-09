@@ -1,0 +1,82 @@
+{
+  "entity_id": "HarvesterBeam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Harvester Beamgun",
+  "name_zh": "树木收割者",
+  "description_en": "Left-click: quick harvest of crops/flowers/trees.\r\nRight-click: till soil",
+  "description_zh": "左键单击：快速收获农作物/花卉/树木。\n右键单击：翻地",
+  "rarity": "uncommon",
+  "category": "tool",
+  "price": 2500,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_autoBeamer",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "HarvesterBeam2"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_autoBeamer"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "wiki_ref": "Harvester Beamgun.md",
+  "quality_tier": "S"
+}

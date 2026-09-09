@@ -1,0 +1,36 @@
+{
+  "entity_id": "greenfingerhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Greenfinger's Headdress",
+  "name_zh": "绿手指头饰",
+  "description_en": "An ornate headdress, denoting a Floran as the Greenfinger of their tribe.",
+  "description_zh": "一个华丽的头饰，表示这个叶族人是他们部落的绿手指。",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhutvillageChestTreasure",
+          "probability": 0.0146,
+          "count": 1
+        },
+        {
+          "pool": "floranvillagetowerChestTreasure",
+          "probability": 0.0144,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0144,
+        0.0146
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

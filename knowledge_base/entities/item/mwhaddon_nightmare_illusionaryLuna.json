@@ -1,0 +1,49 @@
+{
+  "entity_id": "mwhaddon_nightmare_illusionaryLuna",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Illusionary Luna",
+  "name_zh": "苍月霓彩",
+  "description_en": "As a neon rainbow in the night.\nThe last blast deals extra damage to enemies damaged by previous laser.",
+  "description_zh": "如不眠之夜的霓彩一般。\n终结收尾的爆破命中被激光攻击过的敌人时会造成额外伤害。",
+  "rarity": "essential",
+  "category": "uniqueWeapon",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 10,
+  "twoHanded": true,
+  "primaryAbilityType": "mwhaddon_nightmare_illusionaryLuna_primary",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_3",
+          "count": 16
+        },
+        {
+          "item": "mwhaddon_blastRifle_tsukitsune",
+          "count": 1
+        },
+        {
+          "item": "artifact_blastRifle_neonGenesis",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

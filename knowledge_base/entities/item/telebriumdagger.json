@@ -1,0 +1,51 @@
+{
+  "entity_id": "telebriumdagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Knife",
+  "name_zh": "月海小刀",
+  "description_en": "Double-pronged for twice the fun.",
+  "description_zh": "双倍的快乐。",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 240,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 8.2,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

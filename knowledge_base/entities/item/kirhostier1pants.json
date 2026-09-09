@@ -1,0 +1,48 @@
+{
+  "entity_id": "kirhostier1pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Underworld Greaves",
+  "name_zh": "冥府腿甲",
+  "description_en": "Set Bonuses:\r\n (Machine) Pistols: +1/+2.5% Crit Chance\r\n Assault/Sniper Rifles: +2% Crit Chance",
+  "description_zh": "套装奖励:\n (自动) 手枪: +1/+2.5% 暴击几率\n 突击/狙击步枪: +2% 暴击几率",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 50,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

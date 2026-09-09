@@ -1,0 +1,58 @@
+{
+  "entity_id": "apextier5ahead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rogue's Hood",
+  "name_zh": "盗贼面罩",
+  "description_en": "Set Bonuses:\n Magnorb: Mastery +22%\n Thrown: Damage x1.22\n Immune: Radiation Burn",
+  "description_zh": "套装奖励:\n 磁力珠/投掷武器: 伤害 x1.19\n 免疫: 辐射烧伤",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 2880,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 6
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "apextier6ahead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

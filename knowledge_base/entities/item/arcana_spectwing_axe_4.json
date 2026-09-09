@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_spectwing_axe_4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Umbral Axe",
+  "name_zh": "暗影之斧",
+  "description_en": "A sturdy axe of the night. On Crit: Inflict Gloom (-10% Physical and Abyss Res, and an additional -10% if they have an elemental status).",
+  "description_zh": "坚固的暗影之斧。暴击时：施加幽郁（-10%物理和深渊抗性，如果存在元素状态则额外-10%）",
+  "rarity": "Uncommon",
+  "category": "axe",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8.0,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

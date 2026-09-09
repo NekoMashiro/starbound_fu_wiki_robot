@@ -1,0 +1,49 @@
+{
+  "entity_id": "mossypackeddirt",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mossy Packed Dirt",
+  "name_zh": "布满苔藓的压制土块",
+  "description_en": "Packed dirt, covered in moss.\nExtractable.",
+  "description_zh": "压制的土块，被苔藓覆盖。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dirtmaterial",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "mossypackeddirt"
+  ],
+  "quality_tier": "A"
+}

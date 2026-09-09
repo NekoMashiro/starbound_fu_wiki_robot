@@ -1,0 +1,49 @@
+{
+  "entity_id": "zerchesiumbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Bookcase",
+  "name_zh": "高熔点矿书架",
+  "description_en": "A bookcase made from Zerchesium.",
+  "description_zh": "用高熔点矿制成的书架。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "zerchesium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

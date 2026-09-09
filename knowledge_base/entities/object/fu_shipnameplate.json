@@ -1,0 +1,37 @@
+{
+  "entity_id": "fu_shipnameplate",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fancy Ship Plaque",
+  "name_zh": "精致的船牌",
+  "description_en": "A fancy plaque made to commemorate a ship. Displays its name, type and construction date. Break to reset ship name.",
+  "description_zh": "纪念一艘飞船的精致牌匾。显示其名称、类型和建造日期。破坏以重置船名。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "valuable",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

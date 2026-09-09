@@ -1,0 +1,70 @@
+{
+  "entity_id": "tungstensniperrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tungsten Sniper Rifle",
+  "name_zh": "钨制狙击枪",
+  "description_en": "Powerfully strong to cover long distances.",
+  "description_zh": "强大的远距离武器。",
+  "rarity": "Common",
+  "category": "sniperRifle",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "sniperrifle"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 6,
+  "critBonus": 8,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

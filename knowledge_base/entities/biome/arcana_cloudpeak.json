@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_cloudpeak",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Cloudpeak",
+  "name_zh": "云脊",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Cloudpeak",
+  "friendly_name_zh": "云脊",
+  "ores": [
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_ariostone",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "aggroLargeFlying",
+    "arcana_ariomutt",
+    "birdcritter",
+    "butterbee",
+    "fawnfly",
+    "mudstag",
+    "passiveLargeFlying",
+    "skimbus"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_windswept"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

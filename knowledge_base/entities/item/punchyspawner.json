@@ -1,0 +1,39 @@
+{
+  "entity_id": "punchyspawner",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Punchy",
+  "name_zh": "伙伴",
+  "description_en": "Summons a helpless Punchy for you to beat up.",
+  "description_zh": "生成一只为你打气的强力伙伴。",
+  "rarity": "Rare",
+  "category": "mysteriousReward",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "deadcore",
+          "count": 10
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Punchy.md",
+  "quality_tier": "A"
+}

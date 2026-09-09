@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_cybernetic_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cybernetic Queen",
+  "name_zh": "赛博蜂后",
+  "description_en": "Cybernetic Queen",
+  "description_zh": "赛博蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "titaniumbar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bee_cybernetic",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_cybernetic"
+          ]
+        },
+        {
+          "pool": "metalqueen",
+          "probability": 0.25,
+          "count": 1,
+          "monsters": [
+            "metalbee"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

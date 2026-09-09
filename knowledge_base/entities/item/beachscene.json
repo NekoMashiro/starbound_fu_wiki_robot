@@ -1,0 +1,190 @@
+{
+  "entity_id": "beachscene",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "A Beach Photograph",
+  "name_zh": "一张海滩照片",
+  "description_en": "A picture of you on a beach, dated 600 years ago. On the horizon, a misty figure stands. It emanates cold malice.",
+  "description_zh": "一张600年前你在海滩上的照片。在地平线上，一个模糊的身影站立着，散发出冷酷的恶意。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 26,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0833,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0028,
+          "count": 1
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0005,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0833
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0005,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0002,
+          "count": 1.0,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "glitchmissioncodex",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

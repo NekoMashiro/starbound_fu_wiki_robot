@@ -1,0 +1,46 @@
+{
+  "entity_id": "industrialbed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Bed",
+  "name_zh": "工业床",
+  "description_en": "A cheap bed with a sturdy metal frame. It doesn't seem very comfortable.",
+  "description_zh": "结实金属架的廉价床。看起来不太舒服。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "misc",
+    "industrial",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "silk",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

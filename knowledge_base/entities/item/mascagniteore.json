@@ -1,0 +1,220 @@
+{
+  "entity_id": "mascagniteore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mascagnite",
+  "name_zh": "铵矾",
+  "description_en": "Mascagnite is a mineral abundant in Ammonium Sulfate, which can be extracted.",
+  "description_zh": "铵矾是一种矿产丰富的硫酸铵来源，可以提取。",
+  "rarity": "Common",
+  "category": "craftingOre",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "ammoniumsulfate",
+      "bonus": [
+        "ammoniumsulfate",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ammoniumsulfate",
+      "bonus": [
+        "ammoniumsulfate",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ammoniumsulfate",
+      "bonus": [
+        "ammoniumsulfate",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 30,
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0528,
+          "count": 9,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0435,
+          "count": 9,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0007,
+          "count": 9,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0004,
+          "count": 9
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0002,
+          "count": 9
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0528
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0198,
+          "count": 9,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 9
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0198
+      ]
+    },
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 9
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0022,
+          "count": 9
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0006,
+          "count": 9
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0002,
+          "count": 9
+        },
+        {
+          "pool": "capsulespace",
+          "probability": 0.0001,
+          "count": 9
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0036
+      ]
+    },
+    "chest_loot": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0013,
+          "count": 9.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0013,
+          "count": 9.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0009,
+          "count": 9.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0006,
+          "count": 9.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0006,
+          "count": 9.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0013
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0006,
+          "count": 9
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0005,
+          "count": 9.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0005,
+          "count": 9
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 9
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 9
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "wiki_ref": "Mascagnite.md",
+  "quality_tier": "A"
+}

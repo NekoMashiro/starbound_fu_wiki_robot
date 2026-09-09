@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunaribroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Broadsword",
+  "name_zh": "月晶阔剑",
+  "description_en": "Shining with crystalline menace.",
+  "description_zh": "闪耀着水晶般的威胁。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.2,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "bladecharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

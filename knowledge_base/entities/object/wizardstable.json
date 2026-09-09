@@ -1,0 +1,50 @@
+{
+  "entity_id": "wizardstable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wizard's Table",
+  "name_zh": "巫师桌",
+  "description_en": "A table enchanted to never give its owner splinters, guaranteed!",
+  "description_zh": "这张桌子被施了魔法，永远不会给它的主人碎片，保证！",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "wizard",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wizardset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

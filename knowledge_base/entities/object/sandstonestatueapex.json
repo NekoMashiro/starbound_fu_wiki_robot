@@ -1,0 +1,60 @@
+{
+  "entity_id": "sandstonestatueapex",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Apex Sandstone Statue",
+  "name_zh": "猿族砂岩雕像",
+  "description_en": "An Apex statue. A perfect likeness.",
+  "description_zh": "一个猿人雕像，看起来完美的像。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 400,
+  "tags": [
+    "sandstone",
+    "pretty"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "venusdepixel"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.0396,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.0332,
+          "count": 1
+        },
+        {
+          "pool": "desertTreasure",
+          "probability": 0.0278,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0278,
+        0.0332
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

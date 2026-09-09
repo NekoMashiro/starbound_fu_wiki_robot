@@ -1,0 +1,42 @@
+{
+  "entity_id": "fu_watcher",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Watcher",
+  "name_zh": "观察器",
+  "description_en": "Used to keep everything within 20 tiles loaded while away, if turned on. Shuts off when you leave the planet.\nAvoid over-use. Will impact performance.",
+  "description_zh": "可以保证在你远离设备的情况下，保持设备的正常运作。作用范围：20格。离开星球时将会关闭，直到你重新进入该工作范围。\n请避免过度使用。可能会影响游戏性能。",
+  "rarity": "uncommon",
+  "category": "Chunk Loader",
+  "price": 10,
+  "tags": [
+    "creepy",
+    "tech",
+    "power",
+    "lab"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Watcher.md",
+  "quality_tier": "A"
+}

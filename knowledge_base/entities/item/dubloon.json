@@ -1,0 +1,56 @@
+{
+  "entity_id": "dubloon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dubloon",
+  "name_zh": "企鹅硬币",
+  "description_en": "A contractual token accepted by Penguin Mercenaries at the Beakeasy Bar.",
+  "description_zh": "用来在易喙酒吧招募企鹅雇佣兵的代币。",
+  "rarity": "Uncommon",
+  "category": "currency",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Penguin Bar Top",
+      "station_zh": "企鹅吧台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "penguincostume"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erchiusBee",
+          "probability": 0.05,
+          "count": 1,
+          "monsters": [
+            "fugianterchiusbee"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Dubloon.md",
+  "quality_tier": "S"
+}

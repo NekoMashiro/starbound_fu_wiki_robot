@@ -1,0 +1,42 @@
+{
+  "entity_id": "animus_tile5",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Animus Smooth Stone",
+  "name_zh": "魇灵光滑石",
+  "description_en": "A dark smooth stone brick.",
+  "description_zh": "深色光滑的石砖。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "animus_tile2",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

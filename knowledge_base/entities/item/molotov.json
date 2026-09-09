@@ -1,0 +1,304 @@
+{
+  "entity_id": "molotov",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Molotov",
+  "name_zh": "莫洛托夫鸡尾酒",
+  "description_en": "The liquid in this bottle is highly flammable.",
+  "description_zh": "一瓶极易燃的液体。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bottle",
+          "count": 3
+        },
+        {
+          "item": "liquidoil",
+          "count": 4
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "methanol",
+          "count": 10
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 410,
+    "chest_loot": {
+      "count": 97,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.2147,
+          "count": 3.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.2081,
+          "count": 3.0
+        },
+        {
+          "pool": "humanprisonChestTreasure",
+          "probability": 0.0564,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.0496,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2147
+      ]
+    },
+    "monster_drops": {
+      "count": 253,
+      "top": [
+        {
+          "pool": "apexcampTreasure",
+          "probability": 0.1903,
+          "count": 1.7
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.1223,
+          "count": 3
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0653,
+          "count": 3
+        },
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.0579,
+          "count": 3
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0512,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1903
+      ]
+    },
+    "other": {
+      "count": 44,
+      "top": [
+        {
+          "pool": "thrownWeapon",
+          "probability": 0.1,
+          "count": 3
+        },
+        {
+          "pool": "elduuthrownWeapon",
+          "probability": 0.1,
+          "count": 3
+        },
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.0496,
+          "count": 3.0,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0245,
+          "count": 3
+        },
+        {
+          "pool": "naturalcaveLore",
+          "probability": 0.0238,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.003,
+          "count": 3
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0496
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0238,
+          "count": 3.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0174,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0174,
+        0.0238
+      ]
+    },
+    "quest_rewards": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0204,
+          "count": 3.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0201,
+          "count": 3.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0134,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0007,
+          "count": 3
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0007,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0204
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 0.0001,
+          "count": 3
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.0001,
+          "count": 3,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0001,
+          "count": 3,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

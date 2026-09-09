@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Hanging Display",
+  "name_zh": "冥界悬挂装饰",
+  "description_en": "A bunch of trinkets and tapestry hanging on a rope.",
+  "description_zh": "一串挂在绳子上的小饰品和挂毯。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "nether"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

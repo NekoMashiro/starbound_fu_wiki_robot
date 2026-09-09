@@ -1,0 +1,53 @@
+{
+  "entity_id": "pistolironfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Magnum",
+  "name_zh": "铁制左轮",
+  "description_en": "Fires high-caliber rounds.\r\nHigh damage rounds.",
+  "description_zh": "发射大口径子弹。\n高伤害子弹。",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 3,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

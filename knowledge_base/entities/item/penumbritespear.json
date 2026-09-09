@@ -1,0 +1,65 @@
+{
+  "entity_id": "penumbritespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbral Spear",
+  "name_zh": "半影长矛",
+  "description_en": "The shadowy tip is great for poking.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "spear",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8.65,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "barrier",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 6
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

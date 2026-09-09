@@ -1,0 +1,34 @@
+{
+  "entity_id": "aurea_tile13",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Segmented Wall",
+  "name_zh": "恒金分节墙",
+  "description_en": "A durable metal wall.",
+  "description_zh": "坚固的金属墙。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

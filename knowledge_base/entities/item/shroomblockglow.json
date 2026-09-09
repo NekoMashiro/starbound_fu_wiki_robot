@@ -1,0 +1,42 @@
+{
+  "entity_id": "shroomblockglow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glowing Mushroom",
+  "name_zh": "夜光蘑菇块",
+  "description_en": "A block made of soft, glowing fungus.\nExtractable.",
+  "description_zh": "由柔软、发光的真菌制成的块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 5
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

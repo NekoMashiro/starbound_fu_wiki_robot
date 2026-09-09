@@ -1,0 +1,57 @@
+{
+  "entity_id": "magnorbatropus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flesh Bola",
+  "name_zh": "血肉之珠",
+  "description_en": "Gruesome, yet fun.",
+  "description_zh": "这武器有着有趣的外形，但是对于敌人却是可怕的武器。",
+  "rarity": "rare",
+  "category": "Magnorb",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "atropus",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 1,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rottingfleshmaterial",
+          "count": 30
+        },
+        {
+          "item": "mutagene4",
+          "count": 2
+        },
+        {
+          "item": "morphiteore",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowerblack",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Black Flower",
+  "name_zh": "黑色花种子",
+  "description_en": "How incredibly Gothic-pretentious.",
+  "description_zh": "黑，漆黑的花。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerblackHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

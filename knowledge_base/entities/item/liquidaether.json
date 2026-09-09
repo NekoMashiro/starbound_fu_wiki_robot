@@ -1,0 +1,114 @@
+{
+  "entity_id": "liquidaether",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether",
+  "name_zh": "以太",
+  "description_en": "A measure of liquid aether, a strange black liquid. Feels dry.\n+1 produce.\nUses -0.5 fluid use & -1 seed use\nCentrifugable.",
+  "description_zh": "一定量的液态以太，奇怪的黑色液体。质感干燥。\n产量+1\n液体消耗-0.5&种子消耗-1\n可离心。",
+  "rarity": "legendary",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 16,
+        "examples": [
+          "astralbar",
+          "astralnebulabed",
+          "fuaetherstarbed",
+          "fuaetherstarchair",
+          "fuaetherstarchair2"
+        ]
+      },
+      "block": {
+        "count": 12,
+        "examples": [
+          "aencrosshatch",
+          "aenfence",
+          "aenwoodenwindow2",
+          "fuaetherbrick",
+          "fuaetherbrick2"
+        ]
+      },
+      "storage": {
+        "count": 12,
+        "examples": [
+          "astralcabinet",
+          "astralchest",
+          "astraldesk",
+          "astralendtable",
+          "fuaetherstarbookcase"
+        ]
+      },
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "fuaetherbowl",
+          "fuaetherbowl2",
+          "fuaetherjar",
+          "fuaetherstarclock",
+          "fuaetherstartable"
+        ]
+      },
+      "light": {
+        "count": 8,
+        "examples": [
+          "aetherlavalamp2",
+          "fuaetherlamp",
+          "fuaetherlampsmall",
+          "fuaetherlavalamp",
+          "fuaetherwalllamp"
+        ]
+      },
+      "wire": {
+        "count": 4,
+        "examples": [
+          "fuaetherconsole",
+          "fuaethermonitor",
+          "fuaetherwallconsole",
+          "fuaetherwallmonitor"
+        ]
+      },
+      "eppAugment": {
+        "count": 3,
+        "examples": [
+          "fuaetherimmunityaugment",
+          "ghostimmunityaug",
+          "shadowimmunity1"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 3,
+        "examples": [
+          "fuaetherstarfridge",
+          "xithricitefridge",
+          "xithriciteminifridge"
+        ]
+      }
+    },
+    "total": 104
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "huntingghost",
+          "probability": 0.099,
+          "count": 1,
+          "monsters": [
+            "doomspirit",
+            "fleshreaper2",
+            "fleshreaper3",
+            "ghastbrain"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Aether.md",
+  "quality_tier": "S"
+}

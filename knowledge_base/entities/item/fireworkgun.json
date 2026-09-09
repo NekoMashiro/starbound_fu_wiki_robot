@@ -1,0 +1,53 @@
+{
+  "entity_id": "fireworkgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Zephyr Spark Launcher",
+  "name_zh": "柔风星火发射器Z",
+  "description_en": "Yes, it shoots fireworks!",
+  "description_zh": "没错，它发射烟花！",
+  "rarity": "Legendary",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 0.33,
+  "altAbilityType": "sparkles",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "firework",
+          "count": 5
+        },
+        {
+          "item": "fireworkgreen",
+          "count": 5
+        },
+        {
+          "item": "fireworkblue",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 10
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Treasured Trophies",
+      "station_zh": "珍稀战利品行",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

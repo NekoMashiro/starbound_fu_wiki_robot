@@ -1,0 +1,39 @@
+{
+  "entity_id": "apiary_frame_durasteel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Frame",
+  "name_zh": "耐钢巢框",
+  "description_en": "<beeData>",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame",
+    "titanium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "silk",
+          "count": 2
+        },
+        {
+          "item": "canvas",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

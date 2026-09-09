@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_essence_tripolarEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tripolar Essence",
+  "name_zh": "三极精纯",
+  "description_en": "A fusion of three celestial elementals from tripolar stars. The true potential of Tripolar Essence is far beyond all perceptions in academia. Yet none could ever understand it, nor they would.",
+  "description_zh": "三极星系三大天体元素的融合。三极精纯的真正潜能远超当今学术界的认知，没有人能彻底理解它，永远也不会有。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddonarcana_sigils_ssSigil"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Tripolar Essence.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "placeablealebottle",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Placeable Pale Ale",
+  "name_zh": "淡啤酒",
+  "description_en": "Brand New! Placeable Pale Ale!",
+  "description_zh": "还没喝过的淡啤酒！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lightale",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

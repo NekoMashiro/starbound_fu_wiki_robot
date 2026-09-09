@@ -1,0 +1,116 @@
+{
+  "entity_id": "ff_focusingarray",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Focusing Array",
+  "name_zh": "聚焦阵列",
+  "description_en": "An array that can redirect passing particle streams.",
+  "description_zh": "一个阵列，可以重定向通过自身的粒子流。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 5420,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 2
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 96,
+        "examples": [
+          "microformeraliendesert",
+          "microformeralienforest",
+          "microformeralpine",
+          "microformerbadlands",
+          "microformerbioluminescence"
+        ]
+      },
+      "mechPart": {
+        "count": 6,
+        "examples": [
+          "mecharmbeamdrill",
+          "mecharmbeamsniper",
+          "mecharmdualrifle",
+          "mecharmenergyrifle",
+          "mecharmsinsniper"
+        ]
+      },
+      "pistol": {
+        "count": 5,
+        "examples": [
+          "densiniumpistol",
+          "fuobliterator",
+          "fupyreitepistol",
+          "hellfiregun",
+          "isogensemiautopistol"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 5,
+        "examples": [
+          "hellfirecannon",
+          "isn_plasmabeam",
+          "isn_sunstream",
+          "mineralcannonadv",
+          "xithriciterocketlauncher"
+        ]
+      },
+      "shotgun": {
+        "count": 3,
+        "examples": [
+          "densiniumshotgun",
+          "veilbreaker",
+          "xithriciteshotgun"
+        ]
+      },
+      "sniperRifle": {
+        "count": 2,
+        "examples": [
+          "densiniumsniper",
+          "xithricitesniper"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "c_ftlcommsdish",
+          "mechplatform"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "isn_terawattlaser",
+          "xithriciteassaultrifle"
+        ]
+      }
+    },
+    "total": 129
+  },
+  "quality_tier": "S"
+}

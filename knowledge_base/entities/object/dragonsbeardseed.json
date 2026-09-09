@@ -1,0 +1,68 @@
+{
+  "entity_id": "dragonsbeardseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dragonsbeard",
+  "name_zh": "龙须草种子",
+  "description_en": "Nearly immune to all forms of heat.",
+  "description_zh": "可以收获龙须草，食用后会免疫炎热、致命炎热。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 92
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 27
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 30
+        },
+        {
+          "item": "volatilepowder",
+          "count": 45
+        },
+        {
+          "item": "petalyellow",
+          "count": 15
+        },
+        {
+          "item": "biospore",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dragonsbeardHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

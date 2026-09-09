@@ -1,0 +1,62 @@
+{
+  "entity_id": "cutequarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Quarterstaff",
+  "name_zh": "棱镜长棍",
+  "description_en": "Beat em down.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "把他们揍趴下。\n能量武器",
+  "rarity": "rare",
+  "category": "quarterstaff",
+  "price": 550,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 6.05,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "elementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

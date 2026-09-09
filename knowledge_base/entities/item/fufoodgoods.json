@@ -1,0 +1,52 @@
+{
+  "entity_id": "fufoodgoods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Food Rations",
+  "name_zh": "食物补给",
+  "description_en": "A sealed crate of foods and ingredients, valuable for interstellar trade.",
+  "description_zh": "一些密封的食物补给品，对星际贸易很有价值。",
+  "rarity": "Common",
+  "category": "tradeGoods",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 440
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingOre": {
+        "count": 2,
+        "examples": [
+          "uraniumore",
+          "zerchesiumore"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "fu_carbon"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

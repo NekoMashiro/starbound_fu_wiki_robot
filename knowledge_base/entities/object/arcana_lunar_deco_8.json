@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_lunar_deco_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tall Herb Plant",
+  "name_zh": "高大草本植物盆栽",
+  "description_en": "A plant box holding a tall herb plant.",
+  "description_zh": "一个装有高大草本植物的盆栽。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "kuromatsu",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "arcana_lunar_deco_9"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "mwhaddon_misc_teaMachine",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Qingque Tea Brewer",
+  "name_zh": "青雀牌煮茶机",
+  "description_en": "A highly sophisticated tea brewer. Can be used to custom your tea cup.",
+  "description_zh": "高度复杂的煮茶工具。可用于自定义你的茶杯。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 1600,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 9
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

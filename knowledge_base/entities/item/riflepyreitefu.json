@@ -1,0 +1,63 @@
+{
+  "entity_id": "riflepyreitefu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Rifle",
+  "name_zh": "永燃步枪",
+  "description_en": "Reliable and accurate, and quite hot.\nDevastating incendiary rounds",
+  "description_zh": "可靠，准确，而且相当热。 \n毁灭性的燃烧弹。",
+  "rarity": "legendary",
+  "category": "sniperRifle",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "pyreite"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.2,
+  "critChance": 2,
+  "critBonus": 25,
+  "altAbilityType": "swtjc_ewg_bouncingorbitals",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 7
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "moltencore",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

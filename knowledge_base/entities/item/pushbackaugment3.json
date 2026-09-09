@@ -1,0 +1,40 @@
+{
+  "entity_id": "pushbackaugment3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Repulsor Field III",
+  "name_zh": "EPP模块（排斥力场III）",
+  "description_en": "Keeps enemies away from you with a 20ms electrical field.\r\n24 knockback, 2 damage.\r\n+20% Electric resist",
+  "description_zh": "击退20ms脉冲力场范围以内的敌对目标。\n击退距离：24，伤害：2\n+20%电系抗性",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "currentcornseed",
+          "count": 48
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

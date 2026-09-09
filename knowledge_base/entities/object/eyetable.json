@@ -1,0 +1,49 @@
+{
+  "entity_id": "eyetable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Eye Table",
+  "name_zh": "眼球桌子",
+  "description_en": "An eye table. Not good for people wearing skirts.",
+  "description_zh": "一张眼球制作的桌子，不适合穿裙子时使用。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 105,
+  "tags": [
+    "eyepatch",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "eyepiles",
+          "count": 50
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

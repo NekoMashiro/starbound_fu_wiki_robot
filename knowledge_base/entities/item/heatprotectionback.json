@@ -1,0 +1,65 @@
+{
+  "entity_id": "heatprotectionback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cooling EPP",
+  "name_zh": "降暑EPP I",
+  "description_en": "+20% Fire Resist. Helpful on mildly hot planets.",
+  "description_zh": "对在轻度炎热的星球上的探险很有帮助。\n火炎抗性+20%",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_nitrogen",
+          "count": 5
+        },
+        {
+          "item": "fu_carbon",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "heatprotectionback2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "artifact_wand_idunsBlessing",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Centreum",
+  "name_zh": "千纪",
+  "description_en": "A device that formerly brings fruits of rejuvenation.",
+  "description_zh": "这柄魔杖曾带来了复兴的果实。",
+  "rarity": "Essential",
+  "category": "wand",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "wand"
+  ],
+  "elementalType": "arcana_chryso",
+  "level": 9,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_aeonSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "conceptchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Casual Cardigan",
+  "name_zh": "休闲外套",
+  "description_en": "A simple jacket, in case it gets a bit chilly.",
+  "description_zh": "一件简单的夹克，用来预防寒气。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 20
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

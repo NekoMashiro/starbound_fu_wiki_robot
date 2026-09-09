@@ -1,0 +1,60 @@
+{
+  "entity_id": "bigdaddy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Instigator",
+  "name_zh": "耳语",
+  "description_en": "A massive energy sniper rifle. Big impact.\r\nAoE Denial Primary",
+  "description_zh": "一把巨大的能量狙击步枪，发射巨大的能量冲击波\n范围型武器",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 760,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "critChance": 8,
+  "critBonus": 12,
+  "altAbilityType": "swtjc_ewg_repelgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 8
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 12
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Instigator.md",
+  "quality_tier": "A"
+}

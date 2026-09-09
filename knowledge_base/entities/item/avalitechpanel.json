@@ -1,0 +1,38 @@
+{
+  "entity_id": "avalitechpanel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tech Panel",
+  "name_zh": "科技面板",
+  "description_en": "Polymer panels used to hide and protect electronics.\nExtractable.",
+  "description_zh": "这种聚合面板是用来隐藏和保护电子设备的。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbon",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 4
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

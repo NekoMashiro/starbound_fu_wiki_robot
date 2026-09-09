@@ -1,0 +1,27 @@
+{
+  "entity_id": "haleflowerpetal",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hale Flower Petal",
+  "name_zh": "黑尔花",
+  "description_en": "+30% E. Regen & -15% E. Regen Block: 1m",
+  "description_zh": "+30%能量恢复& -15%能量重充能时间: 1m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "haleflowerHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

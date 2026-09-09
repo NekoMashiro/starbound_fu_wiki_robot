@@ -1,0 +1,77 @@
+{
+  "entity_id": "mwhaddon_throwable_fluorescenceStem",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Fluorescence Stem",
+  "name_zh": "荧光茎",
+  "description_en": "A light stick made of plants and Arcane magic that can float in the air.",
+  "description_zh": "使用奥术魔法制成的荧光棒，可以浮在空中。",
+  "rarity": "common",
+  "category": "throwableItem",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_fluorescentBeacon",
+          "count": 1
+        },
+        {
+          "item": "coralfragment",
+          "count": 1
+        }
+      ],
+      "output_count": 12,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_fluorescenceStem",
+          "probability": 2.5,
+          "count": 4.6
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.2875,
+          "count": 4.6
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.1151,
+          "count": 4.6
+        }
+      ],
+      "prob_range": [
+        0.1151,
+        2.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

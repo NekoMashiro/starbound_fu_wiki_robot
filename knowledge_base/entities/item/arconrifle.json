@@ -1,0 +1,62 @@
+{
+  "entity_id": "arconrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Rifle",
+  "name_zh": "阿克恩步枪",
+  "description_en": "Deadly and rapid fire plasma for spreading joy.\r\nCounts as 'plasma' for set bonuses.",
+  "description_zh": "致命、快速的等离子体，用于传播快乐。\n等离子武器，",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 1,
+  "critBonus": 6,
+  "altAbilityType": "forcebubble",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "unstableparticles",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

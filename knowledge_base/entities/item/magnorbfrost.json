@@ -1,0 +1,57 @@
+{
+  "entity_id": "magnorbfrost",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frost Lobber",
+  "name_zh": "寒冰之珠",
+  "description_en": "Cold as ice.",
+  "description_zh": "冷，极冷。",
+  "rarity": "uncommon",
+  "category": "Magnorb",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "ice",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 1,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 4
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

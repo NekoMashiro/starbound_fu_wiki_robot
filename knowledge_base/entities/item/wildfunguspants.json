@@ -1,0 +1,46 @@
+{
+  "entity_id": "wildfunguspants",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wild Fungus Skirt",
+  "name_zh": "荒野菌靴",
+  "description_en": "These boots are durable, but will make your feet smell awful.",
+  "description_zh": "这双靴子非常耐用，不过会让你的脚闻起来非常恶心。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.1363,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.0886,
+          "count": 1
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.0741,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0741,
+        0.0886
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

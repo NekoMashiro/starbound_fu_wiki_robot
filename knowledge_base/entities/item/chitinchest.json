@@ -1,0 +1,66 @@
+{
+  "entity_id": "chitinchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chitin Chest",
+  "name_zh": "甲壳胸甲",
+  "description_en": "Set Bonuses:\r\n Sulphuric: Health x1.12, Damage x1.12\r\n Immune: Acid",
+  "description_zh": "套装奖励:\n 硫酸: 最大HPx1.12, 伤害x1.12\n 免疫: 酸蚀",
+  "rarity": "Uncommon",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "wildvines",
+          "count": 3
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 5
+        },
+        {
+          "item": "fudesertwalkerchest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fumonsterplatedchest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

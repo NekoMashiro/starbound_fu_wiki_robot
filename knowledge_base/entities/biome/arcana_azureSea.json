@@ -1,0 +1,77 @@
+{
+  "entity_id": "arcana_azureSea",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Azure Sea",
+  "name_zh": "蔚蓝海",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Azure Sea",
+  "friendly_name_zh": "蔚蓝海",
+  "ores": [
+    {
+      "ore": "silver",
+      "weight": 1.0
+    },
+    {
+      "ore": "gold",
+      "weight": 1.0
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_geodestone",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_oceanite",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "crabcano",
+    "crabcritter",
+    "fishberrycritter",
+    "fishchilicritter",
+    "fishlemoncritter",
+    "gullcritter",
+    "jellycritter",
+    "lilodon",
+    "miasmop",
+    "monopus",
+    "seahornet",
+    "snaggler",
+    "snuffish",
+    "squidcritter",
+    "tidefly",
+    "tortoisecritter",
+    "wavebird"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:ocean"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_cataclysm"
+  ],
+  "wiki_ref": "Azure Sea.md",
+  "quality_tier": "C"
+}

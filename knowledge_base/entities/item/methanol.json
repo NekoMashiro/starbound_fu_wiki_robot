@@ -1,0 +1,265 @@
+{
+  "entity_id": "methanol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Methanol",
+  "name_zh": "甲醇",
+  "description_en": "This light, volatile alcohol is produced from destructive extraction from wood.",
+  "description_zh": "这种轻而易挥发的酒精是从木材中破坏性提取而得的。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "applejuice",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 10,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 15,
+        "examples": [
+          "fudynastcrosshatch",
+          "fudynastfence",
+          "fudynastfullwood1",
+          "fudynastornateflooring",
+          "fudynastornatetiles"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "ff_plastic",
+          "magnesiumsulfate",
+          "methyliodide",
+          "polymer"
+        ]
+      },
+      "platform": {
+        "count": 2,
+        "examples": [
+          "fudynastwoodenplatform",
+          "richplatform"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "isn_glowgel"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "molotov"
+        ]
+      }
+    },
+    "total": 24
+  },
+  "drop_sources": {
+    "total_pools": 57,
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 30,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 80
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0278,
+          "count": 30
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0045,
+          "count": 3
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0028,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1097
+      ]
+    },
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 30
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 30
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 30,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 30
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0299,
+          "count": 30
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1026
+      ]
+    },
+    "chest_loot": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 80
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 3.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 3.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0051,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 3.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 3.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

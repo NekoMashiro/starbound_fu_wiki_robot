@@ -1,0 +1,52 @@
+{
+  "entity_id": "workshop_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Chair",
+  "name_zh": "工坊椅子",
+  "description_en": "A comfortable orange chair that suits Titancorp's engineers.",
+  "description_zh": "一把舒适的橙色椅子，适合工坊的工程师。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 80,
+  "tags": [
+    "titancorp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

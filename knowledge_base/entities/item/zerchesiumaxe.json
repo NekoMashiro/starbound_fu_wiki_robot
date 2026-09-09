@@ -1,0 +1,55 @@
+{
+  "entity_id": "zerchesiumaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Axe",
+  "name_zh": "高熔点斧",
+  "description_en": "Nearly unbreakable.",
+  "description_zh": "几乎坚不可摧。",
+  "rarity": "uncommon",
+  "category": "axe",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 11,
+  "critChance": 1,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "xithricitespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Spear",
+  "name_zh": "赛德瑞瑟长矛",
+  "description_en": "Oh my god. It's made of stars...\r\nInflicts Minor Vulnerability\r\nHunting weapon",
+  "description_zh": "我的天，由众星铸成...\n附加错调瑕疵效果\n狩猎武器",
+  "rarity": "legendary",
+  "category": "lance",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "critChance": 2,
+  "critBonus": 9,
+  "primaryAbilityType": "heavyspearcomboshadow",
+  "altAbilityType": "elementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 10
+        },
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 130
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

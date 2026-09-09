@@ -1,0 +1,125 @@
+{
+  "entity_id": "thorngrenade",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Thorn Grenade",
+  "name_zh": "荆棘手雷",
+  "description_en": "Scary what one can achieve with a fruit and a bit of volatile powder.",
+  "description_zh": "可怕的是制作这个只要一些火药粉和一个果实。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornfruit",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        }
+      ],
+      "output_count": 10,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 11,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.2794,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0071,
+          "count": 3,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.007,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.2794
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.1961,
+          "count": 3
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0512,
+          "count": 3
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0264,
+          "count": 3
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.018,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0035,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.1961
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0245,
+          "count": 3
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0053,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0053,
+        0.0245
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

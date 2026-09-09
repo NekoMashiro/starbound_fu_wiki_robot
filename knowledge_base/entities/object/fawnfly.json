@@ -1,0 +1,32 @@
+{
+  "entity_id": "fawnfly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Fawnfly",
+  "name_zh": "黄褐色苍蝇",
+  "description_en": "Its tawny wings make it hard to spot on trees.",
+  "description_zh": "它黄褐色的翅膀让人很难从树上找到它。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fawnfly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "fawnfly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

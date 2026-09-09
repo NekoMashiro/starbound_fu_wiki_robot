@@ -1,0 +1,171 @@
+{
+  "entity_id": "slopedhullpanel",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hull Panel",
+  "name_zh": "船体板",
+  "description_en": "Cheap, resilient panelling widely used for ship and station construction.",
+  "description_zh": "广泛应用于船舶、电站建设的便宜，有弹性的板子。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 17,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1000
+        },
+        {
+          "pool": "slopedMaterial",
+          "probability": 0.2,
+          "count": 50
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.1,
+          "count": 200
+        },
+        {
+          "pool": "spaceTrash",
+          "probability": 0.0769,
+          "count": 25
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0089,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.1102,
+          "count": 195.1
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.1025,
+          "count": 196.3
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.1025,
+          "count": 196.3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.1,
+          "count": 200
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0142,
+          "count": 192.6
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.1102
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0162,
+          "count": 173.1
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0006,
+          "count": 50
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "slopedhullpanel"
+  ],
+  "quality_tier": "S"
+}

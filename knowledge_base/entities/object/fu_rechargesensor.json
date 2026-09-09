@@ -1,0 +1,37 @@
+{
+  "entity_id": "fu_rechargesensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Empty Batteries Sensor",
+  "name_zh": "",
+  "description_en": "Starts sending ON signal if all batteries are less than 10% full. Doesn't stop sending ON signal until all batteries become completely full. Knows about all batteries on this power conduit.\nUseful for turning the reactors On/Off.",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "science",
+    "power",
+    "tech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Empty Batteries Sensor.md",
+  "quality_tier": "C"
+}

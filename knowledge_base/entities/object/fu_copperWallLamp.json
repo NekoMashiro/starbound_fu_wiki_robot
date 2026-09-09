@@ -1,0 +1,52 @@
+{
+  "entity_id": "fu_copperWallLamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Copper Wall Lamp",
+  "name_zh": "小型铜壁灯",
+  "description_en": "A small wall-mounted lamp made from copper.",
+  "description_zh": "一种小型壁灯，由铜制成。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 50,
+  "tags": [
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

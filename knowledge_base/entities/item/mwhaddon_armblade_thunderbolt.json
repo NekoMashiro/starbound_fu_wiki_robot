@@ -1,0 +1,63 @@
+{
+  "entity_id": "mwhaddon_armblade_thunderbolt",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Pulsar Edge",
+  "name_zh": "离闪锐锋",
+  "description_en": "Aside from Orion employees, few has survived after seeing this blade unsheathed.",
+  "description_zh": "除了俄里翁雇员，很少有人能在看到这把刀出刃后还活着。",
+  "rarity": "essential",
+  "category": "shortsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword"
+  ],
+  "elementalType": "electric",
+  "level": 9,
+  "twoHanded": false,
+  "baseDps": 18.6,
+  "primaryAbilityType": "mwhaddon_execration_broadsword_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_jupiterCell",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 2
+        },
+        {
+          "item": "orion_broadsword_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

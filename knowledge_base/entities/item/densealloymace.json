@@ -1,0 +1,54 @@
+{
+  "entity_id": "densealloymace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Mace",
+  "name_zh": "致密钉头锤",
+  "description_en": "Well crafted, but heavy. Design by Gezbo.",
+  "description_zh": "制作精良，但是沉重。由Gezbo设计。",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

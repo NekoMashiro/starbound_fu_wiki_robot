@@ -1,0 +1,73 @@
+{
+  "entity_id": "currentcornseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Currentcorn Seed",
+  "name_zh": "液体玉米种子",
+  "description_en": "Currentcorn, full of acid. Not good for fleshy creatures.",
+  "description_zh": "液体玉米，富含酸液。对肉体生物来说并不好。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 33
+        },
+        {
+          "item": "cornseed",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 3,
+        "examples": [
+          "batterystem",
+          "diodiahybridseed",
+          "rockrootseed"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "pushbackaugment2",
+          "pushbackaugment3"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "currentcornHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Currentcorn Seed.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "snowpersonbody2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Simple Snowbody",
+  "name_zh": "简单雪人",
+  "description_en": "The body of a Snowman.",
+  "description_zh": "雪人的身体。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "largesnowball",
+          "count": 1
+        },
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Snowprinter",
+      "station_zh": "雪人打印机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

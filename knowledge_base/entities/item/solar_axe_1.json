@@ -1,0 +1,54 @@
+{
+  "entity_id": "solar_axe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fiery Crescent",
+  "name_zh": "燃魂新月",
+  "description_en": "A burning one-handed axe, forged from solar crystals. Inflicts Burning on hit.",
+  "description_zh": "用太阳晶体锻造的燃烧单手斧。命中时点燃目标。",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "arcana_solar",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 11.4,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 10
+        },
+        {
+          "item": "solar_crafting_solarCore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "燃魂新月^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

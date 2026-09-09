@@ -1,0 +1,65 @@
+{
+  "entity_id": "irradiumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Spear",
+  "name_zh": "镭制长矛",
+  "description_en": "Infused with toxic Irradium radiation. That's kind of you.\r\nInflicts Rad-Burn\r\nHunting weapon",
+  "description_zh": "注入有毒的镭辐射。我谢谢你（大爷）。\n辐射燃烧效果 \n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.92,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 5
+        },
+        {
+          "item": "ff_mercury",
+          "count": 5
+        },
+        {
+          "item": "liquidirradium",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

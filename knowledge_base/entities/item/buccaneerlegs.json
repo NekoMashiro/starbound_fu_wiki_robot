@@ -1,0 +1,63 @@
+{
+  "entity_id": "buccaneerlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Buccaneer Pantaloons",
+  "name_zh": "海盗裤子",
+  "description_en": "Pirate pantaloons, with holes for legs (peg or otherwise).",
+  "description_zh": "海盗裤，裤腿上有孔（用于挂钩或者其他用途）。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.1239,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0425,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0425,
+        0.1239
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.087,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0213,
+          "count": 1
+        },
+        {
+          "pool": "airshipguardtreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.087
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

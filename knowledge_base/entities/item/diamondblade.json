@@ -1,0 +1,56 @@
+{
+  "entity_id": "diamondblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diamond Blade",
+  "name_zh": "钻石短剑",
+  "description_en": "Shines gloriously, and is wonderfully valuable.",
+  "description_zh": "闪耀着迷人的光芒，看起来价值不菲。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 2880,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "diamond",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.65,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 4
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

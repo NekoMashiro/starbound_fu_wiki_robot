@@ -1,0 +1,46 @@
+{
+  "entity_id": "nightarcellbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Cell Bed",
+  "name_zh": "夜族细胞床",
+  "description_en": "Constructed of some sort of fine cell-like fabric.",
+  "description_zh": "由某种精细的细胞状织物构成。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 150,
+  "tags": [
+    "misc",
+    "nightar",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

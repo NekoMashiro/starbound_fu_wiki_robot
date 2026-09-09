@@ -1,0 +1,43 @@
+{
+  "entity_id": "isn_thermalgenerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Combustion Generator",
+  "name_zh": "内燃式发电机",
+  "description_en": "A versatile fuel-burning generator. Generates up to 12W, fuel type determines consumption rate. Heats up, heat determines output. Left Input: On/Off Switch",
+  "description_zh": "一台灵活的燃料发电机。可产生最高12W电力。燃料类型决定消耗率。\n发热，热量决定产出。\n左侧输入: 电源开关",
+  "rarity": "common",
+  "category": "wire",
+  "price": 3500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 12
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 10
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Combustion Generator.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "mwhaddon_horizon_wireddeco_1",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Horizon Large Monitor",
+  "name_zh": "地平线大型显示器",
+  "description_en": "The amount of data on this screen is overwhelming.",
+  "description_zh": "屏幕上滚动着大量的数据。",
+  "rarity": "Rare",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

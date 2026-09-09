@@ -1,0 +1,77 @@
+{
+  "entity_id": "lightbow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Light Bow",
+  "name_zh": "圣弓",
+  "description_en": "Fires glowing beams of pure energy!",
+  "description_zh": "火焰发射出纯能量的光束！",
+  "rarity": "Rare",
+  "category": "bow",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 3,
+  "twoHanded": true,
+  "critChance": 6,
+  "critBonus": 3,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bioluminescenceChestTreasure",
+          "probability": 0.12,
+          "count": 1.0
+        },
+        {
+          "pool": "luminousCaveChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.1126,
+        0.12
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBioluminescenceTreasure",
+          "probability": 0.078,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoLuminousCaveTreasure",
+          "probability": 0.0732,
+          "count": 1
+        },
+        {
+          "pool": "bioluminescenceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "luminousCaveTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0612,
+        0.078
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

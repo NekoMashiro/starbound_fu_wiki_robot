@@ -1,0 +1,54 @@
+{
+  "entity_id": "network_quarrytitanium",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Quarry",
+  "name_zh": "钛制挖掘器",
+  "description_en": "Mines blocks automatically. Can affect performance\nIN1: On/Off Switch\nIN2: Mine Background\nOUT: To Network\nWidth: 64, Depth: 72\nSpeed: 6\nStrength: 24",
+  "description_zh": "自动挖掘方块。会影响游戏性能。\n输入节点1：电源开关\n输入节点2：开启挖掘背景\n输出节点：物品网络\n挖掘宽度: 64, 挖掘深度: 64\n速度: 6\n力度: 24",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 800,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 50
+        },
+        {
+          "item": "network_quarryiron",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_quarrydensinium"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Titanium Quarry.md",
+  "quality_tier": "S"
+}

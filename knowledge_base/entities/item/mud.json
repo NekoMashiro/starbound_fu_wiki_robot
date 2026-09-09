@@ -1,0 +1,57 @@
+{
+  "entity_id": "mud",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mud",
+  "name_zh": "泥",
+  "description_en": "Thick and sticky mud.\nExtractable, Siftable, Smeltable.",
+  "description_zh": "又厚又黏的泥巴。\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "craftingfurnace"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidwater"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "mudstonematerial",
+      "bonus": [
+        "mudstonematerial"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "mudstonematerial",
+      "bonus": [
+        "mudstonematerial"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "mudstonematerial",
+      "bonus": [
+        "mudstonematerial"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

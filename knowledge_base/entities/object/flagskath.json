@@ -1,0 +1,35 @@
+{
+  "entity_id": "flagskath",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Flag",
+  "name_zh": "绘世者旗帜",
+  "description_en": "The Skath flag. Use [E] to bookmark a teleportation location.",
+  "description_zh": "绘世者旗帜. 使用 [E] 为传送点添加标签。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "skath"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "curvepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Pistol",
+  "name_zh": "劫掠手枪",
+  "description_en": "A space pirate plasma sidearm.\r\n+Bouncy and Burny",
+  "description_zh": "一把太空海盗常用的等离子武器。\n附加弹力和燃烧效果",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "plasma",
+    "upgradeableWeapon",
+    "poison"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5.2,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "prisilitestar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

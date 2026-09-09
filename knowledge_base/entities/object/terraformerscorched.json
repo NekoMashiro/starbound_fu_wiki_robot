@@ -1,0 +1,56 @@
+{
+  "entity_id": "terraformerscorched",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Scorched Terraformer",
+  "name_zh": "废土地形转换器",
+  "description_en": "Transforms a planet's climate into a dusty apocalyptic wasteland.",
+  "description_zh": "将星球的气候转换为尘土飞扬的启示录废土。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scorchedcore",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "refinedferozium",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcaneForest_tile2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Cobblestone",
+  "name_zh": "灵卵石",
+  "description_en": "A blueish stone block sprinkled with arcane magic.",
+  "description_zh": "侵染了奥术魔法的蓝色石块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "arcana_tile7",
+          "havencrest_tile2",
+          "havencrest_tile6",
+          "havencrest_tile7"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_terraformer_arcaneForest"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "A"
+}

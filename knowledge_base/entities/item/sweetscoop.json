@@ -1,0 +1,39 @@
+{
+  "entity_id": "sweetscoop",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sweetscoop",
+  "name_zh": "糖果笼",
+  "description_en": "Energy x1.2: 2m \nType: Fruit",
+  "description_zh": "能量x1.2: 2m\n类型：水果",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sweetscoopHarvest",
+          "probability": 1.1926,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Sweetscoop.md",
+  "quality_tier": "S"
+}

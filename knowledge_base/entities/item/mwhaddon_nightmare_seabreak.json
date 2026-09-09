@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_nightmare_seabreak",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Seabreak",
+  "name_zh": "海中曙光",
+  "description_en": "An assault rifle with the power of an ancient country. Alt ability can fire homing projectiles.",
+  "description_zh": "拥有古国之力的突击步枪。特殊技能会发射跟踪弹幕。",
+  "rarity": "essential",
+  "category": "assaultRifle",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 60.0,
+  "altAbilityType": "arcana_ranged_ability_homingRocket",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_2",
+          "count": 12
+        },
+        {
+          "item": "magnus_assaultRifle_selach",
+          "count": 1
+        },
+        {
+          "item": "bleuark_assaultRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

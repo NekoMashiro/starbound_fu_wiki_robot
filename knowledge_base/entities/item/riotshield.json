@@ -1,0 +1,63 @@
+{
+  "entity_id": "riotshield",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Riot Shield",
+  "name_zh": "防暴盾",
+  "description_en": "A bastion of order in an uncertain world.",
+  "description_zh": "未知世界的命令中心。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 720,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "peacecredit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Peacekeeper Store",
+      "station_zh": "和平卫士商店",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Peacekeeper Store",
+          "name_zh": "和平卫士商店"
+        },
+        {
+          "name": "Peacekeeper Store",
+          "name_zh": "和平卫士商店"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "humanbunkertreasure",
+          "probability": 0.0188,
+          "count": 1
+        },
+        {
+          "pool": "bunkerguardtreasure",
+          "probability": 0.017,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.017,
+        0.0188
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

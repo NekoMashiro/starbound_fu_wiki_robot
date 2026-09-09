@@ -1,0 +1,51 @@
+{
+  "entity_id": "alemash",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ale Mash",
+  "name_zh": "酒醪",
+  "description_en": "Ale mash, the product of soaked wheat, yellow petals and water.",
+  "description_zh": "麦芽汁，浸泡的小麦，黄色的花瓣和水混合后的产品。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "malt",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "lightale"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

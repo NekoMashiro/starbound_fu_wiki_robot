@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_auto_battery_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "[Power] Basic Battery",
+  "name_zh": "[动力]基础电池",
+  "description_en": "A basic power storage unit. Can store 800kWh of power.",
+  "description_zh": "一个基本的能量存储单位。能够存储800kWh能量。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 400,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 6
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 6
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

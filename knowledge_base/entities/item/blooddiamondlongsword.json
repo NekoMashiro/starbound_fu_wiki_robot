@@ -1,0 +1,59 @@
+{
+  "entity_id": "blooddiamondlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasmic Crystal Longsword",
+  "name_zh": "棱镜水晶长剑",
+  "description_en": "Shines with crystalline hatred.",
+  "description_zh": "映射出水晶般的憎恨。",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 1250,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 1.5,
+  "critBonus": 8,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonlongsword",
+          "count": 1
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        },
+        {
+          "item": "blooddiamond",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "carbonendtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon End Table",
+  "name_zh": "碳制茶几",
+  "description_en": "An end table made from carbon.",
+  "description_zh": "碳制的茶几。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "carbon",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "coalore",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

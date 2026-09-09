@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_misc_urbanTable_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Urban Luxury Table",
+  "name_zh": "都市奢华桌",
+  "description_en": "A luxury sleek urban table manufactured by Urban Edge.",
+  "description_zh": "都市之缘制造的奢华都市桌。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "urban"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "hunterback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hunter's Knife",
+  "name_zh": "猎人短刀",
+  "description_en": "A large decorative knife with a strap to wear on your back.",
+  "description_zh": "一把装饰用的短刀用皮带绑在你背上。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.1676,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.1176,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

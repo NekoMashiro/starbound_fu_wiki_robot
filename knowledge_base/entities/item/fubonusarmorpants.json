@@ -1,0 +1,51 @@
+{
+  "entity_id": "fubonusarmorpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Matter Greaves",
+  "name_zh": "暗物质腿甲",
+  "description_en": "Set Bonuses:\r\n Hammer Mastery : +60%\r\n +0.4% Health Regen\r\n Immune: Darkness",
+  "description_zh": "套装奖励：\n 锤系精通: +60%\n +0.4% HP恢复\n +50% 暴击伤害\n 免疫: 黑暗",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        },
+        {
+          "item": "wretchel",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

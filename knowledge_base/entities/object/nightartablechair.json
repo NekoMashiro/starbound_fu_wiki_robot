@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightartablechair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar table chair",
+  "name_zh": "夜族桌椅",
+  "description_en": "A simple Nightar chair used for tables.",
+  "description_zh": "一种用来摆桌子的简单的睡椅。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "nightar",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

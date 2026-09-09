@@ -1,0 +1,49 @@
+{
+  "entity_id": "zerchesiumendtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium End Table",
+  "name_zh": "高熔点矿端桌",
+  "description_en": "A table made from Zerchesium. Keeps your food cold.",
+  "description_zh": "一张用高熔点矿制成的桌子。让你的食物保持凉爽。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 110,
+  "tags": [
+    "commerce",
+    "zerchesium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

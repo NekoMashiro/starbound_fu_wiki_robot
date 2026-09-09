@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_archaic_light_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Tall Lamppost",
+  "name_zh": "古朴高路灯",
+  "description_en": "A tall street lampost.",
+  "description_zh": "一个高大的街道路灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 140,
+  "tags": [
+    "light",
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

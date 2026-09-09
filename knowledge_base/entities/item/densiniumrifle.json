@@ -1,0 +1,65 @@
+{
+  "entity_id": "densiniumrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Rifle",
+  "name_zh": "超致密步枪",
+  "description_en": "Superior weaponry offering unsurpassed utility.\r\n4-round bursts\r\nPiercing alt-fire",
+  "description_zh": "这把高级武器有着无与伦比的攻击力。\n四连发\n次要攻击：穿刺",
+  "rarity": "legendary",
+  "category": "energy",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.7,
+  "critChance": 3,
+  "critBonus": 6,
+  "altAbilityType": "densiniumaltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "prisilitestar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Densinium Rifle.md",
+  "quality_tier": "A"
+}

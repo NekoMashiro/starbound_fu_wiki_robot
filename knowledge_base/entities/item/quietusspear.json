@@ -1,0 +1,60 @@
+{
+  "entity_id": "quietusspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Spear",
+  "name_zh": "寂灭长矛",
+  "description_en": "A fantastic foe-stabber.\r\nHunting weapon",
+  "description_zh": "梦幻的致命一刺。\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.74,
+  "critChance": 1,
+  "critBonus": 16,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 8
+        },
+        {
+          "item": "blooddiamond",
+          "count": 5
+        },
+        {
+          "item": "irradiumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

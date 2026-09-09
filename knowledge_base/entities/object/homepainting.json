@@ -1,0 +1,31 @@
+{
+  "entity_id": "homepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Home of the Strange",
+  "name_zh": "怪奇小镇",
+  "description_en": "A sickening countenance looms behind this small-town painting.",
+  "description_zh": "在这幅小镇油画的背后，隐约可见一张令人作呕的面容。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

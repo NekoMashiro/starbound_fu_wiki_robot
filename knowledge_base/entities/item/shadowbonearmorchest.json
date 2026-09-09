@@ -1,0 +1,48 @@
+{
+  "entity_id": "shadowbonearmorchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Chestplate",
+  "name_zh": "暗影护胸",
+  "description_en": "Set Bonuses:\r\n +10% Speed\r\n Axe/Hammer/Scythe: Damage x1.3\r\n Immune: Shadow Taint",
+  "description_zh": "套装奖励：\n 10% 速度\n 斧/锤/镰刀: 30% 伤害x1.3\n 免疫: 暗影污染",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 4
+        },
+        {
+          "item": "corruptionseed",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

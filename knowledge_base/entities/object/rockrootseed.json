@@ -1,0 +1,75 @@
+{
+  "entity_id": "rockrootseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rockroot Seed",
+  "name_zh": "石之根茎种子",
+  "description_en": "A very hard vegetable, capable of resisting damage.",
+  "description_zh": "一种非常坚硬的食物。可以收获石之根茎，食用后会提高防御。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 300,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 130
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 32
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "currentcornseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 16
+        },
+        {
+          "item": "bugshell",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "beetlesproutseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rockrootHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

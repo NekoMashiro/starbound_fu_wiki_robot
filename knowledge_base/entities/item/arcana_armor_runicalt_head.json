@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_runicalt_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Runic Mask",
+  "name_zh": "符文面具",
+  "description_en": "An ornate clothing covered with runic inscriptions.",
+  "description_zh": "覆盖着符文团的华丽服装。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 1200,
+  "tags": [],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_mazeendchest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

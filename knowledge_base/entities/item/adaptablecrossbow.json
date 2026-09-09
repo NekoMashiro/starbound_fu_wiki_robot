@@ -1,0 +1,70 @@
+{
+  "entity_id": "adaptablecrossbow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Adaptable Crossbow",
+  "name_zh": "万用型十字弩",
+  "description_en": "Launches interchangeable bolts by magnetic force.",
+  "description_zh": "通过磁力场发射通用弩箭。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rifle",
+    "upgradeableWeapon",
+    "crossbow"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "adaptableammo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scorchedcore",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 10
+        },
+        {
+          "item": "venomsample",
+          "count": 10
+        },
+        {
+          "item": "staticcell",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Treasured Trophies",
+      "station_zh": "珍稀战利品行",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "fuadaptablecrossbow"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "upgrade_path": {
+    "upgrades_to": "adaptablecrossbow_l6.png:wooden.1",
+    "seed": "",
+    "shortdescription": "万用型十字弩^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

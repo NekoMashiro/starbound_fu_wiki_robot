@@ -1,0 +1,59 @@
+{
+  "entity_id": "ancientlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient's Warblade",
+  "name_zh": "古代战刃",
+  "description_en": "A weapon of the ancients.",
+  "description_zh": "一把古代武器。",
+  "rarity": "legendary",
+  "category": "longsword",
+  "price": 3600,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "ancient"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.42,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 8000
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

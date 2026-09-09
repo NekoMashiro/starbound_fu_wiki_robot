@@ -1,0 +1,68 @@
+{
+  "entity_id": "glarestalkseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glarestalk Gib",
+  "name_zh": "眩光茎种子",
+  "description_en": "This is one ugly plant mutant. Immune to insanity, and increases damage.",
+  "description_zh": "一株丑陋的变异植物。可以收获眩光茎，食用后会提高伤害，免疫精神错乱。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 44,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "gazelemonseed",
+          "count": 3
+        },
+        {
+          "item": "oculemon",
+          "count": 24
+        },
+        {
+          "item": "agaranichor",
+          "count": 6
+        },
+        {
+          "item": "fleshstrand",
+          "count": 80
+        },
+        {
+          "item": "fu_nodule",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "glarestalkHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

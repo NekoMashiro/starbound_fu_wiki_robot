@@ -1,0 +1,61 @@
+{
+  "entity_id": "cuteshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Shotgun",
+  "name_zh": "棱镜霞弹枪",
+  "description_en": "Fires colorful blasts.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "发射多彩的枪弹。\n能量武器",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 1,
+  "critBonus": 4,
+  "altAbilityType": "grenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

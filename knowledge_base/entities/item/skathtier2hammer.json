@@ -1,0 +1,74 @@
+{
+  "entity_id": "skathtier2hammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reinforced Skath Hammer",
+  "name_zh": "绘世者战锤·中级",
+  "description_en": "This hammer strikes like the waves of a tsunami.",
+  "description_zh": "锤击如海啸津波。",
+  "rarity": "rare",
+  "category": "hammer",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 16,
+  "critChance": 1,
+  "critBonus": 15,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "groundslam",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier1hammer",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "skathtier3hammer"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

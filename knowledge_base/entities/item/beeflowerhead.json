@@ -1,0 +1,56 @@
+{
+  "entity_id": "beeflowerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bee Flower Head",
+  "name_zh": "蜜蜂花头",
+  "description_en": "The head of a Bee flower. Contains traces of anti-mite poison!",
+  "description_zh": "蜜蜂花的花头，含有抗螨毒素的痕迹！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_orchid_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "apiary_frame_antimite2",
+          "apiary_frame_antimite3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "beeflowerHarvest",
+          "probability": 1.5385,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

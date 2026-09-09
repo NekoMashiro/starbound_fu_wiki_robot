@@ -1,0 +1,64 @@
+{
+  "entity_id": "penumbriterapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbral Rapier",
+  "name_zh": "半影刺剑",
+  "description_en": "Swiftly kills with shadowy promise.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "Rapier",
+  "price": 110,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

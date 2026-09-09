@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_pulsetimerqs",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quarter-Second Pulse Transmitter",
+  "name_zh": "脉冲发射器(0.25s)",
+  "description_en": "Sends a quarter-second-long signal pulse whenever, and as soon as, it becomes active.",
+  "description_zh": "当激活时会发送0.25s时长的脉冲信号。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

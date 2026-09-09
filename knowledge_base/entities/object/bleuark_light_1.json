@@ -1,0 +1,44 @@
+{
+  "entity_id": "bleuark_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Sea Crystal Lamp",
+  "name_zh": "海洋水晶灯",
+  "description_en": "An ornate crystal lamp.",
+  "description_zh": "明亮的水晶灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "atlantic",
+    "light"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_mazeendchest",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkbasic",
+          "probability": 0.2143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2143,
+        0.8571
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

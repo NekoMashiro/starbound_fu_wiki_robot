@@ -1,0 +1,45 @@
+{
+  "entity_id": "elderpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Disruptor Pistol",
+  "name_zh": "干扰手枪",
+  "description_en": "Pulsing with energy, this weapon promises to punish your enemies.",
+  "description_zh": "充满能量脉冲，这把手枪保证能够惩罚你的敌人。",
+  "rarity": "legendary",
+  "category": "pistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "elder",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 3,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

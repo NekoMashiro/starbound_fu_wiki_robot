@@ -1,0 +1,60 @@
+{
+  "entity_id": "mwhaddon_submachineGun_eschatonSeeker",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Eschaton Seeker",
+  "name_zh": "末世探求者",
+  "description_en": "Gun of the apocalypse, several utilities equipped to cope with heterogeneous situations. [Holding L-Shift to use alt function.]",
+  "description_zh": "末世之枪，搭载多功能组件以应对各种场景。【按住左Shift来使用额外功能】",
+  "rarity": "essential",
+  "category": "mwhaddon_submachineGun",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "verrostin"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 31,
+  "altAbilityType": "装填特殊子弹",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 4
+        },
+        {
+          "item": "steelblades_blastRifle_1",
+          "count": 1
+        },
+        {
+          "item": "steelblades_assaultRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

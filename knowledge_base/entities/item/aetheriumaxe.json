@@ -1,0 +1,62 @@
+{
+  "entity_id": "aetheriumaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Axe",
+  "name_zh": "阳清斧",
+  "description_en": "Devastatingly sharp.",
+  "description_zh": "锋利至极。",
+  "rarity": "legendary",
+  "category": "axe",
+  "price": 1164,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 11,
+  "critChance": 8,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "aetheriumaxet8.png",
+    "seed": "",
+    "shortdescription": "阳清破界者",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

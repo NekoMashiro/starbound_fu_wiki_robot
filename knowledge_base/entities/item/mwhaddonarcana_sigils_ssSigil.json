@@ -1,0 +1,79 @@
+{
+  "entity_id": "mwhaddonarcana_sigils_ssSigil",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Sublime Sigil, Terminus",
+  "name_zh": "至高魔印 · 终焉 Terminus",
+  "description_en": "An indescribable sigil, a construct even shouldn't exist.",
+  "description_zh": "无法用言语描述的魔印，一开始就不该存在的构造。",
+  "rarity": "essential",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_shadowstarFragment",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_shadowstarBlossom_1",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_shadowstarBlossom_2",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_shadowstarBlossom_3",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    },
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 5
+        },
+        {
+          "item": "arcana_essence_mirageEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_tripolarEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_shadastrophe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

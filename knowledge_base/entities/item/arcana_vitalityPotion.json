@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_vitalityPotion",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Vitality Potion",
+  "name_zh": "活力药水",
+  "description_en": "A red potion for boosting one's vitality. \nGrants minor health regeneration and increases maximum health by 20% for 60s.",
+  "description_zh": "用于提升活力的红色药水。\n给予60秒的微量生命恢复并提升20%最大生命值。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 80,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.1053,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingbasic",
+          "probability": 0.0301,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0301,
+        0.1053
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

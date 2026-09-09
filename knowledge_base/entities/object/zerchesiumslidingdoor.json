@@ -1,0 +1,45 @@
+{
+  "entity_id": "zerchesiumslidingdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Sliding Door",
+  "name_zh": "高熔点矿推拉门",
+  "description_en": "A sliding door made from Zerchesium.",
+  "description_zh": "一种由高熔点矿制成的滑动门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "zerchesium",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "verdantcarbine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Verdant Carbine",
+  "name_zh": "苍翠步枪",
+  "description_en": "A deadly mix of plant and machine.\r\nInflicts Poisoned, Floran\r\n6-round microbursts (x6 dmg)",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "bioweapon",
+    "upgradeableWeapon",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.7,
+  "critChance": 4,
+  "critBonus": 3,
+  "altAbilityType": "spray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vanusflower",
+          "count": 2
+        },
+        {
+          "item": "energywood",
+          "count": 3
+        },
+        {
+          "item": "biosample",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

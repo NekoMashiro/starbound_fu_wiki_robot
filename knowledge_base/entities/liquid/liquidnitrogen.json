@@ -1,0 +1,32 @@
+{
+  "entity_id": "liquidnitrogen",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "liquidnitrogen",
+  "name_zh": "",
+  "description_en": "Liquid nitrogen is a teency bit cold.",
+  "description_zh": "液氮真的是很冷。",
+  "status_effects": [
+    "swimming",
+    "nitrogenfreeze"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "ice"
+    },
+    {
+      "liquid": 2,
+      "materialResult": "cloudblock"
+    },
+    {
+      "liquid": 12,
+      "materialResult": "ice"
+    },
+    {
+      "liquid": 13,
+      "materialResult": "iceblock4"
+    }
+  ],
+  "quality_tier": "C"
+}

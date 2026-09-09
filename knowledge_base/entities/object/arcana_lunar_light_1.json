@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_lunar_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Hanging Lamp",
+  "name_zh": "挂月灯",
+  "description_en": "A simple ornate hanging lamp.",
+  "description_zh": "一盏简单华丽的吊灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "kuromatsu"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 1
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

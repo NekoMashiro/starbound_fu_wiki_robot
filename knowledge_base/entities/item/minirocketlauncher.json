@@ -1,0 +1,99 @@
+{
+  "entity_id": "minirocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Micro-Rocket Launcher",
+  "name_zh": "微型火箭发射器",
+  "description_en": "Fires mini-missiles that enemies prefer to avoid...but can't!\r\nHoming projectiles",
+  "description_zh": "可发射小型导弹，敌人想跑都跑不掉啦！\n追踪型弹药",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 4.8,
+  "critChance": 2,
+  "critBonus": 3,
+  "altAbilityType": "atomguidedrocket",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_rocketturret",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "volatilepowder",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "vehicleController": {
+        "count": 1,
+        "examples": [
+          "fusubcontroller3"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_rocketturret"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "minirocketlauncher2"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,95 @@
+{
+  "entity_id": "thanatite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thanatite Crystal",
+  "name_zh": "心叶石",
+  "description_en": "A gem that generates thermal energy. Can be used to keep warm on colder planets.",
+  "description_zh": "能产生热能的宝石。可以用来在较冷的行星上保持温暖。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 3,
+        "examples": [
+          "exoniteseed",
+          "phositeseed",
+          "rukarseed"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "elduukhartier5broadsword",
+          "elduukhartier8broadsword"
+        ]
+      },
+      "shortsword": {
+        "count": 2,
+        "examples": [
+          "elduukhartier5shortsword",
+          "elduukhartier8shortsword"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "redglowdoor"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "siviteore"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "thanatitedye"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thanatiteHarvest",
+          "probability": 1.74,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

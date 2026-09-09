@@ -1,0 +1,144 @@
+{
+  "entity_id": "arcana_nanopack",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Nanopack",
+  "name_zh": "纳米包",
+  "description_en": "A modern solution for quick wound tending using restorative nanites.\r\nRestores 200 Health over 2 seconds.\r\nCooldown: 30s",
+  "description_zh": "利用纳米修复技术快速处理伤口的现代化解决方案。\n在2秒钟内恢复200生命值。\n冷却时间：30秒",
+  "rarity": "Rare",
+  "category": "medicine",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nanowrap",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 5400
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_energizedNanopack"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_nanopack",
+          "probability": 2.0,
+          "count": 2.8
+        },
+        {
+          "pool": "at_ext_d11_supply",
+          "probability": 1.0,
+          "count": 20
+        },
+        {
+          "pool": "at_ext_d9",
+          "probability": 1.0,
+          "count": 20
+        },
+        {
+          "pool": "at_ext_d8",
+          "probability": 1.0,
+          "count": 30
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.2705,
+          "count": 2.8
+        }
+      ],
+      "prob_range": [
+        0.2705,
+        2.0
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_evolapis",
+          "probability": 1.0,
+          "count": 2,
+          "monsters": [
+            "arcana_boss_evolapis",
+            "arcana_boss_evolapis_spawner"
+          ]
+        },
+        {
+          "pool": "arcana_bossdrops_cosmoNemesis",
+          "probability": 1.0,
+          "count": 2,
+          "monsters": [
+            "arcana_boss_cosmoNemesis"
+          ]
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

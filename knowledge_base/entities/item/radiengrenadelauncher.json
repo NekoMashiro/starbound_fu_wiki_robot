@@ -1,0 +1,57 @@
+{
+  "entity_id": "radiengrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Bulb Gun",
+  "name_zh": "艾肯球茎枪",
+  "description_en": "Fires repulsive glowy goo-globs.\r\nHunting weapon\r\nPoisonous Alt Attack",
+  "description_zh": "令人厌恶的闪闪发光的黏糊糊的球。\n狩猎武器\n附加毒素攻击",
+  "rarity": "common",
+  "category": "bioweapon",
+  "price": 3,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "bioweapon",
+    "radien",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "blisteraltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 40
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "ff_silicon",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

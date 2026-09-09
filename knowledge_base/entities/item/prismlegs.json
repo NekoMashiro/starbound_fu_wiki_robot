@@ -1,0 +1,46 @@
+{
+  "entity_id": "prismlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Prism Trousers",
+  "name_zh": "棱镜裤子",
+  "description_en": "Stay toasty in these snug thermal trousers.",
+  "description_zh": "穿上这条保暖裤来保持温暖舒适。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "prismChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoPrismTreasure",
+          "probability": 0.1157,
+          "count": 1
+        },
+        {
+          "pool": "prismTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0968,
+        0.1157
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

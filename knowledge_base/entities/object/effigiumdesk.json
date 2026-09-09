@@ -1,0 +1,46 @@
+{
+  "entity_id": "effigiumdesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Desk",
+  "name_zh": "幻影办公桌",
+  "description_en": "A desk that seems to fade in and out of existence",
+  "description_zh": "这张桌子似乎渐渐消失。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "effigium",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 10
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

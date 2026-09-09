@@ -1,0 +1,140 @@
+{
+  "entity_id": "arcana_bar_exoslate",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Exoslate",
+  "name_zh": "异岩钢",
+  "description_en": "A refined metal that is similar to durasteel. It's lighter in comparison and is good as firearm manufacturing material.",
+  "description_zh": "精炼金属，类似于耐钢。相比之下，它更轻，适合作为枪支的制造材料。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 140,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_exoslateFragment",
+          "count": 2
+        },
+        {
+          "item": "ironore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金锻造厂",
+      "station_zh": "恒金锻造厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 840
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 3,
+        "examples": [
+          "exousia_imperialArmy_1_broadsword_1",
+          "exousia_imperialArmy_1_broadsword_2",
+          "exousia_imperialArmy_3_katana_1"
+        ]
+      },
+      "sniperRifle": {
+        "count": 3,
+        "examples": [
+          "exousia_imperialArmy_1_sniperRifle_1",
+          "exousia_imperialArmy_3_sniperRifle_1",
+          "exousia_imperialArmy_3_sniperRifle_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_misc_exoslateComposite",
+          "mwhaddon_misc_assaultPowerCore"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "exousia_imperialArmy_1_assaultRifle_1",
+          "exousia_imperialArmy_1_assaultRifle_2"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "exousia_imperialArmy_1_pistol_1",
+          "exousia_imperialArmy_2_pistol_1"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_exousia_soldat_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_exousia_soldat_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_exousia_soldat_chest"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_exoslate"
+  ],
+  "wiki_ref": "Exoslate.md",
+  "quality_tier": "S"
+}

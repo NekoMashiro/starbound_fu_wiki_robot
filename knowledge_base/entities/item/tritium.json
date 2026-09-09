@@ -1,0 +1,255 @@
+{
+  "entity_id": "tritium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tritium Rod",
+  "name_zh": "氚棒",
+  "description_en": "A rod of tritium. Product of fission.\n+3 Fuel",
+  "description_zh": "一根氚棒。裂变反应的产物。\n燃料+3",
+  "rarity": "rare",
+  "category": "fuel",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_squash_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "plutoniumrod",
+          "count": 1
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "HarvesterBeam3"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fumantizitier6shead"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fumantizitier6schest"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fumantizitier6spants"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "triangliumbroadsword"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 42,
+    "chest_loot": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "fu_lootboxRareModule",
+          "probability": 0.0436,
+          "count": 3
+        },
+        {
+          "pool": "fu_lootboxEpicModule",
+          "probability": 0.0436,
+          "count": 3
+        },
+        {
+          "pool": "fu_lootboxLegendaryModule",
+          "probability": 0.0436,
+          "count": 3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0086,
+          "count": 2.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0083,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0436
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0059,
+          "count": 2
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0047,
+          "count": 2,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0031,
+          "count": 2
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.002,
+          "count": 2
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0014,
+          "count": 2.0,
+          "monsters": [
+            "darkmetroid"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0059
+      ]
+    },
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0051,
+          "count": 2
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0026,
+          "count": 2
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0014,
+          "count": 2.0
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0006,
+          "count": 2
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0005,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0051
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0012,
+          "count": 2.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0012,
+          "count": 2.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0011,
+          "count": 2.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0003,
+          "count": 2.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0012
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 2.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Tritium Rod.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "cutesniperrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Rifle",
+  "name_zh": "棱镜狙击枪",
+  "description_en": "Lancing, dangerous projectiles.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "发射穿透性极强的危险子弹。\n能量武器",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.5,
+  "critChance": 2,
+  "critBonus": 12,
+  "altAbilityType": "swtjc_ewg_clusterbomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 8
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

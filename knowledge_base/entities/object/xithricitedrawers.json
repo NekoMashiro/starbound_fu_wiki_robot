@@ -1,0 +1,46 @@
+{
+  "entity_id": "xithricitedrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Drawers",
+  "name_zh": "赛德瑞瑟晶体抽屉",
+  "description_en": "A set of drawers made from xithricite.",
+  "description_zh": "一套由赛德瑞瑟晶体制成的抽屉。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "xithricite",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 10
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

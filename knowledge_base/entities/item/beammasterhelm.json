@@ -1,0 +1,99 @@
+{
+  "entity_id": "beammasterhelm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tek-Knight Helm",
+  "name_zh": "钢铁骑士头盔",
+  "description_en": "High energy reserve.\r\nImmune: Insanity.",
+  "description_zh": "高效的能量储存设备。\n免疫: 精神错乱",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 1500,
+  "tags": [
+    "upgradeableWeapon",
+    "ranged"
+  ],
+  "level": 4,
+  "drop_sources": {
+    "total_pools": 9,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "verdantkingtreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0125,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0127,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0063,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0127
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0047,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

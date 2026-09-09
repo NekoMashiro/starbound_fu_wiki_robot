@@ -1,0 +1,32 @@
+{
+  "entity_id": "plutoniumhoneyjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Healing Honey Jar",
+  "name_zh": "罐装治愈蜂蜜",
+  "description_en": "Plutonium-enriched honey. Probably dangerous!\nHeal 57.5 (30s)\n+8 Fuel",
+  "description_zh": "富含钚的蜂蜜。可能有点危险！\n治疗57.5点生命值(30s内)\n燃料+8",
+  "rarity": "Common",
+  "category": "food",
+  "price": 45,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plutoniumcomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

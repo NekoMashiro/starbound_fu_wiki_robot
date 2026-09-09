@@ -1,0 +1,41 @@
+{
+  "entity_id": "swtjc_ewg_uncommonbeampistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uncommon Beam Pistol",
+  "name_zh": "优秀的光束手枪",
+  "description_en": "A small handgun that fires streams of energy at distant targets with pinpoint accuracy.",
+  "description_zh": "一把小型手枪，可以精确地向远距离目标发射能量流。",
+  "rarity": "Uncommon",
+  "category": "swtjc_ewg_beamPistol",
+  "price": 770,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    4.2,
+    5.3
+  ],
+  "critChance": 1,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

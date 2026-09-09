@@ -1,0 +1,49 @@
+{
+  "entity_id": "ironbed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Sharp Bed",
+  "name_zh": "铁床座",
+  "description_en": "An iron bed made of swords. Perfect for a power nap.",
+  "description_zh": "铸剑而为的铁床座。对权力的打盹来说很完美。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "misc",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 12
+        },
+        {
+          "item": "fabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

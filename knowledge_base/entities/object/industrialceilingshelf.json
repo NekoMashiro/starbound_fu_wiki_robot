@@ -1,0 +1,50 @@
+{
+  "entity_id": "industrialceilingshelf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Industrial Kitchen Ceiling Shelf",
+  "name_zh": "工业厨房天花板搁板",
+  "description_en": "A restaurant-grade kitchen rack. All of your tools, all within arm's reach!",
+  "description_zh": "餐厅级厨房货架。你所有的工具，都在伸手可及的范围内！",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "industrialkitchen",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "industrialkitchenset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

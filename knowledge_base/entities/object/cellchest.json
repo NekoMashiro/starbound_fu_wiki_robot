@@ -1,0 +1,50 @@
+{
+  "entity_id": "cellchest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cell Chest",
+  "name_zh": "细胞箱",
+  "description_en": "A chest with a spherical lock.",
+  "description_zh": "一个带有圆形锁的箱子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "cell",
+    "storage",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 10
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

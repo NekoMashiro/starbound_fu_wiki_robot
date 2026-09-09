@@ -1,0 +1,228 @@
+{
+  "entity_id": "crunchychick",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crunchy Chick",
+  "name_zh": "小鸡",
+  "description_en": "Floran delicacy. A live baby chicken.\nHeals 5% HP (5s)\nType: Raw Meat",
+  "description_zh": "叶族佳肴。一只活的小鸡。\n治疗5%HP(5s内)\n类型：生肉食",
+  "rarity": "uncommon",
+  "category": "food",
+  "price": 2000,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "crunchychickpie"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "cockblock"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "crunchychickdeluxe"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 149,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.7332,
+          "count": 1
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.1216,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 3
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0118,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0091,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.7332
+      ]
+    },
+    "chest_loot": {
+      "count": 72,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.2137,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1617,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.028,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2137
+      ]
+    },
+    "monster_drops": {
+      "count": 53,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0979,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasure",
+          "probability": 0.0366,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0456,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0456
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0048,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0047,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0041,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.001,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0048
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "cockblock"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,67 @@
+{
+  "entity_id": "voidstoragenew",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dimensional Storage",
+  "name_zh": "空间储存器",
+  "description_en": "Nothing could possibly go wrong storing things in a pocket dimension!",
+  "description_zh": "东西放在这里面完全不会担心丢失。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 21589,
+  "tags": [
+    "elder",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquiddeuterium",
+          "count": 8
+        },
+        {
+          "item": "wretchel",
+          "count": 8
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 4
+        },
+        {
+          "item": "elderrelic9",
+          "count": 1
+        },
+        {
+          "item": "elderrelic7",
+          "count": 1
+        },
+        {
+          "item": "elderrelic14",
+          "count": 1
+        },
+        {
+          "item": "elderrelic4",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "weaponcompressor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Dimensional Storage.md",
+  "quality_tier": "S"
+}

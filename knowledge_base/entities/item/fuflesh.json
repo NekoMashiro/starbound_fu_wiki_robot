@@ -1,0 +1,89 @@
+{
+  "entity_id": "fuflesh",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Epidermis",
+  "name_zh": "表皮层",
+  "description_en": "The skin from a body.",
+  "description_zh": "一块尸体上的皮肤。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_assassin_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "furimworlderhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "furimworlderchest"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "furimworlderlegs"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.231,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "horkulbeasthuntTreasure",
+          "probability": 0.1667,
+          "count": 1,
+          "monsters": [
+            "horkulbeast"
+          ]
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1507,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1507,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

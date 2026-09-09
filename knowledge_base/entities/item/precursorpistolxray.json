@@ -1,0 +1,73 @@
+{
+  "entity_id": "precursorpistolxray",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor X-Ray Gun",
+  "name_zh": "先驱X光枪",
+  "description_en": "Fire through solid materials!\r\nReveal enemies and terrain",
+  "description_zh": "用于发射X光。\n可以探知敌人和地形",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 0.1,
+  "critChance": 4,
+  "critBonus": 12,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1996,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0159,
+        0.1996
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0488,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor X-Ray Gun.md",
+  "quality_tier": "A"
+}

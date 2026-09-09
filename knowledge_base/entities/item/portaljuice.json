@@ -1,0 +1,203 @@
+{
+  "entity_id": "portaljuice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Portal Juice",
+  "name_zh": "传送果汁",
+  "description_en": "If near death, warps you elsewhere and gives (10m) Madness Gain 1",
+  "description_zh": "如果濒临死亡，它会把你扭曲到别处（10m）癫狂1.",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 148,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fuprecursorMedical",
+          "probability": 0.278,
+          "count": 1
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0912,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0089,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0069,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.278
+      ]
+    },
+    "monster_drops": {
+      "count": 52,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0245,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0119,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0069,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1
+      ]
+    },
+    "chest_loot": {
+      "count": 72,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0963,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 2
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0406,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.028,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0963
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0376
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0036,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0036,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0031,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0036
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Portal Juice.md",
+  "quality_tier": "A"
+}

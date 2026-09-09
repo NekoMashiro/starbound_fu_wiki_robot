@@ -1,0 +1,45 @@
+{
+  "entity_id": "phasefruit",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phasefruit",
+  "name_zh": "相位果",
+  "description_en": "Has it just melted my teeth?!\n+20% Run: 40s\nBurning: 10s",
+  "description_zh": "它刚刚融掉了我的牙齿？！\n+20%速度: 40s\n烧伤: 10s",
+  "rarity": "Common",
+  "category": "food",
+  "price": 40,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "glowburger",
+          "uberdinner"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "phaseshake"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "phasefruitHarvest",
+          "probability": 1.3014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

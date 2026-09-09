@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusianstool",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Stool",
+  "name_zh": "蚁族凳子",
+  "description_en": "A resin and chitin stool, uncomfortable to most races.",
+  "description_zh": "一个由树脂和几丁质制作的凳子，对大多数种族来说都不舒服。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "thelusian",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 2
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

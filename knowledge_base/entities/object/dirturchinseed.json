@@ -1,0 +1,59 @@
+{
+  "entity_id": "dirturchinseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Dirturchin Seed",
+  "name_zh": "泥海胆种子",
+  "description_en": "Dirturchins are squidgy and kind of tasteless.",
+  "description_zh": "泥海胆柔软潮湿，有些寡淡无味。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 25,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 30
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 30
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "mireurchinseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dirturchinHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

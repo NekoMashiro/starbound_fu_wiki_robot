@@ -1,0 +1,50 @@
+{
+  "entity_id": "zerchesiumdesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Desk",
+  "name_zh": "高熔点矿办公桌",
+  "description_en": "A desk made from Zerchesium. It's very cold.",
+  "description_zh": "高熔点矿牌办公桌。天气很冷。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 120,
+  "tags": [
+    "storage",
+    "commerce",
+    "zerchesium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

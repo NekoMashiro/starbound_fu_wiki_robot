@@ -1,0 +1,144 @@
+{
+  "entity_id": "bread",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bread",
+  "name_zh": "面包",
+  "description_en": "Mmm, fresh out of the oven. Type: Grain",
+  "description_zh": "嗯，新鲜出炉。\n类型：谷物",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "breadloaf",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "breadloaf2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu",
+      "station_zh": "菜单",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 17,
+        "examples": [
+          "arcana_food_allslainbreakfast",
+          "arcana_food_pestilenttoast",
+          "cheeseburger",
+          "coldmarrowpanini",
+          "fishfingers"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "breadloaf",
+          "breadloaf2"
+        ]
+      },
+      "crewcontract": {
+        "count": 1,
+        "examples": [
+          "crewcontract_hobo"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_hq1_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "toast"
+  ],
+  "quality_tier": "S"
+}

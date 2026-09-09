@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_verdantsnap",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verdant Snap",
+  "name_zh": "蓊茏脆糕",
+  "description_en": "A fine jungle mango sorbet with a thin coating of chocolate. [Ewok]\n\n+20% Max Energy 1 min.\n+20% Max Health 2 min.\n+Run Boost 3 min.",
+  "description_zh": "一款上等的丛林芒果雪葩，表面裹着一层薄薄的巧克力。[Ewok]\n\n1分钟+20%最大能量\n2分钟+20%最大生命\n3分钟奔跑提升",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 1
+        },
+        {
+          "item": "chocolate",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_jungleMango",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

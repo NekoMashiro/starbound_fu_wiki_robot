@@ -1,0 +1,38 @@
+{
+  "entity_id": "gemglow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gemglow",
+  "name_zh": "宝石果",
+  "description_en": "Immune: Grav-Rain: 2m",
+  "description_zh": "免疫: 重力雨: 2m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 60,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "fudeathstick"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gemglowHarvest",
+          "probability": 1.1926,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

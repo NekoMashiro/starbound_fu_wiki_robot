@@ -1,0 +1,44 @@
+{
+  "entity_id": "bio_ooze",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "bio_ooze",
+  "name_zh": "",
+  "description_en": "A particularly potent toxic sludge loaded with parasites and ickiness.",
+  "description_zh": "特别致命的粘稠有毒污泥，内含寄生虫。",
+  "status_effects": [
+    "swimming",
+    "biooozepoison"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "slime"
+    },
+    {
+      "liquid": 3,
+      "materialResult": "slime"
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 46,
+      "materialResult": "wastestone"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 48,
+      "liquidResult": 44
+    },
+    {
+      "liquid": 51,
+      "liquidResult": 51
+    }
+  ],
+  "quality_tier": "C"
+}

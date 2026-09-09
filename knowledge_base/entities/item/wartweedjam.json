@@ -1,0 +1,94 @@
+{
+  "entity_id": "wartweedjam",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wartweed Jam",
+  "name_zh": "瓦特果果酱",
+  "description_en": "A coarse, seedy jam that leaves behind a dry taste in your mouth. Type: Vegetable Desert",
+  "description_zh": "一瓶粗糙的、多籽的果酱，尝起来会有一种干燥的口感。\n类型：蔬菜甜食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 290,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wartweedjamobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "wartweed",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "wartweedjamobject"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "wartweedjamdonut"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "blueprints_unlocked": [
+    "wartweedjamdonut"
+  ],
+  "quality_tier": "S"
+}

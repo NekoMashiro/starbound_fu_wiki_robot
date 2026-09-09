@@ -1,0 +1,48 @@
+{
+  "entity_id": "zathitails",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zathi Node",
+  "name_zh": "扎蒂结节",
+  "description_en": "+30% Cosmic Res: 3m",
+  "description_zh": "+30%射线抗性: 3m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 900
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "zathiHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

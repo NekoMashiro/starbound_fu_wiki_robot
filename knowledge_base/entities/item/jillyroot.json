@@ -1,0 +1,27 @@
+{
+  "entity_id": "jillyroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Jilly Root",
+  "name_zh": "吉利根茎",
+  "description_en": "Heal 30: 2s",
+  "description_zh": "治疗30点HP: 2s",
+  "rarity": "uncommon",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jillyrootHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

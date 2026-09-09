@@ -1,0 +1,38 @@
+{
+  "entity_id": "fuaetherplatform",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Platform",
+  "name_zh": "以太平台",
+  "description_en": "Cosmic platforms made from hardened aether stone.",
+  "description_zh": "由硬化以太石制成的宇宙平台。",
+  "rarity": "Legendary",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 5
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

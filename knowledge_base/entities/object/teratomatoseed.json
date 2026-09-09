@@ -1,0 +1,68 @@
+{
+  "entity_id": "teratomatoseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Teratomato Seed",
+  "name_zh": "畸胎果种子",
+  "description_en": "A freakish mutant plant with blood-filled tomatoes.",
+  "description_zh": "这株内部充满鲜血的类似番茄的植物是经过突变而来的。可以收获畸胎果，食用后会提高物理抗性，免疫击退。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 32,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 56
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "tomatoseed",
+          "count": 3
+        },
+        {
+          "item": "potatoseed",
+          "count": 3
+        },
+        {
+          "item": "sulphur",
+          "count": 15
+        },
+        {
+          "item": "phosphorus",
+          "count": 28
+        },
+        {
+          "item": "cellmatter",
+          "count": 32
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "teratomatoHarvest",
+          "probability": 0.3,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

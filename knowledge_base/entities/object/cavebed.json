@@ -1,0 +1,45 @@
+{
+  "entity_id": "cavebed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rock Bed",
+  "name_zh": "石头床",
+  "description_en": "A bed made of rock.",
+  "description_zh": "一张石头做成的床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 85,
+  "tags": [
+    "stonecave",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "limestone",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

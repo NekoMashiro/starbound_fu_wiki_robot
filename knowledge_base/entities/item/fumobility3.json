@@ -1,0 +1,36 @@
+{
+  "entity_id": "fumobility3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mobility III",
+  "name_zh": "EPP模块（移动性 III）",
+  "description_en": "An EPP module that removes negative effects from most tiles.",
+  "description_zh": "免疫来自绝大多数物块的负面效果",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

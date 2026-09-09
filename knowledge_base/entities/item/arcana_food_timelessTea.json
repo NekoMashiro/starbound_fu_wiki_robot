@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_timelessTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Timeless Tea",
+  "name_zh": "须臾茶",
+  "description_en": "A starry, bitter tea that never decays. +20% max energy for 60s.",
+  "description_zh": "星星点点的苦茶，永不褪味。60s内+20%最大能量。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_timelessTeabag",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_timeless"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_timeless_drop",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

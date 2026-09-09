@@ -1,0 +1,64 @@
+{
+  "entity_id": "voritseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vorit Seed",
+  "name_zh": "劳瑞冻种子",
+  "description_en": "A strange mix of jelly and plant. Provides massive swim speed increase and immunity to breathing.",
+  "description_zh": "这种凝胶类植物相当奇特。可以收获劳瑞冻，食用后会提高游泳速度，免疫窒息。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 26,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "aquapodseed",
+          "count": 3
+        },
+        {
+          "item": "mutagene4",
+          "count": 2
+        },
+        {
+          "item": "kelp",
+          "count": 48
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "voritHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

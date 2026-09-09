@@ -1,0 +1,40 @@
+{
+  "entity_id": "frontierpainting1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Frontier Plains Painting",
+  "name_zh": "开拓者之平原",
+  "description_en": "A detailed painting of a beautiful landscape.",
+  "description_zh": "一幅详尽描绘美丽风景的画作。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 900,
+  "tags": [
+    "novakid",
+    "novakidvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

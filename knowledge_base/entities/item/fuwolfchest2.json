@@ -1,0 +1,52 @@
+{
+  "entity_id": "fuwolfchest2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wolf Coat",
+  "name_zh": "狼皮大衣",
+  "description_en": "Set Bonuses:\r\n Daggers: +20/40% Crit Damage\r\n Immune: Snow, Slush, Ice, Extreme Cold",
+  "description_zh": "套装奖励：\n 匕首: +20/40% 暴击伤害\n 免疫: 雪, 泥泞, 冰, 极端寒冷",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 700,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 5
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        },
+        {
+          "item": "fuwolfchest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

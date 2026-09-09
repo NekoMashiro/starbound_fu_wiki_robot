@@ -1,0 +1,47 @@
+{
+  "entity_id": "fuchickenfeeder",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chicken Feeder",
+  "name_zh": "饲鸡器",
+  "description_en": "Keep them animals fed!",
+  "description_zh": "请保持喂食动物。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 30,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "farming",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "wheat",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

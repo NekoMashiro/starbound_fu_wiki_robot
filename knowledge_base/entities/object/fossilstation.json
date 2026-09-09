@@ -1,0 +1,53 @@
+{
+  "entity_id": "fossilstation",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Fossil Station",
+  "name_zh": "化石工作站",
+  "description_en": "Used to make fossil excavation tools and display cases.",
+  "description_zh": "用于制造化石刷与展示台。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 750,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 20
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Fossil Station.md",
+  "quality_tier": "A"
+}

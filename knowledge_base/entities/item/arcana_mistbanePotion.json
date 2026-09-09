@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_mistbanePotion",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Mistbane Potion",
+  "name_zh": "雾祸药水",
+  "description_en": "An odd, shadowy potion. \nCures Frightened and grants small health regeneration.",
+  "description_zh": "古怪，不详的药水。\n治愈恐惧并提供少量生命恢复。",
+  "rarity": "Legendary",
+  "category": "medicine",
+  "price": 150,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.1053,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingbasic",
+          "probability": 0.0301,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0301,
+        0.1053
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

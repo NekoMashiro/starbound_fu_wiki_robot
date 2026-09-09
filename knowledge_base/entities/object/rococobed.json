@@ -1,0 +1,52 @@
+{
+  "entity_id": "rococobed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rococo Bed",
+  "name_zh": "洛可可床",
+  "description_en": "A fancy vintage bed.",
+  "description_zh": "一张精致的复古床。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "rococo",
+    "pretty",
+    "valuable",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rococoset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

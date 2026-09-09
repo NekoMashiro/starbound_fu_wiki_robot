@@ -1,0 +1,60 @@
+{
+  "entity_id": "piratehead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pirate Bandana",
+  "name_zh": "海盗头巾",
+  "description_en": "Yarr! I lost me eye in an unfortunate jar-opening accident.",
+  "description_zh": "噢！我在一次开罐子的事故中不幸失去了我的眼睛。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "avianairshipChestTreasure",
+          "probability": 0.0735,
+          "count": 1
+        },
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.0356,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0735
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

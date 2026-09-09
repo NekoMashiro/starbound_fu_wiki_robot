@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_invigoratingNeedle",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Invigorating Needle",
+  "name_zh": "活络针茶",
+  "description_en": "It gives a more relaxing touch than taste.\n 20 seconds later after drinking, +20% max Energy and Damage hits regen Energy until cooldown expires.",
+  "description_zh": "触感比味感更宜人。\n饮用的20秒后若茶杯仍处于冷却期间，+20%能量上限，且攻击命中敌人会回复少量能量。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

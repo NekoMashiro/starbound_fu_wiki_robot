@@ -1,0 +1,67 @@
+{
+  "entity_id": "skathtier3hammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Tsunami Hammer",
+  "name_zh": "绘世者战锤·海啸",
+  "description_en": "This hammer strikes like the waves of a tsunami.",
+  "description_zh": "锤击如海啸津波。",
+  "rarity": "legendary",
+  "category": "hammer",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 16,
+  "critChance": 2,
+  "critBonus": 15,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier2hammer",
+          "count": 1
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "tethyde",
+          "count": 8
+        },
+        {
+          "item": "hydrolium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

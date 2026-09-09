@@ -1,0 +1,41 @@
+{
+  "entity_id": "radienlantern",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Lantern Bulb",
+  "name_zh": "艾肯灯笼球茎",
+  "description_en": "Grows out of your back when you need it most. +1 Gene production.",
+  "description_zh": "当你最需要的时候从你的背上长出来。\n+1基因产量",
+  "rarity": "common",
+  "category": "enviroProtectionPack",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 40
+        },
+        {
+          "item": "ff_silicon",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "xiback"
+  ],
+  "quality_tier": "A"
+}

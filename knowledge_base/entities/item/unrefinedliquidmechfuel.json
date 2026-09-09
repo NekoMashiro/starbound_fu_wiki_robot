@@ -1,0 +1,71 @@
+{
+  "entity_id": "unrefinedliquidmechfuel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Unrefined Fuel",
+  "name_zh": "未精炼燃料",
+  "description_en": "Unrefined fuel modified from oil. If exposed to air, it reverts to oil.",
+  "description_zh": "石油中改性的未精炼燃料。如果暴露在空气中，就会变成石油。",
+  "rarity": "uncommon",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidoil",
+          "count": 1
+        },
+        {
+          "item": "liquidwastewater",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidmechfuel"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "starterMechTablet",
+          "probability": 1.0,
+          "count": 20
+        },
+        {
+          "pool": "starterMechFuel",
+          "probability": 1.0,
+          "count": 100
+        },
+        {
+          "pool": "brokenMechLoot",
+          "probability": 0.291,
+          "count": 250
+        }
+      ],
+      "prob_range": [
+        0.291,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

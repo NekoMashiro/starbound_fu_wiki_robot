@@ -1,0 +1,55 @@
+{
+  "entity_id": "advalloyshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Shortspear",
+  "name_zh": "宗师短矛",
+  "description_en": "Doesn't feel so short to enemies.\r\nHunting weapon",
+  "description_zh": "不要觉得它很短。\n狩猎武器",
+  "rarity": "rare",
+  "category": "shortspear",
+  "price": 550,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

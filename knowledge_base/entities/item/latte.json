@@ -1,0 +1,35 @@
+{
+  "entity_id": "latte",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Latte",
+  "name_zh": "拿铁",
+  "description_en": "Nectar of the Gods. Type: Dairy",
+  "description_zh": "诸神的美饮。\n类型：蛋奶",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 150
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

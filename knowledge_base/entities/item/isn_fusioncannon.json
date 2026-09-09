@@ -1,0 +1,71 @@
+{
+  "entity_id": "isn_fusioncannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fusion Cannon",
+  "name_zh": "聚变炮",
+  "description_en": "A super-heavy fusion rocket launcher.\r\nHuge radius\r\nDestroys tiles",
+  "description_zh": "非常笨重的可聚变火箭发射器。\n巨大的弹药\n可破坏物块",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 8.35,
+  "critChance": 10,
+  "critBonus": 12,
+  "altAbilityType": "fusionblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "unstableparticles",
+          "count": 8
+        },
+        {
+          "item": "nuclearcore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fuheatcannon"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Fusion Cannon.md",
+  "quality_tier": "S"
+}

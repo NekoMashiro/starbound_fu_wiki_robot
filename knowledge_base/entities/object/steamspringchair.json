@@ -1,0 +1,52 @@
+{
+  "entity_id": "steamspringchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Steamspring Chair",
+  "name_zh": "蒸汽春天椅",
+  "description_en": "A fetching chair, made of fine wood and brass pipes.",
+  "description_zh": "一张迷人的椅子，用上好的木头和铜管制成。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 115,
+  "tags": [
+    "steamspring"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "heavypipe",
+          "count": 10
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

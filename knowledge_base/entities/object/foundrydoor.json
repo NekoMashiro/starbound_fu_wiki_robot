@@ -1,0 +1,53 @@
+{
+  "entity_id": "foundrydoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Heavy Door",
+  "name_zh": "重型门",
+  "description_en": "A heavy metal door often used in foundries.",
+  "description_zh": "一个通常用在铸造厂的厚重金属门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 170,
+  "tags": [
+    "foundry",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "metallic",
+          "count": 25
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

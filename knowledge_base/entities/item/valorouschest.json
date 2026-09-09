@@ -1,0 +1,27 @@
+{
+  "entity_id": "valorouschest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Valorous Chestpiece",
+  "name_zh": "勇武胸甲",
+  "description_en": "A rusted piece of ancient Hylotl armour, adorned with a diamond in the center.",
+  "description_zh": "生锈的古代鲛人盔甲，胸前镶嵌着一块钻石。",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmission1Rare2",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

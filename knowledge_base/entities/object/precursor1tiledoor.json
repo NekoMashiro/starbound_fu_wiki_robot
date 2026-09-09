@@ -1,0 +1,40 @@
+{
+  "entity_id": "precursor1tiledoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Tiny Door",
+  "name_zh": "小型先驱",
+  "description_en": "A tiny door.",
+  "description_zh": "一扇微型的门。",
+  "rarity": "rare",
+  "category": "door",
+  "price": 475,
+  "tags": [
+    "precursor",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursor1tiledoor"
+  ],
+  "quality_tier": "A"
+}

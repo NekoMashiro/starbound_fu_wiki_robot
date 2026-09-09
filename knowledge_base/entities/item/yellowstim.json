@@ -1,0 +1,132 @@
+{
+  "entity_id": "yellowstim",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Yellow Stim Pack",
+  "name_zh": "黄色兴奋剂",
+  "description_en": "A stimpack full of yellow liquid, this'll make you glow!",
+  "description_zh": "能让你发光的黄色兴奋剂！",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalyellow",
+          "count": 4
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Potion Brewery",
+      "station_zh": "魔药酿造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "药剂工作台",
+          "name_zh": "药剂工作台"
+        },
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crewcontract": {
+        "count": 1,
+        "examples": [
+          "crewcontract_plur"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "monster_drops": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "stimtreasure",
+          "probability": 0.525,
+          "count": 2
+        },
+        {
+          "pool": "apexstimtreasure",
+          "probability": 0.0645,
+          "count": 2
+        },
+        {
+          "pool": "miningtreasure",
+          "probability": 0.0377,
+          "count": 1
+        },
+        {
+          "pool": "apexfacilitytreasure",
+          "probability": 0.025,
+          "count": 2
+        },
+        {
+          "pool": "labguardtreasure",
+          "probability": 0.0211,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.525
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "stim",
+          "probability": 0.25,
+          "count": 2
+        },
+        {
+          "pool": "elduustim",
+          "probability": 0.25,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexfacilitychesttreasure",
+          "probability": 0.0375,
+          "count": 2
+        },
+        {
+          "pool": "apextestfacilityChestTreasure",
+          "probability": 0.028,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.028,
+        0.0375
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

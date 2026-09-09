@@ -1,0 +1,64 @@
+{
+  "entity_id": "goldshroomseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gold Shroom Spore",
+  "name_zh": "金色蘑菇孢子",
+  "description_en": "Glow in the dark.",
+  "description_zh": "可以收获金色蘑菇，食用后会赋予照明。",
+  "rarity": "common",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 3
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "biospore",
+          "count": 15
+        },
+        {
+          "item": "boltbulbseed",
+          "count": 3
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 6
+        },
+        {
+          "item": "shroom",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "goldshroomHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

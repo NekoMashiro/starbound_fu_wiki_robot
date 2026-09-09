@@ -1,0 +1,76 @@
+{
+  "entity_id": "brainyummy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Edible Brains",
+  "name_zh": "可食用大脑",
+  "description_en": "You've gone ahead and cut the less tasty bits off. Nobody wants to eat cerebellum. -10% HP (10s), Madness Gain 2 Type: Raw Meat",
+  "description_zh": "你已经把不太好吃的部分切掉了。没有人想吃小脑-10%HP （10s），癫狂2 ；类型：生肉",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "price": 42,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 5
+        },
+        {
+          "item": "brain",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 5
+        },
+        {
+          "item": "brainpeerless",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 5
+        },
+        {
+          "item": "inferiorbrain",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "bowlofbrains"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Edible Brains.md",
+  "quality_tier": "S"
+}

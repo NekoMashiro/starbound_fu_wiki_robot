@@ -1,0 +1,59 @@
+{
+  "entity_id": "arcana_verdant",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Verdant",
+  "name_zh": "蓊茏",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Verdant",
+  "friendly_name_zh": "蓊茏",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_florastone",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "batong",
+    "crustoise",
+    "frostfleck",
+    "iguarmor",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "sunskipper",
+    "wintercritter",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_arcaneForest"
+      ]
+    ]
+  ],
+  "wiki_ref": "Verdant.md",
+  "quality_tier": "C"
+}

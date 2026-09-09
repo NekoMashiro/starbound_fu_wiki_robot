@@ -1,0 +1,60 @@
+{
+  "entity_id": "pteropodaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pteropod Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It brews a toxic paste in its pod made from fermented fruit.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pteropodVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "pteropodTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "firepteropod",
+            "pteropod",
+            "pteropod2",
+            "pteropod3"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pteropodHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "firepteropod",
+            "pteropod",
+            "pteropod2",
+            "pteropod3"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

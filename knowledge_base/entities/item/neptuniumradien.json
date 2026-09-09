@@ -1,0 +1,32 @@
+{
+  "entity_id": "neptuniumradien",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Edible Neptunium",
+  "name_zh": "食用镎",
+  "description_en": "X'ian processes have stripped the impurities. \nType: Isotope",
+  "description_zh": "艾肯的处理流程已经去除了其中的杂质。\n类型：同位素",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 3
+        },
+        {
+          "item": "neptuniumore",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

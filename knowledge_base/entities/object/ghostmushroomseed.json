@@ -1,0 +1,64 @@
+{
+  "entity_id": "ghostmushroomseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost Mushroom",
+  "name_zh": "幽灵菇",
+  "description_en": "These buggers are almost invisible!",
+  "description_zh": "这种蘑菇几乎没法凭肉眼看到。可以收获幽灵菇，食用后会隐形。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "mushroomseed",
+          "count": 3
+        },
+        {
+          "item": "agaranichor",
+          "count": 48
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 24
+        },
+        {
+          "item": "shroom",
+          "count": 8
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ghostmushroomHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

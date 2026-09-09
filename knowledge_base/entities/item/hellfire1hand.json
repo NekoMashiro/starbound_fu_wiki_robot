@@ -1,0 +1,67 @@
+{
+  "entity_id": "hellfire1hand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Knife",
+  "name_zh": "地狱火短刀",
+  "description_en": "Burns with volcanic rage.",
+  "description_zh": "来自地狱的愤怒。",
+  "rarity": "legendary",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 6
+        },
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "hellfireplantseed",
+          "count": 3
+        },
+        {
+          "item": "ignuschili",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

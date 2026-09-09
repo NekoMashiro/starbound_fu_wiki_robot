@@ -1,0 +1,33 @@
+{
+  "entity_id": "slimenpcteleporter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Teleporter",
+  "name_zh": "史莱姆传送器",
+  "description_en": "A slimy teleporter, connects to bookmarked locations. \nDestroyed when broken.",
+  "description_zh": "一个粘糊糊的传送器，连接到书签位置。\n损坏时销毁。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 3000,
+  "tags": [
+    "misc",
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "2 Stop Teleshop",
+      "station_zh": "双向传送商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

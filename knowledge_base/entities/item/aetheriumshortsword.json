@@ -1,0 +1,62 @@
+{
+  "entity_id": "aetheriumshortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Scimitar",
+  "name_zh": "阳清弯刀",
+  "description_en": "A perfect weapon.",
+  "description_zh": "一把完美的武器。",
+  "rarity": "legendary",
+  "category": "shortsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 6.96,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 3
+        },
+        {
+          "item": "densiniumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "aetheriumscimitart8.png",
+    "seed": "",
+    "shortdescription": "阳清斩杀者",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_aurea_booster_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Ship Booster",
+  "name_zh": "飞船助推器",
+  "description_en": "A decorative ship booster.",
+  "description_zh": "装饰性的飞船助推器。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 600,
+  "tags": [
+    "aurea",
+    "space"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

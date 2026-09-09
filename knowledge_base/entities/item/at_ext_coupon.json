@@ -1,0 +1,27 @@
+{
+  "entity_id": "at_ext_coupon",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Equipment coupon",
+  "name_zh": "装备兑换券",
+  "description_en": "Titancorp equipment coupon. [Can be used to redeem equipment at the Section 8 terminal.]",
+  "description_zh": "泰坦重工装备兑换券。[可以用来在工坊八科终端兑换装备。]",
+  "rarity": "Legendary",
+  "category": "currency",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 3,
+        "examples": [
+          "at_ext_rf5_1",
+          "at_ext_rf5_2",
+          "at_ext_rf5_3"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

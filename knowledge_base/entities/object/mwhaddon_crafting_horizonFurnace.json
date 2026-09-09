@@ -1,0 +1,56 @@
+{
+  "entity_id": "mwhaddon_crafting_horizonFurnace",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Necroium Ultismelter",
+  "name_zh": "死金至尊炉",
+  "description_en": "An advanced smelter used by the Horizon to efficiently smelt Necroium and construct armory.",
+  "description_zh": "地平线军队用以高效冶炼死金和制造军备的先进冶炼炉。",
+  "rarity": "essential",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_deco_7",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 10
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 15
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

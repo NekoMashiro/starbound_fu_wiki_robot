@@ -1,0 +1,41 @@
+{
+  "entity_id": "fossilbrushhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fossil Hammer",
+  "name_zh": "化石锤",
+  "description_en": "Not at all precise, but smacks stone well!",
+  "description_zh": "精准欠佳，但碎石成渣！",
+  "rarity": "rare",
+  "category": "tool",
+  "price": 70,
+  "tags": [
+    "fossilbrush"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Fossil Station",
+      "station_zh": "化石工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Fossil Hammer.md",
+  "quality_tier": "A"
+}

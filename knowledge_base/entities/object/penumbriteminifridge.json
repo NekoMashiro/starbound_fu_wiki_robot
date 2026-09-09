@@ -1,0 +1,50 @@
+{
+  "entity_id": "penumbriteminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Mini Fridge",
+  "name_zh": "半影迷你冰箱",
+  "description_en": "A small fridge made from penumbrite.",
+  "description_zh": "用半影矿做成的小冰箱。",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "penumbrite",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

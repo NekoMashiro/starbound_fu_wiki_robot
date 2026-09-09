@@ -1,0 +1,50 @@
+{
+  "entity_id": "mechlegssimple",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Basic Mech Legs",
+  "name_zh": "基础机甲腿",
+  "description_en": "Mass-produced mech legs that allow for basic mobility.",
+  "description_zh": "批量生产的机甲腿，允许基本的机动性。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 12
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechlegssimpleupgrade"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "mechlegssimpleupgrade"
+  ],
+  "quality_tier": "S"
+}

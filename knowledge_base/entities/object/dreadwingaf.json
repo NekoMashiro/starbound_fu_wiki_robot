@@ -1,0 +1,32 @@
+{
+  "entity_id": "dreadwingaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Dreadwing Figurine",
+  "name_zh": "骇翼手办",
+  "description_en": "The label reads, \"The infamous Penguin pirate Dreadwing, in his unmistakeable UFO.\"",
+  "description_zh": "标签上写着：“这是臭名昭著的企鹅海盗骇翼，坐在它所谓的UFO上。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dreadwingDrop",
+          "probability": 0.025,
+          "count": 1,
+          "monsters": [
+            "penguinUfo"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

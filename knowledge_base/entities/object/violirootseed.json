@@ -1,0 +1,60 @@
+{
+  "entity_id": "violirootseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Violiroot Seed",
+  "name_zh": "维奥根种子",
+  "description_en": "Violiroot will make your plantation super hot.",
+  "description_zh": "维奥根会让你的种植园变得超级热。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 95,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "exoticmatter",
+          "count": 2
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        },
+        {
+          "item": "kelp",
+          "count": 48
+        },
+        {
+          "item": "biosample",
+          "count": 9
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "violirootHarvest",
+          "probability": 0.6944,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

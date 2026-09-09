@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_byosgravgen",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship Gravity Generator",
+  "name_zh": "飞船重力发生器",
+  "description_en": "Generates a gravity field on your ship. Has a range of 80 blocks. Input1: On/Off Switch.",
+  "description_zh": "在你的飞船上生成一片重力力场。拥有30格的范围。\n输入：开/关。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 1600,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Ship Gravity Generator.md",
+  "quality_tier": "A"
+}

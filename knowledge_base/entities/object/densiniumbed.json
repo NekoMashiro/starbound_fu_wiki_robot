@@ -1,0 +1,45 @@
+{
+  "entity_id": "densiniumbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Bed",
+  "name_zh": "超致密床",
+  "description_en": "A bed made from densinium.",
+  "description_zh": "由超致密锭制成的床。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "densinium",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 10
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "penumbriteboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Boomerang",
+  "name_zh": "半影回旋镖",
+  "description_en": "Honed to a sharp, crackling edge.",
+  "description_zh": "边刃被磨得尖锐而致命。",
+  "rarity": "uncommon",
+  "category": "boomerang",
+  "price": 350,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "corruptionseed",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

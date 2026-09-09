@@ -1,0 +1,50 @@
+{
+  "entity_id": "azure_assaultRifle_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Altair SMG",
+  "name_zh": "牵牛SMG",
+  "description_en": "An azurium submachinegun with a burst pattern.",
+  "description_zh": "天青金制成的冲锋枪，能开启爆裂模式。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 15.4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 20
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_oceanicTechCard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

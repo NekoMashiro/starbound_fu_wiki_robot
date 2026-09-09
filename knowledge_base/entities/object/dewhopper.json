@@ -1,0 +1,32 @@
+{
+  "entity_id": "dewhopper",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Dewhopper",
+  "name_zh": "水滴跳虫",
+  "description_en": "A lively bug, it can be seen drinking morning dew.",
+  "description_zh": "一种活泼的虫子，它可能是渴了？",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dewhopper",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "dewhopper"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,74 @@
+{
+  "entity_id": "aegisaltpistol2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Damaged Pistol",
+  "name_zh": "受损的守护团手枪",
+  "description_en": "A basic, but nearly broken Protectorate sidearm. It'll do for now.",
+  "description_zh": "一把标准的，但是受损严重的守护团成员配枪。至少现在勉强能用\n可升级武器",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "aegisalt",
+    "protectorate"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_input": {
+    "by_category": {
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "aegisaltpistol3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 17,
+    "monster_drops": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "starterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wiki_ref": "Damaged Pistol.md",
+  "quality_tier": "S"
+}

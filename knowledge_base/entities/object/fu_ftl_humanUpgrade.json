@@ -1,0 +1,42 @@
+{
+  "entity_id": "fu_ftl_humanUpgrade",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Human FTL Drive Mk2",
+  "name_zh": "人族FTL引擎Mk2",
+  "description_en": "An FTL drive for Human space ships. Allows faster interstellar travel.\nShip Speed: +30. BYOS Only",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pureerchius",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 20
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        },
+        {
+          "item": "fu_ftl_human",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

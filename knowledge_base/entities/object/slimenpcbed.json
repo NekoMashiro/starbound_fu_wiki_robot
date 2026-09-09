@@ -1,0 +1,43 @@
+{
+  "entity_id": "slimenpcbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Wall Bed",
+  "name_zh": "史莱姆壁床",
+  "description_en": "Sleep sweetly, suspended in slime.",
+  "description_zh": "悬浮在史莱姆液体里面就会睡得香。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 140,
+  "tags": [
+    "slimenpc",
+    "slimeperson",
+    "slimevillage",
+    "slimenpchuman",
+    "slime",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 5
+        },
+        {
+          "item": "greenslime",
+          "count": 8
+        },
+        {
+          "item": "slimegoo",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

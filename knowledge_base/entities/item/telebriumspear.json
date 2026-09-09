@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Spear",
+  "name_zh": "月海长矛",
+  "description_en": "Sparkling with moon-endowed power.\r\nHunting weapon",
+  "description_zh": "闪耀着月亮赋予它的力量。\n狩猎武器",
+  "rarity": "common",
+  "category": "spear",
+  "price": 220,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9.9,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "huntspearstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

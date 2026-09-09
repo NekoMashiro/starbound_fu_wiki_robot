@@ -1,0 +1,302 @@
+{
+  "entity_id": "sulphur",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sulphur",
+  "name_zh": "硫磺",
+  "description_en": "This common element is essential to life despite readily forming explosive compounds.",
+  "description_zh": "尽管很容易形成爆炸化合物，但这种普通元素对生命至关重要。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_harlequin_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 10,
+        "examples": [
+          "avikancactusseed",
+          "biscornseed",
+          "cellpodsplant",
+          "dunestalkseed",
+          "feathercrownseed"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "ff_fertilizer",
+          "ff_fertilizer2",
+          "ff_plastic",
+          "magnesiumsulfate",
+          "nicepaper"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "isn_accelgel",
+          "powderkeg"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "deuterium"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidsulphuricacid"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 54,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagores",
+          "probability": 21.6,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.147,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0148,
+          "count": 5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.006,
+          "count": 5.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0059,
+          "count": 5.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.003,
+          "count": 5.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.147
+      ]
+    },
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0579,
+          "count": 5
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0525,
+          "count": 5,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0431,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0274,
+          "count": 5
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0113,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0579
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0197,
+          "count": 5,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0197
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0103,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0022,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0018,
+          "count": 5
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0009,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0103
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0008,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0007,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "slimeworldunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "futentacleunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "slimeasteroid",
+      "weight": 0.9
+    },
+    {
+      "biome": "fleshcorelayer",
+      "weight": 0.9
+    },
+    {
+      "biome": "ffshadow",
+      "weight": 0.9
+    },
+    {
+      "biome": "protocorelayer",
+      "weight": 0.9
+    },
+    {
+      "biome": "bogunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "tentacleasteroid",
+      "weight": 0.9
+    },
+    {
+      "biome": "protoworldunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "fftarpit",
+      "weight": 0.9
+    }
+  ],
+  "wiki_ref": "Sulphur.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "jumpblockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Jump Block",
+  "name_zh": "跳跃方块",
+  "description_en": "A block that enhances the jumping power of the person standing on top of it.",
+  "description_zh": "太神奇了，站在上面将使你跳的更高。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumwallblockmaterial",
+          "count": 1
+        },
+        {
+          "item": "aliencompound",
+          "count": 2
+        },
+        {
+          "item": "ff_silicon",
+          "count": 1
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

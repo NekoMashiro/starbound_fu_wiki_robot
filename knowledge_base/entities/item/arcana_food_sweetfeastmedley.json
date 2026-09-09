@@ -1,0 +1,70 @@
+{
+  "entity_id": "arcana_food_sweetfeastmedley",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sweet Feast Medley",
+  "name_zh": "美盛金曲",
+  "description_en": "An overly sweet and scrumptious assortment of sweet and savoury, roasted to perfection. [Hyou]\n\n+Run Boost 20 min.\n+Jump Boost 15 min.\n+10% Energy Regen. 15 min.",
+  "description_zh": "甜咸交织、香甜可口又烘烤得恰到好处的精选拼盘。[Hyou]\n\n20分钟奔跑提升\n15分钟跳跃提升\n15分钟+10%能量恢复速率",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 320,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_amberplum",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_shellfruit",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_seaberry",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_jungleMango",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "psionichealammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Healing Ammo",
+  "name_zh": "治愈弹药",
+  "description_en": "You can mend your flesh and bones with your mind.",
+  "description_zh": "用意念疗筋愈骨。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 4
+        },
+        {
+          "item": "miraclegrass",
+          "count": 2
+        },
+        {
+          "item": "psionicenergy2",
+          "count": 10
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionichealmagammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

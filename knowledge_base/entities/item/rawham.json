@@ -1,0 +1,49 @@
+{
+  "entity_id": "rawham",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Ham",
+  "name_zh": "生火腿",
+  "description_en": "Raw ham. It's probably best if I cook it first. Type: Raw Meat",
+  "description_zh": "一块生火腿，或许我得先把这玩意弄熟了再吃？\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedham"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "-"
+  ],
+  "quality_tier": "S"
+}

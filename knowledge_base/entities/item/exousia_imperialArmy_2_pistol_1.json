@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_2_pistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA2 Nashorn Striker",
+  "name_zh": "EIA2犀牛前锋",
+  "description_en": "A modified pistol used by Exousian Nashorns, has good knockback.",
+  "description_zh": "威权犀牛部队使用的模块化手枪，击退性能优良。",
+  "rarity": "Legendary",
+  "category": "pistol",
+  "price": 1140,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 12.8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_rufescite",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 2
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T7",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

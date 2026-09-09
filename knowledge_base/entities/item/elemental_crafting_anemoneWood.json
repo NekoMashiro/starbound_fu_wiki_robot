@@ -1,0 +1,67 @@
+{
+  "entity_id": "elemental_crafting_anemoneWood",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anemone Wood",
+  "name_zh": "银花木",
+  "description_en": "A dark colored wood, once used by villages in Windswept planets.",
+  "description_zh": "深色的木头，曾经被拂风行星的村庄使用过。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 70,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rainbowwood",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "aeolus_tile3",
+          "aeolus_tile4",
+          "aeolus_tile5",
+          "aeolus_tile6"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_windsweptTreasure",
+          "probability": 1.0,
+          "count": 7.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_scholar_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Scholar's Circlet",
+  "name_zh": "学者头环",
+  "description_en": "A circlet crafted from arcanium. +10% ATK when using Magic weapons.",
+  "description_zh": "一件以奥素制作的头环。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 1100,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

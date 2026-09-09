@@ -1,0 +1,51 @@
+{
+  "entity_id": "commonshotgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Shotgun",
+  "name_zh": "普通的霰弹枪",
+  "description_en": "Fires a spread that's lethal at close and mid range.",
+  "description_zh": "在近距离和中距离发射致命的霰弹。",
+  "rarity": "Common",
+  "category": "shotgun",
+  "price": 950,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    9,
+    10
+  ],
+  "critChance": 2,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "testarenaRanged",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

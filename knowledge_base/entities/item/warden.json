@@ -1,0 +1,69 @@
+{
+  "entity_id": "warden",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Warden",
+  "name_zh": "阿克恩守望者",
+  "description_en": "A dangerously powerful minigun.\nCounts as 'plasma' for set bonuses\nHeavy. Extreme fire rate",
+  "description_zh": "危险而强大的迷你机枪。\n等离子武器\n极端的射速\n沉重",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 24,
+  "critChance": 0.5,
+  "critBonus": 5,
+  "altAbilityType": "railgunshotpower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "unstableparticles",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "wardenicon2.png",
+    "seed": "",
+    "shortdescription": "^cyan;堕命链枪^reset; ^yellow;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

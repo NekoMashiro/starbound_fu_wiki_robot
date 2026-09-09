@@ -1,0 +1,60 @@
+{
+  "entity_id": "xaxseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xax Seed",
+  "name_zh": "龙翼种子",
+  "description_en": "Mammal and Plant, together at last. Provides levitation and immunity to Grav Rain.",
+  "description_zh": "它既是哺乳动物又是植物。可以收获龙翼，食用后会赋予悬浮能力，以及免疫重力雨。",
+  "rarity": "rare",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "zathiseed",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 4
+        },
+        {
+          "item": "fu_carbon",
+          "count": 12
+        },
+        {
+          "item": "biosample",
+          "count": 9
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "xaxHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

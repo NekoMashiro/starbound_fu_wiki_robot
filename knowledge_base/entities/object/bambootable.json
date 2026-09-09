@@ -1,0 +1,49 @@
+{
+  "entity_id": "bambootable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bamboo Table",
+  "name_zh": "竹桌子",
+  "description_en": "A stylish bamboo table.",
+  "description_zh": "一个时尚的竹桌。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "thickjungle",
+    "table"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_bambooshoot",
+          "count": 16
+        },
+        {
+          "item": "agaranichor",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

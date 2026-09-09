@@ -1,0 +1,64 @@
+{
+  "entity_id": "nightarwarblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar War Cleaver",
+  "name_zh": "夜族战争劈刀",
+  "description_en": "Easily the heaviest and most valuable of Nightar weapons.\r\nCounts as Greataxe or Broadsword\r\nInflicts bleeding",
+  "description_zh": "轻松成为夜族最重、最有价值的武器。\n 算作巨斧或宽剑 \n造成出血效果",
+  "rarity": "Uncommon",
+  "category": "greataxe",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "upgradeableWeapon",
+    "broadsword"
+  ],
+  "elementalType": "silverweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 13,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 12
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

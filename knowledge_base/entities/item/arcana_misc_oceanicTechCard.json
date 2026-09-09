@@ -1,0 +1,124 @@
+{
+  "entity_id": "arcana_misc_oceanicTechCard",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Oceanic Tech Card",
+  "name_zh": "海洋科技卡",
+  "description_en": "An ornate tech card made from oceanite.",
+  "description_zh": "一张由海石制成的华丽科技卡。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 180,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 2,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 8,
+        "examples": [
+          "arcana_astral_wireddeco_1",
+          "arcana_astral_wireddeco_2",
+          "arcana_astral_wireddeco_3",
+          "arcana_astral_wireddeco_4",
+          "arcana_astral_wireddeco_5"
+        ]
+      },
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "arcana_astral_deco_12",
+          "arcana_astral_deco_17",
+          "arcana_astral_deco_18",
+          "arcana_astral_deco_19"
+        ]
+      },
+      "mechPart": {
+        "count": 3,
+        "examples": [
+          "arcana_mech_anubis_body",
+          "mwhaddon_mech_arm_pulsar",
+          "mwhaddon_mech_booster_gravity"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "azure_assaultRifle_2"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "azure_machinePistol_2"
+        ]
+      }
+    },
+    "total": 18
+  },
+  "quality_tier": "S"
+}

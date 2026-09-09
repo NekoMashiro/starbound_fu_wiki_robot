@@ -1,0 +1,63 @@
+{
+  "entity_id": "fuplatinumarmorhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Evader Helmet",
+  "name_zh": "碳制头盔",
+  "description_en": "Set Bonuses:\r\n +25% Shield Regen, Stamina, Block\r\n Shield and Sword: +8% Phys. Resist",
+  "description_zh": "套装奖励:\n +25% 盾牌耐久回复, 耐久, 格挡\n 盾+剑: +8% 物理抗性",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumantizitier1head",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fumantizitier5shead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

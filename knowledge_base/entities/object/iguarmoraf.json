@@ -1,0 +1,56 @@
+{
+  "entity_id": "iguarmoraf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Iguarmor Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Iguarmor is not an aggressive species but the spikes on its tail can deal great damage.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "iguarmorVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "iguarmorTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "iceiguarmor",
+            "iguarmor"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "iguarmorHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "iceiguarmor",
+            "iguarmor"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

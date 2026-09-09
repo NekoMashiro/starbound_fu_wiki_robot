@@ -1,0 +1,37 @@
+{
+  "entity_id": "foundryguardchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Guard Gloves",
+  "name_zh": "铸造护卫手套",
+  "description_en": "These gloves won't cover your chest.",
+  "description_zh": "这副手套可遮不到胸。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

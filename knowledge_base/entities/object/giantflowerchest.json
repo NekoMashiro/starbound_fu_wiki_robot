@@ -1,0 +1,54 @@
+{
+  "entity_id": "giantflowerchest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Giant Flower Chest",
+  "name_zh": "巨型花瓣箱子",
+  "description_en": "A chest made of flowers.",
+  "description_zh": "一个用花瓣做成的箱子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "giantflower",
+    "nature",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "giantflowerpetal",
+          "count": 40
+        },
+        {
+          "item": "petalyellow",
+          "count": 5
+        },
+        {
+          "item": "plantfibre",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

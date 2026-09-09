@@ -1,0 +1,35 @@
+{
+  "entity_id": "meatsmoothie",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meat Smoothie",
+  "name_zh": "鲜肉奶昔",
+  "description_en": "This is exactly what it sounds like. Type: Raw Meat",
+  "description_zh": "如同它的名字听起来的那样。\n类型：生肉",
+  "rarity": "uncommon",
+  "category": "drink",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "mothtrap2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Moth Trap (Large)",
+  "name_zh": "蚕房(大型)",
+  "description_en": "Attracts moths. Moths produce more silk!",
+  "description_zh": "可吸引蚕蛾。蚕蛾可以生产丝绸！",
+  "rarity": "uncommon",
+  "category": "light",
+  "price": 110,
+  "tags": [
+    "outdoor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "mothtrap",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Moth Trap (Large).md",
+  "quality_tier": "A"
+}

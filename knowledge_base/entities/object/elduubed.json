@@ -1,0 +1,43 @@
+{
+  "entity_id": "elduubed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Bed",
+  "name_zh": "水晶床",
+  "description_en": "A bed made from cultivated crystal.",
+  "description_zh": "一张由人工水晶制成的床。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "elduukhar",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "wovencrystal",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

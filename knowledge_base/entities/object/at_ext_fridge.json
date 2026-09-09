@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_fridge",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Factory Fridge",
+  "name_zh": "[泰坦拓展]工业冰箱",
+  "description_en": "A fridge that can refrigerate.Installed input and output channel.",
+  "description_zh": "一个可以制冷的冰箱。已安装输入和输出节点。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

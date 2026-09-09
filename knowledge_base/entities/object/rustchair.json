@@ -1,0 +1,48 @@
+{
+  "entity_id": "rustchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rusty Chair",
+  "name_zh": "生锈的椅子",
+  "description_en": "A rusty chair. Don't rock back on it.",
+  "description_zh": "一把生锈的椅子，不要坐在上面摇晃。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 45,
+  "tags": [
+    "rust"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "metallic",
+          "count": 15
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

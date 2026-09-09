@@ -1,0 +1,40 @@
+{
+  "entity_id": "glitchianman",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glitchian Man",
+  "name_zh": "电子人解剖图",
+  "description_en": "A rather detailed sketch of Glitch anatomy.",
+  "description_zh": "一个很详细的电子人的解剖图。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 800,
+  "tags": [
+    "glitch",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

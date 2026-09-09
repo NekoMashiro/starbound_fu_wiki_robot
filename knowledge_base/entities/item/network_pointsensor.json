@@ -1,0 +1,36 @@
+{
+  "entity_id": "network_pointsensor",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Object Data Sensor",
+  "name_zh": "物件数据传感器",
+  "description_en": "[Equip] Detects placement points of nearby objects.\r\n[Primary] Show Colony Tags.",
+  "description_zh": "[装备] 检测附近物体的放置点。\n[主要攻击] 显示家具殖民标签。",
+  "rarity": "common",
+  "category": "Tool",
+  "price": 150,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "network_containerlink",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Object Data Sensor.md",
+  "quality_tier": "A"
+}

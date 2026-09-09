@@ -1,0 +1,83 @@
+{
+  "entity_id": "giganticsnowball",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gigantic Snowball",
+  "name_zh": "巨大雪球",
+  "description_en": "This snowball is huge! I can barely throw it.",
+  "description_zh": "这个雪球超大！我只能勉强把它扔出去。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "largesnowball",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Snowprinter",
+          "name_zh": "雪人打印机"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 10,
+        "examples": [
+          "snowpersonbottom1",
+          "snowpersonbottom2",
+          "snowpersonbottomapex",
+          "snowpersonbottomavian",
+          "snowpersonbottomfloran"
+        ]
+      },
+      "breakable": {
+        "count": 2,
+        "examples": [
+          "fancysnowman",
+          "snowman"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "blueprints_unlocked": [
+    "snowman"
+  ],
+  "quality_tier": "S"
+}

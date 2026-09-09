@@ -1,0 +1,47 @@
+{
+  "entity_id": "mechbodyavianproto",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Champion-00 Mech Body",
+  "name_zh": "冠军机甲体-零式",
+  "description_en": "Immune: Tropical/Desert Heat, Mild Poison, Chill",
+  "description_zh": "免疫: 热带/沙漠炎热，轻度毒素，冰面",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 24
+        },
+        {
+          "item": "wire",
+          "count": 18
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechbodyavian"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

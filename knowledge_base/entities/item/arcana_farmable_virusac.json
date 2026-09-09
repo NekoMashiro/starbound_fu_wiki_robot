@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_farmable_virusac",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Virusac",
+  "name_zh": "瘤孢",
+  "description_en": "A common ingredient for certain medications and drugs, akin to psychedelics, able to improve the mood of its consumers.",
+  "description_zh": "一种常见于特定医药中的材料，类似致幻剂，能够改善使用者的情绪。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 60,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "arcana_food_pestilenttoast",
+          "arcana_food_waterofbeast"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "arcana_nether_plant_6"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_virusac",
+          "probability": 1.0,
+          "count": 2.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

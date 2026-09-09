@@ -1,0 +1,52 @@
+{
+  "entity_id": "liquidbeer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Beer",
+  "name_zh": "纯啤酒",
+  "description_en": "A holy liquid loved by even the Gods themselves.\nGrowth Rate x2 & +1 produce.\nExtractable, Centrifugable.",
+  "description_zh": "一种神圣的液体，备受神明们的喜爱。\n生长速率x2&产量+1\n可萃取，可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hops",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 30
+        },
+        {
+          "item": "wort",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "tacticalmug"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Beer.md",
+  "quality_tier": "S"
+}

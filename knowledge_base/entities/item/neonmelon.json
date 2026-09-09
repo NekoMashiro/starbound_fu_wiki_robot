@@ -1,0 +1,75 @@
+{
+  "entity_id": "neonmelon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Neonmelon",
+  "name_zh": "霓虹瓜",
+  "description_en": "A tangy fruit with a highly sought flavor. Type: Fruit",
+  "description_zh": "一块泡泡糖口味的霓虹瓜。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 280,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neonmelonbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "pozest",
+          "ultimatejuice"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "neonhoneystraw"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "neonmelonbasket"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "neonmelonjam"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "neonmelonHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "neonmelonjam",
+    "pozest"
+  ],
+  "quality_tier": "S"
+}

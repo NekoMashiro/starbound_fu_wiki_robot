@@ -1,0 +1,40 @@
+{
+  "entity_id": "apexpainting4",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Standard Issue Painting",
+  "name_zh": "标准配置彩绘",
+  "description_en": "Don't underestimate an Apex's love for bananas.",
+  "description_zh": "不要低估猿人对香蕉的爱。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "apex",
+    "apexvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

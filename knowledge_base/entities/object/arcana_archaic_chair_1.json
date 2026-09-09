@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_archaic_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Wooden Chair",
+  "name_zh": "古朴木椅",
+  "description_en": "An ornate Gilten-made wooden chair.",
+  "description_zh": "一把镀人制造的华丽木椅。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 130,
+  "tags": [
+    "archaic",
+    "gilten"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "makeshiftreactor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Fusion Reactor",
+  "name_zh": "小型聚变反应堆",
+  "description_en": "Generates 15-360w power from hydrogen isotopes. Each slot outputs independently. Needs coolant. Left Input: On/Off Switch",
+  "description_zh": "利用氢同位素产生15-500w的电力。每格输出独立。\n需要液体冷却剂。\n左边输入: 电源开关",
+  "rarity": "Rare",
+  "category": "wire",
+  "price": 2500,
+  "tags": [
+    "space",
+    "power",
+    "radioactive"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 12
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 4
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 32
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Small Fusion Reactor.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "densiniumpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Pistol",
+  "name_zh": "超致密手枪",
+  "description_en": "Eradicate foes with blasts of energy.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "以爆炸能量根除敌人。\n能量武器",
+  "rarity": "legendary",
+  "category": "pistol",
+  "price": 720,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "energy",
+    "densinium"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 3,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "prisilitestar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

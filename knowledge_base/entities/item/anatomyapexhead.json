@@ -1,0 +1,46 @@
+{
+  "entity_id": "anatomyapexhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Apex Anatomy Mask",
+  "name_zh": "猿人解剖学面具",
+  "description_en": "It's educational! A mask of the apex, muscular anatomy.",
+  "description_zh": "真有教育意义！一个猿人肌肉解剖学面具。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fleshChestTreasure",
+          "probability": 0.0541,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoFleshTreasure",
+          "probability": 0.0352,
+          "count": 1
+        },
+        {
+          "pool": "fleshTreasure",
+          "probability": 0.0294,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0294,
+        0.0352
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

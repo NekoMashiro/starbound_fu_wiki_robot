@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmdrill3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diamond Drill Arm",
+  "name_zh": "钻石钻头机械臂",
+  "description_en": "A heavy mining drill that can serve as a weapon in a pinch.",
+  "description_zh": "可以用作应急武器的重型采矿钻。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 3200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 6
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

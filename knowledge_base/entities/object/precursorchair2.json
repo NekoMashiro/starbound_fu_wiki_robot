@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorchair2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Tall Chair",
+  "name_zh": "高脚椅",
+  "description_en": "Well, this is unnecessarily glowy, but nice. Hard as rock, though.",
+  "description_zh": "好吧，它没必要这么绚丽，但的确挺漂亮的。尽管它如同石头一般坚硬。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "fu",
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursorchair2"
+  ],
+  "quality_tier": "S"
+}

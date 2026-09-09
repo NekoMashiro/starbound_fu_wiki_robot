@@ -1,0 +1,90 @@
+{
+  "entity_id": "fieldscientisthead3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Geologist's Shield Goggles",
+  "name_zh": "地质学家抗性眼镜",
+  "description_en": "Vision enhancement replaced with physics barrier.\r\nProvides Immunity to most terrain effects.",
+  "description_zh": "物理屏障替换了视野增强功能。\n提供对大多数地形效果的免疫。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "ranged",
+    "explorer"
+  ],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.01,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.01
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0057,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0028,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0028,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0057
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0038,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

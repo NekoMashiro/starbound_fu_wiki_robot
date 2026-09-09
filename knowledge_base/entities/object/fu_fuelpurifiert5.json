@@ -1,0 +1,51 @@
+{
+  "entity_id": "fu_fuelpurifiert5",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Fuel Purifier",
+  "name_zh": "先驱燃料净化器",
+  "description_en": "Exceptionally effective. Reduces fuel cost by 40%.",
+  "description_zh": "非常有效。降低40%的燃料消耗。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science",
+    "machines",
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0729,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0073,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0073,
+        0.0729
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0073,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Fuel Purifier.md",
+  "quality_tier": "A"
+}

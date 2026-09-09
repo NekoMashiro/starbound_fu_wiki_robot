@@ -1,0 +1,82 @@
+{
+  "entity_id": "mobiusrailgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sentry Railgun",
+  "name_zh": "哨兵轨道炮",
+  "description_en": "This beast absolutely murders the enemy!\r\nInflicts frozen-fire\r\nSummons Assault Drones",
+  "description_zh": "毫无疑问，这把狂野的武器能把敌人轰杀至渣！\n附加霜灼效果\n召唤2只两足机器人协助战斗",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5,
+  "critChance": 6,
+  "critBonus": 26,
+  "altAbilityType": "fudronelauncheradv",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 12
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0112
+      ]
+    }
+  },
+  "wiki_ref": "Sentry Railgun.md",
+  "quality_tier": "S"
+}

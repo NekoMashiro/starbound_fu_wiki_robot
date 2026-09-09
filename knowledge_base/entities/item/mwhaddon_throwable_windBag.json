@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_throwable_windBag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Wind Bag",
+  "name_zh": "强风袋",
+  "description_en": "Create a wind field that makes everything float!",
+  "description_zh": "生成一个风场，让一切都漂浮起来！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_windflower",
+          "count": 1
+        },
+        {
+          "item": "elemental_crafting_ariostone",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "lunariwalllamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Wall Lamp",
+  "name_zh": "月晶壁灯",
+  "description_en": "A wall mounted lamp made from lunari.",
+  "description_zh": "由月晶制成的壁灯。",
+  "rarity": "rare",
+  "category": "light",
+  "price": 300,
+  "tags": [
+    "lunari",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "nhydri",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

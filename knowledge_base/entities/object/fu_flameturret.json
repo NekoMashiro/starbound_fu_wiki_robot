@@ -1,0 +1,47 @@
+{
+  "entity_id": "fu_flameturret",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flame Turret",
+  "name_zh": "火焰炮塔",
+  "description_en": "Base Damage: 1\r\nFire Rate: 0.08\r\nEnergy per Shot: 1\r\nSpecial: Burns Foes",
+  "description_zh": "基础伤害: 1\n射速: 0.08\n每击能量消耗: 1\n特殊: 点燃敌人",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "isn_flamethrower",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "flamethrower": {
+        "count": 1,
+        "examples": [
+          "isn_flamethrower"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

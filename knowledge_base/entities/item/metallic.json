@@ -1,0 +1,63 @@
+{
+  "entity_id": "metallic",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Metal Coated Wood",
+  "name_zh": "金属涂层木头",
+  "description_en": "A metal coating over a wood-like material.",
+  "description_zh": "金属涂层的木头，像是材料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "foundrybed",
+          "foundrychair",
+          "rustbed",
+          "rustchair",
+          "rusttable"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "foundrylight",
+          "geodeceilinglight",
+          "magmalamp"
+        ]
+      },
+      "storage": {
+        "count": 3,
+        "examples": [
+          "rustchest",
+          "scorchedcitychestdrawerlarge",
+          "scorchedcitychestdrawersmall"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "foundrydoor",
+          "rustdoor"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 1,
+        "examples": [
+          "scorchedcityfridge"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "blueprints_unlocked": [
+    "platematerial"
+  ],
+  "quality_tier": "A"
+}

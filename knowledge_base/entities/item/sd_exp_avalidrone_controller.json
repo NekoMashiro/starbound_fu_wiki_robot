@@ -1,0 +1,40 @@
+{
+  "entity_id": "sd_exp_avalidrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Avali Drone Controller",
+  "name_zh": "羽族无人机控制器",
+  "description_en": "Avali Multi functional Drone.Can be used for aerial photography and framing.\r\n    Contributor Item : Crosstar",
+  "description_zh": "羽族多功能无人机，可用于航拍取景。\n[左键]释放/收回，[右键]发射侦测脉冲，能用来检测实体。\n赞助者物品：Crossstar",
+  "rarity": "Legendary",
+  "category": "^#DBC5A6;侦察无人机工具",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

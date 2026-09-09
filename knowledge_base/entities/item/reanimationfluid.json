@@ -1,0 +1,101 @@
+{
+  "entity_id": "reanimationfluid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reanimation Fluid",
+  "name_zh": "复苏流体",
+  "description_en": "Able to revive dead flesh with the help of a proper catalyst.",
+  "description_zh": "能够在适当的催化剂的帮助下复活死肉。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 260,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidblood",
+          "count": 12
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 1
+        },
+        {
+          "item": "shadowgasliquid",
+          "count": 4
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "phasematter",
+          "count": 4
+        },
+        {
+          "item": "miraclegrass",
+          "count": 2
+        },
+        {
+          "item": "iodine",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 7002
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuithead"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitlegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitchest"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessbunnythingmeat"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

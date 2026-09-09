@@ -1,0 +1,34 @@
+{
+  "entity_id": "skathwatertank",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Water Tank",
+  "name_zh": "绘世者水箱",
+  "description_en": "A stationary tank containing a huge amount of water.",
+  "description_zh": "装有大量水的固定的水箱。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 25,
+  "tags": [
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 3
+        },
+        {
+          "item": "liquidwater",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

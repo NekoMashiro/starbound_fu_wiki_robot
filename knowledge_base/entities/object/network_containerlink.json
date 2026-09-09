@@ -1,0 +1,62 @@
+{
+  "entity_id": "network_containerlink",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Storage Bridge",
+  "name_zh": "储存桥接器",
+  "description_en": "Marks containers for use by an item network. Place near object placement point.\r\nInput: item network\nOutput: item network",
+  "description_zh": "标记容器以供项目网络使用。放置在对象放置点附近。\n 输入：项目网络\n 输出：项目网络",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 3,
+        "examples": [
+          "bothealingstationauto",
+          "elderhealingstationauto",
+          "pethealingstationauto"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_containerlink2"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "network_pointsensor"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "wiki_ref": "Storage Bridge.md",
+  "quality_tier": "S"
+}

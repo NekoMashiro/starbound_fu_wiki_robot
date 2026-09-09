@@ -1,0 +1,58 @@
+{
+  "entity_id": "tw_spacesuithead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hazard Helmet",
+  "name_zh": "搏命头盔",
+  "description_en": "Headlamp\r\nSet Bonuses:\r\n Max Breath x2\r\n Longsword/Energy: Damage x1.12",
+  "description_zh": "头灯\n套装奖励:\n 100% 呼吸上限\n 长剑/能量武器: 伤害x1.12",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 140,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "spacefarerhead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "frostcannonarm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mistral Icethrower",
+  "name_zh": "寒惧",
+  "description_en": "Freezing mists weaponized for your enjoyment\r\nInflicts freezing\r\nMulti-shot",
+  "description_zh": "可发射冻结性喷雾，攻击你的敌人。\n附加冻结效果\n多重射击",
+  "rarity": "rare",
+  "category": "flamethrower",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "flamethrower",
+    "armcannon",
+    "isogen"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 5,
+  "altAbilityType": "freezecannon",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 6
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "workshop_auto_essenceextractor_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Essence Extractor Mk.1",
+  "name_zh": "精纯提取器MK I",
+  "description_en": "An automatic machine that extracts essence and other materials from liquids. Can be wired to other machines.",
+  "description_zh": "从液体和其它素材中提取精纯的自动机器。可以与其它机器相连接。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 2400,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 20
+        },
+        {
+          "item": "copperbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "基础科技站",
+          "name_zh": "基础科技站"
+        },
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Essence Extractor Mk.1.md",
+  "quality_tier": "A"
+}

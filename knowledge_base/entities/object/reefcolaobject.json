@@ -1,0 +1,41 @@
+{
+  "entity_id": "reefcolaobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reef-Cola",
+  "name_zh": "礁荚可乐",
+  "description_en": "Taste the ocean, with Reef-Cola.",
+  "description_zh": "走五湖四海，喝礁荚可乐。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reefcola",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "reefcola"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

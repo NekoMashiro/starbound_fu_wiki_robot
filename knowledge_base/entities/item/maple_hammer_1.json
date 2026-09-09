@@ -1,0 +1,63 @@
+{
+  "entity_id": "maple_hammer_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Maple Hammer",
+  "name_zh": "枫丹锤",
+  "description_en": "A simple maple colored hammer made with copper, iron and orange dye.",
+  "description_zh": "用铜、铁和橙色染料制成的简单的枫木色锤。",
+  "rarity": "Common",
+  "category": "hammer",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "primaryAbilityType": "hammersmash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

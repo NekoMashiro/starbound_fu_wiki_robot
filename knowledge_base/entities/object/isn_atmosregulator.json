@@ -1,0 +1,43 @@
+{
+  "entity_id": "isn_atmosregulator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Regeneration Matrix",
+  "name_zh": "治疗力场发生器",
+  "description_en": "Generates a field that heals any lifeform within its area of effect. Requires 120W of power.",
+  "description_zh": "这个装置可以生成治疗周围单位的力场。\n需要120W电力。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 2000,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 40
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 20
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Regeneration Matrix.md",
+  "quality_tier": "A"
+}

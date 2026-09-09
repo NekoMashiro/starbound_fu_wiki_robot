@@ -1,0 +1,56 @@
+{
+  "entity_id": "diamondshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gishinanki Shield",
+  "name_zh": "钻石盾",
+  "description_en": "Immune: Shock",
+  "description_zh": "免疫感电",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 10220,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        },
+        {
+          "item": "diamond",
+          "count": 4
+        },
+        {
+          "item": "morphiteore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

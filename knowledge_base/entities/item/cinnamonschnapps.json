@@ -1,0 +1,36 @@
+{
+  "entity_id": "cinnamonschnapps",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cinnamon Schnapps",
+  "name_zh": "肉桂甜酒",
+  "description_en": "A bottle of cinnamon-infused schnapps!\n35% Slow , Drunk (1m)",
+  "description_zh": "一瓶肉桂味的甜酒！\n35%减速，醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 1300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "cinnamon",
+          "count": 5
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

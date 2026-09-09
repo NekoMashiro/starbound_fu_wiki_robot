@@ -1,0 +1,45 @@
+{
+  "entity_id": "armcannonice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arm Cannon (Ice)",
+  "name_zh": "臂炮(冰冻)",
+  "description_en": "Attaches to the forearm. Fires frost blasts.\r\nCounts as 'ice' or 'isogen' for set bonuses",
+  "description_zh": "可装在手臂上，发射出冰冻型子弹。\n寒气武器、寒霜武器",
+  "rarity": "rare",
+  "category": "armcannon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "isogen",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.2,
+  "critChance": 4,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "armcannon",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

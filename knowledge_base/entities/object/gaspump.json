@@ -1,0 +1,36 @@
+{
+  "entity_id": "gaspump",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gas Pump",
+  "name_zh": "气泵",
+  "description_en": "Only 5p/per gallon!",
+  "description_zh": "每加仑仅5便士！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "mechanical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

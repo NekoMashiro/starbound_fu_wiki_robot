@@ -1,0 +1,74 @@
+{
+  "entity_id": "astral_tile15",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fabric Block Dunes",
+  "name_zh": "符文织物块",
+  "description_en": "An Arcanian fabric tile used for decorating purposes.",
+  "description_zh": "一种用于装饰目的的守秘族织物瓷砖",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 1.0531,
+          "count": 10
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.5245,
+          "count": 10
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingbasic",
+          "probability": 0.3009,
+          "count": 10
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.2098,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2098,
+        1.0531
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

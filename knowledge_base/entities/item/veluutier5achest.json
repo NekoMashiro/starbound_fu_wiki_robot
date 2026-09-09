@@ -1,0 +1,97 @@
+{
+  "entity_id": "veluutier5achest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat's Energy Collar 1",
+  "name_zh": "能量猫项圈 1",
+  "description_en": "Imbued with a special power to increase energy generation, while also protecting its wearer.",
+  "description_zh": "注入了特殊的动力，以增加能量的产生，同时也保护其佩戴者。",
+  "rarity": "Rare",
+  "category": "chestarmour",
+  "price": 4800,
+  "tags": [
+    "tier5armour",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "veluutier6achest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "veluutier6achest",
+    "veluutier6mchest",
+    "veluutier6schest"
+  ],
+  "quality_tier": "S"
+}

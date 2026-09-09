@@ -1,0 +1,38 @@
+{
+  "entity_id": "elderarmorchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Chestpiece",
+  "name_zh": "远古胸甲",
+  "description_en": "Set Bonuses:\r\n Dark Commander: 30%\r\n Darkness Regen\r\n Elder Weapons: Damage x1.25\r\n Immune: Insanity, Shadow Taint, Pus, Acid, Liq. Nitrogen",
+  "description_zh": "套装奖励:\n 暗黑指挥者: 30%\n 黑暗再生\n 远古武器: 伤害x1.25\n 免疫: 暗影污染, 精神错乱, 脓液, 酸蚀, 液氮",
+  "rarity": "legendary",
+  "category": "chestarmour",
+  "price": 1450,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "specialist"
+  ],
+  "level": 7,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.031,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

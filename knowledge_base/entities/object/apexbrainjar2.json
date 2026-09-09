@@ -1,0 +1,73 @@
+{
+  "entity_id": "apexbrainjar2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Superior Brain Housing",
+  "name_zh": "优质大脑储存罐",
+  "description_en": "A brain in a jar, daydreaming.",
+  "description_zh": "罐中脑，简直是白日梦。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "insanity",
+    "science",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brain",
+          "count": 1
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 4
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Psionics Table",
+          "name_zh": "灵能工作台"
+        },
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "psionicenergy2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "glitch",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "电子人",
+  "description_en": "",
+  "description_zh": "他们的造物被淹没在了历史的长河中，这恰巧适合他们，因为他们更喜欢原始的存在状态，中世纪文化使他们更倾向于使用盾牌、钉头锤和弩进行训练。\n\n  食性：机械食性/杂食性\n\n天赋：\n  防御 x1.06\n  抗性: +20%物理、毒素和击退抗性,  +14% 火炎抗性, +5% 辐射抗性\n  免疫：中毒&蜂蜇\n\n环境：\n  油/原体液/厄尔吉斯液态燃料：HP & 能量回复、能量 x1.25\n  山脉生物群落: 防御 x0.8\n\n武器：\n  锤系专精: +25%\n  弓系专精: +10%\n  每连击+2防御\n  举盾：+3 防御\n  完美格挡时增加大量伤害(叠乘)\n  盾牌反击时回复生命\n\n弱点：\n  感电：攻击&能量-50%\n抗性: -30%电系",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "protection",
+        "effectiveMultiplier": 1.06
+      },
+      {
+        "stat": "grit",
+        "amount": 0.2
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.14
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.3
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "poisonStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "beestingImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "hammerMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "bowMastery",
+        "amount": 0.1
+      },
+      {
+        "stat": "fuElectrifiedPenaltyEnergy",
+        "amount": 1
+      },
+      {
+        "stat": "fuElectrifiedPenaltyDamage",
+        "amount": 1
+      },
+      {
+        "stat": "fuTarHeals",
+        "amount": 1
+      }
+    ],
+    "diet": [
+      {
+        "ORGANIC": false,
+        "ROBOT_PLANT": true
+      },
+      {
+        "MEAT_RAW": true
+      }
+    ]
+  },
+  "quality_tier": "B"
+}

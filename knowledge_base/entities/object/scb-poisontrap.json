@@ -1,0 +1,30 @@
+{
+  "entity_id": "scb-poisontrap",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "SCB Poison Emitter",
+  "name_zh": "SCB毒药发射器",
+  "description_en": "Much drippy, such poison, so wow~ \nInput 1 : Poison Spray. \nInput 2 : Particles.",
+  "description_zh": "多雨，这样的毒，哇哦~输入1 ：毒药喷雾。\n输入2 ：粒子。",
+  "rarity": "common",
+  "category": "trap",
+  "price": 0,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

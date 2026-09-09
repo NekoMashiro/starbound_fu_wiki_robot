@@ -1,0 +1,76 @@
+{
+  "entity_id": "fireboomerang",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Molten Boomerang",
+  "name_zh": "火焰飞镖",
+  "description_en": "A blazing hot boomerang with a molten core.",
+  "description_zh": "一个炎热的飞镖与熔火之心。",
+  "rarity": "Legendary",
+  "category": "boomerang",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "boomerang"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boomerang",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "scorchedcore",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "fireboomerang_l6.png",
+    "seed": "",
+    "shortdescription": "火焰飞镖^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

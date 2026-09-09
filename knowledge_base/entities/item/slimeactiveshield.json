@@ -1,0 +1,89 @@
+{
+  "entity_id": "slimeactiveshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Shield",
+  "name_zh": "黏液盾",
+  "description_en": "+0.5% HP Regen, +6 ShieldBash Push",
+  "description_zh": "生命恢复速度+0.5%，盾牌猛击击退+6",
+  "rarity": "Legendary",
+  "category": "shield",
+  "price": 200,
+  "tags": [
+    "shield",
+    "slime",
+    "upgradeableWeapon"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "endomorphicjelly",
+          "count": 4
+        },
+        {
+          "item": "slimegoo",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "slimesuperTreasure",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.012,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

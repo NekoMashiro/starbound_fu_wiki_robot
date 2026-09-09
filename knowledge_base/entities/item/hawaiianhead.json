@@ -1,0 +1,55 @@
+{
+  "entity_id": "hawaiianhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hawaiian Flower Crown",
+  "name_zh": "夏威夷花冠",
+  "description_en": "A beautiful crown made with flowers. It's totally the Hawaiian style.",
+  "description_zh": "用鲜花做的美丽花冠，它完全是夏威夷风格的。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.0356,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0356
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

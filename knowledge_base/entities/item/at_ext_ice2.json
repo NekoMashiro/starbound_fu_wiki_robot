@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_ice2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Lemon Frost Pop",
+  "name_zh": "柠檬雪泡汽水",
+  "description_en": "A bottled lemon soda that tastes even better chilled.\nGrants the [Lemon Frost Pop] effect when consumed.",
+  "description_zh": "柠檬味的瓶装汽水，冰一下更好喝。\n饮用后给予[柠檬雪泡]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 530
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

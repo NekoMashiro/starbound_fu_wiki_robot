@@ -1,0 +1,28 @@
+{
+  "entity_id": "fuavianblueprintm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Avian Schematics (Power)",
+  "name_zh": "翼族盔甲架构图(力量)",
+  "description_en": "The blueprints for potent Avian armour.",
+  "description_zh": "翼族强力盔甲的蓝图。",
+  "rarity": "legendary",
+  "category": "Blueprint",
+  "price": 4500,
+  "tags": [],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.0437,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "densiniumchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Chair",
+  "name_zh": "超致密椅子",
+  "description_en": "A chair made from densinium.",
+  "description_zh": "由超致密锭制成的椅子。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "densinium",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

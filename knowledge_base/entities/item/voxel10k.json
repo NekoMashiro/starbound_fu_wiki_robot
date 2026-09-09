@@ -1,0 +1,65 @@
+{
+  "entity_id": "voxel10k",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "10k Voxel",
+  "name_zh": "10K 像素块",
+  "description_en": "10000 pixels compressed into a voxel. Decompress it to get those pixels back.",
+  "description_zh": "由10000个像素压缩而来。可以重新解压缩取回部分消耗掉的像素。",
+  "rarity": "Common",
+  "category": "currency",
+  "price": 10000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10000
+        }
+      ],
+      "output_count": 1,
+      "station": "Pixel Compressor",
+      "station_zh": "像素压缩机",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10010
+        }
+      ],
+      "output_count": 1,
+      "station": "Hyper Compressor",
+      "station_zh": "究极压缩机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "capturegun",
+          "capturegunweak"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "money",
+          "money"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "sentrybotcapturebotmega"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,82 @@
+{
+  "entity_id": "supermatter",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Erchius Crystal",
+  "name_zh": "能源晶体",
+  "description_en": "A crystal used to power FTL technology. It's still not fully understood.\nExtractable, Crushable.",
+  "description_zh": "一种用于给FTL引擎供能的水晶。至今还未完全的理解它的原理。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 10,
+        "examples": [
+          "fu_ftl_human",
+          "fu_ftl_humanDeco",
+          "fu_ftldrive2deco",
+          "fu_ftldrive3deco",
+          "fu_ftldrivedeco"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "erchiusghostback"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "tw_hylotltechstation"
+        ]
+      },
+      "container": {
+        "count": 1,
+        "examples": [
+          "tw_hylotlfuelhatch"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "tw_hylotlshiplocker"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "isn_annihilator"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "pureerchius"
+        ]
+      }
+    },
+    "total": 16
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erchibuddrop",
+          "probability": 1.0,
+          "count": 10,
+          "monsters": [
+            "erchibud",
+            "erchibudbaby"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

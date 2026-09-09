@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_cybernetic_drone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cybernetic Drone",
+  "name_zh": "赛博工蜂",
+  "description_en": "Cybernetic Drone",
+  "description_zh": "赛博工蜂",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "drone"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "metalqueen",
+          "probability": 0.75,
+          "count": 1,
+          "monsters": [
+            "metalbee"
+          ]
+        },
+        {
+          "pool": "bee_cybernetic",
+          "probability": 0.6,
+          "count": 1,
+          "monsters": [
+            "bee_cybernetic"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.6,
+        0.75
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "avesmingoicecreamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Avesmingo Ice Cream",
+  "name_zh": "百味果冰淇淋",
+  "description_en": "Avesmingos can taste like anything! For better or worse, so can this ice cream",
+  "description_zh": "百味果尝起来像任何东西！不管是好是坏，这个冰淇淋也可以",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 350,
+  "tags": [
+    "cooking",
+    "parlor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "avesmingoicecream",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "avesmingoicecream"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

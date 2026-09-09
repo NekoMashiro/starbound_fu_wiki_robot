@@ -1,0 +1,63 @@
+{
+  "entity_id": "cuterocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Rocket Launcher",
+  "name_zh": "棱镜火箭发射器",
+  "description_en": "Multicolored blasts of joy!\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "多彩爆炸的快乐！\n能量武器",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 550,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic",
+    "explosive"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 2,
+  "critBonus": 3,
+  "altAbilityType": "swtjc_ewg_bouncingorbitals",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Prismatic Rocket Launcher.md",
+  "quality_tier": "A"
+}

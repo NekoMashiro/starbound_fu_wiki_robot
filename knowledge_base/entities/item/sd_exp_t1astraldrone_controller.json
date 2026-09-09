@@ -1,0 +1,40 @@
+{
+  "entity_id": "sd_exp_t1astraldrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Cephied Controller",
+  "name_zh": "彗星无人机控制器",
+  "description_en": "A small drone developed by Arcanians, powered with Azurium.\r\n  [Primary]Spawn/Despawn，[Alt]Fire.",
+  "description_zh": "守秘族开发的小型无人机，由蔚蓝精纯驱动。\n[左键]释放/收回，[右键]开火射击[Shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1200
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

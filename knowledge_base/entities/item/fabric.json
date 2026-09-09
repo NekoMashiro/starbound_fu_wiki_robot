@@ -1,0 +1,137 @@
+{
+  "entity_id": "fabric",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Woven Fabric",
+  "name_zh": "布料",
+  "description_en": "A small square of woven fabric.",
+  "description_zh": "一小块布料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    },
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 60,
+        "examples": [
+          "arcana_abyssal_deco_3",
+          "arcana_astral_deco_13",
+          "arcana_astral_deco_14",
+          "arcana_astral_deco_15",
+          "arcana_astral_deco_16"
+        ]
+      },
+      "chestwear": {
+        "count": 54,
+        "examples": [
+          "apexcommanderjacket",
+          "apexnavyjacket",
+          "apexofficerjacket",
+          "apexspecialistjacket",
+          "arcana_armor_disciple_chest"
+        ]
+      },
+      "legwear": {
+        "count": 52,
+        "examples": [
+          "apexcommanderpants",
+          "apexnavypants",
+          "apexofficerpants",
+          "apexspecialistpants",
+          "arcana_armor_disciple_legs"
+        ]
+      },
+      "furniture": {
+        "count": 44,
+        "examples": [
+          "arcana_astral_bed_1",
+          "arcana_astral_chair_1",
+          "arcana_astral_chair_2",
+          "arcana_astral_chair_3",
+          "arcana_astral_table_2"
+        ]
+      },
+      "teleportMarker": {
+        "count": 29,
+        "examples": [
+          "apexflagpole",
+          "avianflagpole",
+          "flagapex",
+          "flagarcanian",
+          "flagavian"
+        ]
+      },
+      "headarmour": {
+        "count": 28,
+        "examples": [
+          "apextier1head",
+          "arcana_armor_disciple_head",
+          "arcana_armor_goldmonger_head",
+          "arcana_armor_lushe_head",
+          "arcana_armor_oceanite_head"
+        ]
+      },
+      "chestarmour": {
+        "count": 23,
+        "examples": [
+          "apextier1chest",
+          "aviantier1chest",
+          "bloodhoundchest",
+          "boosterchest",
+          "florantier1chest"
+        ]
+      },
+      "legarmour": {
+        "count": 21,
+        "examples": [
+          "apextier1pants",
+          "armoredsnowpants",
+          "aviantier1pants",
+          "bloodhoundlegs",
+          "boosterlegs"
+        ]
+      }
+    },
+    "total": 343
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "currentcorn",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Currentcorn",
+  "name_zh": "液体玉米",
+  "description_en": "Currentcorn, full of acid. Not good for fleshy creatures. Type: Robot Food",
+  "description_zh": "会长出液体玉米，充满了酸。对碳基生物不好。\n类型：机械食物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "currentcornbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "2kbpotage",
+          "automatostew",
+          "desertsalsa",
+          "smash"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "currentcornbasket"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "pozest"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "currentcornHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "2kbpotage"
+  ],
+  "quality_tier": "S"
+}

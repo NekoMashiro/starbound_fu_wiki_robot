@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_horncaster_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Horncaster's Avarice",
+  "name_zh": "角魔之贪婪",
+  "description_en": "An ancient armor forged with blue immorite. \n\nSet Bonus: \nGrants +15% Magic damage, +10% Physical RES and +60% Energy Regen Rate.",
+  "description_zh": "由蓝色熔岩浇筑的不朽盔甲。\n\n套装效果：\n获得+15%魔法伤害、+10%物理抗性和+60%能量恢复速率。",
+  "rarity": "Essential",
+  "category": "chestwear",
+  "price": 4000,
+  "tags": [],
+  "level": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedImmorite",
+          "count": 16
+        },
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_armor_aeon_chest",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

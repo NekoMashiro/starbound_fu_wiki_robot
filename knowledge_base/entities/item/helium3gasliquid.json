@@ -1,0 +1,65 @@
+{
+  "entity_id": "helium3gasliquid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Helium-3",
+  "name_zh": "氦-3",
+  "description_en": "Exceptional in nuclear applications despite being non-radioactive.\nCentrifugable.",
+  "description_zh": "核反应中的一种特殊材料，尽管没有放射性。\n可离心。",
+  "rarity": "uncommon",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "fuplasmacore",
+          "nuclearcore",
+          "nuclearcore",
+          "unstableparticles"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "batterypack_quantum"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "ionrifle"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "neutronium"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "pistolirradiumfu"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "rifleirradiumfu"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "tyvokkseed"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "wiki_ref": "Helium-3.md",
+  "quality_tier": "A"
+}

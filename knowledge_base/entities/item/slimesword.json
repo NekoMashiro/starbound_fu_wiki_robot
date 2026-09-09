@@ -1,0 +1,72 @@
+{
+  "entity_id": "slimesword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Sword",
+  "name_zh": "",
+  "description_en": "A sword made out of slime.\tStrange, but effective.",
+  "description_zh": "",
+  "rarity": "Uncommon",
+  "category": "broadsword",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "slime",
+    "bioweapon",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "downstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 2
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 1
+        },
+        {
+          "item": "slime",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0342,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "B"
+}

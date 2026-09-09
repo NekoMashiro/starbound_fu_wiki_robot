@@ -1,0 +1,60 @@
+{
+  "entity_id": "energiflowerseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energiflower Seed",
+  "name_zh": "能量花种子",
+  "description_en": "An orb of glowing energy growing from a plant.",
+  "description_zh": "可以收获能量花，食用后会提高能量回复速度，除了吃之外它也可以当燃料。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 16,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 45
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "kiwiseed",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 20
+        },
+        {
+          "item": "biospore",
+          "count": 25
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "energiflowerHarvest",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "telebriumchakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Chakram",
+  "name_zh": "月海环刃",
+  "description_en": "Bounces off walls\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "撞到墙壁时反弹\n能量武器",
+  "rarity": "common",
+  "category": "chakram",
+  "price": 110,
+  "tags": [
+    "weapon",
+    "chakram",
+    "telebrium",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Telebrium Chakram.md",
+  "quality_tier": "A"
+}

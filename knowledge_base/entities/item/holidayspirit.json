@@ -1,0 +1,92 @@
+{
+  "entity_id": "holidayspirit",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Holiday Spirit",
+  "name_zh": "假日精神",
+  "description_en": "The essence of the holiday season, in its purest form!",
+  "description_zh": "节日的本质，以最纯粹的形式！",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Toymaker's Table",
+      "station_zh": "玩具商桌子",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 31,
+        "examples": [
+          "dreidel",
+          "giantbells",
+          "giantbow1",
+          "giantbow2",
+          "giantsanta"
+        ]
+      },
+      "storage": {
+        "count": 7,
+        "examples": [
+          "bigpresent",
+          "giftmonsterbox",
+          "giftmonstersmallbox",
+          "present1",
+          "present2"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "decoratedtree",
+          "holidaycandles",
+          "holidaylights",
+          "menorah"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "hotholidaychest",
+          "mrclauschest"
+        ]
+      },
+      "headwear": {
+        "count": 2,
+        "examples": [
+          "hotholidayhead",
+          "mrclaushead"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "hotholidaypants",
+          "mrclauspants"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "mrclausback"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "wiki_ref": "Holiday Spirit.md",
+  "quality_tier": "S"
+}

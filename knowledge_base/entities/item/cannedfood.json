@@ -1,0 +1,132 @@
+{
+  "entity_id": "cannedfood",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Canned Food",
+  "name_zh": "罐装食品",
+  "description_en": "Not the best quality food, but it's filling and will keep for a long time.",
+  "description_zh": "或许质量不是顶尖的，但这罐头能把食物保存很长很长一段时间。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "canstack",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "canstack"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 29,
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 4.0,
+          "count": 1.0
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 4.0,
+          "count": 1.0
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 4.0,
+          "count": 1.0
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 4.0,
+          "count": 1.0
+        },
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 4.0,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.325,
+        4.0
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_starter",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "at_ext_d11_supply",
+          "probability": 1.0,
+          "count": 5
+        },
+        {
+          "pool": "at_ext_d1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d1_goal",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d2",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d3",
+          "probability": 1.0,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

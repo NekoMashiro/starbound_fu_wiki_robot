@@ -1,0 +1,251 @@
+{
+  "entity_id": "myphisinjector",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Myphis Mist Injector",
+  "name_zh": "麦菲思薄雾注射器",
+  "description_en": "A mysterious drug.\nHammered, -50% Run, -30% Jump, +15% All Res, Extremely Caffeinated (220s) Madness Gain 1",
+  "description_zh": "一种神秘的药物。\n 锤击-50%奔跑-30%跳跃+15%全部Res极度含咖啡因（220s）癫狂1",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 3500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fucontrabandgoods",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "darkmatter",
+          "count": 1
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 50
+        },
+        {
+          "item": "ff_mercury",
+          "count": 4
+        },
+        {
+          "item": "aliencompound",
+          "count": 2
+        },
+        {
+          "item": "uraniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "unusualRelic": {
+        "count": 1,
+        "examples": [
+          "carving"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "apiary_frame_narcotic"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 94,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0304,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.003,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0023,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0023,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0304
+      ]
+    },
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.004,
+          "count": 1
+        },
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0014,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffbanditTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.004
+      ]
+    },
+    "chest_loot": {
+      "count": 59,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0021,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0005,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0027
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0012,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0003
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

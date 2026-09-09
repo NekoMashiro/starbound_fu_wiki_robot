@@ -1,0 +1,76 @@
+{
+  "entity_id": "relocator",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Relocator",
+  "name_zh": "转移枪",
+  "description_en": "Holds 3 creatures in stasis in order to relocate them. Upgrade using your Tricorder.",
+  "description_zh": "将3只生物停滞，之后可以转移它们。\n可在三度仪进行升级。",
+  "rarity": "Legendary",
+  "category": "relocator",
+  "price": 1500,
+  "tags": [
+    "upgradeableTool",
+    "tool"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "改造台",
+          "name_zh": "改造台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extrachallengelabrelocator",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "relocator2.png:0",
+    "seed": "",
+    "shortdescription": "转移枪 II ^cyan;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Relocator.md",
+  "quality_tier": "S"
+}

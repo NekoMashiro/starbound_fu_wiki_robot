@@ -1,0 +1,68 @@
+{
+  "entity_id": "liquidironfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Iron",
+  "name_zh": "液态铁",
+  "description_en": "Iron Fe has a melting point of 1811K (1537C). Let that be a word of caution.\nExtractable, Centrifugable.",
+  "description_zh": "铁Fe的熔点为1811K (1537C)。既然前面都说过了那就别作死。\n可离心。",
+  "rarity": "Uncommon",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidlava",
+          "count": 1
+        },
+        {
+          "item": "ironore",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "fu_carbon",
+          "moltencore"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "lavawhiskey"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "ironfilings"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "ironfilings"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "ironfilings"
+    }
+  ],
+  "quality_tier": "S"
+}

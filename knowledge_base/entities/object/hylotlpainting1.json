@@ -1,0 +1,59 @@
+{
+  "entity_id": "hylotlpainting1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Traditional Wave Painting",
+  "name_zh": "传统波浪绘画",
+  "description_en": "It's a painting of a great big wave.",
+  "description_zh": "一个大浪的绘图。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 70,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "hylotlruinedcastleChestTreasure",
+          "probability": 0.03,
+          "count": 1
+        },
+        {
+          "pool": "hylotlruinedcityChestTreasure",
+          "probability": 0.0283,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0283,
+        0.03
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

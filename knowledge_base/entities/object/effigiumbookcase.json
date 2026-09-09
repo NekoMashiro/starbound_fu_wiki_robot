@@ -1,0 +1,46 @@
+{
+  "entity_id": "effigiumbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Bookcase",
+  "name_zh": "幻影书柜",
+  "description_en": "A bookcase full of books. It seems to be fading out of existence.",
+  "description_zh": "一个装满书的书柜。它似乎正在消失。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 160,
+  "tags": [
+    "effigium",
+    "knowledge",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 10
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

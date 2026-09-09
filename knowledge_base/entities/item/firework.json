@@ -1,0 +1,47 @@
+{
+  "entity_id": "firework",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Red Firework",
+  "name_zh": "红色烟火",
+  "description_en": "Time for a celebration!",
+  "description_zh": "庆祝时刻！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 1
+        },
+        {
+          "item": "reddye",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Toymaker's Table",
+      "station_zh": "玩具商桌子",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "fireworkgun"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

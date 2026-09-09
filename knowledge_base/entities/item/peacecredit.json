@@ -1,0 +1,80 @@
+{
+  "entity_id": "peacecredit",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Peace Credit",
+  "name_zh": "和平点",
+  "description_en": "A reward token used to reward members of the Terrene Peacekeepers.",
+  "description_zh": "用来奖励大地和平卫士成员的一种奖励凭据。",
+  "rarity": "Common",
+  "category": "currency",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "mysteriousReward": {
+        "count": 12,
+        "examples": [
+          "bountyrewardbag_gun",
+          "bountyrewardbag_gun",
+          "bountyrewardbag_gun",
+          "bountyrewardbag_gun",
+          "bountyrewardbag_ore"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 6,
+        "examples": [
+          "gluesprayer",
+          "neolaserlauncher",
+          "neomagnum1",
+          "neomagnum2",
+          "neomagnum3"
+        ]
+      },
+      "eppAugment": {
+        "count": 3,
+        "examples": [
+          "peacekeeperaugment1",
+          "peacekeeperaugment2",
+          "peacekeeperaugment3"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmneolaser",
+          "mechbodypeacekeeper"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "filledcapturepod",
+          "stungrenade"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "laserminer"
+        ]
+      },
+      "Drone": {
+        "count": 1,
+        "examples": [
+          "miningdrone"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "peacekeeperchest"
+        ]
+      }
+    },
+    "total": 33
+  },
+  "wiki_ref": "Peace Credit.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "densiniumnightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Nightstand",
+  "name_zh": "超致密床头柜",
+  "description_en": "A nightstand made from densinium.",
+  "description_zh": "由超致密锭制成的床头柜。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "densinium",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

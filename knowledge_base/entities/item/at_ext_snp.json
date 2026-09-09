@@ -1,0 +1,35 @@
+{
+  "entity_id": "at_ext_snp",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "LR-1301 ''Fortress''",
+  "name_zh": "LR-1301 “堡垒”",
+  "description_en": "''bullet guards your private space.''\r\nA prototype sniper rifle fabricated by Section 8.",
+  "description_zh": "“子弹最能保卫你的私人空间。”\n一把齿轮八科生产的原型狙击步枪。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperRifle"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 20,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_snp",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

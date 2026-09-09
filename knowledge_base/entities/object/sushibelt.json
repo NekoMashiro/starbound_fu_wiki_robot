@@ -1,0 +1,30 @@
+{
+  "entity_id": "sushibelt",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sushi Belt",
+  "name_zh": "寿司带",
+  "description_en": "Sushi on a conveyer belt! I guess you could call it a Sushi-Go-Round!",
+  "description_zh": "传送带上的寿司！我猜你可以称之为寿司围观！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "sushibar",
+    "cooking"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sushibelt",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

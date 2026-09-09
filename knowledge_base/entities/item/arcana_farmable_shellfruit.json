@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_farmable_shellfruit",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Shellfruit",
+  "name_zh": "贝壳果",
+  "description_en": "A fruit that is often found in caverns, with a hardened shell. The inside however, is soft and creamy.",
+  "description_zh": "一种经常能在洞穴中发现的水果，外壳坚硬。但里面的果肉却柔软而绵密。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 140,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "arcana_food_stuffedshellfruit",
+          "arcana_food_sweetfeastmedley"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_shellfruit",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

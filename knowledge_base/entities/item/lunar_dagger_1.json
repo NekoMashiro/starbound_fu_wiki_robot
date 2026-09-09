@@ -1,0 +1,51 @@
+{
+  "entity_id": "lunar_dagger_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Hangetsu Tanto",
+  "name_zh": "半月短刀",
+  "description_en": "A small tanto made from luminarium.",
+  "description_zh": "由月金做成的小短刀。",
+  "rarity": "Legendary",
+  "category": "dagger",
+  "price": 3200,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger"
+  ],
+  "elementalType": "arcana_lunar",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 19.0,
+  "primaryAbilityType": "arcana_daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_luminariumBar",
+          "count": 7
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 16
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

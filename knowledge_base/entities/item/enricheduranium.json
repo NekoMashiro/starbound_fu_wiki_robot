@@ -1,0 +1,92 @@
+{
+  "entity_id": "enricheduranium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Enriched Uranium Rod",
+  "name_zh": "浓缩铀棒",
+  "description_en": "An improved form of uranium.\n+25 Fuel",
+  "description_zh": "铀的一种改良形态。\n燃料+25",
+  "rarity": "rare",
+  "category": "fuel",
+  "price": 250,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidfuel",
+          "count": 10
+        },
+        {
+          "item": "deuterium",
+          "count": 1
+        },
+        {
+          "item": "uraniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "chargemachinegun"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fu_dumecharm"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "rifleirradiumfu"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "uraniumaxe"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "uraniumbroadsword"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "uraniumdagger"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "uraniumhammer"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "uraniumshortsword"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "quality_tier": "S"
+}

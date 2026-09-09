@@ -1,0 +1,51 @@
+{
+  "entity_id": "wort",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wort",
+  "name_zh": "麦芽汁",
+  "description_en": "Wort! Used for making beer!",
+  "description_zh": "麦芽汁！用于酿造啤酒！",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 70,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "malt",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 3,
+        "examples": [
+          "beer",
+          "lambic",
+          "meadbottle"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidbeer"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

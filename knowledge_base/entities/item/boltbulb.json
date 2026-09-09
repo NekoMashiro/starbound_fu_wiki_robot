@@ -1,0 +1,72 @@
+{
+  "entity_id": "boltbulb",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Boltbulb",
+  "name_zh": "钉丝球",
+  "description_en": "Boltbulb! Surprisingly soft. Type: Robot Food",
+  "description_zh": "钉丝球！令人惊讶的软。\n类型：机械食物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boltbulbbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 5,
+        "examples": [
+          "16gbpasty",
+          "8gbpizzap",
+          "boltos",
+          "nutsandbolts",
+          "smash"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "boltbulbbasket"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "pozest"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boltbulbHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "8gbpizzap",
+    "boltos"
+  ],
+  "quality_tier": "S"
+}

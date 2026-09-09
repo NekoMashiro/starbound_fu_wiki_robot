@@ -1,0 +1,58 @@
+{
+  "entity_id": "fuwoodbarrels",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wooden Kegs",
+  "name_zh": "木制桶",
+  "description_en": "Handy for storing delicious (and nutritious!) alcohols.",
+  "description_zh": "用于储存各种美味(又营养)的酒。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

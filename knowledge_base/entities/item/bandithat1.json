@@ -1,0 +1,27 @@
+{
+  "entity_id": "bandithat1",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bandit's Bandana",
+  "name_zh": "强盗头巾",
+  "description_en": "A bandit's bandana.",
+  "description_zh": "一条强盗的头巾。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "banditTreasure",
+          "probability": 0.01,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

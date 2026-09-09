@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorwidepipehuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Power Socket",
+  "name_zh": "先驱能源管道",
+  "description_en": "A huge socket for accepting intense energies.",
+  "description_zh": "一个用于探测强烈能量的巨型管道。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 500,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0192,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0192,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0107,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0107,
+        0.0192
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_jumonjiTwig",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Jumonji Twig",
+  "name_zh": "十文字枝",
+  "description_en": "This plant is a symbol of authority in the land of Hylotls.\n For 50s after drinking, increases Damage by 10%/15% if standing/crouching. +15s Cooldown Time",
+  "description_zh": "在鲛人的国度，这株植物象征着权力。\n饮用后50秒内，玩家静止站立时获得+10%伤害，下蹲时改为+20%伤害。冷却时间+15秒",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

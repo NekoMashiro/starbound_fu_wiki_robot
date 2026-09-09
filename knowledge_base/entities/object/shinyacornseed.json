@@ -1,0 +1,64 @@
+{
+  "entity_id": "shinyacornseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Helkat Tree",
+  "name_zh": "赫尔卡特树种子",
+  "description_en": "Delicious nuts that increase your vitality.",
+  "description_zh": "可以收获赫尔卡特坚果，食用后会提高生命值上限。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 130
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 32
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "automatoseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 16
+        },
+        {
+          "item": "bugshell",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shinyacornHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "quiverback4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amazing Quiver",
+  "name_zh": "惊奇箭袋",
+  "description_en": "+25% Damage (Bows)\r\n+25% Draw Speed (Bows)\r\n+12% Airborne Damage (Bows)\r\n-7 Energy Per Shot (Bows)",
+  "description_zh": "伤害（弓箭）+25%\n上弦速度（弓箭）+25% \n空射伤害（弓箭）+12%\n每击能量消耗（弓箭）-7",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1450,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quiverback3",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "silk",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "quiverback5"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

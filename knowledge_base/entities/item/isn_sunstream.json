@@ -1,0 +1,68 @@
+{
+  "entity_id": "isn_sunstream",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Polaris",
+  "name_zh": "北极星",
+  "description_en": "The sun, in your hands. Truly deadly, and unique.\r\nHoming alt\r\nBouncing projectiles",
+  "description_zh": "其内蕴含的能量犹如恒星般庞大。这把致命而独特的武器如今为你所用。\n次要攻击可跟踪目标\n弹跳弹",
+  "rarity": "legendary",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "plasma",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 4.75,
+  "critChance": 4,
+  "critBonus": 7,
+  "altAbilityType": "floatydeathball",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moltencore",
+          "count": 2
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "pyreitebar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

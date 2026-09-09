@@ -1,0 +1,50 @@
+{
+  "entity_id": "network_grabber2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grabber v2",
+  "name_zh": "采集器 II",
+  "description_en": "Better capacity Grabber. Grabs items from the world. Range: 8.\r\nInput: On/Off Switch\r\nOutput: item network",
+  "description_zh": "有更大容量的采集器，从世界中采集物品。范围：8格。\n输入节点： 电源开关\n输出节点： 物品网络",
+  "rarity": "Rare",
+  "category": "wire",
+  "price": 64,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "network_grabber",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_grabber3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Grabber v2.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "fushocklance",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shocklance",
+  "name_zh": "电击长矛",
+  "description_en": "Shockingly deadly.\r\nDestructive Alt-Fire\r\nPrimary fire does secondary physical damage",
+  "description_zh": "羊教授狂喜。\n毁灭性的次要攻击\n主要攻击可以造成二次物理伤害",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 8,
+  "critBonus": 12,
+  "altAbilityType": "shocklancepower2",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

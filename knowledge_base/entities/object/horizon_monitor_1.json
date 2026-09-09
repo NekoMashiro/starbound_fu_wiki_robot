@@ -1,0 +1,53 @@
+{
+  "entity_id": "horizon_monitor_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Small Info Screen",
+  "name_zh": "小型信息显示器",
+  "description_en": "An info display screen.",
+  "description_zh": "恰如其名",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 120,
+  "tags": [
+    "horizon",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "fubonepickaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Curved Bone Blade",
+  "name_zh": "曲骨匕首",
+  "description_en": "Primitive weaponry.",
+  "description_zh": "一把原始的武器。",
+  "rarity": "Common",
+  "category": "dagger",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon",
+    "bone"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "livingroot",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

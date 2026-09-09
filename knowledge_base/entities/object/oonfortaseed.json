@@ -1,0 +1,60 @@
+{
+  "entity_id": "oonfortaseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Oonforta Seed",
+  "name_zh": "奥弗塔球种子",
+  "description_en": "The Oonforta grows glowing bulbs on tails that can be tossed for light.",
+  "description_zh": "在主干上会长出发光的球形果实。可以收获奥弗塔球，投掷出去可以照明。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 11,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 2
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "mushroomseed",
+          "count": 3
+        },
+        {
+          "item": "biospore",
+          "count": 10
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "oonfortaHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

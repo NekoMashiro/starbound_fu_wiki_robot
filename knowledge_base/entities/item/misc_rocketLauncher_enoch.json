@@ -1,0 +1,35 @@
+{
+  "entity_id": "misc_rocketLauncher_enoch",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Enoch",
+  "name_zh": "以诺",
+  "description_en": "A prototype plasma rocket launcher of alien origin.",
+  "description_zh": "源自异星的等离子火箭发射器原型。",
+  "rarity": "Legendary",
+  "category": "rocketLauncher",
+  "price": 2100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "electric",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 19.2,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

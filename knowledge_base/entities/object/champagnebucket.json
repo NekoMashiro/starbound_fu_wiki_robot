@@ -1,0 +1,35 @@
+{
+  "entity_id": "champagnebucket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Champagne Bucket",
+  "name_zh": "香槟酒桶",
+  "description_en": "Break out the bubbly!",
+  "description_zh": "快开香槟庆祝吧！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "champagne",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

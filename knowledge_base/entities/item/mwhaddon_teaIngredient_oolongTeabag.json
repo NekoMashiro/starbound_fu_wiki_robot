@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_oolongTeabag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Oolong Teabag",
+  "name_zh": "精选乌龙茶包",
+  "description_en": "A teabag for brewing oolong tea at a tea brewer.\n Restore all Energy after drinking, and you gain Infinite Energy for 7 seconds.",
+  "description_zh": "泡茶机冲泡乌龙茶用的茶袋。\n饮用时立刻恢复全部能量，且饮用后7秒内不消耗能量。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaStarterPack",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

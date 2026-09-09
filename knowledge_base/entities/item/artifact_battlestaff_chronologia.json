@@ -1,0 +1,59 @@
+{
+  "entity_id": "artifact_battlestaff_chronologia",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Chronologia",
+  "name_zh": "时史录",
+  "description_en": "A mystical battlestaff infused with ancient powers.",
+  "description_zh": "一把注入了古老力量的神秘战杖。",
+  "rarity": "Essential",
+  "category": "staff",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "staff",
+    "aeon"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "切换形态",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "aeon_lance_1",
+          "count": 1
+        },
+        {
+          "item": "aeon_battleaxe_1",
+          "count": 1
+        },
+        {
+          "item": "aeon_shortbow_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

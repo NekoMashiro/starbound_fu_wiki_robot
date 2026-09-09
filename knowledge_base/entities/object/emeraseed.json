@@ -1,0 +1,79 @@
+{
+  "entity_id": "emeraseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Emera Crystal Seed",
+  "name_zh": "艾莫拉水晶种子",
+  "description_en": "A brittle gemstone that is spun into strong crystal fabric.",
+  "description_zh": "一种脆性的宝石，纺成坚固的晶体结构。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 360,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 2
+        },
+        {
+          "item": "ammoniumsulfate",
+          "count": 2
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "sahkiteseed",
+          "tokaniteseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "emeraHarvest",
+          "probability": 1.29,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "elduukharStarterTreasure",
+          "probability": 1.0,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

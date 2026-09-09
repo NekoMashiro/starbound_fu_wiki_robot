@@ -1,0 +1,54 @@
+{
+  "entity_id": "penumbritewhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Chain Knife",
+  "name_zh": "半影链刃",
+  "description_en": "A chain knife fashioned from penumbrite, also makes a great glowstick.",
+  "description_zh": "",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

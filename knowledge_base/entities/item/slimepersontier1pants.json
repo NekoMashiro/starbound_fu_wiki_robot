@@ -1,0 +1,43 @@
+{
+  "entity_id": "slimepersontier1pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Knee Protection Gem",
+  "name_zh": "史莱姆护膝宝石",
+  "description_en": "A small gem made of slime which grants limited protection.",
+  "description_zh": "一种用粘胶制成的小宝石，能提供有限的保护。",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 320,
+  "tags": [
+    "tier1armour",
+    "balanced"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegem",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "slimepersontier2pants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

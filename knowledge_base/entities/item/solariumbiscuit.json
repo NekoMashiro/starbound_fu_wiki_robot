@@ -1,0 +1,35 @@
+{
+  "entity_id": "solariumbiscuit",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solarium Biscuit",
+  "name_zh": "日曜石饼干",
+  "description_en": "Super-dangerous to eat if you can't roll in radiation.\n+30% Radiation Res (5m)",
+  "description_zh": "如果你不能在放射物里翻滚的话，吃下它是极其危险的。\n+30%辐射抗性(持续5m)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 220
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

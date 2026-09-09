@@ -1,0 +1,65 @@
+{
+  "entity_id": "exousia_imperialArmy_1_broadsword_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Blutstark",
+  "name_zh": "EIA1烈血",
+  "description_en": "A large plasma blade wielded by Exousian frontine elites and commanders.",
+  "description_zh": "威权前线精英和指挥官装配的大型等离子剑刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 920,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 12.2,
+  "primaryAbilityType": "broadswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 16
+        },
+        {
+          "item": "arcana_misc_behestDongle",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T8",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "nitrogengun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nitrogen Cannon",
+  "name_zh": "氮气炮",
+  "description_en": "Effective in most situations, though somewhat chilling.\r\nInflicts freezing",
+  "description_zh": "虽然拿上去有些冰冷，却是一个优秀的武器。\n附加冻结效果",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "isogen",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 6.6,
+  "critChance": 5,
+  "critBonus": 5,
+  "altAbilityType": "icemist",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidnitrogenitem",
+          "count": 24
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

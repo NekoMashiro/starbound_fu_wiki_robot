@@ -1,0 +1,66 @@
+{
+  "entity_id": "gravgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gravity Gun",
+  "name_zh": "重力之枪",
+  "description_en": "Condenses gravity into focused blasts.\r\nMoves enemies. A lot.\r\nExtreme Knockback (Alt)",
+  "description_zh": "将重力作为弹药射出。\n击退敌人\n次要攻击可释放出黑洞",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon",
+    "gravity",
+    "explosive"
+  ],
+  "elementalType": "cosmic",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 3,
+  "critChance": 5,
+  "critBonus": 13,
+  "altAbilityType": "shockburstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 6
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Gravity Gun.md",
+  "quality_tier": "A"
+}

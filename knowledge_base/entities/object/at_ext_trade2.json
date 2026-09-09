@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_trade2",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Trade terminal",
+  "name_zh": "[泰坦拓展]贸易终端",
+  "description_en": "An automatic Trade Terminal, Connected to Titan Corp's trading network, goods can be automatically shipped to Titan Corp's Trade Division. ",
+  "description_zh": "一台泰坦重工的贸易终端，与泰坦重工的贸易网络连接，可以自动地将你的货物送往泰坦重工的分销中心。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "storage",
+    "titancorp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

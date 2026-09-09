@@ -1,0 +1,41 @@
+{
+  "entity_id": "huntingtrophy3",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cross Mounted Skull",
+  "name_zh": "裱着头骨的十字板",
+  "description_en": "A skull mounted as a trophy on crossed wood planks.",
+  "description_zh": "头骨被当作战利品裱在交叉的木板上。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "floran",
+    "floranhuntinggrounds",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

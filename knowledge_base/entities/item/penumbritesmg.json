@@ -1,0 +1,64 @@
+{
+  "entity_id": "penumbritesmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Machine Pistol",
+  "name_zh": "半影自动手枪",
+  "description_en": "Specially treated rounds, and a comfortable wrist strap.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.25,
+  "critChance": 1,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

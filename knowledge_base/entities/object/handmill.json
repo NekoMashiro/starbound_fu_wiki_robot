@@ -1,0 +1,41 @@
+{
+  "entity_id": "handmill",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hand Mill",
+  "name_zh": "研磨机",
+  "description_en": "Extracts useful materials from most block types.",
+  "description_zh": "可从绝大部分的块中提取出有用材料。",
+  "rarity": "Essential",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 20,
+  "tags": [
+    "fu",
+    "science",
+    "farm"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Hand Mill.md",
+  "quality_tier": "A"
+}

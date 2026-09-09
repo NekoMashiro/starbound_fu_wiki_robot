@@ -1,0 +1,57 @@
+{
+  "entity_id": "durasteelrevolver",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Durasteel Revolver",
+  "name_zh": "耐钢转轮手枪",
+  "description_en": "A large handgun that packs a punch.",
+  "description_zh": "一柄强力的大型手枪。",
+  "rarity": "Uncommon",
+  "category": "pistol",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

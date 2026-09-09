@@ -1,0 +1,157 @@
+{
+  "entity_id": "redstim",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Red Stim Pack",
+  "name_zh": "红色兴奋剂",
+  "description_en": "A stimpack full of red liquid, grants brief but powerful regeneration!",
+  "description_zh": "能让你在短时间内获得强大自愈能力的红色兴奋剂。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 5
+        },
+        {
+          "item": "livingroot",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Potion Brewery",
+      "station_zh": "魔药酿造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "药剂工作台",
+          "name_zh": "药剂工作台"
+        },
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "redsnow"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 21,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "at_ext_d1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d1_goal",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d2",
+          "probability": 1.0,
+          "count": 2
+        },
+        {
+          "pool": "at_ext_d3",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "at_ext_d4",
+          "probability": 1.0,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.25,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "stimtreasure",
+          "probability": 0.525,
+          "count": 2
+        },
+        {
+          "pool": "apexstimtreasure",
+          "probability": 0.0645,
+          "count": 2
+        },
+        {
+          "pool": "apexfacilitytreasure",
+          "probability": 0.025,
+          "count": 2
+        },
+        {
+          "pool": "labguardtreasure",
+          "probability": 0.0211,
+          "count": 2
+        },
+        {
+          "pool": "labscientisttreasure",
+          "probability": 0.0205,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.525
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.4091,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexfacilitychesttreasure",
+          "probability": 0.0375,
+          "count": 2
+        },
+        {
+          "pool": "apextestfacilityChestTreasure",
+          "probability": 0.028,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.028,
+        0.0375
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

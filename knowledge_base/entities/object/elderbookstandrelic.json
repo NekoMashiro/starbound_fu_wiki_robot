@@ -1,0 +1,73 @@
+{
+  "entity_id": "elderbookstandrelic",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Texts",
+  "name_zh": "古代文本",
+  "description_en": "Seek answers for the present from the past.",
+  "description_zh": "从过去之中寻找今昔之解答。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 2120,
+  "tags": [
+    "madness",
+    "insanity",
+    "elder"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderbookstandwood",
+          "count": 1
+        },
+        {
+          "item": "eldertome",
+          "count": 1
+        },
+        {
+          "item": "aliencompound",
+          "count": 12
+        },
+        {
+          "item": "fu_carbon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Writing Desk",
+      "station_zh": "著书桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ancient Texts",
+          "name_zh": "古代文本"
+        },
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        },
+        {
+          "name": "自动组装器",
+          "name_zh": "自动组装器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "elderbookstand"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

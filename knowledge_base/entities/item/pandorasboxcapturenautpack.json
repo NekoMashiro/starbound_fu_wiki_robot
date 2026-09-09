@@ -1,0 +1,50 @@
+{
+  "entity_id": "pandorasboxcapturenautpack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capturenaut Pack",
+  "name_zh": "捕捉大师背包",
+  "description_en": "A backpack that allows you to have an additional pet.",
+  "description_zh": "可以让你多养一只宠物的背包。",
+  "rarity": "rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

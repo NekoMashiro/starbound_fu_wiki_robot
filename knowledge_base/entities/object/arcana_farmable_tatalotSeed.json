@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_farmable_tatalotSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tatalot Seed",
+  "name_zh": "汁骨果种子",
+  "description_en": "A fruit that tastes like a juicy meat snack. Can also drop bones when harvested.",
+  "description_zh": "一种吃起来像多汁肉干的水果。收获时也会掉落骨头。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 25,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 5
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_tatalot",
+          "probability": 0.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

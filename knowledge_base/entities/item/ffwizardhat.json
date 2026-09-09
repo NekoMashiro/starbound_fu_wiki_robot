@@ -1,0 +1,149 @@
+{
+  "entity_id": "ffwizardhat",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wizard's Cap",
+  "name_zh": "巫师帽",
+  "description_en": "Amazing energy production! Also lowers your rate of descent during falls.",
+  "description_zh": "可产生惊人的能量！也会减缓你的下坠速度。\n降低掉落速度",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 32,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0114,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0114
+      ]
+    },
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0021,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0021,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0021
+      ]
+    },
+    "monster_drops": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0013,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0013
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0002
+      ]
+    }
+  },
+  "wiki_ref": "Wizard's Cap.md",
+  "quality_tier": "A"
+}

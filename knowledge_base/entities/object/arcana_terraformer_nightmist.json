@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_terraformer_nightmist",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nightmist Terraformer",
+  "name_zh": "夜雾转换器",
+  "description_en": "Transforms a planet's climate into a mist filled lightless tomb.",
+  "description_zh": "将一个行星的气候转变为雾气弥漫的无光坟墓。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowtear_tile1",
+          "count": 5
+        },
+        {
+          "item": "glowtear_tile2",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_corridor",
+          "probability": 0.0714,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

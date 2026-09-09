@@ -1,0 +1,40 @@
+{
+  "entity_id": "apexwallpainting1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Modern Painting",
+  "name_zh": "现代画",
+  "description_en": "What does it MEAN?",
+  "description_zh": "这是啥意思？",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "apex",
+    "apexvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

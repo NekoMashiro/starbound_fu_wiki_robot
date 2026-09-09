@@ -1,0 +1,61 @@
+{
+  "entity_id": "fucorerifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Core Rifle",
+  "name_zh": "核心步枪",
+  "description_en": "A primitive Energy blaster.\nProne to overheating\nUpgrade to Empower",
+  "description_zh": "一把原始的能量抛射器。\n升级以充能",
+  "rarity": "common",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 3,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 8
+        },
+        {
+          "item": "corefragmentore",
+          "count": 6
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "",
+    "seed": "",
+    "shortdescription": "核心步枪 MkIII",
+    "scripts": []
+  },
+  "wiki_ref": "Core Rifle.md",
+  "quality_tier": "A"
+}

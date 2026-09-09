@@ -1,0 +1,59 @@
+{
+  "entity_id": "doomswitch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Doom Console",
+  "name_zh": "毁灭控制台",
+  "description_en": "A doom console. Be careful how you operate it - it's watching.",
+  "description_zh": "毁灭控制台。你要小心操作它-它在看着。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 145,
+  "tags": [
+    "evil",
+    "wired",
+    "doom"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "rarefurniture",
+          "probability": 0.027,
+          "count": 1
+        },
+        {
+          "pool": "elduurarefurniture",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.027
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0065
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

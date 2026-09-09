@@ -1,0 +1,216 @@
+{
+  "entity_id": "cactusjuice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cactus Juice",
+  "name_zh": "仙人掌汁",
+  "description_en": "Cool as a cactus. Type: Vegetable",
+  "description_zh": "口感像仙人掌一样爽。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cacti",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "cactusjuiceobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "cactusjuiceobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 37,
+    "chest_loot": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.0792,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0026,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0014,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0792
+      ]
+    },
+    "monster_drops": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.0664,
+          "count": 1
+        },
+        {
+          "pool": "desertTreasure",
+          "probability": 0.0556,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0102,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0053,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0036,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0664
+      ]
+    },
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "extrarations",
+          "probability": 0.0353,
+          "count": 1
+        },
+        {
+          "pool": "extrafood",
+          "probability": 0.0196,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0049,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0353
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "spikycookies"
+  ],
+  "quality_tier": "S"
+}

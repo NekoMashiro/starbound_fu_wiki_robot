@@ -1,0 +1,34 @@
+{
+  "entity_id": "workshop_crafting_plastic",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Plastic",
+  "name_zh": "塑料",
+  "description_en": "A stack of synthetic plastic, very versatile as an assembly material.",
+  "description_zh": "一叠合成塑料，作为组装材料的使用面非常广泛",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 2,
+        "examples": [
+          "workshop_container_19",
+          "workshop_container_20"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "workshop_auto_generator"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

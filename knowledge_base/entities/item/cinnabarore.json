@@ -1,0 +1,317 @@
+{
+  "entity_id": "cinnabarore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cinnabar",
+  "name_zh": "朱砂",
+  "description_en": "A stone that can be used to produce mercury via extraction.",
+  "description_zh": "可以提取出汞。",
+  "rarity": "uncommon",
+  "category": "craftingOre",
+  "price": 70,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 70
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformersulphuric"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "ff_mercury",
+      "bonus": [
+        "fu_nitrogen",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_mercury",
+      "bonus": [
+        "fu_nitrogen",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_mercury",
+      "bonus": [
+        "fu_nitrogen",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 55,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagores",
+          "probability": 19.2,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ashgolemLoot",
+          "probability": 0.1518,
+          "count": 5.3,
+          "monsters": [
+            "adultpoptopfire",
+            "adultpoptopfire2",
+            "adultpoptopfire3",
+            "adultpoptopfiremadness",
+            "adultpoptopfirepet"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0103,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0022,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0018,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1518
+      ]
+    },
+    "chest_loot": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0735,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0148,
+          "count": 5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.006,
+          "count": 5.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0059,
+          "count": 5.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.003,
+          "count": 5.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0735
+      ]
+    },
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0579,
+          "count": 5
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0525,
+          "count": 5,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0431,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0274,
+          "count": 5
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0113,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0579
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0197,
+          "count": 5,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0197
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0008,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0007,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "atropushellhiveunderground",
+      "weight": 1.0
+    },
+    {
+      "biome": "ffhellhiveunderground",
+      "weight": 1.0
+    },
+    {
+      "biome": "sulphuricunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "infernusunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "ffvolcanic",
+      "weight": 0.7
+    },
+    {
+      "biome": "fffleshcaves",
+      "weight": 0.7
+    },
+    {
+      "biome": "strangeseafloor",
+      "weight": 0.6
+    },
+    {
+      "biome": "icewasteunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "icewaste",
+      "weight": 0.5
+    },
+    {
+      "biome": "hellhive",
+      "weight": 0.5
+    }
+  ],
+  "wiki_ref": "Cinnabar.md",
+  "quality_tier": "S"
+}

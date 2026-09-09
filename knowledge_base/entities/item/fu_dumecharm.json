@@ -1,0 +1,32 @@
+{
+  "entity_id": "fu_dumecharm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "DU-Rifle Mech Arm",
+  "name_zh": "DU-步枪机甲臂",
+  "description_en": "High-yield radioactive armor piercing rounds.",
+  "description_zh": "高放射性穿甲弹。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 30
+        },
+        {
+          "item": "enricheduranium",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

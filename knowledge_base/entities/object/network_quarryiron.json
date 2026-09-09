@@ -1,0 +1,54 @@
+{
+  "entity_id": "network_quarryiron",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Quarry",
+  "name_zh": "铁制挖掘器",
+  "description_en": "Mines blocks automatically. Can affect performance\nIN1: On/Off Switch\nIN2: Mine Background\nOUT: To Network\nWidth: 36, Depth: 54\nSpeed: 3\nStrength: 12",
+  "description_zh": "自动挖掘方块。会影响游戏性能。\n输入节点1：电源开关\n输入节点2：开启挖掘背景\n输出节点：物品网络\n挖掘宽度: 36, 挖掘深度: 54\n速度: 3\n力度: 12",
+  "rarity": "uncommon",
+  "category": "wire",
+  "price": 225,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 50
+        },
+        {
+          "item": "network_quarry",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "network_quarrytitanium"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Iron Quarry.md",
+  "quality_tier": "S"
+}

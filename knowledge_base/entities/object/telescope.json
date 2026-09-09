@@ -1,0 +1,83 @@
+{
+  "entity_id": "telescope",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Astronomy Telescope",
+  "name_zh": "天文望远镜",
+  "description_en": "A scientific telescope, perfect for observing the stars.",
+  "description_zh": "科学望远镜，非常适合观察星星。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 400,
+  "tags": [
+    "science",
+    "space"
+  ],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceObject",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.005,
+        0.5
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0053,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0053
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

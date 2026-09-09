@@ -1,0 +1,229 @@
+{
+  "entity_id": "madness_knowledge",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Forgotten Knowledge",
+  "name_zh": "被遗忘的知识",
+  "description_en": "Strange experiments long forgotten, involving bizarre devices and theories.",
+  "description_zh": "早已被遗忘的奇怪的实验，包括奇怪的装置和理论。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "fumadnessresource"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 51,
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0084,
+          "count": 1
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0023,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0015,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.25
+      ]
+    },
+    "monster_drops": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0032,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0014,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0004,
+          "count": 1.0,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0058
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0025,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "glitchmissioncodex",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "chest_loot": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0012,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0009,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0012
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

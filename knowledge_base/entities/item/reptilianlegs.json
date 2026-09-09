@@ -1,0 +1,51 @@
+{
+  "entity_id": "reptilianlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reptile Scale Legs",
+  "name_zh": "爬虫护腿",
+  "description_en": "Set Bonuses:\r\n Damage/Health x1.16\r\n Sword+Shield: +10% Phys. Resist\r\n Axe/Shortspear + Shield: Damage x1.25\r\n Immune: Moderate Heat, Acid.",
+  "description_zh": "套装奖励：\n 伤害/最大HPx1.16\n 剑+盾: +10% 物理抗性\n 斧/短矛 + 盾: 伤害x1.25\n 免疫: 严酷炎热, 酸蚀",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "monsterplating",
+          "count": 3
+        },
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

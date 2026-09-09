@@ -1,0 +1,78 @@
+{
+  "entity_id": "veluu",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "灵猫族",
+  "description_en": "",
+  "description_zh": "由有智慧的猫组成的撕裂种族。一半是热爱和平的自由思想家，而其余的则是渴望战争的怪物。\n\n  食性: 杂食，可进食生肉。\n\n天赋:\n   HP: x1.05, 伤害 x1.05\n  获得 13% 跳跃高度和6% 奔跑速度, 坠落伤害 x0.8\n  抗性: +15% 寒气抗性,+5% 电系抗性\n  也是\n  科技: 撕裂利爪\n  免疫: 丛林泥泞与泥泞\n\n环境:\n  丛林, 原始森林, 森林, 雨林, 沙漠: HP x1.1, 能量 x1.1\n  贫瘠，硫磺，地狱: HP x0.8, 能量 x0.8\n\n武器:\n  拳套专精: +20%\n  匕首专精: 15%\n  臂炮专精: +15%\n\n弱点:\n  抗性: -10% 火炎, 中毒, 辐射, -5% 物理",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "powerMultiplier",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.8
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "fumudslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "fujungleslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "fistMastery",
+        "amount": 0.2
+      },
+      {
+        "stat": "daggerMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "armcannonMastery",
+        "amount": 0.15
+      }
+    ],
+    "diet": "raw_omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.06,
+      "airJumpModifier": 1.13
+    },
+    "tech": [
+      "veluuclaw"
+    ]
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "metallicbrick3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Metallic Trim",
+  "name_zh": "金属饰物",
+  "description_en": "Metal trim for a ship. Includes painted gems.",
+  "description_zh": "船用金属饰物。包括彩绘宝石。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,81 @@
+{
+  "entity_id": "ignuschiliseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ignus Chili Seed",
+  "name_zh": "伊格纳斯辣椒种子",
+  "description_en": "200% spicier than a normal chili. Also makes a handy weapon.",
+  "description_zh": "可以收获伊格纳斯辣椒，它比普通辣椒辣2倍，当然你也可以把它当作武器来投掷。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cell_spliced",
+          "count": 1
+        },
+        {
+          "item": "chiliseed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 16
+        },
+        {
+          "item": "volatilepowder",
+          "count": 20
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "cultiststaff2"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "ignuschili2seed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ignuschiliHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

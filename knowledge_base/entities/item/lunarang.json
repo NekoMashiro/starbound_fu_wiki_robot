@@ -1,0 +1,77 @@
+{
+  "entity_id": "lunarang",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Lunarang",
+  "name_zh": "月镖",
+  "description_en": "That's no moon.",
+  "description_zh": "那不是月亮。",
+  "rarity": "Legendary",
+  "category": "boomerang",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "boomerang"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boomerang",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "phasematter",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "lunarang_l6.png",
+    "seed": "",
+    "shortdescription": "月镖^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Lunarang.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "railhook",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rail Hook",
+  "name_zh": "轨钩",
+  "description_en": "Ride the rails!",
+  "description_zh": "乘坐轨道！",
+  "rarity": "legendary",
+  "category": "tool",
+  "price": 1000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

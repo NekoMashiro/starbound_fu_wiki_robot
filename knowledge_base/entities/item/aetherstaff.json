@@ -1,0 +1,57 @@
+{
+  "entity_id": "aetherstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Staff",
+  "name_zh": "阳清法杖",
+  "description_en": "Two words: Wow.",
+  "description_zh": "两个字：哇。",
+  "rarity": "legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "aetherium",
+    "upgradeableWeapon",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "aetherwand",
+  "altAbilityType": "entropicwarding",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

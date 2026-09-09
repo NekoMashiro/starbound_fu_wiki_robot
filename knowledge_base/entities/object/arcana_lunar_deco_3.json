@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_lunar_deco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Small Sakura Tree",
+  "name_zh": "小樱花树",
+  "description_en": "A small decorative cherry blossom plant.",
+  "description_zh": "小型装饰性樱花植物。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 140,
+  "tags": [
+    "kuromatsu",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 4
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

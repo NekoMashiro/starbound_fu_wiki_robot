@@ -1,0 +1,44 @@
+{
+  "entity_id": "tarconsole",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tar Console",
+  "name_zh": "沥青控制台",
+  "description_en": "A computer console made of tar.",
+  "description_zh": "一个沥青做的电脑控制台。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 60,
+  "tags": [
+    "tar",
+    "odd",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tar",
+          "count": 15
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

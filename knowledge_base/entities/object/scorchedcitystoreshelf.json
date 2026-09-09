@@ -1,0 +1,50 @@
+{
+  "entity_id": "scorchedcitystoreshelf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Metal Store Shelf",
+  "name_zh": "金属货架",
+  "description_en": "A metal shelf packed with store goods.",
+  "description_zh": "一个挤满了货物的金属货架。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "scorched",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

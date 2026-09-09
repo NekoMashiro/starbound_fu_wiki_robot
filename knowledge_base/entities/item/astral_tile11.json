@@ -1,0 +1,64 @@
+{
+  "entity_id": "astral_tile11",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Temple Panel",
+  "name_zh": "奥秘神庙面板",
+  "description_en": "An ancient temple wall.",
+  "description_zh": "古老的神庙墙。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sand2",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.5245,
+          "count": 10
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.2098,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2098,
+        0.5245
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

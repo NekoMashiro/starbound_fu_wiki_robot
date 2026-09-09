@@ -1,0 +1,41 @@
+{
+  "entity_id": "industrialdoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Door",
+  "name_zh": "工业门",
+  "description_en": "A tough automated door, reinforced to be able to survive intense intergalactic conditions.",
+  "description_zh": "一个坚固的自动门，能够在激烈的星际环境中生存下来。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "industrial",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "hazard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

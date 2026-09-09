@@ -1,0 +1,37 @@
+{
+  "entity_id": "network_deedlink",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Colony Deed Rent Collector",
+  "name_zh": "租金收集器",
+  "description_en": "Collects rent from colony deeds within 32 units.\nDisclaimer: This device does not actually pick up anything.",
+  "description_zh": "从32格范围内的殖民地契约中收集租金。\n免责声明：这个设备实际上不会捡起任何东西。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Colony Deed Rent Collector.md",
+  "quality_tier": "A"
+}

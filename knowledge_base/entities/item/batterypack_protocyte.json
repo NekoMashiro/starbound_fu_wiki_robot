@@ -1,0 +1,69 @@
+{
+  "entity_id": "batterypack_protocyte",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Energy Pack",
+  "name_zh": "原体能量背包",
+  "description_en": "An improved energy pack. Immune: proto-poison, electrical storms. Energy x1.15, +20% E. Regen, -10% E. Block, and a slight glow.",
+  "description_zh": "一个先进的能源背包。免疫：原毒，御雷电风暴。能量x1.15，+20%能量恢复速度，-10%能量重充能时间。自带微弱的发光效果。",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        },
+        {
+          "item": "batterypack_erithian",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "batterypack_morphite"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

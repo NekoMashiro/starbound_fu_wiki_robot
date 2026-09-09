@@ -1,0 +1,338 @@
+{
+  "entity_id": "ff_spareparts",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spare Parts",
+  "name_zh": "备用零件",
+  "description_en": "Handy bits. Probably worth extracting, too.",
+  "description_zh": "这是备用零件，也许储存一点会更好。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 12,
+        "examples": [
+          "sentrybotcapturebot",
+          "sentrybotcraft",
+          "sentrybotcraft2",
+          "sentrybotdeathdroid",
+          "sentrybotmining1"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "metalliccleaver",
+          "metallicsword"
+        ]
+      },
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "crankgun"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "crankpistol"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "crankrifle"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "ffskullcap"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechbodycultist"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "metallichammer"
+        ]
+      }
+    },
+    "total": 22
+  },
+  "drop_sources": {
+    "total_pools": 68,
+    "monster_drops": {
+      "count": 22,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.9432,
+          "count": 1.2,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "servitorTreasure",
+          "probability": 0.1818,
+          "count": 1,
+          "monsters": [
+            "eyebaht",
+            "fuchiropterror",
+            "fuomnicannon",
+            "fuomnicannon2",
+            "futrifangle"
+          ]
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0582,
+          "count": 5
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0435,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0378,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.9432
+      ]
+    },
+    "other": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.4422,
+          "count": 14.0
+        },
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0202,
+          "count": 5
+        },
+        {
+          "pool": "brokenMechLoot",
+          "probability": 0.0194,
+          "count": 12
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.4422
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "huntingmechanical",
+          "probability": 0.4132,
+          "count": 1,
+          "monsters": [
+            "fudrone"
+          ]
+        },
+        {
+          "pool": "huntingmechanicalLarge",
+          "probability": 0.215,
+          "count": 1.0,
+          "monsters": [
+            "eyebaht",
+            "nanoswarm"
+          ]
+        },
+        {
+          "pool": "furobotHunting",
+          "probability": 0.1111,
+          "count": 1,
+          "monsters": [
+            "serpentdroid"
+          ]
+        },
+        {
+          "pool": "servitorHunting",
+          "probability": 0.1111,
+          "count": 1,
+          "monsters": [
+            "fuchiropterror",
+            "fuomnicannon2",
+            "futrifangle",
+            "futwigun",
+            "futwigun2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        0.4132
+      ]
+    },
+    "chest_loot": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.3149,
+          "count": 14.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1215,
+          "count": 2.2
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0572,
+          "count": 5.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0566,
+          "count": 2.0
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0368,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.3149
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0198,
+          "count": 5,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1545
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0008,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0007,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "wastelandunderground",
+      "weight": 0.85
+    },
+    {
+      "biome": "urbanwasteland",
+      "weight": 0.55
+    },
+    {
+      "biome": "wastelandmini",
+      "weight": 0.55
+    },
+    {
+      "biome": "urbanwasteland2",
+      "weight": 0.55
+    },
+    {
+      "biome": "wastelandminimoon",
+      "weight": 0.55
+    },
+    {
+      "biome": "parkinglot",
+      "weight": 0.55
+    }
+  ],
+  "wiki_ref": "Spare Parts.md",
+  "quality_tier": "S"
+}

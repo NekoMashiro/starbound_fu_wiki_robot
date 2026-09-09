@@ -1,0 +1,67 @@
+{
+  "entity_id": "arcana_animus",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Animus",
+  "name_zh": "魇灵",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Animus",
+  "friendly_name_zh": "魇灵",
+  "ores": [
+    {
+      "ore": "tungsten",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_animaOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    },
+    {
+      "ore": "violium",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_avostone",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "agrobat",
+    "arcana_gosmet",
+    "bigwormcritter",
+    "darkballcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "pyromantle",
+    "skimbus",
+    "skywurmcritter",
+    "spookit",
+    "wisper"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_arcaneForest"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "wiki_ref": "Animus.md",
+  "quality_tier": "C"
+}

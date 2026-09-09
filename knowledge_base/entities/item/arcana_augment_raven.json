@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_augment_raven",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gilded Key - Raven",
+  "name_zh": "金键 - 渡鸦",
+  "description_en": "Grants resistance to fall damage, +60% attack, +60% speed and -40% health.",
+  "description_zh": "赋予对坠落伤害的抗性，+60%攻击，+60%速度但-40%最大生命。",
+  "rarity": "Essential",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "damageaugment1",
+          "count": 1
+        },
+        {
+          "item": "damageaugment2",
+          "count": 1
+        },
+        {
+          "item": "damageaugment3",
+          "count": 1
+        },
+        {
+          "item": "mobilityaugment",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

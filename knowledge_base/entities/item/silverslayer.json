@@ -1,0 +1,63 @@
+{
+  "entity_id": "silverslayer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Carbine",
+  "name_zh": "半影卡宾枪",
+  "description_en": "Specially treated rounds in a convenient package.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "silver",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 6.5,
+  "critChance": 1,
+  "critBonus": 8,
+  "altAbilityType": "swtjc_ewg_slowgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

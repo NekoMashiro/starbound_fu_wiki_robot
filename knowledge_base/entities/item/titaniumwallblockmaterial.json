@@ -1,0 +1,50 @@
+{
+  "entity_id": "titaniumwallblockmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Wall",
+  "name_zh": "钛金属墙",
+  "description_en": "A titanium wall.",
+  "description_zh": "一种钛金属墙。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "jumpblockmaterial",
+          "speedblockmaterial"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

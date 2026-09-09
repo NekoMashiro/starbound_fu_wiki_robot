@@ -1,0 +1,59 @@
+{
+  "entity_id": "chargecannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rad Charger",
+  "name_zh": "拉得蓄电器",
+  "description_en": "Charge and release radioactive-electric blasts.\r\nIncreases damage with charge",
+  "description_zh": "这把武器会发射强放射性的电浆球.\n蓄力攻击会发射更多弹药",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 5,
+  "critBonus": 4,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "enrichedplutonium",
+          "count": 8
+        },
+        {
+          "item": "prisilitestar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

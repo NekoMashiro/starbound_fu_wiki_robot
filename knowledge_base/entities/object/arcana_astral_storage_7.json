@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_astral_storage_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Large Canister",
+  "name_zh": "群星大型储物罐",
+  "description_en": "A large canister for storing goods, used by the Arcanians.",
+  "description_zh": "守秘一族用于储存货物的大罐。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "astral",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

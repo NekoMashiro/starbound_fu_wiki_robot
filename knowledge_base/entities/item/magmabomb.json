@@ -1,0 +1,30 @@
+{
+  "entity_id": "magmabomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Nodule",
+  "name_zh": "岩浆炸弹",
+  "description_en": "Magma in a bomb. Nice.",
+  "description_zh": "内部有岩浆的炸弹，超棒！（爆炸后生成少量岩浆）",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 45,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hellfireHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Magma Nodule.md",
+  "quality_tier": "A"
+}

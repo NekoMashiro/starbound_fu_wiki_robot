@@ -1,0 +1,64 @@
+{
+  "entity_id": "curveblaster",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Gun",
+  "name_zh": "劫掠霰弹枪",
+  "description_en": "A unique plasma phase weapon specially designed for breaching hulls.\r\nBurns targets",
+  "description_zh": "一种独特的等离子武器，专为破坏船体研发。\n点燃目标",
+  "rarity": "rare",
+  "category": "Shotgun",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "plasma",
+    "upgradeableWeapon",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.25,
+  "critChance": 2,
+  "critBonus": 10,
+  "altAbilityType": "energyplatform",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "powercore",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 6
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

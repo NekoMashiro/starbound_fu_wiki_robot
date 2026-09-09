@@ -1,0 +1,51 @@
+{
+  "entity_id": "diplomatchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diplomat's Jacket",
+  "name_zh": "外交官夹克",
+  "description_en": "Set Bonuses:\r\n Rapier/Pistol: Defense x1.075/1.15\r\n +25% Charisma, +25% Mental Resistance",
+  "description_zh": "套装奖励：\n 刺剑/手枪: 防御x1.075/1.15\n +25% 魅力, +25% 精神抗性;",
+  "rarity": "common",
+  "category": "chestarmour",
+  "price": 100,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "canvas",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

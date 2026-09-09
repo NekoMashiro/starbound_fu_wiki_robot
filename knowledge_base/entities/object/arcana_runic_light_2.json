@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_runic_light_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Runic Wall Lamp",
+  "name_zh": "符文壁灯",
+  "description_en": "A arcanium lamp made to be mounted on the wall or suspended in mid-air.",
+  "description_zh": "挂在墙上或悬在半空中的秘钢灯笼。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 70,
+  "tags": [
+    "runic",
+    "light"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.5245,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.2098,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2098,
+        0.5245
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

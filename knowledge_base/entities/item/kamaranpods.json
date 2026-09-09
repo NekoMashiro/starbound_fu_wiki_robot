@@ -1,0 +1,27 @@
+{
+  "entity_id": "kamaranpods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kamaran Pod",
+  "name_zh": "卡玛兰豆荚",
+  "description_en": "Immune: Icy, Tar, Mud : 3m",
+  "description_zh": "免疫: 冰面, 焦油, 泥泞 : 3m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "kamaranpodsplantHarvest",
+          "probability": 0.3448,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "treasurehoard",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Treasure Hoard",
+  "name_zh": "财宝块",
+  "description_en": "A shimmering hoard of valuable treasure.\nExtractable, Smeltable.",
+  "description_zh": "金光闪烁的珍宝堆。\n可萃取，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "money",
+      "bonus": [
+        "goldbar"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "money",
+      "bonus": [
+        "goldbar"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

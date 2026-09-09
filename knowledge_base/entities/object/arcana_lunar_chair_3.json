@@ -1,0 +1,69 @@
+{
+  "entity_id": "arcana_lunar_chair_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Purple Food Stall",
+  "name_zh": "Purple大排档",
+  "description_en": "A street food stall selling delicious dishes.",
+  "description_zh": "街头小吃摊,各族美食应有尽有。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "kuromatsu",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 6
+        },
+        {
+          "item": "lunar_tile11",
+          "count": 6
+        },
+        {
+          "item": "fabric",
+          "count": 4
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        },
+        {
+          "item": "arcana_lunar_chair_5",
+          "count": 2
+        },
+        {
+          "item": "arcana_lunar_light_5",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

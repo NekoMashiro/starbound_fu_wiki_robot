@@ -1,0 +1,117 @@
+{
+  "entity_id": "sourmilkandbees",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sour Milk and Bees",
+  "name_zh": "酸奶蜂蜜",
+  "description_en": "Enough people drink this that it comes in cartons?\n-5% HP & Damage, +5% Run, +8% Jump, Increased Air Force (1m) Type: Dairy",
+  "description_zh": "这么多人爱喝这纸盒子里面的东西？\n-5%HP&伤害，+5%速度，+8%跳跃，加强空中力量(持续1m)\n类型：蛋奶",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_honey_drone",
+          "count": 10
+        },
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "milk",
+          "count": 3
+        },
+        {
+          "item": "bee_honey_drone",
+          "count": 30
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 8,
+      "station": "Snarshing Table",
+      "station_zh": "分宴之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Esoteric Research",
+          "name_zh": "深奥的研究"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 742
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "duncecookie"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

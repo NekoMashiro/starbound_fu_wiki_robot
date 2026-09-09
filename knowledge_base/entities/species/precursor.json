@@ -1,0 +1,35 @@
+{
+  "entity_id": "precursor",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "先驱",
+  "description_en": "",
+  "description_zh": "残酷无情，诡计多端。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "foodDelta",
+        "baseMultiplier": 0.8
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.3
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": -0.2
+      }
+    ],
+    "diet": "entity"
+  },
+  "quality_tier": "B"
+}

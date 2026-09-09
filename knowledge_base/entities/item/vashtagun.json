@@ -1,0 +1,88 @@
+{
+  "entity_id": "vashtagun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vashta Cutter",
+  "name_zh": "骨镖切割机",
+  "description_en": "A weird and unique weapon guaranteed to turn heads. And remove them.\r\nBoomerang-blasts, Floran",
+  "description_zh": "这种怪异的武器会发出类似回旋镖的弹药，正是敌人的噩梦。\n回旋弹，叶族",
+  "rarity": "rare",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "bioweapon",
+    "upgradeableWeapon",
+    "floran"
+  ],
+  "elementalType": "bioweapon",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 6,
+  "critBonus": 3,
+  "altAbilityType": "vashtaaltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_vashtaturret",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "vashtaclaw",
+          "count": 8
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_vashtaturret"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

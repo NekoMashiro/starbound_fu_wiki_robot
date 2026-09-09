@@ -1,0 +1,54 @@
+{
+  "entity_id": "kirhostier2pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hacker Pants",
+  "name_zh": "黑客裤子",
+  "description_en": "Set Bonuses:\r\n +25% Energy Regen\r\n Striker: +1% Crit Chance\r\n Immune: Gas",
+  "description_zh": "套装奖励：\n +25% 能量恢复\n 打击者: +1% 暴击几率\n 免疫: 气体",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 150,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 2
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "masqueradepants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

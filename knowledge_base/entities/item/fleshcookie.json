@@ -1,0 +1,92 @@
+{
+  "entity_id": "fleshcookie",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fleshy Meat Cookie",
+  "name_zh": "血肉曲奇",
+  "description_en": "Cookies for carnivores.\nInsanity, Pus Immunity (5m) Type: Raw Meat",
+  "description_zh": "肉食饼干。\n赋予精神错乱，脓液免疫(持续5m)\n类型：生肉食",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 255,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "redhoneyjar",
+          "count": 1
+        },
+        {
+          "item": "milk",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "fleshblock",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 772
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,88 @@
+{
+  "entity_id": "pineapplepizzaslice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pineapple Pizza Slice",
+  "name_zh": "菠萝披萨",
+  "description_en": "More toppings! Type: Cooked Meat + Fruits + Dairy",
+  "description_zh": "更多的配料！\n类型：熟肉食 + 水果 + 蛋奶",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 340,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "pineapple",
+          "count": 1
+        },
+        {
+          "item": "rawbacon",
+          "count": 1
+        },
+        {
+          "item": "cheese",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu-Fast Food",
+      "station_zh": "菜单-快餐",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "cultistairlockhatch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cultist Airlock Hatch",
+  "name_zh": "邪教气闸舱口",
+  "description_en": "A crudely-made airlock hatch.",
+  "description_zh": "一扇粗制滥造的气闸舱口。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 175,
+  "tags": [
+    "cultist",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slopedrustypanel",
+          "count": 8
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

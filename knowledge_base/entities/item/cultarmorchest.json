@@ -1,0 +1,73 @@
+{
+  "entity_id": "cultarmorchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cultist Robe",
+  "name_zh": "异教上衣",
+  "description_en": "Set Bonuses:\r\n +0.8% Health Regen\r\n Wand/Staff: Damage x1.15\r\n Immune: Shadow Taint, Darkness, Insanity",
+  "description_zh": "套装奖励:\n +0.8% HP恢复\n 魔杖/法杖: 伤害x1.15\n 免疫: 暗影污染, 黑暗, 精神错乱",
+  "rarity": "legendary",
+  "category": "chestarmour",
+  "price": 850,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderrelic13",
+          "count": 1
+        },
+        {
+          "item": "darkmatter",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 3
+        },
+        {
+          "item": "effigiumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

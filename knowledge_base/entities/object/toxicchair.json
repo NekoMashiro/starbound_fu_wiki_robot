@@ -1,0 +1,53 @@
+{
+  "entity_id": "toxicchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Toxic Chair",
+  "name_zh": "毒素椅子",
+  "description_en": "A chair made of vines. Those spikes look poisonous.",
+  "description_zh": "一张用藤蔓编制的椅子。那些刺看起来有毒。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 85,
+  "tags": [
+    "toxic",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 40
+        },
+        {
+          "item": "biosample",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

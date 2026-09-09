@@ -1,0 +1,51 @@
+{
+  "entity_id": "xithriciteboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Boomerang",
+  "name_zh": "赛德瑞瑟回旋镖",
+  "description_en": "Cosmic energy flows through it.",
+  "description_zh": "它的内部流动着宇宙的能量。",
+  "rarity": "legendary",
+  "category": "boomerang",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 2
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

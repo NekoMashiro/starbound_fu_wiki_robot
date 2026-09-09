@@ -1,0 +1,31 @@
+{
+  "entity_id": "thepalacepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Palace of the Mind",
+  "name_zh": "心灵殿堂",
+  "description_en": "Everything about this is ever-so-slightly off. Nauseating.",
+  "description_zh": "关于这件事的一切都有点不对劲。令人作呕。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

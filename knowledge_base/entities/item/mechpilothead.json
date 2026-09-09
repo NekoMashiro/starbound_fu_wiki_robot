@@ -1,0 +1,80 @@
+{
+  "entity_id": "mechpilothead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mech Pilot Helmet",
+  "name_zh": "机甲飞行员头盔",
+  "description_en": "A helmet typically used to interface with a personal mech.",
+  "description_zh": "一种头盔，通常用来连接个人机甲。",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceCostume",
+          "probability": 0.3333,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.0033,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0033,
+        0.3333
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0035,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0035
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

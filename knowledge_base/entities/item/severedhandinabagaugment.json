@@ -1,0 +1,174 @@
+{
+  "entity_id": "severedhandinabagaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Severed Hand in a Bag",
+  "name_zh": "断手囊袋",
+  "description_en": "Can walk on water. For some reason.\r\nYou are also quite enraged.",
+  "description_zh": "因为某些原因，可以在水上行走。\n同时你也颇为激怒。",
+  "rarity": "essential",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumonsterclaw",
+          "count": 1
+        },
+        {
+          "item": "vashtaplantseed",
+          "count": 1
+        },
+        {
+          "item": "densiniumdye",
+          "count": 3
+        },
+        {
+          "item": "solariumdye",
+          "count": 1
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 1
+        },
+        {
+          "item": "funanofibre",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 17,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.0924,
+          "count": 1
+        },
+        {
+          "pool": "augmentsFU",
+          "probability": 0.061,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.0344,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0344,
+        0.0924
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0603,
+          "count": 1
+        },
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0603
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0008
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Severed Hand in a Bag.md",
+  "quality_tier": "S"
+}

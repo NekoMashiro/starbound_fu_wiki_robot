@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_td",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Tea pod",
+  "name_zh": "[泰坦拓展]茶叶种植仓",
+  "description_en": "A tea planting pod, engineers use it to obtain refreshing drinks.",
+  "description_zh": "一个茶叶种植仓，工程师们用它来获取可以提神的饮品。",
+  "rarity": "Rare",
+  "category": "wire",
+  "price": 260,
+  "tags": [
+    "light",
+    "titancorp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

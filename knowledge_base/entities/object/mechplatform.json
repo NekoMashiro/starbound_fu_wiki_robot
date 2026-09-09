@@ -1,0 +1,43 @@
+{
+  "entity_id": "mechplatform",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mech Platform",
+  "name_zh": "机甲平台",
+  "description_en": "A teleportation platform that summons a player's mech.",
+  "description_zh": "一个召唤玩家机甲的传送平台。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 110,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mech Platform.md",
+  "quality_tier": "A"
+}

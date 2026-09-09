@@ -1,0 +1,52 @@
+{
+  "entity_id": "lasherhook",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lasher Hook",
+  "name_zh": "鞭笞抓钩",
+  "description_en": "Zip through the air like a boss, and slice foes too! Weighted.",
+  "description_zh": "像Boss一样在空中荡来荡去，同时将敌人切成碎片！",
+  "rarity": "uncommon",
+  "category": "^#e43774;Upgradeable Tool^reset;",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 10
+        },
+        {
+          "item": "lasherplantseed",
+          "count": 4
+        },
+        {
+          "item": "liquidblacktar",
+          "count": 12
+        },
+        {
+          "item": "biosample",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "lasherhook2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

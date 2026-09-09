@@ -1,0 +1,64 @@
+{
+  "entity_id": "teslastaff",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tesla's Staff",
+  "name_zh": "特斯拉法杖",
+  "description_en": "Controls powerful lightning bolts by creating ionized trails through the air.",
+  "description_zh": "通过在空气中创造电离通道来控制强大的闪电。",
+  "rarity": "uncommon",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "ferozium"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "guidedbolt",
+  "altAbilityType": "球状闪电",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "staticcell",
+          "count": 4
+        },
+        {
+          "item": "liquidmetallichydrogen",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

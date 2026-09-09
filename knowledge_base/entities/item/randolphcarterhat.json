@@ -1,0 +1,39 @@
+{
+  "entity_id": "randolphcarterhat",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Randolph Carter Hat",
+  "name_zh": "伦道夫·卡特的帽子",
+  "description_en": "Face the foulest creatures bravely.\r\n20% Mental Resist",
+  "description_zh": "勇敢地面对最肮脏的生物吧。\n20% 精神抗性",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 5000,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0112,
+        0.0124
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

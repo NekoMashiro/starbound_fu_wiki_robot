@@ -1,0 +1,40 @@
+{
+  "entity_id": "futotalimmunity1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Immunity I",
+  "name_zh": "EPP模块（防护 I）",
+  "description_en": "Protects against heat, cold, proto, and radiation of the common variety. Immune: Moderate Heat/Cold/Radiation, Gas, Proto.",
+  "description_zh": "抵御炎热、寒冷、原毒以及常见种类的辐射。\n免疫：严酷炎热/寒冷/辐射/，气体和原毒",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "mutagene1",
+          "count": 2
+        },
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

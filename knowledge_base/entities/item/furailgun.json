@@ -1,0 +1,64 @@
+{
+  "entity_id": "furailgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Railgun",
+  "name_zh": "轨道炮",
+  "description_en": "A devastating long-ranged rifle.\r\nPierces tiles, increases damage with range\r\nEfficient alt-fire",
+  "description_zh": "一把毁灭性的远程步枪。\n可穿透物块，随着距离增加伤害\n高效的次要攻击",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 4,
+  "critChance": 9,
+  "critBonus": 12,
+  "altAbilityType": "railgunshotpower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 6
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Railgun.md",
+  "quality_tier": "A"
+}

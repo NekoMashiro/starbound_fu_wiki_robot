@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorpistolgrav",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Gravity Shunt",
+  "name_zh": "先驱重力分流器",
+  "description_en": "Allows the user to slow their relation to gravity.\r\nGravitic force can occasionally cause injury.",
+  "description_zh": "减弱使用者与重力的联系。\n重力偶尔也会造成伤害",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "precursor",
+    "upgradeableWeapon",
+    "gravity"
+  ],
+  "elementalType": "cosmic",
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 12,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

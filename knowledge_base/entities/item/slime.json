@@ -1,0 +1,99 @@
+{
+  "entity_id": "slime",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Slime Glob",
+  "name_zh": "史莱姆液滴",
+  "description_en": "A thick mucus. It jiggles when poked.\nExtractable.",
+  "description_zh": "一团厚厚的粘液，戳它就会摇晃起来。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 3,
+        "examples": [
+          "hardslimeblock",
+          "slimeshipsupport",
+          "stickyslime"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "slimenpcbed",
+          "slimenpcbed2",
+          "slimenpctable"
+        ]
+      },
+      "door": {
+        "count": 3,
+        "examples": [
+          "slimenpcdoor",
+          "slimepersonshipdoor",
+          "slimepersonshiphatch"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "slimenpclamp",
+          "slimenpcstreetlamp",
+          "slimepersonshiplight"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "slimenpchangstorage",
+          "slimenpclargestorage"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "slimebox"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "slimedagger"
+        ]
+      },
+      "grenadeLauncher": {
+        "count": 1,
+        "examples": [
+          "slimegrenadelauncher"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuslimeShoatHarvest",
+          "probability": 2.85,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0894,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

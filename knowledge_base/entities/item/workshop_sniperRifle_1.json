@@ -1,0 +1,67 @@
+{
+  "entity_id": "workshop_sniperRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "TC Kerose M60",
+  "name_zh": "泰坦重工煤石M60",
+  "description_en": "A rifle made from Dustrium for striking long range targets.",
+  "description_zh": "由尘石制成的步枪，用于打击远距离目标。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "titancorp"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 9.4,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 8
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_mech_arm_siegehammer"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

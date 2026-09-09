@@ -1,0 +1,68 @@
+{
+  "entity_id": "arcana_back_illuminatedEPP",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Pale EPP",
+  "name_zh": "苍白 EPP",
+  "description_en": "This EPP upgrade grants immunity to Radiance. Useful on Pale Star planets.",
+  "description_zh": "这个升级版EPP可以你免疫辉光。适用于苍白星。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 4
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 4
+        },
+        {
+          "item": "arcana_back_arcaneEPP",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "arcana_back_superstormEPP",
+          "arcana_back_superstormEPP"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_radiance"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

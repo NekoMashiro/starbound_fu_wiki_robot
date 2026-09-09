@@ -1,0 +1,42 @@
+{
+  "entity_id": "ricebasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rice Basket",
+  "name_zh": "饭篮",
+  "description_en": "Rice! For all your culinary needs.",
+  "description_zh": "米饭！满足你所有的烹饪需求。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rice",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "rice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_tech_stormDrive",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Storm Drive",
+  "name_zh": "风暴驭使",
+  "description_en": "Grants +20% Max Energy, +10% Max Health, and gives you five jumps! [Use to gain a new type of tech!]",
+  "description_zh": "提供20%的最大能量，10%的最大生命值，并赋予你额外五次跳跃！ [使用来获得一个新科技！]",
+  "rarity": "Essential",
+  "category": "mysteriousReward",
+  "price": 2000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "arcana_tech_quintJump",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_slipstreamComposite",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_neoCell",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_voltaicShard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

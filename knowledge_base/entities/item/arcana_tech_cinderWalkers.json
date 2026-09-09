@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_tech_cinderWalkers",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cinder Walkers",
+  "name_zh": "烬灰行者",
+  "description_en": "Passively grants +5% max HP, ATK and run speed. Double tap [A] or [D] to dash. [Use to gain this tech!]",
+  "description_zh": "被动：增加5%最大生命值、攻击力和奔跑速度。双击;[A]或[D]进行冲刺。[使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "arcana_tech_burningDash",
+          "count": 1
+        },
+        {
+          "item": "arcana_tech_cinderCore",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

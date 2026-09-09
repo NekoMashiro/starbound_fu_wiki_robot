@@ -1,0 +1,82 @@
+{
+  "entity_id": "carving",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strange Carving",
+  "name_zh": "奇异雕印",
+  "description_en": "This symbol tingles your memories, but you can't quite place where you've seen it.",
+  "description_zh": "这个符号刺痛着你的记忆，但是你不能确定你在哪里见过它。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 23,
+  "tags": [],
+  "level": 2,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "firedclay",
+          "count": 10
+        },
+        {
+          "item": "corruptionore",
+          "count": 4
+        },
+        {
+          "item": "myphisinjector",
+          "count": 1
+        },
+        {
+          "item": "blooddiamond",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Ancient Texts",
+      "station_zh": "古代文本",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "fumadnessresource"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "strangetome"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

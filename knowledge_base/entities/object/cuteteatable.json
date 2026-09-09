@@ -1,0 +1,42 @@
+{
+  "entity_id": "cuteteatable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Tea Table",
+  "name_zh": "可爱的茶桌",
+  "description_en": "A cute table.",
+  "description_zh": "一个可爱的桌子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 15,
+  "tags": [
+    "fu",
+    "cute",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "dollhousewood2",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

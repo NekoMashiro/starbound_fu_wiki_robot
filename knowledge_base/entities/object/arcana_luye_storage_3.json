@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_luye_storage_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luye Giant Crate",
+  "name_zh": "绿叶巨型板条箱",
+  "description_en": "A giant crate that can withstand a high amount of corrosion and blunt force.",
+  "description_zh": "一个巨大的板条箱，可以承受大量的腐蚀和钝力。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "luye",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,67 @@
+{
+  "entity_id": "lunaririfle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Rifle",
+  "name_zh": "月晶步枪",
+  "description_en": "Crystalline blasts charged with lunari energy.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "可以射出爆炸性月晶能量弹药。\n照明\n持久弹",
+  "rarity": "common",
+  "category": "assaultRifle",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 1,
+  "critBonus": 3,
+  "altAbilityType": "lunarishrapnelbomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fumecharmenergyrifle"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Lunari Rifle.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "human",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "人类",
+  "description_en": "",
+  "description_zh": "人类的属性很全面，而且具有在几乎任何地方都有可怕的生存能力。你见过他们中的一员吗？人类是一种奇怪的群体，我建议避开他们。\n\n  食性：杂食性\n\n天赋：\n  能量x1.05\n  +2% 跳跃高度, +15% 最大饱腹度\n  +10% 魅力\n  抗性: +11% 电系抗性,+10% 火炎抗性, 寒气抗性, 毒素抗性, 射线抗性\n\n环境：\n  无\n\n武器：\n  弹药专精: 25%\n  短剑专精: 15%\n  盾牌：完美格挡时增加防御(叠乘)\n\n弱点：\n  抗性: -15% 辐射, 暗影抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "maxFood",
+        "baseMultiplier": 1.15
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 1.1
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.12
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.11
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "ammoMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "shortswordMastery",
+        "amount": 0.15
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "airJumpModifier": 1.02
+    }
+  },
+  "quality_tier": "B"
+}

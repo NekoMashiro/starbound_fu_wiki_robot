@@ -1,0 +1,37 @@
+{
+  "entity_id": "checkpoint",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mission Checkpoint",
+  "name_zh": "任务记录点",
+  "description_en": "If you die, you will respawn at this location.",
+  "description_zh": "如果你死了，你将会在此重生。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 8
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mission Checkpoint.md",
+  "quality_tier": "A"
+}

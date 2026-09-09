@@ -1,0 +1,162 @@
+{
+  "entity_id": "cuddlehorse",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Transmutation Matrix",
+  "name_zh": "变形矩阵",
+  "description_en": "A single use kit for upgrading a single piece of equipment.",
+  "description_zh": "用于升级单件设备的套件。",
+  "rarity": "Legendary",
+  "category": "itemUpgrader",
+  "price": 1200,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 33,
+    "monster_drops": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.003,
+          "count": 1
+        },
+        {
+          "pool": "novakidvillageMiningTreasure",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0003,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0058
+      ]
+    },
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "tool",
+          "probability": 0.0034,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.003,
+          "count": 1
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0034
+      ]
+    },
+    "chest_loot": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0007
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    }
+  },
+  "wiki_ref": "Transmutation Matrix.md",
+  "quality_tier": "A"
+}

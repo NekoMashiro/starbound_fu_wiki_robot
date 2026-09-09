@@ -1,0 +1,51 @@
+{
+  "entity_id": "pinetreeplantersnow",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snowy Pine Tree Planter",
+  "name_zh": "雪松播种机",
+  "description_en": "A merry little pine tree, surrounded by poinsettias. It makes for a picturesque holiday scene.",
+  "description_zh": "一棵快乐的小松树，周围是一品红。这是一个风景如画的假日景象。",
+  "rarity": "Uncommon",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "boreal",
+    "nature",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

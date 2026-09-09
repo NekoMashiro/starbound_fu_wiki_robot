@@ -1,0 +1,50 @@
+{
+  "entity_id": "negablade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Negablade",
+  "name_zh": "融魂之刃",
+  "description_en": "Said to house the screaming, corrupted essence of a thousand innocents.\r\nHeavy. Slows wielder\r\nFriggin Huge",
+  "description_zh": "据说在制作时把一千个无辜的灵魂放到了这把武器中，灵魂的惨叫促使这把武器越加的腐化。\n缓慢的挥动速度；极其巨大\n沉重",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 11500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 15,
+  "critChance": 10,
+  "critBonus": 32,
+  "altAbilityType": "flamethrowersword",
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "The Negablade.md",
+  "quality_tier": "A"
+}

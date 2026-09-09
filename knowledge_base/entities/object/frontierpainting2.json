@@ -1,0 +1,40 @@
+{
+  "entity_id": "frontierpainting2",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Frontier Wagon Painting",
+  "name_zh": "开拓者之牛车",
+  "description_en": "A strange painting of a pulled wagon.",
+  "description_zh": "一副描绘一辆牛车的奇怪画作。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 800,
+  "tags": [
+    "novakid",
+    "novakidvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

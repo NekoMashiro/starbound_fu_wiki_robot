@@ -1,0 +1,39 @@
+{
+  "entity_id": "gumballgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gumball Gun",
+  "name_zh": "口香糖枪",
+  "description_en": "All things considered, it's actually pretty awesome.",
+  "description_zh": "所有的因素都考虑到了，这真的是太棒了。",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 1,
+  "critBonus": 6,
+  "altAbilityType": "forcebubble",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareWeapons",
+          "probability": 0.049,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Gumball Gun.md",
+  "quality_tier": "A"
+}

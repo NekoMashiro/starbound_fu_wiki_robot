@@ -1,0 +1,49 @@
+{
+  "entity_id": "redcandledouble",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Two Red Candles",
+  "name_zh": "两只红色蜡烛",
+  "description_en": "Two candles made with red beeswax.",
+  "description_zh": "两根用红蜂蜂蜡做成的蜡烛。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 90,
+  "tags": [
+    "bees",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "redwaxchunk",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

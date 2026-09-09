@@ -1,0 +1,53 @@
+{
+  "entity_id": "giantflowertable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Giant Flower Table",
+  "name_zh": "巨型花瓣桌子",
+  "description_en": "A giant flower. Perfect to use as a table.",
+  "description_zh": "一朵巨大的花，用来当桌子简直完美。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 105,
+  "tags": [
+    "giantflower",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "giantflowerpetal",
+          "count": 40
+        },
+        {
+          "item": "petalyellow",
+          "count": 10
+        },
+        {
+          "item": "plantfibre",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

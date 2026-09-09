@@ -1,0 +1,58 @@
+{
+  "entity_id": "cutechakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Chakram",
+  "name_zh": "棱镜环刃",
+  "description_en": "Bounces off walls\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "撞到墙壁时反弹\n能量武器",
+  "rarity": "rare",
+  "category": "chakram",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "chakram",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Prismatic Chakram.md",
+  "quality_tier": "A"
+}

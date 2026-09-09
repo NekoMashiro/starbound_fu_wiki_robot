@@ -1,0 +1,36 @@
+{
+  "entity_id": "inactiverobotprop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Inactive Robot",
+  "name_zh": "非活动机器人",
+  "description_en": "An inactive robot! ... Nothing happens if it's switched on.",
+  "description_zh": "一个不活跃的机器人...如果它被打开，什么也不会发生。",
+  "rarity": "Common",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 700
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

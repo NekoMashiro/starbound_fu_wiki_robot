@@ -1,0 +1,43 @@
+{
+  "entity_id": "iceaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Axe",
+  "name_zh": "冰之斧",
+  "description_en": "Useful for extremely short-ranged grappling. Survival tool. Can also do 5 damage.",
+  "description_zh": "用于极短距离的格斗。求生工具。也能造成5点伤害。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 120,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

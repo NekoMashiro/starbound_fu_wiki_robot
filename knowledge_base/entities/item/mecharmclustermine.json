@@ -1,0 +1,47 @@
+{
+  "entity_id": "mecharmclustermine",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cluster Mine Mech Arm",
+  "name_zh": "集束地雷机甲臂",
+  "description_en": "A mech arm that fires a cluster of small remote mines.",
+  "description_zh": "一个能发射集束式小型远程地雷的机甲臂。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "sinclustermine"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

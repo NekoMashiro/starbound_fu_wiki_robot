@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_goldensaint_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Saint Queen",
+  "name_zh": "圣金蜂后",
+  "description_en": "Golden Saint Queen",
+  "description_zh": "圣金蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "goldenwood"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "godlyqueen",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "godlybee"
+          ]
+        },
+        {
+          "pool": "bee_goldensaint",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_goldensaint"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

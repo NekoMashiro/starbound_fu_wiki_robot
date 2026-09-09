@@ -1,0 +1,37 @@
+{
+  "entity_id": "mecharmsinsniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Omega Laser",
+  "name_zh": "终结激光",
+  "description_en": "A mech arm that fires concentrated beams of cosmic power.",
+  "description_zh": "一个能够发射聚集的宇宙射线的机械臂。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 6000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 20
+        },
+        {
+          "item": "honedlunari",
+          "count": 4
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Omega Laser.md",
+  "quality_tier": "A"
+}

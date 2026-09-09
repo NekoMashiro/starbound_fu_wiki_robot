@@ -1,0 +1,38 @@
+{
+  "entity_id": "fm_musicplayerwall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Music Player (Wall)",
+  "name_zh": "音乐播放器(壁式)",
+  "description_en": "A wall mounted music player, for playing music.",
+  "description_zh": "一个安装在墙壁上的音乐播放器，用于播放音乐。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "musical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

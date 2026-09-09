@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_lepidoptera_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Lepidoptera Shell",
+  "name_zh": "鳞翅甲壳",
+  "description_en": "A pale colored armor, crafted from holosium. \n\nSet Bonus: \nGrants +10% Light RES and +10% Magic, Spear and Lance Damage.",
+  "description_zh": "由空无锭铸成的苍白盔甲。\n\n套装效果：\n获得+10%光辉抗性和+10%魔法、矛和长枪伤害。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 14
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aeternus_chest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

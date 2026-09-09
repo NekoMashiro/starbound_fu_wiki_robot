@@ -1,0 +1,56 @@
+{
+  "entity_id": "terraformercrystalmoon",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystalline Terraformer",
+  "name_zh": "结晶转换器",
+  "description_en": "Transforms a planet's climate into a Crystalline biome.",
+  "description_zh": "(请放置于地表，可移动式，激活后请耐心等待)可将星球的特征转换为结晶。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

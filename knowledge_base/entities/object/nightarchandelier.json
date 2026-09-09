@@ -1,0 +1,45 @@
+{
+  "entity_id": "nightarchandelier",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Chandelier",
+  "name_zh": "夜族吊灯",
+  "description_en": "An Nightar chandelier. A good way to light a large castle room.",
+  "description_zh": "夜族吊灯。照亮城堡大房间的好方法。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 200,
+  "tags": [
+    "nightar",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "obsidian",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

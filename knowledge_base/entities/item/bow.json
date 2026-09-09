@@ -1,0 +1,69 @@
+{
+  "entity_id": "bow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hunting Bow",
+  "name_zh": "猎弓",
+  "description_en": "Harvests meat and other goods from monsters.",
+  "description_zh": "从怪物身上收获肉和其他物品。",
+  "rarity": "Common",
+  "category": "bow",
+  "price": 50,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "critChance": 5,
+  "critBonus": 9,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "zenshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "string",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "bow": {
+        "count": 1,
+        "examples": [
+          "cupidsbow"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

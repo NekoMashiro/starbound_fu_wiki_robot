@@ -1,0 +1,45 @@
+{
+  "entity_id": "pyreitecouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Couch",
+  "name_zh": "永燃沙发",
+  "description_en": "A couch that is far too hot to sit on.",
+  "description_zh": "一张烫的不能坐的沙发。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "pyreite",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

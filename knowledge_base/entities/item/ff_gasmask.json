@@ -1,0 +1,177 @@
+{
+  "entity_id": "ff_gasmask",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mark VI Gasmask",
+  "name_zh": "马克VI 防毒面具",
+  "description_en": "Protects from harmful (and beneficial) gasses.",
+  "description_zh": "免疫有害(和有益)的气体。",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "polymer",
+          "count": 4
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 33,
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0384,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0373,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0384
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.022,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0015,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0013,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.022
+      ]
+    },
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0114,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0114
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0002
+      ]
+    }
+  },
+  "wiki_ref": "Mark VI Gasmask.md",
+  "quality_tier": "S"
+}

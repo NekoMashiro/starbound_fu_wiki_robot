@@ -1,0 +1,68 @@
+{
+  "entity_id": "magmawall2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Burning Volcanic Rock",
+  "name_zh": "灼热的火山喷出物",
+  "description_en": "Burning hot magma stone. Don't touch!\nExtractable, Crushable.",
+  "description_zh": "燃烧着的岩浆石头，不要碰！\n可萃取，可破碎。 ",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fumagmabed",
+          "magmasofa",
+          "magmatable"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "ff_lavalamp1",
+          "ff_lavalight1"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "magmacabinet"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ashgolemLoot",
+          "probability": 0.0542,
+          "count": 5,
+          "monsters": [
+            "adultpoptopfire",
+            "adultpoptopfire2",
+            "adultpoptopfire3",
+            "adultpoptopfiremadness",
+            "adultpoptopfirepet"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "magmacabinet",
+    "magmachair",
+    "magmasofa",
+    "magmatable",
+    "fuokeamagmabrick",
+    "fuokeamagmastone"
+  ],
+  "quality_tier": "S"
+}

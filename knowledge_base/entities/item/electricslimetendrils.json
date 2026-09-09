@@ -1,0 +1,47 @@
+{
+  "entity_id": "electricslimetendrils",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electric Slime Tendrils",
+  "name_zh": "电气粘液触须",
+  "description_en": "Reach out and hit somebody.",
+  "description_zh": "伸手打人。",
+  "rarity": "Uncommon",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime",
+    "electric",
+    "energy"
+  ],
+  "elementalType": "electric",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 5.4,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimetendrils",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

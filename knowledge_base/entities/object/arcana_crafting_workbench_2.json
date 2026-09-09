@@ -1,0 +1,44 @@
+{
+  "entity_id": "arcana_crafting_workbench_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Arcanium Workstation",
+  "name_zh": "秘境工作站",
+  "description_en": "A magic infused workbench, allows you to create furniture and materials.",
+  "description_zh": "一个注入魔力的工作台，可以制作家具和材料。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1600,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 4
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

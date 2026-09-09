@@ -1,0 +1,74 @@
+{
+  "entity_id": "juux",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "法瑞图",
+  "description_en": "",
+  "description_zh": "一种不寻常的极端灵能物种。可以通过纯粹的意志力产生强大的灵能波动。\n\n  食性: 杂食（包括已烹饪的同位素）\n\n天赋:\n能量 x1.1\n  抗性: +30% 精神抗性, +20% 火炎 & 电系抗性, +15% 射线 & 辐射抗性\n  免疫: 燃烧\n  科技: 灵能波动\n\n环境:\n  带电或晶体生物群落: +5% 速度\n  寒冷 生物群落: 防御 x0.9\n\n武器:\n  见闻之色: ;所有 伤害+8%\n  灵能光束: 伤害 x1.2\n  磁力珠专精: +20%\n\n弱点:\n  HP: x0.88\n\n  抗性: -12% 物理抗性, -20% 毒素抗性, -5% 寒气抗性\n  -10% 魅力",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 0.88
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.1
+      },
+      {
+        "stat": "powerMultiplier",
+        "effectiveMultiplier": 1.08
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 0.9
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.3
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": -0.12
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "fireStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "magnorbMastery",
+        "amount": 0.2
+      }
+    ],
+    "diet": "entity",
+    "tech": [
+      "juuxharden"
+    ]
+  },
+  "quality_tier": "B"
+}

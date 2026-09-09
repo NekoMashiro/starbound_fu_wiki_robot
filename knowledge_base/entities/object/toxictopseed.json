@@ -1,0 +1,60 @@
+{
+  "entity_id": "toxictopseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Toxictop Seed",
+  "name_zh": "毒果种子",
+  "description_en": "Toxic looking fruit, but is it all that bad?",
+  "description_zh": "有毒的水果，但它真有那么糟糕吗？",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 50,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 18
+        },
+        {
+          "item": "liquidpoison",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "neonmelonseed",
+          "shockshroomseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "toxictopHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

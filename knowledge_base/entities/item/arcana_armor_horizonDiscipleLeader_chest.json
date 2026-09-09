@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_horizonDiscipleLeader_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Disp. Leader Suit",
+  "name_zh": "学徒队长外套",
+  "description_en": "A battle suit armor worn by Horizon Disciples squad leaders.",
+  "description_zh": "地平线学徒队长所穿戴的战斗服。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 1800,
+  "tags": [],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

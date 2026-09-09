@@ -1,0 +1,56 @@
+{
+  "entity_id": "radienbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Broadsword",
+  "name_zh": "艾肯宽剑",
+  "description_en": "Fresh from your body, ready to slaughter.",
+  "description_zh": "饥渴难耐。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 4,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 9,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 20
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

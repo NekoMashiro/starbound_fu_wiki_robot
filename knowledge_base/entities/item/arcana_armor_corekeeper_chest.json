@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_corekeeper_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corekeeper Chestplate",
+  "name_zh": "护核者胸甲",
+  "description_en": "An enchanted armor made from Solarium. \n\nSet Bonus: Grants +5% Fire, Ice, Electric and Poison RES.",
+  "description_zh": "使用日耀石制成的附魔盔甲。\n\n套装效果：获得+5%烈焰、纱冰、雷鸣和蛊毒抗性。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        },
+        {
+          "item": "solariumstar",
+          "count": 10
+        },
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

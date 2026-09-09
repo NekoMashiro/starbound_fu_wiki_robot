@@ -1,0 +1,53 @@
+{
+  "entity_id": "crystalloom",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Loom",
+  "name_zh": "水晶织机",
+  "description_en": "A loom built to spin crystals into materials.",
+  "description_zh": "将水晶纺织成材料的织布机。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "elduukhar",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "emera",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 5
+        },
+        {
+          "item": "rekite",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

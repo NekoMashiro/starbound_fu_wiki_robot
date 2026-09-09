@@ -1,0 +1,65 @@
+{
+  "entity_id": "copperblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Copper Gear Block",
+  "name_zh": "铜齿轮块",
+  "description_en": "This copper block has a distinct gear-like imprint.\nExtractable.",
+  "description_zh": "这个铜块有一个独特的齿轮状印记。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.0594,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "mechcraftingtable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mech Part Crafting Table",
+  "name_zh": "机甲部件制造台",
+  "description_en": "Used to produce modular mech components.",
+  "description_zh": "用于生产模块化机甲部件。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 2500,
+  "tags": [
+    "crafting",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

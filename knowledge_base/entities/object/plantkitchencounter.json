@@ -1,0 +1,46 @@
+{
+  "entity_id": "plantkitchencounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plant Kitchen Counter",
+  "name_zh": "叶绿厨房柜台",
+  "description_en": "A haunch of... something and a boneboo garnish.",
+  "description_zh": "一束...不知名物体和一个处骨竹装饰。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

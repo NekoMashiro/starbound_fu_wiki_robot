@@ -1,0 +1,454 @@
+{
+  "entity_id": "fu_carbon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon",
+  "name_zh": "碳",
+  "description_en": "There exist more chemical compounds involving Carbon than don't.",
+  "description_zh": "涉及碳的化合物比不涉及碳的化合物多。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 2,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_leafcutter_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "toastburnt",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hi-tech Toaster",
+      "station_zh": "高科技烤吐司机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fu_carbondioxide",
+          "count": 4
+        },
+        {
+          "item": "liquidironfu",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "coalore",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fufoodgoods",
+          "count": 12
+        }
+      ],
+      "output_count": 8,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 12,
+        "examples": [
+          "avaliaeroponics",
+          "avalichits",
+          "avalidarkmetal",
+          "avalidarkmetal2",
+          "avalidarkmetal3"
+        ]
+      },
+      "platform": {
+        "count": 5,
+        "examples": [
+          "avalicable",
+          "avalidarkplatform",
+          "avaliplatform",
+          "avalistairs",
+          "avalitechplatform"
+        ]
+      },
+      "seed": {
+        "count": 5,
+        "examples": [
+          "feyaseed",
+          "neuropodseed",
+          "oceaniteseed",
+          "xaxseed",
+          "zathiseed"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "carbonplate",
+          "livingroot",
+          "syntheticmaterial"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "coldprotectionback",
+          "fubeewings",
+          "heatprotectionback"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "elderbookstandrelic",
+          "elderscrolldeskmetal"
+        ]
+      },
+      "shortsword": {
+        "count": 2,
+        "examples": [
+          "goldenseascion",
+          "heliosblade"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "isn_bouncegel",
+          "perfectorgan"
+        ]
+      }
+    },
+    "total": 40
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ash",
+      "bonus": [
+        "liquidironfu",
+        "diamond",
+        "fu_carbonpure"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ash",
+      "bonus": [
+        "liquidironfu",
+        "diamond",
+        "fu_carbonpure"
+      ]
+    }
+  ],
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "coalore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "graphene"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "protorockmaterial"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "coalore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "graphene"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "protorockmaterial"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 131,
+    "mining": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "carbonRock",
+          "probability": 1.0,
+          "count": 3.3
+        },
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.9901,
+          "count": 1.8
+        }
+      ],
+      "prob_range": [
+        0.9901,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0567,
+          "count": 10
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0101,
+          "count": 10
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0029,
+          "count": 10
+        },
+        {
+          "pool": "capsulespace",
+          "probability": 0.0014,
+          "count": 10
+        },
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.0004,
+          "count": 10,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0567
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0206,
+          "count": 10.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0204,
+          "count": 10.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0157,
+          "count": 10.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0096,
+          "count": 10.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0093,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0206
+      ]
+    },
+    "monster_drops": {
+      "count": 44,
+      "top": [
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0105,
+          "count": 10,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0055,
+          "count": 10
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0033,
+          "count": 10
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0031,
+          "count": 10
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.0016,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0105
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0089,
+          "count": 10.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0088,
+          "count": 10
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0076,
+          "count": 10
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0018,
+          "count": 10
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0017,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0089
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.002,
+          "count": 10
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0004,
+          "count": 10
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0002,
+          "count": 10
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.002
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0004,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

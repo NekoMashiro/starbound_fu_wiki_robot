@@ -1,0 +1,35 @@
+{
+  "entity_id": "mysteriousashes",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mysterious Ashes",
+  "name_zh": "神秘灰烬",
+  "description_en": "This is all that remains of the trash bag's mysterious contents.",
+  "description_zh": "这是垃圾袋的神秘内容的全部。",
+  "rarity": "Common",
+  "category": "quest",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

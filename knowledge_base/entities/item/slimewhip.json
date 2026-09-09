@@ -1,0 +1,53 @@
+{
+  "entity_id": "slimewhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Whip",
+  "name_zh": "粘液鞭",
+  "description_en": "A whip made of sticky slime.",
+  "description_zh": "粘性粘液制成的鞭子。",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "slime"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "whip": {
+        "count": 4,
+        "examples": [
+          "electricslimewhip",
+          "fireslimewhip",
+          "iceslimewhip",
+          "poisonslimewhip"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

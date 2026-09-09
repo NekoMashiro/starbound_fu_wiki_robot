@@ -1,0 +1,57 @@
+{
+  "entity_id": "lasherwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lasher Whip",
+  "name_zh": "鞭笞者",
+  "description_en": "Made from a Lasher plant.",
+  "description_zh": "由各种植物材料制成。",
+  "rarity": "rare",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "whip",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lasherplantseed",
+          "count": 2
+        },
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "biosample",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

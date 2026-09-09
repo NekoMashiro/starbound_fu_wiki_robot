@@ -1,0 +1,81 @@
+{
+  "entity_id": "erchiusghostback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erchius Buddy",
+  "name_zh": "厄尔吉斯伙伴",
+  "description_en": "Provides an air supply, Ghost Immunity and a purple glow. Reduces defense by 10.",
+  "description_zh": "提供氧气供给，幽灵免疫和紫色光源。防御力-10。",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moondust",
+          "count": 12
+        },
+        {
+          "item": "supermatter",
+          "count": 5
+        },
+        {
+          "item": "liquidfuel",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "erchiusghostback2",
+          "erchiusghostback3"
+        ]
+      },
+      "crewcontract": {
+        "count": 1,
+        "examples": [
+          "crewcontract_ghostbuster"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "wiki_ref": "Erchius Buddy.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "soggypaper",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Soggy Paper",
+  "name_zh": "潮湿的纸",
+  "description_en": "Why would I take this useless trash?",
+  "description_zh": "我为什么会带着这无用的垃圾？",
+  "rarity": "Common",
+  "category": "junk",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Rain Barrel",
+      "station_zh": "雨水收集桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "fusoggypaper"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "spaceTrash",
+          "probability": 0.2308,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "penumbritechakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Chakram",
+  "name_zh": "半影环刃",
+  "description_en": "Precise and powerful, and shiny!",
+  "description_zh": "精确有力，闪闪发光！",
+  "rarity": "uncommon",
+  "category": "chakram",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "chakram",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 1,
+  "critBonus": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Penumbrite Chakram.md",
+  "quality_tier": "A"
+}

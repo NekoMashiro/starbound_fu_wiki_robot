@@ -1,0 +1,16 @@
+# [FU] Keldraflora
+
+**来源**: Frackin' Universe Wiki | **分类**: Imported | **链接**: https://frackinuniverse.miraheze.org/wiki/Keldraflora
+
+---
+
+The **Keldraflora** is a unique evolution of the rare Mandraflora, whom can only be found in Giant Flower Biomes. This variety is noted by it's pale purple shell, and dull greenish blue eyes. One of the primary differences possessed by the Keldraflora is that while still capable of spinning itself around at breakneck speeds, it no longer launches itself at foes. Instead, the primary adaptation this creature has developed is the ability to fling explosive globs of corrupted, poisonous, tar ridden muck. Upon seeing a target, the Keldraflora begins to spin at high speeds, upon reaching a rapid spin, it starts to fire. Able to fire rapidly however, the accuracy isn't too great with this creature. To make matters worse however, the globs explode with such force as to cause damage to blocks, meaning that if enough stick to one area, it may break important structures or furniture. The damage dealt from these globs are both physical and poison damage. Additionally, being struck by these globs inflict the tar status, slowing the target significantly, and have a small chance of inflicting corruption - which causes Darkwater poison (a very potent type of poison that without proper gear and protection, can kill in moments).
+
+For such adaptations to be necessary, one would assume the Keldraflora must have grown in a tough environment and adapted to survive. However, it is more commonly believed that Keldraflora secretly just enjoy murdering the fhawk out of everything not part of their root system.
+
+## Luna's Lab Notes
+~ The Keldraflora makes an excellent pet for a body shield, given it retains 50% hp when captured, and it's base is 150 - significantly more than many other creatures in the universe. Additionally, this creature is quite rare, and can make for a trophy of sorts.
+
+~ This creature can be useful in taking down high health enemies without resistance to poison or darkness. Upon the small chance that the Keldraflora inflicts darkwater poison, even a powerful foe is likely to melt.
+
+~ Less capable in melee combat than other Mandraflora variants, it's spinning body still shouldn't be underestimated as making contact with the Keldraflora while it's in full spin can deal significant damage. (Put this creature in a doorway to a room you want cleared of baddies and watch as it turns itself into a spinning top of death for anything that tries to escape. As it begins carpet bombing everything and everyone inside the room, it's likely foes will be tarred and slowed significantly, giving the Keldraflora ample time to bombard and eliminate most foes. Those remaining still have to remove the Keldraflora without touching it as doing so deals heavy damage, likely enough to instantly kill most lower tier creatures or enemy NPC's. [It's actually really fun to watch, however not too effective in overly large open rooms / areas due to shorter range, and accuracy dropoff]).

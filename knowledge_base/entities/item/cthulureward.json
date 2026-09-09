@@ -1,0 +1,58 @@
+{
+  "entity_id": "cthulureward",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Artifact",
+  "name_zh": "远古遗物",
+  "description_en": "A strange, unknowably ancient artifact.",
+  "description_zh": "一个陌生的、不可知的上古神器。",
+  "rarity": "legendary",
+  "category": "artifact",
+  "price": 12600,
+  "tags": [
+    "reagent",
+    "artifact"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "energy": {
+        "count": 1,
+        "examples": [
+          "atomsmasher"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "fumadnessresource"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cthulurewardtreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0012,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Elder Artifact.md",
+  "quality_tier": "S"
+}

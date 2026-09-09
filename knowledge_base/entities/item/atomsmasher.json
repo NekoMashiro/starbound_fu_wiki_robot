@@ -1,0 +1,96 @@
+{
+  "entity_id": "atomsmasher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Atom Smasher",
+  "name_zh": "原子炮",
+  "description_en": "A hellishly powerful beam cannon.\r\nWill decimate anything it hits.",
+  "description_zh": "地狱般的强大光束炮。\n摧毁它所击中的任何东西。",
+  "rarity": "Legendary",
+  "category": "energy",
+  "price": 120000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "energy",
+    "mininglaser",
+    "upgradeableWeapon",
+    "theaUninfusable"
+  ],
+  "elementalType": "silverweapon",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 40,
+  "critChance": 5,
+  "critBonus": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "antineutronium",
+          "count": 20
+        },
+        {
+          "item": "neutronium",
+          "count": 20
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 15
+        },
+        {
+          "item": "cthulureward",
+          "count": 2
+        },
+        {
+          "item": "ancientpowerconduit",
+          "count": 1
+        },
+        {
+          "item": "precursorbattery",
+          "count": 2
+        },
+        {
+          "item": "precursorcore",
+          "count": 2
+        },
+        {
+          "item": "precursordatadrive",
+          "count": 2
+        },
+        {
+          "item": "hydrogencore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "neutronium",
+          "count": 600000
+        }
+      ],
+      "output_count": 1,
+      "station": "",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Atom Smasher.md",
+  "quality_tier": "A"
+}

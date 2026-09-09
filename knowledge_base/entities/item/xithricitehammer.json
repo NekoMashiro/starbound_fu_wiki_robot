@@ -1,0 +1,60 @@
+{
+  "entity_id": "xithricitehammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Hammer",
+  "name_zh": "赛德瑞瑟之锤",
+  "description_en": "Slam them with cosmic force.\r\nInflicts Minor Vulnerability",
+  "description_zh": "用宇宙之力砸扁你的敌人。\n附加错调瑕疵效果",
+  "rarity": "legendary",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 13
+        },
+        {
+          "item": "effigiumbar",
+          "count": 8
+        },
+        {
+          "item": "liquidaether",
+          "count": 210
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

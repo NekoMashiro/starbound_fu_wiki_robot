@@ -1,0 +1,59 @@
+{
+  "entity_id": "fuwolfhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fang Shaman Hood",
+  "name_zh": "尖牙萨满兜帽",
+  "description_en": "Set Bonuses:\r\n Dagger Mastery: +15%\r\n Dagger/Shortsword: +10/20% Crit Damage\r\n Immune: Snow, Chill",
+  "description_zh": "套装奖励:\n 匕首精通：+15%\n 匕首/短剑: +10/20% 暴击伤害\n 免疫: 雪, 寒冷",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuwolfhead2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

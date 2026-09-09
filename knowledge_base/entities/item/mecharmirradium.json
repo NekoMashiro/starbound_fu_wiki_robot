@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmirradium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Beam",
+  "name_zh": "镭制机甲臂",
+  "description_en": "Fires highly radioactive blasts of energy.",
+  "description_zh": "能够发射出高强度的辐射能量。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 8
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

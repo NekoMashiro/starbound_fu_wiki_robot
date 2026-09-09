@@ -1,0 +1,102 @@
+{
+  "entity_id": "apexbrainjar",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Brain in a Jar",
+  "name_zh": "罐子中的脑子",
+  "description_en": "A brain in a jar, daydreaming.",
+  "description_zh": "有一个脑子在罐子里，正在做白日梦。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "apex",
+    "apexresearchlab",
+    "science",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "inferiorbrain",
+          "count": 1
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 2
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        },
+        {
+          "item": "liquidpoison",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Psionics Table",
+          "name_zh": "灵能工作台"
+        },
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "psionicbench"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "psionicenergy"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apextestfacilityTreasure",
+          "probability": 0.065,
+          "count": 1
+        },
+        {
+          "pool": "apexbaseTreasure",
+          "probability": 0.0336,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0336,
+        0.065
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

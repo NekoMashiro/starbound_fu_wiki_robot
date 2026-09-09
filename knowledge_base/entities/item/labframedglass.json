@@ -1,0 +1,51 @@
+{
+  "entity_id": "labframedglass",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasteel Glass Frame",
+  "name_zh": "塑钢玻璃框架",
+  "description_en": "A sturdy, yet flexible glass.",
+  "description_zh": "一块坚固但易塑形的玻璃。",
+  "rarity": "legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glassmaterial",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuLabParts",
+          "probability": 0.0826,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

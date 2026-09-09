@@ -1,0 +1,27 @@
+{
+  "entity_id": "bloodroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Root",
+  "name_zh": "血之根茎",
+  "description_en": "+10% Physical & Knockback Res.: 2m",
+  "description_zh": "+10% 物理 & 击退抗性: 2m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bloodrootHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

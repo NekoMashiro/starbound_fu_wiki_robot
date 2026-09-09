@@ -1,0 +1,37 @@
+{
+  "entity_id": "foundrychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Chestpiece",
+  "name_zh": "铸造胸甲",
+  "description_en": "A vest and gloves, for hot and dangerous work.",
+  "description_zh": "为炎热又危险的工作而准备的背心和手套。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

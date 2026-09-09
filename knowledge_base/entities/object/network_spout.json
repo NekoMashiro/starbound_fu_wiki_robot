@@ -1,0 +1,35 @@
+{
+  "entity_id": "network_spout",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spout",
+  "name_zh": "喷嘴",
+  "description_en": "Pours Liquids into the world.\r\nInput1: On/Off Switch\r\nInput2: item network",
+  "description_zh": "用于排放液体。\n输入节点1：电源开关\n输入节点2：物品网络",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Spout.md",
+  "quality_tier": "A"
+}

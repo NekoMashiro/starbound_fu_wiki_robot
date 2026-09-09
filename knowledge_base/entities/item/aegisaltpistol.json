@@ -1,0 +1,53 @@
+{
+  "entity_id": "aegisaltpistol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Aegisalt Pistol",
+  "name_zh": "霓磷盐手枪",
+  "description_en": "Emits a continuous beam of pure destructive energy.",
+  "description_zh": "发射持续不断的破坏性能量光束。",
+  "rarity": "Rare",
+  "category": "pistol",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "aegisalt",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "baseDps": 6.5,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 3
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

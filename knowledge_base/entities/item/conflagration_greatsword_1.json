@@ -1,0 +1,36 @@
+{
+  "entity_id": "conflagration_greatsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Blazefuse",
+  "name_zh": "炎熔",
+  "description_en": "A molten greatsword fused with burning desire.",
+  "description_zh": "燃烧的欲望熔于其中的炽炎重剑。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2400,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "primaryAbilityType": "arcana_greatsword_combo",
+  "altAbilityType": "arcana_generic_ability_blink",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

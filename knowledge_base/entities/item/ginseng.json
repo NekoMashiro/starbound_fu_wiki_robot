@@ -1,0 +1,27 @@
+{
+  "entity_id": "ginseng",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heartroot",
+  "name_zh": "灵心根",
+  "description_en": "+8 HP, +12 EP: 3m",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ginsengHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

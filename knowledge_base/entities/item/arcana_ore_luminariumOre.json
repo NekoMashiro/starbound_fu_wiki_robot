@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_ore_luminariumOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Luminarium Ore",
+  "name_zh": "月金矿",
+  "description_en": "A luminarium ore, can be used to craft luminarium bars.",
+  "description_zh": "月金矿石，可用于冶炼月金锭。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 170,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_luminariumBar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "biomes": [
+    {
+      "biome": "arcana_eminsnowForest",
+      "weight": 1.1
+    },
+    {
+      "biome": "arcana_eminsnow",
+      "weight": 1.1
+    }
+  ],
+  "wiki_ref": "Luminarium Ore.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "treasuremap",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Treasure Map",
+  "name_zh": "藏宝图",
+  "description_en": "X marks the spot.",
+  "description_zh": "X标明了地点。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "avian",
+    "avianairship",
+    "explorer",
+    "knowledge"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avianairshipTreasure",
+          "probability": 0.0411,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "fudiverhead3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Leviathan Helmet",
+  "name_zh": "利维坦头盔",
+  "description_en": "Headlamp 4\r\nSet Bonuses:\r\n Swim Boost 3\r\n Ocean/Tidewater: +5% Crit, Damage x1.15\r\n Immune: Acid, Poisoned, Bio-Ooze, Gas, Pressure, Oxygen",
+  "description_zh": "",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 450,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        },
+        {
+          "item": "fudiverhead2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

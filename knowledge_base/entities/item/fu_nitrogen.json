@@ -1,0 +1,278 @@
+{
+  "entity_id": "fu_nitrogen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nitrogen",
+  "name_zh": "氮",
+  "description_en": "Pure diatomic N2 nitrogen gas.",
+  "description_zh": "纯双原子的N2氮气。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 1,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 5,
+        "examples": [
+          "algaeseed",
+          "deathblossomseed",
+          "leafshellseed",
+          "melodistarseed",
+          "mutaviskseed"
+        ]
+      },
+      "liquid": {
+        "count": 4,
+        "examples": [
+          "liquidalienjuice",
+          "liquidcrystal",
+          "liquidnitrogenitem",
+          "vialproto"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "corruptionseed",
+          "cryonicextract",
+          "ff_fertilizer2",
+          "ff_fertilizer3"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "fuheataugment1",
+          "fuheataugment2"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "biofuelcannisteradv"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "c_communitygarden"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "fucloudgun"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "futeltikparasite"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "drop_sources": {
+    "total_pools": 129,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0567,
+          "count": 10
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0101,
+          "count": 10
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0029,
+          "count": 10
+        },
+        {
+          "pool": "capsulespace",
+          "probability": 0.0014,
+          "count": 10
+        },
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.0004,
+          "count": 10,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0567
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0206,
+          "count": 10.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0204,
+          "count": 10.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0157,
+          "count": 10.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0096,
+          "count": 10.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0093,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0206
+      ]
+    },
+    "monster_drops": {
+      "count": 44,
+      "top": [
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0105,
+          "count": 10,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0055,
+          "count": 10
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0033,
+          "count": 10
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0031,
+          "count": 10
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.0016,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0105
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0089,
+          "count": 10.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0088,
+          "count": 10
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0076,
+          "count": 10
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0018,
+          "count": 10
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0017,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0089
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.002,
+          "count": 10
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0004,
+          "count": 10
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0002,
+          "count": 10
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.002
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0004,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "elduukhar",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "厄修安龙人",
+  "description_en": "",
+  "description_zh": "厄修安龙人坚忍、冷静、神秘，喜欢扮演工匠或哲学家的角色。他们寻求发现和启迪。\n\n 食性: 几乎可以吃任何东西\n\n 天赋:\n  最大HP x1.05, 坠落伤害 x0.75\n  抗性: +15% 火炎&寒气抗性, +5% 物理抗性,+4% 暗影抗性  \n当生命低于50%时, 释放出缓慢的冰云。\n   科技: 水晶吐息, 厄休安飞行\n\n环境:\n   以太海, 水晶, 色彩, 红色沙漠生物群落: HP x1.25和+10% 暴击伤害。\n  炎热生物群落: 防御x1.15, HPx0.75.\n  寒冷生物群落: 防御 x0.85, HPx1.25.\n\n武器:\n  水晶 / 月晶: +12% 最大HP & 防御\n\n弱点:\n  新陈代谢旺盛: +15% 饥饿速率\n  水晶呼吸攻击和飞行花费高额饱腹度\n  抗性: -20%毒素抗性, -10%电系抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "maxFood",
+        "baseMultiplier": 0.9
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.75
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": 0.04
+      },
+      {
+        "stat": "fireStatusImmunity",
+        "amount": 1
+      }
+    ],
+    "diet": "entity",
+    "tech": [
+      "elduukharburst",
+      "flight_elduukhar"
+    ]
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "irradiumrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Rapier",
+  "name_zh": "镭制刺剑",
+  "description_en": "A swift and dangerous radioactive blade.\r\nInflicts Rad-Burn",
+  "description_zh": "一把快速而危险的放射性刀片。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "Rapier",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

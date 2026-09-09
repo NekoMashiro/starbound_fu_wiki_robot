@@ -1,0 +1,41 @@
+{
+  "entity_id": "hylotlartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Mirror of Wisdom",
+  "name_zh": "智慧之镜",
+  "description_en": "+12% Katana Mastery\r\nImmune: Oxygen\r\n+8% Cosmic/Shadow Resist\r\nSwim Boost 2",
+  "description_zh": "+12%武士刀专精\n免疫:窒息\n+8%射线/暗影抗性\n游泳增强 2",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 10
+        },
+        {
+          "item": "densiniumbar",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

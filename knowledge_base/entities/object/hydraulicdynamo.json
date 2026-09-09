@@ -1,0 +1,52 @@
+{
+  "entity_id": "hydraulicdynamo",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydraulic Dynamo",
+  "name_zh": "蒸汽发电机",
+  "description_en": "Boils water to drive an enormous piston. Generates up to 21W using thermal fuels such as lava or core fragments. Each slot outputs independently. Needs water coolant. Left Input: On/Off Switch",
+  "description_zh": "用煮沸的水来驱动一个巨大的活塞。使用热燃料，如熔岩或星核碎片产生最高达21W的电力。\n 需要水冷剂。\n左侧输入：电源开关",
+  "rarity": "common",
+  "category": "wire",
+  "price": 300,
+  "tags": [
+    "science",
+    "foundry"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 20
+        },
+        {
+          "item": "copperbar",
+          "count": 15
+        },
+        {
+          "item": "lead",
+          "count": 6
+        },
+        {
+          "item": "electromagnet",
+          "count": 5
+        },
+        {
+          "item": "corefragmentore",
+          "count": 25
+        },
+        {
+          "item": "wire",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Hydraulic Dynamo.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "magmacabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Cabinet",
+  "name_zh": "岩浆箱子",
+  "description_en": "Probably not safe. But hey...intimidating.",
+  "description_zh": "或许不是很安全。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "magma",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "magmawall3",
+          "count": 12
+        },
+        {
+          "item": "magmawall2",
+          "count": 8
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

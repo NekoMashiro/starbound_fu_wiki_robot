@@ -1,0 +1,80 @@
+{
+  "entity_id": "mobiuspistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sentry Pistol",
+  "name_zh": "哨兵手枪",
+  "description_en": "A pistol with shrouded origins.\r\nInflicts frozen-fire",
+  "description_zh": "来源不明的手枪。\n附加霜灼效果",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 4.5,
+  "critChance": 4,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0112
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

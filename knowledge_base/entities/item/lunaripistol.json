@@ -1,0 +1,54 @@
+{
+  "entity_id": "lunaripistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Pistol",
+  "name_zh": "月晶手枪",
+  "description_en": "Crystalline blasts charged with lunari energy.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "可以射出爆炸性月晶能量弹药。\n照明\n持久弹",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.0,
+  "critChance": 3,
+  "critBonus": 12,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

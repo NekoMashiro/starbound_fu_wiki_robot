@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_luye_bed_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luye Medical Scanner",
+  "name_zh": "绿叶医用扫描仪",
+  "description_en": "A bed which is designed to perform medical scans.",
+  "description_zh": "可以进行医学扫描的医疗床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 240,
+  "tags": [
+    "luye",
+    "medical",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

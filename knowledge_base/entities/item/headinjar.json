@@ -1,0 +1,168 @@
+{
+  "entity_id": "headinjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Head in Jar",
+  "name_zh": "头罐",
+  "description_en": "Used to store and preserve heads. Filled with H2OGfat. A special liquid used to keep heads alive. It is rich in nutrients and refreshing to drink.\r\nImmune: Oxygen",
+  "description_zh": "用来储存和保存头部。内部充满了H2OGfat。这是一种用来保持头部生命力的特殊液体，营养丰富，饮用爽口。\n免疫: 窒息",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 3000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 40,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0343,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0343
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0064,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0062,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0016,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0015,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0012,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0064
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0039,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0038,
+          "count": 1
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0039
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0007
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

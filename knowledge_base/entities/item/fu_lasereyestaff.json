@@ -1,0 +1,63 @@
+{
+  "entity_id": "fu_lasereyestaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cane of Eyes",
+  "name_zh": "眼球法杖",
+  "description_en": "A fairly interesting technological weapon.",
+  "description_zh": "一种相当有趣的高科技武器。",
+  "rarity": "Uncommon",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "laserrain",
+  "altAbilityType": "laserorb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "oculemon",
+          "count": 32
+        },
+        {
+          "item": "crystal",
+          "count": 10
+        },
+        {
+          "item": "cellmatter",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

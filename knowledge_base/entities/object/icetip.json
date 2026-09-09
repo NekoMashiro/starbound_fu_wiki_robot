@@ -1,0 +1,32 @@
+{
+  "entity_id": "icetip",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Icetip",
+  "name_zh": "冰尖虫",
+  "description_en": "This bug's wings are frozen over.",
+  "description_zh": "这只虫子的翅膀结满了冰。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "icetip",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "icetip"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "craftsawblade",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crafted Sawblade Trap",
+  "name_zh": "精制锯刃陷阱",
+  "description_en": "Wow, this looks sharp!",
+  "description_zh": "哇，它看起来很锋利，",
+  "rarity": "Common",
+  "category": "trap",
+  "price": 90,
+  "tags": [
+    "avian",
+    "aviantemple",
+    "evil"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "logblock",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

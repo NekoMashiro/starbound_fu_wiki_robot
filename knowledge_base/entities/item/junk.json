@@ -1,0 +1,36 @@
+{
+  "entity_id": "junk",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Junk Pile",
+  "name_zh": "垃圾堆",
+  "description_en": "An old pile of junk.\nExtractable.",
+  "description_zh": "一堆旧垃圾。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.2272,
+          "count": 4.4
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.1867,
+          "count": 4.4
+        }
+      ],
+      "prob_range": [
+        0.1867,
+        0.2272
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

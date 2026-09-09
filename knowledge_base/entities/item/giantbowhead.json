@@ -1,0 +1,49 @@
+{
+  "entity_id": "giantbowhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Giant Bow",
+  "name_zh": "巨大蝴蝶结",
+  "description_en": "A giant bow! It's so pretty.",
+  "description_zh": "一个巨大的蝴蝶结！真漂亮。",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "livingroot",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Treasured Trophies",
+      "station_zh": "珍稀战利品行",
+      "source_mod": "Starbound"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostsnake",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

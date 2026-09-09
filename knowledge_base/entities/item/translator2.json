@@ -1,0 +1,38 @@
+{
+  "entity_id": "translator2",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Right Translation Wheel",
+  "name_zh": "右侧翻译轮盘",
+  "description_en": "One half of an ancient wheel made for translating runes.",
+  "description_zh": "用于翻译符文的古代轮盘的右半部。",
+  "rarity": "Rare",
+  "category": "quest",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "ancientalphabet-codex"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "translator2Pool",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

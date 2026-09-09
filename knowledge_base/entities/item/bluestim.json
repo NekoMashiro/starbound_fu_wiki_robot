@@ -1,0 +1,127 @@
+{
+  "entity_id": "bluestim",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Stim Pack",
+  "name_zh": "蓝色兴奋剂",
+  "description_en": "A stimpack full of blue liquid, it gives your jump a boost!",
+  "description_zh": "能让你跳的更高的蓝色兴奋剂。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalblue",
+          "count": 4
+        },
+        {
+          "item": "staticcell",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 14,
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "stimtreasure",
+          "probability": 0.525,
+          "count": 2
+        },
+        {
+          "pool": "apexstimtreasure",
+          "probability": 0.0645,
+          "count": 2
+        },
+        {
+          "pool": "apexfacilitytreasure",
+          "probability": 0.025,
+          "count": 2
+        },
+        {
+          "pool": "labguardtreasure",
+          "probability": 0.0211,
+          "count": 2
+        },
+        {
+          "pool": "labscientisttreasure",
+          "probability": 0.0205,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.525
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.4091,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "stim",
+          "probability": 0.25,
+          "count": 2
+        },
+        {
+          "pool": "elduustim",
+          "probability": 0.25,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexfacilitychesttreasure",
+          "probability": 0.0375,
+          "count": 2
+        },
+        {
+          "pool": "apextestfacilityChestTreasure",
+          "probability": 0.028,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.028,
+        0.0375
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,278 @@
+{
+  "entity_id": "biospore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bioluminescent Spore",
+  "name_zh": "发光孢子",
+  "description_en": "An unusual spore that produces its own light. It might prove useful in experiments.",
+  "description_zh": "一种会自行发光的孢子，应该是有用的。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 12,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 13,
+        "examples": [
+          "blisterbushplantseed",
+          "dragonsbeardseed",
+          "energiflowerseed",
+          "fubioshroomblue",
+          "fubioshroomgreen"
+        ]
+      },
+      "light": {
+        "count": 5,
+        "examples": [
+          "ff_biolight1",
+          "ff_biolight2",
+          "ff_biolight3",
+          "ff_biolight4",
+          "ff_biolight5"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "devilsbargain",
+          "hermespill",
+          "reactivegel2"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "",
+          "money"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "hoodedhead",
+          "hytalisarmorhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "hoodedchest",
+          "hytalisarmorchest"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "hoodedlegs",
+          "hytalisarmorpants"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "isn_glowgel",
+          "madnessfleshtyrant"
+        ]
+      }
+    },
+    "total": 37
+  },
+  "drop_sources": {
+    "total_pools": 64,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fubioshroomHarvest",
+          "probability": 1.99,
+          "count": 1.0
+        },
+        {
+          "pool": "extraMonsterPoisonHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "eyejelly2",
+            "toxinthird"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.99
+      ]
+    },
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "fleshreaperhuntLoot",
+          "probability": 0.2716,
+          "count": 5,
+          "monsters": [
+            "fleshreaper"
+          ]
+        },
+        {
+          "pool": "shadowhoundLoot",
+          "probability": 0.1257,
+          "count": 5,
+          "monsters": [
+            "shadowhound"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 5,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 50
+        },
+        {
+          "pool": "fleshreaperLoot",
+          "probability": 0.0805,
+          "count": 5,
+          "monsters": [
+            "fleshreaper",
+            "fleshreaper2",
+            "fleshreaper3",
+            "ghastbrain"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2716
+      ]
+    },
+    "monster_drops": {
+      "count": 21,
+      "top": [
+        {
+          "pool": "horkulbeasthuntTreasure",
+          "probability": 0.2222,
+          "count": 4,
+          "monsters": [
+            "horkulbeast"
+          ]
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 5
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 5
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2222
+      ]
+    },
+    "chest_loot": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.147,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 50
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 5.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.147
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 5.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 5.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "cutepicture",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Painting",
+  "name_zh": "可爱的油画",
+  "description_en": "A cute painting of butterflies",
+  "description_zh": "一副绘有蝴蝶的可爱油画。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 70,
+  "tags": [
+    "fu",
+    "cute",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dollhousewood2",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

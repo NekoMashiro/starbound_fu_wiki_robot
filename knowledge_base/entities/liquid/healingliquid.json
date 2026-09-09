@@ -1,0 +1,25 @@
+{
+  "entity_id": "healingliquid",
+  "entity_type": "liquid",
+  "source_mod": "Starbound",
+  "name_en": "healingliquid",
+  "name_zh": "",
+  "description_en": "This faintly glowing liquid looks unnaturally refreshing!",
+  "description_zh": "这些看起来不太自然的微微发光的液体令人精神焕发！",
+  "status_effects": [
+    "swimming",
+    "wethealingwater",
+    "healingwater"
+  ],
+  "interactions": [
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 41,
+      "liquidResult": 41
+    }
+  ],
+  "quality_tier": "C"
+}

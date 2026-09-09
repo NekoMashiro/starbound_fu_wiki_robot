@@ -1,0 +1,100 @@
+{
+  "entity_id": "cookedpoultry",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cooked Poultry",
+  "name_zh": "煮熟的鸟肉",
+  "description_en": "A perfectly roasted bird. What a beautiful sight to behold. Type: Cooked Meat",
+  "description_zh": "看那！一块完美烹调的鸟肉！多么壮观！\n类型：熟肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rawpoultry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "cookedchickenobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 22
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "cookedchickenobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

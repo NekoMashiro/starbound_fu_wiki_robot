@@ -1,0 +1,53 @@
+{
+  "entity_id": "effigiumstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Staff",
+  "name_zh": "幻影法杖",
+  "description_en": "Conjures a cloud of shadowgas.",
+  "description_zh": "能召唤出一股暗影能量。",
+  "rarity": "Rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "effigium",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": true,
+  "primaryAbilityType": "darkcloud",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 8
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

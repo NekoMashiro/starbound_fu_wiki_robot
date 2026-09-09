@@ -1,0 +1,57 @@
+{
+  "entity_id": "effigiumhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm Hammer",
+  "name_zh": "幻影锤",
+  "description_en": "Ghostly as a spirit.",
+  "description_zh": "如鬼魅一般的武器。",
+  "rarity": "Rare",
+  "category": "hammer",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "effigium",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 5,
+  "critBonus": 5,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "shockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 9
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

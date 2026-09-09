@@ -1,0 +1,43 @@
+{
+  "entity_id": "fubioshroomyellow",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glowing Yellow Mushroom",
+  "name_zh": "发光黄色蘑菇",
+  "description_en": "Provides colored light.",
+  "description_zh": "它会发出彩色的光。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 33
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "biospore",
+          "count": 4
+        },
+        {
+          "item": "glowfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

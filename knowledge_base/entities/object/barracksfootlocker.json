@@ -1,0 +1,51 @@
+{
+  "entity_id": "barracksfootlocker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Barracks Foot Locker",
+  "name_zh": "兵营脚镣",
+  "description_en": "A durable container for safely storing military gear.",
+  "description_zh": "安全存放军用装备的耐用容器。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "barracks",
+    "combat",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "barracksset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "mininghathead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mining Helmet",
+  "name_zh": "采矿头盔",
+  "description_en": "A miners hat, has a light on it!",
+  "description_zh": "一个矿工帽，上面有一盏灯！",
+  "rarity": "Common",
+  "category": "headwear",
+  "price": 400,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "flashlight",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

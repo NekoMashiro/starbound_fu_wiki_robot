@@ -1,0 +1,45 @@
+{
+  "entity_id": "armcannonshock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arm Cannon (Shock)",
+  "name_zh": "臂炮(电击)",
+  "description_en": "Attaches to the forearm. Fires electric blasts.\r\nCounts as 'electric' for set bonuses",
+  "description_zh": "可装在手臂上，发射电击子弹。\n电系武器",
+  "rarity": "rare",
+  "category": "armcannon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "energy",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "armcannon",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

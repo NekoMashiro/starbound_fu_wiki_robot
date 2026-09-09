@@ -1,0 +1,43 @@
+{
+  "entity_id": "irradiumlavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Lava Lamp",
+  "name_zh": "液镭熔岩灯",
+  "description_en": "A lamp filled with liquid Irradium. Is this even safe?",
+  "description_zh": "一盏注满了液态镭的灯。它还安全吗？",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "fu",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "liquidirradium",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

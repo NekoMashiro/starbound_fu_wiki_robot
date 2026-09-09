@@ -1,0 +1,43 @@
+{
+  "entity_id": "trexfossil3",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "T. rex Legs",
+  "name_zh": "霸王龙的腿部及髋部",
+  "description_en": "Fossilised T. rex legs and hips.",
+  "description_zh": "霸王龙的腿部和髋部化石。",
+  "rarity": "Rare",
+  "category": "largeFossil",
+  "price": 0,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "largefossil",
+          "probability": 0.0286,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.0071,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.0071,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0071,
+        0.0286
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "at_ext_hdd",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Encrypted hard drive",
+  "name_zh": "加密数据硬盘",
+  "description_en": "An encrypted data hard drive.",
+  "description_zh": "一个被加密的数据硬盘。",
+  "rarity": "Legendary",
+  "category": "quest",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d10_hdd",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

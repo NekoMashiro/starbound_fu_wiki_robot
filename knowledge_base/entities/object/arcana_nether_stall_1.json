@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_stall_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Herbal Stall",
+  "name_zh": "冥界草药店",
+  "description_en": "A market stall selling various plants and alchemy ingredients.",
+  "description_zh": "一个出售各种植物和炼金材料的市场摊位。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 120,
+  "tags": [
+    "nether"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

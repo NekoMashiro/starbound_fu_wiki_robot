@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_misc_warmWater",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Warm Water",
+  "name_zh": "温水",
+  "description_en": "Drink it before it gets totally cold.",
+  "description_zh": "最好在它冷之前喝掉。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_1_water",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

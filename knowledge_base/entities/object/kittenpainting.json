@@ -1,0 +1,40 @@
+{
+  "entity_id": "kittenpainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fuzzy Wumpums",
+  "name_zh": "茸串珠",
+  "description_en": "A hungry, terrifying predator.",
+  "description_zh": "一个饥饿可怖的掠食者。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

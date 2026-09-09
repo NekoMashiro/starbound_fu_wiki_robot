@@ -1,0 +1,59 @@
+{
+  "entity_id": "trictusaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Trictus Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Its diet is made up of small amounts of water that it finds by digging into the ground.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "trictusVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "trictusTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "chimkin",
+            "poisontrictus",
+            "trictus",
+            "trictus2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "trictusHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "poisontrictus",
+            "trictus",
+            "trictus2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

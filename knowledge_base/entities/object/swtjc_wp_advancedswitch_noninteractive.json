@@ -1,0 +1,46 @@
+{
+  "entity_id": "swtjc_wp_advancedswitch_noninteractive",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Wall Switch (Non-Interactive)",
+  "name_zh": "高级墙壁开关(非交互)",
+  "description_en": "A Small Wall Switch, Persistent Switch, Data Latch, and Not Gate, all in a single package!",
+  "description_zh": "其内封装有小型墙壁开关、持久开关、锁存器、非门。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_brokenwallswitch",
+          "count": 1
+        },
+        {
+          "item": "persistentswitch",
+          "count": 1
+        },
+        {
+          "item": "not",
+          "count": 1
+        },
+        {
+          "item": "dlatch",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

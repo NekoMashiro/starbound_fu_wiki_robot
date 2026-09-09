@@ -1,0 +1,36 @@
+{
+  "entity_id": "bunnyhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bunny Hat",
+  "name_zh": "兔帽",
+  "description_en": "A living bunny wants to rest on your head!",
+  "description_zh": "一只活兔子想在你的头上休息！",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "choices1b",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fulostghostbunny",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

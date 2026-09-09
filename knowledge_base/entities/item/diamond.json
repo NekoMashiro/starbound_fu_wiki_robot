@@ -1,0 +1,272 @@
+{
+  "entity_id": "diamond",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Diamond",
+  "name_zh": "钻石",
+  "description_en": "It's a beautifully cut diamond.",
+  "description_zh": "一块美丽的钻石。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 1200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 5,
+        "examples": [
+          "multitether",
+          "multitinytether",
+          "pettether",
+          "statuetether",
+          "tinytether"
+        ]
+      },
+      "other": {
+        "count": 4,
+        "examples": [
+          "diamonddrill",
+          "diamondpickaxe",
+          "money",
+          "portable3dprinter"
+        ]
+      },
+      "upgradeComponent": {
+        "count": 3,
+        "examples": [
+          "manipulatormodule",
+          "techcard",
+          "upgrademodule"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "batterypack_erithian",
+          "diamondlantern",
+          "xenonpack"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "colonycore",
+          "empress_display_2",
+          "empress_display_4"
+        ]
+      },
+      "bow": {
+        "count": 3,
+        "examples": [
+          "prismaticbow",
+          "protobow",
+          "xithricitebow"
+        ]
+      },
+      "shield": {
+        "count": 2,
+        "examples": [
+          "diamondshield",
+          "tritaniumshield"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "honedlunari",
+          "teleportercore"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "drop_sources": {
+    "total_pools": 30,
+    "mining": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "diamondRock",
+          "probability": 3.5,
+          "count": 1
+        },
+        {
+          "pool": "diamondRockSmall",
+          "probability": 1.5,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.5,
+        3.5
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 1.1,
+          "count": 1
+        },
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 1.068,
+          "count": 1
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 1.068,
+          "count": 1
+        },
+        {
+          "pool": "arcana_mission_desertstart_end",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.8738,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.8612,
+        1.1
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "florantreasurelore",
+          "probability": 1.068,
+          "count": 1
+        },
+        {
+          "pool": "miningtreasurelore",
+          "probability": 1.068,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxdiamondorelitTreasure",
+          "probability": 1.0001,
+          "count": 10.2
+        },
+        {
+          "pool": "pandorasboxDiamondSmallestTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxDiamondSmallerTreasure",
+          "probability": 1.0,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.05,
+        1.068
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxdiamondorelitHarvest",
+          "probability": 1.0001,
+          "count": 10.2
+        },
+        {
+          "pool": "pandorasboxmisterwisperHunting",
+          "probability": 0.3194,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.3194,
+        1.0001
+      ]
+    },
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox_4",
+          "probability": 1.0,
+          "count": 2.4
+        },
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox",
+          "probability": 0.4,
+          "count": 2.4
+        },
+        {
+          "pool": "deadBodiesAvian",
+          "probability": 0.1961,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.125,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0368,
+        1.0
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "corruptasteroid",
+      "weight": 0.3
+    },
+    {
+      "biome": "corruptmoonunderground",
+      "weight": 0.3
+    },
+    {
+      "biome": "gardencorelayer",
+      "weight": 0.2
+    },
+    {
+      "biome": "corruptedforest",
+      "weight": 0.2
+    },
+    {
+      "biome": "chromaticunderground",
+      "weight": 0.2
+    },
+    {
+      "biome": "corrupt",
+      "weight": 0.2
+    },
+    {
+      "biome": "icewasteunderground",
+      "weight": 0.2
+    },
+    {
+      "biome": "arcana_illuminated_underground_1",
+      "weight": 0.2
+    },
+    {
+      "biome": "fungusunderground",
+      "weight": 0.2
+    },
+    {
+      "biome": "strangeseafloor",
+      "weight": 0.2
+    }
+  ],
+  "wiki_ref": "Diamond.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,75 @@
+{
+  "entity_id": "arcana_back_arcaneEPP",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane EPP",
+  "name_zh": "奥秘 EPP",
+  "description_en": "This EPP provides ample oxygen and Energy Drain immunity. Useful on certain Arcane Star planets.",
+  "description_zh": "这个EPP提供了窒息免疫和奥术流失免疫，适用于特定奥秘星系星球。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 2
+        },
+        {
+          "item": "refinedviolium",
+          "count": 2
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 2
+        },
+        {
+          "item": "solariumstar",
+          "count": 6
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_energyDrain"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "arcana_back_illuminatedEPP"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

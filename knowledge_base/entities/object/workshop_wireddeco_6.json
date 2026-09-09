@@ -1,0 +1,53 @@
+{
+  "entity_id": "workshop_wireddeco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Info Screen",
+  "name_zh": "大型信息显示器",
+  "description_en": "An info display screen.",
+  "description_zh": "恰如其名",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 160,
+  "tags": [
+    "titancorp",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "penumbriteshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbral Shortspear",
+  "name_zh": "半影短矛",
+  "description_en": "Stab from the shadows...with shadow.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "shortspear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.1,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

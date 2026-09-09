@@ -1,0 +1,32 @@
+{
+  "entity_id": "tidefly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tidefly",
+  "name_zh": "潮汐蝇",
+  "description_en": "Comes out only during certain phases of the moon.",
+  "description_zh": "仅在特定的月球潮汐时出现。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidefly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "tidefly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

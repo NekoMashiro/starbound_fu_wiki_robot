@@ -1,0 +1,145 @@
+{
+  "entity_id": "pushbackaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Repulsor Field I",
+  "name_zh": "EPP模块（排斥力场 I）",
+  "description_en": "Keeps enemies away from you with a 24ms pulsing electric field\r\n20 Knockback",
+  "description_zh": "击退24ms脉冲力场范围以内的敌对目标。\n击退距离：20",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "petalyellow",
+          "count": 12
+        },
+        {
+          "item": "staticcell",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 14,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "augmentsFU",
+          "probability": 0.061,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0008
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

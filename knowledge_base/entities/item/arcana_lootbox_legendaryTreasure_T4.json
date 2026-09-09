@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_lootbox_legendaryTreasure_T4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Legendary Treasure [T4]",
+  "name_zh": "传说财宝 [T4]",
+  "description_en": "A bag that contains a mysterious legendary reward!",
+  "description_zh": "一个包裹，里面有神秘的传说奖励！",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 3000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_blisteringTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_windsweptTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.1353,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

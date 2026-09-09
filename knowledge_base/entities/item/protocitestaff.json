@@ -1,0 +1,56 @@
+{
+  "entity_id": "protocitestaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Staff",
+  "name_zh": "原体法杖",
+  "description_en": "Raw energy imbued within.",
+  "description_zh": "蕴藏着可怕的原体能量。",
+  "rarity": "Uncommon",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "proto",
+    "energy"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "altAbilityType": "energyzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "diamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

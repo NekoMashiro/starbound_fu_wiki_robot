@@ -1,0 +1,46 @@
+{
+  "entity_id": "deadbeatnerdhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Deadbeat Nerd Mask",
+  "name_zh": "落魄蠢蛋面具",
+  "description_en": "A face mask with protective eye wear.",
+  "description_zh": "一个自带防护眼镜的面具。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

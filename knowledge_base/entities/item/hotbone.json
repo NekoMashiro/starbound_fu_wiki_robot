@@ -1,0 +1,84 @@
+{
+  "entity_id": "hotbone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hot Bone",
+  "name_zh": "辣骨",
+  "description_en": "Boneboo roasted with chillies makes for a crunchy, spicy Floran treat. Type: Meaty Plant",
+  "description_zh": "辣椒烤骨竹，是一道爽脆的、辛辣的叶族人菜肴。",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 465,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boneboo",
+          "count": 1
+        },
+        {
+          "item": "chili",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 465
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "hothothotpot"
+  ],
+  "quality_tier": "A"
+}

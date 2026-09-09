@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_catalytic_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Catalytic Helm",
+  "name_zh": "催化头盔",
+  "description_en": "An armor piece exhibiting a faint cosmic aura. \n\nSet Bonus: \nGrants +12% Fire RES, and +8% Crit. damage.",
+  "description_zh": "散发出微弱宇宙光环的头盔。\n\n套装效果：\n获得+12%烈焰抗性和+8%暴击伤害。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_heartseeker_head"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

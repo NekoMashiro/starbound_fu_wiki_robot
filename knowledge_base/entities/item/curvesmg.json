@@ -1,0 +1,60 @@
+{
+  "entity_id": "curvesmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Blaster",
+  "name_zh": "劫掠突击步枪",
+  "description_en": "A space pirate favorite in plasma technology.\r\n+Bouncy and Burny",
+  "description_zh": "一把太空海盗使用的等离子武器。\n附加弹力和烧伤效果",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "plasma",
+    "upgradeableWeapon",
+    "poison"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 4.55,
+  "critChance": 1,
+  "critBonus": 5,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "prisilitestar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

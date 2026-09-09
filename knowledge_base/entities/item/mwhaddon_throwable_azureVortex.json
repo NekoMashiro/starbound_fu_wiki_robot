@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_throwable_azureVortex",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Azure Vortex",
+  "name_zh": "蔚蓝漩涡",
+  "description_en": "Create a vortex that draws enemies and projectiles nearby to it.",
+  "description_zh": "生成一个吸附附近怪物和弹幕的漩涡。",
+  "rarity": "legendary",
+  "category": "throwableItem",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_azuriumOre",
+          "count": 2
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_flowers_blueSpectralweed",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

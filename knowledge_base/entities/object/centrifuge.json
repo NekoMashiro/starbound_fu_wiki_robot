@@ -1,0 +1,44 @@
+{
+  "entity_id": "centrifuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Centrifuge",
+  "name_zh": "实验室离心机",
+  "description_en": "This advanced centrifuge efficiently separates immiscible liquids. Requires 24W power.",
+  "description_zh": "这是更先进的离心机，它能从于不相溶的液体中分离出物质。\n需要24W电力。",
+  "rarity": "rare",
+  "category": "^orange;Centrifuge^reset;",
+  "price": 1200,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 8
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Lab Centrifuge.md",
+  "quality_tier": "A"
+}

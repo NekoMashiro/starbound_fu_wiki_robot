@@ -1,0 +1,51 @@
+{
+  "entity_id": "masqueradehead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Masquerade Helm",
+  "name_zh": "万幻头盔",
+  "description_en": "Set Bonuses:\r\n +25% Energy Regen\r\n Striker: +1% Crit Chance\r\n Immune: Gas",
+  "description_zh": "套装奖励：\n +25% 能量恢复\n 打击者: +1% 暴击几率\n 免疫: 气体",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "kirhostier2head",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

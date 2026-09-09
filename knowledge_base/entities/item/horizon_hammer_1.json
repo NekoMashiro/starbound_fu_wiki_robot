@@ -1,0 +1,64 @@
+{
+  "entity_id": "horizon_hammer_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Retribution",
+  "name_zh": "业报",
+  "description_en": "A hammer made from necroium ingots.",
+  "description_zh": "用死金锭制成的锤子。",
+  "rarity": "Rare",
+  "category": "hammer",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "horizon"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 13.0,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "groundslam",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 14
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_flail"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

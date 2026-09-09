@@ -1,0 +1,52 @@
+{
+  "entity_id": "fuautohookshot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hookshot",
+  "name_zh": "发射钩爪",
+  "description_en": "It pulls you up automatically! Upgrade using your Tricorder.",
+  "description_zh": "它可以自动得把你拉上去！\n可在三度仪进行升级。",
+  "rarity": "common",
+  "category": "hookshot",
+  "price": 200,
+  "tags": [
+    "upgradeableTool",
+    "tool"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "climbingrope",
+          "count": 4
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 8
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "autohookshoticon2.png",
+    "seed": "",
+    "shortdescription": "发射钩爪 MkII ^red;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Hookshot.md",
+  "quality_tier": "A"
+}

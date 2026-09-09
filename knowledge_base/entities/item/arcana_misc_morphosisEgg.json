@@ -1,0 +1,100 @@
+{
+  "entity_id": "arcana_misc_morphosisEgg",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Morphosis Egg",
+  "name_zh": "化形卵",
+  "description_en": "A green, glowing egg. Dropped from the Evolapis.",
+  "description_zh": "绿色的发光卵，由进化魔石掉落。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 380,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_adaptionEgg",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "arcana_food_allslainbreakfast"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_embryonic_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_embryonic_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_embryonic_chest"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "arcana_back_superstormEPP"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_broadsword_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_spear_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_summonStaff_1"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_evolapis",
+          "probability": 1.0,
+          "count": 24,
+          "monsters": [
+            "arcana_boss_evolapis",
+            "arcana_boss_evolapis_spawner"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

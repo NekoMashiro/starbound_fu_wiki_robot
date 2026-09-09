@@ -1,0 +1,97 @@
+{
+  "entity_id": "arcana_essence_lunarEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Essence",
+  "name_zh": "月明精纯",
+  "description_en": "A solidified essence of the frozen moons.",
+  "description_zh": "清冷月光之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_essence_tripolarEssence",
+          "arcana_misc_kuromatsuWood",
+          "arcana_misc_terminalSigma",
+          "arcana_sigils_lunarSigil"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "lunar_katana_1",
+          "lunar_katana_2"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "lunar_dagger_1"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "arcana_teleporter_lunarCorridor"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_potion_fates"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_smashables_lunarEssence_small",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_smashables_lunarEssence_medium",
+          "probability": 1.0,
+          "count": 1.5
+        },
+        {
+          "pool": "arcana_smashables_lunarEssence_large",
+          "probability": 1.0,
+          "count": 2.5
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_dheral",
+          "probability": 1.0,
+          "count": 10,
+          "monsters": [
+            "arcana_boss_dheral",
+            "arcana_boss_herald"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

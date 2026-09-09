@@ -1,0 +1,56 @@
+{
+  "entity_id": "zerchesiumstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Staff",
+  "name_zh": "高熔点法杖",
+  "description_en": "Frosty death in a convenient size.",
+  "description_zh": "恰到好处的冰冻杀戮。",
+  "rarity": "uncommon",
+  "category": "staff",
+  "price": 940,
+  "tags": [
+    "weapon",
+    "staff",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "primaryAbilityType": "icestorm",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 8
+        },
+        {
+          "item": "cryonicextract",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

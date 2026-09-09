@@ -1,0 +1,68 @@
+{
+  "entity_id": "hellfirespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Spear",
+  "name_zh": "地狱火长矛",
+  "description_en": "Made from the stuff of raw Chaos.\r\nHunting weapon",
+  "description_zh": "由原始混沌制成。\n狩猎武器",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear2",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 3
+        },
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "hellfireplantseed",
+          "count": 2
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

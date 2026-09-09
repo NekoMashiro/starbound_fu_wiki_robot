@@ -1,0 +1,56 @@
+{
+  "entity_id": "irradiummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Mace",
+  "name_zh": "镭制钉头锤",
+  "description_en": "Radiation-laced for extra merriment.\r\nInflicts Rad-Burn",
+  "description_zh": "放射线是为了增加欢乐。\n辐射燃烧效果 ；",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.44,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

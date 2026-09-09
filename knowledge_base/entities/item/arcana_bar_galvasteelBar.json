@@ -1,0 +1,124 @@
+{
+  "entity_id": "arcana_bar_galvasteelBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Galvasteel Bar",
+  "name_zh": "镀钢锭",
+  "description_en": "A chemically refined alloy with an enhanced durability.",
+  "description_zh": "通过化学方式加固的金属，耐久更进一步。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_galvasteelOre",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 28,
+        "examples": [
+          "geoelectra_tile3",
+          "geoelectra_tile4",
+          "geoelectra_tile5",
+          "orion_tile1",
+          "orion_tile11"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_architect_legs",
+          "arcana_armor_prima_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_architect_head",
+          "arcana_armor_prima_head"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_architect_chest",
+          "arcana_armor_prima_chest"
+        ]
+      },
+      "spear": {
+        "count": 2,
+        "examples": [
+          "aurea_glaive_1",
+          "exousia_imperialArmy_3_lance_1"
+        ]
+      },
+      "sniperRifle": {
+        "count": 2,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_1",
+          "exousia_imperialArmy_3_sniperRifle_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_hakenStahlite"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "arcana_shield_ampliftShield"
+        ]
+      }
+    },
+    "total": 42
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_galvasteelBar"
+  ],
+  "wiki_ref": "Galvasteel Bar.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "goldbuck",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Goldbuck",
+  "name_zh": "金币虫",
+  "description_en": "A bug with glistening gold wings, very fancy!",
+  "description_zh": "一只有着闪耀金色翅膀的虫子，奇特！",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "goldbuck",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "goldbuck"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,210 @@
+{
+  "entity_id": "commonaxe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Axe",
+  "name_zh": "常规斧",
+  "description_en": "Designed for effective chopping.",
+  "description_zh": "专为高效砍击设计。",
+  "rarity": "Common",
+  "category": "axe",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "twoHanded": false,
+  "baseDps": [
+    9.5,
+    10
+  ],
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "drop_sources": {
+    "total_pools": 226,
+    "other": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "testarenaMelee",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "elduucommonMelee",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "commonMelee",
+          "probability": 0.0833,
+          "count": 1
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.0348,
+          "count": 10
+        },
+        {
+          "pool": "elduuweapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 85,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.0087,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.0087,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.0087,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.0087,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0333
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0087,
+          "count": 1.0
+        },
+        {
+          "pool": "floranmissiontreasure",
+          "probability": 0.0063,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0087
+      ]
+    },
+    "monster_drops": {
+      "count": 115,
+      "top": [
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "thalassa_treasure_1",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "gaea_treasure_1",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "aeolus_treasure_1",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_hephaestus_treasure_1",
+          "probability": 0.0056,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0078
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0065,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0062,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0013,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.0065
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.002
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

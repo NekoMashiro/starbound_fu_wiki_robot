@@ -1,0 +1,63 @@
+{
+  "entity_id": "maple_katana_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amberez",
+  "name_zh": "安培勒兹",
+  "description_en": "A maple tachi made with basic metals.",
+  "description_zh": "使用普通金属制成的枫之太刀。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "primaryAbilityType": "arcana_tachi_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

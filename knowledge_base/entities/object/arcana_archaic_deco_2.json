@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_archaic_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Giant Globe",
+  "name_zh": "古朴大型星球仪",
+  "description_en": "A giant golden globe sculpted by the finest of the Gilten sculptors.",
+  "description_zh": "一个巨大的金色星球仪，由最优秀的镀人雕刻家制成。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 960,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 24
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

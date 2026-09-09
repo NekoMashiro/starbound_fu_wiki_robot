@@ -1,0 +1,42 @@
+{
+  "entity_id": "fu_ftldrivemk3a",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "FTL Drive Mk3a",
+  "name_zh": "FTL引擎Mk3a",
+  "description_en": "A larger FTL drive for a space ship. Allows interstellar travel. Ship Speed: +25. BYOS Only.",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pureerchius",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 20
+        },
+        {
+          "item": "fu_ftldrivemk2a",
+          "count": 1
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

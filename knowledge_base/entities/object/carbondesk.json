@@ -1,0 +1,46 @@
+{
+  "entity_id": "carbondesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Desk",
+  "name_zh": "碳制书桌",
+  "description_en": "A desk made from carbon.",
+  "description_zh": "碳制的书桌。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "carbon",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "coalore",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

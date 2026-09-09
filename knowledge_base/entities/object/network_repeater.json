@@ -1,0 +1,37 @@
+{
+  "entity_id": "network_repeater",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Repeater",
+  "name_zh": "中继器",
+  "description_en": "Links together certain inventory network nodes. Will not function if looped.",
+  "description_zh": "链接将某些库存网络节点放在一起如果循环，将无法运行",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Repeater.md",
+  "quality_tier": "A"
+}

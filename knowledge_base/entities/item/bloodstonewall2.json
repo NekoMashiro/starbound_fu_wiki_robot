@@ -1,0 +1,32 @@
+{
+  "entity_id": "bloodstonewall2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bloody Rock",
+  "name_zh": "血岩",
+  "description_en": "This is probably worth something, somewhere.\nExtractable, Crushable.",
+  "description_zh": "在某个地方，这种材料可能是很昂贵的。\n可萃取，可破碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bloodgolemLoot",
+          "probability": 0.1601,
+          "count": 25,
+          "monsters": [
+            "atropuseye",
+            "atropusfish",
+            "fubloodgolem"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

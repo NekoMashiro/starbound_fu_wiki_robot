@@ -1,0 +1,58 @@
+{
+  "entity_id": "oculobaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Oculob Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It's unpleasant to look at. It's also unpleasant when it looks at you.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oculobVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "oculobTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "fireoculob",
+            "oculob",
+            "oculobmadnesspet"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "oculobHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "fireoculob",
+            "oculob",
+            "oculobmadnesspet"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

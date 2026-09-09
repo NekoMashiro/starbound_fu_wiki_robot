@@ -1,0 +1,41 @@
+{
+  "entity_id": "fuokeahitechtoaster",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hi-tech Toaster",
+  "name_zh": "高科技烤吐司机",
+  "description_en": "Turns bread into delicious toast, it's magical!",
+  "description_zh": "把面包变成美味的吐司，真神奇！",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 75,
+  "tags": [
+    "science",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

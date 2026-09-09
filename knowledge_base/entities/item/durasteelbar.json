@@ -1,0 +1,182 @@
+{
+  "entity_id": "durasteelbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Durasteel Bar",
+  "name_zh": "耐钢锭",
+  "description_en": "Ore for durasteel bars is primarily found on planets orbiting radioactive stars.",
+  "description_zh": "耐钢矿常见于放射性星系的行星。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 210,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 60,
+        "examples": [
+          "microformeraliendesert",
+          "microformeralienforest",
+          "microformeralpine",
+          "microformerbadlands",
+          "microformerbioluminescence"
+        ]
+      },
+      "mechPart": {
+        "count": 29,
+        "examples": [
+          "arcana_mech_anubis_body",
+          "fumechswordbreaker",
+          "mecharmcannon",
+          "mecharmchainsaw",
+          "mecharmclustermine"
+        ]
+      },
+      "storage": {
+        "count": 28,
+        "examples": [
+          "apexstoragelocker",
+          "arcana_astral_storage_10",
+          "arcana_astral_storage_9",
+          "avianstoragelocker",
+          "c_drugdiffuser"
+        ]
+      },
+      "headarmour": {
+        "count": 21,
+        "examples": [
+          "apextier4head",
+          "arcana_armor_arcka_head",
+          "arcana_armor_beholder_head",
+          "arcana_armor_frostclad_head",
+          "arcana_armor_zealot_head"
+        ]
+      },
+      "furniture": {
+        "count": 21,
+        "examples": [
+          "arcana_astral_chair_3",
+          "fu_ftl_human",
+          "fu_ftldrivemk2a",
+          "fu_ftldrivemk2b",
+          "fu_ftldrivemk2c"
+        ]
+      },
+      "chestarmour": {
+        "count": 18,
+        "examples": [
+          "apextier4chest",
+          "aviantier4chest",
+          "enforcerchest",
+          "florantier4chest",
+          "fubearchest2"
+        ]
+      },
+      "legarmour": {
+        "count": 16,
+        "examples": [
+          "apextier4pants",
+          "aviantier4pants",
+          "enforcerpants",
+          "florantier4pants",
+          "fubearlegs2"
+        ]
+      },
+      "broadsword": {
+        "count": 10,
+        "examples": [
+          "arcana_spectwing_broadsword_5",
+          "arcana_spectwing_scythe_5",
+          "durasteelbroadsword",
+          "elduukhartier5broadsword",
+          "energyblade"
+        ]
+      }
+    },
+    "total": 353
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "durasteelore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "durasteelore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "durasteelore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "florantreasurelore",
+          "probability": 0.534,
+          "count": 20
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

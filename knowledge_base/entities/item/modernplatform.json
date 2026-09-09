@@ -1,0 +1,49 @@
+{
+  "entity_id": "modernplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Modern Platform",
+  "name_zh": "现代平台",
+  "description_en": "Made from a modern material, this platform is smooth to the touch.",
+  "description_zh": "现代材料制作的平台，摸起来很光滑。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "blueprints_unlocked": [
+    "modernplatform"
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "c_hiddencameras",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hidden Camera Network",
+  "name_zh": "隐藏摄像头网络",
+  "description_en": "Generate research by spying on your tenants. Makes your tenants paranoid. \n-5 Happiness",
+  "description_zh": "通过监视你的房客来进行调查，这会让你的房客疑神疑鬼。\n-5幸福",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 15
+        },
+        {
+          "item": "cpu",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 100
+        },
+        {
+          "item": "glass",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Hidden Camera Network.md",
+  "quality_tier": "A"
+}

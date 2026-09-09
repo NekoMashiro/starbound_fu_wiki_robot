@@ -1,0 +1,63 @@
+{
+  "entity_id": "mineralcannonadv",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Particle Cannon",
+  "name_zh": "粒子炮",
+  "description_en": "Enormous blasting potential.\r\nDestroys tiles",
+  "description_zh": "威力强大！\n可破坏物块",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.2,
+  "critChance": 6,
+  "critBonus": 7,
+  "altAbilityType": "guidedrocket",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

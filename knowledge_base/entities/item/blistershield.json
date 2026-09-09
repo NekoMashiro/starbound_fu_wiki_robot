@@ -1,0 +1,52 @@
+{
+  "entity_id": "blistershield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blister Shield",
+  "name_zh": "泡荚盾",
+  "description_en": "Immune: Poisoned",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "blister"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blisterbushplantfood",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "petalyellow",
+          "count": 24
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

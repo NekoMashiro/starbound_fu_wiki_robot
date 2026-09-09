@@ -1,0 +1,34 @@
+{
+  "entity_id": "fu_blockPlutonium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plutonium Slab",
+  "name_zh": "钚板",
+  "description_en": "Slab of purified Plutonium. I wouldn't touch this stuff - Radioactive.",
+  "description_zh": "一块纯化的钚板。我不会碰它的——放射性太强了。",
+  "rarity": "Uncommon",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plutoniumore",
+          "count": 8
+        }
+      ],
+      "output_count": 25,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

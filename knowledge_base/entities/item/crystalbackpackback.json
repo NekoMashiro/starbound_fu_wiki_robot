@@ -1,0 +1,37 @@
+{
+  "entity_id": "crystalbackpackback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Crystal Backpack",
+  "name_zh": "水晶背包",
+  "description_en": "A shiny crystal that can be worn on your back. Very stylish. +15% Cosmic Resist.",
+  "description_zh": "一颗闪亮的水晶，可以戴在你的背上。非常时尚。\n射线抗性+15%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "crystalChestTreasure",
+          "probability": 0.3067,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "crystalTreasure",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

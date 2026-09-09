@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_crafting_main_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Magician's Table",
+  "name_zh": "魔导师之桌",
+  "description_en": "A table that allows you to craft various useful arcane inventions.",
+  "description_zh": "一个能让你制作各种奥术发明的工作台。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1200,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "Iron Crafting Table",
+          "name_zh": "铁制工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Magician's Table.md",
+  "quality_tier": "A"
+}

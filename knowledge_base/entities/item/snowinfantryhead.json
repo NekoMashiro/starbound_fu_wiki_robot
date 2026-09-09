@@ -1,0 +1,70 @@
+{
+  "entity_id": "snowinfantryhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snow Infantry Helmet",
+  "name_zh": "雪步兵头盔",
+  "description_en": "This warm helmet helps avoid head colds.",
+  "description_zh": "这个温暖的头盔可以让你避免冻伤头部。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 7,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "snowChestTreasure",
+          "probability": 0.1379,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1075,
+          "count": 1
+        },
+        {
+          "pool": "iceChestTreasure",
+          "probability": 0.1003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.1003,
+        0.1379
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "snowTreasure",
+          "probability": 0.0968,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0755,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        },
+        {
+          "pool": "iceTreasure",
+          "probability": 0.0545,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0545,
+        0.0968
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

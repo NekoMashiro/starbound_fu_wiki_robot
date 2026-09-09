@@ -1,0 +1,36 @@
+{
+  "entity_id": "pethealingstationauto",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Automatic Pet Healer",
+  "name_zh": "自动宠物治疗仪",
+  "description_en": "This pet healing station is used to heal pets, and is automated and Item Network capable.",
+  "description_zh": "这个宠物治疗站可以用来修复被损坏的机器人。\n适用于自动化物品传输网络。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pethealingstation",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "network_containerlink",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "stonehammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Hammer",
+  "name_zh": "原始锤",
+  "description_en": "Great for early meat and hide gathering.",
+  "description_zh": "适合早期的肉类和兽皮收集。",
+  "rarity": "Common",
+  "category": "hammer",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon",
+    "stone"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "physicalshockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 4
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 8
+        },
+        {
+          "item": "plantfibre",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

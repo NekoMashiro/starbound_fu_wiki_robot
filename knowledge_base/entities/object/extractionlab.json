@@ -1,0 +1,45 @@
+{
+  "entity_id": "extractionlab",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Extraction Lab",
+  "name_zh": "物质萃取器",
+  "description_en": "Extracts useful materials from most blocks. Requires 10J per extraction. Can be placed on floors -or- ceilings.",
+  "description_zh": "从大部分块中提取出有用的材料。\n每次萃取需要10J电力\n可以放置在地板或天花板上。",
+  "rarity": "uncommon",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 250,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 6
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Extraction Lab.md",
+  "quality_tier": "A"
+}

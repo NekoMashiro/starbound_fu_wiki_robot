@@ -1,0 +1,29 @@
+{
+  "entity_id": "shockshroom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shock Shroom",
+  "name_zh": "冲击蘑菇",
+  "description_en": "Toss this shroom and shock your foes.",
+  "description_zh": "丢出这个蘑菇来冲击你的敌人。",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shockshroomHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

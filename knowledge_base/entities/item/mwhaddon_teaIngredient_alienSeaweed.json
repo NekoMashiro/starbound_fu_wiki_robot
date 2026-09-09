@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_alienSeaweed",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Sticky Seaweed",
+  "name_zh": "黏口海藻",
+  "description_en": "Some sticky alien seaweed.\n For 20 seconds after drinking, heal 1% of Max Health/s.",
+  "description_zh": "一些黏口的外星海藻。\n饮用后20秒内每秒恢复1%最大生命值的生命值。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

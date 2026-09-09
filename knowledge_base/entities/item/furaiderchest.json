@@ -1,0 +1,50 @@
+{
+  "entity_id": "furaiderchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Raider Armor",
+  "name_zh": "袭击者胸甲",
+  "description_en": "Set Bonuses:\r\n +12% Speed\r\n Machine Pistol: Damage x1.075/1.15\r\n Dagger: +25% Crit Damage",
+  "description_zh": "套装奖励:\n +12% 速度\n 自动手枪: 7.5/伤害x1.15, \n 匕首: +25% 暴击伤害",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutaviskthread",
+          "count": 5
+        },
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

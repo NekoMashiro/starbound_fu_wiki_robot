@@ -1,0 +1,65 @@
+{
+  "entity_id": "arcana_desolate",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Desolate",
+  "name_zh": "孤寂",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Desolate",
+  "friendly_name_zh": "孤寂",
+  "ores": [
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "durasteel",
+      "weight": 1.0
+    },
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_necroiumFragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    }
+  ],
+  "monsters": [
+    "arcana_cosmostache",
+    "arcana_heavydrone",
+    "arcana_omnicannon",
+    "arcana_spinemine",
+    "arcana_trifangle",
+    "bigwormcritter",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "krawlcritter",
+    "skywurmcritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_desolate"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "quality_tier": "C"
+}

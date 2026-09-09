@@ -1,0 +1,57 @@
+{
+  "entity_id": "pandorasboxcottonbopbulb",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cottonbop Bulb",
+  "name_zh": "棉球",
+  "description_en": "Grows a Cottonbop monster.",
+  "description_zh": "长出一只棉球怪。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxcottonbopHarvest",
+          "probability": 0.6222,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxcottonbopHunting",
+          "probability": 0.3556,
+          "count": 1,
+          "monsters": [
+            "pandorasboxcottonbop",
+            "pandorasboxcottonbophomegrown"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.3556,
+        0.6222
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxcottonbopTreasure",
+          "probability": 0.0763,
+          "count": 1,
+          "monsters": [
+            "pandorasboxcottonbop",
+            "pandorasboxcottonbophomegrown"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Cottonbop Bulb.md",
+  "quality_tier": "A"
+}

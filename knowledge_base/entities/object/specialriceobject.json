@@ -1,0 +1,41 @@
+{
+  "entity_id": "specialriceobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Special Rice",
+  "name_zh": "特殊大米",
+  "description_en": "This pleasantly filling dish leaves you with a warm feeling.",
+  "description_zh": "这道令人愉悦的菜给你一种温暖的感觉。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 225,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "specialrice",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "specialrice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

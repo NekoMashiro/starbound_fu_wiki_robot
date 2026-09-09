@@ -1,0 +1,44 @@
+{
+  "entity_id": "sd_exp_t1anarkyonsdrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Acidsprayer Controller",
+  "name_zh": "喷酸虫控制器",
+  "description_en": "An Anarkyon drone, Can spray acid to the enemy.\r\n  [Primary]Spawn/Despawn，[Alt]Fire.",
+  "description_zh": "一台黑鸩党无人机，向敌人喷射酸液。\n[左键]释放/收回，[右键]开火射击[Shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1000
+        },
+        {
+          "item": "luye_tile4",
+          "count": 10
+        },
+        {
+          "item": "luye_tile3",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

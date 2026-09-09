@@ -1,0 +1,47 @@
+{
+  "entity_id": "scorpio_katana_rare",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rare Broadsword",
+  "name_zh": "稀有阔剑",
+  "description_en": "A high-tech Scorpio katana.",
+  "description_zh": "高科技天蝎武士刀。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "twoHanded": true,
+  "baseDps": [
+    9.2,
+    10.2
+  ],
+  "primaryAbilityType": "arcana_katana_combo",
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_neoncityextra",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0241,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

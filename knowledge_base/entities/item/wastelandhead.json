@@ -1,0 +1,48 @@
+{
+  "entity_id": "wastelandhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Survivor's Mask",
+  "name_zh": "幸存者面具",
+  "description_en": "Set Bonuses:\r\n -50% Hunger Drain Rate\r\n Grenade/Rocket Launchers, (Cross)Bows: +6% Crit Damage, Damage x1.2\r\n Immune: Gas, Poisoned, Proto-Poison",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

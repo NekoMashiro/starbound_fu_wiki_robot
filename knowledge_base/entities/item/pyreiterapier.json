@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreiterapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Rapier",
+  "name_zh": "永燃刺剑",
+  "description_en": "Crafted of eternally burning fun.\r\nInflicts Napalm",
+  "description_zh": "永恒燃烧的乐趣。\n附加凝固效果",
+  "rarity": "legendary",
+  "category": "Rapier",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

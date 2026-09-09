@@ -1,0 +1,61 @@
+{
+  "entity_id": "mothtrap",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Moth Trap",
+  "name_zh": "蚕房",
+  "description_en": "Attracts moths. Moths produce silk!",
+  "description_zh": "吸引蚕蛾。蚕生产真丝！",
+  "rarity": "Common",
+  "category": "light",
+  "price": 110,
+  "tags": [
+    "outdoor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 1,
+        "examples": [
+          "mothtrap2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Moth Trap.md",
+  "quality_tier": "S"
+}

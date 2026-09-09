@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_misc_darklightResin",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Darklight Resin",
+  "name_zh": "夜光树脂",
+  "description_en": "A small residue of an ancient lightform's bottomless essence.",
+  "description_zh": "古代光形无底精纯的一小部分残留物。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 40,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "cellmatter",
+          "elemental_crafting_evernightCrystal",
+          "horizon_crafting_horizonTechCard",
+          "monarch_crafting_holosiumStar",
+          "phasematter"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "arcana_voidphasePotion",
+          "mwhaddon_potion_darkgoldPowder",
+          "mwhaddon_potion_powerOfEvolution"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "lunar_katana_2",
+          "monarch_doubleBlade_1"
+        ]
+      },
+      "staff": {
+        "count": 2,
+        "examples": [
+          "monarch_staff_1",
+          "monarch_staff_2"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "monarch_lance_1"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_alchemicalExplosive_lesser"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "wiki_ref": "Darklight Resin.md",
+  "quality_tier": "A"
+}

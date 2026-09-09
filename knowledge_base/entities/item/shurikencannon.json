@@ -1,0 +1,55 @@
+{
+  "entity_id": "shurikencannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shuriken Cannon",
+  "name_zh": "手里剑步枪",
+  "description_en": "I'm sure this will help make friends in a real hurry.",
+  "description_zh": "我相信这将有助于迅速交到朋友。",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 3,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Shuriken Cannon.md",
+  "quality_tier": "A"
+}

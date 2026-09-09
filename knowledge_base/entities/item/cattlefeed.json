@@ -1,0 +1,53 @@
+{
+  "entity_id": "cattlefeed",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cattle Feed",
+  "name_zh": "家畜饲料",
+  "description_en": "A food that cattle just love. Not for sapient ingestion. You'll get sick.\n-5% HP, Poisoned (1m)",
+  "description_zh": "家畜最爱的食物。千万别吃，否则会得病。\n-5%HP，中毒(持续1m)",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 2,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "cattlefeed2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

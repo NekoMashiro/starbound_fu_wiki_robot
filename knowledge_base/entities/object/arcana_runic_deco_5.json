@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_runic_deco_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Runic Gleap Pottery",
+  "name_zh": "符文葛利普陶器",
+  "description_en": "A blue pottery shaped like a gleap.",
+  "description_zh": "一个蓝色的陶器，形状像葛利普。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 320,
+  "tags": [
+    "runic"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.5245,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.2098,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2098,
+        0.5245
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

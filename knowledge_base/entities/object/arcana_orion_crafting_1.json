@@ -1,0 +1,57 @@
+{
+  "entity_id": "arcana_orion_crafting_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Orion Crafting Table",
+  "name_zh": "俄里翁制作站",
+  "description_en": "A crafting station for creating Orion furnishing and basic equipment.",
+  "description_zh": "一个可以制作俄里翁家具和基本设备的制作站。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 800,
+  "tags": [
+    "crafting",
+    "orion"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

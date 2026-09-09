@@ -1,0 +1,54 @@
+{
+  "entity_id": "carvelle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carvelle Sniper Rifle",
+  "name_zh": "凯路威狙击步枪",
+  "description_en": "A powerful sniper rifle.\r\nHoming bullet",
+  "description_zh": "一把强大的狙击步枪。\n追踪弹",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5.6,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

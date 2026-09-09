@@ -1,0 +1,58 @@
+{
+  "entity_id": "microwave",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Microwave",
+  "name_zh": "微波炉",
+  "description_en": "Nuke all the foods!",
+  "description_zh": "能够搞定所有食物！",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 70,
+  "tags": [
+    "human",
+    "humanvillage",
+    "cooking",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "powderednarcotics",
+          "count": 3
+        },
+        {
+          "item": "cellmateria",
+          "count": 3
+        },
+        {
+          "item": "poop",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Snarshing Table",
+      "station_zh": "分宴之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Esoteric Research",
+          "name_zh": "深奥的研究"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "bananapudding"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

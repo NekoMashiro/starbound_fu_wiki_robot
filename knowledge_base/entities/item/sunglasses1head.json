@@ -1,0 +1,37 @@
+{
+  "entity_id": "sunglasses1head",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sunglasses",
+  "name_zh": "太阳镜",
+  "description_en": "These will fashionably protect my eyes from the bright sun.",
+  "description_zh": "这时髦的东西会从明亮的太阳底下保护我的眼睛。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.0219,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.0154,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

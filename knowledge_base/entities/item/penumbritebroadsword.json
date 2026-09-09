@@ -1,0 +1,65 @@
+{
+  "entity_id": "penumbritebroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbral Broadsword",
+  "name_zh": "半影阔剑",
+  "description_en": "A keen edge for slashing things to pieces.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "phasecharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

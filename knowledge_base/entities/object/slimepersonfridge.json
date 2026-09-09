@@ -1,0 +1,46 @@
+{
+  "entity_id": "slimepersonfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Fridge",
+  "name_zh": "史莱姆冰箱",
+  "description_en": "A fridge, good for keeping food cold.",
+  "description_zh": "这个冰箱是用来冷藏食物良好选择。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 110,
+  "tags": [
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman",
+    "storage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 5
+        },
+        {
+          "item": "prisiliteore",
+          "count": 2
+        },
+        {
+          "item": "frozenwater",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

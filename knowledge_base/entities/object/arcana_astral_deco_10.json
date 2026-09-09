@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_astral_deco_10",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Palm Plant",
+  "name_zh": "棕榈盆栽",
+  "description_en": "Palm plants in an ornate plant box.",
+  "description_zh": "种在华丽植物花盆中的棕榈树",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "astral",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 4
+        },
+        {
+          "item": "plantfibre",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

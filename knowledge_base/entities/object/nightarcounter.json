@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarcounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Counter",
+  "name_zh": "夜族计数器",
+  "description_en": "This looks like a traditional Nightar counter.",
+  "description_zh": "这看起来像一个传统的夜族计数器。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 150,
+  "tags": [
+    "nightar",
+    "decoration"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbrastonematerial",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

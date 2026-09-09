@@ -1,0 +1,41 @@
+{
+  "entity_id": "cookedchickenobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cooked Poultry",
+  "name_zh": "熟食家禽",
+  "description_en": "A perfectly roasted bird. What a beautiful sight to behold.",
+  "description_zh": "完全烤熟的鸟。多美的景色啊。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cookedpoultry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedpoultry"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

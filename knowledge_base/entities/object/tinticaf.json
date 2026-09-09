@@ -1,0 +1,56 @@
+{
+  "entity_id": "tinticaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tintic Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It doesn't seem to eat or sleep... Is it a machine?\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "tinticVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "tinticTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "electrictintic",
+            "tintic"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tinticHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "electrictintic",
+            "tintic"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

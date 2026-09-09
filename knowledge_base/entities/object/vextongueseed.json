@@ -1,0 +1,75 @@
+{
+  "entity_id": "vextongueseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vextongue Seed",
+  "name_zh": "凸舌蕊种子",
+  "description_en": "Vextongue is a great natural healing alternative.",
+  "description_zh": "可以收获凸舌蕊，食用后会提高生命恢复速度，免疫原毒。它是你需要治疗时的最佳选择。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 115
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 20
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "hopsseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 18
+        },
+        {
+          "item": "cellmatter",
+          "count": 16
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "tyvokkseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vextongueHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,75 @@
+{
+  "entity_id": "tetherhookseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tetherhook Weed",
+  "name_zh": "绳钩草种子",
+  "description_en": "Removes you from danger when near death.",
+  "description_zh": "可以收获绳钩草，食用后当你快死的时候可以保护你。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 17,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 30
+        },
+        {
+          "item": "cell_viral",
+          "count": 3
+        },
+        {
+          "item": "mutagene4",
+          "count": 2
+        },
+        {
+          "item": "corruptionseed",
+          "count": 12
+        },
+        {
+          "item": "fleshstrand",
+          "count": 60
+        },
+        {
+          "item": "phasematter",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "wretchelseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tetherhookHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

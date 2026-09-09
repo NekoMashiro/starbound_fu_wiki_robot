@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_cup_aurea",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aurea Standard Cup",
+  "name_zh": "恒金制式水杯",
+  "description_en": "A uniform teacup for Aurea officers. Drink to directly restore 15% of max health + 50 health and cure most status effects for 5 seconds. \nCooldown: 60 seconds.",
+  "description_zh": "恒金官员统一使用的茶杯。饮用后直接恢复最大生命值15%+50点生命值，且在5秒内免疫大部分负面效果。\n冷却：60秒",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 1000,
+  "tags": [
+    "mwhaddon_cup"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

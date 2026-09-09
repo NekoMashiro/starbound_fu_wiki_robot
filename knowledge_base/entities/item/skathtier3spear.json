@@ -1,0 +1,68 @@
+{
+  "entity_id": "skathtier3spear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Plasmaspear",
+  "name_zh": "绘世者等离子战矛",
+  "description_en": "A powerful Plasma polearm forged in Skathi style.",
+  "description_zh": "绘世者风格锻造的强大等离子电极臂。",
+  "rarity": "Legendary",
+  "category": "spear",
+  "price": 1250,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 8,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "drillcharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier2spear",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "tethyde",
+          "count": 6
+        },
+        {
+          "item": "hydrolium",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

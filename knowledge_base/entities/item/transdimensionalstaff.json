@@ -1,0 +1,81 @@
+{
+  "entity_id": "transdimensionalstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Void-Warp Locus",
+  "name_zh": "虚空传送之轨",
+  "description_en": "Cross through dimensions at will.",
+  "description_zh": "随意穿越维度。",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 72000,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "shadow",
+  "level": 8,
+  "twoHanded": true,
+  "primaryAbilityType": "transdimensional",
+  "altAbilityType": "传送",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hydrogencore",
+          "count": 1
+        },
+        {
+          "item": "precursoralloy",
+          "count": 12
+        },
+        {
+          "item": "teleportercore",
+          "count": 4
+        },
+        {
+          "item": "brainpeerless",
+          "count": 1
+        },
+        {
+          "item": "elderrelic7",
+          "count": 2
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Void-Warp Locus.md",
+  "quality_tier": "S"
+}

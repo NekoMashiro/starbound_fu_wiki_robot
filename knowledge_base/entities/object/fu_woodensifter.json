@@ -1,0 +1,51 @@
+{
+  "entity_id": "fu_woodensifter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sifter",
+  "name_zh": "木制筛粉机",
+  "description_en": "A basic sifter which slowly extracts resources from loose materials. Requires 2W power.",
+  "description_zh": "基本的筛分机，可以从松散的物料中缓慢地提取资源。\n需要2W电力。",
+  "rarity": "common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 500,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 3
+        },
+        {
+          "item": "copperbar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "isn_powdersifter"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Sifter.md",
+  "quality_tier": "S"
+}

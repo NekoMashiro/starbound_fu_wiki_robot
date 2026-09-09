@@ -1,0 +1,39 @@
+{
+  "entity_id": "exonitebed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Bed",
+  "name_zh": "长石床",
+  "description_en": "A bed made from exonite.",
+  "description_zh": "一张由长石制作的床。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "exonite",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 10
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

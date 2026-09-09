@@ -1,0 +1,46 @@
+{
+  "entity_id": "triangliumdesk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Trianglium Desk",
+  "name_zh": "原力矿办公桌",
+  "description_en": "A desk made from trianglium.",
+  "description_zh": "一张由原力矿制成的桌子。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "trianglium",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 10
+        },
+        {
+          "item": "koaniteore",
+          "count": 5
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

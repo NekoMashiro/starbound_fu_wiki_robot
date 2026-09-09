@@ -1,0 +1,58 @@
+{
+  "entity_id": "titaniumshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Shotgun",
+  "name_zh": "钛制霰弹枪",
+  "description_en": "Fires a spread that's lethal at close range.",
+  "description_zh": "在近距离射击，结果将会是致命的。",
+  "rarity": "Uncommon",
+  "category": "shotgun",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "shotgun"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 6,
+  "critBonus": 5,
+  "altAbilityType": "burstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

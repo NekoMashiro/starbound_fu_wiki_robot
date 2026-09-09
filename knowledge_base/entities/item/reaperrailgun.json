@@ -1,0 +1,62 @@
+{
+  "entity_id": "reaperrailgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tk-98 Kaiju",
+  "name_zh": "Tk-98 怪兽",
+  "description_en": "Devastatingly cold blasts.\r\nExtremely fast rounds",
+  "description_zh": "寒冷刺骨的冲击。\n极其快速的子弹",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "swtjc_ewg_bouncingorbitals",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 7
+        },
+        {
+          "item": "darkmatter",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

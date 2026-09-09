@@ -1,0 +1,59 @@
+{
+  "entity_id": "zerchesiumbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Bow",
+  "name_zh": "高熔点弓",
+  "description_en": "Full of frosty menace.\r\nSlows enemies",
+  "description_zh": "充满了冰霜的威胁。\n减速敌人",
+  "rarity": "uncommon",
+  "category": "bow",
+  "price": 350,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "critChance": 3,
+  "critBonus": 6,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "silk",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,104 @@
+{
+  "entity_id": "arcana_bar_morphosisBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Morphosis",
+  "name_zh": "化形物质",
+  "description_en": "A concentrated morphosis, dangerous to handle and highly reactive. [T7]",
+  "description_zh": "一种浓缩的化形物质，处理起来很危险，且反应性极强。[T7]",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_morphosisShard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1260
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_morphosis_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_morphosis_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_morphosis_chest"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_aureolaBar"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_broadsword_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_spear_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_evolapis_summonStaff_1"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_morphosisBar"
+  ],
+  "quality_tier": "S"
+}

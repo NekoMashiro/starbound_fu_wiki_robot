@@ -1,0 +1,46 @@
+{
+  "entity_id": "aurea_sniperrifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Purifier",
+  "name_zh": "净化者",
+  "description_en": "A standard Aurea security sniper rifle.",
+  "description_zh": "恒金联合的制式安保狙击枪。",
+  "rarity": "Rare",
+  "category": "sniperRifle",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 4
+        },
+        {
+          "item": "refinedferozium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

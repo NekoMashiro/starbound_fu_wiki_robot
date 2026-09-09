@@ -1,0 +1,36 @@
+{
+  "entity_id": "bookstack",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Books",
+  "name_zh": "书",
+  "description_en": "Time to study... Place down for a variety of different styles!",
+  "description_zh": "是时候学习了...放置在各种不同的风格！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

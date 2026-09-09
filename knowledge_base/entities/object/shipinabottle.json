@@ -1,0 +1,51 @@
+{
+  "entity_id": "shipinabottle",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship in a Bottle",
+  "name_zh": "装在瓶子里装运",
+  "description_en": "A wooden model ship assembled from within a large bottle.",
+  "description_zh": "在一个大瓶子里组装的木制模型船。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "corsair",
+    "valuable",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "corsairset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

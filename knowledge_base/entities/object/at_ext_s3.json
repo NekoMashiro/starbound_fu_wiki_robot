@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_s3",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Wall-mounted storage",
+  "name_zh": "[泰坦拓展]壁挂储物柜",
+  "description_en": "A storage that installed on wall.Installed input and output channel.",
+  "description_zh": "安装在墙壁上的储物柜。已安装输入和输出节点。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

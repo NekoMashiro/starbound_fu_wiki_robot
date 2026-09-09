@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_tech_voltaicSurge",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Voltaic Surge",
+  "name_zh": "电流迸发",
+  "description_en": "Grants unlimited energy and +10% attack for 20s. 50s cooldown. [F] [Use to gain a new type of tech!]",
+  "description_zh": "激活后提供无限能量和+10%攻击力加成。持续时间为20秒。冷却时间为50秒。[F] [使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "arcana_tech_cinderSurge",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_voltaicShard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

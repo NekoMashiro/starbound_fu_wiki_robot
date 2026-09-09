@@ -1,0 +1,57 @@
+{
+  "entity_id": "arcana_viridescent",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Viridescent",
+  "name_zh": "翠毒",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Viridescent",
+  "friendly_name_zh": "翠毒",
+  "ores": [
+    {
+      "ore": "arcana_mod_corrodiumOre",
+      "weight": 1.3
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "batong",
+    "bulbop",
+    "nutmidge",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "sporgus",
+    "wintercritter",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:toxic"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_supercharged"
+  ],
+  "wiki_ref": "Viridescent.md",
+  "quality_tier": "C"
+}

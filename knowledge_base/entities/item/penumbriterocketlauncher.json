@@ -1,0 +1,66 @@
+{
+  "entity_id": "penumbriterocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Cannon",
+  "name_zh": "半影加农",
+  "description_en": "Fast-moving blasts of attuned power.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 110,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite",
+    "explosive"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5.5,
+  "critChance": 1,
+  "critBonus": 3,
+  "altAbilityType": "fudronelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 7
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Penumbrite Cannon.md",
+  "quality_tier": "A"
+}

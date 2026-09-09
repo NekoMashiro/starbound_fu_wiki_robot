@@ -1,0 +1,50 @@
+{
+  "entity_id": "capturestation",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pet Station",
+  "name_zh": "宠物工作站",
+  "description_en": "Used to produce capture pods, healing stations and other pet related items.",
+  "description_zh": "用来制作捕捉仓、治疗站和其他与宠物相关的物品。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 160,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 20
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "建筑师工作台",
+          "name_zh": "建筑师工作台"
+        },
+        {
+          "name": "缔造者工作台",
+          "name_zh": "缔造者工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

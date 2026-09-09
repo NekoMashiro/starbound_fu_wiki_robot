@@ -1,0 +1,52 @@
+{
+  "entity_id": "metallicmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hi-tech Block",
+  "name_zh": "高科技块",
+  "description_en": "This looks hi-tech!",
+  "description_zh": "这看起来很高科技！",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "aztectech"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "metallicmaterial"
+  ],
+  "quality_tier": "S"
+}

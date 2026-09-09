@@ -1,0 +1,37 @@
+{
+  "entity_id": "foundrylegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Legs",
+  "name_zh": "铸造护胫",
+  "description_en": "Some fire resistant trousers for a foundry worker.",
+  "description_zh": "铸造工人的防火裤子。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

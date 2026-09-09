@@ -1,0 +1,46 @@
+{
+  "entity_id": "elderlight2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Rune Orb",
+  "name_zh": "远古符文宝珠",
+  "description_en": "A floating orb. It's extremely unsettling to look at.",
+  "description_zh": "一颗漂浮的宝珠。看起来非常令人不安。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "elder",
+    "light",
+    "hideous"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 5
+        },
+        {
+          "item": "elderrelic2",
+          "count": 1
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

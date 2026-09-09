@@ -1,0 +1,44 @@
+{
+  "entity_id": "at_ext_sg1",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "''Stress Fracture''",
+  "name_zh": "''应力断裂''",
+  "description_en": "A high-caliber, fully automatic shotgun loaded with air-burst incendiary rounds. Its use is prohibited in many regions.",
+  "description_zh": "一把大口径的全自动霰弹枪，装载了空爆龙息弹。在许多地区都禁止使用",
+  "rarity": "Legendary",
+  "category": "shotgun",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "titancorp",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2500
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

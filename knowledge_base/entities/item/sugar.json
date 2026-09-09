@@ -1,0 +1,101 @@
+{
+  "entity_id": "sugar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sugar",
+  "name_zh": "糖",
+  "description_en": "Pure, unadulterated sugary goodness.",
+  "description_zh": "纯粹的、十足的好糖。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugarbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 83,
+        "examples": [
+          "aetherdonut",
+          "alienfruitjam",
+          "applecinnamonpie",
+          "applecrumble",
+          "arcana_food_fluxtart"
+        ]
+      },
+      "drink": {
+        "count": 22,
+        "examples": [
+          "apejuice",
+          "applecider",
+          "appleschnapps",
+          "bananaschnapps",
+          "blisterwhiskey"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 2,
+        "examples": [
+          "caramel",
+          "yeastwater"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "candyblock"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "fushroomspore"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "sugarbasket"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "apiary_frame_sweet"
+        ]
+      }
+    },
+    "total": 111
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sugarcaneHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "pearlpeajam",
+    "candiedcorn"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "beer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wheat Beer",
+  "name_zh": "啤酒",
+  "description_en": "A mug of beer!\n+3 Defense (45s)\n35% Slow (10s)\nDrunk (25s)",
+  "description_zh": "啤酒！啤酒！\n+3防御(持续45s)\n35%减速(持续10s)\n醉酒(持续25s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wort",
+          "count": 1
+        },
+        {
+          "item": "hops",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "beerkeg"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "placeablebeer"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

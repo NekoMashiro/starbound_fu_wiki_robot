@@ -1,0 +1,75 @@
+{
+  "entity_id": "theluslongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Longsword",
+  "name_zh": "蚁族长剑",
+  "description_en": "A lethal edged weapon of the Thelusians.\r\nCounts as Hunting weapon",
+  "description_zh": "一把Thelusians使用的致命的锋利武器。\n狩猎武器",
+  "rarity": "common",
+  "category": "longsword",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "thelusian"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 0.8,
+  "critBonus": 11,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 3
+        },
+        {
+          "item": "fuamberchunk",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

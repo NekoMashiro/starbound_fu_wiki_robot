@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_magnate_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magnate Hat",
+  "name_zh": "巨贾帽",
+  "description_en": "A fabric clothing worn by Arcanian merchants. +5% Azure res.",
+  "description_zh": "守秘族商人所穿的一种布衣。+5%蔚蓝抗性。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 600,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

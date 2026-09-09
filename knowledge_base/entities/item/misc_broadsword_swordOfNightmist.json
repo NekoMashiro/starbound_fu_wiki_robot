@@ -1,0 +1,37 @@
+{
+  "entity_id": "misc_broadsword_swordOfNightmist",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Blade of Nightmist",
+  "name_zh": "夜雾之刃",
+  "description_en": "A blade that inherits the mist of the night's veil.",
+  "description_zh": "刀刃上寄宿了黑夜薄暮之雾气。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2600,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 14.8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "astraltear",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.1075,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

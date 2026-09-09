@@ -1,0 +1,53 @@
+{
+  "entity_id": "precursordatabox",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Data Box",
+  "name_zh": "先驱数据盒",
+  "description_en": "This seems to provide a way to access precursor data to analyze inserted items.\nResearch Rate: 5% (0.5%), 0.5s",
+  "description_zh": "这似乎提供了一种访问先驱数据以分析放入物品的方法。\n研究效率: 5% (0.5%), 0.5s",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 1100,
+  "tags": [
+    "precursor",
+    "ancient",
+    "storage",
+    "bookcase",
+    "furniture"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.3125,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0311,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0311,
+        0.3125
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0311,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Data Box.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcana_tech_quickFlight",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Quick Flight",
+  "name_zh": "快速飞行",
+  "description_en": "Information about a piece of alien technology. [Use to gain a new type of tech!]",
+  "description_zh": "关于一份外星科技的信息。[使用以获取一个新的科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 1000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_windsweptTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

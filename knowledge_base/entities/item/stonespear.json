@@ -1,0 +1,51 @@
+{
+  "entity_id": "stonespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Spear",
+  "name_zh": "原始长矛",
+  "description_en": "Great for early hide and meat gathering.\r\nHunting weapon, Floran",
+  "description_zh": "非常适合前期的躲藏以及肉类采集。\n狩猎武器，叶族",
+  "rarity": "common",
+  "category": "spear",
+  "price": 70,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "stone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 4
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

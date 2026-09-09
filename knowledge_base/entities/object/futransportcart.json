@@ -1,0 +1,51 @@
+{
+  "entity_id": "futransportcart",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Storage Cart",
+  "name_zh": "大篷车",
+  "description_en": "The oldschool way to haul freight.",
+  "description_zh": "运输货物的老式选择。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "farm",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 40
+        },
+        {
+          "item": "fabric",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

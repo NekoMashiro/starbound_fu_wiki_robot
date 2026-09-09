@@ -1,0 +1,46 @@
+{
+  "entity_id": "aurea_pistol_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Kerygma",
+  "name_zh": "福音",
+  "description_en": "A pistol with a silencer.",
+  "description_zh": "带有消音器的手枪。",
+  "rarity": "Uncommon",
+  "category": "pistol",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

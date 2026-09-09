@@ -1,0 +1,167 @@
+{
+  "entity_id": "killpod",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kill Pod by Kevin-Tek",
+  "name_zh": "自杀豆 - 来自凯文科技",
+  "description_en": "For when you absolutely need to die immediately. 100% Guaranteed or your money back. Also available in Strawberry.",
+  "description_zh": "一秒去世，无痛舒适。100％有效，否则全额退款。另有草莓口味提供。",
+  "rarity": "legendary",
+  "category": "tool",
+  "price": 4000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 30,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0152,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0015,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0152
+      ]
+    },
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0007,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "ffbanditTreasure",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.002
+      ]
+    },
+    "chest_loot": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0014,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0013,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0011,
+          "count": 1.0
+        },
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0014
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Kill Pod by Kevin-Tek.md",
+  "quality_tier": "A"
+}

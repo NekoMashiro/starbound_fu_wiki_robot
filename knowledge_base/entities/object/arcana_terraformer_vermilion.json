@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_terraformer_vermilion",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Vermilion Terraformer",
+  "name_zh": "朱红转换器",
+  "description_en": "Transforms a planet's climate into a vermilion cityscape.",
+  "description_zh": "将一颗行星的气候转变为朱红城市景观。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ashen_tile1",
+          "count": 5
+        },
+        {
+          "item": "drydirt",
+          "count": 5
+        },
+        {
+          "item": "arcana_misc_rufescite",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_corridor",
+          "probability": 0.0714,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

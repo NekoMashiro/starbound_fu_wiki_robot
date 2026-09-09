@@ -1,0 +1,85 @@
+{
+  "entity_id": "brainslug",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Brain Slug",
+  "name_zh": "脑虫",
+  "description_en": "Grants agility and Aether immunity, but heavily impacts energy supply and increases hunger rate. Also, Insanity.",
+  "description_zh": "赋予敏捷和以太免疫, 但严重影响能量供应，且提高饥饿速率。造成精神错乱.",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 2500,
+  "tags": [],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 7,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.1677,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0566,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0471,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.011,
+        0.0566
+      ]
+    }
+  },
+  "wiki_ref": "Brain Slug.md",
+  "quality_tier": "A"
+}

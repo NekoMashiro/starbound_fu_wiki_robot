@@ -1,0 +1,46 @@
+{
+  "entity_id": "powerstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electronics Center",
+  "name_zh": "电子设备制造机",
+  "description_en": "Create powered gear.",
+  "description_zh": "制造电力设备。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 20
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Electronics Center.md",
+  "quality_tier": "A"
+}

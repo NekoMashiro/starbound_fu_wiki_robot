@@ -1,0 +1,46 @@
+{
+  "entity_id": "swtjc_wp_masterlogic",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master Logic Gate",
+  "name_zh": "主逻辑门",
+  "description_en": "An AND, OR, XOR, NAND, NOR, and NXOR Gate, with a Data Latch, all in a single package!",
+  "description_zh": "其内封装有与门、或门、异或门、与非门、或非门、同或门、锁存器。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "and",
+          "count": 1
+        },
+        {
+          "item": "or",
+          "count": 1
+        },
+        {
+          "item": "xor",
+          "count": 1
+        },
+        {
+          "item": "not",
+          "count": 3
+        },
+        {
+          "item": "dlatch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

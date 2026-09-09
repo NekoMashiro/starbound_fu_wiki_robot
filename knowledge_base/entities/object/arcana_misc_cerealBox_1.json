@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_misc_cerealBox_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Cereal Box",
+  "name_zh": "麦片盒子",
+  "description_en": "A partially opened cereal box, its cardboard flaps folded back to unveil a glimpse of crunchy cereal within.",
+  "description_zh": "一个部分打开的麦片盒，纸板盖子向后折开，露出里面松脆的麦片。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 20,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

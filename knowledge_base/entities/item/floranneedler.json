@@ -1,0 +1,58 @@
+{
+  "entity_id": "floranneedler",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floran Needler",
+  "name_zh": "叶族刺针枪",
+  "description_en": "Needles of death.\r\nInflicts Poisoned",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "needler"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.65,
+  "critChance": 1,
+  "critBonus": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 6
+        },
+        {
+          "item": "volatilepowder",
+          "count": 4
+        },
+        {
+          "item": "plantfibre",
+          "count": 16
+        },
+        {
+          "item": "bugshell",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

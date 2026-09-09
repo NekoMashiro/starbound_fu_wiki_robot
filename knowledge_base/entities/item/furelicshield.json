@@ -1,0 +1,35 @@
+{
+  "entity_id": "furelicshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Relic Shield",
+  "name_zh": "圣物盾",
+  "description_en": "+3% Crit Chance",
+  "description_zh": "暴击几率+3%",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 800,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ancientruinsBoss",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "kluexsentry2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

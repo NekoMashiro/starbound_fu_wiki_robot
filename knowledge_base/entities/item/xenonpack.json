@@ -1,0 +1,56 @@
+{
+  "entity_id": "xenonpack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xenon Pack",
+  "name_zh": "氙气背包",
+  "description_en": "A backpack with an attached xenon light. More light than you'll ever need!",
+  "description_zh": "一种附加了氙气灯的背包，比你所需要的更加明亮！\n发出非常明亮的光",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "halogenpack",
+          "count": 1
+        },
+        {
+          "item": "diamond",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业级绘世者工作台",
+      "station_zh": "工业级绘世者工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "农业工作台",
+          "name_zh": "农业工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Xenon Pack.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "durasteelassaultrifle2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Burst Rifle",
+  "name_zh": "耐刚爆裂步枪",
+  "description_en": "A burst-fire automatic military grade rifle.",
+  "description_zh": "一把在连发时爆出火焰的军用级的突击步枪。",
+  "rarity": "Uncommon",
+  "category": "assaultRifle",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 1,
+  "critBonus": 2,
+  "altAbilityType": "swtjc_ewg_slowgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

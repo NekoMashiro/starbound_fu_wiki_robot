@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_aeolus_cannon_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Ariostone Salvo",
+  "name_zh": "风音排炮",
+  "description_en": "Burst three aero rockets swift as wind.",
+  "description_zh": "发射三枚迅敏如风的风之火箭。",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 14,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_ariostone",
+          "count": 9
+        },
+        {
+          "item": "durasteelbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

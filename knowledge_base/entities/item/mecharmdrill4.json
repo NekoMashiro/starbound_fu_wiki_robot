@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmdrill4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Drill Arm",
+  "name_zh": "超致密钻头机械臂",
+  "description_en": "A superior mining drill that can serve as a weapon in a pinch.",
+  "description_zh": "可以用作应急武器的究极采矿钻。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 6200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 10
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

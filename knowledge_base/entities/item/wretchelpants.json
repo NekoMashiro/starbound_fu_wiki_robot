@@ -1,0 +1,56 @@
+{
+  "entity_id": "wretchelpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Pants",
+  "name_zh": "扭力藤裤子",
+  "description_en": "Set Bonuses:\r\n Low Gravity\r\n Immune: Poisoned, Pus, Bio-Ooze",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 420,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wretchel",
+          "count": 9
+        },
+        {
+          "item": "darkmatter",
+          "count": 3
+        },
+        {
+          "item": "effigiumbar",
+          "count": 1
+        },
+        {
+          "item": "aliencompound",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

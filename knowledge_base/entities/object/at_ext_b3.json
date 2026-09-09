@@ -1,0 +1,58 @@
+{
+  "entity_id": "at_ext_b3",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC][Power]Reactor MK2",
+  "name_zh": "[泰坦拓展][电源]厄尔吉斯反应炉MK2",
+  "description_en": "A reactor that burns Erchius Fuel.Can be wired to other machines.",
+  "description_zh": "一个烧厄尔吉斯燃料的反应炉。可与其它机器连接。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_motor",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 16
+        },
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 8
+        },
+        {
+          "item": "at_ext_b2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

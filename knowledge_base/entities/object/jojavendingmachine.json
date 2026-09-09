@@ -1,0 +1,51 @@
+{
+  "entity_id": "jojavendingmachine",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Joja Vending Machine",
+  "name_zh": "Joja自动售货机",
+  "description_en": "It keeps pumping out the good stuff.",
+  "description_zh": "它不断地输出好东西。",
+  "rarity": "Common",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "joja",
+    "mechanical",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jojaset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

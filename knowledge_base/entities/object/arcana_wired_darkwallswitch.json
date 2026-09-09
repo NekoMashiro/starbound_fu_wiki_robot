@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_wired_darkwallswitch",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Dark Wall Switch",
+  "name_zh": "深色墙壁开关",
+  "description_en": "Flippin' awesome.",
+  "description_zh": "真是太棒了",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

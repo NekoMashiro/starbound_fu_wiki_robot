@@ -1,0 +1,53 @@
+{
+  "entity_id": "liquidsensor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Liquid Sensor",
+  "name_zh": "液体传感器",
+  "description_en": "Don't use your finger! This trusty sensor indicates the presence of liquids.",
+  "description_zh": "别用你的手指！这个可靠的传感器是用于检测液体的。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_advancedliquidsensor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

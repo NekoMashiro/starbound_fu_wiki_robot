@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_spectwingcasual_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Apprentice Jacket",
+  "name_zh": "学徒夹克",
+  "description_en": "Casual rookie duds.",
+  "description_zh": "普通的新手衣服。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingclothes",
+          "probability": 0.3999,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "isn_flintlock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fellshot Revolver",
+  "name_zh": "强力左轮手枪",
+  "description_en": "Astounding stopping power.",
+  "description_zh": "惊人的制动力。",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 8.2,
+  "critChance": 2,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

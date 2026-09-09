@@ -1,0 +1,59 @@
+{
+  "entity_id": "deadbeatlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Longsword",
+  "name_zh": "废料长剑",
+  "description_en": "Looks crappy. Cuts deep.\r\nInflicts bleeding",
+  "description_zh": "看起来很糟糕。切得很深。\n造成出血效果",
+  "rarity": "uncommon",
+  "category": "longsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "deadbeat"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.85,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "battlebladecombo",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

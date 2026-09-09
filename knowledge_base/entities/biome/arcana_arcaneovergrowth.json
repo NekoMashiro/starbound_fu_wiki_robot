@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_arcaneovergrowth",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Overgrowth",
+  "name_zh": "奥秘植林",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Arcane Overgrowth",
+  "friendly_name_zh": "奥秘植林",
+  "ores": [
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.8
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.8
+    },
+    {
+      "ore": "gold",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_borealiteOre",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "bobfae",
+    "crutter",
+    "iguarmor"
+  ],
+  "quality_tier": "C"
+}

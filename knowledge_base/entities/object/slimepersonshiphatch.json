@@ -1,0 +1,45 @@
+{
+  "entity_id": "slimepersonshiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Ship Hatch",
+  "name_zh": "史莱姆船舱",
+  "description_en": "A hatch suitable for a spaceship.",
+  "description_zh": "一个适合于宇宙飞船的舱口。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "slimeperson",
+    "door",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 4
+        },
+        {
+          "item": "slime",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "lavawhiskey",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Whiskey",
+  "name_zh": "岩浆威士忌",
+  "description_en": "Is this wise to ingest? It appears to be extremely hot.\nBurning (20s)\nMelting (3s)\nDrunk, +30% Physical Res (1m)",
+  "description_zh": "饮用是明智的选择吗？似乎非常烫。\n赋予烧伤(持续20s)\n融化 (持续3s)\n醉酒，+30% 物理抗性(持续1m)",
+  "rarity": "legendary",
+  "category": "drink",
+  "price": 1300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidironfu",
+          "count": 2
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "tyvokkseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tyvokk Dart",
+  "name_zh": "糖果棒种子",
+  "description_en": "This plant is a literal powerhouse of energy and vitality.",
+  "description_zh": "可以收获糖果棒，食用后会提高生命恢复速度，生命值和能量值上限。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "vextongueseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 19
+        },
+        {
+          "item": "staticcell",
+          "count": 10
+        },
+        {
+          "item": "bugshell",
+          "count": 8
+        },
+        {
+          "item": "helium3gasliquid",
+          "count": 14
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tyvokkHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

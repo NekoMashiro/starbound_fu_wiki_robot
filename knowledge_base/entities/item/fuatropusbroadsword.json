@@ -1,0 +1,69 @@
+{
+  "entity_id": "fuatropusbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fleshweave Broadsword",
+  "name_zh": "血肉宽剑",
+  "description_en": "A revolting bio-weapon.\nPlague Bearing",
+  "description_zh": "一个或许会引起你恶心的生物武器。\n瘟疫附着",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "atropus",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.67,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "travelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_nodule",
+          "count": 2
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 12
+        },
+        {
+          "item": "bone",
+          "count": 12
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

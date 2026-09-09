@@ -1,0 +1,35 @@
+{
+  "entity_id": "network_dropper",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Dropper",
+  "name_zh": "物品丢弃器",
+  "description_en": "Drops Items into the world.\r\nInput1: On/Off Switch",
+  "description_zh": "将物品丢弃到当前世界。\n输入1: 电源开关",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Item Dropper.md",
+  "quality_tier": "A"
+}

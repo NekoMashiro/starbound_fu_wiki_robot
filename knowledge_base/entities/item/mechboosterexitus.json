@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechboosterexitus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exitus Mech Boosters",
+  "name_zh": "死疫机甲推进器",
+  "description_en": "All-around great boosters.",
+  "description_zh": "全能的机甲推进器。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 15
+        },
+        {
+          "item": "advancealloy",
+          "count": 10
+        },
+        {
+          "item": "thoriumrod",
+          "count": 5
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

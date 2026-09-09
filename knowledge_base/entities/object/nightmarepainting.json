@@ -1,0 +1,31 @@
+{
+  "entity_id": "nightmarepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Nightmare",
+  "name_zh": "噩梦",
+  "description_en": "A blood-hued landscape taken right out of a nightmare.",
+  "description_zh": "一幅血色的风景画从噩梦之中勾勒而出。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

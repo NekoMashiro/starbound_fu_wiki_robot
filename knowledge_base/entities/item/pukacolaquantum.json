@@ -1,0 +1,85 @@
+{
+  "entity_id": "pukacolaquantum",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Puka-Cola",
+  "name_zh": "量子可乐",
+  "description_en": "Ingesting this seems distinctly unwise. But screw it! DOWN THE HATCH!\nFrost Burn (5s), Insane(2m), +8 Defense, +15% All Res (1m)",
+  "description_zh": "这玩意看起来不是用来喝的——但是管他的，让我们拧开瓶盖！要爽由自己！！！\n冰冻烧伤(持续5s)\n发狂(持续2m)\n+8 防御，+15%所有抗性(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidelderfluid",
+          "count": 5
+        },
+        {
+          "item": "thoriumrod",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        },
+        {
+          "item": "fu_salt",
+          "count": 2
+        },
+        {
+          "item": "liquidpus",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "fu_byosteleporterprecursor"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

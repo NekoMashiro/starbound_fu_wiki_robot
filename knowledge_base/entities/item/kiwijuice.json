@@ -1,0 +1,106 @@
+{
+  "entity_id": "kiwijuice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Kiwi Juice",
+  "name_zh": "猕猴桃汁",
+  "description_en": "A sweet and tropical juice made of kiwis. Type: Fruit",
+  "description_zh": "一杯猕猴桃做的甜甜的热带果汁。\n类型：素甜食",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "kiwi",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "kiwijuiceobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "kiwijuiceobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "extrarations",
+          "probability": 0.0353,
+          "count": 1
+        },
+        {
+          "pool": "extrafood",
+          "probability": 0.0196,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0196,
+        0.0353
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "kiwijam"
+  ],
+  "quality_tier": "S"
+}

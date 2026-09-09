@@ -1,0 +1,46 @@
+{
+  "entity_id": "fupioneerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wanderer Helm",
+  "name_zh": "旅行者帽子",
+  "description_en": "Set Bonuses:\r\n +2% Crit Chance\r\n Energy: Damage x1.15 and +15% Crit Damage",
+  "description_zh": "套装奖励:\n +2% 暴击几率\n 能量武器: 伤害x1.15, +15% 暴击伤害",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

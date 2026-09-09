@@ -1,0 +1,35 @@
+{
+  "entity_id": "fuburger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Burger",
+  "name_zh": "汉堡",
+  "description_en": "Meaty and delicious. Type: Cooked Meat + Vegetables",
+  "description_zh": "香酥而美味。\n类型：熟肉食+蔬菜",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 250
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

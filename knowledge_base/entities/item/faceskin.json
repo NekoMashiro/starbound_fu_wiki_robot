@@ -1,0 +1,87 @@
+{
+  "entity_id": "faceskin",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Face Skin",
+  "name_zh": "脸皮",
+  "description_en": "Just like mom used to make.\n-5% HP (10s)\nMadness Gain 2 \nType: Raw Meat",
+  "description_zh": "就像妈妈以前做的那样。\n -5%HP （10s）\n 癫狂2 \n 类型：生肉",
+  "rarity": "rare",
+  "category": "food",
+  "price": 220,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greghead",
+          "count": 1
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessbunnythingmeat"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "poutine"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "strangetome"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuCorpseMeat",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.0533,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0533,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,157 @@
+{
+  "entity_id": "hydrolium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydrolium",
+  "name_zh": "氢化合金",
+  "description_en": "A fantastic, conductive material ideal for circuitry.",
+  "description_zh": "一种奇异的导电材料，电路的理想选择。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 350,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumore",
+          "count": 1
+        },
+        {
+          "item": "lead",
+          "count": 1
+        },
+        {
+          "item": "liquidhealing",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 1
+        },
+        {
+          "item": "lead",
+          "count": 2
+        },
+        {
+          "item": "liquidhealing",
+          "count": 10
+        }
+      ],
+      "output_count": 2,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "skathenergybeam",
+          "skathenergydetail",
+          "skathenergyscreen",
+          "skathenergywall",
+          "skathwalldetail"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "skathtier3ahead",
+          "skathtier3mhead",
+          "skathtier3shead"
+        ]
+      },
+      "chestarmour": {
+        "count": 3,
+        "examples": [
+          "skathtier3achest",
+          "skathtier3mchest",
+          "skathtier3schest"
+        ]
+      },
+      "legarmour": {
+        "count": 3,
+        "examples": [
+          "skathtier3apants",
+          "skathtier3mpants",
+          "skathtier3spants"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "hydroliumcircuitry"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "skathtier3broadsword"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "skathtier3hammer"
+        ]
+      },
+      "Minigun": {
+        "count": 1,
+        "examples": [
+          "skathtier3minigun"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "quality_tier": "S"
+}

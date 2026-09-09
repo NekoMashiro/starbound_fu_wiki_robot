@@ -1,0 +1,31 @@
+{
+  "entity_id": "florancorner",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Leather Support",
+  "name_zh": "皮革支架",
+  "description_en": "A piece of thin leather is stretched from the ceiling.",
+  "description_zh": "从天花板上拉下来的一块皮革。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 55,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranvillagetowerTreasure",
+          "probability": 0.0429,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

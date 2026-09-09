@@ -1,0 +1,49 @@
+{
+  "entity_id": "havencrest_storage_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Scholar's Box",
+  "name_zh": "学者之箱",
+  "description_en": "A large container made from sandstone.",
+  "description_zh": "由砂岩制成的大型容器。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "havencrest",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_tile2",
+          "count": 12
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

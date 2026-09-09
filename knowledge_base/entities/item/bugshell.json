@@ -1,0 +1,212 @@
+{
+  "entity_id": "bugshell",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bug Shell",
+  "name_zh": "虫壳",
+  "description_en": "The old, withered shell of some long-dead insect.",
+  "description_zh": "一些死去昆虫的旧且萎缩的壳。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_sweat_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 10,
+        "examples": [
+          "thelusianbed",
+          "thelusianbookcase",
+          "thelusiancouch",
+          "thelusiandesk",
+          "thelusiandresser"
+        ]
+      },
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "fudesertwalkerhead",
+          "fumantizitier2head",
+          "kirhostier3head",
+          "thelusiantier2head",
+          "thelusiantier4head"
+        ]
+      },
+      "seed": {
+        "count": 5,
+        "examples": [
+          "pasakavineseed",
+          "rockrootseed",
+          "shinyacornseed",
+          "tyvokkseed",
+          "vashtaplantseed"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "thelusianceilinglamp",
+          "thelusianlamp",
+          "thelusiansmalllamp",
+          "thelusianwalllamp"
+        ]
+      },
+      "legarmour": {
+        "count": 3,
+        "examples": [
+          "fudesertwalkerpants",
+          "fumantizitier2pants",
+          "kirhostier3pants"
+        ]
+      },
+      "chestarmour": {
+        "count": 3,
+        "examples": [
+          "fudesertwalkerchest",
+          "fumantizitier2chest",
+          "kirhostier3chest"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "madnesspteropod",
+          "thelusianceilingmonitor"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "thelushive",
+          "thelushivesleek"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "hunting_harvest": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "bughouseHarvest",
+          "probability": 1.4526,
+          "count": 1
+        },
+        {
+          "pool": "huntingfufirecrab",
+          "probability": 0.6931,
+          "count": 1,
+          "monsters": [
+            "fufirecrab"
+          ]
+        },
+        {
+          "pool": "huntingflyingchitin",
+          "probability": 0.64,
+          "count": 1,
+          "monsters": [
+            "fearmoth"
+          ]
+        },
+        {
+          "pool": "huntingflyingchitinhot",
+          "probability": 0.45,
+          "count": 1
+        },
+        {
+          "pool": "huntingchitincold",
+          "probability": 0.45,
+          "count": 1,
+          "monsters": [
+            "icecrab",
+            "shadowcrab"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        1.4526
+      ]
+    },
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "blackbeetle",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "blackbeetle",
+            "fudragonflycritter",
+            "furoachcritter",
+            "futinycockroach"
+          ]
+        },
+        {
+          "pool": "blackbeetlerare",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "hellbeetle",
+          "probability": 1.0,
+          "count": 2,
+          "monsters": [
+            "hellbeetle"
+          ]
+        },
+        {
+          "pool": "beeLoot",
+          "probability": 0.1616,
+          "count": 1,
+          "monsters": [
+            "fuevilbee",
+            "fugiantbee",
+            "fugiantbee2",
+            "fugiantmetalbee",
+            "fugiantmetalbee2"
+          ]
+        },
+        {
+          "pool": "evilbeeLoot",
+          "probability": 0.1537,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1537,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "webberhuntTreasure",
+          "probability": 0.2667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

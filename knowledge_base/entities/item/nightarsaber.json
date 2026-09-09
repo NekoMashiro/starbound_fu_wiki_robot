@@ -1,0 +1,66 @@
+{
+  "entity_id": "nightarsaber",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Saber",
+  "name_zh": "夜之军刀",
+  "description_en": "Said to be wielded by a legendary Nightar swordsman.",
+  "description_zh": "据说曾被一位传奇夜族剑客所使用。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 380,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "nightar",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 22.5,
+  "critChance": 1.4,
+  "critBonus": 1.5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brokennightarsaber",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "",
+    "seed": "",
+    "shortdescription": "无双夜之军刀",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

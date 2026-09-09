@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_throwable_alchemicalExplosive_greater",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Greater Alchemical Explosive",
+  "name_zh": "大型炼金爆弹",
+  "description_en": "Destroy a wide range of tiles on collide.",
+  "description_zh": "接触时摧毁大范围内的物块。",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

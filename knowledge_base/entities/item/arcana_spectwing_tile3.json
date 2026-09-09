@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_spectwing_tile3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Nether Wood Pillar",
+  "name_zh": "冥界木柱",
+  "description_en": "A strudy pillar made from a dark colored wood.",
+  "description_zh": "使用深色木头制成的坚固柱子。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 1.0531,
+          "count": 10
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingbasic",
+          "probability": 0.3009,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.3009,
+        1.0531
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

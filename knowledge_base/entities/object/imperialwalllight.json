@@ -1,0 +1,54 @@
+{
+  "entity_id": "imperialwalllight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Wall Light",
+  "name_zh": "甲虫壁灯",
+  "description_en": "A bronze lantern.",
+  "description_zh": "青铜灯笼。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "mantizi",
+    "mantizivilla",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

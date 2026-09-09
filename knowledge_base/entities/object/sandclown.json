@@ -1,0 +1,32 @@
+{
+  "entity_id": "sandclown",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Sandclown",
+  "name_zh": "沙子小丑",
+  "description_en": "Who would live in the desert? This clown.",
+  "description_zh": "谁会住在沙漠？这只。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sandclown",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "sandclown"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,78 @@
+{
+  "entity_id": "brokenprotectoratebroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Broken Broadsword",
+  "name_zh": "破碎英雄之剑",
+  "description_en": "A very nice sword in very poor condition.",
+  "description_zh": "这是一把非常精良的剑，尽管它的状况非常糟糕。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "protectorate"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 7.5,
+  "critChance": 0.25,
+  "critBonus": 2,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "spinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "",
+    "seed": "",
+    "shortdescription": "^cyan;卫士锋刃^reset; ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

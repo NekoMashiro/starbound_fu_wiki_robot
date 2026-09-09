@@ -1,0 +1,240 @@
+{
+  "entity_id": "gyrostabilizer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gyrostabilizer",
+  "name_zh": "回转稳定器",
+  "description_en": "Capable of stopping inertia completely for a brief moment.",
+  "description_zh": "克服惯性，让你很快停下来。",
+  "rarity": "rare",
+  "category": "tool",
+  "price": 12000,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "phasematter",
+          "count": 12
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 1200
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mutavisksilk"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 59,
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0114,
+          "count": 1
+        },
+        {
+          "pool": "tool",
+          "probability": 0.0097,
+          "count": 1
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0114
+      ]
+    },
+    "chest_loot": {
+      "count": 23,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.004,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0035,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0005,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.004
+      ]
+    },
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0022,
+          "count": 1.0,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0014,
+          "count": 1.0
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0022
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0019,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0019
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0004
+      ]
+    }
+  },
+  "wiki_ref": "Gyrostabilizer.md",
+  "quality_tier": "S"
+}

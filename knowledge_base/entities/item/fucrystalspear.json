@@ -1,0 +1,55 @@
+{
+  "entity_id": "fucrystalspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Spear",
+  "name_zh": "水晶长矛",
+  "description_en": "Shimmering, beautiful death.\r\nHunting weapon",
+  "description_zh": "微光，然后美丽地逝去。\n狩猎武器",
+  "rarity": "common",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "elementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 30
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

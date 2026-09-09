@@ -1,0 +1,50 @@
+{
+  "entity_id": "titaniumboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Boomerang",
+  "name_zh": "钛制回旋镖",
+  "description_en": "Great for beer parties and death-causing.",
+  "description_zh": "非常适合啤酒派对和干掉别人。",
+  "rarity": "uncommon",
+  "category": "boomerang",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "geodestone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Geode Stone",
+  "name_zh": "水晶石",
+  "description_en": "A solid stone filled with small geode crystals.\nExtractable, Crushable.",
+  "description_zh": "一种里面充满了小晶体的坚固的石头。\n可萃取，可粉碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_randomitem_geodestone",
+          "probability": 0.2,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

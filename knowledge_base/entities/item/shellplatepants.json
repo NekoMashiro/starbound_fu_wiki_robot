@@ -1,0 +1,58 @@
+{
+  "entity_id": "shellplatepants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Leather Greaves",
+  "name_zh": "艾肯皮革护腿",
+  "description_en": "+10% X'i Bulb Regen Rate (30%)\r\nSet Bonuses:\r\n Damage x1.05, +5% Speed\r\n X'i weapons: Health x1.15\r\n Lush/Forest biomes: Energy x1.05. +5% Knockback Resist",
+  "description_zh": "+10% 艾肯球茎再生速率(30%)\n套装奖励:\n 伤害x1.05, +5% 速度\n 艾肯武器: 15% 最大HP\n 葱郁/森林生物群落: 能量x1.05. +5% 击退抗性",
+  "rarity": "common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 5
+        },
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "liquidwater",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "xibasicpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "glasscoffeemug",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glass Coffee Mug",
+  "name_zh": "玻璃咖啡杯",
+  "description_en": "A coffee mug made of glass.",
+  "description_zh": "玻璃制成的咖啡杯。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glassmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "coffee"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

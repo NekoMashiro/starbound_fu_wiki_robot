@@ -1,0 +1,70 @@
+{
+  "entity_id": "nitrogensea",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nitrogen Ocean",
+  "name_zh": "液氮海",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Nitrogen Ocean",
+  "friendly_name_zh": "液氮海",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "cryopod",
+    "garflipp",
+    "icetroll",
+    "symbiotecritter",
+    "wisper",
+    "wisper7"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:nitrogensea"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomecold2",
+    "biomeairless"
+  ],
+  "quality_tier": "C"
+}

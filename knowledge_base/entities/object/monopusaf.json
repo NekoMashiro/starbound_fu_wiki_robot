@@ -1,0 +1,58 @@
+{
+  "entity_id": "monopusaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Monopus Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"An ancient species, know to be agile and mischievous. They have an intelligent look in their eye.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "monopusVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "monopusTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_redMonopus",
+            "firemonopus",
+            "monopus"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "monopusHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_redMonopus",
+            "firemonopus",
+            "monopus"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

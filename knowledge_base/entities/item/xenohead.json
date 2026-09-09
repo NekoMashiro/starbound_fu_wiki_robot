@@ -1,0 +1,56 @@
+{
+  "entity_id": "xenohead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X10 Power Helm",
+  "name_zh": "X10 动力头盔",
+  "description_en": "Headlamp\r\nSet Bonuses:\r\n Fall Damage x0.7\r\n Assault/Energy Rifle: Damage x1.2 and +2% Crit Chance\r\n Immune: Oxygen, Gas, Moderate Cold, Liq.Nitrogen",
+  "description_zh": "头灯\n套装奖励：\n 坠落伤害x0.7\n 突击/能量步枪: 伤害x1.2, +2% 暴击几率\n 免疫: 窒息, 气体, 液氮, 严酷寒冷",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "fuexplorerhead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

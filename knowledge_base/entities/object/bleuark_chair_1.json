@@ -1,0 +1,52 @@
+{
+  "entity_id": "bleuark_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bleuark Chair",
+  "name_zh": "海舟椅子",
+  "description_en": "A small chair for sitting, coated with Atla gold.",
+  "description_zh": "一把供人坐的小椅子，涂有海金。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "atlantic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bleuark_tile1",
+          "count": 6
+        },
+        {
+          "item": "bleuark_tile8",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Bleuark Crafting Table",
+      "station_zh": "海舟制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

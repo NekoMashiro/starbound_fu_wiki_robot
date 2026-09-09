@@ -1,0 +1,62 @@
+{
+  "entity_id": "ff_slimehead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Helm",
+  "name_zh": "黏液头盔",
+  "description_en": "Set Bonuses:\r\n Spawns Minions: Slimes\r\n Health x1.1\r\n Slime weapons: Damage x1.1/1.2, +5% Crit Chance;\r\n Immune: Slime, Mud, Clay",
+  "description_zh": "套装奖励:\n 召唤仆从: 史莱姆\n 最大HPx1.1\n 粘液武器: 伤害 x1.1/1.2, +5% 暴击几率;\n 免疫: 粘液, 泥, 黏土",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "algaegreen",
+          "count": 3
+        },
+        {
+          "item": "slimegem",
+          "count": 4
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "ff_slimehead2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

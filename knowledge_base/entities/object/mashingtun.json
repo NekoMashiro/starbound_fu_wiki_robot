@@ -1,0 +1,39 @@
+{
+  "entity_id": "mashingtun",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mashing Tun",
+  "name_zh": "糖化桶",
+  "description_en": "A vat to make mash.",
+  "description_zh": "制作麦芽汁和各种酒醪的设备。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

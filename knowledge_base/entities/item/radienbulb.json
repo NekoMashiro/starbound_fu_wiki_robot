@@ -1,0 +1,45 @@
+{
+  "entity_id": "radienbulb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Rad Bulb",
+  "name_zh": "艾肯辐射球茎",
+  "description_en": "When thrown, can be quite dangerous.",
+  "description_zh": "当这玩意被扔出去的时候十分危险。",
+  "rarity": "common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade",
+    "radien"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xi_bulb",
+          "count": 1
+        },
+        {
+          "item": "xibulb",
+          "count": 5
+        },
+        {
+          "item": "ff_silicon",
+          "count": 1
+        }
+      ],
+      "output_count": 12,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

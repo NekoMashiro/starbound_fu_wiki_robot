@@ -1,0 +1,32 @@
+{
+  "entity_id": "xenofly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Xenofly",
+  "name_zh": "氙气蝇",
+  "description_en": "This guy has a creepy little face.",
+  "description_zh": "有张奇怪的脸。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "xenofly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "xenofly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

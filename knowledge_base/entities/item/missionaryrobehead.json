@@ -1,0 +1,58 @@
+{
+  "entity_id": "missionaryrobehead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Monk's Hood",
+  "name_zh": "僧帽",
+  "description_en": "Set Bonuses:\r\n +5% Speed and Jump\r\n +5% Crit Damage\r\n Dual Fist/Quarterstaff: Damage x1.15",
+  "description_zh": "套装奖励:\n +5% 速度和跳跃\n +5% 暴击伤害\n 双拳/双头棍: 伤害 x1.15",
+  "rarity": "common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "melee",
+    "offensive"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "climbingrope",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 9
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fulightpriesthead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

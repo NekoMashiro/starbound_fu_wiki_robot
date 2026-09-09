@@ -1,0 +1,57 @@
+{
+  "entity_id": "artillerygun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Volatile Missile Salvo",
+  "name_zh": "不稳定性导弹齐射导引器",
+  "description_en": "Call in a devastating missile strike. Obliterates tiles.\r\nAlt-fire increases damage",
+  "description_zh": "从你的飞船上呼叫一轮毁灭性的导弹突袭，对目标进行地毯式的打击。\n可破坏物块\n次要攻击会增加伤害\n只适合在室外环境使用",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketLauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 15,
+  "critBonus": 25,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 6
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

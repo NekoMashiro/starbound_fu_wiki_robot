@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_spectwing_scythe_6",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Burial Vesper",
+  "name_zh": "死礼夜祷",
+  "description_en": "A ceremonial scythe, intricately forged. Lifesteal: Restores 2% Health on hit. Final hit releases lifesteal butterflies.",
+  "description_zh": "一把精心锻造的仪式用镰刀。吸血：命中时恢复2%的生命值。连击最后一段会释放吸血蝴蝶。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2400,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 13.8,
+  "primaryAbilityType": "arcana_scythe_combo",
+  "altAbilityType": "arcana_scythe_sweep",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 2
+        },
+        {
+          "item": "refinedviolium",
+          "count": 6
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "prisiliteore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

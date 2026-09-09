@@ -1,0 +1,82 @@
+{
+  "entity_id": "elderblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Blade",
+  "name_zh": "远古短剑",
+  "description_en": "Looking at this blade causes dizziness, for it endlessly undulates.",
+  "description_zh": "看这把剑会头晕，因为它在不停地波动。",
+  "rarity": "legendary",
+  "category": "shortsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "elder",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 7.6,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "shortswordcombo2",
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.2263,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0039,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0039,
+        0.2263
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.1677,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0744,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

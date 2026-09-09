@@ -1,0 +1,33 @@
+{
+  "entity_id": "butterbee",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Butterbee",
+  "name_zh": "黄油蜜蜂",
+  "description_en": "A bright yellow bug, its wings smell like butter.",
+  "description_zh": "一只明亮的黄虫子，翅膀闻起来像黄油。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "butterbee",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "beebug",
+            "butterbee"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

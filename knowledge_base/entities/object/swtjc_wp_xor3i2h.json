@@ -1,0 +1,49 @@
+{
+  "entity_id": "swtjc_wp_xor3i2h",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "XOR Gate (3 Inputs, 2-Hot)",
+  "name_zh": "异或门(三输入，2)",
+  "description_en": "An /'XOR'/ gate. Requires exactly 2 inputs to be on, and the rest off.",
+  "description_zh": "一个异或门。需要接入两个输入节点才能激活/ON/。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_advancedxor3i2h"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

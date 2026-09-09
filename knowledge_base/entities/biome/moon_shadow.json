@@ -1,0 +1,73 @@
+{
+  "entity_id": "moon_shadow",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Moon",
+  "name_zh": "暗影卫星",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Shadow Moon",
+  "friendly_name_zh": "暗影卫星",
+  "ores": [
+    {
+      "ore": "erchius",
+      "weight": 0.9
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.75
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.5
+    },
+    {
+      "ore": "iron",
+      "weight": 0.5
+    },
+    {
+      "ore": "copper",
+      "weight": 0.5
+    },
+    {
+      "ore": "plutonium",
+      "weight": 0.35
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.15
+    }
+  ],
+  "monsters": [
+    "anglure5",
+    "bee_shrouded",
+    "eyefriendcritter",
+    "eyepodcritter",
+    "fugianterchiusbee",
+    "fuparasprite",
+    "maggotcritter",
+    "monopus",
+    "orbide",
+    "pandorasboxadultnocttop",
+    "pandorasboxnocttop",
+    "shadowbat",
+    "shadowgolem",
+    "shadowtop",
+    "spookit"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:moon_shadow"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "erchiussickness2",
+    "biomeairless",
+    "superdarkstatmid"
+  ],
+  "wiki_ref": "Shadow Moon.md",
+  "quality_tier": "C"
+}

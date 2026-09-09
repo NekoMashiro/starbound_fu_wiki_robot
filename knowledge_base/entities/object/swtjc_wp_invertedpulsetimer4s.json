@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_invertedpulsetimer4s",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Inv. 4-Sec. Pulse Transmitter",
+  "name_zh": "反脉冲发射器(4s)",
+  "description_en": "Stops transmitting signals for 4 seconds whenever it becomes active.",
+  "description_zh": "当激活时会让脉冲信号中断4s。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

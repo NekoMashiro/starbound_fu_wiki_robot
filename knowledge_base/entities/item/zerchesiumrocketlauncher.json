@@ -1,0 +1,61 @@
+{
+  "entity_id": "zerchesiumrocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Rocketlauncher",
+  "name_zh": "高熔点火箭发射器",
+  "description_en": "A rapid fire ice rocket launcher.\r\nSlows enemies",
+  "description_zh": "冻结火箭发射器。\n减慢敌人的速度",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "zerchesium",
+    "upgradeableWeapon",
+    "zerchesium",
+    "explosive"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 1,
+  "critBonus": 4,
+  "altAbilityType": "swtjc_ewg_repelgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

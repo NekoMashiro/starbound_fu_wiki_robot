@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_daybroken",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Daybroken",
+  "name_zh": "晨灭",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Daybroken",
+  "friendly_name_zh": "晨灭",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 1.0
+    },
+    {
+      "ore": "iron",
+      "weight": 1.0
+    },
+    {
+      "ore": "tungsten",
+      "weight": 1.0
+    },
+    {
+      "ore": "corefragment",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_atumiumOre",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "arcana_soli",
+    "bowbirdcritter",
+    "deserttortoisecritter",
+    "mousecritter",
+    "squeekcritter",
+    "toucritter"
+  ],
+  "quality_tier": "C"
+}

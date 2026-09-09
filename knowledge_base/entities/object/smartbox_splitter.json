@@ -1,0 +1,40 @@
+{
+  "entity_id": "smartbox_splitter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stack Splitter",
+  "name_zh": "物品位数拆分器",
+  "description_en": "Splits a stack into 100s, 10s,\r\nand 1s (as well as it can).\r\nItem-Network compatible.",
+  "description_zh": "可将物品数量以百十个位依次拆分。\n兼容物品传输网络。",
+  "rarity": "common",
+  "category": "Smart Box",
+  "price": 100,
+  "tags": [
+    "smart",
+    "box"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Stack Splitter.md",
+  "quality_tier": "A"
+}

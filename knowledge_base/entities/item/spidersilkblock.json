@@ -1,0 +1,54 @@
+{
+  "entity_id": "spidersilkblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Spider Silk",
+  "name_zh": "蜘蛛丝",
+  "description_en": "Webs packed tight into a solid block.\nExtractable.",
+  "description_zh": "一个由蜘蛛网紧紧结合在一起的硬块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "spidercotton"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "frankLoot",
+          "probability": 1.5,
+          "count": 25,
+          "monsters": [
+            "bighairyfrank"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "frankLootBoss",
+          "probability": 1.5,
+          "count": 25,
+          "monsters": [
+            "bighairyfrankboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "wretchelhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Helm",
+  "name_zh": "扭力藤头盔",
+  "description_en": "Set Bonuses:\r\n Low Gravity\r\n Immune: Poisoned, Pus, Bio-Ooze",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 650,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wretchel",
+          "count": 6
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        },
+        {
+          "item": "aliencompound",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

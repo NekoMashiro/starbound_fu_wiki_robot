@@ -1,0 +1,41 @@
+{
+  "entity_id": "foodimmunityaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Feed-Munity Chip",
+  "name_zh": "补给储存芯片",
+  "description_en": "EPP Module: Immune to Diet Restrictions",
+  "description_zh": "EPP模块:  免疫饥饿惩罚",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutagene3",
+          "count": 2
+        },
+        {
+          "item": "biospore",
+          "count": 50
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "petalyellow",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Feed-Munity Chip.md",
+  "quality_tier": "A"
+}

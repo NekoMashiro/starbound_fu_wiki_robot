@@ -1,0 +1,87 @@
+{
+  "entity_id": "rareassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rare Assault Rifle",
+  "name_zh": "稀有的突击步枪",
+  "description_en": "A fully automatic, military grade rifle, with decent stopping power and accuracy.",
+  "description_zh": "一支全自动军用级步枪，具有良好的制动力和准确性。",
+  "rarity": "Rare",
+  "category": "assaultRifle",
+  "price": 1140,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    8,
+    10.5
+  ],
+  "critChance": 1,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 6,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.2331,
+          "count": 1,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.1717,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extrachallengelabassault",
+          "probability": 0.049,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

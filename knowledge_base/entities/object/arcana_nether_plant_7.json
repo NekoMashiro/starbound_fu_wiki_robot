@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_nether_plant_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tatalot Plant Pot",
+  "name_zh": "汁骨果植物盆",
+  "description_en": "A simple pot holding a tatalot plant.",
+  "description_zh": "放置着汁骨果植物的简单花盆。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_tatalot",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

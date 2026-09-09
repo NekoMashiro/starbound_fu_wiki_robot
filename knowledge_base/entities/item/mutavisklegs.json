@@ -1,0 +1,52 @@
+{
+  "entity_id": "mutavisklegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutavisk Greaves",
+  "name_zh": "飞螳腿甲",
+  "description_en": "Set Bonuses:\r\n Fall Damage x0.75\r\n Immune: All Radiation",
+  "description_zh": "套装奖励:\n 坠落伤害x0.75\n 免疫: 所有辐射",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutaviskthread",
+          "count": 3
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

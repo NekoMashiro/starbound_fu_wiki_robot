@@ -1,0 +1,27 @@
+{
+  "entity_id": "tentacleproduce",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tentacles",
+  "name_zh": "扭藤",
+  "description_en": "200% Physical Thorns: 1m",
+  "description_zh": "200%物理反伤: 1m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tentacleplant",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

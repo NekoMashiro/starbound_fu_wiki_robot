@@ -1,0 +1,39 @@
+{
+  "entity_id": "vaashlavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vaash Lava Lamp",
+  "name_zh": "瓦什熔岩灯",
+  "description_en": "A lamp filled with Vaash acid.",
+  "description_zh": "充满瓦什酸的灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "akkimari",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

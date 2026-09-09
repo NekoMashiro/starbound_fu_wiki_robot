@@ -1,0 +1,55 @@
+{
+  "entity_id": "swtjc_ewg_rarebeampistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Beam Pistol",
+  "name_zh": "精良的光束手枪",
+  "description_en": "A small handgun that fires streams of energy at distant targets with pinpoint accuracy.",
+  "description_zh": "一把小型手枪，可以精确地向远距离目标发射能量流。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_beamPistol",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    4.4,
+    5.7
+  ],
+  "critChance": 1,
+  "critBonus": 4,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

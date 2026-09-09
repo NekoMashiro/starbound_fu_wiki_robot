@@ -1,0 +1,45 @@
+{
+  "entity_id": "capturegunweak",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capture Gun",
+  "name_zh": "捕捉枪",
+  "description_en": "Damages and captures creatures. Handy.",
+  "description_zh": "非常方便的捕捉生物的武器。",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 5.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "voxel10k",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Capture Gun.md",
+  "quality_tier": "A"
+}

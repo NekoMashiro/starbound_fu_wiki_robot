@@ -1,0 +1,53 @@
+{
+  "entity_id": "zerchesiumwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Whip",
+  "name_zh": "高熔点鞭",
+  "description_en": "A whip with an ice cold tip. Swings with a zip.",
+  "description_zh": "一条带有冰冷尖端的鞭子。挥动时带着能量。",
+  "rarity": "Uncommon",
+  "category": "whip",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "zerchesium"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

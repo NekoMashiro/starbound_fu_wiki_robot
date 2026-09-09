@@ -1,0 +1,58 @@
+{
+  "entity_id": "normalcomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeycomb",
+  "name_zh": "蜂蜜蜂巢",
+  "description_en": "A delicious honeycomb with mild medicinal properties.",
+  "description_zh": "一种美味的蜂窝，具有温和的药用特性。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_bumblebee_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 6,
+        "examples": [
+          "applehoneystraw",
+          "grapehoneystraw",
+          "honeyjar",
+          "honeystraw",
+          "neonhoneystraw"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fuhoneycombchair",
+          "fuhoneycombtable",
+          "fuhoneycouch"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "fuhoneycomblight"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "quality_tier": "S"
+}

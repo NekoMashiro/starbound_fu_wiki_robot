@@ -1,0 +1,51 @@
+{
+  "entity_id": "slimecentrifuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Biochemist Table",
+  "name_zh": "生化制作台",
+  "description_en": "The Biochemist table is used to change the bonds between slimes.",
+  "description_zh": "生化工作台，是用来改变粘液之间的化学键。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 350,
+  "tags": [
+    "crafting",
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 10
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "bottle",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

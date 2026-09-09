@@ -1,0 +1,36 @@
+{
+  "entity_id": "mailbox",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mailbox",
+  "name_zh": "信箱",
+  "description_en": "You just got a letter! Wonder who it's from?",
+  "description_zh": "你刚收到一封信！不知道是谁寄来的？",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

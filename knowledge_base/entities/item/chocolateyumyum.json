@@ -1,0 +1,35 @@
+{
+  "entity_id": "chocolateyumyum",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chocolate Yum Yum",
+  "name_zh": "妙妙巧克力",
+  "description_en": "A cream-filled moon cake. Type: Grain + Dairy + Eggs + Sugar",
+  "description_zh": "一个奶油月饼。\n 类型：谷物 + 蛋奶 + 甜食",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 12,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 225
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

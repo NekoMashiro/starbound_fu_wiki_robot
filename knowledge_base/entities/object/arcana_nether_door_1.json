@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_nether_door_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Door",
+  "name_zh": "冥界门",
+  "description_en": "A door made from nether wood.",
+  "description_zh": "使用冥界木做的门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 115,
+  "tags": [
+    "nether",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

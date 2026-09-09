@@ -1,0 +1,61 @@
+{
+  "entity_id": "fu_booster_large6",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Ship Booster Mk6",
+  "name_zh": "大型飞船推进器Mk6",
+  "description_en": "A large sub-light thruster. Greatly increases interplanetary travel speed.\nShip Speed: +72\nBYOS Only",
+  "description_zh": "一座大型的亚光速推进器。大大提高际旅行的速度。\n飞船速度+72\n只限BYOS",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "byos"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_booster_large5",
+          "count": 1
+        },
+        {
+          "item": "pureerchius",
+          "count": 4
+        },
+        {
+          "item": "solidfuel",
+          "count": 36
+        },
+        {
+          "item": "liquidfuel",
+          "count": 8
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 1,
+        "examples": [
+          "fu_booster_large7"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

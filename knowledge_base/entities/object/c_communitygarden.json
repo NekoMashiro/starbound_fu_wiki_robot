@@ -1,0 +1,41 @@
+{
+  "entity_id": "c_communitygarden",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Community Garden",
+  "name_zh": "社区园圃",
+  "description_en": "Grows crops through community effort. Scan for info. \n+2 Happiness",
+  "description_zh": "通过社区的力量种植庄稼。扫描以查看更多信息。\n+2幸福",
+  "rarity": "Uncommon",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "farming",
+    "plants",
+    "farm"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 50
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 75
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 75
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Community Garden.md",
+  "quality_tier": "A"
+}

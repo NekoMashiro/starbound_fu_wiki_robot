@@ -1,0 +1,34 @@
+{
+  "entity_id": "swtjc_wp_advancedlightsensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Light Sensor",
+  "name_zh": "高级光线传感器",
+  "description_en": "A more advanced light sensor that activates various nodes based upon whether or not ambient light levels exceed certain thresholds.",
+  "description_zh": "更高级的环境光传感器，检测环境光是否超过阈值，以用来激活节点。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 7
+        },
+        {
+          "item": "lightsensor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

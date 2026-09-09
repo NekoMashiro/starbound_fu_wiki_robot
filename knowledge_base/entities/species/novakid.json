@@ -1,0 +1,71 @@
+{
+  "entity_id": "novakid",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "星之子",
+  "description_en": "",
+  "description_zh": "星之子是一个被戏称为“星际气袋人”的神秘种族。他们既没有归属的土地，也没有有记载的历史。\n\n  食性：杂食性\n\n天赋：\n  能量 x1.1\n  抗性：+35% 辐射抗性, +20% 火炎抗性\n  免疫：燃烧&辐射灼伤\n\n环境：\n辐射生态群落：HP&能量 x1.15\n  日间: 满饱食度时回复生命。能量回复速度+20%\n  夜间: 回复会消耗饱食度，且能量 x0.75\n\n武器：\n  手枪 x 2: +8% 速度\n  手枪专精 +15%\n  狙击步枪专精 +15%\n  霰弹枪专精 +15%\n\n弱点：\n  HP x0.9, -10% 最大饱腹度\n抗性：-20% 寒气, 暗影抗性, -5% 电系抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 0.9
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.1
+      },
+      {
+        "stat": "maxFood",
+        "baseMultiplier": 0.9
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.35
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "fireStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "radiationburnImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "pistolMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "sniperrifleMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "shotgunMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "fuRadiationHeal",
+        "amount": 1
+      }
+    ],
+    "diet": "entity"
+  },
+  "quality_tier": "B"
+}

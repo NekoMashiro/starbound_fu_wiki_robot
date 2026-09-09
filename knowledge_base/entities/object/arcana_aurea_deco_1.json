@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_aurea_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Guidance Pillar",
+  "name_zh": "向导柱",
+  "description_en": "An ancient pillar displaying strange patterns.",
+  "description_zh": "刻有奇怪纹路的古代支柱。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 280,
+  "tags": [
+    "gilten",
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

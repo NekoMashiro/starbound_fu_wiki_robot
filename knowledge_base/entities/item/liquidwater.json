@@ -1,0 +1,243 @@
+{
+  "entity_id": "liquidwater",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Water",
+  "name_zh": "水",
+  "description_en": "A measure of cool, clear water.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的清澈的水。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwastewater",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 1
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "mud",
+          "count": 5
+        },
+        {
+          "item": "xibulb",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fusaltwater",
+          "count": 10
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 12,
+        "examples": [
+          "shadowtoilet",
+          "skathwatertank",
+          "skathwatertanksmall",
+          "thelusianbed",
+          "thelusianbookcase"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 10,
+        "examples": [
+          "alemash",
+          "applemash",
+          "cherrymash",
+          "darkalemash",
+          "darkwort"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 9,
+        "examples": [
+          "algaegreen",
+          "arcana_misc_oceaniteComposite",
+          "biosample",
+          "ff_plastic",
+          "ff_silicon"
+        ]
+      },
+      "drink": {
+        "count": 9,
+        "examples": [
+          "americancoffee",
+          "arcana_food_blackTea",
+          "arcana_food_greenTea",
+          "arcana_food_oolongTea",
+          "arcana_food_timelessTea"
+        ]
+      },
+      "block": {
+        "count": 8,
+        "examples": [
+          "clay",
+          "concretematerial",
+          "fuoldtimbermaterial",
+          "furustediron",
+          "rustyblock"
+        ]
+      },
+      "liquid": {
+        "count": 6,
+        "examples": [
+          "fusaltwater",
+          "liquidalienjuice",
+          "liquidbeer",
+          "liquidblood",
+          "liquidnitrogenitem"
+        ]
+      },
+      "preparedFood": {
+        "count": 6,
+        "examples": [
+          "arcana_food_marrowsteep",
+          "arcana_food_sanguinesmoothie",
+          "arcana_food_seatea",
+          "boogerbread",
+          "hobbyglue"
+        ]
+      },
+      "light": {
+        "count": 5,
+        "examples": [
+          "apexpod2",
+          "thelusianceilinglamp",
+          "thelusianlamp",
+          "thelusiansmalllamp",
+          "thelusianwalllamp"
+        ]
+      }
+    },
+    "total": 102
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "arcana_treasure_general_liquidwater",
+          "probability": 1.0,
+          "count": 12.0
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.1164,
+          "count": 15.0
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0328,
+          "count": 15.0
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0152,
+          "count": 15.0
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.003,
+          "count": 15.0
+        }
+      ],
+      "prob_range": [
+        0.003,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.126,
+          "count": 150.0
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0736,
+          "count": 15.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0602,
+          "count": 15.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0294,
+          "count": 15.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0082,
+          "count": 15.0
+        }
+      ],
+      "prob_range": [
+        0.0058,
+        0.126
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0306,
+          "count": 15.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Water.md",
+  "quality_tier": "S"
+}

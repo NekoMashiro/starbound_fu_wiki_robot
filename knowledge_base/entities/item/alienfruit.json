@@ -1,0 +1,57 @@
+{
+  "entity_id": "alienfruit",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Alien Fruit",
+  "name_zh": "外星水果",
+  "description_en": "An alien fruit, very juicy. Type: Fruit",
+  "description_zh": "一个外星水果，非常多汁。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienfruitbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "alienfruitjam",
+          "toxictart"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "alienfruitjuice",
+          "toxicjuice"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "alienfruitbasket"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "blueprints_unlocked": [
+    "alienfruitjam",
+    "alienfruitjuice"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "misc_wand_tripleDecker",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Triple Decker",
+  "name_zh": "三一冰板",
+  "description_en": "Taste the icy sweetness!",
+  "description_zh": "尝尝这冰爽的甜头吧!",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_food_neapolitanUbiquity"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.115,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.046,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.046,
+        0.115
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

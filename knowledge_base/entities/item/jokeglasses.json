@@ -1,0 +1,171 @@
+{
+  "entity_id": "jokeglasses",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Joke Glasses",
+  "name_zh": "小丑眼镜",
+  "description_en": "Laugh it up.",
+  "description_zh": "小丑竟是我自己。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 45,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0343,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0047,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0343
+      ]
+    },
+    "chest_loot": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0064,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0062,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.005,
+          "count": 1.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0049,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0016,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0064
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0039,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0038,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0025,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0039
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0007
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

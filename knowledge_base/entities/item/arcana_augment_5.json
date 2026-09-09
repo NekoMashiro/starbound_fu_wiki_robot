@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_augment_5",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Ragechant",
+  "name_zh": "增幅器 - 愤植",
+  "description_en": "Grants Nova and +10% Attack. Upon triggering Nova, gain an additional +100% Attack for 4 seconds.",
+  "description_zh": "赋予新星和+10%攻击。触发新星后，获得额外+100%攻击，持续4秒。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 16
+        },
+        {
+          "item": "arcana_essence_vermilionEssence",
+          "count": 20
+        },
+        {
+          "item": "arcana_misc_rufescite",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

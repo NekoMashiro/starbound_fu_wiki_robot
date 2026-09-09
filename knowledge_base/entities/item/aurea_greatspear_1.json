@@ -1,0 +1,46 @@
+{
+  "entity_id": "aurea_greatspear_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ceremonial Lightspear",
+  "name_zh": "仪式用光矛",
+  "description_en": "A special weapon forged to use by the Aurea artifact seekers.",
+  "description_zh": "一把由恒金古物寻宝者铸造和使用的特殊武器。",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 1300,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "primaryAbilityType": "arcana_greatspear_altcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "refinedferozium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

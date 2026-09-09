@@ -1,0 +1,67 @@
+{
+  "entity_id": "warangellegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "War Angel Greaves",
+  "name_zh": "战天使腿甲",
+  "description_en": "Set Bonuses:\r\n +80% Knockback Resist. Fall Damage x0.2\r\n Chain Weapons: Damage x2.5, +2% Crit Chance\r\n Immune: Oxygen, Pressure",
+  "description_zh": "套装奖励:\n +80% 击退抗性. 坠落伤害x0.2\n链式武器: 伤害x2.5, +2% 暴击几率\n 免疫: 窒息, 压强",
+  "rarity": "legendary",
+  "category": "legarmour",
+  "price": 1100,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "funanofibre",
+          "count": 2
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumlegskhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "boosterlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Booster Pants",
+  "name_zh": "增强裤子",
+  "description_en": "Popular lower-street wear.\r\n+5% Crit Chance",
+  "description_zh": "流行的下街装束。\n+5% 暴击几率",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 35,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 2
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

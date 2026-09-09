@@ -1,0 +1,43 @@
+{
+  "entity_id": "poptopclaw",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mama Poptop Claw",
+  "name_zh": "吐舌娃妈妈的爪子",
+  "description_en": "Carved from the still-twitching corpse of a Mama Poptop. You monster.\r\nInflicts bleeding",
+  "description_zh": "用吐舌娃妈妈的尸体雕刻而成。你这个怪物。\n造成出血效果",
+  "rarity": "legendary",
+  "category": "axe",
+  "price": 140,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 7,
+  "critBonus": 3,
+  "primaryAbilityType": "axecleave",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "motherpoptopTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "motherpoptop",
+            "motherpoptop2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

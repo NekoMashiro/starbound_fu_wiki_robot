@@ -1,0 +1,35 @@
+{
+  "entity_id": "swtjc_wp_emitter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Signal Emitter",
+  "name_zh": "信号发射器",
+  "description_en": "A signal emitter. Outputs an active signal at all times.",
+  "description_zh": "一个信号发射器。它无时无刻不在输出着信号。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_brokenemitter",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Signal Emitter.md",
+  "quality_tier": "A"
+}

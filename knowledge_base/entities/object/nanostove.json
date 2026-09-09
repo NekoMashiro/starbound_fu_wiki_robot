@@ -1,0 +1,38 @@
+{
+  "entity_id": "nanostove",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Nanostove",
+  "name_zh": "纳米炉",
+  "description_en": "Provides exceptional heat and a great for cooking outdoors.",
+  "description_zh": "提供特殊的热量和良好的室外烹饪环境。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 90,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 12
+        },
+        {
+          "item": "corefragmentore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "mwhaddon_misc_necroiumStabilizer",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Necroium Stabilizer",
+  "name_zh": "死金稳定锚",
+  "description_en": "A stabilizer that prevents mech parts from being torn apart by ancient energy.",
+  "description_zh": "用于防止机甲部件被古代能量撕裂的稳定锚。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 1800,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_mech_arm_acheron",
+          "mwhaddon_mech_body_erebus",
+          "mwhaddon_mech_booster_erebus",
+          "mwhaddon_mech_leg_erebus"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

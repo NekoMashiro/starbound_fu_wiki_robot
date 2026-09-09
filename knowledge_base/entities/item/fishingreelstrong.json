@@ -1,0 +1,79 @@
+{
+  "entity_id": "fishingreelstrong",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "High Tension Reel",
+  "name_zh": "高强度鱼线轮",
+  "description_en": "A heavy reel with high-test line that won't break as easily.",
+  "description_zh": "一个有着经过高强度测试不容易断的鱼线的沉重的鱼线轮。",
+  "rarity": "Uncommon",
+  "category": "fishingReel",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 100
+        },
+        {
+          "item": "durasteelbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fishingUpgrade",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.05,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0081,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

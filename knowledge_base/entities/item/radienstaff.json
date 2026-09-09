@@ -1,0 +1,52 @@
+{
+  "entity_id": "radienstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Rad-Staff",
+  "name_zh": "艾肯辐射法杖",
+  "description_en": "Fashioned from your own bulbs.",
+  "description_zh": "用你自己的球茎制成。",
+  "rarity": "common",
+  "category": "staff",
+  "price": 4,
+  "tags": [
+    "weapon",
+    "staff",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": true,
+  "primaryAbilityType": "thornburst",
+  "altAbilityType": "entropicwarding",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 40
+        },
+        {
+          "item": "corefragmentore",
+          "count": 12
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

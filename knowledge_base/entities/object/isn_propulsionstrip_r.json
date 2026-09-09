@@ -1,0 +1,36 @@
+{
+  "entity_id": "isn_propulsionstrip_r",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Propulsion Strip R",
+  "name_zh": "传送带(右)",
+  "description_en": "Place it on a surface to place a strip that throws people to the right.",
+  "description_zh": "将它放在地形表面，可以形成传送带。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 1
+        },
+        {
+          "item": "isn_accelgel",
+          "count": 10
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 30,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

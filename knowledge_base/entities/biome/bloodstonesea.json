@@ -1,0 +1,106 @@
+{
+  "entity_id": "bloodstonesea",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Atropus Sea",
+  "name_zh": "肉源海",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Atropus Sea",
+  "friendly_name_zh": "肉源海",
+  "ores": [
+    {
+      "ore": "bloodybones",
+      "weight": 0.6
+    },
+    {
+      "ore": "fublooddiamond",
+      "weight": 0.4
+    },
+    {
+      "ore": "iron",
+      "weight": 0.25
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.25
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.25
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.25
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.25
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.25
+    },
+    {
+      "ore": "lead",
+      "weight": 0.25
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.25
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.25
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.25
+    },
+    {
+      "ore": "violium",
+      "weight": 0.25
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "apexscabcritter",
+    "avianscabcritter",
+    "eyefriendcritter",
+    "eyepodcritter",
+    "fleshleech",
+    "floranscabcritter",
+    "fubloodgolem",
+    "glitchscabcritter",
+    "hemogoblin",
+    "humanscabcritter",
+    "hylotlscabcritter",
+    "maggotcritter",
+    "nautileech",
+    "pteropod3",
+    "shardwing",
+    "squeem",
+    "stinkjack",
+    "xenofly"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:bloodstone"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "insanitynew"
+  ],
+  "wiki_ref": "Atropus Sea.md",
+  "quality_tier": "C"
+}

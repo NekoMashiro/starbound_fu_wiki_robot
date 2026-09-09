@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusianbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Bed",
+  "name_zh": "蚁族床",
+  "description_en": "Chitinous and hard.",
+  "description_zh": "几丁质的柔软和甲壳般的坚硬。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "thelusian",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

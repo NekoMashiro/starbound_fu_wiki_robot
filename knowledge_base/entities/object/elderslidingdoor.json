@@ -1,0 +1,45 @@
+{
+  "entity_id": "elderslidingdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Door",
+  "name_zh": "远古门",
+  "description_en": "Unknown element. Fascinating.",
+  "description_zh": "噢，这门的材料都是我从未见过的。真是奇妙。",
+  "rarity": "rare",
+  "category": "door",
+  "price": 475,
+  "tags": [
+    "elder",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderstone2material",
+          "count": 4
+        },
+        {
+          "item": "elderstonematerial",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

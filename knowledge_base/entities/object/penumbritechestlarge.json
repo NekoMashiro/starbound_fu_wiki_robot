@@ -1,0 +1,45 @@
+{
+  "entity_id": "penumbritechestlarge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Chest",
+  "name_zh": "半影箱子",
+  "description_en": "A chest made from penumbrite.",
+  "description_zh": "用半影做成的箱子。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "penumbrite",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 10
+        },
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

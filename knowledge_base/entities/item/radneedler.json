@@ -1,0 +1,39 @@
+{
+  "entity_id": "radneedler",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Toxic Needler",
+  "name_zh": "毒刺风暴",
+  "description_en": "Horribly radioactive and kinda pretty.\r\nInflicts rad-burn",
+  "description_zh": "极具放射性，但却相当漂亮。\n附加辐射烧伤效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "crystal"
+  ],
+  "elementalType": "radioactive",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 2,
+  "critBonus": 2,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareWeapons",
+          "probability": 0.049,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

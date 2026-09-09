@@ -1,0 +1,52 @@
+{
+  "entity_id": "xithriciteshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Shield",
+  "name_zh": "赛德瑞瑟盾",
+  "description_en": "Proto, Bio-ooze Protections, +12 Shieldbash Push, 0.2 Regen",
+  "description_zh": "免疫原毒，生物软泥，+12盾牌反伤，0.2盾牌耐久回复",
+  "rarity": "legendary",
+  "category": "shield",
+  "price": 850,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "level": 6,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 9
+        },
+        {
+          "item": "liquidaether",
+          "count": 75
+        },
+        {
+          "item": "fu_carbonpure",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

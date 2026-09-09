@@ -1,0 +1,53 @@
+{
+  "entity_id": "fu_byospethouse",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pet House (Spawner)",
+  "name_zh": "宠物屋(生成器)",
+  "description_en": "Just big enough for a small animal to fit comfortably inside. Comes with a free pet.",
+  "description_zh": "对于一只小动物来说大小正正好好可以住的很舒服.但你得给你的宠物重新再找个家，里面已经住着一只小动物了.\n可在飞船用家具定制台调整种族风格",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "firedclay",
+          "count": 10
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

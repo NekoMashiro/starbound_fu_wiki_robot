@@ -1,0 +1,69 @@
+{
+  "entity_id": "avesmingoseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Avesmingo Seed",
+  "name_zh": "百味果种子",
+  "description_en": "Avesmingo, the plant of a 100 different flavours.",
+  "description_zh": "百味果，有一百种不同味道的植物。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 38,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 10
+        },
+        {
+          "item": "petalblue",
+          "count": 2
+        },
+        {
+          "item": "petalred",
+          "count": 2
+        },
+        {
+          "item": "petalyellow",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 3,
+        "examples": [
+          "fuspongeweedseed",
+          "goldenglowseed",
+          "slimeplantseed"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avesmingoHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "orangestim",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Orange Stim Pack",
+  "name_zh": "橙色兴奋剂",
+  "description_en": "A stimpack full of orange liquid, it will get you all fired up!",
+  "description_zh": "能让你进入狂暴状态的橙色兴奋剂。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 2
+        },
+        {
+          "item": "petalyellow",
+          "count": 2
+        },
+        {
+          "item": "scorchedcore",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

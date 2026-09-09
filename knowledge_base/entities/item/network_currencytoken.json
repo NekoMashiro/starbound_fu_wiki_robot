@@ -1,0 +1,29 @@
+{
+  "entity_id": "network_currencytoken",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ITD Currency Handler",
+  "name_zh": "ITD货币处理程序",
+  "description_en": "A silicon board. It's been programmed to help identify currency for processing.",
+  "description_zh": "一块硅板。被变成以帮助识别处理中的货币。",
+  "rarity": "Uncommon",
+  "category": "currency",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "ITD Currency Handler.md",
+  "quality_tier": "A"
+}

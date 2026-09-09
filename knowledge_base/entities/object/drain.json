@@ -1,0 +1,41 @@
+{
+  "entity_id": "drain",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Drain",
+  "name_zh": "排水口",
+  "description_en": "Gurgle gurgle!",
+  "description_zh": "咕噜咕噜！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电子设备制造机",
+          "name_zh": "电子设备制造机"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Drain.md",
+  "quality_tier": "A"
+}

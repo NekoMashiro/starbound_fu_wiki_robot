@@ -1,0 +1,40 @@
+{
+  "entity_id": "waterball",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Water Ball",
+  "name_zh": "水球",
+  "description_en": "Throw these to water your crops.",
+  "description_zh": "用这个可以给你的庄稼浇水。",
+  "rarity": "Uncommon",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 5
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

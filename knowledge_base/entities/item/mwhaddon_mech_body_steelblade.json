@@ -1,0 +1,58 @@
+{
+  "entity_id": "mwhaddon_mech_body_steelblade",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Steelblade Cavalry Mech Body",
+  "name_zh": "钢刃骑兵机甲机体",
+  "description_en": "Heavy armored mech body for intense combat.",
+  "description_zh": "为高强度战斗而设计的重甲机甲机体。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 10000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 36
+        },
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 12
+        },
+        {
+          "item": "mwhaddon_misc_mechComponent_3",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Advanced Mech Station",
+      "station_zh": "高级机甲制造台",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Mech Parts Crafting",
+          "name_zh": "机甲部件合成"
+        },
+        {
+          "name": "mwhaddon_crafting_mechCrafting.json",
+          "name_zh": ""
+        },
+        {
+          "name": "基础科技站",
+          "name_zh": "基础科技站"
+        },
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

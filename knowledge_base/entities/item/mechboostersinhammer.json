@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechboostersinhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Control Boosters",
+  "name_zh": "控制推进器",
+  "description_en": "A set of boosters manufactured by SinCo.",
+  "description_zh": "一种由新科公司（SinCo）制造的推进器。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 9000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 20
+        },
+        {
+          "item": "thoriumrod",
+          "count": 10
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

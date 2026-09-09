@@ -1,0 +1,59 @@
+{
+  "entity_id": "warcleaver",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ferozium Cleaver",
+  "name_zh": "菲洛合金劈刀",
+  "description_en": "A curious mix of organic and metallic.",
+  "description_zh": "这把武器神奇地糅合了有机与金属物质。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aliencompound",
+          "count": 2
+        },
+        {
+          "item": "monsterplating",
+          "count": 5
+        },
+        {
+          "item": "refinedferozium",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

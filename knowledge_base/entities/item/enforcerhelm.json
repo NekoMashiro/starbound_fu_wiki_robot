@@ -1,0 +1,54 @@
+{
+  "entity_id": "enforcerhelm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Enforcer Battle Helm",
+  "name_zh": "执法者战盔",
+  "description_en": "Provides an extra layer of protection via kinetic dampener, and has an advanced targeting HUD.\r\n\n+5% Crit Chance\r\n+15% Defense Tech protection",
+  "description_zh": "通过动力阻尼器提供额外的保护层。此外，内置的瞄准HUD将增加暴击几率。\n暴击几率+5%\n+15%防御科技效率",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "ff_silicon",
+          "count": 4
+        },
+        {
+          "item": "mutaviskhead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

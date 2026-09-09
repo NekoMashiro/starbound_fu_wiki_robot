@@ -1,0 +1,55 @@
+{
+  "entity_id": "arcana_mwhaddon_healItem_4",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Astral Medkit",
+  "name_zh": "群星医疗包",
+  "description_en": "Emergency Medkit mainly used by Arcanian in space.\nRestores 500 health over 15 seconds, and prevents most status effects for 20 seconds.",
+  "description_zh": "主要由守秘族在太空中使用的紧急医疗包。\n在15秒钟内恢复500点生命值，同时在20秒内阻隔绝大部分负面状态。",
+  "rarity": "Legendary",
+  "category": "medicine",
+  "price": 900,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 6
+        },
+        {
+          "item": "fabric",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_healItem4",
+          "probability": 1.0,
+          "count": 1.7
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,117 @@
+{
+  "entity_id": "alienwoodsap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xenophagic Substance",
+  "name_zh": "外源物质",
+  "description_en": "This strange substance is stench-ridden and crawling with unknown microbes.",
+  "description_zh": "这种奇怪的物质散发着恶臭，爬满了不知名的微生物。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blobbushjelly",
+          "count": 1
+        },
+        {
+          "item": "liquidalienjuice",
+          "count": 25
+        },
+        {
+          "item": "biospore",
+          "count": 5
+        },
+        {
+          "item": "aliencompound",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "bluecheese",
+          "eldurkey"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "cell_mutated",
+          "unknowngene"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "protovex"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "pureerchius"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fleshreaperhuntLoot",
+          "probability": 0.0679,
+          "count": 1,
+          "monsters": [
+            "fleshreaper"
+          ]
+        },
+        {
+          "pool": "shadowtopLoot",
+          "probability": 0.0569,
+          "count": 1,
+          "monsters": [
+            "tentaclecometsporefu"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0569,
+        0.0679
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "alienWoodSapTreasure",
+          "probability": 0.025,
+          "count": 1,
+          "monsters": [
+            "derrick",
+            "furatthing",
+            "furatthing2",
+            "slimetop"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

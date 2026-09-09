@@ -1,0 +1,60 @@
+{
+  "entity_id": "effigiummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm Mace",
+  "name_zh": "幻影钉头锤",
+  "description_en": "Phantoms don't care. They'll still kill ya. Design by Gezbo.",
+  "description_zh": "握在手中基本看不出，适用于暗杀。由Gezbo设计。",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "effigium",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,72 @@
+{
+  "entity_id": "zathiseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zathi Seed",
+  "name_zh": "扎蒂结节种子",
+  "description_en": "A strange floating plant flowing with cosmic energy.",
+  "description_zh": "一种奇特的漂浮植物，具有宇宙能量。",
+  "rarity": "rare",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "fu_nodule",
+          "count": 3
+        },
+        {
+          "item": "fu_carbon",
+          "count": 8
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "herrodbush",
+          "xaxseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "zathiHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

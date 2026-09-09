@@ -1,0 +1,57 @@
+{
+  "entity_id": "lunarilamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Lamp",
+  "name_zh": "月晶灯",
+  "description_en": "A light made form lunari. It floats gently.",
+  "description_zh": "由月晶制成的灯。它轻轻地漂浮着。",
+  "rarity": "rare",
+  "category": "light",
+  "price": 400,
+  "tags": [
+    "lunari",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 10
+        },
+        {
+          "item": "nhydri",
+          "count": 5
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

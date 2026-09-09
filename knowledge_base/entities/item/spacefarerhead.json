@@ -1,0 +1,66 @@
+{
+  "entity_id": "spacefarerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spacefarer Helm",
+  "name_zh": "宇航员头盔",
+  "description_en": "Headlamp\r\nSet Bonuses:\r\n Mining Laser: Combat Damage x2\r\n +350s Oxygen\r\n +50% Defense Tech Efficiency\r\nImmune: Burning, Proto-Poison, Gas",
+  "description_zh": "头灯\n套装奖励:\n 采矿激光: 战斗伤害x2\n +350s 氧气\n +50% 防御科技效率\n免疫: 烧伤, 原毒, 气体",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tw_spacesuithead",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "spacefarerheadadv"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

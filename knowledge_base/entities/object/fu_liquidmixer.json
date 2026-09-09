@@ -1,0 +1,44 @@
+{
+  "entity_id": "fu_liquidmixer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Mixer",
+  "name_zh": "液体混合器",
+  "description_en": "This machine mixes liquids together in a controlled environment. Requires 15J per action.",
+  "description_zh": "这台机器在受控环境中将液体混合在一起每次混合需要15焦能量",
+  "rarity": "common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 0,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "fu_liquidcondenser",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Liquid Mixer.md",
+  "quality_tier": "A"
+}

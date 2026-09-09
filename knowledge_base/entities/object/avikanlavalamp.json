@@ -1,0 +1,39 @@
+{
+  "entity_id": "avikanlavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Avikan Lava Lamp",
+  "name_zh": "阿维坎熔岩灯",
+  "description_en": "A lamp filled with a brightly glowing material.",
+  "description_zh": "充满明亮发光材料的灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "avikan",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

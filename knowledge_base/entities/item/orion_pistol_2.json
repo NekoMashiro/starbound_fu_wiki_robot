@@ -1,0 +1,35 @@
+{
+  "entity_id": "orion_pistol_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "OC Geigerr",
+  "name_zh": "俄里翁盖革",
+  "description_en": "A standard Orion pistol for combating robotic enemies. Inflicts Eletrified.",
+  "description_zh": "用于和机器敌人战斗的俄里翁制式手枪。造成带电。 ",
+  "rarity": "Legendary",
+  "category": "pistol",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol"
+  ],
+  "elementalType": "electric",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 11.6,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionBlueprint",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

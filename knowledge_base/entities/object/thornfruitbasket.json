@@ -1,0 +1,43 @@
+{
+  "entity_id": "thornfruitbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thorn Fruit Basket",
+  "name_zh": "刺果篮",
+  "description_en": "So long as you watch out for the thorns, these are delicious.",
+  "description_zh": "只要你小心荆棘，这些都很好吃。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornfruit",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "thornfruit"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

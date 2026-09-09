@@ -1,0 +1,50 @@
+{
+  "entity_id": "fu_precursorduplicator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Duplicator",
+  "name_zh": "复印机",
+  "description_en": "Consumes fuel to duplicate certain items.\nRequires 200J per duplication.\nUpper Input: On/Off Switch.",
+  "description_zh": "消耗燃料以复制物品。\n\n需要200W电力。\n上面的输入：电源开关。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "precursor",
+    "ancient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0521,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0052,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0052,
+        0.0521
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0052,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Duplicator.md",
+  "quality_tier": "A"
+}

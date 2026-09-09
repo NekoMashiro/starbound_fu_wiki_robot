@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchipovercharge",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Supercharger Module",
+  "name_zh": "超级充能模块",
+  "description_en": "Drastically increases speed, but drastically reduces fuel efficiency.",
+  "description_zh": "显著提高速度，但同时也显著降低燃料效率。",
+  "rarity": "rare",
+  "category": "mechChip",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "unstableparticles",
+          "count": 3
+        },
+        {
+          "item": "irradiumbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

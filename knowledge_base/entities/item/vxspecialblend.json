@@ -1,0 +1,36 @@
+{
+  "entity_id": "vxspecialblend",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "VX Special Blend",
+  "name_zh": "VX特制混合酒",
+  "description_en": "One of the rarest known alcohols. It's good stuff.\n+20% Poison, Moderate Radiation, Shadow, Cosmic Res, +50 EP, Frost Immunity, 35% Slow (2m)\nHammered (4m)",
+  "description_zh": "已知的最稀有的酒精之一。好东西。\n+20%毒素，严酷辐射，暗影，宇宙抗性，+50EP，赋予冰冻免疫，35% 减速(持续2m)\n醉酒(持续4m)",
+  "rarity": "uncommon",
+  "category": "drink",
+  "price": 3500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkalemash",
+          "count": 2
+        },
+        {
+          "item": "mythicalhoneyjar",
+          "count": 2
+        },
+        {
+          "item": "protovex",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "plasmango",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasmango",
+  "name_zh": "等离子芒果",
+  "description_en": "\"Everything is gonna be fine\" - non-Novakid prior to eating a Plasmango. \n+20% Jump: 40s\nBurning: 10s",
+  "description_zh": "\"没啥大问题！\" ——吃了一个等离子芒果的非星之子生物。\n+20%跳跃高度: 40s\n烧伤: 10s",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 42,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "plasmangoicecream",
+          "solstew",
+          "uberdinner"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "plasmangoHarvest",
+          "probability": 1.2778,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

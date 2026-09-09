@@ -1,0 +1,46 @@
+{
+  "entity_id": "isn_hydroponicstray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydro Tray",
+  "name_zh": "水培托盘",
+  "description_en": "An hydroponic powered growing tray. Requires 3 seeds and water. Requires 4W power to increase production. Scan for info.",
+  "description_zh": "一个采用水培法的作物成长托盘。需要提供3份种子和水分。\n需要4W电力以加快作物生长。\n扫描以获取更多信息。",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 1000,
+  "tags": [
+    "science",
+    "farming",
+    "plants",
+    "farm"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 2
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Hydro Tray.md",
+  "quality_tier": "A"
+}

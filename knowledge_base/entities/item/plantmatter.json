@@ -1,0 +1,109 @@
+{
+  "entity_id": "plantmatter",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plant Matter",
+  "name_zh": "植物组织",
+  "description_en": "A block made of packed plant matter.\nExtractable.",
+  "description_zh": "用大量植物组织做成的方块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        }
+      ],
+      "output_count": 15,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "fufloranbath",
+          "fufloranbed",
+          "fufloranchair",
+          "fufloransofa",
+          "fuflorantable"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "bloodrootseed"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "floranbox"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "fuflorandoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "fufloranlamp"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "goldenleaves"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "livingroot"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_verdantKey",
+          "probability": 1.0,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "plantmatter"
+  ],
+  "quality_tier": "S"
+}

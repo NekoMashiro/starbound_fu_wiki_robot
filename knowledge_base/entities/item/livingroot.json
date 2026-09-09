@@ -1,0 +1,262 @@
+{
+  "entity_id": "livingroot",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Living Root",
+  "name_zh": "活根",
+  "description_en": "A severed piece of evolved plant matter. Can be used for crafting.",
+  "description_zh": "一片被割断的进化植物物质。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 3
+        },
+        {
+          "item": "arcana_flowers_wildPraire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "plantmatter",
+          "count": 2
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 2
+        },
+        {
+          "item": "fu_carbon",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 13,
+        "examples": [
+          "bananaseed",
+          "beakseedseed",
+          "brackentreeseed",
+          "cinnamonseed",
+          "cornseed"
+        ]
+      },
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "fufloranbath",
+          "fufloranbed",
+          "fufloranchair",
+          "fufloransofa",
+          "fuflorantable"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "berserkeraugment",
+          "feedaugment1"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "floranbox",
+          "radienbox"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "nanowrap",
+          "redstim"
+        ]
+      },
+      "whip": {
+        "count": 2,
+        "examples": [
+          "slimewhip2",
+          "vinewhip"
+        ]
+      },
+      "terraformer": {
+        "count": 2,
+        "examples": [
+          "terraformerarboreal",
+          "terraformerarboreal2"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "fubonepickaxe"
+        ]
+      }
+    },
+    "total": 37
+  },
+  "drop_sources": {
+    "total_pools": 46,
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_livingroot",
+          "probability": 2.0,
+          "count": 1.2
+        },
+        {
+          "pool": "fucaterpillarLoot",
+          "probability": 0.4327,
+          "count": 1,
+          "monsters": [
+            "fucaterpillar"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.184,
+          "count": 1.2
+        },
+        {
+          "pool": "extraMonsterPlant",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "glarp",
+            "glump",
+            "seaclam"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.0736,
+          "count": 1.2
+        }
+      ],
+      "prob_range": [
+        0.0736,
+        2.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.5388,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        },
+        {
+          "pool": "pandorasboxforestbopHunting",
+          "probability": 0.5298,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxautumnbopHunting",
+          "probability": 0.5298,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxwinterbopHunting",
+          "probability": 0.5298,
+          "count": 1
+        },
+        {
+          "pool": "gleapHunting",
+          "probability": 0.4941,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_arcaneGleap",
+            "gleap"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0187,
+        0.5388
+      ]
+    },
+    "monster_drops": {
+      "count": 23,
+      "top": [
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.52,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        },
+        {
+          "pool": "nutmidgelingTreasure",
+          "probability": 0.2,
+          "count": 1,
+          "monsters": [
+            "kingnutmidgeling"
+          ]
+        },
+        {
+          "pool": "bulbopVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "gleapVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "hypnareVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0374,
+        0.52
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

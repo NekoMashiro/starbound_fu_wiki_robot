@@ -1,0 +1,32 @@
+{
+  "entity_id": "mudstag",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mudstag",
+  "name_zh": "泥鹿虫",
+  "description_en": "This bug is incredibly sticky. It has two long horns on its head.",
+  "description_zh": "这只虫子无与伦比的黏。头上有两只角。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mudstag",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "mudstag"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

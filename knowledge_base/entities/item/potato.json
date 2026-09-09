@@ -1,0 +1,198 @@
+{
+  "entity_id": "potato",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Potato",
+  "name_zh": "土豆",
+  "description_en": "Po-ta-to. Type: Vegetable",
+  "description_zh": "也叫马铃薯。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "potatobasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 8,
+        "examples": [
+          "arcana_food_richhospitality",
+          "bakedpotato",
+          "carrotsoup",
+          "fishnchips",
+          "mashedpotato"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "potatobasket"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 71,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "potatoHarvest",
+          "probability": 1.246,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0218,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0218,
+        1.246
+      ]
+    },
+    "monster_drops": {
+      "count": 49,
+      "top": [
+        {
+          "pool": "foodTreasureMedium",
+          "probability": 0.2773,
+          "count": 3
+        },
+        {
+          "pool": "elduufoodTreasureMedium",
+          "probability": 0.2773,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.221,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.221,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.221,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.2773
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "food",
+          "probability": 0.0909,
+          "count": 3
+        },
+        {
+          "pool": "produce",
+          "probability": 0.0909,
+          "count": 3
+        },
+        {
+          "pool": "elduufood",
+          "probability": 0.0909,
+          "count": 3
+        },
+        {
+          "pool": "elduuproduce",
+          "probability": 0.0909,
+          "count": 3
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.0871,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0909
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0429,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0337,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0064,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0064,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0013,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.0429
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0085,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0061,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0061,
+        0.0085
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

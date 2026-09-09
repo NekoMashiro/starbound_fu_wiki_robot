@@ -1,0 +1,50 @@
+{
+  "entity_id": "fumysterioustrashbag",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mysterious Trash Bag",
+  "name_zh": "神秘的垃圾袋",
+  "description_en": "This feels both firm and squishy to the touch. What could it be?",
+  "description_zh": "这东西摸起来又硬又软，还能是什么呢？",
+  "rarity": "Uncommon",
+  "category": "Disturbing Object",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffbanditTreasure",
+          "probability": 0.0135,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

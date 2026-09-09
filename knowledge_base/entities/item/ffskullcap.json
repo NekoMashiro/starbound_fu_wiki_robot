@@ -1,0 +1,45 @@
+{
+  "entity_id": "ffskullcap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skullcap",
+  "name_zh": "无边便帽",
+  "description_en": "\n\n\nDense head protection. Immune to stun.",
+  "description_zh": "\n\n\n密封严实的头部保护。免疫击晕。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 40,
+  "tags": [
+    "armor",
+    "head",
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

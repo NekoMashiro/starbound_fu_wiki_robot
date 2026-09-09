@@ -1,0 +1,48 @@
+{
+  "entity_id": "severedheadplatter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Severed Head Platter",
+  "name_zh": "断头拼盘",
+  "description_en": "It's literally just a rotting severed head. There is no platter.\n-5% HP (1m) Madness Gain 5 Type: Raw Meat",
+  "description_zh": "这就是一个腐烂的头颅。没有盘子。\n -5%；HP （1m）癫狂；5 类型：生肉",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 1305,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1200
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadloot",
+          "probability": 0.0533,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

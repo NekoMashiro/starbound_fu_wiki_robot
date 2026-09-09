@@ -1,0 +1,71 @@
+{
+  "entity_id": "pethealingstation",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pet Healing Station",
+  "name_zh": "宠物治疗站",
+  "description_en": "The creature healing station is used to heal captured creatures.",
+  "description_zh": "用来治愈捕获的生物的生物治疗站。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "pethealingstationauto"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Pet Healing Station.md",
+  "quality_tier": "S"
+}

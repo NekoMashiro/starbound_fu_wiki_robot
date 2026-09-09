@@ -1,0 +1,56 @@
+{
+  "entity_id": "irradiumlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Longsword",
+  "name_zh": "镭制长剑",
+  "description_en": "A honed irradium edge makes this rather...reactive.\r\nInflicts Rad-Burn",
+  "description_zh": "经过打磨的镭制剑锋使这相当。。。锐利。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

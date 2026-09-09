@@ -1,0 +1,114 @@
+{
+  "entity_id": "fuaetherstone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Stone",
+  "name_zh": "以太石",
+  "description_en": "A solid stone made of hardened aether.\nExtractable, Crushable.",
+  "description_zh": "一块由硬化以太制成的坚固石头。\n可萃取，可破碎。",
+  "rarity": "Legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 10
+        },
+        {
+          "item": "liquidaether",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 13,
+        "examples": [
+          "fuaetherbowl",
+          "fuaetherbowl2",
+          "fuaetherclock",
+          "fuaetherjar",
+          "fuaetherstarclock"
+        ]
+      },
+      "storage": {
+        "count": 12,
+        "examples": [
+          "fuaetherbookcase",
+          "fuaethercabinet",
+          "fuaethercabinet2",
+          "fuaethercabinet3",
+          "fuaetherchest"
+        ]
+      },
+      "furniture": {
+        "count": 6,
+        "examples": [
+          "fuaetherbed",
+          "fuaetherchair",
+          "fuaetherchair2",
+          "fuaetherstarbed",
+          "fuaetherstarchair"
+        ]
+      },
+      "block": {
+        "count": 4,
+        "examples": [
+          "fuaetherbrick",
+          "fuaetherbrick2",
+          "fuslopedaetherpanel",
+          "fuslopedaetherpanel2"
+        ]
+      },
+      "wire": {
+        "count": 4,
+        "examples": [
+          "fuaetherconsole",
+          "fuaethermonitor",
+          "fuaetherwallconsole",
+          "fuaetherwallmonitor"
+        ]
+      },
+      "door": {
+        "count": 3,
+        "examples": [
+          "fuaetherdoor2",
+          "fuaetherdoor3",
+          "fuaetherdoor4"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "fuaetherlamp",
+          "fuaetherlampsmall",
+          "fuaetherwalllamp"
+        ]
+      },
+      "teleporter": {
+        "count": 2,
+        "examples": [
+          "fuaetherdustteleporter",
+          "fuaetherteleporter"
+        ]
+      }
+    },
+    "total": 50
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,84 @@
+{
+  "entity_id": "slimelauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Launcher",
+  "name_zh": "黏液发射器",
+  "description_en": "Not practical, but certainly enjoyable.\r\nSpawns slime",
+  "description_zh": "不是很实用，但真的很有意思。\n生成黏液",
+  "rarity": "rare",
+  "category": "liquidGun",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "slime",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 4,
+  "critBonus": 8,
+  "altAbilityType": "biogrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "slimegoo",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "grenadeLauncher": {
+        "count": 1,
+        "examples": [
+          "slimegrenadelauncher"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0342,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

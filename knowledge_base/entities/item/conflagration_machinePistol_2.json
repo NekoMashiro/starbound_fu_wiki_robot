@@ -1,0 +1,58 @@
+{
+  "entity_id": "conflagration_machinePistol_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Heifer Blaster",
+  "name_zh": "母犊冲击波",
+  "description_en": "A prototype fire pistol produced by Torrage Incendiaries.",
+  "description_zh": "一把由特雷吉爆燃生产的原型火焰手枪。",
+  "rarity": "Uncommon",
+  "category": "machinePistol",
+  "price": 780,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

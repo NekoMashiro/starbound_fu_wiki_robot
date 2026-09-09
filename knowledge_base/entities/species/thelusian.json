@@ -1,0 +1,78 @@
+{
+  "entity_id": "thelusian",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "蚁族",
+  "description_en": "",
+  "description_zh": "肉食性的蚁人以其坚硬的甲壳和异常危险的战斗能力而闻名。其能够适应任何战斗情况。\n\n  食性: 肉食性\n\n天赋:\n  HP x1.15, 坠落伤害 x0.4\n  抗性: +30% 精神抗性, +15% 物理抗性, +20% 辐射抗性\n  免疫: 疯癫\n  科技: 战士本能\n\n环境:\n  炎热生物群落: HP x1.1\n  较低的地面摩擦力\n\n武器:\n  镰刀专精: +15%\n  阔剑专精: +15%\n  斧系专精: +10%\n  盾: 防御 x1.1\n  完美格挡: 增加 盾击几率\n\n弱点:\n  能量 x0.8, -25% 魅力\n  抗性: -30% 火炎抗性, -15% 寒气抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.25
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 0.75
+      },
+      {
+        "stat": "protection",
+        "amount": 8
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 0.75
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.3
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.3
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.4
+      },
+      {
+        "stat": "insanityImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "broadswordMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "scytheMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "axeMastery",
+        "amount": 0.1
+      }
+    ],
+    "diet": "carnivore",
+    "controlModifiers": {
+      "minimumLiquidPercentage": 0.3,
+      "normalGroundFriction": 30
+    },
+    "tech": [
+      "bugarmor"
+    ]
+  },
+  "quality_tier": "B"
+}

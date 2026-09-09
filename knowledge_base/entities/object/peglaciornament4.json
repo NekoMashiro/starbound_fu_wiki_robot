@@ -1,0 +1,58 @@
+{
+  "entity_id": "peglaciornament4",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Display",
+  "name_zh": "水晶显示器",
+  "description_en": "A small display made out of crystal.",
+  "description_zh": "用水晶做的小显示器。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "pretty",
+    "peglaci"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

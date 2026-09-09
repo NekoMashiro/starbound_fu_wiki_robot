@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreitestaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Staff",
+  "name_zh": "永燃法杖",
+  "description_en": "Planc Temperature.",
+  "description_zh": "达到了普朗克温度。",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": true,
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 8
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "corefragmentore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

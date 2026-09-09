@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_augment_4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Gleamstasis",
+  "name_zh": "增幅器 - 光滞",
+  "description_en": "Grants immunity to burning, frost, electrified and poisoned. +10% health and +10% attack.",
+  "description_zh": "赋予烧伤，冻结，带电与中毒免疫。+10%最大生命，攻击与最大能量。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_refinedNoxion",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

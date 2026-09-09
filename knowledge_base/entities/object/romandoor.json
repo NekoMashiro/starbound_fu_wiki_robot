@@ -1,0 +1,52 @@
+{
+  "entity_id": "romandoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Roman Door",
+  "name_zh": "罗马门",
+  "description_en": "A robust, roman-style door.",
+  "description_zh": "一扇结实的罗曼式门。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 0,
+  "tags": [
+    "roman",
+    "pretty",
+    "valuable",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "romanset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

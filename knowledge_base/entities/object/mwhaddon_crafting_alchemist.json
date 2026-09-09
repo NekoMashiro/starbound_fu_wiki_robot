@@ -1,0 +1,48 @@
+{
+  "entity_id": "mwhaddon_crafting_alchemist",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Chemist's Table",
+  "name_zh": "化学家之桌",
+  "description_en": "A table that allows you to craft useful alchemic stuff.",
+  "description_zh": "一个能让你制作各种炼金道具的工作台。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1200,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

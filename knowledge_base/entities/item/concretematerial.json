@@ -1,0 +1,74 @@
+{
+  "entity_id": "concretematerial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Concrete Block",
+  "name_zh": "混凝土块",
+  "description_en": "Cold, hard, concrete.\nCrushable.",
+  "description_zh": "又冷又硬的混凝土。\n可粉碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "clay",
+          "count": 1
+        },
+        {
+          "item": "sand2",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 5,
+        "examples": [
+          "arcana_tile24",
+          "blueneonsymbol",
+          "outpostsupport",
+          "outpostwall1",
+          "outpostwall2"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "markergroundplaque"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "blueprints_unlocked": [
+    "concretematerial"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,127 @@
+{
+  "entity_id": "canvas",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Canvas",
+  "name_zh": "帆布",
+  "description_en": "A square of high-quality canvas.",
+  "description_zh": "一平方米的优质帆布。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 150,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 36
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 18,
+        "examples": [
+          "apextier3head",
+          "apextier5shead",
+          "arcana_armor_gralsigh_head",
+          "arcana_revenant_head",
+          "arcana_wraith_head"
+        ]
+      },
+      "legarmour": {
+        "count": 17,
+        "examples": [
+          "apextier3pants",
+          "apextier5spants",
+          "aviantier3pants",
+          "aviantier5spants",
+          "diplomatpants"
+        ]
+      },
+      "chestarmour": {
+        "count": 12,
+        "examples": [
+          "apextier5schest",
+          "aviantier5schest",
+          "diplomatchest",
+          "florantier5schest",
+          "fudiverchest"
+        ]
+      },
+      "furniture": {
+        "count": 9,
+        "examples": [
+          "avalihammock1_crew",
+          "fu_crewbed",
+          "fu_crewbed2",
+          "fu_crewbed3",
+          "nightarcomfychair"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 7,
+        "examples": [
+          "apiary_frame_antimite2",
+          "apiary_frame_armored",
+          "apiary_frame_dawn",
+          "apiary_frame_densealloy",
+          "apiary_frame_durasteel"
+        ]
+      },
+      "spawner": {
+        "count": 4,
+        "examples": [
+          "fu_crewdeed",
+          "fu_elduukharcrewdeed",
+          "fu_tinycrewdeed",
+          "fu_tinycrewdeedinvis"
+        ]
+      },
+      "legwear": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_gralsigh_legs",
+          "arcana_revenant_legs",
+          "arcana_wraith_legs"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "paintingrandom",
+          "paintingrandom2"
+        ]
+      }
+    },
+    "total": 77
+  },
+  "quality_tier": "S"
+}

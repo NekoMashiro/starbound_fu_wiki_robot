@@ -1,0 +1,56 @@
+{
+  "entity_id": "hellfireshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Shield",
+  "name_zh": "地狱火盾",
+  "description_en": "+9% Energy Regen, Immune: Lava, Burning",
+  "description_zh": "能量回复速度+9%；免疫岩浆、燃烧",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neptuniumrod",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "scorchedcore",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Hellfire Shield.md",
+  "quality_tier": "A"
+}

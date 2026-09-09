@@ -1,0 +1,74 @@
+{
+  "entity_id": "conquerorlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Greaves",
+  "name_zh": "阿克恩腿甲",
+  "description_en": "Set Bonuses:\r\n Electric/Plasma: +1% Crit Chance, +25% Crit Damage, Damage x1.15\r\n Immune: Extreme Cold/Radiation, Poisoned, Oxygen",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 600,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "hyper"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 15000
+        },
+        {
+          "item": "essence",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

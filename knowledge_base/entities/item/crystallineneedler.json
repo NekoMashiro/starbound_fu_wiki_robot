@@ -1,0 +1,58 @@
+{
+  "entity_id": "crystallineneedler",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystalline Needler",
+  "name_zh": "水晶风暴",
+  "description_en": "Launch dangerous (but fun) shards of crystal at enemies.\r\nCounts as Hunting weapon",
+  "description_zh": "向敌人发射危险（但是有趣）的水晶碎片。\n狩猎武器",
+  "rarity": "common",
+  "category": "machinePistol",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "crystal"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.5,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 12
+        },
+        {
+          "item": "purplecrystalmaterial",
+          "count": 8
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

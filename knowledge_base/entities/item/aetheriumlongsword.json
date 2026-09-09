@@ -1,0 +1,60 @@
+{
+  "entity_id": "aetheriumlongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Longsword",
+  "name_zh": "阳清长剑",
+  "description_en": "A weapon infused with the power of the cosmos.",
+  "description_zh": "一把注入了宇宙之力的武器。",
+  "rarity": "legendary",
+  "category": "longsword",
+  "price": 2600,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 7.12,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 3
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

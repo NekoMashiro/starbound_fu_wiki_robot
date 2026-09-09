@@ -1,0 +1,45 @@
+{
+  "entity_id": "cultistchestlarge",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cultist Chest",
+  "name_zh": "邪教箱",
+  "description_en": "A metal chest with a glowing eye emblem on it.",
+  "description_zh": "一个金属盒子，上面有发光的眼睛标志。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 80,
+  "tags": [
+    "cultist",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

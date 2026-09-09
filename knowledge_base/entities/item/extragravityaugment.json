@@ -1,0 +1,44 @@
+{
+  "entity_id": "extragravityaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slipstream Augment",
+  "name_zh": "EPP模块（滑流）",
+  "description_en": "An EPP module that negates the effects of liquids.",
+  "description_zh": "一个能够使你无效液体效果的EPP模块。\n免疫各种液体效果",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 25000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraavianhydroaugment",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "extragravityaugment"
+  ],
+  "quality_tier": "S"
+}

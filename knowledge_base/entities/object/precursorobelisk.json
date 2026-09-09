@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorobelisk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Obelisk",
+  "name_zh": "先驱方尖碑",
+  "description_en": "Some sort of...pillar. It looks like there's a place for a palm.",
+  "description_zh": "某种...支柱。看起来有个可以把手掌放上去的地方。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 500,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0288,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0288,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.016,
+        0.0288
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

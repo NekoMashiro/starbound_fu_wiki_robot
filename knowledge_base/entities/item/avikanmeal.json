@@ -1,0 +1,70 @@
+{
+  "entity_id": "avikanmeal",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kadavan Meal",
+  "name_zh": "卡达文盖浇饭",
+  "description_en": "A traditional Kadavan meal, a warrior's favourite.\n+20% HP & EP (210s)\n+20% Rage (60s) Type: Cooked Meat + Vegetables",
+  "description_zh": "传统的卡达文主食，战士的最爱。\n+20%HP和EP(持续210s)\n+20%狂暴(持续60s)\n类型：熟肉食+蔬菜",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 220,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "meatchunk",
+          "count": 1
+        },
+        {
+          "item": "bolbohn",
+          "count": 1
+        },
+        {
+          "item": "kadavancactus",
+          "count": 1
+        },
+        {
+          "item": "avikanspices",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

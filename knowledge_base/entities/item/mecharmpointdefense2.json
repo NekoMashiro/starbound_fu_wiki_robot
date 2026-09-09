@@ -1,0 +1,52 @@
+{
+  "entity_id": "mecharmpointdefense2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Point Defense II",
+  "name_zh": "对点防御 II",
+  "description_en": "Electric bolts shock foes within 12 feet.",
+  "description_zh": "电动螺栓打击在12英尺之内的敌人。",
+  "rarity": "rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmpointdefense",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmbreachdefense",
+          "mecharmpointdefense3"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

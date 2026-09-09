@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunarishortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Shortspear",
+  "name_zh": "月晶短矛",
+  "description_en": "Stabbity crystal.\r\nHunting weapon",
+  "description_zh": "尖锐的水晶。\n狩猎武器",
+  "rarity": "Common",
+  "category": "shortspear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.1,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

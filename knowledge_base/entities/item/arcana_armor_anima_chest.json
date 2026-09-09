@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_anima_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anima Chestplate",
+  "name_zh": "生源胸甲",
+  "description_en": "An enchanted helmet with slight fire protection. \n\nSet Bonus: \nGrants +10% Animus Weapon and Katana damage, and +10% Fire RES. 2 Piece Set.",
+  "description_zh": "具有微量火焰防护的附魔头盔。\n\n套装效果：\n获得+10%魇灵武器和武士刀的伤害，+10%烈焰抗性。2件套效果。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 14
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

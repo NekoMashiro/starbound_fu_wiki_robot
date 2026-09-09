@@ -1,0 +1,300 @@
+{
+  "entity_id": "silk",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Silk",
+  "name_zh": "丝绸",
+  "description_en": "A square of soft, lustrous silk",
+  "description_zh": "一段柔软有光泽的丝绸。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 88,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silkfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 24
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 39,
+        "examples": [
+          "apextier3chest",
+          "apextier4chest",
+          "apextier5mchest",
+          "aviantier3chest",
+          "aviantier4chest"
+        ]
+      },
+      "furniture": {
+        "count": 25,
+        "examples": [
+          "alienbed",
+          "astralbed",
+          "bonebed",
+          "cutearmchair",
+          "cutebed1"
+        ]
+      },
+      "legarmour": {
+        "count": 21,
+        "examples": [
+          "apextier5mpants",
+          "aviantier5mpants",
+          "celestaruniform4pants",
+          "florantier5mpants",
+          "fuhoplitepants"
+        ]
+      },
+      "headarmour": {
+        "count": 15,
+        "examples": [
+          "apextier5mhead",
+          "aviantier5mhead",
+          "douchehat",
+          "florantier5mhead",
+          "fuhoplitehead"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 11,
+        "examples": [
+          "apiary_frame_advanced",
+          "apiary_frame_armored",
+          "apiary_frame_durasteel",
+          "apiary_frame_eclipse",
+          "apiary_frame_entropic"
+        ]
+      },
+      "decorative": {
+        "count": 8,
+        "examples": [
+          "cutedrape1",
+          "cutedrape2",
+          "cutekurukuruplush",
+          "cuteribbons1",
+          "cuteribbons2"
+        ]
+      },
+      "chestwear": {
+        "count": 6,
+        "examples": [
+          "arcana_armor_gralsigh_chest",
+          "arcana_faetheri_chest",
+          "arcana_faetherialt_chest",
+          "arcana_wraith_chest",
+          "goldarmorchest"
+        ]
+      },
+      "storage": {
+        "count": 4,
+        "examples": [
+          "cutebookcase2",
+          "cutecabinet2",
+          "cutechest1",
+          "cutechest2"
+        ]
+      }
+    },
+    "total": 142
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "ff_plastic"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "ff_plastic"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 58,
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 15,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 80
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0278,
+          "count": 15
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.009,
+          "count": 7.5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0056,
+          "count": 7.5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1097
+      ]
+    },
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 15
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 15
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 15,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 15
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0299,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1026
+      ]
+    },
+    "chest_loot": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0906,
+          "count": 7.5
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0735,
+          "count": 15
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 80
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0372,
+          "count": 7.5
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0152,
+          "count": 7.5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0906
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0022,
+          "count": 7.5
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0022,
+          "count": 7.5
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0018,
+          "count": 7.5
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0004,
+          "count": 7.5
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0004,
+          "count": 7.5
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0022
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0006,
+          "count": 7.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

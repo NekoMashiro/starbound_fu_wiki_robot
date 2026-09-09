@@ -1,0 +1,49 @@
+{
+  "entity_id": "stonedagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Dagger",
+  "name_zh": "原始匕首",
+  "description_en": "Great for early meat and hide gathering.",
+  "description_zh": "适合早期的肉类和兽皮收集。",
+  "rarity": "Common",
+  "category": "dagger",
+  "price": 50,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon",
+    "stone"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 4,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

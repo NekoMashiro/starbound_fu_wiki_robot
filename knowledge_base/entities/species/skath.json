@@ -1,0 +1,47 @@
+{
+  "entity_id": "skath",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "绘世者",
+  "description_en": "",
+  "description_zh": "曾经受到过外星势力的侵入，使他们专注于研究自己的军事和防御。他们是非常训练有素的战士，它们的水生起源使它们在水中特别危险，因此成为一种不可忽视的力量。\n\n  食性: 杂食\n\n天赋:\n  能量上限 x1.05, +5 防御, +500 呼吸时间\n  抗性: +30% 寒气抗性, +10% 辐射抗性\n  游泳加速 2\n\n环境:\n  海洋生态: 生命上限 x1.25 and +6 防御\n  炎热生态: 能量上限 x0.7, HP x0.7, 速度 x0.8\n  (生命/污染/沼泽) 水 : +0.5% 生命回复速度, 生命值上限 x1.15, +6 防御.\n\n\n武器:\n  能量武器专精: +15% \n  突击步枪专精: +25%\n\n弱点:\n  抗性: -20% 电系抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "protection",
+        "amount": 8
+      },
+      {
+        "stat": "maxBreath",
+        "amount": 500
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "energyMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "assaultrifleMastery",
+        "amount": 0.25
+      }
+    ],
+    "diet": "omnivore"
+  },
+  "quality_tier": "B"
+}

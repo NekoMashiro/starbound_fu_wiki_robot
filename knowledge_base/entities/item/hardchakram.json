@@ -1,0 +1,77 @@
+{
+  "entity_id": "hardchakram",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hard Chakram",
+  "name_zh": "硬环刃",
+  "description_en": "Solid, heavy, and brutally effective.",
+  "description_zh": "坚固，沉重，而残忍地有效。",
+  "rarity": "Legendary",
+  "category": "chakram",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "chakram"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 15,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "chakram",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "hardchakram_l6.png",
+    "seed": "",
+    "shortdescription": "硬环刃^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Hard Chakram.md",
+  "quality_tier": "A"
+}

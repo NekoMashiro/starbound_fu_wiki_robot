@@ -1,0 +1,45 @@
+{
+  "entity_id": "icemachine",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Ice Machine",
+  "name_zh": "造冰机",
+  "description_en": "An ice dispenser made of ice. That's ice ice, baby.",
+  "description_zh": "一台用冰做的造冰机。我只要旺旺碎冰冰！",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 130,
+  "tags": [
+    "ice",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

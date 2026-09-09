@@ -1,0 +1,27 @@
+{
+  "entity_id": "rockroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rockroot",
+  "name_zh": "石之根茎",
+  "description_en": "+7 Defense: 2m",
+  "description_zh": "+7防御: 2m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rockrootHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

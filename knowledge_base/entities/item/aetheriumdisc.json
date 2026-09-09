@@ -1,0 +1,63 @@
+{
+  "entity_id": "aetheriumdisc",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Disc",
+  "name_zh": "阳清圆盘",
+  "description_en": "Slice em up with cosmic power.",
+  "description_zh": "以宇宙之力切碎他们。",
+  "rarity": "Legendary",
+  "category": "chakram",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "chakram",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": false,
+  "critChance": 6,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 3
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "aetheriumdisct8.png",
+    "seed": "",
+    "shortdescription": "阳清守卫者",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

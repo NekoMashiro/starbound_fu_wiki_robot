@@ -1,0 +1,95 @@
+{
+  "entity_id": "jungle",
+  "entity_type": "biome",
+  "source_mod": "Starbound",
+  "name_en": "Jungle",
+  "name_zh": "",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Jungle",
+  "friendly_name_zh": "",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "adultpoptop",
+    "bee_bumblebee",
+    "bee_cuckoo",
+    "bee_honey",
+    "bee_redbanded",
+    "birdcritter",
+    "bobfae",
+    "brightstripe",
+    "chevcritter",
+    "crustoise",
+    "crutter",
+    "fireflyspawner",
+    "fishcritter",
+    "frogcritter",
+    "fuamazoncritter",
+    "fublackbunnycritter",
+    "fufoxcritter",
+    "fuhummingbirdcritter",
+    "fumonkeycritter",
+    "fumothcritter",
+    "fuplantsnakecritter",
+    "furaccooncritter",
+    "fuspidercritter",
+    "pandorasboxcottonbop",
+    "poptop",
+    "scaveran",
+    "snaunt",
+    "squeem",
+    "thornbee",
+    "vineclimber"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:jungle"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "jungleweathernew",
+    "radioactiveweathernew"
+  ],
+  "wiki_ref": "Jungle.md",
+  "quality_tier": "D"
+}

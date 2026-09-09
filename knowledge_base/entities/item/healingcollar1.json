@@ -1,0 +1,238 @@
+{
+  "entity_id": "healingcollar1",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Healing I Collar",
+  "name_zh": "愈合项圈 I",
+  "description_en": "A collar that slowly restores your pet's health over time.",
+  "description_zh": "一个能随着时间流逝缓慢恢复你宠物生命值的项圈。",
+  "rarity": "Uncommon",
+  "category": "petCollar",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 169,
+    "other": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "petcollars",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "elduupetcollars",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "petcollars2",
+          "probability": 0.15,
+          "count": 1
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.0135,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0133,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.2
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0279,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0257,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0042,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0013,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0279
+      ]
+    },
+    "chest_loot": {
+      "count": 72,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0276,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0218,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0136,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0103,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0276
+      ]
+    },
+    "monster_drops": {
+      "count": 64,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0196,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0176,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.0126,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0116,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0196
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0059,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0051,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0012,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0059
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

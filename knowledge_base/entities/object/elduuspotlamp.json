@@ -1,0 +1,39 @@
+{
+  "entity_id": "elduuspotlamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Spotlight Lamp",
+  "name_zh": "水晶聚光灯",
+  "description_en": "A wall lamp featuring a secured crystal.",
+  "description_zh": "带有固定水晶的壁灯。",
+  "rarity": "uncommon",
+  "category": "light",
+  "price": 160,
+  "tags": [
+    "elduukhar",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

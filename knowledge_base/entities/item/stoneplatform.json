@@ -1,0 +1,45 @@
+{
+  "entity_id": "stoneplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Stone Platform",
+  "name_zh": "石平台",
+  "description_en": "A platform carved from stone.",
+  "description_zh": "由石头雕刻而成的平台。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "stoneplatform"
+  ],
+  "quality_tier": "A"
+}

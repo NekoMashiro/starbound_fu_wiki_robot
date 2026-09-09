@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_verrostin_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verrostin Leggings",
+  "name_zh": "肃钉护腿",
+  "description_en": "A haken-verrostin forged armor. \n\nSet Bonus: \nGrants +10% Verrostin Weapon, Rocket Launcher and Blast Rifle damage.",
+  "description_zh": "一件织造肃钉铸造的盔甲。\n\n套装效果：\n肃钉武器、火箭筒和爆破枪的伤害+10%。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 8
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aegis_legs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_upgradeanvil",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "¤ Upgrade Station",
+  "name_zh": "¤武器升级站",
+  "description_en": "An Ancient anvil for upgrading weapons, up to Tier 10.",
+  "description_zh": "用于升级武器的古老铁砧，最高可达10 级。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "crafting"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_corridor",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

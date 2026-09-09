@@ -1,0 +1,83 @@
+{
+  "entity_id": "mwhaddon_potion_darkgoldPowder",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Darkgold Powder",
+  "name_zh": "黑金药粉",
+  "description_en": "Black medical powder, useful in exploring Ruinous planets.\nGain Ruinous immunity and 15% Abyss res for 30s.",
+  "description_zh": "黑色的医疗粉末，在探索祸津星球时很有用。\n30秒内免疫祸津并提升15%深渊抗性。",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 4
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.778,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_rare",
+          "probability": 0.63,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.63,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 0.63,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_normal",
+          "probability": 0.3041,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.3041,
+        0.778
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

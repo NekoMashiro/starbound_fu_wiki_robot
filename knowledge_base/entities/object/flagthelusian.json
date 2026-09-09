@@ -1,0 +1,35 @@
+{
+  "entity_id": "flagthelusian",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Flag",
+  "name_zh": "蚁族旗帜",
+  "description_en": "A flag used to identify Thelusian hives. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面用来标记蚁族殖民地的旗帜，按[E]来记录这面旗帜的传送坐标。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "thelusian"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

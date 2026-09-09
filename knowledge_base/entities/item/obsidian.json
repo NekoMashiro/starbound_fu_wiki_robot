@@ -1,0 +1,120 @@
+{
+  "entity_id": "obsidian",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Obsidian",
+  "name_zh": "黑曜石",
+  "description_en": "Solid obsidian. It is naturally black.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "坚硬的黑曜石。天生就这么黑。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 46,
+        "examples": [
+          "ancientbackgrounddoor",
+          "gothicorgan",
+          "nightaraxedisplay",
+          "nightarbladealtar",
+          "nightarbladedisplay1"
+        ]
+      },
+      "furniture": {
+        "count": 44,
+        "examples": [
+          "effigiumbed",
+          "effigiumcabinet",
+          "effigiumchair",
+          "effigiumcouch",
+          "effigiumdesk"
+        ]
+      },
+      "storage": {
+        "count": 33,
+        "examples": [
+          "effigiumbookcase",
+          "effigiumchestlarge",
+          "effigiumchestsmall",
+          "effigiumdrawers",
+          "effigiumdressingtable"
+        ]
+      },
+      "block": {
+        "count": 15,
+        "examples": [
+          "ebonblockmaterial",
+          "nightarcastleblock",
+          "nightarcastleblock2",
+          "nightardecotile",
+          "nightarfence1"
+        ]
+      },
+      "light": {
+        "count": 14,
+        "examples": [
+          "nightarchandelier",
+          "nightarfancystreetlamp",
+          "nightarfancystreetlamp2",
+          "nightarlight",
+          "nightarmedievalfireplace"
+        ]
+      },
+      "wire": {
+        "count": 8,
+        "examples": [
+          "nightarcomputer",
+          "nightarconsole",
+          "nightarmedievalarmorswitch",
+          "nightarmedievalbookcaseswitch",
+          "nightarmedievalswitchlever"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 7,
+        "examples": [
+          "effigiumfridge",
+          "effigiumminifridge",
+          "nightarfridge",
+          "penumbritefridge",
+          "penumbriteminifridge"
+        ]
+      },
+      "door": {
+        "count": 5,
+        "examples": [
+          "nightarcastledoor",
+          "nightarshipdoor",
+          "nightarshiphatch",
+          "nightarslidingdoor",
+          "nightarslidingdoorhatch"
+        ]
+      }
+    },
+    "total": 198
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "blackglass",
+      "bonus": []
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "blackglass",
+      "bonus": []
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "blackglass",
+      "bonus": []
+    }
+  ],
+  "wiki_ref": "Obsidian.md",
+  "quality_tier": "A"
+}

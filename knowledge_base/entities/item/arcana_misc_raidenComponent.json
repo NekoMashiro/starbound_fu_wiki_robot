@@ -1,0 +1,121 @@
+{
+  "entity_id": "arcana_misc_raidenComponent",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fusion Module",
+  "name_zh": "升华组件",
+  "description_en": "A multi-purpose component for assembling modular tech, emiting a faint purple glow.",
+  "description_zh": "一块多用途的组件，用于合成模块化科技，散发着黯淡的紫光。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 800,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 8,
+        "examples": [
+          "mwhaddon_mech_arm_acheron",
+          "mwhaddon_mech_arm_shrike",
+          "mwhaddon_mech_body_erebus",
+          "mwhaddon_mech_body_raven",
+          "mwhaddon_mech_booster_erebus"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_misc_oceanicTechCard",
+          "mwhaddon_misc_assaultPowerCore"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_execration_flail",
+          "mwhaddon_execration_flamethrower"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_wired_secretDoorBig_1",
+          "mwhaddon_wired_secretDoorBig_2"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "arcana_laserminer_energizedMiningLaser"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_legs"
+        ]
+      }
+    },
+    "total": 22
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "tentabane",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frostbringer",
+  "name_zh": "冰暴使者",
+  "description_en": "A uniquely deadly sniper rifle with super-cooled energy blasts.\r\nInflicts freezing",
+  "description_zh": "一把独特的致命狙击步枪，可射出极冻能量。\n狩猎武器;附加冻结效果",
+  "rarity": "legendary",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 5,
+  "critBonus": 8,
+  "altAbilityType": "tentabane",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 6
+        },
+        {
+          "item": "isogenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

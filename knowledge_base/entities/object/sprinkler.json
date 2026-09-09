@@ -1,0 +1,40 @@
+{
+  "entity_id": "sprinkler",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Sprinkler",
+  "name_zh": "洒水器",
+  "description_en": "An automated soil watering solution.",
+  "description_zh": "一个自动化土壤浇灌方案。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "farming"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业级绘世者工作台",
+      "station_zh": "工业级绘世者工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "农业工作台",
+          "name_zh": "农业工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

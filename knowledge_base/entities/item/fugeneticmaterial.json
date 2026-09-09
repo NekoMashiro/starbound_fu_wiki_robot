@@ -1,0 +1,293 @@
+{
+  "entity_id": "fugeneticmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Genes",
+  "name_zh": "基因",
+  "description_en": "Gathered genetic material.",
+  "description_zh": "收集的遗传物质。",
+  "rarity": "common",
+  "category": "",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 125,
+        "examples": [
+          "aenemaflower",
+          "algaeseed",
+          "aquapodseed",
+          "arkaentree",
+          "avikancactusseed"
+        ]
+      },
+      "eppAugment": {
+        "count": 14,
+        "examples": [
+          "8bitpowerup",
+          "apexartifactaugment",
+          "berserkeraugment",
+          "feedaugment1",
+          "feedaugment2"
+        ]
+      },
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "madnessadultpoptop",
+          "madnessderrick",
+          "madnessfleshtyrant",
+          "madnessjuvenilepoptop",
+          "madnessmegapoptop"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 8,
+        "examples": [
+          "apiary_frame_protective",
+          "cell_mutated",
+          "cell_spliced",
+          "cell_viral",
+          "cellmateria"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 6,
+        "examples": [
+          "battlepack",
+          "battlepack2",
+          "battlepack3",
+          "fubeewings",
+          "fusurvivorback"
+        ]
+      },
+      "shield": {
+        "count": 5,
+        "examples": [
+          "atropusshield",
+          "blistershield",
+          "bubbleshield",
+          "lunarishield",
+          "shadowshield"
+        ]
+      },
+      "other": {
+        "count": 3,
+        "examples": [
+          "kirifruitseed",
+          "nakatiseed",
+          "piruseed"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "agilitysuithead",
+          "fuhoodedmask"
+        ]
+      }
+    },
+    "total": 186
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "matterblock"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "matterblock"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 147,
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "fuGenes",
+          "probability": 1.0,
+          "count": 4.3
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.1775,
+          "count": 4.3
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0507,
+          "count": 4.3
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0486,
+          "count": 4.3
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0376,
+          "count": 4.3
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.4184,
+          "count": 4.2
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.4057,
+          "count": 4.2
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.3637,
+          "count": 4.2
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.3607,
+          "count": 4.3
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.2758,
+          "count": 4.3
+        }
+      ],
+      "prob_range": [
+        0.004,
+        0.4184
+      ]
+    },
+    "monster_drops": {
+      "count": 54,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.2805,
+          "count": 4.3
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.2248,
+          "count": 4.3,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.1856,
+          "count": 4.3,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.1462,
+          "count": 4.3
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0938,
+          "count": 4.3
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.2805
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.1575,
+          "count": 4.2
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.1559,
+          "count": 4.3
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.1349,
+          "count": 4.3
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0314,
+          "count": 4.2
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0312,
+          "count": 4.3
+        }
+      ],
+      "prob_range": [
+        0.0071,
+        0.1575
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0346,
+          "count": 4.3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0071,
+          "count": 4.3
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0039,
+          "count": 4.3
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0011,
+          "count": 3.8
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0346
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0072,
+          "count": 4.3
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Genes.md",
+  "quality_tier": "S"
+}

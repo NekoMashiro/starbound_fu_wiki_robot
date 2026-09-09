@@ -1,0 +1,62 @@
+{
+  "entity_id": "petalblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Petal Block",
+  "name_zh": "花瓣块",
+  "description_en": "Sweet smelling dark leaves and flowers.\nExtractable.",
+  "description_zh": "芳香的暗绿色叶子与花朵。\n可萃取",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "petalred",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_verdantKey",
+          "probability": 1.0,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "petalblock"
+  ],
+  "quality_tier": "S"
+}

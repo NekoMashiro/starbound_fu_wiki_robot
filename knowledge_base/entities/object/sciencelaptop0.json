@@ -1,0 +1,40 @@
+{
+  "entity_id": "sciencelaptop0",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Basic Computer",
+  "name_zh": "基础计算机",
+  "description_en": "A bulky and simple computer which slowly researches items.\nResearch Rate: 5%, 10s",
+  "description_zh": "笨重且简单的计算机，可以缓慢地分析物品。\n研究效率: 5%, 10s。",
+  "rarity": "Common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "corefragmentore",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

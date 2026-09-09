@@ -1,0 +1,63 @@
+{
+  "entity_id": "arcana_bambooForest",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Bamboo Forest",
+  "name_zh": "竹林",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Bamboo Forest",
+  "friendly_name_zh": "竹林",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 1.0
+    },
+    {
+      "ore": "iron",
+      "weight": 1.0
+    },
+    {
+      "ore": "tungsten",
+      "weight": 1.0
+    },
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    },
+    {
+      "ore": "gold",
+      "weight": 0.8
+    }
+  ],
+  "monsters": [
+    "batong",
+    "birdcritter",
+    "blipcritter",
+    "bobfae",
+    "crustoise",
+    "fireflyspawner",
+    "mousecritter",
+    "owlcritter",
+    "snailcritter",
+    "sporelingcritter",
+    "squirrelcritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_arcaneForest"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_cataclysm"
+  ],
+  "wiki_ref": "Bamboo Forest.md",
+  "quality_tier": "C"
+}

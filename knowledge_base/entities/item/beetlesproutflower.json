@@ -1,0 +1,27 @@
+{
+  "entity_id": "beetlesproutflower",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Beetle Sprout Flower",
+  "name_zh": "虫芽花",
+  "description_en": "Defense x1.3, +20% Shield Regen: 1m",
+  "description_zh": "防御x1.3, +20%盾牌耐久恢复: 1m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "beetlesproutHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

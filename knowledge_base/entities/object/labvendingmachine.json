@@ -1,0 +1,49 @@
+{
+  "entity_id": "labvendingmachine",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Vending Machine",
+  "name_zh": "实验室自动售货机",
+  "description_en": "Ooh, what should I get?",
+  "description_zh": "嘿，想来点什么吗？",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 200,
+  "tags": [
+    "science",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

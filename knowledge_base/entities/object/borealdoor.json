@@ -1,0 +1,50 @@
+{
+  "entity_id": "borealdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Boreal Door",
+  "name_zh": "北风门",
+  "description_en": "A lovingly carved pine wood door. It easily keeps the cold winds at bay.",
+  "description_zh": "一扇雕刻精美的松木门。能轻易挡住寒风。",
+  "rarity": "Uncommon",
+  "category": "door",
+  "price": 0,
+  "tags": [
+    "boreal",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

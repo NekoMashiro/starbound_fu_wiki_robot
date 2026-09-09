@@ -1,0 +1,32 @@
+{
+  "entity_id": "thornbee",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Thornbee",
+  "name_zh": "荆棘蜂",
+  "description_en": "This prickly little fellow has razor sharp wings.",
+  "description_zh": "多刺的小东西有锋利的翅膀。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thornbee",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "thornbee"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "narfinaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Narfin Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It uses its horns to attract a partner. The light shows during mating season are spectacular.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "narfinVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "narfinTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "icenarfin",
+            "narfin",
+            "narfin2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "narfinHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "icenarfin",
+            "narfin",
+            "narfin2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

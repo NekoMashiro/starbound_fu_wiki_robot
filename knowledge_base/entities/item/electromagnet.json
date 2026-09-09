@@ -1,0 +1,133 @@
+{
+  "entity_id": "electromagnet",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electromagnet",
+  "name_zh": "电磁铁",
+  "description_en": "An advanced electromagnet.",
+  "description_zh": "一块先进的电磁铁。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 70,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 30,
+        "examples": [
+          "antigravgen",
+          "fu_powersensorlarge",
+          "fuwarpdetector",
+          "gravgen",
+          "gravnorm"
+        ]
+      },
+      "mechPart": {
+        "count": 17,
+        "examples": [
+          "fumecharmenergyrifle",
+          "mecharmdrill",
+          "mecharmdrill0",
+          "mecharmdrill2",
+          "mecharmgatling"
+        ]
+      },
+      "decorative": {
+        "count": 7,
+        "examples": [
+          "apexbackgrounddoor",
+          "barredbackgrounddoor",
+          "barredbackgrounddoor2",
+          "fu_sciencetechstationhuman",
+          "fu_weatherbeacon"
+        ]
+      },
+      "assaultRifle": {
+        "count": 6,
+        "examples": [
+          "discrifle",
+          "fugrinder",
+          "fuprotectoraterifle",
+          "k3rifle",
+          "kineticrifle"
+        ]
+      },
+      "other": {
+        "count": 5,
+        "examples": [
+          "copperdrill",
+          "diamonddrill",
+          "golddrill",
+          "platinumdrill",
+          "silverdrill"
+        ]
+      },
+      "railPlatform": {
+        "count": 4,
+        "examples": [
+          "compositerailplatform",
+          "fu_solidrailplatform",
+          "rustyrailplatform",
+          "stationtram"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "apiary_frame_computerised",
+          "moltencore",
+          "particlecore",
+          "robotarms"
+        ]
+      },
+      "machinePistol": {
+        "count": 4,
+        "examples": [
+          "gravitonpistol",
+          "irradiumpistol",
+          "laspistol",
+          "murdermanipulator"
+        ]
+      }
+    },
+    "total": 121
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraMonsterRobotHunting",
+          "probability": 0.2,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "fu_solararrayadv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solar Tower",
+  "name_zh": "太阳能塔",
+  "description_en": "The ultimate in solar generation technology. In ideal conditions this can generate over 24W of power.",
+  "description_zh": "终极的太阳能发电技术。在最佳条件下可产生最高24W电力。",
+  "rarity": "common",
+  "category": "wire",
+  "price": 600,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_solararray",
+          "count": 2
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 10
+        },
+        {
+          "item": "quietusbar",
+          "count": 10
+        },
+        {
+          "item": "funanofibre",
+          "count": 4
+        },
+        {
+          "item": "advcircuit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

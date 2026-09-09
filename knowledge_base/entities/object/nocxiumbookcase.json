@@ -1,0 +1,45 @@
+{
+  "entity_id": "nocxiumbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nocxium Bookcase",
+  "name_zh": "诺克石书架",
+  "description_en": "A bookcase made from Nocxium. The books seem almost otherwordly.",
+  "description_zh": "用诺克石做的书架。这些书的措辞几乎完全不同。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "nocxium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 10
+        },
+        {
+          "item": "uraniumrod",
+          "count": 15
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

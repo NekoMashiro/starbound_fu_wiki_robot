@@ -1,0 +1,55 @@
+{
+  "entity_id": "radienpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Diffuse Burst",
+  "name_zh": "艾肯爆散",
+  "description_en": "A strange X'i-formed weapon.\r\nSlows targets\r\nWide, piercing shots",
+  "description_zh": "一种奇怪的X’i制式武器。\n减速目标\n远距离，刺穿射击",
+  "rarity": "uncommon",
+  "category": "bioweapon",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "radien",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 5,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 40
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

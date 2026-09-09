@@ -1,0 +1,50 @@
+{
+  "entity_id": "bughouse",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bug House",
+  "name_zh": "臭虫屋",
+  "description_en": "Attracts insects! All sorts of creepy crawlies can live in here.",
+  "description_zh": "吸引虫子！各种各样的爬虫都可以住在这里。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 110,
+  "tags": [
+    "outdoor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "polymer",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bug House.md",
+  "quality_tier": "A"
+}

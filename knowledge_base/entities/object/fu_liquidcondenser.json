@@ -1,0 +1,56 @@
+{
+  "entity_id": "fu_liquidcondenser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Collector",
+  "name_zh": "液体收集器",
+  "description_en": "Condenses liquid from biome atmosphere. Requires 15W of power. Slower production when stacked. Scan for Info.",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 500,
+  "tags": [
+    "science",
+    "wired",
+    "lab"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 12
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 20
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "fu_liquidmixer"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Liquid Collector.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,80 @@
+{
+  "entity_id": "wildvines",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wild Vines",
+  "name_zh": "野生葡萄",
+  "description_en": "A segment of some wild vines.",
+  "description_zh": "一段野生葡萄。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "chitinlegs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "chitinhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "chitinchest"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "esteemedvintage"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "stranglevineseed"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformerthickjungle"
+        ]
+      },
+      "whip": {
+        "count": 1,
+        "examples": [
+          "vinewhip"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraMonsterPlantHunting",
+          "probability": 0.3333,
+          "count": 1,
+          "monsters": [
+            "glarp",
+            "glump"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

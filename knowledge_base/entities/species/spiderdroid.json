@@ -1,0 +1,43 @@
+{
+  "entity_id": "spiderdroid",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "蜘蛛机器人",
+  "description_en": "",
+  "description_zh": "一种非常危险的机器人。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "fireResistance",
+        "amount": -0.4
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.4
+      },
+      {
+        "stat": "snowslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "iceslipImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.35
+      },
+      {
+        "stat": "iceStatusImmunity",
+        "amount": 1
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.09,
+      "airJumpModifier": 1.09
+    }
+  },
+  "quality_tier": "B"
+}

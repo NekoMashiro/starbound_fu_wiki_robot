@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_perfectbathtub",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perfect Bathtub",
+  "name_zh": "完美的浴缸",
+  "description_en": "A perfect bathtub.",
+  "description_zh": "一个完美的浴缸。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "perfectlygenericitem",
+          "count": 2
+        },
+        {
+          "item": "densealloy",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

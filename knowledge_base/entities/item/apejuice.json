@@ -1,0 +1,66 @@
+{
+  "entity_id": "apejuice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ape Juice",
+  "name_zh": "猿血汁",
+  "description_en": "It looks like a clever play on words. It isn't. It's Apex blood.\n+30% Rage (30s)",
+  "description_zh": "这看起来像是在玩巧妙的文字游戏。其实并非如此。这真的是猿人的血。\n+30%狂暴(持续30s)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidblood",
+          "count": 5
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        },
+        {
+          "item": "sugar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

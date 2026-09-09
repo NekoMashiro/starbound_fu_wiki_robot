@@ -1,0 +1,58 @@
+{
+  "entity_id": "isn_meatplant",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meatvine Bulb",
+  "name_zh": "肉串种子",
+  "description_en": "A plant that grows meat! Not for the squeamish.",
+  "description_zh": "这种植物长着厚厚的肉！可以收获肉串。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 12,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 205
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 45
+        },
+        {
+          "item": "fleshstrand",
+          "count": 4
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "cellmatter",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "isn_meatplant",
+          "probability": 1.9375,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

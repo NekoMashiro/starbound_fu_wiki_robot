@@ -1,0 +1,38 @@
+{
+  "entity_id": "magmarock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Magmarock",
+  "name_zh": "岩浆岩",
+  "description_en": "Magmarock. This is hot stuff.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "岩浆岩。这可真烫。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "carbonplate",
+        "sulphur",
+        "liquidlava",
+        "fu_carbondioxide"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "carbonplate",
+        "sulphur",
+        "liquidlava",
+        "fu_carbondioxide"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

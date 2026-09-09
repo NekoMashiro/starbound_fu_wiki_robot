@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursorforcelift",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Repulsion Lift",
+  "name_zh": "先驱斥力电梯",
+  "description_en": "This device propels objects and creatures with energy rather than mechanics. Uses Force Regions (may break worlds). Use with caution.",
+  "description_zh": "这个设备可以推动物体和生物。它的原理是能量，而非机械学。 使用原力区（可能破坏世界）。请谨慎使用。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Repulsion Lift.md",
+  "quality_tier": "A"
+}

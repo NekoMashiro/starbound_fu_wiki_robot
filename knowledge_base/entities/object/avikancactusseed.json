@@ -1,0 +1,56 @@
+{
+  "entity_id": "avikancactusseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kadavan Cactus Seed",
+  "name_zh": "卡达文仙人掌种子",
+  "description_en": "Cacti originating from Kadavan, but with variations in genetics that sets them apart.",
+  "description_zh": "这种仙人掌源于卡达文，但由于遗传学使得它们两者之间并不相同。可以收获卡达文仙人掌切片，食用后会提高火炎抗性。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 21,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 15
+        },
+        {
+          "item": "cacti",
+          "count": 5
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 5
+        },
+        {
+          "item": "sulphur",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avikancactusHarvest",
+          "probability": 0.7412,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

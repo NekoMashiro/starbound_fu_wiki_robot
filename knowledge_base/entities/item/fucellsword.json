@@ -1,0 +1,67 @@
+{
+  "entity_id": "fucellsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cell Blade",
+  "name_zh": "细胞长剑",
+  "description_en": "A bizarre amalgamation of gene and metal.",
+  "description_zh": "有机与无机的完美组合。",
+  "rarity": "common",
+  "category": "longsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "bioweapon",
+    "longsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.3,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 12
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 35
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "miraclegrass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "uraniumhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Hammer",
+  "name_zh": "铀制锤",
+  "description_en": "Forged from uranium and advanced alloy. Quite radioactive.",
+  "description_zh": "用铀和高级合金打造。高辐射。",
+  "rarity": "Rare",
+  "category": "hammer",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "elementalpillar",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

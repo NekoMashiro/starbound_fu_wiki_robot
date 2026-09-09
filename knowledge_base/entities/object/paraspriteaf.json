@@ -1,0 +1,47 @@
+{
+  "entity_id": "paraspriteaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Parasprite Figurine",
+  "name_zh": "精灵飞蝇手办",
+  "description_en": "The label reads, \"A braindead bioweapon created by irresponsible human scientists.\"",
+  "description_zh": "标签上写着，\"由不负责任的人类科学家创造的脑死亡的生物武器。\"",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paraspriteTreasure",
+          "probability": 0.008,
+          "count": 1,
+          "monsters": [
+            "lightsprite",
+            "parasprite"
+          ]
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paraspriteHunting",
+          "probability": 0.003,
+          "count": 1,
+          "monsters": [
+            "lightsprite",
+            "parasprite"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

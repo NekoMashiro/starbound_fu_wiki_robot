@@ -1,0 +1,56 @@
+{
+  "entity_id": "pyreitespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Lance",
+  "name_zh": "永燃长矛",
+  "description_en": "Searing, deadly pyreite to kiss your enemies hides.\r\nInflicts Napalm\r\nHunting weapon",
+  "description_zh": "灼热，致命的永燃尖刺将亲吻你敌人的肌肤。\n附加凝固效果\n狩猎武器",
+  "rarity": "legendary",
+  "category": "lance",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12.5,
+  "critChance": 2,
+  "critBonus": 12,
+  "primaryAbilityType": "heavyspearcombo",
+  "altAbilityType": "barrier",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

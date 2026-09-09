@@ -1,0 +1,50 @@
+{
+  "entity_id": "glowbushlamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glow Bush Lamp",
+  "name_zh": "发光灌木灯",
+  "description_en": "A bush that emits a pleasant glow.",
+  "description_zh": "一个发出柔和光线的灌木",
+  "rarity": "Common",
+  "category": "light",
+  "price": 65,
+  "tags": [
+    "bioluminescence",
+    "light",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 10
+        },
+        {
+          "item": "clay",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

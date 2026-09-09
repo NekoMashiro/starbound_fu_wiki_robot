@@ -1,0 +1,41 @@
+{
+  "entity_id": "flowerpink",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pink Flower",
+  "name_zh": "粉红色花种子",
+  "description_en": "Happy little flowers of pink hue",
+  "description_zh": "一朵有着粉红色的幸福花朵。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "fuprotectorategardentree1",
+          "fuprotectorategardentree2"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerpinkHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

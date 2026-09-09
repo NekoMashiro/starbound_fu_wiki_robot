@@ -1,0 +1,86 @@
+{
+  "entity_id": "ff_icechucker",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Blaster",
+  "name_zh": "冰爆之枪",
+  "description_en": "Be cruel and shoot freezing icicles at enemies.\r\nIcy fun!",
+  "description_zh": "射出冰残酷地消灭敌人。\n如同玩雪般有趣！",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 5,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0731,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0176,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0176,
+        0.0731
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0251,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "burster",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blast Buddy",
+  "name_zh": "爆炸伙伴",
+  "description_en": "A basic but dangerous weapon.\r\nExplosive",
+  "description_zh": "一把非常基础，但却危险的武器。\n爆炸",
+  "rarity": "common",
+  "category": "grenadeLauncher",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 5,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "volatilepowder",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

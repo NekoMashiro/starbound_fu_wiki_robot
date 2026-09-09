@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_liquid_viridescentAcid",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Viridescent Acid",
+  "name_zh": "翠毒酸",
+  "description_en": "A highly acidic liquid, found in Viridescent planets.",
+  "description_zh": "强酸性的液体，能在翠毒星球上发现。",
+  "rarity": "Rare",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "arcana_food_viridescentTea"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_potion_viridescentTincture"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_bigPoisonBomb"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_essence_poisonEssence"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "A"
+}

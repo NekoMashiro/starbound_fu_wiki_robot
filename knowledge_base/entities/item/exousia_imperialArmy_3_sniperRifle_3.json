@@ -1,0 +1,68 @@
+{
+  "entity_id": "exousia_imperialArmy_3_sniperRifle_3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Wolvenkrahe",
+  "name_zh": "狼嚎",
+  "description_en": "No prey can escape the wolven hunter's sight.",
+  "description_zh": "没有猎物能逃脱狼猎的视线。",
+  "rarity": "Essential",
+  "category": "sniperRifle",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "primaryAbilityType": "arcana_ranged_ability_chargedShot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "exousia_imperialArmy_3_sniperRifle_1",
+          "count": 1
+        },
+        {
+          "item": "exousia_imperialArmy_3_sniperRifle_2",
+          "count": 1
+        },
+        {
+          "item": "conflagration_sniperRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Exousia Armory",
+          "name_zh": "威权军械库"
+        },
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

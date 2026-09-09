@@ -1,0 +1,44 @@
+{
+  "entity_id": "fu_stlBooster_small",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small STL Booster",
+  "name_zh": "小型 STL 助推器",
+  "description_en": "A simple core fragment powered thruster.\nShip Speed: +2\nBYOS Only",
+  "description_zh": "一台简单的星核碎片动力推进器。\n飞船速度:+2\n只限BYOS",
+  "rarity": "common",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "byos"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

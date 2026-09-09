@@ -1,0 +1,34 @@
+{
+  "entity_id": "mwhaddon_head_plantera",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Plantera's hat",
+  "name_zh": "Plantera的帽子",
+  "description_en": "A Plantera's bud, it's safe to wear it.\n[plantera], author of Titancorp Expansion",
+  "description_zh": "一朵世纪之花（plantera）的花苞，戴着很安全。\n[plantera]，泰坦重工拓展的作者",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_hatcoupon",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Hat Shop",
+      "station_zh": "帽店",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "contribhats.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

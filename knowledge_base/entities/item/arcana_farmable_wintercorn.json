@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_farmable_wintercorn",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Wintercorn",
+  "name_zh": "冬玉米",
+  "description_en": "A special type of frosty corn, found commonly in Arcane Tundra planets. Takes a long time to rot.",
+  "description_zh": "特殊品种的结霜玉米，很容易在魔冻塬上找到。 需要很长时间才能成熟。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 220,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "arcana_food_crunchmints",
+          "arcana_food_fluxel",
+          "arcana_food_tripledelightsalad"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_wintercorn",
+          "probability": 1.264,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

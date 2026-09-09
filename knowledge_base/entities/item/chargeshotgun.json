@@ -1,0 +1,60 @@
+{
+  "entity_id": "chargeshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fahrenheit 451",
+  "name_zh": "华氏451",
+  "description_en": "A potent incendiary weapon.\r\nInflicts Burn",
+  "description_zh": "烧了他们，把你不喜欢的一切都烧干净。火焰是光明的，是洁净的。\n附加燃烧效果\n蓄力攻击会发射更多弹药",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon",
+    "fire"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 5,
+  "critChance": 5,
+  "critBonus": 5,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Fahrenheit 451.md",
+  "quality_tier": "A"
+}

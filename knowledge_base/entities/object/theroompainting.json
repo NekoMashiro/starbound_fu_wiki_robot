@@ -1,0 +1,31 @@
+{
+  "entity_id": "theroompainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Victim",
+  "name_zh": "受害者",
+  "description_en": "It appears to be a point-of-view from a surgery table.",
+  "description_zh": "从手术台上看，这似乎是一种视角。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

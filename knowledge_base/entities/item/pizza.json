@@ -1,0 +1,56 @@
+{
+  "entity_id": "pizza",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pizza",
+  "name_zh": "比萨",
+  "description_en": "A whole pizza! Are you going to eat all that? Type: Cooked Meat + Vegetables + Dairy",
+  "description_zh": "一整个披萨！你要把它整个吃掉吗？\n类型：熟肉食 + 蔬菜 + 蛋奶",
+  "rarity": "Legendary",
+  "category": "preparedFood",
+  "price": 1125,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu-Fast Food",
+      "station_zh": "菜单-快餐",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "extrarations",
+          "probability": 0.0353,
+          "count": 1
+        },
+        {
+          "pool": "extrafood",
+          "probability": 0.0196,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0196,
+        0.0353
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "slimenpcsmallconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Slime Console",
+  "name_zh": "小型史莱姆控制台",
+  "description_en": "A slime control console. Press all the buttons!",
+  "description_zh": "史莱姆控制台。按所有的按钮！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 50,
+  "tags": [
+    "wired",
+    "tier3",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

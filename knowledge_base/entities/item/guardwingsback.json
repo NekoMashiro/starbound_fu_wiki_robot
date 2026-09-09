@@ -1,0 +1,60 @@
+{
+  "entity_id": "guardwingsback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Stargazer Priest Wings",
+  "name_zh": "观星者的牧师之翼",
+  "description_en": "These dark wings look imposing and sinister. +10% Power",
+  "description_zh": "这些黑暗的翅膀看起来壮观而险恶。\n攻击力+10%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "valuableAvianTreasure",
+          "probability": 0.3,
+          "count": 1
+        },
+        {
+          "pool": "valuableTombTreasure",
+          "probability": 0.0225,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        0.3
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "aviantombChestTreasure",
+          "probability": 0.15,
+          "count": 1
+        },
+        {
+          "pool": "aviantempleChestTreasure",
+          "probability": 0.0556,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0556,
+        0.15
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

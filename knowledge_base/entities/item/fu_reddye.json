@@ -1,0 +1,52 @@
+{
+  "entity_id": "fu_reddye",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Enhanced Red Dye",
+  "name_zh": "红色强效染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click. Can dye more armour then the normal version.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。相比普通染料这种强效的染料或许会对某些无法染色的护甲起作用",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 5
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "clothingDye": {
+        "count": 4,
+        "examples": [
+          "fu_browndye",
+          "fu_orangedye",
+          "fu_pinkdye",
+          "fu_purpledye"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

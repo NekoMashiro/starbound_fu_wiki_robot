@@ -1,0 +1,46 @@
+{
+  "entity_id": "aeon_tile4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Brass Panel",
+  "name_zh": "纪元黄铜面板",
+  "description_en": "A sloped panel made from rusting brass.",
+  "description_zh": "由生锈黄铜制成的倾斜板。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 1
+        },
+        {
+          "item": "timeless_tile1",
+          "count": 50
+        }
+      ],
+      "output_count": 50,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

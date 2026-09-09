@@ -1,0 +1,41 @@
+{
+  "entity_id": "terraforge",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Terraforge",
+  "name_zh": "地形锻造仪",
+  "description_en": "A massive ancient machine. What could it be used for?",
+  "description_zh": "一个庞大的古代机器，可以用来干什么呢？",
+  "rarity": "Legendary",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "ancient"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Terraforge.md",
+  "quality_tier": "A"
+}

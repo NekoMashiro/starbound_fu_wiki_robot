@@ -1,0 +1,84 @@
+{
+  "entity_id": "precursorlightstrip",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Light",
+  "name_zh": "先驱之灯",
+  "description_en": "A reliable lightsource that has worked for eons.",
+  "description_zh": "一个绝对可靠的光源，已然工作了万千岁月。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 230,
+  "tags": [
+    "precursor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 1,
+        "examples": [
+          "precursorlightstripdim"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursorlightstrip",
+    "precursorlightstripdim"
+  ],
+  "quality_tier": "S"
+}

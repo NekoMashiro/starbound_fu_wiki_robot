@@ -1,0 +1,32 @@
+{
+  "entity_id": "glowbug",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glowbug",
+  "name_zh": "绚丽虫",
+  "description_en": "The warmer this bug gets, the more it glows.",
+  "description_zh": "越温暖越灿烂。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "glowbug",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "glowbug"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmheatrifle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Heatrifle Mech Arm",
+  "name_zh": "热枪机甲臂",
+  "description_en": "A cheap mech arm that fires off rounds of superheated lead.",
+  "description_zh": "一种廉价的机甲手臂，可以发射一轮过热的铅。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "lead",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

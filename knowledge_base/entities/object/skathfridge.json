@@ -1,0 +1,34 @@
+{
+  "entity_id": "skathfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Fridge",
+  "name_zh": "绘世者冰箱",
+  "description_en": "This Skath fridge will keep your food fresh.",
+  "description_zh": "这台冰箱能使你的食物保持新鲜。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 70,
+  "tags": [
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

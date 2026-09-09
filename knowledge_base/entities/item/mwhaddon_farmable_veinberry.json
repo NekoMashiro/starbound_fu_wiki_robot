@@ -1,0 +1,39 @@
+{
+  "entity_id": "mwhaddon_farmable_veinberry",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Veinberry",
+  "name_zh": "脉莓",
+  "description_en": "Some Hylotls believe this kind of berry can be used to heal those wounded.",
+  "description_zh": "有些鲛人认为这种莓果可以用于治愈受伤的人。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 180,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_food_animusDaifuku",
+          "mwhaddon_food_veinFriedMeat"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_farmable_veinberry",
+          "probability": 1.44,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

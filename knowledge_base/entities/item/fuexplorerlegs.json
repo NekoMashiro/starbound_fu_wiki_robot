@@ -1,0 +1,61 @@
+{
+  "entity_id": "fuexplorerlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Assault Greaves",
+  "name_zh": "突击护胫",
+  "description_en": "Set Bonuses:\r\n +20% Jump\r\n Assault Rifles, Energy: Damage x1.2\r\n Immune: Oxygen, Gas, Moderate Cold, Liq.Nitrogen",
+  "description_zh": "套装奖励:\n +20% 跳跃\n 突击步枪, 能量武器: 伤害x1.2\n 免疫: 窒息, 气体, 严酷寒冷, 液氮",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "xenolegs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

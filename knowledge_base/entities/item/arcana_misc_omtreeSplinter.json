@@ -1,0 +1,98 @@
+{
+  "entity_id": "arcana_misc_omtreeSplinter",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Omtree Splinter",
+  "name_zh": "紫晶树碎片",
+  "description_en": "A purple fragment of the omtree.",
+  "description_zh": "一块源自紫晶树的紫色碎片",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_aeternus_head",
+          "mwhaddon_armor_arbiter_head"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_aeternus_chest",
+          "mwhaddon_armor_arbiter_chest"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_aeternus_legs",
+          "mwhaddon_armor_arbiter_legs"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_execration_flail",
+          "mwhaddon_execration_flamethrower"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_assaultRifle"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_broadsword"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_pool_omtreeSplinter",
+          "probability": 1.0,
+          "count": 4.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.5188,
+          "count": 4.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_rare",
+          "probability": 0.42,
+          "count": 4.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.42,
+          "count": 4.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 0.42,
+          "count": 4.5
+        }
+      ],
+      "prob_range": [
+        0.2028,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

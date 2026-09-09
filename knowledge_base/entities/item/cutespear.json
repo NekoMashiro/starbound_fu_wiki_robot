@@ -1,0 +1,62 @@
+{
+  "entity_id": "cutespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Spear",
+  "name_zh": "棱镜长矛",
+  "description_en": "Pierce them with prismatic power!\r\nCounts as 'energy' for set bonuses\r\nHunting weapon",
+  "description_zh": "用棱镜能量刺穿他们！\n能量武器\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

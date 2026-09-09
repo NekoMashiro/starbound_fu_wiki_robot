@@ -1,0 +1,75 @@
+{
+  "entity_id": "ignuschili2seed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Adv. Ignus Chili",
+  "name_zh": "高级伊格纳斯辣椒种子",
+  "description_en": "Yeowch! This is even hotter!",
+  "description_zh": "可以收获高级伊格纳斯辣椒，投掷型武器。哇！太辣了！",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 32
+        },
+        {
+          "item": "cell_spliced",
+          "count": 3
+        },
+        {
+          "item": "ignuschiliseed",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 40
+        },
+        {
+          "item": "ff_silicon",
+          "count": 18
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 20
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "hellfireplantseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ignuschili2Harvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "arcana_ore_animaOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anima Shard",
+  "name_zh": "生源碎片",
+  "description_en": "An anima shard, spotted often in the surface of Anima planets. Can be used for smelting.",
+  "description_zh": "生源碎片，经常出现在生源星球的表面。可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_animaBar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "biomes": [
+    {
+      "biome": "arcana_animus",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_animus_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_animus_underground_2",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_amorous",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_nightmist",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_nightmist_underground_2",
+      "weight": 0.9
+    },
+    {
+      "biome": "mwhaddon_amorousAltered",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_cemetery",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_nightmistCavern",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_nightmist_underground_1",
+      "weight": 0.9
+    }
+  ],
+  "wiki_ref": "Anima Shard.md",
+  "quality_tier": "S"
+}

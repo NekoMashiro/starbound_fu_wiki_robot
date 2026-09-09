@@ -1,0 +1,40 @@
+{
+  "entity_id": "8bitpowerup",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "8-Bit Powerup",
+  "name_zh": "EPP模块（8位元之力）",
+  "description_en": "+15% Speed\r\n  +20% Jump\r\n  +10 Air Force",
+  "description_zh": "移动速度+15%，跳跃力+20%，空中攻击+10",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cellmatter",
+          "count": 8
+        },
+        {
+          "item": "shroom",
+          "count": 12
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

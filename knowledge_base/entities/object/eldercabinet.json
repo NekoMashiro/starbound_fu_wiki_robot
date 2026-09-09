@@ -1,0 +1,46 @@
+{
+  "entity_id": "eldercabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Cabinet",
+  "name_zh": "远古柜子",
+  "description_en": "Perfect craftsmanship by some sort of fish-man-thing.",
+  "description_zh": "这种完美的制作工艺来自鱼人。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "elder",
+    "hideous",
+    "furniture"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderstone2material",
+          "count": 4
+        },
+        {
+          "item": "elderstonematerial",
+          "count": 6
+        },
+        {
+          "item": "agaranichor",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

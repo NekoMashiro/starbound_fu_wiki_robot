@@ -1,0 +1,35 @@
+{
+  "entity_id": "fleamarketspecial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flea Market Special",
+  "name_zh": "跳蚤市场古玩",
+  "description_en": "Somehow, it staves off madness.\r\n+80% Mental Protection",
+  "description_zh": "不知何故，这玩意能避免疯狂。\n+80%精神抗性",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120000
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

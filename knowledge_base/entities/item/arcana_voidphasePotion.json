@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_voidphasePotion",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Voidphase Potion",
+  "name_zh": "虚相药水",
+  "description_en": "A potion for protecting against the spreading Radiance in Illuminated Stars.\r\n+10% Light RES and Radiance prot. for 2 minutes.",
+  "description_zh": "一种保护你免受黯光星过散辉光的药水。\n提供+10%光辉抗性和辉光免疫，持续2分钟。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bottledwater",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "ixodoomclaw",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ixodoom Claw",
+  "name_zh": "死亡主宰爪",
+  "description_en": "The severed leg of a mighty Ixodoom. It makes for a powerful weapon.",
+  "description_zh": "强大的死亡主宰的断腿。这可以作为一个强大的武器。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 13,
+  "critChance": 4,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "altAbilityType": "travelingslash",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ixodoomTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "spiderboss"
+          ]
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "ixodoomclaw_l6.png",
+    "seed": "",
+    "shortdescription": "死亡主宰爪^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

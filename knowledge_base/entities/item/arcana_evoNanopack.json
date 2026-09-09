@@ -1,0 +1,75 @@
+{
+  "entity_id": "arcana_evoNanopack",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aion Nanopack",
+  "name_zh": "天芯纳米包",
+  "description_en": "A nanopack developed by Ecolife that can fully restore most lifeforms.\r\nRestores 450 Health over 1 second.\r\nCooldown: 24s",
+  "description_zh": "滋苒生命开发的纳米包，可以完全治愈绝大多数生命。\n在2秒钟内恢复300生命值。\n冷却时间：24秒",
+  "rarity": "Essential",
+  "category": "medicine",
+  "price": 1400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_energizedNanopack",
+          "count": 4
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_iceEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_essence_mirageEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "高级厨房",
+          "name_zh": "高级厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

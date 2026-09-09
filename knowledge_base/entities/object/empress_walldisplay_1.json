@@ -1,0 +1,48 @@
+{
+  "entity_id": "empress_walldisplay_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Golden Clock",
+  "name_zh": "黄金挂钟",
+  "description_en": "A large golden wall clock. Appears to be purely decorative, its hour hand is permanently pointing at 3.",
+  "description_zh": "一个大型的金色挂钟。看起来纯粹是装饰性的，其时针停在了3。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "empress"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 800
+        },
+        {
+          "item": "goldbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

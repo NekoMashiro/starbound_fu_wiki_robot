@@ -1,0 +1,46 @@
+{
+  "entity_id": "bonemace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Mace",
+  "name_zh": "骨制钉头锤",
+  "description_en": "Simple, but effective. Design by Sacre.\r\nFloran",
+  "description_zh": "简单且有效。由Sacre设计。\n叶族",
+  "rarity": "common",
+  "category": "mace",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

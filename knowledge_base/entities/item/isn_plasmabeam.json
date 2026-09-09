@@ -1,0 +1,67 @@
+{
+  "entity_id": "isn_plasmabeam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasma Beam Cannon",
+  "name_zh": "等离子光束炮",
+  "description_en": "Slow but devastating. Forbidden in the Helyn Sector.\r\nCounts as plasma weapon for set bonuses\r\nExtreme explosion\r\nHeavy",
+  "description_zh": "缓慢但极具破坏性。在海伦区被禁止使用。\n等离子武器\n大炸特炸\n很沉重",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 6.0,
+  "critChance": 9,
+  "critBonus": 12,
+  "altAbilityType": "spatialcollapseblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 10
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 25
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

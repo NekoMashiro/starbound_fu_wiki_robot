@@ -1,0 +1,42 @@
+{
+  "entity_id": "coffeecakeobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coffee Cake",
+  "name_zh": "咖啡蛋糕",
+  "description_en": "A moist cake enriched with coffee. Moreish!",
+  "description_zh": "加了咖啡的湿蛋糕。吃了还想吃！",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 350,
+  "tags": [
+    "cafe",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coffeecake",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "coffeecake"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "xithriciteshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Shortspear",
+  "name_zh": "赛德瑞瑟短矛",
+  "description_en": "Rend and stab with cosmic potence.\r\nHunting weapon",
+  "description_zh": "用宇宙的力量撕裂和刺伤。n狩猎武器",
+  "rarity": "legendary",
+  "category": "shortspear",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.1,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 6
+        },
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "liquidaether",
+          "count": 130
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

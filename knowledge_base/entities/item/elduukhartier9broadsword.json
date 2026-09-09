@@ -1,0 +1,54 @@
+{
+  "entity_id": "elduukhartier9broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Opul Broadsword",
+  "name_zh": "欧普尔长宽剑",
+  "description_en": "The gold and gems on this sword are strictly for combat purposes.",
+  "description_zh": "镶嵌在剑身上的黄金和宝石有着严格的战斗用途。",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 945,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 90
+        },
+        {
+          "item": "opul",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 8
+        },
+        {
+          "item": "solariumstar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

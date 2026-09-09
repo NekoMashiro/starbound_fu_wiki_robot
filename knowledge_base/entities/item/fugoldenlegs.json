@@ -1,0 +1,56 @@
+{
+  "entity_id": "fugoldenlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Leg Plates",
+  "name_zh": "琥珀腿甲",
+  "description_en": "Set Bonuses:\r\n Thorns\r\n Bladed Melee: Damage x1.1\r\n Immune: Beestings, Honey",
+  "description_zh": "套装奖励：\n 荆棘\n 近战刀剑：伤害x1.1\n 免疫：蜂蜇, 蜂蜜",
+  "rarity": "legendary",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 7
+        },
+        {
+          "item": "fu_honeycombblock",
+          "count": 7
+        },
+        {
+          "item": "junglecomb",
+          "count": 7
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

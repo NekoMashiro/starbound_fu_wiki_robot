@@ -1,0 +1,50 @@
+{
+  "entity_id": "gravnorm",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gravity Normalizer",
+  "name_zh": "",
+  "description_en": "Regulates effects of gravity within 30 tiles.\nInput: On/Off Switch.",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 1600,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 8
+        },
+        {
+          "item": "liquidorangegravrain",
+          "count": 25
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 25
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Gravity Normalizer.md",
+  "quality_tier": "C"
+}

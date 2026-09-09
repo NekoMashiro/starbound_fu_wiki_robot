@@ -1,0 +1,40 @@
+{
+  "entity_id": "solusberry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solusberry",
+  "name_zh": "日耀浆果",
+  "description_en": "I don't think this is healthy food...\nGlow: 90s\nBurning: 10s",
+  "description_zh": "我不认为这是种健康食物...\n发光: 90s\n烧伤: 10s",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 35,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "solstew",
+          "solusjam",
+          "uberdinner"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "solusberryHarvest",
+          "probability": 1.1724,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

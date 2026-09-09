@@ -1,0 +1,57 @@
+{
+  "entity_id": "heatprotectionback2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cooling EPP II",
+  "name_zh": "降暑EPP II",
+  "description_en": "+40% Fire Resist. Helpful on moderately hot planets. +150s oxygen and halves how quickly you breathe.",
+  "description_zh": "对在严酷炎热的星球上的探险很有帮助。\n火炎抗性+40%，+25s氧气，呼吸速率减半",
+  "rarity": "rare",
+  "category": "enviroProtectionPack",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "heatprotectionback",
+          "count": 1
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "heatprotectionback3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

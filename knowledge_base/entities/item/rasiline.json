@@ -1,0 +1,46 @@
+{
+  "entity_id": "rasiline",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rasiline Crystal",
+  "name_zh": "罗莎琳水晶",
+  "description_en": "A holy gem to the Eld'uukhar. Produces severe hallucinations when consumed.",
+  "description_zh": "对于厄休安龙人来说，这是一块神圣的宝石。食用后会产生严重的幻觉。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "rasilinedye"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "shrineoflostsouls"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rasilineHarvest",
+          "probability": 10.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

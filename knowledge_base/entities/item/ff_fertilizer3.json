@@ -1,0 +1,43 @@
+{
+  "entity_id": "ff_fertilizer3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Superior Fertilizer",
+  "name_zh": "特效肥料",
+  "description_en": "Ultra fertilizer.\nGrowth Rate x2 & +3 produce.\nUses -0.25 fluid use & -2 seed use",
+  "description_zh": "终极的肥料。\n生长速率x2&产量+3\n液体消耗-0.25&种子消耗-2",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 1068,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aliencompound",
+          "count": 3
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 10
+        },
+        {
+          "item": "magnesiumsulfate",
+          "count": 6
+        },
+        {
+          "item": "methyliodide",
+          "count": 4
+        }
+      ],
+      "output_count": 20,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Superior Fertilizer.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_growingtray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Growing Tray",
+  "name_zh": "木制托盘",
+  "description_en": "Grows crops more quickly and efficiently via fertilizers and controlled conditions. Requires 3 seeds and water. Scan for info.",
+  "description_zh": "通过肥料以及可控条件，作物可以生长得更加快速而高效。需要提供3份种子和水分。扫描以获取更多信息。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 40,
+  "tags": [
+    "science",
+    "farming",
+    "plants",
+    "farm"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 3
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Growing Tray.md",
+  "quality_tier": "A"
+}

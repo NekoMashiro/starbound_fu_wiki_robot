@@ -1,0 +1,62 @@
+{
+  "entity_id": "phaseshake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phaseshake",
+  "name_zh": "相位奶昔",
+  "description_en": "A plasma shake. As dangerous as tasty.\n+20% EP (175s)\n+20% Run (50s)\nBurning (5s)",
+  "description_zh": "一杯等离子奶昔。美味与危险同存。\n+20%EP(持续175s)\n+20%速度(持续50s)\n烧伤(持续5s)",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 270,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "phasefruit",
+          "count": 2
+        },
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

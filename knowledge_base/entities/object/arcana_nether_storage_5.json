@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_nether_storage_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Bookcase",
+  "name_zh": "冥界书柜",
+  "description_en": "A bookcase storing various magical documents and recipes, made from nether wood.",
+  "description_zh": "放着许多魔法记录和配方的书架，使用冥界，木制成。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 130,
+  "tags": [
+    "storage",
+    "nether",
+    "spectwing"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

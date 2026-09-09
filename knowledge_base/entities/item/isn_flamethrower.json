@@ -1,0 +1,95 @@
+{
+  "entity_id": "isn_flamethrower",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Incinerator",
+  "name_zh": "焚烧炉",
+  "description_en": "What greater joy than cooking flesh?\r\nInflicts burning",
+  "description_zh": "这肯定比烤肉有趣多了！\n附加燃烧效果",
+  "rarity": "uncommon",
+  "category": "flamethrower",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "flamethrower",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_flameturret",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 12
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_flameturret"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gasthrowertreasure",
+          "probability": 0.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Incinerator.md",
+  "quality_tier": "S"
+}

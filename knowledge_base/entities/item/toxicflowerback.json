@@ -1,0 +1,55 @@
+{
+  "entity_id": "toxicflowerback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Toxic Flower Backpack",
+  "name_zh": "有毒的花卉背包",
+  "description_en": "A large toxic flower that converts light into energy. Why not wear it on your body? +30% Energy Regen",
+  "description_zh": "能把光转化为能量的有毒大花。为什么不戴在身上呢？\n能量回复速度+30%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0737,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0737
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0619,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0619
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

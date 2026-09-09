@@ -1,0 +1,195 @@
+{
+  "entity_id": "monsterplating",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hardened Monster Plate",
+  "name_zh": "坚硬的怪物金属板",
+  "description_en": "Plating from a monster.",
+  "description_zh": "从怪物身上弄下来的玩意儿。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "fflagoonhead",
+          "fumonsterplatedhead",
+          "reptilianhead",
+          "tacticalhead",
+          "thelusiantier4head"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "fflagoonlegs",
+          "fumonsterplatedlegs",
+          "reptilianlegs",
+          "tacticalpants"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "fflagoonchest",
+          "fumonsterplatedchest",
+          "reptilianchest",
+          "tacticalchest"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "floranartifactaugment"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "reptileshield"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "warcleaver"
+        ]
+      }
+    },
+    "total": 16
+  },
+  "drop_sources": {
+    "total_pools": 22,
+    "hunting_harvest": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "pangolinHarvest",
+          "probability": 0.95,
+          "count": 1.8
+        },
+        {
+          "pool": "huntingquadrupedchitin",
+          "probability": 0.49,
+          "count": 1,
+          "monsters": [
+            "alienspitter",
+            "alienwalker",
+            "ixoling2",
+            "ixolingsulphuric"
+          ]
+        },
+        {
+          "pool": "huntingflyingchitin",
+          "probability": 0.35,
+          "count": 1,
+          "monsters": [
+            "fearmoth"
+          ]
+        },
+        {
+          "pool": "huntingchitin",
+          "probability": 0.3333,
+          "count": 1,
+          "monsters": [
+            "fucorruptflylarge",
+            "futoxicflylarge",
+            "headcrab"
+          ]
+        },
+        {
+          "pool": "snakeHunting",
+          "probability": 0.297,
+          "count": 1,
+          "monsters": [
+            "fukingsnake"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.95
+      ]
+    },
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fleshreaperhuntLoot",
+          "probability": 0.2716,
+          "count": 4,
+          "monsters": [
+            "fleshreaper"
+          ]
+        },
+        {
+          "pool": "dinoLootHuge",
+          "probability": 0.2342,
+          "count": 13.0
+        },
+        {
+          "pool": "bogdinoLoot",
+          "probability": 0.2225,
+          "count": 1.0,
+          "monsters": [
+            "derrickmadnesspet",
+            "fusnapper"
+          ]
+        },
+        {
+          "pool": "fuheadcrabLoot",
+          "probability": 0.2113,
+          "count": 3,
+          "monsters": [
+            "headcrab"
+          ]
+        },
+        {
+          "pool": "icetrollLoot",
+          "probability": 0.1971,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0978,
+        0.2716
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.1971,
+          "count": 3,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.0932,
+          "count": 13.0,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

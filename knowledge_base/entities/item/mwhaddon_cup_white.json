@@ -1,0 +1,31 @@
+{
+  "entity_id": "mwhaddon_cup_white",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "White Porcelain",
+  "name_zh": "经典白瓷杯",
+  "description_en": "A classic never goes out of style. Drink to directly restore 5% of max health.\nCooldown: 45 seconds.",
+  "description_zh": "经典永不过时。饮用后直接恢复最大生命值5%点生命值。\n冷却：45秒",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 1600,
+  "tags": [
+    "mwhaddon_cup"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

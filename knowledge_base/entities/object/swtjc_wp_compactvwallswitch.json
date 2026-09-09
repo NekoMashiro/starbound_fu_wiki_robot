@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_compactvwallswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compact Wall Switch",
+  "name_zh": "墙壁开关",
+  "description_en": "Flippin' awesome! Can even be toggled when its input node is /'on'/.",
+  "description_zh": "真是太棒了，切换为/ON/时就可以激活接入的节点。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,76 @@
+{
+  "entity_id": "tidewater",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rocky Tidewater",
+  "name_zh": "多岩潮汐",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Rocky Tidewater",
+  "friendly_name_zh": "多岩潮汐",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "crabcano",
+    "crabcritter",
+    "electropod",
+    "gullcritter",
+    "lilodon",
+    "miasmop",
+    "nautileech",
+    "pandorasboxglofae",
+    "pandorasboxhummingbug",
+    "pulpin",
+    "savybirdcritter",
+    "shadowcrab",
+    "snaggler",
+    "zapin"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:tidewater",
+        "/weather.config:tidewater2",
+        "/weather.config:tidewater3"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

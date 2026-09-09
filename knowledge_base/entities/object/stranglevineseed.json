@@ -1,0 +1,76 @@
+{
+  "entity_id": "stranglevineseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strangler Vine",
+  "name_zh": "绞杀藤种子",
+  "description_en": "Its roots lash out when attacked.",
+  "description_zh": "这种藤蔓受到攻击时会反击。可以收获绞杀藤，食用后会赋予反伤效果。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 72
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 15
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "riceseed",
+          "count": 3
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 10
+        },
+        {
+          "item": "wildvines",
+          "count": 20
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "lasherplantseed",
+          "tentacleplant"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stranglevineHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

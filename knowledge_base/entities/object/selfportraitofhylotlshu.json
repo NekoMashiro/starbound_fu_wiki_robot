@@ -1,0 +1,40 @@
+{
+  "entity_id": "selfportraitofhylotlshu",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Self-Portrait of Hylotl-Shu",
+  "name_zh": "鲛人舒的自画像",
+  "description_en": "A very famous self-portrait of a very famous Hylotl artist.",
+  "description_zh": "一个非常著名的鲛人艺术家的非常著名的自画像。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 1600,
+  "tags": [
+    "hylotl",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

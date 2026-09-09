@@ -1,0 +1,85 @@
+{
+  "entity_id": "glowstickblue",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Glowstick",
+  "name_zh": "蓝色荧光棒",
+  "description_en": "Creates a blue bioluminescent glow when thrown!",
+  "description_zh": "扔出后会发出蓝色的生物荧光！ ",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "luminousCaveChestTreasure",
+          "probability": 0.1877,
+          "count": 5.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoLuminousCaveTreasure",
+          "probability": 0.122,
+          "count": 5
+        },
+        {
+          "pool": "luminousCaveTreasure",
+          "probability": 0.102,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.102,
+        0.122
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "glowstickblue",
+    "glowstickgreen",
+    "glowstickyellow",
+    "glowstickorange",
+    "purpleglowstick",
+    "redglowstick",
+    "whiteglowstick"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_morphosis_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Morphosis Chestplate",
+  "name_zh": "化形胸甲",
+  "description_en": "A chestplate made from morphosis bars. \n\nSet Bonus: \nGrants +5% Poison RES. +10% Physical RES while using a Shield. 2 Piece set.",
+  "description_zh": "由化形制成的胸甲。\n\n套装效果：\n获得+5%蛊毒抗性。使用盾牌时+10物理抗性。2件套效果。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_morphosisBar",
+          "count": 14
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

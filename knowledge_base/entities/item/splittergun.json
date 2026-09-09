@@ -1,0 +1,60 @@
+{
+  "entity_id": "splittergun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fissure Splitrifle",
+  "name_zh": "分裂步枪",
+  "description_en": "The Peglaci honed them, but you perfected them. A devastating weapon.",
+  "description_zh": "企鹅人发明了它，而你则制作了它！这绝对是大杀器！",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 6.55,
+  "critChance": 4,
+  "critBonus": 6,
+  "altAbilityType": "splittergunshotpower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 4
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Fissure Splitrifle.md",
+  "quality_tier": "A"
+}

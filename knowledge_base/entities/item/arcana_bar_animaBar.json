@@ -1,0 +1,113 @@
+{
+  "entity_id": "arcana_bar_animaBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anima",
+  "name_zh": "生源水晶",
+  "description_en": "An solid crystal pulsing with life, can be used to craft Anima equipment. [T7]",
+  "description_zh": "一块充满生命力的坚固晶体，可用于打造生源装备。[T7]",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_animaOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1260
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_anima_legs",
+          "arcana_armor_mistRider_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_anima_head",
+          "arcana_armor_mistRider_head"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_anima_chest",
+          "arcana_armor_mistRider_chest"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "animus_axe_1"
+        ]
+      },
+      "bow": {
+        "count": 1,
+        "examples": [
+          "animus_bow_1"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "animus_broadsword_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "animus_spear_1"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_aureolaBar"
+        ]
+      }
+    },
+    "total": 16
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_animaBar"
+  ],
+  "quality_tier": "S"
+}

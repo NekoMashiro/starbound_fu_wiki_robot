@@ -1,0 +1,275 @@
+{
+  "entity_id": "bomb",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bomb",
+  "name_zh": "炸弹",
+  "description_en": "A great way to blow stuff up. Be careful where you throw them!",
+  "description_zh": "一个将东西炸掉的极好的解决方案。你投掷它的时候可要小心！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "volatilepowder",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 401,
+    "other": {
+      "count": 45,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox_7",
+          "probability": 1.0,
+          "count": 1.3
+        },
+        {
+          "pool": "starterExplosive",
+          "probability": 0.9,
+          "count": 5
+        },
+        {
+          "pool": "starterTechTablet",
+          "probability": 0.9,
+          "count": 1
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox",
+          "probability": 0.4,
+          "count": 1.3
+        },
+        {
+          "pool": "arcana_smashables_pod_geoelectra_throwables",
+          "probability": 0.291,
+          "count": 1.5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 254,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0653,
+          "count": 3
+        },
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.0579,
+          "count": 3
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0518,
+          "count": 1.1
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0419,
+          "count": 1.1
+        },
+        {
+          "pool": "novakidvillageMiningTreasure",
+          "probability": 0.0399,
+          "count": 1.1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0653
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.003,
+          "count": 3
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0017,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0015,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.0496
+      ]
+    },
+    "chest_loot": {
+      "count": 90,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.0496,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.0496,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0496
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0277,
+          "count": 3.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0204,
+          "count": 3.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0134,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0134,
+        0.0277
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0238,
+          "count": 3.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0174,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0174,
+        0.0238
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 0.0001,
+          "count": 3
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.0001,
+          "count": 3,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0001,
+          "count": 3,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

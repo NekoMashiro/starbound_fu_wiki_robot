@@ -1,0 +1,40 @@
+{
+  "entity_id": "nightarmedievalswitchlever",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Switch Lever",
+  "name_zh": "开关杆",
+  "description_en": "A mysterious lever. I wonder what this does?",
+  "description_zh": "神秘的杠杆。我想知道这有什么用？",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 90,
+  "tags": [
+    "nightar",
+    "nightarcastle",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

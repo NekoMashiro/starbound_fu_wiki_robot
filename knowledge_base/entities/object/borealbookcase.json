@@ -1,0 +1,51 @@
+{
+  "entity_id": "borealbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Boreal Bookcase",
+  "name_zh": "北风书柜",
+  "description_en": "A lovingly carved pine bookshelf. For all its embellishments, it's incredibly sturdy.",
+  "description_zh": "一个雕刻精美的松木书架。尽管有各种装饰，它还是非常坚固。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "boreal",
+    "storage",
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

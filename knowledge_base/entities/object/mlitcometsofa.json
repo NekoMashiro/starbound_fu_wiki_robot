@@ -1,0 +1,41 @@
+{
+  "entity_id": "mlitcometsofa",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hi-tech Large Couch",
+  "name_zh": "高科技大椅",
+  "description_en": "That's a big sofa, maybe too big...",
+  "description_zh": "那是个大沙发，但就是太大了...",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "science",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

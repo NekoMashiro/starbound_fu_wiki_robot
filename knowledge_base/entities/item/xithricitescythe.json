@@ -1,0 +1,61 @@
+{
+  "entity_id": "xithricitescythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Scythe",
+  "name_zh": "宇宙镰刀",
+  "description_en": "The wisdom of the cosmos, ready for butchering things.",
+  "description_zh": "包含着宇宙的智慧，准备屠宰万物。",
+  "rarity": "legendary",
+  "category": "scythe",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "cosmic",
+    "scythe",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.7,
+  "critChance": 4,
+  "critBonus": 14,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 10
+        },
+        {
+          "item": "effigiumbar",
+          "count": 8
+        },
+        {
+          "item": "liquidaether",
+          "count": 150
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

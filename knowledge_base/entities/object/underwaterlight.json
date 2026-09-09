@@ -1,0 +1,40 @@
+{
+  "entity_id": "underwaterlight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Waterproof Light",
+  "name_zh": "防水灯",
+  "description_en": "A light protected by a glass cage.",
+  "description_zh": "一盏有玻璃罩子保护的灯。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 75,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "light"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "hylotloceancityTreasure",
+          "probability": 0.0565,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.0394,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0394,
+        0.0565
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

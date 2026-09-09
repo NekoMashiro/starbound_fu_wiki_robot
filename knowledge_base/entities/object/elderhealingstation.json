@@ -1,0 +1,52 @@
+{
+  "entity_id": "elderhealingstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutari Healing Station",
+  "name_zh": "穆塔里治疗站",
+  "description_en": "A station to heal pets, robots and...others.",
+  "description_zh": "一个治疗宠物、机器人和...其他玩意的工作站。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 1750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "unstableparticles",
+          "count": 2
+        },
+        {
+          "item": "darkmatter",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 1,
+        "examples": [
+          "elderhealingstationauto"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Mutari Healing Station.md",
+  "quality_tier": "S"
+}

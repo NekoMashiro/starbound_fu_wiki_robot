@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_rareautoshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Automatic Shotgun",
+  "name_zh": "精良的自动霰弹枪",
+  "description_en": "Rapidly fires volleys of spread-out rounds that are especially lethal at close range.",
+  "description_zh": "射速非常快，攻击范围窄的双手霰弹枪。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_autoShotgun",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    10,
+    13
+  ],
+  "critChance": 2,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

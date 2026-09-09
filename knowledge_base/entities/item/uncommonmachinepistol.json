@@ -1,0 +1,224 @@
+{
+  "entity_id": "uncommonmachinepistol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Uncommon Machine Pistol",
+  "name_zh": "精良的自动手枪",
+  "description_en": "A small fully automatic pistol that lacks stopping power, but can be wielded in one hand with decent accuracy.",
+  "description_zh": "一支小型全自动手枪，缺乏制动力，但可以单手操作，准确度相当高。",
+  "rarity": "Uncommon",
+  "category": "machinePistol",
+  "price": 660,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.4,
+    7.0
+  ],
+  "critChance": 1,
+  "critBonus": 2,
+  "drop_sources": {
+    "total_pools": 273,
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "uncommonGun",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "elduuuncommonGun",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "fu_bountyrewardbagguns",
+          "probability": 0.2288,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.1146,
+          "count": 1.0
+        },
+        {
+          "pool": "goodWeapon",
+          "probability": 0.1027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.5
+      ]
+    },
+    "boss_mission": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 0.267,
+          "count": 1
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 0.267,
+          "count": 1
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.2184,
+          "count": 1
+        },
+        {
+          "pool": "glitchmission1Reward",
+          "probability": 0.2153,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0315,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.267
+      ]
+    },
+    "monster_drops": {
+      "count": 125,
+      "top": [
+        {
+          "pool": "florantreasurelore",
+          "probability": 0.267,
+          "count": 1
+        },
+        {
+          "pool": "miningtreasurelore",
+          "probability": 0.267,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoWeaponTreasure",
+          "probability": 0.252,
+          "count": 1
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.056,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 0.056,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.267
+      ]
+    },
+    "chest_loot": {
+      "count": 113,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.122,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeChestTreasure",
+          "probability": 0.122,
+          "count": 1.0
+        },
+        {
+          "pool": "weaponChestTreasure",
+          "probability": 0.1098,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuweaponChestTreasure",
+          "probability": 0.1079,
+          "count": 1.0
+        },
+        {
+          "pool": "humanprisonChestTreasure",
+          "probability": 0.0783,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0017,
+        0.122
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0597,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0552,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0028,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.0597
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0166,
+          "count": 1.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0128,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0123,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0082,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0082,
+        0.0166
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

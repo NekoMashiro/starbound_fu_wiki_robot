@@ -1,0 +1,57 @@
+{
+  "entity_id": "telebriumdesklamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Desk Lamp",
+  "name_zh": "特勒贝晶体碎片台灯",
+  "description_en": "A desk lamp made from Telebrium.",
+  "description_zh": "一架由特勒贝晶体碎片做的台灯。",
+  "rarity": "uncommon",
+  "category": "light",
+  "price": 300,
+  "tags": [
+    "telebrium",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "moonstone",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

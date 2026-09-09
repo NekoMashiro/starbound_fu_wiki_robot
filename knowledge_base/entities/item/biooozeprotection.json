@@ -1,0 +1,47 @@
+{
+  "entity_id": "biooozeprotection",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bio-Ooze Shield",
+  "name_zh": "EPP模块（生物软泥护盾）",
+  "description_en": "Provides immunity to Bio-ooze.",
+  "description_zh": "免疫生物软泥。",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "venomsample",
+          "count": 4
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "poisonresistanceaugment"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

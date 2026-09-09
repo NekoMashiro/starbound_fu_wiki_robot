@@ -1,0 +1,43 @@
+{
+  "entity_id": "eggfossil",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Egg Fossil",
+  "name_zh": "蛋化石",
+  "description_en": "Fossilised egg.",
+  "description_zh": "蛋的化石。",
+  "rarity": "Uncommon",
+  "category": "smallFossil",
+  "price": 75,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "smallfossil",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.04,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.04,
+        0.1
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

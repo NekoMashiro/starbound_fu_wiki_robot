@@ -1,0 +1,102 @@
+{
+  "entity_id": "fishnchips",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Fish and Chips",
+  "name_zh": "炸鱼薯条",
+  "description_en": "Fry all the things! This is an old favorite for humans. Type: Cooked Seafood + Vegetables",
+  "description_zh": "油炸所有东西！这是人类的一种古老的喜好。\n类型：熟海鲜 + 蔬菜",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 175,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rawfish",
+          "count": 1
+        },
+        {
+          "item": "potato",
+          "count": 1
+        },
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu-Fast Food",
+      "station_zh": "菜单-快餐",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 539
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

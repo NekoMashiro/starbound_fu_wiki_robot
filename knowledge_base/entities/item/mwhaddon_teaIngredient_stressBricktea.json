@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_stressBricktea",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Stress Bricktea",
+  "name_zh": "应激茶砖",
+  "description_en": "Hard enough to be blast-proof.\n During cooldown time, gain +30% all Elemental Res for 4 seconds after getting hits.",
+  "description_zh": "硬到能防弹。\n饮用后，若处于冷却期间，每次受伤后的4秒内+30%全属性抗性。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

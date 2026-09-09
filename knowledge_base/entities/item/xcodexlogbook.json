@@ -1,0 +1,35 @@
+{
+  "entity_id": "xcodexlogbook",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Codex Logbook",
+  "name_zh": "典籍日志",
+  "description_en": "Use this to open your logbook.",
+  "description_zh": "用这个打开你的日志。",
+  "rarity": "essential",
+  "category": "Console",
+  "price": 0,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

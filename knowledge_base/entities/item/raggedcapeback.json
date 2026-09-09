@@ -1,0 +1,46 @@
+{
+  "entity_id": "raggedcapeback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ragged Cape",
+  "name_zh": "破旧披风",
+  "description_en": "A ragged cape, perfect for an adventure!",
+  "description_zh": "破破烂烂的披风，对冒险来说简直完美！",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomUndergroundChestTreasure",
+          "probability": 0.1577,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomUndergroundTreasure",
+          "probability": 0.1025,
+          "count": 1
+        },
+        {
+          "pool": "mushroomUndergroundTreasure",
+          "probability": 0.0857,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0857,
+        0.1025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_back_whiteNanoweaveCape",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "White Nanoweave Cape",
+  "name_zh": "白色纳米织造披风",
+  "description_en": "A cape worn by Exousian police officers.",
+  "description_zh": "威权警官穿着的披风。",
+  "rarity": "Legendary",
+  "category": "backwear",
+  "price": 1300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 10
+        },
+        {
+          "item": "whitedye",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_perfectceilinglamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perfect Ceiling Lamp",
+  "name_zh": "完美的吊灯",
+  "description_en": "A perfect ceiling lamp.",
+  "description_zh": "一盏完美的吊灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "perfectlygenericitem",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

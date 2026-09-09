@@ -1,0 +1,39 @@
+{
+  "entity_id": "exonitecouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Couch",
+  "name_zh": "长石沙发",
+  "description_en": "A couch made from exonite.",
+  "description_zh": "一个长石制成的沙发",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elduukhar",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 10
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

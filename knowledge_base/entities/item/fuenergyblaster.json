@@ -1,0 +1,60 @@
+{
+  "entity_id": "fuenergyblaster",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energy Lobber",
+  "name_zh": "能源抛射枪",
+  "description_en": "An extremely useful weapon utilizing controlled energy.\r\nExceptional utility\r\nInflicts Electrified status",
+  "description_zh": "使用能量作为能源的非常有用的武器。\n附加感电效果\n功效出色",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.0,
+  "critChance": 2,
+  "critBonus": 8,
+  "altAbilityType": "energynet",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 4
+        },
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "unstableparticles",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Energy Lobber.md",
+  "quality_tier": "A"
+}

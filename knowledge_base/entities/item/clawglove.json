@@ -1,0 +1,77 @@
+{
+  "entity_id": "clawglove",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Claw Glove",
+  "name_zh": "狼爪",
+  "description_en": "Not adamantium, but still cool.",
+  "description_zh": "不够坚硬，但仍然很酷。",
+  "rarity": "Legendary",
+  "category": "fistWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "fist"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "gauntlet",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "clawglove_l6.png:front",
+    "seed": "",
+    "shortdescription": "狼爪^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

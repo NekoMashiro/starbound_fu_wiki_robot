@@ -1,0 +1,36 @@
+{
+  "entity_id": "powerblaster",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shard Blaster Arm",
+  "name_zh": "碎片喷射臂",
+  "description_en": "Spews out numerous power shards.",
+  "description_zh": "喷射出无数的能量碎片。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "thoriumrod",
+          "count": 10
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

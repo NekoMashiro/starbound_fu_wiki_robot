@@ -1,0 +1,60 @@
+{
+  "entity_id": "irradiumpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Pistol",
+  "name_zh": "镭制手枪",
+  "description_en": "Radiation has never been so adorably lethal.\r\nInflicts radiation burn",
+  "description_zh": "原来辐射这么容易杀人！\n附加辐射烧伤效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.45,
+  "critChance": 3,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

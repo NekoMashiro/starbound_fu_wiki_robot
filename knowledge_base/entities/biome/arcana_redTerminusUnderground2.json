@@ -1,0 +1,55 @@
+{
+  "entity_id": "arcana_redTerminusUnderground2",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Red Terminus",
+  "name_zh": "赤渊",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Red Terminus",
+  "friendly_name_zh": "赤渊",
+  "ores": [
+    {
+      "ore": "iron",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_rufescite",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "corefragment",
+      "weight": 0.5
+    },
+    {
+      "ore": "arcana_mod_enartzFragment",
+      "weight": 0.1
+    },
+    {
+      "ore": "arcana_mod_exoslateFragment",
+      "weight": 0.1
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_redMonopus",
+    "arcana_redPyromantle",
+    "ravencritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_redTerminus"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

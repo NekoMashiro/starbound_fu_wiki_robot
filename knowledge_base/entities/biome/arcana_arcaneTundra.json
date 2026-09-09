@@ -1,0 +1,64 @@
+{
+  "entity_id": "arcana_arcaneTundra",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Tundra",
+  "name_zh": "魔冻塬",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Arcane Tundra",
+  "friendly_name_zh": "魔冻塬",
+  "ores": [
+    {
+      "ore": "arcana_mod_borealiteOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.8
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    }
+  ],
+  "monsters": [
+    "aurorabee",
+    "bobfae",
+    "bobot",
+    "bunnycritter",
+    "capricoat",
+    "ciclesnailcritter",
+    "crystalbirdcritter",
+    "crystaltortoisecritter",
+    "driftbell",
+    "hollowcritter",
+    "lilodon",
+    "poofincritter",
+    "pulpin",
+    "reasonablecritter",
+    "scandroid",
+    "shardwing",
+    "skimbus",
+    "snorecritter",
+    "snowflakescritter",
+    "snowymolecritter",
+    "wisper"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:tundra"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_energyDrain"
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_revenant_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Revenant Helmet",
+  "name_zh": "亡魂头盔",
+  "description_en": "A violium-infused carapace piece, for protection against monstrocities. \n\nSet Bonus: \n+4 Health when activating Lifesteal.",
+  "description_zh": "注入维奥合金的甲壳，用于防御各种怪物。\n\n套装效果：\n启用吸血时+4生命。",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 2880,
+  "tags": [],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 6
+        },
+        {
+          "item": "canvas",
+          "count": 1
+        },
+        {
+          "item": "bonematerial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

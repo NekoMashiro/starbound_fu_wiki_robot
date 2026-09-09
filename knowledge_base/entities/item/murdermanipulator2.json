@@ -1,0 +1,49 @@
+{
+  "entity_id": "murdermanipulator2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slaughter Manipulator",
+  "name_zh": "殒命操手",
+  "description_en": "A repurposed manipulator. This one murders! Yay!\r\nFloran",
+  "description_zh": "一把“重新利用”的物质枪。极好的凶器！爽！\n叶族",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "floran",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "murdermanipulator",
+          "count": 1
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 4
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

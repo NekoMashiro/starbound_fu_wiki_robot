@@ -1,0 +1,41 @@
+{
+  "entity_id": "impactslimetendrils",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Impact Slime Tendrils",
+  "name_zh": "弹力粘液触须",
+  "description_en": "Knock enemies silly.",
+  "description_zh": "杀敌如智障。",
+  "rarity": "Uncommon",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 2.7,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

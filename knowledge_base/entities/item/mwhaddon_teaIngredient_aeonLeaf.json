@@ -1,0 +1,32 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_aeonLeaf",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Great Aeon Leaf",
+  "name_zh": "大纪元叶",
+  "description_en": "A piece of ancient metal leaf.\n -25% Cooldown Time",
+  "description_zh": "一片金属叶。\n冷却时间-25%",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

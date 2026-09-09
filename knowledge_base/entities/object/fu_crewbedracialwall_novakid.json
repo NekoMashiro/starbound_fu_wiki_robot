@@ -1,0 +1,31 @@
+{
+  "entity_id": "fu_crewbedracialwall_novakid",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Novakid Crew Wall Bunk",
+  "name_zh": "星之子船用壁挂双层床",
+  "description_en": "A standard Novakid ship wall bunk. Crew +1. Counts as a deed. BYOS Only. Extract to return Crew Bunk.",
+  "description_zh": "一张标准的星之子船用壁挂双层床。\n船员上限+1。\n视为一份契约。\n只限BYOS。\n提取以返还归船员用双层床。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "novakid",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_crewbed5",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "swtjc_ewg_commonautoshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Common Automatic Shotgun",
+  "name_zh": "普通的自动霰弹枪",
+  "description_en": "Rapidly fires volleys of spread-out rounds that are especially lethal at close range.",
+  "description_zh": "射速非常快，攻击范围窄的双手霰弹枪。",
+  "rarity": "Common",
+  "category": "swtjc_ewg_autoShotgun",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    10,
+    12
+  ],
+  "critChance": 2,
+  "critBonus": 4,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

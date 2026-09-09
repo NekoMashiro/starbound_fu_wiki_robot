@@ -1,0 +1,53 @@
+{
+  "entity_id": "orion_storage_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Orion Smart Cabinet",
+  "name_zh": "俄里翁迷你柜",
+  "description_en": "A cabinet with a built in smart sensor.",
+  "description_zh": "一个白色金属表面的小柜子。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 140,
+  "tags": [
+    "orion",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

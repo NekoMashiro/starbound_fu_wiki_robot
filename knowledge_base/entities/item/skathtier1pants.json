@@ -1,0 +1,58 @@
+{
+  "entity_id": "skathtier1pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Webber Trousers",
+  "name_zh": "织网者护腿",
+  "description_en": "Set Bonuses:\r\n Assault Rifle/Shortsword: Damage x1.1",
+  "description_zh": "套装奖励:\n 突击步枪/短剑: 伤害 x1.1",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 80,
+  "tags": [
+    "tier1armour",
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "skathtier2pants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

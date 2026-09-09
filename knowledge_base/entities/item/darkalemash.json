@@ -1,0 +1,54 @@
+{
+  "entity_id": "darkalemash",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Ale Mash",
+  "name_zh": "深色啤酒醪",
+  "description_en": "Ale mash, the product of malt, yellow petals and water.",
+  "description_zh": "麦芽汁，麦芽，黄色花瓣和水混合后的产品。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "darkmalt",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 4,
+        "examples": [
+          "darkale",
+          "protovex",
+          "rustmead",
+          "vxspecialblend"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

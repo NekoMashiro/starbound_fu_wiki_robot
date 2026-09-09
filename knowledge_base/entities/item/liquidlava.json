@@ -1,0 +1,137 @@
+{
+  "entity_id": "liquidlava",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Lava",
+  "name_zh": "岩浆",
+  "description_en": "A measure of bubbling, searing lava.\nCentrifugable.",
+  "description_zh": "一定量的冒泡的、炽热的岩浆。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "pyreitebed",
+          "pyreitecabinet",
+          "pyreitechair",
+          "pyreitecouch",
+          "pyreitedesk"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "foundrylight",
+          "lavalavalamp",
+          "magmalamp",
+          "pyreiteceilinglamp",
+          "pyreitedesklamp"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "pyreitebookcase",
+          "pyreitechestlarge",
+          "pyreitechestsmall",
+          "pyreitedrawers",
+          "pyreitenightstand"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_bar_hakenStahlite",
+          "moltencore",
+          "scorchedcore",
+          "scorchedcore"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "pyreitefridge",
+          "pyreiteminifridge"
+        ]
+      },
+      "terraformer": {
+        "count": 2,
+        "examples": [
+          "terraformerfrozenvolcanic",
+          "terraformervolcanic"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "arcana_food_zinnofeurTea"
+        ]
+      },
+      "whip": {
+        "count": 1,
+        "examples": [
+          "corewhip"
+        ]
+      }
+    },
+    "total": 33
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "corefragmentore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "corefragmentore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "corefragmentore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonstermagmaTreasure",
+          "probability": 0.1447,
+          "count": 2,
+          "monsters": [
+            "magmamicroslime",
+            "magmaslime",
+            "tarmicroslime"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ashgolemLoot",
+          "probability": 0.0542,
+          "count": 20,
+          "monsters": [
+            "adultpoptopfire",
+            "adultpoptopfire2",
+            "adultpoptopfire3",
+            "adultpoptopfiremadness",
+            "adultpoptopfirepet"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Lava.md",
+  "quality_tier": "S"
+}

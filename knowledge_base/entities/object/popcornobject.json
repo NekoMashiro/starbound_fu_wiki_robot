@@ -1,0 +1,41 @@
+{
+  "entity_id": "popcornobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Popcorn",
+  "name_zh": "爆米花",
+  "description_en": "Pop it like it's hot!",
+  "description_zh": "太烫了，爆开它！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 75,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "popcorn",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "popcorn"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_archaic_deco_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Cup",
+  "name_zh": "古朴茶杯",
+  "description_en": "An ornate antique cup with a golden lining.",
+  "description_zh": "有着黄金线条的华丽古朴杯。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 90,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

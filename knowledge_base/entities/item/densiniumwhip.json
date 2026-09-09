@@ -1,0 +1,54 @@
+{
+  "entity_id": "densiniumwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Whip",
+  "name_zh": "超致密鞭",
+  "description_en": "Incredibly dense, but ultra flexible. A shockingly good time.\r\nElectrifies foes",
+  "description_zh": "无比致密，却无比灵活。电击派对要开始了！\n使敌人感电",
+  "rarity": "Legendary",
+  "category": "whip",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "densinium",
+    "energy"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 1.25,
+  "critBonus": 10,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "staticcell",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

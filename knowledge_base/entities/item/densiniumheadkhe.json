@@ -1,0 +1,86 @@
+{
+  "entity_id": "densiniumheadkhe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium EVA Helm",
+  "name_zh": "超致密EVA头盔",
+  "description_en": "Headlamp\n\r\nSet Bonuses (Part 1):\r\n Auto-Medic: 10%\r\n Adaptive Armor: 0.8x-0.5x",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 750,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer",
+    "hyper",
+    "specialist"
+  ],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumhead",
+          "count": 1
+        },
+        {
+          "item": "warangelhead",
+          "count": 1
+        },
+        {
+          "item": "fureconhead3",
+          "count": 1
+        },
+        {
+          "item": "hydrogencore",
+          "count": 1
+        },
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "antineutronium",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "ultronium",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

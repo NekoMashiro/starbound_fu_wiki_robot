@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Broadsword",
+  "name_zh": "月海宽剑",
+  "description_en": "Sharp and moony.",
+  "description_zh": "锋利而又朦胧。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "traildash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

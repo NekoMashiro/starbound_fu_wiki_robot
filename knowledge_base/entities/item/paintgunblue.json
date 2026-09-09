@@ -1,0 +1,55 @@
+{
+  "entity_id": "paintgunblue",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Paintgun",
+  "name_zh": "蓝色彩弹枪",
+  "description_en": "Why wait for a blue moon when you can make one yourself?",
+  "description_zh": "为什么要在自己可以做一个的时候去等什么蓝月亮呢？",
+  "rarity": "Uncommon",
+  "category": "toy",
+  "price": 500,
+  "tags": [
+    "toy"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "clay",
+          "count": 10
+        },
+        {
+          "item": "bluedye",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

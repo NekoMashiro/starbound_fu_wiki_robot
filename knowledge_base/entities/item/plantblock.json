@@ -1,0 +1,45 @@
+{
+  "entity_id": "plantblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plant Block",
+  "name_zh": "植物块",
+  "description_en": "A block made of plant matter.\nExtractable.",
+  "description_zh": "一种用植物组织制成的方块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "plantblock"
+  ],
+  "quality_tier": "A"
+}

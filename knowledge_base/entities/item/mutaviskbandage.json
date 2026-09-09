@@ -1,0 +1,62 @@
+{
+  "entity_id": "mutaviskbandage",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutavisk Bandage",
+  "name_zh": "飞螳绷带",
+  "description_en": "Heal 85 over 1s",
+  "description_zh": "在1s内治疗85点生命值",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 255,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutaviskthread",
+          "count": 3
+        },
+        {
+          "item": "iodine",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "medkit3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0368,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

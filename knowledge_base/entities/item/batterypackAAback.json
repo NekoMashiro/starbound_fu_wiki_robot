@@ -1,0 +1,189 @@
+{
+  "entity_id": "batterypackAAback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "AA Battery Pack",
+  "name_zh": "AA电池组",
+  "description_en": "So that you always look energised! +25 Energy.",
+  "description_zh": "让你看起来总是充满活力！\n能量上限+25",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 195,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "elduucostume",
+          "probability": 0.0087,
+          "count": 1
+        },
+        {
+          "pool": "costume",
+          "probability": 0.0083,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.0004,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0087
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.002
+      ]
+    },
+    "chest_loot": {
+      "count": 81,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeChestTreasure",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.0004,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0008
+      ]
+    },
+    "monster_drops": {
+      "count": 99,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureMedium",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "arcana_treasure_timeless_1",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0005
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "ancientpoptopfossil4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptopalon Legs",
+  "name_zh": "吐舌龙腿骨",
+  "description_en": "A set of fossilised Poptopalon legs.",
+  "description_zh": "一组吐舌龙腿骨化石。",
+  "rarity": "Rare",
+  "category": "largeFossil",
+  "price": 200,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "largefossil",
+          "probability": 0.0286,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.0071,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.0071,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0071,
+        0.0286
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "saloondoorprop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Saloon Door Prop",
+  "name_zh": "沙龙门",
+  "description_en": "Swinging saloon doors to keep those pesky tumbleweeds outside.",
+  "description_zh": "摇摆的沙龙门，把那些讨厌的风滚草挡在外面。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "novakid",
+    "novakidvillage",
+    "saloon"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

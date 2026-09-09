@@ -1,0 +1,225 @@
+{
+  "entity_id": "horizon_crafting_horizonTechCard",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Horizon Tech Card",
+  "name_zh": "地平线科技卡",
+  "description_en": "A mysterious tech component created from alien materials.",
+  "description_zh": "使用异星材料制成的神秘科技组件。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 180,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "cellmatter",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 12
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 12,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 10,
+        "examples": [
+          "horizon_bookcase_1",
+          "horizon_storage_1",
+          "horizon_storage_2",
+          "horizon_storage_3",
+          "horizon_storage_4"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "horizon_light_1",
+          "horizon_light_2",
+          "horizon_light_3",
+          "horizon_switch_1",
+          "mwhaddon_horizon_console_1"
+        ]
+      },
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "horizon_bed_1",
+          "horizon_table_1",
+          "horizon_table_2",
+          "horizon_table_3",
+          "horizon_table_4"
+        ]
+      },
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "horizon_deco_3",
+          "horizon_deco_6",
+          "horizon_monitor_1",
+          "horizon_monitor_2",
+          "horizon_wireddeco_1"
+        ]
+      },
+      "mechPart": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_mech_arm_acheron",
+          "mwhaddon_mech_body_erebus",
+          "mwhaddon_mech_booster_erebus",
+          "mwhaddon_mech_leg_erebus"
+        ]
+      },
+      "wire": {
+        "count": 3,
+        "examples": [
+          "mwhaddon_horizon_wireddeco_1",
+          "mwhaddon_horizon_wireddeco_2",
+          "mwhaddon_horizon_wireddeco_3"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "horizon_door_1",
+          "horizon_door_2"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "horizon_deco_7",
+          "mwhaddon_crafting_horizonFurnace"
+        ]
+      }
+    },
+    "total": 43
+  },
+  "drop_sources": {
+    "total_pools": 19,
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 1.0363,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_horizonTechCard",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_common",
+          "probability": 0.49,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.49,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 0.49,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.4494,
+        1.0363
+      ]
+    },
+    "boss_mission": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 0.7423,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 0.7423,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 0.7423,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_upper_t2",
+          "probability": 0.5744,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_under_t2",
+          "probability": 0.516,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.0868,
+        0.7423
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

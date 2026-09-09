@@ -1,0 +1,39 @@
+{
+  "entity_id": "lobstertrap",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lobster Trap",
+  "name_zh": "龙虾陷阱",
+  "description_en": "Occasionally catches delicious lobsters when placed in ocean water. Can hold 1 lobster. Scan for Info.",
+  "description_zh": "放入海水中时，偶尔会捕获美味的龙虾。可以容纳1只龙虾。 扫描以查看更多信息。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Lobster Trap.md",
+  "quality_tier": "A"
+}

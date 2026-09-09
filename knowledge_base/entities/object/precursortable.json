@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursortable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Table",
+  "name_zh": "先驱之桌",
+  "description_en": "Surprisingly stark and simple for a super-race.",
+  "description_zh": "对于一个超凡种族来说，未免有点太过刻板和简单了。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "precursor",
+    "table"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0672,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0672,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0374,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0374,
+        0.0672
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

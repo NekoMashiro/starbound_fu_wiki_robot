@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_spell_fire_blisteringShot",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "< Blistering Shot >",
+  "name_zh": "< 猛烈的一击 >",
+  "description_en": "The simplest form of destruction, in the form of a fireball. Inflicts burning.",
+  "description_zh": "毁灭最简单的形态，一个火球。造成燃烧效果。",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "wand",
+    "spell",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_scroll_fire",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

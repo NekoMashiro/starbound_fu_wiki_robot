@@ -1,0 +1,99 @@
+{
+  "entity_id": "arcana_misc_cosmoTendrils",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cosmo Tendrils",
+  "name_zh": "宇宙卷须",
+  "description_en": "A bunch of blistering tendrils, dropped from the Cosmo Nemesis.",
+  "description_zh": "从复仇宇神残骸上分离的一束酷热触须。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 380,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_combustingTendrils",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "arcana_food_allslainbreakfast"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_catalytic_chest"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_catalytic_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_catalytic_head"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "arcana_back_superstormEPP"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_cosmoNemesis_assaultRifle_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_cosmoNemesis_blastRifle_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "arcana_boss_cosmoNemesis_summonStaff_1"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_cosmoNemesis",
+          "probability": 1.0,
+          "count": 24,
+          "monsters": [
+            "arcana_boss_cosmoNemesis"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

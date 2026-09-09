@@ -1,0 +1,51 @@
+{
+  "entity_id": "precursorconverter2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Faulty Erchius Converter",
+  "name_zh": "损坏的厄尔吉斯转换器",
+  "description_en": "Converts stuff into other stuff.",
+  "description_zh": "将某些材料转换成另一种材料。",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "fu",
+    "science",
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0521,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0052,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0052,
+        0.0521
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0052,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Faulty Erchius Converter.md",
+  "quality_tier": "A"
+}

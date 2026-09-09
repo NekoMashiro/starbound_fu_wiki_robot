@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_carpenter_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carpenter Queen",
+  "name_zh": "木匠蜂后",
+  "description_en": "Carpenter Queen",
+  "description_zh": "木匠蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "darkwoodmaterial"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "forestqueen",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "forestbee"
+          ]
+        },
+        {
+          "pool": "bee_carpenter",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_carpenter"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,89 @@
+{
+  "entity_id": "largesnowball",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Large Snowball",
+  "name_zh": "大雪球",
+  "description_en": "A large snowball, still the right size for throwing.",
+  "description_zh": "一个大雪球，仍是适合投掷的大小。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mediumsnowball",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Snowprinter",
+          "name_zh": "雪人打印机"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 10,
+        "examples": [
+          "snowpersonbody1",
+          "snowpersonbody2",
+          "snowpersonbodyapex",
+          "snowpersonbodyavian",
+          "snowpersonbodyfloran"
+        ]
+      },
+      "breakable": {
+        "count": 2,
+        "examples": [
+          "fancysnowman",
+          "snowman"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "giganticsnowball"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "blueprints_unlocked": [
+    "giganticsnowball"
+  ],
+  "quality_tier": "S"
+}

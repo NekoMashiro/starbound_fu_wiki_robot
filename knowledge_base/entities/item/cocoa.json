@@ -1,0 +1,67 @@
+{
+  "entity_id": "cocoa",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cocoa Pod",
+  "name_zh": "可可豆荚",
+  "description_en": "A large pod packed full of rich cocoa beans. Grind it up and you've got chocolate!",
+  "description_zh": "一个包裹着满满可可豆的大豆荚。磨碎它来做巧克力！",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cocoabasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "chocolate"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "cocoabasket"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_food_chocolatePie"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cocoaHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "chocolate"
+  ],
+  "quality_tier": "S"
+}

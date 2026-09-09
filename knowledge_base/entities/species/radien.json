@@ -1,0 +1,82 @@
+{
+  "entity_id": "radien",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "艾肯",
+  "description_en": "",
+  "description_zh": "一种害羞的放射性生物，其起源尚有争议。这个种族 是围绕饥饿而设计的。; 挑战性较高\n\n  食性：杂食（包括已烹饪的同位素）\n\n  天赋：\n  生命值上限 x1.1，能量值上限 x1.2, 随饥饿递减 防御 x1.03\n 抗性：+35% 辐射, +10% 毒素，+5% 射线，饱食度满时上限2倍。 +5% 精神\n科技：辐射种球\n  免疫：辐射烧伤\n\n环境：\n 辐射 生物群系：伤害 x1.15, +15% 能量恢复速度, -5% 饥饿速度\n 炎热 生物群系：防御 x0.85，+35% 饥饿速度\n  防御随时间增加\n  种族科技是成功的关键。\n  被动生成基因。\n\n武器：\n 艾肯武器：+1.5% 暴击几率，防御 x1.15\n\n弱点：\n  +25% 饥饿速度\n  抗性：-20% 火炎，寒气&电系，饥饿时上限1.5倍。\n  禁止 使用治疗物品，必须使用种族科技治疗。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.1
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.2
+      },
+      {
+        "stat": "protection",
+        "effectiveMultiplier": 1.03
+      },
+      {
+        "stat": "foodDelta",
+        "baseMultiplier": 1.25
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.05
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.35
+      },
+      {
+        "stat": "radiationburnImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "healingStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "isXi",
+        "amount": 1
+      },
+      {
+        "stat": "fuRadiationHeal",
+        "amount": 1
+      },
+      {
+        "stat": "fuDirtBeer",
+        "amount": 1
+      }
+    ],
+    "diet": "entity",
+    "tech": [
+      "xi_bulb"
+    ]
+  },
+  "quality_tier": "B"
+}

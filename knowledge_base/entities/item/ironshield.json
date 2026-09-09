@@ -1,0 +1,63 @@
+{
+  "entity_id": "ironshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Shield",
+  "name_zh": "铁制盾",
+  "description_en": "-20% Fall Damage",
+  "description_zh": "-20%掉落伤害",
+  "rarity": "common",
+  "category": "shield",
+  "price": 150,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

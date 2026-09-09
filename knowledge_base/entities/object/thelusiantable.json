@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusiantable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Table",
+  "name_zh": "蚁族桌",
+  "description_en": "A table glistening from the sheen of resin on chitin.",
+  "description_zh": "几丁质上的树脂光泽使桌子闪闪发光。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 115,
+  "tags": [
+    "thelusian",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 4
+        },
+        {
+          "item": "liquidwater",
+          "count": 3
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

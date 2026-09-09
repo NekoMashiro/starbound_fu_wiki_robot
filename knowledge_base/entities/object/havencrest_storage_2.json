@@ -1,0 +1,49 @@
+{
+  "entity_id": "havencrest_storage_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Oasis Cabinet",
+  "name_zh": "绿洲柜子",
+  "description_en": "A cabinet with a sandstone surface.",
+  "description_zh": "表面为砂岩的柜子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "havencrest",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "havencrest_tile2",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

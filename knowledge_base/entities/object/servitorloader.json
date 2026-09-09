@@ -1,0 +1,40 @@
+{
+  "entity_id": "servitorloader",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bot Loader",
+  "name_zh": "机器人激活器",
+  "description_en": "Activates Bots for portable use (via special Capture Pods).",
+  "description_zh": "激活机器人以便携使用(通过特殊的捕获舱)。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 5
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

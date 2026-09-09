@@ -1,0 +1,65 @@
+{
+  "entity_id": "alienskullhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Alien Skull",
+  "name_zh": "外星人颅骨",
+  "description_en": "A mysterious alien skull that you can wear. Macabre.",
+  "description_zh": "一个可穿戴的神秘的外星头骨。令人毛骨悚然。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.1255,
+          "count": 1.0
+        },
+        {
+          "pool": "alienChestTreasure",
+          "probability": 0.1155,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1155,
+        0.1255
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.097,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoBoneCaveTreasure",
+          "probability": 0.0815,
+          "count": 1
+        },
+        {
+          "pool": "alienTreasure",
+          "probability": 0.0811,
+          "count": 1
+        },
+        {
+          "pool": "boneCaveTreasure",
+          "probability": 0.0682,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0682,
+        0.097
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

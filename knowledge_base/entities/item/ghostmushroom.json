@@ -1,0 +1,39 @@
+{
+  "entity_id": "ghostmushroom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost Mushroom Spore",
+  "name_zh": "幽灵菇",
+  "description_en": "Invisible to Erchius Horrors: 5m",
+  "description_zh": "无视厄尔吉斯之怖: 5m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "fu_driedghostmushroom",
+          "fushroomspore"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ghostmushroomHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "lunariwand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Wand",
+  "name_zh": "月晶魔杖",
+  "description_en": "Sufficiently Advanced Technology.",
+  "description_zh": "尤为先进的科技。",
+  "rarity": "common",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "lunari"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "bone",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "bubbleshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aqua Shield",
+  "name_zh": "防水盾",
+  "description_en": "+0.1% HP Regen, +20% Energy",
+  "description_zh": "生命恢复速度+0.1%，能量值上限+20%",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_mercury",
+          "count": 8
+        },
+        {
+          "item": "liquidhealing",
+          "count": 20
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "miraclegrass",
+          "count": 14
+        },
+        {
+          "item": "refinedferozium",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

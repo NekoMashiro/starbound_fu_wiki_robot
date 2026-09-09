@@ -1,0 +1,49 @@
+{
+  "entity_id": "redhoneyjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Honey Jar",
+  "name_zh": "罐装红蜂蜜",
+  "description_en": "A red jar of honey! Exceptional healing ability.\nHeal 100 (1m)",
+  "description_zh": "一罐红蜂蜜！拥有非常杰出的治疗能力。\n治疗100点生命值(1m内)",
+  "rarity": "Common",
+  "category": "food",
+  "price": 52,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "redcomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "bloodbrandy"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "fleshcookie"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

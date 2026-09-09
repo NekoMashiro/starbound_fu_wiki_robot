@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_bag_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Personal Backpack",
+  "name_zh": "天鹅绒小包",
+  "description_en": "A lightweight backpack for storing items. 20 Slot Capacity.",
+  "description_zh": "我有一个绒布包，山珍地宝任我藏。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 400,
+  "tags": [
+    "tool",
+    "bag",
+    "inventory",
+    "arcana_bag"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 800
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

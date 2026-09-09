@@ -1,0 +1,44 @@
+{
+  "entity_id": "arcana_musicbox_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Arcana Music Box",
+  "name_zh": "奥法秘境音乐盒",
+  "description_en": "A outworldly music box for playing Arcana music.",
+  "description_zh": "播放奥法秘境音乐的异界音乐盒。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 800,
+  "tags": [
+    "music"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,51 @@
+{
+  "entity_id": "mwhaddon_boss_seekerOfDust_axe_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Valencent",
+  "name_zh": "融介",
+  "description_en": "Crush with crystals.",
+  "description_zh": "水晶之粉碎。",
+  "rarity": "rare",
+  "category": "axe",
+  "price": 1260,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 14.0,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 8
+        },
+        {
+          "item": "mwhaddon_misc_seekerShard",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

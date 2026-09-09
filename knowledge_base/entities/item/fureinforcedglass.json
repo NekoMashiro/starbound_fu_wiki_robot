@@ -1,0 +1,59 @@
+{
+  "entity_id": "fureinforcedglass",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reinforced Glass Block",
+  "name_zh": "强化玻璃块",
+  "description_en": "Plasteel reinforced glass.",
+  "description_zh": "塑钢强化玻璃",
+  "rarity": "common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuLabParts",
+          "probability": 0.0826,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

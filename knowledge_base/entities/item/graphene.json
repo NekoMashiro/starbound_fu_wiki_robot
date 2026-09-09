@@ -1,0 +1,178 @@
+{
+  "entity_id": "graphene",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Graphene",
+  "name_zh": "石墨烯",
+  "description_en": "This sheet of pure carbon is seemingly magical due to its extreme durability, flexibilty, and conductivity despite being only 1-atom thick!",
+  "description_zh": "尽管只有一个原子那么厚，这张纯碳薄片还是很神奇，因为它极其耐用，具有灵活性和导电性！",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 4
+        }
+      ],
+      "output_count": 4,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 11,
+        "examples": [
+          "cellulararmorhead",
+          "fugoldenhead",
+          "fuguardianhead",
+          "graphenehead",
+          "mobiushead"
+        ]
+      },
+      "chestarmour": {
+        "count": 9,
+        "examples": [
+          "cellulararmorchest",
+          "fugoldenchest",
+          "fuguardianchest",
+          "graphenechest",
+          "mobiuschest"
+        ]
+      },
+      "legarmour": {
+        "count": 9,
+        "examples": [
+          "cellulararmorpants",
+          "fugoldenlegs",
+          "fuguardianpants",
+          "graphenelegs",
+          "mobiuspants"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 6,
+        "examples": [
+          "electricslimetendrils2",
+          "fireslimetendrils2",
+          "iceslimetendrils2",
+          "impactslimetendrils2",
+          "poisonslimetendrils2"
+        ]
+      },
+      "whip": {
+        "count": 5,
+        "examples": [
+          "electricslimewhip2",
+          "fireslimewhip2",
+          "iceslimewhip2",
+          "poisonslimewhip2",
+          "slimewhip2"
+        ]
+      },
+      "broadsword": {
+        "count": 5,
+        "examples": [
+          "hylotlgreatscion",
+          "slimebroadsword",
+          "slimesword2",
+          "slimesword2",
+          "uraniumbroadsword"
+        ]
+      },
+      "shotgun": {
+        "count": 4,
+        "examples": [
+          "advalloyshotgun",
+          "fugaussshotgun",
+          "quietusshotgun",
+          "reapershotgun"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "advcircuit",
+          "funanofibre",
+          "precursorgel",
+          "teleportercore"
+        ]
+      }
+    },
+    "total": 110
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "fu_carbon",
+        "liquidwater"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "fu_carbon",
+        "liquidwater"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0252,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 5
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0015,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.001,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0252
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

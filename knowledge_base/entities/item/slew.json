@@ -1,0 +1,176 @@
+{
+  "entity_id": "slew",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carnivore Slew",
+  "name_zh": "食肉动物吃的肉糜",
+  "description_en": "A food that carnivores just love. Not for sapient ingestion. You'll get sick.\n-5% HP, Poisoned (1m)",
+  "description_zh": "只有肉食动物才爱吃的肉糜，千万别吃，否则会得病。\n-5% HP，中毒(持续1m)",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 2,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "boneboo",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "rawpoultry",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "rawribmeat",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "rawtentacle",
+          "count": 5
+        },
+        {
+          "item": "corn",
+          "count": 5
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "slew2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

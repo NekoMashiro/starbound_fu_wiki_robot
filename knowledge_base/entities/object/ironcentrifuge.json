@@ -1,0 +1,52 @@
+{
+  "entity_id": "ironcentrifuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Centrifuge",
+  "name_zh": "铁制离心机",
+  "description_en": "This powered upgrade of the wooden centrifuge more efficiently performs extraction involving liquids. Requires 4W power.",
+  "description_zh": "比木制离心机效率更高。\n需要4W电力。",
+  "rarity": "common",
+  "category": "^orange;Centrifuge^reset;",
+  "price": 200,
+  "tags": [
+    "hive",
+    "bees",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Centrifuge^reset;": {
+        "count": 1,
+        "examples": [
+          "industrialcentrifuge"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Iron Centrifuge.md",
+  "quality_tier": "S"
+}

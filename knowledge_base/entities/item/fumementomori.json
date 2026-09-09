@@ -1,0 +1,224 @@
+{
+  "entity_id": "fumementomori",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystalline Skull",
+  "name_zh": "水晶颅骨",
+  "description_en": "This mysterious skull leads you to the site of your most recent demise. [ Hold Button ] to teleport. Will consume skull.",
+  "description_zh": "这个神秘的头骨会把你带到你最近死亡的地方。 [长按]以传送。传送将消耗头骨。",
+  "rarity": "legendary",
+  "category": "Tool",
+  "price": 0,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Shrine of Lost Souls",
+      "station_zh": "迷失灵魂的圣殿",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "shrineoflostsouls"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 38,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0229,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0229
+      ]
+    },
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0042,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0041,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0011,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0008,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0042
+      ]
+    },
+    "monster_drops": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0026,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0026,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0017,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0026
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Crystalline Skull.md",
+  "quality_tier": "S"
+}

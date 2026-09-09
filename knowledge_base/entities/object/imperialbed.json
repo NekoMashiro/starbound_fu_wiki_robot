@@ -1,0 +1,54 @@
+{
+  "entity_id": "imperialbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Bed",
+  "name_zh": "甲虫床",
+  "description_en": "A solid bed with silky sheets.",
+  "description_zh": "有丝质床单的结实的床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 750,
+  "tags": [
+    "mantizi",
+    "mantizivillage",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

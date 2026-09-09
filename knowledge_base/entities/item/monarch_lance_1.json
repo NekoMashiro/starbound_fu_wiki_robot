@@ -1,0 +1,52 @@
+{
+  "entity_id": "monarch_lance_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Iustitia",
+  "name_zh": "正义女神",
+  "description_en": "A pale lance.",
+  "description_zh": "苍白的矛。",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "arcana_lumen",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "primaryAbilityType": "arcana_lance_combo",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 14
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

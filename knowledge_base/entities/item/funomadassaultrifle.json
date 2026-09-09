@@ -1,0 +1,67 @@
+{
+  "entity_id": "funomadassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nomad Combat Rifle",
+  "name_zh": "游猎战斗步枪",
+  "description_en": "The weapon of choice for desert wanderers.\r\nCounts as Hunting weapon\r\nCauses Radiation Burn",
+  "description_zh": "沙漠流浪者的首选武器。\n狩猎武器\n造成辐射烧伤",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 5,
+  "altAbilityType": "swtjc_ewg_repelgrenades",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "cupidsbow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cupid's Bow",
+  "name_zh": "丘比特的弓",
+  "description_en": "Arrows loosed from this bow provoke unbridled passion.",
+  "description_zh": "发射出能引发无限的热情的弓箭。",
+  "rarity": "Rare",
+  "category": "bow",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 7,
+  "critBonus": 3,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bow",
+          "count": 1
+        },
+        {
+          "item": "money",
+          "count": 150
+        }
+      ],
+      "output_count": 1,
+      "station": "Heart Forge",
+      "station_zh": "心型熔炉",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

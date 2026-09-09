@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_augment_halcyon",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gilded Key - Halcyon",
+  "name_zh": "金键 - 翠鸟",
+  "description_en": "Grants +10% resist to Fire, Electric, Ice and Poison, +100% health and -40% attack.",
+  "description_zh": "赋予+20%的烈焰、雷鸣、纱冰和蛊毒抗性，+100%最大生命但-40%攻击。",
+  "rarity": "Essential",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "fireblockaugment",
+          "count": 1
+        },
+        {
+          "item": "electricblockaugment",
+          "count": 1
+        },
+        {
+          "item": "iceblockaugment",
+          "count": 1
+        },
+        {
+          "item": "poisonblockaugment",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

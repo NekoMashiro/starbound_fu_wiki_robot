@@ -1,0 +1,93 @@
+{
+  "entity_id": "arcana_misc_soulseaSpirit",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Soulsea Spirit",
+  "name_zh": "魂海之灵",
+  "description_en": "A lost spirit of the sea of souls, dropped from Nightmist enemies.",
+  "description_zh": "灵魂之海中的迷失灵魂，由夜雾敌人掉落。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_mindlessSpirit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_mistRider_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_mistRider_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_mistRider_chest"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_watchbones",
+          "probability": 6.0,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_watchbones"
+          ]
+        },
+        {
+          "pool": "arcana_monsterdrops_skeleton",
+          "probability": 0.5,
+          "count": 1.5,
+          "monsters": [
+            "arcana_monster_skeleton",
+            "arcana_monster_watchbonesreg"
+          ]
+        },
+        {
+          "pool": "arcana_npcdrops_graverotten",
+          "probability": 0.4,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_cryptspurn",
+          "probability": 0.4,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.4,
+        6.0
+      ]
+    }
+  },
+  "wiki_ref": "Soulsea Spirit.md",
+  "quality_tier": "S"
+}

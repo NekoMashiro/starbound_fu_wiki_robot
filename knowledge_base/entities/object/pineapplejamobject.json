@@ -1,0 +1,41 @@
+{
+  "entity_id": "pineapplejamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pineapple Jam",
+  "name_zh": "菠萝果酱",
+  "description_en": "A super sweet jam made of pineapples.",
+  "description_zh": "由菠萝制成的超甜果酱。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 315,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pineapplejam",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "pineapplejam"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

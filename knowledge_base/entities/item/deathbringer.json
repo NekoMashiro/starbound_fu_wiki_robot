@@ -1,0 +1,95 @@
+{
+  "entity_id": "deathbringer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Deathbringer",
+  "name_zh": "死亡使者",
+  "description_en": "Bone and sinew and death. Also, smiles.",
+  "description_zh": "死亡总是伴随着骸骨。",
+  "rarity": "rare",
+  "category": "axe",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 13,
+  "critChance": 3,
+  "critBonus": 12,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 100
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0189,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0072,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0072,
+        0.0189
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0062,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

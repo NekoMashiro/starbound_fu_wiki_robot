@@ -1,0 +1,42 @@
+{
+  "entity_id": "isn_battery_t3_ceru",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Industrial Battery",
+  "name_zh": "工业电池",
+  "description_en": "A much improved battery perfect for basic industrial use. Scan for Info\nStorage Capacity: 4000J",
+  "description_zh": "升级的电力储存设备，完美应用于工业。\n扫描以查看更多信息\n储存电能：4000J",
+  "rarity": "Rare",
+  "category": "wire",
+  "price": 600,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 5
+        },
+        {
+          "item": "battery",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "thoriumrod",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

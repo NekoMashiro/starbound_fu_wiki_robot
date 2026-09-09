@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_back_aureaProstheticWing",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aurea Prosthetic Wing",
+  "name_zh": "恒金义翅",
+  "description_en": "An artifical pair of wing designed by Aurea Collective. Work as a Superstorm EPP with base healing over time.",
+  "description_zh": "恒金联合所设计的一对人造义体翅膀，能作为奔雷EPP的平替，同时提供一定的自然生命恢复。",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_back_aureaProstheticWingEX"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_2_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

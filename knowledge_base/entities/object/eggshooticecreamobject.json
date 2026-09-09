@@ -1,0 +1,42 @@
+{
+  "entity_id": "eggshooticecreamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Eggshoot Ice Cream",
+  "name_zh": "射弹果冰淇淋",
+  "description_en": "Ice cream with the delightful taste of custard.",
+  "description_zh": "有奶油冻味道的冰淇淋。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 315,
+  "tags": [
+    "cooking",
+    "parlor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "eggshooticecream",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "eggshooticecream"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

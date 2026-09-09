@@ -1,0 +1,61 @@
+{
+  "entity_id": "warpmanifold",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Warp Manifold",
+  "name_zh": "曲率核心",
+  "description_en": "A key component in FTL drives.",
+  "description_zh": "FTL引擎的关键组件。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 50
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "fu_ftl_human",
+          "fu_ftldrivemk1a",
+          "fu_ftldrivemk1b",
+          "fu_ftldrivemk1c",
+          "fu_ftldrivesmall"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechbodyfuorbus"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

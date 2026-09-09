@@ -1,0 +1,53 @@
+{
+  "entity_id": "horizon_door_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Necroium Door",
+  "name_zh": "死金门",
+  "description_en": "A large door made from necroium.",
+  "description_zh": "一扇死金制成的大门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 200,
+  "tags": [
+    "door",
+    "horizon"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

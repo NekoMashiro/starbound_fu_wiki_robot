@@ -1,0 +1,39 @@
+{
+  "entity_id": "isn_windarray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wind Turbine",
+  "name_zh": "风力涡轮机",
+  "description_en": "Uses wind to generate electricity. Can be unreliable, but exceptional when you have ample wind. Can generate up to 12W.",
+  "description_zh": "可以利用风力发电。可能不太可靠，但有足够的风时例外。在最佳条件下可产生最高12W电力。",
+  "rarity": "common",
+  "category": "wire",
+  "price": 2500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        },
+        {
+          "item": "ff_silicon",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Wind Turbine.md",
+  "quality_tier": "A"
+}

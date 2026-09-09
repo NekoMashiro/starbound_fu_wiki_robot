@@ -1,0 +1,47 @@
+{
+  "entity_id": "paintingrandom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Painting",
+  "name_zh": "绘画",
+  "description_en": "Your imagination has conjured up this artistic piece.",
+  "description_zh": "你的想象力生出了这件艺术作品。",
+  "rarity": "rare",
+  "category": "mysteriousReward",
+  "price": 566,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "canvas",
+          "count": 2
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        },
+        {
+          "item": "reddye",
+          "count": 1
+        },
+        {
+          "item": "greendye",
+          "count": 1
+        },
+        {
+          "item": "bluedye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Painting Easel",
+      "station_zh": "画架",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Painting.md",
+  "quality_tier": "A"
+}

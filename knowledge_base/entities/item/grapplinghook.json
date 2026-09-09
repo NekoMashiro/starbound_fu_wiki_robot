@@ -1,0 +1,78 @@
+{
+  "entity_id": "grapplinghook",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Grappling Hook",
+  "name_zh": "抓钩",
+  "description_en": "Oh my god, whee! This is so fun!",
+  "description_zh": "我的天呀！这个太好玩啦！",
+  "rarity": "Legendary",
+  "category": "Tool",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 20
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "climbingrope",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_grapple",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

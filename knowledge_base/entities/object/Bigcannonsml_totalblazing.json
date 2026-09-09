@@ -1,0 +1,30 @@
+{
+  "entity_id": "Bigcannonsml_totalblazing",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Blast Cannon Mount",
+  "name_zh": "先驱爆裂加农炮炮座",
+  "description_en": "Ancient. Probably quite powerful if it actually worked. It doesn't.",
+  "description_zh": "非常古老的东西。如果它们真的工作的话，大概会非常有用……如果的话。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 22000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0734,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

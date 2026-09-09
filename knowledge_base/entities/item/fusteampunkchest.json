@@ -1,0 +1,74 @@
+{
+  "entity_id": "fusteampunkchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Steampunk Coat",
+  "name_zh": "蒸汽朋克护甲",
+  "description_en": "Set Bonuses:\r\n +5% Speed\r\n Electric/Energy: Damage x1.2, Energy x1.25\r\n Immune: Oxygen, Burning, Electrified",
+  "description_zh": "套装奖励:\n +5% 速度\n 电系/能量武器: 伤害x1.2, 能量x1.25\n 免疫: 窒息, 烧伤, 带电",
+  "rarity": "uncommon",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "staticcell",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0089,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0056,
+        0.0089
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "whitespineshell",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Whitespine Shell",
+  "name_zh": "白棘壳",
+  "description_en": "Immune: Sulphuric Acid: 2m",
+  "description_zh": "免疫: 硫酸: 2m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "champagne",
+          "winebottle"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "whitespine",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

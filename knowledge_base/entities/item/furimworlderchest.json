@@ -1,0 +1,51 @@
+{
+  "entity_id": "furimworlderchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rimworlder's Duster",
+  "name_zh": "环界风衣",
+  "description_en": "Set Bonuses:\r\n Immune: Stun, Electricity, Sandstorms\r\n Lance/(Short)Spear/Sniper: Damage x1.25\r\n Bow: +3% Crit Chance, Damage x1.2, -6 Energy Per Shot, +15% Draw Speed",
+  "description_zh": "套装奖励:\n 免疫: 击晕, 感电, 沙尘暴 \n 长枪/(短)矛/狙击枪: 伤害 x1.25\n 弓: +3% 暴击几率, 伤害 x1.2, -6每击能量消耗, +15% 上弦速度",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 515,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuflesh",
+          "count": 3
+        },
+        {
+          "item": "silk",
+          "count": 4
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 175
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

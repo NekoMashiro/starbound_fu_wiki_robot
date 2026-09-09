@@ -1,0 +1,57 @@
+{
+  "entity_id": "swarmgun2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutaswarm Ejector",
+  "name_zh": "多蜂群喷射器",
+  "description_en": "Thrice as many bugs. The enemy will just love it!\r\nCauses stings, bio-ooze and weakening",
+  "description_zh": "三倍的虫子。你的敌人们会喜欢的！\n附加蜂蜇、生物软泥、虚弱效果",
+  "rarity": "Legendary",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 4,
+  "critChance": 5,
+  "critBonus": 5,
+  "altAbilityType": "lance",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swarmgun",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 6
+        },
+        {
+          "item": "corruptionseed",
+          "count": 4
+        },
+        {
+          "item": "unknowngene",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "blisterhelmalt",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pustule Helm",
+  "name_zh": "脓包头盔",
+  "description_en": "Set Bonuses:\r\n Glow\r\n Resist: Mental 20%\r\n Bio/Blister Weapons: +4% Crit Chance and Damage x1.15\r\n Immune: Poisoned, Proto-Poison, Pus, Liq.Nitrogen",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blisterbushplantfood",
+          "count": 8
+        },
+        {
+          "item": "blisterhelm",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

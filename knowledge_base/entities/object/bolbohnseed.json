@@ -1,0 +1,56 @@
+{
+  "entity_id": "bolbohnseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bolbohn Seed",
+  "name_zh": "波庞薯种子",
+  "description_en": "An oddly shaped plant with a similarly odd taste.",
+  "description_zh": "这株奇怪的植物的根茎吃起来味道怪怪的。可以收获波庞薯，食用后会提高暴击几率。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 29
+        },
+        {
+          "item": "wheatseed",
+          "count": 3
+        },
+        {
+          "item": "petalyellow",
+          "count": 9
+        },
+        {
+          "item": "liquidwater",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bolbohnHarvest",
+          "probability": 1.7412,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

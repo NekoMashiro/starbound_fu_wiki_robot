@@ -1,0 +1,48 @@
+{
+  "entity_id": "misc_katana_viridescentKatana",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Viridescent Katana",
+  "name_zh": "翠毒妖刀",
+  "description_en": "An alien sword forged from toxic material.",
+  "description_zh": "使用剧毒材料锻造的异界之刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "poison",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 8.2,
+  "primaryAbilityType": "arcana_katana_combo",
+  "altAbilityType": "parry",
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_viridescentSabre"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

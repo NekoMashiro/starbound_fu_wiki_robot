@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_crudeshotgun",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Crude Shotgun",
+  "name_zh": "粗糙霰弹枪",
+  "description_en": "A makeshift shotgun made from scrap parts, not very durable.",
+  "description_zh": "一把用废料打造的临时霰弹枪，不是很牢靠。",
+  "rarity": "Common",
+  "category": "assaultRifle",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "scavengers"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11.4,
+  "altAbilityType": "piercingshot",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_scavdiver",
+          "probability": 0.0263,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

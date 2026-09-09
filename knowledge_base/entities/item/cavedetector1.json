@@ -1,0 +1,53 @@
+{
+  "entity_id": "cavedetector1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cave Detector",
+  "name_zh": "洞穴探测器",
+  "description_en": "Emits pulses to analyse the composition of nearby caverns. Upgrade using your Tricorder.",
+  "description_zh": "发生脉冲分析附近洞穴的组成。\n可在三度仪进行升级。",
+  "rarity": "uncommon",
+  "category": "detector",
+  "price": 1500,
+  "tags": [
+    "tool",
+    "upgradeableTool",
+    "detector"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "cavedetector2icon.png",
+    "seed": "",
+    "shortdescription": "洞穴探测器 MKII ^cyan;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Cave Detector.md",
+  "quality_tier": "A"
+}

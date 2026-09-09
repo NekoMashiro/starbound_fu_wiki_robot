@@ -1,0 +1,57 @@
+{
+  "entity_id": "quietusstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Staff",
+  "name_zh": "寂灭法杖",
+  "description_en": "Oooh, Pretty! Fires Sharp blades.",
+  "description_zh": "哈，真是太棒了！发射锋利的刃片。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "plasmabladebarrage",
+  "altAbilityType": "healingzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 6
+        },
+        {
+          "item": "blooddiamond",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Quietus Staff.md",
+  "quality_tier": "A"
+}

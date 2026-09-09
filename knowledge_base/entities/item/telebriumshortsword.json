@@ -1,0 +1,51 @@
+{
+  "entity_id": "telebriumshortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Sword",
+  "name_zh": "月海剑",
+  "description_en": "Endowed with energies of the moon.",
+  "description_zh": "具有月球能量的武器。",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo2",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

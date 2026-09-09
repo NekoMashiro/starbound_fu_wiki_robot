@@ -1,0 +1,58 @@
+{
+  "entity_id": "psionicloader",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionic Focus Loader",
+  "name_zh": "灵力光束弹舱充能器",
+  "description_en": "Loads Psionic Focii.",
+  "description_zh": "装载灵力光束的弹舱。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 750,
+  "tags": [
+    "combat",
+    "madness",
+    "psionics"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psionicenergy",
+          "count": 10
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "shadowgasliquid",
+          "count": 10
+        },
+        {
+          "item": "copperbar",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Psionics Table",
+          "name_zh": "灵能工作台"
+        },
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

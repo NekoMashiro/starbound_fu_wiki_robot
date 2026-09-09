@@ -1,0 +1,60 @@
+{
+  "entity_id": "chainstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chain Staff",
+  "name_zh": "锯棍",
+  "description_en": "It slices, it dices...and acts as a makeshift walking stick.\r\nInflicts bleeding",
+  "description_zh": "它切片，切块。。。还充当临时拐杖。\n造成出血效果",
+  "rarity": "legendary",
+  "category": "Quarterstaff",
+  "price": 3800,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "chainsword"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fuchainflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquiddeuterium",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

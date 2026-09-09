@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_armor_evanescent_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Evanescent Armor",
+  "name_zh": "瞬刹盔甲",
+  "description_en": "A moment of red in the eye of infinitum aeternum. Has minor protection.",
+  "description_zh": "无尽永恒之眼中一抹片刻的红色。防御更少。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_armor_aeternus_chest",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 10
+        },
+        {
+          "item": "essence",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Armor Altering Anvil",
+      "station_zh": "盔甲魔化砧",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

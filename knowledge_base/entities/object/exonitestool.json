@@ -1,0 +1,39 @@
+{
+  "entity_id": "exonitestool",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Stool",
+  "name_zh": "长石板凳",
+  "description_en": "A stool made from exonite.",
+  "description_zh": "一个长石制成的凳子",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elduukhar",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 5
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

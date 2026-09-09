@@ -1,0 +1,81 @@
+{
+  "entity_id": "precursorlight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Wall Light",
+  "name_zh": "先驱壁灯",
+  "description_en": "A wall light.",
+  "description_zh": "一盏壁灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "precursor",
+    "outpost",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 2
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 2
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursorlight"
+  ],
+  "quality_tier": "S"
+}

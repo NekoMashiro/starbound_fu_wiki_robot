@@ -1,0 +1,77 @@
+{
+  "entity_id": "armcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arm Cannon",
+  "name_zh": "臂炮",
+  "description_en": "Attaches to the forearm. Fires energy blasts.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "可装在手臂上，发射出能量型子弹。\n能量武器",
+  "rarity": "common",
+  "category": "armcannon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "energy"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "armcannon": {
+        "count": 5,
+        "examples": [
+          "armcannonexplosive",
+          "armcannonfire",
+          "armcannonice",
+          "armcannonproto",
+          "armcannonshock"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

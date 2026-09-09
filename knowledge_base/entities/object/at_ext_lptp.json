@@ -1,0 +1,36 @@
+{
+  "entity_id": "at_ext_lptp",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Titancorp Laptop",
+  "name_zh": "[泰坦拓展]泰坦重工笔记本电脑",
+  "description_en": "A mobile personal computer. Used for accepting contracts.",
+  "description_zh": "便携式个人电脑，可以用来接取合约。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "mwhaddon_misc_mechComponent_3",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Elaborate Armor Plate",
+  "name_zh": "精良装甲板",
+  "description_en": "A well-made component useful for crafting mech bodies.",
+  "description_zh": "制作精良的部件，可用于制作机甲机体。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 600,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Advanced Mech Station",
+      "station_zh": "高级机甲制造台",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Mech Parts Crafting",
+          "name_zh": "机甲部件合成"
+        },
+        {
+          "name": "mwhaddon_crafting_mechCrafting.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 6,
+        "examples": [
+          "mwhaddon_mech_body_erebus",
+          "mwhaddon_mech_body_peregrine",
+          "mwhaddon_mech_body_raven",
+          "mwhaddon_mech_body_rhinosteel",
+          "mwhaddon_mech_body_steelblade"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "pushbackaugment2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Repulsor Field II",
+  "name_zh": "EPP模块（排斥力场II）",
+  "description_en": "Keeps enemies away from you with a 20ms pulsing electric field\r\n22 Knockback, 1 Damage",
+  "description_zh": "击退20ms脉冲力场范围以内的敌对目标。\n击退距离：22，伤害：1",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "currentcornseed",
+          "count": 24
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "advcircuit",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

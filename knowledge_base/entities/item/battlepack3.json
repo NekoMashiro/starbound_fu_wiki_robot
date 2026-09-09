@@ -1,0 +1,54 @@
+{
+  "entity_id": "battlepack3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battle Pack III",
+  "name_zh": "作战用背包 III",
+  "description_en": "Damage x1.20. +16 Health, +16 Energy, +10 Shield Bash.",
+  "description_zh": "伤害x1.20。+16HP，+16能量，+10盾牌反伤。",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "ff_mercury",
+          "count": 48
+        },
+        {
+          "item": "mutagene2",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

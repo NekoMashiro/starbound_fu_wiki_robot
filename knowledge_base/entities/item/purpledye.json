@@ -1,0 +1,113 @@
+{
+  "entity_id": "purpledye",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Purple Dye",
+  "name_zh": "紫色染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。",
+  "rarity": "Common",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reddye",
+          "count": 1
+        },
+        {
+          "item": "bluedye",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "arcana_lunar_deco_1",
+          "arcana_lunar_deco_15",
+          "arcana_lunar_walldeco_1",
+          "arcana_lunar_walldeco_3",
+          "cultistbannerlarge"
+        ]
+      },
+      "door": {
+        "count": 4,
+        "examples": [
+          "cultistairlockdoor",
+          "cultistairlockhatch",
+          "cultistdoor",
+          "cultistdoor"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "arcana_lunar_chair_3",
+          "glowbed"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "arcana_lunar_light_4",
+          "sparklelavalamp4"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "crayonpurpleback"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "cultistchestlarge"
+        ]
+      },
+      "toy": {
+        "count": 1,
+        "examples": [
+          "paintgunpurple"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "xelslimegrapplinghook"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.3158,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_magatamaLycium",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Magatama Lycium",
+  "name_zh": "勾玉枸杞",
+  "description_en": "A jewel-like plant.\n 20/50/80 seconds later after drinking, +10%/15%/25% Damage.",
+  "description_zh": "宝玉一般的植物。\n饮用的20/50/80秒后若茶杯仍处于冷却期间，分别获得+10%/+15%/+25%伤害。",
+  "rarity": "essential",
+  "category": "tradingCard",
+  "price": 750,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t5",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0375,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0375,
+        0.25
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

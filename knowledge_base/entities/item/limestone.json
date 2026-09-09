@@ -1,0 +1,87 @@
+{
+  "entity_id": "limestone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Limestone",
+  "name_zh": "石灰石",
+  "description_en": "Rough, unrefined limestone.\nExtractable, Crushable.",
+  "description_zh": "未经加工的粗糙的石灰石。\n可萃取，可粉碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "cavebed",
+          "cavechair"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "cavechest"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "cavelamp"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "sand"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "sand"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "sand"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stoneCaveChestTreasure",
+          "probability": 0.5412,
+          "count": 15.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoStoneCaveTreasure",
+          "probability": 0.3517,
+          "count": 15
+        },
+        {
+          "pool": "stoneCaveTreasure",
+          "probability": 0.2941,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        0.2941,
+        0.3517
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

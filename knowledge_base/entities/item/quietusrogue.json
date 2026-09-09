@@ -1,0 +1,59 @@
+{
+  "entity_id": "quietusrogue",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rogue's Blade",
+  "name_zh": "盗贼匕首",
+  "description_en": "A fine quietus weapon.",
+  "description_zh": "一把优良的寂灭武器。",
+  "rarity": "rare",
+  "category": "dagger",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "blooddiamond",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

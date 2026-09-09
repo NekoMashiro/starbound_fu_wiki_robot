@@ -1,0 +1,52 @@
+{
+  "entity_id": "exousia_police_blastRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EPF Roteline Charge Rifle",
+  "name_zh": "EPF秩系充能步枪",
+  "description_en": "A plasma charge rifle used by Exousian policing units. Can be charged for more firepower.",
+  "description_zh": "威权帝国警队使用的等离子充能步枪。蓄力以增强火力。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 8.8,
+  "primaryAbilityType": "arcana_ranged_ability_chargedShot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_enartz",
+          "count": 16
+        },
+        {
+          "item": "arcana_misc_preceptDongle",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

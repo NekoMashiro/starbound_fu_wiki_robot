@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightaraxedisplay",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weapon Display",
+  "name_zh": "武器展示",
+  "description_en": "These display axes look very sharp.",
+  "description_zh": "这些展示的斧子看起来非常锋利。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "nightar",
+    "combat",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        },
+        {
+          "item": "obsidian",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

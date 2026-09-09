@@ -1,0 +1,50 @@
+{
+  "entity_id": "isogenfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Fridge",
+  "name_zh": "寒霜冰箱",
+  "description_en": "A very cold fridge. It's almost a freezer.",
+  "description_zh": "非常冷的冰箱。它几乎是一个冰箱。",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 180,
+  "tags": [
+    "isogen",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 5
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 10
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

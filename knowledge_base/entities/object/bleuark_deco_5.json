@@ -1,0 +1,52 @@
+{
+  "entity_id": "bleuark_deco_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bleuark Pillar",
+  "name_zh": "海舟支柱",
+  "description_en": "A small pillar made from seastone.",
+  "description_zh": "以海石制造的小支柱。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "atlantic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bleuark_tile1",
+          "count": 20
+        },
+        {
+          "item": "bleuark_tile8",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Bleuark Crafting Table",
+      "station_zh": "海舟制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

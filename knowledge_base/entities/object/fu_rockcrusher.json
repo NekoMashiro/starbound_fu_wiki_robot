@@ -1,0 +1,44 @@
+{
+  "entity_id": "fu_rockcrusher",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rock Crusher",
+  "name_zh": "碎岩机",
+  "description_en": "A device for pulverizing rocky material into useful items. Requires 30W power.",
+  "description_zh": "一台将岩石材料粉碎成有用物品的装置。\n需要30W电力。",
+  "rarity": "common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 500,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "fu_rockbreaker",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Rock Crusher.md",
+  "quality_tier": "A"
+}

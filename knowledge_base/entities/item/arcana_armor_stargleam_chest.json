@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_stargleam_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Stargleam Coverings",
+  "name_zh": "星烁遮风",
+  "description_en": "A bygone outfit, once worn by Arcanian starfarers.",
+  "description_zh": "现已消失的服装，曾由守秘族星旅者所穿。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 80,
+  "tags": [],
+  "level": 1,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_cosmeticchest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

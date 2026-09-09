@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_astral_storage_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Desk",
+  "name_zh": "群星办公桌",
+  "description_en": "A golden desk fit for an astrologist.",
+  "description_zh": "适合占星师的金色办公桌。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "astral",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

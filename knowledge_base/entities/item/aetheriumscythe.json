@@ -1,0 +1,61 @@
+{
+  "entity_id": "aetheriumscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Scythe",
+  "name_zh": "阳清镰刀",
+  "description_en": "Legendary death-dealer.\r\nEradicating Alt-Fire",
+  "description_zh": "传奇的致死武器。\n湮灭性的次要攻击",
+  "rarity": "legendary",
+  "category": "scythe",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "melee",
+    "cosmic",
+    "scythe",
+    "upgradeableWeapon",
+    "aetherium"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 11.7,
+  "critChance": 4,
+  "critBonus": 14,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 12
+        },
+        {
+          "item": "densiniumbar",
+          "count": 7
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

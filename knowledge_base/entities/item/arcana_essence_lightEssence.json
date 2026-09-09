@@ -1,0 +1,90 @@
+{
+  "entity_id": "arcana_essence_lightEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Light Essence",
+  "name_zh": "光芒精纯",
+  "description_en": "A solidified essence of the radiant light.",
+  "description_zh": "辉煌光芒之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonEliteBadge",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "arcana_laserminer_advancedMiningLaser"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "artifact_greatspear_luxiant"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_discus"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_fairi",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_fairi",
+            "arcana_monster_swordConjurer"
+          ]
+        },
+        {
+          "pool": "arcana_monsterdrops_trispiel",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_trispiel"
+          ]
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wiki_ref": "Light Essence.md",
+  "quality_tier": "S"
+}

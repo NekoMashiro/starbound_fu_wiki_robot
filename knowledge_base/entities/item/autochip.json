@@ -1,0 +1,47 @@
+{
+  "entity_id": "autochip",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Auto Chip",
+  "name_zh": "载具芯片",
+  "description_en": "A crucial component of vehicle repair.",
+  "description_zh": "用来维修载具的关键零件。",
+  "rarity": "Rare",
+  "category": "upgradeComponent",
+  "price": 100,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "upgradeComponent": {
+        "count": 1,
+        "examples": [
+          "autodrive"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fossilBonusTreasure",
+          "probability": 0.1579,
+          "count": 1
+        },
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0578,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0578,
+        0.1579
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

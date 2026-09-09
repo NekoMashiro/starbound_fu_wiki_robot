@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_food_bambooShootSoup",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Bomboo Shoot Soup",
+  "name_zh": "腌笃鲜",
+  "description_en": "[Voyage] A speciality of Zhushi Pond with fresh and pickled streaky meat.\n\n+20% Max Energy 3 min.\n+20% Max Health 3 min.\n+Jump Boost 3 min.",
+  "description_zh": "[远行]深受众人喜爱的竹石潭特产。\n\n3分钟+20%最大能量\n3分钟+20%最大生命\n3分钟跳跃提升",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 550,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "rawbacon",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_farmable_bambooShoot",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

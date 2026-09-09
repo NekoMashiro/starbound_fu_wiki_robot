@@ -1,0 +1,36 @@
+{
+  "entity_id": "fuheataugment2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heat Shield II",
+  "name_zh": "EPP模块（炎热护盾 II）",
+  "description_en": "An EPP module that repels heat over 500 Kelvin. Immune: Extreme Heat",
+  "description_zh": "一个能够抵御超过500开氏度的高温的EPP模块。\n免疫：极端炎热",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 777,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

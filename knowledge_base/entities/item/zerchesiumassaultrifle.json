@@ -1,0 +1,60 @@
+{
+  "entity_id": "zerchesiumassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Assault Rifle",
+  "name_zh": "高熔点突击步枪",
+  "description_en": "Put your enemies on ice.\r\nGrenade Launcher",
+  "description_zh": "冻住，不许走！\n榴弹发射器",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon",
+    "zerchesium"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.2,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "iongrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

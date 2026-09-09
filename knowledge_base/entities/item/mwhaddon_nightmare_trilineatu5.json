@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_nightmare_trilineatu5",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Trilineatu5",
+  "name_zh": "基里纳图5",
+  "description_en": "Smash their pride, employee.",
+  "description_zh": "粉碎他们的骄傲，雇员。",
+  "rarity": "essential",
+  "category": "assaultRifle",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 12,
+  "altAbilityType": "spray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_1",
+          "count": 8
+        },
+        {
+          "item": "misc_assaultRifle_tamulus",
+          "count": 1
+        },
+        {
+          "item": "workshop_assaultRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

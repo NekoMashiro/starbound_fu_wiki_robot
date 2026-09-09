@@ -1,0 +1,83 @@
+{
+  "entity_id": "snorkelhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snorkel",
+  "name_zh": "呼吸管",
+  "description_en": "Most commonly used for shallow swimming.",
+  "description_zh": "常被用于浅水游泳。",
+  "rarity": "Uncommon",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 7,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmission1Rare5",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.2065,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0708,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0708,
+        0.2065
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.1449,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxsnorktopTreasure",
+          "probability": 0.0421,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0355,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0355,
+        0.1449
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxsnorktopHunting",
+          "probability": 0.0726,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

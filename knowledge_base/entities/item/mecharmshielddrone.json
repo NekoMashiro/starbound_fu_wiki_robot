@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmshielddrone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "War Ward Mech Arm",
+  "name_zh": "战地机甲手臂",
+  "description_en": "Launches 4 drones which project a defensive energy shield.",
+  "description_zh": "发射四台能投射防御能量盾的无人机。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 900,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 30
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

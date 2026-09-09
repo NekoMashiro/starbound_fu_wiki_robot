@@ -1,0 +1,59 @@
+{
+  "entity_id": "redhoneycombmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Honey Material",
+  "name_zh": "红色蜂蜜材质",
+  "description_en": "Waxy!\nExtractable.",
+  "description_zh": "蜂蜡！\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_liquidhoney",
+          "count": 1
+        },
+        {
+          "item": "liquidblood",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "evilbeeLoot",
+          "probability": 0.1537,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

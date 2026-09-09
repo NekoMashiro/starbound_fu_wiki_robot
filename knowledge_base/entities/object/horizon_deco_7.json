@@ -1,0 +1,77 @@
+{
+  "entity_id": "horizon_deco_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Necroium Furnace",
+  "name_zh": "死金熔炉",
+  "description_en": "A decorative furnace redesigned from an Arcanium Furnace, used by the Horizon to efficiently smelt Necroium.",
+  "description_zh": "秘钢魔炉再设计后的装饰性熔炉，被地平线军队用以高效冶炼死金。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 800,
+  "tags": [
+    "crafting",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_crafting_horizonFurnace"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

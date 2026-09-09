@@ -1,0 +1,71 @@
+{
+  "entity_id": "hailstrike",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hail Strike",
+  "name_zh": "散刺",
+  "description_en": "Harness the power of the cosmos, in machinegun form.\r\nHoming energy weapon.\r\nAlt ignores walls",
+  "description_zh": "通过这把机枪驾驭宇宙之力吧。\n带有追踪性的能量武器\n次要攻击可穿墙",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 2,
+  "critBonus": 2,
+  "altAbilityType": "hailstrikealt",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 7
+        },
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "vehicleController": {
+        "count": 1,
+        "examples": [
+          "fusubcontroller5"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

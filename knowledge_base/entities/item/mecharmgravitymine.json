@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmgravitymine",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gravity Mine Mech Arm",
+  "name_zh": "重力雷机甲臂",
+  "description_en": "Fires a remote mine that creates a tiny gravitational singularity.",
+  "description_zh": "发射一个可以制造微型引力奇点的远程地雷。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 30
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "enrichedplutonium",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,68 @@
+{
+  "entity_id": "lactariusindigoseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lactarius Indigo",
+  "name_zh": "靛兰乳菇孢子",
+  "description_en": "Resistant to shadow effects.",
+  "description_zh": "可以收获靛兰乳菇，食用后会提高暗影抗性，免疫暗影污染。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 95
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "cell_spliced",
+          "count": 1
+        },
+        {
+          "item": "fleshstrand",
+          "count": 20
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "mutagene3",
+          "count": 1
+        },
+        {
+          "item": "shroom",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lactariusindigoHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

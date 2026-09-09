@@ -1,0 +1,59 @@
+{
+  "entity_id": "durasteelshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Shortspear",
+  "name_zh": "耐钢短矛",
+  "description_en": "Doesn't feel so short to enemies.\r\nHunting weapon",
+  "description_zh": "不要觉得它很短。\n狩猎武器",
+  "rarity": "Uncommon",
+  "category": "shortspear",
+  "price": 550,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

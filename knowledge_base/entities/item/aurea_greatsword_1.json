@@ -1,0 +1,44 @@
+{
+  "entity_id": "aurea_greatsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Praepolleo",
+  "name_zh": "光耀执政官",
+  "description_en": "The ancient knight, Graliaen, once maintained order with the unwavering edge of the Divine Blade. Alt unlocks the blade's power.",
+  "description_zh": "古代骑士，格拉恩，曾由这把坚定不移的神圣之刃维持秩序特殊攻击以释放剑的力量。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "greatsword"
+  ],
+  "elementalType": "arcana_light",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.4,
+  "primaryAbilityType": "arcana_greatsword_combo",
+  "altAbilityType": "神圣之刃",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

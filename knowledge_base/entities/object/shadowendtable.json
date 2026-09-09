@@ -1,0 +1,49 @@
+{
+  "entity_id": "shadowendtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy End Table",
+  "name_zh": "阴影茶几",
+  "description_en": "A small end table. It watches you read.",
+  "description_zh": "一个小型的茶几。他在注视你的阅读。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 15,
+  "tags": [
+    "shadow",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 15
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

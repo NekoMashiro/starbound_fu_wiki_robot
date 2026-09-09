@@ -1,0 +1,77 @@
+{
+  "entity_id": "bonebooseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Boneboo Seed",
+  "name_zh": "骨竹种子",
+  "description_en": "Boneboo, a good source of calcium.",
+  "description_zh": "骨竹，钙质的优良来源。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 36
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 12
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "pasakavineseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingbones",
+          "probability": 0.1333,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bonebooHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

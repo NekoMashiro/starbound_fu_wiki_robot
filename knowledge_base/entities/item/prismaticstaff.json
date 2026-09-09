@@ -1,0 +1,65 @@
+{
+  "entity_id": "prismaticstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystalshard Staff",
+  "name_zh": "水晶碎片法杖",
+  "description_en": "Shines with shifting color variations. Sharp and Weakening.",
+  "description_zh": "闪耀着不断变化的色彩。\n锋利却脆弱。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "plasmabladebarrage",
+  "altAbilityType": "crystalstorm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 16
+        },
+        {
+          "item": "moonstonebar",
+          "count": 8
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 8
+        },
+        {
+          "item": "diamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

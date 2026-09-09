@@ -1,0 +1,56 @@
+{
+  "entity_id": "vai",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vai",
+  "name_zh": "瓦伊",
+  "description_en": "Glistens like diamond, cuts like glass.\r\nInflicts Caliginous Gas",
+  "description_zh": "像钻石一样闪闪发光，砍起来像玻璃一样。\n附加暗影气体效果",
+  "rarity": "legendary",
+  "category": "longsword",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "longsword",
+    "upgradeableWeapon",
+    "crystal"
+  ],
+  "elementalType": "ice",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.52,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

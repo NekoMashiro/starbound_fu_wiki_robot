@@ -1,0 +1,59 @@
+{
+  "entity_id": "spookitaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Spookit Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"When it closes its eyes it becomes immune to attacks by entering a different plane of existence.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spookitVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "spookitTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "doomspirit",
+            "firespookit",
+            "pandorasboxerchit",
+            "spookit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "spookitHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "firespookit",
+            "pandorasboxerchit",
+            "spookit"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

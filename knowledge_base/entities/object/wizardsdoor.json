@@ -1,0 +1,50 @@
+{
+  "entity_id": "wizardsdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wizard's Door",
+  "name_zh": "巫师之门",
+  "description_en": "The sort of door you'd see leading to a wizard's study.",
+  "description_zh": "你会看到通往巫师书房的那种门。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 0,
+  "tags": [
+    "door",
+    "wizard"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wizardset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

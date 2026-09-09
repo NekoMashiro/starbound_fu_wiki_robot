@@ -1,0 +1,61 @@
+{
+  "entity_id": "coralstinger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coral Stingblade",
+  "name_zh": "珊瑚刺针宽剑",
+  "description_en": "Jagged and not-too-friendly.\r\nInflicts Poisoned",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "coral",
+    "poison"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.75,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fuwaterslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 6
+        },
+        {
+          "item": "cellmatter",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,51 @@
+{
+  "entity_id": "miningverticaldoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mining Hatch",
+  "name_zh": "矿业舱门",
+  "description_en": "A vertical hatch doorway.",
+  "description_zh": "一扇垂直开口的舱门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 100,
+  "tags": [
+    "human",
+    "lunarbase",
+    "door",
+    "mining"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

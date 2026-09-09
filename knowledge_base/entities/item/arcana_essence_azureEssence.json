@@ -1,0 +1,110 @@
+{
+  "entity_id": "arcana_essence_azureEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Azure Essence",
+  "name_zh": "蔚蓝精纯",
+  "description_en": "A solidified essence of the azure stars.",
+  "description_zh": "蔚蓝星辰之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_essence_tripolarEssence",
+          "arcana_misc_terminalSigma",
+          "arcana_sigils_azureSigil"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "arcana_mwhaddon_healItem_4",
+          "mwhaddon_potion_fates"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "azure_assaultRifle_1",
+          "azure_assaultRifle_2"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_throwable_azureCrate",
+          "mwhaddon_throwable_azureVortex"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "azure_broadsword_1"
+        ]
+      },
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "azure_machinePistol_1"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "azure_machinePistol_2"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "azure_sniperRifle_1"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_smashables_azureEssence_small",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_smashables_azureEssence_medium",
+          "probability": 1.0,
+          "count": 1.5
+        },
+        {
+          "pool": "arcana_smashables_azureEssence_large",
+          "probability": 1.0,
+          "count": 2.5
+        },
+        {
+          "pool": "arcana_monsterdrops_azureGolem",
+          "probability": 0.28,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_azureGolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.28,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

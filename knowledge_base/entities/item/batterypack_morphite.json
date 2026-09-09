@@ -1,0 +1,69 @@
+{
+  "entity_id": "batterypack_morphite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Antimatter Energy Pack",
+  "name_zh": "反物质能量背包",
+  "description_en": "An advanced energy pack. Blocks electrical storms. Energy x1.2, +30% E. Regen, -15% E. Block, and a slight glow.",
+  "description_zh": "一个先进的能源背包。抵御雷电风暴。能量x1.2，+30%能量恢复速度，自带微弱的发光效果。",
+  "rarity": "rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 6
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "batterypack_protocyte",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "wretchel",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "batterypack_quantum"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

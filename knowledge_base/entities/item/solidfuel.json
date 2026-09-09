@@ -1,0 +1,222 @@
+{
+  "entity_id": "solidfuel",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Crystal Erchius Fuel",
+  "name_zh": "厄尔吉斯晶态燃料",
+  "description_en": "An unstable crystalline substance, mined from moons and used as FTL fuel.",
+  "description_zh": "开采于卫星的不稳定的结晶状物质，可用来当作FTL引擎燃料。",
+  "rarity": "Common",
+  "category": "fuel",
+  "price": 10,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 30
+        }
+      ],
+      "output_count": 105,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 35,
+        "examples": [
+          "fu_booster_large1",
+          "fu_booster_large2",
+          "fu_booster_large3",
+          "fu_booster_large4",
+          "fu_booster_large5"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_bar_luminariumBar",
+          "duskiline",
+          "fuelcatalyst",
+          "warpmanifold"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fu_ftldrivesmall_broken",
+          "fu_fueltank",
+          "fu_fueltank2"
+        ]
+      },
+      "container": {
+        "count": 2,
+        "examples": [
+          "fu_byosfuelhatch",
+          "fu_sciencefuelhatch"
+        ]
+      },
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "telebriummachinepistol"
+        ]
+      },
+      "Pistol": {
+        "count": 1,
+        "examples": [
+          "telebriumpistol"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "telebriumrifle"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "telebriumrocketlauncher"
+        ]
+      }
+    },
+    "total": 50
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_solidfuel",
+          "probability": 2.5,
+          "count": 139.7
+        },
+        {
+          "pool": "erchibuddrop",
+          "probability": 1.0,
+          "count": 10,
+          "monsters": [
+            "erchibud",
+            "erchibudbaby"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.3383,
+          "count": 139.7
+        }
+      ],
+      "prob_range": [
+        0.3383,
+        2.5
+      ]
+    },
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "pandorasboxerchiusorelitTreasure",
+          "probability": 1.0001,
+          "count": 10.2,
+          "monsters": [
+            "pandorasboxerchiusorelit",
+            "pandorasboxerchiusorelitcaptive"
+          ]
+        },
+        {
+          "pool": "pandorasboxErchiusOreSmallestTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxErchiusOreSmallerTreasure",
+          "probability": 1.0,
+          "count": 5
+        },
+        {
+          "pool": "pandorasboxErchiusOreSmallTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "pandorasboxErchiusOreMediumTreasure",
+          "probability": 1.0,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0001
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxerchiusorelitHarvest",
+          "probability": 1.0001,
+          "count": 10.2
+        },
+        {
+          "pool": "erchibudHarvest",
+          "probability": 0.6,
+          "count": 12
+        }
+      ],
+      "prob_range": [
+        0.6,
+        1.0001
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_toxicMoon",
+      "weight": 0.9
+    },
+    {
+      "biome": "icemoon",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_frostMoon",
+      "weight": 0.9
+    },
+    {
+      "biome": "moon_toxic",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_frostMoonUnderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "moon_stone",
+      "weight": 0.9
+    },
+    {
+      "biome": "moon",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_redMoonUnderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "icemoonunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "moon_volcanic",
+      "weight": 0.9
+    }
+  ],
+  "wiki_ref": "Crystal Erchius Fuel.md",
+  "quality_tier": "S"
+}

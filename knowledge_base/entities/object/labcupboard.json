@@ -1,0 +1,46 @@
+{
+  "entity_id": "labcupboard",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Cabinet",
+  "name_zh": "实验室柜子",
+  "description_en": "This cabinet is sleek and sturdy.",
+  "description_zh": "这个柜子既时尚又坚固。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 160,
+  "tags": [
+    "fu",
+    "science",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

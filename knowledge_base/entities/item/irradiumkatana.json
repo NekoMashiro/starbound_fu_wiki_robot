@@ -1,0 +1,58 @@
+{
+  "entity_id": "irradiumkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Katana",
+  "name_zh": "镭制武士刀",
+  "description_en": "Radioactive stabby fun. Two-handed.\r\nInflicts Rad-Burn\r\n5 hit combo",
+  "description_zh": "放射性刺伤的乐趣。双手武器。\n辐射燃烧效果 \n 5连击",
+  "rarity": "rare",
+  "category": "katana",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 6.7,
+  "critChance": 1,
+  "critBonus": 12,
+  "primaryAbilityType": "katanacombo2h",
+  "altAbilityType": "parrykatana",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 12
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

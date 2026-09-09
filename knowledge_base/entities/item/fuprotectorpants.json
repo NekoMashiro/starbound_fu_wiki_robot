@@ -1,0 +1,50 @@
+{
+  "entity_id": "fuprotectorpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protector Robes",
+  "name_zh": "保护者腿甲",
+  "description_en": "Immune: Ice Slip, Mud\r\nSet Bonuses:\r\n 15% chance to regain +5% Health when hit\r\n Energy x1.05\r\n Bladed Weapons: +4% Crit Chance",
+  "description_zh": "免疫: 冰面滑动, 泥\n套装奖励：\n 受击时有15%的几率+5% HP\n 能量x1.05\n 刀刃武器: +4% 暴击几率",
+  "rarity": "Uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

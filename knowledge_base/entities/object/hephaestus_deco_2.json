@@ -1,0 +1,44 @@
+{
+  "entity_id": "hephaestus_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Dry-Plate Pillar",
+  "name_zh": "干板支柱",
+  "description_en": "A pillar made of dry plates.",
+  "description_zh": "干板制成的支柱。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "hephaestus"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_dryPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

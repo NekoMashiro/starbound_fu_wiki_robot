@@ -1,0 +1,36 @@
+{
+  "entity_id": "cherryschnapps",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cherry Schnapps",
+  "name_zh": "樱桃甜酒",
+  "description_en": "A bottle of cherry flavored schnapps!\n35% Slow , Drunk (1m)",
+  "description_zh": "一瓶樱桃味的甜酒！\n35%减速，醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 1100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "cherry",
+          "count": 5
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

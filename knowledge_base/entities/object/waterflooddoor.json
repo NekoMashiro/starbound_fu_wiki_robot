@@ -1,0 +1,32 @@
+{
+  "entity_id": "waterflooddoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flood Gate",
+  "name_zh": "防洪闸",
+  "description_en": "Sealed against water pressure. Great for underwater.",
+  "description_zh": "密封，不受水压影响。非常适合水下。",
+  "rarity": "rare",
+  "category": "door",
+  "price": 125,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

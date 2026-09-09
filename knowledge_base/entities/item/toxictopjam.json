@@ -1,0 +1,96 @@
+{
+  "entity_id": "toxictopjam",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Toxictop Jam",
+  "name_zh": "毒果果酱",
+  "description_en": "Jam made from toxictop fruit. But is it actually toxic to eat? Only one way to find out! Type: Fruit Dessert",
+  "description_zh": "毒果制成的果酱。但它真的有毒么？只有一种方法能弄清楚！\n类型：素甜食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 365,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "toxictopjamobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "toxictop",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "arcana_food_pestilenttoast",
+          "toxicjamdonut",
+          "toxictart"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "toxictopjamobject"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "blueprints_unlocked": [
+    "toxicjamdonut"
+  ],
+  "quality_tier": "S"
+}

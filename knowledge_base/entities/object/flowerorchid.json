@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowerorchid",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Black Orchid",
+  "name_zh": "黑色兰花种子",
+  "description_en": "C-c-c-commmmbo breaker!",
+  "description_zh": "赞赞赞爆了！",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerorchidHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

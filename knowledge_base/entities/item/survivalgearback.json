@@ -1,0 +1,55 @@
+{
+  "entity_id": "survivalgearback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Survival Gear Backpack",
+  "name_zh": "生存装备背包",
+  "description_en": "An empty survival backpack... useless!",
+  "description_zh": "一个空荡荡的生存背包…没啥用啊！",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowChestTreasure",
+          "probability": 0.1379,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1075,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1075,
+        0.1379
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowTreasure",
+          "probability": 0.0968,
+          "count": 1
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0755,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0755,
+        0.0968
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

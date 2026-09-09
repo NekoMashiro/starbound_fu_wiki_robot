@@ -1,0 +1,50 @@
+{
+  "entity_id": "mechboostersimple",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Basic Mech Boosters",
+  "name_zh": "基本机甲推进器",
+  "description_en": "Mass-produced mech boosters, with external fuel tank attachments.",
+  "description_zh": "批量生产机甲推进器，带有外部油箱附件。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechboostersimpleupgrade"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "mechboostersimpleupgrade"
+  ],
+  "quality_tier": "S"
+}

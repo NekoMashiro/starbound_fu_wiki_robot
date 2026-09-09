@@ -1,0 +1,59 @@
+{
+  "entity_id": "isogenore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Ore",
+  "name_zh": "寒霜矿",
+  "description_en": "This unusual aluminum-heavy compound is the most endothermic metal ever discovered",
+  "description_zh": "这种不同寻常的铝重化合物是迄今为止发现的吸热性最强的金属。",
+  "rarity": "legendary",
+  "category": "craftingOre",
+  "price": 410,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "isogenbar"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformericewaste"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "isogenbar",
+      "bonus": [
+        "icecrystal",
+        "cryonicextract"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "icewasteunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "frozenvolcanicunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "icewaste",
+      "weight": 0.25
+    }
+  ],
+  "wiki_ref": "Isogen Ore.md",
+  "quality_tier": "S"
+}

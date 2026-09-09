@@ -1,0 +1,60 @@
+{
+  "entity_id": "elderbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Bow",
+  "name_zh": "远古弓",
+  "description_en": "Ripe with malice.\r\nAlt-Fire opens Rift to Far Realm.",
+  "description_zh": "仅仅握着就感到一股强烈的怨恨。\n次要攻击可发射重定向箭矢",
+  "rarity": "legendary",
+  "category": "bow",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "elder",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 7,
+  "twoHanded": true,
+  "critChance": 8,
+  "critBonus": 25,
+  "primaryAbilityType": "rngbows_enhancedbowshotelder",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 6
+        },
+        {
+          "item": "elderrelic5",
+          "count": 2
+        },
+        {
+          "item": "mutagene2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

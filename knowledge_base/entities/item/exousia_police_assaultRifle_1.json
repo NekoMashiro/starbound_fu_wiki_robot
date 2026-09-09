@@ -1,0 +1,65 @@
+{
+  "entity_id": "exousia_police_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EPF Roteline Carbine",
+  "name_zh": "EPF秩系卡宾",
+  "description_en": "A precision plasma rifle used by Exousian policing units. Consumes more energy.",
+  "description_zh": "威权帝国警队使用的精准等离子步枪。消耗更多能量。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 12.6,
+  "altAbilityType": "arcana_ranged_ability_chargedShot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_enartz",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_avostone",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d11_supply",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

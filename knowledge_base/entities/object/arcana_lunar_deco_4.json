@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_lunar_deco_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Sakura Tree",
+  "name_zh": "大樱花树",
+  "description_en": "A large cherry blossom plant, the sight of its vibrance puts me at ease.",
+  "description_zh": "一株大型樱花植物，看到它充满活力，我就放心了。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 240,
+  "tags": [
+    "kuromatsu",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 6
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

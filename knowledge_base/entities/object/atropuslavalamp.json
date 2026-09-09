@@ -1,0 +1,43 @@
+{
+  "entity_id": "atropuslavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flesh Lava Lamp",
+  "name_zh": "血肉熔岩灯",
+  "description_en": "A lamp filled with what looks to be pus. The outer flesh pulses.",
+  "description_zh": "装满看起来像脓液的东西的灯。外部的肉在跳动。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 500,
+  "tags": [
+    "atropus",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidpus",
+          "count": 10
+        },
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "watergun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Squirt Gun",
+  "name_zh": "玩具水枪",
+  "description_en": "Pump action pressurises the water in this plastic gun.",
+  "description_zh": "小塑料枪里有泵加压的水。",
+  "rarity": "Uncommon",
+  "category": "toy",
+  "price": 250,
+  "tags": [
+    "toy"
+  ],
+  "elementalType": "water",
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.0356,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0356
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

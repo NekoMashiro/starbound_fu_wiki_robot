@@ -1,0 +1,96 @@
+{
+  "entity_id": "arcana_essence_poisonEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Poison Essence",
+  "name_zh": "蛊毒精纯",
+  "description_en": "An essence fragment of the pestilence's influence, extracted from poisonous liquids.",
+  "description_zh": "从毒液中提取的精纯碎片，内有瘟疫之毒。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_liquid_viridescentAcid",
+          "count": 10
+        }
+      ],
+      "output_count": 2,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "arcana_bar_refinedAspirite",
+          "arcana_bar_refinedImmorite",
+          "arcana_bar_refinedNoxion",
+          "arcana_sigils_poisonSigil",
+          "venomsample"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "arcana_auto_battery_2"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_evoNanopack"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "luye_dagger_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "luye_glaive_1"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "luye_moonBlade_1"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_flaskOfEvo"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_randomitem_noxion",
+          "probability": 0.4,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Poison Essence.md",
+  "quality_tier": "S"
+}

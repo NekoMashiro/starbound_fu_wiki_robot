@@ -1,0 +1,62 @@
+{
+  "entity_id": "ornatetiles",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ornate Tiles",
+  "name_zh": "华丽的瓦片",
+  "description_en": "Exquisite ornate roof tiles.",
+  "description_zh": "精致而优雅的瓦片。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ornatewood",
+          "count": 1
+        },
+        {
+          "item": "rooftiles",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.085,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "ornatetiles"
+  ],
+  "quality_tier": "S"
+}

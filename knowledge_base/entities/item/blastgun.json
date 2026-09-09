@@ -1,0 +1,55 @@
+{
+  "entity_id": "blastgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rendergun",
+  "name_zh": "引流喷枪",
+  "description_en": "A really dangerous sort of shotgun.",
+  "description_zh": "一种非常危险的散弹枪。",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 3,
+  "altAbilityType": "swtjc_ewg_stickyspread",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "irradiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Rendergun.md",
+  "quality_tier": "A"
+}

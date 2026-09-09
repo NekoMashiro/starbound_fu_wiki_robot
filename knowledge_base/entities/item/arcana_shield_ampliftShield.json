@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_shield_ampliftShield",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amplift Shield",
+  "name_zh": "放大器护盾",
+  "description_en": "A standard Orion security shield for elite guards.",
+  "description_zh": "配备给精英守卫的制式俄里翁安保盾牌。",
+  "rarity": "Legendary",
+  "category": "shield",
+  "price": 800,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 8
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 8
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

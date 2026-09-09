@@ -1,0 +1,220 @@
+{
+  "entity_id": "glowfibre",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glow Fibre",
+  "name_zh": "发光纤维",
+  "description_en": "Bulbous, bioluminescent plant fibres. They glow with many colours!",
+  "description_zh": "球状、发出各种颜色光的植物纤维！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 8,
+        "examples": [
+          "glowbomb",
+          "glowstickblue",
+          "glowstickgreen",
+          "glowstickorange",
+          "glowstickyellow"
+        ]
+      },
+      "seed": {
+        "count": 5,
+        "examples": [
+          "fubioshroomblue",
+          "fubioshroomgreen",
+          "fubioshroompurple",
+          "fubioshroomred",
+          "fubioshroomyellow"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "bioshroomtable",
+          "glowbed",
+          "glowchair"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "glowbushlamp",
+          "glowflowerlamp",
+          "glowvinelamp"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "blueneonsymbol"
+        ]
+      },
+      "fishingLure": {
+        "count": 1,
+        "examples": [
+          "fishinglurelight"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "fubiowand"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "glowchest"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "drop_sources": {
+    "total_pools": 13,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_fluxroot",
+          "probability": 0.88,
+          "count": 1.2
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxluminorbHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxglofaeHunting",
+          "probability": 0.5333,
+          "count": 1,
+          "monsters": [
+            "pandorasboxglofae"
+          ]
+        },
+        {
+          "pool": "huntingglow",
+          "probability": 0.2042,
+          "count": 1,
+          "monsters": [
+            "anglure2",
+            "anglure3",
+            "anglure4",
+            "anglure5",
+            "anglure6"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2042,
+        0.7921
+      ]
+    },
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "illumitopTreasure",
+          "probability": 0.7,
+          "count": 1,
+          "monsters": [
+            "illumitop"
+          ]
+        },
+        {
+          "pool": "pandorasboxtrapogoBioluminescenceTreasure",
+          "probability": 0.26,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoLuminousCaveTreasure",
+          "probability": 0.244,
+          "count": 5
+        },
+        {
+          "pool": "bioluminescenceTreasure",
+          "probability": 0.2174,
+          "count": 3
+        },
+        {
+          "pool": "luminousCaveTreasure",
+          "probability": 0.2041,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0843,
+        0.7
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bioluminescenceChestTreasure",
+          "probability": 0.4,
+          "count": 3.0
+        },
+        {
+          "pool": "luminousCaveChestTreasure",
+          "probability": 0.3755,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.3755,
+        0.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

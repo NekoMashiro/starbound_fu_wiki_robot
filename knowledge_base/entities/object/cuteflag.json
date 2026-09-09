@@ -1,0 +1,47 @@
+{
+  "entity_id": "cuteflag",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Flag",
+  "name_zh": "可爱的旗帜",
+  "description_en": "A cute flag. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面可爱的旗帜。按[E]来记录这面旗帜的传送坐标。",
+  "rarity": "Rare",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "fu",
+    "cute",
+    "pretty"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        },
+        {
+          "item": "silk",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

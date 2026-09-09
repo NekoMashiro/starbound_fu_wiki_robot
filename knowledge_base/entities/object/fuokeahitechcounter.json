@@ -1,0 +1,43 @@
+{
+  "entity_id": "fuokeahitechcounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hi-tech Counter",
+  "name_zh": "高科技柜台",
+  "description_en": "An extraordinary cooking surface.",
+  "description_zh": "非凡的烹饪表面。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 400,
+  "tags": [
+    "science",
+    "hitech",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "ff_plastic",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

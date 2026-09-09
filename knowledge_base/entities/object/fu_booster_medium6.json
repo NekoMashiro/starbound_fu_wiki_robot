@@ -1,0 +1,61 @@
+{
+  "entity_id": "fu_booster_medium6",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medium Ship Booster Mk6",
+  "name_zh": "中型飞船推进器Mk6",
+  "description_en": "A medium sized sub-light thruster. Moderately increases interplanetary travel speed.\nShip Speed: +54\nBYOS Only",
+  "description_zh": "一座中等大小的亚光速推进器。适度提高行星际旅行速度。\n+54飞船速度\n只限BYOS",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "byos"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_booster_medium5",
+          "count": 1
+        },
+        {
+          "item": "pureerchius",
+          "count": 3
+        },
+        {
+          "item": "solidfuel",
+          "count": 27
+        },
+        {
+          "item": "liquidfuel",
+          "count": 6
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "solariumstar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 1,
+        "examples": [
+          "fu_booster_medium7"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

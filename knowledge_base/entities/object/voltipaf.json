@@ -1,0 +1,54 @@
+{
+  "entity_id": "voltipaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Voltip Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"The result of a scientific experiment gone wrong.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "voltipVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "voltipTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "voltip"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "voltipHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "voltip"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

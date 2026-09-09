@@ -1,0 +1,61 @@
+{
+  "entity_id": "exousia_sovereign_katana_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rex Leonum",
+  "name_zh": "狮王",
+  "description_en": "A ceremonial blade, once wielded by the Lionheart Emperor.",
+  "description_zh": "一把仪式用剑刃，曾由狮心帝持有。",
+  "rarity": "Essential",
+  "category": "broadsword",
+  "price": 36000,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 13.0,
+  "primaryAbilityType": "arcana_nodachi_combo",
+  "altAbilityType": "arcana_tachi_ability_shingetsu",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_vermilionSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Exousia Armory",
+          "name_zh": "威权军械库"
+        },
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

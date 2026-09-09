@@ -1,0 +1,32 @@
+{
+  "entity_id": "seahornet",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Seahornet",
+  "name_zh": "海象虫",
+  "description_en": "This bug has a snout like a seahorse.",
+  "description_zh": "这虫子有个海马样的鼻子。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "seahornet",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "seahornet"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

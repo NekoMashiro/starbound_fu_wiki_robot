@@ -1,0 +1,71 @@
+{
+  "entity_id": "precursoraltar2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Icon",
+  "name_zh": "先驱肖像",
+  "description_en": "Some sort of machine...or sculpture...or...I honestly don't know.",
+  "description_zh": "某种机械...或是某种雕塑...或是...说实话，我真的不知道这是什么。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 500,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 70
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0288,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0288,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.016,
+        0.0288
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursoraltar2"
+  ],
+  "quality_tier": "S"
+}

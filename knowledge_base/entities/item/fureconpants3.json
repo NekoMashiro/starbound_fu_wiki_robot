@@ -1,0 +1,62 @@
+{
+  "entity_id": "fureconpants3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Type-3 Recon Legs",
+  "name_zh": "叁式侦察护腿",
+  "description_en": "Immune to most tile effects.\r\nSet Bonuses:\r\n +15% Speed\r\n Assault/Sniper Rifle: Damage x1.22, +3% Crit Chance\r\n Immune: All Radiation",
+  "description_zh": "免疫大多数地形减速\n套装奖励：\n +15% 速度\n 突击/狙击步枪: +3% 暴击几率, 伤害x1.22\n 免疫: 一切辐射",
+  "rarity": "Legendary",
+  "category": "legarmour",
+  "price": 150,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fureconpants2",
+          "count": 1
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 3
+        },
+        {
+          "item": "funanofibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumlegskhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,89 @@
+{
+  "entity_id": "volcanicsalsa",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Volcanic Salsa",
+  "name_zh": "火山辣调味汁",
+  "description_en": "A fiery salsa made from fruit and veg that can really bring the heat! Type: Vegetables",
+  "description_zh": "一罐用蔬菜和水果制成的火辣的辣调味汁，可以让你全身发热！\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 525,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "volcanicsalsaobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "avesmingo",
+          "count": 1
+        },
+        {
+          "item": "chili",
+          "count": 1
+        },
+        {
+          "item": "tomato",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "volcanicsalsaobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

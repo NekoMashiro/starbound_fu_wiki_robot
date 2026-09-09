@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusiansmalllamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Lamp Bulb",
+  "name_zh": "蚁族灯泡",
+  "description_en": "This strange lamp emits a low green light.",
+  "description_zh": "这盏奇怪的灯发出微弱的绿光。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "thelusian",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 12
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

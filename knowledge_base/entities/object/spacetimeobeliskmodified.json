@@ -1,0 +1,74 @@
+{
+  "entity_id": "spacetimeobeliskmodified",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Modified Pillar",
+  "name_zh": "改良支柱",
+  "description_en": "A strange artifact of unknown use, modified according to the instructions of an insane cat-person.",
+  "description_zh": "一个奇怪的用途不详的人工造物。，根据一位精神错乱的猫人的指示进行改良。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 200,
+  "tags": [
+    "ancient",
+    "electronic",
+    "elder"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alien_trophy_Khe",
+          "count": 1
+        },
+        {
+          "item": "spacetimeobeliskinactive",
+          "count": 1
+        },
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "antineutronium",
+          "count": 1
+        },
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 3
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "isn_atmosregulatorwarped"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "weaponcompressor"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "wiki_ref": "Modified Pillar.md",
+  "quality_tier": "S"
+}

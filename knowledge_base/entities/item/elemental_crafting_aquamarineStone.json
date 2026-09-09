@@ -1,0 +1,58 @@
+{
+  "entity_id": "elemental_crafting_aquamarineStone",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aquamarine Stone",
+  "name_zh": "海蓝石",
+  "description_en": "One of the many blue crystals in the abundance of the deep.",
+  "description_zh": "蕴藏丰富的蓝色晶体中的一种。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "thalassa_treasure_1",
+          "probability": 1.25,
+          "count": 1
+        },
+        {
+          "pool": "arcana_treasure_elemental_crafting_aquamarineStone",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.25
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

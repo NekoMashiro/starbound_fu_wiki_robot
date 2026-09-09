@@ -1,0 +1,38 @@
+{
+  "entity_id": "geodegreensample",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Green Geode Sample",
+  "name_zh": "绿色晶洞样本",
+  "description_en": "A pretty, green geode.",
+  "description_zh": "一个美丽的绿色晶洞。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "geodeRewards",
+          "probability": 0.0877,
+          "count": 1
+        },
+        {
+          "pool": "elduugeodeRewards",
+          "probability": 0.0877,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0877,
+        0.0877
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

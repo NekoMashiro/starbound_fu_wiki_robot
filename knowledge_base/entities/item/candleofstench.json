@@ -1,0 +1,81 @@
+{
+  "entity_id": "candleofstench",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stench Candle",
+  "name_zh": "恶臭蜡烛",
+  "description_en": "Smells exactly like corpses, and your grandfathers house.",
+  "description_zh": "闻起来像尸体，还有你祖父的房子。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 7,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0083,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0083
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0058
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

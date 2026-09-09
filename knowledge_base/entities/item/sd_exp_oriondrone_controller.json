@@ -1,0 +1,36 @@
+{
+  "entity_id": "sd_exp_oriondrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Orion Blockyhead Drone Controller",
+  "name_zh": "俄里翁“方块脑袋”无人机",
+  "description_en": "A drone with a heavy square head.I'm curious how it can fly.\r\n    [Primary]Spawn/Despawn，[Alt]emit a terrain-detecting ping.Can be used to detect entities.\r\n    (> _<;)I feel so stressed!!!",
+  "description_zh": "一台有着沉重脑袋的无人机，我很好奇这玩意到底是怎么飞起来的。（来自设计者的吐槽：俺寻思之力？）\n[左键]释放/收回，[右键]发射侦测脉冲，能用来检测实体。",
+  "rarity": "Legendary",
+  "category": "^#DBC5A6;侦察无人机工具",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

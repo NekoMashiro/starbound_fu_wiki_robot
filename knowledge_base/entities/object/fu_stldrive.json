@@ -1,0 +1,56 @@
+{
+  "entity_id": "fu_stldrive",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "STL Drive",
+  "name_zh": "STL引擎",
+  "description_en": "An STL drive for a space ship. Allows travel within a system, but isn't strong enough to travel to others.\nBYOS Only",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "corefragmentore",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "fu_ftldrivesmall"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "STL Drive.md",
+  "quality_tier": "A"
+}

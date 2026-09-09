@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_aegis_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aegis Leggings",
+  "name_zh": "宙斯盾胫甲",
+  "description_en": "A heavy armor forged from haken-stahlite. \n\nSet Bonus: \nGrants +20% Damage while using a Shield.",
+  "description_zh": "织造坚钢锻造的重型盔甲。\n\n套装效果：\n使用护盾时+20%伤害。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenStahlite",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_slipstreamComposite",
+          "count": 4
+        },
+        {
+          "item": "arcana_armor_verrostin_legs",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

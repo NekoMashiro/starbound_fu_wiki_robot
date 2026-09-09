@@ -1,0 +1,112 @@
+{
+  "entity_id": "arcana_misc_terminalSigma",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Terminal Rune",
+  "name_zh": "终末符文",
+  "description_en": "An engraved stone artifact, forged from aura of the sun, moon and stars.",
+  "description_zh": "雕刻的石器，由日月星辰的灵气锻造而成。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 1000
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 6,
+        "examples": [
+          "artifact_battlestaff_chronologia",
+          "artifact_staff_corrodingElm",
+          "artifact_staff_duality",
+          "artifact_staff_solarron",
+          "exousia_church_staff_1"
+        ]
+      },
+      "broadsword": {
+        "count": 5,
+        "examples": [
+          "artifact_katana_mikazuki",
+          "artifact_magiblade_trayodhatava",
+          "exousia_imperialArmy_2_broadsword_1",
+          "exousia_sovereign_katana_1",
+          "exousia_sovereign_katana_2"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "artifact_blastRifle_neonGenesis",
+          "mwhaddon_blastRifle_tsukitsune"
+        ]
+      },
+      "spear": {
+        "count": 2,
+        "examples": [
+          "artifact_greatspear_luxiant",
+          "artifact_lance_astrifer"
+        ]
+      },
+      "wand": {
+        "count": 2,
+        "examples": [
+          "artifact_orb_perpetuityEye",
+          "artifact_wand_idunsBlessing"
+        ]
+      },
+      "customskill": {
+        "count": 1,
+        "examples": [
+          "FD|GrandCrossZana"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_3"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armblade_thunderbolt"
+        ]
+      }
+    },
+    "total": 22
+  },
+  "quality_tier": "S"
+}

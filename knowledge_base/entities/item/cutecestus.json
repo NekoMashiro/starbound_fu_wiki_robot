@@ -1,0 +1,55 @@
+{
+  "entity_id": "cutecestus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Cestus",
+  "name_zh": "棱镜拳套",
+  "description_en": "Ripe with adorable energy.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "满满的可爱之力。\n能量武器",
+  "rarity": "rare",
+  "category": "fistWeapon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "fist",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,225 @@
+{
+  "entity_id": "iodine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iodine",
+  "name_zh": "碘",
+  "description_en": "Iodine I is extremely useful as it is the heaviest and therefore most heat-resistant halogen.",
+  "description_zh": "碘I非常有用，因为它在卤素中最重，因此也最耐热。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 9,
+        "examples": [
+          "aquapodseed",
+          "cellpodsplant",
+          "fuspongeweedseed",
+          "genesiberryseed",
+          "jillyrootseed"
+        ]
+      },
+      "medicine": {
+        "count": 6,
+        "examples": [
+          "hermespill",
+          "mutaviskbandage",
+          "serumstim",
+          "shieldpatch",
+          "uberstim"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "furadaugment1",
+          "furadaugment2"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "money",
+          "nakatiseed"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "methyliodide",
+          "reanimationfluid"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "drop_sources": {
+    "total_pools": 59,
+    "other": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "gasbagLoot",
+          "probability": 0.7536,
+          "count": 4,
+          "monsters": [
+            "gasbag",
+            "gasbagstat",
+            "skywhale",
+            "skywhale2"
+          ]
+        },
+        {
+          "pool": "gorgolithLoot",
+          "probability": 0.1196,
+          "count": 4
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 4,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 80
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0278,
+          "count": 4
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.7536
+      ]
+    },
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 4
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 4
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 4,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 4
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0299,
+          "count": 4
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1026
+      ]
+    },
+    "chest_loot": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 80
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 3.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 3.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0051,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 3.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 3.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Iodine.md",
+  "quality_tier": "S"
+}

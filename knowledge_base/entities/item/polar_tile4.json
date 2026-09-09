@@ -1,0 +1,27 @@
+{
+  "entity_id": "polar_tile4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Bamboo Stalk",
+  "name_zh": "竹竿",
+  "description_en": "A bamboo tile.",
+  "description_zh": "一块竹制瓷砖。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_bambooBundle",
+          "probability": 1.0,
+          "count": 400
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

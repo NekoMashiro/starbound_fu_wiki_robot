@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_aurea_storage_7",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Wall Cabinet",
+  "name_zh": "恒金壁橱",
+  "description_en": "A wall cabinet for storing general items.",
+  "description_zh": "一个墙柜，用于存放常规物品。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 120,
+  "tags": [
+    "storage",
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

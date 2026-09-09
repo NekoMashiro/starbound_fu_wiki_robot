@@ -1,0 +1,33 @@
+{
+  "entity_id": "floranartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Bone Trophy",
+  "name_zh": "骸骨奖杯",
+  "description_en": "+10% Spear/Bow Mastery\r\nHealth x1.12\r\nImmune: Electrified",
+  "description_zh": "+10%矛/弓箭专精\n生命x1.12\n免疫：感电",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 10
+        },
+        {
+          "item": "monsterplating",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

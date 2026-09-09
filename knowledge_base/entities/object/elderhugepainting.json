@@ -1,0 +1,44 @@
+{
+  "entity_id": "elderhugepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "He",
+  "name_zh": "祂",
+  "description_en": "A massive and disturbing painting of some sort of entity.",
+  "description_zh": "一幅巨大而令人不安的画作，画中有某种实体。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 12350,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.0124
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

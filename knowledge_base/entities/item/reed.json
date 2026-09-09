@@ -1,0 +1,125 @@
+{
+  "entity_id": "reed",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Reed",
+  "name_zh": "芦苇",
+  "description_en": "A bunch of cut reeds.",
+  "description_zh": "一束割下的芦苇。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 5,
+        "examples": [
+          "aquapodseed",
+          "corvexseed",
+          "erithianalgaeseed",
+          "mireurchinseed",
+          "phasefruitseed"
+        ]
+      },
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "reedbed",
+          "reedchair",
+          "reeddesk",
+          "swampshopcounter"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "reedchest",
+          "reedshelf"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "reedblock"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "reedclock"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "reeddoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "reedlamp"
+        ]
+      }
+    },
+    "total": 15
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "reedseedHarvest",
+          "probability": 1.2385,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oasisChestTreasure",
+          "probability": 0.4894,
+          "count": 5.0
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.266,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.266,
+        0.4894
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoOasisTreasure",
+          "probability": 0.318,
+          "count": 5
+        },
+        {
+          "pool": "oasisTreasure",
+          "probability": 0.266,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.266,
+        0.318
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "reedblock"
+  ],
+  "quality_tier": "S"
+}

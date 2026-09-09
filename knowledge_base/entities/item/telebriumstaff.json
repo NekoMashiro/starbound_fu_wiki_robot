@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Staff",
+  "name_zh": "月海法杖",
+  "description_en": "Powerful toxins emit from this weapon.",
+  "description_zh": "这把武器释放出强大的毒素。",
+  "rarity": "common",
+  "category": "staff",
+  "price": 240,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "primaryAbilityType": "telebriumwand",
+  "altAbilityType": "energyzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 6
+        },
+        {
+          "item": "bone",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

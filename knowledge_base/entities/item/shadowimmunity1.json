@@ -1,0 +1,37 @@
+{
+  "entity_id": "shadowimmunity1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Shield",
+  "name_zh": "EPP模块（暗影污染护盾）",
+  "description_en": "An EPP module that protects against the horrific taint of Shadow.\r\nImmune: Shadow Taint, Caliginous Gas",
+  "description_zh": "一个能够抵御可怕的暗影污染的EPP模块。\n免疫：暗影污染，暗影气体",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidaether",
+          "count": 50
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Shadow Shield.md",
+  "quality_tier": "A"
+}

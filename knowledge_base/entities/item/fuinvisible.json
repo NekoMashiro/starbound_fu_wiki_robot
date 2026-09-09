@@ -1,0 +1,39 @@
+{
+  "entity_id": "fuinvisible",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Invisible Tile",
+  "name_zh": "不可见管道",
+  "description_en": "A useful tile for making hidden walls and backgrounds.",
+  "description_zh": "一个非常有用的管道，用来制造隐藏的墙壁和背景。",
+  "rarity": "Legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "matteritem",
+          "count": 20
+        },
+        {
+          "item": "exoticmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Invisible Tile.md",
+  "quality_tier": "A"
+}

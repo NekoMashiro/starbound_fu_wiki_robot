@@ -1,0 +1,51 @@
+{
+  "entity_id": "sweetsbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sweets Bookcase",
+  "name_zh": "糖果书架",
+  "description_en": "A bookshelf made of sweet biscuits. Sturdier than you'd think!",
+  "description_zh": "用甜饼干做成的书架。比你想象的更坚固！",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "sweets",
+    "storage",
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sweetsset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

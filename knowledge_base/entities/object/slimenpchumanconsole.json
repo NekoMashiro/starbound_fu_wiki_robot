@@ -1,0 +1,44 @@
+{
+  "entity_id": "slimenpchumanconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Console",
+  "name_zh": "史莱姆控制台",
+  "description_en": "A console made out of sticky slime.  How does it work?",
+  "description_zh": "用粘性史莱姆液体制成的控制台。它是如何工作的？",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 85,
+  "tags": [
+    "slimenpchuman",
+    "wired",
+    "slimenpc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 15
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "arcana_aeon_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Clockwork",
+  "name_zh": "古纪发条",
+  "description_en": "A decorative clockwork hanging on the wall.",
+  "description_zh": "挂在墙上的装饰发条。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "aeon",
+    "pretty"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "backwear": {
+        "count": 3,
+        "examples": [
+          "arcana_back_aeonHands",
+          "arcana_back_aeonWings",
+          "arcana_back_cerueonWings"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        },
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

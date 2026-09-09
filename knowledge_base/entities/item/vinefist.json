@@ -1,0 +1,78 @@
+{
+  "entity_id": "vinefist",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Vine Fist",
+  "name_zh": "藤蔓拳套",
+  "description_en": "Unleash the power of nature!",
+  "description_zh": "释放自然的力量！",
+  "rarity": "Legendary",
+  "category": "fistWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "fist",
+    "floran"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 8.5,
+  "critChance": 2,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "gauntlet",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "livingroot",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "vinefisticon_l6.png",
+    "seed": "",
+    "shortdescription": "藤蔓拳套^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "lunar_tile6",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Carpet Flooring",
+  "name_zh": "月见地毯",
+  "description_en": "A carpet tile dyed with the signature Lunar purple.",
+  "description_zh": "染着月见紫花纹的地毯。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

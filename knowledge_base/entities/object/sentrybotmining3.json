@@ -1,0 +1,41 @@
+{
+  "entity_id": "sentrybotmining3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mining Drone",
+  "name_zh": "采矿无人机",
+  "description_en": "Will scan for all ores and caves.",
+  "description_zh": "可扫描岩层内所有矿石以及洞穴结构。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        },
+        {
+          "item": "oredetector1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mining Drone.md",
+  "quality_tier": "A"
+}

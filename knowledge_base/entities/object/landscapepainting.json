@@ -1,0 +1,37 @@
+{
+  "entity_id": "landscapepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Landscape Painting",
+  "name_zh": "山水画",
+  "description_en": "A standard landscape painting. Good for filling up wall space.",
+  "description_zh": "一幅标准的风景画。适合填充墙壁空间。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "pretty",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

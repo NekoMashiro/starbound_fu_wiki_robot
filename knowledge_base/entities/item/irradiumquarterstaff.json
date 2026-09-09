@@ -1,0 +1,58 @@
+{
+  "entity_id": "irradiumquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Quarterstaff",
+  "name_zh": "镭制长棍",
+  "description_en": "A radioactive staff designed to fracture bone.\r\nInflicts Rad-Burn",
+  "description_zh": "一种由断骨制成的辐射棍棒。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "Quarterstaff",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "irradium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.8,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Irradium Quarterstaff.md",
+  "quality_tier": "A"
+}

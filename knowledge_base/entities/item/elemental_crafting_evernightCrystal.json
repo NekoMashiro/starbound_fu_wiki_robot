@@ -1,0 +1,116 @@
+{
+  "entity_id": "elemental_crafting_evernightCrystal",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sea Crystal",
+  "name_zh": "海洋水晶",
+  "description_en": "A luminescent crystal, sparesely found in the undercities of the Nightmist",
+  "description_zh": "发着荧光的水晶，偶尔能在夜雾的地下城市中发现。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "本源学者之桌",
+          "name_zh": "本源学者之桌"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 720
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "bleuark_tile10",
+          "bleuark_tile11",
+          "bleuark_tile12",
+          "bleuark_tile9"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_healItem_3"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_seacrystal",
+          "probability": 3.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 1.0752,
+          "count": 1.5
+        }
+      ],
+      "prob_range": [
+        1.0752,
+        3.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

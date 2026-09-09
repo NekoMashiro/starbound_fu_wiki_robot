@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_starwalker_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Starwalker Bottoms",
+  "name_zh": "星间行者下装",
+  "description_en": "A loose fitting Arcanian outfit.",
+  "description_zh": "一套宽松的守秘族服装。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 70,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "apegrapes",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ape Grapes",
+  "name_zh": "猿葡萄",
+  "description_en": "A healthy mix of bananas and grapes. Type: Fruits",
+  "description_zh": "一种混合了香蕉和葡萄的健康食品。\n类型：水果",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapes",
+          "count": 1
+        },
+        {
+          "item": "banana",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "fruitsalad"
+  ],
+  "quality_tier": "A"
+}

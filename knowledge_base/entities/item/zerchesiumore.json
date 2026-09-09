@@ -1,0 +1,127 @@
+{
+  "entity_id": "zerchesiumore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Ore",
+  "name_zh": "高熔点矿",
+  "description_en": "Can be refined into a nearly unmeltable alloy.",
+  "description_zh": "可以提炼成几乎不会熔化的合金。",
+  "rarity": "uncommon",
+  "category": "craftingOre",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fufoodgoods",
+          "count": 10
+        }
+      ],
+      "output_count": 7,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "hydrolium",
+          "zerchesiumbar"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformermountainous"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "zerchesiumbar",
+      "bonus": [
+        "liquidironfu",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "zerchesiumbar",
+      "bonus": [
+        "liquidironfu",
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "zerchesiumbar",
+      "bonus": [
+        "liquidironfu",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "wastelandunderground",
+      "weight": 0.95
+    },
+    {
+      "biome": "mountainousunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "chromaticunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "ffbonecaves",
+      "weight": 0.6
+    },
+    {
+      "biome": "sulphuricunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "pineforest2",
+      "weight": 0.55
+    },
+    {
+      "biome": "mountainous2",
+      "weight": 0.55
+    },
+    {
+      "biome": "mountainous3",
+      "weight": 0.55
+    },
+    {
+      "biome": "ffcellcaves",
+      "weight": 0.55
+    },
+    {
+      "biome": "mountainous",
+      "weight": 0.55
+    }
+  ],
+  "wiki_ref": "Zerchesium Ore.md",
+  "quality_tier": "S"
+}

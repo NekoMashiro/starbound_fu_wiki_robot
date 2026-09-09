@@ -1,0 +1,66 @@
+{
+  "entity_id": "spacefarerpantsadv",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spacefarer mk2 Greaves",
+  "name_zh": "宇航员腿甲 MKII",
+  "description_en": "Set Bonuses:\r\n Gravity Normalization\r\n Mining Laser: Combat Damage x2.4\r\n +50% Defense Tech Efficiency\r\n Immune: Burning, Proto-Poison, Pressure, Gas, Ice Slip, Oxygen",
+  "description_zh": "套装奖励：\n 重力正常化\n 采矿激光: 战斗伤害x2.4\n +50% 防御科技效率\n 免疫: 烧伤, 原毒, 压强, 气体, 冰面, 窒息",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "spacefarerpants",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 3
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuwarphunterpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

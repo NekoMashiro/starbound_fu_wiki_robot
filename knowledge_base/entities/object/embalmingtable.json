@@ -1,0 +1,48 @@
+{
+  "entity_id": "embalmingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Autopsy Table",
+  "name_zh": "解剖台",
+  "description_en": "Primarily for investigating (or experimenting on) the deceased. Has other lab applications.",
+  "description_zh": "主要是为了调查(或在死者身上做实验)。有其他的实验室应用。",
+  "rarity": "rare",
+  "category": "Extractor",
+  "price": 1400,
+  "tags": [
+    "science",
+    "macabre",
+    "madness",
+    "insanity"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "医疗工作台",
+          "name_zh": "医疗工作台"
+        },
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Autopsy Table.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "mecharmflakcannon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flak Cannon Mech Arm",
+  "name_zh": "高射炮机甲臂",
+  "description_en": "The cheapest available mech weapon, an arm that fires heated metal shards.",
+  "description_zh": "最便宜的机甲武器，一个发射加热金属片的机甲臂。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 3200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmflakcannon2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Flak Cannon Mech Arm.md",
+  "quality_tier": "S"
+}

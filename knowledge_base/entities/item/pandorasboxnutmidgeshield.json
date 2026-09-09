@@ -1,0 +1,35 @@
+{
+  "entity_id": "pandorasboxnutmidgeshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nutmidge Shield",
+  "name_zh": "榛果果盾",
+  "description_en": "+0.05% HP , +4 Shield Bash & Push, -20% Fall Damage, Immune: Shock",
+  "description_zh": "HP+0.05%，盾牌反伤&盾牌击退+4，免疫：感电",
+  "rarity": "common",
+  "category": "shield",
+  "price": 30,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "kingnutmidgeTreasure",
+          "probability": 0.375,
+          "count": 1,
+          "monsters": [
+            "nutmidge"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

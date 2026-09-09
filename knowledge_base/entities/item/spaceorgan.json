@@ -1,0 +1,101 @@
+{
+  "entity_id": "spaceorgan",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Space Synth",
+  "name_zh": "空间合成器",
+  "description_en": "Far out, man.",
+  "description_zh": "那么远，伙计。",
+  "rarity": "Common",
+  "category": "musicalInstrument",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "peacecredit",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Peacekeeper Store",
+      "station_zh": "和平卫士商店",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Peacekeeper Store",
+          "name_zh": "和平卫士商店"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceInstrument",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.005,
+        0.5
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0053,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0053
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

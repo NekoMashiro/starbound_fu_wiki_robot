@@ -1,0 +1,31 @@
+{
+  "entity_id": "hordepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Horde",
+  "name_zh": "部落",
+  "description_en": "Whatever this is, it is bloated and gross.",
+  "description_zh": "不管这是什么，它臃肿而恶心。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

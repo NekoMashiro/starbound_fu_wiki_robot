@@ -1,0 +1,36 @@
+{
+  "entity_id": "fossildisplay7",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Huge Fossil Display",
+  "name_zh": "巨大的化石陈列架",
+  "description_en": "A display stand for huge fossils",
+  "description_zh": "巨大化石的陈列架",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "fossil",
+    "valuable",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 250
+        },
+        {
+          "item": "goldbar",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Fossil Station",
+      "station_zh": "化石工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

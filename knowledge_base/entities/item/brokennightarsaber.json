@@ -1,0 +1,39 @@
+{
+  "entity_id": "brokennightarsaber",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Broken Nightar Saber",
+  "name_zh": "破损的夜族军刀",
+  "description_en": "A very nice sword in very poor condition.",
+  "description_zh": "这本该是一柄很好的剑，但是它现在情况不太妙。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "nightar"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "spinslash",
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "nightarsaber"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "nightarsaber"
+  ],
+  "quality_tier": "A"
+}

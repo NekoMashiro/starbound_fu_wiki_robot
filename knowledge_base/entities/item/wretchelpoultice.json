@@ -1,0 +1,40 @@
+{
+  "entity_id": "wretchelpoultice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Poultice",
+  "name_zh": "扭力藤药糊",
+  "description_en": "Insanity Immunity (3m)",
+  "description_zh": "赋予精神错乱免疫(持续3m)",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 355,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wretchel",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "magnesiumsulfate",
+          "count": 1
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "健康中心",
+      "station_zh": "健康中心",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

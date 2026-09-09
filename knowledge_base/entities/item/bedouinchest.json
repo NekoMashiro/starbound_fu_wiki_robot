@@ -1,0 +1,46 @@
+{
+  "entity_id": "bedouinchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Desert Cloak",
+  "name_zh": "贝都因外套",
+  "description_en": "You'll be able to stay fresh and breezy in this hooded hat. Immune to desert heat and sandstorms.",
+  "description_zh": "穿上这条讨人喜欢的裤子，保持你的清新愉快。对沙漠炎热和沙尘暴免疫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.2375,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.1993,
+          "count": 1
+        },
+        {
+          "pool": "desertTreasure",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1667,
+        0.1993
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

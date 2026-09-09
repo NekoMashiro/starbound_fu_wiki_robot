@@ -1,0 +1,34 @@
+{
+  "entity_id": "swtjc_wp_advancedliquidsensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Liquid Sensor",
+  "name_zh": "高级液体传感器",
+  "description_en": "This can detect the presence of a specific liquid.",
+  "description_zh": "可检测特定液体的存在。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "liquidsensor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

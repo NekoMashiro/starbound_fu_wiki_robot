@@ -1,0 +1,55 @@
+{
+  "entity_id": "mutantback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mutagen Back Pipe",
+  "name_zh": "突变背管",
+  "description_en": "This wearable pipe looks like it's pumping toxic fluids.",
+  "description_zh": "这个能背在背上的管道看起来像正在运送有毒液体。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0737,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0737
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0619,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0619
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

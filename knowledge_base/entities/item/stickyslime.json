@@ -1,0 +1,32 @@
+{
+  "entity_id": "stickyslime",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sticky Slime Glob",
+  "name_zh": "粘性粘液球",
+  "description_en": "A thick mucus. It jiggles when poked.",
+  "description_zh": "一层厚厚的粘液。戳的时候它会抖动。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 10
+        },
+        {
+          "item": "greenslime",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

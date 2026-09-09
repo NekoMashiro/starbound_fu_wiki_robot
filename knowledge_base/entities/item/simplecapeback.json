@@ -1,0 +1,46 @@
+{
+  "entity_id": "simplecapeback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Simple Cape",
+  "name_zh": "简单的披风",
+  "description_en": "A basic cape. One solid colour is all you need! +15% Poison Resist.",
+  "description_zh": "一件基本的披风只要一种颜色就够了！\n毒素抗性+15%",
+  "rarity": "Common",
+  "category": "enviroProtectionPack",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

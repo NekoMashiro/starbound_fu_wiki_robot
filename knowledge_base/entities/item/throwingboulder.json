@@ -1,0 +1,66 @@
+{
+  "entity_id": "throwingboulder",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Boulder",
+  "name_zh": "可投掷的巨石",
+  "description_en": "Useful for combat or just showing off.",
+  "description_zh": "在战斗中很有用，或者只是拿来显摆的。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "alpineChestTreasure",
+          "probability": 0.6944,
+          "count": 3.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlpineTreasure",
+          "probability": 0.4512,
+          "count": 3
+        },
+        {
+          "pool": "alpineTreasure",
+          "probability": 0.3774,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.3774,
+        0.4512
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

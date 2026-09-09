@@ -1,0 +1,54 @@
+{
+  "entity_id": "fugoldstorage",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gold Storage",
+  "name_zh": "黄金储存箱",
+  "description_en": "Your money: kept in easily busted wooden containers.",
+  "description_zh": "用来存放你的各种财物。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

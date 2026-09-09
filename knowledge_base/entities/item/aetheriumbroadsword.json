@@ -1,0 +1,61 @@
+{
+  "entity_id": "aetheriumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Broadsword",
+  "name_zh": "阳清宽剑",
+  "description_en": "Nothing is more deadly and beautiful.\r\nAnnihilating Alt-Fire",
+  "description_zh": "没有什么能比它更致命，更绚丽！\n湮灭性的次要攻击",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 10.25,
+  "critChance": 5,
+  "critBonus": 12,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "travelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

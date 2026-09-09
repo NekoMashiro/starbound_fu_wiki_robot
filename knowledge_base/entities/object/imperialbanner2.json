@@ -1,0 +1,67 @@
+{
+  "entity_id": "imperialbanner2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Imperial Banner",
+  "name_zh": "甲虫帝国横幅",
+  "description_en": "A thick woven banner depicting the imperial crest.",
+  "description_zh": "描绘皇冠的粗织旗帜。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "mantizi",
+    "mantizivillage",
+    "pretty"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reddye",
+          "count": 2
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fucontrabandgoods",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_1_pistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Schwarzritter Pistol",
+  "name_zh": "EIA1黑骑士手枪",
+  "description_en": "A standard pistol used by Exousian Frontliners.",
+  "description_zh": "威权前线部队使用的制式手枪。",
+  "rarity": "Legendary",
+  "category": "pistol",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 12.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 6
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T6",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

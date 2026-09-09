@@ -1,0 +1,45 @@
+{
+  "entity_id": "horroraf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floating Horror Figurine",
+  "name_zh": "浮空恐惧雕像",
+  "description_en": "The label reads, \"A horrifying aberration that really wants your face skin in its mouth.\"",
+  "description_zh": "标签上写着，“一种可怕的畸变，它真的想吃掉你的脸皮。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "horrorHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "horror"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "horrorTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "horror"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

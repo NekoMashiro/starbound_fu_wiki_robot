@@ -1,0 +1,70 @@
+{
+  "entity_id": "cinnamonroll",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cinnamon Roll",
+  "name_zh": "肉桂卷",
+  "description_en": "A confectionary made of cinnamon, sugar, and dough. Type: Grain Dessert",
+  "description_zh": "一种由肉桂、糖、面团制成的蜜饯。\n类型: 谷物甜食",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "cinnamon",
+          "count": 1
+        },
+        {
+          "item": "caramel",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

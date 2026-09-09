@@ -1,0 +1,32 @@
+{
+  "entity_id": "stinkjack",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Stinkjack",
+  "name_zh": "臭虫",
+  "description_en": "You'll smell one of these little guys before you see one.",
+  "description_zh": "在看到它之前就闻到了。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stinkjack",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "stinkjack"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

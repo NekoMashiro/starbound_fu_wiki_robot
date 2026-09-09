@@ -1,0 +1,56 @@
+{
+  "entity_id": "zerchesiumhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Hammer",
+  "name_zh": "高熔点锤",
+  "description_en": "Shiny, dangerous, and fun!",
+  "description_zh": "闪亮，危险，有趣！",
+  "rarity": "uncommon",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "fugroundslamice",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

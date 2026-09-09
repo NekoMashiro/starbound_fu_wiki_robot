@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_blackTeabag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Black Teabag",
+  "name_zh": "精选红茶包",
+  "description_en": "A teabag for brewing black tea at a tea brewer.\n Restore an extra 15% of Max Health while drinking.",
+  "description_zh": "泡茶机冲泡红茶用的茶袋。\n饮用后额外恢复最大生命值15%的生命值。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaStarterPack",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

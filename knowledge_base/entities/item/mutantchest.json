@@ -1,0 +1,55 @@
+{
+  "entity_id": "mutantchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mutant Chest",
+  "name_zh": "突变胸甲",
+  "description_en": "Wear this if you want to simulate mutating growths on your body.",
+  "description_zh": "如果你想要在自己身上模拟生长突变的话，就带上这个。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0737,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0737
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0619,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0619
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

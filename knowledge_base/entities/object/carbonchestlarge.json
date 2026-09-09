@@ -1,0 +1,45 @@
+{
+  "entity_id": "carbonchestlarge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Chest",
+  "name_zh": "碳制箱子",
+  "description_en": "A chest made from carbon.",
+  "description_zh": "碳制的箱子。",
+  "rarity": "common",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "carbon",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "coalore",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

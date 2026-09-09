@@ -1,0 +1,46 @@
+{
+  "entity_id": "bomblauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blastcap Launcher",
+  "name_zh": "风帽发射器",
+  "description_en": "Fires explosive discs.\r\n40 damage\r\nUpgrade using your Tricorder.",
+  "description_zh": "发射爆炸飞盘。\n40伤害\n可在三度仪进行升级。。",
+  "rarity": "common",
+  "category": "translocator",
+  "price": 100,
+  "tags": [
+    "upgradeableTool",
+    "tool"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "fu_carbon",
+          "count": 2
+        },
+        {
+          "item": "volatilepowder",
+          "count": 6
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Blastcap Launcher.md",
+  "quality_tier": "A"
+}

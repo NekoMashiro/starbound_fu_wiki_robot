@@ -1,0 +1,56 @@
+{
+  "entity_id": "isogenkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Katana",
+  "name_zh": "寒霜武士刀",
+  "description_en": "Cold as ice.\r\n8 hit combo",
+  "description_zh": "如雪一般寒冷。\n8连斩",
+  "rarity": "legendary",
+  "category": "katana",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "isogen",
+    "upgradeableWeapon",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 1,
+  "critBonus": 10,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

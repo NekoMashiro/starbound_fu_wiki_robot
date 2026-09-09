@@ -1,0 +1,83 @@
+{
+  "entity_id": "fishingreelfast",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "High Speed Reel",
+  "name_zh": "高速鱼线轮",
+  "description_en": "A reel that winds faster when not under load.",
+  "description_zh": "一个在下面没有负荷的时候旋转得更快的鱼线轮。",
+  "rarity": "Uncommon",
+  "category": "fishingReel",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "string",
+          "count": 200
+        },
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fishingUpgrade",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0501,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.05,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0081,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

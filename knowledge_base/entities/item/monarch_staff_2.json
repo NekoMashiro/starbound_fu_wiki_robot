@@ -1,0 +1,61 @@
+{
+  "entity_id": "monarch_staff_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Purity",
+  "name_zh": "纯化",
+  "description_en": "A pale staff.",
+  "description_zh": "苍白的法杖。",
+  "rarity": "Rare",
+  "category": "staff",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "arcana_lumen",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "artifact_staff_duality"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

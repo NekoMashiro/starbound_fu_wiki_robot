@@ -1,0 +1,56 @@
+{
+  "entity_id": "furavagerchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ravager Carapace",
+  "name_zh": "劫掠者胸甲",
+  "description_en": "Set Bonuses:\r\n +20% Crit Damage, Health x1.05\r\n Sniper Rifle: Damage x1.25",
+  "description_zh": "套装奖励：\n +20% 暴击伤害, 最大HPx1.05\n 狙击步枪: 伤害x1.25",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "venomsample",
+          "count": 2
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "lasrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Laser Rifle",
+  "name_zh": "激光步枪",
+  "description_en": "The most popular weapon in the galaxy.\r\nReliable\r\nCounts as 'Energy' for set bonuses",
+  "description_zh": "星际间最流行的武器。\n可靠\n能量武器",
+  "rarity": "common",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9.6,
+  "critChance": 3,
+  "critBonus": 7,
+  "altAbilityType": "fuenergyzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_laserturret",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 8
+        },
+        {
+          "item": "laserdiode",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_laserturret"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

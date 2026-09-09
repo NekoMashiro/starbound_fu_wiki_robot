@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_astral_deco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Market Fabric Stall",
+  "name_zh": "市场织物摊",
+  "description_en": "An Arcanian market stall selling fabric items.",
+  "description_zh": "出售纺织品的守秘族市场摊位。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 120,
+  "tags": [
+    "astral",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 6
+        },
+        {
+          "item": "fabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

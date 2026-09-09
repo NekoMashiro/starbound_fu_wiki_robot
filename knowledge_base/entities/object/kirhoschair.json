@@ -1,0 +1,55 @@
+{
+  "entity_id": "kirhoschair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Chair",
+  "name_zh": "鼠族椅",
+  "description_en": "A fine chair made from carbon plating and core fragments.",
+  "description_zh": "由碳镀层和星核碎片制成的精美椅子。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 140,
+  "tags": [
+    "fukirhos",
+    "kirhos",
+    "kirhosvillage",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cotton",
+          "count": 2
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

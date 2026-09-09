@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_laserminer_advancedMiningLaser",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Master Mining Laser",
+  "name_zh": "高级采矿激光",
+  "description_en": "The pinnacle of mining lasers, upgraded by advanced machinery parts.",
+  "description_zh": "采矿激光的巅峰，由先进的机械部件升级。",
+  "rarity": "Essential",
+  "category": "Tool",
+  "price": 2200,
+  "tags": [],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_laserminer_energizedMiningLaser",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_voltaicShard",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lightEssence",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

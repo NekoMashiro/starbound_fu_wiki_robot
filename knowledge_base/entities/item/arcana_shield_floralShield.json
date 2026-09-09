@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_shield_floralShield",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Floral Shield",
+  "name_zh": "锦簇盾",
+  "description_en": "A crude shield covered in plant matter. \n+32% Poison Resistance when held.",
+  "description_zh": "使用植物物质制成的粗糙盾牌。\n持握时+32%蛊毒抗性。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 300,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_florastone",
+          "count": 8
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

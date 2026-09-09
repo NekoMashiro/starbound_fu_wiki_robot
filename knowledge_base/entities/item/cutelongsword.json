@@ -1,0 +1,61 @@
+{
+  "entity_id": "cutelongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Longsword",
+  "name_zh": "棱镜长剑",
+  "description_en": "Colorful, sharp, and one-handed.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "多彩、锋利、单手握持的武器。\n能量武器",
+  "rarity": "rare",
+  "category": "longsword",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.12,
+  "critChance": 1,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

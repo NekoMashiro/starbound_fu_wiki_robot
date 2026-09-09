@@ -1,0 +1,51 @@
+{
+  "entity_id": "telebriumrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Rapier",
+  "name_zh": "月海刺剑",
+  "description_en": "Stab faster than a ninja.",
+  "description_zh": "比忍者刺得还快。",
+  "rarity": "Common",
+  "category": "Rapier",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.9,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

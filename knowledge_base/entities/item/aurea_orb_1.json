@@ -1,0 +1,46 @@
+{
+  "entity_id": "aurea_orb_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gehnniln",
+  "name_zh": "奈无",
+  "description_en": "An energy orb carried by Aurea's special light casters.",
+  "description_zh": "恒金特种驭光师携带的能量珠。",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "wand",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": false,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

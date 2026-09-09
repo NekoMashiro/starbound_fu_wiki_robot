@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_guidance",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Guidance",
+  "name_zh": "引导",
+  "description_en": "An ancient staff formerly wielded by the Starstriders, still fully functional to this day.",
+  "description_zh": "曾由星游者所持有的古代法杖，至今仍能正常运作。",
+  "rarity": "Rare",
+  "category": "staff",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "altAbilityType": "healingzone",
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_perditionFractal"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_navigator",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_navigator"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

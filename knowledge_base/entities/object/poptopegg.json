@@ -1,0 +1,31 @@
+{
+  "entity_id": "poptopegg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptop Egg",
+  "name_zh": "吐舌娃蛋",
+  "description_en": "Hatches into an adorable floofy carnivore.",
+  "description_zh": "孵化成一只可爱的食肉动物。",
+  "rarity": "Rare",
+  "category": "farmBeastEgg",
+  "price": 35,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "motherpoptopTreasure",
+          "probability": 1.0,
+          "count": 3,
+          "monsters": [
+            "motherpoptop",
+            "motherpoptop2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

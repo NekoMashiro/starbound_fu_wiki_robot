@@ -1,0 +1,50 @@
+{
+  "entity_id": "acidprotectionback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Acid EPP",
+  "name_zh": "抗酸EPP",
+  "description_en": "+10% Phys. Resist. Immune: Acid. Helpful on Sulphuric planets. +250s oxygen and halves how quickly you breathe.",
+  "description_zh": "免疫酸蚀。+10%物理抗性。对探索酸性行星有助。+25s氧气，且呼吸速率减半。",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "venomsample",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

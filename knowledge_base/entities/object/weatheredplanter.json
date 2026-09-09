@@ -1,0 +1,51 @@
+{
+  "entity_id": "weatheredplanter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weathered Planter Box",
+  "name_zh": "风化种植箱",
+  "description_en": "An exceptionally fashionable weathered wooden planter box.",
+  "description_zh": "一个非常时尚的风化木花盆盒。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "pretty",
+    "weathered"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "weatheredset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

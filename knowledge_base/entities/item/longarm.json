@@ -1,0 +1,58 @@
+{
+  "entity_id": "longarm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Longarm Shotgun",
+  "name_zh": "长臂霰弹枪",
+  "description_en": "A shotgun custom-tailored to spread like crazy and look great doing it.",
+  "description_zh": "这把定制的霰弹枪射起来肯定很棒！",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "grenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

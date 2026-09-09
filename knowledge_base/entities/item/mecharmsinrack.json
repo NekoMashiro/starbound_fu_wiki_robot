@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmsinrack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mega Missile Rack",
+  "name_zh": "超级导弹发射架",
+  "description_en": "Fires a large swarm of guided mini missiles.",
+  "description_zh": "发射一大群跟踪性的微型导弹。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 6000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "mecharmmissilerack",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

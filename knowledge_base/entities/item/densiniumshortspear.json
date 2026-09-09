@@ -1,0 +1,56 @@
+{
+  "entity_id": "densiniumshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Shortspear",
+  "name_zh": "超致密短矛",
+  "description_en": "Deadly edge, full of purple menace.\r\nInflicts Electrified\r\nHunting weapon",
+  "description_zh": "致命的刀锋，充满了紫色的威胁。\n感电\n狩猎武器",
+  "rarity": "legendary",
+  "category": "shortspear",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.1,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

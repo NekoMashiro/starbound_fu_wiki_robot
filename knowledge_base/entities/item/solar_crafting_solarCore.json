@@ -1,0 +1,91 @@
+{
+  "entity_id": "solar_crafting_solarCore",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Solar Core",
+  "name_zh": "日光之核",
+  "description_en": "An ancient device that appears to be some sort of an energy core, its true purpose unknown.",
+  "description_zh": "古老的装置，似乎是某种能量核心，它的真正用途不明。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 420,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solar_crafting_solarCoreFragment",
+          "count": 2
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 8
+        },
+        {
+          "item": "solarized_tile3",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_fusang_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_fusang_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_fusang_chest"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "arcana_back_solarFangs"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "solar_axe_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "solar_lance_1"
+        ]
+      },
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "solar_shotgun_1"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "quality_tier": "S"
+}

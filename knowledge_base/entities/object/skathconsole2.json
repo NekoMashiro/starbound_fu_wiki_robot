@@ -1,0 +1,34 @@
+{
+  "entity_id": "skathconsole2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Terminal",
+  "name_zh": "绘世者终点站",
+  "description_en": "A Skath terminal used for all kind of electronics.",
+  "description_zh": "用于各种电子设备的绘世者终端。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 65,
+  "tags": [
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 4
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

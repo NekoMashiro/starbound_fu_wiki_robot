@@ -1,0 +1,39 @@
+{
+  "entity_id": "asphalt",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Asphalt",
+  "name_zh": "沥青",
+  "description_en": "A cheap but effective construction material.\nExtractable, Crushable.",
+  "description_zh": "一种廉价而实在的建筑材料。\n可萃取，可粉碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 1
+        },
+        {
+          "item": "tar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Asphalt.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "densiniumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Spear",
+  "name_zh": "超致密长矛",
+  "description_en": "Superior craftsmanship. Also, purple.\r\nInflicts Electrified\r\nHunting weapon",
+  "description_zh": "高超的工艺。还有紫色枪身。\n造成感电\n狩猎武器",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.95,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "barrier",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 8
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

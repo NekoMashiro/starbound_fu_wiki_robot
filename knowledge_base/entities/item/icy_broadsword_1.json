@@ -1,0 +1,74 @@
+{
+  "entity_id": "icy_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Icy Broadsword",
+  "name_zh": "冰之阔剑",
+  "description_en": "A broadsword wielded by the ice knights. Inflicts Frost.",
+  "description_zh": "由冰寒骑士挥舞的阔剑。造成霜冻。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ice",
+          "count": 20
+        },
+        {
+          "item": "snowflake",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_ice_iceElite",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,87 @@
+{
+  "entity_id": "xithriciteore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Ore",
+  "name_zh": "赛德瑞瑟晶体碎片",
+  "description_en": "A super-dense crystalline metal.",
+  "description_zh": "一种超致密的晶体类金属。",
+  "rarity": "legendary",
+  "category": "craftingOre",
+  "price": 410,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformerstar"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "xithricitecrystal"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_processing": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "xithricitecrystal",
+      "bonus": [
+        "solaricrystal",
+        "staticcell"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "aethercorelayer",
+      "weight": 0.6
+    },
+    {
+      "biome": "aetherseaunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "aetherseafloor",
+      "weight": 0.25
+    },
+    {
+      "biome": "cellfieldaether",
+      "weight": 0.25
+    },
+    {
+      "biome": "estuaryaether",
+      "weight": 0.25
+    },
+    {
+      "biome": "deepseaventaether",
+      "weight": 0.25
+    },
+    {
+      "biome": "astral",
+      "weight": 0.25
+    },
+    {
+      "biome": "energyorbforestaether",
+      "weight": 0.25
+    },
+    {
+      "biome": "aethersea",
+      "weight": 0.25
+    },
+    {
+      "biome": "aetherbreakwater",
+      "weight": 0.25
+    }
+  ],
+  "wiki_ref": "Xithricite Ore.md",
+  "quality_tier": "S"
+}

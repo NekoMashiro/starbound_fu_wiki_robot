@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_geoelectra",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Geoelectra",
+  "name_zh": "电窟",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Geoelectra",
+  "friendly_name_zh": "电窟",
+  "ores": [
+    {
+      "ore": "arcana_mod_thoriumOre",
+      "weight": 1.1
+    },
+    {
+      "ore": "arcana_mod_galvasteelOre",
+      "weight": 0.9
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.8
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_electriccrutter",
+    "arcana_electricsnaunt",
+    "arcana_electricvoltip",
+    "arcana_neoBomb"
+  ],
+  "quality_tier": "C"
+}

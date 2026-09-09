@@ -1,0 +1,51 @@
+{
+  "entity_id": "pandorasboxcapturenautchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capturenaut Breastplate",
+  "name_zh": "捕捉大师胸甲",
+  "description_en": "Set Bonuses:\r\n Beastmaster: 30%\r\n Capturenaut",
+  "description_zh": "套装奖励:\n 驯兽大师: 30%\n 捕捉大师",
+  "rarity": "rare",
+  "category": "chestwear",
+  "price": 5000,
+  "tags": [
+    "upgradeableWeapon",
+    "specialist",
+    "defensive"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 8
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

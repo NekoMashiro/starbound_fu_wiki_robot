@@ -1,0 +1,48 @@
+{
+  "entity_id": "effigiummirror",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Mirror",
+  "name_zh": "幻影镜子",
+  "description_en": "A small mirror that seems to fade in and out of existence.",
+  "description_zh": "一面小镜子，似乎在渐渐消失。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 115,
+  "tags": [
+    "effigium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

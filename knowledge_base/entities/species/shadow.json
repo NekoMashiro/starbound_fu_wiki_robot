@@ -1,0 +1,78 @@
+{
+  "entity_id": "shadow",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "阴影",
+  "description_en": "",
+  "description_zh": "宇宙中的一个谜。这些虚幻的影裔喜欢只与彼此对话，原因很简单，因为其他种族甚至听不到他们的语言。\n\n   食性: 什么都吃\n\nPerks:\n  能量 x1.12, 降低15%饥饿速度\n  抗性: +20% 暗影, 寒冷, +15% 毒素, +10% 放射\n  免疫: 窒息, 暗影, 黑暗\n  Tech:  暗影爆裂\n\n环境:\n  黑暗 生态中 +2 暴击率, 能量 x1.15\n  在黑暗中会发光\n  在黑暗环境中会增加攻击力和防御，在光亮环境中则会减少。\n  多彩 生态中: 防御 x0.8, 生命 x0.75\n\n武器:\n  镰刀专精: +25%\n  法杖/魔杖: 生命 x1.25\n  磁力珠: 防御 x1.25\n\n弱点:\n  生命 x0.85\n  抗性降低: -15% 电气, 射线,-10% 火炎",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 0.85
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.12
+      },
+      {
+        "stat": "foodDelta",
+        "baseMultiplier": 0.85
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "radiationResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "shadowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "darknessImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1
+      },
+      {
+        "stat": "scytheMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "fuRadiationHeal",
+        "amount": 1
+      }
+    ],
+    "diet": "entity",
+    "tech": [
+      "tenebrhaeburst"
+    ]
+  },
+  "quality_tier": "B"
+}

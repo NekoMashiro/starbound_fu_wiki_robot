@@ -1,0 +1,37 @@
+{
+  "entity_id": "syntek_pistol_rare",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Syntek Pistol",
+  "name_zh": "合成科技手枪",
+  "description_en": "A fully automatic, military grade pistol with Syntek parts.",
+  "description_zh": "使用合成科技组件的全自动军用级手枪。",
+  "rarity": "Rare",
+  "category": "pistol",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.75,
+    6.25
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0241,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

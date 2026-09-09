@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_armor_aureaguarduniform_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Elite Seeker Uniform",
+  "name_zh": "精英搜寻者制服",
+  "description_en": "A uniform worn by high rank Seekers. Despite this, it's mostly for cosmetics.",
+  "description_zh": "象征了精英搜寻者身份的制服。不过大多数场合下都是作为礼服来使用。",
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "price": 600,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

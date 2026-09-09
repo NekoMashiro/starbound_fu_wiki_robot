@@ -1,0 +1,148 @@
+{
+  "entity_id": "herocowl",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hero Cowl",
+  "name_zh": "英雄斗篷",
+  "description_en": "Hides your secret identity.",
+  "description_zh": "隐藏你的秘密身份。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 30,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0091,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0091
+      ]
+    },
+    "chest_loot": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0017,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0017
+      ]
+    },
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.001
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0002
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

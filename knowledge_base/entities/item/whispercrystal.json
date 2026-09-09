@@ -1,0 +1,175 @@
+{
+  "entity_id": "whispercrystal",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Whispering Crystal",
+  "name_zh": "低语水晶",
+  "description_en": "This unusual mineral formation keeps whispering your name, as if intimate with you.",
+  "description_zh": "这种不寻常的矿物质结构一直在低声呼唤着你的名字，仿佛与你亲密无间。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 23,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0417,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fucodexRandom",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0417
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0002,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0058
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "glitchmissioncodex",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0002
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "fu_booster_small1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Ship Booster Mk1",
+  "name_zh": "小型飞船推进器Mk1",
+  "description_en": "A small sub-light thruster. Somewhat increases interplanetary travel speed.\nShip Speed: +6\nBYOS Only",
+  "description_zh": "一座小型亚光速推进器。略有效果地提高行星际旅行速度。\n+6飞船速度\n只限BYOS",
+  "rarity": "common",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "byos"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 18
+        },
+        {
+          "item": "liquidfuel",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 1,
+        "examples": [
+          "fu_booster_small2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

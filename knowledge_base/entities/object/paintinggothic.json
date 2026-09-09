@@ -1,0 +1,40 @@
+{
+  "entity_id": "paintinggothic",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Gothic Painting",
+  "name_zh": "哥特式肖像画",
+  "description_en": "A portrait of a human couple.",
+  "description_zh": "人类夫妻的肖像画。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 800,
+  "tags": [
+    "human",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

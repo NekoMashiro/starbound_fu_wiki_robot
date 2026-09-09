@@ -1,0 +1,31 @@
+{
+  "entity_id": "mwhaddon_cup_luye",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Luye Vacuum Cup",
+  "name_zh": "绿叶保温杯",
+  "description_en": "A cup of somehow infinite tea. Drink to directly restore 20% of max health + 50 health. \nCooldown: 60 seconds.",
+  "description_zh": "这个保温杯里的茶不知为何根本喝不完。饮用后直接恢复最大生命值20%+50点生命值。\n冷却：60秒",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 1000,
+  "tags": [
+    "mwhaddon_cup"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaStarterPack",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

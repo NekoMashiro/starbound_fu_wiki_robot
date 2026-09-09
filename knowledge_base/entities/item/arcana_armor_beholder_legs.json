@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_beholder_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Beholder Bottom",
+  "name_zh": "远见者下装",
+  "description_en": "A strengthened armor worn by ancient prophets.",
+  "description_zh": "古代先知们使用的强化护甲。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 1280,
+  "tags": [],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_seraph_legs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "uraniumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Blade",
+  "name_zh": "铀制宽剑",
+  "description_en": "Well this seems like a good idea!",
+  "description_zh": "这真是不错的主意！",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.37,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "travelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 9
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

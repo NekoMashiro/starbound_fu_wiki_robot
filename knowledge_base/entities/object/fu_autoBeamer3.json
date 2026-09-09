@@ -1,0 +1,60 @@
+{
+  "entity_id": "fu_autoBeamer3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Harvester Turret v3",
+  "name_zh": "收割者炮塔 III",
+  "description_en": "Turret for harvesting plants automatically. Doesn't actually pick up plants.",
+  "description_zh": "可自动收割作物的炮塔，但是无法在收割后拾取物品。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "HarvesterBeam3",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "电子设备制造机",
+          "name_zh": "电子设备制造机"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tool": {
+        "count": 1,
+        "examples": [
+          "HarvesterBeam3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Harvester Turret v3.md",
+  "quality_tier": "S"
+}

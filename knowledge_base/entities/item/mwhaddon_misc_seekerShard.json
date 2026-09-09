@@ -1,0 +1,69 @@
+{
+  "entity_id": "mwhaddon_misc_seekerShard",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Seeker Shard",
+  "name_zh": "寻尘者碎片",
+  "description_en": "A shard emitting blue fire at the center. Dropped from the Seeker of Dust.",
+  "description_zh": "中央散发着蓝色火焰的碎片，由寻尘者掉落。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 320,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_infusedQuartz",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "axe": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_seekerOfDust_axe_1"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_seekerOfDust_shortsword_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_seekerOfDust_staff_1"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_seekerOfDust",
+          "probability": 1.0,
+          "count": 18,
+          "monsters": [
+            "mwhaddon_boss_seekerOfDust"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

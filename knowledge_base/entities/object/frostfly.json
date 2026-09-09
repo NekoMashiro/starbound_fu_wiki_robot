@@ -1,0 +1,32 @@
+{
+  "entity_id": "frostfly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Frostfly",
+  "name_zh": "结霜苍蝇",
+  "description_en": "Where there's frost, there are frostflies.",
+  "description_zh": "哪里有霜，哪里就有结霜苍蝇。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "frostfly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "frostfly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

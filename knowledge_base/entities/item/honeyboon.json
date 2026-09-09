@@ -1,0 +1,156 @@
+{
+  "entity_id": "honeyboon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeyboon Stim",
+  "name_zh": "蜂蜜药剂",
+  "description_en": "A long-lasting honey repellant.\nHoney Slow Immunity (5m)",
+  "description_zh": "一种持久的蜂蜜防护剂。\n赋予蜂蜜减速免疫(持续5m)",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_mercury",
+          "count": 1
+        },
+        {
+          "item": "fu_salt",
+          "count": 1
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 17,
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0245,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0069,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.1
+      ]
+    },
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0961,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 2
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0404,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.028,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0014,
+        0.0961
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0054,
+        0.0708
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

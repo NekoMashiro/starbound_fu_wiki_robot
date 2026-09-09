@@ -1,0 +1,209 @@
+{
+  "entity_id": "jarredfetus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Jarred Fetus",
+  "name_zh": "罐装胎儿",
+  "description_en": "A fetus, too early in development to determine species without research. Madness Gain 3 Type: Raw Meat",
+  "description_zh": "一个胎儿，但是发育过早，未经研究无法确定物种癫狂3 类型：生肉",
+  "rarity": "Rare",
+  "category": "drink",
+  "price": 395,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "orphanpaste",
+          "orphanpaste"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 115,
+    "other": {
+      "count": 21,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.1386,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.1031,
+          "count": 1
+        },
+        {
+          "pool": "kevintrash",
+          "probability": 0.024,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesAvian",
+          "probability": 0.0196,
+          "count": 1
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0085,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1386
+      ]
+    },
+    "monster_drops": {
+      "count": 21,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0904,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0098,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0078,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0051,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0033,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0904
+      ]
+    },
+    "chest_loot": {
+      "count": 62,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0144,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0139,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0047,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0045,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0035,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0144
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0017,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.002
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0005
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

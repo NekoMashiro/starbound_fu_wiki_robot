@@ -1,0 +1,55 @@
+{
+  "entity_id": "protopistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Pistol",
+  "name_zh": "原体手枪",
+  "description_en": "A useful, if unorthodox, pistol.\r\nBouncing projectiles",
+  "description_zh": "非正统的高效武器。\n弹跳弹",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon",
+    "proto"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 4,
+  "critChance": 2,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

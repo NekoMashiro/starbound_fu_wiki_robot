@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_scholar_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Scholar's Greaves",
+  "name_zh": "学者护胫",
+  "description_en": "A piece of greaves crafted from arcanium.",
+  "description_zh": "一副由奥素制成的护胫。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

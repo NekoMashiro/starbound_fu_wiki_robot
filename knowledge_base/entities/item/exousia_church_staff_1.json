@@ -1,0 +1,59 @@
+{
+  "entity_id": "exousia_church_staff_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Orpah",
+  "name_zh": "俄珥巴",
+  "description_en": "Acta deos numquam mortalia fallunt.",
+  "description_zh": "人的一切作为必不能欺过神的天眼。\nActa deos numquam mortalia fallunt.",
+  "rarity": "Essential",
+  "category": "staff",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "staff",
+    "exousia"
+  ],
+  "elementalType": "fire",
+  "level": 9,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "healingzone",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_vermilionSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Exousia Armory",
+          "name_zh": "威权军械库"
+        },
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

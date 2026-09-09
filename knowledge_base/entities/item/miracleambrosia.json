@@ -1,0 +1,65 @@
+{
+  "entity_id": "miracleambrosia",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Miracle Ambrosia",
+  "name_zh": "惊奇仙馐",
+  "description_en": "A miraculous ambrosia.\nFully restores Health and Energy, as well as filling your belly and making you drunk.",
+  "description_zh": "一份惊奇仙馐。\n完全恢复健康和能量，且填饱你的肚子。，并让你醉酒。",
+  "rarity": "legendary",
+  "category": "drink",
+  "price": 22500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fusoulleafseed",
+          "count": 10
+        },
+        {
+          "item": "genesiberryseed",
+          "count": 10
+        },
+        {
+          "item": "ambrosia",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitchestkhe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitheadkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuexosuitlegskhe"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "blueprints_unlocked": [
+    "fuexosuitlegskhe",
+    "fuexosuitheadkhe",
+    "fuexosuitchestkhe"
+  ],
+  "wiki_ref": "Miracle Ambrosia.md",
+  "quality_tier": "S"
+}

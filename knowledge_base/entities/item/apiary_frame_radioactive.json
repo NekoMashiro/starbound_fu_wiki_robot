@@ -1,0 +1,38 @@
+{
+  "entity_id": "apiary_frame_radioactive",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Anti-Rad Frame",
+  "name_zh": "防辐射支架",
+  "description_en": "<beeData>",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plutoniumrod",
+          "count": 8
+        },
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

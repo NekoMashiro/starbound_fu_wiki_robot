@@ -1,0 +1,45 @@
+{
+  "entity_id": "fusaltwater",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Salt Water",
+  "name_zh": "盐水",
+  "description_en": "A measure of salt water.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的盐水。\n可萃取，可离心。",
+  "rarity": "common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "fu_salt",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidwater"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Salt Water.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "bleuark_storage_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Bleuark Desk",
+  "name_zh": "海舟办公桌",
+  "description_en": "A desk with some items scattered on top of it.",
+  "description_zh": "一张桌子，上面散落着一些物品。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 1000,
+  "tags": [
+    "crafting",
+    "atlantic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bleuark_tile1",
+          "count": 10
+        },
+        {
+          "item": "bleuark_tile8",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Bleuark Crafting Table",
+      "station_zh": "海舟制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

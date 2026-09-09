@@ -1,0 +1,74 @@
+{
+  "entity_id": "fudrillspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Drill Spear",
+  "name_zh": "先驱破天矛",
+  "description_en": "This spear will pierce the heavens. And flesh.\r\nInflicts Bleeding",
+  "description_zh": "这把矛可以捅破天空，亦可刺穿肉身。\n附加出血效果",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 2080,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "precursor",
+    "upgradeableWeapon",
+    "drill"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 4,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "drillcharge",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

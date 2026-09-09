@@ -1,0 +1,36 @@
+{
+  "entity_id": "fu_tinycrewdeedinvis",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crew Deed (Tiny, Invis)",
+  "name_zh": "船员契约(微型，隐形)",
+  "description_en": "Place in an enclosed building with at least one door, a light source and some furniture to gain Crew +1! BYOS Only",
+  "description_zh": "放置在至少有一扇门、光源和一些家具的封闭建筑中，以获得船员+1 ！仅限BYOS",
+  "rarity": "Common",
+  "category": "spawner",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "canvas",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

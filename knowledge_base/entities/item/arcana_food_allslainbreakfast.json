@@ -1,0 +1,70 @@
+{
+  "entity_id": "arcana_food_allslainbreakfast",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "All Slain Breakfast",
+  "name_zh": "全戮宴",
+  "description_en": "A special breakfast platter made with exotic ingredients. Makes for a good show-off meal for experienced arcane explorers. [The Punslinger]\n\n+Swim boost 20 min.\n+20% Max Energy 20 min.\n+20% Max Health 20 min.",
+  "description_zh": "使用各种猎奇素材制成的特殊早餐，对于经验丰富的奥法探险者来说，这道菜无疑是炫耀身手的绝佳选择。[The Punslinger]\n\n20分钟游泳提升\n20分钟+20%最大能量\n20分钟+20%最大生命值",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 1200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_aeonLeaf",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_amberplum",
+          "count": 1
+        },
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

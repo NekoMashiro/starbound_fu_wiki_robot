@@ -1,0 +1,55 @@
+{
+  "entity_id": "ar_sp2_mk2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "BP-13 MK2",
+  "name_zh": "BP-13MK2",
+  "description_en": "BP-13 MK2. Further modified, resulting in superior performance,can fire two bullets at once.",
+  "description_zh": "BP-13手枪马克2型。在原型号的基础上进一步改造，大大优化了性能表现。一次可射出两发子弹。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 10,
+  "primaryAbilityType": "chargefire",
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "upgrademodule",
+          "count": 2
+        },
+        {
+          "item": "ar_sp2",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_GS8TechChip",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

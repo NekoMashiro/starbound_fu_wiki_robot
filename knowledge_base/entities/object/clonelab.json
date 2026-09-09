@@ -1,0 +1,45 @@
+{
+  "entity_id": "clonelab",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cloning Lab",
+  "name_zh": "树木克隆仪",
+  "description_en": "Create modified versions of saplings for unique trees.",
+  "description_zh": "通过修改基因的方式，把树苗更改成你需要的树苗。",
+  "rarity": "Essential",
+  "category": "storage",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 10
+        },
+        {
+          "item": "ff_silicon",
+          "count": 4
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 10
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Cloning Lab.md",
+  "quality_tier": "A"
+}

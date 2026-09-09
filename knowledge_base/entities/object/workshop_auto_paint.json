@@ -1,0 +1,36 @@
+{
+  "entity_id": "workshop_auto_paint",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Paint Station",
+  "name_zh": "喷漆站",
+  "description_en": "A station for painting factory objects.",
+  "description_zh": "用于喷涂工厂物体的工作站。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 400
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

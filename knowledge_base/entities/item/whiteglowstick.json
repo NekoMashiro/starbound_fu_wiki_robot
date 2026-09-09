@@ -1,0 +1,49 @@
+{
+  "entity_id": "whiteglowstick",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "White Glowstick",
+  "name_zh": "白色荧光棒",
+  "description_en": "An effective and waterproof way to light up a dark cave before you dive into it.",
+  "description_zh": "好用且防水，适合进入黑暗洞穴。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "glowstickblue",
+    "glowstickgreen",
+    "glowstickyellow",
+    "glowstickorange",
+    "purpleglowstick",
+    "redglowstick",
+    "whiteglowstick"
+  ],
+  "quality_tier": "A"
+}

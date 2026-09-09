@@ -1,0 +1,64 @@
+{
+  "entity_id": "goregun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gore Gun",
+  "name_zh": "淤血枪",
+  "description_en": "A repulsive weapon that spews putrid blood. Awesome.\r\nAlt shoots vomit! Fun!",
+  "description_zh": "一把令人作呕的武器，真好玩！\n射出恶心的弹药，好有趣！",
+  "rarity": "rare",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "vomitrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 25
+        },
+        {
+          "item": "mutagene3",
+          "count": 2
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Gore Gun.md",
+  "quality_tier": "A"
+}

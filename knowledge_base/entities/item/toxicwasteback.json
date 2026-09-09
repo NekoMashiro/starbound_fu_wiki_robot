@@ -1,0 +1,56 @@
+{
+  "entity_id": "toxicwasteback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Toxic Waste",
+  "name_zh": "有毒废弃物",
+  "description_en": "A barrel of actual toxic waste. Why would you even consider wearing this on your back? -70% Health",
+  "description_zh": "一桶真正的有毒废料。你为什么要考虑把这个戴在背上？\n生命值上限-70%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0491,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0345,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0345,
+        0.0491
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0412,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0345,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0345,
+        0.0412
+      ]
+    }
+  },
+  "wiki_ref": "Toxic Waste.md",
+  "quality_tier": "A"
+}

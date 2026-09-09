@@ -1,0 +1,46 @@
+{
+  "entity_id": "aurea_quickblade_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Trainee Quickblade",
+  "name_zh": "训练用速刃",
+  "description_en": "A simple sword that can be swung swiftly.",
+  "description_zh": "能快速挥舞的简易剑。",
+  "rarity": "Uncommon",
+  "category": "broadsword",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "primaryAbilityType": "arcana_quickblade_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

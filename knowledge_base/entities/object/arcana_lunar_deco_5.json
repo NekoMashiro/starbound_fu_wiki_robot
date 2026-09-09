@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_lunar_deco_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Kuromatsu Traditional Screen",
+  "name_zh": "黑松传统屏风",
+  "description_en": "A screen for modest individuals to hide behind while getting changed.",
+  "description_zh": "害羞的人可以躲在这个屏风后面换衣服。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 120,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "kuromatsu"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 6
+        },
+        {
+          "item": "paper",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "gosmetaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Gosmet Figurine",
+  "name_zh": "幽灵盔手办",
+  "description_en": "The label reads, \"These creatures have ethereal bodies that they mould into armour when threatened.\"",
+  "description_zh": "标签上写着：“这种生物有着缥缈的身体，受到威胁时会潜进盔甲中去。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gosmetHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "firegosmet",
+            "gosmet"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gosmetTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "firegosmet",
+            "gosmet"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "aurea_tile14",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Light Strip",
+  "name_zh": "恒金灯条",
+  "description_en": "A light strip.",
+  "description_zh": "灯条。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "titaniummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Mace",
+  "name_zh": "钛制钉头锤",
+  "description_en": "Expensive and painful!",
+  "description_zh": "这把武器敲在敌人的脑壳上肯定会很痛。",
+  "rarity": "Uncommon",
+  "category": "mace",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

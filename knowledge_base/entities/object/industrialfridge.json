@@ -1,0 +1,51 @@
+{
+  "entity_id": "industrialfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Industrial Kitchen Fridge",
+  "name_zh": "工业厨房冰箱",
+  "description_en": "A restaurant-grade refrigerator. Professional chefs should settle for nothing less!",
+  "description_zh": "餐厅级冰箱。专业厨师应该满足于这一切！",
+  "rarity": "Uncommon",
+  "category": "fridgeStorage",
+  "price": 0,
+  "tags": [
+    "industrialkitchen",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "industrialkitchenset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "gravitongun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Graviton Gun",
+  "name_zh": "引力之枪",
+  "description_en": "Micro-gravity turned into a weapon.\r\nWave-burst primary\r\nAlt: Big knockback, Major Vulnerability",
+  "description_zh": "可将习以为常的重力化做武器。\n波浪型弹道\n附加：强力的击退；附加错调瑕疵效果",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 178,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "energy",
+    "upgradeableWeapon",
+    "gravity"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.15,
+  "critChance": 1,
+  "critBonus": 10,
+  "altAbilityType": "gravitonaltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

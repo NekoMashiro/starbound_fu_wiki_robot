@@ -1,0 +1,49 @@
+{
+  "entity_id": "elduukhartier6shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nhydri Shortsword",
+  "name_zh": "纳德短剑",
+  "description_en": "An artfully crafted blade. The crystal on the handle shines softly.",
+  "description_zh": "一把巧妙加工成的刀刃，剑柄上的水晶散发着柔和的光亮。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 725,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feya",
+          "count": 55
+        },
+        {
+          "item": "nhydri",
+          "count": 5
+        },
+        {
+          "item": "refinedferozium",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

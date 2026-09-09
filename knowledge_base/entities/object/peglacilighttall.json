@@ -1,0 +1,59 @@
+{
+  "entity_id": "peglacilighttall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Lamp Post",
+  "name_zh": "合金灯柱",
+  "description_en": "A tall alloy lamp post, lit by a glowing crystal.",
+  "description_zh": "由发光的水晶照亮的高合金灯柱。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 2
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

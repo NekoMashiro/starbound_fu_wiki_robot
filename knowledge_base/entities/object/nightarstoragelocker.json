@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarstoragelocker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Storage Locker",
+  "name_zh": "夜族存储柜",
+  "description_en": "A nice, spacious, wall-mounted storage solution.",
+  "description_zh": "这个又漂亮又大的壁挂式储物柜是你藏东西的最佳选择。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 300,
+  "tags": [
+    "nightar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_orangeFluxroot",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Big Orange Fluxroot",
+  "name_zh": "大橙光根",
+  "description_en": "A flower with the shape of roots, found grown in blistering planets.\n For 50 seconds after drinking, +20% Crit Rate and +50% Crit DMG if below 30% of Max Health.",
+  "description_zh": "一朵根状的花，生长在酷热行星中。\n饮用后50秒内，生命值低于最大值30%时+20%暴击率，+50%暴击伤害。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

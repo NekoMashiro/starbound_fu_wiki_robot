@@ -1,0 +1,63 @@
+{
+  "entity_id": "isn_microwaveray",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sonic Cannon",
+  "name_zh": "声波炮",
+  "description_en": "Fires waves of sound that look spiffy!\r\nIt's okay I guess\r\nYou might like it?",
+  "description_zh": "发出看上去很厉害的音浪！\n相当棒的武器\n你到底喜不喜欢？",
+  "rarity": "uncommon",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.2,
+  "critChance": 4,
+  "critBonus": 5,
+  "altAbilityType": "furocketboom",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "powercore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

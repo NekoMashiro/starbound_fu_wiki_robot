@@ -1,0 +1,31 @@
+{
+  "entity_id": "hylotlradio",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Traditional Radio",
+  "name_zh": "传统收音机",
+  "description_en": "An old radio, it still plays music.",
+  "description_zh": "一个老收音机，还能放音乐呢。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "musical"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0605,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

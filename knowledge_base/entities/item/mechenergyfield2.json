@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechenergyfield2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fuel Tank II",
+  "name_zh": "燃料罐 II",
+  "description_en": "Increases Mech Fuel.",
+  "description_zh": "增加机甲燃料。",
+  "rarity": "uncommon",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 15
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

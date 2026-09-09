@@ -1,0 +1,63 @@
+{
+  "entity_id": "buccaneerhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tricorne Hat",
+  "name_zh": "三角帽",
+  "description_en": "My hat, it has three corners, three corners has my hat!",
+  "description_zh": "我的帽子有三个角，三个角的是我的帽子！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.1239,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0425,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0425,
+        0.1239
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.087,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0213,
+          "count": 1
+        },
+        {
+          "pool": "airshipguardtreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.087
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

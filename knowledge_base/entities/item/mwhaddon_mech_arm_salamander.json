@@ -1,0 +1,66 @@
+{
+  "entity_id": "mwhaddon_mech_arm_salamander",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Salamander Drone Arm",
+  "name_zh": "火蜥无人机臂",
+  "description_en": "This type of drone can pour overheat energy onto your enemies.",
+  "description_zh": "这种无人机会向你的敌人倾泻高热能量。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 9000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 20
+        },
+        {
+          "item": "solar_crafting_solarCoreFragment",
+          "count": 12
+        },
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 8
+        },
+        {
+          "item": "mwhaddon_misc_mechComponent_2",
+          "count": 1
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Advanced Mech Station",
+      "station_zh": "高级机甲制造台",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Mech Parts Crafting",
+          "name_zh": "机甲部件合成"
+        },
+        {
+          "name": "mwhaddon_crafting_mechCrafting.json",
+          "name_zh": ""
+        },
+        {
+          "name": "基础科技站",
+          "name_zh": "基础科技站"
+        },
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

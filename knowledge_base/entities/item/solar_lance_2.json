@@ -1,0 +1,35 @@
+{
+  "entity_id": "solar_lance_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Broken Solarron",
+  "name_zh": "破损的窃日",
+  "description_en": "An ancient artifact that has lost most of its energy. Very pointy.",
+  "description_zh": "古老的文物，已经失去了大部分的能量。",
+  "rarity": "Common",
+  "category": "spear",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "arcana_solar",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.2,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "arcana_spear_ability_burstFlurry",
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "artifact_staff_solarron"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

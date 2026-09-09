@@ -1,0 +1,55 @@
+{
+  "entity_id": "advalloyhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Hammer",
+  "name_zh": "宗师战锤",
+  "description_en": "A formidable hammer made of a nearly indestructible alloy.\r\nInflicts bleeding",
+  "description_zh": "由几乎坚不可摧的合金制成的强大锤子。\n造成出血效果",
+  "rarity": "rare",
+  "category": "hammer",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 9,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "physicalshockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 6
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

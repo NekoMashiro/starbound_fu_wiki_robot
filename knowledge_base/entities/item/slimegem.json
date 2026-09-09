@@ -1,0 +1,133 @@
+{
+  "entity_id": "slimegem",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Gem",
+  "name_zh": "粘液宝石",
+  "description_en": "Tempered slime, extremely hard.",
+  "description_zh": "钢化的粘液，非常坚硬。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 2
+        },
+        {
+          "item": "greenslime",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "whip": {
+        "count": 10,
+        "examples": [
+          "electricslimeconcwhip",
+          "electricslimewhip3",
+          "fireslimeconcwhip",
+          "fireslimewhip3",
+          "iceslimeconcwhip"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 6,
+        "examples": [
+          "electricslimetendrils3",
+          "fireslimetendrils3",
+          "iceslimetendrils3",
+          "impactslimetendrils3",
+          "poisonslimetendrils3"
+        ]
+      },
+      "legarmour": {
+        "count": 3,
+        "examples": [
+          "ff_slimelegs",
+          "slimepersontier1pants",
+          "slimepersontier2pants"
+        ]
+      },
+      "chestarmour": {
+        "count": 3,
+        "examples": [
+          "ff_slimechest",
+          "slimepersontier1chest",
+          "slimepersontier2chest"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "ff_slimehead",
+          "slimepersontier1head",
+          "slimepersontier2head"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "slimebroadsword",
+          "slimesword3"
+        ]
+      },
+      "Rapier": {
+        "count": 2,
+        "examples": [
+          "wavyslimesword",
+          "wavyslimesword3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "slimebiolumepp"
+        ]
+      }
+    },
+    "total": 30
+  },
+  "quality_tier": "S"
+}

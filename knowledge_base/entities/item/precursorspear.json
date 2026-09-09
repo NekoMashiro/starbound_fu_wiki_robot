@@ -1,0 +1,74 @@
+{
+  "entity_id": "precursorspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Spear",
+  "name_zh": "先驱长矛",
+  "description_en": "Ancient and sophisticated.\r\nInflicts Minor Vulnerability",
+  "description_zh": "由古老而复杂的工艺制作而成。\n附加错调瑕疵效果",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12.0,
+  "critChance": 5,
+  "critBonus": 6,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear4",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

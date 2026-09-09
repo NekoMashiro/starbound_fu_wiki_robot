@@ -1,0 +1,81 @@
+{
+  "entity_id": "humaneyeball",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "A Squishy Human Eye",
+  "name_zh": "黏糊糊的人眼",
+  "description_en": "Delicious and nutritious. Type: Raw Meat",
+  "description_zh": "美味又营养。\n类型：生肉食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 2.0,
+          "count": 1.0
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.3015,
+          "count": 4.2
+        }
+      ],
+      "prob_range": [
+        0.3015,
+        2.0
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuCorpseMeat",
+          "probability": 2.0,
+          "count": 1.0
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.462,
+          "count": 4.2
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.3436,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.3436,
+        2.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

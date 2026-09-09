@@ -1,0 +1,74 @@
+{
+  "entity_id": "fulobsterbisque",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lobster Bisque",
+  "name_zh": "龙虾浓汤",
+  "description_en": "Sinfully delicious. Type: Cooked Seafood + Vegetables + Dairy",
+  "description_zh": "难以置信的美味。\n类型：熟海鲜 + 蔬菜 + 蛋奶",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fulobstercooked",
+          "count": 2
+        },
+        {
+          "item": "fu_salt",
+          "count": 1
+        },
+        {
+          "item": "chili",
+          "count": 2
+        },
+        {
+          "item": "milk",
+          "count": 1
+        },
+        {
+          "item": "tomato",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

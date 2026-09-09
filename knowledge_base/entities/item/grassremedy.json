@@ -1,0 +1,36 @@
+{
+  "entity_id": "grassremedy",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Grass Remedy",
+  "name_zh": "救命草",
+  "description_en": "A concoction of natural elements, it provides healing properties.",
+  "description_zh": "一种自然元素药汁，可以恢复生命。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "miraclegrassseed",
+          "count": 1
+        },
+        {
+          "item": "varanberry",
+          "count": 1
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

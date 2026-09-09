@@ -1,0 +1,211 @@
+{
+  "entity_id": "protheonshard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protheon Shard",
+  "name_zh": "先贤碎片",
+  "description_en": "Artifact from an ancient race.\nResearch in a microscope.",
+  "description_zh": "远古眷族的造物。\n在显微镜下研究。",
+  "rarity": "Legendary",
+  "category": "artifact",
+  "price": 1000,
+  "tags": [
+    "artifact",
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 50,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "gasbagLoot",
+          "probability": 0.1441,
+          "count": 1,
+          "monsters": [
+            "gasbag",
+            "gasbagstat",
+            "skywhale",
+            "skywhale2"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0071,
+          "count": 1
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0057,
+          "count": 1.0
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1441
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0623,
+          "count": 1.0,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0156,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0038,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0623
+      ]
+    },
+    "monster_drops": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0455,
+          "count": 1.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0353,
+          "count": 1.0,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.009,
+          "count": 1.0
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0041,
+          "count": 1
+        },
+        {
+          "pool": "darkmetroidTreasure",
+          "probability": 0.0037,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0455
+      ]
+    },
+    "chest_loot": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0063,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0017,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0063
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0008
+      ]
+    }
+  },
+  "wiki_ref": "Protheon Shard.md",
+  "quality_tier": "A"
+}

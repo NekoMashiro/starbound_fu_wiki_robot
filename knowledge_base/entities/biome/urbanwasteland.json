@@ -1,0 +1,112 @@
+{
+  "entity_id": "urbanwasteland",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wasteland",
+  "name_zh": "废土",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Wasteland",
+  "friendly_name_zh": "废土",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "lead",
+      "weight": 0.7
+    },
+    {
+      "ore": "junkmod",
+      "weight": 0.6
+    },
+    {
+      "ore": "copper",
+      "weight": 0.2
+    },
+    {
+      "ore": "iron",
+      "weight": 0.2
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.2
+    },
+    {
+      "ore": "silver",
+      "weight": 0.2
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.2
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.2
+    },
+    {
+      "ore": "zerchesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.2
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.2
+    },
+    {
+      "ore": "violium",
+      "weight": 0.2
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    },
+    {
+      "ore": "gold",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bee_digger",
+    "cleaningbot",
+    "deathdroid2",
+    "dustmoth",
+    "fualien",
+    "fuallergen",
+    "fudeathdroid",
+    "fudrone",
+    "fumechspiderultra",
+    "fumothcritter",
+    "furoachcritter",
+    "nanoswarm",
+    "repairbot",
+    "serpentdroid",
+    "triplod",
+    "warbot"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:wasteland",
+        "/weather.config:thickjungle",
+        "/weather.config:fugentle",
+        "/weather.config:fugentlewindy",
+        "/weather.config:fugentlerainy",
+        "/weather.config:fugentleveryrainy",
+        "/weather.config:fugentlefoggy",
+        "/weather.config:fugentlepretty",
+        "/weather.config:chromatic",
+        "/weather.config:chromaticgassy",
+        "/weather.config:chromaticrainy",
+        "/weather.config:mountainous"
+      ]
+    ]
+  ],
+  "wiki_ref": "Wasteland.md",
+  "quality_tier": "C"
+}

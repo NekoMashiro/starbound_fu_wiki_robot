@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_nether_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Lamp",
+  "name_zh": "冥界灯",
+  "description_en": "A standing lamp made from nether wood, emitting purple light.",
+  "description_zh": "使用冥界木制成的街灯，发出紫色的光。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 70,
+  "tags": [
+    "nether",
+    "spectwing",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 1.0531,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingbasic",
+          "probability": 0.3009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.3009,
+        1.0531
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

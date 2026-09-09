@@ -1,0 +1,84 @@
+{
+  "entity_id": "fluffyruffs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Fluffy Ruffs",
+  "name_zh": "西多士",
+  "description_en": "They're ruffy and fluffy! Type: Grain + Eggs",
+  "description_zh": "它们又松软又好吃！\n类型：谷物 +蛋奶",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "extrarations",
+          "probability": 0.0353,
+          "count": 1
+        },
+        {
+          "pool": "extrafood",
+          "probability": 0.0196,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0196,
+        0.0353
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

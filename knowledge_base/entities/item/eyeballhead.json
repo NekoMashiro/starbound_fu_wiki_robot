@@ -1,0 +1,46 @@
+{
+  "entity_id": "eyeballhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Eyeball Mask",
+  "name_zh": "眼球面具",
+  "description_en": "A giant eyeball mask. Drastically reduces your depth perception.",
+  "description_zh": "一只巨大的眼球面具。极大地降低了你的深度知觉。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

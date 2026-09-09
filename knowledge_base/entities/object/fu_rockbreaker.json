@@ -1,0 +1,55 @@
+{
+  "entity_id": "fu_rockbreaker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rock Breaker",
+  "name_zh": "破岩机",
+  "description_en": "Slowly breaks up rocky materials into useful items. Requires 6W power.",
+  "description_zh": "将岩石材料缓慢分解成有用的物品。\n需要6W电力。",
+  "rarity": "common",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 250,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "fu_rockcrusher"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Rock Breaker.md",
+  "quality_tier": "S"
+}

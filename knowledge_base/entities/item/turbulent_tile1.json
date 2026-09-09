@@ -1,0 +1,43 @@
+{
+  "entity_id": "turbulent_tile1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Turbulent Rock",
+  "name_zh": "汹潮岩",
+  "description_en": "A sea stained rock block.",
+  "description_zh": "染上海色的岩石块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_thalassa_cannon_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "thalassa_beamCannon_1"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "thalassa_dagger_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "thalassa_spear_1"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "A"
+}

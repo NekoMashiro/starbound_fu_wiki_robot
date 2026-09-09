@@ -1,0 +1,59 @@
+{
+  "entity_id": "peach",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Peach",
+  "name_zh": "桃子",
+  "description_en": "A fresh, juicy peach, ripe for baking or consuming with my face! Type: Fruit",
+  "description_zh": "一个新鲜的、多汁的桃子，烤一烤，尝一尝。\n类型：植物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 3,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "peachjuice",
+          "peachschnapps"
+        ]
+      },
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "peachmash"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "fupeachpie"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

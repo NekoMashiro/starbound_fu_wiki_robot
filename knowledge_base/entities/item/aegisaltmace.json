@@ -1,0 +1,55 @@
+{
+  "entity_id": "aegisaltmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aegisalt Mace",
+  "name_zh": "霓磷盐钉头锤",
+  "description_en": "A dense slab of whackin' fun.",
+  "description_zh": "一块充满重击的乐趣的密集厚板。",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon",
+    "aegisalt"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 4
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

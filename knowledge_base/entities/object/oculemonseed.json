@@ -1,0 +1,59 @@
+{
+  "entity_id": "oculemonseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Oculemon Seed",
+  "name_zh": "眼球菜种子",
+  "description_en": "The iris is the best part of this strange fruit.",
+  "description_zh": "虹膜是这种奇怪的水果最棒的部分。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 50,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 66
+        },
+        {
+          "item": "liquidblood",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "gazelemonseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "oculemonHarvest",
+          "probability": 1.014,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

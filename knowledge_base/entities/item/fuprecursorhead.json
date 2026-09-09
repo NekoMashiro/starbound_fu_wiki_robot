@@ -1,0 +1,56 @@
+{
+  "entity_id": "fuprecursorhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Helm",
+  "name_zh": "先驱头盔",
+  "description_en": "Set Bonuses:\r\n +5% Crit Chance\r\n Energy/Precursor: Damage x1.15\r\n Immune: Oxygen, Pressure",
+  "description_zh": "套装奖励：\n +5% 暴击几率\n 能量/先驱武器: 伤害x1.15\n 免疫: 窒息, 压强",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 450,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 5
+        },
+        {
+          "item": "precursordatadrive",
+          "count": 1
+        },
+        {
+          "item": "precursorgrease",
+          "count": 2
+        },
+        {
+          "item": "precursorgel",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

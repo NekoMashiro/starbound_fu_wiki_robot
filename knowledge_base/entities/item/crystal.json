@@ -1,0 +1,255 @@
+{
+  "entity_id": "crystal",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Crystal",
+  "name_zh": "水晶",
+  "description_en": "Shiny crystal.",
+  "description_zh": "闪亮的水晶。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_crystalwing_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_iceEssence",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 122
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 12,
+        "examples": [
+          "crystalbed",
+          "crystalchair",
+          "crystaltable",
+          "effigiumbed",
+          "effigiumcabinet"
+        ]
+      },
+      "storage": {
+        "count": 7,
+        "examples": [
+          "crystalchest",
+          "effigiumbookcase",
+          "effigiumchestlarge",
+          "effigiumchestsmall",
+          "effigiumdrawers"
+        ]
+      },
+      "block": {
+        "count": 4,
+        "examples": [
+          "arcana_platform_netherPlatform",
+          "arcana_spectwing_tile15",
+          "crystalblock",
+          "metallicbrick3"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "crystallamp",
+          "effigiumchandelier",
+          "effigiumdesklamp",
+          "effigiumwalllamp"
+        ]
+      },
+      "seed": {
+        "count": 4,
+        "examples": [
+          "crystalplantseed",
+          "emeraseed",
+          "oceaniteseed",
+          "thanatiteseed"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "avianbox",
+          "hylotlbox",
+          "veluubox"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "duskiline",
+          "ff_focusingarray",
+          "ff_silicon"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "effigiumfridge",
+          "effigiumminifridge"
+        ]
+      }
+    },
+    "total": 79
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.9396,
+          "count": 17.8
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0427,
+          "count": 4.4
+        }
+      ],
+      "prob_range": [
+        0.0427,
+        0.9396
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.061,
+          "count": 4.4
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "icewasteunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "frozenvolcanicunderground",
+      "weight": 0.9
+    },
+    {
+      "biome": "chromaticunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "crystalmoonunderground",
+      "weight": 0.6
+    },
+    {
+      "biome": "ffcrystalcavern",
+      "weight": 0.6
+    },
+    {
+      "biome": "ffcrystalrealm",
+      "weight": 0.6
+    },
+    {
+      "biome": "ffsupermatter",
+      "weight": 0.6
+    },
+    {
+      "biome": "strangeseafloor",
+      "weight": 0.5
+    },
+    {
+      "biome": "icemoonunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "ffzen",
+      "weight": 0.5
+    }
+  ],
+  "blueprints_unlocked": [
+    "crystal"
+  ],
+  "wiki_ref": "Crystal.md",
+  "quality_tier": "S"
+}

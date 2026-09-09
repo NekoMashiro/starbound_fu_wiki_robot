@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_key_verdantKey",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verdant Key",
+  "name_zh": "蓊茏之匙",
+  "description_en": "A special key that can open Verdant Doors.",
+  "description_zh": "一把特殊的钥匙，可以打开蓊茏之门。",
+  "rarity": "Legendary",
+  "category": "arcana_key",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_verdantKey",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

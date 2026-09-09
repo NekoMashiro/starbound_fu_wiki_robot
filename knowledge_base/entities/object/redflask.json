@@ -1,0 +1,31 @@
+{
+  "entity_id": "redflask",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Red Flask",
+  "name_zh": "红色烧瓶",
+  "description_en": "A flask full of red liquid.",
+  "description_zh": "一个装满红色液体的烧瓶。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 30,
+  "tags": [
+    "apex",
+    "apexresearchlab",
+    "science"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexbaseTreasure",
+          "probability": 0.0336,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "garpberry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Garp Berry",
+  "name_zh": "彭泽浆果",
+  "description_en": "+10% Radiation Res & Immune: Radiation Burn: 2m",
+  "description_zh": "+10%辐射抗性 & 免疫: 辐射烧伤: 2m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "garpberryHarvest",
+          "probability": 1.0062,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

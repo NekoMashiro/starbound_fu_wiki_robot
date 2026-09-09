@@ -1,0 +1,42 @@
+{
+  "entity_id": "workshop_auto_refinery",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Refinery",
+  "name_zh": "精炼机",
+  "description_en": "An industrial machine for turning substances into refined materials and compounds, useful for producing fuel cells.",
+  "description_zh": "将物质转化为精炼材料和组件的工业机器，有助于生产燃料电池。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 3200,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 6
+        },
+        {
+          "item": "workshop_crafting_motor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Refinery.md",
+  "quality_tier": "A"
+}

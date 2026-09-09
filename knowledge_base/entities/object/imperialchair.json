@@ -1,0 +1,53 @@
+{
+  "entity_id": "imperialchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Chair",
+  "name_zh": "甲虫椅子",
+  "description_en": "A nice wooden stool with a soft cushion.",
+  "description_zh": "带软垫的漂亮木凳。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "mantizi",
+    "mantizivillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fudynastwood",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_nightmare_aCassiopeia",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "aCassiopeia",
+  "name_zh": "仙后座α",
+  "description_en": "A powerful assault rifle with two barrel that can fire two elemental ammo at the same time.",
+  "description_zh": "具有两个枪管的强力突击步枪，可以同时发射两种元素弹药。",
+  "rarity": "essential",
+  "category": "assaultRifle",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 10,
+  "twoHanded": true,
+  "primaryAbilityType": "mwhaddon_nightmare_aCassiopeia_primary",
+  "altAbilityType": "mwhaddon_nightmare_aCassiopeia_alt",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_3",
+          "count": 16
+        },
+        {
+          "item": "mwhaddon_ankhuquest_acma",
+          "count": 1
+        },
+        {
+          "item": "steelblades_assaultRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

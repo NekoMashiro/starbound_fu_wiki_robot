@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_key_keyRune",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Light Keyrune",
+  "name_zh": "光辉钥之符",
+  "description_en": "A keyrune, can be used to open certain light-syncing doors.",
+  "description_zh": "钥之符，可用于开启特定的光合成门。",
+  "rarity": "Legendary",
+  "category": "arcana_key",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_key_keyRune",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

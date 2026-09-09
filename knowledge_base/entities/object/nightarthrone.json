@@ -1,0 +1,38 @@
+{
+  "entity_id": "nightarthrone",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar's Throne",
+  "name_zh": "夜族王座",
+  "description_en": "A Nightar throne, only for the night's king!",
+  "description_zh": "夜族王座，只为夜族！",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 10000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

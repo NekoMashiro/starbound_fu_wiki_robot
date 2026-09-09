@@ -1,0 +1,91 @@
+{
+  "entity_id": "apex",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "猿族",
+  "description_en": "",
+  "description_zh": "一种高度智能的灵长类动物。这些科学大师是熟练的矿工和敏捷的战士，但受伤时，他们则会变成无法阻挡的猛兽。\n\n食性：杂食性\n\n天赋：\n  物质枪: +1 范围\n  HP x1.08, 能量 x1.06\n  抗性: +14% 寒气抗性, +12% 电系抗性, +7% 射线抗性, +4% 物理抗性\n  提高所有科技的效率\n  免疫: 丛林和泥浆\n\n环境:\n  丛林, 原始森林, 森林, 雨林, 冰雪生物群落: 防御 x1.15, HP x1.1\n  沙漠, 红色沙漠生物群落: 防御 x0.85, HP x0.85\n\n武器:\n  无\n\n弱点:\n  最大饱腹度 x0.9\n  抗性: -12% 火炎 & 毒素抗性, -5% 辐射抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.08
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.06
+      },
+      {
+        "stat": "maxFood",
+        "effectiveMultiplier": 0.9
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.04
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.12
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.14
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.12
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.12
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.07
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "fujungleslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "fumudslowImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "jumptechBonus",
+        "amount": 0.15
+      },
+      {
+        "stat": "healtechBonus",
+        "amount": 0.25
+      },
+      {
+        "stat": "bombtechBonus",
+        "amount": 2.0
+      },
+      {
+        "stat": "dashtechBonus",
+        "amount": 0.25
+      },
+      {
+        "stat": "dodgetechBonus",
+        "amount": 0.15
+      },
+      {
+        "stat": "defensetechBonus",
+        "amount": 0.15
+      },
+      {
+        "stat": "phasetechBonus",
+        "amount": 0.15
+      }
+    ],
+    "diet": "omnivore"
+  },
+  "quality_tier": "B"
+}

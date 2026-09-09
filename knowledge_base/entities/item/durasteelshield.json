@@ -1,0 +1,51 @@
+{
+  "entity_id": "durasteelshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Shield",
+  "name_zh": "耐钢盾",
+  "description_en": "Crit Chance +3%, Crit Damage +5",
+  "description_zh": "暴击几率+3%, 暴击伤害+5",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 150,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

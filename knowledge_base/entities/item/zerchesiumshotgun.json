@@ -1,0 +1,59 @@
+{
+  "entity_id": "zerchesiumshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Shotgun",
+  "name_zh": "高熔点霰弹枪",
+  "description_en": "Freezing slugs mince foes.\r\nSlows enemies",
+  "description_zh": "用冻结弹切碎敌人。\n减慢敌人的速度",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 420,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon",
+    "zerchesium"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "iceburstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

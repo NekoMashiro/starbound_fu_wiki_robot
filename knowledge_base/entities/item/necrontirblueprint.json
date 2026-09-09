@@ -1,0 +1,78 @@
+{
+  "entity_id": "necrontirblueprint",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Necrontir Schematics",
+  "name_zh": "坏死因子示意图",
+  "description_en": "The knowledge to create malign, shadowy armour.",
+  "description_zh": "创造邪恶、暗黑盔甲的知识。",
+  "rarity": "legendary",
+  "category": "Blueprint",
+  "price": 7683,
+  "tags": [],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 5,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.1118,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.01,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.01,
+        0.1118
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0496,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0314,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.01,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.01,
+        0.0314
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

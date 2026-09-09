@@ -1,0 +1,27 @@
+{
+  "entity_id": "tetherhookwheel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tetherhook Wheel",
+  "name_zh": "绳钩草",
+  "description_en": "When near death, teleport: 5s",
+  "description_zh": "当你濒死时，传送: 5s",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tetherhookHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

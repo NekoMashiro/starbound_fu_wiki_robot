@@ -1,0 +1,55 @@
+{
+  "entity_id": "lavaspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Core Lance",
+  "name_zh": "星核长枪",
+  "description_en": "Searing heat, and puncture-fresh lethality.\r\nInflicts Burning\r\nHunting weapon",
+  "description_zh": "灼热，刺出新鲜的致命伤。\n附加燃烧效果\n狩猎武器",
+  "rarity": "common",
+  "category": "lance",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 10.84,
+  "critChance": 3,
+  "critBonus": 12,
+  "primaryAbilityType": "heavyspearcombo",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 8
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

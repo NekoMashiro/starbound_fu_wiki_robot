@@ -1,0 +1,151 @@
+{
+  "entity_id": "neptuniumrod",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neptunium Rod",
+  "name_zh": "镎棒",
+  "description_en": "This radioactive isotope is typically found on Threat 3+ planets.\n+5 Fuel",
+  "description_zh": "这种放射性同位素通常被发现于威胁等级3以上的行星。\n燃料+5",
+  "rarity": "rare",
+  "category": "fuel",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neptuniumore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 2
+        },
+        {
+          "item": "deuterium",
+          "count": 1
+        },
+        {
+          "item": "uraniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 6,
+        "examples": [
+          "chaoshead",
+          "daywalkerhead",
+          "evahead",
+          "fflagoonhead",
+          "fuintrepidhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 6,
+        "examples": [
+          "chaoschest",
+          "daywalkerchest",
+          "evachest",
+          "fflagoonchest",
+          "fuintrepidchest"
+        ]
+      },
+      "legarmour": {
+        "count": 6,
+        "examples": [
+          "chaospants",
+          "daywalkerpants",
+          "evapants",
+          "fflagoonlegs",
+          "fuintrepidpants"
+        ]
+      },
+      "mechPart": {
+        "count": 4,
+        "examples": [
+          "mecharmchainsaw",
+          "mecharmwobbleshot",
+          "mechboostersleek",
+          "sawblaster"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "powercore",
+          "unstableparticles"
+        ]
+      },
+      "bioweapon": {
+        "count": 1,
+        "examples": [
+          "fucellgun"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "hellfireshield"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "garpberryseed"
+        ]
+      }
+    },
+    "total": 33
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "neptuniumore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "neptuniumore"
+    }
+  ],
+  "quality_tier": "S"
+}

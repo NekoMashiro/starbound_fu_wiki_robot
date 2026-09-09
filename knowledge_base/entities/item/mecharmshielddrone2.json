@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmshielddrone2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ward Mech Arm",
+  "name_zh": "护盾机甲臂 III",
+  "description_en": "Launches 3 drones which project a defensive energy shield.",
+  "description_zh": "可以放出三架无人机，它可以产生防御用的能量护盾。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 2600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "mecharmshielddrone1",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

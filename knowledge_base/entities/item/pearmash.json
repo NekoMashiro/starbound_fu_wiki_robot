@@ -1,0 +1,49 @@
+{
+  "entity_id": "pearmash",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pear Mash",
+  "name_zh": "梨子醪",
+  "description_en": "Pear Mash, the product of crushed and squeezed pears.",
+  "description_zh": "梨子压榨后的产物。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "pear",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fruit Press",
+      "station_zh": "水果榨汁机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 3,
+        "examples": [
+          "perry",
+          "perrybottle",
+          "spirits"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

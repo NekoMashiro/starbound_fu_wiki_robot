@@ -1,0 +1,56 @@
+{
+  "entity_id": "avianadventurerpants",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Leather Loincloth",
+  "name_zh": "皮革裤子",
+  "description_en": "Made from natural fibres and stylish leather, for the discerning adventurer.",
+  "description_zh": "天然纤维和时尚的皮革，为挑剔的冒险家。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

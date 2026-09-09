@@ -1,0 +1,74 @@
+{
+  "entity_id": "precursorcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Harbinger",
+  "name_zh": "先驱预告者",
+  "description_en": "A curious, unique weapon of ancient design.\r\nInflicts Electrified\r\nIncredible knockback",
+  "description_zh": "一把古怪的、独特的古代设计风格的武器。\n附加感电效果\n难以置信的击退",
+  "rarity": "legendary",
+  "category": "shotgun",
+  "price": 2280,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 6.5,
+  "critChance": 3,
+  "critBonus": 6,
+  "altAbilityType": "kbshot",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Harbinger.md",
+  "quality_tier": "A"
+}

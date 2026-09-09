@@ -1,0 +1,46 @@
+{
+  "entity_id": "tigertailback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tiger Tail",
+  "name_zh": "老虎尾巴",
+  "description_en": "No tigers were harmed in the manufacturing of this decorative tiger tail. +20% Shield Regen.",
+  "description_zh": "没有买卖，没有伤害。\n盾牌回复+20%",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.077,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.0646,
+          "count": 1
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.0541,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0541,
+        0.0646
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

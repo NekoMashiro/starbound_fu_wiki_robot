@@ -1,0 +1,69 @@
+{
+  "entity_id": "fusoggypaper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Edible Soggy Paper",
+  "name_zh": "可食用的湿纸",
+  "description_en": "For some reason, I feel inclined to eat this.\n+20% EP (125s)",
+  "description_zh": "不知什么原因，我想吃这个。\n+20%EP(持续125s)",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "soggypaper",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "caramelsoggypaper"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

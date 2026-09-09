@@ -1,0 +1,61 @@
+{
+  "entity_id": "pitchblack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Roast Coffee",
+  "name_zh": "黑咖啡",
+  "description_en": "Concentrated coffee. Dense and very strong, as dark as tar but much more palatable.\n+25% Run (1m)\nExtremely Caffeinated (2m)",
+  "description_zh": "无任何添加物的咖啡，色泽犹如黑宝石一般，比加糖咖啡更可口，仅为懂生活的人士调配。\n+25%速度(持续1m)\n巨量咖啡因(持续3m)",
+  "rarity": "Uncommon",
+  "category": "drink",
+  "price": 11,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coffeebeans",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Coffee Machine",
+      "station_zh": "咖啡机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 505
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "You're a creep.": {
+        "count": 1,
+        "examples": [
+          "bizarreerotica"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

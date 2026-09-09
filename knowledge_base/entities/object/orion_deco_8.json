@@ -1,0 +1,53 @@
+{
+  "entity_id": "orion_deco_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Decorative Hydroponics",
+  "name_zh": "装饰性水培设施",
+  "description_en": "A hydroponic unit for growing plants.",
+  "description_zh": "一个用于种植植物的水培装置。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 200,
+  "tags": [
+    "orion",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 6
+        },
+        {
+          "item": "plantfibre",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

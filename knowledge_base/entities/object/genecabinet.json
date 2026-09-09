@@ -1,0 +1,45 @@
+{
+  "entity_id": "genecabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Food Locker",
+  "name_zh": "食物柜",
+  "description_en": "This should be perfect for your lab food storage.",
+  "description_zh": "这对你的实验室食品储藏来说应该是完美的。",
+  "rarity": "uncommon",
+  "category": "fridgeStorage",
+  "price": 1000,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 6
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "bobotaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bobot Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Nobody knows where it came from or who made it.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bobotVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "bobotTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bobot",
+            "chromabot",
+            "firebobot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bobotHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bobot",
+            "chromabot",
+            "firebobot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

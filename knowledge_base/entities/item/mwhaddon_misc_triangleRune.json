@@ -1,0 +1,33 @@
+{
+  "entity_id": "mwhaddon_misc_triangleRune",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Triangle Rune",
+  "name_zh": "三角符文",
+  "description_en": "Figurative fragments of a shattered nightmare, dropped from Gravekeeper of the Lost Ark.",
+  "description_zh": "破碎噩魇的具象化碎片，由失落方舟的守墓人掉落。",
+  "rarity": "essential",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_misc_shadowstarBlossom_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_perditionFractal"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "A"
+}

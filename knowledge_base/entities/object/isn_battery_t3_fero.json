@@ -1,0 +1,46 @@
+{
+  "entity_id": "isn_battery_t3_fero",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Battery",
+  "name_zh": "高级电池",
+  "description_en": "A fantastic battery with exceptional storage and voltage. Scan for Info\nStorage Capacity: 8000J",
+  "description_zh": "梦幻般的电力储存设备，有着无与伦比的容量和功率。\n扫描以查看更多信息\n储存电能：8000J",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 800,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "deuterium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

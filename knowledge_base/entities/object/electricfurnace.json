@@ -1,0 +1,62 @@
+{
+  "entity_id": "electricfurnace",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electric Furnace",
+  "name_zh": "电炉",
+  "description_en": "A powered furnace which can smelt all common and uncommon ores, and some basic materials. Requires 12W power.",
+  "description_zh": "一台可以冶炼普通和非凡矿石和一些基础原料的动力熔炉。\n需要12W电力。。",
+  "rarity": "uncommon",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 30
+        },
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "lead",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 14
+        },
+        {
+          "item": "corefragmentore",
+          "count": 20
+        },
+        {
+          "item": "siliconboard",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "fu_blastfurnace"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Electric Furnace.md",
+  "quality_tier": "S"
+}

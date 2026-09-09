@@ -1,0 +1,71 @@
+{
+  "entity_id": "precursoraltar",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Machine",
+  "name_zh": "先驱机械",
+  "description_en": "Some sort of bulky machine.",
+  "description_zh": "某种体型庞大的机械。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 500,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0288,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0288,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.016,
+        0.0288
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursoraltar"
+  ],
+  "quality_tier": "S"
+}

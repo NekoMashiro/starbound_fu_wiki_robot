@@ -1,0 +1,41 @@
+{
+  "entity_id": "mushroomriceobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mushroom Rice",
+  "name_zh": "蘑菇飯",
+  "description_en": "Delicious eggy fried rice with mushrooms.",
+  "description_zh": "美味的蘑菇蛋炒饭。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 130,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mushroomrice",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "mushroomrice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathshiplight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Ship Light",
+  "name_zh": "绘世者船灯",
+  "description_en": "A small blue light",
+  "description_zh": "小蓝灯",
+  "rarity": "common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "terraformerarboreal2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "V.Primeval Terraformer",
+  "name_zh": "火山原始森林转换器",
+  "description_en": "Transforms a planet's climate into a Volcanic Primeval Forest.",
+  "description_zh": "(请放置于地表，可移动式，激活后请耐心等待)可将星球的特征转换为火山原始森林。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "livingroot",
+          "count": 25
+        },
+        {
+          "item": "scorchedcore",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmbreachdefense",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Breach Defense",
+  "name_zh": "突破护卫",
+  "description_en": "Short-ranged drones ideal for mining defense.",
+  "description_zh": "短程无人机是矿山防御的理想选择。",
+  "rarity": "legendary",
+  "category": "mechPart",
+  "price": 8800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmpointdefense2",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 15
+        },
+        {
+          "item": "moonstonebar",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

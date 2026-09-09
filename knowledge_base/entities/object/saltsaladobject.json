@@ -1,0 +1,41 @@
+{
+  "entity_id": "saltsaladobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Salt Salad",
+  "name_zh": "咸沙拉",
+  "description_en": "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad.",
+  "description_zh": "珊瑚礁、芦苇和珍珠豆是咸脆的沙拉。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 365,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "saltsalad",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "saltsalad"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

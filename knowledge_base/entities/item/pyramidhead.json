@@ -1,0 +1,27 @@
+{
+  "entity_id": "pyramidhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Pyramid Head",
+  "name_zh": "三角头盔",
+  "description_en": "Somehow not as terrifying as you might expect.",
+  "description_zh": "没有你想的那么可怕。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "aviannativevillageChestTreasure",
+          "probability": 0.03,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

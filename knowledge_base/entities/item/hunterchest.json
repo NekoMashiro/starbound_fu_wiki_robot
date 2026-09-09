@@ -1,0 +1,37 @@
+{
+  "entity_id": "hunterchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hunter Jacket",
+  "name_zh": "猎人夹克",
+  "description_en": "Sturdy, practical, stylish.",
+  "description_zh": "坚固，耐用，时尚。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.1676,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.1176,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

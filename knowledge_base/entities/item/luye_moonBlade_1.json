@@ -1,0 +1,67 @@
+{
+  "entity_id": "luye_moonBlade_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corrodium Moon Blade",
+  "name_zh": "蚀金月刃",
+  "description_en": "A moon-blade crafted from aegistalt and corrodium.",
+  "description_zh": "由霓磷盐与蚀金制成的月刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "corrodium"
+  ],
+  "elementalType": "poison",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 10.1,
+  "primaryAbilityType": "arcana_magiblade_combo",
+  "altAbilityType": "spearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 12
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 16
+        },
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 18
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_gazeOfCosmo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

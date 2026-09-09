@@ -1,0 +1,67 @@
+{
+  "entity_id": "arcana_ore_galvasteelOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Galvasteel Ore",
+  "name_zh": "镀钢矿",
+  "description_en": "A durable galvasteel ore found in Geoelectra caves.",
+  "description_zh": "在电窟找到的坚固镀钢矿。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_galvasteelBar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_treasure_general_galvasteelOre",
+          "probability": 1.0,
+          "count": 16.0
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_neonCave",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_geoelectra",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_automated_underground_1",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_mutatedCavern",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_automated_underground_2",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_automated_underground_3",
+      "weight": 0.8
+    }
+  ],
+  "wiki_ref": "Galvasteel Ore.md",
+  "quality_tier": "S"
+}

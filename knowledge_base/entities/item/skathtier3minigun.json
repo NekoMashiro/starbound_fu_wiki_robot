@@ -1,0 +1,64 @@
+{
+  "entity_id": "skathtier3minigun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Plasma Minigun",
+  "name_zh": "绘世者机枪·等离子",
+  "description_en": "'A high tech minigun that fires plasma rounds.'",
+  "description_zh": "发射等离子弹的高科技机枪。",
+  "rarity": "Legendary",
+  "category": "Minigun",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 5.5,
+  "altAbilityType": "explosiveburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier2minigun",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "tethyde",
+          "count": 4
+        },
+        {
+          "item": "hydrolium",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

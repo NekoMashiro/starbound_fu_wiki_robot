@@ -1,0 +1,40 @@
+{
+  "entity_id": "persistenceofpixels",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Persistence of Pixels",
+  "name_zh": "像素的永恒",
+  "description_en": "A bit of Glitch surrealism.",
+  "description_zh": "有点电子人超现实主义。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 900,
+  "tags": [
+    "human",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        },
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0018,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0018,
+        0.0262
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

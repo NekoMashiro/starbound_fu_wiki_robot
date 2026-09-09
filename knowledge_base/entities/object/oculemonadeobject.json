@@ -1,0 +1,41 @@
+{
+  "entity_id": "oculemonadeobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Oculemonade",
+  "name_zh": "眼球柠檬汁",
+  "description_en": "Nothing better on a hot day than a cool, refreshing can of Oculemonade.",
+  "description_zh": "在炎热的天气里，没有什么比一罐清凉的眼球柠檬汁更好的了。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemonade",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "oculemonade"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "fuaetherteleporter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Teleporter",
+  "name_zh": "以太传送门",
+  "description_en": "A personal teleporter, connects to bookmarked locations. \nDestroyed when broken.",
+  "description_zh": "一个私人传送门，连接着标记过的传送点。\n拆卸后将被永久破坏。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 3000,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidaether",
+          "count": 40
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 4
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 10
+        },
+        {
+          "item": "fuaetherstone",
+          "count": 20
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

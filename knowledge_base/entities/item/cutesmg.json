@@ -1,0 +1,59 @@
+{
+  "entity_id": "cutesmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic SMG",
+  "name_zh": "棱镜冲锋枪",
+  "description_en": "Snuggle them to death with energy bullets!\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "用能量子弹将敌人送入死亡的怀抱！\n能量武器",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 420,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon",
+    "cute"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

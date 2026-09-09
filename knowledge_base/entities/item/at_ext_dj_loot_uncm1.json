@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_dj_loot_uncm1",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Plastic",
+  "name_zh": "塑料",
+  "description_en": "A stack of synthetic plastic, very versatile as an assembly material.a circuit board removed from a machine, might still be useful.\nCan be sold at the trade terminal!",
+  "description_zh": "一捆塑料，可用于工业。\n可在贸易终端处出售！",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "at_ext_loots"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.12,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0402,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0402,
+        0.12
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

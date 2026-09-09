@@ -1,0 +1,48 @@
+{
+  "entity_id": "fishingrod",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Fishing Rod",
+  "name_zh": "鱼竿",
+  "description_en": "A simple wooden fishing rod with titanium fittings.",
+  "description_zh": "一个简单的木质鱼竿，配有钛制配件。",
+  "rarity": "uncommon",
+  "category": "fishingRod",
+  "price": 150,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "string",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

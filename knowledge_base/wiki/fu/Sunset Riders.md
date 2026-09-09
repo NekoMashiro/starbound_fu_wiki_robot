@@ -1,0 +1,36 @@
+# [FU] Sunset Riders
+
+**来源**: Frackin' Universe Wiki | **链接**: https://frackinuniverse.miraheze.org/wiki/Sunset_Riders
+
+---
+
+**Sunset Riders** is an extra dungeon categorized as threat 3. Talk to S.A.I.L. to beam there.
+
+> Acquisition : You will need to find and interact with a map to receive this quest. This map can be found in a Novakid outlaw camp on a planet surface or an Outlaw Mine encounter.
+
+> Quest Reward : 1 The Velvet Revolver, 1 The Dawn Sigil, 3000 Research, 2000 Pixels
+
+> Item Requirement : Nothing is explicitly required to complete the dungeon. The Pulse Jump tech will help to cross a room in the mines, but you can complete the room without it. A light source is also useful, but not required.
+
+## Dungeon Guide
+You will be beamed down in a small Novakid encampment. Head to the right and you will first reach an inn containing various townsfolk, as well as a cook that can sell you food. After exiting the inn, you will reach the sheriff's office a bit further to the right. There, you can learn from townsfolk that the outlaws you are hunting have taken over a silver-rich mine which also contains deposits of diamonds. The sheriff will also tell you that the outlaws' leader has set up camp on the other side of the hill, and that you will either need to fight through the outlaws or sneak through the mines. Once you're ready to leave, exit through the metal door above the sheriff's office. The door will lock behind you. Continue to the right and you will find a crossroads. As the sheriff told you, you can either climb the hill and fight a lot of outlaws, or go down in the mines, which takes longer but contains silver and diamonds you can collect. The outlaws you will fight in both paths are Novakids, armed with either a one-handed gun and a shield or a two-handed gun.
+
+### Fight through the hill
+If you chose the hill path, you will quickly be greeted by 4 outlaws defending a small building. The house doesn't hold anything of value and is mostly there to give cover to one of the outlaws. Continue forward and you will find 3 more outlaws, one of them hiding in a small tower above a pond. You will then cross a small pit filled with spike traps. Boulders will regularly roll down the hill, so you will need to dodge them on your way up. You will also be fired on from both sides by an outlaw inside a tower and another in a small bunker-like building. You will then reach the top of the hill, where 2 outlaws await you, one inside a tower and the other one at the window of a fort at the top of the hill. You will need to activate the switch on the wall and wait for 10 seconds for the door to open. Inside, 4 outlaws will rush at you, wielding swords instead of guns. 2 more gunslinging outlaws await you at the exit of the fort, where you can make your way down the hill.
+
+You will see a few explosive barrels in front of you. Blowing them up yourself is advisable, since an upcoming outlaw in a tower may otherwise shoot the barrels when you are near, causing you unnecessary damage. More boulders will fall on your way down. You will face 2 outlaws waiting in a building above the road, as well as 2 more sword-wielding outlaws. 2 last outlaws then await on an elevated platform, where you will reach the end of the hill path. The elevator below will take you to the exit of the mines, and the lever to your left will open a path that leads you back to the crossroads, which holds a few containers with loot.
+
+### Going through the mines
+If you chose to go through the mines, you will see a gate to blocking your path. This is a shortcut that will lead to the other side of the hill, but you cannot open it yet. Instead, follow the path downstairs. You will find crates containing loot, most often ore up to tier 3. After taking an elevator leading down, you will find 2 Paratails, 1 Peblit, and 2 Snauts waiting for you. Head to the left door and go downstairs. Ignore the locked door for now and take the door on the last floor instead. You will enter a huge cavern. Pull the lever in front of you, which will turn on the lights and activate a series of platforms, some moving and some fading in and out. You will need to cross the room, jumping from platform to platform. Falling is not dangerous, since there's a lake under the room that will prevent fall damage and stairs that will return you to the start of the room. After crossing the platforming section, you can either head to the left to find a few more crates and a lever to unlock the shortcut gate from before, or you can immediately head upstairs. Upstairs, you will enter a room guarded by 2 outlaws. After reaching the middle of the room, the door to the right will open and 3 sword-wielding outlaws will join the fight. You will find a few silver deposits along the way, followed by another crossroads, with one path leading straight to your right and another one leading deeper into the mines through an elevator.
+
+#### Elevator path
+After riding the elevator, you will find another crossroads. Head to the right and you will find another platforming cavern, containing 4 Batongs. Pull the lever to activate the moving platforms and make your way through the cavern, where you will reach the outlaws' forge. The first room is empty, but the second room is guarded by 4 outlaws. Follow the path until you reach an elevator and ride it to the top to exit the mines. 
+
+#### Upper path
+If you head to the right, you will quickly be spotted by 2 Outlaws. You will also trigger a proximity sensor that will drop 2 sword-wielding outlaws, one in front of you and the other behind you. Keep going to the right, where you will pass a silver deposit you can collect. You will then reach a small cave marked by a "Falling Rocks" warning, which means boulders are rolling down the slope. While making your way up, you will also free 2 Batongs and 2 Agrobats behind you. After the first trap that spawns the boulders, you will find another 2 Batongs with 2 Agrobats. After reaching the top, open the gate and ride the elevator to the surface, where you will exit the mines.
+
+### Assault on the outlaw camp
+After climbing the hill or navigating the mines, head to your right and cross the stone bridge. You will find a respawn checkpoint. You will then enter a small arena where you will fight 7 gunner outlaws camping inside two tall buildings. You will find a switch on the top right of the arena, which will open the door after 20 seconds. You will then reach the final arena, where you'll face Hank 'Hawkeye' Hatfield, the leader of the outlaws. He is a Novakid wielding a 1-handed gun and a shield, with higher stats than the other outlaws you met on your way to him. Once he is dead, the door to the right will open and you will reach the last area of the dungeon. This area contains a few treasure chests, several crates, the diamond pedestal to turn in the quest, and a teleporter to return to your ship. You will also find the Midnight Meat Wagon here, a merchant who sells Baby Head (on a stick) for 200 pixels and Wrapped Corpse for 3500 pixels.
+
+## Secrets
+There are a variety of extra diamonds and silver deposits hidden in the mines. You can find the walkthrough to find them on the Secrets page.

@@ -1,0 +1,446 @@
+{
+  "entity_id": "essence",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ancient Essence",
+  "name_zh": "古代精华",
+  "description_en": "Mysterious energy used by the Ancients. It pulses in harmony with the living universe.",
+  "description_zh": "古代种所使用的神秘能量，能在有生命的宇宙中和谐地进行脉冲。",
+  "rarity": "Legendary",
+  "category": "",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_mirageEssence",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Armor Altering Anvil",
+      "station_zh": "盔甲魔化砧",
+      "source_mod": "Arcana"
+    },
+    {
+      "inputs": [
+        {
+          "item": "artifact3",
+          "count": 1
+        }
+      ],
+      "output_count": 450,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "artifact4",
+          "count": 1
+        }
+      ],
+      "output_count": 2440,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "exoticmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "precursorcharger",
+          "count": 1
+        }
+      ],
+      "output_count": 200,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "precursorchip",
+          "count": 1
+        }
+      ],
+      "output_count": 500,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "precursorcore",
+          "count": 1
+        }
+      ],
+      "output_count": 500,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 97,
+        "examples": [
+          "microformeraliendesert",
+          "microformeralienforest",
+          "microformeralpine",
+          "microformerbadlands",
+          "microformerbioluminescence"
+        ]
+      },
+      "eppAugment": {
+        "count": 4,
+        "examples": [
+          "extraenergisingaugment",
+          "extragravityaugment",
+          "extraresistanceaugment",
+          "extraspringaugment"
+        ]
+      },
+      "other": {
+        "count": 4,
+        "examples": [
+          "arcana_teleporter_astralCorridor",
+          "arcana_teleporter_lunarCorridor",
+          "arcana_teleporter_solarCorridor",
+          "terraforge"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "ancientmonument",
+          "ancientmonument2",
+          "ancientserpentstatue"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_evanescent_head",
+          "conquerorhead",
+          "fuwitchhat"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_misc_terminalSigma",
+          "darkmatter",
+          "redmatter"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_evanescent_chest",
+          "darkchest"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_evanescent_legs",
+          "darklegs"
+        ]
+      }
+    },
+    "total": 146
+  },
+  "drop_sources": {
+    "total_pools": 260,
+    "boss_mission": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_under_t2",
+          "probability": 11.9,
+          "count": 5.9
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_codex_3",
+          "probability": 11.9,
+          "count": 5.9
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_essence",
+          "probability": 8.0,
+          "count": 6.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_under_t1",
+          "probability": 6.857,
+          "count": 6.0
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 1.2443,
+          "count": 1221.4,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        11.9
+      ]
+    },
+    "other": {
+      "count": 33,
+      "top": [
+        {
+          "pool": "essenceBurst",
+          "probability": 9.9205,
+          "count": 10.0
+        },
+        {
+          "pool": "essenceDrop",
+          "probability": 1.0001,
+          "count": 5.0
+        },
+        {
+          "pool": "ancientPotSmall",
+          "probability": 1.0,
+          "count": 2
+        },
+        {
+          "pool": "ancientPotMedium",
+          "probability": 1.0,
+          "count": 3.0
+        },
+        {
+          "pool": "ancientPotLarge",
+          "probability": 1.0,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0016,
+        9.9205
+      ]
+    },
+    "monster_drops": {
+      "count": 109,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 3.1604,
+          "count": 81.5,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "adultpoptopVaultTreasure",
+          "probability": 1.0001,
+          "count": 5.0
+        },
+        {
+          "pool": "anglureVaultTreasure",
+          "probability": 1.0001,
+          "count": 5.0
+        },
+        {
+          "pool": "agrobatVaultTreasure",
+          "probability": 1.0001,
+          "count": 5.0
+        },
+        {
+          "pool": "batongVaultTreasure",
+          "probability": 1.0001,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        3.1604
+      ]
+    },
+    "hunting_harvest": {
+      "count": 29,
+      "top": [
+        {
+          "pool": "fusoulleafHarvest",
+          "probability": 0.9098,
+          "count": 12.3
+        },
+        {
+          "pool": "tombstoneHarvest",
+          "probability": 0.2252,
+          "count": 10
+        },
+        {
+          "pool": "huntingDarkMetroid",
+          "probability": 0.0788,
+          "count": 81.5,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "huntingwolf",
+          "probability": 0.02,
+          "count": 1,
+          "monsters": [
+            "fufoxcritter",
+            "fuwolf"
+          ]
+        },
+        {
+          "pool": "huntingplant",
+          "probability": 0.0156,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0018,
+        0.9098
+      ]
+    },
+    "chest_loot": {
+      "count": 69,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.2519,
+          "count": 150
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.1372,
+          "count": 187.6
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0907,
+          "count": 80.5
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0903,
+          "count": 82.5
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0704,
+          "count": 150
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        0.2519
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0672,
+          "count": 189.4
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0394,
+          "count": 82.3
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.039,
+          "count": 82.1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0132,
+          "count": 181.1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0078,
+          "count": 74.3
+        }
+      ],
+      "prob_range": [
+        0.0016,
+        0.0672
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0599,
+          "count": 82.1,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Ancient Essence.md",
+  "quality_tier": "S"
+}

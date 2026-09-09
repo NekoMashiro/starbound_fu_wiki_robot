@@ -1,0 +1,70 @@
+{
+  "entity_id": "fenerox",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "费涅罗",
+  "description_en": "",
+  "description_zh": "耳廓狐对于已建立的银河秩序来说可能是新面孔，他们的技术水平普遍较低，只有少数人超脱了他们围绕着狩猎和采集的原始生活方式。\n——是的，他们的狩猎技能非常出色。\n\n食性：荤食性\n\n天赋:\n\n增益:\n  ++12%移速 & 跳跃高度\n  能量x1.1, 伤害x1.05, +5% 魅力\n  夜视\n  如果有足够的饱腹度，在晚上就会再生。\n抗性:  +20%电系抗性，+15%射线抗性, +5% 毒素, 暗影抗性, +2% 火炎抗性\n科技：猎人之爪\n  免疫: 感电\n\n环境:\n  干草原生态：伤害x1.15\n  夜间时：如果饱食度较高，防御力+2，+15%物理抗性\n  硫酸, 粘液和焦油生物群落: 防御x0.8\n\n武器:\n  矛系专精 +25%\n  附加你当前的速度/4作为额外的近战伤害。\n  用长矛攻击需要消耗饱腹度\n\n弱点:\n  生命值x0.9，饱食度上限x0.75\n  抗性: -18%寒气抗性15%物理抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 0.9
+      },
+      {
+        "stat": "powerMultiplier",
+        "effectiveMultiplier": 1.05
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 1.05
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.02
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.18
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "electricStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "spearMastery",
+        "amount": 0.25
+      }
+    ],
+    "diet": "carnivore",
+    "controlModifiers": {
+      "speedModifier": 1.12,
+      "airJumpModifier": 1.12
+    },
+    "tech": [
+      "huntersclaw"
+    ]
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "pandorasboxcaketopcake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Caketop Cake",
+  "name_zh": "蛋糕",
+  "description_en": "A delicious cake-like pastery produced by Caketops.",
+  "description_zh": "一块美味而小巧的纸杯蛋糕。",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 1,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxcaketopHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

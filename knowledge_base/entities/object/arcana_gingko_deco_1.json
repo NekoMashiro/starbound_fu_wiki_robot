@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_gingko_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Chryso Orb",
+  "name_zh": "金石宝珠",
+  "description_en": "A golden orb decoration.",
+  "description_zh": "由金石雕凿而成的宝珠石雕，混元一体鬼斧神工。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_chrysoEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_gingkoWood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

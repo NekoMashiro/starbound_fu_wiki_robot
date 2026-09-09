@@ -1,0 +1,49 @@
+{
+  "entity_id": "woodencookingtable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Kitchen Counter",
+  "name_zh": "厨房柜台",
+  "description_en": "Used to produce wholesome foods with a variety of effects.",
+  "description_zh": "用于生产拥有各种效果的干净卫生的食物。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Kitchen Counter.md",
+  "quality_tier": "A"
+}

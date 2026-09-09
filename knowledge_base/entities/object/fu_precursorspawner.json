@@ -1,0 +1,50 @@
+{
+  "entity_id": "fu_precursorspawner",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Spawner",
+  "name_zh": "先驱生成器",
+  "description_en": "Spawns monsters based on a capture pod's contents. Uses beer as fuel. Requires approx.100J per spawn. Input1: On/Off Switch",
+  "description_zh": "根据捕获舱的内容物产生怪物。以啤酒作为燃料。\n每次生成需要100J能量。 \n输入1: 电源开关",
+  "rarity": "Legendary",
+  "category": "spawner",
+  "price": 0,
+  "tags": [
+    "precursor",
+    "ancient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0937,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0093,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0093,
+        0.0937
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0093,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Spawner.md",
+  "quality_tier": "A"
+}

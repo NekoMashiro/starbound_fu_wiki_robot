@@ -1,0 +1,47 @@
+{
+  "entity_id": "lunarihead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Helm",
+  "name_zh": "月晶头盔",
+  "description_en": "Set Bonuses:\r\n +12% Energy Regen\r\n Lunari weapons: Damage x1.15, +4% Crit Chance",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

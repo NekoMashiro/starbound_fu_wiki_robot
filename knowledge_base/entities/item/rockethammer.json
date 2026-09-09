@@ -1,0 +1,74 @@
+{
+  "entity_id": "rockethammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Omega Hammer",
+  "name_zh": "终结之锤",
+  "description_en": "Massive, ancient hammer.\nHuge impact damage\nRocket-propelled!",
+  "description_zh": "这把巨大的武器源于古代！\n巨大的冲击伤害\n由火箭推动",
+  "rarity": "legendary",
+  "category": "hammer",
+  "price": 2800,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.67,
+  "critChance": 9,
+  "critBonus": 12,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "groundslam",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Omega Hammer.md",
+  "quality_tier": "A"
+}

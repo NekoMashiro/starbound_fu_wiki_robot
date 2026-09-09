@@ -1,0 +1,58 @@
+{
+  "entity_id": "seashellshield",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Seashell Shield",
+  "name_zh": "贝壳盾",
+  "description_en": "Enemies will break against you like crashing waves.",
+  "description_zh": "敌人会像海浪一样把你击溃。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 660,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.2137,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0419,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0419,
+        0.2137
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.15,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.021,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.021,
+        0.15
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

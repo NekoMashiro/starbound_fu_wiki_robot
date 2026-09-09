@@ -1,0 +1,65 @@
+{
+  "entity_id": "penumbriteshotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Shotgun",
+  "name_zh": "半影霰弹枪",
+  "description_en": "Specially treated rounds, cleanup crew not included.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "shotgun",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 4,
+  "critBonus": 6,
+  "altAbilityType": "forcebubble",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

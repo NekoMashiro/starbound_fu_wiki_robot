@@ -1,0 +1,24 @@
+{
+  "entity_id": "fuhoney",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "fuhoney",
+  "name_zh": "",
+  "description_en": "Pure, golden honey.",
+  "description_zh": "纯净的金色蜂蜜。",
+  "status_effects": [
+    "swimming",
+    "honeyslow"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "honeycombmaterial"
+    },
+    {
+      "liquid": 73,
+      "materialResult": "honeycombmaterial"
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "modernalpinelamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alpine Lamp",
+  "name_zh": "阿尔卑斯灯",
+  "description_en": "A wooden lamp with a stylishly patterned lampshade.",
+  "description_zh": "带有时髦图案灯罩的木制灯具。",
+  "rarity": "Uncommon",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "modernalpine",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "modernalpineset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

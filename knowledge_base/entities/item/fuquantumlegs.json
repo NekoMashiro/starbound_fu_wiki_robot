@@ -1,0 +1,66 @@
+{
+  "entity_id": "fuquantumlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Morphite Greaves",
+  "name_zh": "异极腿甲",
+  "description_en": "Set Bonuses:\r\n Immune: Sulphuric Acid",
+  "description_zh": "套装奖励：\n 免疫: 硫酸",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 3
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuquantumlegsadv"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

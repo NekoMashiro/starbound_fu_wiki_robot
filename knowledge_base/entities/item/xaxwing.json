@@ -1,0 +1,27 @@
+{
+  "entity_id": "xaxwing",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xax Wing",
+  "name_zh": "龙翼",
+  "description_en": "Levitation: 1m\nImmune: Grav Rain: 3m",
+  "description_zh": "悬浮: 1m\n免疫: 重力雨: 3m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "xaxHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

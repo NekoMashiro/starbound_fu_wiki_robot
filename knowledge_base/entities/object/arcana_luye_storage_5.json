@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_luye_storage_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luye Metal Desk",
+  "name_zh": "绿叶金属办公桌",
+  "description_en": "A desk used by employees of the Luye, also a good place to fill out paperworks.",
+  "description_zh": "绿叶员工使用的办公桌，也是填写文书的好地方。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "luye",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

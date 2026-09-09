@@ -1,0 +1,75 @@
+{
+  "entity_id": "precursorbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Rendblade",
+  "name_zh": "先驱宽剑",
+  "description_en": "Impossibly sharp focused light forms the blade.\r\nInflicts Radiation Burn",
+  "description_zh": "由汇聚的光组成的剑刃，难以置信的锋利。\n附加辐射烧伤效果",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 5200,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "precursor",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10.23,
+  "critChance": 2,
+  "critBonus": 12,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "travelingslash",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Rendblade.md",
+  "quality_tier": "A"
+}

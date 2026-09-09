@@ -1,0 +1,62 @@
+{
+  "entity_id": "sentrybotcraft",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Servitor mkI",
+  "name_zh": "立方体机器人 MK I",
+  "description_en": "A reliable sidekick. Will keep you protected from a distance.",
+  "description_zh": "非常可靠的伙伴，在激活后，它会在空中持续地跟随并保护你。",
+  "rarity": "uncommon",
+  "category": "decorative",
+  "price": 850,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        },
+        {
+          "item": "laserdiode",
+          "count": 2
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 200
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 850
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

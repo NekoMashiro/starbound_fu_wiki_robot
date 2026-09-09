@@ -1,0 +1,292 @@
+{
+  "entity_id": "smallbattery",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "AA Battery",
+  "name_zh": "AA电池组",
+  "description_en": "This battery can be used to power small electronic devices!",
+  "description_zh": "这种电池可为小型电子设备供能！",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "自动组装器",
+          "name_zh": "自动组装器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 79,
+        "examples": [
+          "and",
+          "bulb",
+          "countdowntimer",
+          "delay",
+          "dlatch"
+        ]
+      },
+      "door": {
+        "count": 32,
+        "examples": [
+          "airlockdoor",
+          "airlockhatch",
+          "apexshipdoor",
+          "apexshiphatch",
+          "avianshipdoor"
+        ]
+      },
+      "light": {
+        "count": 16,
+        "examples": [
+          "cavelamp",
+          "celllamp",
+          "crystallamp",
+          "flowerlamp",
+          "giantflowerlamp"
+        ]
+      },
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "orion_walldeco_10",
+          "orion_walldeco_11",
+          "orion_walldeco_4",
+          "orion_walldeco_5",
+          "orion_walldeco_6"
+        ]
+      },
+      "Tool": {
+        "count": 4,
+        "examples": [
+          "arcana_laserminer_basicMiningLaser",
+          "cavedetector",
+          "grapplinghook",
+          "oredetector"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "aegisaltpistol",
+          "exousia_imperialArmy_1_pistol_1"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "arcana_augment_energyDrain",
+          "arcana_augment_radiance"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "arcana_luye_crafting_1",
+          "foundrybed"
+        ]
+      }
+    },
+    "total": 161
+  },
+  "drop_sources": {
+    "total_pools": 35,
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "robothenHarvest",
+          "probability": 0.95,
+          "count": 1
+        },
+        {
+          "pool": "furobotHunting",
+          "probability": 0.2222,
+          "count": 1,
+          "monsters": [
+            "serpentdroid"
+          ]
+        },
+        {
+          "pool": "furobotHuntingnoChassis",
+          "probability": 0.2,
+          "count": 1,
+          "monsters": [
+            "cleaningbot",
+            "deathdroid",
+            "deathdroid2",
+            "repairbot",
+            "spiderwalker2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.2,
+        0.95
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionBasicTreasure",
+          "probability": 0.75,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_orionHeavy",
+            "at_ext_orion_heavyrobot"
+          ]
+        },
+        {
+          "pool": "techChestTreasure",
+          "probability": 0.675,
+          "count": 2.0
+        },
+        {
+          "pool": "elduutechChestTreasure",
+          "probability": 0.675,
+          "count": 2.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.6189,
+          "count": 2.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.5997,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.5997,
+        0.75
+      ]
+    },
+    "monster_drops": {
+      "count": 26,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTechTreasure",
+          "probability": 0.5874,
+          "count": 2.0
+        },
+        {
+          "pool": "techTreasure",
+          "probability": 0.375,
+          "count": 2.0,
+          "monsters": [
+            "arcana_monster_cerueonPearl"
+          ]
+        },
+        {
+          "pool": "elduutechTreasure",
+          "probability": 0.375,
+          "count": 2.0
+        },
+        {
+          "pool": "robotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_scrapTurret",
+            "waterbot"
+          ]
+        },
+        {
+          "pool": "largeRobotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_bigexospider",
+            "arcana_monster_exospider",
+            "glitchspider"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.5874
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraMonsterRobot",
+          "probability": 0.064,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

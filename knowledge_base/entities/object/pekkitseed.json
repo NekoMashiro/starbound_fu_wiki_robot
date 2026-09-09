@@ -1,0 +1,64 @@
+{
+  "entity_id": "pekkitseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pekkit Seed",
+  "name_zh": "霜草种子",
+  "description_en": "Pekkit. Can be tossed to freeze enemies or eaten to protect you.",
+  "description_zh": "可以收获霜草，可以扔掉以冻结敌人或吃掉以抵抗冻结。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 20
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "thornfruit",
+          "count": 3
+        },
+        {
+          "item": "cryonicextract",
+          "count": 15
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 25
+        },
+        {
+          "item": "ff_silicon",
+          "count": 18
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pekkitHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

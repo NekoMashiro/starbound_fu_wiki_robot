@@ -1,0 +1,49 @@
+{
+  "entity_id": "fu_nocturnarray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nocturn Array",
+  "name_zh": "夜祷阵列",
+  "description_en": "Generates energy out of darkness. Can potentially generate 10W.",
+  "description_zh": "从黑暗中获取能量，最大能输出10W电力。",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 300,
+  "tags": [
+    "science",
+    "macabre",
+    "madness"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 270
+        },
+        {
+          "item": "fu_solararray",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 2
+        },
+        {
+          "item": "precursorgel",
+          "count": 2
+        },
+        {
+          "item": "darkmatter",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Nocturn Array.md",
+  "quality_tier": "A"
+}

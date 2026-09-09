@@ -1,0 +1,45 @@
+{
+  "entity_id": "varanberry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Varan Berries",
+  "name_zh": "瓦兰浆果",
+  "description_en": "Heal 10 HP: 2s",
+  "description_zh": "治疗 10 HP: 2s",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "fucake",
+          "fucake2"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "grassremedy"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "varanberryHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

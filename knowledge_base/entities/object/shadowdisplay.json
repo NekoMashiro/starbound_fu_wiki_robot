@@ -1,0 +1,52 @@
+{
+  "entity_id": "shadowdisplay",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Skull Display",
+  "name_zh": "阴影头骨陈列品",
+  "description_en": "A creepy skull on a stand.",
+  "description_zh": "放在架子上的令人毛骨悚然的头骨。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 110,
+  "tags": [
+    "shadow"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

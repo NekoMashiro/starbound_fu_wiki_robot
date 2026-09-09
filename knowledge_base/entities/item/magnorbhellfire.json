@@ -1,0 +1,56 @@
+{
+  "entity_id": "magnorbhellfire",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Orbs",
+  "name_zh": "地狱火之珠",
+  "description_en": "Full of scorchy fun.",
+  "description_zh": "燃烧才是唯一的乐趣所在。",
+  "rarity": "rare",
+  "category": "Magnorb",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scorchedcore",
+          "count": 6
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "biofuelcannister",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

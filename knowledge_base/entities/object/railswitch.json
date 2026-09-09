@@ -1,0 +1,39 @@
+{
+  "entity_id": "railswitch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rail Switch",
+  "name_zh": "轨道变向器",
+  "description_en": "Directs rail riders to different paths",
+  "description_zh": "变向至另一轨道",
+  "rarity": "Common",
+  "category": "railPoint",
+  "price": 100,
+  "tags": [
+    "rails",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

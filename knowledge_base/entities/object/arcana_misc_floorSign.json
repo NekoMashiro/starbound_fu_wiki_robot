@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_misc_floorSign",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Floor Sign",
+  "name_zh": "地面标志",
+  "description_en": "A floor advertisement sign.",
+  "description_zh": "一个地面的广告标志。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 30,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Urban Furniture Printer",
+      "station_zh": "都市家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Frogg Furnishing",
+          "name_zh": "蛤蛤家具"
+        },
+        {
+          "name": "misc__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_2_grenadeLauncher_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA2 Nashorn IC Launcher",
+  "name_zh": "EIA2犀牛燃烧弹发射器",
+  "description_en": "A standard incendiary grenade launcher used by Exousian Nashorns.",
+  "description_zh": "威权犀牛部队使用的制式燃烧榴弹发射器。",
+  "rarity": "Legendary",
+  "category": "grenadeLauncher",
+  "price": 1180,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "exousia"
+  ],
+  "elementalType": "fire",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 9.1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_rufescite",
+          "count": 14
+        },
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 2
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T7",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

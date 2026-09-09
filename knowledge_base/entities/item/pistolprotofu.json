@@ -1,0 +1,59 @@
+{
+  "entity_id": "pistolprotofu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Revolver",
+  "name_zh": "原毒左轮",
+  "description_en": "Fires high-caliber rounds.\r\nHigh damage rounds.\r\nCounts as 'energy' for set bonus.",
+  "description_zh": "发射大口径子弹。\n高伤害子弹。\n能量武器。",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "proto",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "liquidcrystal",
+          "count": 12
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "novakidartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Dawn Sigil",
+  "name_zh": "黎明徽记",
+  "description_en": "+10% Pistol Mastery\r\n+10% Sniper Mastery  \r\nEnergy x1.15\r\nGlow in the Dark",
+  "description_zh": "+10%手枪专精\n+10%狙击枪专精\n能量x1.15\n在黑暗中发光",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hardenedcarapace",
+          "count": 8
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

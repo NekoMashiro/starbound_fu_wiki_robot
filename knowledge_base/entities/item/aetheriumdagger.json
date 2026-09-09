@@ -1,0 +1,56 @@
+{
+  "entity_id": "aetheriumdagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Punyal",
+  "name_zh": "阳清匕首",
+  "description_en": "Assassination. With style.\r\nInflicts Minor Vulnerability",
+  "description_zh": "刺客专用。\n附加错调瑕疵效果",
+  "rarity": "legendary",
+  "category": "dagger",
+  "price": 1204,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "aetherium",
+    "cosmic",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 7.4,
+  "critChance": 2,
+  "critBonus": 12,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 2
+        },
+        {
+          "item": "densiniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

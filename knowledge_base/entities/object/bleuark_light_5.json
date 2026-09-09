@@ -1,0 +1,43 @@
+{
+  "entity_id": "bleuark_light_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Crystals Ceiling Lamp",
+  "name_zh": "水晶吊灯",
+  "description_en": "An ornate ceiling lamp with multiple floating crystals.",
+  "description_zh": "一盏装饰华丽的天花板灯，拥有多个悬浮的水晶。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 80,
+  "tags": [
+    "atlantic"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_mazeendchest",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.8571,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkbasic",
+          "probability": 0.2143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2143,
+        0.8571
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

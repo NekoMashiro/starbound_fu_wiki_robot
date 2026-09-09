@@ -1,0 +1,201 @@
+{
+  "entity_id": "riceseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rice Seed",
+  "name_zh": "大米种子",
+  "description_en": "Boil it, fry it, throw it at a bride. Rice! For all your culinary needs.",
+  "description_zh": "煮了它、炒了它，把它丢向新娘子。大米！满足你所有的烹饪需求。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 12
+        },
+        {
+          "item": "livingroot",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "stranglevineseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 62,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "seed",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "elduuseed",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.0273,
+          "count": 3
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.0182,
+          "count": 3
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0045,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1818
+      ]
+    },
+    "monster_drops": {
+      "count": 42,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.1449,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.1449,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.1449,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceCaveTreasure",
+          "probability": 0.1449,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoPrismTreasure",
+          "probability": 0.1449,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.1449
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranmissiontreasure",
+          "probability": 0.0467,
+          "count": 3
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0202,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0085,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0085,
+        0.0467
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0429,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0337,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0064,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0064,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0013,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.0429
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0364,
+          "count": 3
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "riceHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

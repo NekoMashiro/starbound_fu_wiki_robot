@@ -1,0 +1,49 @@
+{
+  "entity_id": "safetyhelmethead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Safety Helmet",
+  "name_zh": "安全帽",
+  "description_en": "This bright safety helmet offers moderate protection.",
+  "description_zh": "这明亮的安全帽提供适度保护。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [
+    "tier2armour"
+  ],
+  "level": 2,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "forestChestTreasure",
+          "probability": 0.0979,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0719,
+          "count": 1
+        },
+        {
+          "pool": "forestTreasure",
+          "probability": 0.0687,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0687,
+        0.0719
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

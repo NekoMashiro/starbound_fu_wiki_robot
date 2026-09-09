@@ -1,0 +1,62 @@
+{
+  "entity_id": "reapercarbine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tk-4 Violator",
+  "name_zh": "Tk-4 违背者",
+  "description_en": "Fires super-cold dark matter infused rounds.\r\nExtremely fast, accurate rounds",
+  "description_zh": "发射注入极寒暗物质的子弹。\n极其快速而精确的子弹",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.15,
+  "critChance": 3,
+  "critBonus": 2,
+  "altAbilityType": "swtjc_ewg_globelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "darkmatter",
+          "count": 3
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

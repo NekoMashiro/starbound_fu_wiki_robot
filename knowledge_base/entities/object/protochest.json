@@ -1,0 +1,37 @@
+{
+  "entity_id": "protochest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Chest",
+  "name_zh": "原体箱子",
+  "description_en": "A chest made of Proto Stone.",
+  "description_zh": "由原体矿打造的箱子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 700,
+  "tags": [
+    "fu",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "biostonematerial",
+          "count": 80
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

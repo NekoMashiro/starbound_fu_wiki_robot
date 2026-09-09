@@ -1,0 +1,58 @@
+{
+  "entity_id": "fuprotectoratesniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Rifle",
+  "name_zh": "守护团步枪",
+  "description_en": "A lightweight, accurate rifle with a built-in ultra-zoom scope.",
+  "description_zh": "带有内置超变焦瞄准镜的轻巧而精确的步枪。",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 6.5,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "electromagnet",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

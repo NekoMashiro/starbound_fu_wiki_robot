@@ -1,0 +1,41 @@
+{
+  "entity_id": "swtjc_ewg_commonrevolver",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Common High-Caliber Pistol",
+  "name_zh": "普通的左轮手枪",
+  "description_en": "A small handgun with a powerful punch.",
+  "description_zh": "射速慢的手枪。",
+  "rarity": "Common",
+  "category": "swtjc_ewg_revolver",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.0,
+    5.35
+  ],
+  "critChance": 1,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

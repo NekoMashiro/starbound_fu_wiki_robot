@@ -1,0 +1,70 @@
+{
+  "entity_id": "shoategg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nicely packed Shoat egg",
+  "name_zh": "包装漂亮的小黏羊蛋",
+  "description_en": "Unwrap it to start hatching your own Shoat!",
+  "description_zh": "打开它，然后你就可以开始孵化自己的小黏羊！",
+  "rarity": "Legendary",
+  "category": "shoategg",
+  "price": 160,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 10
+        },
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0089,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

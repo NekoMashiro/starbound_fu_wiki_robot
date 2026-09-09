@@ -1,0 +1,60 @@
+{
+  "entity_id": "hermespill",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hermes Pill",
+  "name_zh": "赫耳墨斯药丸",
+  "description_en": "+15% Run (30s)",
+  "description_zh": "+15%速度(持续30s)",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 55,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "biospore",
+          "count": 3
+        },
+        {
+          "item": "iodine",
+          "count": 3
+        },
+        {
+          "item": "miraclegrass",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 60
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

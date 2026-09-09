@@ -1,0 +1,69 @@
+{
+  "entity_id": "autocrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Auto-Crossbow",
+  "name_zh": "自动弩",
+  "description_en": "Rapid reload and high performance.",
+  "description_zh": "快速换弹，性能强悍。",
+  "rarity": "Legendary",
+  "category": "crossbow",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10,
+  "critChance": 3,
+  "critBonus": 3,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": [
+      {
+        "image": "autocrossbow2.png"
+      }
+    ],
+    "seed": "",
+    "shortdescription": "^cyan;猛击^reset; ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

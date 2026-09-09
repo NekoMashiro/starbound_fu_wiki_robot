@@ -1,0 +1,58 @@
+{
+  "entity_id": "celllamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cell Lamp",
+  "name_zh": "细胞灯",
+  "description_en": "A tall lamp, with each light linked to another.",
+  "description_zh": "一盏高身灯，每盏灯都连在一起。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 90,
+  "tags": [
+    "cell",
+    "light",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 15
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

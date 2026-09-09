@@ -1,0 +1,37 @@
+{
+  "entity_id": "energywoodtarget",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energy Wood Target",
+  "name_zh": "能量木靶",
+  "description_en": "An energy wood target.",
+  "description_zh": "能量木靶子。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "energywood",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "energywood",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

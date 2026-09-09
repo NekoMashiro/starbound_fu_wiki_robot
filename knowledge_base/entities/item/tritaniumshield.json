@@ -1,0 +1,57 @@
+{
+  "entity_id": "tritaniumshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tritanium Shield",
+  "name_zh": "三相盾",
+  "description_en": "-30% Fall Damage",
+  "description_zh": "掉落伤害-30%",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "tritanium"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 8
+        },
+        {
+          "item": "deuterium",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "diamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

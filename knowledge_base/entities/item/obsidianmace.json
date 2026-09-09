@@ -1,0 +1,48 @@
+{
+  "entity_id": "obsidianmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Obsidian Mace",
+  "name_zh": "黑曜石权杖",
+  "description_en": "Specially formed with Pharitu methods.",
+  "description_zh": "用法瑞图的特殊方法制成。",
+  "rarity": "common",
+  "category": "mace",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 7.22,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

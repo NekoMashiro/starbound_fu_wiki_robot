@@ -1,0 +1,68 @@
+{
+  "entity_id": "psionicenergy2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psi-2 Energy",
+  "name_zh": "2级灵能",
+  "description_en": "Infused with additional power.\n+20 Fuel",
+  "description_zh": "灌注了额外的能量。\n燃料+20",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 36,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "apexbrainjar2",
+          "count": 1
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 2
+        },
+        {
+          "item": "petalred",
+          "count": 10
+        }
+      ],
+      "output_count": 200,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "psionichealammo",
+          "psionicplatformammo"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "artificialbrain"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "fucharmbomb"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

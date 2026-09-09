@@ -1,0 +1,57 @@
+{
+  "entity_id": "honeystone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeystone",
+  "name_zh": "蜜蜡石",
+  "description_en": "Golden stones saturated with honey, smooth to the touch.",
+  "description_zh": "充满了蜂蜜的金色石头，摸起来很光滑。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_liquidhoney",
+          "count": 2
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "honeystonebrick"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

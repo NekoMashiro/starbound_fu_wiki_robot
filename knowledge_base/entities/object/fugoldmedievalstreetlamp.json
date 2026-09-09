@@ -1,0 +1,50 @@
+{
+  "entity_id": "fugoldmedievalstreetlamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Medieval Street Lamp",
+  "name_zh": "金色中世纪路灯",
+  "description_en": "It's an old golden street lamp. It gives off a little warmth.",
+  "description_zh": "这是一盏古老的金色路灯并且散发出一点温暖。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 120,
+  "tags": [
+    "glitch",
+    "glitchvillage",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "mwhaddon_tech_ursaBackpack",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Thunder Backpack",
+  "name_zh": "雷霆背包",
+  "description_en": "Passively grants +30% Electric RES. Create Ursa's backpack that constantly fires electric current to cursor position for 15s. 60s cooldown. [F] [Use to gain a new type of tech!]",
+  "description_zh": "被动：获得+30%雷鸣抗性。生成乌萨的背包，15秒内持续向鼠标发射电流。冷却时间为60秒。[F] [使用以获取一个新的科技！]",
+  "rarity": "Essential",
+  "category": "mysteriousReward",
+  "price": 1500,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_cynicalBadge",
+          "count": 5
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

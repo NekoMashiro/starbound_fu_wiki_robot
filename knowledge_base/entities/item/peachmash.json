@@ -1,0 +1,47 @@
+{
+  "entity_id": "peachmash",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Peach Mash",
+  "name_zh": "桃子醪",
+  "description_en": "Peach Mash, the product of crushed and squeezed peaches.",
+  "description_zh": "桃子压榨后的产物。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "peach",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fruit Press",
+      "station_zh": "水果榨汁机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "spirits"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

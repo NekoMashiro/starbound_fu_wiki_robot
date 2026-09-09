@@ -1,0 +1,141 @@
+{
+  "entity_id": "arcana_bar_aureolaBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aureola Bar",
+  "name_zh": "辉光锭",
+  "description_en": "A material brimming with golden light that can withstand corrosion for eons.",
+  "description_zh": "洋溢着金色光芒的材料，可以无惧时间流逝地承受腐蚀。",
+  "rarity": "Essential",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_morphosisBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 6600
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "arcana_augment_halcyon",
+          "arcana_augment_raven"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_nightmare_aCassiopeia",
+          "mwhaddon_nightmare_seabreak"
+        ]
+      },
+      "tool": {
+        "count": 1,
+        "examples": [
+          "arcana_atlas"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "arcana_laserminer_advancedMiningLaser"
+        ]
+      },
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "arcana_teleporter_galacticAtlas"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "artifact_greatspear_luxiant"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_viridescentSabre"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_shadastrophe"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_aureolaBar"
+  ],
+  "wiki_ref": "Aureola Bar.md",
+  "quality_tier": "S"
+}

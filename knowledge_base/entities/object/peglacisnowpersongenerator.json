@@ -1,0 +1,50 @@
+{
+  "entity_id": "peglacisnowpersongenerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snowprinter",
+  "name_zh": "雪人打印机",
+  "description_en": "This compact 3D printer works in the medium of snow to generate cunning replicas of a variety of races.",
+  "description_zh": "这款小巧的3D打印机在雪中工作，可以生成各种种族的狡猾复制品。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "peglaci",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        },
+        {
+          "item": "snow",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "织法者之桌",
+      "station_zh": "织法者之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "建筑师工作台",
+          "name_zh": "建筑师工作台"
+        },
+        {
+          "name": "缔造者工作台",
+          "name_zh": "缔造者工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Snowprinter.md",
+  "quality_tier": "A"
+}

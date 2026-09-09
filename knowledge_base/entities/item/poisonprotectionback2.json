@@ -1,0 +1,57 @@
+{
+  "entity_id": "poisonprotectionback2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison EPP II",
+  "name_zh": "祛毒EPP II",
+  "description_en": "Gives +40% Poison Resist. Use it on planets with moderate poison levels. +150s oxygen and halves how quickly you breathe.",
+  "description_zh": "对在严酷毒素的星球上的探险很有帮助。\n毒素抗性+40%，+25s氧气，呼吸速率减半",
+  "rarity": "rare",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "poisonprotectionback",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "poisonprotectionback3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

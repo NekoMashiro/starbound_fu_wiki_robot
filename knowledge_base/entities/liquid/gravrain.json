@@ -1,0 +1,43 @@
+{
+  "entity_id": "gravrain",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "gravrain",
+  "name_zh": "",
+  "description_en": "Strange, blue gravity-filled liquid. Likely artificial.",
+  "description_zh": "奇怪的蓝色重力液体。 可能是人造的。",
+  "status_effects": [
+    "gravrain"
+  ],
+  "interactions": [
+    {
+      "liquid": 3,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 42,
+      "liquidResult": 42
+    },
+    {
+      "liquid": 43,
+      "liquidResult": 43
+    },
+    {
+      "liquid": 44,
+      "materialResult": "penumbradirt"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 46,
+      "materialResult": "retexaetherdust"
+    },
+    {
+      "liquid": 47,
+      "materialResult": "retexaetherdust"
+    }
+  ],
+  "quality_tier": "C"
+}

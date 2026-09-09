@@ -1,0 +1,64 @@
+{
+  "entity_id": "densiniumscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Scythe",
+  "name_zh": "超致密镰刀",
+  "description_en": "Perhaps the deadliest curved blade around.\r\nInflicts Electrified",
+  "description_zh": "这也许是最致命的弯曲刀片。\n感电",
+  "rarity": "legendary",
+  "category": "scythe",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "densinium",
+    "scythe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "futravelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "mutagene1",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

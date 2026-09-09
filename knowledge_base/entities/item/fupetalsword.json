@@ -1,0 +1,60 @@
+{
+  "entity_id": "fupetalsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Queen Blade",
+  "name_zh": "蜂后长剑",
+  "description_en": "The blade of a bee queen.",
+  "description_zh": "刃出蜂后。",
+  "rarity": "legendary",
+  "category": "longsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "bioweapon",
+    "longsword",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "elementalType": "poison",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.1,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 4
+        },
+        {
+          "item": "petalblue",
+          "count": 10
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_potion_viridescentTincture",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Viridescent Tincture",
+  "name_zh": "翠毒酊剂",
+  "description_en": "Poison, as burning with rage.\nGain acid burning immunity and 30% Poison res for 150s.",
+  "description_zh": "剧毒，如火攻心。\n150秒内免疫酸性灼伤并降低受到的毒伤害。",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_liquid_viridescentAcid",
+          "count": 15
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

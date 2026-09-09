@@ -1,0 +1,27 @@
+{
+  "entity_id": "dragonsbeard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dragon's Beard Herb",
+  "name_zh": "龙须草",
+  "description_en": "Immune: Extreme Heat: 2m",
+  "description_zh": "免疫: 极端炎热: 2m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dragonsbeardHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

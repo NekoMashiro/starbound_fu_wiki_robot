@@ -1,0 +1,68 @@
+{
+  "entity_id": "diamondkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diamond Katana",
+  "name_zh": "钻石武士刀",
+  "description_en": "Two-handed, shining diamond. Exceptionally beautiful and deadly.\r\n8 hit combo",
+  "description_zh": "这把闪亮的钻石武器异常的美丽而致命。双手握持。\n8连斩",
+  "rarity": "rare",
+  "category": "katana",
+  "price": 5800,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 10,
+  "primaryAbilityType": "katanacombo2h",
+  "altAbilityType": "parrykatana",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 12
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "katana": {
+        "count": 1,
+        "examples": [
+          "blooddiamondkatana"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

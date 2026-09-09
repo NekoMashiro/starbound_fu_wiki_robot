@@ -1,0 +1,69 @@
+{
+  "entity_id": "kirhospistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Blaster",
+  "name_zh": "啮齿冲击者",
+  "description_en": "A low-capacity, high power energy sidearm.\r\nHunting and Energy weapon",
+  "description_zh": "一把低容量，高功率的能量手枪。\n狩猎和能量武器",
+  "rarity": "common",
+  "category": "pistol",
+  "price": 21,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "energy",
+    "kirhos"
+  ],
+  "elementalType": "electric",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 9.65,
+  "critChance": 1,
+  "critBonus": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "volatilepowder",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fukirhosStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Kirhosi Blaster.md",
+  "quality_tier": "S"
+}

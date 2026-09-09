@@ -1,0 +1,217 @@
+{
+  "entity_id": "pyreitebar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Bar",
+  "name_zh": "永燃锭",
+  "description_en": "A naturally hot metal with high durability. Typically found on Infernus worlds.",
+  "description_zh": "一种自然发热的金属，耐用度极高。\n通常被发现于炼狱世界。",
+  "rarity": "legendary",
+  "category": "craftingMaterial",
+  "price": 860,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreiteore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Fission Furnace",
+      "station_zh": "裂变反应炉",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "裂变熔炉",
+          "name_zh": "裂变熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "pyreitebed",
+          "pyreitecabinet",
+          "pyreitechair",
+          "pyreitecouch",
+          "pyreitedesk"
+        ]
+      },
+      "chestarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphchest",
+          "fubonearmor3chest",
+          "fumantizitier6mchest",
+          "fupyreitechest",
+          "warangelchest"
+        ]
+      },
+      "headarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphhead",
+          "fubonearmor3head",
+          "fumantizitier6mhead",
+          "fupyreitehead",
+          "warangelhead"
+        ]
+      },
+      "legarmour": {
+        "count": 5,
+        "examples": [
+          "biomorphpants",
+          "fubonearmor3legs",
+          "fumantizitier6mpants",
+          "fupyreitepants",
+          "warangellegs"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "pyreitebookcase",
+          "pyreitechestlarge",
+          "pyreitechestsmall",
+          "pyreitedrawers",
+          "pyreitenightstand"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 3,
+        "examples": [
+          "hellfirecannon",
+          "isn_sunstream",
+          "minirocketlauncher2"
+        ]
+      },
+      "light": {
+        "count": 3,
+        "examples": [
+          "pyreiteceilinglamp",
+          "pyreitedesklamp",
+          "pyreitewalllamp"
+        ]
+      },
+      "shortsword": {
+        "count": 3,
+        "examples": [
+          "hellfire1hand",
+          "moltenblade",
+          "pyreiteshortsword"
+        ]
+      }
+    },
+    "total": 69
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "pyreiteore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 11,
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.1244,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0221,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0082,
+          "count": 1
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0032,
+          "count": 1
+        },
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.0014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0014,
+        0.1244
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0784,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0162,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0089,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0056,
+        0.0162
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0079,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0016,
+        0.0079
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

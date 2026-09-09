@@ -1,0 +1,101 @@
+{
+  "entity_id": "lightless",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lightless Sphere",
+  "name_zh": "无光星球",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Lightless Sphere",
+  "friendly_name_zh": "无光星球",
+  "ores": [
+    {
+      "ore": "lead",
+      "weight": 0.65
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.65
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.6
+    },
+    {
+      "ore": "trianglium",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.25
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.25
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.25
+    },
+    {
+      "ore": "corruption",
+      "weight": 0.25
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.25
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.25
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.25
+    },
+    {
+      "ore": "densinium",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "adultshadowtop",
+    "anglure5",
+    "bandraflora4",
+    "bee_exspiravit",
+    "bee_inventor",
+    "bee_mason",
+    "bee_reaper",
+    "bee_shrouded",
+    "crutter2",
+    "darkmetroid",
+    "doomspirit",
+    "fearmoth",
+    "fubat",
+    "fuparasprite",
+    "furatthing2",
+    "illumitop",
+    "pteropod2",
+    "sackbagcritter",
+    "shadowbat",
+    "shadowgolem",
+    "shadowmoth",
+    "shadowtop",
+    "shadowyokat",
+    "slugbluecritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:lightless"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "erchiussickness2",
+    "biomeairless",
+    "superdarkstatlarge"
+  ],
+  "quality_tier": "C"
+}

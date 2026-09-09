@@ -1,0 +1,115 @@
+{
+  "entity_id": "chromatic",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "chromatic",
+  "name_zh": "多彩",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "chromatic",
+  "friendly_name_zh": "多彩",
+  "ores": [
+    {
+      "ore": "prisilite",
+      "weight": 0.7
+    },
+    {
+      "ore": "zerchesium",
+      "weight": 0.65
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.6
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.55
+    },
+    {
+      "ore": "uranium",
+      "weight": 0.5
+    },
+    {
+      "ore": "plutonium",
+      "weight": 0.5
+    },
+    {
+      "ore": "lead",
+      "weight": 0.5
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.3
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bandraflora",
+    "bee_bumblebee",
+    "bee_goldensaint",
+    "bee_scoria",
+    "bee_stellar",
+    "bulbop2",
+    "bulbopfriendly",
+    "bunnything",
+    "chromabot",
+    "chromingo",
+    "deathbunny",
+    "fearmoth",
+    "fireflyspawner",
+    "frogcritter",
+    "fualien",
+    "fucorruptflylarge",
+    "fumoontant",
+    "fuweaselcritter",
+    "goldbuck",
+    "harecritter",
+    "narfin2",
+    "owlcritter",
+    "pandorasboxglofae",
+    "pandorasboxhummingbug",
+    "psionitop",
+    "scuttleploom",
+    "shocktop",
+    "stinkjack",
+    "tritrotscritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:chromatic",
+        "/weather.config:chromaticgassy",
+        "/weather.config:chromaticrainy"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "radioactiveweathernew3"
+  ],
+  "wiki_ref": "Chromatic.md",
+  "quality_tier": "C"
+}

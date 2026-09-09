@@ -1,0 +1,39 @@
+{
+  "entity_id": "squelcher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Squelch",
+  "name_zh": "压制",
+  "description_en": "A strange name for such amazeness.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "如此神奇的东西竟然有这么奇怪的名字。\n能量武器",
+  "rarity": "legendary",
+  "category": "armcannon",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "energy"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0578,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

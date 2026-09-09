@@ -1,0 +1,144 @@
+{
+  "entity_id": "precursorcore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Flux Core",
+  "name_zh": "通量堆芯",
+  "description_en": "A quantum-state energy matrix suspended in...antimatter?",
+  "description_zh": "这个量子态能量矩阵竟然悬浮在……反物质中？",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "teleporter": {
+        "count": 2,
+        "examples": [
+          "fu_byosteleporterprecursor",
+          "precursorteleporter"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "essence",
+          "mmgravgun3"
+        ]
+      },
+      "energy": {
+        "count": 1,
+        "examples": [
+          "atomsmasher"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmmegacannon"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "precursorbattery1"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuprecursorchest"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0378,
+        0.1264
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0036,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "furobotTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fualien",
+            "fumechspider",
+            "fumechspiderletheiafacility"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0378
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

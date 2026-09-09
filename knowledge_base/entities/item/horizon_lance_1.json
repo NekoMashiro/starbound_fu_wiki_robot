@@ -1,0 +1,53 @@
+{
+  "entity_id": "horizon_lance_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Dead End Pike",
+  "name_zh": "死末尖",
+  "description_en": "A skewering pike forged from necroium.",
+  "description_zh": "使用死金制成的刺穿矛。",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "horizon"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 11.2,
+  "primaryAbilityType": "arcana_lance_combo",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 16
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

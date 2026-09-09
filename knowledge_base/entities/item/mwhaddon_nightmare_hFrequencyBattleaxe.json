@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_nightmare_hFrequencyBattleaxe",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "High-Frequency Battleaxe",
+  "name_zh": "高周波战斧",
+  "description_en": "A battleaxe with tremendous power that deals deadly damage to enemies.",
+  "description_zh": "能对敌人造成毁灭性打击的强力战斧。",
+  "rarity": "essential",
+  "category": "axe",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 9,
+  "twoHanded": false,
+  "baseDps": 14,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_1",
+          "count": 8
+        },
+        {
+          "item": "workshop_axe_3",
+          "count": 1
+        },
+        {
+          "item": "misc_axe_wastecutter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,108 @@
+{
+  "entity_id": "arcana_mwhaddon_healItem_2",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Illuminated Bandage",
+  "name_zh": "黯光绷带",
+  "description_en": "Bandage of achromatic materials.\nRestores 250 health over 3 seconds.\nHealing effect will immediately expire if you get hit!",
+  "description_zh": "无色材料制成的绷带。\n在3秒钟内恢复300点生命值。\n受伤时治疗效果将立刻结束！",
+  "rarity": "Rare",
+  "category": "medicine",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "monarch_crafting_holosiumStar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_herb",
+          "count": 9
+        }
+      ],
+      "output_count": 3,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_healItem_5"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 5,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_maaHealItem_2",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.1353,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.1353,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_healItem2",
+          "probability": 1.0,
+          "count": 1.7
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_2_2",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_starter",
+          "probability": 1.0,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

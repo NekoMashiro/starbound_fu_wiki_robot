@@ -1,0 +1,31 @@
+{
+  "entity_id": "misc_katana_neon_npc",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Dusk",
+  "name_zh": "薄暮",
+  "description_en": "An alien blade that is said to be able to rip through dimensions.",
+  "description_zh": "据说足以劈开次元的异界之刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2900,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 10.7,
+  "primaryAbilityType": "arcana_katana_combo",
+  "altAbilityType": "parry",
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "薄暮^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

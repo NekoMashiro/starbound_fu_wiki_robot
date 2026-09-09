@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_brightguard_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Brightguard Uniform",
+  "name_zh": "光卫制服",
+  "description_en": "A formal guard outfit reinforced with alien metal.",
+  "description_zh": "用外星金属加固过后的正式守卫制服。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 980,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 15
+        },
+        {
+          "item": "arcana_flowers_whiteDaisy",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

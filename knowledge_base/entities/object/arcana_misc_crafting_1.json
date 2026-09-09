@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_misc_crafting_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Urban Furniture Printer",
+  "name_zh": "都市家具打印机",
+  "description_en": "A foreign printer with a bunch of interesting schematics.",
+  "description_zh": "具有许多有趣图标的异域打印机。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 3200,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2400
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

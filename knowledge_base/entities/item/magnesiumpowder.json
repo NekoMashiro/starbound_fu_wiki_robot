@@ -1,0 +1,59 @@
+{
+  "entity_id": "magnesiumpowder",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magnesium Powder",
+  "name_zh": "镁粉",
+  "description_en": "Magnesium Mg2+ ions in a lab-ready, powdery form!",
+  "description_zh": "镁Mg2+离子在实验室制备的粉状形式！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "cellmatter",
+          "cellmatter",
+          "magnesiumsulfate",
+          "unstableparticles"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "feyaseed"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "money"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "magnesiumore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "magnesiumore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "magnesiumore"
+    }
+  ],
+  "quality_tier": "A"
+}

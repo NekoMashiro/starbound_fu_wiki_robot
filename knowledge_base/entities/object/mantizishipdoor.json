@@ -1,0 +1,45 @@
+{
+  "entity_id": "mantizishipdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Ship Door",
+  "name_zh": "Mantizi飞船门",
+  "description_en": "An airlock of Mantizi design.",
+  "description_zh": "一扇Mantizi风格的气闸门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "mantizi",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

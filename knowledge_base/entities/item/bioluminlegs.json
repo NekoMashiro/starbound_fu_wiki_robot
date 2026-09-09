@@ -1,0 +1,46 @@
+{
+  "entity_id": "bioluminlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glow Trousers",
+  "name_zh": "发光裤子",
+  "description_en": "Some luminescent trousers - tread carefully no longer!",
+  "description_zh": "荧光的裤子――再也不用小心翼翼走路了！",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bioluminescenceChestTreasure",
+          "probability": 0.12,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBioluminescenceTreasure",
+          "probability": 0.078,
+          "count": 1
+        },
+        {
+          "pool": "bioluminescenceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0652,
+        0.078
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

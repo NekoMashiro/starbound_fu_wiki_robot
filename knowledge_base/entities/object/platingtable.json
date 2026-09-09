@@ -1,0 +1,49 @@
+{
+  "entity_id": "platingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plating Table",
+  "name_zh": "摆盘桌",
+  "description_en": "Make decorative objects out of home cooked meals!",
+  "description_zh": "用家常菜制作装饰物品！",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Plating Table.md",
+  "quality_tier": "A"
+}

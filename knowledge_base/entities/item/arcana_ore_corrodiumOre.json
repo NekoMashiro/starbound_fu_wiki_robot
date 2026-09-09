@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_ore_corrodiumOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corrodium Ore",
+  "name_zh": "蚀金矿",
+  "description_en": "A corrodium ore found commonly in Viridescent planets, can be used for smelting.",
+  "description_zh": "通常可在翠毒星球发现的蚀金矿石，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 90,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_throwable_bigPoisonBomb",
+          "mwhaddon_throwable_corrodiumKnife"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_corrodiumBar"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "biomes": [
+    {
+      "biome": "arcana_viridescent",
+      "weight": 1.3
+    }
+  ],
+  "wiki_ref": "Corrodium Ore.md",
+  "quality_tier": "S"
+}

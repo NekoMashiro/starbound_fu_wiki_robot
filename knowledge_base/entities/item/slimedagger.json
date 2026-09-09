@@ -1,0 +1,107 @@
+{
+  "entity_id": "slimedagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Leeching Dagger",
+  "name_zh": "黏液放血匕首",
+  "description_en": "Through concentration, you're able to produce a light blade of slime.",
+  "description_zh": "通过高度浓缩，你得以制成一把轻盈的黏液利刃。",
+  "rarity": "Legendary",
+  "category": "shortsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "slime",
+    "bioweapon",
+    "shortsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "slimedaggerstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 6
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 6
+        },
+        {
+          "item": "slime",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "slimesuperTreasure",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0342,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.012,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

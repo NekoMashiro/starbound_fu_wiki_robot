@@ -1,0 +1,74 @@
+{
+  "entity_id": "arcana_turbulent",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Turbulent",
+  "name_zh": "汹潮",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Turbulent",
+  "friendly_name_zh": "汹潮",
+  "ores": [
+    {
+      "ore": "gold",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_pinkAquamarine",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "crabcano",
+    "crabcritter",
+    "fishberrycritter",
+    "fishchilicritter",
+    "fishlemoncritter",
+    "gullcritter",
+    "jellycritter",
+    "lilodon",
+    "miasmop",
+    "monopus",
+    "seahornet",
+    "snaggler",
+    "snuffish",
+    "squidcritter",
+    "tidefly",
+    "tortoisecritter",
+    "wavebird"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:ocean"
+      ]
+    ]
+  ],
+  "wiki_ref": "Turbulent.md",
+  "quality_tier": "C"
+}

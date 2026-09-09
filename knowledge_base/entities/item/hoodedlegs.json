@@ -1,0 +1,51 @@
+{
+  "entity_id": "hoodedlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dweller Greaves",
+  "name_zh": "穴居者护胫",
+  "description_en": "Set Bonuses:\r\n Mining Laser: Combat Damage x2.2\r\n Immune: Slime, Mud, Ice, Snow, Tar",
+  "description_zh": "套装奖励:\n 采矿激光: 战斗伤害x2.2\n 免疫: 粘液, 泥, 冰, 雪, 焦油",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutaviskthread",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "biospore",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

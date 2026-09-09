@@ -1,0 +1,41 @@
+{
+  "entity_id": "blueneonsymbol",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blue Neon Block",
+  "name_zh": "蓝色霓虹灯方块",
+  "description_en": "A tile with a strange blue glyph engraved in the centre.",
+  "description_zh": "一种中间刻有奇怪的蓝色符文的砖块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 1
+        },
+        {
+          "item": "concretematerial",
+          "count": 20
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "blueneonsymbol"
+  ],
+  "quality_tier": "A"
+}

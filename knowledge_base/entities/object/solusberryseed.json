@@ -1,0 +1,64 @@
+{
+  "entity_id": "solusberryseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solusberry Seed",
+  "name_zh": "日耀浆果种子",
+  "description_en": "A solarium-rich berry. Likely unsafe to eat.",
+  "description_zh": "一种富含日耀能量的浆果。可能吃起来不太安全。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 90,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "miraclegrass",
+          "count": 12
+        },
+        {
+          "item": "solariumstar",
+          "count": 3
+        },
+        {
+          "item": "matterconverter",
+          "count": 2
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 9
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "solusberryHarvest",
+          "probability": 0.6897,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

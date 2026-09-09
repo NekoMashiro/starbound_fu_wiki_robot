@@ -1,0 +1,53 @@
+{
+  "entity_id": "researchvoxelalien",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Unknown Matrix",
+  "name_zh": "未知矩阵",
+  "description_en": "A cache of stored Research.",
+  "description_zh": "已存储研究的缓存。",
+  "rarity": "rare",
+  "category": "resourceItem",
+  "price": 1000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuResearchVoxelItems",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.005
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

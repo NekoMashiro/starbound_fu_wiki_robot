@@ -1,0 +1,34 @@
+{
+  "entity_id": "swtjc_wp_advancedand_nolatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced AND Gate (2 Inputs, No Latch)",
+  "name_zh": "高级与门(二输入，无锁存器)",
+  "description_en": "An /'AND'/ gate with 2 inputs and a built-in Not Gate, but no built-in Data Latch.",
+  "description_zh": "一个与门。具有两个输入接口、非门，但无锁存器。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "and",
+          "count": 1
+        },
+        {
+          "item": "not",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

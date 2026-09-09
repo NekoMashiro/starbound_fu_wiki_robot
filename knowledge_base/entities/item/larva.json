@@ -1,0 +1,109 @@
+{
+  "entity_id": "larva",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Baby Larva",
+  "name_zh": "幼虫宝宝",
+  "description_en": "An alien, baby larva. It's small, squishy, and defenseless.",
+  "description_zh": "一只外星幼虫宝宝。弱小、湿软而无助。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "bioweapon": {
+        "count": 3,
+        "examples": [
+          "biogun",
+          "biopistol",
+          "shoggothgun"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "hivebed",
+          "hivechair",
+          "hivetable"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "esteemedvintage"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "hivedoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "hivelamp"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessmaggot"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "putridpestpuree"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bughouseHarvest",
+          "probability": 0.6053,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hiveChestTreasure",
+          "probability": 0.3172,
+          "count": 5.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoHiveTreasure",
+          "probability": 0.2062,
+          "count": 5
+        },
+        {
+          "pool": "hiveTreasure",
+          "probability": 0.1724,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.1724,
+        0.2062
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

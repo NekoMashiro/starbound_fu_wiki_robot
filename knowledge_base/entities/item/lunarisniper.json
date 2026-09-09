@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunarisniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Sniper Rifle",
+  "name_zh": "月晶狙击步枪",
+  "description_en": "Crystalline lunari fired at high speeds.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "高速发射月晶线性子弹。\n照亮区域\n发射物长时间存在",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 7.8,
+  "critChance": 3,
+  "critBonus": 6,
+  "altAbilityType": "swtjc_ewg_bouncingpiercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Lunari Sniper Rifle.md",
+  "quality_tier": "A"
+}

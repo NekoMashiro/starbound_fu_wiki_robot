@@ -1,0 +1,67 @@
+{
+  "entity_id": "bizarrefiction",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bizarre Fiction",
+  "name_zh": "猎奇小说",
+  "description_en": "Weird fiction that is completely bonkers.",
+  "description_zh": "完全疯狂的猎奇小说。",
+  "rarity": "rare",
+  "category": "Pulp Fiction",
+  "price": 80,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 50
+        },
+        {
+          "item": "espresso",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Writing Desk",
+      "station_zh": "著书桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Tome Dais",
+          "name_zh": "宝典讲坛"
+        },
+        {
+          "name": "Ancient Texts",
+          "name_zh": "古代文本"
+        },
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "elderbookstandwood"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

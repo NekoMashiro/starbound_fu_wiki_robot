@@ -1,0 +1,55 @@
+{
+  "entity_id": "isn_arcsmelter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arc Smelter",
+  "name_zh": "电弧冶炼炉",
+  "description_en": "This incredibly efficient furnace can extract valuable materials while quickly smelting all ores. Requires 100W power.",
+  "description_zh": "这种极其高效的熔炉能在快速冶炼所有矿石的同时提取稀有物质。\n需要100W电力。",
+  "rarity": "legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 4500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_blastfurnace",
+          "count": 1
+        },
+        {
+          "item": "pyreitebar",
+          "count": 15
+        },
+        {
+          "item": "isogenbar",
+          "count": 8
+        },
+        {
+          "item": "moltencore",
+          "count": 4
+        },
+        {
+          "item": "deuterium",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Arc Smelter.md",
+  "quality_tier": "A"
+}

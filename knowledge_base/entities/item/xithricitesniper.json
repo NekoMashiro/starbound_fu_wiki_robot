@@ -1,0 +1,64 @@
+{
+  "entity_id": "xithricitesniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite DMR",
+  "name_zh": "赛德瑞瑟DMR",
+  "description_en": "Reach into infinity and channel the power of a dying star.\r\nCosmic blasts",
+  "description_zh": "延伸到无穷远处，引导一颗垂死恒星的力量。\n射线冲击",
+  "rarity": "legendary",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 8,
+  "altAbilityType": "hailstrikealt",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 7
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "liquidaether",
+          "count": 45
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "sd_exp_t1oriondrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "OSR-M2 Controller",
+  "name_zh": "OSR-M2控制器",
+  "description_en": "An Orion security drone, typically only deployed for surveillance\r\n  [Primary]Spawn/Despawn，[Alt]Fire.",
+  "description_zh": "一台俄里翁安保无人机，通常只会在盯梢时部署。\n[左键]释放/收回，[右键]开火射击[Shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1300
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 2
+        },
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 3
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

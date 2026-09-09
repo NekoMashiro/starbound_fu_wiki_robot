@@ -1,0 +1,61 @@
+{
+  "entity_id": "reapermachinepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tk-4 Keter",
+  "name_zh": "Tk-4 荣冕轮",
+  "description_en": "A devastating dark matter sidearm.\r\nExtremely fast rounds",
+  "description_zh": "一把毁灭性的暗物质手枪。\n极其快速的子弹",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 1
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "organicsoup",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "organicsoup",
+  "name_zh": "",
+  "description_en": "A unique and unusual biological liquid.",
+  "description_zh": "不寻常的生物液体。",
+  "status_effects": [
+    "swimming",
+    "organicsoupeffect"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 41,
+      "materialResult": "slimedirt"
+    },
+    {
+      "liquid": 42,
+      "materialResult": "slime2"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 46,
+      "liquidResult": 42
+    },
+    {
+      "liquid": 47,
+      "liquidResult": 47
+    },
+    {
+      "liquid": 48,
+      "liquidResult": 46
+    },
+    {
+      "liquid": 73,
+      "liquidResult": 3
+    }
+  ],
+  "quality_tier": "C"
+}

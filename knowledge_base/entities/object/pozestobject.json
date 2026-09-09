@@ -1,0 +1,41 @@
+{
+  "entity_id": "pozestobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pozest",
+  "name_zh": "魔酒",
+  "description_en": "A popular Glitch energy drink. Or is it just a placebo?",
+  "description_zh": "一种流行的电子人能量饮料，还是只是一种安慰剂？",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 825,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pozest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "pozest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

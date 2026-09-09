@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_runicDesert",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Runic Desert",
+  "name_zh": "符刻沙原",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Runic Desert",
+  "friendly_name_zh": "符刻沙原",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_magifireCrystal",
+      "weight": 0.8
+    },
+    {
+      "ore": "gold",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 0.5
+    }
+  ],
+  "monsters": [
+    "arcana_arcaneGleap",
+    "arcana_maskedOogler",
+    "armadillocritter",
+    "groopcritter",
+    "mousecritter",
+    "ravencritter",
+    "wurmcritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_arcaneDesert"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_energyDrain"
+  ],
+  "quality_tier": "C"
+}

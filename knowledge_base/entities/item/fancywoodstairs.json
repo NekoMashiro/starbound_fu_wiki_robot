@@ -1,0 +1,46 @@
+{
+  "entity_id": "fancywoodstairs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fancy Wood Platform",
+  "name_zh": "花哨的木制平台",
+  "description_en": "Fancy. Polished wood, gleaming iron.",
+  "description_zh": "抛光得可以发出类似铁一般光芒的木板，简直太美丽了。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

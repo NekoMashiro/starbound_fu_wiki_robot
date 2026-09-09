@@ -1,0 +1,100 @@
+{
+  "entity_id": "mwhaddon_misc_bleakAssembler",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Bleak Assembler",
+  "name_zh": "暗荒汇编器",
+  "description_en": "A module from Execration, can execute numerous complex commands simultaneously.",
+  "description_zh": "从恶裁上拆接下来的模块，可以同时执行和处理海量指令。",
+  "rarity": "essential",
+  "category": "craftingMaterial",
+  "price": 600,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_apotheosisAssembler",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_execration_flail",
+          "mwhaddon_execration_flamethrower"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armor_arbiter_chest"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_crafting_horizonFurnace"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_assaultRifle"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_execration_broadsword"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddonarcana_sigils_ssSigil"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_execration",
+          "probability": 1.0,
+          "count": 20,
+          "monsters": [
+            "mwhaddon_boss_execration"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

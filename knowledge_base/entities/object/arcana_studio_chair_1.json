@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_studio_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Studio Chair",
+  "name_zh": "工作室椅子",
+  "description_en": "A comfortable studio chair.",
+  "description_zh": "一把舒适的工作室椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 140,
+  "tags": [
+    "studio"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Studio & Romantic Cft. Table",
+      "station_zh": "工作室&浪漫制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_studio.json",
+          "name_zh": ""
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Studio Chair.md",
+  "quality_tier": "A"
+}

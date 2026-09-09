@@ -1,0 +1,46 @@
+{
+  "entity_id": "bloodhoundhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bloodhound Helmet",
+  "name_zh": "猎犬头盔",
+  "description_en": "Set Bonuses:\r\n Damage x1.05\r\n Scythe/Sniper: +2% Crit Chance, Damage x1.15\r\n Wasteland/Eden: Damage/Health x1.25",
+  "description_zh": "套装奖励:\n 5% 伤害增幅\n 镰刀/狙击步枪: +2% 暴击几率, 伤害x1.15\n 废土/伊甸园: 伤害/HPx1.25",
+  "rarity": "common",
+  "category": "headarmour",
+  "price": 50,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

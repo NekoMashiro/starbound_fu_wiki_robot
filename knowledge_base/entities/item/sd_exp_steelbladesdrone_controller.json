@@ -1,0 +1,36 @@
+{
+  "entity_id": "sd_exp_steelbladesdrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Steelblades Eyebot Controller",
+  "name_zh": "钢刃眼球机",
+  "description_en": "Common scanners on the wilderness.Made by the Steelblade.\r\n    [Primary]Spawn/Despawn,[Alt]emit a terrain-detecting ping.Can be used to detect entities.\r\n    RobCo IndustriesTM",
+  "description_zh": "荒野上常见的扫描机，由钢刃兵团制造。\n[左键]释放/收回，[右键]发射侦测脉冲，能用来检测实体。\n罗科 工业TM",
+  "rarity": "Legendary",
+  "category": "^#DBC5A6;侦察无人机工具",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

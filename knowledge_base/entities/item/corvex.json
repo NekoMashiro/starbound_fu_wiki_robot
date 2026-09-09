@@ -1,0 +1,58 @@
+{
+  "entity_id": "corvex",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corvex Blob",
+  "name_zh": "凸球萌芽果",
+  "description_en": "+100% Leech: 30s",
+  "description_zh": "+100%汲血: 30s",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "cattlefeed4",
+          "slew4"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "corvexputty",
+          "medkit3"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "corvexdrink"
+        ]
+      },
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood3"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "corvexHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

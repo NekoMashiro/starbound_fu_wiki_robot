@@ -1,0 +1,153 @@
+{
+  "entity_id": "thornjuice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Thorn Juice",
+  "name_zh": "刺果果汁",
+  "description_en": "More thorn than juice. Type: Vegetable",
+  "description_zh": "刺还多过果汁。\n 类型：蔬菜",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornfruit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 17,
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_neoncitydrinks",
+          "probability": 0.1875,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1425,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0699,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 1
+        },
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.0559,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.1875
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.1023,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0528,
+          "count": 1
+        },
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.0392,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0359,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0071,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.1023
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.049,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0106,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0106,
+        0.0884
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

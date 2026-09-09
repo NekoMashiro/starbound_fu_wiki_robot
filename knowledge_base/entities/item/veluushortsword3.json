@@ -1,0 +1,69 @@
+{
+  "entity_id": "veluushortsword3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Healing Telekinetic Blade",
+  "name_zh": "治愈飞剑",
+  "description_en": "A sword to be wielded telepathically.",
+  "description_zh": "用心灵感应挥舞的剑。",
+  "rarity": "Rare",
+  "category": "shortsword",
+  "price": 480,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "veluu",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 8.0,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "liquidhealing",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

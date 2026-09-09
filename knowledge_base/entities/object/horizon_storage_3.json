@@ -1,0 +1,53 @@
+{
+  "entity_id": "horizon_storage_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Horizon Crate",
+  "name_zh": "大型地平线金属箱",
+  "description_en": "A metal crate for storing items.",
+  "description_zh": "一个用于储存物品的金属箱。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 200,
+  "tags": [
+    "horizon",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Horizon Crafting Table",
+      "station_zh": "地平线制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

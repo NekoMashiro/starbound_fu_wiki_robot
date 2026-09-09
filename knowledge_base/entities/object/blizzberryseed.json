@@ -1,0 +1,75 @@
+{
+  "entity_id": "blizzberryseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blizzberry Seed",
+  "name_zh": "暴风雪浆果种子",
+  "description_en": "Helps provide immunity to even the most extreme cold.",
+  "description_zh": "可以收获暴风雪浆果，食用后会免疫寒冷、致命严寒。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 21
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "fusnowberryseed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 25
+        },
+        {
+          "item": "cryonicextract",
+          "count": 8
+        },
+        {
+          "item": "lead",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "kramil"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "blizzberryHarvest",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

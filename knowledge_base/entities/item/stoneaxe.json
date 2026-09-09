@@ -1,0 +1,50 @@
+{
+  "entity_id": "stoneaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Axe",
+  "name_zh": "原始斧",
+  "description_en": "Great for early meat and hide gathering.\r\nFloran",
+  "description_zh": "适合早期的肉类和兽皮收集。\n叶族",
+  "rarity": "common",
+  "category": "axe",
+  "price": 64,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon",
+    "stone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 6
+        },
+        {
+          "item": "plantfibre",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

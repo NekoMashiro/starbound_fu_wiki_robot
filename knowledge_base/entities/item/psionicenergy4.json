@@ -1,0 +1,51 @@
+{
+  "entity_id": "psionicenergy4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psi-4 Energy",
+  "name_zh": "4级灵能",
+  "description_en": "The most potent form of psionic energy.\n+50 Fuel",
+  "description_zh": "心灵能量最强大的形式。\n燃料+50",
+  "rarity": "legendary",
+  "category": "craftingMaterial",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "apexbrainjar4",
+          "count": 1
+        },
+        {
+          "item": "exoticmatter",
+          "count": 1
+        }
+      ],
+      "output_count": 200,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicbulletammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

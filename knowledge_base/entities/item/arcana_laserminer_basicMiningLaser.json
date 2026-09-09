@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_laserminer_basicMiningLaser",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Basic Mining Laser",
+  "name_zh": "基础采矿激光",
+  "description_en": "A mining tool that drills with a focused microwave beam.",
+  "description_zh": "一种用聚焦微波束来钻孔的采矿工具。",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 700,
+  "tags": [],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 6
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "arcana_laserminer_prototypeMiningLaser"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

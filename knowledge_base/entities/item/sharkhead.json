@@ -1,0 +1,58 @@
+{
+  "entity_id": "sharkhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Shark Hat",
+  "name_zh": "鲨鱼帽",
+  "description_en": "It fell from the sky on a windy day.",
+  "description_zh": "它在一个刮风的日子从空中坠落。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.0207,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0071,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0071,
+        0.0207
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.0145,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.0145
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

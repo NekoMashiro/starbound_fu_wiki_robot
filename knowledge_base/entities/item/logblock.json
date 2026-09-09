@@ -1,0 +1,123 @@
+{
+  "entity_id": "logblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wooden Log",
+  "name_zh": "原木",
+  "description_en": "A wooden log. Good for building simple structures.\nExtractable.",
+  "description_zh": "原木。对基础建筑结构很有帮助。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 20,
+        "examples": [
+          "arcana_spectwing_tile10",
+          "arcana_spectwing_tile11",
+          "arcana_spectwing_tile12",
+          "arcana_spectwing_tile16",
+          "arcana_spectwing_tile3"
+        ]
+      },
+      "furniture": {
+        "count": 19,
+        "examples": [
+          "apexcampshopcounter",
+          "apexshopcounter",
+          "frontiershopcounter",
+          "hylotlshopcounter",
+          "medievalshopcounter"
+        ]
+      },
+      "decorative": {
+        "count": 18,
+        "examples": [
+          "fuprotectorategardentree1",
+          "fuprotectorategardentree2",
+          "geodeplantpot",
+          "peglaciclassicglass",
+          "peglaciplate"
+        ]
+      },
+      "crafting": {
+        "count": 15,
+        "examples": [
+          "apexkitchencounter",
+          "campfire",
+          "colonystation",
+          "craftinganvil",
+          "craftingfarm"
+        ]
+      },
+      "storage": {
+        "count": 11,
+        "examples": [
+          "peglacibookcaseend1",
+          "peglacibookcaseend2",
+          "peglacibookcasemiddlehex1",
+          "peglacibookcasemiddlehex2",
+          "peglacibookcasemiddlestraight1"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 5,
+        "examples": [
+          "arcana_misc_kuromatsuWood",
+          "fu_carbondioxide",
+          "methanol",
+          "paper",
+          "plantfibre"
+        ]
+      },
+      "throwableItem": {
+        "count": 4,
+        "examples": [
+          "huntingspear",
+          "javelin",
+          "throwingaxe",
+          "throwingspear"
+        ]
+      },
+      "sapling": {
+        "count": 3,
+        "examples": [
+          "sapling",
+          "sapling",
+          "sapling"
+        ]
+      }
+    },
+    "total": 117
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox_8",
+          "probability": 1.0,
+          "count": 1.3
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox",
+          "probability": 0.2,
+          "count": 1.3
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.174,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.174,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

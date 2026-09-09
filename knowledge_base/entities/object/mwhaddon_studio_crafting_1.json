@@ -1,0 +1,56 @@
+{
+  "entity_id": "mwhaddon_studio_crafting_1",
+  "entity_type": "object",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Studio & Romantic Cft. Table",
+  "name_zh": "工作室&浪漫制作站",
+  "description_en": "A crafting station for creating Studio and Romantic furnishing.",
+  "description_zh": "一个可以制作工作室和浪漫家具的制作站。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 800,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 8
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Studio & Romantic Cft. Table",
+      "station_zh": "工作室&浪漫制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_studio.json",
+          "name_zh": ""
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

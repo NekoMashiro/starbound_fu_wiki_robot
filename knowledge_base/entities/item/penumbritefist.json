@@ -1,0 +1,58 @@
+{
+  "entity_id": "penumbritefist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Thresher",
+  "name_zh": "半影长尾鲨",
+  "description_en": "Sharp, puncturing edge provides fun for all.",
+  "description_zh": "锋利而刺穿敌人的边缘是其所有的乐趣。",
+  "rarity": "uncommon",
+  "category": "fistWeapon",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "fist",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

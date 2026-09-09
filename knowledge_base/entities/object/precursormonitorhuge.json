@@ -1,0 +1,83 @@
+{
+  "entity_id": "precursormonitorhuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Huge Monitor",
+  "name_zh": "巨型显示器",
+  "description_en": "A huge, ultra-quality screen unmarred by eons.",
+  "description_zh": "一块巨大的超高品质屏幕，不受时间的影响。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 35
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "precursormonitorhugebroken"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursormonitorhuge",
+    "precursormonitorhugebroken"
+  ],
+  "quality_tier": "S"
+}

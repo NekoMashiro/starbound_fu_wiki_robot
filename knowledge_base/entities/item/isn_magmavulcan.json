@@ -1,0 +1,63 @@
+{
+  "entity_id": "isn_magmavulcan",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyre Vulcan",
+  "name_zh": "火神之怒",
+  "description_en": "Ejects deadly balls of burning iron and magma\r\nSpawns molten metal!\r\nDestroys tiles.",
+  "description_zh": "射出致命的溶铁和岩浆球。\n岩浆球爆炸时产生熔化金属。简直是恶魔的武器！\n可破坏物块。(请勿在你的基地或飞船使用，它会毁了你的事业和梦想的。sayter可真是带善人，把这句话给删了嗷，保险起见我们还是加上了。)",
+  "rarity": "legendary",
+  "category": "grenadeLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "critChance": 4,
+  "critBonus": 5,
+  "altAbilityType": "magmagrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "scorchedcore",
+          "count": 3
+        },
+        {
+          "item": "densiniumbar",
+          "count": 2
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

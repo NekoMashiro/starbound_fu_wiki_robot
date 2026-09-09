@@ -1,0 +1,197 @@
+{
+  "entity_id": "honedlunari",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honed Lunari",
+  "name_zh": "精炼月晶",
+  "description_en": "A perfectly re-shaped piece of lunari, ready to charge with energy.",
+  "description_zh": "一块完美重塑过的月晶，等待充能。",
+  "rarity": "legendary",
+  "category": "craftingMaterial",
+  "price": 1800,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 30
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "precursorfluid",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Fission Furnace",
+      "station_zh": "裂变反应炉",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "裂变熔炉",
+          "name_zh": "裂变熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 4,
+        "examples": [
+          "fu_booster_large7",
+          "fu_booster_medium7",
+          "fu_booster_small7",
+          "fu_booster_tiny7"
+        ]
+      },
+      "eppAugment": {
+        "count": 3,
+        "examples": [
+          "darknessimmunityaug",
+          "fucosmicresistanceaugment",
+          "warbotartifact"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "precursorcrystal1",
+          "precursorcrystal2",
+          "precursorcrystal3"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "fuxithriciteheadkhe",
+          "tritaniumstarhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "fuxithricitechestkhe",
+          "tritaniumstarchest"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "fuxithricitepantskhe",
+          "tritaniumstarpants"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmmegacannon",
+          "mecharmsinsniper"
+        ]
+      },
+      "^orange;Extraction Device^reset;": {
+        "count": 1,
+        "examples": [
+          "fulargeterminal"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0378,
+        0.1264
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0036,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "furobotTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fualien",
+            "fumechspider",
+            "fumechspiderletheiafacility"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0378
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0047,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_archaic_light_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Candelabra",
+  "name_zh": "古朴大烛台",
+  "description_en": "An ancient Gilten candle holder.",
+  "description_zh": "一个古老的镀人烛台。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 110,
+  "tags": [
+    "light",
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "sprinklerroofweak",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crappy Sprinkler (roof)",
+  "name_zh": "破烂洒水器(挂式)",
+  "description_en": "A half-broken, crappy sprinkler.",
+  "description_zh": "这个洒水器破破烂烂的。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "farming"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Crappy Sprinkler (roof).md",
+  "quality_tier": "A"
+}

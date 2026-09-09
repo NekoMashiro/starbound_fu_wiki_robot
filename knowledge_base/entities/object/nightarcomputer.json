@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarcomputer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Computer",
+  "name_zh": "夜族电脑",
+  "description_en": "A complex computer made by the Nightar.",
+  "description_zh": "夜族人制造的复杂计算机。",
+  "rarity": "Legendary",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "wired",
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

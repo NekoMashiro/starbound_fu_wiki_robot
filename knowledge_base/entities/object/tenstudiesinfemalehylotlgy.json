@@ -1,0 +1,40 @@
+{
+  "entity_id": "tenstudiesinfemalehylotlgy",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Studies in Female Hylotlgy",
+  "name_zh": "鲛人女性的研究",
+  "description_en": "A very famous portrait of a mysterious lady.",
+  "description_zh": "一幅著名的神秘女士的肖像。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 2400,
+  "tags": [
+    "hylotl",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

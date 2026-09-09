@@ -1,0 +1,51 @@
+{
+  "entity_id": "sciencefulegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arctic Snowpants",
+  "name_zh": "北极裤子",
+  "description_en": "Set Bonuses:\r\n Immune: All Cold",
+  "description_zh": "套装奖励：\n 免疫: 一切寒冷",
+  "rarity": "Rare",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

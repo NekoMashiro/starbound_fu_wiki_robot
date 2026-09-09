@@ -1,0 +1,58 @@
+{
+  "entity_id": "fuhoneycrystalbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Crystal Bed",
+  "name_zh": "蜂蜜水晶床",
+  "description_en": "A honey crystal bed. When you want to dream of being rich.",
+  "description_zh": "一张蜂蜜水晶床，你可以在上面做着发财的梦。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "bees",
+    "crystal",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 6
+        },
+        {
+          "item": "beesilk",
+          "count": 3
+        },
+        {
+          "item": "crystalblock",
+          "count": 8
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

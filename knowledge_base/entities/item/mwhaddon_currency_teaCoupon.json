@@ -1,0 +1,94 @@
+{
+  "entity_id": "mwhaddon_currency_teaCoupon",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Tea Ingredient Coupon",
+  "name_zh": "泡茶物兑换券",
+  "description_en": "Deprecated coupons issued by Luye, still popular amongst tea lovers.\n[Can be used for trading tea-related stuff.]",
+  "description_zh": "曾由绿叶发行的兑换券，现已停止使用，但在茶叶爱好者之间仍然很受欢迎。\n[可用于兑换茶叶相关道具]",
+  "rarity": "Legendary",
+  "category": "currency",
+  "price": 0,
+  "tags": [
+    "coupon"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "tradingCard": {
+        "count": 3,
+        "examples": [
+          "mwhaddon_teaIngredient_crystalizedGrape",
+          "mwhaddon_teaIngredient_frolicalm",
+          "mwhaddon_teaIngredient_magentaThorn"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_cup_cyanAgate",
+          "mwhaddon_cup_solar"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_lootbox_teaBoxCommon",
+          "mwhaddon_lootbox_teaBoxEpic"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_teaCoupon",
+          "probability": 2.0,
+          "count": 1.2
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.23,
+          "count": 1.2
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.092,
+          "count": 1.2
+        }
+      ],
+      "prob_range": [
+        0.092,
+        2.0
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 2.0,
+          "count": 2.5
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBox_coupon",
+          "probability": 1.0,
+          "count": 2.5
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 1.0,
+          "count": 2.5
+        }
+      ],
+      "prob_range": [
+        1.0,
+        2.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

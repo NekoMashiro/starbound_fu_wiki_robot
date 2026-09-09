@@ -1,0 +1,35 @@
+{
+  "entity_id": "skathceilinglight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Ceiling Light",
+  "name_zh": "绘世者吸顶灯",
+  "description_en": "A plasma-based Skath ceiling light.",
+  "description_zh": "基于等离子制造的绘世者吸顶灯。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 25,
+  "tags": [
+    "light",
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 1
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

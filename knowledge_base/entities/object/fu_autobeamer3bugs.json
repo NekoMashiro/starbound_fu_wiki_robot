@@ -1,0 +1,49 @@
+{
+  "entity_id": "fu_autobeamer3bugs",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bug Harvester Turret",
+  "name_zh": "收割者炮塔(抓虫用)",
+  "description_en": "A specialized turret designed to grab bugs.",
+  "description_zh": "一个被设计用来抓虫的特殊炮塔。",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bug Harvester Turret.md",
+  "quality_tier": "A"
+}

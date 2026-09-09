@@ -1,0 +1,49 @@
+{
+  "entity_id": "fu_ftldrivemk2c",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "FTL Drive Mk2c",
+  "name_zh": "FTL引擎Mk2c",
+  "description_en": "A larger FTL drive for a space ship. Allows interstellar travel. Ship Speed: +10. BYOS Only.",
+  "description_zh": "",
+  "rarity": "essential",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 20
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "fu_ftldrivemk1c",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "fu_ftldrivemk3c"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

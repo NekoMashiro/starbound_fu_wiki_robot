@@ -1,0 +1,58 @@
+{
+  "entity_id": "durasteelkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Katana",
+  "name_zh": "耐钢武士刀",
+  "description_en": "A weapon to rival most.\r\n5 hit combo\r\nInflicts bleeding",
+  "description_zh": "最能与之匹敌的武器。\n 5连击；\n造成出血效果",
+  "rarity": "uncommon",
+  "category": "katana",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 1,
+  "critBonus": 9,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

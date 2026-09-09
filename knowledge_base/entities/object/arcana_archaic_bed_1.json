@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_archaic_bed_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Bed",
+  "name_zh": "古朴床",
+  "description_en": "A firm bed with silky sheets.",
+  "description_zh": "一张结实的床，铺着柔滑的床单。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 190,
+  "tags": [
+    "bed",
+    "archaic",
+    "gilten"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

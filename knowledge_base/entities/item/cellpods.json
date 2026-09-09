@@ -1,0 +1,27 @@
+{
+  "entity_id": "cellpods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cell Pods",
+  "name_zh": "细胞豆荚",
+  "description_en": "Heal 40% HP: 1m",
+  "description_zh": "治疗40% HP: 1m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cellpodsplantHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "bloodypussobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bloody Puss",
+  "name_zh": "血腥少女",
+  "description_en": "A thick, shake-like drink of meat and pussplum.",
+  "description_zh": "一种浓稠的，像奶昔一样的肉类饮料。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 190,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bloodypuss",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "bloodypuss"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

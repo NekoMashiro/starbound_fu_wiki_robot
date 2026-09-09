@@ -1,0 +1,41 @@
+{
+  "entity_id": "coconutriceobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coconut Rice",
+  "name_zh": "椰浆饭",
+  "description_en": "You can't see the coconut, but it's there!",
+  "description_zh": "你看不到椰子，但它的确在那儿！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coconutrice",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "coconutrice"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

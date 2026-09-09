@@ -1,0 +1,43 @@
+{
+  "entity_id": "isn_atmoscondenser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Atmospheric Condenser",
+  "name_zh": "空气冷凝器",
+  "description_en": "Condenses the atmosphere into usable reagents. Requires 50J every 2s. Slower production  when stacked. Scan for info.",
+  "description_zh": "可以把空气凝结成有用的反应物的装置。\n每2s需要50J能量。\n液体堆积时效率降低。\n扫描以查看更多信息。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 5500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 15
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Atmospheric Condenser.md",
+  "quality_tier": "A"
+}

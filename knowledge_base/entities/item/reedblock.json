@@ -1,0 +1,86 @@
+{
+  "entity_id": "reedblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Reed Block",
+  "name_zh": "芦苇块",
+  "description_en": "A block made from tightly woven reeds.",
+  "description_zh": "用芦苇紧密编制而成的方块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reed",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oasisChestTreasure",
+          "probability": 0.0245,
+          "count": 5.0
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0133,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0133,
+        0.0245
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoOasisTreasure",
+          "probability": 0.0159,
+          "count": 5
+        },
+        {
+          "pool": "oasisTreasure",
+          "probability": 0.0133,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0133,
+        0.0159
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "reedblock"
+  ],
+  "quality_tier": "S"
+}

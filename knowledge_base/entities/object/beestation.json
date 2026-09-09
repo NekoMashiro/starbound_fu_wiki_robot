@@ -1,0 +1,31 @@
+{
+  "entity_id": "beestation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apiary Crafting Station",
+  "name_zh": "蜂场工作台",
+  "description_en": "Craft all sorts of bee related items!",
+  "description_zh": "制作各种与蜜蜂相关的道具。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "bees",
+    "insects"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

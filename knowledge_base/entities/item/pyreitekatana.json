@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreitekatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Katana",
+  "name_zh": "永燃武士刀",
+  "description_en": "The heat of magma, mixed with bitter-cold steel.\r\n8 hit combo\r\nInflicts Napalm",
+  "description_zh": "这把武器将岩浆的灼热与钢铁的冰冷混合在一起。\n8连斩\n致命凝固汽油弹",
+  "rarity": "legendary",
+  "category": "katana",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

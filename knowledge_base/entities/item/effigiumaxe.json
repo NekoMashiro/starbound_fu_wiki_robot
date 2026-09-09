@@ -1,0 +1,56 @@
+{
+  "entity_id": "effigiumaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm Axe",
+  "name_zh": "幻影斧",
+  "description_en": "Ghostly as a spirit.",
+  "description_zh": "如鬼魅一般的武器。",
+  "rarity": "rare",
+  "category": "axe",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "upgradeableWeapon",
+    "effigium",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "refinedviolium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

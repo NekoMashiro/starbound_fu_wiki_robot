@@ -1,0 +1,47 @@
+{
+  "entity_id": "furustedlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gendarme Greaves",
+  "name_zh": "宪兵腿甲",
+  "description_en": "Set Bonuses:\r\n Rocket/Grenade Launcher: Damage x1.2\r\n Immune: Burning",
+  "description_zh": "套装奖励:\n 火箭/榴弹发射器: 伤害x1.2\n 免疫: 烧伤",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

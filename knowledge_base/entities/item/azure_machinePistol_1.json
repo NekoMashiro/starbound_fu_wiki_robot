@@ -1,0 +1,54 @@
+{
+  "entity_id": "azure_machinePistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Antares",
+  "name_zh": "心宿二",
+  "description_en": "An azurium pistol designed for rapid firing.",
+  "description_zh": "天青手枪，为快速射击而生。",
+  "rarity": "Legendary",
+  "category": "machinePistol",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 12.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 8
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 16
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

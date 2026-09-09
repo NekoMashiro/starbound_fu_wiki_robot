@@ -1,0 +1,46 @@
+{
+  "entity_id": "bioluminhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glow Mask",
+  "name_zh": "发光面具",
+  "description_en": "A luminescent mask - light up the night!",
+  "description_zh": "一副荧光面具――点亮了夜晚！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bioluminescenceChestTreasure",
+          "probability": 0.12,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBioluminescenceTreasure",
+          "probability": 0.078,
+          "count": 1
+        },
+        {
+          "pool": "bioluminescenceTreasure",
+          "probability": 0.0652,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0652,
+        0.078
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

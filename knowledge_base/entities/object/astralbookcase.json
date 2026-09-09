@@ -1,0 +1,45 @@
+{
+  "entity_id": "astralbookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Bookcase",
+  "name_zh": "星辰书桌",
+  "description_en": "A stellar bookcase, perfect for storing your mad ramblings about physics.",
+  "description_zh": "一个恒星书架，完美的存储你疯狂的漫无边际的物理学。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "knowledge",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralwood",
+          "count": 12
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "glitchshiphatch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glitch Ship Hatch",
+  "name_zh": "电子人飞船舱口",
+  "description_en": "A hatch suitable for a spaceship.",
+  "description_zh": "适用于宇宙飞船的舱门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "glitch",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

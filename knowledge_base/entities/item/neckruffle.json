@@ -1,0 +1,37 @@
+{
+  "entity_id": "neckruffle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Neck Ruffle Jacket",
+  "name_zh": "荷叶领边夹克",
+  "description_en": "A formal jacket, with a ruffled shirt underneath.",
+  "description_zh": "一件礼服夹克，内衬一件荷叶领衬衫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

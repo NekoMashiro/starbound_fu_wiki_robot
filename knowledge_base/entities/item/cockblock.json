@@ -1,0 +1,63 @@
+{
+  "entity_id": "cockblock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cock Block",
+  "name_zh": "鸡8块",
+  "description_en": "Throw at friends trying to pick up chicks.",
+  "description_zh": "扔给那些想泡妞的朋友。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crunchychick",
+          "count": 1
+        },
+        {
+          "item": "fu_carbon",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cockblockTreasure",
+          "probability": 0.0125,
+          "count": 1,
+          "monsters": [
+            "chimkin"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Cock Block.md",
+  "quality_tier": "S"
+}

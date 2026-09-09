@@ -1,0 +1,42 @@
+{
+  "entity_id": "antidote",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Poison Antidote",
+  "name_zh": "解毒剂",
+  "description_en": "Protect your body from poisons.",
+  "description_zh": "用来止毒。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "venomsample",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Potion Brewery",
+      "station_zh": "魔药酿造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "药剂工作台",
+          "name_zh": "药剂工作台"
+        },
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

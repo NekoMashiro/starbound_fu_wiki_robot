@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_abyssal_crafting_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Budding Soulstone",
+  "name_zh": "萌芽灵魂石",
+  "description_en": "A partially grown Soulstone for creating basic Spectwing equipment.",
+  "description_zh": "一个不完全生长的灵魂石，用于制作基础的幽翼装备。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "crafting",
+    "abyssal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

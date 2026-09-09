@@ -1,0 +1,74 @@
+{
+  "entity_id": "brickmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bricks",
+  "name_zh": "砖块",
+  "description_en": "Small but perfectly formed bricks made from clay.\nCrushable.",
+  "description_zh": "由粘土制成的小而完整的砖块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "firedclay",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "homewalls1",
+          "ledgebrick"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "firedclay"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "firedclay"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "firedclay"
+    }
+  ],
+  "blueprints_unlocked": [
+    "brickmaterial"
+  ],
+  "quality_tier": "S"
+}

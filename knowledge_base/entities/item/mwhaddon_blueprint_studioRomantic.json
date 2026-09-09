@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_blueprint_studioRomantic",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Ex BP- Studio & Romantic",
+  "name_zh": "额外蓝图 - 工作室&浪漫",
+  "description_en": "A blueprint for crafting Studio & Romantic themed furniture and blocks.",
+  "description_zh": "用于制作工作室与浪漫主题家具和方块的蓝图。",
+  "rarity": "Rare",
+  "category": "mysteriousReward",
+  "price": 400,
+  "tags": [
+    "blueprint"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_pigmentPowder",
+          "count": 6
+        },
+        {
+          "item": "paper",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金工作站",
+      "station_zh": "恒金工作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

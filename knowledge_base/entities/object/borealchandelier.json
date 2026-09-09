@@ -1,0 +1,50 @@
+{
+  "entity_id": "borealchandelier",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Boreal Chandelier",
+  "name_zh": "北风枝形吊灯",
+  "description_en": "A lovingly carved pine wood chandelier, outfitted with lightbulbs instead of candles.",
+  "description_zh": "一盏雕刻精美的松木枝形吊灯，配有灯泡而不是蜡烛。",
+  "rarity": "Uncommon",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "boreal",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "mininglamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mining Lantern",
+  "name_zh": "矿灯",
+  "description_en": "A lantern commonly hung about mineshafts to guide miners back out.",
+  "description_zh": "通常挂在矿井周围的灯笼，用来引导矿工返回矿井。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 20,
+  "tags": [
+    "light",
+    "mining",
+    "novakid",
+    "novakidvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "General Store",
+      "station_zh": "杂货店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

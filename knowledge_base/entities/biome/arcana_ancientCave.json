@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_ancientCave",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Ancient Cave",
+  "name_zh": "古老洞窟",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Ancient Cave",
+  "friendly_name_zh": "古老洞窟",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 1.0
+    },
+    {
+      "ore": "corefragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_atumiumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "gold",
+      "weight": 0.8
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.4
+    }
+  ],
+  "monsters": [
+    "arcana_soli",
+    "arcana_solstice",
+    "arcana_tricanard",
+    "pyromantle",
+    "smoglin"
+  ],
+  "quality_tier": "C"
+}

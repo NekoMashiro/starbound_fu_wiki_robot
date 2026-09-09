@@ -1,0 +1,70 @@
+{
+  "entity_id": "mwhaddon_amorousAltered",
+  "entity_type": "biome",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Amorous",
+  "name_zh": "风情",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Amorous",
+  "friendly_name_zh": "风情",
+  "ores": [
+    {
+      "ore": "arcana_mod_animaOre",
+      "weight": 0.9
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    },
+    {
+      "ore": "violium",
+      "weight": 0.6
+    },
+    {
+      "ore": "coal",
+      "weight": 0.5
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_mudmidge",
+    "arcana_paintlin",
+    "bigwormcritter",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "heathugger",
+    "krawlcritter",
+    "miasmop",
+    "phoenixfly",
+    "skywurmcritter",
+    "sporgus",
+    "toumingo",
+    "trictus"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:forest"
+      ]
+    ]
+  ],
+  "wiki_ref": "Amorous.md",
+  "quality_tier": "C"
+}

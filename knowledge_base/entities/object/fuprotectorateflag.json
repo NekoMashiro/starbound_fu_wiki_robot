@@ -1,0 +1,35 @@
+{
+  "entity_id": "fuprotectorateflag",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Flag",
+  "name_zh": "守护团旗帜",
+  "description_en": "The Protectorate flag. Use [E] to bookmark a teleportation location.",
+  "description_zh": "守护团旗帜。使用[E]标记一个传送坐标。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "fu"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "lightmetal",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Light Metal",
+  "name_zh": "轻金属",
+  "description_en": "A light metallic tile, perfect for a research laboratory.",
+  "description_zh": "一种轻金属砖，非常适合用来建造研究实验室。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "blueprints_unlocked": [
+    "lightmetal"
+  ],
+  "quality_tier": "A"
+}

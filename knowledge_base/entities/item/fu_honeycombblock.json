@@ -1,0 +1,100 @@
+{
+  "entity_id": "fu_honeycombblock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeycomb Block",
+  "name_zh": "蜂巢块",
+  "description_en": "A block of honeycomb.\nExtractable.",
+  "description_zh": "一个蜂巢块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "fugoldenhead",
+          "fuqueenhead"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "fugoldenlegs",
+          "fuqueenlegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "fugoldenchest",
+          "fuqueenchest"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "fubeeshield2"
+        ]
+      },
+      "scythe": {
+        "count": 1,
+        "examples": [
+          "honeyscythe"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "beeLoot",
+          "probability": 0.1616,
+          "count": 1,
+          "monsters": [
+            "fuevilbee",
+            "fugiantbee",
+            "fugiantbee2",
+            "fugiantmetalbee",
+            "fugiantmetalbee2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

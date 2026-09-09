@@ -1,0 +1,96 @@
+{
+  "entity_id": "kelp",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Kelp",
+  "name_zh": "海带",
+  "description_en": "Squishy and slimy kelp.",
+  "description_zh": "湿软的，粘糊糊的海带。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 6,
+        "examples": [
+          "aquapodseed",
+          "erithianalgaeseed",
+          "goldenseaspongeplant",
+          "oceaniteseed",
+          "violirootseed"
+        ]
+      },
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "cthushi",
+          "oceansurprise",
+          "ricecake",
+          "sushi"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "fupilldrug",
+          "fushroomspore"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "skathplant1",
+          "skathplant2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "kelpfabric"
+        ]
+      },
+      "hammer": {
+        "count": 1,
+        "examples": [
+          "kelpsteelhatchet"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "kinumoarmorpants"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "kinumoarmorchest"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dolphinTreasure",
+          "probability": 0.48,
+          "count": 1,
+          "monsters": [
+            "dolphin1",
+            "dolphin2"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "ricecake"
+  ],
+  "quality_tier": "S"
+}

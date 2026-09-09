@@ -1,0 +1,54 @@
+{
+  "entity_id": "swtjc_ewg_rareflakcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Flak Cannon",
+  "name_zh": "精良的地对空集束炮",
+  "description_en": "The bane of flocks of space birds throughout the galaxy (among other things).",
+  "description_zh": "银河系中成群的太空鸟类的克星（也包括其他东西）。",
+  "rarity": "Rare",
+  "category": "swtjc_ewg_flakCannon",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": [
+    7.0,
+    9
+  ],
+  "critChance": 3,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0323,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

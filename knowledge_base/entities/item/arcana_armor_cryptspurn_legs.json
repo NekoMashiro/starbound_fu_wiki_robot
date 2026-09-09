@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_cryptspurn_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cryptspurn Greaves",
+  "name_zh": "墓蔑胫甲",
+  "description_en": "A piece of weathered clothing.",
+  "description_zh": "一件褪色的衣服。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 1480,
+  "tags": [],
+  "level": 7,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_cryptspurn",
+          "probability": 0.025,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

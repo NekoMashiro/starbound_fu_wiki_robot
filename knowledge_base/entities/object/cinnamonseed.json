@@ -1,0 +1,52 @@
+{
+  "entity_id": "cinnamonseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cinnamon Seed",
+  "name_zh": "肉桂种子",
+  "description_en": "Spice of life! Cinnamon!",
+  "description_zh": "可以收获肉桂！这可是梦寐以求的香料！",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "livingroot",
+          "count": 2
+        },
+        {
+          "item": "plantfibre",
+          "count": 12
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cinnamonHarvest",
+          "probability": 0.4651,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

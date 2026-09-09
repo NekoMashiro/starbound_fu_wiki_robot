@@ -1,0 +1,51 @@
+{
+  "entity_id": "maverickhunterchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Maverick Hunter Chestplate",
+  "name_zh": "独行猎人胸甲",
+  "description_en": "Set Bonuses:\r\n +15% Speed, +15% Jump\r\n Arm Cannon: Damage x1.15",
+  "description_zh": "套装奖励：\n +15%速度, +15%跳跃高度\n 臂炮: 伤害x1.15",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 500,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 10
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "quietusbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,75 @@
+{
+  "entity_id": "arcana_tile11",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magiwood Log",
+  "name_zh": "魔木圆木",
+  "description_en": "A magiwood log. Good for building simple structures.",
+  "description_zh": "魔木圆木。适合构造简单的建筑。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "大法师之桌",
+          "name_zh": "大法师之桌"
+        },
+        {
+          "name": "arcana_crafting_main_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "arcana_tile10",
+          "arcana_tile6",
+          "arcana_tile8",
+          "arcana_tile9"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "springpalms_deco_2",
+          "springpalms_deco_7"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

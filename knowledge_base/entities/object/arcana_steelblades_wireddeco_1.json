@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_steelblades_wireddeco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Wide Scrap Screen",
+  "name_zh": "宽废料屏幕",
+  "description_en": "A long wall screen.",
+  "description_zh": "一个大显示屏。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "steelblades",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 1
+        },
+        {
+          "item": "slopedrustypanel",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁工作站",
+      "station_zh": "俄里翁工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

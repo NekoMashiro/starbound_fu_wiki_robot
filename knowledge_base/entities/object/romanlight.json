@@ -1,0 +1,52 @@
+{
+  "entity_id": "romanlight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Roman Sconce",
+  "name_zh": "罗曼·斯孔塞",
+  "description_en": "A robust, roman-style sconce.",
+  "description_zh": "坚固的罗马风格的斯孔塞。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "roman",
+    "pretty",
+    "valuable",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "romanset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

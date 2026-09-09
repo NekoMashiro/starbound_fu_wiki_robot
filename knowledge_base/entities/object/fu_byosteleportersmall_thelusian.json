@@ -1,0 +1,30 @@
+{
+  "entity_id": "fu_byosteleportersmall_thelusian",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Teleporter (Thelusian)",
+  "name_zh": "小型传送器（蚁族）",
+  "description_en": "Trusty teleporter, what would we do without you? Sets your ship spawn. Extract to return the ship teleporter.",
+  "description_zh": "可靠的传送器，没有你我们怎么办？设置你的船体降落点然后返回飞船传送器。",
+  "rarity": "Common",
+  "category": "teleporter",
+  "price": 0,
+  "tags": [
+    "thelusian"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_byosteleporter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

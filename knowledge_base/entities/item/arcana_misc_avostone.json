@@ -1,0 +1,129 @@
+{
+  "entity_id": "arcana_misc_avostone",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Avostone",
+  "name_zh": "衡石",
+  "description_en": "A bright red crystal. More commonly known as an avolite crystal in other parts of the universe.",
+  "description_zh": "明亮的红色晶体。在宇宙的其他部分一般都称其为阿沃斯之光。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 900
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "arcana_exousia_crafting_2",
+          "arcana_exousia_crafting_3"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "exousia_imperialArmy_1_assaultRifle_2",
+          "exousia_police_assaultRifle_1"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "avostone_lance_1"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "avostone_wand_1"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_1_broadsword_1"
+        ]
+      },
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "exousia_police_shotgun_1"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_back_orionBoosterEx"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "biomes": [
+    {
+      "biome": "arcana_animus_underground_1",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_animus_underground_2",
+      "weight": 0.8
+    },
+    {
+      "biome": "arcana_animus",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_lucid",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_sanguine",
+      "weight": 0.6
+    }
+  ],
+  "blueprints_unlocked": [
+    "arcana_misc_avostone"
+  ],
+  "wiki_ref": "Avostone.md",
+  "quality_tier": "S"
+}

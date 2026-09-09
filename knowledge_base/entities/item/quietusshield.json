@@ -1,0 +1,51 @@
+{
+  "entity_id": "quietusshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Shield",
+  "name_zh": "寂灭盾",
+  "description_en": "Provides immunity to bee stings, most rads and insanity.",
+  "description_zh": "提供对蜂蜇，绝大多数辐射和疯癫的免疫。",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 150,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

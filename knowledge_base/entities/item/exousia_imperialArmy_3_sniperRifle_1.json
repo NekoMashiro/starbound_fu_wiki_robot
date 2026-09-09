@@ -1,0 +1,75 @@
+{
+  "entity_id": "exousia_imperialArmy_3_sniperRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA3 Precision Rifle",
+  "name_zh": "EIA3精密步枪",
+  "description_en": "A silenced sniper rifle issued to Exousian Nordwolves.",
+  "description_zh": "威权北境狼部队配备的制式消音狙击步枪。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 9.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 12
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T7",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

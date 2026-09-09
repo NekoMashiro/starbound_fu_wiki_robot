@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_teaPlantSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tea Plant Seed",
+  "name_zh": "茶树种子",
+  "description_en": "A common tea plant for producing tea leaves.",
+  "description_zh": "用于盛产茶叶的普通茶树。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_teaPlant",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

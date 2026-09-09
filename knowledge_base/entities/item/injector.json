@@ -1,0 +1,59 @@
+{
+  "entity_id": "injector",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison Injector",
+  "name_zh": "毒素注射器",
+  "description_en": "Fill enemies with chemicals, without the annoyance of laws interfering with scientific progress.",
+  "description_zh": "向敌人注入化学物质。没有法律的阻碍，科学的进展就不会受到干扰。",
+  "rarity": "rare",
+  "category": "injector",
+  "price": 380,
+  "tags": [
+    "weapon",
+    "melee",
+    "injector",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 2,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "needleflurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "venomsample",
+          "count": 6
+        },
+        {
+          "item": "glass",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

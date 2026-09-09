@@ -1,0 +1,58 @@
+{
+  "entity_id": "fumantizitier1pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plebeian Greaves",
+  "name_zh": "庶民腿甲",
+  "description_en": "Set Bonuses:\r\n +15% Shield Health and Regen\r\n Sword/Mace + Shield: Health x1.2, +15% Knockback Resist",
+  "description_zh": "套装奖励:\n +15% 盾牌耐久及其回复\n 剑/钉头锤 + 盾: 最大HPx1.2,+15% 击退抗性。",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 50,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuplatinumarmorpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

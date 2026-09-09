@@ -1,0 +1,32 @@
+{
+  "entity_id": "animus_tile2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Animus Bricks",
+  "name_zh": "魇灵砖",
+  "description_en": "Dark, shadowy colored bricks.",
+  "description_zh": "黑影缠绕的乌黑砖块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 2,
+        "examples": [
+          "animus_tile5",
+          "animus_tile6"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "arcana_animus_light_1"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "A"
+}

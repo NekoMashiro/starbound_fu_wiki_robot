@@ -1,0 +1,45 @@
+{
+  "entity_id": "tier3light",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Light",
+  "name_zh": "钛台灯",
+  "description_en": "A glowing titanium light.",
+  "description_zh": "一盏发光的钛台灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 40,
+  "tags": [
+    "light",
+    "tier3"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 2
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

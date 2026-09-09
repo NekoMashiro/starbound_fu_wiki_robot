@@ -1,0 +1,37 @@
+{
+  "entity_id": "foundryforemanback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Foreman Pack",
+  "name_zh": "铸造工头包",
+  "description_en": "A spiky backpack that can hold a lot of equipment.",
+  "description_zh": "一个大容量的带尖刺背包。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

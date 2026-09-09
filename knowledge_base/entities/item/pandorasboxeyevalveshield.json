@@ -1,0 +1,40 @@
+{
+  "entity_id": "pandorasboxeyevalveshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Eyevalve Shield",
+  "name_zh": "瞳孔贝壳护盾",
+  "description_en": "A bivalve shell of extreme durability. It's a little heavy though.",
+  "description_zh": "一个非常耐用的双瓣贝壳，虽然有些重。",
+  "rarity": "Legendary",
+  "category": "shield",
+  "price": 1100,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxeyevalveHunting",
+          "probability": 0.0305,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxeyevalveTreasure",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

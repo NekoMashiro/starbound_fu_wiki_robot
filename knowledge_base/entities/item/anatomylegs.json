@@ -1,0 +1,46 @@
+{
+  "entity_id": "anatomylegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Human Anatomy Trousers",
+  "name_zh": "人类解剖学裤子",
+  "description_en": "It's educational! Trousers showing off human leg musculature.",
+  "description_zh": "真有教育意义！这裤子显示了人类腿部的肌肉结构。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fleshChestTreasure",
+          "probability": 0.1082,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoFleshTreasure",
+          "probability": 0.0703,
+          "count": 1
+        },
+        {
+          "pool": "fleshTreasure",
+          "probability": 0.0588,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0588,
+        0.0703
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

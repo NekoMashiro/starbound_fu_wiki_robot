@@ -1,0 +1,53 @@
+{
+  "entity_id": "statuetether",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Statue Multi-Tether",
+  "name_zh": "大型多格宠物束缚器",
+  "description_en": "A statue multi-tether.",
+  "description_zh": "一个更大的多格宠物束缚器。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

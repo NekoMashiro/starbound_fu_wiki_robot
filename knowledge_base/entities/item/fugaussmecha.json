@@ -1,0 +1,36 @@
+{
+  "entity_id": "fugaussmecha",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gauss Mech Arm",
+  "name_zh": "高斯机甲臂",
+  "description_en": "Rip em to shreds!",
+  "description_zh": "把敌人撕成碎片！",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugaussrifle",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

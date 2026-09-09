@@ -1,0 +1,18 @@
+[Unit]
+Description=FU Wiki official QQ robot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# 改成服务器上的实际用户和路径
+User=fuwiki
+WorkingDirectory=/opt/fu_wiki_robot/rag
+EnvironmentFile=/opt/fu_wiki_robot/rag/.env
+ExecStart=/opt/fu_wiki_robot/.venv/bin/python qq_bot.py
+Restart=always
+RestartSec=5
+MemoryMax=3G
+
+[Install]
+WantedBy=multi-user.target

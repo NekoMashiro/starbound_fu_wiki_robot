@@ -1,0 +1,45 @@
+{
+  "entity_id": "apexartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Genesis Coil",
+  "name_zh": "创世线圈",
+  "description_en": "Improved efficiency with all techs\r\nEnergy x1.15\r\nMobility II",
+  "description_zh": "增强所有科技的效率\n能量x1.15\n机动性增强II",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 150
+        },
+        {
+          "item": "leather",
+          "count": 25
+        },
+        {
+          "item": "ff_mercury",
+          "count": 100
+        },
+        {
+          "item": "miraclegrass",
+          "count": 50
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

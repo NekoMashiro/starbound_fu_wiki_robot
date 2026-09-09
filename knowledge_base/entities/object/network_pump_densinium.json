@@ -1,0 +1,43 @@
+{
+  "entity_id": "network_pump_densinium",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Pump",
+  "name_zh": "超致密泵",
+  "description_en": "Pumps liquids.\nInput1: On/Off Switch\nInput2: compression\nOutput1: item network\nOutput2: unused",
+  "description_zh": "用于抽取液体。\n输入节点1：电源开关\n输入节点2：压缩\n输出节点1：物品网络\n输出节点2：暂时无用",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 50
+        },
+        {
+          "item": "network_pump_titanium",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Densinium Pump.md",
+  "quality_tier": "A"
+}

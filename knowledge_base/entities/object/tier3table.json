@@ -1,0 +1,41 @@
+{
+  "entity_id": "tier3table",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Table",
+  "name_zh": "钛桌子",
+  "description_en": "A stylish titanium table.",
+  "description_zh": "一张时髦的钛桌子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 80,
+  "tags": [
+    "commerce",
+    "tier3"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "frostblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frost Blade",
+  "name_zh": "冰霜短剑",
+  "description_en": "A dense aura of cold permeates this sword",
+  "description_zh": "某种密集的冰冷气息围绕着这把剑。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "ice",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonblade",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

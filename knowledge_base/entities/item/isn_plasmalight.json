@@ -1,0 +1,51 @@
+{
+  "entity_id": "isn_plasmalight",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasma Light Pack",
+  "name_zh": "等离子光照背包",
+  "description_en": "A very bright portable plasma powered device. Cool yet practical.\r\nImmune: Pressure, Oxygen",
+  "description_zh": "由等离子驱动的便携式照明装置，又酷又实用。\n免疫：窒息, 压强",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "particlecore",
+          "count": 2
+        },
+        {
+          "item": "morphiteore",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Plasma Light Pack.md",
+  "quality_tier": "A"
+}

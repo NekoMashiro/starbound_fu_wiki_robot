@@ -1,0 +1,51 @@
+{
+  "entity_id": "daywalkerpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Daywalker Greaves",
+  "name_zh": "日行者腿甲",
+  "description_en": "Set Bonuses:\r\n Energy x1.05\r\n One-handed Swords: +1.5% Crit Chance/+25% Crit Damage\r\n Immune: Slime, Mud, Ice, Snow, Tar\r\n Mitigates Nightar/Tenebrhae Light Penalties",
+  "description_zh": "套装奖励：\n 能量x1.05 \n 单手剑：暴击几率+1.5%，暴击伤害+25%\n 免疫：粘液, 泥, 冰面, 雪, 焦油r\n 减轻夜族/影裔关于光的惩罚",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 500,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neptuniumrod",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

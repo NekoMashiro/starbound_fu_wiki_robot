@@ -1,0 +1,43 @@
+{
+  "entity_id": "misc_assaultRifle_terminator",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Terminator",
+  "name_zh": "终结者",
+  "description_en": "Nothing can escape the end of time and space.",
+  "description_zh": "没有东西可以从时间与空间的终结里逃脱。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 2400,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 12.2,
+  "altAbilityType": "guidedrocket",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png:default.1",
+    "seed": "",
+    "shortdescription": "终结者^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

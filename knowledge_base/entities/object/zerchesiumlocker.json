@@ -1,0 +1,49 @@
+{
+  "entity_id": "zerchesiumlocker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Locker",
+  "name_zh": "高熔点矿储物柜",
+  "description_en": "A set of lockers made from Zerchesium. They don't seem to have an owner.",
+  "description_zh": "一套由高熔点矿制成的储物柜。他们似乎没有主人。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 175,
+  "tags": [
+    "zerchesium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

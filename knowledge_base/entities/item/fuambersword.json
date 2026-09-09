@@ -1,0 +1,60 @@
+{
+  "entity_id": "fuambersword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Blade",
+  "name_zh": "琥珀长剑",
+  "description_en": "Made from finely-honed amber.",
+  "description_zh": "由精致的琥珀制成。",
+  "rarity": "uncommon",
+  "category": "longsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "bees",
+    "crystal"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.65,
+  "critChance": 1.15,
+  "critBonus": 8,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 9
+        },
+        {
+          "item": "bone",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

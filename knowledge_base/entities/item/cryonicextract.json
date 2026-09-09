@@ -1,0 +1,362 @@
+{
+  "entity_id": "cryonicextract",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cryonic Extract",
+  "name_zh": "低温提取物",
+  "description_en": "An icy organic chemical. Can be used for crafting.",
+  "description_zh": "冰冷的有机化学品。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_iceEssence",
+          "count": 5
+        },
+        {
+          "item": "ice",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fu_hydrogen",
+          "count": 2
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 2
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "fridgeStorage": {
+        "count": 42,
+        "examples": [
+          "atropusfridge",
+          "atropusminifridge",
+          "carbonfridge",
+          "carbonminifridge",
+          "densealloyfridge"
+        ]
+      },
+      "seed": {
+        "count": 6,
+        "examples": [
+          "blizzberryseed",
+          "fusnowberryseed",
+          "kamaranpodsplant",
+          "kramil",
+          "pekkitseed"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 5,
+        "examples": [
+          "adaptablecrossbow",
+          "iceslimetendrils",
+          "iceslimetendrils2",
+          "iceslimetendrils3",
+          "psionicfreezeammo"
+        ]
+      },
+      "terraformer": {
+        "count": 5,
+        "examples": [
+          "terraformerfrozenvolcanic",
+          "terraformericemoon",
+          "terraformermidnight",
+          "terraformersnow",
+          "terraformertundra"
+        ]
+      },
+      "whip": {
+        "count": 4,
+        "examples": [
+          "iceslimeconcwhip",
+          "iceslimewhip",
+          "iceslimewhip2",
+          "iceslimewhip3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "heatprotectionback",
+          "repulsorfieldback",
+          "tw_spacesuitback"
+        ]
+      },
+      "armcannon": {
+        "count": 2,
+        "examples": [
+          "armcannonice",
+          "armcannonveluuice"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "feedaugment2",
+          "radienaugment1"
+        ]
+      }
+    },
+    "total": 93
+  },
+  "drop_sources": {
+    "total_pools": 189,
+    "other": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_cryonicextract",
+          "probability": 2.0,
+          "count": 1.2
+        },
+        {
+          "pool": "icetrollLoot",
+          "probability": 0.1971,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.184,
+          "count": 1.2
+        },
+        {
+          "pool": "extraMonsterIce",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "aquamantle",
+            "aquapodflyer",
+            "coldalabra",
+            "cryopod",
+            "frostlit"
+          ]
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.0736,
+          "count": 1.2
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        2.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 22,
+      "top": [
+        {
+          "pool": "pandorasboxfrostixHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "iceFluffaloHarvest",
+          "probability": 0.95,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxpandorbiceHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxpandorbicelargeHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterIceHunting",
+          "probability": 0.6,
+          "count": 1,
+          "monsters": [
+            "aquamantle",
+            "aquapodflyer",
+            "coldalabra",
+            "cryopod",
+            "frostlit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 71,
+      "top": [
+        {
+          "pool": "rimelinghuntTreasure",
+          "probability": 0.8,
+          "count": 1,
+          "monsters": [
+            "rimeling"
+          ]
+        },
+        {
+          "pool": "narfinVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "pulpinVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "snuffishVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "rimelingTreasure",
+          "probability": 0.1602,
+          "count": 1,
+          "monsters": [
+            "rimeling"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.8
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1225,
+          "count": 2.3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.093,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0311,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0309,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.1225
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.003
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

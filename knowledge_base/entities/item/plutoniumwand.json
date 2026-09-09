@@ -1,0 +1,55 @@
+{
+  "entity_id": "plutoniumwand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nuclear Wand",
+  "name_zh": "核素魔杖",
+  "description_en": "Pronouncing it nuke-ya-lur means you're stupid.",
+  "description_zh": "把Nuclear念成 nuke-ya-lur 意味着你很愚蠢。",
+  "rarity": "legendary",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "plutonium",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "enrichedplutonium",
+          "count": 3
+        },
+        {
+          "item": "solariumstar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

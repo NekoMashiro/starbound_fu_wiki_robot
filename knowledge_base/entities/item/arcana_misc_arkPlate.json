@@ -1,0 +1,106 @@
+{
+  "entity_id": "arcana_misc_arkPlate",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ark Plate",
+  "name_zh": "方舟板",
+  "description_en": "A sturdy plating made from ancient mineral found in skybound arks.",
+  "description_zh": "一种能在天界方舟找到的，使用古代矿物制作的坚固镀层。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 150,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumore",
+          "count": 1
+        },
+        {
+          "item": "goldore",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_arkFragment",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 8,
+        "examples": [
+          "arcana_platform_arkPlatform",
+          "aurea_tile1",
+          "aurea_tile2",
+          "aurea_tile5",
+          "romantic_tile1"
+        ]
+      },
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "arcana_archaic_deco_1",
+          "arcana_archaic_deco_10",
+          "arcana_archaic_deco_2",
+          "arcana_archaic_deco_4",
+          "arcana_archaic_deco_8"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "arcana_archaic_storage_1",
+          "arcana_archaic_storage_2",
+          "arcana_archaic_storage_3",
+          "arcana_archaic_storage_4",
+          "arcana_archaic_storage_5"
+        ]
+      },
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "arcana_archaic_bed_1",
+          "arcana_archaic_chair_3",
+          "arcana_archaic_table_2",
+          "arcana_archaic_table_3"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "arcana_archaic_door_1"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "arcana_archaic_light_5"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_discus"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,314 @@
+{
+  "entity_id": "bandage",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bandage",
+  "name_zh": "绷带",
+  "description_en": "A bandage for healing minor wounds. Restores 50 health over 1 second.",
+  "description_zh": "一种治疗小伤口的绷带。使用后1秒恢复50点生命。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 25,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Potion Brewery",
+      "station_zh": "魔药酿造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "药剂工作台",
+          "name_zh": "药剂工作台"
+        },
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "bouncewrap",
+          "medkit"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "luckyseveredtoe"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 484,
+    "chest_loot": {
+      "count": 121,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 2.1479,
+          "count": 3.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 2.0814,
+          "count": 3.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.3522,
+          "count": 3
+        },
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.2762,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.1655,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        2.1479
+      ]
+    },
+    "other": {
+      "count": 56,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_bandage",
+          "probability": 2.0,
+          "count": 5.0
+        },
+        {
+          "pool": "healingItem",
+          "probability": 0.25,
+          "count": 2
+        },
+        {
+          "pool": "elduuhealingItem",
+          "probability": 0.25,
+          "count": 2
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.2452,
+          "count": 3
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.2299,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        2.0
+      ]
+    },
+    "monster_drops": {
+      "count": 281,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 1.2503,
+          "count": 3,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 1.2232,
+          "count": 3
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.5115,
+          "count": 3
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.2639,
+          "count": 3
+        },
+        {
+          "pool": "apextreasure",
+          "probability": 0.25,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.2503
+      ]
+    },
+    "boss_mission": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "arcana_mission_bandage",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_mission_desertstart_end",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "arcana_mission_desertstart_weapon1",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "arcana_mission_desertstart_cosmetichead",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.47,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0796,
+          "count": 2.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0581,
+          "count": 2
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.05,
+          "count": 2
+        },
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0003,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0796
+      ]
+    },
+    "quest_rewards": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0681,
+          "count": 2.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.045,
+          "count": 2.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0069,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0068,
+          "count": 3
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0059,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0012,
+        0.0681
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 0.0003,
+          "count": 2
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.0003,
+          "count": 2,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0002,
+          "count": 2,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0003
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

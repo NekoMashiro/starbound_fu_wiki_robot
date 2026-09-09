@@ -1,0 +1,88 @@
+{
+  "entity_id": "workshop_crafting_reinforcedFrame",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Reinforced Frame",
+  "name_zh": "强化框架",
+  "description_en": "A frame reinforced from durable materials.",
+  "description_zh": "使用坚固材料强化的框架。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 80
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 4,
+        "examples": [
+          "arcana_auto_battery_2",
+          "workshop_auto_essenceextractor2_1",
+          "workshop_auto_generator",
+          "workshop_auto_refinery"
+        ]
+      },
+      "storage": {
+        "count": 3,
+        "examples": [
+          "workshop_auto_locker",
+          "workshop_container_19",
+          "workshop_container_20"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8E_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8E_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8E_chest"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_quadJump"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "quality_tier": "S"
+}

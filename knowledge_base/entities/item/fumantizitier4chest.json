@@ -1,0 +1,58 @@
+{
+  "entity_id": "fumantizitier4chest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primus Armor",
+  "name_zh": "卫冕者上衣",
+  "description_en": "Set Bonuses:\r\n Fists: Damage x1.15, +3% Crit Chance\r\n +50% Knockback Resist",
+  "description_zh": "套装奖励：\n 拳头: 伤害x1.15, +3% 暴击几率\n +50% 击退抗性",
+  "rarity": "Uncommon",
+  "category": "chestarmour",
+  "price": 625,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "ff_plastic",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "kirhostier6schest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "gilten",
+  "entity_type": "species",
+  "source_mod": "Arcana",
+  "name_en": "",
+  "name_zh": "镀人",
+  "description_en": "",
+  "description_zh": "镀人是一个半龙半人的种族。居住在天界方舟的它们崇拜古纪的神圣之光。由于镀人拥有源于辉煌之光的亲和力，他们天生就能抵御基本元素，但更不耐受物理伤害。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "physicalResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.1
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.0
+    },
+    "tech": [
+      "arcana_tech_basicFlight"
+    ]
+  },
+  "quality_tier": "B"
+}

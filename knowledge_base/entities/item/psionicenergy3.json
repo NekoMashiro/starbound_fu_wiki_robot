@@ -1,0 +1,51 @@
+{
+  "entity_id": "psionicenergy3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psi-3 Energy",
+  "name_zh": "3级灵能",
+  "description_en": "A massively charged psionic energy cell.\n+35 Fuel",
+  "description_zh": "一块巨大的充电灵能电池。\n燃料+35",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "apexbrainjar3",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 300,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicfreezeammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

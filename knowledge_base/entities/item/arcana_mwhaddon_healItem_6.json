@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_mwhaddon_healItem_6",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aurea Standard Medkit",
+  "name_zh": "恒金标准医疗包",
+  "description_en": "Standard medkit distributed by Aurea Collective.\nRestores 25% of max health + 100 health over 5 seconds.",
+  "description_zh": "由恒金联合派发的标准医疗包。\n在5秒钟内恢复25%最大生命值+100点生命值。",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_1_1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_2_3",
+          "probability": 1.0,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

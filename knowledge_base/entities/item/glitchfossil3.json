@@ -1,0 +1,48 @@
+{
+  "entity_id": "glitchfossil3",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glitch Legs",
+  "name_zh": "电子人腿部",
+  "description_en": "A corroded pair of Glitch legs.",
+  "description_zh": "一个电子人的生锈腿部。",
+  "rarity": "Uncommon",
+  "category": "mediumFossil",
+  "price": 0,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "humanoidfossil",
+          "probability": 0.03,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.0105,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.0105,
+          "count": 1
+        },
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.03
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

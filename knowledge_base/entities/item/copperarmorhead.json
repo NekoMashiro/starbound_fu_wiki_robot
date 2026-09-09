@@ -1,0 +1,64 @@
+{
+  "entity_id": "copperarmorhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Copper Goggles",
+  "name_zh": "铜制护目镜",
+  "description_en": "A pair of sturdy copper goggles.",
+  "description_zh": "套装奖励:\n 采矿激光: 战斗伤害 x1.5,  能量x1.2\n 免疫: 泥泞",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "string",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessChestTreasure",
+          "probability": 0.276,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessTreasure",
+          "probability": 0.15,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

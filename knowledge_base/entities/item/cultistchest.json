@@ -1,0 +1,27 @@
+{
+  "entity_id": "cultistchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cultist Chestpiece",
+  "name_zh": "邪教徒外套",
+  "description_en": "A padded jacket, frequently worn by cultists.",
+  "description_zh": "一件棉夹克，邪教徒们经常穿它。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cultisttreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

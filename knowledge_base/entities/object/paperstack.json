@@ -1,0 +1,36 @@
+{
+  "entity_id": "paperstack",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Paper Stack",
+  "name_zh": "纸堆",
+  "description_en": "A stack of paperwork. Hopefully not left for you to sort through.",
+  "description_zh": "一堆文件。希望没有留给你去整理。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

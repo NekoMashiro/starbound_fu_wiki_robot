@@ -1,0 +1,67 @@
+{
+  "entity_id": "funomadrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nomad Rifle",
+  "name_zh": "游猎步枪",
+  "description_en": "Highly useful weapon for wanderers.\r\nCounts as Hunting weapon\r\nCauses Radiation Burn",
+  "description_zh": "对流浪者非常有用的武器。\n狩猎武器\n附加辐射烧伤效果",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 4,
+  "critBonus": 4,
+  "altAbilityType": "explosiveburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 12
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

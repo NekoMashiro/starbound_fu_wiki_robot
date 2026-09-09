@@ -1,0 +1,141 @@
+{
+  "entity_id": "slopedinsetpanel",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Inset Panel",
+  "name_zh": "插入面板",
+  "description_en": "A somewhat inexpensive material that can withstand most weathering.",
+  "description_zh": "一种能承受大多数风化的廉价材料。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 16,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "slopedMaterial",
+          "probability": 0.2,
+          "count": 50
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.1,
+          "count": 200
+        },
+        {
+          "pool": "spaceTrash",
+          "probability": 0.0769,
+          "count": 25
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0089,
+          "count": 50
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0025,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.2
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.1102,
+          "count": 195.1
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.1025,
+          "count": 196.3
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.1025,
+          "count": 196.3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.1,
+          "count": 200
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0142,
+          "count": 192.6
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.1102
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0162,
+          "count": 173.1
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0006,
+          "count": 50
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 50
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "slopedinsetpanel"
+  ],
+  "quality_tier": "S"
+}

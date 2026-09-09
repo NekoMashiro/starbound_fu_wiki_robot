@@ -1,0 +1,55 @@
+{
+  "entity_id": "isn_accelgel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Accelerator Gel",
+  "name_zh": "加速凝胶",
+  "description_en": "Place it on a surface to coat it in a gel that speeds you up.",
+  "description_zh": "给地形的表面涂上这种物质，可以让你在上面加快移动速度。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutagene4",
+          "count": 1
+        },
+        {
+          "item": "ff_silicon",
+          "count": 1
+        },
+        {
+          "item": "sulphur",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "isn_propulsionstrip_l",
+          "isn_propulsionstrip_r"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mechlegsfuintrepid",
+          "mechlegsfuobserver"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

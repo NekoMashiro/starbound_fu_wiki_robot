@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_nightmare_perditionFractal",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Perdition Fractal",
+  "name_zh": "渊灭分型",
+  "description_en": "An ancient staff formerly wielded by Webennesiah, the Arch Starstrider.\n[Alt ability does not deal crtical damage.]",
+  "description_zh": "由大星游者韦本尼亚所持有的古代法杖。\n[特殊技能无法造成暴击伤害]",
+  "rarity": "essential",
+  "category": "staff",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "staff",
+    "otherworldly"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 23,
+  "primaryAbilityType": "mwhaddon_staff_directShoot",
+  "altAbilityType": "elementportal",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_triangleRune",
+          "count": 8
+        },
+        {
+          "item": "arcana_guidance",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

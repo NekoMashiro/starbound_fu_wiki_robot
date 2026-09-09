@@ -1,0 +1,40 @@
+{
+  "entity_id": "miniknoglauncher",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Miniknog Launcher",
+  "name_zh": "科技发展部发射器",
+  "description_en": "A miniature missile launcher, developed by top Miniknog scientists.",
+  "description_zh": "微型导弹发射器，由科技发展部的顶级科学家开发。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 850,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 9,
+  "critBonus": 9,
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bigapeTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "apeboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

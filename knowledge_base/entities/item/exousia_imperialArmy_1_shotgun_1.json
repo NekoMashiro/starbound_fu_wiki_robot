@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_1_shotgun_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Schwarzritter Shotgun",
+  "name_zh": "EIA1黑骑士霰弹枪",
+  "description_en": "A standard shotgun used by Exousian Frontliners.",
+  "description_zh": "威权前线部队使用的制式霰弹枪。",
+  "rarity": "Legendary",
+  "category": "shotgun",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10.8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 10
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T6",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

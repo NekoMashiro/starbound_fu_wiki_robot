@@ -1,0 +1,32 @@
+{
+  "entity_id": "mwhaddon_unlocker_sandvatar",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Memory of Battle",
+  "name_zh": "战斗追忆",
+  "description_en": "[Sandvatar]\nYou are not expected to read this.",
+  "description_zh": "[砂像]\n你不该能看到这行字。",
+  "rarity": "Legendary",
+  "category": "trophy",
+  "price": 600,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_sandvatar",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_sandvatar"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier4broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weak Metal Broadsword",
+  "name_zh": "脆弱的金属宽剑",
+  "description_en": "This prototype blade was used to build on existing techniques. It's rather bulky.",
+  "description_zh": "这把原型刀刃以现有的技术为基础。它相当笨重。",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.98,
+  "critChance": 1,
+  "critBonus": 6,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "spinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "feya",
+          "count": 15
+        },
+        {
+          "item": "titaniumbar",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

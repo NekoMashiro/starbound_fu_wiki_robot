@@ -1,0 +1,57 @@
+{
+  "entity_id": "effigiumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phantasm Spear",
+  "name_zh": "幻影长矛",
+  "description_en": "Ghostly as a spirit.\r\nHunting weapon",
+  "description_zh": "矛如鬼影。\n狩猎武器",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "effigium",
+    "upgradeableWeapon",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.92,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "flurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "refinedviolium",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

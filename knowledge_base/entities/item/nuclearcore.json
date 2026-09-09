@@ -1,0 +1,139 @@
+{
+  "entity_id": "nuclearcore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nuclear Core",
+  "name_zh": "核能核心",
+  "description_en": "Great and terrible nuclear power. Handle with care.",
+  "description_zh": "伟大而又可怕的核子力量，请小心使用。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 3600,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 12
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "uraniumrod",
+          "count": 4
+        },
+        {
+          "item": "helium3gasliquid",
+          "count": 12
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 12
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 8
+        },
+        {
+          "item": "helium3gasliquid",
+          "count": 12
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "terraformer": {
+        "count": 36,
+        "examples": [
+          "terraformeralien",
+          "terraformerarboreal",
+          "terraformerarboreal2",
+          "terraformeratropus",
+          "terraformerbog"
+        ]
+      },
+      "mechPart": {
+        "count": 20,
+        "examples": [
+          "fumechchainsword",
+          "fumechdensinium",
+          "mecharmgravitymine",
+          "mecharmmultidrone",
+          "mecharmsinchaingun"
+        ]
+      },
+      "vehicleController": {
+        "count": 3,
+        "examples": [
+          "fusubcontroller3",
+          "fusubcontroller4",
+          "fusubcontroller5"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "aetheriumbroadsword",
+          "energyblade2"
+        ]
+      },
+      "wire": {
+        "count": 2,
+        "examples": [
+          "isn_atmosregulator",
+          "isn_fissionreactornew"
+        ]
+      },
+      "longsword": {
+        "count": 1,
+        "examples": [
+          "aetheriumlongsword"
+        ]
+      },
+      "scythe": {
+        "count": 1,
+        "examples": [
+          "aetheriumscythe"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "aetheriumspear"
+        ]
+      }
+    },
+    "total": 75
+  },
+  "quality_tier": "S"
+}

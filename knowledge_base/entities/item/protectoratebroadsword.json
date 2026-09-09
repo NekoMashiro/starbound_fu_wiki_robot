@@ -1,0 +1,38 @@
+{
+  "entity_id": "protectoratebroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Protector's Broadsword",
+  "name_zh": "英雄之剑",
+  "description_en": "A powerful experimental weapon designed by the Terrene Protectorate.",
+  "description_zh": "这是一把由大地守护团设计的试验性武器，非常强大。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1250,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "protectorate"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "能力增强",
+  "upgrade_path": {
+    "upgrades_to": [
+      {
+        "image": "protectoratebroadsword2.png:inactive"
+      }
+    ],
+    "seed": "",
+    "shortdescription": "^cyan;大师之剑^reset; ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

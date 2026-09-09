@@ -1,0 +1,53 @@
+{
+  "entity_id": "3dprinter",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pixel Printer",
+  "name_zh": "像素打印机",
+  "description_en": "This machine can reorganize pixels into almost any shape.",
+  "description_zh": "这台机器能将像素重组成任意形态。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 2000,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 20
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Pixel Printer.md",
+  "quality_tier": "A"
+}

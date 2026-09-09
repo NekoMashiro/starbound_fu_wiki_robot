@@ -1,0 +1,100 @@
+{
+  "entity_id": "shadowburst",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Reaper",
+  "name_zh": "暗影收割者",
+  "description_en": "A soul-cleaver of ageless, unknown materials.\r\nInflicts Bleeding",
+  "description_zh": "一把由永恒未知材料制成的灵魂切割刀。\n 导致出血效果",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "shadow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.3,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "shortswordcombo3",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blooddiamond",
+          "count": 5
+        },
+        {
+          "item": "effigiumbar",
+          "count": 8
+        },
+        {
+          "item": "liquidirradium",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0189,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0072,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0072,
+        0.0189
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0062,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

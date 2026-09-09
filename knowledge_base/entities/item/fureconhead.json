@@ -1,0 +1,58 @@
+{
+  "entity_id": "fureconhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Recon Headgear",
+  "name_zh": "侦察头盔",
+  "description_en": "Set Bonuses: \r\n +5% Speed\r\n Assault/Sniper Rifle: Damage x1.15\r\n Immune: Radiation Burn",
+  "description_zh": "套装奖励：\n +5% 速度\n 突击/狙击步枪: 伤害x1.15\n 免疫: 辐射烧伤",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 225,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fureconhead2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "at_ext_ebar",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Energy bar",
+  "name_zh": "能量棒",
+  "description_en": "An energy bar used by Titancorp employees to quickly replenish energy.",
+  "description_zh": "一种能量棒，泰坦重工的雇员们用来快速补充能量。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "at_ext_d7",
+          "probability": 1.0,
+          "count": 2
+        },
+        {
+          "pool": "at_ext_d8",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

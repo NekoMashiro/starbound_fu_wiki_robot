@@ -1,0 +1,60 @@
+{
+  "entity_id": "fu_precursorbeerback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Beer Generator",
+  "name_zh": "先驱啤酒酿造机",
+  "description_en": "Generates an infinite amount of beer.",
+  "description_zh": "利用奇妙的先驱科技生产无限量的啤酒吧！",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Beer Generator.md",
+  "quality_tier": "A"
+}

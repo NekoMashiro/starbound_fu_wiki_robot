@@ -1,0 +1,35 @@
+{
+  "entity_id": "smartbox_comparer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Comparer",
+  "name_zh": "物品比较器",
+  "description_en": "Compares two items and sends a signal on Output 2 if both are identical.\r\nItem-Network compatible.",
+  "description_zh": "比较两个物品，若相同则于输出2输出信号。\n兼容物品网络。",
+  "rarity": "common",
+  "category": "Smart Box",
+  "price": 100,
+  "tags": [
+    "smart",
+    "box"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

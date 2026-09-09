@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechblueprint3",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Simple Mech Blueprint",
+  "name_zh": "简单机甲蓝图",
+  "description_en": "A blueprint for a simple mech part.",
+  "description_zh": "一个简单机甲部件的蓝图。",
+  "rarity": "Common",
+  "category": "Blueprint",
+  "price": 150,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

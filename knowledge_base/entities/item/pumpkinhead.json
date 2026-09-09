@@ -1,0 +1,65 @@
+{
+  "entity_id": "pumpkinhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pumpkin Mask",
+  "name_zh": "南瓜面具",
+  "description_en": "Call on Ichabod Crane!",
+  "description_zh": "去拜访伊卡博德·克兰！",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "springChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        },
+        {
+          "pool": "swampChestTreasure",
+          "probability": 0.0736,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0736,
+        0.1227
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSpringTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "springTreasure",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSwampTreasure",
+          "probability": 0.0478,
+          "count": 1
+        },
+        {
+          "pool": "swampTreasure",
+          "probability": 0.04,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.04,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

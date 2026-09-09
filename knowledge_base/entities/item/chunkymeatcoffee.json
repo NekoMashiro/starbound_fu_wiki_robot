@@ -1,0 +1,54 @@
+{
+  "entity_id": "chunkymeatcoffee",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chunky Meat Coffee",
+  "name_zh": "大块肉咖啡",
+  "description_en": "Please don't.\n+15% Run (1m)\nCaffeinated (1m)\nMadness Gain 2",
+  "description_zh": "别这样。。。+15%奔跑（1m）\n咖啡因（1m）\n 癫狂2。",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 14,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidpus",
+          "count": 50
+        },
+        {
+          "item": "coffeebeans",
+          "count": 8
+        },
+        {
+          "item": "rottingfleshmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Coffee Machine",
+      "station_zh": "咖啡机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 422
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

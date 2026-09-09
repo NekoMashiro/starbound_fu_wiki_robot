@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_food_crunchmints",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Crunchmints",
+  "name_zh": "吭哧薄荷",
+  "description_en": "Popped wintercorn mixed with cold and crunchy ingredients. Basically minty popcorn. [Silver]\n\n+Frost Immunity 5 min.\n+10% Ice Resistance 5 min.",
+  "description_zh": "将冷冷脆脆的原料和冬玉米一起油炸的食物，简单来说就是薄荷爆米花。 [Silver]\n\n5分钟免疫冰冻\n5分钟+10%纱冰抗性",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_wintercorn",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_tidenut",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

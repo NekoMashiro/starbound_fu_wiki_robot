@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_xenodaemonae_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xenodaemonae Queen",
+  "name_zh": "异种蜂后",
+  "description_en": "Xenodaemonae Queen",
+  "description_zh": "异种蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidelderfluid"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bee_xenodaemonae",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_xenodaemonae"
+          ]
+        },
+        {
+          "pool": "elderBee",
+          "probability": 0.35,
+          "count": 1,
+          "monsters": [
+            "elderbee"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.35,
+        0.4
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

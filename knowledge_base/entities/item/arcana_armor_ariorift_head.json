@@ -1,0 +1,55 @@
+{
+  "entity_id": "arcana_armor_ariorift_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ariorift Scarf",
+  "name_zh": "风痕围巾",
+  "description_en": "A light scarf that flows with the wind. \n\nSet Bonus: \nGrants +20% Run Speed.",
+  "description_zh": "一条随风飘动的轻盈围巾。\n\n套装效果：\n获得+20%奔跑速度。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 800,
+  "tags": [],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 3
+        },
+        {
+          "item": "elemental_crafting_ariostone",
+          "count": 2
+        },
+        {
+          "item": "arcana_flowers_windflower",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

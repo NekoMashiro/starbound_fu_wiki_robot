@@ -1,0 +1,38 @@
+{
+  "entity_id": "futilegrey",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quality Plasteel (Plain)",
+  "name_zh": "高质量塑钢(平纹)",
+  "description_en": "A popular quality-focused flooring.",
+  "description_zh": "流行的注重质量的地板。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "ff_plastic",
+          "count": 4
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

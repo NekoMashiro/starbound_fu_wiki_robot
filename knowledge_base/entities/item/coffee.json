@@ -1,0 +1,161 @@
+{
+  "entity_id": "coffee",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Coffee",
+  "name_zh": "咖啡",
+  "description_en": "Freshly brewed coffee.",
+  "description_zh": "新鲜煮制的咖啡。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 115,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coffeebeans",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "coffeeobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "glasscoffeemug",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Coffee Machine",
+      "station_zh": "咖啡机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_cafe.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 722
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "flatwhite",
+          "mocha"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "coffeeobject"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "extrarations",
+          "probability": 0.0353,
+          "count": 1
+        },
+        {
+          "pool": "extrafood",
+          "probability": 0.0196,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0196,
+        0.0353
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "flatwhite"
+  ],
+  "quality_tier": "S"
+}

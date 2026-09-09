@@ -1,0 +1,67 @@
+{
+  "entity_id": "fugasgiant",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gas Giant",
+  "name_zh": "气态巨行星",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Gas Giant",
+  "friendly_name_zh": "气态巨行星",
+  "ores": [
+    {
+      "ore": "trianglium",
+      "weight": 0.8
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.6
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.5
+    },
+    {
+      "ore": "erchius",
+      "weight": 0.5
+    },
+    {
+      "ore": "irradium",
+      "weight": 0.4
+    },
+    {
+      "ore": "densinium",
+      "weight": 0.3
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.25
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.25
+    }
+  ],
+  "monsters": [
+    "darkmetroid",
+    "fleshreaper",
+    "gasbag",
+    "gasbagstat",
+    "skywhale",
+    "skywhale2"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:fugasgiant"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "gasworld1",
+    "erchiussickness3"
+  ],
+  "wiki_ref": "Gas Giant.md",
+  "quality_tier": "C"
+}

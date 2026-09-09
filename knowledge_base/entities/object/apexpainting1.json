@@ -1,0 +1,40 @@
+{
+  "entity_id": "apexpainting1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glorious Leader Painting",
+  "name_zh": "光荣领袖画像",
+  "description_en": "A very flattering painting of Big Ape, Glorious Beloved Leader of the Apex.",
+  "description_zh": "一幅极力讨好大猿人而作的画，致亲爱的伟大猿人领袖。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 70,
+  "tags": [
+    "apex",
+    "apexvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmsplitshot",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Split Shot Mech Arm",
+  "name_zh": "分裂射击机甲臂",
+  "description_en": "An arm that fires shells which burst in all directions.",
+  "description_zh": "能发射向所有方向爆炸炮弹的一种机甲臂。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

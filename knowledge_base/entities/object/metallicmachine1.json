@@ -1,0 +1,49 @@
+{
+  "entity_id": "metallicmachine1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Signal Relay",
+  "name_zh": "信号继电器",
+  "description_en": "A device that aids in transmissions.",
+  "description_zh": "好像是用来传输某些信号的。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 1000,
+  "tags": [
+    "metallic",
+    "rusted"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "tungstencrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tungsten Crossbow",
+  "name_zh": "钨制弩",
+  "description_en": "A heavy tungsten crossbow.",
+  "description_zh": "一把沉重的钨制弩。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 5,
+  "critBonus": 4,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "leather",
+          "count": 4
+        },
+        {
+          "item": "string",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

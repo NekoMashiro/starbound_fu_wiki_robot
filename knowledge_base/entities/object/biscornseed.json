@@ -1,0 +1,75 @@
+{
+  "entity_id": "biscornseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Biscorn Seed",
+  "name_zh": "双子玉米种子",
+  "description_en": "A farmable dog treat. Boosts health and energy.",
+  "description_zh": "可以收获双子玉米，食用后会提高生命值和能量值上限。虽说这是狗的零食，但你同样可以吃。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "cornseed",
+          "count": 3
+        },
+        {
+          "item": "sulphur",
+          "count": 4
+        },
+        {
+          "item": "phosphorus",
+          "count": 6
+        },
+        {
+          "item": "fleshstrand",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "garikleaf"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "biscornHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

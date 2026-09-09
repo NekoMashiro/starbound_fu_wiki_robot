@@ -1,0 +1,44 @@
+{
+  "entity_id": "darkwort",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Wort",
+  "name_zh": "黑麦芽汁",
+  "description_en": "Wort! Used for making lager!",
+  "description_zh": "黑麦芽汁！用于制作啤酒！",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 80,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "darkmalt",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "darkbeer",
+          "lager"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

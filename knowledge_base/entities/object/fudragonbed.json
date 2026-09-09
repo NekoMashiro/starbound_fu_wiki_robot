@@ -1,0 +1,50 @@
+{
+  "entity_id": "fudragonbed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Bed",
+  "name_zh": "骨床",
+  "description_en": "Leaving this bed in the morning is an ultimate test of one's willpower",
+  "description_zh": "在早上要离开这张床简直对意志力的终极考验。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 875,
+  "tags": [
+    "science",
+    "bone",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 8
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

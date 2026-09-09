@@ -1,0 +1,128 @@
+{
+  "entity_id": "precursorfuelcell",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dimensional Cell",
+  "name_zh": "次元电池",
+  "description_en": "A hand-held fuel cell with limitless potential!",
+  "description_zh": "一种微小到可以放在手心的电池，拥有无限的潜能。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 200,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 3,
+        "examples": [
+          "fumastermanipulator",
+          "fuscienceresource",
+          "mmgravgun3"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "aetheriumrocketlauncher"
+        ]
+      },
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "fu_byosteleporterprecursor"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmmegacannon"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuprecursorchest"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 1,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0378,
+        0.1264
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0378,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0036,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "furobotTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fualien",
+            "fumechspider",
+            "fumechspiderletheiafacility"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0378
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

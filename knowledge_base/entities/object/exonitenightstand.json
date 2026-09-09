@@ -1,0 +1,40 @@
+{
+  "entity_id": "exonitenightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exonite Nightstand",
+  "name_zh": "长石床头柜",
+  "description_en": "A nightstand made from exonite.",
+  "description_zh": "一台长石制成的床头柜",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "elduukhar",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 5
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

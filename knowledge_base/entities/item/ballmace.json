@@ -1,0 +1,50 @@
+{
+  "entity_id": "ballmace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Balls of Steel",
+  "name_zh": "钢制钉头锤",
+  "description_en": "Well crafted, but heavy. Design by zimberzimber.",
+  "description_zh": "制作精良，但是沉重。由zimberzimber设计。",
+  "rarity": "uncommon",
+  "category": "mace",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7.89,
+  "critChance": 1,
+  "critBonus": 10,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironmace",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

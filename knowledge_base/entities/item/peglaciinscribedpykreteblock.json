@@ -1,0 +1,55 @@
+{
+  "entity_id": "peglaciinscribedpykreteblock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pykrete Glyph Block",
+  "name_zh": "派克瑞特字形块",
+  "description_en": "A block made of pykrete. Peglaci glyphs are inscribed on it.\nExtractable.",
+  "description_zh": "一个由派克瑞特制成的放冰块，里面铭刻了羊蹄族的符号。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "logblock",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

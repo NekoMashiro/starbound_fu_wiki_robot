@@ -1,0 +1,44 @@
+{
+  "entity_id": "perry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perry",
+  "name_zh": "甜梨酒",
+  "description_en": "A bottle of sweet perry!\n+3 Defense (45s)\n35% Slow, Drunk (1m)",
+  "description_zh": "一瓶甜梨酒！\n+3防御(持续45s)\n35%减速，n醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "pearmash",
+          "count": 1
+        },
+        {
+          "item": "pearjuice",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "cutechest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Blouse",
+  "name_zh": "可爱的衬衫",
+  "description_en": "Set Bonuses:\r\n Cute Weapons: Damage x1.2\r\n Immune: Shadow Taint",
+  "description_zh": "套装奖励:\n 可爱武器: 伤害x1.2\n 免疫: 暗影污染",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 750,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 7
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

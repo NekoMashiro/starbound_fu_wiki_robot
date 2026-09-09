@@ -1,0 +1,39 @@
+{
+  "entity_id": "centenslavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Centensian Lava Lamp",
+  "name_zh": "百年熔岩灯",
+  "description_en": "A lamp filled with an ancient Centensian liquid.",
+  "description_zh": "装满古代百年液体的灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "centens",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

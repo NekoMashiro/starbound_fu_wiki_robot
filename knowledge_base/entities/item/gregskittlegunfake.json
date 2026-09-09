@@ -1,0 +1,37 @@
+{
+  "entity_id": "gregskittlegunfake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skittles",
+  "name_zh": "彩虹糖",
+  "description_en": "An unupgraded Skittles. You should try it.",
+  "description_zh": "一个未升级的彩虹糖。你应该试试它。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher"
+  ],
+  "elementalType": "cosmic",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 5.0,
+  "altAbilityType": "Greg",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_precursorspawnerloot",
+          "probability": 0.001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Skittles.md",
+  "quality_tier": "A"
+}

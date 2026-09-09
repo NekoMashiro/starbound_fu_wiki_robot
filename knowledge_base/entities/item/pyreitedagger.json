@@ -1,0 +1,55 @@
+{
+  "entity_id": "pyreitedagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Dirk",
+  "name_zh": "永燃短匕",
+  "description_en": "Let's make some friends!\r\nInflicts Napalm",
+  "description_zh": "让我们交一些朋友吧！\n附加凝固效果",
+  "rarity": "legendary",
+  "category": "dagger",
+  "price": 1040,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 8.24,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 2
+        },
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

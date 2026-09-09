@@ -1,0 +1,68 @@
+{
+  "entity_id": "shoggothgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Biomorphic Cannon",
+  "name_zh": "昆虫步枪",
+  "description_en": "Fires organic drones and biomorphic fire from a strange flesh casing",
+  "description_zh": "从这个有着奇怪肉质外壳的枪的内部射出有机生物和生物火焰攻击你的敌人。",
+  "rarity": "legendary",
+  "category": "bioweapon",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "elder",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 9.1,
+  "critChance": 4,
+  "critBonus": 11,
+  "altAbilityType": "shoggothburst",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shoggothflesh",
+          "count": 8
+        },
+        {
+          "item": "unknowngene",
+          "count": 4
+        },
+        {
+          "item": "larva",
+          "count": 35
+        },
+        {
+          "item": "corruptionseed",
+          "count": 8
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "weaponcompressor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weapon Compressor",
+  "name_zh": "武器压缩机",
+  "description_en": "Pushes weapons into otherspace pockets. Purely a cosmetic feature, but hilarious.",
+  "description_zh": "将武器放入其他的空间口袋。纯粹是一个装饰性的功能，滑稽。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 2000,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hypercompressor",
+          "count": 1
+        },
+        {
+          "item": "voidstoragenew",
+          "count": 1
+        },
+        {
+          "item": "spacetimeobeliskmodified",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Weapon Compressor.md",
+  "quality_tier": "A"
+}

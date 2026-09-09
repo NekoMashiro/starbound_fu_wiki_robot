@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_1_assaultRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Schwarzritter Rifle",
+  "name_zh": "EIA1黑骑步枪",
+  "description_en": "A standard assault rifle used by Exousian Frontliners.",
+  "description_zh": "威权前线部队使用的制式突击步枪。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 14.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 10
+        },
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T6",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

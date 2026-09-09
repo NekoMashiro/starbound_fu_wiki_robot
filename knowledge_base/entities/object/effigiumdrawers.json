@@ -1,0 +1,45 @@
+{
+  "entity_id": "effigiumdrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Drawers",
+  "name_zh": "幻影抽屉柜",
+  "description_en": "A set of drawers that seem to fade in and out of existence.",
+  "description_zh": "一个似乎渐渐消失的抽屉柜。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "effigium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 10
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

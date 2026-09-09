@@ -1,0 +1,57 @@
+{
+  "entity_id": "swtjc_wp_compactvrelay",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compact Relay",
+  "name_zh": "紧凑型继电器",
+  "description_en": "A /'Relay'/. It simply serves as an anchor for relaying distant signals.",
+  "description_zh": "一个中继器。它主要作用于中继远距离信号。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_compacthrelay",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_compacthrelay"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

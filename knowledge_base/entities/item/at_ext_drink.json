@@ -1,0 +1,56 @@
+{
+  "entity_id": "at_ext_drink",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Energy Drink",
+  "name_zh": "能量饮料",
+  "description_en": "An energy drink designed to quickly replenish the body's required energy.",
+  "description_zh": "一种能量饮料，用来快速补充人体所需的能量。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "……",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_supply.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "at_ext_d7",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "at_ext_d8",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

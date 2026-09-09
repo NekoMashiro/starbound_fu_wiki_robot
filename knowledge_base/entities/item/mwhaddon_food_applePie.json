@@ -1,0 +1,66 @@
+{
+  "entity_id": "mwhaddon_food_applePie",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Apple Pie",
+  "name_zh": "苹果派",
+  "description_en": "[Voyage] Gilten's favourite food.\n\n+10% Crital Rate 3 min.",
+  "description_zh": "[远行]镀人最爱的食物。\n\n3分钟+10%暴击率",
+  "rarity": "uncommon",
+  "category": "preparedFood",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "redapple",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

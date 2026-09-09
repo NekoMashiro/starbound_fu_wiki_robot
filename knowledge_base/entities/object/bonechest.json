@@ -1,0 +1,49 @@
+{
+  "entity_id": "bonechest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bone Chest",
+  "name_zh": "骨箱子",
+  "description_en": "A chest made of bone. Hopefully it's not filled with marrow.",
+  "description_zh": "一个由骨头制成的箱子。幸好他不是装满了骨髓。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 55,
+  "tags": [
+    "bone",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 30
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "eyeballchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Eyeball Shirt",
+  "name_zh": "眼球衫",
+  "description_en": "A shirt woven from optic nerves.",
+  "description_zh": "由视神经编织而成的衬衫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

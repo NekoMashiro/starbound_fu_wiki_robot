@@ -1,0 +1,62 @@
+{
+  "entity_id": "ornateroofing",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ornate Roofing",
+  "name_zh": "华丽的屋顶",
+  "description_en": "Traditional looking ornate roofing.",
+  "description_zh": "传统风格的华丽的屋顶。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bluedye",
+          "count": 1
+        },
+        {
+          "item": "rooftiles",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.085,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "ornateroofing"
+  ],
+  "quality_tier": "S"
+}

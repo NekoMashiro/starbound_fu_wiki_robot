@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_architect_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Architect's Leggings",
+  "name_zh": "铸物者护腿",
+  "description_en": "A pair of dark leggings, worn by the Workshop's engineers.",
+  "description_zh": "黑色的护腿，由工坊的工程师佩戴。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 10
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 6
+        },
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

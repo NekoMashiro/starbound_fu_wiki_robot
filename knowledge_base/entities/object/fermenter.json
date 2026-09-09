@@ -1,0 +1,39 @@
+{
+  "entity_id": "fermenter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fermenter",
+  "name_zh": "发酵罐",
+  "description_en": "A machine that allows fermentation to create alcohol!",
+  "description_zh": "这台机器可以通过发酵植物来制作酒精。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 300,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "copperbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

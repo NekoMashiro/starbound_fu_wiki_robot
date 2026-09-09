@@ -1,0 +1,35 @@
+{
+  "entity_id": "yettas",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Yettas",
+  "name_zh": "耶特",
+  "description_en": "Thought to exist only in legend, until the recipe was found after 4000 years.\n+30% Radiation Res (5m)\n-5% HP (220s)\nMadness Gain 4",
+  "description_zh": "一直被认为只存在于传说中，直到4000年后发现了配方。\n+30%辐射Res（5m）\n -5%HP （220s）\n 癫狂4.",
+  "rarity": "legendary",
+  "category": "preparedFood",
+  "price": 1622,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1622
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

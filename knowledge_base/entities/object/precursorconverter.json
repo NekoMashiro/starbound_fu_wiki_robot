@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursorconverter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erchius Converter",
+  "name_zh": "厄尔吉斯燃料转换器",
+  "description_en": "Converts erchius energy into a more potent fuel.",
+  "description_zh": "可将厄尔吉斯晶体、厄尔吉斯晶态燃料、厄尔吉斯液态燃料转换成更强劲的燃料。",
+  "rarity": "legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorMachines",
+          "probability": 0.0833,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0083,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0083,
+        0.0833
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0083,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Erchius Converter.md",
+  "quality_tier": "A"
+}

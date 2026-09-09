@@ -1,0 +1,63 @@
+{
+  "entity_id": "platform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wood Platform",
+  "name_zh": "木制平台",
+  "description_en": "A nondescript wood platform.",
+  "description_zh": "一个不起眼的木平台。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "woodShed",
+          "probability": 0.0696,
+          "count": 10
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

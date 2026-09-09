@@ -1,0 +1,105 @@
+{
+  "entity_id": "elemental_crafting_dryPlate",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Dry Plate",
+  "name_zh": "干板",
+  "description_en": "An orange-brown plating.",
+  "description_zh": "橙棕色板材。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 400
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "hephaestus_dagger_1"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "hephaestus_deco_2"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "hephaestus_staff_1"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "hephaestus_storage_1"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "hephaestus_tile4"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "hephaestus_wand_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_hephaestus_flamethrower_1"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_treasure_elemental_crafting_dryPlate",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_hephaestus_treasure_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

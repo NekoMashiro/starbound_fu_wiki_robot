@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_demise_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Demise Helmet",
+  "name_zh": "灭亡头盔",
+  "description_en": "A dark helm, crafted from necroium. \n\nSet Bonus: \nGrants +10% Horizon Weapon damage, +10% Abyss RES.",
+  "description_zh": "一顶由死金打造的黑暗头盔。\n\n套装效果：\n +10% 地平线武器伤害，+10% 深渊抗性。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aeternus_head"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

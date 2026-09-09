@@ -1,0 +1,32 @@
+{
+  "entity_id": "driftbell",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Driftbell",
+  "name_zh": "漂流铃铛虫",
+  "description_en": "This bug makes a faint ringing sound as it flies through the air.",
+  "description_zh": "这只虫子飞过时发出虚弱的铃声。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "driftbell",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "driftbell"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

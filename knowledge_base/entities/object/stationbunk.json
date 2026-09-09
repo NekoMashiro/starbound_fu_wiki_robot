@@ -1,0 +1,38 @@
+{
+  "entity_id": "stationbunk",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Station Bunk",
+  "name_zh": "空间站",
+  "description_en": "A space station themed bunk bed.",
+  "description_zh": "一张以空间站为主题的双层床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "station",
+    "misc",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

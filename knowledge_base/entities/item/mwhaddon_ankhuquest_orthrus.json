@@ -1,0 +1,35 @@
+{
+  "entity_id": "mwhaddon_ankhuquest_orthrus",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "OC Orthrus",
+  "name_zh": "俄里翁双头犬",
+  "description_en": "An elegant weapon designed by Orion Cybernetics. Said to be inspired by an old movie on Earth.",
+  "description_zh": "俄里翁通控设计的一种武器，十分优雅。据说这把武器是受到了地球上一部老电影的启发。",
+  "rarity": "Essential",
+  "category": "broadsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "electric",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 26,
+  "primaryAbilityType": "mwhaddon_arcana_doubleblade_combo",
+  "altAbilityType": "mwhaddon_flipcut",
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_gazeOfCosmo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

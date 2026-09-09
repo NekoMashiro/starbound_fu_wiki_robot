@@ -1,0 +1,79 @@
+{
+  "entity_id": "syringe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Medical Syringe",
+  "name_zh": "医用注射器",
+  "description_en": "This could be used for making stim packs.",
+  "description_zh": "这可以用来制造兴奋剂。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 14,
+        "examples": [
+          "arcana_mwhaddon_healItem_3",
+          "bluestim",
+          "gravstim",
+          "greenstim",
+          "honeyboon"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "quality_tier": "S"
+}

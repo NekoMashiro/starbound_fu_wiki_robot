@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_giantFlowerPetal",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Giant Flower",
+  "name_zh": "巨大的花",
+  "description_en": "A giant flower. Super soft!\n For 40 seconds after drinking, gain +20% Max Health (does not stack with food).",
+  "description_zh": "一朵巨大的花。超软的！\n饮用后40秒内+20%最大生命值（不与食物叠加）。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

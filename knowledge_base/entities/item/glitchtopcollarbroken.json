@@ -1,0 +1,44 @@
+{
+  "entity_id": "glitchtopcollarbroken",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glitchtop Collar (Broken)",
+  "name_zh": "故障娃项圈（战损）",
+  "description_en": "A broken collar from a glitchtop. What can you do with this?",
+  "description_zh": "战损机械娃大概不能发梦到电子人吧。",
+  "rarity": "common",
+  "category": "petCollar",
+  "price": 250,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "petCollar": {
+        "count": 1,
+        "examples": [
+          "glitchtopcollar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxglitchtopTreasure",
+          "probability": 0.04,
+          "count": 1,
+          "monsters": [
+            "pandorasboxglitchtop"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "glitchtopcollar"
+  ],
+  "quality_tier": "S"
+}

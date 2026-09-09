@@ -1,0 +1,67 @@
+{
+  "entity_id": "mwhaddon_execration_flail",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Extirpation",
+  "name_zh": "抹弑",
+  "description_en": "To cleave and extirpate etiology.",
+  "description_zh": "以劈碎与抹弑病原。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "execration"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 3.5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 9
+        },
+        {
+          "item": "arcana_misc_omtreeSplinter",
+          "count": 4
+        },
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "horizon_hammer_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "stout",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coal Stout",
+  "name_zh": "黑啤酒",
+  "description_en": "A mug of stout\n+3 Defense (45s)\n35% Slow (10s)\nDrunk (25s)",
+  "description_zh": "一大杯黑啤酒。\n+3防御(持续45s)\n35%减速(持续10s)\n醉酒(持续25s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkmalt",
+          "count": 1
+        },
+        {
+          "item": "hops",
+          "count": 2
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "placeablestout"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

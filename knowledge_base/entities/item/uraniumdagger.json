@@ -1,0 +1,60 @@
+{
+  "entity_id": "uraniumdagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Knife",
+  "name_zh": "铀制小刀",
+  "description_en": "Swift and radioactive.",
+  "description_zh": "用铀制作的匕首，非常轻便并且具有放射性。",
+  "rarity": "Rare",
+  "category": "dagger",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 9.1,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,73 @@
+{
+  "entity_id": "precursorpistolice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Freeze Gun",
+  "name_zh": "先驱冰冻枪",
+  "description_en": "Frickin' Freezing!\r\nFreeze enemies with cold",
+  "description_zh": "这真的太冻了！\n冻住敌人，伴随着寒冷",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "precursor",
+    "upgradeableWeapon",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 4,
+  "critBonus": 12,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1497,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0119,
+        0.1497
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0366,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

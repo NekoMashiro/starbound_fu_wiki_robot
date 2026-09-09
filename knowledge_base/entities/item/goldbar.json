@@ -1,0 +1,247 @@
+{
+  "entity_id": "goldbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gold Bar",
+  "name_zh": "金锭",
+  "description_en": "Ore for gold bars is found at great depths on most planets around all stars.",
+  "description_zh": "金矿常见于大多数行星的地底深处。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 42,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 240
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 49,
+        "examples": [
+          "avianbackgrounddoor",
+          "avianbox",
+          "colonycore",
+          "elduubannerlarge",
+          "elduubannersmall"
+        ]
+      },
+      "furniture": {
+        "count": 28,
+        "examples": [
+          "elduubed",
+          "elduubookcase",
+          "elduucabinet",
+          "elduuchair",
+          "elduucouch"
+        ]
+      },
+      "block": {
+        "count": 24,
+        "examples": [
+          "avianmetalceiling",
+          "avianmetalfloor",
+          "avianmetaltrim",
+          "avianmetaltrim2",
+          "elduubricks"
+        ]
+      },
+      "light": {
+        "count": 13,
+        "examples": [
+          "elduuceilinglamp",
+          "elduudesklamp",
+          "elduugemlamp",
+          "elduuspotlamp",
+          "elduuwalllamp"
+        ]
+      },
+      "storage": {
+        "count": 10,
+        "examples": [
+          "elduuchest1",
+          "elduuchest2",
+          "elduunightstand",
+          "empress_storage_1",
+          "fugoldchest"
+        ]
+      },
+      "chestwear": {
+        "count": 8,
+        "examples": [
+          "arcana_armor_arcka_chest",
+          "arcana_armor_astraea_chest",
+          "arcana_armor_goldmonger_chest",
+          "arcana_armor_starwalker_chest",
+          "arcana_armor_zealot_chest"
+        ]
+      },
+      "headarmour": {
+        "count": 7,
+        "examples": [
+          "arcana_armor_arcka_head",
+          "arcana_armor_astraea_head",
+          "arcana_armor_goldmonger_head",
+          "arcana_armor_starwalker_head",
+          "arcana_armor_zealot_head"
+        ]
+      },
+      "legwear": {
+        "count": 7,
+        "examples": [
+          "arcana_armor_arcka_legs",
+          "arcana_armor_astraea_legs",
+          "arcana_armor_goldmonger_legs",
+          "arcana_armor_starwalker_legs",
+          "arcana_armor_zealot_legs"
+        ]
+      }
+    },
+    "total": 254
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "goldore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "goldore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "goldore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 9,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox_3",
+          "probability": 1.0,
+          "count": 20.0
+        },
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox",
+          "probability": 1.0,
+          "count": 20.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox_6",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox",
+          "probability": 0.4,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.115,
+          "count": 8
+        }
+      ],
+      "prob_range": [
+        0.046,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxmisterwisperHunting",
+          "probability": 0.3194,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxmisterwisperTreasure",
+          "probability": 0.1231,
+          "count": 1
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.05,
+          "count": 8
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.1231
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

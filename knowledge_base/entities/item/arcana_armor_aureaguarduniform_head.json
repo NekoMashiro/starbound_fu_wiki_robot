@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_armor_aureaguarduniform_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Elite Seeker Helm",
+  "name_zh": "精英搜寻者头盔",
+  "description_en": "A uniform worn by top performing Seekers. Grants +30% Max Health.",
+  "description_zh": "专属于最顶尖的那批搜寻者，+30%最大生命值",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 1200,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonSpecialistBadge",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

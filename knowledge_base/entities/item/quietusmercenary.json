@@ -1,0 +1,59 @@
+{
+  "entity_id": "quietusmercenary",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mercenary's Blade",
+  "name_zh": "佣兵短剑",
+  "description_en": "Quietus forged for a warrior.",
+  "description_zh": "为一名战士而造的寂灭武器。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "quietus",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 5
+        },
+        {
+          "item": "blooddiamond",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "apiary_frame_basic",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Basic Frame",
+  "name_zh": "基础巢框",
+  "description_en": "Basic frame for an apiary. Does nothing special.\n<beeData>",
+  "description_zh": "基本的蜂房巢框。没什么特别之处。\n<beeData>",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        },
+        {
+          "item": "string",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

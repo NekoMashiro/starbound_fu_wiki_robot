@@ -1,0 +1,58 @@
+{
+  "entity_id": "humantier5achest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Vanguard's Flak Jacket",
+  "name_zh": "先锋防弹衣",
+  "description_en": "Set Bonuses:\n Assault Rifle/Shortsword: Mastery +22%\n Immune: Oxygen",
+  "description_zh": "套装奖励:\n 突击步枪/短剑: 伤害 x1.22\n 免疫: 窒息",
+  "rarity": "Rare",
+  "category": "chestarmour",
+  "price": 4800,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "humantier6achest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

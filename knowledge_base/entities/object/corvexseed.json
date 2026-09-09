@@ -1,0 +1,72 @@
+{
+  "entity_id": "corvexseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corvex Sprout",
+  "name_zh": "凸球萌芽种子",
+  "description_en": "Corvex is an alien plant with strange chemical properties.",
+  "description_zh": "一种具有奇怪化学性质的未知型植物。可以收获粘合剂。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 20
+        },
+        {
+          "item": "cell_viral",
+          "count": 2
+        },
+        {
+          "item": "grapesseed",
+          "count": 3
+        },
+        {
+          "item": "petalblue",
+          "count": 20
+        },
+        {
+          "item": "ff_silicon",
+          "count": 17
+        },
+        {
+          "item": "reed",
+          "count": 10
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "fu_nodule",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "corvexHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,67 @@
+{
+  "entity_id": "heavypipe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Heavy Pipe",
+  "name_zh": "重型管道",
+  "description_en": "A heavy pipe, commonly used in waste systems.",
+  "description_zh": "一条重型管道，通常用于废物处理系统。 ",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "steamspringbed",
+          "steamspringchair",
+          "steamspringtable"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "steamspringdoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "steamspringlamp"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "beakseed",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Beakseed",
+  "name_zh": "鸟喙果",
+  "description_en": "Beakseed. Mmm crunchy. Type: Vegetable",
+  "description_zh": "鸟喙果。嗯，脆脆的。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 90,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "beakseedbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 5,
+        "examples": [
+          "beakseedbread",
+          "beakseedjam",
+          "cornpeckers",
+          "desertsalsa",
+          "featherfood"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "beakseedbasket",
+          "snowpersonheadavian"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "beakseedHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "beakseedbread"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "neotommygun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Neo Tommy Gun",
+  "name_zh": "NEO汤姆逊冲锋枪",
+  "description_en": "An old gangster classic, reimagined for the modern age.",
+  "description_zh": "旧式黑帮经典的现代想象复原版。",
+  "rarity": "Rare",
+  "category": "uniqueWeapon",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "twoHanded": true,
+  "baseDps": 10,
+  "altAbilityType": "shrapnelbomb",
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagguns",
+          "probability": 0.2669,
+          "count": 1
+        },
+        {
+          "pool": "fu_neoguns",
+          "probability": 0.25,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.25,
+        0.2669
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gangmemberTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

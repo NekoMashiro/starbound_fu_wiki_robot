@@ -1,0 +1,59 @@
+{
+  "entity_id": "wraithwind",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wraithveil Spear",
+  "name_zh": "幽影矛",
+  "description_en": "A specially designed spear laced with various metals.\r\nInflicts Poisoned.\r\nHunting weapon.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "spear",
+  "price": 680,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "huntspearstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "diamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcana_colony_invisiblecolonydeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Invisible Colony Deed",
+  "name_zh": "隐形殖民地契约",
+  "description_en": "Place in an enclosed building with at least one door and light source and someone will move in!",
+  "description_zh": "放置在一个至少有着一扇门和光源的封闭建筑中，然后看着人们搬进来吧！",
+  "rarity": "Common",
+  "category": "spawner",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

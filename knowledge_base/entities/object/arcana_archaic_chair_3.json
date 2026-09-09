@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_archaic_chair_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Stone Bench",
+  "name_zh": "古朴石长椅",
+  "description_en": "An ancient stone bench that is pretty to look at, but not so comfortable to sit on.",
+  "description_zh": "一座古的石制长椅，看起来很漂亮，但坐起来不太舒服。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 300,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

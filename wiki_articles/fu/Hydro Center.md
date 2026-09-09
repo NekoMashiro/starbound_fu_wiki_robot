@@ -1,0 +1,48 @@
+# [FU] Hydro Center
+
+**来源**: Frackin' Universe Wiki | **链接**: https://frackinuniverse.miraheze.org/wiki/Hydro_Center
+
+---
+
+**Hydro Center** is an extra dungeon categorized as threat 6+. Talk to S.A.I.L. to beam there.
+
+> Acquisition : You will need to find and interact with a map to unlock the quest and the dungeon location in S.A.I.L. interface. The map can be found in Avian Pyramids (threat level 4 confirmed, maybe also others)
+
+> Quest Reward : 1 Transmutation Matrix, 1 Bobot Figurine, 1 Wisper Figurine, 500 Research
+
+> Items Requirements : The Spike Sphere tech is required. A light source and an oxygen source are also must have. I would recommend a Micro Spider Sphere tech as well, since it allows to beat some rooms easily.
+
+## Dungeon Guide
+The Hydro Center is a dungeon where you'll find very few enemies. The most dangerous thing in this dungeon are all the traps you'll have to deal with. Considering the number of saws in this dungeon, i wouldn't be surprised if the Pale King designed this dungeon. The dungeon is tagged as threat 6+, but you find tier 8 gear inside, so i expect the enemies to also be tier 8. Don't underestimate them either.
+
+### First Part
+You will start the dungeon in a small room with a teleporter, a tech console and 2 doors exiting to the left and to the right. You will need to clean both sides to continue your exploration.
+
+#### Right Side
+Exit the starting room to the right and you will reach a room with a pool of water. You will need to climb to the top of this room, making your way through small platforms with moving sawblades trying to kill you. But the Spike Sphere is required later in the dungeon, so you can just use it here as well: just climb the wall on the right of the room and you'll reach the top safely. If you decide to climb the normal way, be aware that one platform is rigged with a pressure plate that will rain down bombs on you. Exit the room through the door in the top right and climb the stairs. The door to your left is locked for now so head to the right. You will reach a room with sawblades moving on a rail: use the Spike Sphere to get through them (Micro Sphere cannot be harmed by the saws on the top path, Spike Sphere will need to hide in the small cavity). Head to the right and you will reach a room with a poison pool. In this room, you will need to quickly jump on all pressure plates, 1 per platform, to open the door to the right. When the door open, 8 Kluex Sentries will spawn in the room. Activate the console in the room to the right. Above this room, you can blow up the Red Door with explosives to reach a chest. Once the console is activated, head back to the previously locked door. You will find it now open and you can cross the one way gate behind it. Inside the next room, you will need to destroy a Kluex Totem to open the exit to the left. Then follow the hallway to the left and pull down the lever at the end. This is the first lever you need to pull to reach the next part of the dungeon. A hatch in the hallway is also open now, allowing you to quickly reach the starting room.
+
+#### Left Side
+Exit the starting room to the left and you will reach a room with sawblades moving up and down. You can dodge them by crossing the room at the right time. Activate the console in the next room to open the exit to the left (you need to wait a few seconds for the water to get high enough). You will then have to different way to complete this side: climb the stairs and you will need to find a bunch of monsters to reach the end, or head through the door to the left where you will need to cross a few trapped rooms. The monsters path is faster.
+
+##### Monsters Path
+After climbing the stairs, you will reach a room with a console in the middle. Activating the console will open the hatch leading on the water above you, but it will also release 6 Pulpins and 6 Snuffish in the room. Climb upstairs and dive into the water. Swim your way to the top of the conduit and head to the right. You will reach a hallway with sawblades moving on the floor and the second lever you need to activate to reach the next part of the dungeon at the end of the hallway. A hatch will also be opened by the lever to quickly reach the starting room.
+
+##### Trapped Rooms Path
+The first trapped room to your left is made of platforms leading you to the left of the room and more sawblades moving around those platforms. The next room is pretty easy: just a few immobile saws on the floor. Jump about those to reach the exit to the left. Use the elevator to get to the upper floor where you'll find another room with moving sawblades to your right. You can easily jump above those saws. You will then reach an underwater room with even more moving sawblades. Just stay out of their way, the rails tell you where they go. Head to the right and you will reach a hallway with sawblades moving on the floor and the second lever you need to activate to reach the next part of the dungeon at the end of the hallway. A hatch will also be opened by the lever to quickly reach the starting room.
+
+### Second Part
+When you pull the second lever, the door near you will open, allowing you to reach the second part of the dungeon. Use the elevator to get to the upper level and head through the one way door to your right. You will face a small boss in this room: a Vault Guardian. Those are the bosses you find at the end of the Ancient Gateways, so it has a wild set of moves depending on the parts it got. The Guardian was infused with Ice element all the times i did the dungeon. Refer to the [Vault Guardians page of the vanilla starbound wiki](https://starbounder.org/Bosses#Vault_Guardians) to see some of its attacks. Do not underestimate it however: this dungeon is a few tiers higher than the Gateways, so the Guardian will have way more hp and damages. After defeating it, head to the room to your right and get inside the artifact in the middle of the room. It will close and you will be able to exit it using your Sphere tech after a few seconds. Head to the room to your right and use the bounce pads to get to the next part of the dungeon.
+
+After using the bounce pads, head to the left. You will need to trigger the 4 pressure plates of the roof. A Micro Spider Sphere allow you to completely ignore the sawblade, but the Spike Sphere will need to "hide" from it near the pressure plates. You will then reach a crossroad: if you climb the stairs you will have very few enemies to deal with but one nasty trap room, while diving in the water will have a bit more enemies and less traps.
+
+#### Upstairs Path
+Climb up the stairs and follow the hallway until you reach a door. Behind the door, 2 Bobots patrol the area. The building to your left is also guarded by 2 Bobots. Exit the house to the left and you will reach a trapped room. After activating the switch in the middle of the room, a platform will appear somewhere in the room. You need to quickly get under it because laser will fall from the roof shortly after and the platform block those lasers. The lasers will then stop and the platform will move somewhere else. You will need to survive inside this room for a long time and then the door to the left will open and you will reach the point where this path converge with the Underwater Path. You can easily survive the trapped room with a Microsphere: the Microsphere is small enough to squeeze between the lasers, so you can just wait without moving until the exit open.
+
+#### Underwater Path
+Shortly after diving, you will find a small opening above you that lead you in a room with tombs. 8 Swarpions will attack you there. Exit the tomb to the left and then head to the hallway leading to the left. You will then reach another small crossroad: the path to the left has a few sawblades but they are very easily dodged and the path leading below is defended by 4 Minions but has a few chest on the way. Both paths will lead you in a small room with a tomb. To the left of this room, a bounce pad will lead you to the upper part of the dungeon, where this path and the Upstairs path converge.
+
+### Last Part
+Use the bounce pads to your left and you will reach a final trapped room. Activate the console in the middle of the room. You will need to survive in this room for a long time (maybe 2 minutes?). After activating the console, sawblades will start moving on the rails inside the room. There's actually one blind spot in the room that you can easily use to survive: after activating the console, get back on the floor and stand between the middle of the room and the door to the right. Crouching or using the Sphere tech there will actually dodge every saw since they never move on the right part of the floor. Once the exit open, use the bounce pads to the left and cross the hallway. You will reach a checkpoint and a one way door leading in a large room with boss music... However, what feels like a boss room is actually an empty room. There's nothing in the room and the exit to the right is open. Just head to the right and you'll reach the end of the dungeon, where you'll find the diamond pedestal to turn in the quest, a weapon upgrade anvil and a teleporter to get back to your ship. Before leaving, climb on the hands of the statue to your right. There you will find a chest with a guaranteed Charge Beam. You may also notice the 4 lights on the foot of the statue...
+
+## Secrets
+You can find a few extra chests behind 2 locked doors at the end of the first part of the dungeon. There's also another well hidden secret inside this dungeon. The walkthrough for those is found here.

@@ -1,0 +1,100 @@
+{
+  "entity_id": "lunar_tile4",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Kuromatsu Timber",
+  "name_zh": "黑松木木材",
+  "description_en": "A dark timber, prepared with kuromatsu wood.",
+  "description_zh": "用黑松木制备的一种深色木材。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_kuromatsuWood",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 12,
+        "examples": [
+          "arcana_lunar_deco_15",
+          "arcana_lunar_deco_2",
+          "arcana_lunar_deco_3",
+          "arcana_lunar_deco_4",
+          "arcana_lunar_deco_5"
+        ]
+      },
+      "block": {
+        "count": 11,
+        "examples": [
+          "arcana_platform_kuromatsuPlatform",
+          "lunar_tile1",
+          "lunar_tile10",
+          "lunar_tile11",
+          "lunar_tile12"
+        ]
+      },
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "arcana_lunar_bed_1",
+          "arcana_lunar_chair_1",
+          "arcana_lunar_chair_2",
+          "arcana_lunar_chair_3",
+          "arcana_lunar_chair_4"
+        ]
+      },
+      "storage": {
+        "count": 6,
+        "examples": [
+          "arcana_lunar_storage_1",
+          "arcana_lunar_storage_3",
+          "arcana_lunar_storage_4",
+          "arcana_lunar_storage_5",
+          "arcana_lunar_storage_6"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "arcana_lunar_light_2",
+          "arcana_lunar_light_3"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "arcana_lunar_door_1"
+        ]
+      }
+    },
+    "total": 40
+  },
+  "quality_tier": "S"
+}

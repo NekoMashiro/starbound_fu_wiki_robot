@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_food_sunRouBao",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Sun Roubao",
+  "name_zh": "笋肉包",
+  "description_en": "[Voyage] A meat bun filled with bamboo shoots as well. Crispy!\n\n+20% Max Health 40 sec.\n+Jump Boost 40 sec.",
+  "description_zh": "[远行]内有嫩竹笋的肉包，清脆可口！\n\n40秒+20%最大生命值\n40秒跳跃提升",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rice",
+          "count": 1
+        },
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_farmable_bambooShoot",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

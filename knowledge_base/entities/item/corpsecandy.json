@@ -1,0 +1,35 @@
+{
+  "entity_id": "corpsecandy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corpse Candy",
+  "name_zh": "尸糖",
+  "description_en": "Dried and sweetened...um...corpses. Delicious.\n+12% HP (1m) \nType: Cooked Meat",
+  "description_zh": "又甜又干...但是额...是尸体。真美味。\n+12%HP (持续1m)\n类型：生肉食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 80
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

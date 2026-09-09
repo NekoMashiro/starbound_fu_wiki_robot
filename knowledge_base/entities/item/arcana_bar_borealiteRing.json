@@ -1,0 +1,77 @@
+{
+  "entity_id": "arcana_bar_borealiteRing",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Borealite Solvent",
+  "name_zh": "北风溶媒",
+  "description_en": "A borealite solvent, often used as a highly efficient coolant or crystallization ingredient.",
+  "description_zh": "使用北玉制成的溶媒，常被用作高效冷却剂或结晶助剂。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_borealiteOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 480
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 4,
+        "examples": [
+          "borealite_tile5",
+          "borealite_tile6",
+          "borealite_tile7",
+          "borealite_tile8"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_misc_borealiteMagnus"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_borealiteRing"
+  ],
+  "quality_tier": "S"
+}

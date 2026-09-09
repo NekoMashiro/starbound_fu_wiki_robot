@@ -1,0 +1,169 @@
+{
+  "entity_id": "rawribmeat",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Ribs",
+  "name_zh": "生肋排",
+  "description_en": "Type: Raw Meat cut from some unfortunate creature's ribs. Sounds tasty but it should be cooked. Type: Raw Meat",
+  "description_zh": "从一些不幸的生物肋排上切下来的生肉，如果能弄熟的话应该会很好吃。\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "slew",
+          "spicyribs",
+          "stickyribs"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedribmeat"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 21,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.6028,
+          "count": 3.2
+        }
+      ],
+      "prob_range": [
+        0.6028,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "fuCorpseMeat",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.924,
+          "count": 3.2
+        },
+        {
+          "pool": "meatFat",
+          "probability": 0.3333,
+          "count": 1
+        },
+        {
+          "pool": "meatBasic",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.0933,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.0933,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "pandorasboxfleshgummiHunting",
+          "probability": 0.8,
+          "count": 1,
+          "monsters": [
+            "pandorasboxfleshgummi"
+          ]
+        },
+        {
+          "pool": "hemogoblinHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "electrichemogoblinbutt",
+            "hemogoblinbutt"
+          ]
+        },
+        {
+          "pool": "pandorasboxfleshgumminiHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "pandorasboxfleshgummini"
+          ]
+        },
+        {
+          "pool": "huntingwolf",
+          "probability": 0.145,
+          "count": 1,
+          "monsters": [
+            "fufoxcritter",
+            "fuwolf"
+          ]
+        },
+        {
+          "pool": "huntingquadruped",
+          "probability": 0.135,
+          "count": 1,
+          "monsters": [
+            "electricfluffalo",
+            "firefluffalo",
+            "fluffalo",
+            "fubrownsnakecritter",
+            "fucamelcritter"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0618,
+        0.8
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "stickyribs",
+    "spicyribs"
+  ],
+  "quality_tier": "S"
+}

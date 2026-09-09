@@ -1,0 +1,27 @@
+{
+  "entity_id": "teratomato",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Teratomato",
+  "name_zh": "畸胎果",
+  "description_en": "+30% Physical & Knockback Res.: 2m",
+  "description_zh": "+30%物理 & 击退抗性: 2m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "teratomatoHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

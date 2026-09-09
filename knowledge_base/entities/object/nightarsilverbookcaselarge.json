@@ -1,0 +1,47 @@
+{
+  "entity_id": "nightarsilverbookcaselarge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Silver Bookcase",
+  "name_zh": "大型银色书架",
+  "description_en": "A bookcase etched from purified silver.",
+  "description_zh": "一个由纯银蚀刻而成的书架。",
+  "rarity": "common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "nightar",
+    "valuable",
+    "storage",
+    "knowledge"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

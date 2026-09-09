@@ -1,0 +1,215 @@
+{
+  "entity_id": "wrappedbody",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrapped Corpse",
+  "name_zh": "被包裹的尸体",
+  "description_en": "A corpse, wound unceremoniously in cloth to prevent gore leaving a mess.",
+  "description_zh": "一具尸体，草草地用布裹着，以防止血流得到处都是。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 3500
+        }
+      ],
+      "output_count": 1,
+      "station": "Midnight Meat Wagon",
+      "station_zh": "午夜肉车",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fucorpsewagon.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 41,
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.231,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesAvian",
+          "probability": 0.1961,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.0859,
+          "count": 1
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.0348,
+          "count": 1
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.0267,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.231
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1507,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.1381,
+          "count": 1.0
+        },
+        {
+          "pool": "aviantombTreasure",
+          "probability": 0.078,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0512,
+          "count": 1.0
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0126,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1507
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "huntingDarkMetroid",
+          "probability": 0.1316,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "tombstoneHarvest",
+          "probability": 0.0721,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0721,
+        0.1316
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0559,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0349,
+          "count": 1.0
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0179,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0004,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0559
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0011,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0011
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

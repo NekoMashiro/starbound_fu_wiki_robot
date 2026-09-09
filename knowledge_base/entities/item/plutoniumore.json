@@ -1,0 +1,182 @@
+{
+  "entity_id": "plutoniumore",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plutonium Ore",
+  "name_zh": "钚(Pu)",
+  "description_en": "It's pretty, but extremely radioactive.\n+7 Fuel",
+  "description_zh": "很迷人，但是放射性很强。\n+7燃料",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuluxurygoods",
+          "count": 6
+        }
+      ],
+      "output_count": 6,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "plutoniumcookie",
+          "plutoniumradien"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "fu_blockPlutonium"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "plutoniumrod"
+        ]
+      },
+      "bioweapon": {
+        "count": 1,
+        "examples": [
+          "radienflamer"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "plutoniumrod",
+      "bonus": [
+        "lead",
+        "neptuniumore",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "plutoniumrod",
+      "bonus": [
+        "lead",
+        "neptuniumore",
+        "unstableparticles"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "plutoniumrod",
+      "bonus": [
+        "lead",
+        "neptuniumore",
+        "unstableparticles"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "erchibudHarvest",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.2
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.02,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "chromaticunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "ffcellcaves",
+      "weight": 0.5
+    },
+    {
+      "biome": "irradiatedunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "chromatic",
+      "weight": 0.5
+    },
+    {
+      "biome": "atropuscellcaves",
+      "weight": 0.5
+    },
+    {
+      "biome": "arcana_toxicMoon",
+      "weight": 0.35
+    },
+    {
+      "biome": "moontoxicunderground",
+      "weight": 0.35
+    },
+    {
+      "biome": "arcana_frostMoon",
+      "weight": 0.35
+    },
+    {
+      "biome": "moon_toxic",
+      "weight": 0.35
+    },
+    {
+      "biome": "moondesertunderground",
+      "weight": 0.35
+    }
+  ],
+  "wiki_ref": "Plutonium Ore.md",
+  "quality_tier": "S"
+}

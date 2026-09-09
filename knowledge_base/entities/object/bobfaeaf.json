@@ -1,0 +1,59 @@
+{
+  "entity_id": "bobfaeaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bobfae Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Not the most efficient flyer, it's a mystery how bobfae have survived as a species.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bobfaeVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "bobfaeTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bobfae",
+            "bobfae_monarch",
+            "fearmoth",
+            "poisonbobfae"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bobfaeHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "bobfae",
+            "bobfae_monarch",
+            "poisonbobfae"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

@@ -1,0 +1,68 @@
+{
+  "entity_id": "porphisplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Porphis Bulb",
+  "name_zh": "态射草种子",
+  "description_en": "Can increase power and health.",
+  "description_zh": "可以收获态射草，食用后会提高伤害和生命值上限。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 25,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "cell_viral",
+          "count": 2
+        },
+        {
+          "item": "pinkloomseed",
+          "count": 3
+        },
+        {
+          "item": "pussplum",
+          "count": 18
+        },
+        {
+          "item": "fleshstrand",
+          "count": 30
+        },
+        {
+          "item": "phosphorus",
+          "count": 14
+        },
+        {
+          "item": "ff_silicon",
+          "count": 16
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "porphisplantHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

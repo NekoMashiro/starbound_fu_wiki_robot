@@ -1,0 +1,45 @@
+{
+  "entity_id": "elduukhartier3shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Feya Shortsword",
+  "name_zh": "菲亚短剑",
+  "description_en": "A simple blade crafted with crystal and metal.",
+  "description_zh": "一把由水晶和金属制成的简单的刀刃。",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 350,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feya",
+          "count": 40
+        },
+        {
+          "item": "tungstenbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

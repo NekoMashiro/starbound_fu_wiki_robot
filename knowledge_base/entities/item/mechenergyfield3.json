@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechenergyfield3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fuel Tank III",
+  "name_zh": "燃料罐 III",
+  "description_en": "Increases Mech Fuel.",
+  "description_zh": "增加机甲燃料。",
+  "rarity": "rare",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 15
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

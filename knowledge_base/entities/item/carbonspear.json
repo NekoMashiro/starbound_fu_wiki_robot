@@ -1,0 +1,67 @@
+{
+  "entity_id": "carbonspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Spear",
+  "name_zh": "碳制长矛",
+  "description_en": "A dense metal spear for puncturing enemies.\r\nInflicts bleeding\r\nHunting weapon",
+  "description_zh": "用于刺穿敌人的森然金属矛。\n造成流血\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.95,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "spear": {
+        "count": 2,
+        "examples": [
+          "corruptspear",
+          "flightfire"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

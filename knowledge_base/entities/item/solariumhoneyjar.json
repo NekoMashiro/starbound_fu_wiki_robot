@@ -1,0 +1,32 @@
+{
+  "entity_id": "solariumhoneyjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quasar Honey Jar",
+  "name_zh": "罐装类星体蜂蜜",
+  "description_en": "Top-shelf stuff.\n+15% All Res (2m)\n+10 Fuel",
+  "description_zh": "大补之物。\n+15%所有抗性(持续2m)\n燃料+10",
+  "rarity": "Common",
+  "category": "food",
+  "price": 60,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumcomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

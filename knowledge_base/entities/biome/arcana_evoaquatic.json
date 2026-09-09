@@ -1,0 +1,68 @@
+{
+  "entity_id": "arcana_evoaquatic",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Evoaquatic",
+  "name_zh": "化泾",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Evoaquatic",
+  "friendly_name_zh": "化泾",
+  "ores": [
+    {
+      "ore": "tungsten",
+      "weight": 1.0
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_morphosisShard",
+      "weight": 1.0
+    },
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "birdcritter",
+    "brightstripe",
+    "bulbop",
+    "chevcritter",
+    "crabcano",
+    "fireflyspawner",
+    "fishcritter",
+    "frogcritter",
+    "gleap",
+    "lilodon",
+    "poptop",
+    "snuffish",
+    "thornbee",
+    "tinycrocodilecritter",
+    "tortoisecritter",
+    "vineclimber"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_arcaneForest"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "wiki_ref": "Evoaquatic.md",
+  "quality_tier": "C"
+}

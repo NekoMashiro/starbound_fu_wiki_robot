@@ -1,0 +1,38 @@
+{
+  "entity_id": "guam",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rad-Leaf",
+  "name_zh": "拉德草",
+  "description_en": "Immune: Extreme Radiation: 3m",
+  "description_zh": "免疫: 极端辐射: 3m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "fu_driedradleaf"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "guamHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

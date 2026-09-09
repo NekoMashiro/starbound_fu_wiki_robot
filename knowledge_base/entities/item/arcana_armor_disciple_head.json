@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_armor_disciple_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Disciple Hood",
+  "name_zh": "学徒兜帽",
+  "description_en": "A basic ceremonial clothing worn by the Gilten.",
+  "description_zh": "镀人的基本礼仪服饰。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "hylotlwallshelf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Blue Wall Shelf",
+  "name_zh": "蓝色墙架",
+  "description_en": "A blue shelf used for displaying items.",
+  "description_zh": "一个用来放东西的蓝色架子。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 70,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "commerce",
+    "storage"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.0425,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

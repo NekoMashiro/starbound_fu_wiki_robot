@@ -1,0 +1,64 @@
+{
+  "entity_id": "exousia_imperialArmy_1_sniperRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Schwarzritter Sniper",
+  "name_zh": "EIA1黑骑士狙击枪",
+  "description_en": "A standard sniper rifle used by Exousian Frontliners.",
+  "description_zh": "威权前线部队使用的制式狙击枪。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 12
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T6",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_scentedLilac",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aromatic Lilac",
+  "name_zh": "浓郁丁香",
+  "description_en": "A magenta lilac flower with aromatic flavor.\n For 30 seconds after drinking, heal 4% of Max Health/s for 2.5 seconds after getting hits.",
+  "description_zh": "洋红紫色的花，有着浓郁的香味。\n饮用后30秒内，每次受伤后的2.5秒内每秒恢复4%最大生命值。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

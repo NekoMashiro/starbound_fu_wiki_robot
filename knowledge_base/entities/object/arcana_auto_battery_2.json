@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_auto_battery_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "[Power] Industrial Battery",
+  "name_zh": "[动力]工业电池",
+  "description_en": "A durable power storage unit. Can store 1600kWh of power.",
+  "description_zh": "一个耐用的能量存储单位。能存储1600kWh能量。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 800,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 2
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 12
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 6
+        },
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

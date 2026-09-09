@@ -1,0 +1,30 @@
+{
+  "entity_id": "deathblossom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Deathblossom Mushroom",
+  "name_zh": "死亡蘑菇",
+  "description_en": "Toss this hideous thing, and enjoy the mayhem.",
+  "description_zh": "据说把这个蘑菇丢出去会造成不可思议的效果。",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 5,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deathblossomHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Deathblossom Mushroom.md",
+  "quality_tier": "A"
+}

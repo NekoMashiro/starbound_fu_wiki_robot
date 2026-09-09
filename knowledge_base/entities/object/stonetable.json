@@ -1,0 +1,44 @@
+{
+  "entity_id": "stonetable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Stone Table",
+  "name_zh": "石桌子",
+  "description_en": "A table made of cobblestone.",
+  "description_zh": "一张鹅卵石制成的桌子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 35,
+  "tags": [
+    "alpine"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

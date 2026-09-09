@@ -1,0 +1,58 @@
+{
+  "entity_id": "isn_solarpanel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solar Panel",
+  "name_zh": "太阳能电池板",
+  "description_en": "Uses sunlight to generate electricity. It can generate over 4W of power in optimal conditions.",
+  "description_zh": "这是可利用太阳能发电的设备。在最佳条件下可产生最高4W电力。",
+  "rarity": "common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "silverbar",
+          "count": 10
+        },
+        {
+          "item": "ff_silicon",
+          "count": 25
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "fu_solararray"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Solar Panel.md",
+  "quality_tier": "S"
+}

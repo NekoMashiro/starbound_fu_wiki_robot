@@ -1,0 +1,63 @@
+{
+  "entity_id": "buccaneerchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Buccaneer Coat",
+  "name_zh": "海盗大衣",
+  "description_en": "A whaleskin pirate coat - well it smells like whale anyway.",
+  "description_zh": "鲸鱼皮做的海盗大衣－起码它闻起来有鲸鱼的味道。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.1239,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0425,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0425,
+        0.1239
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.087,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0213,
+          "count": 1
+        },
+        {
+          "pool": "airshipguardtreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.087
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "slimeperson",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "黏液",
+  "description_en": "",
+  "description_zh": "",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "foodDelta",
+        "baseMultiplier": 1.25
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.5
+      },
+      {
+        "stat": "maxFood",
+        "effectiveMultiplier": 0.9
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.3
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.04
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": 0.03
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "slimeImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "slimestickImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "webstickImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "whipMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "fuSlimeHeals",
+        "amount": 1
+      }
+    ],
+    "diet": "raw_omnivore",
+    "tech": [
+      "colorvariableslimesphere",
+      "stickywalljump"
+    ]
+  },
+  "quality_tier": "B"
+}

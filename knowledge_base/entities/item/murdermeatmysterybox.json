@@ -1,0 +1,35 @@
+{
+  "entity_id": "murdermeatmysterybox",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meaty Meal",
+  "name_zh": "肉食殇宴",
+  "description_en": "100% meat from anywhere the manufacturer could locate.\n+10% Physical Res (5m) \nType: Cooked Meat",
+  "description_zh": "100%的肉，来自厂商可以定位到的任何地方。\n+10%物理抗性(持续5m)\n类型：熟肉食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 250
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

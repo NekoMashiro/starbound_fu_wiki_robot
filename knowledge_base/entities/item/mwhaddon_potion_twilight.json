@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_potion_twilight",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "\"Twilight\"",
+  "name_zh": "“黄昏”",
+  "description_en": "Immediately recover all HP; ATK +330% and Max HP +5000. Gradually lose HP (HP loss caps at 20%/second); Unlimited duration\nAfter receiving fatal damage, continuously prevents HP from falling below 1. Retreat from the battlefield 8 seconds later",
+  "description_zh": "立即恢复所有生命；攻击力+330%，生命上限+5000，逐渐失去生命（最大生命20%/秒）；持续时间无限\n受到致命伤害时持续使生命值不低于1，8秒后强制退出战场",
+  "rarity": "essential",
+  "category": "medicine",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_orangeFluxroot",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_mirageEssence",
+          "count": 1
+        },
+        {
+          "item": "liquidhealing",
+          "count": 4
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

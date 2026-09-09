@@ -1,0 +1,42 @@
+{
+  "entity_id": "swtjc_wp_sequencer3bitvinputs",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "3-Bit Sequencer (With Inputs)",
+  "name_zh": "3-Bit定序器(可输入)",
+  "description_en": "A 3-bit sequencer. Can directly change to one of its 8 inputs, as well as cycle between them.",
+  "description_zh": "一个3-Bit定序器。可以通过改变八个输入接口的其中一个，来使它们循环运转。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "persistentswitch",
+          "count": 3
+        },
+        {
+          "item": "dlatch",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

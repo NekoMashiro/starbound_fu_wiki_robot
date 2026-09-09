@@ -1,0 +1,54 @@
+{
+  "entity_id": "hephaestus_staff_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cinderflower",
+  "name_zh": "赫斯提亚",
+  "description_en": "Flame-infused staff of the ancient fire.\n\nFire was the most efficient element for the mages to master, for it granted immediate power.",
+  "description_zh": "注入了古老火炎的火焰法杖。\n\n火焰能瞬间产生力量，因此它对于法师而言是最有效的元素。",
+  "rarity": "Common",
+  "category": "staff",
+  "price": 2000,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "altAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_dryPlate",
+          "count": 4
+        },
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

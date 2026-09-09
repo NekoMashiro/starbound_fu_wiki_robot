@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_aurea_deco_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ship Console",
+  "name_zh": "恒金飞船控制台",
+  "description_en": "A sophisticated ship console for managing various navigation functions.",
+  "description_zh": "一个复杂的船舶控制台，用于管理各种导航功能。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 280,
+  "tags": [
+    "light",
+    "aurea",
+    "space"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

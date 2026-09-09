@@ -1,0 +1,59 @@
+{
+  "entity_id": "fufemur",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Bone",
+  "name_zh": "致密骨",
+  "description_en": "Dense, tough bone such as a femur.",
+  "description_zh": "股骨一类的致密而坚硬的骨头。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "marrowsoup"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.3696,
+          "count": 2.5
+        },
+        {
+          "pool": "kevintrash",
+          "probability": 0.096,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.096,
+        0.3696
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.2412,
+          "count": 2.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

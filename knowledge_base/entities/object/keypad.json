@@ -1,0 +1,39 @@
+{
+  "entity_id": "keypad",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Numeric Keypad",
+  "name_zh": "数字键盘",
+  "description_en": "A numeric security keypad that requires a specific combination.",
+  "description_zh": "需要特定组合的数字安全键盘。",
+  "rarity": "Common",
+  "category": "",
+  "price": 0,
+  "tags": [
+    "electronic",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cpu",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

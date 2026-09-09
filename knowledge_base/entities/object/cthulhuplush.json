@@ -1,0 +1,79 @@
+{
+  "entity_id": "cthulhuplush",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "My Little Cthulhu",
+  "name_zh": "我的小小克苏鲁",
+  "description_en": "Adorable monster from your nightmares.",
+  "description_zh": "来自你的梦魇的可爱的...不，备受崇拜的怪物。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 12
+        },
+        {
+          "item": "protorockmaterial",
+          "count": 2
+        },
+        {
+          "item": "unstableparticles",
+          "count": 4
+        },
+        {
+          "item": "darkmatter",
+          "count": 12
+        },
+        {
+          "item": "redmatter",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0112,
+        0.0124
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

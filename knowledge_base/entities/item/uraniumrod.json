@@ -1,0 +1,170 @@
+{
+  "entity_id": "uraniumrod",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Uranium Rod",
+  "name_zh": "铀棒(U)",
+  "description_en": "Enriched Uranium 235-U isotope.\n+9 Fuel",
+  "description_zh": "浓缩铀235-U同位素。\n+9燃料",
+  "rarity": "Uncommon",
+  "category": "fuel",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "uraniumore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 2
+        },
+        {
+          "item": "deuterium",
+          "count": 1
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 21,
+        "examples": [
+          "irradiumbed",
+          "irradiumbookcase",
+          "irradiumcabinet",
+          "irradiumchair",
+          "irradiumcouch"
+        ]
+      },
+      "light": {
+        "count": 14,
+        "examples": [
+          "ff_biolight3",
+          "irradiumdesklamp",
+          "irradiumlamp",
+          "irradiumwalllamp",
+          "nocxiumlamp"
+        ]
+      },
+      "storage": {
+        "count": 4,
+        "examples": [
+          "irradiumchestlarge",
+          "irradiumchestsmall",
+          "nocxiumchest1",
+          "nocxiumchest2"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 4,
+        "examples": [
+          "irradiumfridge",
+          "irradiumminifridge",
+          "nocxiumfridge",
+          "nocxiumminifridge"
+        ]
+      },
+      "fuel": {
+        "count": 2,
+        "examples": [
+          "enricheduranium",
+          "neptuniumrod"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mechbodycultist",
+          "mechbodypenguin"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "apiary_frame_uranium",
+          "nuclearcore"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "radioactiveresistanceaugment"
+        ]
+      }
+    },
+    "total": 56
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "uraniumore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "uraniumore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "uraniumore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 1.0,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

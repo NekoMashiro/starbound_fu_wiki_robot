@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_monitor",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Titancorp Monitor",
+  "name_zh": "[泰坦拓展]泰坦重工显示器",
+  "description_en": "A Titancorp monitor.",
+  "description_zh": "一个泰坦重工企业标配的显示器。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "light",
+    "titancorp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

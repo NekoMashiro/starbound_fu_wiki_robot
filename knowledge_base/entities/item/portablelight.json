@@ -1,0 +1,231 @@
+{
+  "entity_id": "portablelight",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Disposable Light",
+  "name_zh": "发光药剂",
+  "description_en": "A handy portable light source.\nGlow (20m)",
+  "description_zh": "便携式光源。\n发光(持续20m)",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 147,
+    "chest_loot": {
+      "count": 72,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.2137,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1617,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 2
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0345,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2137
+      ]
+    },
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "fuLootStims",
+          "probability": 0.1216,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0118,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0091,
+          "count": 1
+        },
+        {
+          "pool": "fishinglegendary",
+          "probability": 0.0091,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1216
+      ]
+    },
+    "monster_drops": {
+      "count": 52,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0979,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0159,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0069,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0376
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0048,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0047,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0041,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.001,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0048
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Disposable Light.md",
+  "quality_tier": "S"
+}

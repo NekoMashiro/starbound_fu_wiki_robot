@@ -1,0 +1,43 @@
+{
+  "entity_id": "mysteriousalienfossil",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mysterious Alien Skull",
+  "name_zh": "神秘的外星头骨",
+  "description_en": "The fossilised skull of an unidentified life-form.",
+  "description_zh": "不明生物的头骨化石。",
+  "rarity": "Uncommon",
+  "category": "smallFossil",
+  "price": 75,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "smallfossil",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.04,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.04,
+        0.1
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,86 @@
+{
+  "entity_id": "strangedevice1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strange Device",
+  "name_zh": "奇怪的装置",
+  "description_en": "This strange machine appears to be...actually, I can't even imagine what is within.",
+  "description_zh": "这个装置似乎是...不，我不想猜它到底是做什么的。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.132,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0174,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0157,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0157,
+        0.132
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.1239,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0978,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0049,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

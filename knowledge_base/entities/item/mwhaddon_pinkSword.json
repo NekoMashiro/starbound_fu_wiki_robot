@@ -1,0 +1,36 @@
+{
+  "entity_id": "mwhaddon_pinkSword",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "The Pink Sword",
+  "name_zh": "粉色的剑",
+  "description_en": "A pink sword, just as its name suggests.",
+  "description_zh": "粉色的剑，剑如其名。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2100,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.2,
+  "primaryAbilityType": "broadswordcombo",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0164,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,63 @@
+{
+  "entity_id": "arcana_lucid",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Lucid",
+  "name_zh": "清明",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Lucid",
+  "friendly_name_zh": "清明",
+  "ores": [
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "durasteel",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_avostone",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "batong",
+    "bigwormcritter",
+    "crustoise",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "heathugger",
+    "krawlcritter",
+    "petricub",
+    "phoenixfly",
+    "pteropod",
+    "scandroid",
+    "scaveran",
+    "skywurmcritter",
+    "smoglin",
+    "spookit"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:forest"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

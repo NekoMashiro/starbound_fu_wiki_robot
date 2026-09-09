@@ -1,0 +1,57 @@
+{
+  "entity_id": "tinytether",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tiny Tether",
+  "name_zh": "宠物束缚器",
+  "description_en": "A creature capture pod can be placed into this device, tethering the pet within its radius.",
+  "description_zh": "可以将捕捉仓放入其中，则其内的生物将会被释放出来，在一定半径内活动。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "phasematter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

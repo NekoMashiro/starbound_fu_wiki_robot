@@ -1,0 +1,105 @@
+{
+  "entity_id": "arcana_misc_behestDongle",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Behest Circuit",
+  "name_zh": "授权回路",
+  "description_en": "A machinery part used in Exousia's military technologies.",
+  "description_zh": "用于威权帝国的军事技术细节中的机械部件。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 260,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 7,
+        "examples": [
+          "arcana_exousia_ship_booster_1",
+          "arcana_exousia_ship_booster_2",
+          "arcana_exousia_ship_deco_1",
+          "arcana_exousia_ship_deco_2",
+          "arcana_exousia_ship_deco_3"
+        ]
+      },
+      "mechPart": {
+        "count": 6,
+        "examples": [
+          "mwhaddon_mech_arm_avalanche",
+          "mwhaddon_mech_arm_kampfpistole",
+          "mwhaddon_mech_arm_meereswelle",
+          "mwhaddon_mech_body_rhinosteel",
+          "mwhaddon_mech_booster_rhinosteel"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "exousia_imperialArmy_1_broadsword_2",
+          "exousia_imperialArmy_3_katana_1"
+        ]
+      },
+      "axe": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_battleaxe_1"
+        ]
+      },
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_misc_assaultPowerCore"
+        ]
+      },
+      "^yellow;2级攻击无人机": {
+        "count": 1,
+        "examples": [
+          "sd_exp_t2exousiadrone_controller"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_exousianTech",
+          "probability": 1.2,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

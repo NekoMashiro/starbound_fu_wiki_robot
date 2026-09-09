@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_sanguine",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Sanguine",
+  "name_zh": "蕴血",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Sanguine",
+  "friendly_name_zh": "蕴血",
+  "ores": [
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "durasteel",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_avostone",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "batong",
+    "bigwormcritter",
+    "crustoise",
+    "darkballcritter",
+    "darknessscabcritter",
+    "darkoneeyecritter",
+    "darkthreeeyescritter",
+    "darkwormcritter",
+    "dartcritter",
+    "heathugger",
+    "krawlcritter",
+    "petricub",
+    "phoenixfly",
+    "pteropod",
+    "scandroid",
+    "scaveran",
+    "skywurmcritter",
+    "smoglin",
+    "spookit"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:forest"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,68 @@
+{
+  "entity_id": "magmawall3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Volcanic Ash",
+  "name_zh": "火山灰",
+  "description_en": "Probably not tasty.\nExtractable, Siftable.",
+  "description_zh": "可能不好吃。\n可萃取，可筛分。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "fumagmastatue",
+          "magmachair",
+          "magmasofa",
+          "magmatable"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "calciumnitrate"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "magmacabinet"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ashgolemLoot",
+          "probability": 0.0542,
+          "count": 5,
+          "monsters": [
+            "adultpoptopfire",
+            "adultpoptopfire2",
+            "adultpoptopfire3",
+            "adultpoptopfiremadness",
+            "adultpoptopfirepet"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "magmacabinet",
+    "magmachair",
+    "magmasofa",
+    "magmatable",
+    "fuokeamagmabrick",
+    "fuokeamagmastone"
+  ],
+  "quality_tier": "S"
+}

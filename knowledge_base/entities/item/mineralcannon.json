@@ -1,0 +1,63 @@
+{
+  "entity_id": "mineralcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Particle Rifle",
+  "name_zh": "粒子步枪",
+  "description_en": "Made to maim and eradicate. Cheery.\r\nDestroys tiles",
+  "description_zh": "斩草除根的最佳选择，哈哈！\n可破坏物块",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 6.23,
+  "critChance": 4,
+  "critBonus": 3,
+  "altAbilityType": "iongrenadelauncher",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 8
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "moonstonebar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

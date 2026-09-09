@@ -1,0 +1,54 @@
+{
+  "entity_id": "slimegrapplinghook",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Hook",
+  "name_zh": "黏性抓钩",
+  "description_en": "Used for making messes on the ceiling.",
+  "description_zh": "用于把天花板变得脏乱。",
+  "rarity": "Legendary",
+  "category": "Tool",
+  "price": 300,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 2,
+        "examples": [
+          "guslimegrapplinghook",
+          "xelslimegrapplinghook"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0342,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "aetheriumrocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Rocketlauncher",
+  "name_zh": "阳清火箭发射器",
+  "description_en": "Shatteringly powerful homing missile swarm.",
+  "description_zh": "威力惊人的自导导弹群。",
+  "rarity": "legendary",
+  "category": "rocketLauncher",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic",
+    "explosive"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 5.5,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 6
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "precursorfuelcell",
+          "count": 1
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

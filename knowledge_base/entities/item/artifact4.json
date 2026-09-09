@@ -1,0 +1,234 @@
+{
+  "entity_id": "artifact4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Artifact",
+  "name_zh": "古代遗物",
+  "description_en": "A strange, unknowably ancient artifact.\nResearch in a microscope.",
+  "description_zh": "一个陌生的、不可知的上古造物。\n在显微镜下研究。",
+  "rarity": "legendary",
+  "category": "artifact",
+  "price": 12600,
+  "tags": [
+    "reagent",
+    "artifact"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "essence"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuxithricitechestkhe"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 44,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "artifactloot",
+          "probability": 0.1119,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0313,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1119
+      ]
+    },
+    "monster_drops": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0422,
+          "count": 1
+        },
+        {
+          "pool": "guardianTreasure",
+          "probability": 0.0186,
+          "count": 1,
+          "monsters": [
+            "electricfuguardianboss",
+            "electricguardianboss",
+            "firefuguardianboss",
+            "fireguardianboss",
+            "icefuguardianboss"
+          ]
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0422
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0055,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0019,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0055
+      ]
+    },
+    "chest_loot": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0017,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0015,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0013,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0017
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0007
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "screwattack_tech"
+  ],
+  "wiki_ref": "Ancient Artifact.md",
+  "quality_tier": "S"
+}

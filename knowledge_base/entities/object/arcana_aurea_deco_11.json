@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_aurea_deco_11",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Decorative Door",
+  "name_zh": "装饰门",
+  "description_en": "A secure door for keeping out unwanted intruders.",
+  "description_zh": "用于阻止不受欢迎的入侵者的安全门。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

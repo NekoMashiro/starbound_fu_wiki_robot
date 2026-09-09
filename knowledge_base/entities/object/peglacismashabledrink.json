@@ -1,0 +1,54 @@
+{
+  "entity_id": "peglacismashabledrink",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Empty Crystal Bottle",
+  "name_zh": "空水晶瓶",
+  "description_en": "An empty bottle of Snowberry liquor.",
+  "description_zh": "一瓶空的雪果酒。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "pretty",
+    "peglaci"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 6
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

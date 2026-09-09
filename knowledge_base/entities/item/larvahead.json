@@ -1,0 +1,46 @@
+{
+  "entity_id": "larvahead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Larva Mask",
+  "name_zh": "幼虫面具",
+  "description_en": "A mask which resembles a large insect.",
+  "description_zh": "像大型昆虫一般的面具。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hiveChestTreasure",
+          "probability": 0.1903,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoHiveTreasure",
+          "probability": 0.1237,
+          "count": 1
+        },
+        {
+          "pool": "hiveTreasure",
+          "probability": 0.1034,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1034,
+        0.1237
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

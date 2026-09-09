@@ -1,0 +1,50 @@
+{
+  "entity_id": "modernalpinecloset",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alpine Closet",
+  "name_zh": "阿尔卑斯壁橱",
+  "description_en": "A wooden closet with a stylish pattern embedded on the doors.",
+  "description_zh": "门上嵌有时尚图案的木制壁橱。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "modernalpine",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "modernalpineset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

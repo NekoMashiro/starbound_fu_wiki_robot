@@ -1,0 +1,149 @@
+{
+  "entity_id": "lanternstickback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lantern Stick",
+  "name_zh": "灯笼杆",
+  "description_en": "Provides light while leaving your hands free. An essential accessory for adventuring!",
+  "description_zh": "简单的照明装备，通常挂在你的背上，从而解放你的双手。\n发出微弱的光",
+  "rarity": "Uncommon",
+  "category": "enviroProtectionPack",
+  "price": 1600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "logblock",
+          "count": 10
+        },
+        {
+          "item": "mininglantern",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 23,
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.1583,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1583
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.1329,
+          "count": 1
+        },
+        {
+          "pool": "desertTreasure",
+          "probability": 0.1111,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0031,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0016,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.1329
+      ]
+    },
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0015,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0015
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

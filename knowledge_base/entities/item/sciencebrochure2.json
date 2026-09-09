@@ -1,0 +1,29 @@
+{
+  "entity_id": "sciencebrochure2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Data-Key",
+  "name_zh": "先驱数字键",
+  "description_en": "Holds multiple sets of coordinates and some encrypted data. One set points to the Science Outpost",
+  "description_zh": "保存多组坐标和一些加密数据。其中一组指向科学前哨站。",
+  "rarity": "Essential",
+  "category": "Tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "precursorUnlock",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Data-Key.md",
+  "quality_tier": "A"
+}

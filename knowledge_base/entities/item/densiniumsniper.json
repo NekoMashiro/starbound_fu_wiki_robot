@@ -1,0 +1,64 @@
+{
+  "entity_id": "densiniumsniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Sniper Rifle",
+  "name_zh": "超致密狙击步枪",
+  "description_en": "Two high-powered energy shots to ensure a confirmed kill.\r\n2-round high powered bursts\r\nTargeting computer alt-fire",
+  "description_zh": "两次高能量射击，我芦苇没有开挂！\n两发高能脉冲连射\n次要攻击: 超级机瞄",
+  "rarity": "legendary",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 7.5,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 9
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "prisilitestar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

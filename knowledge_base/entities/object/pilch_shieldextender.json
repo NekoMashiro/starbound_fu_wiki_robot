@@ -1,0 +1,33 @@
+{
+  "entity_id": "pilch_shieldextender",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Field Extender",
+  "name_zh": "力场扩展器",
+  "description_en": "Extends a wire connection between a field generator and field marker.",
+  "description_zh": "延伸力场生成器和力场标记之间的接线。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 1,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 6
+        }
+      ],
+      "output_count": 10,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Field Extender.md",
+  "quality_tier": "A"
+}

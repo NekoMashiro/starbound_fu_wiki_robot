@@ -1,0 +1,85 @@
+{
+  "entity_id": "arcana_spectwing_tile16",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Twisted Wood",
+  "name_zh": "扭曲木头",
+  "description_en": "A block of twisted wood.",
+  "description_zh": "扭曲木头块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 8,
+        "examples": [
+          "arcana_abyssal_deco_6",
+          "arcana_abyssal_deco_7",
+          "arcana_abyssal_pillar_2",
+          "arcana_nether_deco_1",
+          "arcana_nether_deco_2"
+        ]
+      },
+      "furniture": {
+        "count": 6,
+        "examples": [
+          "arcana_nether_bed_1",
+          "arcana_nether_bed_2",
+          "arcana_nether_chair_1",
+          "arcana_nether_chair_2",
+          "arcana_nether_table_1"
+        ]
+      },
+      "storage": {
+        "count": 6,
+        "examples": [
+          "arcana_nether_storage_1",
+          "arcana_nether_storage_2",
+          "arcana_nether_storage_3",
+          "arcana_nether_storage_4",
+          "arcana_nether_storage_5"
+        ]
+      },
+      "light": {
+        "count": 5,
+        "examples": [
+          "arcana_nether_light_1",
+          "arcana_nether_light_2",
+          "arcana_nether_light_3",
+          "arcana_nether_light_4",
+          "arcana_nether_light_5"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "arcana_nether_door_1"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,146 @@
+{
+  "entity_id": "arcana_misc_oceaniteComposite",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Oceanite Composite",
+  "name_zh": "洋铁复材",
+  "description_en": "A composite material that is suited for making furnishing objects.",
+  "description_zh": "适合用于制作家具物品的复材。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 5
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "恒金锻造厂",
+      "station_zh": "恒金锻造厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 4
+        }
+      ],
+      "output_count": 4,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 15,
+        "examples": [
+          "arcana_astral_deco_1",
+          "arcana_astral_deco_10",
+          "arcana_astral_deco_12",
+          "arcana_astral_deco_17",
+          "arcana_astral_deco_18"
+        ]
+      },
+      "storage": {
+        "count": 9,
+        "examples": [
+          "arcana_astral_bookcase_1",
+          "arcana_astral_storage_1",
+          "arcana_astral_storage_2",
+          "arcana_astral_storage_3",
+          "arcana_astral_storage_4"
+        ]
+      },
+      "light": {
+        "count": 8,
+        "examples": [
+          "arcana_astral_light_1",
+          "arcana_astral_light_2",
+          "arcana_astral_light_3",
+          "arcana_astral_wireddeco_3",
+          "arcana_astral_wireddeco_4"
+        ]
+      },
+      "block": {
+        "count": 7,
+        "examples": [
+          "arcana_platform_astralPlatform",
+          "astral_tile1",
+          "astral_tile2",
+          "astral_tile3",
+          "astral_tile4"
+        ]
+      },
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "arcana_astral_bed_1",
+          "arcana_astral_chair_1",
+          "arcana_astral_chair_2",
+          "arcana_astral_table_1",
+          "arcana_astral_table_2"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "arcana_astral_door_1",
+          "arcana_astral_door_2"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_mech_arm_pulsar",
+          "mwhaddon_mech_booster_gravity"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "arcana_astral_crafting_1"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "wiki_ref": "Oceanite Composite.md",
+  "quality_tier": "S"
+}

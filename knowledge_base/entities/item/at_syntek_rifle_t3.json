@@ -1,0 +1,44 @@
+{
+  "entity_id": "at_syntek_rifle_t3",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Syntek Assault Rifle[T3]",
+  "name_zh": "",
+  "description_en": "A fully automatic, military grade rifle with Syntek parts.",
+  "description_zh": "使用合成部件的全自动军用步枪。",
+  "rarity": "Rare",
+  "category": "assaultRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": [
+    14.3,
+    15
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 510
+        }
+      ],
+      "output_count": 1,
+      "station": "Syntek Crafting Station",
+      "station_zh": "合成科技制作站",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "syntek.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "B"
+}

@@ -1,0 +1,71 @@
+{
+  "entity_id": "ironbroadsword",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Iron Broadsword",
+  "name_zh": "铁制巨剑",
+  "description_en": "It's a crudely fashioned broadsword.",
+  "description_zh": "这是一把经过粗加工制成的巨剑。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "climbingrope",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

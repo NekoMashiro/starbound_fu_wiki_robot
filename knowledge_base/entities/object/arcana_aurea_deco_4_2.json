@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_aurea_deco_4_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ship Turret",
+  "name_zh": "恒金舰装炮塔",
+  "description_en": "A simple but effective ship turret.",
+  "description_zh": "一台简单但有效的舰炮。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 300,
+  "tags": [
+    "aurea",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "wretchelseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Seed",
+  "name_zh": "扭力藤种子",
+  "description_en": "Straddles dimensions and bends the laws of physics.",
+  "description_zh": "它的生长完全没有任何逻辑可言。可以收获扭力藤，食用后会赋予吸收伤害护盾。",
+  "rarity": "legendary",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 72
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 70
+        },
+        {
+          "item": "tetherhookseed",
+          "count": 3
+        },
+        {
+          "item": "ff_silicon",
+          "count": 45
+        },
+        {
+          "item": "mutagene2",
+          "count": 2
+        },
+        {
+          "item": "phasematter",
+          "count": 24
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wretchelHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "solarized_tile3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Solite Crystal Block",
+  "name_zh": "日光水晶块",
+  "description_en": "A deposite of burning crystals.",
+  "description_zh": "燃烧晶体的沉积物。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 3,
+        "examples": [
+          "solar_tile2",
+          "solar_tile3",
+          "solar_tile5"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "solar_crafting_solarCore"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "solar_deco_1"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "A"
+}

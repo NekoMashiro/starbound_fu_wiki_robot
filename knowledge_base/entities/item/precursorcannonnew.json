@@ -1,0 +1,74 @@
+{
+  "entity_id": "precursorcannonnew",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Annihilator",
+  "name_zh": "先驱歼灭者",
+  "description_en": "The compressed rage of the Precursors.\r\nCharges Up",
+  "description_zh": "饱含着先驱们的怒火。\n可充能",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "energy",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "chargefire",
+  "altAbilityType": "散射光子",
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.025,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.002,
+        0.025
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0061,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Precursor Annihilator.md",
+  "quality_tier": "A"
+}

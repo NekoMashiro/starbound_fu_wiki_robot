@@ -1,0 +1,51 @@
+{
+  "entity_id": "labwall",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasteel Hor. Wall",
+  "name_zh": "塑钢水平墙体",
+  "description_en": "Sturdy plasteel. Great for building.",
+  "description_zh": "坚固的塑钢。真是伟大的建筑材料。",
+  "rarity": "rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 3
+        }
+      ],
+      "output_count": 50,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuLabParts",
+          "probability": 0.0826,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

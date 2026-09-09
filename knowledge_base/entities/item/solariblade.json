@@ -1,0 +1,55 @@
+{
+  "entity_id": "solariblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Shortsword",
+  "name_zh": "月晶短剑",
+  "description_en": "A decent crystal weapon.",
+  "description_zh": "一把相当好的水晶武器。",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

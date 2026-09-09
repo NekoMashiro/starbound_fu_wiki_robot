@@ -1,0 +1,85 @@
+{
+  "entity_id": "bloodypuss",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bloody Puss",
+  "name_zh": "血腥少女",
+  "description_en": "A thick, shake-like drink of meat and pussplum. Type: Raw Meat",
+  "description_zh": "一杯用肉和圣女果一起摇匀制成的浓厚的饮料。\n类型：生肉食",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 190,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bloodypussobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "pussplum",
+          "count": 1
+        },
+        {
+          "item": "fleshstrand",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "bloodypussobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

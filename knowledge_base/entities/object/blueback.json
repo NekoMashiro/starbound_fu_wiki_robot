@@ -1,0 +1,32 @@
+{
+  "entity_id": "blueback",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Blueback",
+  "name_zh": "蓝背虫",
+  "description_en": "This blue bug has sharp little teeth.",
+  "description_zh": "蓝背虫有小而锋利的牙。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "blueback",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "blueback"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

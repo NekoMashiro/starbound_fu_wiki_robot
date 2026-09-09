@@ -1,0 +1,44 @@
+{
+  "entity_id": "witchwand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Witch's Wand",
+  "name_zh": "巫师魔杖",
+  "description_en": "Avada Kedavra!",
+  "description_zh": "阿瓦达索命！",
+  "rarity": "rare",
+  "category": "wand",
+  "price": 440,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "witchbarrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 1200
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Witch's Wand.md",
+  "quality_tier": "A"
+}

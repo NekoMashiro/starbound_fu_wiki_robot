@@ -1,0 +1,219 @@
+{
+  "entity_id": "partytimecollar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "PLUR Collar",
+  "name_zh": "派对项圈",
+  "description_en": "....wtf?",
+  "description_zh": "....整啥子？",
+  "rarity": "rare",
+  "category": "petCollar",
+  "price": 1,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 165,
+    "other": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "petcollars2",
+          "probability": 0.075,
+          "count": 1
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.0067,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0066,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0052,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0036,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.075
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0139,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0128,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0021,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0139
+      ]
+    },
+    "chest_loot": {
+      "count": 72,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0137,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0108,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0069,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0068,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0051,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0137
+      ]
+    },
+    "monster_drops": {
+      "count": 62,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0098,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0088,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.0063,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0062,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0098
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0029,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0029,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0005,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0029
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "PLUR Collar.md",
+  "quality_tier": "A"
+}

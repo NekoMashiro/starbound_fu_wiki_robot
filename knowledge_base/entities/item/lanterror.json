@@ -1,0 +1,165 @@
+{
+  "entity_id": "lanterror",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost Lantern",
+  "name_zh": "幽灵灯笼",
+  "description_en": "Said to repel moon ghosts and punish those who harm you.",
+  "description_zh": "传达你对能源幽灵的厌恶并惩罚那些企图伤害你的能源幽灵。\n激活效果：免疫能源幽灵",
+  "rarity": "legendary",
+  "category": "tool",
+  "price": 1000,
+  "tags": [],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 34,
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "tool",
+          "probability": 0.0097,
+          "count": 1
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0097
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0019,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0019
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0019,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0009,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.001
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0004
+      ]
+    }
+  },
+  "wiki_ref": "Ghost Lantern.md",
+  "quality_tier": "A"
+}

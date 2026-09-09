@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_aurea_deco_16",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Small Hologram Base",
+  "name_zh": "小型全息图底座",
+  "description_en": "A small hologram projector.",
+  "description_zh": "一台小型全息投影仪。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

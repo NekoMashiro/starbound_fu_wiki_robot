@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_spectwing_scythe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Bone Scythe",
+  "name_zh": "骨头镰刀",
+  "description_en": "A makeshift scythe, crafted from bones. Drops bones when killing enemies.",
+  "description_zh": "使用骨头制成的临时镰刀。击杀敌人时掉落骨头。",
+  "rarity": "Common",
+  "category": "broadsword",
+  "price": 10,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "primaryAbilityType": "arcana_scythe_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "bone",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

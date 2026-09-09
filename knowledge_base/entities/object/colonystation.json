@@ -1,0 +1,53 @@
+{
+  "entity_id": "colonystation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Colony Station",
+  "name_zh": "殖民工作站",
+  "description_en": "Used to create a large colony.",
+  "description_zh": "用来形成一个大殖民地。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 40
+        },
+        {
+          "item": "logblock",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Colony Station.md",
+  "quality_tier": "A"
+}

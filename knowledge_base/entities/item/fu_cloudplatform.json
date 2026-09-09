@@ -1,0 +1,42 @@
+{
+  "entity_id": "fu_cloudplatform",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cloud Platform",
+  "name_zh": "云朵平台",
+  "description_en": "A platform made of cloud. Dense enough to walk on.",
+  "description_zh": "一个由云构成的平台。密度足够人在其上行走。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cloudblock",
+          "count": 5
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

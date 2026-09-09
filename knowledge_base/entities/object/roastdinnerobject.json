@@ -1,0 +1,41 @@
+{
+  "entity_id": "roastdinnerobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Roast Dinner",
+  "name_zh": "烤晚餐",
+  "description_en": "Just a regular roast dinner. Nothing fancy, but satisfying all the same.",
+  "description_zh": "只是一顿普通的烤晚餐。没有什么新奇的，但仍然令人满意。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 250,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "roastdinner",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "roastdinner"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

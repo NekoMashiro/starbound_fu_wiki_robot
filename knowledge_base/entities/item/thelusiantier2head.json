@@ -1,0 +1,47 @@
+{
+  "entity_id": "thelusiantier2head",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Helm",
+  "name_zh": "蚁族头盔",
+  "description_en": "A common choice of Thelusian protection.\r\n+5% Ice Resist",
+  "description_zh": "蚁族防具的常见选择。\n+5% 寒气抗性",
+  "rarity": "uncommon",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "bugshell",
+          "count": 4
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,57 @@
+{
+  "entity_id": "ionstrike",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orbital Strike",
+  "name_zh": "轨道炮击导引器",
+  "description_en": "A brutal salvo of energy blasts.\r\nCounts as Rocket or Energy",
+  "description_zh": "从你的飞船上呼叫一轮能量炮击，对目标进行残忍的地毯式打击。\n火箭发射器、能量武器\n只适合在室外环境使用",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketLauncher",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 10,
+  "critBonus": 20,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

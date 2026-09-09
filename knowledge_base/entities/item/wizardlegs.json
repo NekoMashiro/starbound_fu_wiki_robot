@@ -1,0 +1,37 @@
+{
+  "entity_id": "wizardlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wizard Robe Bottoms",
+  "name_zh": "法师长袍",
+  "description_en": "It's like a bathrobe, but for very serious wizards. Do wizards take a lot of baths?",
+  "description_zh": "看起来像一件浴衣，但它是属于一个非常厉害的法师的。法师们都很爱洗澡吗？",
+  "rarity": "Uncommon",
+  "category": "legwear",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "glitchmission1Rare4",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "royaltreasure",
+          "probability": 0.28,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

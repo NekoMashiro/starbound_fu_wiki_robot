@@ -1,0 +1,106 @@
+{
+  "entity_id": "mutavisksilk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutavisk Silk",
+  "name_zh": "飞螳丝",
+  "description_en": "Superior, resistant and durable silk fibres.",
+  "description_zh": "一种优质、耐用的纤维。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_isovapitdae_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "gyrostabilizer",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Snarshing Table",
+      "station_zh": "分宴之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Esoteric Research",
+          "name_zh": "深奥的研究"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "kirhostier5shead",
+          "kirhostier6shead",
+          "mutachitinhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 3,
+        "examples": [
+          "kirhostier5schest",
+          "kirhostier6schest",
+          "mutachitinchest"
+        ]
+      },
+      "legarmour": {
+        "count": 3,
+        "examples": [
+          "kirhostier5spants",
+          "kirhostier6spants",
+          "mutachitinpants"
+        ]
+      },
+      "mace": {
+        "count": 1,
+        "examples": [
+          "aetheriummace"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mutaviskthread"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mutaviskHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "fujellyblock"
+  ],
+  "quality_tier": "S"
+}

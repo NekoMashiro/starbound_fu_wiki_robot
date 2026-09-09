@@ -1,0 +1,34 @@
+{
+  "entity_id": "fucopperbomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Copper Bomb",
+  "name_zh": "变铜炸弹",
+  "description_en": "Alchemical creation! Turn tiles into copper!",
+  "description_zh": "炼金大发明！它可以把块变成铜！",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 50,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

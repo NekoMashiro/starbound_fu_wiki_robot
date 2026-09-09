@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_shield_arioforgedShield",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arioforged Shield",
+  "name_zh": "风铸护盾",
+  "description_en": "A gold framed shield for combat protection.",
+  "description_zh": "边缘镶金的护盾，在战斗中提供防护。",
+  "rarity": "Uncommon",
+  "category": "shield",
+  "price": 400,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_ariostone",
+          "count": 8
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

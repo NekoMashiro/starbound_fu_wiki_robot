@@ -1,0 +1,36 @@
+{
+  "entity_id": "shadowresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Barrier",
+  "name_zh": "EPP模块（暗影屏障）",
+  "description_en": "An EPP module that resists the Shadow element.\r\n+10% Shadow Resist\r\nImmune: Shadow Taint",
+  "description_zh": "一个能够抵抗暗影元素的EPP模块。\n暗影抗性+10%；\n免疫：暗影污染",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "effigiumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

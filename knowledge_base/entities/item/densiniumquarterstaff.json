@@ -1,0 +1,56 @@
+{
+  "entity_id": "densiniumquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Quarterstaff",
+  "name_zh": "超致密长棍",
+  "description_en": "An extremely dense, heavy staff.\r\nInflicts Electrified",
+  "description_zh": "一把高密度高质量的长棍。\n感电",
+  "rarity": "legendary",
+  "category": "Quarterstaff",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 6.56,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffelementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

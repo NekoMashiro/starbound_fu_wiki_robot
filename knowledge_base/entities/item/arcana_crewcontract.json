@@ -1,0 +1,58 @@
+{
+  "entity_id": "arcana_crewcontract",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Crew Contract",
+  "name_zh": "船员合同",
+  "description_en": "A crew contract. Use it to summon someone to join your crew!",
+  "description_zh": "一份船员合同。使用以召唤一个人成为你的船员！",
+  "rarity": "Common",
+  "category": "mysteriousReward",
+  "price": 500,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 5,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_contractbook",
+          "probability": 1.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_crewcontractcommon",
+          "probability": 1.0,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_crewcontractuncommon",
+          "probability": 1.0,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_crewcontractrare",
+          "probability": 1.0,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0008
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0724,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

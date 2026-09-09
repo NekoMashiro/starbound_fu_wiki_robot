@@ -1,0 +1,64 @@
+{
+  "entity_id": "vanusflowerseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vanus Flower Seed",
+  "name_zh": "金星花种子",
+  "description_en": "Protects the user from harm.",
+  "description_zh": "可以收获金星花，食用后会提高防御。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 25,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 92
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 21
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "automatoseed",
+          "count": 3
+        },
+        {
+          "item": "petalyellow",
+          "count": 5
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vanusflowerHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

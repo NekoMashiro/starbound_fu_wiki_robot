@@ -1,0 +1,59 @@
+{
+  "entity_id": "xithricitebow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Bow",
+  "name_zh": "赛德瑞瑟之弓",
+  "description_en": "Interdimensional Hunting.",
+  "description_zh": "跨越维度的狩猎。",
+  "rarity": "Legendary",
+  "category": "bow",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "critChance": 6,
+  "critBonus": 30,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "negablast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 8
+        },
+        {
+          "item": "liquidaether",
+          "count": 30
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

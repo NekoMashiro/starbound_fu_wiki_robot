@@ -1,0 +1,46 @@
+{
+  "entity_id": "fu_crewbed0new",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crappy Crew Bed",
+  "name_zh": "糟糕的船员床",
+  "description_en": "These crappy beds attach to a wall. Horribly uncomfortable. Can only place 4. Crew +1. Counts as a deed. BYOS Only",
+  "description_zh": "这些蹩脚的床贴在墙上。十分不舒适。只能放4个。 \n船员上限+1。\n视为一份契约。\n只限BYOS",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Crappy Crew Bed.md",
+  "quality_tier": "A"
+}

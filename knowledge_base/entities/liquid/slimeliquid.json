@@ -1,0 +1,39 @@
+{
+  "entity_id": "slimeliquid",
+  "entity_type": "liquid",
+  "source_mod": "Starbound",
+  "name_en": "slimeliquid",
+  "name_zh": "",
+  "description_en": "Vile, sticky slime.",
+  "description_zh": "真麻烦，黏糊糊的粘液。",
+  "status_effects": [
+    "slimeslow"
+  ],
+  "interactions": [
+    {
+      "liquid": 8,
+      "liquidResult": 2
+    },
+    {
+      "liquid": 2,
+      "liquidResult": 2
+    },
+    {
+      "liquid": 52,
+      "liquidResult": 2
+    },
+    {
+      "liquid": 1,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 3,
+      "liquidResult": 41
+    },
+    {
+      "liquid": 73,
+      "liquidResult": 3
+    }
+  ],
+  "quality_tier": "C"
+}

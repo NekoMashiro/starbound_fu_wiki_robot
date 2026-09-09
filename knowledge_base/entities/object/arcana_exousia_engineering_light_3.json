@@ -1,0 +1,65 @@
+{
+  "entity_id": "arcana_exousia_engineering_light_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aionier Large Toplight",
+  "name_zh": "诸世代大型顶灯",
+  "description_en": "A large red ceiling lamp for lighting engineering spaces.",
+  "description_zh": "用于照明工程空间的大型红色吸顶灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 190,
+  "tags": [
+    "light",
+    "exousia"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_rufesciteComposite",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

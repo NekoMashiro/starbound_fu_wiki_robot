@@ -1,0 +1,50 @@
+{
+  "entity_id": "druidstaff2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nature's Wrath",
+  "name_zh": "自然之怒",
+  "description_en": "Fashioned from bones and petrified wood.\r\nFloran",
+  "description_zh": "用骨头和化石木制成。\n叶族",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "thornburst",
+  "altAbilityType": "vinebarrier",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "druidstaff",
+          "count": 1
+        },
+        {
+          "item": "morphiteore",
+          "count": 12
+        },
+        {
+          "item": "neuropod",
+          "count": 4
+        },
+        {
+          "item": "mutagene4",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

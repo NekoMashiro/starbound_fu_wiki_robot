@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_chemhyde_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Chemhyde Outfit",
+  "name_zh": "化匿外衣",
+  "description_en": "A simple combat outfit for the Anarkyons.",
+  "description_zh": "黑鸩党的简易战斗服。",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 1200,
+  "tags": [],
+  "level": 4,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_anarkyonselite",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

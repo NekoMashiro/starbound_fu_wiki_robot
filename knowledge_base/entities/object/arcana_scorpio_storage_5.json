@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_scorpio_storage_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Scorpio Large Crate",
+  "name_zh": "天蝎大型箱子",
+  "description_en": "A secure crate for storing essential goods.",
+  "description_zh": "贵重物品在这会很安全",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 140,
+  "tags": [
+    "scorpio",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Scorpio Furniture Printer",
+      "station_zh": "天蝎家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "scorpio.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

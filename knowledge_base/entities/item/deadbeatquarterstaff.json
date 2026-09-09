@@ -1,0 +1,60 @@
+{
+  "entity_id": "deadbeatquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Quarterstaff",
+  "name_zh": "废料长棍",
+  "description_en": "Rusty chainsaws taped to the ends? Sure. Why not. Seems totally viable.",
+  "description_zh": "把生锈的链锯贴在两端？当然，为什么不呢？这完全行得通。",
+  "rarity": "uncommon",
+  "category": "Quarterstaff",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "deadbeat"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 2,
+  "critBonus": 9,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffspin",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

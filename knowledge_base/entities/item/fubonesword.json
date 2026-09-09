@@ -1,0 +1,50 @@
+{
+  "entity_id": "fubonesword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Longsword",
+  "name_zh": "骨制长剑",
+  "description_en": "Hellishly creepy. Devilishly stylish.\r\nFloran",
+  "description_zh": "这把武器拥有令人毛骨悚然的外形。\n叶族",
+  "rarity": "common",
+  "category": "longsword",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6.3,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 2
+        },
+        {
+          "item": "coalore",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "normalapiary",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apiary",
+  "name_zh": "蜂房",
+  "description_en": "A bee breeding apiary.",
+  "description_zh": "小小的蜜蜂的家。",
+  "rarity": "common",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "hive",
+    "bees",
+    "insects"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Apiary.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,77 @@
+{
+  "entity_id": "laspistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Laser Pistol",
+  "name_zh": "激光手枪",
+  "description_en": "A common sidearm in the galaxy.\r\nReliable\r\nCounts as 'Energy' for set bonuses",
+  "description_zh": "星际中的一种常见手枪。\n可靠\n能量武器",
+  "rarity": "common",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0063,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0012,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

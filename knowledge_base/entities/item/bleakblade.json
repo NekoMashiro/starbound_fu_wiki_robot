@@ -1,0 +1,39 @@
+{
+  "entity_id": "bleakblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Bleak Blade",
+  "name_zh": "荒芜之刃",
+  "description_en": "A legendary Nightarian blade. It's said it can cleave time and space.",
+  "description_zh": "传说中的夜族之刃。据说可以斩开时空。",
+  "rarity": "legendary",
+  "category": "longsword",
+  "price": 13600,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "silverweapon",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 1,
+  "critBonus": 12,
+  "primaryAbilityType": "battlebladecombo",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0173,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

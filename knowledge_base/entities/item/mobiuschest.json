@@ -1,0 +1,77 @@
+{
+  "entity_id": "mobiuschest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sentry Plate",
+  "name_zh": "哨兵胸甲",
+  "description_en": "Set Bonuses:\r\n Energy/Health x1.15\r\n Energy Rifles: Damage x1.25",
+  "description_zh": "套装奖励：\n 能量/最大HPx1.15\n 能量步枪: 伤害x1.25",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 700,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0067,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0042,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0042,
+        0.0067
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

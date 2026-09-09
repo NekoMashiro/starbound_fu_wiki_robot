@@ -1,0 +1,98 @@
+{
+  "entity_id": "arcana_misc_aeonLeaf",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Leaf",
+  "name_zh": "纪元叶",
+  "description_en": "A piece of metal leaf.",
+  "description_zh": "一片金属叶。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 220,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_perpetualLeaf",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_nullatusBar",
+          "arcana_sigils_aeonSigil"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "arcana_food_allslainbreakfast"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aeon_chest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aeon_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_aeon_legs"
+        ]
+      },
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_aeonFreezer"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 12,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        },
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wiki_ref": "Aeon Leaf.md",
+  "quality_tier": "S"
+}

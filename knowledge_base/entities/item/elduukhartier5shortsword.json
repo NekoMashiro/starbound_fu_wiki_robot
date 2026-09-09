@@ -1,0 +1,49 @@
+{
+  "entity_id": "elduukhartier5shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fused Thanatite Shortsword",
+  "name_zh": "熔炼的心叶石短剑",
+  "description_en": "An elegantblade, more compact than its predecessor.",
+  "description_zh": "一把优雅的刀刃，比它的前身更加简洁。",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 540,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thanatite",
+          "count": 15
+        },
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

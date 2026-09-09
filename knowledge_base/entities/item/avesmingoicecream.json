@@ -1,0 +1,102 @@
+{
+  "entity_id": "avesmingoicecream",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avesmingo Ice Cream",
+  "name_zh": "百味果冰淇淋",
+  "description_en": "Avesmingos can taste like anything! For better or worse, so can this ice cream. Type: Fruit Dairy Dessert",
+  "description_zh": "百味果尝起来像任何东西！无论是好是坏，这个冰淇淋也一样。\n类型: 水果蛋奶甜食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "avesmingoicecreamobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "avesmingo",
+          "count": 1
+        },
+        {
+          "item": "milk",
+          "count": 1
+        },
+        {
+          "item": "snowball",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "avesmingoicecreamobject"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "bananasplit"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "blueprints_unlocked": [
+    "bananasplit"
+  ],
+  "quality_tier": "S"
+}

@@ -1,0 +1,109 @@
+{
+  "entity_id": "arcana_misc_nanoweave",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Nanoweave",
+  "name_zh": "纳米织布",
+  "description_en": "A modern fabric that's specialized to drastically increase elasticity and resistance.",
+  "description_zh": "专门大幅强化弹性和抗性的现代面料。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 220,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_exousia_soldat_legs",
+          "arcana_armor_exousia_wachter_legs",
+          "arcana_armor_heishe_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_exousia_soldat_head",
+          "arcana_armor_exousia_wachter_head",
+          "arcana_armor_heishe_head"
+        ]
+      },
+      "chestwear": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_exousia_soldat_chest",
+          "arcana_armor_exousia_wachter_chest",
+          "arcana_armor_heishe_chest"
+        ]
+      },
+      "backwear": {
+        "count": 2,
+        "examples": [
+          "arcana_back_nanoweaveCape",
+          "arcana_back_whiteNanoweaveCape"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "arcana_exousia_tech_chair_1"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_healItem_5"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_sigils_vermilionSigil"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "exousia_tile11"
+        ]
+      }
+    },
+    "total": 16
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_exousianTech",
+          "probability": 1.2,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

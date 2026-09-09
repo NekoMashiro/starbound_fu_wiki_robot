@@ -1,0 +1,39 @@
+{
+  "entity_id": "fu_ftldrivesmall_broken",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "(Broken) Small FTL Drive",
+  "name_zh": "已损坏的小型FTL引擎",
+  "description_en": "A small FTL drive, built to travel the stars. This one's broken.",
+  "description_zh": "星际飞船的超光速驱动器。允许你进行星际旅行。它坏了。",
+  "rarity": "uncommon",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science",
+    "broken"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "solidfuel",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

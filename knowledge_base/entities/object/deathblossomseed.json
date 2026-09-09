@@ -1,0 +1,79 @@
+{
+  "entity_id": "deathblossomseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Deathblossom",
+  "name_zh": "死亡蘑菇孢子",
+  "description_en": "Deathblossoms are not what you'd call a good snack. They do kill quite well, though.",
+  "description_zh": "可以收获死亡蘑菇，可以用来作为投掷型武器。它并不能纳入你的“零食”范畴内，使敌人死亡则是它的最大优点。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 36
+        },
+        {
+          "item": "cell_mutated",
+          "count": 1
+        },
+        {
+          "item": "shockshroomseed",
+          "count": 3
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 40
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 21
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "bellamorte"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deathblossomHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

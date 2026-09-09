@@ -1,0 +1,55 @@
+{
+  "entity_id": "aeolus_tile7",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sail Block",
+  "name_zh": "帆布块",
+  "description_en": "A durable sail made from paper and texiles.",
+  "description_zh": "使用纸和织物制成的耐用帆布。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_treasure_aeolus_tile7",
+          "probability": 1.0,
+          "count": 55.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

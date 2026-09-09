@@ -1,0 +1,62 @@
+{
+  "entity_id": "mwhaddon_maple_cannon_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Maple Cannon",
+  "name_zh": "枫丹大炮",
+  "description_en": "A simple maple colored launcher made with copper, iron and orange dye.",
+  "description_zh": "用铜、铁和橙色染料制成的简单的枫木色大炮。",
+  "rarity": "Common",
+  "category": "rocketLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 11,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

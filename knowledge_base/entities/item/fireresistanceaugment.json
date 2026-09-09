@@ -1,0 +1,36 @@
+{
+  "entity_id": "fireresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fire Barrier",
+  "name_zh": "EPP模块（火炎屏障）",
+  "description_en": "An EPP module that resists the Fire element, +25% Fire Resist, Burn Immunity.",
+  "description_zh": "一个能够抵抗火炎元素的EPP模块。\n火炎抗性+25%；免疫燃烧",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "scorchedcore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

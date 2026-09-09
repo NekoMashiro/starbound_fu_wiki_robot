@@ -1,0 +1,32 @@
+{
+  "entity_id": "asranoxaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Asra Nox Figurine",
+  "name_zh": "阿斯拉·诺克斯手办",
+  "description_en": "The label reads, \"The cold-hearted human leader of the Occasus cult. She wields a solarium-infused katana.\"",
+  "description_zh": "标签上写着：“这是个陨日邪教的人类头目。她挥舞着一把充盈日耀之力的武士刀。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "asranoxTreasure",
+          "probability": 0.0556,
+          "count": 1,
+          "monsters": [
+            "cultistboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

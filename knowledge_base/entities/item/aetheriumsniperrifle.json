@@ -1,0 +1,57 @@
+{
+  "entity_id": "aetheriumsniperrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Vindicator",
+  "name_zh": "阳清复仇者",
+  "description_en": "Dangerous and supremely accurate.\r\nEnergy weapon",
+  "description_zh": "危险而极其精确。\n能量武器",
+  "rarity": "legendary",
+  "category": "sniperRifle",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 14,
+  "critChance": 1,
+  "critBonus": 5,
+  "altAbilityType": "energynet",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

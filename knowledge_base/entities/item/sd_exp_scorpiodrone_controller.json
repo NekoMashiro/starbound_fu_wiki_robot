@@ -1,0 +1,40 @@
+{
+  "entity_id": "sd_exp_scorpiodrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Scorpio DJ Drone Controller",
+  "name_zh": "天蝎DJ手无人机",
+  "description_en": "A Scorpio DJ Drone.Let's dance!.\r\n    [Primary]Spawn/Despawn，[Alt]emit a terrain-detecting ping.Can be used to detect entities.\r\n    (Note：This one plays music when you scan.)",
+  "description_zh": "一台机械DJ手！让我们舞林对决！\n[左键]释放/收回,[右键]发射侦测脉冲，能用来检测实体。\n注：这台无人机会播放奔雷星的地下音乐。",
+  "rarity": "Legendary",
+  "category": "^#DBC5A6;侦察无人机工具",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "plantshopcounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shop Counter, Floran",
+  "name_zh": "叶族售货柜台",
+  "description_en": "Drop on in, they won't bite! Probably.",
+  "description_zh": "进来吧，他们不会咬人的！也许吧。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

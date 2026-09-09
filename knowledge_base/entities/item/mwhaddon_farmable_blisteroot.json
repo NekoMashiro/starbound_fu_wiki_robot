@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_farmable_blisteroot",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Blisteroot",
+  "name_zh": "灼薯",
+  "description_en": "Taste like a fire potato.",
+  "description_zh": "尝起来像火焰土豆。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 120,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_food_dryStew"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_farmable_blisteroot",
+          "probability": 1.44,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "fridge",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Full-Size Fridge",
+  "name_zh": "冰箱",
+  "description_en": "Perfect for storing a lot of food and keeping it fresh.",
+  "description_zh": "很适合储存大量食物和保持它们的新鲜度。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 180,
+  "tags": [
+    "human",
+    "humanvillage",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

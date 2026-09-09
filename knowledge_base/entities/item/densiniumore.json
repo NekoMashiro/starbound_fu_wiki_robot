@@ -1,0 +1,179 @@
+{
+  "entity_id": "densiniumore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Ore",
+  "name_zh": "超致密矿",
+  "description_en": "A rare, multi-phasic, super-dense ore. Impossibly hard.",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "craftingOre",
+  "price": 400,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "densiniumbar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "machine_processing": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "densiniumbar",
+      "bonus": [
+        "liquidironfu",
+        "fu_carbon"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 11,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0252,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0015,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0252
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0124,
+          "count": 7.5,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0094,
+          "count": 12
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0079,
+          "count": 7.5,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0049,
+          "count": 7.5
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0034,
+          "count": 3
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.002,
+          "count": 7.5
+        }
+      ],
+      "prob_range": [
+        0.002,
+        0.0094
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.007,
+          "count": 12,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "metallicunderground",
+      "weight": 0.55
+    },
+    {
+      "biome": "futentacleunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "fleshcorelayer",
+      "weight": 0.5
+    },
+    {
+      "biome": "ffshadow",
+      "weight": 0.5
+    },
+    {
+      "biome": "tentacleasteroid",
+      "weight": 0.5
+    },
+    {
+      "biome": "fftarpit",
+      "weight": 0.5
+    },
+    {
+      "biome": "lightlessunderground",
+      "weight": 0.5
+    },
+    {
+      "biome": "metalworks3",
+      "weight": 0.45
+    },
+    {
+      "biome": "sulphuricunderground",
+      "weight": 0.45
+    },
+    {
+      "biome": "metalworks2",
+      "weight": 0.45
+    }
+  ],
+  "wiki_ref": "Densinium Ore.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "ppboxes",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prop Packaging Boxes",
+  "name_zh": "道具包装盒",
+  "description_en": "A stack of Prop Pack delivery boxes. Is anything inside?",
+  "description_zh": "一堆道具包投递箱。里面有东西吗？",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

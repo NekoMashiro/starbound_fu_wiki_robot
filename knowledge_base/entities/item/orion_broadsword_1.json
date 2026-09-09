@@ -1,0 +1,63 @@
+{
+  "entity_id": "orion_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "OC Voltaic Razor",
+  "name_zh": "俄里翁电流剃刀",
+  "description_en": "A high-tech broadsword used by the Orion. Inflicts Eletrified.",
+  "description_zh": "俄里翁使用的高科技阔剑。造成带电。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "electric",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 13.0,
+  "primaryAbilityType": "arcana_broadswordfast",
+  "altAbilityType": "kunaiblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 8
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_armblade_thunderbolt"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

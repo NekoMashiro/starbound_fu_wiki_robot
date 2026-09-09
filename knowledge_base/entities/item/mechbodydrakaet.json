@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechbodydrakaet",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Drakaet Mech Body",
+  "name_zh": "德拉克机甲躯体",
+  "description_en": "Immune: Pressure, Extreme Cold, Mild Heat/Radiation/Poison, Proto, L.Nitro\n+20% Armor, -10% Fuel",
+  "description_zh": "免疫：极端寒冷，轻度炎热/辐射/毒素，原毒，液氮，压强\n+20%护甲，-10%燃料",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 9200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 20
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 5
+        },
+        {
+          "item": "powercore",
+          "count": 2
+        },
+        {
+          "item": "advcircuit",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

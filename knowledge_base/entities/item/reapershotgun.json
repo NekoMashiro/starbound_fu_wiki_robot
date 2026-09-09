@@ -1,0 +1,62 @@
+{
+  "entity_id": "reapershotgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tk-2 Showstopper",
+  "name_zh": "Tk-2 搅局者",
+  "description_en": "Fires freezing dark matter flechettes.\r\nFreezes enemies",
+  "description_zh": "发射冻结暗物质的碎片。\n冻结敌人",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hoarfrost",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.5,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "forcebubble",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "darkmatter",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

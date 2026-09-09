@@ -1,0 +1,66 @@
+{
+  "entity_id": "coralcreep",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Coralcreep",
+  "name_zh": "珊瑚果",
+  "description_en": "The coralcreep fruit turns red when cooked, like a lobster. Type: Fruit",
+  "description_zh": "煮熟的珊瑚果会变红，像一只龙虾。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralcreepbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 7,
+        "examples": [
+          "brineapple",
+          "coralcreepcurry",
+          "oceansalsa",
+          "oceansurprise",
+          "saltsalad"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "coralcreepbasket"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "coralcreepHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "seafoodgratin",
+    "soggysack"
+  ],
+  "quality_tier": "S"
+}

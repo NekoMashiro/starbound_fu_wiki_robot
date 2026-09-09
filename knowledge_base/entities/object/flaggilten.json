@@ -1,0 +1,34 @@
+{
+  "entity_id": "flaggilten",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Gilten Flag",
+  "name_zh": "镀人旗帜",
+  "description_en": "An Gilten flag, with the symbol of the Collective. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面镀人旗，上有恒金联合的符号。按[E]为传送位置添加书签。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "gilten"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

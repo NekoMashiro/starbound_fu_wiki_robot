@@ -1,0 +1,131 @@
+{
+  "entity_id": "arcana_bar_corrodiumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Corrodium Bar",
+  "name_zh": "蚀金锭",
+  "description_en": "A corroded metal that has been soaked in viridescent acid for decades.",
+  "description_zh": "这些被侵蚀的老金属，在翠毒酸中浸泡了几十年。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 240,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_corrodiumOre",
+          "count": 1
+        },
+        {
+          "item": "liquidpoison",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1440
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 16,
+        "examples": [
+          "arcana_luye_bookcase_1",
+          "arcana_luye_storage_1",
+          "arcana_luye_storage_2",
+          "arcana_luye_storage_3",
+          "arcana_luye_storage_4"
+        ]
+      },
+      "decorative": {
+        "count": 14,
+        "examples": [
+          "arcana_luye_deco_1",
+          "arcana_luye_deco_2",
+          "arcana_luye_deco_3",
+          "arcana_luye_deco_4",
+          "arcana_luye_deco_7"
+        ]
+      },
+      "block": {
+        "count": 5,
+        "examples": [
+          "luye_tile1",
+          "luye_tile2",
+          "luye_tile3",
+          "luye_tile4",
+          "luye_tile5"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "arcana_luye_bed_1",
+          "arcana_luye_bed_2",
+          "arcana_luye_crafting_1"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "arcana_auto_battery_2",
+          "arcana_luye_crafting_2"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_aureolaBar",
+          "arcana_sigils_poisonSigil"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_heishe_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_heishe_legs"
+        ]
+      }
+    },
+    "total": 50
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_corrodiumBar"
+  ],
+  "wiki_ref": "Corrodium Bar.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "arcana_core_table_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Core Table",
+  "name_zh": "炉芯桌",
+  "description_en": "A scorching table made from core fragments.",
+  "description_zh": "由炉芯碎片制成的炙热桌子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 300,
+  "tags": [
+    "core"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Frogg Furnishing",
+      "station_zh": "蛤蛤家具",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

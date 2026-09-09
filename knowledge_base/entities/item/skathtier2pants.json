@@ -1,0 +1,62 @@
+{
+  "entity_id": "skathtier2pants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bogwalker Trousers",
+  "name_zh": "沼行者护腿",
+  "description_en": "Set Bonuses:\r\n Assault Rifle/Shortsword: Damage x1.13",
+  "description_zh": "套装奖励:\n 突击步枪/短剑: 伤害 x1.13",
+  "rarity": "common",
+  "category": "legarmour",
+  "price": 100,
+  "tags": [
+    "tier2armour",
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier1pants",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "skathtier3spants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

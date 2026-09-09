@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_back_solarFangs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Solar Fangs",
+  "name_zh": "日光之牙",
+  "description_en": "Decorative solar branches.",
+  "description_zh": "装饰用的日光树枝。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 4
+        },
+        {
+          "item": "solar_crafting_solarCore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

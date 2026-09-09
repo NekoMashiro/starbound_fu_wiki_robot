@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_chargeflowPotion",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Chargeflow Potion",
+  "name_zh": "流电药水",
+  "description_en": "A potion for negating the overflowing energy discharged by the Superstorm Stars.\r\n+10% Electric RES and Supercharged prot. for 2 minutes.",
+  "description_zh": "一种用于抵消奔雷星溢散能量的药水。\n+10%雷鸣抗性和过充能免疫，持续2分钟。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 400,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bottledwater",
+          "count": 1
+        },
+        {
+          "item": "silverore",
+          "count": 8
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

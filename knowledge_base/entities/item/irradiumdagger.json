@@ -1,0 +1,64 @@
+{
+  "entity_id": "irradiumdagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Dagger",
+  "name_zh": "镭制匕首",
+  "description_en": "Swift and deadly.\r\nInflicts Rad-Burn",
+  "description_zh": "迅速且致命。\n辐射燃烧效果 ",
+  "rarity": "rare",
+  "category": "dagger",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "irradium",
+    "upgradeableWeapon",
+    "radioactive"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 9.1,
+  "critChance": 2,
+  "critBonus": 3,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 2
+        },
+        {
+          "item": "ff_mercury",
+          "count": 1
+        },
+        {
+          "item": "liquidirradium",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

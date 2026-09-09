@@ -1,0 +1,40 @@
+{
+  "entity_id": "drysand",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dry Sand",
+  "name_zh": "干沙",
+  "description_en": "Hard, cracked sand that shatters underfoot.\nExtractable, Siftable, Smeltable.",
+  "description_zh": "一踩就会碎的坚硬的干沙。\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

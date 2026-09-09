@@ -1,0 +1,31 @@
+{
+  "entity_id": "holidaycandles",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Festive Candles",
+  "name_zh": "节日蜡烛",
+  "description_en": "A set of candles.",
+  "description_zh": "一组蜡烛。",
+  "rarity": "Uncommon",
+  "category": "light",
+  "price": 750,
+  "tags": [
+    "christmas",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "holidayspirit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Toymaker's Table",
+      "station_zh": "玩具商桌子",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

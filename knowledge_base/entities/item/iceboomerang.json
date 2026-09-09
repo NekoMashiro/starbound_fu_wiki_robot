@@ -1,0 +1,78 @@
+{
+  "entity_id": "iceboomerang",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Frozen Boomerang",
+  "name_zh": "冷冻飞镖",
+  "description_en": "A freezing cold boomerang with a frozen core.",
+  "description_zh": "一个寒冷的飞镖与冰冻核心。",
+  "rarity": "Legendary",
+  "category": "boomerang",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "ice",
+    "boomerang"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "boomerang",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "iceboomerang_l6.png",
+    "seed": "",
+    "shortdescription": "冷冻飞镖^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Frozen Boomerang.md",
+  "quality_tier": "A"
+}

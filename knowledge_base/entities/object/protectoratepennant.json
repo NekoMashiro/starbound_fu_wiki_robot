@@ -1,0 +1,49 @@
+{
+  "entity_id": "protectoratepennant",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Pennant",
+  "name_zh": "大地守护团旗",
+  "description_en": "A novelty hangable pennant, sporting the logo of the Protectorate.",
+  "description_zh": "一种新颖的可悬挂的旗帜，上面有大地守护团的标志。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "protectorate"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "protectorateset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

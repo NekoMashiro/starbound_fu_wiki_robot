@@ -1,0 +1,37 @@
+{
+  "entity_id": "geodelegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Geode Trousers",
+  "name_zh": "晶洞裤子",
+  "description_en": "Some speckled, comfortable trousers.",
+  "description_zh": "有斑点的舒适裤子。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "geodeChestTreasure",
+          "probability": 0.1724,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "geodeTreasure",
+          "probability": 0.0937,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

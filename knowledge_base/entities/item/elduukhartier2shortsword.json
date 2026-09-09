@@ -1,0 +1,53 @@
+{
+  "entity_id": "elduukhartier2shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Emera Shortsword",
+  "name_zh": "艾米拉短剑",
+  "description_en": "This sword teaches the crafter to create a sword only with crystal.",
+  "description_zh": "这把剑教导工匠们如何只以水晶为材料锻造一把剑。",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "emera",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 15
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

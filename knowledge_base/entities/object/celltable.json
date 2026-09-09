@@ -1,0 +1,49 @@
+{
+  "entity_id": "celltable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cell Table",
+  "name_zh": "细胞桌",
+  "description_en": "A clean, brightly coloured table.",
+  "description_zh": "一张干净，鲜艳的桌子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 85,
+  "tags": [
+    "cell",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 25
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

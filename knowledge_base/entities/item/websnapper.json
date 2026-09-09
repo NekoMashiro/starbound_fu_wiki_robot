@@ -1,0 +1,31 @@
+{
+  "entity_id": "websnapper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Web Shooter",
+  "name_zh": "蛛丝射手",
+  "description_en": "Well, that's pretty useful. And a bit horrifying. Weighted.",
+  "description_zh": "嗯，这非常有用。而且有点可怕。",
+  "rarity": "Legendary",
+  "category": "Tool",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "frankLootBoss",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "bighairyfrankboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

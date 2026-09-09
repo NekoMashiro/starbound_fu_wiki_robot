@@ -1,0 +1,62 @@
+{
+  "entity_id": "aetheriumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetherium Spear",
+  "name_zh": "阳清矛",
+  "description_en": "Harnessed chaos, ready to poke your friends.\r\nHunting weapon",
+  "description_zh": "利用混乱，准备好去痛戳你的队友。\n狩猎武器",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "energy",
+    "upgradeableWeapon",
+    "aetherium",
+    "cosmic"
+  ],
+  "elementalType": "aether",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 11.9,
+  "critChance": 3,
+  "critBonus": 12,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "rocketspear",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 6
+        },
+        {
+          "item": "densiniumbar",
+          "count": 3
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

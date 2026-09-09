@@ -1,0 +1,45 @@
+{
+  "entity_id": "workshop_auto_generator",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "[Power] Fuel Generator",
+  "name_zh": "[动力]能源发电机",
+  "description_en": "A standard generator, useful for powering a large quantity of factory machines. Requires refined fuel cells to run.",
+  "description_zh": "标准能源电池发电机，适合为大量工厂机器提供电力。需要精炼能源电池来运行。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 3200,
+  "tags": [
+    "factorypaint",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_reinforcedFrame",
+          "count": 12
+        },
+        {
+          "item": "workshop_crafting_plastic",
+          "count": 10
+        },
+        {
+          "item": "workshop_crafting_motor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "增强科技站",
+      "station_zh": "增强科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

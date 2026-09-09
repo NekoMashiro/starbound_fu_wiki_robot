@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_scorpio_storage_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Scorpio Drink Bar",
+  "name_zh": "天蝎水吧",
+  "description_en": "A bar with an assortment of drinks. Comes with a built-in cooling system.",
+  "description_zh": "一个可提供各种饮料的吧台。内置冷却系统",
+  "rarity": "Rare",
+  "category": "fridgeStorage",
+  "price": 220,
+  "tags": [
+    "scorpio",
+    "storage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Scorpio Furniture Printer",
+      "station_zh": "天蝎家具打印机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "scorpio.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

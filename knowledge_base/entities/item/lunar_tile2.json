@@ -1,0 +1,46 @@
+{
+  "entity_id": "lunar_tile2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Kuromatsu Window",
+  "name_zh": "黑松木窗",
+  "description_en": "A dark ornate wooden window tile, crafted by the Tsukuyomi clan.",
+  "description_zh": "华丽的深色木质窗花，由月见氏族氏族制作。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lunar_tile4",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

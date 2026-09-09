@@ -1,0 +1,53 @@
+{
+  "entity_id": "magmasofa",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Sofa",
+  "name_zh": "岩浆沙发",
+  "description_en": "This can't possibly be comfortable.",
+  "description_zh": "这肯定不舒服。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "magma",
+    "chair"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "magmawall3",
+          "count": 26
+        },
+        {
+          "item": "magmawall2",
+          "count": 12
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

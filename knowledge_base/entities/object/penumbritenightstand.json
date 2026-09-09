@@ -1,0 +1,46 @@
+{
+  "entity_id": "penumbritenightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Nightstand",
+  "name_zh": "半影床头柜",
+  "description_en": "A nightstand made from penumbrite.",
+  "description_zh": "用半影矿制成的床头柜。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "penumbrite",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

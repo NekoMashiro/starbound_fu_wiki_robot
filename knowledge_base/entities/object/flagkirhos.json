@@ -1,0 +1,35 @@
+{
+  "entity_id": "flagkirhos",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Flag",
+  "name_zh": "鼠族旗帜",
+  "description_en": "A flag used to identify radical Kirhosi movements. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面用来识别激进的鼠族运动的旗帜。使用[E]标记一个传送坐标。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 70,
+  "tags": [
+    "kirhos"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

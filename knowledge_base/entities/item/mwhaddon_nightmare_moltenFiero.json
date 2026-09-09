@@ -1,0 +1,47 @@
+{
+  "entity_id": "mwhaddon_nightmare_moltenFiero",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Molten Fiero",
+  "name_zh": "熔铁烈炎",
+  "description_en": "Blade of a fiery god.\nAttacks will ignite your enemy, ignited enemies receive extra damage when getting hits.",
+  "description_zh": "烈焰之神的剑。\n攻击会点燃你的敌人，点燃的敌人被击中时会受到额外伤害。",
+  "rarity": "essential",
+  "category": "broadsword",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "otherworldly"
+  ],
+  "elementalType": "fire",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 20,
+  "primaryAbilityType": "mwhaddon_heavyComboWithProj",
+  "altAbilityType": "arcana_glaive_chargeslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_coreOfWarth",
+          "count": 8
+        },
+        {
+          "item": "misc_broadsword_cinderedge",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

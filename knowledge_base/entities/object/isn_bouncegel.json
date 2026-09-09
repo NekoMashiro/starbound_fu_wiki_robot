@@ -1,0 +1,36 @@
+{
+  "entity_id": "isn_bouncegel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bounce Gel",
+  "name_zh": "弹力凝胶",
+  "description_en": "Place it on a surface to coat it in a gel that makes you bounce off.",
+  "description_zh": "给地形的表面涂上这种物质，可以让你弹弹弹。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "agaranichor",
+          "count": 1
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 1
+        },
+        {
+          "item": "fu_carbon",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

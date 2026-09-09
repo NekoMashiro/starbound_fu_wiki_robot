@@ -1,0 +1,66 @@
+{
+  "entity_id": "elderbookstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Antediluvian Texts",
+  "name_zh": "上古文本",
+  "description_en": "Compel entities beyond understanding to gift you with knowledge.",
+  "description_zh": "强迫超越理解的实体给你知识。",
+  "rarity": "legendary",
+  "category": "crafting",
+  "price": 5120,
+  "tags": [
+    "madness",
+    "insanity",
+    "elder"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elderbookstandrelic",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 5
+        },
+        {
+          "item": "elderrelic1",
+          "count": 1
+        },
+        {
+          "item": "elderrelic12",
+          "count": 1
+        },
+        {
+          "item": "elderrelic13",
+          "count": 1
+        },
+        {
+          "item": "elderblockmaterial",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Ancient Texts",
+      "station_zh": "古代文本",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        },
+        {
+          "name": "物质汇编机",
+          "name_zh": "物质汇编机"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

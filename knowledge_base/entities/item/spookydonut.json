@@ -1,0 +1,115 @@
+{
+  "entity_id": "spookydonut",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Spooky Donut",
+  "name_zh": "幽灵甜甜圈",
+  "description_en": "Too spooky. Type: Meaty Plant + Dairy + Eggs + Sugar",
+  "description_zh": "太怪异了。\n类型：肉性植物 + 蛋奶 + 甜食",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 440,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "spookydonutobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "milk",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "boneboo",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 65
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu",
+      "station_zh": "菜单",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "spookydonutobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

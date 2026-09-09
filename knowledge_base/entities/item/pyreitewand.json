@@ -1,0 +1,54 @@
+{
+  "entity_id": "pyreitewand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Wand",
+  "name_zh": "永燃魔杖",
+  "description_en": "Sufficiently Advanced Technology.",
+  "description_zh": "尤为先进的科技。",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "corefragmentore",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

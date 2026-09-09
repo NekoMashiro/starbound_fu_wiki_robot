@@ -1,0 +1,58 @@
+{
+  "entity_id": "FD|GrandCrossZana",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Grand Cross Zână",
+  "name_zh": "大十字 - 妖仙/Zână",
+  "description_en": "An unique gunblade weapon that has mana inside. Unlock its full power with the Skill Menu Item from the FutaraDragon race.",
+  "description_zh": "灌注法力的独特刃枪。通过FutaraDragon种族的技能菜单物品解锁其全部力量。",
+  "rarity": "Essential",
+  "category": "customskill",
+  "price": 0,
+  "tags": [
+    "customskill",
+    "range",
+    "dragonskill",
+    "uniquecustomweapon",
+    "uniqueWeapon"
+  ],
+  "level": 10,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "havencrest_machinePistol_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

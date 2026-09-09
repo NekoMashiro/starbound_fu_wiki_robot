@@ -1,0 +1,333 @@
+{
+  "entity_id": "polymer",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Plastic Polymer",
+  "name_zh": "塑料聚合物",
+  "description_en": "A handy, simple plastic with many uses.",
+  "description_zh": "方便，简单的塑料，用途广泛。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 9,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "methanol",
+          "count": 3
+        },
+        {
+          "item": "fu_salt",
+          "count": 2
+        },
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 8,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 3
+        }
+      ],
+      "output_count": 4,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 13,
+        "examples": [
+          "blisterchest",
+          "boosterchest",
+          "celestaruniform1chest",
+          "celestaruniform2chest",
+          "celestaruniform3chest"
+        ]
+      },
+      "legarmour": {
+        "count": 13,
+        "examples": [
+          "blisterpants",
+          "boosterlegs",
+          "celestaruniform1pants",
+          "celestaruniform2pants",
+          "celestaruniform3pants"
+        ]
+      },
+      "headarmour": {
+        "count": 9,
+        "examples": [
+          "blisterhelm",
+          "ff_gasmask",
+          "fubeekeeperhead",
+          "fubeesuithead",
+          "fuoperativehead"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "ff_plastic",
+          "ff_plastic",
+          "stickofram"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "bouncyball",
+          "waterballoon"
+        ]
+      },
+      "fuel": {
+        "count": 2,
+        "examples": [
+          "schrodingerscat",
+          "schrodingerscat"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "bughouse"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "copperarmorchest"
+        ]
+      }
+    },
+    "total": 52
+  },
+  "drop_sources": {
+    "total_pools": 155,
+    "monster_drops": {
+      "count": 54,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.8363,
+          "count": 5.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.1757,
+          "count": 10
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.1197,
+          "count": 10
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0652,
+          "count": 10
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0522,
+          "count": 10,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.8363
+      ]
+    },
+    "chest_loot": {
+      "count": 71,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.5676,
+          "count": 15.7
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.2346,
+          "count": 5
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.2327,
+          "count": 20
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 10.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0641,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.5676
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.313,
+          "count": 5,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.1545,
+          "count": 5,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 10.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 10.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.313
+      ]
+    },
+    "other": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.1264,
+          "count": 5,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 50
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0567,
+          "count": 10
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0378,
+          "count": 5
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.029,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1264
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 10.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 10.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 10.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 10.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 10.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0006,
+          "count": 10.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

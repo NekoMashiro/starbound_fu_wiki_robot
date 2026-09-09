@@ -1,0 +1,37 @@
+{
+  "entity_id": "glitchartifactaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Royal Medallion",
+  "name_zh": "皇家奖章",
+  "description_en": "+10% Shield Stamina/Bash\r\n+10% Knockback Resist\r\n+8% Axe/Hammer Mastery\r\nDefense x1.2",
+  "description_zh": "+10%盾牌耐久/反击\n+10%击退抗性\n+8%斧/锤专精\n防御x1.2",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 3
+        },
+        {
+          "item": "pyreitebar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "quality_tier": "A"
+}

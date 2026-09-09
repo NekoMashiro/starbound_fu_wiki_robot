@@ -1,0 +1,42 @@
+{
+  "entity_id": "fu_ftlBooster_large",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large FTL Booster",
+  "name_zh": "大型FTL加速器",
+  "description_en": "A thruster used for FTL travel.\nShip Speed: +32\nBYOS Only",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "light",
+  "price": 0,
+  "tags": [
+    "byos"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 192
+        },
+        {
+          "item": "liquidfuel",
+          "count": 72
+        },
+        {
+          "item": "blooddiamond",
+          "count": 16
+        },
+        {
+          "item": "pureerchius",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

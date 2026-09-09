@@ -1,0 +1,58 @@
+{
+  "entity_id": "reedlamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Reed Lamp",
+  "name_zh": "芦苇灯",
+  "description_en": "It looks like reed, but it's actually a lamp.",
+  "description_zh": "它看上去像芦苇，但实际上是盏灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 55,
+  "tags": [
+    "oasis",
+    "nature",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "reed",
+          "count": 20
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 3
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

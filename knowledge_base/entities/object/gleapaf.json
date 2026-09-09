@@ -1,0 +1,78 @@
+{
+  "entity_id": "gleapaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Gleap Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It's made from a springy substance.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "gleapHunting",
+          "probability": 0.002,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_arcaneGleap",
+            "gleap"
+          ]
+        },
+        {
+          "pool": "gleapalphaHunting",
+          "probability": 0.0012,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0012,
+        0.002
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "gleapVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "gleapTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_arcaneGleap",
+            "gleap"
+          ]
+        },
+        {
+          "pool": "gleapalphaTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "gleapalpha",
+            "gleapbeta"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "apexflagpole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apex Flag",
+  "name_zh": "猿人旗帜",
+  "description_en": "An Apex flag. The symbol of the Miniknog. Use [E] to bookmark a teleportation location.",
+  "description_zh": "一面猿人旗帜。科技发展部的象征。使用 [E] 来标记传送点。",
+  "rarity": "Common",
+  "category": "teleportMarker",
+  "price": 0,
+  "tags": [
+    "apex"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

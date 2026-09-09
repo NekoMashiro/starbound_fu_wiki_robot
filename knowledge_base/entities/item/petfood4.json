@@ -1,0 +1,89 @@
+{
+  "entity_id": "petfood4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Soylent Periwinkle",
+  "name_zh": "赛棱花",
+  "description_en": "Energize your pet! Don't ask what it's made from. Do Not Consume.\n-5% HP, Poisoned (1m)",
+  "description_zh": "用来喂食你的宠物，不要问它是什么做的。请勿使用。\n-5% HP, 中毒(持续1m)",
+  "rarity": "common",
+  "category": "petfood",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "meatchunk",
+          "count": 1
+        },
+        {
+          "item": "alienmeat",
+          "count": 1
+        },
+        {
+          "item": "rawpoultry",
+          "count": 1
+        },
+        {
+          "item": "energiflower",
+          "count": 4
+        }
+      ],
+      "output_count": 6,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 44
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "honeyscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Scythe",
+  "name_zh": "蜂蜜镰刀",
+  "description_en": "A clever use of honeycombs.\r\nInflicts Bee Stings",
+  "description_zh": "一种蜂巢的机智用法。\n 造成蜂刺效果",
+  "rarity": "rare",
+  "category": "scythe",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 8,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_liquidhoney",
+          "count": 50
+        },
+        {
+          "item": "fu_honeycombblock",
+          "count": 25
+        },
+        {
+          "item": "waxchunk",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

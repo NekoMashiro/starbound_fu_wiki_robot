@@ -1,0 +1,136 @@
+{
+  "entity_id": "darkmatter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Matter",
+  "name_zh": "暗物质",
+  "description_en": "The stuff of raw entropy across the universe.",
+  "description_zh": "整个宇宙的原始嫡。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 1
+        },
+        {
+          "item": "precursorgel",
+          "count": 1
+        },
+        {
+          "item": "shadowgasliquid",
+          "count": 20
+        },
+        {
+          "item": "ff_mercury",
+          "count": 12
+        }
+      ],
+      "output_count": 4,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 62500
+        },
+        {
+          "item": "essence",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 4,
+        "examples": [
+          "cultarmorhead",
+          "fubonusarmorhead",
+          "fuxithricitehead",
+          "wretchelhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "cultarmorchest",
+          "fubonusarmorchest",
+          "fuxithricitechest",
+          "wretchelchest"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "cultarmorpants",
+          "fubonusarmorpants",
+          "fuxithricitepants",
+          "wretchelpants"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "apiary_frame_entropic",
+          "hydrogencore",
+          "redmatter",
+          "unknowngene"
+        ]
+      },
+      "sniperRifle": {
+        "count": 4,
+        "examples": [
+          "reaperrailgun",
+          "reapersniper",
+          "rifleeffigiumfu",
+          "riflepyreitefu"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "astralnebulabed",
+          "cthulhuplush"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "eyeofyokar",
+          "fucosmicresistanceaugment2"
+        ]
+      },
+      "staff": {
+        "count": 2,
+        "examples": [
+          "corruptstaff",
+          "xithricitestaff"
+        ]
+      }
+    },
+    "total": 56
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "volcanicterraform",
+  "entity_type": "biome",
+  "source_mod": "Starbound",
+  "name_en": "Volcanic (Terraformed)",
+  "name_zh": "",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Volcanic (Terraformed)",
+  "friendly_name_zh": "",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "ashrockcritter",
+    "crabcano",
+    "crustoise",
+    "fennix",
+    "firekrawlcritter",
+    "firerockcritter",
+    "flurlcritter",
+    "glowbug",
+    "heathugger",
+    "ignome",
+    "loopacritter",
+    "magmawormcritter",
+    "peblit",
+    "phoenixfly",
+    "pyromantle",
+    "scandroid",
+    "smoglin",
+    "spindycritter",
+    "volcanicflowercritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:volcanic"
+      ]
+    ]
+  ],
+  "quality_tier": "D"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "fu_pickuprangeaugment3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Magnet III",
+  "name_zh": "EPP模块（自动拾取 III）",
+  "description_en": "Pulls items towards you from up to 20 blocks away.",
+  "description_zh": "自动拾取20格范围内的可拾取物品。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

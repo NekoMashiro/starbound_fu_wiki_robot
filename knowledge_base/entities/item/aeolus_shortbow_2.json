@@ -1,0 +1,57 @@
+{
+  "entity_id": "aeolus_shortbow_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Zephyr",
+  "name_zh": "西风神弓",
+  "description_en": "A shortbow that fires light arrows at an extremely fast speed.",
+  "description_zh": "以极快速度发射光箭的短弓。",
+  "rarity": "Rare",
+  "category": "bow",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8.2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aeolus_shortbow_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

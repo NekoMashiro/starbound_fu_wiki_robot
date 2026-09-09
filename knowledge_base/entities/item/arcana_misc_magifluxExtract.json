@@ -1,0 +1,101 @@
+{
+  "entity_id": "arcana_misc_magifluxExtract",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magiflux Extract",
+  "name_zh": "奥融提取物",
+  "description_en": "A small extract of potent arcane essence.",
+  "description_zh": "从极有可能是奥术精纯的物质中提取出来的一小部分。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 10,
+        "examples": [
+          "arcana_misc_fluorescentBeacon",
+          "arcana_misc_herb",
+          "arcana_misc_oceaniteComposite",
+          "coralfragment",
+          "elemental_crafting_anemoneWood"
+        ]
+      },
+      "block": {
+        "count": 5,
+        "examples": [
+          "arcana_tile11",
+          "arcana_tile13",
+          "arcana_tile14",
+          "arcana_tile20",
+          "havencrest_tile5"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "arcana_magiksensePotion",
+          "arcana_nanopack",
+          "mwhaddon_potion_unmatched"
+        ]
+      },
+      "throwableItem": {
+        "count": 3,
+        "examples": [
+          "mwhaddon_throwable_alchemicalGrenade",
+          "mwhaddon_throwable_illuminatedBomb",
+          "mwhaddon_throwable_ruinousBomb"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_serpent_chest",
+          "mwhaddon_armor_covenant_chest"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_serpent_legs",
+          "mwhaddon_armor_covenant_legs"
+        ]
+      },
+      "spear": {
+        "count": 2,
+        "examples": [
+          "bleuark_spear_1",
+          "thalassa_spear_2"
+        ]
+      },
+      "bow": {
+        "count": 1,
+        "examples": [
+          "aeolus_shortbow_2"
+        ]
+      }
+    },
+    "total": 32
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_evolvedGleap",
+          "probability": 1.0,
+          "count": 12,
+          "monsters": [
+            "arcana_monster_evolvedGleap"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Magiflux Extract.md",
+  "quality_tier": "S"
+}

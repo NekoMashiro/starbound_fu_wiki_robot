@@ -1,0 +1,34 @@
+{
+  "entity_id": "fumedicalgoods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medical Supplies",
+  "name_zh": "医疗补给",
+  "description_en": "A sealed crate of medical supplies, valuable for interstellar trade.",
+  "description_zh": "一些密封的医疗用品，对星际贸易很有价值。",
+  "rarity": "Common",
+  "category": "tradeGoods",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 800
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,118 @@
+{
+  "entity_id": "arcana_ore_holosiumFragment",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Holosium Fragment",
+  "name_zh": "空无碎片",
+  "description_en": "A holosium fragment scattered about in Illuminated planets, can be used for smelting.",
+  "description_zh": "通常可在黯光星球发现的空无碎片，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_holosiumBar",
+          "arcana_bar_holosiumBar"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "monarch_tile10"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_illuminatedBomb"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 11,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_holosiumFragment",
+          "probability": 1.0,
+          "count": 3.5
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 0.1076,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 0.1076,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 0.1076,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_rare",
+          "probability": 0.09,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_upper_t1",
+          "probability": 0.044,
+          "count": 3.5
+        }
+      ],
+      "prob_range": [
+        0.0104,
+        0.1076
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_illuminated_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ruinousSwamp",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_nihil",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ruinous",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_illuminated",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_illuminated_underground_2",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ruinousCave",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Holosium Fragment.md",
+  "quality_tier": "S"
+}

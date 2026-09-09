@@ -1,0 +1,156 @@
+{
+  "entity_id": "fupoisonaugment1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poison Shield",
+  "name_zh": "EPP模块（毒素护盾）",
+  "description_en": "An EPP module that resists Poisons, +25% Poison Resist, Immune: Poisoned, Proto-poison.",
+  "description_zh": "",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 1
+        },
+        {
+          "item": "protoimmunityaugment",
+          "count": 1
+        },
+        {
+          "item": "liquidpoison",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "poisonresistanceaugment"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "augmentsFU",
+          "probability": 0.061,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0008,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0008
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

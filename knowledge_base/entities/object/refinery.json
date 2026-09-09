@@ -1,0 +1,49 @@
+{
+  "entity_id": "refinery",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Refinery",
+  "name_zh": "矿石精炼机",
+  "description_en": "The refinery is used to produce raw pixels from ores.",
+  "description_zh": "这个矿石精炼机是用来从矿物中提取原始像素的。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 1250,
+  "tags": [
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 15
+        },
+        {
+          "item": "coalore",
+          "count": 10
+        },
+        {
+          "item": "campfire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Refinery.md",
+  "quality_tier": "A"
+}

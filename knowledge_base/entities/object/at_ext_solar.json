@@ -1,0 +1,49 @@
+{
+  "entity_id": "at_ext_solar",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC][Power]Solar Panel",
+  "name_zh": "[泰坦拓展][电源]太阳能板",
+  "description_en": "A solar panel capable of converting solar energy into electricity. Can be wired to other machines.",
+  "description_zh": "一块太阳能板，可以将太阳能转化为电能。可与其它机器连接。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "at_ext_solar2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

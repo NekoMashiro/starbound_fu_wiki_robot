@@ -1,0 +1,49 @@
+{
+  "entity_id": "elduukhartier8shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Metal Shortsword",
+  "name_zh": "金属短剑",
+  "description_en": "This blade is crafted after a weapon wielded by a hero of legend.",
+  "description_zh": "这把刀刃的原型是一名传说中的英雄所使用的武器。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 980,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 55
+        },
+        {
+          "item": "thanatite",
+          "count": 5
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

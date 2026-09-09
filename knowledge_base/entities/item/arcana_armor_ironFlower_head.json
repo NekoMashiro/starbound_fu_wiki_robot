@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_ironFlower_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Iron Flower Helm",
+  "name_zh": "铁蕾头盔",
+  "description_en": "An ancient helm. +20% Solar res.",
+  "description_zh": "已定古代头盔。+20%日耀抗性。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 2,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_zhushiPond",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

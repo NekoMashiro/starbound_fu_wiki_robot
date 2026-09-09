@@ -1,0 +1,56 @@
+{
+  "entity_id": "solariumquarterstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solarium Quarterstaff",
+  "name_zh": "日耀长棍",
+  "description_en": "Glowy and full of radiation.",
+  "description_zh": "炽热的棍身，其内充满了放射性。",
+  "rarity": "legendary",
+  "category": "Quarterstaff",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "quarterstaff",
+    "upgradeableWeapon",
+    "solarium"
+  ],
+  "elementalType": "radioactive",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 6,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fustaffelementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 6
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "placeablestout",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Placeable Coal Stout",
+  "name_zh": "装饰用烈性黑啤酒",
+  "description_en": "Now your stout can be on a table!",
+  "description_zh": "这瓶烈性黑啤酒正适合放在桌子上！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "stout",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

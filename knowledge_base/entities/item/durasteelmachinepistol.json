@@ -1,0 +1,57 @@
+{
+  "entity_id": "durasteelmachinepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Machine Pistol",
+  "name_zh": "耐钢自动手枪",
+  "description_en": "A large handgun that packs a kick.",
+  "description_zh": "一把不错的手枪。",
+  "rarity": "Uncommon",
+  "category": "machinePistol",
+  "price": 480,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "machinepistol"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.0,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

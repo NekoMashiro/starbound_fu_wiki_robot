@@ -1,0 +1,36 @@
+{
+  "entity_id": "luckycoin",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lucky Coin",
+  "name_zh": "幸运硬币",
+  "description_en": "A rare, ancient lucky coin.\nResearch in a microscope.",
+  "description_zh": "一枚稀有的、古老的幸运硬币。\n在显微镜下研究。",
+  "rarity": "rare",
+  "category": "artifact",
+  "price": 2000,
+  "tags": [
+    "artifactBasic"
+  ],
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "luckycoin_khe",
+      "bonus": []
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "luckycoin_khe",
+      "bonus": []
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "luckycoin_khe",
+      "bonus": []
+    }
+  ],
+  "quality_tier": "A"
+}

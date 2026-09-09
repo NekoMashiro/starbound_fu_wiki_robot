@@ -1,0 +1,32 @@
+{
+  "entity_id": "erchiushorroraf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Erchius Horror Figurine",
+  "name_zh": "厄尔吉斯之怖手办",
+  "description_en": "The label reads, \"A parasitic aberration grown from within Erchius crystals.\"",
+  "description_zh": "标签上写着：“这是一种寄生在厄尔吉斯晶体内的怪异生命。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erchiushorrorTreasure",
+          "probability": 0.0556,
+          "count": 1,
+          "monsters": [
+            "crystalboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "fukingslayerhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kingslayer Helm",
+  "name_zh": "弑君头盔",
+  "description_en": "Set Bonuses:\r\n Health x1.12\r\n Melee: +3%/6% Crit Chance\r\n Immune: Acid, Oxygen",
+  "description_zh": "套装奖励：\n 最大HPx1.12\n 近战武器: +3%/6% 暴击几率\n 免疫: 酸蚀, 窒息",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 3
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "battlebornhead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "geisthead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

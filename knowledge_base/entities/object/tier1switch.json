@@ -1,0 +1,35 @@
+{
+  "entity_id": "tier1switch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Iron Lever",
+  "name_zh": "铁拉杆",
+  "description_en": "A sturdy iron lever. Perfect for pulling.",
+  "description_zh": "一个坚固的铁拉杆。非常适合拉动。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 30,
+  "tags": [
+    "wired",
+    "tier1"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

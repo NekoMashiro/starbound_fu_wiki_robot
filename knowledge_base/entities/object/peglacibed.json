@@ -1,0 +1,63 @@
+{
+  "entity_id": "peglacibed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Wall Bed",
+  "name_zh": "合金壁床",
+  "description_en": "A bed recessed in a back wall to take up less space.",
+  "description_zh": "一种凹进后墙以减少空间的床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

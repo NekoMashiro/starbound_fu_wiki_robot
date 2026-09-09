@@ -1,0 +1,73 @@
+{
+  "entity_id": "mwhaddon_lootbox_unidentifiedRelic_2",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Unidentified Subtle Relic",
+  "name_zh": "未鉴定的微妙遗物",
+  "description_en": "Use to get a random Relic with fine quality.\nUncommon(45%)\nRare(45%)\nLegendary(10%)",
+  "description_zh": "使用以获得一个品质尚可的遗物。\n不常见（45%）\n稀有（45%）\n传说（10%）",
+  "rarity": "Rare",
+  "category": "mysteriousReward",
+  "price": 2000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_currency_relicCoupon",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Japera",
+      "station_zh": "贾匹菈",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_japera.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_mainStory",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.0406,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.0345,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.0138,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0138,
+        0.0406
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

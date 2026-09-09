@@ -1,0 +1,54 @@
+{
+  "entity_id": "atmoscondensermadness",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Entropic Converter",
+  "name_zh": "熵能冷凝器",
+  "description_en": "Siphons and warps the atmosphere into usable reagents. Requires 42J every 8.7 seconds. Slower production  when stacked.",
+  "description_zh": "虹吸并将空气扭曲成有用的试剂。\n每8.7s需要42J能量。\n液体堆积时效率降低。\n扫描以查看更多信息。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 15500,
+  "tags": [
+    "science",
+    "elder",
+    "macabre",
+    "genetics"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 12
+        },
+        {
+          "item": "psionicenergy",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "fumadnessresource",
+          "count": 360
+        },
+        {
+          "item": "brain",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Entropic Converter.md",
+  "quality_tier": "A"
+}

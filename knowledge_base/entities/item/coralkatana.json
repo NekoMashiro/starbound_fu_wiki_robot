@@ -1,0 +1,57 @@
+{
+  "entity_id": "coralkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coral Katana",
+  "name_zh": "珊瑚武士刀",
+  "description_en": "This looks uncomfortable to get stabbed by.\r\n4 hit combo",
+  "description_zh": "看着这把武器就知道被砍到的人会很难受。\n4连斩",
+  "rarity": "uncommon",
+  "category": "katana",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "daikatana",
+    "upgradeableWeapon",
+    "coral"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.25,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo2h",
+  "altAbilityType": "parrykatana",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 12
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

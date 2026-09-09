@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_arcaneLeaf",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Arcane Leaf",
+  "name_zh": "奥术青叶",
+  "description_en": "Leaf infused with arcane magic.\n Restore an extra 35% of Max Health while drinking, but constantly lose 1% of Max Health for 20 seconds.",
+  "description_zh": "灌注了奥术魔法的叶片。\n饮用后额外恢复最大生命值35%的生命值，但20秒内每秒失去最大生命值1%的生命值。",
+  "rarity": "uncommon",
+  "category": "tradingCard",
+  "price": 200,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t2",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.05,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.05,
+        0.125
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

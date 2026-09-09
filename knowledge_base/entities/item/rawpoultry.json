@@ -1,0 +1,182 @@
+{
+  "entity_id": "rawpoultry",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Poultry",
+  "name_zh": "生鸟肉",
+  "description_en": "Raw poultry. Might wanna cook it first... Type: Raw Meat",
+  "description_zh": "一块生鸟肉，或许我得先把这玩意弄熟了再吃？\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "eldurkey",
+          "mwhaddon_food_sweetDame",
+          "roastdinner",
+          "slew"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "chickenjuice"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "cookedpoultry"
+        ]
+      },
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood4"
+        ]
+      }
+    },
+    "total": 7
+  },
+  "drop_sources": {
+    "total_pools": 13,
+    "hunting_harvest": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "agrobatHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "agrobat",
+            "fublackbat",
+            "iceagrobat"
+          ]
+        },
+        {
+          "pool": "batongHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_mistBat",
+            "batong",
+            "poisonbatong",
+            "shadowbat",
+            "squidbeast"
+          ]
+        },
+        {
+          "pool": "scaveranHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_alphaScaveran",
+            "poisonscaveran",
+            "scaveran"
+          ]
+        },
+        {
+          "pool": "toumingoHunting",
+          "probability": 0.599,
+          "count": 1,
+          "monsters": [
+            "chromingo",
+            "firetoumingo",
+            "toumingo"
+          ]
+        },
+        {
+          "pool": "huntingflying",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "albinopenguin",
+            "chicken",
+            "fualbatrosscritter",
+            "fuamazoncritter",
+            "fubat"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.5,
+        0.599
+      ]
+    },
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "chickentreasure",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "cockblockTreasure",
+          "probability": 0.175,
+          "count": 1,
+          "monsters": [
+            "chimkin"
+          ]
+        },
+        {
+          "pool": "flyingMonsterTreasure",
+          "probability": 0.1,
+          "count": 1
+        },
+        {
+          "pool": "generatedFlyingMonsterTreasure",
+          "probability": 0.08,
+          "count": 1,
+          "monsters": [
+            "largeflying",
+            "mutantflier",
+            "smallflying",
+            "smallflying2",
+            "smallflying3"
+          ]
+        },
+        {
+          "pool": "agrobatTreasure",
+          "probability": 0.0639,
+          "count": 1,
+          "monsters": [
+            "agrobat",
+            "fublackbat",
+            "iceagrobat"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0639,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

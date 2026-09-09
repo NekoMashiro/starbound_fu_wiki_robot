@@ -1,0 +1,98 @@
+{
+  "entity_id": "geode",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Geode",
+  "name_zh": "晶洞",
+  "description_en": "Break this geode open to reveal its contents. Geology rocks!",
+  "description_zh": "打破这种晶洞以显示其内容。地质岩石！",
+  "rarity": "Common",
+  "category": "mysteriousReward",
+  "price": 0,
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 8,
+        "examples": [
+          "geodebnote",
+          "geodecnote",
+          "geodednote",
+          "geodeenote",
+          "geodefnote"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "geodebed",
+          "geodechair"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "geodeceilinglight"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "geodedoor"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "geodeplantpot"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "smashGeode",
+          "probability": 2.25,
+          "count": 1
+        },
+        {
+          "pool": "arcana_randomitem_geodestone",
+          "probability": 0.6,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.6,
+        2.25
+      ]
+    }
+  },
+  "wiki_ref": "Geode.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "pearjuice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pear Juice",
+  "name_zh": "梨子汁",
+  "description_en": "A sweet juice made from pears.\nHeal 50% HP (30s) \nType: Fruit",
+  "description_zh": "用梨制成的一种甜汁。\n治疗50%生命值(30s) \n类型：植物",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 115,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pear",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "perry",
+          "perrybottle"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

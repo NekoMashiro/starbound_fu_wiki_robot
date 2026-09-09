@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_boss_evolapis_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Archosa",
+  "name_zh": "镇关",
+  "description_en": "A jade plasma blade forged from the primordial powers. Inflicts Poisoned on hit.",
+  "description_zh": "一把由始源之力铸造而成的玉质等离子刀。命中时造成中毒。",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword"
+  ],
+  "elementalType": "poison",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 14.0,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "light_risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_morphosisBar",
+          "count": 12
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

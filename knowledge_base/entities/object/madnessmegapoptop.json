@@ -1,0 +1,59 @@
+{
+  "entity_id": "madnessmegapoptop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poptop Alpha",
+  "name_zh": "吐舌娃阿尔法",
+  "description_en": "Almost as big as they come.",
+  "description_zh": "几乎和它们来的时候一样大。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 850,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 1000
+        },
+        {
+          "item": "madnessadultpoptop",
+          "count": 1
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 28
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 96
+        },
+        {
+          "item": "phasematter",
+          "count": 32
+        }
+      ],
+      "output_count": 1,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "madnessmegapoptopfire"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "empress_sign_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Empress Sign",
+  "name_zh": "大型皇后招牌",
+  "description_en": "A gold-framed sign, advertises a boutique store branded as the Empress.",
+  "description_zh": "一个金框招牌，宣传着一家名叫皇后的精品店。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "empress",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "cravenmannequin",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Craven Mannequin",
+  "name_zh": "凯文的假人模型",
+  "description_en": "This poor soul's quite unable to equip back items.",
+  "description_zh": "这个可怜的灵魂无法装备背部物品。",
+  "rarity": "Common",
+  "category": "other",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

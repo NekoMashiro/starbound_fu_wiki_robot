@@ -1,0 +1,64 @@
+{
+  "entity_id": "naileryseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nailery Seed",
+  "name_zh": "射钉草种子",
+  "description_en": "Nailery, a Glitch delight. A delicacy filled with valuable iron. Can be made into bombs in a lab.",
+  "description_zh": "射钉草，电子人佳肴。富含铁元素的价值之选。可以在实验室中被制成炸弹。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 11,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 26
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "boltbulbseed",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 1
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "naileryHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

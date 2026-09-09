@@ -1,0 +1,63 @@
+{
+  "entity_id": "fulightpriestpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Light Priest Pants",
+  "name_zh": "光明牧师裤子",
+  "description_en": "Set Bonuses:\r\n +0.4% Health Regen\r\n Wand/Staff/Quarterstaff: Damage x1.2",
+  "description_zh": "套装奖励:\n +0.4% HP恢复\n 魔杖/法杖/双头棍: 伤害x1.2",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 3
+        },
+        {
+          "item": "missionaryrobepants",
+          "count": 1
+        },
+        {
+          "item": "fuamberchunk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuprophetpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

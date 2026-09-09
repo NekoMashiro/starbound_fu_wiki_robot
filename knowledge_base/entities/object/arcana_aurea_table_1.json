@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_aurea_table_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Hologram Stand",
+  "name_zh": "全息图底座",
+  "description_en": "A table base for hologram displays.",
+  "description_zh": "用于展示全息图的台座。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 40,
+  "tags": [
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

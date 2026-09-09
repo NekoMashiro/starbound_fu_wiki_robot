@@ -1,0 +1,38 @@
+{
+  "entity_id": "hiderchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Invisible Chest",
+  "name_zh": "隐式身体装饰",
+  "description_en": "Show those muscles to the world with this handy item!",
+  "description_zh": "露肉秀身材的不二之选！",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 3
+        },
+        {
+          "item": "string",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

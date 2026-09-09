@@ -1,0 +1,41 @@
+{
+  "entity_id": "fumantizitogachest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Toga Top",
+  "name_zh": "议员长袍",
+  "description_en": "A draped top made of fine cloth.",
+  "description_zh": "由精致布料制成的盖头。",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 75,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 4
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

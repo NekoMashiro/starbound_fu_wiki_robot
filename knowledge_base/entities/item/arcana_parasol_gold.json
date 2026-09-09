@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_parasol_gold",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Golden Parasol",
+  "name_zh": "黄金阳伞",
+  "description_en": "Open to gently float while falling. It's bad luck to open inside the house.",
+  "description_zh": "坠落时打开，以轻轻漂落。在屋子里开伞可是长不高的哦~说不定还会死人。",
+  "rarity": "Legendary",
+  "category": "tool",
+  "price": 300,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

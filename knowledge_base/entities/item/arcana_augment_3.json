@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_augment_3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Windflow",
+  "name_zh": "增幅器 - 浮风",
+  "description_en": "Grants light gravity, +40% run speed, immunity to fall damage and +20% energy.",
+  "description_zh": "赋予重力轻态化，+40%奔跑速度，免疫坠落伤害与+20%最大能量。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedImmorite",
+          "count": 12
+        },
+        {
+          "item": "arcana_bar_refinedNoxion",
+          "count": 4
+        },
+        {
+          "item": "arcana_flowers_windflower",
+          "count": 10
+        },
+        {
+          "item": "elemental_crafting_ariostone",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

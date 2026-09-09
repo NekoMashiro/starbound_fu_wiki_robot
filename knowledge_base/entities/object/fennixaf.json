@@ -1,0 +1,57 @@
+{
+  "entity_id": "fennixaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Fennix Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Sometimes when chasing its own tail it can accidentally set itself on fire.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fennixVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "fennixTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "fennix",
+            "fusnowfennix",
+            "icefennix"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fennixHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "fennix",
+            "icefennix"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

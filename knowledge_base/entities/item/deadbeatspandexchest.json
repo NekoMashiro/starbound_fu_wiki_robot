@@ -1,0 +1,46 @@
+{
+  "entity_id": "deadbeatspandexchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Deadbeat Spandex Jacket",
+  "name_zh": "落魄弹力夹克",
+  "description_en": "A tight fitting jacket with shoulder padding.",
+  "description_zh": "一件有肩垫的紧身夹克。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "orange",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orange",
+  "name_zh": "橙子",
+  "description_en": "It's an orange. Type: Fruit",
+  "description_zh": "就是个橙子。\n类型：植物",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orangebasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 3200
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "orangebasket"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "orangehoneystraw"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "wiki_ref": "Orange.md",
+  "quality_tier": "S"
+}

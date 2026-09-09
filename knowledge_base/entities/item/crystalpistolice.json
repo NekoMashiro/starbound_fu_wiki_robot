@@ -1,0 +1,48 @@
+{
+  "entity_id": "crystalpistolice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Shard Gun",
+  "name_zh": "寒冰碎片枪",
+  "description_en": "Razor-sharp shards of fun slow targets.",
+  "description_zh": "充满欢乐的锋利碎片会减缓目标的行动。",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "ice",
+    "crystal"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

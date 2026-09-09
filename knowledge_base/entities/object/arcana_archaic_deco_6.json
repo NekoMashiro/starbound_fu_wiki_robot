@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_archaic_deco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Small Chains",
+  "name_zh": "古朴小链条",
+  "description_en": "A bunch of small golden chains hanging from the ceiling.",
+  "description_zh": "一串垂挂在天花板上的黄金链条。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,248 @@
+{
+  "entity_id": "thesauce",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Sauce",
+  "name_zh": "法酱药剂",
+  "description_en": "Protects you from damage via some sort of...weird mojo.\n+30% Defense (2m) Madness Gain 4",
+  "description_zh": "通过某种方式保护您免受伤害。。。奇怪的魔力。\n+30%防御（2m）癫狂4.",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fucontrabandgoods",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "aliencompound",
+          "count": 3
+        },
+        {
+          "item": "magnesiumsulfate",
+          "count": 8
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 1
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "健康中心",
+      "station_zh": "健康中心",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Great At Parties": {
+        "count": 1,
+        "examples": [
+          "bloodritual"
+        ]
+      },
+      "unusualRelic": {
+        "count": 1,
+        "examples": [
+          "madequation"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 49,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuprecursorMedical",
+          "probability": 0.556,
+          "count": 1.0
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.1416,
+          "count": 2.0
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0152,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.556
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.2,
+          "count": 1.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.049,
+          "count": 1.0
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0138,
+          "count": 1.0
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2
+      ]
+    },
+    "chest_loot": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1922,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.1008,
+          "count": 2.0
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0882,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0808,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0564,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1922
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0752,
+          "count": 1.0,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0752
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0005,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

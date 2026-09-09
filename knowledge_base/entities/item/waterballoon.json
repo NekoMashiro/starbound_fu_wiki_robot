@@ -1,0 +1,102 @@
+{
+  "entity_id": "waterballoon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Water Balloon",
+  "name_zh": "水球",
+  "description_en": "A favourite of children and pranksters everywhere.",
+  "description_zh": "不管在哪都是儿童和恶作剧者的最爱。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 50
+        },
+        {
+          "item": "polymer",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 8,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.3562,
+          "count": 10
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.2689,
+          "count": 5.3,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.2656,
+          "count": 4.9
+        },
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.2065,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.2065,
+        0.3562
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.25,
+          "count": 10
+        },
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.1449,
+          "count": 10
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.1348,
+          "count": 5.3
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.1331,
+          "count": 4.9
+        }
+      ],
+      "prob_range": [
+        0.1331,
+        0.25
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

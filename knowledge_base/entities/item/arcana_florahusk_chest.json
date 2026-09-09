@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_florahusk_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Florahusk Carapace",
+  "name_zh": "花质层甲壳",
+  "description_en": "A crude protective armor piece.",
+  "description_zh": "粗糙的保护装甲。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 75,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingclothes",
+          "probability": 0.1333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

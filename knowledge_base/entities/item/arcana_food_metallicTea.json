@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_metallicTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Metallic Tea",
+  "name_zh": "铁线茶",
+  "description_en": "A tea brewed with metallic parts. gives a minor jump boost for 120s.",
+  "description_zh": "用金属零件泡制的茶。赋予120s的小型跳跃加成。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_metallicTeabag",
+          "count": 1
+        },
+        {
+          "item": "liquidoil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_metallic"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_metallic_drop",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

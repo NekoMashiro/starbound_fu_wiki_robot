@@ -1,0 +1,58 @@
+{
+  "entity_id": "fuprotectoraterifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Carbine",
+  "name_zh": "守护团卡宾枪",
+  "description_en": "The standard-issue for Protectorate peacekeepers.",
+  "description_zh": "守护团维和者的标准装备。",
+  "rarity": "common",
+  "category": "assaultRifle",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 0.5,
+  "critBonus": 2,
+  "altAbilityType": "forcebubble",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

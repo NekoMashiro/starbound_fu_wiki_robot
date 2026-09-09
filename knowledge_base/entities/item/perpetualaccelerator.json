@@ -1,0 +1,71 @@
+{
+  "entity_id": "perpetualaccelerator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perpetual Accelerator",
+  "name_zh": "永续加速器",
+  "description_en": "Constantly applies increased movement so long as it is held.",
+  "description_zh": "只要持有，就会不断地增加动作的速度。",
+  "rarity": "legendary",
+  "category": "Motion Device",
+  "price": 10000,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "honedlunari",
+          "count": 1
+        },
+        {
+          "item": "pureerchius",
+          "count": 1
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "schrodingerscat",
+          "count": 1
+        },
+        {
+          "item": "elderrelic1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.009,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.009,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Perpetual Accelerator.md",
+  "quality_tier": "S"
+}

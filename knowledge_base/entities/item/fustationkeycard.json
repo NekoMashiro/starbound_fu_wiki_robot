@@ -1,0 +1,35 @@
+{
+  "entity_id": "fustationkeycard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhosi Station Keycard",
+  "name_zh": "鼠人空间站贵宾卡",
+  "description_en": "An expensive Kirhosi keycard, providing VIP access to space station teleporters.",
+  "description_zh": "一张昂贵的鼠族钥匙卡，提供使用空间站传送器VIP通道的权限。",
+  "rarity": "Essential",
+  "category": "quest",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 12000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Kirhosi Station Keycard.md",
+  "quality_tier": "A"
+}

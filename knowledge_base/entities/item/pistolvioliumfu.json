@@ -1,0 +1,58 @@
+{
+  "entity_id": "pistolvioliumfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Violium Revolver",
+  "name_zh": "维奥左轮",
+  "description_en": "Fires high-caliber rounds.\r\nHigh damage rounds",
+  "description_zh": "发射大口径子弹。\n高伤害子弹。",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "violium"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.2,
+  "critChance": 3,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 5
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

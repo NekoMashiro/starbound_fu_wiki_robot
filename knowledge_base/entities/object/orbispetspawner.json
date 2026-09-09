@@ -1,0 +1,36 @@
+{
+  "entity_id": "orbispetspawner",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orbis Spawner",
+  "name_zh": "球形机器生成器",
+  "description_en": "Spawns in a pet orbis! \nTo locate it after placing, toggle wire mode.",
+  "description_zh": "生成一只宠物球形机器! \n若要在放置后定位生成器位置，请切换为连线模式。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 3000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_oolongTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Oolong Tea",
+  "name_zh": "乌龙茶",
+  "description_en": "A yellowish, lightly sweet tea. +20% max energy for 180s.",
+  "description_zh": "淡黄色的轻度甜茶。180s内+20%最大能量。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_oolongTeabag",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_oolongTea"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_oolongTea_drop",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "penumbritegreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Greataxe",
+  "name_zh": "半影巨斧",
+  "description_en": "Fantastically stylish.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "greataxe",
+  "price": 350,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "penumbrite",
+    "upgradeableWeapon",
+    "silver"
+  ],
+  "elementalType": "silverweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 6,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "shockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

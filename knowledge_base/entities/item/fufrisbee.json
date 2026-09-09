@@ -1,0 +1,42 @@
+{
+  "entity_id": "fufrisbee",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stack o' Frisbees",
+  "name_zh": "堆叠飞盘",
+  "description_en": "A seemingly infinite supply of frisbees.",
+  "description_zh": "让你感受到狂欢节的氛围！",
+  "rarity": "common",
+  "category": "boomerang",
+  "price": 1,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "polymer",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "thelusianconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Console",
+  "name_zh": "蚁族控制台",
+  "description_en": "Displays data in the illegible text of the Thelusians.",
+  "description_zh": "让人难以辨认的文本显示数据。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 120,
+  "tags": [
+    "thelusian",
+    "electronic",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

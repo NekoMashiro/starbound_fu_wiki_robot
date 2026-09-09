@@ -1,0 +1,47 @@
+{
+  "entity_id": "gorgolithtail",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gorgorlith Tail",
+  "name_zh": "紫节鞭",
+  "description_en": "The tail of a savage carnivore.",
+  "description_zh": "好像由某种肉食动物的尾巴制成的。",
+  "rarity": "legendary",
+  "category": "whip",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "whip",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "whipcrack",
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "gorgolithLoot",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0058,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0058,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "zerchendtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium End Table",
+  "name_zh": "高熔点矿端桌",
+  "description_en": "An end table made from polished zerchesium.",
+  "description_zh": "一种用抛光的高熔点矿制成的餐桌。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 500,
+  "tags": [
+    "zerchesium",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

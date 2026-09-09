@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_abyssal_deco_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Ceiling Spike",
+  "name_zh": "天花板尖刺",
+  "description_en": "A decorative spike for placing on the ceiling.",
+  "description_zh": "装饰性的尖刺，用于放置在天花板上。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 20,
+  "tags": [
+    "abyssal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 2
+        },
+        {
+          "item": "arcana_spectwing_tile15",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

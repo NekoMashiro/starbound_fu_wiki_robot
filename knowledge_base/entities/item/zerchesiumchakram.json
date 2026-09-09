@@ -1,0 +1,52 @@
+{
+  "entity_id": "zerchesiumchakram",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Chakram",
+  "name_zh": "高熔点环刃",
+  "description_en": "Zerchesium power of crystalline destruction.",
+  "description_zh": "感受高熔点矿带来的结晶破坏力。",
+  "rarity": "uncommon",
+  "category": "chakram",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "chakram",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        },
+        {
+          "item": "cryonicextract",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Zerchesium Chakram.md",
+  "quality_tier": "A"
+}

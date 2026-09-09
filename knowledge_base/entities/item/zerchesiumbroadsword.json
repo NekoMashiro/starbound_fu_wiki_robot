@@ -1,0 +1,56 @@
+{
+  "entity_id": "zerchesiumbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Broadsword",
+  "name_zh": "高熔点宽剑",
+  "description_en": "Attack with absolute certainty that your foe will fall.",
+  "description_zh": "几乎无坚不摧。",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "bladecharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

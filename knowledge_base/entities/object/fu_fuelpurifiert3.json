@@ -1,0 +1,61 @@
+{
+  "entity_id": "fu_fuelpurifiert3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Fuel Purifier",
+  "name_zh": "致密燃料净化器",
+  "description_en": "Purifies fuel before it reaches your ships FTL drive. Reduces fuel cost by 15%.",
+  "description_zh": "在燃料到达你飞船FTL引擎之前进行净化。降低15%的燃料消耗。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science",
+    "machines"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 2
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "fu_fuelpurifiert2",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "fu_fuelpurifiert4"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Dense Fuel Purifier.md",
+  "quality_tier": "S"
+}

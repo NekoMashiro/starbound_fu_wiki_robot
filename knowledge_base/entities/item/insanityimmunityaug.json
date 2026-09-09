@@ -1,0 +1,36 @@
+{
+  "entity_id": "insanityimmunityaug",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Insanity Shield",
+  "name_zh": "狂乱护盾",
+  "description_en": "An EPP module that protects against insanity. Immune: Insanity",
+  "description_zh": "一个能够抵御精神错乱的EPP模块。\n免疫: 精神错乱；",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "darklightblossom",
+          "count": 2
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

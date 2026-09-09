@@ -1,0 +1,57 @@
+{
+  "entity_id": "wiringstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wiring Station",
+  "name_zh": "配线工作站",
+  "description_en": "Used to produce complex wiring components.",
+  "description_zh": "用于生产复杂的电路元件。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 800,
+  "tags": [
+    "crafting",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "siliconboard",
+          "count": 5
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 10
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

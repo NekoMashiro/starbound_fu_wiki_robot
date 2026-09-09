@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_azureDesert",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Azure Desert",
+  "name_zh": "天青戈壁",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Azure Desert",
+  "friendly_name_zh": "天青戈壁",
+  "ores": [
+    {
+      "ore": "arcana_mod_azuriumOre",
+      "weight": 1.1
+    },
+    {
+      "ore": "gold",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_azureGolem",
+    "arcana_maskedOogler",
+    "armadillocritter",
+    "goldbuck",
+    "groopcritter",
+    "mousecritter",
+    "ravencritter",
+    "sandclown",
+    "sunskipper",
+    "wurmcritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:desert"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_cataclysm"
+  ],
+  "wiki_ref": "Azure Desert.md",
+  "quality_tier": "C"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "fuaetherwallmonitor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Wall-Mounted PC",
+  "name_zh": "以太壁挂式电脑",
+  "description_en": "A powerful aether computer. Hey, look! It's running some game called Starbound. Wait... Is that me on the screen?",
+  "description_zh": "一台强大的以太电脑。嘿，看呐！它正在运行一款名为“Starbound”的游戏。等一等...那个不是我吗？",
+  "rarity": "Legendary",
+  "category": "wire",
+  "price": 50,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "wired",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 4
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 10
+        },
+        {
+          "item": "liquidaether",
+          "count": 6
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

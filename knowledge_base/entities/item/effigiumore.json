@@ -1,0 +1,93 @@
+{
+  "entity_id": "effigiumore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Ore",
+  "name_zh": "幻影矿",
+  "description_en": "An almost invisible crystalline metal due to its large traces of the element Rhodium.",
+  "description_zh": "一种几乎看不见的晶体金属，因为它含有大量的铑元素。",
+  "rarity": "legendary",
+  "category": "craftingOre",
+  "price": 320,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "deathvodka"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "effigiumbar"
+        ]
+      },
+      "dagger": {
+        "count": 1,
+        "examples": [
+          "fushadowdagger"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "machine_processing": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "effigiumbar",
+      "bonus": [
+        "deuterium",
+        "iodine"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "strangeseafloor",
+      "weight": 0.4
+    },
+    {
+      "biome": "futentacleunderground",
+      "weight": 0.35
+    },
+    {
+      "biome": "fleshcorelayer",
+      "weight": 0.35
+    },
+    {
+      "biome": "ffshadow",
+      "weight": 0.35
+    },
+    {
+      "biome": "tentacleasteroid",
+      "weight": 0.35
+    },
+    {
+      "biome": "fftarpit",
+      "weight": 0.35
+    },
+    {
+      "biome": "lightlessunderground",
+      "weight": 0.35
+    },
+    {
+      "biome": "atropuselderunderground",
+      "weight": 0.3
+    },
+    {
+      "biome": "eldercorelayer",
+      "weight": 0.3
+    },
+    {
+      "biome": "elderunderground",
+      "weight": 0.3
+    }
+  ],
+  "wiki_ref": "Effigium Ore.md",
+  "quality_tier": "S"
+}

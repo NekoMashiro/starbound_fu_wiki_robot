@@ -1,0 +1,57 @@
+{
+  "entity_id": "darkdisguisehead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dark Disguise Mask",
+  "name_zh": "黑暗伪装面具",
+  "description_en": "The material in this mask is expelling pure darkness.",
+  "description_zh": "面具中的物质正散发着纯粹的黑暗气息。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "headwear": {
+        "count": 1,
+        "examples": [
+          "darkdisguiseheadkhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shadowChestTreasure",
+          "probability": 0.2036,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoShadowTreasure",
+          "probability": 0.1708,
+          "count": 1
+        },
+        {
+          "pool": "shadowTreasure",
+          "probability": 0.1429,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1429,
+        0.1708
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,85 @@
+{
+  "entity_id": "smallcrayonbox",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Crayon Box",
+  "name_zh": "小蜡笔盒",
+  "description_en": "Are... Are you really going to eat this?",
+  "description_zh": "你...你确定要吃这玩意？",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 45,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tablecrayonbox",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "tablecrayonbox"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

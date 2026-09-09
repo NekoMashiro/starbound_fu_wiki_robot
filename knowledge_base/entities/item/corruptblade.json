@@ -1,0 +1,49 @@
+{
+  "entity_id": "corruptblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corrupted Blade",
+  "name_zh": "腐化短剑",
+  "description_en": "Unpleasant",
+  "description_zh": "被砍到可不是好玩的。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "shadow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.4,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonblade",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        },
+        {
+          "item": "corruptionseed",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

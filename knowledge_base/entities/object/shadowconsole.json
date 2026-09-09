@@ -1,0 +1,53 @@
+{
+  "entity_id": "shadowconsole",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Console",
+  "name_zh": "阴影控制台",
+  "description_en": "A touch-screen console with all sorts of fun buttons.",
+  "description_zh": "一台有各种有趣按钮的触屏控制台。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 95,
+  "tags": [
+    "shadow",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 20
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

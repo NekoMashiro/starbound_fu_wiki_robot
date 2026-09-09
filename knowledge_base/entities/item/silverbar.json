@@ -1,0 +1,244 @@
+{
+  "entity_id": "silverbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Silver Bar",
+  "name_zh": "银锭",
+  "description_en": "Ore for silver bars is found at moderate depths on most planets around all stars.",
+  "description_zh": "银矿常见于大多数行星的地底中部。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 32,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_inventor_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "silverore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 180
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 18,
+        "examples": [
+          "arcana_spectwing_tile1",
+          "arcana_spectwing_tile2",
+          "arcana_spectwing_tile6",
+          "fu_blueslopedhullpanel",
+          "funightarsilverstairs"
+        ]
+      },
+      "storage": {
+        "count": 17,
+        "examples": [
+          "apexstoragelocker",
+          "avianstoragelocker",
+          "cellchest",
+          "eyechest",
+          "floranstoragelocker"
+        ]
+      },
+      "decorative": {
+        "count": 11,
+        "examples": [
+          "fusilverchalice",
+          "fusilverhourglass",
+          "nightarchainfence",
+          "nightarclock",
+          "nightarglobe"
+        ]
+      },
+      "furniture": {
+        "count": 6,
+        "examples": [
+          "cellchair",
+          "celltable",
+          "eyebed",
+          "eyechair",
+          "eyetable"
+        ]
+      },
+      "mechPart": {
+        "count": 6,
+        "examples": [
+          "mecharmfuhuntergun",
+          "mecharmfuhuntergun0",
+          "mecharmsentrygun",
+          "mechboostersimple",
+          "mechboostersimpleupgrade"
+        ]
+      },
+      "wire": {
+        "count": 5,
+        "examples": [
+          "isn_solarpanel",
+          "isn_thermalgenerator",
+          "isn_windarray",
+          "pumpinfu",
+          "pumpoutpressurefu"
+        ]
+      },
+      "crafting": {
+        "count": 4,
+        "examples": [
+          "arcana_crafting_techStation_3",
+          "colonystation",
+          "crystalloom",
+          "railcraftingtable"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "celllamp",
+          "fusilvercandle",
+          "fusilverornatechandelier",
+          "fusilverroyalcandlestick"
+        ]
+      }
+    },
+    "total": 163
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "silverore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "silverore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "silverore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox_3",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.115,
+          "count": 8
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.046,
+          "count": 8
+        }
+      ],
+      "prob_range": [
+        0.046,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxmisterwisperHunting",
+          "probability": 0.3194,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxmisterwisperTreasure",
+          "probability": 0.1231,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

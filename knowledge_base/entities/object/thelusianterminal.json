@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusianterminal",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Terminal",
+  "name_zh": "蚁族终端控制台",
+  "description_en": "A control console.",
+  "description_zh": "控制台。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 125,
+  "tags": [
+    "thelusian",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

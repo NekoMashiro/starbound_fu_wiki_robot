@@ -1,0 +1,57 @@
+{
+  "entity_id": "campfire",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Campfire",
+  "name_zh": "篝火",
+  "description_en": "Embers dance away from the campfire, warming the air. The heat can be used for cooking.",
+  "description_zh": "从篝火中蹦出小火苗，温暖着空气。这热量可以用于烹饪。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 30,
+  "tags": [
+    "cooking",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 4
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 5,
+        "examples": [
+          "craftingfurnace",
+          "heartforge",
+          "refinery",
+          "skathforge1",
+          "slimefire"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "arcana_romantic_deco_10"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "wiki_ref": "Campfire.md",
+  "quality_tier": "S"
+}

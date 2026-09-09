@@ -1,0 +1,59 @@
+{
+  "entity_id": "hylotl",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "鲛人",
+  "description_en": "",
+  "description_zh": "崇尚和平的鲛人重视先祖传统，且喜好欣赏艺术。他们不喜欢暴力，但是精通武术，不容轻视。\n\n  食性：杂食性\n\n天赋：\n  物质枪自带液体收集功能\n  魅力: +5%\n  抗性:  +20% 寒气抗性, +12% 辐射抗性, +8% 毒素抗性, +15% 精神抗性\n\n环境：\n  水中: 呼吸时限+1500, +8% 物理抗性, HP x1.12\n  游泳加速 1\n  在雨中得到微量的回复加成。\n  沙漠, 红色沙漠生物群落: 防御 x0.8, HP x0.8\n\n武器：\n  剑刃: HP高于75%时 +2% 暴击率 \n  武士刀专精: 25%\n\n弱点：\n\n  抗性: -20% 电系抗性, -10% 暗影抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 1.05
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.15
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.08
+      },
+      {
+        "stat": "electricResistance",
+        "amount": -0.2
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.12
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "katanaMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "fuFishFood",
+        "amount": 1
+      }
+    ],
+    "diet": [
+      {
+        "ORGANIC": false,
+        "FISH": true
+      },
+      {
+        "MEAT_RAW": true
+      }
+    ]
+  },
+  "quality_tier": "B"
+}

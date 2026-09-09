@@ -1,0 +1,51 @@
+{
+  "entity_id": "exousia_police_pistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EPF Roterarm PM",
+  "name_zh": "EPF序备PM",
+  "description_en": "A standard plasma pistol used by Exousian policing units.",
+  "description_zh": "威权帝国警队使用的等离子手枪。",
+  "rarity": "Legendary",
+  "category": "pistol",
+  "price": 840,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": false,
+  "baseDps": 12.4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_enartz",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_preceptDongle",
+          "count": 2
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,133 @@
+{
+  "entity_id": "tar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tar",
+  "name_zh": "焦油沥青",
+  "description_en": "Thick, rancid tar. Just looking at it feels sticky.\nExtractable.",
+  "description_zh": "厚厚的焦油沥青。光是看着它都感觉浑身黏糊糊的。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "tarbed",
+          "tarchair"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "asphalt"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "tarball"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "tarconsole"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "tardoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "tarlight"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "tarman"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "tarpitchest"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 7,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.3257,
+          "count": 25.0
+        },
+        {
+          "pool": "tarChestTreasure",
+          "probability": 0.0202,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0202,
+        0.3257
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "targolemLoot",
+          "probability": 0.2913,
+          "count": 17.6
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.2116,
+          "count": 25
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.177,
+          "count": 25
+        },
+        {
+          "pool": "pandorasboxtrapogoTarTreasure",
+          "probability": 0.0131,
+          "count": 5
+        },
+        {
+          "pool": "tarTreasure",
+          "probability": 0.011,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.011,
+        0.2116
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "tarball"
+  ],
+  "wiki_ref": "Tar.md",
+  "quality_tier": "S"
+}

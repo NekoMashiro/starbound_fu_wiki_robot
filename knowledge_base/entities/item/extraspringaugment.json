@@ -1,0 +1,44 @@
+{
+  "entity_id": "extraspringaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spring Augment",
+  "name_zh": "EPP模块（弹跳）",
+  "description_en": "An EPP module that grants +20% Jump and negates fall damage.",
+  "description_zh": "一个能够+20%跳跃高度，免疫掉落伤害的EPP模块。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 25000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraalienjungleaugment",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "extraspringaugment"
+  ],
+  "quality_tier": "S"
+}

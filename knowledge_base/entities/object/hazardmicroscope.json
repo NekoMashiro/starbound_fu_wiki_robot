@@ -1,0 +1,38 @@
+{
+  "entity_id": "hazardmicroscope",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hazard Microscope",
+  "name_zh": "危险源显微镜",
+  "description_en": "A large microscope, designed for observing potentially hazardous bacteria.",
+  "description_zh": "一台大型显微镜，为观察潜在的有害细菌而设计。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 175,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 3
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

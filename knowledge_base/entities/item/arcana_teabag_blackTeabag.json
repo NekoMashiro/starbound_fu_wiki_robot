@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_teabag_blackTeabag",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Black Teabag",
+  "name_zh": "红茶包",
+  "description_en": "A teabag for brewing black tea at a tea brewer.",
+  "description_zh": "泡茶机冲泡红茶用的茶袋。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_teaPlant",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "arcana_food_blackTea"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

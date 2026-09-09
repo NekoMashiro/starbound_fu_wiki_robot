@@ -1,0 +1,54 @@
+{
+  "entity_id": "sniperknife",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sniper Knife",
+  "name_zh": "匕首枪",
+  "description_en": "Shoots knives. For some reason.\r\nWhy is this a thing? Surprisingly effective.\r\nWhere are they coming from?!?!?!",
+  "description_zh": "发射小刀。 由于某些原因。\n这是为什么呢？出乎意料的有效。\n它们从哪儿来的？！？！？！",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 8.7,
+  "critChance": 2,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "densealloydrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Alloy Drawers",
+  "name_zh": "致密合金抽屉",
+  "description_en": "A set of drawers made from dense alloy.",
+  "description_zh": "一组由致密合金制成的抽屉。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "densealloy",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

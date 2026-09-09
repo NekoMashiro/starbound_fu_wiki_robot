@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_ore_exoslateFragment",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Exoslate Fragment",
+  "name_zh": "异岩碎片",
+  "description_en": "An Exoslate fragment, can be used for smelting.",
+  "description_zh": "异岩碎片，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 90,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_exoslate"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "biomes": [
+    {
+      "biome": "arcana_volcanicCave",
+      "weight": 0.9
+    },
+    {
+      "biome": "arcana_vermilion_underground_2",
+      "weight": 0.2
+    },
+    {
+      "biome": "arcana_ashen",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_ashenCave",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_vermilion",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_redTerminus",
+      "weight": 0.1
+    },
+    {
+      "biome": "mwhaddon_redTerminusAltered",
+      "weight": 0.1
+    },
+    {
+      "biome": "arcana_redTerminusUnderground2",
+      "weight": 0.1
+    }
+  ],
+  "wiki_ref": "Exoslate Fragment.md",
+  "quality_tier": "S"
+}

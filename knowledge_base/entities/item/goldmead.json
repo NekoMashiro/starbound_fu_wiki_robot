@@ -1,0 +1,40 @@
+{
+  "entity_id": "goldmead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Taelon Mead",
+  "name_zh": "泰隆蜜酒",
+  "description_en": "It is said this ale brings amazing luck.\n35% Slow , Buzzed (30s)\nchance of gifts",
+  "description_zh": "据说这种啤酒能带来惊人的运气。\n35%减速，耳鸣(持续30s)\n天降鸿福",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_liquidhoney",
+          "count": 5
+        },
+        {
+          "item": "caramel",
+          "count": 1
+        },
+        {
+          "item": "goldcomb",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

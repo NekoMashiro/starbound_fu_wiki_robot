@@ -1,0 +1,58 @@
+{
+  "entity_id": "fu_solararray",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Solar Array",
+  "name_zh": "太阳能电池阵列",
+  "description_en": "Uses sunlight to generate electricity. It can generate much more power than smaller units. Can potentially generate over 10W.",
+  "description_zh": "利用太阳能发电。与较小的单元相比，它可以产生更多的能量。在最佳条件下可产生最高10W电力。",
+  "rarity": "common",
+  "category": "wire",
+  "price": 300,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isn_solarpanel",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "goldbar",
+          "count": 10
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 2,
+        "examples": [
+          "fu_nocturnarray",
+          "fu_solararrayadv"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

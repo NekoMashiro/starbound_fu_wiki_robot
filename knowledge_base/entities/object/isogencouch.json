@@ -1,0 +1,45 @@
+{
+  "entity_id": "isogencouch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Couch",
+  "name_zh": "寒霜沙发",
+  "description_en": "A couch that is far too cold to sit on.",
+  "description_zh": "太冷不能坐的沙发。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "isogen",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 5
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 10
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

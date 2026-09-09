@@ -1,0 +1,36 @@
+{
+  "entity_id": "fuammoaugment5",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ammo Belt V",
+  "name_zh": "弹药带V",
+  "description_en": "Increases weapon ammo by +10.",
+  "description_zh": "弹药上限+10。",
+  "rarity": "essential",
+  "category": "eppAugment",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "fuammoaugment4",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

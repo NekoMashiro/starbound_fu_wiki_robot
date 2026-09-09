@@ -1,0 +1,68 @@
+{
+  "entity_id": "kamaranpodsplant",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kamaran Pod Seed",
+  "name_zh": "卡玛兰豆荚种子",
+  "description_en": "Hard to crack open.",
+  "description_zh": "可以收获卡玛兰豆荚，食用后会免疫地形效果。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 56
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 10
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "algaeseed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 18
+        },
+        {
+          "item": "ff_mercury",
+          "count": 5
+        },
+        {
+          "item": "cryonicextract",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "kamaranpodsplantHarvest",
+          "probability": 0.1552,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

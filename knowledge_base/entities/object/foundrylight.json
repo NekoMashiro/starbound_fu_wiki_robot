@@ -1,0 +1,53 @@
+{
+  "entity_id": "foundrylight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Light",
+  "name_zh": "铸造灯",
+  "description_en": "The lava in this small fountain is superheated to brightly glow.",
+  "description_zh": "这个釜内的岩浆热得发出明亮的光。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 115,
+  "tags": [
+    "foundry",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "metallic",
+          "count": 10
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "liquidlava",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

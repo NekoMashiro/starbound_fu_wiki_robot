@@ -1,0 +1,74 @@
+{
+  "entity_id": "shrineoflostsouls",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shrine of Lost Souls",
+  "name_zh": "迷失灵魂的圣殿",
+  "description_en": "An altar dedicated to the souls of the lost.",
+  "description_zh": "一座为迷失的灵魂而设的祭坛。",
+  "rarity": "legendary",
+  "category": "crafting",
+  "price": 125,
+  "tags": [
+    "effigium",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumementomori",
+          "count": 1
+        },
+        {
+          "item": "essence",
+          "count": 60
+        },
+        {
+          "item": "ghostlywax",
+          "count": 15
+        },
+        {
+          "item": "effigiumbar",
+          "count": 10
+        },
+        {
+          "item": "bone",
+          "count": 6
+        },
+        {
+          "item": "exonite",
+          "count": 1
+        },
+        {
+          "item": "duskiline",
+          "count": 1
+        },
+        {
+          "item": "rasiline",
+          "count": 1
+        },
+        {
+          "item": "tokanite",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ancient Texts",
+      "station_zh": "古代文本",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Shrine of Lost Souls.md",
+  "quality_tier": "A"
+}

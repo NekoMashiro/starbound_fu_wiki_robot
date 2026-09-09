@@ -1,0 +1,41 @@
+{
+  "entity_id": "isn_powersensor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Power Sensor",
+  "name_zh": "电力传感器 I",
+  "description_en": "A small sensor that displays power levels flowing into it.",
+  "description_zh": "一个小型的电力传感器，可以显示通入的电力。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "改造台",
+          "name_zh": "改造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Power Sensor.md",
+  "quality_tier": "A"
+}

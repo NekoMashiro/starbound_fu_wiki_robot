@@ -1,0 +1,40 @@
+{
+  "entity_id": "ghostimmunityaug",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost Shield",
+  "name_zh": "EPP模块（能源幽灵护盾）",
+  "description_en": "An EPP module that protects against ghosts. Immune: Erchius Ghost",
+  "description_zh": "一个能够抵御能源幽灵的EPP模块。\n免疫能源幽灵",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 24
+        },
+        {
+          "item": "phasematter",
+          "count": 8
+        },
+        {
+          "item": "liquidaether",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

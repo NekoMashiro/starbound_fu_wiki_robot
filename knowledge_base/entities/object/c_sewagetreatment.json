@@ -1,0 +1,39 @@
+{
+  "entity_id": "c_sewagetreatment",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sewage Storage",
+  "name_zh": "废物贮存",
+  "description_en": "Collects waste from the colony and stores it for repurposing. \n+2 Happiness",
+  "description_zh": "从殖民地收集废弃物，并将其储存起来用于再利用。\n+2幸福",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 250,
+  "tags": [
+    "glitchsewer"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 15
+        },
+        {
+          "item": "copperbar",
+          "count": 15
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Sewage Storage.md",
+  "quality_tier": "A"
+}

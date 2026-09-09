@@ -1,0 +1,45 @@
+{
+  "entity_id": "fuokeahitechtoilet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hi-tech Toilet",
+  "name_zh": "高科技马桶",
+  "description_en": "Auto-flush and self-cleaning!",
+  "description_zh": "自动冲洗和自动清洗！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 65,
+  "tags": [
+    "science",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "ff_plastic",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

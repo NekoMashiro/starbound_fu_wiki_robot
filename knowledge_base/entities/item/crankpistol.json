@@ -1,0 +1,84 @@
+{
+  "entity_id": "crankpistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crank Pistol",
+  "name_zh": "曲柄手枪",
+  "description_en": "Rusty nail pistol! Super fun!\r\nInflicts bleeding",
+  "description_zh": "生锈的钉子手枪！ 超级好玩！\n附加出血效果",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.6,
+  "critChance": 2,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brittlejunk",
+          "count": 30
+        },
+        {
+          "item": "ff_spareparts",
+          "count": 3
+        },
+        {
+          "item": "junktech",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0222,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasure",
+          "probability": 0.0183,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

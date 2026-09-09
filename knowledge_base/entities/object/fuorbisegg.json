@@ -1,0 +1,71 @@
+{
+  "entity_id": "fuorbisegg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orbis Egg",
+  "name_zh": "球形机器蛋",
+  "description_en": "Hatches into a robotic Orbis, which regularly regurgitates spare parts.",
+  "description_zh": "可以孵化出球形机器，它会定期产出备用零件。",
+  "rarity": "Rare",
+  "category": "farmBeastEgg",
+  "price": 50,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        },
+        {
+          "item": "laserdiode",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2400
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostorbis",
+          "probability": 0.05,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

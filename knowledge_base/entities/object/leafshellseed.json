@@ -1,0 +1,64 @@
+{
+  "entity_id": "leafshellseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Leafshell Seed",
+  "name_zh": "叶壳花种子",
+  "description_en": "A leafy egg vegetable that provides a protection boost.",
+  "description_zh": "一种多叶卵状蔬菜。可以收获叶壳，食用后会提高防御。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 17,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 54
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "phosphorus",
+          "count": 4
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 15
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "leafshellHarvest",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "nocxiumdrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nocxium Drawers",
+  "name_zh": "诺克石抽屉",
+  "description_en": "A set of drawers made from Nocxium.",
+  "description_zh": "一套由诺克石制成的抽屉。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "nocxium",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nocxiumbar",
+          "count": 10
+        },
+        {
+          "item": "uraniumrod",
+          "count": 15
+        },
+        {
+          "item": "liquidelderfluid",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

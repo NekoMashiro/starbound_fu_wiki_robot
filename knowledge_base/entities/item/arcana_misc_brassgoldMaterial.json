@@ -1,0 +1,91 @@
+{
+  "entity_id": "arcana_misc_brassgoldMaterial",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Brassgold Material",
+  "name_zh": "金铜合金材料",
+  "description_en": "A brass-like material created from a mixture of copper and gold, mostly used for Gilten luxury furniture.",
+  "description_zh": "一种铜与金组合而成的，形似黄铜的混合材料，主要用于镀人的奢侈家具。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperore",
+          "count": 1
+        },
+        {
+          "item": "goldore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 16,
+        "examples": [
+          "arcana_archaic_storage_4",
+          "arcana_archaic_storage_5",
+          "arcana_aurea_storage_1",
+          "arcana_aurea_storage_10",
+          "arcana_aurea_storage_11"
+        ]
+      },
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "arcana_archaic_bed_1",
+          "arcana_archaic_chair_1",
+          "arcana_archaic_chair_2",
+          "arcana_archaic_chair_3",
+          "arcana_archaic_table_1"
+        ]
+      },
+      "decorative": {
+        "count": 7,
+        "examples": [
+          "arcana_archaic_deco_1",
+          "arcana_archaic_deco_2",
+          "arcana_archaic_deco_3",
+          "arcana_archaic_deco_5",
+          "arcana_archaic_deco_6"
+        ]
+      },
+      "light": {
+        "count": 7,
+        "examples": [
+          "arcana_archaic_light_2",
+          "arcana_archaic_light_3",
+          "arcana_archaic_light_4",
+          "arcana_archaic_light_5",
+          "arcana_aurea_deco_19"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "arcana_archaic_door_1"
+        ]
+      }
+    },
+    "total": 39
+  },
+  "quality_tier": "S"
+}

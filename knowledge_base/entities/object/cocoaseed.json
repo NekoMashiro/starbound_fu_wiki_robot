@@ -1,0 +1,63 @@
+{
+  "entity_id": "cocoaseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cocoa Seed",
+  "name_zh": "可可种子",
+  "description_en": "A cocoa plant. Once ripe, the pods can be turned into chocolate.",
+  "description_zh": "可可植株。一旦成熟，其豆荚就可被加工成巧克力。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 23,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 20
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "plantfibre",
+          "count": 13
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "minkocoapodseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cocoaHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

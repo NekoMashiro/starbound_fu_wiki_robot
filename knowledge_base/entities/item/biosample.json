@@ -1,0 +1,236 @@
+{
+  "entity_id": "biosample",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bio Sample",
+  "name_zh": "生物样品",
+  "description_en": "A sample of novel biological compounds and genetic information.",
+  "description_zh": "一种新的生物化合物和遗传信息的样本。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 4,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 4,
+        "examples": [
+          "blisterbushplantseed",
+          "ighantseed",
+          "violirootseed",
+          "xaxseed"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "cell_spliced",
+          "greenslime",
+          "venomsample"
+        ]
+      },
+      "bioweapon": {
+        "count": 2,
+        "examples": [
+          "biogun",
+          "biopistol"
+        ]
+      },
+      "staff": {
+        "count": 2,
+        "examples": [
+          "corruptstaff",
+          "penumbrastaff"
+        ]
+      },
+      "wand": {
+        "count": 2,
+        "examples": [
+          "corruptwand",
+          "penumbrawand"
+        ]
+      },
+      "terraformer": {
+        "count": 2,
+        "examples": [
+          "terraformerjungle",
+          "terraformerthickjungle"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "toxicchair",
+          "toxictable"
+        ]
+      },
+      "fistWeapon": {
+        "count": 1,
+        "examples": [
+          "fumonsterclaw"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "drop_sources": {
+    "total_pools": 14,
+    "hunting_harvest": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "pandorasboxomnixHarvest",
+          "probability": 2.4,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxsluirmHarvest",
+          "probability": 2.2,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxhummingbugHunting",
+          "probability": 0.8,
+          "count": 1,
+          "monsters": [
+            "pandorasboxhummingbug"
+          ]
+        },
+        {
+          "pool": "pandorasboxaliepHunting",
+          "probability": 0.8,
+          "count": 1,
+          "monsters": [
+            "pandorasboxaliep"
+          ]
+        },
+        {
+          "pool": "pandorasboxsluirmHunting",
+          "probability": 0.7843,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.396,
+        2.4
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.7317,
+          "count": 3.7
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "jellyfishTreasure",
+          "probability": 0.6277,
+          "count": 1,
+          "monsters": [
+            "clearjelly",
+            "deathjelly",
+            "deathjellypeaceful"
+          ]
+        },
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.6141,
+          "count": 3.7
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.5136,
+          "count": 3.7
+        },
+        {
+          "pool": "pandorasboxaliepTreasure",
+          "probability": 0.089,
+          "count": 1,
+          "monsters": [
+            "pandorasboxaliep"
+          ]
+        },
+        {
+          "pool": "pandorasboxhummingbugTreasure",
+          "probability": 0.089,
+          "count": 1,
+          "monsters": [
+            "pandorasboxhummingbug"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0444,
+        0.6277
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "thickjungle",
+      "weight": 0.65
+    },
+    {
+      "biome": "fieldofbamboo",
+      "weight": 0.65
+    },
+    {
+      "biome": "fieldofsugar",
+      "weight": 0.65
+    },
+    {
+      "biome": "fieldofbanana",
+      "weight": 0.65
+    },
+    {
+      "biome": "thickjungleunderground",
+      "weight": 0.55
+    }
+  ],
+  "wiki_ref": "Bio Sample.md",
+  "quality_tier": "S"
+}

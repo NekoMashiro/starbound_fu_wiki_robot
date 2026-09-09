@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowergreen",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Green Flower",
+  "name_zh": "绿色花种子",
+  "description_en": "Vibrant, with sticky leaves.",
+  "description_zh": "长有生机勃勃的黏黏的叶子。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowergreenHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_armor_borrhas_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Borrhas Leggings",
+  "name_zh": "北境护腿",
+  "description_en": "A pair of leggings that are designed to combat cold environments. +5% Ice Res.",
+  "description_zh": "一副被设计来用于在寒冷地带战斗的护腿。 +5% 纱冰抗性。",
+  "rarity": "Uncommon",
+  "category": "legwear",
+  "price": 440,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 8
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_frostclad_legs"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

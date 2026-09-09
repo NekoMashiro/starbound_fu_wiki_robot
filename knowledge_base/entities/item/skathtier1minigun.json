@@ -1,0 +1,63 @@
+{
+  "entity_id": "skathtier1minigun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rustic Skath Minigun",
+  "name_zh": "绘世者机枪·低级",
+  "description_en": "'A high tech minigun that fires plasma rounds.'",
+  "description_zh": "发射等离子弹的高科技机枪。",
+  "rarity": "common",
+  "category": "Minigun",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "altAbilityType": "bouncingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Minigun": {
+        "count": 1,
+        "examples": [
+          "skathtier2minigun"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

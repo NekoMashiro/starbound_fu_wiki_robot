@@ -1,0 +1,38 @@
+{
+  "entity_id": "workshop_auto_control",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Item Control Unit",
+  "name_zh": "物品准入单元",
+  "description_en": "An useful tool for allowing specific items to transfer between factory containers.",
+  "description_zh": "一种用于在工厂集装箱之间转移特定物品的实用工具。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "factorypaint",
+    "industrial",
+    "noncontainer"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

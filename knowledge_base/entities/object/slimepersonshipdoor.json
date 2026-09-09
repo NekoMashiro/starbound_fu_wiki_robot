@@ -1,0 +1,45 @@
+{
+  "entity_id": "slimepersonshipdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Ship Door",
+  "name_zh": "史莱姆船门",
+  "description_en": "A door suitable for a spaceship.",
+  "description_zh": "一扇适用于飞船的门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "slimeperson",
+    "door",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 4
+        },
+        {
+          "item": "slime",
+          "count": 2
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

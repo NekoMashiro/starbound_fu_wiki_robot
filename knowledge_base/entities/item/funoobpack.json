@@ -1,0 +1,62 @@
+{
+  "entity_id": "funoobpack",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Core Pack",
+  "name_zh": "核心背包",
+  "description_en": "A very basic tank which provides 60s oxygen, a dim glow, and 10% cold resistance.",
+  "description_zh": "一个非常基本的背包，提供60s氧气，发出微弱的光和10%寒气抗性。",
+  "rarity": "common",
+  "category": "enviroProtectionPack",
+  "price": 250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "corefragmentore",
+          "count": 6
+        },
+        {
+          "item": "polymer",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

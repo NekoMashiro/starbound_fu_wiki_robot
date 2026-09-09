@@ -1,0 +1,59 @@
+{
+  "entity_id": "fuenergymachinegun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thresher",
+  "name_zh": "长尾鲨",
+  "description_en": "Brutal violium-derived blasts shred opponents.\r\nInflicts electrified status\r\nInflicts Slow status",
+  "description_zh": "残酷暴力地毁灭敌人。\n附加感电效果\n附加减速效果",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.25,
+  "critChance": 4,
+  "critBonus": 6,
+  "altAbilityType": "shrapnelshard",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 5
+        },
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

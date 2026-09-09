@@ -1,0 +1,68 @@
+{
+  "entity_id": "precursorboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Boomerang",
+  "name_zh": "先驱回旋镖",
+  "description_en": "Neato.",
+  "description_zh": "这个可以有。",
+  "rarity": "legendary",
+  "category": "boomerang",
+  "price": 810,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "precursor",
+    "upgradeableWeapon"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 10,
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.0998,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.008,
+        0.0998
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0244,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.008,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,137 @@
+{
+  "entity_id": "carbonplate",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Plate",
+  "name_zh": "碳板",
+  "description_en": "Carbon plating can be used for armor or other goods.",
+  "description_zh": "碳板可用于制作盔甲或其他物品。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 35,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_carbon",
+          "count": 2
+        },
+        {
+          "item": "lead",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 77,
+        "examples": [
+          "carbonbed",
+          "carbonbookcase",
+          "carboncabinet",
+          "carbonchair",
+          "carboncouch"
+        ]
+      },
+      "headarmour": {
+        "count": 18,
+        "examples": [
+          "battlebornhead",
+          "bmcglowscoutvisor",
+          "bmcjumpscoutvisor",
+          "bmcspeedscoutvisor",
+          "conquerorhead"
+        ]
+      },
+      "light": {
+        "count": 16,
+        "examples": [
+          "carbondesklamp",
+          "carbonlamp",
+          "carbonwalllamp",
+          "densiniumceilinglamp",
+          "densiniumdesklamp"
+        ]
+      },
+      "storage": {
+        "count": 14,
+        "examples": [
+          "atmoscondensermadness",
+          "carbonchestlarge",
+          "carbonchestsmall",
+          "densiniumchestlarge",
+          "densiniumchestsmall"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 12,
+        "examples": [
+          "carbonfridge",
+          "carbonminifridge",
+          "densiniumfridge",
+          "densiniumminifridge",
+          "exonitefridge"
+        ]
+      },
+      "mechPart": {
+        "count": 12,
+        "examples": [
+          "mecharmflakcannon2",
+          "mechbodychinook",
+          "mechbodyemissary",
+          "mechbodyfuexplorer2",
+          "mechboostersimpleupgrade2"
+        ]
+      },
+      "chestarmour": {
+        "count": 11,
+        "examples": [
+          "battlebornchest",
+          "conquerorchest",
+          "fuinfernochest",
+          "fuintrepidchest",
+          "fujunkerchest"
+        ]
+      },
+      "legarmour": {
+        "count": 11,
+        "examples": [
+          "battlebornpants",
+          "conquerorlegs",
+          "fuinfernopants",
+          "fuintrepidpants",
+          "fujunkerpants"
+        ]
+      }
+    },
+    "total": 323
+  },
+  "quality_tier": "S"
+}

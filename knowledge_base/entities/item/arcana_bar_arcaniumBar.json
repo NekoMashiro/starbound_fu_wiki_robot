@@ -1,0 +1,126 @@
+{
+  "entity_id": "arcana_bar_arcaniumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcanium Bar",
+  "name_zh": "秘钢锭",
+  "description_en": "An arcanium bar, can be used to craft basic Arcane equipment.",
+  "description_zh": "一块秘钢锭，可用于制作基础的奥术装备。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_arcaniumOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 960
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "havencrest_chair_1",
+          "havencrest_chair_2",
+          "havencrest_table_1",
+          "havencrest_table_2",
+          "havencrest_table_3"
+        ]
+      },
+      "throwableItem": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_throwable_alchemicalGrenade",
+          "mwhaddon_throwable_copperOreBomb",
+          "mwhaddon_throwable_ironOreBomb",
+          "mwhaddon_throwable_tungstenOreBomb"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_bar_aureolaBar",
+          "arcana_bar_borealiteBar",
+          "arcana_misc_raidenComponent"
+        ]
+      },
+      "storage": {
+        "count": 3,
+        "examples": [
+          "havencrest_bookcase_1",
+          "havencrest_storage_2",
+          "havencrest_storage_3"
+        ]
+      },
+      "axe": {
+        "count": 2,
+        "examples": [
+          "animus_axe_1",
+          "mwhaddon_boss_seekerOfDust_axe_1"
+        ]
+      },
+      "bow": {
+        "count": 2,
+        "examples": [
+          "animus_bow_1",
+          "havencrest_shortbow_1"
+        ]
+      },
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "animus_broadsword_1",
+          "havencrest_broadsword_1"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "arcana_crafting_cookingStation_2",
+          "arcana_crafting_workbench_2"
+        ]
+      }
+    },
+    "total": 37
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_arcaniumBar"
+  ],
+  "wiki_ref": "Arcanium Bar.md",
+  "quality_tier": "S"
+}

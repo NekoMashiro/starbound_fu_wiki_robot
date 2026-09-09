@@ -1,0 +1,99 @@
+{
+  "entity_id": "hellfireplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Plant Seed",
+  "name_zh": "地狱火藤蔓种子",
+  "description_en": "Lethal when thrown, Hellfire nodules can also be used to create weapons.",
+  "description_zh": "可以收获岩浆炸弹，那是一种致命的投掷物，另外它也是制作武器的绝佳材料。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 41,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 32
+        },
+        {
+          "item": "cell_mutated",
+          "count": 3
+        },
+        {
+          "item": "ignuschili2seed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 36
+        },
+        {
+          "item": "volatilepowder",
+          "count": 55
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 50
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "hellfireblade"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "hellfire1hand"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "hellfirecannon"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "hellfiregun"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "hellfirespear"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hellfireHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

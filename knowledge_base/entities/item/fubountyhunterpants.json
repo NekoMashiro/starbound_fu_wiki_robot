@@ -1,0 +1,52 @@
+{
+  "entity_id": "fubountyhunterpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bounty Hunter Pants",
+  "name_zh": "赏金猎人腿甲",
+  "description_en": "Set Bonuses:\r\n Fall Damage x0.12\r\n Flamethrower/Rocket Launcher: Damage x1.2",
+  "description_zh": "套装奖励：\n 坠落伤害x0.12\n 喷火器/火箭发射器: 伤害x1.2",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 600,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged",
+    "hyper"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 4
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

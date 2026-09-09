@@ -1,0 +1,27 @@
+{
+  "entity_id": "greenleaf",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Greenleaf Herb",
+  "name_zh": "绿叶草",
+  "description_en": "+20% E. Regen & -10% E. Regen Block: 1m",
+  "description_zh": "+20%能量恢复& -10%能量重充能时间: 1m",
+  "rarity": "uncommon",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "greenleafHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

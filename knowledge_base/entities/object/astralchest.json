@@ -1,0 +1,48 @@
+{
+  "entity_id": "astralchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Chest",
+  "name_zh": "星辰箱",
+  "description_en": "A stellar chest, for when you need a pocket dimension to store your stuff.",
+  "description_zh": "一个恒星箱，当你需要一个口袋来存储你的东西可以试试。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralwood",
+          "count": 8
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 1
+        },
+        {
+          "item": "liquidaether",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

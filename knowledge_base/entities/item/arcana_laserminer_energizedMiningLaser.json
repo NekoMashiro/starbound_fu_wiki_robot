@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_laserminer_energizedMiningLaser",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Energized Mining Laser",
+  "name_zh": "充能采矿激光",
+  "description_en": "An enhanced mining laser tool built with Electrolites.",
+  "description_zh": "用电器元件强化过后的采矿激光。",
+  "rarity": "Legendary",
+  "category": "Tool",
+  "price": 1200,
+  "tags": [],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_laserminer_prototypeMiningLaser",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 6
+        },
+        {
+          "item": "orion_crafting_enhancedBattery",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "arcana_laserminer_advancedMiningLaser"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

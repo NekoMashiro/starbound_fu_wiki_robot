@@ -1,0 +1,43 @@
+{
+  "entity_id": "crystallight",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Light",
+  "name_zh": "水晶灯",
+  "description_en": "Shining, shimmering splendour",
+  "description_zh": "发出闪耀的光芒。",
+  "rarity": "rare",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 8
+        },
+        {
+          "item": "fuflashlight",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

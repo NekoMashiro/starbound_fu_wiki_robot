@@ -1,0 +1,85 @@
+{
+  "entity_id": "coralsword2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coral Shortsword",
+  "name_zh": "珊瑚短剑",
+  "description_en": "A sharp, jagged coral sword.",
+  "description_zh": "一把锋利的、锯齿状的珊瑚剑。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "coral"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.12,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralfragment",
+          "count": 12
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0007,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

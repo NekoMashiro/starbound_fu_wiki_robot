@@ -1,0 +1,58 @@
+{
+  "entity_id": "snauntaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Snaunt Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It's notorious for stealing from vegetable patches.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snauntVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "snauntTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "electricsnaunt",
+            "snaunt",
+            "snaunt2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "snauntHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "electricsnaunt",
+            "snaunt",
+            "snaunt2"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

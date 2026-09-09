@@ -1,0 +1,68 @@
+{
+  "entity_id": "slimeplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Glob Bush",
+  "name_zh": "泥叶种子",
+  "description_en": "Useful against slime and can protect against damage.",
+  "description_zh": "可以收获泥叶，食用后会提高防御，免疫黏液。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 21
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 14
+        },
+        {
+          "item": "greenslime",
+          "count": 5
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 15
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 3
+        },
+        {
+          "item": "avesmingoseed",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeplantHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

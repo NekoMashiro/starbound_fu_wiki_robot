@@ -1,0 +1,96 @@
+{
+  "entity_id": "liquidmetallichydrogen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Metallic Hydrogen",
+  "name_zh": "液态金属氢",
+  "description_en": "Manipulation of ZPE via Arc tech has unlocked liquid state at STP!\n+32 Fuel\nCentrifugable.",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 3,
+        "examples": [
+          "fu_quantumgenerator",
+          "isn_atmosregulatornew",
+          "isn_battery_t4_fero"
+        ]
+      },
+      "Chaingun": {
+        "count": 1,
+        "examples": [
+          "fuaegisaltminigun"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "elderbeer"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuquantumchestadv"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuquantumheadadv"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuquantumlegsadv"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "hydrogencore"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "m_hydrogenlavalamp"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "fu_hydrogenmetallic"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gasbagLoot",
+          "probability": 0.6857,
+          "count": 150,
+          "monsters": [
+            "gasbag",
+            "gasbagstat",
+            "skywhale",
+            "skywhale2"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Liquid Metallic Hydrogen.md",
+  "quality_tier": "A"
+}

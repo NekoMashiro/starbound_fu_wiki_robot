@@ -1,0 +1,46 @@
+{
+  "entity_id": "rockhat",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rock Hat",
+  "name_zh": "岩帽",
+  "description_en": "You can put these rocks on your head.",
+  "description_zh": "你可以把这些石头顶在头上。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stoneCaveChestTreasure",
+          "probability": 0.1623,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoStoneCaveTreasure",
+          "probability": 0.1055,
+          "count": 1
+        },
+        {
+          "pool": "stoneCaveTreasure",
+          "probability": 0.0882,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0882,
+        0.1055
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

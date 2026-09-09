@@ -1,0 +1,64 @@
+{
+  "entity_id": "goldenseaspongeplant",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Sea Sponge Seed ",
+  "name_zh": "金色海苔种子",
+  "description_en": "Gleams under light.",
+  "description_zh": "可以收获金色海苔，食用后会提高游泳速度，让你变得更轻和免疫中毒。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 11,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 87
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "fuspongeweedseed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 21
+        },
+        {
+          "item": "kelp",
+          "count": 36
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "goldenseaspongeplantHarvest",
+          "probability": 0.1429,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

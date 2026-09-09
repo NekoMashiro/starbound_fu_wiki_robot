@@ -1,0 +1,42 @@
+{
+  "entity_id": "ff_fertilizer2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Fertilizer",
+  "name_zh": "高级肥料",
+  "description_en": "A step above lesser fertilizers.\nGrowth Rate x2.5 & +2 produce.\n-1 seed use",
+  "description_zh": "更进一步的肥料。\n生长速率x2.5&产量+2\n种子消耗-1",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 158,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidoil",
+          "count": 10
+        },
+        {
+          "item": "sulphur",
+          "count": 5
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 10
+        },
+        {
+          "item": "phosphorus",
+          "count": 4
+        }
+      ],
+      "output_count": 20,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

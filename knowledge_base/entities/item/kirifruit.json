@@ -1,0 +1,27 @@
+{
+  "entity_id": "kirifruit",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kiri Fruit [FU]",
+  "name_zh": "泡桐果[FU]",
+  "description_en": "The fruiting body of a subterranean slime mold.\nHeal in Darkness 250.25%-252.5% HP: 5m",
+  "description_zh": "地下黏液霉菌的果实。\n在黑暗中治疗250.25%-252.5% HP: 5m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fukiriHarvest",
+          "probability": 0.6842,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

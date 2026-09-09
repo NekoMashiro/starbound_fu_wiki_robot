@@ -1,0 +1,198 @@
+{
+  "entity_id": "liquidoil",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Oil",
+  "name_zh": "油",
+  "description_en": "A measure of gooey unrefined oil.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的黏稠的、未经提炼的油。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "backwear": {
+        "count": 6,
+        "examples": [
+          "crayonblueback",
+          "crayongreenback",
+          "crayonorangeback",
+          "crayonpurpleback",
+          "crayonredback"
+        ]
+      },
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "aetherdonut",
+          "nightmarefuel",
+          "oilstew"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "ff_fertilizer2",
+          "ff_plastic",
+          "ff_silicon"
+        ]
+      },
+      "liquid": {
+        "count": 2,
+        "examples": [
+          "liquidblacktar",
+          "unrefinedliquidmechfuel"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "chainsaw",
+          "mininglantern"
+        ]
+      },
+      "bow": {
+        "count": 2,
+        "examples": [
+          "compoundbow",
+          "tungstenbow"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "arcana_food_metallicTea"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fu_NFPA_gasoline"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "drop_sources": {
+    "total_pools": 11,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_treasure_general_liquidoil",
+          "probability": 1.0,
+          "count": 12.0
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.2126,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "slimemonstertarTreasure",
+          "probability": 0.2054,
+          "count": 2,
+          "monsters": [
+            "tarslime"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.1306,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1306,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "huntingmechanical",
+          "probability": 0.3306,
+          "count": 1,
+          "monsters": [
+            "fudrone"
+          ]
+        },
+        {
+          "pool": "huntingmechanicalLarge",
+          "probability": 0.1613,
+          "count": 1,
+          "monsters": [
+            "eyebaht",
+            "nanoswarm"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1613,
+        0.3306
+      ]
+    },
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.1299,
+          "count": 2.0
+        },
+        {
+          "pool": "targolemLoot",
+          "probability": 0.1014,
+          "count": 16.0
+        },
+        {
+          "pool": "brokenMechLoot",
+          "probability": 0.097,
+          "count": 120
+        },
+        {
+          "pool": "ashgolemLoot",
+          "probability": 0.0542,
+          "count": 20,
+          "monsters": [
+            "adultpoptopfire",
+            "adultpoptopfire2",
+            "adultpoptopfire3",
+            "adultpoptopfiremadness",
+            "adultpoptopfirepet"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0542,
+        0.1299
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0799,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

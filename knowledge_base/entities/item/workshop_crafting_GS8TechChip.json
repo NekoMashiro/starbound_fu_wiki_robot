@@ -1,0 +1,119 @@
+{
+  "entity_id": "workshop_crafting_GS8TechChip",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "GS8 Tech Chip",
+  "name_zh": "齿轮工坊八科科技芯片",
+  "description_en": "A tech chip found in weapondry used by Section 8 of the Workshop of Gears.",
+  "description_zh": "在齿轮工坊第八科使用的武器中找到的科技芯片。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 110,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 5,
+        "examples": [
+          "at_ext_b3",
+          "at_ext_extractor2",
+          "at_ext_foundry2",
+          "at_ext_mining3",
+          "at_ext_solar2"
+        ]
+      },
+      "mechPart": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_mech_arm_carronade",
+          "mwhaddon_mech_arm_grungust",
+          "mwhaddon_mech_arm_siegehammer",
+          "mwhaddon_mech_body_titan"
+        ]
+      },
+      "axe": {
+        "count": 3,
+        "examples": [
+          "workshop_axe_2",
+          "workshop_axe_3",
+          "workshop_axe_4"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "workshop_pistol_2",
+          "workshop_pistol_3"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "ar_sp2_mk2"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8_legs"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_gearsS8_chest"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_lootbox1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_workshop_section8Elite",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_monsterdrops_GS8Scout",
+          "probability": 0.4,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_GS8Scout"
+          ]
+        },
+        {
+          "pool": "arcana_npcdrops_workshop_section8Officer",
+          "probability": 0.4,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

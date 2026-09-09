@@ -1,0 +1,168 @@
+{
+  "entity_id": "mantizanwine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizan Wine",
+  "name_zh": "虫氏药酒",
+  "description_en": "The rarest and most highly-esteemed wine in the known universe\n+8 Defense, +15% All Res (1m)",
+  "description_zh": "已知的宇宙中最珍稀、最尊贵的葡萄酒。\n+8防御，+15%所有抗性(持续1m)",
+  "rarity": "legendary",
+  "category": "drink",
+  "price": 25000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 40,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0457,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "commonSpaceItem",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0457
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0085,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0082,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0015,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0085
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0051,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0051,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0033,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0051
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0009,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0009
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

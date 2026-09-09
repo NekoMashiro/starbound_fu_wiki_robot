@@ -1,0 +1,40 @@
+{
+  "entity_id": "futentaclet10",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tentacle",
+  "name_zh": "触须",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Tentacle",
+  "friendly_name_zh": "触须",
+  "monsters": [
+    "bigwormcritter",
+    "cell2critter",
+    "cellcritter",
+    "eggcellcritter",
+    "fisheyecritter",
+    "fleshreaper3",
+    "tentaclebomb",
+    "tentacleclam",
+    "tentaclecrawler",
+    "tentacleghost",
+    "tentaclegnat",
+    "tentaclespawner"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:tentacles"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "superdarkstatsuperlargeUnblockable",
+    "insanitynew2",
+    "fu_nooxygen",
+    "biomepoison3"
+  ],
+  "quality_tier": "C"
+}

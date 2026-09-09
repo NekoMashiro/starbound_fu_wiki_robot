@@ -1,0 +1,27 @@
+{
+  "entity_id": "pirufrond",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Piru Frond [FU]",
+  "name_zh": "皮鲁藤壶叶[FU]",
+  "description_en": "Swim Boost, +15% Run: 2m",
+  "description_zh": "游泳加速, +15%速度: 2m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fupiruHarvest",
+          "probability": 0.5306,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

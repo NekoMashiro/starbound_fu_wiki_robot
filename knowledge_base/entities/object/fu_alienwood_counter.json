@@ -1,0 +1,44 @@
+{
+  "entity_id": "fu_alienwood_counter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alien Wood Counter",
+  "name_zh": "外星木柜台",
+  "description_en": "An alienwood counter.",
+  "description_zh": "一个外星木柜台。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienstripedwood",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

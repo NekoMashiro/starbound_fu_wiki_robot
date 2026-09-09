@@ -1,0 +1,55 @@
+{
+  "entity_id": "babyheadonastick",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Baby Head (on a stick)",
+  "name_zh": "（串在棍子上的）婴儿头",
+  "description_en": "Floran delicacy.\n-5% HP (10s) Madness Gain 1\nType: Raw Meat",
+  "description_zh": "叶族人美味。\n -5%HP （10s）；癫狂1\n类型：生肉",
+  "rarity": "rare",
+  "category": "food",
+  "price": 55,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 55
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "Midnight Meat Wagon",
+      "station_zh": "午夜肉车",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fucorpsewagon.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Baby Head (on a stick).md",
+  "quality_tier": "A"
+}

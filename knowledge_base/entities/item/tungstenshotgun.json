@@ -1,0 +1,70 @@
+{
+  "entity_id": "tungstenshotgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tungsten Shotgun",
+  "name_zh": "钨制霰弹枪",
+  "description_en": "Fires a spread that's lethal at close range.",
+  "description_zh": "发射一片在近距离极为致命的霰弹。",
+  "rarity": "Common",
+  "category": "shotgun",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 3,
+  "altAbilityType": "burstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

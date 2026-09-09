@@ -1,0 +1,49 @@
+{
+  "entity_id": "mwhaddon_misc_shadowstarBlossom_3",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Shadowstarossom Gamma",
+  "name_zh": "星影之花 伽马",
+  "description_en": "An enchanted flower, possess an indescribable power.",
+  "description_zh": "注魔之花，孕育着难以言说的强大力量。",
+  "rarity": "essential",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_voidPhase",
+          "count": 3
+        },
+        {
+          "item": "mwhaddon_misc_apotheosisAssembler",
+          "count": 3
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_3",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "mwhaddonarcana_sigils_ssSigil"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

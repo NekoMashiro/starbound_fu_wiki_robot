@@ -1,0 +1,32 @@
+{
+  "entity_id": "bonedragonaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Bone Dragon Figurine",
+  "name_zh": "骨龙手办",
+  "description_en": "The label reads, \"A towering, fire-breathing robot Dragon, designed to look like a reanimated skeleton.\"",
+  "description_zh": "标签上写着：“一个高大的、会喷火的机器龙，被设计成一具复活了的骨架的样子。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bonedragonTreasure",
+          "probability": 0.0556,
+          "count": 1,
+          "monsters": [
+            "dragonboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

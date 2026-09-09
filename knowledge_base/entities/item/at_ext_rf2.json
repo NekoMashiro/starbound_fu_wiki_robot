@@ -1,0 +1,43 @@
+{
+  "entity_id": "at_ext_rf2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "BR-203",
+  "name_zh": "",
+  "description_en": "''bullet guards your private space.''\r\n  A battle rifle made from Dustrium. Used for self-defense",
+  "description_zh": "“子弹最能保卫你的私人空间。”\n由尘石制成的黑色战斗步枪。用于单兵自卫。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 30,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "B"
+}

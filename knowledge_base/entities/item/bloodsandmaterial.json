@@ -1,0 +1,32 @@
+{
+  "entity_id": "bloodsandmaterial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Sand",
+  "name_zh": "血沙",
+  "description_en": "As red as your insides.\nExtractable, Siftable.",
+  "description_zh": "像你的内脏一样红。\n可萃取，可筛分。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bloodgolemLoot",
+          "probability": 0.1601,
+          "count": 25,
+          "monsters": [
+            "atropuseye",
+            "atropusfish",
+            "fubloodgolem"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

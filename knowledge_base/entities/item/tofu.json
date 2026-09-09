@@ -1,0 +1,35 @@
+{
+  "entity_id": "tofu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Jikjik Tofu",
+  "name_zh": "唧刻唧刻豆腐",
+  "description_en": "Unlike 'normal' tofu, no one knows what this type is made from! Tasty!\n+10% Cosmic Res (5m)",
+  "description_zh": "不像其他“普通”的豆腐，没有人知道这种豆腐是由什么制成的！很美味！\n+10%射线抗性(持续5m)",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 102,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

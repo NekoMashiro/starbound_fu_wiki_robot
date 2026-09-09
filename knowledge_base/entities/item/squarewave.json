@@ -1,0 +1,81 @@
+{
+  "entity_id": "squarewave",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Square Wave",
+  "name_zh": "方波",
+  "description_en": "Perfect for adding that synthetic feeling to your performance.",
+  "description_zh": "能在你的表演中完美加入合成感。",
+  "rarity": "Common",
+  "category": "musicalInstrument",
+  "price": 3000,
+  "tags": [],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceInstrument",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.005,
+        0.5
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0053,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.005,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0007,
+        0.0053
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

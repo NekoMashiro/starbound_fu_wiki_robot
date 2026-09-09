@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_throwable_illuminatedBomb",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Illuminated Bomb",
+  "name_zh": "黯光溶液炸弹",
+  "description_en": "Burst into a pool of Illuminated Water on collide.",
+  "description_zh": "接触时炸出一池的黯光弱水。",
+  "rarity": "uncommon",
+  "category": "throwableItem",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_holosiumFragment",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

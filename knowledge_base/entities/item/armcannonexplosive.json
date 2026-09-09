@@ -1,0 +1,49 @@
+{
+  "entity_id": "armcannonexplosive",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arm Cannon (Missile)",
+  "name_zh": "臂炮(飞弹)",
+  "description_en": "Attaches to the forearm. Fires explosive blasts.\r\nCounts as 'rocket launcher' for set bonuses",
+  "description_zh": "可装在手臂上，发射出爆炸型子弹。\n火箭发射器",
+  "rarity": "rare",
+  "category": "armcannon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "rocketlauncher",
+    "explosive"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 2.2,
+  "critChance": 4,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "armcannon",
+          "count": 1
+        },
+        {
+          "item": "phosphorus",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

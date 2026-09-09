@@ -1,0 +1,30 @@
+{
+  "entity_id": "gnomehead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gnome Hat",
+  "name_zh": "侏儒帽子",
+  "description_en": "He just sits there all day. What a lazy guy.",
+  "description_zh": "他整天都只是坐在那里。这家伙真是懒。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "miniVillageTreasure",
+          "probability": 0.0015,
+          "count": 1,
+          "monsters": [
+            "gnomewarriors"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

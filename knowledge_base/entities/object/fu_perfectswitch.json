@@ -1,0 +1,34 @@
+{
+  "entity_id": "fu_perfectswitch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Perfect Switch",
+  "name_zh": "完美的开关",
+  "description_en": "A perfect switch",
+  "description_zh": "一个完美的开关。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 0,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "perfectlygenericitem",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

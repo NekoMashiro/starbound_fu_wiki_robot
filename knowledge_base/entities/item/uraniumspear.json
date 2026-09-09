@@ -1,0 +1,61 @@
+{
+  "entity_id": "uraniumspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Lance",
+  "name_zh": "铀制长枪",
+  "description_en": "Infused with deadly enriched uranium. That's kind of you.\r\nHunting weapon",
+  "description_zh": "注入了致命的浓缩铀.你可真好。\n狩猎武器",
+  "rarity": "Rare",
+  "category": "lance",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 9.92,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "heavyspearcombo",
+  "altAbilityType": "barrier",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

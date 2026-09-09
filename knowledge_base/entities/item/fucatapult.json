@@ -1,0 +1,63 @@
+{
+  "entity_id": "fucatapult",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat-A-Pult",
+  "name_zh": "猫弹弓",
+  "description_en": "Reliably shoots cats.\r\nExplosive cats\r\nMultiple damage types",
+  "description_zh": "可靠地将猫射出。\n爆炸猫咪\n造成多种属性伤害",
+  "rarity": "legendary",
+  "category": "grenadeLauncher",
+  "price": 16000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "meow",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.6,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "catshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "schrodingerscat",
+          "count": 4
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 24
+        },
+        {
+          "item": "uncathat",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Cat-A-Pult.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_teslaturret",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tesla Turret",
+  "name_zh": "特斯拉炮塔",
+  "description_en": "Base Damage: 12, AoE\r\nFire Rate: 3\r\nEnergy per Shot: 45\r\nRange: Long",
+  "description_zh": "基础伤害: 13, AoE伤害\n射速: 3\n每击能量消耗: 45\n范围: 长",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "teslagun",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "teslagun"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Tesla Turret.md",
+  "quality_tier": "S"
+}

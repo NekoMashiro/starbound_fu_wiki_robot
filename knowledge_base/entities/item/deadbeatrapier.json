@@ -1,0 +1,59 @@
+{
+  "entity_id": "deadbeatrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Rapier",
+  "name_zh": "废料刺剑",
+  "description_en": "Guaranteed to cause tetanus. Share with friends for bonus fun.",
+  "description_zh": "保证会引发破伤风。与朋友分享乐趣更多。",
+  "rarity": "uncommon",
+  "category": "Rapier",
+  "price": 1300,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "deadbeat"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 5.91,
+  "critChance": 3,
+  "critBonus": 1,
+  "primaryAbilityType": "piercecombo",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

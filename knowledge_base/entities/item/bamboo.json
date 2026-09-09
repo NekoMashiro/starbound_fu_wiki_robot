@@ -1,0 +1,272 @@
+{
+  "entity_id": "bamboo",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bamboo",
+  "name_zh": "竹子",
+  "description_en": "Freshly cut stalks of bamboo.\nExtractable.",
+  "description_zh": "新鲜的竹竿切块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_bambooshoot",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 5
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "fufloranbath",
+          "fufloranbed",
+          "fufloranchair",
+          "fufloransofa",
+          "fuflorantable"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_terraformer_bambooForest"
+        ]
+      },
+      "platform": {
+        "count": 1,
+        "examples": [
+          "bambooplatform"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "fuflorandoor"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "fufloranlamp"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 51,
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 250
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0045,
+          "count": 25
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0028,
+          "count": 25
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0023,
+          "count": 25
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0012,
+          "count": 25.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0884
+      ]
+    },
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 12,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 12
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.017,
+          "count": 12
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0052,
+          "count": 25
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0042,
+          "count": 25,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0651
+      ]
+    },
+    "chest_loot": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 250
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 25.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 25
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 25.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0051,
+          "count": 25
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 25.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 25.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 25.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 25.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 25.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 25.0
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "bamboo",
+    "bambooplatform"
+  ],
+  "quality_tier": "S"
+}

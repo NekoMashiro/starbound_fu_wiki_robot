@@ -1,0 +1,66 @@
+{
+  "entity_id": "aeon_shortbow_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Longbow",
+  "name_zh": "纪元短弓",
+  "description_en": "A golden bow infused with an aeon-lit string.",
+  "description_zh": "一把无需张弦即可射击的金色短弓。",
+  "rarity": "Legendary",
+  "category": "bow",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "aeon"
+  ],
+  "level": 8,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_bowshot",
+  "altAbilityType": "arcana_bowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 1
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "artifact_battlestaff_chronologia"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

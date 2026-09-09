@@ -1,0 +1,50 @@
+{
+  "entity_id": "hylotlcalligraphy2",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hylotl \"Croak\" Calligraphy",
+  "name_zh": "鲛人“咕啊”艺术字",
+  "description_en": "Framed calligraphy for 'croak'.",
+  "description_zh": "裱好的书法字‘咕哇’。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 60,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.1103,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureMedium",
+          "probability": 0.0708,
+          "count": 1
+        },
+        {
+          "pool": "hylotlruinedcastleTreasure",
+          "probability": 0.0274,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasure",
+          "probability": 0.0232,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0232,
+        0.1103
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

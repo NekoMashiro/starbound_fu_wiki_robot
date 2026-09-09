@@ -1,0 +1,51 @@
+{
+  "entity_id": "hamradioandmic",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "HAM Radio & Mic",
+  "name_zh": "火腿收音机和麦克风",
+  "description_en": "A simple, but no less effective radio set for wireless communication. Invaluable for ground reconnaissance missions.",
+  "description_zh": "一种简单但同样有效的无线通讯收音机。对于地面侦察任务来说是非常宝贵的。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "barracks",
+    "combat",
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "barracksset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

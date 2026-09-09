@@ -1,0 +1,69 @@
+{
+  "entity_id": "mwhaddon_execration_flamethrower",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Incineration",
+  "name_zh": "蒸熔",
+  "description_en": "To ignite and incinerate sins.",
+  "description_zh": "以焚烧与蒸熔罪恶。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "execration",
+    "flamethrower"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 50,
+  "primaryAbilityType": "flamethrower",
+  "altAbilityType": "flamethrower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 11
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_omtreeSplinter",
+          "count": 4
+        },
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "horizon_shotgun_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

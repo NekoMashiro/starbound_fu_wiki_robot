@@ -1,0 +1,40 @@
+{
+  "entity_id": "apexmocksign",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Disobey Sign",
+  "name_zh": "反抗标志",
+  "description_en": "A defaced poster of Big Ape.",
+  "description_zh": "一张被毁容了的大猿人海报。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 70,
+  "tags": [
+    "apex",
+    "apexvillage",
+    "odd"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

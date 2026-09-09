@@ -1,0 +1,89 @@
+{
+  "entity_id": "veluutier4chest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat's Collar Tier 4",
+  "name_zh": "猫项圈 T4",
+  "description_en": "A cat's collar imbued with protective power.",
+  "description_zh": "注入了保护能量的猫项圈。",
+  "rarity": "Uncommon",
+  "category": "chestarmour",
+  "price": 4000,
+  "tags": [
+    "tier4armour",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 5
+        },
+        {
+          "item": "silk",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "silk",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "veluutier5achest",
+    "veluutier5mchest",
+    "veluutier5schest"
+  ],
+  "quality_tier": "A"
+}

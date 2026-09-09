@@ -1,0 +1,52 @@
+{
+  "entity_id": "arcana_florahusk_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Florahusk Circlet",
+  "name_zh": "花质层头环",
+  "description_en": "A simple circlet decorated with flowers.",
+  "description_zh": "装饰有花朵的简易花环。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 75,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingclothes",
+          "probability": 0.1333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

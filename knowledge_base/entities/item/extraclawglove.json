@@ -1,0 +1,41 @@
+{
+  "entity_id": "extraclawglove",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zel-Claw",
+  "name_zh": "类鸟爪",
+  "description_en": "Claws designed like a bird's talons.",
+  "description_zh": "这个爪子设计得好像一只鸟的爪子一样。",
+  "rarity": "Legendary",
+  "category": "fistWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 11.5,
+  "critChance": 1,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 3750
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "blueprints_unlocked": [
+    "extraclawglove"
+  ],
+  "quality_tier": "A"
+}

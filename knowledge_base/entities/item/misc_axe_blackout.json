@@ -1,0 +1,36 @@
+{
+  "entity_id": "misc_axe_blackout",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Blackout",
+  "name_zh": "遮断",
+  "description_en": "A high-tech axe once held by cyber-gladiators.",
+  "description_zh": "一柄曾由赛博角斗士使用的高科技单手斧。",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 9.0,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

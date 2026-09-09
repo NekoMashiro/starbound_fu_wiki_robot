@@ -1,0 +1,49 @@
+{
+  "entity_id": "armcannonproto",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arm Cannon (Fusion)",
+  "name_zh": "臂炮(聚变)",
+  "description_en": "Attaches to the forearm. Fires quantum blasts.\r\nCounts as 'energy' for set bonuses",
+  "description_zh": "可装在手臂上，发射出量子型子弹。\n能量武器",
+  "rarity": "rare",
+  "category": "armcannon",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "energy",
+    "proto"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5.7,
+  "critChance": 5,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "armcannon",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 3
+        },
+        {
+          "item": "phasematter",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

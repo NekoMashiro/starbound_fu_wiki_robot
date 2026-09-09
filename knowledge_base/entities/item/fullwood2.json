@@ -1,0 +1,55 @@
+{
+  "entity_id": "fullwood2",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Unrefined Wood",
+  "name_zh": "未处理的木头",
+  "description_en": "Rough and unrefined, this wood looks freshly chopped.",
+  "description_zh": "粗糙而且未处理的木头，看起来刚被砍下来。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "woodShed",
+          "probability": 0.0696,
+          "count": 15
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

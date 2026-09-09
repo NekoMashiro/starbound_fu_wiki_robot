@@ -1,0 +1,63 @@
+{
+  "entity_id": "flailpenumbrite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Striker",
+  "name_zh": "半影打击者",
+  "description_en": "Heavy, cumbersome and awesome.",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "Striker",
+  "price": 90,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "silver",
+    "upgradeableWeapon",
+    "penumbrite"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

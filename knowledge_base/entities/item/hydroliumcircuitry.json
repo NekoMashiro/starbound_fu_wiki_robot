@@ -1,0 +1,111 @@
+{
+  "entity_id": "hydroliumcircuitry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydrolium Circuitry",
+  "name_zh": "氢化合金电路",
+  "description_en": "A highly efficent circuitry made out of hydrolium, commonly used by the Skath.",
+  "description_zh": "由氢化合金制成的高效电路，通常由绘世者使用。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hydrolium",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 9
+        },
+        {
+          "item": "protocitebar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "自动组装器",
+          "name_zh": "自动组装器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 7,
+        "examples": [
+          "skathceilingconsole",
+          "skathconsole1",
+          "skathconsole2",
+          "skathdrain",
+          "skathhomeworldhologram"
+        ]
+      },
+      "door": {
+        "count": 5,
+        "examples": [
+          "skathairlock",
+          "skathdiagonaldoor",
+          "skathshipdoor",
+          "skathshiphatch",
+          "tethydeslidingdoor"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "skathplasmatorch",
+          "skathshiplight"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "skathturret1",
+          "skathtv"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "skathchest"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "skathceilinglight"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 1,
+        "examples": [
+          "skathfridge"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "skathmicrowave"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "quality_tier": "S"
+}

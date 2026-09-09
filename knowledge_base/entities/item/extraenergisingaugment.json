@@ -1,0 +1,41 @@
+{
+  "entity_id": "extraenergisingaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energising Augment",
+  "name_zh": "EPP模块（充能）",
+  "description_en": "Energy x1.25\r\nEnergy Block Time x0.85\r\nLarge energy regen boost",
+  "description_zh": "能量x1.25\n15%重充能时间减少\n大能量回复加速",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 25000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraskytempleaugment",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

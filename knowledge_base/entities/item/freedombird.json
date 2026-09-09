@@ -1,0 +1,40 @@
+{
+  "entity_id": "freedombird",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "FREEDOM",
+  "name_zh": "自由之鹰",
+  "description_en": "Fire condensed freedom at enemies of capitalism.",
+  "description_zh": "向资本主义的敌人发射浓缩的自由之火。",
+  "rarity": "legendary",
+  "category": "rocketLauncher",
+  "price": 6000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "freedom",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 12.65,
+  "critChance": 2,
+  "critBonus": 3,
+  "altAbilityType": "swtjc_ewg_rocketjump",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0173,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "FREEDOM.md",
+  "quality_tier": "A"
+}

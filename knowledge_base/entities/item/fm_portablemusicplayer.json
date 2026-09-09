@@ -1,0 +1,43 @@
+{
+  "entity_id": "fm_portablemusicplayer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Portable Music Player",
+  "name_zh": "音乐播放器(便携式)",
+  "description_en": "Primary: Plays the selected music\r\nSecondary: Resets the background music",
+  "description_zh": "享受随时随地欣赏音乐的乐趣吧\n左键：打开选择音乐菜单\n右键：重置背景音乐",
+  "rarity": "common",
+  "category": "Console",
+  "price": 0,
+  "tags": [
+    "tool"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fm_musicplayer",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

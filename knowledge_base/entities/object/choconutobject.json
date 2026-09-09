@@ -1,0 +1,41 @@
+{
+  "entity_id": "choconutobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Choconuts",
+  "name_zh": "巧克力",
+  "description_en": "A delicious fusion of coconut and chocolate in donut form.",
+  "description_zh": "美味的椰子和巧克力的混合甜甜圈。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 415,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "choconut",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "choconut"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

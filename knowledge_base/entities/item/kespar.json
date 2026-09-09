@@ -1,0 +1,74 @@
+{
+  "entity_id": "kespar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kespar Crystal",
+  "name_zh": "柯斯帕水晶",
+  "description_en": "A purple and green gem that sparkles in the sun.",
+  "description_zh": "一种紫中带绿的宝石，在阳光下闪闪发光。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "apaliteseed",
+          "rasilineseed"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "kespardye"
+        ]
+      },
+      "mechChip": {
+        "count": 1,
+        "examples": [
+          "mechchiprefueler"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thanatiteHarvest",
+          "probability": 0.87,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "protopancakes",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Pancakes",
+  "name_zh": "原型煎饼",
+  "description_en": "Looks toxically delicious.\nProto-Poison Immunity (5m)",
+  "description_zh": "看起来简直是剧毒级美味。\n赋予原毒免疫(持续5m)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

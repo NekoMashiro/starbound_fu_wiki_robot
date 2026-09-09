@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Scythe",
+  "name_zh": "月海镰刀",
+  "description_en": "Nearly magically light, yet sharp as a razor.",
+  "description_zh": "轻似魔法，利若剃刀。",
+  "rarity": "common",
+  "category": "scythe",
+  "price": 230,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon",
+    "telebrium"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.1,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,77 @@
+{
+  "entity_id": "fuMadnessVoxelItem",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Odd Glyph",
+  "name_zh": "奇异雕文",
+  "description_en": "A strange language is carved around the edge of this disk, whispering into your mind.",
+  "description_zh": "圆盘的边缘刻着奇怪的语言，在你的脑海里低语。",
+  "rarity": "rare",
+  "category": "resourceItem",
+  "price": 999,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuRareOre",
+          "probability": 0.6536,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.1352,
+          "count": 1.0
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0661,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0132,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0132,
+        0.0661
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.027,
+          "count": 1
+        },
+        {
+          "pool": "ffelitegregTreasure",
+          "probability": 0.0119,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0119,
+        0.027
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

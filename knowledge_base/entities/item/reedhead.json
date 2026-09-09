@@ -1,0 +1,55 @@
+{
+  "entity_id": "reedhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Reed Hat",
+  "name_zh": "芦苇帽",
+  "description_en": "A rather fetching hat made from reeds.",
+  "description_zh": "一个相当迷人的芦苇制成的帽子。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oasisChestTreasure",
+          "probability": 0.1468,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0798,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0798,
+        0.1468
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoOasisTreasure",
+          "probability": 0.0954,
+          "count": 1
+        },
+        {
+          "pool": "oasisTreasure",
+          "probability": 0.0798,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0798,
+        0.0954
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

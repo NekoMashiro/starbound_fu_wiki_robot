@@ -1,0 +1,59 @@
+{
+  "entity_id": "diamondrapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Diamond Rapier",
+  "name_zh": "钻石刺剑",
+  "description_en": "A sparkling, diamond rapier.",
+  "description_zh": "一把闪闪发光的刺剑。",
+  "rarity": "rare",
+  "category": "Rapier",
+  "price": 4240,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "upgradeableWeapon",
+    "diamond"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 5.98,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "diamond",
+          "count": 8
+        },
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

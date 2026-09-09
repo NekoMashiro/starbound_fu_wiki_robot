@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_lunar_deco_12",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Ceramic Plant Pot",
+  "name_zh": "陶瓷盆景",
+  "description_en": "A plant embedded in a ceramic bowl.",
+  "description_zh": "嵌入陶瓷碗中的植物。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "kuromatsu"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 1
+        },
+        {
+          "item": "firedclay",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

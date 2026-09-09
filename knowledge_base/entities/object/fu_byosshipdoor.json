@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_byosshipdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship Door",
+  "name_zh": "飞船门",
+  "description_en": "A door suitable for a spaceship.",
+  "description_zh": "一扇适用于飞船的门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

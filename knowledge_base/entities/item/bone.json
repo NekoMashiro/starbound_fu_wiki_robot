@@ -1,0 +1,298 @@
+{
+  "entity_id": "bone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bone",
+  "name_zh": "骨头",
+  "description_en": "It's a bone.",
+  "description_zh": "这是一个骨头。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 2,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 12,
+        "examples": [
+          "amberchair",
+          "ambersofa",
+          "ambertable",
+          "bonebed",
+          "bonechair"
+        ]
+      },
+      "block": {
+        "count": 12,
+        "examples": [
+          "arcana_spectwing_tile1",
+          "arcana_spectwing_tile11",
+          "arcana_spectwing_tile12",
+          "arcana_spectwing_tile13",
+          "arcana_spectwing_tile2"
+        ]
+      },
+      "seed": {
+        "count": 6,
+        "examples": [
+          "bonebooseed",
+          "fuspongeweedseed",
+          "plasmangoseed",
+          "shadowrootseed",
+          "thornitoxseed"
+        ]
+      },
+      "shortsword": {
+        "count": 5,
+        "examples": [
+          "boneblade",
+          "coralsword2",
+          "fuatropusshortsword",
+          "fusavethequeen",
+          "solariblade"
+        ]
+      },
+      "hammer": {
+        "count": 5,
+        "examples": [
+          "fishboneheadbasher",
+          "fuatropushammer",
+          "fubonehammer",
+          "fuhoneyhammer",
+          "solarihammer"
+        ]
+      },
+      "headwear": {
+        "count": 5,
+        "examples": [
+          "worshipperhead",
+          "worshipperhead2",
+          "worshipperhead3",
+          "worshipperhead4",
+          "worshipperhead5"
+        ]
+      },
+      "storage": {
+        "count": 4,
+        "examples": [
+          "amberchest",
+          "ambercupboard",
+          "atropuschest",
+          "bonechest"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "amberchandelier",
+          "amberlight",
+          "fudragonlamp",
+          "skulltorch"
+        ]
+      }
+    },
+    "total": 128
+  },
+  "drop_sources": {
+    "total_pools": 40,
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingbones",
+          "probability": 2.6667,
+          "count": 2
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombbooks",
+          "probability": 0.7042,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.5376,
+          "count": 2
+        },
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.5041,
+          "count": 15.0
+        },
+        {
+          "pool": "boneCaveChestTreasure",
+          "probability": 0.4182,
+          "count": 15.0
+        }
+      ],
+      "prob_range": [
+        0.4182,
+        2.6667
+      ]
+    },
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_skeleton",
+          "probability": 1.5,
+          "count": 1.5,
+          "monsters": [
+            "arcana_monster_skeleton",
+            "arcana_monster_watchbonesreg"
+          ]
+        },
+        {
+          "pool": "extraverdantparasol",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.924,
+          "count": 6.5
+        },
+        {
+          "pool": "arcana_farmable_tatalot",
+          "probability": 0.8,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_cryptspurn",
+          "probability": 0.525,
+          "count": 2.2
+        }
+      ],
+      "prob_range": [
+        0.1066,
+        1.5
+      ]
+    },
+    "monster_drops": {
+      "count": 17,
+      "top": [
+        {
+          "pool": "bonebirdTreasure",
+          "probability": 1.4,
+          "count": 1,
+          "monsters": [
+            "bonebird"
+          ]
+        },
+        {
+          "pool": "tombTreasure",
+          "probability": 0.792,
+          "count": 2.3
+        },
+        {
+          "pool": "valuableTombTreasure",
+          "probability": 0.75,
+          "count": 2.3
+        },
+        {
+          "pool": "kingnutmidgeTreasure",
+          "probability": 0.625,
+          "count": 2,
+          "monsters": [
+            "nutmidge"
+          ]
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.6028,
+          "count": 6.5
+        }
+      ],
+      "prob_range": [
+        0.025,
+        1.4
+      ]
+    },
+    "hunting_harvest": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "pandorasboxskullgummiHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxbonebirdHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxshadowbonebirdHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "huntingflying",
+          "probability": 0.49,
+          "count": 1,
+          "monsters": [
+            "albinopenguin",
+            "chicken",
+            "fualbatrosscritter",
+            "fuamazoncritter",
+            "fubat"
+          ]
+        },
+        {
+          "pool": "pandorasboxtoxicbonebirdHunting",
+          "probability": 0.398,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1,
+        0.7921
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "garden",
+      "weight": 0.8
+    },
+    {
+      "biome": "atropusunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "atropusbonecaves",
+      "weight": 0.7
+    },
+    {
+      "biome": "arboreal2underground",
+      "weight": 0.7
+    },
+    {
+      "biome": "atropusboneunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "atropusfleshcaves",
+      "weight": 0.7
+    },
+    {
+      "biome": "corruptasteroid",
+      "weight": 0.7
+    },
+    {
+      "biome": "corruptmoonunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "arborealunderground",
+      "weight": 0.7
+    },
+    {
+      "biome": "fucoralcavern",
+      "weight": 0.7
+    }
+  ],
+  "wiki_ref": "Bone.md",
+  "quality_tier": "S"
+}

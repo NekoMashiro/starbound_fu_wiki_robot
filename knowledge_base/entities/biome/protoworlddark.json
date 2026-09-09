@@ -1,0 +1,123 @@
+{
+  "entity_id": "protoworlddark",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto-World",
+  "name_zh": "原毒世界",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Proto-World",
+  "friendly_name_zh": "原毒世界",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "iron",
+      "weight": 0.55
+    },
+    {
+      "ore": "lead",
+      "weight": 0.55
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.55
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.55
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.55
+    },
+    {
+      "ore": "protocite",
+      "weight": 0.5
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.5
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.5
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.5
+    },
+    {
+      "ore": "violium",
+      "weight": 0.5
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.5
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.35
+    },
+    {
+      "ore": "trianglium",
+      "weight": 0.32
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.3
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.25
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bandraflora3",
+    "bee_redbanded",
+    "bee_stellar",
+    "bouncercritter",
+    "crutter2",
+    "electropod",
+    "fualien",
+    "fuallergen2",
+    "fubahamut",
+    "fumoontant",
+    "glarp",
+    "gloop",
+    "glowingball2critter",
+    "hellbeetle",
+    "phoenixfly",
+    "shocktop",
+    "snaunt2",
+    "squidbeast",
+    "tentaclecometspore",
+    "wattsper"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:protoworld",
+        "/weather.config:arborealrainy",
+        "/weather.config:thickjungle",
+        "/weather.config:fugentle",
+        "/weather.config:fugentlewindy",
+        "/weather.config:fugentlerainy",
+        "/weather.config:fugentleveryrainy",
+        "/weather.config:fugentlefoggy",
+        "/weather.config:fugentlepretty"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "protoweather2"
+  ],
+  "quality_tier": "C"
+}

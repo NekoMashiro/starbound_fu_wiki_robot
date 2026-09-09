@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_caspar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Caspar",
+  "name_zh": "卡斯帕",
+  "description_en": "A simple staff with an electric-infused crystal.",
+  "description_zh": "一根镶嵌着电能晶体的简易法杖。",
+  "rarity": "Common",
+  "category": "wand",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "staff",
+    "ranged"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_staff_ability_spellBurst",
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_weapon1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

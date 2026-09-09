@@ -1,0 +1,56 @@
+{
+  "entity_id": "railcraftingtable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rail Crafting Table",
+  "name_zh": "轨道工作台",
+  "description_en": "Used to produce rails, rail riding items and related objects.",
+  "description_zh": "用于制造轨道、轨道组件与其他相关的物品。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1250,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 10
+        },
+        {
+          "item": "silverbar",
+          "count": 5
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 10
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

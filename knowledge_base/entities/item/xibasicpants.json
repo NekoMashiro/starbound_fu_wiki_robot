@@ -1,0 +1,47 @@
+{
+  "entity_id": "xibasicpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Armored Legs",
+  "name_zh": "艾肯武装护腿",
+  "description_en": "+15% X'i Bulb Regen Rate (45%)\r\nSet Bonuses:\r\n Damage x1.07 and +5% Speed\r\n X'i weapons: Health x1.2\r\n Lush/Forest biomes: Energy x1.05, +5% Knockback Resist",
+  "description_zh": "+15% 艾肯球茎再生速率 (45%)\n套装奖励:\n 伤害x1.07 、 +5% 速度\n 艾肯武器: 最大HPx1.2\n 葱郁/森林生物群落: 能量x1.05, +5% 击退抗性",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 35,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 5
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "shellplatepants",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

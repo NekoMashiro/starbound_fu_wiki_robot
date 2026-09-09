@@ -1,0 +1,275 @@
+{
+  "entity_id": "alienmeat",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Raw Steak",
+  "name_zh": "生肉排",
+  "description_en": "A raw slab of weird, stringy alien meat. Maybe I should cook it. Type: Raw Meat",
+  "description_zh": "一块生肉，或许我得先把这玩意弄熟了再吃？\n类型：生肉食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 4,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 3
+        },
+        {
+          "item": "rottenfood",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 17,
+        "examples": [
+          "16gbpasty",
+          "arcana_food_richhospitality",
+          "arcana_food_stuffedshellfruit",
+          "arcana_food_sweetfeastmedley",
+          "cheeseburger"
+        ]
+      },
+      "petfood": {
+        "count": 3,
+        "examples": [
+          "petfood1",
+          "petfood3",
+          "petfood4"
+        ]
+      },
+      "food": {
+        "count": 2,
+        "examples": [
+          "cookedalienmeat",
+          "meatkibble"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "cellmatter",
+          "leather"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "xibed",
+          "xipod"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "meatwine"
+        ]
+      }
+    },
+    "total": 27
+  },
+  "drop_sources": {
+    "total_pools": 124,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "isn_meatplant",
+          "probability": 2.1625,
+          "count": 1.0
+        },
+        {
+          "pool": "meatlumpLoot",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "bulbopflesh",
+            "bunnythingmeat",
+            "wormmass"
+          ]
+        },
+        {
+          "pool": "meatBasic",
+          "probability": 0.75,
+          "count": 1
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.7332,
+          "count": 1
+        },
+        {
+          "pool": "meatFat",
+          "probability": 0.3333,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1067,
+        2.1625
+      ]
+    },
+    "monster_drops": {
+      "count": 64,
+      "top": [
+        {
+          "pool": "pandorasboxqueennocttopTreasure",
+          "probability": 1.064,
+          "count": 1.0,
+          "monsters": [
+            "pandorasboxqueennocttop"
+          ]
+        },
+        {
+          "pool": "horkulbeastTreasure",
+          "probability": 0.7333,
+          "count": 1,
+          "monsters": [
+            "horkulbeast"
+          ]
+        },
+        {
+          "pool": "illumitopTreasure",
+          "probability": 0.3,
+          "count": 1,
+          "monsters": [
+            "illumitop"
+          ]
+        },
+        {
+          "pool": "basicMonsterTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "tentaclecomet"
+          ]
+        },
+        {
+          "pool": "pandorasboxmisterwisperTreasure",
+          "probability": 0.0983,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0248,
+        1.064
+      ]
+    },
+    "hunting_harvest": {
+      "count": 48,
+      "top": [
+        {
+          "pool": "pandorasboxmysterixHunting",
+          "probability": 0.7478,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxnormixHunting",
+          "probability": 0.7478,
+          "count": 1
+        },
+        {
+          "pool": "icecrabcanoHunting",
+          "probability": 0.6656,
+          "count": 1
+        },
+        {
+          "pool": "snowfennixHarvest",
+          "probability": 0.6,
+          "count": 1,
+          "monsters": [
+            "fusnowfennix"
+          ]
+        },
+        {
+          "pool": "pandorasboxadultnocttopHunting",
+          "probability": 0.5997,
+          "count": 1,
+          "monsters": [
+            "pandorasboxadultnocttop"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.7478
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.0583,
+          "count": 30,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranvillagetowerChestTreasure",
+          "probability": 0.0433,
+          "count": 1
+        },
+        {
+          "pool": "floranhutvillageChestTreasure",
+          "probability": 0.0291,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0291,
+        0.0433
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

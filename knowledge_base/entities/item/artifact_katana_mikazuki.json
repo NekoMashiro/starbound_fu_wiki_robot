@@ -1,0 +1,52 @@
+{
+  "entity_id": "artifact_katana_mikazuki",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Mikazuki",
+  "name_zh": "三日月",
+  "description_en": "The divine blade of the crescent moon.",
+  "description_zh": "斩月圣刀。",
+  "rarity": "Essential",
+  "category": "broadsword",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "arcana_lunar",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 13.2,
+  "primaryAbilityType": "arcana_odachi_combo",
+  "altAbilityType": "arcana_tachi_ability_serpentineStrike",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "arcana_sigils_lunarSigil",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "aurea_tile9",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ship Plating",
+  "name_zh": "恒金飞船板",
+  "description_en": "A metal plating material for space-faring ships.",
+  "description_zh": "适合太空旅行飞船的金属板材料。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

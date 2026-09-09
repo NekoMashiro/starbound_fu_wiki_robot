@@ -1,0 +1,57 @@
+{
+  "entity_id": "arcana_neonSea_floor",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Neon Sea Floor",
+  "name_zh": "霓虚之底",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Neon Sea Floor",
+  "friendly_name_zh": "霓虚之底",
+  "ores": [
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_thoriumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.6
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "aggroLargeFish",
+    "jellycritter",
+    "passiveLargeFish",
+    "smallFishOcean1",
+    "smallFishOcean2",
+    "squidcritter"
+  ],
+  "status_effects": [
+    "arcana_status_supercharged"
+  ],
+  "quality_tier": "C"
+}

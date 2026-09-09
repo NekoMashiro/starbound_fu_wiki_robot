@@ -1,0 +1,284 @@
+{
+  "entity_id": "climbingrope",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rope",
+  "name_zh": "绳子",
+  "description_en": "A length of rope. Useful for climbing and tying things together!",
+  "description_zh": "一段绳子。对于爬山和将东西绑在一起很有用！",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 10,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    },
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "whip": {
+        "count": 2,
+        "examples": [
+          "corewhip",
+          "ropewhip"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "farmwell",
+          "fugallows"
+        ]
+      },
+      "axe": {
+        "count": 2,
+        "examples": [
+          "ironaxe",
+          "tungstenaxe"
+        ]
+      },
+      "hammer": {
+        "count": 2,
+        "examples": [
+          "ironhammer",
+          "tungstenhammer"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "craftingwheel"
+        ]
+      },
+      "teleportMarker": {
+        "count": 1,
+        "examples": [
+          "flagcat"
+        ]
+      },
+      "hookshot": {
+        "count": 1,
+        "examples": [
+          "fuautohookshot"
+        ]
+      },
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "grapplinghook"
+        ]
+      }
+    },
+    "total": 23
+  },
+  "drop_sources": {
+    "total_pools": 164,
+    "other": {
+      "count": 23,
+      "top": [
+        {
+          "pool": "starterRope",
+          "probability": 1.0,
+          "count": 8
+        },
+        {
+          "pool": "starterExplosive",
+          "probability": 1.0,
+          "count": 8
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox_5",
+          "probability": 1.0,
+          "count": 1.3
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox",
+          "probability": 0.4,
+          "count": 1.3
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.3923,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 59,
+      "top": [
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.575,
+          "count": 3.0
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.4222,
+          "count": 3
+        },
+        {
+          "pool": "forestTreasure",
+          "probability": 0.2749,
+          "count": 3
+        },
+        {
+          "pool": "miningtreasure",
+          "probability": 0.1858,
+          "count": 1.1
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.1566,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.575
+      ]
+    },
+    "chest_loot": {
+      "count": 68,
+      "top": [
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.5636,
+          "count": 3
+        },
+        {
+          "pool": "forestChestTreasure",
+          "probability": 0.3923,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.2076,
+          "count": 3.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.2012,
+          "count": 3.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.1137,
+          "count": 3.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.5636
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.158,
+          "count": 1.0
+        },
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.1364,
+          "count": 1
+        },
+        {
+          "pool": "floranmissiontreasure",
+          "probability": 0.1058,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0024,
+          "count": 3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0005,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.158
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0109,
+          "count": 3
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0094,
+          "count": 3
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0022,
+          "count": 3
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0022,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.011
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0005,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "fuwarpdetector",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Warp Detector",
+  "name_zh": "传送检测器",
+  "description_en": "Outputs from node 1 when not in flight, and node 2 when the ship is moving.",
+  "description_zh": "当不在飞行时，从节点1 的输出;当船移动时，从节点2 输出。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 80,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

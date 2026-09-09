@@ -1,0 +1,53 @@
+{
+  "entity_id": "psionicbulletammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Overload Ammo",
+  "name_zh": "超载弹药",
+  "description_en": "Powerful multi-element attack.",
+  "description_zh": "强大的混合元素攻击。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 10,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psionicenergy4",
+          "count": 30
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 1
+        }
+      ],
+      "output_count": 60,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicmagammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

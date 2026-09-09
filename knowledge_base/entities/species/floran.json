@@ -1,0 +1,51 @@
+{
+  "entity_id": "floran",
+  "entity_type": "species",
+  "source_mod": "Starbound",
+  "name_en": "",
+  "name_zh": "叶族",
+  "description_en": "",
+  "description_zh": "全宇宙都知道叶族是极具攻击性的食肉猎手。阳光仍然能部分维持他们的生命，在直射光下再生。缺少阳光会使它们慢慢地饿死。\n\n  食性：肉食性\n\n天赋：\n  HP x1.15,\n  抗性: +20% 精神抗性, 毒素抗性, +15% 电系抗性\n  日间会回复生命。如果生命值&饱食度已满，则会增加能量回复速度\n免疫：感电\n\n环境：\n  森林类生态： 能量 x1.15\n  荒芜、腐蚀和冰冻生物群落: 防御 x0.8\n\n武器：\n\n  弓系专精 +20%\n  矛系专精 +15%，攻击有几率附带毒素。\n  针刺/叶族武器/投掷武器: +2% 暴击率\n\n弱点：\n  在夜间: HP x0.9, 能量x0.8, 加快饥饿速率\n  抗性: -30% 火炎抗性, -5% 暗影抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.15
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.2
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.3
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.05
+      },
+      {
+        "stat": "bowMastery",
+        "amount": 0.2
+      },
+      {
+        "stat": "spearMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "fuWaterPlants",
+        "amount": 1
+      }
+    ],
+    "diet": "carnivore"
+  },
+  "quality_tier": "B"
+}

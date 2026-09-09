@@ -1,0 +1,57 @@
+{
+  "entity_id": "lunarirocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Cannon",
+  "name_zh": "月晶加农炮",
+  "description_en": "A non-conventional rocket launcher.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "非常规的火箭发射器。\n照亮区域\n发射物长时间存在",
+  "rarity": "common",
+  "category": "rocketLauncher",
+  "price": 110,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "lunari",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 6,
+  "critChance": 3,
+  "critBonus": 10,
+  "altAbilityType": "rimecutteraltshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Lunari Cannon.md",
+  "quality_tier": "A"
+}

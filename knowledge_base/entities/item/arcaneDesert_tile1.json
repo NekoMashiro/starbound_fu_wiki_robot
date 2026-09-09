@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcaneDesert_tile1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Sand",
+  "name_zh": "灵沙",
+  "description_en": "A reddish sand block.",
+  "description_zh": "红色的沙块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "havencrest_tile1"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "arcana_terraformer_arcaneDesert"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,201 @@
+{
+  "entity_id": "solaricrystal",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Crystal",
+  "name_zh": "月晶",
+  "description_en": "Condensed and hardened Lunari crystal.",
+  "description_zh": "浓缩成型的月晶。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 125,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "honedlunari",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "solarishard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 40,
+        "examples": [
+          "cutearmchair2",
+          "cutebathroomtable",
+          "cutebed1",
+          "cutebed2",
+          "cutebed3"
+        ]
+      },
+      "storage": {
+        "count": 24,
+        "examples": [
+          "aex",
+          "atmoscondensermadness",
+          "cutearmoire1",
+          "cutearmoire2",
+          "cutebathroomsink"
+        ]
+      },
+      "light": {
+        "count": 24,
+        "examples": [
+          "cutechandelier",
+          "cutelamp",
+          "cutelamppost",
+          "cutesconce",
+          "fu_booster_large2"
+        ]
+      },
+      "decorative": {
+        "count": 16,
+        "examples": [
+          "c_subliminalmessaging",
+          "cutedrape1",
+          "cutedrape2",
+          "cutepicture",
+          "cuteribbons1"
+        ]
+      },
+      "broadsword": {
+        "count": 8,
+        "examples": [
+          "cutebroadsword",
+          "energyblade",
+          "lunaribroadsword",
+          "mineralblade",
+          "nightarsaber"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 6,
+        "examples": [
+          "batterypack_protocyte",
+          "blueguardianback",
+          "cutewings",
+          "greenguardianback",
+          "pinkguardianback"
+        ]
+      },
+      "shortsword": {
+        "count": 6,
+        "examples": [
+          "cuteshortsword",
+          "quietusassassin",
+          "quietuscaptain",
+          "quietusmercenary",
+          "solariblade"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 6,
+        "examples": [
+          "lunarifridge",
+          "lunariminifridge",
+          "zerchesiumfridge",
+          "zerchesiumminifridge",
+          "zerchfridge"
+        ]
+      }
+    },
+    "total": 256
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "solarishard"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "solarishard"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "solarishard"
+    }
+  ],
+  "quality_tier": "S"
+}

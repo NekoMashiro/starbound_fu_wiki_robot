@@ -1,0 +1,59 @@
+{
+  "entity_id": "bleuark_spear_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Atlantis Trident",
+  "name_zh": "海金三叉戟",
+  "description_en": "A golden trident, perfect for hunting big fishes. Tidal: +20% Damage while underwater.",
+  "description_zh": "皇金的三叉戟，相当适合用于狩猎大鱼。潮汐：在水下+20%伤害。",
+  "rarity": "Rare",
+  "category": "spear",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "arcana_spear_ability_burstFlurry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_atlaGoldBar",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "upgraded.png",
+    "seed": "",
+    "shortdescription": "海金三叉戟^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

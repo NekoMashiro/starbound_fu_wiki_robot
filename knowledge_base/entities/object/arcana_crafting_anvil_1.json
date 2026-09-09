@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_crafting_anvil_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Basic Anvil",
+  "name_zh": "基础铁砧",
+  "description_en": "An anvil infused with basic elemental magic.",
+  "description_zh": "灌注了基础元素魔法的铁砧。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

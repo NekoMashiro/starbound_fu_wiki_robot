@@ -1,0 +1,72 @@
+{
+  "entity_id": "precursorbackgrounddoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Background Door",
+  "name_zh": "先驱背景门",
+  "description_en": "A Precursor teleporter door. Whatever lurks behind it is unknowable.\nInput 1: Lock\nInput 2/Output: Door connections",
+  "description_zh": "一扇先驱传送门。不管后面潜伏着什么，它永远都在视野之外。\n输入1: 锁\n输入2/输出: 门的接点",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "precursor",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "precursorbackgrounddoor"
+  ],
+  "quality_tier": "S"
+}

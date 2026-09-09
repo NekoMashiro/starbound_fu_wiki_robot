@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_farmable_teaPlant",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tea Leaves",
+  "name_zh": "茶叶",
+  "description_en": "A few harvested tea leaves for making tea.",
+  "description_zh": "用于制茶的少量茶叶。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "food"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "arcana_food_marrowsteep",
+          "arcana_food_sanguinesmoothie",
+          "arcana_food_waterofbeast"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_teabag_blackTeabag"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_teaPlant",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

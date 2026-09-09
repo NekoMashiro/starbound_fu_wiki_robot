@@ -1,0 +1,29 @@
+{
+  "entity_id": "at_ext_creditcard",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Credit card",
+  "name_zh": "信用点卡",
+  "description_en": "A translucent blue card storing digital currency worth 20,000 credits. \nRedeemable for 20,000 credits upon use.",
+  "description_zh": "一张透明的蓝色卡片，存有价值20000信用点的数字货币。 \n使用后将提取20000信用点。",
+  "rarity": "Legendary",
+  "category": "currency",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "quality_tier": "A"
+}

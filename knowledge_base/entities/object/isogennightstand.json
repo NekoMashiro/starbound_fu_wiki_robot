@@ -1,0 +1,45 @@
+{
+  "entity_id": "isogennightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Nightstand",
+  "name_zh": "寒霜床头柜",
+  "description_en": "A nightstand. It's too cold to touch.",
+  "description_zh": "一个床头柜。天太冷了，摸不着。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 110,
+  "tags": [
+    "isogen",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 5
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 5
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

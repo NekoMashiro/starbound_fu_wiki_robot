@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchipcontrol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Acrobat Module",
+  "name_zh": "特技模块",
+  "description_en": "Increases mech maneuverability and jump power but lowers speed.",
+  "description_zh": "增强机甲的机动性和跳跃能力，但降低速度。",
+  "rarity": "rare",
+  "category": "mechChip",
+  "price": 2000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

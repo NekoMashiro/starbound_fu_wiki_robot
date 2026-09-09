@@ -1,0 +1,65 @@
+{
+  "entity_id": "hawaiianchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hawaiian Chest",
+  "name_zh": "夏威夷胸罩",
+  "description_en": "An hawaiian chest, made of two pieces of coconut.",
+  "description_zh": "夏威夷风格的胸罩，由两颗椰子做成。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostcrasberry",
+          "probability": 0.15,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.0356,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.007,
+        0.0356
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanTreasure",
+          "probability": 0.025,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.025
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

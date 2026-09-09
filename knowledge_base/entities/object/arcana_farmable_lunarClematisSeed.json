@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_farmable_lunarClematisSeed",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Clematis Seed",
+  "name_zh": "月见莲种子",
+  "description_en": "A blue-purple flower found commonly in Eminsnow planets.",
+  "description_zh": "普遍生长在明雪星球的蓝紫色花朵。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_lunarClematis",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

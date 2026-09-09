@@ -1,0 +1,57 @@
+{
+  "entity_id": "foundrybed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Foundry Bed",
+  "name_zh": "铸造床",
+  "description_en": "A bed with a large lamp over it, producing considerable heat.",
+  "description_zh": "一张上方散发出巨量光热的灯的床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 345,
+  "tags": [
+    "foundry",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "metallic",
+          "count": 50
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

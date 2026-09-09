@@ -1,0 +1,62 @@
+{
+  "entity_id": "fupeglaci",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "羊蹄人",
+  "description_en": "",
+  "description_zh": "顽抗地居住在寒冷地区的杂食性生物，其神秘的起源扎根于遥远的过去。\n\n  食性: 杂食性\n\n天赋:\n  HP x1.15, 能量 x1.12\n  抗性: +30% 寒气抗性, +5% 辐射抗性\n  +8% 跳跃高度, 坠落伤害 x0.8\n  免疫: 液氮, 寒冷, 冰面\n\n环境:\n  寒冷生物群落: HP & 能量 x1.15\n  炎热 生物群落: HP & 能量 x0.8\n\n武器:\n  所有枪械: 伤害 x1.1, +5% 暴击伤害\n\n  斧系精通: +15%\n  机枪精通: +15%\n  抗性: -30% 火炎抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.15
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.12
+      },
+      {
+        "stat": "fallDamageMultiplier",
+        "effectiveMultiplier": 0.8
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.3
+      },
+      {
+        "stat": "iceResistance",
+        "amount": 0.3
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "iceStatusImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "iceslipImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "liquidnitrogenImmunity",
+        "amount": 1
+      },
+      {
+        "stat": "axeMastery",
+        "amount": 0.15
+      },
+      {
+        "stat": "machinepistolMastery",
+        "amount": 0.15
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "airJumpModifier": 1.08
+    }
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "astral_tile1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Astral Flooring",
+  "name_zh": "群星地板",
+  "description_en": "An Arcanian flooring material made from sandstone.",
+  "description_zh": "一种由砂岩为材料制成的守秘族地板。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 1
+        }
+      ],
+      "output_count": 60,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

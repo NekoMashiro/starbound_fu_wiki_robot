@@ -1,0 +1,43 @@
+{
+  "entity_id": "woodenwateringcan",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wooden Watering Can",
+  "name_zh": "木制喷壶",
+  "description_en": "Gently and efficiently water your crops.",
+  "description_zh": "优雅而高效地为你的作物浇水。",
+  "rarity": "Common",
+  "category": "tool",
+  "price": 25,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

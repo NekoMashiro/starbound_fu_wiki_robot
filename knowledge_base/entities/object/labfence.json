@@ -1,0 +1,38 @@
+{
+  "entity_id": "labfence",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Fence",
+  "name_zh": "实验室护栏",
+  "description_en": "A fence of glass and metal.",
+  "description_zh": "一个用玻璃和金属制成的护栏。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glassmaterial",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

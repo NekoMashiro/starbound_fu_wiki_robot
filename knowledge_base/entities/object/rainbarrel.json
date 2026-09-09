@@ -1,0 +1,36 @@
+{
+  "entity_id": "rainbarrel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rain Barrel",
+  "name_zh": "雨水收集桶",
+  "description_en": "A barrel to collect rainwater!",
+  "description_zh": "一个用于收集雨水的桶！",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 200,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Rain Barrel.md",
+  "quality_tier": "A"
+}

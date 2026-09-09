@@ -1,0 +1,72 @@
+{
+  "entity_id": "cultistdoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cultist Door",
+  "name_zh": "邪教门",
+  "description_en": "A purple door with an eye, fit for an evil cult.",
+  "description_zh": "一个有眼睛的紫色门，适合邪教。",
+  "rarity": "Uncommon",
+  "category": "door",
+  "price": 145,
+  "tags": [
+    "cultist",
+    "evil",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slopedrustypanel",
+          "count": 4
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "slopedrustypanel",
+          "count": 8
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "purpledye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

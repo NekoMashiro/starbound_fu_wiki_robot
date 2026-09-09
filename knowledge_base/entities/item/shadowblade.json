@@ -1,0 +1,49 @@
+{
+  "entity_id": "shadowblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowspike",
+  "name_zh": "影钉",
+  "description_en": "Darkness given form.",
+  "description_zh": "黑暗的一种形式。",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "shadow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.612,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonblade",
+          "count": 1
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        },
+        {
+          "item": "unstableparticles",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

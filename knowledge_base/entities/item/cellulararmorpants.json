@@ -1,0 +1,62 @@
+{
+  "entity_id": "cellulararmorpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cellular Leggings",
+  "name_zh": "细胞绑腿",
+  "description_en": "Set Bonuses:\r\n Glow\r\n +0.06% Regen,\r\n Bio-Weapon: Damage x1.2\r\n Fall Damage x0.88",
+  "description_zh": "套装奖励:\n 发光\n +0.06%恢复,\n 生物武器: 伤害x1.2\n 坠落伤害x0.88",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        },
+        {
+          "item": "graphene",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "hytalisarmorpants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

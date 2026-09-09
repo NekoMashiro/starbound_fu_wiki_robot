@@ -1,0 +1,35 @@
+{
+  "entity_id": "winepress",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fruit Press",
+  "name_zh": "水果榨汁机",
+  "description_en": "A machine used to squeeze juices from fruits.",
+  "description_zh": "一台专门榨汁的机器。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 160,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 25
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "lunarbaselantern",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Lunar Base Lantern",
+  "name_zh": "月球基地电灯",
+  "description_en": "These electric lanterns generate a pleasantly warm light.",
+  "description_zh": "这盏电灯发出温和宜人的光芒。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 45,
+  "tags": [
+    "human",
+    "lunarbase",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "phaseblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phase Blade",
+  "name_zh": "相位宽剑",
+  "description_en": "Shiny and perfect.\r\nInflicts Bleeding",
+  "description_zh": "这真是一把闪耀着迷人光芒的完美武器。\n附加出血效果",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "phase",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 12.67,
+  "critChance": 4,
+  "critBonus": 12,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "phasecharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aetheriumalloy",
+          "count": 5
+        },
+        {
+          "item": "effigiumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

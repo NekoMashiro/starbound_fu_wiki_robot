@@ -1,0 +1,63 @@
+{
+  "entity_id": "lunar_katana_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gekko Tachi",
+  "name_zh": "螈太刀",
+  "description_en": "A katana forged from luminarium with a cold blade, can perform swift strikes in mere moments. Inflicts Frost on crit.",
+  "description_zh": "由月金锻造的武士刀，刀身冰寒，可以在短时间内进行多次迅击。暴击时施加冰冻。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 3200,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana"
+  ],
+  "elementalType": "arcana_lunar",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 10.6,
+  "primaryAbilityType": "arcana_tachi_combo",
+  "altAbilityType": "arcana_tachi_ability_shingetsu",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_luminariumBar",
+          "count": 12
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 22
+        },
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_viridescentSabre"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

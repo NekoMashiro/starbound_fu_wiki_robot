@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_teleporter_galacticAtlas",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Galactic Atlas",
+  "name_zh": "星河旅志",
+  "description_en": "An advanced teleporter with several built in designations such as the Nova Station.",
+  "description_zh": "内含包括新星空间站在内的多个星球坐标的高级传送门。",
+  "rarity": "Essential",
+  "category": "teleporter",
+  "price": 1000,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "teleportercore",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

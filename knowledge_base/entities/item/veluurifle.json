@@ -1,0 +1,55 @@
+{
+  "entity_id": "veluurifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vel'uuish Rifle",
+  "name_zh": "灵猫步枪",
+  "description_en": "A popular sniper option among Vel'uuish.\r\nHunting weapon",
+  "description_zh": "在灵猫之间是种受欢迎的狙击用枪。\n狩猎武器",
+  "rarity": "common",
+  "category": "sniperRifle",
+  "price": 50,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "veluu"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "lead",
+          "count": 3
+        },
+        {
+          "item": "duskiline",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

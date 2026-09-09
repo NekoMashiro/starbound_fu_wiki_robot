@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_throwable_bigPoisonBomb",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Catalyzed Poison Bomb",
+  "name_zh": "催化毒液炸弹",
+  "description_en": "Burst lots of Poison on collide.",
+  "description_zh": "接触时炸出大量毒液。",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_corrodiumOre",
+          "count": 1
+        },
+        {
+          "item": "arcana_liquid_viridescentAcid",
+          "count": 10
+        },
+        {
+          "item": "biosample",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

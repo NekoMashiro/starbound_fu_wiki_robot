@@ -1,0 +1,36 @@
+{
+  "entity_id": "blaststone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Blaststone",
+  "name_zh": "高炉石块",
+  "description_en": "Sharp rocks produced by blasts of enormous heat.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "在巨大热量的爆破中所产生的尖锐石头。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "ironore",
+        "sulphur",
+        "liquidlava"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "ironore",
+        "sulphur",
+        "liquidlava"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

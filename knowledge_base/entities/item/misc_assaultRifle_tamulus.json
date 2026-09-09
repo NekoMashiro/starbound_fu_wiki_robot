@@ -1,0 +1,47 @@
+{
+  "entity_id": "misc_assaultRifle_tamulus",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Tamulu5",
+  "name_zh": "塔姆露5",
+  "description_en": "Even the Orion's most advanced armor has a weakpoint.",
+  "description_zh": "就算是俄里翁最顶尖的盔甲也是有弱点的。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 2100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 10.2,
+  "altAbilityType": "spray",
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_nightmare_trilineatu5"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_neoncityextra",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

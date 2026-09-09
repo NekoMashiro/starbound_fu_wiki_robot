@@ -1,0 +1,49 @@
+{
+  "entity_id": "magnorbmoonstone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Orbs",
+  "name_zh": "月海之珠",
+  "description_en": "Blast foes with these energy-infused pellucid orbs. One handed. Counts as 'energy' weapon",
+  "description_zh": "用这些注入能量的透明球体来轰炸敌人。单手武器。能量武器",
+  "rarity": "common",
+  "category": "Magnorb",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "energy",
+    "telebrium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

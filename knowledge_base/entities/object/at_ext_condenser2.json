@@ -1,0 +1,50 @@
+{
+  "entity_id": "at_ext_condenser2",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Condenser MK2",
+  "name_zh": "[泰坦拓展]冷凝器MK2",
+  "description_en": "An automatic condenser that slowly produces liquid. MK2:Can produce liquid depend on planet. Require 15Kw power. Can be wired to other machines.",
+  "description_zh": "一台能冷凝大气并缓慢产生液体的机器。MK2:能根据星球类型冷凝出对应液体。额定功率15Kw。可以与其它机器连接。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_motor",
+          "count": 8
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 10
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 15
+        },
+        {
+          "item": "at_ext_condenser",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

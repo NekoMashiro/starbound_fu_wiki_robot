@@ -1,0 +1,71 @@
+{
+  "entity_id": "fuchainsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chain Blade",
+  "name_zh": "链刃",
+  "description_en": "A brutally efficient blade that chews targets up.\r\nInflicts bleeding",
+  "description_zh": "一把极其高效的刀刃，能把目标嚼碎。\n造成出血效果",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 3960,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon",
+    "chainsword"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "critChance": 6,
+  "critBonus": 6,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "fuchainflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquiddeuterium",
+          "count": 4
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "aetheriumalloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fumechchainsword"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "paintingshakespeare",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Famous Poet Portrait",
+  "name_zh": "著名诗人肖像",
+  "description_en": "A painting of a famous, long-dead Earthling poet.",
+  "description_zh": "一位去世多年的地球诗人的画像。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 700,
+  "tags": [
+    "human",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

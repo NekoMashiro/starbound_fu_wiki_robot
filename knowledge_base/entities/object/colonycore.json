@@ -1,0 +1,41 @@
+{
+  "entity_id": "colonycore",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Colony Core",
+  "name_zh": "殖民地核心",
+  "description_en": "The basis of a large colony. Collects rent from MK2 deeds passively.",
+  "description_zh": "一个大殖民地的基础。从MK2合同中被动收取租金。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 10
+        },
+        {
+          "item": "diamond",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Colony Core.md",
+  "quality_tier": "A"
+}

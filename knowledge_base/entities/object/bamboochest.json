@@ -1,0 +1,49 @@
+{
+  "entity_id": "bamboochest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bamboo Chest",
+  "name_zh": "竹箱子",
+  "description_en": "A chest with bright glowing markings throughout.",
+  "description_zh": "一个有着发光标志的箱子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "thickjungle",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_bambooshoot",
+          "count": 12
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

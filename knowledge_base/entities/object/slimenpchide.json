@@ -1,0 +1,38 @@
+{
+  "entity_id": "slimenpchide",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Sack",
+  "name_zh": "史莱姆麻袋",
+  "description_en": "A bag made of a thick slime substance.",
+  "description_zh": "一种由厚厚的史莱姆物质制成的袋子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "slimenpc",
+    "slimeperson",
+    "slimevillage",
+    "slimenpchuman",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "slimegoo",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

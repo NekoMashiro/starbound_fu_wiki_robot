@@ -1,0 +1,43 @@
+{
+  "entity_id": "skathforge1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rustic Skath Forge",
+  "name_zh": "基础级绘世者铸造台",
+  "description_en": "A rustic Skath-made forge, used to smelt alloys and craft weaponry and armors.",
+  "description_zh": "一个基础级的绘世者铸造台，用来冶炼金属，铸造武器和盔甲。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 25,
+  "tags": [
+    "skath",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 15
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "campfire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

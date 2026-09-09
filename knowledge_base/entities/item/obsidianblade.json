@@ -1,0 +1,55 @@
+{
+  "entity_id": "obsidianblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Obsidian Sword",
+  "name_zh": "黑曜石短剑",
+  "description_en": "Volcanic glass is so lovely and sharp.",
+  "description_zh": "这把武器经过黑曜石高温锻造之后竟然变的如此迷人。",
+  "rarity": "rare",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.25,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "obsidian",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

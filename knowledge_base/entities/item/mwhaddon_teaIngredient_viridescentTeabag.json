@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_viridescentTeabag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Viridescent Teabag",
+  "name_zh": "精选翠毒茶包",
+  "description_en": "A teabag for brewing viridescent tea at a tea brewer.\n For 40 seconds after drinking, gain +20% Speed Boost, +50% Jump Height, -20% Fire and Poison Res.",
+  "description_zh": "泡茶机冲泡翠毒茶用的茶袋。\n饮用后40秒内获得移速和跳跃加成，但火焰和蛊毒抗性降低20%。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaStarterPack",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

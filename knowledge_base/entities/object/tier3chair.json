@@ -1,0 +1,45 @@
+{
+  "entity_id": "tier3chair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Chair",
+  "name_zh": "钛椅子",
+  "description_en": "A comfortable titanium chair.",
+  "description_zh": "一把舒适的钛椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 80,
+  "tags": [
+    "misc",
+    "tier3"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "leather",
+          "count": 5
+        },
+        {
+          "item": "bluedye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

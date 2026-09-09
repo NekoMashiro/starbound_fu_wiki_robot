@@ -1,0 +1,77 @@
+{
+  "entity_id": "veluutier6schest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat's Prime Health Collar",
+  "name_zh": "优质健康猫项圈",
+  "description_en": "An even stronger protective collar which boosts its wearer's health.",
+  "description_zh": "一个更强大的保护项圈，提高佩戴者的健康。",
+  "rarity": "Legendary",
+  "category": "chestarmour",
+  "price": 6400,
+  "tags": [
+    "tier6armour",
+    "balanced",
+    "melee"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 20
+        },
+        {
+          "item": "veluutier5schest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

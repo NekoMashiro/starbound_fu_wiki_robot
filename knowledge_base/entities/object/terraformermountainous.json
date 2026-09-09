@@ -1,0 +1,56 @@
+{
+  "entity_id": "terraformermountainous",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mountainous Terraformer",
+  "name_zh": "山脉转换器",
+  "description_en": "Transforms a planet's climate into a Mountainous biome.",
+  "description_zh": "(请放置于地表，可移动式，激活后请耐心等待)可将星球的特征转换为山脉。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumore",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

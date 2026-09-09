@@ -1,0 +1,45 @@
+{
+  "entity_id": "capturegun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mega Capture Gun",
+  "name_zh": "超级捕捉枪",
+  "description_en": "Deals Percentage Damage. Captures creatures. Very shiny.",
+  "description_zh": "造成百分比伤害且捕获生物。很炫很酷。",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 1.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "voxel10k",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Mega Capture Gun.md",
+  "quality_tier": "A"
+}

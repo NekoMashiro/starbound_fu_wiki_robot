@@ -1,0 +1,32 @@
+{
+  "entity_id": "isn_glowgel_r",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Glowing Gel",
+  "name_zh": "红色发光凝胶",
+  "description_en": "Place it on a surface to coat it in glowing gel.",
+  "description_zh": "给地形的表面涂上这种物质，可以发光。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isn_glowgel",
+          "count": 10
+        },
+        {
+          "item": "petalred",
+          "count": 2
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

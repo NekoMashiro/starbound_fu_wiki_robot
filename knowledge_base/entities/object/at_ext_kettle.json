@@ -1,0 +1,36 @@
+{
+  "entity_id": "at_ext_kettle",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Titan Kettle",
+  "name_zh": "[泰坦拓展]泰坦水壶",
+  "description_en": "A brown kettle for boiling water.Titancorp's Asset",
+  "description_zh": "一个棕色的电水壶。泰坦重工资产。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 150,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

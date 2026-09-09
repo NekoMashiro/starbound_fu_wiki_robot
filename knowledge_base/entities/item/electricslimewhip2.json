@@ -1,0 +1,60 @@
+{
+  "entity_id": "electricslimewhip2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Electric Slime Whip II",
+  "name_zh": "电气粘液鞭 II",
+  "description_en": "A whip made of sticky, electrically-charged slime.",
+  "description_zh": "由粘性带电的粘液制成的鞭子。",
+  "rarity": "Rare",
+  "category": "whip",
+  "price": 1300,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "slime",
+    "electric",
+    "energy"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "staticcell",
+          "count": 7
+        },
+        {
+          "item": "slimegoo",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "whip": {
+        "count": 1,
+        "examples": [
+          "electricslimewhip3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

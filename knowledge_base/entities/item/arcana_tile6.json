@@ -1,0 +1,76 @@
+{
+  "entity_id": "arcana_tile6",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magiwood Planks",
+  "name_zh": "魔木木板",
+  "description_en": "Wood that has been prepared for building and crafting.",
+  "description_zh": "为建筑和工艺准备的木材。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_tile11",
+          "count": 1
+        }
+      ],
+      "output_count": 20,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 7,
+        "examples": [
+          "arcana_tile1",
+          "arcana_tile2",
+          "arcana_tile21",
+          "arcana_tile3",
+          "arcana_tile4"
+        ]
+      },
+      "furniture": {
+        "count": 2,
+        "examples": [
+          "springpalms_chair_1",
+          "springpalms_table_1"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "springpalms_deco_1"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "springpalms_storage_1"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "quality_tier": "S"
+}

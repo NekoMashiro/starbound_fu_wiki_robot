@@ -1,0 +1,157 @@
+{
+  "entity_id": "thornfruit",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Thorn Fruit",
+  "name_zh": "刺果",
+  "description_en": "So long as you watch out for the thorns, these are delicious. Type: Fruit",
+  "description_zh": "只要你小心那些刺，这些都是美味。\n类型：素食",
+  "rarity": "Common",
+  "category": "food",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornfruitbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "blexplantseed",
+          "pekkitseed"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "arcana_food_sharpplatter"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "thornfruitbasket"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "thorngrenade"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "thornjuice"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "drop_sources": {
+    "total_pools": 12,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "thornplantHarvest",
+          "probability": 1.8,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "savannahChestTreasure",
+          "probability": 0.5588,
+          "count": 5
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0127,
+          "count": 5,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0126,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0126,
+        0.5588
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "savannahTreasure",
+          "probability": 0.3922,
+          "count": 5
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0921,
+          "count": 5
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0475,
+          "count": 5
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0323,
+          "count": 5
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0064,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0063,
+        0.3922
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0441,
+          "count": 5
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0096,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0096,
+        0.0441
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

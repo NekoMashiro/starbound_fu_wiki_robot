@@ -1,0 +1,53 @@
+{
+  "entity_id": "not",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "NOT Gate",
+  "name_zh": "非门",
+  "description_en": "A /'NOT'/ gate. Inverts the input on the circuit.",
+  "description_zh": "一个非门。输入结果总是与输出结果相反。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 16,
+        "examples": [
+          "swtjc_wp_advancedand",
+          "swtjc_wp_advancedand3i",
+          "swtjc_wp_advancedand_nolatch",
+          "swtjc_wp_advancedor",
+          "swtjc_wp_advancedor3i"
+        ]
+      }
+    },
+    "total": 16
+  },
+  "quality_tier": "S"
+}

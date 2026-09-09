@@ -1,0 +1,43 @@
+{
+  "entity_id": "crewcontract_fullama",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alpaca Contract",
+  "name_zh": "合同：羊驼",
+  "description_en": "Hires a tough Alpaca warrior.",
+  "description_zh": "雇用一名顽强的羊驼勇士！",
+  "rarity": "Uncommon",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 8000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "crewcontract_fullama"
+  ],
+  "quality_tier": "A"
+}

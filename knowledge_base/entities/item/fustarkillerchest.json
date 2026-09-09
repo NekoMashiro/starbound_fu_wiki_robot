@@ -1,0 +1,55 @@
+{
+  "entity_id": "fustarkillerchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Star-Killer Plate",
+  "name_zh": "弑星者胸甲",
+  "description_en": "Set Bonuses:\r\n Sunlight: Power/Defense/Energy/Health x1.25\r\n Immune: Pressure, Mud, Slime Stick, Ice Slip, Snow Slow, Oxygen",
+  "description_zh": "套装奖励：\n 阳光下: 力量/防御/能量/最大HP x1.25 \n 免疫: 压强, 泥, 粘液,  冰面, 雪泥, 窒息",
+  "rarity": "rare",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "agaranichor",
+          "count": 10
+        },
+        {
+          "item": "prisilitestar",
+          "count": 5
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

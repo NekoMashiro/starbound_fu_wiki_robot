@@ -1,0 +1,59 @@
+{
+  "entity_id": "workshop_auto_shop",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Credit Shop",
+  "name_zh": "泰坦重工信用点商店",
+  "description_en": "A console for trading items from the Titancorp equipment catalog.",
+  "description_zh": "用于在泰坦重工设备目录进行交易的控制台。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "crafting",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumConnector",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumWire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

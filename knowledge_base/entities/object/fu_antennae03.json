@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_antennae03",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Comm-Unit",
+  "name_zh": "小型通讯阵列",
+  "description_en": "A smaller communications array.",
+  "description_zh": "一组更小的通讯阵列。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "ship",
+    "object",
+    "generic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "fucombchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honeycomb Locker",
+  "name_zh": "蜂巢储物柜",
+  "description_en": "Store all of your Beekeeping necessities!",
+  "description_zh": "储存你所有的养蜂用品。",
+  "rarity": "Uncommon",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "hive",
+    "bees",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldenwood",
+          "count": 2
+        },
+        {
+          "item": "waxchunk",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

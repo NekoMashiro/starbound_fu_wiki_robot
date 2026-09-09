@@ -1,0 +1,58 @@
+{
+  "entity_id": "aviantier5apants",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Peacock Skirt",
+  "name_zh": "孔雀腿甲",
+  "description_en": "Set Bonuses:\n Wand/Staff: Mastery +22%\n Immune: Poisoned",
+  "description_zh": "套装奖励:\n 魔杖/法杖: 伤害 x1.22\n 免疫: 中毒",
+  "rarity": "Rare",
+  "category": "legarmour",
+  "price": 1920,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 4
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "aviantier6apants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

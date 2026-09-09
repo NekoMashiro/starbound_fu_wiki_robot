@@ -1,0 +1,59 @@
+{
+  "entity_id": "futeltikparasite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Teltik Vision Worm",
+  "name_zh": "",
+  "description_en": "Parasites found on fletchweed. Converts saliva into hallucinogens.\n+30 EP, Heavily Intoxicated, Insanity, (220s) Madness Gain 2",
+  "description_zh": "在弗莱彻草上发现寄生虫。能将唾液转化为致幻剂。\n+30EP重度中毒疯狂（220s）癫狂2",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fletchweedstem",
+          "count": 30
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 4
+        },
+        {
+          "item": "fu_salt",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 4
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 360
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "B"
+}

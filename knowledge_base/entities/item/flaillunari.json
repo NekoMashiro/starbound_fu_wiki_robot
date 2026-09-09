@@ -1,0 +1,54 @@
+{
+  "entity_id": "flaillunari",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Striker",
+  "name_zh": "月晶打击者",
+  "description_en": "Pulsing with crystalline energy.\r\nBreaks blocks\r\nSpawns microbursts",
+  "description_zh": "月晶能量在其中跳动。\n能够破坏方块\n发射微型爆弹",
+  "rarity": "common",
+  "category": "Striker",
+  "price": 90,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 9.25,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

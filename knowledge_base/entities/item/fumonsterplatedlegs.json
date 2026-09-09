@@ -1,0 +1,52 @@
+{
+  "entity_id": "fumonsterplatedlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Monster Plate Leggings",
+  "name_zh": "怪物腿甲",
+  "description_en": "Set Bonuses:\r\n Bow/Crossbow: Damage x1.15, +5% Crit Chance\r\n Immune: Acid, Tar, Bee Stings, Jungle/Mud Slows",
+  "description_zh": "套装奖励： \n 弓/弩: 伤害x1.15, +5% 暴击几率\n 免疫: 酸蚀, 焦油·, 蜂蜇, 丛林/泥减速",
+  "rarity": "Uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "ranged",
+    "explorer"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "monsterplating",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "chitinlegs",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "c_drugdiffuser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Drug Diffuser",
+  "name_zh": "药物扩散器",
+  "description_en": "Test experimental drug fumes on your tenants. Requires 25W power. \n-10 Happiness",
+  "description_zh": "在你的房客身上试验毒品烟雾。\n需要25W的电源。\n-10幸福",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 2500,
+  "tags": [
+    "science",
+    "electronic",
+    "evil"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "advcircuit",
+          "count": 8
+        },
+        {
+          "item": "protocitebar",
+          "count": 5
+        },
+        {
+          "item": "irradiumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Drug Diffuser.md",
+  "quality_tier": "A"
+}

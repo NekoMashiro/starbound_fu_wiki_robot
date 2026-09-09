@@ -1,0 +1,165 @@
+{
+  "entity_id": "string",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "String",
+  "name_zh": "细绳",
+  "description_en": "You never know when a bit of string might come in handy.",
+  "description_zh": "你永远不知道细绳什么时候会派上用场。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 5,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 20,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 18,
+        "examples": [
+          "apextier1chest",
+          "aviantier1chest",
+          "florantier1chest",
+          "fubonearmorchest",
+          "fumantizidrapedchest"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 10,
+        "examples": [
+          "apiary_frame_antimite",
+          "apiary_frame_antimite2",
+          "apiary_frame_basic",
+          "apiary_frame_copper",
+          "apiary_frame_iron"
+        ]
+      },
+      "block": {
+        "count": 9,
+        "examples": [
+          "aenbridge",
+          "aenfence",
+          "aenfencebasic",
+          "aenflooring",
+          "cabinroofing"
+        ]
+      },
+      "legarmour": {
+        "count": 9,
+        "examples": [
+          "fubonearmorlegs",
+          "fumantizidrapedlegs",
+          "fumantizimerchlegs",
+          "fumantizipleblegs",
+          "fumantiziruffianlegs"
+        ]
+      },
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "feneroxbookcase",
+          "feneroxcabinet",
+          "feneroxcouch",
+          "feneroxdesk",
+          "feneroxdrawers"
+        ]
+      },
+      "bow": {
+        "count": 6,
+        "examples": [
+          "aeon_shortbow_1",
+          "bow",
+          "carbonbow",
+          "compoundbow",
+          "lunaribow"
+        ]
+      },
+      "crossbow": {
+        "count": 6,
+        "examples": [
+          "carboncrossbow",
+          "carbonstynger",
+          "ironcrossbow",
+          "ironstynger",
+          "tungstencrossbow"
+        ]
+      },
+      "headwear": {
+        "count": 5,
+        "examples": [
+          "copperarmorhead",
+          "eyepatchhead",
+          "giantbowhead",
+          "hiderhead",
+          "mushroomhead"
+        ]
+      }
+    },
+    "total": 98
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox_6",
+          "probability": 1.0,
+          "count": 1.3
+        },
+        {
+          "pool": "arcana_vendor_1_bronzeFortuneBox",
+          "probability": 0.4,
+          "count": 1.3
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

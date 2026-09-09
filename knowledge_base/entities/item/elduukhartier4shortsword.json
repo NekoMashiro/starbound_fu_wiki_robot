@@ -1,0 +1,49 @@
+{
+  "entity_id": "elduukhartier4shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weak Metal Shortsword",
+  "name_zh": "脆弱的金属短剑",
+  "description_en": "This bulky prototype paved the way for future techniques.",
+  "description_zh": "这个笨重的原型为未来的技术铺平了道路。",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 485,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 15
+        },
+        {
+          "item": "feya",
+          "count": 10
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

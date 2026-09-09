@@ -1,0 +1,90 @@
+{
+  "entity_id": "fieldscientisthead4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Geologist's Attack Goggles",
+  "name_zh": "地质学家攻击眼镜",
+  "description_en": "Vision enhancement provides a very juicy enhancement: Damage x1.1.",
+  "description_zh": "提高视力的让伤害得到了加强：伤害x1.1.",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0075,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0015,
+        0.0075
+      ]
+    },
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0043,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0006,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0043
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0028,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

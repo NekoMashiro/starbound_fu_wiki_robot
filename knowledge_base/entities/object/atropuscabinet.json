@@ -1,0 +1,57 @@
+{
+  "entity_id": "atropuscabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Atropus Cabinet",
+  "name_zh": "肉源橱柜",
+  "description_en": "A cabinet made from flesh and organs. You can hear it breathing.",
+  "description_zh": "用血肉和器官做成的柜子。你能听到它的呼吸声。",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "atropus",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshblock",
+          "count": 10
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 6
+        },
+        {
+          "item": "fleshstrand",
+          "count": 5
+        },
+        {
+          "item": "liquidblood",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

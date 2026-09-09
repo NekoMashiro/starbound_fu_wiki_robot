@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_dj_loot_cm3",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Bandit's Sauce",
+  "name_zh": "强盗秘制酱料",
+  "description_en": "Bandit's Secret Recipe Chili Sauce, with a unique flavor.\nCan be sold at the trade terminal!",
+  "description_zh": "强盗秘制辣椒酱，具有独特的风味。\n可在贸易终端处出售！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "at_ext_loots"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.06,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.06,
+        0.0643
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

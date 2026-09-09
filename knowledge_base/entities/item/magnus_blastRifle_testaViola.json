@@ -1,0 +1,46 @@
+{
+  "entity_id": "magnus_blastRifle_testaViola",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Testa Viola",
+  "name_zh": "特斯拉提琴",
+  "description_en": "Testa Viola, the Great Slaughter.",
+  "description_zh": "特斯拉提琴，大大屠杀。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 3200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "primaryAbilityType": "chargefire",
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "artifact_blastRifle_neonGenesis"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_lootbox_legendaryTreasureBag",
+          "probability": 0.0656,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

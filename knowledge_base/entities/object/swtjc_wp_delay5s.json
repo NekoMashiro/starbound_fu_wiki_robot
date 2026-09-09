@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_delay5s",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Delay Gate (5 Second)",
+  "name_zh": "延迟门(5s)",
+  "description_en": "A circuit that relays signals after a set delay.",
+  "description_zh": "可设置延迟多少秒后继续中继信号。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

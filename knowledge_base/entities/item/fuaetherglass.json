@@ -1,0 +1,49 @@
+{
+  "entity_id": "fuaetherglass",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Dark Glass",
+  "name_zh": "黑色以太玻璃",
+  "description_en": "Cosmic glass made from superheated aether dust.",
+  "description_zh": "由热化以太尘制成的宇宙玻璃。",
+  "rarity": "Legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 5
+        }
+      ],
+      "output_count": 20,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "aenwoodenwindow1"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

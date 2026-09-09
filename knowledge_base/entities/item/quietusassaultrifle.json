@@ -1,0 +1,60 @@
+{
+  "entity_id": "quietusassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Assault Rifle",
+  "name_zh": "寂灭突击步枪",
+  "description_en": "A unique flavor of bioweapon that avoids violations of intergalactic law.\r\nReduces healing on targets by 30%. (10s)",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon",
+    "bioweapon",
+    "quietus"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.4,
+  "critChance": 3,
+  "critBonus": 7,
+  "altAbilityType": "protobomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 6
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

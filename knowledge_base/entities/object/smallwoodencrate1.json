@@ -1,0 +1,35 @@
+{
+  "entity_id": "smallwoodencrate1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crate o' Bottles",
+  "name_zh": "储酒板条箱",
+  "description_en": "A wooden alcohol crate.",
+  "description_zh": "一个木制的储酒板条箱。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 50,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 25
+        },
+        {
+          "item": "bottle",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,74 @@
+{
+  "entity_id": "wretchel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wretchel Fruit",
+  "name_zh": "扭力藤",
+  "description_en": "100% HP Damage Barrier: 1m\nWretchel Poisoning: 1m",
+  "description_zh": "100%生命值伤害屏障：1m\n 厌毒：1m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "medkit4",
+          "perfectelygenericmedkit",
+          "wretchelpoultice"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "fubonusarmorchest",
+          "wretchelchest"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "fubonusarmorhead",
+          "wretchelhead"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "fubonusarmorpants",
+          "wretchelpants"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "batterypack_morphite"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "voidstoragenew"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wretchelHarvest",
+          "probability": 2.0,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Wretchel Fruit.md",
+  "quality_tier": "S"
+}

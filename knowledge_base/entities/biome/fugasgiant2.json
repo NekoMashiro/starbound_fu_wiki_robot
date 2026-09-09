@@ -1,0 +1,68 @@
+{
+  "entity_id": "fugasgiant2",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Giant",
+  "name_zh": "原体巨行星",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Proto Giant",
+  "friendly_name_zh": "原体巨行星",
+  "ores": [
+    {
+      "ore": "trianglium",
+      "weight": 0.8
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.6
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.5
+    },
+    {
+      "ore": "erchius",
+      "weight": 0.5
+    },
+    {
+      "ore": "irradium",
+      "weight": 0.4
+    },
+    {
+      "ore": "densinium",
+      "weight": 0.3
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.25
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.25
+    }
+  ],
+  "monsters": [
+    "darkmetroid",
+    "fleshreaper",
+    "gasbag",
+    "gasbagstat",
+    "skywhale",
+    "skywhale2"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:fugasgiant"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "gasworld2",
+    "erchiussickness3",
+    "protoweather"
+  ],
+  "wiki_ref": "Proto Giant.md",
+  "quality_tier": "C"
+}

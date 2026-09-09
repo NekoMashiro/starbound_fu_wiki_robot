@@ -1,0 +1,70 @@
+{
+  "entity_id": "conflagration_sniperRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gelbvieh Rifle",
+  "name_zh": "格菲步枪",
+  "description_en": "A burning rifle charged by molten flames.",
+  "description_zh": "一把充斥着烈焰的燃烧步枪。",
+  "rarity": "Uncommon",
+  "category": "sniperRifle",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.2,
+  "altAbilityType": "flamethrower",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 12
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "sniperRifle": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_3_sniperRifle_3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

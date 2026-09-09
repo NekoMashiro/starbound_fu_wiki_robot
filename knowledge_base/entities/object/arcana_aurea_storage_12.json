@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_aurea_storage_12",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Shipping Container",
+  "name_zh": "恒金运输集装箱",
+  "description_en": "A very large shipping container.",
+  "description_zh": "一个非常大的集装箱。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 625,
+  "tags": [
+    "storage",
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

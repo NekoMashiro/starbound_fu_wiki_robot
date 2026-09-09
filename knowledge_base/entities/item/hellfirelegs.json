@@ -1,0 +1,56 @@
+{
+  "entity_id": "hellfirelegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Greaves",
+  "name_zh": "地狱火腿甲",
+  "description_en": "Set Bonuses:\r\n Fire Nova when hit\r\n Glow\r\n Flamethrower/Hellfire: Damage x1.25\r\n Immune: Extreme Heat, Burning",
+  "description_zh": "套装奖励:\n 受击时释放火焰新星\n 发光\n 火焰喷射器/地狱火: 航海x1.25\n 免疫: 极端炎热, 烧伤",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neptuniumrod",
+          "count": 4
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 3
+        },
+        {
+          "item": "scorchedcore",
+          "count": 3
+        },
+        {
+          "item": "obsidian",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

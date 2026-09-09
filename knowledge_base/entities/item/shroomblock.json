@@ -1,0 +1,77 @@
+{
+  "entity_id": "shroomblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mushroom Block",
+  "name_zh": "蘑菇块",
+  "description_en": "A block made of soft fungus.\nExtractable.",
+  "description_zh": "菌类植物组成的方块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mushroomChestTreasure",
+          "probability": 0.0227,
+          "count": 5.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomTreasure",
+          "probability": 0.0148,
+          "count": 5
+        },
+        {
+          "pool": "mushroomTreasure",
+          "probability": 0.0123,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0123,
+        0.0148
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "shroomblock"
+  ],
+  "quality_tier": "S"
+}

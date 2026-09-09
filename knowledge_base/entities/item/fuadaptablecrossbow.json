@@ -1,0 +1,50 @@
+{
+  "entity_id": "fuadaptablecrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Adaptable Crossbow DX",
+  "name_zh": "自适应弩 DX",
+  "description_en": "If you can make it better, do so.",
+  "description_zh": "我觉得你没法再做出比它更棒的武器了。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 8,
+  "altAbilityType": "fuadaptableammo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "adaptablecrossbow",
+          "count": 1
+        },
+        {
+          "item": "effigiumbar",
+          "count": 2
+        },
+        {
+          "item": "irradiumbar",
+          "count": 2
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

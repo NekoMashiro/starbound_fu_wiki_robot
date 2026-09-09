@@ -1,0 +1,40 @@
+{
+  "entity_id": "thelusiannightstand",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Nightstand",
+  "name_zh": "蚁族床头柜",
+  "description_en": "A chitin nightstand.",
+  "description_zh": "一个几丁质床头柜。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "thelusian",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 4
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

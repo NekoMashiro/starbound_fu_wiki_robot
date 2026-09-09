@@ -1,0 +1,42 @@
+{
+  "entity_id": "ff_fertilizer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fertilizer",
+  "name_zh": "肥料",
+  "description_en": "It's what plants crave.\nGrowth Rate x2 & +1 produce.\n-1 seed use",
+  "description_zh": "它正是植物们所渴望的。\n生长速率x2&产量+1\n种子消耗-1",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 76,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ammoniumsulfate",
+          "count": 5
+        },
+        {
+          "item": "fu_salt",
+          "count": 12
+        },
+        {
+          "item": "sulphur",
+          "count": 6
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 10
+        }
+      ],
+      "output_count": 20,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

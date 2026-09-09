@@ -1,0 +1,42 @@
+{
+  "entity_id": "compositerailplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Composite Rail Platform",
+  "name_zh": "复合轨道平台",
+  "description_en": "Place a self-propelled platform that follows rails.",
+  "description_zh": "放置一个带有轨道的自走式平台。",
+  "rarity": "rare",
+  "category": "railPlatform",
+  "price": 475,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 8
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Rail Crafting Table",
+      "station_zh": "轨道工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

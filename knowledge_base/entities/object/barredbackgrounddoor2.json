@@ -1,0 +1,49 @@
+{
+  "entity_id": "barredbackgrounddoor2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Barred Background Door",
+  "name_zh": "屏障传送门",
+  "description_en": "A barred teleporter door. Connect to another door to teleport between them.\nInput 1: Lock\nInput 2/Output: Door connections",
+  "description_zh": "屏障传送门。连接到另一扇门以在它们之间传送。\n 输入1: 锁定\n 输入2/输出: 门与门间的连接",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "prison",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

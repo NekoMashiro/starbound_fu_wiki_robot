@@ -1,0 +1,27 @@
+{
+  "entity_id": "minkocoapod",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Minkocoa Pod",
+  "name_zh": "可可荚",
+  "description_en": "+50% Run: 2m",
+  "description_zh": "+50%速度: 2m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "minkocoapodHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

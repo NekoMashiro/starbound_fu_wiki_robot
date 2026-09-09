@@ -1,0 +1,63 @@
+{
+  "entity_id": "leathershield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Leather Shield",
+  "name_zh": "皮革盾",
+  "description_en": "+0.08% HP Regen",
+  "description_zh": "生命恢复速度+0.08%",
+  "rarity": "common",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

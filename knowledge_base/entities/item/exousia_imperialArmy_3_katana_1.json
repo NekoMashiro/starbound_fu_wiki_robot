@@ -1,0 +1,66 @@
+{
+  "entity_id": "exousia_imperialArmy_3_katana_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA3 Nordwolf Edge",
+  "name_zh": "EIA3北境狼之锋",
+  "description_en": "A special katana issued to Exousian Nordwolves.",
+  "description_zh": "威权北境狼部队配备的特殊制式武士刀。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 12.8,
+  "primaryAbilityType": "arcana_tachi_combo",
+  "altAbilityType": "arcana_tachi_ability_shingetsu",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 12
+        },
+        {
+          "item": "arcana_misc_behestDongle",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_galvasteelBar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T8",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

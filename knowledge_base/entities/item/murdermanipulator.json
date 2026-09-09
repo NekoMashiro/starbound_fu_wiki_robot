@@ -1,0 +1,70 @@
+{
+  "entity_id": "murdermanipulator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Murder Manipulator",
+  "name_zh": "凶杀操纵者",
+  "description_en": "A repurposed manipulator. This one murders! Yay!\r\nFloran",
+  "description_zh": "一把“重新利用”的物质枪。极好的凶器！爽！\n叶族",
+  "rarity": "uncommon",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "energy",
+    "floran",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "livingroot",
+          "count": 4
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "murdermanipulator2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

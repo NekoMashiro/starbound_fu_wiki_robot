@@ -1,0 +1,54 @@
+{
+  "entity_id": "quantummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Mace",
+  "name_zh": "量子钉头锤",
+  "description_en": "Don't ask, because Science.",
+  "description_zh": "别问，这是为了科学。",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 1,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 14
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

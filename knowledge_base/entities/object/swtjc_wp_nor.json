@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_nor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "NOR Gate",
+  "name_zh": "或非门",
+  "description_en": "A /'NOR'/ gate. Requires all inputs to be /'off'/ to work.",
+  "description_zh": "一个或非门。需要接入所有输入节点才能激活/OFF/。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

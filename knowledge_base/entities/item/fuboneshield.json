@@ -1,0 +1,42 @@
+{
+  "entity_id": "fuboneshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bony Shield",
+  "name_zh": "骨盾",
+  "description_en": "+8% Energy Regen",
+  "description_zh": "能量回复速度+8%",
+  "rarity": "common",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "bone"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

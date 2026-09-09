@@ -1,0 +1,47 @@
+{
+  "entity_id": "fumechmining0",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mining Cannon",
+  "name_zh": "挖掘机甲臂 I",
+  "description_en": "Melt through worlds with ease.",
+  "description_zh": "轻而易举地融化世界。",
+  "rarity": "uncommon",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 8
+        },
+        {
+          "item": "titaniumbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "fumechmining1"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

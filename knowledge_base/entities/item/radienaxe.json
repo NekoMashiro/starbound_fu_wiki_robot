@@ -1,0 +1,51 @@
+{
+  "entity_id": "radienaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Axe",
+  "name_zh": "艾肯斧",
+  "description_en": "Thick, meaty weapon made from X'ian bulbs.",
+  "description_zh": "用艾肯球茎做成的又厚又多肉的武器。",
+  "rarity": "common",
+  "category": "axe",
+  "price": 4,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "radien",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 12
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

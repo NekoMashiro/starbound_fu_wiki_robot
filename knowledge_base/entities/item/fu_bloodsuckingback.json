@@ -1,0 +1,60 @@
+{
+  "entity_id": "fu_bloodsuckingback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Drainer",
+  "name_zh": "便携式采血机",
+  "description_en": "A pump that has been modified to drain your blood at a slower rate than your body can replace it. Health x0.95.",
+  "description_zh": "一种可以造血的泵，能以较慢的速度在保证你生命安全的状况下将你身体里的代谢液体制造成血液，放心，它抽取的量微小到足够你身体依靠新陈代谢来补充回来。HPx0.95",
+  "rarity": "Legendary",
+  "category": "enviroProtectionPack",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorWeapons",
+          "probability": 0.1996,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0159,
+        0.1996
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0488,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0159,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Blood Drainer.md",
+  "quality_tier": "A"
+}

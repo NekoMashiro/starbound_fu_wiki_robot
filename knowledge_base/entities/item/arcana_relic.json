@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_relic",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Relic",
+  "name_zh": "遗物",
+  "description_en": "Description",
+  "description_zh": "描述",
+  "rarity": "essential",
+  "category": "mwhaddon_regularRelic",
+  "price": 1000,
+  "tags": [
+    "arcana_relic",
+    "mwhaddon_regularRelic"
+  ],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_relicchest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_relic",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

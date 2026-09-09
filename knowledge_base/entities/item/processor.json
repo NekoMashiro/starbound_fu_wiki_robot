@@ -1,0 +1,36 @@
+{
+  "entity_id": "processor",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Processor",
+  "name_zh": "处理器",
+  "description_en": "A very powerful processor.",
+  "description_zh": "一个非常强大的处理器。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 1000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

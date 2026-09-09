@@ -1,0 +1,65 @@
+{
+  "entity_id": "bonethresher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Shard Thresher",
+  "name_zh": "碎骨打叶机",
+  "description_en": "Shoots sharp bone shards that cause enormous pain.\r\nBio Weapon",
+  "description_zh": "射出锋利的骨头碎片，造成极度的痛苦。\n生物武器",
+  "rarity": "rare",
+  "category": "shotgun",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "shotgun",
+    "bioweapon",
+    "upgradeableWeapon",
+    "bone"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5,
+  "critChance": 1,
+  "critBonus": 5,
+  "altAbilityType": "vomitrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cellmatter",
+          "count": 12
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "bone",
+          "count": 50
+        },
+        {
+          "item": "fleshstrand",
+          "count": 44
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Bone Shard Thresher.md",
+  "quality_tier": "A"
+}

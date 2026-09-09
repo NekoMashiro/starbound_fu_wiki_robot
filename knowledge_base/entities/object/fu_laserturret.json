@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_laserturret",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Laser Turret",
+  "name_zh": "激光炮塔",
+  "description_en": "Base Damage: 0.8\r\nFire Rate: 0.1\r\nEnergy per Shot: 3\r\nRange: Mid",
+  "description_zh": "基础伤害: 0,8\n射速: 0.1\n每击能量消耗: 3\n范围: 中等",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "lasrifle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "lasrifle"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Laser Turret.md",
+  "quality_tier": "S"
+}

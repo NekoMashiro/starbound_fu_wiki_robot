@@ -1,0 +1,81 @@
+{
+  "entity_id": "mirrormirror",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mirror of Vision",
+  "name_zh": "真视之镜",
+  "description_en": "Reflects only things you hate.",
+  "description_zh": "只会映出你厌恶的东西。",
+  "rarity": "rare",
+  "category": "unusualRelic",
+  "price": 1000,
+  "tags": [],
+  "level": 3,
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 7,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "fuMadnessVoxelItem",
+          "probability": 0.0083,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fuRareOre",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0083
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fossilRareBonusTreasure",
+          "probability": 0.0058,
+          "count": 1
+        },
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0058
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "fufrozendoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heavy Tungsten Door",
+  "name_zh": "沉重的钨门",
+  "description_en": "Sturdy, and rather heavy.",
+  "description_zh": "结实又沉重。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "ice",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

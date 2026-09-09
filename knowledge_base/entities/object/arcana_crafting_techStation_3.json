@@ -1,0 +1,44 @@
+{
+  "entity_id": "arcana_crafting_techStation_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Basic Tech Station",
+  "name_zh": "基础科技站",
+  "description_en": "An assembly station for creating machines and tech materials.",
+  "description_zh": "一个用于合成机械和科技材料的合成站。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1200,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

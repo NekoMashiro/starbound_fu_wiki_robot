@@ -1,0 +1,41 @@
+{
+  "entity_id": "fumechchainsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "CROC Arm",
+  "name_zh": "CROC机甲臂",
+  "description_en": "Absolutely filets the opposition.",
+  "description_zh": "绝对能将反对者切成鱼片。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuchainsword",
+          "count": 2
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "densiniumbar",
+          "count": 12
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "CROC Arm.md",
+  "quality_tier": "A"
+}

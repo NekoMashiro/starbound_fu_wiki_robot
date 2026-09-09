@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechaimassist",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mech Aim Actuator",
+  "name_zh": "机甲瞄准作动器",
+  "description_en": "Cancels out vehicle movement while firing. Toggle with [F].",
+  "description_zh": "在射击时抵消机甲运动。 按[F]切换。",
+  "rarity": "Legendary",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 7
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "cpu",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

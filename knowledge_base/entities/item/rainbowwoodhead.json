@@ -1,0 +1,46 @@
+{
+  "entity_id": "rainbowwoodhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rainbow Wood Helmet",
+  "name_zh": "彩虹木盔",
+  "description_en": "It's like someone beheaded a rainbow tree.",
+  "description_zh": "这像一棵被人斩首了的彩虹树。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.0727,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.0472,
+          "count": 1
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.0395,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0395,
+        0.0472
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "tier1bed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Iron Bed",
+  "name_zh": "铁床",
+  "description_en": "A common iron bed.",
+  "description_zh": "一张普通的铁床。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "misc",
+    "tier1",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "fabric",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

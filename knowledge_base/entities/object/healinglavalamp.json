@@ -1,0 +1,43 @@
+{
+  "entity_id": "healinglavalamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Healing Lava Lamp",
+  "name_zh": "生命熔岩灯",
+  "description_en": "A lamp filled with healing water. It's soothing to watch.",
+  "description_zh": "一盏注满了生命之水的熔岩灯。看着它能够减轻你的痛苦。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "fu",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 5
+        },
+        {
+          "item": "liquidhealing",
+          "count": 10
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "The Lamporium",
+      "station_zh": "熔岩灯制作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

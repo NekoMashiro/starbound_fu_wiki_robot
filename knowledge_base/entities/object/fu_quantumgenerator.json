@@ -1,0 +1,47 @@
+{
+  "entity_id": "fu_quantumgenerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quantum Reactor",
+  "name_zh": "量子反应堆",
+  "description_en": "Unmatched clean energy up to 620W. Fuel type will decide power output. Heats up, heat increases output. Left Input: On/Off Switch",
+  "description_zh": "可以生产出绝佳的清洁能源，产出功率最高为620W。燃料类型会决定产出的电力功率。\n升温，输出随热量增加。 \n左侧输入：电源开关",
+  "rarity": "legendary",
+  "category": "wire",
+  "price": 2500,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 15
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 3
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 5
+        },
+        {
+          "item": "liquidmetallichydrogen",
+          "count": 5
+        },
+        {
+          "item": "morphiteore",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Quantum Reactor.md",
+  "quality_tier": "A"
+}

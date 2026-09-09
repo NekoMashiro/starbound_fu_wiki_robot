@@ -1,0 +1,107 @@
+{
+  "entity_id": "arcana_misc_robustaWood",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Robusta Wood",
+  "name_zh": "罗布斯塔木",
+  "description_en": "An ebony wood found commonly in the Amorous forests.",
+  "description_zh": "一种在风情森林里十分常见的乌黑木材。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 40,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 22,
+        "examples": [
+          "arcana_archaic_deco_10",
+          "arcana_archaic_deco_2",
+          "arcana_archaic_deco_3",
+          "arcana_archaic_deco_7",
+          "arcana_archaic_deco_8"
+        ]
+      },
+      "block": {
+        "count": 18,
+        "examples": [
+          "studio_tile1",
+          "studio_tile10",
+          "studio_tile10",
+          "studio_tile11",
+          "studio_tile2"
+        ]
+      },
+      "storage": {
+        "count": 16,
+        "examples": [
+          "arcana_archaic_storage_1",
+          "arcana_archaic_storage_2",
+          "arcana_archaic_storage_3",
+          "arcana_archaic_storage_4",
+          "arcana_romantic_storage_1"
+        ]
+      },
+      "furniture": {
+        "count": 15,
+        "examples": [
+          "arcana_archaic_bed_1",
+          "arcana_archaic_chair_1",
+          "arcana_archaic_chair_2",
+          "arcana_archaic_chair_3",
+          "arcana_archaic_table_1"
+        ]
+      },
+      "light": {
+        "count": 12,
+        "examples": [
+          "arcana_archaic_light_1",
+          "arcana_archaic_light_2",
+          "arcana_archaic_light_3",
+          "arcana_archaic_light_4",
+          "arcana_archaic_light_5"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "arcana_archaic_door_1",
+          "arcana_romantic_door_1"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_studio_crafting_1"
+        ]
+      }
+    },
+    "total": 86
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "giltenStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 20
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_darkbookcase",
+          "probability": 0.6667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,61 @@
+{
+  "entity_id": "atropusshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fleshrot Shield",
+  "name_zh": "腐烂盾",
+  "description_en": "+0.05% HP Regen, Immune: Insanity",
+  "description_zh": "生命恢复速度+0.05%；免疫精神错乱",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "atropus",
+    "bioweapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 8
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 6
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 75
+        },
+        {
+          "item": "ff_mercury",
+          "count": 20
+        },
+        {
+          "item": "miraclegrass",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "knighthead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Knight Helmet",
+  "name_zh": "骑士头盔",
+  "description_en": "Tis scratched!",
+  "description_zh": "这有划痕！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "glitchcastleChestTreasure",
+          "probability": 0.0432,
+          "count": 1
+        },
+        {
+          "pool": "evilfortressChestTreasure",
+          "probability": 0.0142,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0142,
+        0.0432
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

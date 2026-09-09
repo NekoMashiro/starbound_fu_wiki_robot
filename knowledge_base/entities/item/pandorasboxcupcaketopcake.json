@@ -1,0 +1,27 @@
+{
+  "entity_id": "pandorasboxcupcaketopcake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cupcaketop Cupcake",
+  "name_zh": "纸杯蛋糕",
+  "description_en": "A delicious small cake-like pastery produced by Cupcaketops.",
+  "description_zh": "一块美味而小巧的纸杯蛋糕。",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 1,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxcupcaketopHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

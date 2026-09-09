@@ -1,0 +1,62 @@
+{
+  "entity_id": "fumegahoneyhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Queen Hammer",
+  "name_zh": "蜂后之锤",
+  "description_en": "A pure amber hammer fit for the queen.\r\nFloran",
+  "description_zh": "姐就是女王，玛瑙放光芒。\n叶族",
+  "rarity": "legendary",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon",
+    "bioweapon",
+    "bees",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12.5,
+  "critChance": 6,
+  "critBonus": 1,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "elementalpillar",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 10
+        },
+        {
+          "item": "godlycomb",
+          "count": 5
+        },
+        {
+          "item": "quietusbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

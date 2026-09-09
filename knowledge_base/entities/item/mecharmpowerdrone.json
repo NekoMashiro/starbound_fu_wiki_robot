@@ -1,0 +1,48 @@
+{
+  "entity_id": "mecharmpowerdrone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sniper Drone",
+  "name_zh": "狙击蜂 I",
+  "description_en": "3 long-ranged sniper drones.",
+  "description_zh": "最多制造出3个能够远距离攻击的狙击蜂飞行器。",
+  "rarity": "uncommon",
+  "category": "mechPart",
+  "price": 2800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmpointdefense",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmpowerdrone2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Sniper Drone.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,207 @@
+{
+  "entity_id": "phosphorus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Phosphorus",
+  "name_zh": "磷",
+  "description_en": "A life-essential non-metallic chemical element.",
+  "description_zh": "一种生命必需的非金属化学元素。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 33,
+        "examples": [
+          "algaeseed",
+          "bananaseed",
+          "batterystem",
+          "biscornseed",
+          "bloodrootseed"
+        ]
+      },
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "cattlefeed3",
+          "slew3"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "ff_fertilizer2",
+          "methyliodide"
+        ]
+      },
+      "armcannon": {
+        "count": 1,
+        "examples": [
+          "armcannonexplosive"
+        ]
+      }
+    },
+    "total": 38
+  },
+  "drop_sources": {
+    "total_pools": 57,
+    "other": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.1097,
+          "count": 3,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 80
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0278,
+          "count": 3
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0045,
+          "count": 3
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0028,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1097
+      ]
+    },
+    "monster_drops": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.1026,
+          "count": 3
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.101,
+          "count": 3
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0651,
+          "count": 3,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0413,
+          "count": 3
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0299,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1026
+      ]
+    },
+    "chest_loot": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.063,
+          "count": 80
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0453,
+          "count": 3.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0186,
+          "count": 3
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0076,
+          "count": 3.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0051,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.063
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0011,
+          "count": 3.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0009,
+          "count": 3.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0011
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 3.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

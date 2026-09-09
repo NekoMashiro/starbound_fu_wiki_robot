@@ -1,0 +1,37 @@
+{
+  "entity_id": "fu_cripplerturret",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crippler Turret",
+  "name_zh": "残害者炮塔",
+  "description_en": "Base Damage: None\r\nFire Rate: 0.1\r\nEnergy per Shot: 1\r\nSpecial: Weakens Foes",
+  "description_zh": "基础伤害: 0\n射速: 0.1\n每击能量消耗: 1\n特殊: 削弱敌人",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "chargemachinegun",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "wiki_ref": "Crippler Turret.md",
+  "quality_tier": "A"
+}

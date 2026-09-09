@@ -1,0 +1,52 @@
+{
+  "entity_id": "commongrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Common Handheld Grenade Launcher",
+  "name_zh": "普通手持榴弹发射器",
+  "description_en": "For when you need to lob grenades the extra distance using just one hand.",
+  "description_zh": "为你需要用一只手高抛榴弹而准备。",
+  "rarity": "Common",
+  "category": "grenadeLauncher",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "explosive",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": [
+    5.4,
+    6.5
+  ],
+  "critChance": 2,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "testarenaRanged",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_lootboxCommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

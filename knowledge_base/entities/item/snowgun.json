@@ -1,0 +1,82 @@
+{
+  "entity_id": "snowgun",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snowball Shooter",
+  "name_zh": "雪球发射器",
+  "description_en": "Powered by snow, it's fully automatic and keeps your gloves dry.",
+  "description_zh": "以雪供能，全自动而且手套不会湿。",
+  "rarity": "Uncommon",
+  "category": "toy",
+  "price": 750,
+  "tags": [
+    "toy",
+    "isogen"
+  ],
+  "elementalType": "ice",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 6,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 10
+        },
+        {
+          "item": "snow",
+          "count": 10
+        },
+        {
+          "item": "glass",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1075,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0755,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

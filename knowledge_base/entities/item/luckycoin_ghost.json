@@ -1,0 +1,53 @@
+{
+  "entity_id": "luckycoin_ghost",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ghost Coin",
+  "name_zh": "幽灵硬币",
+  "description_en": "A slightly ethereal coin engraved with the image of a boatman. Research in a microscope.",
+  "description_zh": "浮雕雕刻有船夫形象的轻而飘渺的硬币。\n在显微镜下研究。",
+  "rarity": "rare",
+  "category": "artifact",
+  "price": 9,
+  "tags": [
+    "artifact"
+  ],
+  "drop_sources": {
+    "total_pools": 9,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "fulostghostgeneric",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fulostghostsnake",
+          "probability": 0.75,
+          "count": 1
+        },
+        {
+          "pool": "fulostghostorbis",
+          "probability": 0.7,
+          "count": 1
+        },
+        {
+          "pool": "fulostghostpiglett",
+          "probability": 0.7,
+          "count": 1
+        },
+        {
+          "pool": "fulostghostsnugget",
+          "probability": 0.7,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.65,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "effigiumchestsmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Effigium Chest",
+  "name_zh": "幻影小箱子",
+  "description_en": "A small chest that seems to fade in and out of existence.",
+  "description_zh": "一个小箱子，似乎在逐渐消失。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 170,
+  "tags": [
+    "effigium",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "obsidian",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

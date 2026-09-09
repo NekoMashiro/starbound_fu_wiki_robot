@@ -1,0 +1,55 @@
+{
+  "entity_id": "lunariaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Hatchet",
+  "name_zh": "月晶短柄斧",
+  "description_en": "Jagged edge. Endless fun.",
+  "description_zh": "锯齿状的边缘。无尽的欢乐。",
+  "rarity": "common",
+  "category": "axe",
+  "price": 140,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "crystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

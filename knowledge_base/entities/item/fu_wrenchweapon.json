@@ -1,0 +1,49 @@
+{
+  "entity_id": "fu_wrenchweapon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrench",
+  "name_zh": "扳手",
+  "description_en": "Delivers a hefty whack, perfect for beating disobedient machinery into order.",
+  "description_zh": "提供一记重击，完美地让不工作的机器重归秩序。",
+  "rarity": "common",
+  "category": "mace",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 5.8,
+  "critChance": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

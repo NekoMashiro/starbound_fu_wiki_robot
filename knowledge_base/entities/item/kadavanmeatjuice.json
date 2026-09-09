@@ -1,0 +1,62 @@
+{
+  "entity_id": "kadavanmeatjuice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kadavan Meat Juice",
+  "name_zh": "卡达文肉汁",
+  "description_en": "Prickly cactus juice blended with poorly cooked meat. What could go wrong? +20% HP (150s), +100% Physical Thorns (2m) Type: Cooked Meat + Vegetables",
+  "description_zh": "仙人掌果汁混合着煮得不好的肉。会出什么问题呢？\nyan;+20%HP(持续150s)\n+100%物理反伤(持续2m)\n类型：熟肉食+蔬菜",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "kadavancactusjuice",
+          "count": 1
+        },
+        {
+          "item": "meatchunk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

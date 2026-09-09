@@ -1,0 +1,39 @@
+{
+  "entity_id": "exonitechestsmall",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Exonite Chest",
+  "name_zh": "小型长石箱子",
+  "description_en": "A small chest made from exonite.",
+  "description_zh": "一个长石做的小箱子。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "elduukhar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "exonite",
+          "count": 5
+        },
+        {
+          "item": "upilite",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

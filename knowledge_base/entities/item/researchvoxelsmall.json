@@ -1,0 +1,187 @@
+{
+  "entity_id": "researchvoxelsmall",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Research Microdisc",
+  "name_zh": "微型研究磁盘",
+  "description_en": "A cache of 500 stored Research.",
+  "description_zh": "可以储存500研究点数。",
+  "rarity": "uncommon",
+  "category": "resourceItem",
+  "price": 100,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 505
+        }
+      ],
+      "output_count": 1,
+      "station": "Hyper Compressor",
+      "station_zh": "究极压缩机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 1,
+        "examples": [
+          "fuscienceresource"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 22,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuResearchVoxelItems",
+          "probability": 0.2985,
+          "count": 1
+        },
+        {
+          "pool": "deadBodies",
+          "probability": 0.0138,
+          "count": 1
+        },
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0034,
+          "count": 1
+        },
+        {
+          "pool": "brokenMechLoot",
+          "probability": 0.0029,
+          "count": 1
+        },
+        {
+          "pool": "fuLabParts",
+          "probability": 0.0025,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2985
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0091,
+          "count": 1.0
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0091
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

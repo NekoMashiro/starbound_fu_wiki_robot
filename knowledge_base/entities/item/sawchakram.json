@@ -1,0 +1,77 @@
+{
+  "entity_id": "sawchakram",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Saw Chakram",
+  "name_zh": "环锯",
+  "description_en": "A favourite weapon of the sacred order of lumbermonks.",
+  "description_zh": "遵循圣律的伐木僧们最喜欢的武器。",
+  "rarity": "Legendary",
+  "category": "chakram",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "chakram"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "critChance": 12,
+  "critBonus": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "chakram",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "sawchakram_l6.png",
+    "seed": "",
+    "shortdescription": "环锯^yellow;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Saw Chakram.md",
+  "quality_tier": "A"
+}

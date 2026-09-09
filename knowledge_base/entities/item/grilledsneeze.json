@@ -1,0 +1,35 @@
+{
+  "entity_id": "grilledsneeze",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grilled Sneeze",
+  "name_zh": "烤喷嚏",
+  "description_en": "Disgusting to anything that isn't a floran.+10% Electric Res, Electrified Immunity (2m)",
+  "description_zh": "对于叶族人以外的所有种族都是极其恶心的。\n+10%电系抗性，赋予带电免疫(持续2m)",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

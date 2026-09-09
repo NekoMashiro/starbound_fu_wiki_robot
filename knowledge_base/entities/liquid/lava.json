@@ -1,0 +1,44 @@
+{
+  "entity_id": "lava",
+  "entity_type": "liquid",
+  "source_mod": "Starbound",
+  "name_en": "lava",
+  "name_zh": "",
+  "description_en": "Deadly molten lava!",
+  "description_zh": "致命的灼热岩浆！",
+  "status_effects": [
+    "melting"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "magmarock"
+    },
+    {
+      "liquid": 5,
+      "materialResult": "asphalt"
+    },
+    {
+      "liquid": 40,
+      "materialResult": "bloodstonetile2"
+    },
+    {
+      "liquid": 42,
+      "materialResult": "andesite"
+    },
+    {
+      "liquid": 43,
+      "materialResult": "purplecrystal"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "sulphurstone"
+    },
+    {
+      "liquid": 46,
+      "materialResult": "sulphurstone"
+    }
+  ],
+  "wiki_ref": "Lava.md",
+  "quality_tier": "C"
+}

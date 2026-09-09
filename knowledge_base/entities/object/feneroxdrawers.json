@@ -1,0 +1,54 @@
+{
+  "entity_id": "feneroxdrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fenerox Drawers",
+  "name_zh": "耳廓狐的抽屉",
+  "description_en": "A primitive set of drawers.",
+  "description_zh": "一组原始的抽屉。",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "fenerox",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "string",
+          "count": 5
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "leather",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

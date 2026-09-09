@@ -1,0 +1,46 @@
+{
+  "entity_id": "apexkitchencounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apex Kitchen Counter",
+  "name_zh": "猿人厨房柜台",
+  "description_en": "Hope you like bananas.",
+  "description_zh": "希望你喜欢香蕉。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "apex",
+    "apexvillage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

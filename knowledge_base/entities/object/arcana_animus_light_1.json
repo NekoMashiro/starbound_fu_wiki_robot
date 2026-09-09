@@ -1,0 +1,52 @@
+{
+  "entity_id": "arcana_animus_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Animus Lamp",
+  "name_zh": "魇灵灯",
+  "description_en": "A blood-red stone lamp.",
+  "description_zh": "一盏血红色的石灯。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "animus"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "animus_tile1",
+          "count": 4
+        },
+        {
+          "item": "animus_tile2",
+          "count": 4
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

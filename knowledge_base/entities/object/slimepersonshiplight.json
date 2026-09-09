@@ -1,0 +1,45 @@
+{
+  "entity_id": "slimepersonshiplight",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Ship Light",
+  "name_zh": "史莱姆船灯",
+  "description_en": "A type of ship light that seems to have a thin layer of slime.",
+  "description_zh": "一种船用灯，似乎有一层薄薄的黏液。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "slimeperson",
+    "slimenpc",
+    "slimenpchuman"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slime",
+          "count": 1
+        },
+        {
+          "item": "greenslime",
+          "count": 4
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

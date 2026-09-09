@@ -1,0 +1,54 @@
+{
+  "entity_id": "azure_sniperRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Furud Modular",
+  "name_zh": "大犬模数",
+  "description_en": "An azurium sniper rifle, designed for clean eliminations.",
+  "description_zh": "天青狙击步枪，为肃清目标而生。",
+  "rarity": "Legendary",
+  "category": "sniperRifle",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 11.8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_azuriumBar",
+          "count": 14
+        },
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 26
+        },
+        {
+          "item": "arcana_misc_oceanite",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

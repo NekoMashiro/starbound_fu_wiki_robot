@@ -1,0 +1,27 @@
+{
+  "entity_id": "arcana_body_redSkyHoodie",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Red Sky Hoodie",
+  "name_zh": "红天连帽衫",
+  "description_en": "A simple hoodie, in case it gets a bit chilly.",
+  "description_zh": "简单的兜帽，以防天气变冷。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 360,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_neoncityextra",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

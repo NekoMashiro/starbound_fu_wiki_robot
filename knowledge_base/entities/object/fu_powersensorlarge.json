@@ -1,0 +1,37 @@
+{
+  "entity_id": "fu_powersensorlarge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Power Sensor",
+  "name_zh": "电力传感器 II",
+  "description_en": "A large sensor that displays power levels flowing into it. This one goes up to 9999.",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "science",
+    "power",
+    "tech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Large Power Sensor.md",
+  "quality_tier": "A"
+}

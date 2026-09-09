@@ -1,0 +1,58 @@
+{
+  "entity_id": "carnagebow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carnage Bow",
+  "name_zh": "屠戮之弓",
+  "description_en": "Fires homing arrows.",
+  "description_zh": "发射追踪箭头。",
+  "rarity": "rare",
+  "category": "bow",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "critChance": 5,
+  "critBonus": 3,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 4
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "neuropod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

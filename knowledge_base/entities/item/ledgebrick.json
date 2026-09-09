@@ -1,0 +1,49 @@
+{
+  "entity_id": "ledgebrick",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ledge Brick",
+  "name_zh": "横条砖",
+  "description_en": "Stone stepped bricks with a small ledge.",
+  "description_zh": "带有横条的梯形石头砖块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "brickmaterial",
+          "count": 1
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "ledgebrick"
+  ],
+  "quality_tier": "A"
+}

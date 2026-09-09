@@ -1,0 +1,41 @@
+{
+  "entity_id": "shovelspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "David Spade",
+  "name_zh": "大卫的铲子",
+  "description_en": "A dangerous shovel for the discerning knight.\r\nHunting weapon\r\nInflicts Bleeding",
+  "description_zh": "对于眼光敏锐的骑士来说，这是一把危险的铲子。\n狩猎武器\n ；导致出血效果",
+  "rarity": "legendary",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "shovel"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.75,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "fusuperflipslash",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.052,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

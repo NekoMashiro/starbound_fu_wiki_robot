@@ -1,0 +1,57 @@
+{
+  "entity_id": "fubrokennightarblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Broken Densinium Sword",
+  "name_zh": "破损的超致密剑",
+  "description_en": "A rather broken and tarnished blade. It bears fine etched details.",
+  "description_zh": "一把破损的、生了锈的剑。它带有精美的蚀刻细节。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "nightar",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "risingslash",
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "funightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "",
+    "seed": "",
+    "shortdescription": "Reforged Densinium Sword",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

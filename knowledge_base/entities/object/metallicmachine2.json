@@ -1,0 +1,49 @@
+{
+  "entity_id": "metallicmachine2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fusion Conduit",
+  "name_zh": "融合导管",
+  "description_en": "This looks like an ancient fusion conduit.",
+  "description_zh": "这看起来像是一个古老的合成管道。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 1000,
+  "tags": [
+    "metallic",
+    "rusted"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0384,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0384,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0214,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0214,
+        0.0384
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

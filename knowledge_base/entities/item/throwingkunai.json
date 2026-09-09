@@ -1,0 +1,62 @@
+{
+  "entity_id": "throwingkunai",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Throwing Kunai",
+  "name_zh": "苦无",
+  "description_en": "A specialized throwing knife with a heavy blade.",
+  "description_zh": "一把有着沉重刀锋的特殊飞刀。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 5,
+  "tags": [
+    "thrown"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        }
+      ],
+      "output_count": 6,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_smashables_pod_geoelectra_throwables",
+          "probability": 0.291,
+          "count": 4.5
+        },
+        {
+          "pool": "arcana_smashables_pod_geoelectra",
+          "probability": 0.0582,
+          "count": 4.5
+        }
+      ],
+      "prob_range": [
+        0.0582,
+        0.291
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

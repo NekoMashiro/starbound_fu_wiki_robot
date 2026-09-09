@@ -1,0 +1,40 @@
+{
+  "entity_id": "meatwine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meat Wine",
+  "name_zh": "肉酒",
+  "description_en": "Are you sure this is worth drinking?\nHeal 10 (2s), 35% Slow, Drunk (30s)",
+  "description_zh": "你确定你要喝这个吗？\n治疗10点生命值(2s内)\n35%减速、醉酒 (30s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapemash",
+          "count": 2
+        },
+        {
+          "item": "alienmeat",
+          "count": 2
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

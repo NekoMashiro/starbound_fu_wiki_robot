@@ -1,0 +1,94 @@
+{
+  "entity_id": "arcana_misc_arkFragment",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Ark Fragment",
+  "name_zh": "方舟碎片",
+  "description_en": "A piece of ancient mineral found in skybound arks.",
+  "description_zh": "一种能在天界方舟找到的古代矿物。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 70,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_misc_arkPlate"
+        ]
+      },
+      "spear": {
+        "count": 1,
+        "examples": [
+          "artifact_greatspear_luxiant"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_archaicTreasure",
+          "probability": 2.0,
+          "count": 6.8
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "giltenStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 20
+        }
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_empyrean",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_goldenForest",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_goldenLake",
+      "weight": 0.6
+    },
+    {
+      "biome": "arcana_gleamingBasin",
+      "weight": 0.6
+    }
+  ],
+  "quality_tier": "S"
+}

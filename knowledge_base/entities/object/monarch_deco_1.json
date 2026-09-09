@@ -1,0 +1,52 @@
+{
+  "entity_id": "monarch_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Giant Abstract Cube",
+  "name_zh": "巨型抽象立方体",
+  "description_en": "A giant black and white cube display.",
+  "description_zh": "一个巨大的黑白立方体显示器。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "monarch"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "monarch_tile1",
+          "count": 16
+        },
+        {
+          "item": "monarch_tile2",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "Monarch Crafting Table",
+      "station_zh": "帝王制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

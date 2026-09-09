@@ -1,0 +1,59 @@
+{
+  "entity_id": "arcana_cemetery",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Cemetery",
+  "name_zh": "墓地",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Cemetery",
+  "friendly_name_zh": "墓地",
+  "ores": [
+    {
+      "ore": "arcana_mod_animaOre",
+      "weight": 0.9
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.6
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.6
+    },
+    {
+      "ore": "violium",
+      "weight": 0.6
+    },
+    {
+      "ore": "coal",
+      "weight": 0.5
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_cerueonRaven",
+    "arcana_mistBat",
+    "arcana_skeleton",
+    "heathugger",
+    "owlcritter",
+    "phoenixfly",
+    "ravencritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_nightmist"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

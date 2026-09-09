@@ -1,0 +1,38 @@
+{
+  "entity_id": "burrowerrang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Burrower",
+  "name_zh": "挖掘",
+  "description_en": "Ew! Throw it at someone!",
+  "description_zh": "额！扔给某人！",
+  "rarity": "Legendary",
+  "category": "boomerang",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0116,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "wormerang_l6.png",
+    "seed": "",
+    "shortdescription": "巨型蠕虫^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

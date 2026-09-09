@@ -1,0 +1,63 @@
+{
+  "entity_id": "pandorasboxprotectorateshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rusty Protectorate Shield",
+  "name_zh": "受损的守护团盾牌",
+  "description_en": "A damaged shield bearing the Protectorate symbol. -10% Fall Damage, Immune: Shock",
+  "description_zh": "一个带有守护者标志的受损的盾牌。\n-10%坠落伤害，免疫：感电",
+  "rarity": "common",
+  "category": "shield",
+  "price": 50,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "protectorate"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "drop_sources": {
+    "total_pools": 19,
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "images/pandorasboxprotectorateshield3.png:nearidle",
+    "seed": "",
+    "shortdescription": "^cyan;守护团盾牌^reset; ^yellow;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

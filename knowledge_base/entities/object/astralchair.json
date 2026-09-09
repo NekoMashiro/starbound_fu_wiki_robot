@@ -1,0 +1,43 @@
+{
+  "entity_id": "astralchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aen Chair",
+  "name_zh": "星辰椅子",
+  "description_en": "A stellar chair, don't worry about falling, you'll appear 10 miles away if you do though.",
+  "description_zh": "一张恒星椅，不要担心掉下来，如果你这样做的话，你会出现在10英里之外。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 75,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "astralwood",
+          "count": 8
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

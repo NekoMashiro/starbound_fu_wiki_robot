@@ -1,0 +1,32 @@
+{
+  "entity_id": "fireygiant",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Fireygiant",
+  "name_zh": "巨火虫",
+  "description_en": "A large, formidable bug. Can survive extreme heat.",
+  "description_zh": "一只非常大，可怕的虫子。可在高温下生存。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fireygiant",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "fireygiant"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

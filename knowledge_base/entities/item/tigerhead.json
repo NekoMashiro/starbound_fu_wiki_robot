@@ -1,0 +1,46 @@
+{
+  "entity_id": "tigerhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tiger Hat",
+  "name_zh": "虎帽",
+  "description_en": "This hat resembles a tiger. Is it real fur?",
+  "description_zh": "这顶帽子像一只老虎。它是真皮的吗？",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.077,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.0646,
+          "count": 1
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.0541,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0541,
+        0.0646
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

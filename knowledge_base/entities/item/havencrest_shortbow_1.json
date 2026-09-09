@@ -1,0 +1,54 @@
+{
+  "entity_id": "havencrest_shortbow_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcanium Bow",
+  "name_zh": "秘钢弓",
+  "description_en": "A sturdy bow forged from arcanium.",
+  "description_zh": "使用秘钢制成的耐用弓。",
+  "rarity": "Rare",
+  "category": "bow",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "arcanium",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_bowshot",
+  "altAbilityType": "arcana_bowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "upgraded_icon.png",
+    "seed": "",
+    "shortdescription": "秘钢弓^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

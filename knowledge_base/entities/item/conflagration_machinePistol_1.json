@@ -1,0 +1,58 @@
+{
+  "entity_id": "conflagration_machinePistol_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Angus Pistol",
+  "name_zh": "爱神机铳",
+  "description_en": "A molten machine pistol.",
+  "description_zh": "炙手可热的熔融冲锋手枪。",
+  "rarity": "Uncommon",
+  "category": "machinePistol",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 12.0,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

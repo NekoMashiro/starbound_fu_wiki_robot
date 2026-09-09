@@ -1,0 +1,59 @@
+{
+  "entity_id": "agilitysuitchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Agent Chest",
+  "name_zh": "特工胸甲",
+  "description_en": "Set Bonuses:\r\n +12% Speed, 8% Jump\r\n +25% Jump Tech Efficiency\r\n +25% Dash/Dodge Tech Efficiency\r\n +25% Phase Tech Efficiency\r\n Dagger/Pistol: +4% Crit Chance",
+  "description_zh": "套装奖励:\n +12% 速度, 8% 跳跃\n +25% 跳跃科技效率\n +25% 冲刺/闪避科技效率\n +25% 位移科技效率\n 匕首/手枪: +4% 暴击几率",
+  "rarity": "Uncommon",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "beesilk",
+          "count": 15
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 9
+        },
+        {
+          "item": "cellmatter",
+          "count": 12
+        },
+        {
+          "item": "fuoperativechest",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

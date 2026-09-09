@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_nxor3i12h",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "NXOR Gate (3 Inputs, 1-2-Hot)",
+  "name_zh": "同或门(三输入，1-2)",
+  "description_en": "A /'NXOR'/ gate. Remains on unless exactly 1 or 2 inputs are on, and the rest off.",
+  "description_zh": "一个同或门。需要接入一个或两个输入节点才能激活/ON/。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

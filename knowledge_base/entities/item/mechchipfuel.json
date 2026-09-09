@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchipfuel",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tank Module",
+  "name_zh": "坦克模块",
+  "description_en": "Makes more space for fuel but decreases mech maximum health.",
+  "description_zh": "让机甲能装下更多燃料，但会减少机甲的最大耐久。",
+  "rarity": "Common",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "graphene",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

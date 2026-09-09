@@ -1,0 +1,79 @@
+{
+  "entity_id": "havencrest_tile1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Arcane Sandstone",
+  "name_zh": "灵砂岩",
+  "description_en": "A sandstone block.",
+  "description_zh": "砂岩块。",
+  "rarity": "Rare",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcaneDesert_tile1",
+          "count": 10
+        }
+      ],
+      "output_count": 20,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 5,
+        "examples": [
+          "havencrest_chair_1",
+          "havencrest_chair_2",
+          "havencrest_table_1",
+          "havencrest_table_2",
+          "havencrest_table_3"
+        ]
+      },
+      "block": {
+        "count": 4,
+        "examples": [
+          "havencrest_tile2",
+          "havencrest_tile3",
+          "havencrest_tile4",
+          "havencrest_tile6"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "havencrest_deco_2",
+          "havencrest_deco_3"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "havencrest_light_1"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "quality_tier": "S"
+}

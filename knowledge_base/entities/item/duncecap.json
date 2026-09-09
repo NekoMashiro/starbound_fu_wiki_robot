@@ -1,0 +1,171 @@
+{
+  "entity_id": "duncecap",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dunce Cap",
+  "name_zh": "笨蛋帽",
+  "description_en": "A wonderful hat for idiots.",
+  "description_zh": "对白痴来说是一顶好帽子。",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 45,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.08,
+          "count": 1.0
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0018,
+          "count": 1.0
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "fishingGrandPrize",
+          "probability": 0.0006,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.08
+      ]
+    },
+    "chest_loot": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0149,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0144,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0057,
+          "count": 1.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0056,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0036,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0149
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.009,
+          "count": 1.0,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0089,
+          "count": 1.0
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0058,
+          "count": 1.0
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0037,
+          "count": 1.0
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0035,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.009
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0016,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0016,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0014,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0016
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0003,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

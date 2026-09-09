@@ -1,0 +1,87 @@
+{
+  "entity_id": "crystalblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Crystal Block",
+  "name_zh": "水晶块",
+  "description_en": "A shimmering block of made from crystals.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "一种由水晶构成的闪闪发光的方块。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fuhoneycrystalbed",
+          "fuhoneycrystalchair",
+          "fuhoneycrystaltable"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "fuhoneycrystalchest"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "fuhoneycrystallamp"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "833honeycrystalblock"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": []
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": []
+    }
+  ],
+  "quality_tier": "S"
+}

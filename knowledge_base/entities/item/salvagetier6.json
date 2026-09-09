@@ -1,0 +1,37 @@
+{
+  "entity_id": "salvagetier6",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Nano Receptacle",
+  "name_zh": "纳米插座",
+  "description_en": "This component could be useful for crafting high-tech mech parts.",
+  "description_zh": "该组件可以用于制作高科技机甲部件。",
+  "rarity": "Common",
+  "category": "salvageComponent",
+  "price": 75,
+  "tags": [
+    "reagent",
+    "salvage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 50
+        }
+      ],
+      "output_count": 10,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

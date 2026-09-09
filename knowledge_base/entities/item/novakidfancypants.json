@@ -1,0 +1,56 @@
+{
+  "entity_id": "novakidfancypants",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gunslinger Pants",
+  "name_zh": "枪手裤子",
+  "description_en": "Comfy and casual. Brilliant for blending into a crowd.",
+  "description_zh": "既舒适又休闲。混进人群的绝佳之选。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,67 @@
+{
+  "entity_id": "skathtier3broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Plasmablade",
+  "name_zh": "绘世者战刃·等离子",
+  "description_en": "A powerful Plasmablade forged by the Skath.",
+  "description_zh": "一把由绘世者工艺锻造的强大等离子剑刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1250,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 9,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "等离子冲能",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier2broadsword",
+          "count": 1
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 6
+        },
+        {
+          "item": "tethyde",
+          "count": 4
+        },
+        {
+          "item": "hydrolium",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

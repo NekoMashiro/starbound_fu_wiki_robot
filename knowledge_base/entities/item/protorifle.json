@@ -1,0 +1,56 @@
+{
+  "entity_id": "protorifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Proto Rifle",
+  "name_zh": "原体狙击步枪",
+  "description_en": "An energy-based sniper rifle with a bouncy projectile.",
+  "description_zh": "一种能量型狙击步枪，射出弹性发射物。",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "upgradeableWeapon",
+    "proto"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "critChance": 6,
+  "critBonus": 7,
+  "altAbilityType": "protobomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

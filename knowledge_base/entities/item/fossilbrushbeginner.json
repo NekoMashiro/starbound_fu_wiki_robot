@@ -1,0 +1,36 @@
+{
+  "entity_id": "fossilbrushbeginner",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Basic Fossil Brush",
+  "name_zh": "基础化石刷",
+  "description_en": "Can be used once to excavate a fossil, with limited success.",
+  "description_zh": "只能使用一次来发掘化石，有较小几率成功。",
+  "rarity": "Common",
+  "category": "tool",
+  "price": 10,
+  "tags": [
+    "fossilbrush"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fossil Station",
+      "station_zh": "化石工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "wreckplatform",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wrecked Platform",
+  "name_zh": "生锈平台",
+  "description_en": "Rusty scaffolding. It doesn't look safe.",
+  "description_zh": "支架已经生锈了。这看起来十分不安全。",
+  "rarity": "Common",
+  "category": "platform",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "wreckplatform"
+  ],
+  "quality_tier": "A"
+}

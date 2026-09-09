@@ -1,0 +1,45 @@
+{
+  "entity_id": "industriallight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Light",
+  "name_zh": "工业灯",
+  "description_en": "A metal wall light which emits a sickly orange glow.",
+  "description_zh": "散发出一种病态的橙色辉光的金属墙灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 60,
+  "tags": [
+    "light",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

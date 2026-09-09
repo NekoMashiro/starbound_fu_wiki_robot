@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_byoscaptainschair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Captain's Chair",
+  "name_zh": "船长椅",
+  "description_en": "The Captain sits here to fly the ship.",
+  "description_zh": "只有船长才有资格坐在这里指挥这艘飞船的航向\n可在飞船用家具定制台调整种族风格",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "captainschair"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Ship Component Assembler",
+          "name_zh": "飞船设备制造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

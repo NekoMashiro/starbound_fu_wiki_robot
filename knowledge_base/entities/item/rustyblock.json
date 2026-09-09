@@ -1,0 +1,62 @@
+{
+  "entity_id": "rustyblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Rusty Block",
+  "name_zh": "生锈块",
+  "description_en": "A rusty old metal block.",
+  "description_zh": "一种陈旧生锈的金属块。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.3408,
+          "count": 1.9
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "rustyblock"
+  ],
+  "quality_tier": "S"
+}

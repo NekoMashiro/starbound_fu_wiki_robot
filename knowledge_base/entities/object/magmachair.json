@@ -1,0 +1,53 @@
+{
+  "entity_id": "magmachair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Chair",
+  "name_zh": "岩浆椅子",
+  "description_en": "Do you really want to sit on that?",
+  "description_zh": "难道你真的想坐在这上面吗？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "magma",
+    "chair"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "magmawall3",
+          "count": 6
+        },
+        {
+          "item": "magmawall1",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

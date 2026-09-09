@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_liquid_viridescentAcid",
+  "entity_type": "liquid",
+  "source_mod": "Arcana",
+  "name_en": "arcana_liquid_viridescentAcid",
+  "name_zh": "",
+  "description_en": "A highly acidic liquid, found in Viridescent planets.",
+  "description_zh": "强酸性的液体，能在翠毒星球上发现。",
+  "status_effects": [
+    "arcana_status_acidicMelting"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "liquidResult": 1
+    },
+    {
+      "liquid": 3,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 8
+    },
+    {
+      "liquid": 12,
+      "liquidResult": 12
+    },
+    {
+      "liquid": 171,
+      "liquidResult": 171
+    },
+    {
+      "liquid": 172,
+      "liquidResult": 172
+    },
+    {
+      "liquid": 173,
+      "liquidResult": 173
+    }
+  ],
+  "quality_tier": "C"
+}

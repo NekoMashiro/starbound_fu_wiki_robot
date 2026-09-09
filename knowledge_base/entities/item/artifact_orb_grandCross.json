@@ -1,0 +1,37 @@
+{
+  "entity_id": "artifact_orb_grandCross",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fata Morgana",
+  "name_zh": "虚妄蜃景",
+  "description_en": "A strange device, a low vibrating sound can be heard emitting from its core.",
+  "description_zh": "一个奇怪的装置，能听到从其核心处传出低沉的振动声。",
+  "rarity": "Legendary",
+  "category": "wand",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_terminusReaper",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_terminusReaperFinal"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

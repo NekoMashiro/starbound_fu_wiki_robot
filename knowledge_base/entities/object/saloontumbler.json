@@ -1,0 +1,31 @@
+{
+  "entity_id": "saloontumbler",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Saloon Tumbler",
+  "name_zh": "沙龙玻璃杯",
+  "description_en": "A dirty-looking glass tumbler.",
+  "description_zh": "一个看上去脏兮兮的玻璃杯。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 30,
+  "tags": [
+    "novakid",
+    "novakidvillage",
+    "cooking"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_neoncitydrinks",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

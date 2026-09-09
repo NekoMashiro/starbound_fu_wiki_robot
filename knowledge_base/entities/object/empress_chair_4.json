@@ -1,0 +1,48 @@
+{
+  "entity_id": "empress_chair_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Empress Counter",
+  "name_zh": "皇后专柜",
+  "description_en": "A fancy boutique counter.",
+  "description_zh": "一个花哨的精品柜台。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "empress"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "fusamurailegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Samurai Pants",
+  "name_zh": "武士长裤",
+  "description_en": "Set Bonuses:\r\n Katana Mastery: +15%\r\n Dodge Techs: +10%\r\n Defense Techs: +10%",
+  "description_zh": "套装奖励:\n 武士刀专精: +15%\n 闪避科技: +10%\n 防御科技: +10%",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 100,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "samurai2pants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "arcana_essence_aeonEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Essence",
+  "name_zh": "纪元精纯",
+  "description_en": "An essence that manipulates the fabric of time.",
+  "description_zh": "纵时阅历之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 20
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

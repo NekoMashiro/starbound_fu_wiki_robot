@@ -1,0 +1,50 @@
+{
+  "entity_id": "piglettbank",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Piglett Bank",
+  "name_zh": "小猪银行",
+  "description_en": "It's just too cute to smash! ... Or is it?",
+  "description_zh": "它太可爱了，不能打碎...还是这样？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "pretty",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fulostghostpiglett",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

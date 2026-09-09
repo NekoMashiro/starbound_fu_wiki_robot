@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_exousia_modern_chair_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Office Chair",
+  "name_zh": "办公椅",
+  "description_en": "An office chair, slightly more comfortable than most chairs but doesn't look very impressive.",
+  "description_zh": "没有特点的舒适办公椅。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 220,
+  "tags": [
+    "exousia"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_enartzComposite",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Workstation Mini",
+      "station_zh": "迷你威权工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "魔匠之桌",
+          "name_zh": "魔匠之桌"
+        },
+        {
+          "name": "Exousia Workstation",
+          "name_zh": "威权工作站"
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_exousia_crafting_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_exousia_crafting_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

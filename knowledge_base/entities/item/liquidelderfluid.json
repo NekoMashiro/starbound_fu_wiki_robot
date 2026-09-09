@@ -1,0 +1,198 @@
+{
+  "entity_id": "liquidelderfluid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Essentia Obscura",
+  "name_zh": "黯灵之露",
+  "description_en": "A measure of a strange, unidentifiable liquid.\nGrowth Rate x1.5 & +2 produce.\n-1 seed use\nCentrifugable.",
+  "description_zh": "一定量的奇异而无法定义的流体。\n生长速率x1.5&产量+2\n种子消耗-1\n可离心。",
+  "rarity": "legendary",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_xenodaemonae_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 11,
+        "examples": [
+          "elderlavalamp",
+          "nocxiumlamp",
+          "nocxiumstrip1",
+          "nocxiumstrip2",
+          "nocxiumstrip3"
+        ]
+      },
+      "furniture": {
+        "count": 10,
+        "examples": [
+          "nocxiumbed",
+          "nocxiumbookcase",
+          "nocxiumcabinet",
+          "nocxiumchair",
+          "nocxiumcouch"
+        ]
+      },
+      "medicine": {
+        "count": 3,
+        "examples": [
+          "serumstim",
+          "thesauce",
+          "wretchelpoultice"
+        ]
+      },
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "cthushi",
+          "eldurkey"
+        ]
+      },
+      "drink": {
+        "count": 2,
+        "examples": [
+          "elderbeer",
+          "pukacolaquantum"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "nocxiumbar",
+          "reanimationfluid"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "nocxiumchest1",
+          "nocxiumchest2"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "nocxiumfridge",
+          "nocxiumminifridge"
+        ]
+      }
+    },
+    "total": 34
+  },
+  "drop_sources": {
+    "total_pools": 10,
+    "other": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fleshreaperLoot",
+          "probability": 1.0,
+          "count": 12,
+          "monsters": [
+            "fleshreaper",
+            "fleshreaper2",
+            "fleshreaper3",
+            "ghastbrain"
+          ]
+        },
+        {
+          "pool": "minishoggothLoot",
+          "probability": 1.0,
+          "count": 12,
+          "monsters": [
+            "fleshleech",
+            "fleshleech2",
+            "fleshleechold",
+            "minishoggoth",
+            "minishoggoth2"
+          ]
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 1.0,
+          "count": 500,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "elderbeetle",
+          "probability": 0.6,
+          "count": 1,
+          "monsters": [
+            "elderbeetle"
+          ]
+        },
+        {
+          "pool": "corruptflyLoot",
+          "probability": 0.1824,
+          "count": 2,
+          "monsters": [
+            "fucorruptflylarge"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0507,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "deeponeTreasure",
+          "probability": 1.0,
+          "count": 24,
+          "monsters": [
+            "deepone"
+          ]
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 1.0,
+          "count": 24,
+          "monsters": [
+            "starspawn"
+          ]
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 1.0,
+          "count": 24,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Essentia Obscura.md",
+  "quality_tier": "S"
+}

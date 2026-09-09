@@ -1,0 +1,50 @@
+{
+  "entity_id": "iceaxe2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bloodhook",
+  "name_zh": "血钩",
+  "description_en": "Short-ranged grapple. Regenerates health when attached. Improves healing.",
+  "description_zh": "用于极短距离的格斗。击中时回复HP。提高治疗效果。",
+  "rarity": "legendary",
+  "category": "Tool",
+  "price": 120,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blooddiamond",
+          "count": 16
+        },
+        {
+          "item": "carbonplate",
+          "count": 6
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0231,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

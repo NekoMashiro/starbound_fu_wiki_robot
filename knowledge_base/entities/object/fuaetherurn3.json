@@ -1,0 +1,47 @@
+{
+  "entity_id": "fuaetherurn3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Urn",
+  "name_zh": "以太茶水壶",
+  "description_en": "An aether urn full of aetheric dust and cosmic essence.",
+  "description_zh": "一个完全由以太尘和宇宙精华制作成的以太茶水壶。",
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 30,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 4
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 10
+        },
+        {
+          "item": "liquidaether",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

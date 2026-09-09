@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowerwhite",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "White Flower",
+  "name_zh": "白色花种子",
+  "description_en": "These flowers have a sweet and pleasant scent",
+  "description_zh": "这些花有着香甜宜人的气味。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowerwhiteHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

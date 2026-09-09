@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_studio_deco_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Studio Plant Box",
+  "name_zh": "工作室植物箱",
+  "description_en": "A wooden studio planter box.",
+  "description_zh": "一个木制的工作室植物箱。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 110,
+  "tags": [
+    "studio",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Studio & Romantic Cft. Table",
+      "station_zh": "工作室&浪漫制作站",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_studio.json",
+          "name_zh": ""
+        },
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Studio Plant Box.md",
+  "quality_tier": "A"
+}

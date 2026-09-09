@@ -1,0 +1,65 @@
+{
+  "entity_id": "fuxithricitehead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Helm",
+  "name_zh": "赛德瑞瑟头盔",
+  "description_en": "Set Bonuses:\r\n Xithricite Weapons: +3% Crit\r\n Immune: All Radiation, Pressure, Shadow Taint, Aether, Insanity, Oxygen",
+  "description_zh": "套装奖励：\n 赛德瑟瑞武器: +3% 暴击几率\n 免疫: 一切辐射, 压强, 暗影污染, 以太, 精神错乱, 窒息",
+  "rarity": "legendary",
+  "category": "headarmour",
+  "price": 750,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 5
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 5
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "effigiumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuxithriciteheadkhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

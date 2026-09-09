@@ -1,0 +1,140 @@
+{
+  "entity_id": "tarball",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tarball",
+  "name_zh": "沥青球",
+  "description_en": "Being hit by one of these is sticky.",
+  "description_zh": "被这个打中的就会变得黏糊糊的。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tar",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 10,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtaroniHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtargummiHunting",
+          "probability": 0.7921,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.7921,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "tarChestTreasure",
+          "probability": 0.4044,
+          "count": 5.0
+        },
+        {
+          "pool": "tarUndergroundChestTreasure",
+          "probability": 0.3257,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.3257,
+        0.4044
+      ]
+    },
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoTarTreasure",
+          "probability": 0.2628,
+          "count": 5
+        },
+        {
+          "pool": "tarTreasure",
+          "probability": 0.2198,
+          "count": 5
+        },
+        {
+          "pool": "pandorasboxtrapogoTarUndergroundTreasure",
+          "probability": 0.2116,
+          "count": 5
+        },
+        {
+          "pool": "tarUndergroundTreasure",
+          "probability": 0.177,
+          "count": 5
+        },
+        {
+          "pool": "pandorasboxtargummiTreasure",
+          "probability": 0.1602,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1602,
+        0.2628
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tarGift",
+          "probability": 0.0741,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Tarball.md",
+  "quality_tier": "S"
+}

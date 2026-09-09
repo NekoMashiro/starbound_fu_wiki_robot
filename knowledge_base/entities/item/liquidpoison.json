@@ -1,0 +1,109 @@
+{
+  "entity_id": "liquidpoison",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Poison",
+  "name_zh": "毒液",
+  "description_en": "A measure of strong poison.\nCentrifugable.",
+  "description_zh": "一定量的强烈的毒液。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwastewater",
+          "count": 3
+        },
+        {
+          "item": "venomsample",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_bar_corrodiumBar",
+          "orion_crafting_orionTechCard",
+          "syntheticmaterial",
+          "venomsample"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "fupoisonaugment1"
+        ]
+      },
+      "liquid": {
+        "count": 1,
+        "examples": [
+          "liquidbioooze"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "apexbrainjar"
+        ]
+      },
+      "liquidGun": {
+        "count": 1,
+        "examples": [
+          "liquidpoisongun"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_potion_corruptStrength"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "toxictopseed"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fucaterpillarLoot",
+          "probability": 0.1967,
+          "count": 20,
+          "monsters": [
+            "fucaterpillar"
+          ]
+        },
+        {
+          "pool": "fugiantscorpionLoot",
+          "probability": 0.1223,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.1223,
+        0.1967
+      ]
+    }
+  },
+  "wiki_ref": "Poison.md",
+  "quality_tier": "S"
+}

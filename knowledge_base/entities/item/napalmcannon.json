@@ -1,0 +1,64 @@
+{
+  "entity_id": "napalmcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Napalm Launcher",
+  "name_zh": "汽油弹发射器",
+  "description_en": "Not the sort of thing you fire indoors at a carpentry show.\r\nInflicts burning",
+  "description_zh": "这玩意儿不适合在木制建筑物中使用。\n附加燃烧效果",
+  "rarity": "uncommon",
+  "category": "flamethrower",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "flamethrower",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "fuelairtrail",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 6
+        },
+        {
+          "item": "biofuelcannisteradv",
+          "count": 12
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

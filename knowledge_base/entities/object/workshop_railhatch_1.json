@@ -1,0 +1,55 @@
+{
+  "entity_id": "workshop_railhatch_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Workshop Rail Hatch V",
+  "name_zh": "工坊轨道舱口 V",
+  "description_en": "A large sleek hatch that has a built-in rail connector for use with elevators.",
+  "description_zh": "一个光滑的大舱门，有一个内置的轨道连接器，可与电梯一起使用。",
+  "rarity": "Rare",
+  "category": "door",
+  "price": 200,
+  "tags": [
+    "station",
+    "door",
+    "rails",
+    "titancorp"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

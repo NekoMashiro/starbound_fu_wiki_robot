@@ -1,0 +1,36 @@
+{
+  "entity_id": "sd_exp_t1selfexplodedrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Neobomb Controller",
+  "name_zh": "霓炸弹控制器",
+  "description_en": "Kaboom!!!\r\n  [Primary]Spawn/Despawn，[Alt]Self Explode.",
+  "description_zh": "爆！！！\n[左键]释放/收回，[右键]自毁，[shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1100
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

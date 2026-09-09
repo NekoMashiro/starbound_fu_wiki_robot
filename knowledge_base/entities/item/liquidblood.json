@@ -1,0 +1,162 @@
+{
+  "entity_id": "liquidblood",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood",
+  "name_zh": "血液",
+  "description_en": "A measure of blood.\nExtractable, Centrifugable.",
+  "description_zh": "一定量的血液。\n可萃取，可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "炼金台",
+      "station_zh": "炼金台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 14,
+        "examples": [
+          "atropusbed",
+          "atropusbookcase",
+          "atropuscabinet",
+          "atropuschair",
+          "atropuscouch"
+        ]
+      },
+      "drink": {
+        "count": 5,
+        "examples": [
+          "apejuice",
+          "bloodbrandy",
+          "fubloodchalice",
+          "fubloodchalice",
+          "thelusianwine"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "atropusceilinglamp",
+          "atropusdesklamp",
+          "atropuslamp",
+          "fuunderworldlamp"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "fu_staythefuckoutsign",
+          "fuunderworldfountain",
+          "fuunderworldfountain2"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "atropusfridge",
+          "atropusminifridge"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "bloodgarbchest",
+          "fudarkrobeschest"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "bloodgarbhead",
+          "fudarkrobeshelmet"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "bloodgarbpants",
+          "fudarkrobespants"
+        ]
+      }
+    },
+    "total": 42
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "motherpoptopTreasure",
+          "probability": 1.0,
+          "count": 5,
+          "monsters": [
+            "motherpoptop",
+            "motherpoptop2"
+          ]
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extraMonsterPlantHunting",
+          "probability": 0.3333,
+          "count": 10,
+          "monsters": [
+            "glarp",
+            "glump"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "bloodgolemLoot",
+          "probability": 0.0961,
+          "count": 50,
+          "monsters": [
+            "atropuseye",
+            "atropusfish",
+            "fubloodgolem"
+          ]
+        },
+        {
+          "pool": "toxicgolemLoot",
+          "probability": 0.0625,
+          "count": 50,
+          "monsters": [
+            "futoxicgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0625,
+        0.0961
+      ]
+    }
+  },
+  "wiki_ref": "Blood.md",
+  "quality_tier": "S"
+}

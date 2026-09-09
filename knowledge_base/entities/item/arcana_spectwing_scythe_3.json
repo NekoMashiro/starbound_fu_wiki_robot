@@ -1,0 +1,51 @@
+{
+  "entity_id": "arcana_spectwing_scythe_3",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Stormtear Scythe",
+  "name_zh": "风暴泪镰",
+  "description_en": "A scythe built to harness storms. On Crit: Inflict Electrified, and deal bonus damage and inflict Deathsprawl if they already have Electrified.",
+  "description_zh": "制造出来以驾驭风暴的镰刀。暴击时：施加带电并造成额外伤害，如果敌人已被施加感电，则施加死亡蔓延。",
+  "rarity": "Uncommon",
+  "category": "broadsword",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "primaryAbilityType": "arcana_scythe_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "liquidfuel",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

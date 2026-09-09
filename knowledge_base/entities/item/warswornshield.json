@@ -1,0 +1,52 @@
+{
+  "entity_id": "warswornshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Warsworn Shield",
+  "name_zh": "誓战之盾",
+  "description_en": "-20% Fall Damage, +10 Shield Bash",
+  "description_zh": "掉落伤害-20%, 盾牌反伤+10%",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 500,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "nightar"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "unstableparticles",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

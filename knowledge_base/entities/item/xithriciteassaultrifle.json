@@ -1,0 +1,64 @@
+{
+  "entity_id": "xithriciteassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Assault Rifle",
+  "name_zh": "赛德瑞瑟突击步枪",
+  "description_en": "Cosmic power stabilized into high powered shots.\r\nCosmic blasts",
+  "description_zh": "宇宙力量稳定在高能射击之中。\n射线冲击",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "upgradeableWeapon",
+    "xithricite"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "forcebubble",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 7
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        },
+        {
+          "item": "liquidaether",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

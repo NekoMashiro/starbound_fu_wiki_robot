@@ -1,0 +1,58 @@
+{
+  "entity_id": "fucyclone",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cyclone",
+  "name_zh": "旋风",
+  "description_en": "Launches tiny little pellets of death. Really, really fast.",
+  "description_zh": "这把枪能以超快的速度发射出无数微小的死亡颗粒撕碎目标。你没听错，超快，真的超快",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "energy"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 3
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "refinedferozium",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

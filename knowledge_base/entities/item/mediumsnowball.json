@@ -1,0 +1,130 @@
+{
+  "entity_id": "mediumsnowball",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Medium Snowball",
+  "name_zh": "中型雪球",
+  "description_en": "It's bigger than the average snowball, but you can still throw it.",
+  "description_zh": "比平常的雪球大一点点，不过你仍然可以丢出去。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "snowball",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "Snowprinter",
+          "name_zh": "雪人打印机"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 10,
+        "examples": [
+          "snowpersonhead1",
+          "snowpersonhead2",
+          "snowpersonheadapex",
+          "snowpersonheadavian",
+          "snowpersonheadfloran"
+        ]
+      },
+      "breakable": {
+        "count": 2,
+        "examples": [
+          "fancysnowman",
+          "snowman"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "largesnowball"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowChestTreasure",
+          "probability": 0.1379,
+          "count": 1.3
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.1075,
+          "count": 1.3
+        }
+      ],
+      "prob_range": [
+        0.1075,
+        0.1379
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "snowTreasure",
+          "probability": 0.0968,
+          "count": 1.3
+        },
+        {
+          "pool": "fficeTreasure",
+          "probability": 0.0755,
+          "count": 1.3
+        }
+      ],
+      "prob_range": [
+        0.0755,
+        0.0968
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "largesnowball"
+  ],
+  "quality_tier": "S"
+}

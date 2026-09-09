@@ -1,0 +1,241 @@
+{
+  "entity_id": "erithianalgae",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erithian Algae",
+  "name_zh": "埃里西安藻豆荚",
+  "description_en": "A decent biofuel - even better if processed.\n+3 Fuel",
+  "description_zh": "非常不错的生物燃料，加工之后效果会更好。\n燃料+3",
+  "rarity": "Uncommon",
+  "category": "fuel",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "batterypack_erithian"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "biofuelcannisteradv"
+        ]
+      },
+      "longsword": {
+        "count": 1,
+        "examples": [
+          "coraldullblade"
+        ]
+      },
+      "food": {
+        "count": 1,
+        "examples": [
+          "fuerithianalgaemeal"
+        ]
+      },
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "reactivegel3"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 144,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "erithianalgaeHarvest",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0002,
+          "count": 6.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 68,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1397,
+          "count": 6.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0699,
+          "count": 6
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0288,
+          "count": 6.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0144,
+          "count": 6.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0142,
+          "count": 6.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1397
+      ]
+    },
+    "monster_drops": {
+      "count": 51,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0196,
+          "count": 6
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0157,
+          "count": 6,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0102,
+          "count": 6
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0071,
+          "count": 6
+        },
+        {
+          "pool": "tidewaterTreasure",
+          "probability": 0.007,
+          "count": 6
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0196
+      ]
+    },
+    "other": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.017,
+          "count": 6
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0106,
+          "count": 6
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0087,
+          "count": 6
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0045,
+          "count": 6.0
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0021,
+          "count": 6
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.017
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0041,
+          "count": 6.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0041,
+          "count": 6.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0035,
+          "count": 6.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0008,
+          "count": 6.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0008,
+          "count": 6.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0041
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0009,
+          "count": 6.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0002,
+          "count": 6.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0001,
+          "count": 6.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

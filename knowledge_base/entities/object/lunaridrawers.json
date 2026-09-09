@@ -1,0 +1,54 @@
+{
+  "entity_id": "lunaridrawers",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Drawers",
+  "name_zh": "月晶抽屉",
+  "description_en": "A set of drawers made from lunari.",
+  "description_zh": "一套由月晶制成的抽屉。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 400,
+  "tags": [
+    "lunari",
+    "storage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 10
+        },
+        {
+          "item": "nhydri",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

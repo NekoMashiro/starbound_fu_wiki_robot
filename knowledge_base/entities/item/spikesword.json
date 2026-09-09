@@ -1,0 +1,60 @@
+{
+  "entity_id": "spikesword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thornitox Sword",
+  "name_zh": "荆棘剑",
+  "description_en": "Covered in sharp poisoned barbs. Cute.",
+  "description_zh": "这把剑带有锋利的倒钩，并且涂满了毒药。",
+  "rarity": "uncommon",
+  "category": "broadsword",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.77,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "traildash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "thornitox",
+          "count": 5
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 20
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

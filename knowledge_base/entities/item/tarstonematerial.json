@@ -1,0 +1,27 @@
+{
+  "entity_id": "tarstonematerial",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tarry Stone",
+  "name_zh": "焦油石块",
+  "description_en": "Sticky, tarry rock.\nExtractable, Crushable.",
+  "description_zh": "黏黏的石头。\n可萃取，可破碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "targolemLoot",
+          "probability": 0.0633,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "predatorychest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Predatory Chest",
+  "name_zh": "掠夺胸甲",
+  "description_en": "Menacing, leafy chest garments. The hunt is on!",
+  "description_zh": "险恶，绿叶做的胸甲。狩猎开始！",
+  "rarity": "Uncommon",
+  "category": "chestwear",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "florantreasurechest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

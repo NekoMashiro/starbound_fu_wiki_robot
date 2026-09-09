@@ -1,0 +1,56 @@
+{
+  "entity_id": "feroziumstaff",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ferozium Staff",
+  "name_zh": "菲洛权杖",
+  "description_en": "This hardened ferozium staff concentrates energy at an impressive distance.",
+  "description_zh": "这把菲洛法杖可以在一个可观的距离内汇集能量。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "ferozium"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "primaryAbilityType": "plasmabladebarrage",
+  "altAbilityType": "forcecage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 6
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

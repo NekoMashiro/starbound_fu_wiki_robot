@@ -1,0 +1,151 @@
+{
+  "entity_id": "penumbriteshard",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbrite Shard",
+  "name_zh": "半影碎片",
+  "description_en": "A perfectly refined shard of penumbrite, located on Penumbra planets.",
+  "description_zh": "一块完美精制过的半影碎片。被发现于半影行星。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 270,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "工业熔炉",
+          "name_zh": "工业熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 31,
+        "examples": [
+          "nightaraxedisplay",
+          "nightarbladealtar",
+          "nightarbladedisplay1",
+          "nightarbladedisplay2",
+          "nightarbladedisplay3"
+        ]
+      },
+      "furniture": {
+        "count": 26,
+        "examples": [
+          "nightarbed",
+          "nightarcellbed",
+          "nightarchair",
+          "nightarcouch",
+          "nightardesk"
+        ]
+      },
+      "storage": {
+        "count": 16,
+        "examples": [
+          "nightarbookcase",
+          "nightarbookcase2",
+          "nightarbox1",
+          "nightarbox2",
+          "nightarcabinet"
+        ]
+      },
+      "light": {
+        "count": 14,
+        "examples": [
+          "fu_booster_large3",
+          "fu_booster_medium3",
+          "fu_booster_small3",
+          "fu_booster_tiny3",
+          "nightarchandelier"
+        ]
+      },
+      "headarmour": {
+        "count": 7,
+        "examples": [
+          "bmcglowscoutvisor",
+          "daywalkerhead",
+          "ff_scouthelm",
+          "ff_slimehead2",
+          "fuexplorerhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 6,
+        "examples": [
+          "daywalkerchest",
+          "ff_scoutchest",
+          "ff_slimechest2",
+          "fuexplorerchest",
+          "fuprotectorchest"
+        ]
+      },
+      "legarmour": {
+        "count": 6,
+        "examples": [
+          "daywalkerpants",
+          "ff_scoutpants",
+          "ff_slimelegs2",
+          "fuexplorerlegs",
+          "fuprotectorpants"
+        ]
+      },
+      "wire": {
+        "count": 6,
+        "examples": [
+          "nightarbookcaseswitch",
+          "nightarcomputer",
+          "nightarconsole",
+          "nightarmedievalarmorswitch",
+          "nightarmedievalswitchlever"
+        ]
+      }
+    },
+    "total": 197
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "penumbriteore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "penumbriteore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "penumbriteore"
+    }
+  ],
+  "quality_tier": "S"
+}

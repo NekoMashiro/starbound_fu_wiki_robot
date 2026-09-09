@@ -1,0 +1,56 @@
+{
+  "entity_id": "hypnareaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hypnare Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It loves frolicking through forests and meadows.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "hypnareVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "hypnareTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "hypnare",
+            "icehypnare"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hypnareHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "hypnare",
+            "icehypnare"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

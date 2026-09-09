@@ -1,0 +1,45 @@
+{
+  "entity_id": "arcana_terraformer_sanguine",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Sanguine Terraformer",
+  "name_zh": "蕴血转换器",
+  "description_en": "Transforms a planet's climate into bloody sanguine fields.",
+  "description_zh": "将一个星球的气候转变成蕴血",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sanguine_tile1",
+          "count": 5
+        },
+        {
+          "item": "sanguine_tile2",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_corridor",
+          "probability": 0.0714,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

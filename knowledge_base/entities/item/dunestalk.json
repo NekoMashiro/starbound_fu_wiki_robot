@@ -1,0 +1,38 @@
+{
+  "entity_id": "dunestalk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dunestalk",
+  "name_zh": "沙语草",
+  "description_en": "A hardy crop, found growing in arid locations.",
+  "description_zh": "一种异常干枯的作物，被发现于干旱的地方。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 40,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "dunebun"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dunestalkHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "luckyseveredtoe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lucky Severed Toe",
+  "name_zh": "幸运断趾",
+  "description_en": "+20% Physical Resistance\r\n+3% Crit Chance\r\n-50% Poison Resistance",
+  "description_zh": "+20%物理抗性\n+3%暴击几率\n-50%毒素抗性",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "powderednarcotics",
+          "count": 1
+        },
+        {
+          "item": "deliciousmeat",
+          "count": 1
+        },
+        {
+          "item": "bandage",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Snarshing Table",
+      "station_zh": "分宴之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Esoteric Research",
+          "name_zh": "深奥的研究"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

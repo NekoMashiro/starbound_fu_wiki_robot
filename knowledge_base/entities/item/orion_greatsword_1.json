@@ -1,0 +1,52 @@
+{
+  "entity_id": "orion_greatsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "OC Voltaic Engraver",
+  "name_zh": "俄里翁电流刻刀",
+  "description_en": "A high tech greatsword. Inflicts Eletrified.",
+  "description_zh": "高科技重剑。\n造成带电。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 2400,
+  "tags": [
+    "weapon",
+    "melee",
+    "greatsword"
+  ],
+  "elementalType": "electric",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "primaryAbilityType": "arcana_greatsword_combo",
+  "altAbilityType": "arcana_generic_ability_blink",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 10
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

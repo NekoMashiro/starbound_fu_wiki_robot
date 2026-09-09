@@ -1,0 +1,224 @@
+{
+  "entity_id": "uncommonhammer",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Uncommon Hammer",
+  "name_zh": "精良的锤子",
+  "description_en": "Slow, heavy and effective.",
+  "description_zh": "缓慢，沉重，而又有力。",
+  "rarity": "Uncommon",
+  "category": "hammer",
+  "price": 990,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "twoHanded": true,
+  "baseDps": [
+    12.5,
+    13.5
+  ],
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "hammersmash",
+  "drop_sources": {
+    "total_pools": 275,
+    "other": {
+      "count": 15,
+      "top": [
+        {
+          "pool": "elduuuncommonMelee",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "uncommonMelee",
+          "probability": 0.0833,
+          "count": 1
+        },
+        {
+          "pool": "elduugoodWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.0318,
+          "count": 1.0
+        },
+        {
+          "pool": "goodWeapon",
+          "probability": 0.0285,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1667
+      ]
+    },
+    "monster_drops": {
+      "count": 127,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoWeaponTreasure",
+          "probability": 0.07,
+          "count": 1
+        },
+        {
+          "pool": "florantreasurelore",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "miningtreasurelore",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.0156,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 0.0156,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.07
+      ]
+    },
+    "boss_mission": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 0.0667,
+          "count": 1
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.0546,
+          "count": 1
+        },
+        {
+          "pool": "glitchmission1Reward",
+          "probability": 0.0538,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0083,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0667
+      ]
+    },
+    "chest_loot": {
+      "count": 113,
+      "top": [
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0338,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeChestTreasure",
+          "probability": 0.0338,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxUncommonWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "weaponChestTreasure",
+          "probability": 0.0303,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuweaponChestTreasure",
+          "probability": 0.0298,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0338
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0166,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0153,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0004,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0166
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0045,
+          "count": 1.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0032,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0031,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0023,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0023,
+        0.0045
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

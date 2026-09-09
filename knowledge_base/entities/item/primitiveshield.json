@@ -1,0 +1,37 @@
+{
+  "entity_id": "primitiveshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Shield",
+  "name_zh": "原始盾",
+  "description_en": "A makeshift shield of planks and plant fibers.",
+  "description_zh": "这只是一块由木料和植物纤维东拼西凑而成的盾牌。",
+  "rarity": "common",
+  "category": "shield",
+  "price": 20,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "plantfibre",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

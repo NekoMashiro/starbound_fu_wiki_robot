@@ -1,0 +1,58 @@
+{
+  "entity_id": "executivetable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Executive Table",
+  "name_zh": "执行台",
+  "description_en": "A beautiful executive table.",
+  "description_zh": "一个漂亮的执行台。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 145,
+  "tags": [
+    "commerce",
+    "executive"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "rarefurniture",
+          "probability": 0.027,
+          "count": 1
+        },
+        {
+          "pool": "elduurarefurniture",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.027
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0065
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

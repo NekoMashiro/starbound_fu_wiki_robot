@@ -1,0 +1,50 @@
+{
+  "entity_id": "picnictable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Picnic Table",
+  "name_zh": "野餐桌",
+  "description_en": "Pairs perfectly with Pic-a-nic baskets!",
+  "description_zh": "与Pic-a-nic篮子完美搭配！",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "picnictable",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

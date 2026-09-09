@@ -1,0 +1,35 @@
+{
+  "entity_id": "configurable3statecycler",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Configurable 3-State Cycler",
+  "name_zh": "可配置的三态循环仪",
+  "description_en": "Cycles between three output nodes. Configurable timers.",
+  "description_zh": "可配置的计时器，它可以在三个输出节点之间循环输出。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Configurable 3-State Cycler.md",
+  "quality_tier": "A"
+}

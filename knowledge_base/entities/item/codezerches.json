@@ -1,0 +1,84 @@
+{
+  "entity_id": "codezerches",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Code Zerchesium",
+  "name_zh": "代号高熔点",
+  "description_en": "A lesser-known brand of Mountain Dew. Still tastes like crap. Frost Immunity, +20% Ice Res (30s)",
+  "description_zh": "一个鲜为人知的激浪品牌。但还是很难喝。\n赋予冰冻免疫，+20%寒气抗性(持续30s)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 812
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

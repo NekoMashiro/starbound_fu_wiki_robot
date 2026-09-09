@@ -1,0 +1,27 @@
+{
+  "entity_id": "bellamortecore",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bella Morte Bomb",
+  "name_zh": "贝拉莫提炸弹",
+  "description_en": "This weapon spews out a cheery neurotoxin.",
+  "description_zh": "这种武器在投掷后会释放出神经毒液。",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 50,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bellamorte",
+          "probability": 1.25,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

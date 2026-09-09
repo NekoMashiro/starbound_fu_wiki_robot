@@ -1,0 +1,59 @@
+{
+  "entity_id": "arcana_sigils_poisonSigil",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Poison Sigil, Venetox",
+  "name_zh": "蛊毒魔印 · 死鸩 Venetox",
+  "description_en": "An alien sigil, once a construct used by the ancients.",
+  "description_zh": "外星魔印，曾被古人使用的构造。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "gaea_chakram_1",
+          "count": 1
+        },
+        {
+          "item": "gaea_boomerang_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 20
+        },
+        {
+          "item": "arcana_essence_poisonEssence",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "artifact_staff_corrodingElm"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

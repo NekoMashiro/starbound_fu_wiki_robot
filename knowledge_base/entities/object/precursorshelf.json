@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorshelf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Wall Shelf",
+  "name_zh": "先驱墙架",
+  "description_en": "Even the ancient races needed shelves.",
+  "description_zh": "就算是古代种族也需要架子。",
+  "rarity": "legendary",
+  "category": "decorative",
+  "price": 150,
+  "tags": [
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0576,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0576,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0321,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0321,
+        0.0576
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

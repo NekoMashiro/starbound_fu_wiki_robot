@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_monsterinspector",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Monster Inspector",
+  "name_zh": "怪物检查器",
+  "description_en": "Inspects monsters.",
+  "description_zh": "检验怪物。",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 800,
+  "tags": [],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "改造台",
+          "name_zh": "改造台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Monster Inspector.md",
+  "quality_tier": "A"
+}

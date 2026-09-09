@@ -1,0 +1,39 @@
+{
+  "entity_id": "energiflower",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Energiflower",
+  "name_zh": "能量花",
+  "description_en": "+17.5% E. Regen & -8.25% E. Regen Block: 2m\n+4 Fuel",
+  "description_zh": "+17.5%能量回复&-8.25%能量重充能时间: 2m\n燃料+4",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood4"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "energiflowerHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Energiflower.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "arcana_eminsnowForest",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Eminsnow Forest",
+  "name_zh": "明雪深林",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Eminsnow Forest",
+  "friendly_name_zh": "明雪深林",
+  "ores": [
+    {
+      "ore": "arcana_mod_luminariumOre",
+      "weight": 1.1
+    },
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_lunarSpookit",
+    "bobfae",
+    "bobot",
+    "bunnycommon",
+    "capricoat",
+    "frostfleck",
+    "frostfly",
+    "icetip",
+    "lilodon",
+    "pulpin",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "wintercritter",
+    "wisper",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:snow"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

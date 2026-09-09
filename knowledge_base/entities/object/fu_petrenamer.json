@@ -1,0 +1,47 @@
+{
+  "entity_id": "fu_petrenamer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pet Renamer",
+  "name_zh": "宠物改名器",
+  "description_en": "The pet renamer is used to rename captured creatures.",
+  "description_zh": "这个宠物改名器用于给捕获到的生物们起一个新的名字。",
+  "rarity": "Legendary",
+  "category": "storage",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 4560
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "scorchedcityfridge",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Stylish Fridge",
+  "name_zh": "时尚冰箱",
+  "description_en": "A contemprary style fridge, capable of extending the shelf life of food.",
+  "description_zh": "一个现代风格的冰箱，能够延长食物的保质期。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 180,
+  "tags": [
+    "scorched",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 10
+        },
+        {
+          "item": "metallic",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

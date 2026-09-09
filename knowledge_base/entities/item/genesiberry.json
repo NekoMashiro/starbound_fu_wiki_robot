@@ -1,0 +1,27 @@
+{
+  "entity_id": "genesiberry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Genesiberry",
+  "name_zh": "杰内西浆果",
+  "description_en": "Heal 85: 2s\n40% Reduced Hunger Drain: 2m",
+  "description_zh": "治愈85 ：2s\n ；减少40%的饥饿消耗：2m",
+  "rarity": "legendary",
+  "category": "food",
+  "price": 95,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "genesiberryHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

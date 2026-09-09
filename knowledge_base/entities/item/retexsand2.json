@@ -1,0 +1,40 @@
+{
+  "entity_id": "retexsand2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fine Sand",
+  "name_zh": "纯沙",
+  "description_en": "A handful of fine sand. Good source of silicon.\nExtractable, Siftable, Smeltable.",
+  "description_zh": "一把细沙。硅的良好来源。\n可萃取，可筛分，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "machine_processing": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "glass",
+      "bonus": [
+        "fu_carbon"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

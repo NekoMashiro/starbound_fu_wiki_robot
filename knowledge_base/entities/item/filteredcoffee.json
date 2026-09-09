@@ -1,0 +1,50 @@
+{
+  "entity_id": "filteredcoffee",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cafe Au Lait",
+  "name_zh": "牛奶咖啡",
+  "description_en": "Coffee and hot milk.\n+15% Run (1m), Caffeinated (1m) \nType: Dairy",
+  "description_zh": "热奶混咖啡。\n+15%速度(持续1m)\n咖啡因(持续1m)\n类型：蛋奶",
+  "rarity": "Uncommon",
+  "category": "drink",
+  "price": 12,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coffeebeans",
+          "count": 1
+        },
+        {
+          "item": "milk",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Coffee Machine",
+      "station_zh": "咖啡机",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 522
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

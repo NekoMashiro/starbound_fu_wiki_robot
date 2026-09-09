@@ -1,0 +1,50 @@
+{
+  "entity_id": "zerchesiumminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Mini Fridge",
+  "name_zh": "高熔点矿迷你冰箱",
+  "description_en": "A fridge made from Zerchesium. Hopefully filled with tasty, tasty treats.",
+  "description_zh": "一种用高熔点矿制成的冰箱。希望里面充满了美味佳肴。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 180,
+  "tags": [
+    "zerchesium",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

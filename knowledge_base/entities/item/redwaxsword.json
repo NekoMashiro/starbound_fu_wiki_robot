@@ -1,0 +1,51 @@
+{
+  "entity_id": "redwaxsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Red Wax Sword",
+  "name_zh": "红蜡剑",
+  "description_en": "Still useless.",
+  "description_zh": "仍然没用。",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "bees"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5.5,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "redwaxchunk",
+          "count": 15
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

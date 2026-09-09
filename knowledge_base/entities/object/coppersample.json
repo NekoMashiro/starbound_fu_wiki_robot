@@ -1,0 +1,38 @@
+{
+  "entity_id": "coppersample",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Copper Sample",
+  "name_zh": "铜样本",
+  "description_en": "\"A perfect sample of a copper ore.\"",
+  "description_zh": "“一个完美的铜矿样本。”",
+  "rarity": "Legendary",
+  "category": "decorative",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "geodeRewards",
+          "probability": 0.0022,
+          "count": 1
+        },
+        {
+          "pool": "elduugeodeRewards",
+          "probability": 0.0022,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0022,
+        0.0022
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "advalloybroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Broadsword",
+  "name_zh": "宗师阔剑",
+  "description_en": "A broadsword modeled after the sword of a martyred Apex rebel. It doubles as a shield to protect the innocent.\r\nInflicts bleeding",
+  "description_zh": "模仿自一位反抗大猿人的殉难者的宽剑。它同时也是保护无辜者的盾牌。\n造成流血",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.67,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

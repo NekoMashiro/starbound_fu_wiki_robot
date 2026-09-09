@@ -1,0 +1,53 @@
+{
+  "entity_id": "lunaribookcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Bookcase",
+  "name_zh": "月晶书架",
+  "description_en": "A bookcase made from lunari.",
+  "description_zh": "一个用月晶做的书架。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 600,
+  "tags": [
+    "lunari",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 10
+        },
+        {
+          "item": "nhydri",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

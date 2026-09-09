@@ -1,0 +1,50 @@
+{
+  "entity_id": "fusunwalkerpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sunwalker Robes",
+  "name_zh": "日行者腿甲",
+  "description_en": "Set Bonuses:\r\n Plasma Weapons: Damage x1.15\r\n Immune: Extreme Heat/Cold/Radiation, Pressure, Oxygen",
+  "description_zh": "套装奖励:\n 等离子武器: 伤害 x1.15\n 免疫: 极端炎热/寒冷/辐射, 压强, 窒息",
+  "rarity": "Rare",
+  "category": "legarmour",
+  "price": 600,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 2
+        },
+        {
+          "item": "morphiteore",
+          "count": 2
+        },
+        {
+          "item": "funanofibre",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

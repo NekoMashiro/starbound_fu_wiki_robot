@@ -1,0 +1,50 @@
+{
+  "entity_id": "pyreiteminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Mini Fridge",
+  "name_zh": "永燃迷你冰箱",
+  "description_en": "A fridge... How is this supposed to work?",
+  "description_zh": "这居然是个冰箱...但它是如何运转的呢？",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 180,
+  "tags": [
+    "pyreite",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 5
+        },
+        {
+          "item": "liquidlava",
+          "count": 10
+        },
+        {
+          "item": "volatilepowder",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

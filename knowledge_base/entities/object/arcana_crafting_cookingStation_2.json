@@ -1,0 +1,44 @@
+{
+  "entity_id": "arcana_crafting_cookingStation_2",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Basic Cooking Station",
+  "name_zh": "基础厨房",
+  "description_en": "A basic kitchen for cooking food.",
+  "description_zh": "用于烹饪食物的简陋灶台。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1600,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_arcaniumBar",
+          "count": 6
+        },
+        {
+          "item": "corefragmentore",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

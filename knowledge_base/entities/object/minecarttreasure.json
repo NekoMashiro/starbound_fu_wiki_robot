@@ -1,0 +1,34 @@
+{
+  "entity_id": "minecarttreasure",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Minecart of Treasure",
+  "name_zh": "宝车",
+  "description_en": "You hit the jackpot!!",
+  "description_zh": "你中大奖了！！",
+  "rarity": "legendary",
+  "category": "furniture",
+  "price": 3000,
+  "tags": [
+    "mining",
+    "valuable",
+    "hoard",
+    "novakid",
+    "novakidvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "General Store",
+      "station_zh": "杂货店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

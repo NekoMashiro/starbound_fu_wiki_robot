@@ -1,0 +1,129 @@
+{
+  "entity_id": "liquidfuel",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Liquid Erchius Fuel",
+  "name_zh": "厄尔吉斯液态燃料",
+  "description_en": "A dangerous and volatile substance, syphoned from moons and used as FTL fuel.\nCentrifugable.",
+  "description_zh": "一种危险的、不稳定的物质，可从卫星上开采获得，并可作为FTL引擎的燃料。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 1,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 35,
+        "examples": [
+          "fu_booster_large1",
+          "fu_booster_large2",
+          "fu_booster_large3",
+          "fu_booster_large4",
+          "fu_booster_large5"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "fu_ftldrivemk1a",
+          "fu_ftldrivemk1b",
+          "fu_ftldrivemk1c"
+        ]
+      },
+      "fuel": {
+        "count": 2,
+        "examples": [
+          "enrichedplutonium",
+          "enricheduranium"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "arcana_spectwing_scythe_3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "erchiusghostback"
+        ]
+      },
+      "block": {
+        "count": 1,
+        "examples": [
+          "erchiuspillar"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "isn_flamethrower4"
+        ]
+      },
+      "shortsword": {
+        "count": 1,
+        "examples": [
+          "veluushortsword"
+        ]
+      }
+    },
+    "total": 45
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "industrialcargoCanister",
+          "probability": 1.7001,
+          "count": 13.3
+        },
+        {
+          "pool": "erchibuddrop",
+          "probability": 1.0,
+          "count": 10,
+          "monsters": [
+            "erchibud",
+            "erchibudbaby"
+          ]
+        },
+        {
+          "pool": "industrialLargeCargoCanister",
+          "probability": 0.9999,
+          "count": 483.3
+        },
+        {
+          "pool": "erchiusBee",
+          "probability": 0.75,
+          "count": 5,
+          "monsters": [
+            "fugianterchiusbee"
+          ]
+        },
+        {
+          "pool": "brokenMechLoot",
+          "probability": 0.194,
+          "count": 120
+        }
+      ],
+      "prob_range": [
+        0.194,
+        1.7001
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_treasure_general_liquidfuel",
+          "probability": 1.0,
+          "count": 10.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Liquid Erchius Fuel.md",
+  "quality_tier": "S"
+}

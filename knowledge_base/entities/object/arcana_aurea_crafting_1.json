@@ -1,0 +1,41 @@
+{
+  "entity_id": "arcana_aurea_crafting_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Follower's Table",
+  "name_zh": "随从之桌",
+  "description_en": "A general crafting station for creating Aurea items.",
+  "description_zh": "合成恒金物品的基础制作站。",
+  "rarity": "Legendary",
+  "category": "crafting",
+  "price": 1000,
+  "tags": [
+    "crafting",
+    "aurea"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_empyreanTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "giltenStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Follower's Table.md",
+  "quality_tier": "A"
+}

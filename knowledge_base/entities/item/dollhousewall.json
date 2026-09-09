@@ -1,0 +1,53 @@
+{
+  "entity_id": "dollhousewall",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dollhouse Ornate Wall",
+  "name_zh": "玩具屋华丽墙",
+  "description_en": "A traditional looking wall.",
+  "description_zh": "一面看上去很传统的墙。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dollhousewood",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 4
+        },
+        {
+          "item": "prisilitestar",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "dollhousestriped"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

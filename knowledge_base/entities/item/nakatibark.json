@@ -1,0 +1,27 @@
+{
+  "entity_id": "nakatibark",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nakati Bark",
+  "name_zh": "纳克蒂茎",
+  "description_en": "Immune: Proto-Poison, +7 Defense: 2m",
+  "description_zh": "免疫: 原毒, +7防御: 2m",
+  "rarity": "Legendary",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "funakatiHarvest",
+          "probability": 0.5306,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

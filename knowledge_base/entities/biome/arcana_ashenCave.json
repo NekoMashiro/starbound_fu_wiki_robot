@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_ashenCave",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Ashen Cave",
+  "name_zh": "烬灭落穴",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Ashen Cave",
+  "friendly_name_zh": "烬灭落穴",
+  "ores": [
+    {
+      "ore": "arcana_mod_enartzFragment",
+      "weight": 0.9
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "corefragment",
+      "weight": 0.3
+    },
+    {
+      "ore": "arcana_mod_exoslateFragment",
+      "weight": 0.1
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_alphaRingram",
+    "arcana_exospider",
+    "crabcano"
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,65 @@
+{
+  "entity_id": "bananahead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Banana Mask",
+  "name_zh": "香蕉面罩",
+  "description_en": "A giant banana mask. Banananananana!",
+  "description_zh": "一个巨大的香蕉面罩。香蕉蕉蕉蕉蕉蕉蕉蕉蕉！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 5,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "giantflowerChestTreasure",
+          "probability": 0.1062,
+          "count": 1.0
+        },
+        {
+          "pool": "apexcityChestTreasure",
+          "probability": 0.015,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.1062
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoGiantFlowerTreasure",
+          "probability": 0.069,
+          "count": 1
+        },
+        {
+          "pool": "giantflowerTreasure",
+          "probability": 0.0577,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0577,
+        0.069
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.015,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

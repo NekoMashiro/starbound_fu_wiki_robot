@@ -1,0 +1,58 @@
+{
+  "entity_id": "furepairgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mech Repair Tool",
+  "name_zh": "机甲修理工具",
+  "description_en": "Repairs damaged mechs. Upgrade using your Tricorder.",
+  "description_zh": "修理损坏的机甲。\n可在三度仪进行升级。",
+  "rarity": "rare",
+  "category": "mechrepairtool",
+  "price": 160,
+  "tags": [
+    "ranged",
+    "repairgun",
+    "upgradeableTool",
+    "theaUninfusable"
+  ],
+  "elementalType": "electric",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 1,
+  "critChance": 4,
+  "critBonus": 4,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "salvagetier4",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": [
+      {
+        "image": "repairgun2.png"
+      }
+    ],
+    "seed": "",
+    "shortdescription": "机甲修理工具 II ^cyan;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "itemblacklist",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Auto Trash",
+  "name_zh": "自动垃圾桶",
+  "description_en": "Conveniently remove any unwanted items! Use this to open the Auto Trash feature.",
+  "description_zh": "便捷移除不需要的物品！使用这个物品来开启自动垃圾桶的功能。",
+  "rarity": "essential",
+  "category": "tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Arcana"
+    }
+  ],
+  "quality_tier": "A"
+}

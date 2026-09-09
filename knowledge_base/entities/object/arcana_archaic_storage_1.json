@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_archaic_storage_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Dresser",
+  "name_zh": "古朴梳妆台",
+  "description_en": "An ancient ornate dresser.",
+  "description_zh": "一个古朴而华丽的梳妆台。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 140,
+  "tags": [
+    "gilten",
+    "storage",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

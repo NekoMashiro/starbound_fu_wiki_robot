@@ -1,0 +1,52 @@
+{
+  "entity_id": "magnorbveluu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Veluu Lightweaver",
+  "name_zh": "Veluu 光织者",
+  "description_en": "Gruesome, yet fun.",
+  "description_zh": "这武器有着有趣的外形，但是对于敌人却是可怕的武器。",
+  "rarity": "common",
+  "category": "Magnorb",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "upgradeableWeapon",
+    "veluu"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "critChance": 1,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 4
+        },
+        {
+          "item": "duskiline",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "painteasel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Painting Easel",
+  "name_zh": "画架",
+  "description_en": "Express yourself through art.",
+  "description_zh": "艺展本我。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 30,
+  "tags": [
+    "painting",
+    "art",
+    "madness"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "canvas",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Painting Easel.md",
+  "quality_tier": "A"
+}

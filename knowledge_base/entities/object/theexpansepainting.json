@@ -1,0 +1,31 @@
+{
+  "entity_id": "theexpansepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Expanding Death",
+  "name_zh": "绽放之死亡",
+  "description_en": "Some sort of thing covered with millions of eyes and mouths.",
+  "description_zh": "有些事物被成千上万的眼睛和嘴巴所覆盖。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

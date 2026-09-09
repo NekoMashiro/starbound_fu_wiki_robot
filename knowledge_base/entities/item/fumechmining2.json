@@ -1,0 +1,32 @@
+{
+  "entity_id": "fumechmining2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mining Cannon III",
+  "name_zh": "挖掘机甲臂 III",
+  "description_en": "Melt through worlds with ease.",
+  "description_zh": "轻而易举地融化世界。",
+  "rarity": "legendary",
+  "category": "mechPart",
+  "price": 4800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumechmining1",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

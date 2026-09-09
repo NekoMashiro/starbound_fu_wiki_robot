@@ -1,0 +1,55 @@
+{
+  "entity_id": "mutanthead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mutant Head",
+  "name_zh": "突变头套",
+  "description_en": "Wear this and look like some sort of toxic mutant!",
+  "description_zh": "戴上这个看起来就像发生某种剧毒突变一样。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.0737,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0737
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.0619,
+          "count": 1
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.0517,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0517,
+        0.0619
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

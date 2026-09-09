@@ -1,0 +1,35 @@
+{
+  "entity_id": "apiary_frame_uranium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Frame",
+  "name_zh": "铀制巢框",
+  "description_en": "<beeData>",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame",
+    "solarium"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "uraniumrod",
+          "count": 2
+        },
+        {
+          "item": "silk",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

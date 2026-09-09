@@ -1,0 +1,41 @@
+{
+  "entity_id": "elduukharstarter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Broken Opul Broadsword",
+  "name_zh": "破碎的大洋石宽剑",
+  "description_en": "A broken sword. The crystal is fractured and no longer shines.",
+  "description_zh": "一把破损的剑。水晶已经破碎，不再发出光亮。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "elduukharStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

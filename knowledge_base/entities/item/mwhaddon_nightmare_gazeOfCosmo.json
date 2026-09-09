@@ -1,0 +1,55 @@
+{
+  "entity_id": "mwhaddon_nightmare_gazeOfCosmo",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Gaze of Cosmo",
+  "name_zh": "宇神之凝望",
+  "description_en": "Flowing legends of the far galaxy.",
+  "description_zh": "淌于遥远星河的神话。",
+  "rarity": "essential",
+  "category": "broadsword",
+  "price": 5000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "otherworldly"
+  ],
+  "elementalType": "physical",
+  "level": 10,
+  "twoHanded": true,
+  "baseDps": 26,
+  "primaryAbilityType": "mwhaddon_arcana_doubleblade_combo",
+  "altAbilityType": "mwhaddon_flipcut",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_3",
+          "count": 16
+        },
+        {
+          "item": "mwhaddon_ankhuquest_orthrus",
+          "count": 1
+        },
+        {
+          "item": "artifact_magiblade_trayodhatava",
+          "count": 1
+        },
+        {
+          "item": "luye_moonBlade_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "friendmaker",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Friendmaker",
+  "name_zh": "跳跳火箭",
+  "description_en": "Enormous damage potential.",
+  "description_zh": "可造成巨大的伤害。",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 1100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 6.25,
+  "critChance": 4,
+  "critBonus": 2,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 8
+        },
+        {
+          "item": "volatilepowder",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Friendmaker.md",
+  "quality_tier": "A"
+}

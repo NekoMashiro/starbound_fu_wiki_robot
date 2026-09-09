@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_energizedNanopack",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Energized Nanopack",
+  "name_zh": "注能纳米包",
+  "description_en": "A nanopack that has been improved by energized nanites.\r\nRestores 300 Health over 2 seconds.\r\nCooldown: 28s",
+  "description_zh": "一个经过能量化纳米机器人改进的纳米包。\n在2秒钟内恢复300生命值。\n冷却时间：28秒",
+  "rarity": "Legendary",
+  "category": "medicine",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_nanopack",
+          "count": 2
+        },
+        {
+          "item": "arcana_essence_electricEssence",
+          "count": 4
+        }
+      ],
+      "output_count": 2,
+      "station": "本源学者之桌",
+      "station_zh": "本源学者之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "arcana_evoNanopack",
+          "arcana_neoNanopack"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

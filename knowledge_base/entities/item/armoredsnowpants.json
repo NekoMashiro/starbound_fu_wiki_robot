@@ -1,0 +1,65 @@
+{
+  "entity_id": "armoredsnowpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reinforced Snowpants",
+  "name_zh": "增强型雪地裤",
+  "description_en": "Snow won't slow these puppies down.\r\n+15% Ice Resist\r\nImmune: Snow, Ice and Slush",
+  "description_zh": "雪不会延缓无畏者的步伐。\n+15% 寒气抗性\n免疫: 雪, 冰和雪泥",
+  "rarity": "Common",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "explorer"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0015,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

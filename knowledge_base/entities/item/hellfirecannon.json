@@ -1,0 +1,67 @@
+{
+  "entity_id": "hellfirecannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Ejector",
+  "name_zh": "地狱火喷射器",
+  "description_en": "This might in some way be related to fire.\r\nInflicts burning\r\nAwesome",
+  "description_zh": "或许它在某种程度上与火有关。\n附加燃烧效果\n真棒！",
+  "rarity": "legendary",
+  "category": "rocketLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 6,
+  "critBonus": 8,
+  "altAbilityType": "hellfireblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "hellfireplantseed",
+          "count": 3
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "prisilitestar",
+          "count": 8
+        },
+        {
+          "item": "moltencore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

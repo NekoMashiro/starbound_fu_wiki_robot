@@ -1,0 +1,50 @@
+{
+  "entity_id": "stonescythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Primitive Scythe",
+  "name_zh": "原始镰刀",
+  "description_en": "Heavier than heck, but hey... painful!",
+  "description_zh": "很重，但是砍起来...很痛！",
+  "rarity": "common",
+  "category": "scythe",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon",
+    "stone"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 6
+        },
+        {
+          "item": "plantfibre",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

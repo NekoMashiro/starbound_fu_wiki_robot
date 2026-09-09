@@ -1,0 +1,36 @@
+{
+  "entity_id": "shadowspirits",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Spirits",
+  "name_zh": "暗影烈酒",
+  "description_en": "Delicious spirits infused with raw chaos. And you're going to drink it.\nShadow Taint Immunity, Drunk (1m)",
+  "description_zh": "充满原始混乱的美酒。而且你要喝它。\n醉酒，赋予暗影免疫(持续1m)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 1600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "caramel",
+          "count": 2
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        },
+        {
+          "item": "corruptionore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

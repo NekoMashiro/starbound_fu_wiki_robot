@@ -1,0 +1,139 @@
+{
+  "entity_id": "workshop_crafting_dustriumConnector",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Connector",
+  "name_zh": "连接器",
+  "description_en": "A machinary part, crafted from iron bars.",
+  "description_zh": "使用铁锭合成的机器组件。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 40,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 7,
+        "examples": [
+          "mwhaddon_crafting_mechCrafting_alt",
+          "workshop_auto_coalgenerator_1",
+          "workshop_auto_essenceextractor2_1",
+          "workshop_auto_foundry_1",
+          "workshop_auto_lathe_1"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "workshop_light_1",
+          "workshop_light_2",
+          "workshop_light_3",
+          "workshop_light_4",
+          "workshop_light_5"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_misc_mechComponent_1",
+          "mwhaddon_misc_mechComponent_2",
+          "mwhaddon_misc_mechComponent_4",
+          "workshop_crafting_dustriumPanel"
+        ]
+      },
+      "axe": {
+        "count": 3,
+        "examples": [
+          "workshop_axe_2",
+          "workshop_axe_3",
+          "workshop_axe_4"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "workshop_auto_locker",
+          "workshop_auto_storage_1"
+        ]
+      },
+      "pistol": {
+        "count": 2,
+        "examples": [
+          "workshop_pistol_2",
+          "workshop_pistol_3"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_architect_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_architect_head"
+        ]
+      }
+    },
+    "total": 27
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_GS8Scout",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_GS8Scout"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Connector.md",
+  "quality_tier": "S"
+}

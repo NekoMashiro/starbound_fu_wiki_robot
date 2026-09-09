@@ -1,0 +1,58 @@
+{
+  "entity_id": "mwhaddon_lootbox_unidentifiedRelic_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Unidentified Crude Relic",
+  "name_zh": "未鉴定的粗制遗物",
+  "description_en": "Use to get a random Relic with low quality.\nCommon(75%)\nUncommon(20%)\nRare(5%)",
+  "description_zh": "使用以获得一个品质堪忧的遗物。\n常见（75%）\n不常见（20%）\n稀有（5%）",
+  "rarity": "Uncommon",
+  "category": "mysteriousReward",
+  "price": 2000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_currency_relicCoupon",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Japera",
+      "station_zh": "贾匹菈",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_japera.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.0575,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.023,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.023,
+        0.0575
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

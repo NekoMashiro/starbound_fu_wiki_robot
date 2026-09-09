@@ -1,0 +1,56 @@
+{
+  "entity_id": "tombbrick3",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Small Tomb Brick",
+  "name_zh": "小墓砖",
+  "description_en": "These small bricks are masterfully crafted.",
+  "description_zh": "这些小小的砖块真是巧夺天工。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sandstoneblock",
+          "count": 20
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "tombteleporter"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "tombbrick3"
+  ],
+  "quality_tier": "S"
+}

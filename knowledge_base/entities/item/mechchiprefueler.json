@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechchiprefueler",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Economist Module",
+  "name_zh": "经济学家模块",
+  "description_en": "Improves mech fuel efficiency by 20%",
+  "description_zh": "增加机甲20％的燃料使用率。",
+  "rarity": "Common",
+  "category": "mechChip",
+  "price": 4430,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "kespar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "elderfluid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "elderfluid",
+  "name_zh": "",
+  "description_en": "Strange, otherworldly liquid.",
+  "description_zh": "奇怪的，超凡的液体。",
+  "status_effects": [
+    "swimming",
+    "insanity",
+    "wetelder"
+  ],
+  "interactions": [
+    {
+      "liquid": 100,
+      "materialResult": "protorock"
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,82 @@
+{
+  "entity_id": "goldenwood",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Golden Wood",
+  "name_zh": "金色木材",
+  "description_en": "A golden-looking wooden log.\nExtractable.",
+  "description_zh": "金黄色的原木。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_goldensaint_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 4,
+        "examples": [
+          "fucombchest",
+          "fugoldenoakcabinet",
+          "fugoldenoakchest",
+          "fuhoneybarrel"
+        ]
+      },
+      "block": {
+        "count": 3,
+        "examples": [
+          "goldenplank",
+          "treatedgoldenwood",
+          "unrefinedgoldenwood"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "fugoldenoakdoor",
+          "fuhomedoor"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "fuamberchunk"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "fugoldenoakbed"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fuhoneybeesign"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "normalalveary"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "quality_tier": "S"
+}

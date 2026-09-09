@@ -1,0 +1,52 @@
+{
+  "entity_id": "glowchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Glow Chair",
+  "name_zh": "发光椅",
+  "description_en": "A glowing chair.",
+  "description_zh": "一把发光的椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 65,
+  "tags": [
+    "bioluminescence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glowfibre",
+          "count": 20
+        },
+        {
+          "item": "fabric",
+          "count": 3
+        },
+        {
+          "item": "bluedye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

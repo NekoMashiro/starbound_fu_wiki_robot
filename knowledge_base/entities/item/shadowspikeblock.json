@@ -1,0 +1,64 @@
+{
+  "entity_id": "shadowspikeblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Shadow Spike Block",
+  "name_zh": "暗影尖刺",
+  "description_en": "A spiked block formed from shadowy material.\nExtractable.",
+  "description_zh": "由暗影材料制成的尖刺。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 4
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "shadowblock",
+          "count": 10
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "shadowspikeblock"
+  ],
+  "quality_tier": "A"
+}

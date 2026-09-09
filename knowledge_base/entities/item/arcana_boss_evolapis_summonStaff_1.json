@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_boss_evolapis_summonStaff_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sinornis",
+  "name_zh": "华凤",
+  "description_en": "A jade plasma staff forged from the primordial powers.",
+  "description_zh": "一把由始源之力铸造而成的玉质等离子法杖。",
+  "rarity": "Rare",
+  "category": "staff",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "poison",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 6
+        },
+        {
+          "item": "arcana_bar_morphosisBar",
+          "count": 16
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

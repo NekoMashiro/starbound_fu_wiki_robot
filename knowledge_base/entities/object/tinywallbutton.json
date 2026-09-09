@@ -1,0 +1,38 @@
+{
+  "entity_id": "tinywallbutton",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tiny Wall Button",
+  "name_zh": "迷你贴墙按钮",
+  "description_en": "A compact button that activates when pressed.",
+  "description_zh": "一个按下去就会触发的小巧的按钮。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

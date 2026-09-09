@@ -1,0 +1,34 @@
+{
+  "entity_id": "drugdirt",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dirt (5g)",
+  "name_zh": "土（5克）",
+  "description_en": "Dirt, but in dose-size quantities for X'i to use recreationally as a psychotropic.\nDrunk, 35% Slow, -20 HP (4m) (X'i Only)",
+  "description_zh": "泥巴，但这点剂量足以作为一种精神药物供艾肯使用以愉悦自己。\n醉酒，35%减速，-20HP（持续4m）（只限艾肯）",
+  "rarity": "common",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 220
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

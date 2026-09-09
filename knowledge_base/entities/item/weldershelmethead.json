@@ -1,0 +1,37 @@
+{
+  "entity_id": "weldershelmethead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Welder's Helmet",
+  "name_zh": "焊接工之盔",
+  "description_en": "This will provide sufficient heat protection whilst you're welding.",
+  "description_zh": "当你做焊接工作时，它会提供充分的隔热保护。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryChestTreasure",
+          "probability": 0.1126,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "foundryTreasure",
+          "probability": 0.0612,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

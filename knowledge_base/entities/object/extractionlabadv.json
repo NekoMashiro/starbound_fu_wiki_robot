@@ -1,0 +1,41 @@
+{
+  "entity_id": "extractionlabadv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Extraction Lab MKII",
+  "name_zh": "物质萃取器 MKII",
+  "description_en": "Efficiently extracts useful materials from most blocks. Requires 30J per extraction. Can be placed on floors -or- ceilings.",
+  "description_zh": "可从绝大多数块中高效地提取出有用的材料。\n每次萃取需要30J电力\n可以放置在地板或天花板上。",
+  "rarity": "rare",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 450,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Extraction Lab MKII.md",
+  "quality_tier": "A"
+}

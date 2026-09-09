@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_artisan_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Artisan Queen",
+  "name_zh": "工匠蜂后",
+  "description_en": "Artisan Queen",
+  "description_zh": "工匠蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "paper"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "exceptionalqueen",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "exceptionalbee"
+          ]
+        },
+        {
+          "pool": "bee_artisan",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_artisan"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

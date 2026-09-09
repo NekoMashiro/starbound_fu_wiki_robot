@@ -1,0 +1,202 @@
+{
+  "entity_id": "sanityleech",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sanity Leech",
+  "name_zh": "理智吸血鬼",
+  "description_en": "These leeches, placed in the ear, cure insanity and madness.\n-5% HP (2m)\n-80% Risk of Madness Effects",
+  "description_zh": "把这些水蛭放在耳朵里，能治疗精神错乱和疯狂。\n-5% HP(持续2m)\n-80%疯癫带来的风险",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 1305,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 153,
+    "other": {
+      "count": 20,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.1848,
+          "count": 1
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.1216,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.0687,
+          "count": 1
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.0278,
+          "count": 1.0
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0126,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1848
+      ]
+    },
+    "monster_drops": {
+      "count": 53,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1365,
+          "count": 1.0
+        },
+        {
+          "pool": "ffeliteTreasure",
+          "probability": 0.0129,
+          "count": 1.0
+        },
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.0064,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 0.0064,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1365
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0364,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0342,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0316,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0072,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0069,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0016,
+        0.0364
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0241,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0226,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0173,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeSmallChestTreasure",
+          "probability": 0.0171,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.012,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0241
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0081,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0016,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0009,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0081
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0017,
+          "count": 1.0
+        }
+      ]
+    },
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carbonRockSmall",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

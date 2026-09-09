@@ -1,0 +1,27 @@
+{
+  "entity_id": "mwhaddon_armor_brigade_pants",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Brigade Pants",
+  "name_zh": "旅团下装",
+  "description_en": "Durable enough to withstand all circumstance during your hunts.",
+  "description_zh": "非常耐久，足以承受狩猎中的各种情形。",
+  "rarity": "Legendary",
+  "category": "legwear",
+  "price": 5000,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_brigade",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

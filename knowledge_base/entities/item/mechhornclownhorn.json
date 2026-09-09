@@ -1,0 +1,80 @@
+{
+  "entity_id": "mechhornclownhorn",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Clown Mech Horn",
+  "name_zh": "小丑机甲喇叭",
+  "description_en": "Honk.",
+  "description_zh": "按喇叭。",
+  "rarity": "Legendary",
+  "category": "mechPart",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mechHorn",
+          "probability": 0.0714,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.0021,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0021,
+        0.0714
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0022,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.0021,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0022
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0003,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

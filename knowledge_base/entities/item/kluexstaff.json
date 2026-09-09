@@ -1,0 +1,47 @@
+{
+  "entity_id": "kluexstaff",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Kluex Staff",
+  "name_zh": "克鲁西斯法杖",
+  "description_en": "This powerful staff bolsters the warrior who wields it.",
+  "description_zh": "这根强大的法杖可以支持挥动着它的战士。",
+  "rarity": "Legendary",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 6,
+  "critBonus": 6,
+  "primaryAbilityType": "kluexshooter",
+  "altAbilityType": "kluexzone",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "kluexavatarTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "kluexboss"
+          ]
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "kluexstaff_l6.png",
+    "seed": "",
+    "shortdescription": "克鲁西斯法杖^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

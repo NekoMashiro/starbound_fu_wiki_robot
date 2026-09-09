@@ -1,0 +1,79 @@
+{
+  "entity_id": "genesiberryseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Genesiberry Seed",
+  "name_zh": "杰内西浆果种子",
+  "description_en": "The genesis of a new breed of plant. A strange, potent hybrid.",
+  "description_zh": "这种奇怪，坚韧的杂交植物属于全新品种。可以收获杰内西浆果，食用后回复生命值。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 439
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 60
+        },
+        {
+          "item": "neuropodseed",
+          "count": 3
+        },
+        {
+          "item": "fleshstrand",
+          "count": 40
+        },
+        {
+          "item": "phosphorus",
+          "count": 30
+        },
+        {
+          "item": "cellmatter",
+          "count": 12
+        },
+        {
+          "item": "iodine",
+          "count": 9
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "miracleambrosia"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "genesiberryHarvest",
+          "probability": 0.3571,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

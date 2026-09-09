@@ -1,0 +1,61 @@
+{
+  "entity_id": "quietusrocketlauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Rocket Launcher",
+  "name_zh": "寂灭火箭发射器",
+  "description_en": "A unique flavor of bioweapon that avoids violations of intergalactic law.\r\nReduces healing on targets by 30%. (10s)",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "rocketLauncher",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "bioweapon",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "elementalType": "bioweapon",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "explosiveshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 7
+        },
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Quietus Rocket Launcher.md",
+  "quality_tier": "A"
+}

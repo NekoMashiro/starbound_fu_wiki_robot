@@ -1,0 +1,46 @@
+{
+  "entity_id": "swtjc_wp_brokenemitter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Broken Signal Emitter",
+  "name_zh": "信号发射器(已坏)",
+  "description_en": "A broken signal emitter. Despite having an output node, it never outputs a signal, no matter what!",
+  "description_zh": "这台信号发射器已经损坏，虽说它有一个输出节点，但它再也无法发射信号了！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "swtjc_wp_emitter"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Broken Signal Emitter.md",
+  "quality_tier": "S"
+}

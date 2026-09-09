@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_ardentTaiga",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Ardent Taiga",
+  "name_zh": "烈针林",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Ardent Taiga",
+  "friendly_name_zh": "烈针林",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.8
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "arcana_mod_arcaniumOre",
+      "weight": 0.5
+    },
+    {
+      "ore": "gold",
+      "weight": 0.4
+    }
+  ],
+  "monsters": [
+    "birdcritter",
+    "bobfae",
+    "crystalbirdcritter",
+    "crystaltortoisecritter",
+    "pipkin",
+    "scandroid",
+    "skimbus",
+    "snowflakescritter",
+    "snowymolecritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:snow"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "quality_tier": "C"
+}

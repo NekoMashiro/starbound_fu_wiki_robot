@@ -1,0 +1,40 @@
+{
+  "entity_id": "crewcontract_bountyhunter",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bounty Contract",
+  "name_zh": "合同：赏金猎人",
+  "description_en": "Hires a lethal bounty hunter that talks loudly and carries a big gun.",
+  "description_zh": "雇用一名赏金猎人，他有大嗓门，而且有一把大枪！",
+  "rarity": "Uncommon",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 15000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

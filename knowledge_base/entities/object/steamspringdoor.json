@@ -1,0 +1,49 @@
+{
+  "entity_id": "steamspringdoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Steamspring Door",
+  "name_zh": "蒸汽弹簧门",
+  "description_en": "A sturdy wooden door, with a brass pipe frame.",
+  "description_zh": "一扇使用铜管框架的结实木门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 115,
+  "tags": [
+    "door",
+    "steamspring"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "heavypipe",
+          "count": 10
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "aztecmaterial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glyph Block",
+  "name_zh": "符文砖",
+  "description_en": "Small glyphs cover this stone.",
+  "description_zh": "石头上布满小符号。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sandstoneblock",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "aztectech"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "blueprints_unlocked": [
+    "aztecmaterial"
+  ],
+  "quality_tier": "S"
+}

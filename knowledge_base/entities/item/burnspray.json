@@ -1,0 +1,77 @@
+{
+  "entity_id": "burnspray",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Burn Resistance Spray",
+  "name_zh": "防火喷雾剂",
+  "description_en": "Protect your body from burns.",
+  "description_zh": "能让你暂时抵抗火焰。",
+  "rarity": "Uncommon",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 3
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "arcana_flowers_orangeFluxroot",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Burn Resistance Spray.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "floranfurnivourchest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Furnivour Chest",
+  "name_zh": "毛皮胸甲",
+  "description_en": "A proud display of animal fur, claimed from a recent hunt.",
+  "description_zh": "一块最近猎获的值得炫耀的动物毛皮。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 20
+        },
+        {
+          "item": "cottonwool",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

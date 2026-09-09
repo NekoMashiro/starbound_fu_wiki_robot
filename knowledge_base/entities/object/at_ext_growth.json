@@ -1,0 +1,38 @@
+{
+  "entity_id": "at_ext_growth",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TC]Hydroponic tray",
+  "name_zh": "[泰坦拓展]水培盘",
+  "description_en": "A hydroponic tray, grows your farmables! Can be wired to other machines.",
+  "description_zh": "传统农业的现代化替代方案,能更高效地种植农作物.可与其他机器连接.",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "factorypaint",
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 900
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

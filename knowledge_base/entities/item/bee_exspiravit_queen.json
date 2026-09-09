@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_exspiravit_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Exspiravit Queen",
+  "name_zh": "幻灵蜂后",
+  "description_en": "Exspiravit Queen",
+  "description_zh": "幻灵蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingOre": {
+        "count": 1,
+        "examples": [
+          "corruptionore"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mythicalqueen",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "mythicalbee"
+          ]
+        },
+        {
+          "pool": "bee_exspiravit",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_exspiravit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

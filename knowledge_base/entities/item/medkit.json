@@ -1,0 +1,198 @@
+{
+  "entity_id": "medkit",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Medical Kit",
+  "name_zh": "医疗包",
+  "description_en": "Restores 100 health over 10 seconds, and instantly cures most status effects.",
+  "description_zh": "在10秒内恢复100点生命值，同时能治愈绝大部分负面状态。",
+  "rarity": "Common",
+  "category": "medicine",
+  "price": 60,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "phasematter",
+          "count": 1
+        },
+        {
+          "item": "bandage",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 35,
+    "chest_loot": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 2.6792,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 2.3237,
+          "count": 1.0
+        },
+        {
+          "pool": "shadowChestTreasure",
+          "probability": 0.6107,
+          "count": 1
+        },
+        {
+          "pool": "oceanChestTreasure",
+          "probability": 0.2137,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.2113,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0425,
+        2.6792
+      ]
+    },
+    "other": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "at_ext_d2",
+          "probability": 1.0,
+          "count": 5
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.8991,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.1471,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0884,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0319,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0017,
+        1.0
+      ]
+    },
+    "monster_drops": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.8412,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.7502,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.7339,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.6744,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "pandorasboxtrapogoShadowTreasure",
+          "probability": 0.5125,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0213,
+        0.8412
+      ]
+    },
+    "boss_mission": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.3158,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.282,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.2727,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2727,
+        0.3158
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

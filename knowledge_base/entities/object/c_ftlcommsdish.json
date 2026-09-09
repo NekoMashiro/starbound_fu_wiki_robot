@@ -1,0 +1,44 @@
+{
+  "entity_id": "c_ftlcommsdish",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "FTL Internet Dish",
+  "name_zh": "FTl网络接收器",
+  "description_en": "A powerful, long-ranged transmitter with incredible upload and download speed. +15 Happiness Requires 20J every 300s.",
+  "description_zh": "一个强大的远程发射终端，具有令人难以置信的上传和下载速度。\n+15幸福 \n每300秒需要20J能量。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 3500,
+  "tags": [
+    "outpost",
+    "electronic",
+    "mechanical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 25
+        },
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 4
+        },
+        {
+          "item": "morphiteore",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

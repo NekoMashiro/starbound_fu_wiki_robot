@@ -1,0 +1,32 @@
+{
+  "entity_id": "bigapeaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Big Ape Figurine",
+  "name_zh": "大猿人手办",
+  "description_en": "The label reads, \"The figurehead of the Miniknog regime. Requires holographic projectors to remain stable.\"",
+  "description_zh": "标签上写着：“这是个科技发展部政权的傀儡。需要全息投影仪才能保持形态稳定。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bigapeTreasure",
+          "probability": 0.0556,
+          "count": 1,
+          "monsters": [
+            "apeboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

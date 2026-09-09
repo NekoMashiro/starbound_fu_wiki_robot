@@ -1,0 +1,111 @@
+{
+  "entity_id": "elderrelic11",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elder Core",
+  "name_zh": "远古核心",
+  "description_en": "Some sort of power core, or perhaps a battery.",
+  "description_zh": "看起来像是某种能量核心，又或者是电池。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 600,
+  "tags": [
+    "reagent",
+    "artifactElder"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "cultiststaff1"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 11,
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.4715,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0784,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0498,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0449,
+          "count": 1
+        },
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 0.014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0018,
+        0.4715
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.3493,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 0.015,
+          "count": 1,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.015,
+        0.3493
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.1239,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Elder Core.md",
+  "quality_tier": "S"
+}

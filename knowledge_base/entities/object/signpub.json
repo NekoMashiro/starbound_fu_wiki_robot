@@ -1,0 +1,35 @@
+{
+  "entity_id": "signpub",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pub Sign",
+  "name_zh": "酒吧告示牌",
+  "description_en": "A sign advertising a place to grab a brew and enjoy yourself!",
+  "description_zh": "这说明每个人都可以进来享受美酒。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 300,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

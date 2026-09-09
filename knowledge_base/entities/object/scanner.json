@@ -1,0 +1,53 @@
+{
+  "entity_id": "scanner",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Proximity Scanner",
+  "name_zh": "近距离扫描器",
+  "description_en": "Perfect for all your automated door needs!",
+  "description_zh": "用在你所有的自动门上简直完美！",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 1,
+        "examples": [
+          "standingturret"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

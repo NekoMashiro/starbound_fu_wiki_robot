@@ -1,0 +1,48 @@
+{
+  "entity_id": "orion_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Orion White Chair",
+  "name_zh": "俄里翁白色椅",
+  "description_en": "A small white chair.",
+  "description_zh": "一把白色的小椅子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 200,
+  "tags": [
+    "orion"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orion_crafting_ursaplate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Crafting Table",
+      "station_zh": "俄里翁制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

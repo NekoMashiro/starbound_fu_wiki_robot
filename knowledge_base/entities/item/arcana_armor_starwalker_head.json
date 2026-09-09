@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_armor_starwalker_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Starwalker Headpiece",
+  "name_zh": "星间行者头饰",
+  "description_en": "An Arcanian decorative headpiece.",
+  "description_zh": "守秘族的头部装饰。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 60,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 2
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcanianStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

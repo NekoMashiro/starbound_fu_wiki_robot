@@ -1,0 +1,54 @@
+{
+  "entity_id": "futriangliumsmg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vagabond",
+  "name_zh": "流浪者",
+  "description_en": "Ratta-tat-tat your foes with poisoned trianglium rounds.\r\nInflicts poison ",
+  "description_zh": "把带有毒性的三棱子弹阿达哒哒哒的向你的敌人倾泻吧。\n附加毒素效果",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "upgradeableWeapon",
+    "trianglium"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

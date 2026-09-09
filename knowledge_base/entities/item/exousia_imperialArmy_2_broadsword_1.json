@@ -1,0 +1,65 @@
+{
+  "entity_id": "exousia_imperialArmy_2_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sanguinecre",
+  "name_zh": "血潮",
+  "description_en": "Only war can sustain this blade's thirst. Inflicts Sanguine. -40% Max HP while holding.",
+  "description_zh": "唯有争斗才能够满足这把魔刀的饥渴。\n 造成出血。 握持时最大HP值-40%。",
+  "rarity": "Essential",
+  "category": "broadsword",
+  "price": 10000,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "exousia"
+  ],
+  "elementalType": "fire",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 13.2,
+  "primaryAbilityType": "arcana_sanguine_combo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_borealiteBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_terminalSigma",
+          "count": 1
+        },
+        {
+          "item": "steelblades_blastRifle_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_boss_cosmoNemesis_blastRifle_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Exousia Armory",
+          "name_zh": "威权军械库"
+        },
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

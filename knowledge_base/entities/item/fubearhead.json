@@ -1,0 +1,59 @@
+{
+  "entity_id": "fubearhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Battle Totem Mask",
+  "name_zh": "战斗图腾面具",
+  "description_en": "Set Bonuses:\r\n Hammer & Greataxe Mastery: +20%\r\n +20% Knockback Resist\r\n Axes, Two-handed Melee: +3.5% Crit Chance, Damage x1.15\r\n Immune: Slush, Chill",
+  "description_zh": "套装奖励：\n ；锤子和巨斧精通：+20 %\n +20 %格挡抵抗\n 斧头，双手近战武器：+3.5 %暴击率，伤害x ；1.15 \n 免疫：泥浆、寒气",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "hyper"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "sharpenedclaw",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fubearhead2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

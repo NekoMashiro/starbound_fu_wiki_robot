@@ -1,0 +1,45 @@
+{
+  "entity_id": "shadowshiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Ship Hatch",
+  "name_zh": "影裔船舱口",
+  "description_en": "A hatch. Possibly suitable for a spaceship.",
+  "description_zh": "一扇舱口。可能适合于一艘宇宙飞船。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "shadow",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

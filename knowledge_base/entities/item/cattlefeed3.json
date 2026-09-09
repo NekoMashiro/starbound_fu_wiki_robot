@@ -1,0 +1,57 @@
+{
+  "entity_id": "cattlefeed3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Superior Feed",
+  "name_zh": "上等饲料",
+  "description_en": "Great feed for cattle. Not for sapient ingestion. You'll get sick.\n-5% HP, Poisoned (1m)",
+  "description_zh": "很好的家畜食物。千万别吃，否则会得病。\n-5%HP，中毒(持续1m)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 8,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cattlefeed2",
+          "count": 25
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 1
+        },
+        {
+          "item": "phosphorus",
+          "count": 2
+        }
+      ],
+      "output_count": 25,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "cattlefeed4"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "redalert",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Warning Light",
+  "name_zh": "警示灯",
+  "description_en": "A red flashing light... That's usually not good.",
+  "description_zh": "红色的闪光灯…这通常是不好的。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 80,
+  "tags": [
+    "avian",
+    "aviantemple",
+    "light",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

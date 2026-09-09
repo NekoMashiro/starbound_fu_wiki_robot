@@ -1,0 +1,60 @@
+{
+  "entity_id": "iceslimetendrils3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Slime Tendrils III",
+  "name_zh": "冰冻粘液触须 III",
+  "description_en": "Reach out and hit somebody.",
+  "description_zh": "伸手打人。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.4,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceslimetendrils2",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 15
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "iceslimetendrilsstaricon.png",
+    "seed": "",
+    "shortdescription": "冰冻粘液触须 ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "crewcontract_chef",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chef Contract",
+  "name_zh": "合同：厨师",
+  "description_en": "Hires an apprentice chef to keep you slightly fed and reduce fuel costs by 2%.",
+  "description_zh": "雇用一名厨师，他能让你保持饱腹状态，并且降低2％的飞船燃料消耗。",
+  "rarity": "Common",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 5000
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

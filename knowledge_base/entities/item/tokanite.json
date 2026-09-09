@@ -1,0 +1,58 @@
+{
+  "entity_id": "tokanite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tokanite Crystal",
+  "name_zh": "托卡尼特水晶",
+  "description_en": "A green gem that rings with a high tone when struck.",
+  "description_zh": "一种绿色宝石，敲击时会发出音调很高的声音。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "door": {
+        "count": 1,
+        "examples": [
+          "greenglowdoor"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "shrineoflostsouls"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "siviteore"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "tokanitedye"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tokaniteHarvest",
+          "probability": 10.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

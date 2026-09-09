@@ -1,0 +1,41 @@
+{
+  "entity_id": "precursormachine",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Data Server",
+  "name_zh": "先驱数据服务器",
+  "description_en": "This appears to be some sort of storage medium for electronic data.",
+  "description_zh": "这似乎是某种电子数据的存储介质。",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 1280,
+  "tags": [
+    "precursor",
+    "ancient",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursormachine"
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "stranglevineroot",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stranglevine Root",
+  "name_zh": "带刺藤蔓",
+  "description_en": "+101% Physical Thorns: 1m",
+  "description_zh": "+101% 物理反伤: 1m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "stranglevineHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

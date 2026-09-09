@@ -1,0 +1,66 @@
+{
+  "entity_id": "skathtier3mhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dracon Helmet",
+  "name_zh": "龙魂头盔",
+  "description_en": "Set Bonuses:\r\n Assault Rifle/Shortsword: Damage x1.19\r\n Immune: Oxygen",
+  "description_zh": "套装奖励:\n 突击步枪/短剑: 伤害 x1.19\n 免疫: 窒息",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 500,
+  "tags": [
+    "tier3armour",
+    "upgradeableWeapon",
+    "balanced"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "skathtier3shead",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydrolium",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "skathtier3ahead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

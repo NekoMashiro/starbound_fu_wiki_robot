@@ -1,0 +1,38 @@
+{
+  "entity_id": "fumantiziplebchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plebeian Top",
+  "name_zh": "平民上衣",
+  "description_en": "A lower-class garment, though still quite nice. Gives 0.3 Health Regen.",
+  "description_zh": "一件低级衣服，虽说还是很漂亮。赋予 0.3% HP恢复.",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 4
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

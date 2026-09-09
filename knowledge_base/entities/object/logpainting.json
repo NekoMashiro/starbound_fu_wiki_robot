@@ -1,0 +1,31 @@
+{
+  "entity_id": "logpainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Log",
+  "name_zh": "神谕",
+  "description_en": "A constant reminder to idiots the world over.",
+  "description_zh": "对全世界的白痴来说，这是个不断的提醒。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0028,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

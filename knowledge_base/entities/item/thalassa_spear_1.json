@@ -1,0 +1,67 @@
+{
+  "entity_id": "thalassa_spear_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Seatide",
+  "name_zh": "海潮",
+  "description_en": "The spear of the roaring seas.",
+  "description_zh": "咆哮海之矛。",
+  "rarity": "Uncommon",
+  "category": "spear",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "spearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_pinkAquamarine",
+          "count": 4
+        },
+        {
+          "item": "turbulent_tile1",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "spear": {
+        "count": 1,
+        "examples": [
+          "thalassa_spear_2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

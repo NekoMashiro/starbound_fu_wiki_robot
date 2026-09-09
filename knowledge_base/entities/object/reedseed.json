@@ -1,0 +1,27 @@
+{
+  "entity_id": "reedseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reeds",
+  "name_zh": "芦苇种子",
+  "description_en": "Reeds grow avidly wherever they can in a bog or swamp.",
+  "description_zh": "这些植物只在沼泽生长。可以收获芦苇。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 8,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "reedseedHarvest",
+          "probability": 0.7077,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

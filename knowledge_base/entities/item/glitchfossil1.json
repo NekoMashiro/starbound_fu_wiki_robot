@@ -1,0 +1,48 @@
+{
+  "entity_id": "glitchfossil1",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glitch Head",
+  "name_zh": "电子人头骨",
+  "description_en": "A corroded Glitch head.",
+  "description_zh": "一个电子人的头骨化石。",
+  "rarity": "Uncommon",
+  "category": "mediumFossil",
+  "price": 50,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "humanoidfossil",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.014,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.014,
+          "count": 1
+        },
+        {
+          "pool": "deadglitchloot",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.04
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

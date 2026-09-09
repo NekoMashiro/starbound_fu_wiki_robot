@@ -1,0 +1,118 @@
+{
+  "entity_id": "moonstone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Moonstone",
+  "name_zh": "月石",
+  "description_en": "Beautiful, smooth moonstone.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "漂亮，光滑的月石。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "telebriumbed",
+          "telebriumbookcase",
+          "telebriumcabinet",
+          "telebriumchair",
+          "telebriumcouch"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "telebriumceilinglamp",
+          "telebriumdesklamp",
+          "telebriumlamp",
+          "telebriumwalllamp"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "telebriumchestlarge",
+          "telebriumchestsmall"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "telebriumfridge",
+          "telebriumminifridge"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "telebriumslidingdoor1"
+        ]
+      }
+    },
+    "total": 20
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "moonstoneore"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "moonstoneore"
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "biome": "arcana_toxicMoon",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_frostMoon",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_toxic",
+      "weight": 0.75
+    },
+    {
+      "biome": "metalworks",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_frostMoonUnderground",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_stone",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_redMoonUnderground",
+      "weight": 0.75
+    },
+    {
+      "biome": "moon_volcanic",
+      "weight": 0.75
+    },
+    {
+      "biome": "arcana_redMoon",
+      "weight": 0.75
+    }
+  ],
+  "quality_tier": "S"
+}

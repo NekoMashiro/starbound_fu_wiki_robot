@@ -1,0 +1,55 @@
+{
+  "entity_id": "cuteshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cute Shield",
+  "name_zh": "可爱的盾",
+  "description_en": "+5% Energy Regen, +2 Defense, Immune: Insanity",
+  "description_zh": "能量回复速度+5%，防御+2；免疫精神错乱",
+  "rarity": "rare",
+  "category": "shield",
+  "price": 500,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 7
+        },
+        {
+          "item": "fu_carbonpure",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

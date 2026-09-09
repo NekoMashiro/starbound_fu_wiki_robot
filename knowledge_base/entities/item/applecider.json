@@ -1,0 +1,44 @@
+{
+  "entity_id": "applecider",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hard Apple Cider",
+  "name_zh": "苹果酒",
+  "description_en": "A bottle of apple cider!\n+3 Defense (45s)\n35% Slow , Drunk (1m)",
+  "description_zh": "一瓶苹果酒！\n+3防御(持续45s)\n35%减速，n醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "applemash",
+          "count": 1
+        },
+        {
+          "item": "applejuice",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

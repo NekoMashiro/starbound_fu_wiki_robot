@@ -1,0 +1,133 @@
+{
+  "entity_id": "perfectlygenericitem",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Perfectly Generic Item",
+  "name_zh": "完美通用物品",
+  "description_en": "It's a perfectly generic item, perhaps a bit too perfect.",
+  "description_zh": "这是个完美的通用物品，大概有点过于完美了。",
+  "rarity": "legendary",
+  "category": "generic",
+  "price": 0,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "scorchedcore",
+          "count": 1
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "staticcell",
+          "count": 1
+        },
+        {
+          "item": "venomsample",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Treasured Trophies",
+      "station_zh": "珍稀战利品行",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 10,
+        "examples": [
+          "fu_perfectarmchair",
+          "fu_perfectbathtub",
+          "fu_perfectbed",
+          "fu_perfectchair",
+          "fu_perfectcouch"
+        ]
+      },
+      "storage": {
+        "count": 6,
+        "examples": [
+          "fu_perfectbookcase",
+          "fu_perfectcabinet",
+          "fu_perfectdresser",
+          "fu_perfectendtable",
+          "fu_perfectkitchensink"
+        ]
+      },
+      "light": {
+        "count": 5,
+        "examples": [
+          "fu_perfectceilinglamp",
+          "fu_perfectlamp",
+          "fu_perfectnightlamp",
+          "fu_perfecttalllamp",
+          "fu_perfectwalllight"
+        ]
+      },
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "fu_perfectcorner",
+          "fu_perfectshelf",
+          "fu_perfectstand",
+          "perfectorgan"
+        ]
+      },
+      "wire": {
+        "count": 2,
+        "examples": [
+          "fu_perfectswitch",
+          "fu_perfectwallbutton"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "fu_perfectdoor"
+        ]
+      },
+      "headwear": {
+        "count": 1,
+        "examples": [
+          "perfecthead"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "perfectchest"
+        ]
+      }
+    },
+    "total": 32
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pandorasboxglitchtopTreasure",
+          "probability": 0.08,
+          "count": 1,
+          "monsters": [
+            "pandorasboxglitchtop"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "perfecthead",
+    "perfectchest",
+    "perfectpants"
+  ],
+  "wiki_ref": "Perfectly Generic Item.md",
+  "quality_tier": "S"
+}

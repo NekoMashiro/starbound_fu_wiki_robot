@@ -1,0 +1,77 @@
+{
+  "entity_id": "spirits",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rectified Spirits",
+  "name_zh": "精制烈酒",
+  "description_en": "A bottle of fruit-infused rectified spirits!\n35% Slow , Drunk (10s)",
+  "description_zh": "一瓶精制酒，超棒的美酒！\n35%减速，醉酒(持续10s)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "applemash",
+          "count": 1
+        },
+        {
+          "item": "pearmash",
+          "count": 1
+        },
+        {
+          "item": "peachmash",
+          "count": 1
+        },
+        {
+          "item": "grapemash",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 17,
+        "examples": [
+          "appleschnapps",
+          "bananaschnapps",
+          "cherryschnapps",
+          "cinnamonschnapps",
+          "darkrum"
+        ]
+      },
+      "unusualRelic": {
+        "count": 1,
+        "examples": [
+          "impossibletheories"
+        ]
+      }
+    },
+    "total": 18
+  },
+  "quality_tier": "S"
+}

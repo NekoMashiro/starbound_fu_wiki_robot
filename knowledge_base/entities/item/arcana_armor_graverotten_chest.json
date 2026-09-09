@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_graverotten_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Graverotten Armor",
+  "name_zh": "坟腐盔甲",
+  "description_en": "A piece of weathered clothing.",
+  "description_zh": "一件褪色的衣服。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1480,
+  "tags": [],
+  "level": 7,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_graverotten",
+          "probability": 0.025,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,145 @@
+{
+  "entity_id": "fuamberchunk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Chunk",
+  "name_zh": "琥珀块",
+  "description_en": "A chunk of solid amber.",
+  "description_zh": "一大块的固体琥珀。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 110,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_liquidhoney",
+          "count": 4
+        },
+        {
+          "item": "goldenwood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 4,
+        "examples": [
+          "amberbed",
+          "amberchair",
+          "ambersofa",
+          "ambertable"
+        ]
+      },
+      "longsword": {
+        "count": 3,
+        "examples": [
+          "fuambersword",
+          "fupetalsword",
+          "theluslongsword"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "fugoldenhead",
+          "fulightpriesthead",
+          "fuqueenhead"
+        ]
+      },
+      "legarmour": {
+        "count": 3,
+        "examples": [
+          "fugoldenlegs",
+          "fulightpriestpants",
+          "fuqueenlegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 3,
+        "examples": [
+          "fugoldenchest",
+          "fulightpriestchest",
+          "fuqueenchest"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "amberchest",
+          "ambercupboard"
+        ]
+      },
+      "light": {
+        "count": 2,
+        "examples": [
+          "amberchandelier",
+          "amberlight"
+        ]
+      },
+      "shield": {
+        "count": 2,
+        "examples": [
+          "fubeeshield",
+          "fubeeshield2"
+        ]
+      }
+    },
+    "total": 38
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.7718,
+          "count": 4.1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

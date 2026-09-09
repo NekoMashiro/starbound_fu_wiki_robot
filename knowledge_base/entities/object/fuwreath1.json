@@ -1,0 +1,37 @@
+{
+  "entity_id": "fuwreath1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shard Wreath",
+  "name_zh": "碎裂花环",
+  "description_en": "A rather unusual sort of wreath or decorative circle.",
+  "description_zh": "一种相当不寻常的花环或装饰性的圆圈。",
+  "rarity": "common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "weird"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Silenes' Minerals",
+      "station_zh": "硅烯矿物商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

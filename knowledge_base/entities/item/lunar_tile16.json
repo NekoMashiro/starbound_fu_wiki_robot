@@ -1,0 +1,42 @@
+{
+  "entity_id": "lunar_tile16",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sakura Leaf Block",
+  "name_zh": "樱花叶块",
+  "description_en": "A block of pink leaves.",
+  "description_zh": "一块粉红色的叶子。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_cherryBlossom",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "Kuromatsu Crafting Table",
+      "station_zh": "黑松木制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

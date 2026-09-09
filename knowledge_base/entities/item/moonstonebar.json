@@ -1,0 +1,163 @@
+{
+  "entity_id": "moonstonebar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Bar",
+  "name_zh": "月海晶体锭",
+  "description_en": "Forged Telebrium, commonly found on moons.",
+  "description_zh": "锻造过的月海晶体。\n通常被发现于卫星。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 125,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstoneore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "telebriumbed",
+          "telebriumbookcase",
+          "telebriumcabinet",
+          "telebriumchair",
+          "telebriumcouch"
+        ]
+      },
+      "headarmour": {
+        "count": 7,
+        "examples": [
+          "cutehead",
+          "ff_scouthelm",
+          "fuinvaderhead",
+          "fumantizitier2head",
+          "furaiderhead"
+        ]
+      },
+      "legarmour": {
+        "count": 7,
+        "examples": [
+          "cutelegs",
+          "ff_scoutpants",
+          "fuinvaderpants",
+          "fumantizitier2pants",
+          "furaiderpants"
+        ]
+      },
+      "chestarmour": {
+        "count": 7,
+        "examples": [
+          "cutechest",
+          "ff_scoutchest",
+          "fuinvaderchest",
+          "fumantizitier2chest",
+          "furaiderchest"
+        ]
+      },
+      "machinePistol": {
+        "count": 7,
+        "examples": [
+          "cutearmgun",
+          "cutesmg",
+          "futritaniumpistol",
+          "mineralpistol",
+          "protopistol"
+        ]
+      },
+      "pistol": {
+        "count": 6,
+        "examples": [
+          "aegisaltpistol3",
+          "cutepistol",
+          "kirhospistol",
+          "pistoldurasteelfu",
+          "pistoleffigiumfu"
+        ]
+      },
+      "shotgun": {
+        "count": 6,
+        "examples": [
+          "chargeshotgun",
+          "crystalgun",
+          "cuteorblauncher",
+          "cuteshotgun",
+          "protogun"
+        ]
+      },
+      "sniperRifle": {
+        "count": 6,
+        "examples": [
+          "cutesniperrifle",
+          "kirhossniper",
+          "protorifle",
+          "rifledurasteelfu",
+          "rifleeffigiumfu"
+        ]
+      }
+    },
+    "total": 167
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "moonstoneore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "moonstoneore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "moonstoneore"
+    }
+  ],
+  "quality_tier": "S"
+}

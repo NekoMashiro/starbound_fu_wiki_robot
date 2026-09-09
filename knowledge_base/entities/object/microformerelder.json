@@ -1,0 +1,53 @@
+{
+  "entity_id": "microformerelder",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Unknown Microformer",
+  "name_zh": "未知转换器(微型)",
+  "description_en": "Transforms an area of a planet into...something.",
+  "description_zh": "(可放置于任何地方，安装后拆除将会毁坏，激活后请耐心等待)可将转换器一定范围内的星球特征转换为某种...地形。",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 3000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 500
+        },
+        {
+          "item": "elderrelic2",
+          "count": 3
+        },
+        {
+          "item": "elderrelic8",
+          "count": 2
+        },
+        {
+          "item": "elderrelic4",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "microformerTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

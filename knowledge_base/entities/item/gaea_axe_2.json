@@ -1,0 +1,59 @@
+{
+  "entity_id": "gaea_axe_2",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Floral Smasher",
+  "name_zh": "碎卉",
+  "description_en": "A one-handed hammer made of florastone.",
+  "description_zh": "一柄由花叶石制成的单手锤。",
+  "rarity": "Rare",
+  "category": "axe",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe"
+  ],
+  "elementalType": "poison",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 10.2,
+  "primaryAbilityType": "arcana_axe_ability_burstCleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "gaea_axe_1",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,66 @@
+{
+  "entity_id": "intestinewhip",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Intestine Whip",
+  "name_zh": "肠鞭",
+  "description_en": "A large intestine, it can stretch surprisingly far.",
+  "description_zh": "一根粗大的肠子，可以伸展到令人惊讶的长度。",
+  "rarity": "rare",
+  "category": "whip",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "upgradeableWeapon",
+    "whip",
+    "bioweapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 4
+        },
+        {
+          "item": "rottingfleshmaterial",
+          "count": 5
+        },
+        {
+          "item": "mutagene4",
+          "count": 1
+        },
+        {
+          "item": "morphiteore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "intestinewhip_l6.png:idle",
+    "seed": "",
+    "shortdescription": "肠鞭^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

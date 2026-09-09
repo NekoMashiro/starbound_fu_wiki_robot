@@ -1,0 +1,104 @@
+{
+  "entity_id": "garden",
+  "entity_type": "biome",
+  "source_mod": "Starbound",
+  "name_en": "Garden",
+  "name_zh": "",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Garden",
+  "friendly_name_zh": "",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.9
+    },
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "fossilbone",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.3
+    },
+    {
+      "ore": "silver",
+      "weight": 0.1
+    },
+    {
+      "ore": "gold",
+      "weight": 0.05
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.001
+    }
+  ],
+  "monsters": [
+    "bee_honey",
+    "bee_leafcutter",
+    "bee_orchid",
+    "bee_squash",
+    "birdcritter",
+    "blackbeetle",
+    "bunnycritter",
+    "butterbee",
+    "fawnfly",
+    "fishcritter",
+    "fualbatrosscritter",
+    "fubearcritter",
+    "fublackbunnycritter",
+    "fuduckcritter",
+    "fufoxcritter",
+    "fuhorsecritter",
+    "fuhummingbirdcritter",
+    "fumothcritter",
+    "fuplantsnakecritter",
+    "furaccooncritter",
+    "fuspidercritter",
+    "futinycockroach",
+    "fuwolf",
+    "gleap",
+    "gleapbeta",
+    "hedgehogcritter",
+    "juvenilepoptop",
+    "mousecritter",
+    "mudstag",
+    "nutmidge",
+    "pandorasboxcottonbop",
+    "poptop",
+    "snailcritter",
+    "tortoisecritter",
+    "warmdeer"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:clear",
+        "/weather.config:garden",
+        "/weather.config:fugentle",
+        "/weather.config:fugentlewindy",
+        "/weather.config:fugentlerainy",
+        "/weather.config:fugentleveryrainy",
+        "/weather.config:fugentlefoggy",
+        "/weather.config:fugentlepretty",
+        "/weather.config:fugentlesnowy"
+      ]
+    ]
+  ],
+  "wiki_ref": "Garden.md",
+  "quality_tier": "D"
+}

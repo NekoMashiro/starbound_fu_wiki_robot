@@ -1,0 +1,79 @@
+{
+  "entity_id": "arcticdark",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Arctic",
+  "name_zh": "极地",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Arctic",
+  "friendly_name_zh": "极地",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "capricoat",
+    "cryopod",
+    "dancercritter",
+    "frozenowlcritter",
+    "icescabcritter",
+    "lilodon",
+    "monopus",
+    "orphanfly",
+    "polarmoth",
+    "pulpin",
+    "sealcritter",
+    "skimbus",
+    "snowbcritter",
+    "snowskater",
+    "wisper"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arctic"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomecold3"
+  ],
+  "wiki_ref": "Arctic.md",
+  "quality_tier": "C"
+}

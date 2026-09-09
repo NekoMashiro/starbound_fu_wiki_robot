@@ -1,0 +1,40 @@
+{
+  "entity_id": "paintingstarrynight",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Abstract Painting",
+  "name_zh": "抽象画",
+  "description_en": "A beautiful painting of the night sky.",
+  "description_zh": "一个美丽的夜空的画。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 900,
+  "tags": [
+    "human",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

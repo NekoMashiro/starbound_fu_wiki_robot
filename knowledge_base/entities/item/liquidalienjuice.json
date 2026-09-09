@@ -1,0 +1,77 @@
+{
+  "entity_id": "liquidalienjuice",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasmic Fluid",
+  "name_zh": "血原液",
+  "description_en": "A measure of an unusual plasmic fluid.\nCentrifugable.",
+  "description_zh": "一定量的不寻常的血原液。\n可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "liquidpus",
+          "count": 1
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "alienwoodsap",
+          "ff_plastic",
+          "mutagene1",
+          "xibulb"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "powderednarcotics",
+          "reactivegel3"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "alienjuicelavalamp"
+        ]
+      },
+      "fuel": {
+        "count": 1,
+        "examples": [
+          "biofuelcannisteradv"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformerlightless"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "wiki_ref": "Plasmic Fluid.md",
+  "quality_tier": "S"
+}

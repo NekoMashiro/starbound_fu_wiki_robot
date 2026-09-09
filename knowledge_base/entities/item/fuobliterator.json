@@ -1,0 +1,62 @@
+{
+  "entity_id": "fuobliterator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Obliterator",
+  "name_zh": "湮灭者",
+  "description_en": "Definitely not office-safe.\r\nReduces defenses of target\r\nEnergy",
+  "description_zh": "对于被这把枪瞄准的敌人来说它的任何防御行为都是脆弱的。\n降低目标的防御\n能量武器",
+  "rarity": "legendary",
+  "category": "pistol",
+  "price": 2160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "energy"
+  ],
+  "elementalType": "cosmic",
+  "level": 7,
+  "twoHanded": false,
+  "baseDps": 8.5,
+  "critChance": 3,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "irradiumbar",
+          "count": 5
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "nocxiumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

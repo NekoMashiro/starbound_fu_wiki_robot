@@ -1,0 +1,55 @@
+{
+  "entity_id": "lunaribow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Bow",
+  "name_zh": "月晶弓",
+  "description_en": "Crystalline bow for hunting extra dangerous game.",
+  "description_zh": "一把水晶制成的狩猎弓。",
+  "rarity": "common",
+  "category": "bow",
+  "price": 150,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "critChance": 5,
+  "critBonus": 5,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

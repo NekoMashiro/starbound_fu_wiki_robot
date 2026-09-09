@@ -1,0 +1,91 @@
+{
+  "entity_id": "snowdark",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Snow",
+  "name_zh": "雪",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Snow",
+  "friendly_name_zh": "雪",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "bee_rimewing",
+    "bobfae",
+    "bobot",
+    "bunnycommon",
+    "capricoat",
+    "cryopod",
+    "frostfleck",
+    "frostfly",
+    "fuhorsecritter",
+    "fupolarbearcritter",
+    "fusnowfennix",
+    "fusnowfoxcritter",
+    "fusnowgoosecritter",
+    "fusnowowlcritter",
+    "fuwolf",
+    "icetip",
+    "lilodon",
+    "pulpin",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "scandroid",
+    "skimbus",
+    "snowdeer",
+    "wintercritter",
+    "wisper",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:snow"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomecold1"
+  ],
+  "wiki_ref": "Snow.md",
+  "quality_tier": "C"
+}

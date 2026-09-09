@@ -1,0 +1,93 @@
+{
+  "entity_id": "duncecookie",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dunce Cookie",
+  "name_zh": "呆瓜曲奇饼",
+  "description_en": "Eating these apparently makes you stupider than you already are. +10% Shadow Res, Shadow Taint Immunity (2m) Type: Grain + Dairy + Eggs + Sugar",
+  "description_zh": "吃了这些东西显然会让你笨上加笨。\n+10% 暗影抗性，赋予暗影污染免疫(持续2m)\n类型：谷物 + 蛋奶 + 甜食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "caramelsoggypaper",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "sourmilkandbees",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

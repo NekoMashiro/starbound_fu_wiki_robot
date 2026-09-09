@@ -1,0 +1,80 @@
+{
+  "entity_id": "fu_craftinfo",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lab Directory",
+  "name_zh": "Frackin'Universe数据库",
+  "description_en": "This panel shows which materials produce results with your various lab stations. Must place near an Extractor or other processing station.",
+  "description_zh": "它可以显示出材料与设备的相互关系。必须放在萃取或其他加工设备附近。",
+  "rarity": "Common",
+  "category": "Database",
+  "price": 100,
+  "tags": [
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "glass",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 19,
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wiki_ref": "Lab Directory.md",
+  "quality_tier": "S"
+}

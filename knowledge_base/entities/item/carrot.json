@@ -1,0 +1,81 @@
+{
+  "entity_id": "carrot",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Carrot",
+  "name_zh": "胡萝卜",
+  "description_en": "Mmm crunchy. Type: Vegetable",
+  "description_zh": "嗯，脆脆的。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 60,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carrotbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 9,
+        "examples": [
+          "carrotbread",
+          "carrotcake",
+          "carrotcakevegan",
+          "carrotsoup",
+          "gardensalad"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "carrotbasket",
+          "monarch_deco_8",
+          "snowpersonheadhuman"
+        ]
+      },
+      "breakable": {
+        "count": 2,
+        "examples": [
+          "fancysnowman",
+          "snowman"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "carrotjuice"
+        ]
+      }
+    },
+    "total": 15
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "carrotHarvest",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "carrotbread",
+    "carrotjuice"
+  ],
+  "quality_tier": "S"
+}

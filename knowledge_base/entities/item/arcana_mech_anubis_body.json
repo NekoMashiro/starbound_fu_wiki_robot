@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_mech_anubis_body",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anubis Mech Body",
+  "name_zh": "阿努比斯机甲躯体",
+  "description_en": "An open-top mech body, improvised from the Venturer by the Aurea Order.",
+  "description_zh": "敞篷的机甲躯体，由恒金序列在“冒险者”的基础上即兴改造。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 8800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "salvagebody",
+          "count": 16
+        },
+        {
+          "item": "salvagetier5",
+          "count": 8
+        },
+        {
+          "item": "durasteelbar",
+          "count": 26
+        },
+        {
+          "item": "arcana_misc_oceanicTechCard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "astral.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_astral_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

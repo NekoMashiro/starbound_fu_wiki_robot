@@ -1,0 +1,211 @@
+{
+  "entity_id": "torch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Torch",
+  "name_zh": "火把",
+  "description_en": "This torch flickers softly.",
+  "description_zh": "这火把闪着柔和的亮光。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 5,
+  "tags": [
+    "light"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coalore",
+          "count": 1
+        },
+        {
+          "item": "logblock",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 27,
+        "examples": [
+          "arcana_animus_light_1",
+          "arcana_lunar_light_1",
+          "arcana_lunar_light_2",
+          "arcana_lunar_light_3",
+          "arcana_lunar_light_4"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "campfire",
+          "craftingmedical"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "flashlight_new",
+          "mininglantern"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_misc_fluorescentBeacon"
+        ]
+      }
+    },
+    "total": 32
+  },
+  "drop_sources": {
+    "total_pools": 68,
+    "other": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_torch",
+          "probability": 2.5,
+          "count": 4.6
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.3383,
+          "count": 4.6
+        },
+        {
+          "pool": "elduutool",
+          "probability": 0.3,
+          "count": 15
+        },
+        {
+          "pool": "tool",
+          "probability": 0.2903,
+          "count": 15
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.2875,
+          "count": 4.6
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        2.5
+      ]
+    },
+    "monster_drops": {
+      "count": 34,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 10
+        }
+      ],
+      "prob_range": [
+        0.0026,
+        1.0
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.1761,
+          "count": 5.6
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1358,
+          "count": 5.4
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0258,
+          "count": 5.4
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0256,
+          "count": 5.4
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0247,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        0.0022,
+        0.1761
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0685,
+          "count": 3.6
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0344,
+          "count": 5.4,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0344,
+        0.0685
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0581,
+          "count": 15
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Torch.md",
+  "quality_tier": "S"
+}

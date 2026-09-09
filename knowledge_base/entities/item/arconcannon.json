@@ -1,0 +1,62 @@
+{
+  "entity_id": "arconcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Blaster",
+  "name_zh": "阿克恩冲击者",
+  "description_en": "Attaches to the forearm. Fires plasma bursts.\r\nCounts as 'plasma' for set bonuses",
+  "description_zh": "附着在前臂上。发射爆裂等离子体。\n等离子武器",
+  "rarity": "rare",
+  "category": "machinePistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.25,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

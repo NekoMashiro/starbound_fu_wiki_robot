@@ -1,0 +1,49 @@
+{
+  "entity_id": "geodedoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Geode Door",
+  "name_zh": "晶洞门",
+  "description_en": "A door carved from a cross section of a large geode.",
+  "description_zh": "由一个巨大的晶洞的横截面雕成的门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "geode",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "geode",
+          "count": 10
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

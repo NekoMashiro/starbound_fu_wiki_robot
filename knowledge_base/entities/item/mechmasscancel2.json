@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechmasscancel2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Light Frame (50)",
+  "name_zh": "轻型骨架(（50）",
+  "description_en": "Creates a field that cancels 50% of mech Mass. Toggle with [F].",
+  "description_zh": "创建一块领域，减少50%的机甲质量。按[F]切换。",
+  "rarity": "uncommon",
+  "category": "mechChip",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moltencore",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 6
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "techcard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

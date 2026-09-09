@@ -1,0 +1,64 @@
+{
+  "entity_id": "mireurchinseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mireurchin Seed",
+  "name_zh": "沼泽海胆种子",
+  "description_en": "Able to generate a static shield to repel predators.",
+  "description_zh": "可以收获沼泽海胆，食用后会提高移动速度。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 16
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "dirturchinseed",
+          "count": 3
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 4
+        },
+        {
+          "item": "reed",
+          "count": 10
+        },
+        {
+          "item": "fleshstrand",
+          "count": 25
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mireurchinHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

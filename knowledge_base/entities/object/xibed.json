@@ -1,0 +1,42 @@
+{
+  "entity_id": "xibed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Bed",
+  "name_zh": "艾肯床",
+  "description_en": "A small pod for sleeping, made for a X'i.",
+  "description_zh": "用来睡觉的吊舱，为艾肯人做的。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 125,
+  "tags": [
+    "xi",
+    "radien",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 2
+        },
+        {
+          "item": "xibulb",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

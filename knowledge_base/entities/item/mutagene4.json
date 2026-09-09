@@ -1,0 +1,115 @@
+{
+  "entity_id": "mutagene4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durable Mutagene",
+  "name_zh": "长效诱变剂",
+  "description_en": "Vibrant with moving colors, this bizarre substance can alter the structure of cells.",
+  "description_zh": "具有鲜明色彩的奇异物质，可以改变细胞的结构。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 815,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_nodule",
+          "count": 4
+        },
+        {
+          "item": "liquidbioooze",
+          "count": 4
+        },
+        {
+          "item": "fuscienceresource",
+          "count": 12
+        },
+        {
+          "item": "fu_salt",
+          "count": 8
+        }
+      ],
+      "output_count": 2,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "tetherhookseed",
+          "voritseed"
+        ]
+      },
+      "bioweapon": {
+        "count": 1,
+        "examples": [
+          "biogun"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "druidstaff2"
+        ]
+      },
+      "whip": {
+        "count": 1,
+        "examples": [
+          "intestinewhip"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "isn_accelgel"
+        ]
+      },
+      "Magnorb": {
+        "count": 1,
+        "examples": [
+          "magnorbatropus"
+        ]
+      },
+      "grenadeLauncher": {
+        "count": 1,
+        "examples": [
+          "slimegrenadelauncher"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "elderbeetle",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "elderbeetle"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

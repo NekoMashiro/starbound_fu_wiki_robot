@@ -1,0 +1,66 @@
+{
+  "entity_id": "ironstynger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Iron Stynger",
+  "name_zh": "铁制发射器",
+  "description_en": "Pump action for turning enemies into pin cushions.",
+  "description_zh": "泵送箭矢，将敌人变成针垫。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 3,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "string",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

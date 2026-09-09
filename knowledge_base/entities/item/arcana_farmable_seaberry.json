@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_farmable_seaberry",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Seaberry",
+  "name_zh": "海莓",
+  "description_en": "A watery fruit with the scent of the ocean tides.",
+  "description_zh": "一种带着海潮气息的水生果实。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 160,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "arcana_food_seatea",
+          "arcana_food_sweetfeastmedley",
+          "arcana_food_tripledelightsalad"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_seaberry",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

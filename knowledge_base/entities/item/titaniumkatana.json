@@ -1,0 +1,58 @@
+{
+  "entity_id": "titaniumkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titanium Katana",
+  "name_zh": "钛制武士刀",
+  "description_en": "An exceptionally fine sword.\r\n4 hit combo",
+  "description_zh": "一把异常精致的武士刀。\n4连斩",
+  "rarity": "uncommon",
+  "category": "katana",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "fuallergen3af",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Seeder Trap Figurine",
+  "name_zh": "播种陷阱雕像",
+  "description_en": "The label reads, \"Releases toxic seeds when threatened.\"",
+  "description_zh": "标签上写着：“受到威胁时释放有毒种子。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuallergen3Hunting",
+          "probability": 0.0012,
+          "count": 1,
+          "monsters": [
+            "fuallergen3"
+          ]
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuallergen3Treasure",
+          "probability": 0.0012,
+          "count": 1,
+          "monsters": [
+            "fuallergen3"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "zerchesiumshield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Shield",
+  "name_zh": "高熔点盾",
+  "description_en": "Fire Protection, +7 Shieldbash Push, 0.2 Regen",
+  "description_zh": "火焰防护，+7盾牌击退，0.2生命回复速度",
+  "rarity": "uncommon",
+  "category": "shield",
+  "price": 250,
+  "tags": [
+    "shield",
+    "upgradeableWeapon",
+    "zerchesium"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 7
+        },
+        {
+          "item": "hardenedcarapace",
+          "count": 3
+        },
+        {
+          "item": "fu_carbon",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

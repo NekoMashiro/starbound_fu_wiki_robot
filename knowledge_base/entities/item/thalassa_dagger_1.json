@@ -1,0 +1,55 @@
+{
+  "entity_id": "thalassa_dagger_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Seaglint",
+  "name_zh": "烁洋",
+  "description_en": "A sharp glowing dagger with the sea's scent.",
+  "description_zh": "发光的锐利匕首，带有海洋的气息。",
+  "rarity": "Uncommon",
+  "category": "dagger",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 10.6,
+  "primaryAbilityType": "arcana_daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_pinkAquamarine",
+          "count": 2
+        },
+        {
+          "item": "turbulent_tile1",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

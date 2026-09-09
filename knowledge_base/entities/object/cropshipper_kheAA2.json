@@ -1,0 +1,45 @@
+{
+  "entity_id": "cropshipper_kheAA2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Terramart Shipments 3.5",
+  "name_zh": "泰拉市场货运站3.5",
+  "description_en": "Wire-controlled Terramart Shipments teleporter.\nUpper Input: On/Off Switch\nLower Input: Item Network",
+  "description_zh": "可以将食物和产品通过物品连接网络传送到泰拉市场。\n顶端输入：开/关\n底端输入：物品网络",
+  "rarity": "Rare",
+  "category": "shippingContainer",
+  "price": 3000,
+  "tags": [
+    "farming"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 25000
+        },
+        {
+          "item": "cropshipper_kheAA",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "能源设备制造器",
+          "name_zh": "能源设备制造器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Terramart Shipments 3.5.md",
+  "quality_tier": "A"
+}

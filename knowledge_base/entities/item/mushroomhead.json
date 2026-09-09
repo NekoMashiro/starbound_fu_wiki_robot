@@ -1,0 +1,83 @@
+{
+  "entity_id": "mushroomhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mushroom Hat",
+  "name_zh": "蘑菇帽",
+  "description_en": "With this hat, you'll be a fungi to be around.",
+  "description_zh": "有了这顶帽子，你会成为周围的一枚真菌。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "shroom",
+          "count": 50
+        },
+        {
+          "item": "fabric",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mushroomUndergroundChestTreasure",
+          "probability": 0.1577,
+          "count": 1.0
+        },
+        {
+          "pool": "florancanyonChestTreasure",
+          "probability": 0.014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.1577
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoMushroomUndergroundTreasure",
+          "probability": 0.1025,
+          "count": 1
+        },
+        {
+          "pool": "mushroomUndergroundTreasure",
+          "probability": 0.0857,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0857,
+        0.1025
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

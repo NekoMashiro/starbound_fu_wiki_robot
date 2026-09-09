@@ -1,0 +1,48 @@
+{
+  "entity_id": "hivetable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hive Table",
+  "name_zh": "蜂巢桌",
+  "description_en": "A sticky table that looks more like a hive than furniture.",
+  "description_zh": "一张黏糊糊的桌子，看起来更像蜂巢而不是家具。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 80,
+  "tags": [
+    "hive"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hive",
+          "count": 30
+        },
+        {
+          "item": "larva",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

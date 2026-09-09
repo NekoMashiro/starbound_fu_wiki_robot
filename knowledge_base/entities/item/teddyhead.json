@@ -1,0 +1,46 @@
+{
+  "entity_id": "teddyhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Teddy Hat",
+  "name_zh": "泰迪帽",
+  "description_en": "This teddy bear wants to rest on your head!",
+  "description_zh": "这只泰迪熊想要在你的头上休息！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "jungleChestTreasure",
+          "probability": 0.0385,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoJungleTreasure",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "jungleTreasure",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.0323
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

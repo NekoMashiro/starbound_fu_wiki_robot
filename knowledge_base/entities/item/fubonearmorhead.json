@@ -1,0 +1,52 @@
+{
+  "entity_id": "fubonearmorhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Mask",
+  "name_zh": "骨制面具",
+  "description_en": "Set Bonuses:\r\n Health x1.05, Fall Damage x0.85\r\n Longsword or Axe: Damage x1.15\r\n Lush/Forest: Health x1.05, Damage x1.05, +5% Phys. Resist",
+  "description_zh": "套装奖励:\n 最大HPx1.05, 坠落伤害x0.85\n 长剑/斧: 伤害x1.15\n 葱郁/森林: 最大HPx1.05, 伤害增幅x1.05, +5% 物理抗性",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "string",
+          "count": 2
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fubonearmor2head"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

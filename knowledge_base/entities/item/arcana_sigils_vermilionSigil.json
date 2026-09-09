@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_sigils_vermilionSigil",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Vermilion Sigil, Lowenherz",
+  "name_zh": "朱红魔印 · 狮心 Lowenherz",
+  "description_en": "An alien sigil, once a construct used by the ancients.",
+  "description_zh": "外星魔印，曾被古人使用的构造。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 10000,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_nanoweave",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_rufescite",
+          "count": 20
+        },
+        {
+          "item": "arcana_essence_vermilionEssence",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "魔匠之桌",
+      "station_zh": "魔匠之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "exousia_sovereign_katana_1",
+          "exousia_sovereign_katana_2"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "exousia_church_staff_1"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

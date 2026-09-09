@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_ore_verrostinOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verrostin Ore",
+  "name_zh": "肃钉矿",
+  "description_en": "A verrostin ore found commonly in the Badlands, can be used for smelting.",
+  "description_zh": "通常可在荒原发现的肃钉矿石，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 140,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_hakenVerrostin"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_corrodiumKnife"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "biomes": [
+    {
+      "biome": "arcana_stahlernBadlands",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Verrostin Ore.md",
+  "quality_tier": "S"
+}

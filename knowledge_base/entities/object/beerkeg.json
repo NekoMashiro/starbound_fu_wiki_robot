@@ -1,0 +1,35 @@
+{
+  "entity_id": "beerkeg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Beer Keg",
+  "name_zh": "啤酒酒桶",
+  "description_en": "A beer...keg. Mmm, beer.",
+  "description_zh": "嗯，啤酒。*嗝*",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 1,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 45
+        },
+        {
+          "item": "beer",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

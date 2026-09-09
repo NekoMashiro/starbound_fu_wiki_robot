@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_zinnofeurTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Zinnofeur Tea",
+  "name_zh": "紫檀茶",
+  "description_en": "Fiery red tea made with zinnofeur leaves. gives a +10% attack boost for 120s.",
+  "description_zh": "用紫檀叶泡制的茶。 在120秒内提供+10%攻击力。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_zinnofeurTeabag",
+          "count": 1
+        },
+        {
+          "item": "liquidlava",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_zinnofeur"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_zinnofeur_drop",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

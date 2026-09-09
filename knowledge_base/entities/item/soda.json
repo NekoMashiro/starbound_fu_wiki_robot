@@ -1,0 +1,98 @@
+{
+  "entity_id": "soda",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Soda",
+  "name_zh": "苏打水",
+  "description_en": "A refreshing can of soda.",
+  "description_zh": "让人耳目一新的苏打。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 40,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "sodaobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_cafe.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "sodaobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_soda",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "vendingtreasure",
+          "probability": 0.325,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

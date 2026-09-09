@@ -1,0 +1,38 @@
+{
+  "entity_id": "pettether",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pet Tether",
+  "name_zh": "宠物拴绳",
+  "description_en": "A creature capture pod can be placed into this device, tethering the pet within its radius.",
+  "description_zh": "生物捕获仓可以放置到此设备上，在设备范围内圈养宠物。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "phasematter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Pet Station",
+      "station_zh": "宠物工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

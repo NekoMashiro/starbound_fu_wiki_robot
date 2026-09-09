@@ -1,0 +1,92 @@
+{
+  "entity_id": "slimesword2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Sword II",
+  "name_zh": "",
+  "description_en": "A sword made out of slime.\tStrange, but effective.",
+  "description_zh": "",
+  "rarity": "Rare",
+  "category": "broadsword",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "melee",
+    "slime",
+    "bioweapon",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 7.6,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "downstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "slimegoo",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "greenslime",
+          "count": 15
+        },
+        {
+          "item": "slimegoo",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "slimesword3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "B"
+}

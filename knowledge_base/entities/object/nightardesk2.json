@@ -1,0 +1,43 @@
+{
+  "entity_id": "nightardesk2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Writing Desk",
+  "name_zh": "夜族写字台",
+  "description_en": "A nicely made Nightarian writing desk.",
+  "description_zh": "一张做得很好的夜族写字台。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 130,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "commerce",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbrastonematerial",
+          "count": 5
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

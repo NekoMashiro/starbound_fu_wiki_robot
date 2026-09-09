@@ -1,0 +1,55 @@
+{
+  "entity_id": "jeffback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Jeff",
+  "name_zh": "杰夫",
+  "description_en": "It is Jeff.",
+  "description_zh": "这是杰夫。",
+  "rarity": "Rare",
+  "category": "backwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_catacombchest",
+          "probability": 0.0538,
+          "count": 1
+        },
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.0252,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0252,
+        0.0538
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneTreasure",
+          "probability": 0.0164,
+          "count": 1
+        },
+        {
+          "pool": "boneTreasure",
+          "probability": 0.0137,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0137,
+        0.0164
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

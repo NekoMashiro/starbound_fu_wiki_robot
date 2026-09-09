@@ -1,0 +1,47 @@
+{
+  "entity_id": "fubonespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone Spear",
+  "name_zh": "骨制长矛",
+  "description_en": "Primitive hunting weapon.\r\nHunting weapon, Floran",
+  "description_zh": "专业狩猎武器。\n狩猎武器，叶族",
+  "rarity": "common",
+  "category": "spear",
+  "price": 10,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "bone",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 9.45,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "huntspearstab",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

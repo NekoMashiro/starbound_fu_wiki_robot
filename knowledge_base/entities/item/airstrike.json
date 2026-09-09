@@ -1,0 +1,56 @@
+{
+  "entity_id": "airstrike",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Missile Salvo",
+  "name_zh": "导弹齐射导引器",
+  "description_en": "Call in a deadly air-to-surface missile barrage.",
+  "description_zh": "从你的飞船上呼叫一轮致命的空对地导弹，对目标进行地毯式的打击。\n只适合在室外环境使用",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketLauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 10,
+  "critBonus": 20,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

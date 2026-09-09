@@ -1,0 +1,41 @@
+{
+  "entity_id": "kiwijamobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kiwi Jam",
+  "name_zh": "猕猴桃果酱",
+  "description_en": "Tangy and refreshing. Try it on toast!",
+  "description_zh": "清香爽口。试试烤面包！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 265,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "kiwijam",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "kiwijam"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

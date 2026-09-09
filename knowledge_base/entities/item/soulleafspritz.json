@@ -1,0 +1,69 @@
+{
+  "entity_id": "soulleafspritz",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Soulleaf Spritz",
+  "name_zh": "魂叶水花",
+  "description_en": "A strange, ethereal brew. Perfect for an out of body experience.\nEthereal and Drunk for 30s.",
+  "description_zh": "一份奇特的、飘渺的酿造。完美的灵魂出窍体验。\n飘飘欲仙且醉酒30秒。",
+  "rarity": "legendary",
+  "category": "drink",
+  "price": 18000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fusoulleafseed",
+          "count": 10
+        },
+        {
+          "item": "phasematter",
+          "count": 4
+        },
+        {
+          "item": "liquidaether",
+          "count": 10
+        },
+        {
+          "item": "elderbeer",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuxithriciteheadkhe"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fuxithricitechestkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "fuxithricitepantskhe"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "blueprints_unlocked": [
+    "fuxithriciteheadkhe",
+    "fuxithricitepantskhe",
+    "fuxithricitechestkhe"
+  ],
+  "wiki_ref": "Soulleaf Spritz.md",
+  "quality_tier": "S"
+}

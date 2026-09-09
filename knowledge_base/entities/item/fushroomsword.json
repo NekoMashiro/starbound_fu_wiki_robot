@@ -1,0 +1,60 @@
+{
+  "entity_id": "fushroomsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mushroom Blade",
+  "name_zh": "蘑菇短剑",
+  "description_en": "Fungus, somehow turned into a weapon.\r\nFloran",
+  "description_zh": "真菌，不知为何变成了一把武器。\n叶族",
+  "rarity": "uncommon",
+  "category": "shortsword",
+  "price": 250,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "bioweapon",
+    "upgradeableWeapon",
+    "floran"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 6.21,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mutagene1",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "shroom",
+          "count": 11
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

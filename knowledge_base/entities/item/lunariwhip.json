@@ -1,0 +1,53 @@
+{
+  "entity_id": "lunariwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Whip",
+  "name_zh": "月晶鞭",
+  "description_en": "A cool whip fashioned from crystal. Put your enemies on ice!\r\nInflicts Slow",
+  "description_zh": "由月晶制成的冰冷鞭子。让你的敌人如履薄冰！\n造成减速",
+  "rarity": "Common",
+  "category": "whip",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "lunari"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

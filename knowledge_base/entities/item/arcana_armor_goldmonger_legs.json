@@ -1,0 +1,51 @@
+{
+  "entity_id": "arcana_armor_goldmonger_legs",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Goldmonger Greaves",
+  "name_zh": "金商护胫",
+  "description_en": "A luxurious piece of greaves worn only by the affluent.",
+  "description_zh": "仅供富商穿的豪华护胫。",
+  "rarity": "Uncommon",
+  "category": "legwear",
+  "price": 1200,
+  "tags": [],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 14
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "fabric",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "thingsinthedarkpainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Dark Ones",
+  "name_zh": "阴暗之物",
+  "description_en": "Some sort of bizarre forms seem to shimmer before you.",
+  "description_zh": "一些奇怪的样式似乎在你面前闪闪发光。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

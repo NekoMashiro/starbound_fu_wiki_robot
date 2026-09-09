@@ -1,0 +1,39 @@
+{
+  "entity_id": "fuheart",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Heart",
+  "name_zh": "心脏",
+  "description_en": "Somebody had a heart. This was it.",
+  "description_zh": "某个人曾拥有的心脏。曾经是这样的。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.2772,
+          "count": 2.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.1809,
+          "count": 2.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "cutebroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Broadsword",
+  "name_zh": "棱镜宽剑",
+  "description_en": "Cute Broads are all the rage these days.",
+  "description_zh": "可爱的少女在任何时间地点都是受欢迎的。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 450,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 4,
+  "critBonus": 3,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "travelingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 4
+        },
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "solaricrystal",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

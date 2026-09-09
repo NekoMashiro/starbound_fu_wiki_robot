@@ -1,0 +1,27 @@
+{
+  "entity_id": "pinkloom",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pinkloom Herb",
+  "name_zh": "粉色织机草",
+  "description_en": "Damage x1.2, Energy x1.2: 1m",
+  "description_zh": "伤害x1.2, 能量x1.2: 1m",
+  "rarity": "Rare",
+  "category": "food",
+  "price": 10,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "pinkloomHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_illuminated",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Illuminated",
+  "name_zh": "黯光",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Illuminated",
+  "friendly_name_zh": "黯光",
+  "ores": [
+    {
+      "ore": "silver",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_holosiumFragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_borealiteOre",
+      "weight": 0.7
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bobfae_monarch",
+    "frostfleck",
+    "frostfly",
+    "icetip",
+    "lumoth_monarch",
+    "pipkin_monarch",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "wintercritter",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_illuminated"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_radiance"
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier7broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fused Emera Broadsword",
+  "name_zh": "熔炼的艾米拉宽剑",
+  "description_en": "This greatsword was designed more for vanity than practicality.",
+  "description_zh": "这把大剑相比实用性更加注重它的豪华程度。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 745,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 4,
+  "critBonus": 7,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "emera",
+          "count": 70
+        },
+        {
+          "item": "opul",
+          "count": 8
+        },
+        {
+          "item": "refinedviolium",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,127 @@
+{
+  "entity_id": "skathreinforcedglass",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Reinforced Glass",
+  "name_zh": "强化玻璃",
+  "description_en": "Sturdy and durable glass.",
+  "description_zh": "坚固耐用的玻璃。",
+  "rarity": "common",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "Medieval Workstation",
+          "name_zh": "中古工作站"
+        },
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 34,
+        "examples": [
+          "mechbodyapex",
+          "mechbodyavian",
+          "mechbodybad",
+          "mechbodybrute",
+          "mechbodycultist"
+        ]
+      },
+      "wire": {
+        "count": 4,
+        "examples": [
+          "fu_quantumgenerator",
+          "isn_fissionreactornew",
+          "makeshiftreactor",
+          "skathfusionreactor"
+        ]
+      },
+      "^orange;Centrifuge^reset;": {
+        "count": 2,
+        "examples": [
+          "centrifuge",
+          "industrialcentrifuge"
+        ]
+      },
+      "^orange;Extraction Device^reset;": {
+        "count": 2,
+        "examples": [
+          "fulargeterminal",
+          "isn_powdersifter"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "skathwindow",
+          "skathwindow2"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "pandorasboxcapturenautpack"
+        ]
+      },
+      "headwear": {
+        "count": 1,
+        "examples": [
+          "pandorasboxcapturenauthead"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fudiverhead"
+        ]
+      }
+    },
+    "total": 49
+  },
+  "quality_tier": "S"
+}

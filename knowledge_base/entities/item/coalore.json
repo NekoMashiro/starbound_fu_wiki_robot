@@ -1,0 +1,279 @@
+{
+  "entity_id": "coalore",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Coal",
+  "name_zh": "煤",
+  "description_en": "It's coal. A decent source of fuel.",
+  "description_zh": "煤，一种像样的燃料来源。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 2,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_honey_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 12,
+        "examples": [
+          "carbonbed",
+          "carbonbookcase",
+          "carboncabinet",
+          "carbonchair",
+          "carboncouch"
+        ]
+      },
+      "decorative": {
+        "count": 12,
+        "examples": [
+          "caveart3",
+          "snowpersonbottom2",
+          "snowpersonbottomglitch",
+          "snowpersonhead2",
+          "snowpersonheadapex"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "carbondesklamp",
+          "carbonlamp",
+          "carbonwalllamp",
+          "torch"
+        ]
+      },
+      "clothingDye": {
+        "count": 2,
+        "examples": [
+          "blackdye",
+          "fu_blackdye"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "fu_carbon",
+          "fu_carbondioxide"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "carbonchestlarge",
+          "carbonchestsmall"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "carbonfridge",
+          "carbonminifridge"
+        ]
+      },
+      "other": {
+        "count": 2,
+        "examples": [
+          "",
+          ""
+        ]
+      }
+    },
+    "total": 47
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "sulphur",
+        "diamond",
+        "fu_carbon",
+        "fu_carbondioxide"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "fu_carbon",
+      "bonus": [
+        "sulphur",
+        "diamond",
+        "fu_carbon",
+        "fu_carbondioxide"
+      ]
+    }
+  ],
+  "machine_produced_by": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "fu_carbonpure"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "fu_carbonpure"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 20,
+    "mining": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fu_bountyrewardbagores",
+          "probability": 21.6,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_coalore",
+          "probability": 3.0,
+          "count": 7.5
+        },
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox_5",
+          "probability": 1.0,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox_5",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.4057,
+          "count": 7.5
+        },
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox",
+          "probability": 0.4,
+          "count": 3.0
+        }
+      ],
+      "prob_range": [
+        0.138,
+        3.0
+      ]
+    },
+    "monster_drops": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "pandorasboxcoalorelitTreasure",
+          "probability": 1.0001,
+          "count": 10.2
+        },
+        {
+          "pool": "pandorasboxCoalOreSmallestTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxCoalOreSmallerTreasure",
+          "probability": 1.0,
+          "count": 5
+        },
+        {
+          "pool": "pandorasboxCoalOreSmallTreasure",
+          "probability": 1.0,
+          "count": 10
+        },
+        {
+          "pool": "pandorasboxCoalOreMediumTreasure",
+          "probability": 1.0,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0001
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxcoalorelitHarvest",
+          "probability": 1.0001,
+          "count": 10.2
+        },
+        {
+          "pool": "solusberryHarvest",
+          "probability": 0.1379,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1379,
+        1.0001
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "ffcoalmine",
+      "weight": 1.05
+    },
+    {
+      "biome": "underground1b",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_arcaneDesert_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_cinderedCavern",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_bambooForest",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_solarizedLakes",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ancientCave",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_blistering",
+      "weight": 1.0
+    },
+    {
+      "biome": "underground0b",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_volcanicCave",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Coal.md",
+  "quality_tier": "S"
+}

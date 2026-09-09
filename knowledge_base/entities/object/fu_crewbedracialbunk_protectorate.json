@@ -1,0 +1,31 @@
+{
+  "entity_id": "fu_crewbedracialbunk_protectorate",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "P. Crew Bunk Bed",
+  "name_zh": "船员双层床",
+  "description_en": "A standard Protectorate ship bunk bed. Crew +1. Counts as a deed. BYOS Only. Extract to return Crew Bunk.",
+  "description_zh": "标准的保护船双层床。船员+1 。算作契约。只在建造船体模式下生效。提取返回船员床铺。",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "protectorate",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_crewbed",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

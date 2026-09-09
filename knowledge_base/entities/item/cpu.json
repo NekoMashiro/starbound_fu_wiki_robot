@@ -1,0 +1,106 @@
+{
+  "entity_id": "cpu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Processor",
+  "name_zh": "高级处理器",
+  "description_en": "A high-end processor.",
+  "description_zh": "一块高端的处理器。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 45,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 13,
+        "examples": [
+          "mecharmclustermine",
+          "mecharmsentrygun",
+          "mecharmshielddrone1",
+          "mecharmspikefist2",
+          "mechbodybad"
+        ]
+      },
+      "rocketLauncher": {
+        "count": 4,
+        "examples": [
+          "airstrike",
+          "crappyartillery",
+          "minirocketlauncher",
+          "mobiusrailgun"
+        ]
+      },
+      "eppAugment": {
+        "count": 4,
+        "examples": [
+          "fu_pickuprangeaugment1",
+          "fudefenseaugment2",
+          "fumobility1",
+          "futotalimmunity1"
+        ]
+      },
+      "headarmour": {
+        "count": 4,
+        "examples": [
+          "skullreaperhelm",
+          "skullreaperhelm2",
+          "skullreaperhelm3",
+          "spacefarerheadadv"
+        ]
+      },
+      "wire": {
+        "count": 3,
+        "examples": [
+          "fu_atmosfilter",
+          "fu_solararray",
+          "isn_thermalgenerator"
+        ]
+      },
+      "mechChip": {
+        "count": 3,
+        "examples": [
+          "mechaimassist",
+          "mechenergyfield2",
+          "mechmobility"
+        ]
+      },
+      "crafting": {
+        "count": 2,
+        "examples": [
+          "beeexaminer2",
+          "electronmicroscope"
+        ]
+      },
+      "assaultRifle": {
+        "count": 2,
+        "examples": [
+          "funomadassaultrifle",
+          "mobiusrifle"
+        ]
+      }
+    },
+    "total": 50
+  },
+  "quality_tier": "S"
+}

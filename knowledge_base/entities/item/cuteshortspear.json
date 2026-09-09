@@ -1,0 +1,62 @@
+{
+  "entity_id": "cuteshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Shortspear",
+  "name_zh": "棱镜短矛",
+  "description_en": "Much more dangerous than it looks.\r\nCounts as 'energy' for set bonuses\r\nHunting weapon",
+  "description_zh": "比看上去要危险得多。\n能量武器\n狩猎武器",
+  "rarity": "rare",
+  "category": "shortspear",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.6,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 1
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

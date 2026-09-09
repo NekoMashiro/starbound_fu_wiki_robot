@@ -1,0 +1,59 @@
+{
+  "entity_id": "doomdoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Doom Door",
+  "name_zh": "厄运门",
+  "description_en": "A creepy doom door.",
+  "description_zh": "一个让人毛骨悚然的厄运门",
+  "rarity": "Common",
+  "category": "door",
+  "price": 100,
+  "tags": [
+    "evil",
+    "door",
+    "doom"
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "rarefurniture",
+          "probability": 0.027,
+          "count": 1
+        },
+        {
+          "pool": "elduurarefurniture",
+          "probability": 0.027,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.027
+      ]
+    },
+    "quest_rewards": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0011,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0011,
+        0.0065
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

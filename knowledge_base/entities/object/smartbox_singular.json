@@ -1,0 +1,35 @@
+{
+  "entity_id": "smartbox_singular",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Single-Slot Storage",
+  "name_zh": "智能箱(单储存槽)",
+  "description_en": "Storage with only one slot!\r\nItem-Network compatible.",
+  "description_zh": "只有一个储存槽的智能箱！\n兼容物品传输网络。",
+  "rarity": "common",
+  "category": "Smart Box",
+  "price": 100,
+  "tags": [
+    "smart",
+    "box"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

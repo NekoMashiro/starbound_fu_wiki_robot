@@ -1,0 +1,105 @@
+{
+  "entity_id": "meatchunk",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meat Chunk",
+  "name_zh": "肉块",
+  "description_en": "A large chunk of barely cooked alien meat. An Avikan favourite.\n+20% HP (2m) \nType: Cooked Meat",
+  "description_zh": "一大块完全煮熟的未知生物的肉。阿威坎人最喜欢的食物。\n+20%HP(持续2m)\n类型：熟肉食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 30,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "alienmeat",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 32
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "acutaque",
+          "avikanmeal",
+          "stuffeddunebun"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "kadavanmeatjuice"
+        ]
+      },
+      "petfood": {
+        "count": 1,
+        "examples": [
+          "petfood4"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "blueprints_unlocked": [
+    "avikanmeal"
+  ],
+  "quality_tier": "S"
+}

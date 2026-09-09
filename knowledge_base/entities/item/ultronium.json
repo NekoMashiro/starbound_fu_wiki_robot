@@ -1,0 +1,71 @@
+{
+  "entity_id": "ultronium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ultronium Rod",
+  "name_zh": "奥创棒",
+  "description_en": "A unique isotope created by very specific circumstances.\n+120 Fuel",
+  "description_zh": "一种独特的同位素，在极其严苛的环境下才能创造出来。\n燃料+120",
+  "rarity": "legendary",
+  "category": "fuel",
+  "price": 300,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mecharmpointdefense3",
+          "mecharmspikefist4"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "futotalimmunity2"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumchestkhe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumheadkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumlegskhe"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "elderhealingstationauto"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "hypercompressor"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "isn_atmosregulatorwarped"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "wiki_ref": "Ultronium Rod.md",
+  "quality_tier": "A"
+}

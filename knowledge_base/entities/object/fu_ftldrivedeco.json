@@ -1,0 +1,34 @@
+{
+  "entity_id": "fu_ftldrivedeco",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Decorative FTL Drive",
+  "name_zh": "FTL引擎(装饰用)",
+  "description_en": "A decorative FTL drive. Doesn't do anything.",
+  "description_zh": "一装饰用的外接FTL引擎，有了它你的飞船..呃..它只是个空壳子，什么都做不了",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "supermatter",
+          "count": 5
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

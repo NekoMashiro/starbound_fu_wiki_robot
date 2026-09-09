@@ -1,0 +1,48 @@
+{
+  "entity_id": "craftingfurnace",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Primitive Furnace",
+  "name_zh": "原始熔炉",
+  "description_en": "Used to turn ores and other materials into crafting ingredients.",
+  "description_zh": "用于将矿物及其他原料转化成制作材料。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 20
+        },
+        {
+          "item": "mud",
+          "count": 4
+        },
+        {
+          "item": "campfire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "arcana_aurea_chair_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ship Chair",
+  "name_zh": "恒金飞船椅",
+  "description_en": "A comfortable chair for Aurea's ship crew.",
+  "description_zh": "给恒金飞船船员的舒适椅子。",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 180,
+  "tags": [
+    "aurea"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

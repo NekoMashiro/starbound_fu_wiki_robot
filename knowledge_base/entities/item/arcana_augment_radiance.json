@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_augment_radiance",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EPA - Pale",
+  "name_zh": "EPP增强模块 - 苍白",
+  "description_en": "Grants Radiance immunity. Useful as an Pale EPP replacement.",
+  "description_zh": "提供对辉光的免疫。作为苍白EPP的替换十分合适。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 2100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "smallbattery",
+          "count": 4
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        },
+        {
+          "item": "arcana_back_illuminatedEPP",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

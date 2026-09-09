@@ -1,0 +1,54 @@
+{
+  "entity_id": "flowerlamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hanging Flower Lamp",
+  "name_zh": "悬挂花灯",
+  "description_en": "A blue flower lamp.",
+  "description_zh": "一盏蓝色花灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 50,
+  "tags": [
+    "spring",
+    "nature",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalblue",
+          "count": 20
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

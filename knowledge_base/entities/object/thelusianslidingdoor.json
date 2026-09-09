@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusianslidingdoor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Sliding Door",
+  "name_zh": "蚁族推拉门",
+  "description_en": "Interlocking chitin plates provide security and ease of access.",
+  "description_zh": "联锁几丁质板提供了安全性和易接近性。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "thelusian",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 3
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

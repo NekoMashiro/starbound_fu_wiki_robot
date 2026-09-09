@@ -1,0 +1,55 @@
+{
+  "entity_id": "lunaricrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Crossbow",
+  "name_zh": "月晶弩",
+  "description_en": "Shard-like bolts puncture foes. Great for hunting.",
+  "description_zh": "像碎片一样的箭头刺穿敌人。非常适合打猎。",
+  "rarity": "common",
+  "category": "crossbow",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 5,
+  "critBonus": 3,
+  "altAbilityType": "icemist",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "crystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "mwhaddon_misc_defyingFragment",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Defying Fragment",
+  "name_zh": "悖理残块",
+  "description_en": "A fragment from Void Merisis. The power it carries does not originate from itself.",
+  "description_zh": "源自虚空增生体的碎片，其中所承载的力量并非来自于它自身。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 320,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_voidMerisis_assaultRifle_1"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_voidMerisis_broadsword_1"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_boss_voidMerisis_staff_1"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_voidMerisis",
+          "probability": 1.0,
+          "count": 16,
+          "monsters": [
+            "mwhaddon_boss_voidMerisis"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

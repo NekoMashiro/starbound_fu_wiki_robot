@@ -1,0 +1,71 @@
+{
+  "entity_id": "fumonsterclaw",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mutaclaw",
+  "name_zh": "怪物爪子",
+  "description_en": "Are these... severed monster hands? AWESOME!\r\nInflicts Bleeding",
+  "description_zh": "这些是……被切断的怪物爪？太棒了！！\n附加出血效果",
+  "rarity": "rare",
+  "category": "fistWeapon",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 9.0,
+  "critChance": 3,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 8
+        },
+        {
+          "item": "fleshstrand",
+          "count": 6
+        },
+        {
+          "item": "biosample",
+          "count": 8
+        },
+        {
+          "item": "corruptionseed",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "severedhandinabagaugment"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

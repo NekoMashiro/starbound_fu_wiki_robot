@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_food_overloadcherrypie",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Overload Cherry Pie",
+  "name_zh": "高能樱桃派",
+  "description_en": "Crafted from cherries that may detonate under high pressure- it is said their inventor met his end in this very manner. [YLin Kis]\n\n+Restores 40 Health.\n+Triggers explosions, dealing indiscriminate damage per hit.",
+  "description_zh": "使用一种可能会在高压下爆炸的樱桃制成，据说它的发明者就是这样死的。[䵚陌朽诗]，远行Mod主美\n恢复40生命值\n每次受击时都会触发无视敌我的爆炸",
+  "rarity": "Essential",
+  "category": "preparedFood",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 3
+        },
+        {
+          "item": "pussplum",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        },
+        {
+          "item": "volatilepowder",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

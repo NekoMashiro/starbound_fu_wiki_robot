@@ -1,0 +1,42 @@
+{
+  "entity_id": "proximitysensor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pressure Plate",
+  "name_zh": "压力板",
+  "description_en": "This pressure plate activates when stepped on.",
+  "description_zh": "这个压力板被踩下后就会激活。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 15,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "gravitonpistolunique",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Susan",
+  "name_zh": "苏珊",
+  "description_en": "A famous modified Graviton pistol thought lost forever.\r\nCauses Freeze\r\nPowerful knockback",
+  "description_zh": "一个著名的改进型重力手枪的想法永远地消失了。\n附加冻结效果\n强力的击退",
+  "rarity": "essential",
+  "category": "pistol",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "energy",
+    "upgradeableWeapon",
+    "gravity"
+  ],
+  "elementalType": "cosmic",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 7.7,
+  "critChance": 1,
+  "critBonus": 5,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0231,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

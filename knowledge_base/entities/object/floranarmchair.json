@@ -1,0 +1,49 @@
+{
+  "entity_id": "floranarmchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Primitive Armchair",
+  "name_zh": "原始扶手椅",
+  "description_en": "It's just an armchair made of bones. No big deal.",
+  "description_zh": "这就是把骨头做成的扶手椅。没什么大不了的。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 110,
+  "tags": [
+    "floran",
+    "floranvillage"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "floranvillagetowerTreasure",
+          "probability": 0.0429,
+          "count": 1
+        },
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0339,
+        0.0429
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

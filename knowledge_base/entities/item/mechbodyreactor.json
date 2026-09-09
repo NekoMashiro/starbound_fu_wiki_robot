@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechbodyreactor",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Reactor Mech Body",
+  "name_zh": "反应堆机体",
+  "description_en": "Immune: Moderate Cold, Mild Poison, Desert/Jungle Heat",
+  "description_zh": "免疫: 中度寒冷，轻度毒素, 丛林/沙漠炎热",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 8000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 20
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 6
+        },
+        {
+          "item": "cpu",
+          "count": 2
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

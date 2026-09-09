@@ -1,0 +1,36 @@
+{
+  "entity_id": "fudefenseaugment3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kinetic Field III",
+  "name_zh": "EPP模块（动能力场 III）",
+  "description_en": "An EPP module that multiplies Defense by 1.1.",
+  "description_zh": "一个让防御x1.1的EPP模块。",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuprocessor",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

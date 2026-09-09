@@ -1,0 +1,57 @@
+{
+  "entity_id": "rooftiles",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Roof Tiles",
+  "name_zh": "屋顶瓦片",
+  "description_en": "Weathered roof tiles. Their shape makes me feel uneasy.",
+  "description_zh": "风化的屋顶瓦片，形状让我感到不安。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "firedclay",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 6,
+        "examples": [
+          "arcana_tile16",
+          "arcana_tile17",
+          "arcana_tile18",
+          "arcana_tile19",
+          "ornateroofing"
+        ]
+      }
+    },
+    "total": 6
+  },
+  "quality_tier": "S"
+}

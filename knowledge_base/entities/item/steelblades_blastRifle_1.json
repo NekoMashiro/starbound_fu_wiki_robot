@@ -1,0 +1,78 @@
+{
+  "entity_id": "steelblades_blastRifle_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verrostin Blaster",
+  "name_zh": "肃钉冲击波",
+  "description_en": "A blast-rifle made from verrostin. Used by the Steelblades.",
+  "description_zh": "由肃钉制成的爆射步枪。由钢刃使用。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "blastrifle",
+    "verrostin"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "primaryAbilityType": "chargefire",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 16
+        },
+        {
+          "item": "wire",
+          "count": 6
+        },
+        {
+          "item": "ironbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "arcana_back_verrostinRifle"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "exousia_imperialArmy_2_broadsword_1"
+        ]
+      },
+      "mwhaddon_submachineGun": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_submachineGun_eschatonSeeker"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

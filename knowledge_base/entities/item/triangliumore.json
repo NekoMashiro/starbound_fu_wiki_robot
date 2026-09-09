@@ -1,0 +1,122 @@
+{
+  "entity_id": "triangliumore",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Trianglium Ore",
+  "name_zh": "三棱矿",
+  "description_en": "Trianglium Ore. Beautiful smooth shiny triangles.",
+  "description_zh": "三棱矿，一种美丽、光滑而又闪亮的三角形矿石。",
+  "rarity": "rare",
+  "category": "craftingOre",
+  "price": 270,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "triangliumpyramid"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "triangliumpyramid",
+      "bonus": [
+        "ff_mercury",
+        "ff_silicon"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "triangliumpyramid",
+      "bonus": [
+        "ff_mercury",
+        "ff_silicon"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0252,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0035,
+          "count": 5
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0015,
+          "count": 5
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.001,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0252
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "futentacleunderground",
+      "weight": 1.0
+    },
+    {
+      "biome": "fleshcorelayer",
+      "weight": 1.0
+    },
+    {
+      "biome": "ffshadow",
+      "weight": 1.0
+    },
+    {
+      "biome": "tentacleasteroid",
+      "weight": 1.0
+    },
+    {
+      "biome": "fftarpit",
+      "weight": 1.0
+    },
+    {
+      "biome": "lightlessunderground",
+      "weight": 1.0
+    },
+    {
+      "biome": "fugasgiant2",
+      "weight": 0.8
+    },
+    {
+      "biome": "gasgiantcorelayer3",
+      "weight": 0.8
+    },
+    {
+      "biome": "fugasgiantunderground3",
+      "weight": 0.8
+    },
+    {
+      "biome": "fugasgiantunderground2",
+      "weight": 0.8
+    }
+  ],
+  "wiki_ref": "Trianglium Ore.md",
+  "quality_tier": "S"
+}

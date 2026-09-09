@@ -1,0 +1,53 @@
+{
+  "entity_id": "gemstation",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Fusion Station",
+  "name_zh": "水晶融合站",
+  "description_en": "A station to create new gem plants.",
+  "description_zh": "一处创造新的宝石植物的工作站。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 250,
+  "tags": [
+    "elduukhar",
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 40
+        },
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "glass",
+          "count": 10
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        },
+        {
+          "name": "工程师工作台",
+          "name_zh": "工程师工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

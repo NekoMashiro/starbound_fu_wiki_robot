@@ -1,0 +1,44 @@
+{
+  "entity_id": "fuaetherdoor2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aether Door",
+  "name_zh": "以太门",
+  "description_en": "A heavy door made from cosmic materials.",
+  "description_zh": "一扇由宇宙物质制作而成的沉重的门。",
+  "rarity": "Legendary",
+  "category": "door",
+  "price": 95,
+  "tags": [
+    "fu",
+    "aether",
+    "pretty",
+    "valuable",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherstone",
+          "count": 6
+        },
+        {
+          "item": "retexaetherdust",
+          "count": 14
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "tomatoseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tomato Seed",
+  "name_zh": "番茄种子",
+  "description_en": "Tomatoes are a rich, juicy fruit. Or vegetable. One of the two.",
+  "description_zh": "番茄是一种富含汁水的水果。或者说是一种蔬菜。反正是二者之一。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 3
+        },
+        {
+          "item": "livingroot",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "automatoseed",
+          "teratomatoseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "tomatoHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

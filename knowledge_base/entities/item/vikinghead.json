@@ -1,0 +1,46 @@
+{
+  "entity_id": "vikinghead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Viking Helm",
+  "name_zh": "维京头盔",
+  "description_en": "An incredibly historically inaccurate Viking helmet.",
+  "description_zh": "一个令人难以置信的、历史不明的维京头盔。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.0219,
+          "count": 1
+        },
+        {
+          "pool": "dungeoncrawlerChestTreasure",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.0219
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.0154,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

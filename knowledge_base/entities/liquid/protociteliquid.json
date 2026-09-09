@@ -1,0 +1,44 @@
+{
+  "entity_id": "protociteliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "protociteliquid",
+  "name_zh": "",
+  "description_en": "You could call this protoliquid.",
+  "description_zh": "你可以称之为原体液",
+  "status_effects": [
+    "swimming",
+    "energyregenfu20"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "slime"
+    },
+    {
+      "liquid": 3,
+      "materialResult": "slime2"
+    },
+    {
+      "liquid": 8,
+      "materialResult": "fujellyblock"
+    },
+    {
+      "liquid": 41,
+      "liquidResult": 47
+    },
+    {
+      "liquid": 43,
+      "liquidResult": 43
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 46,
+      "materialResult": "wastestone"
+    }
+  ],
+  "quality_tier": "C"
+}

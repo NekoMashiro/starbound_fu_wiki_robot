@@ -1,0 +1,56 @@
+{
+  "entity_id": "gravitystaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Matter Staff",
+  "name_zh": "宗师法杖",
+  "description_en": "Primary: Foreground, Secondary: Background.",
+  "description_zh": "主要攻击：前景，次要攻击：背景",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "gravity"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "primaryAbilityType": "elementorb",
+  "altAbilityType": "elementorb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 8
+        },
+        {
+          "item": "elderrelic1",
+          "count": 2
+        },
+        {
+          "item": "precursorfluid",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Matter Staff.md",
+  "quality_tier": "A"
+}

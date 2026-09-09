@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechbodytitan",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Titan Mech Body",
+  "name_zh": "泰坦机甲躯体",
+  "description_en": "Immune: Pressure, Extreme Heat/Cold/Radiation/Poison, Proto, Acid, L.Nitro, Aether",
+  "description_zh": "免疫：压强，极端毒素/炎热/寒冷/辐射，原毒，酸蚀，液氮，以太",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 9200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedviolium",
+          "count": 30
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 15
+        },
+        {
+          "item": "nuclearcore",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 10
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

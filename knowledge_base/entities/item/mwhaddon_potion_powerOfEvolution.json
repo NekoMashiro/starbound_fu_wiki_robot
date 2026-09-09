@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_potion_powerOfEvolution",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Power of Evolution",
+  "name_zh": "进化之力",
+  "description_en": "But at what cost?\nFor 120s, boosts damage and weakens defense each time (up to 5 times) you get hit. Up to 75% damage boost and 25 defense reduction.",
+  "description_zh": "但，代价是什么呢？\n120秒内，你每次受伤都会获得伤害加成和防御降低（最多五次）。最多获得75%伤害加成，降低25防御。",
+  "rarity": "uncommon",
+  "category": "medicine",
+  "price": 180,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "通灵者之桌",
+      "station_zh": "通灵者之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "protectorateoven",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protectorate Oven",
+  "name_zh": "大地守护团烤箱",
+  "description_en": "It's been so long since I had a home cooked meal... or a home.",
+  "description_zh": "我很久没吃家常菜了...或者一个家。",
+  "rarity": "Rare",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "protectorate",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "protectorateset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

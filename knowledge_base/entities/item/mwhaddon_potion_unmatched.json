@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_potion_unmatched",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Potion of Unmatched",
+  "name_zh": "超人药剂",
+  "description_en": "With the exception of dot, I'd say.\nBeing invulnerable for 15s at the cost of -15 defense for 45 sec.",
+  "description_zh": "可惜还是防不住dot。\n获得15秒无敌，代价是45秒内防御降低15。",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 5
+        },
+        {
+          "item": "liquidwater",
+          "count": 20
+        },
+        {
+          "item": "bottle",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

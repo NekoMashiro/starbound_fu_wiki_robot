@@ -1,0 +1,57 @@
+{
+  "entity_id": "peglacitorch2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Glowstar",
+  "name_zh": "发光星",
+  "description_en": "This glowing crystal can provide illumination under the water as well.",
+  "description_zh": "这种发光的水晶也能在水下提供照明。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 50,
+  "tags": [
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_fluxtart",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Fluxtart",
+  "name_zh": "橙光挞",
+  "description_en": "A luminous tart with a suspicious extremely sweet flavor. [Kumochan]\n\n+Glow 2 min.\n+20% Max Health 4 min.",
+  "description_zh": "发光的蛋挞，甜到发齁。[云酱]\n\n2分钟发光。\n4分钟+20%最大生命值",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 120,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_flowers_orangeFluxroot",
+          "count": 1
+        },
+        {
+          "item": "wheat",
+          "count": 1
+        },
+        {
+          "item": "sugar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

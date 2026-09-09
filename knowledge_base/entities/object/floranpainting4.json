@@ -1,0 +1,40 @@
+{
+  "entity_id": "floranpainting4",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Primitive Leaf Painting",
+  "name_zh": "原始的树叶画",
+  "description_en": "It appears to be a painting of a falling leaf.",
+  "description_zh": "好像是一幅落叶的画。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 55,
+  "tags": [
+    "floran",
+    "floranvillage",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

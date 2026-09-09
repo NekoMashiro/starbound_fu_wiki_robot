@@ -1,0 +1,112 @@
+{
+  "entity_id": "slimegrenadelauncher",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Grenade Launcher",
+  "name_zh": "黏液榴弹发射器",
+  "description_en": "Fires remotely-detonated blobs of slime.\r\nCounts as Hunting Weapon.  \r\nDetonate all blobs with right-click.",
+  "description_zh": "发射远程引爆的粘液泡。\n狩猎武器\n右键引爆所有气泡。",
+  "rarity": "rare",
+  "category": "grenadeLauncher",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "slime",
+    "bioweapon",
+    "grenadelauncher",
+    "upgradeableWeapon",
+    "explosive"
+  ],
+  "level": 6,
+  "twoHanded": true,
+  "critChance": 1,
+  "critBonus": 12,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 2
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 4
+        },
+        {
+          "item": "slime",
+          "count": 12
+        },
+        {
+          "item": "corruptionseed",
+          "count": 4
+        },
+        {
+          "item": "mutagene4",
+          "count": 1
+        },
+        {
+          "item": "slimelauncher",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "slimesuperTreasure",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.012,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Slime Grenade Launcher.md",
+  "quality_tier": "S"
+}

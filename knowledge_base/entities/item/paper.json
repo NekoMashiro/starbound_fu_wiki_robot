@@ -1,0 +1,214 @@
+{
+  "entity_id": "paper",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Paper",
+  "name_zh": "纸",
+  "description_en": "It's a sheet of paper.",
+  "description_zh": "这是一张纸。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_artisan_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "logblock",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 20,
+        "examples": [
+          "arcana_archaic_deco_11",
+          "arcana_lunar_deco_15",
+          "arcana_lunar_deco_5",
+          "arcana_lunar_walldeco_3",
+          "arcana_lunar_walldeco_4"
+        ]
+      },
+      "block": {
+        "count": 17,
+        "examples": [
+          "arcana_tile21",
+          "bookpiles",
+          "cheapwallpaper",
+          "dollhousestriped",
+          "dollhousewall"
+        ]
+      },
+      "light": {
+        "count": 5,
+        "examples": [
+          "arcana_lunar_light_1",
+          "arcana_lunar_light_2",
+          "arcana_lunar_light_3",
+          "arcana_lunar_light_4",
+          "arcana_lunar_light_5"
+        ]
+      },
+      "crafting": {
+        "count": 3,
+        "examples": [
+          "elderscrolldeskwood",
+          "madnesscodex",
+          "prototyper"
+        ]
+      },
+      "throwableItem": {
+        "count": 3,
+        "examples": [
+          "firework",
+          "fireworkblue",
+          "fireworkgreen"
+        ]
+      },
+      "medicine": {
+        "count": 2,
+        "examples": [
+          "fudeathstick",
+          "mwhaddon_potion_darkgoldPowder"
+        ]
+      },
+      "tool": {
+        "count": 1,
+        "examples": [
+          "arcana_guideBook"
+        ]
+      },
+      "You're a creep.": {
+        "count": 1,
+        "examples": [
+          "bizarreerotica"
+        ]
+      }
+    },
+    "total": 62
+  },
+  "drop_sources": {
+    "total_pools": 9,
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingbooks",
+          "probability": 2.24,
+          "count": 1.5
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybooks",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkbooks",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_catacombbooks",
+          "probability": 0.7746,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_darkbookcase",
+          "probability": 0.6667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.6667,
+        2.24
+      ]
+    },
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "arcana_treasure_paper",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_treasure_timeless_1",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_treasure_general_books",
+          "probability": 0.7,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.7,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_3_1",
+          "probability": 1.0,
+          "count": 1.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

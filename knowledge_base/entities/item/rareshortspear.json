@@ -1,0 +1,225 @@
+{
+  "entity_id": "rareshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rare Shortspear",
+  "name_zh": "精良短矛",
+  "description_en": "This swift melee weapon will make them bleed.",
+  "description_zh": "这把快速的近战武器会让你的敌人流血。",
+  "rarity": "Rare",
+  "category": "shortspear",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "twoHanded": false,
+  "baseDps": [
+    4.5,
+    6.0
+  ],
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "drop_sources": {
+    "total_pools": 248,
+    "other": {
+      "count": 9,
+      "top": [
+        {
+          "pool": "rareMelee",
+          "probability": 0.05,
+          "count": 1
+        },
+        {
+          "pool": "elduugoodWeapon",
+          "probability": 0.0175,
+          "count": 1
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.0091,
+          "count": 1.0
+        },
+        {
+          "pool": "goodWeapon",
+          "probability": 0.0082,
+          "count": 1
+        },
+        {
+          "pool": "elduuweapon",
+          "probability": 0.005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.05
+      ]
+    },
+    "boss_mission": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0418,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.002,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "dragonbosstreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0418
+      ]
+    },
+    "chest_loot": {
+      "count": 115,
+      "top": [
+        {
+          "pool": "fu_lootboxRareWeapon",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxEpicWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxLegendaryWeapon",
+          "probability": 0.0323,
+          "count": 1
+        },
+        {
+          "pool": "fuStarterDungeonTreasure",
+          "probability": 0.0096,
+          "count": 1.0
+        },
+        {
+          "pool": "challengeChestTreasure",
+          "probability": 0.0096,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0333
+      ]
+    },
+    "monster_drops": {
+      "count": 111,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoWeaponTreasure",
+          "probability": 0.0202,
+          "count": 1
+        },
+        {
+          "pool": "endTreasure",
+          "probability": 0.0044,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 0.0044,
+          "count": 1.0
+        },
+        {
+          "pool": "apextestfacilityRareTreasure",
+          "probability": 0.0043,
+          "count": 1.0
+        },
+        {
+          "pool": "apexbaseRareTreasure",
+          "probability": 0.0043,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0202
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0048,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0043,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0048
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0012,
+          "count": 1.0
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0007,
+          "count": 1.0
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.0007,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0006,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0012
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

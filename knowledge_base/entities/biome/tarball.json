@@ -1,0 +1,78 @@
+{
+  "entity_id": "tarball",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tar Ball",
+  "name_zh": "焦油",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Tar Ball",
+  "friendly_name_zh": "焦油",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "lead",
+      "weight": 0.2
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.2
+    },
+    {
+      "ore": "magnesium",
+      "weight": 0.2
+    },
+    {
+      "ore": "neptunium",
+      "weight": 0.2
+    },
+    {
+      "ore": "thorium",
+      "weight": 0.2
+    }
+  ],
+  "monsters": [
+    "anglure3",
+    "bandraflora2",
+    "fuoildrip",
+    "fuparasprite",
+    "futargolem",
+    "pandorasboxhummingbug",
+    "petricub",
+    "pyropod",
+    "quagmutt",
+    "smoglin",
+    "taroni",
+    "tarpin",
+    "tarslime",
+    "voltip"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:volcanic"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomeheat1"
+  ],
+  "wiki_ref": "Tar Ball.md",
+  "quality_tier": "C"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "floransurvivalistlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Survivalist Legs",
+  "name_zh": "生存护腿",
+  "description_en": "Adorned with material from hunted prey. A good hunter makes use of every part they can.",
+  "description_zh": "装饰着猎获的素材。一个好的猎人能利用好猎物的每个部分。",
+  "rarity": "Common",
+  "category": "legwear",
+  "price": 35,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

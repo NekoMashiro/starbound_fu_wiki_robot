@@ -1,0 +1,318 @@
+{
+  "entity_id": "techcard",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Tech Card",
+  "name_zh": "科技卡",
+  "description_en": "A blank tech card. With enough of these I can develop enhanced techs.",
+  "description_zh": "一张空白的科技卡。如果我能收集一些的话就可以使用更高级的科技了。",
+  "rarity": "Legendary",
+  "category": "upgradeComponent",
+  "price": 1250,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "stickofram",
+          "count": 2
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 450
+        }
+      ],
+      "output_count": 10,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechChip": {
+        "count": 26,
+        "examples": [
+          "mechaimassist",
+          "mechchipcontrol",
+          "mechchipfeather",
+          "mechchipfuel",
+          "mechchipovercharge"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 14,
+        "examples": [
+          "arcana_tech_cinderCore",
+          "arcana_tech_cinderSurge",
+          "arcana_tech_cinderWalkers",
+          "arcana_tech_jungleVest",
+          "arcana_tech_nobleWalkers"
+        ]
+      },
+      "eppAugment": {
+        "count": 12,
+        "examples": [
+          "fuammoaugment",
+          "fuammoaugment2",
+          "fuammoaugment3",
+          "fuammoaugment4",
+          "fuammoaugment5"
+        ]
+      }
+    },
+    "total": 52
+  },
+  "drop_sources": {
+    "total_pools": 426,
+    "monster_drops": {
+      "count": 252,
+      "top": [
+        {
+          "pool": "endTreasure",
+          "probability": 0.9092,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 0.9092,
+          "count": 1.0
+        },
+        {
+          "pool": "valuableTechTreasure",
+          "probability": 0.6,
+          "count": 2.5
+        },
+        {
+          "pool": "elduuvaluableTechTreasure",
+          "probability": 0.6,
+          "count": 2.5
+        },
+        {
+          "pool": "pandorasboxtrapogoTechTreasure",
+          "probability": 0.5638,
+          "count": 2.5
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.9092
+      ]
+    },
+    "boss_mission": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.675,
+          "count": 1.0
+        },
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 0.534,
+          "count": 1
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 0.534,
+          "count": 1
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.4369,
+          "count": 1
+        },
+        {
+          "pool": "glitchmission1Reward",
+          "probability": 0.4306,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.675
+      ]
+    },
+    "chest_loot": {
+      "count": 119,
+      "top": [
+        {
+          "pool": "techChestTreasure",
+          "probability": 0.6,
+          "count": 2.5
+        },
+        {
+          "pool": "elduutechChestTreasure",
+          "probability": 0.6,
+          "count": 2.5
+        },
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.3512,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.3512,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.3512,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0203,
+        0.6
+      ]
+    },
+    "other": {
+      "count": 35,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.3512,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.2984,
+          "count": 1.0
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.15,
+          "count": 1
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.125,
+          "count": 1
+        },
+        {
+          "pool": "fishingrare",
+          "probability": 0.125,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.3512
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.2609,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.064,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.056,
+          "count": 2
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.0511,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0511,
+        0.2609
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.234,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.0598,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0436,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0436,
+        0.234
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.0002,
+          "count": 1,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0002,
+          "count": 1,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0002
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,52 @@
+{
+  "entity_id": "ash",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ash Pile",
+  "name_zh": "灰烬堆",
+  "description_en": "A pile of tightly packed ash.\nExtractable, Siftable.",
+  "description_zh": "一堆紧凑的灰烬。\n可萃取，可筛分。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "calciumnitrate"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "bookpiles"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "fu_carbon"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "bookpiles"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "fu_carbon"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "bookpiles"
+    }
+  ],
+  "quality_tier": "A"
+}

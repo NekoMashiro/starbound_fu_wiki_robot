@@ -1,0 +1,45 @@
+{
+  "entity_id": "mantizishiphatch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mantizi Ship Hatch",
+  "name_zh": "Mantizi船舱口",
+  "description_en": "A hatch suitable for a spaceship.",
+  "description_zh": "一个适合于宇宙飞船的舱口。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "mantizi",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

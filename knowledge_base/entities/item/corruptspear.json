@@ -1,0 +1,50 @@
+{
+  "entity_id": "corruptspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corrupted Spear",
+  "name_zh": "腐化长矛",
+  "description_en": "Laced with the entropic force of Corruption.\r\nHunting weapon",
+  "description_zh": "掺杂着腐败的熵力。\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "shadow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "critChance": 1,
+  "critBonus": 8,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "elementalspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonspear",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

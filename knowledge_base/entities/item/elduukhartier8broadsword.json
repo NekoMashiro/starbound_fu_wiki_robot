@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier8broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Metal Broadsword",
+  "name_zh": "金属宽剑",
+  "description_en": "A greatsword made with unusual love and care. I somehow feel safe wielding this.",
+  "description_zh": "一把由不寻常的爱心和关怀制成的大剑。不知为什么，挥舞着这把剑使我充满安全感。",
+  "rarity": "rare",
+  "category": "broadsword",
+  "price": 845,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "superspinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oceanite",
+          "count": 70
+        },
+        {
+          "item": "thanatite",
+          "count": 8
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

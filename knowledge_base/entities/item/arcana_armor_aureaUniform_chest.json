@@ -1,0 +1,48 @@
+{
+  "entity_id": "arcana_armor_aureaUniform_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Seeker Uniform",
+  "name_zh": "神器搜寻者制服",
+  "description_en": "A standard uniform worn by Seeker trainees.",
+  "description_zh": "配备给见习搜寻者的常规制服。",
+  "rarity": "Common",
+  "category": "chestwear",
+  "price": 600,
+  "tags": [],
+  "level": 1,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_seekerIntro_3",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

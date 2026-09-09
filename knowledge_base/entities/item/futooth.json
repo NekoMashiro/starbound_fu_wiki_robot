@@ -1,0 +1,48 @@
+{
+  "entity_id": "futooth",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tooth",
+  "name_zh": "牙齿",
+  "description_en": "A tooth.",
+  "description_zh": "一颗牙齿。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.693,
+          "count": 5.8
+        },
+        {
+          "pool": "kevintrash",
+          "probability": 0.504,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.504,
+        0.693
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.452,
+          "count": 5.8
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

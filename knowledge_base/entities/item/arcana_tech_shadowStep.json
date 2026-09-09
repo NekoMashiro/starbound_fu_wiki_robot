@@ -1,0 +1,29 @@
+{
+  "entity_id": "arcana_tech_shadowStep",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Shadow Step",
+  "name_zh": "暗影步伐",
+  "description_en": "Grants immunity to fall damage. Double tap [A] or [D] to dash. Dashes can dodge attacks, which has a separate 3s cooldown. [Use to gain a new type of tech!]",
+  "description_zh": "免疫摔落伤害。双击[A]或[D]以冲刺。冲刺可以闪避攻击，有3s冷却时间。[使用来获得一个新科技！]",
+  "rarity": "Legendary",
+  "category": "mysteriousReward",
+  "price": 4000,
+  "tags": [
+    "tech"
+  ],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_input": {
+    "by_category": {
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_tech_phantomStep"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

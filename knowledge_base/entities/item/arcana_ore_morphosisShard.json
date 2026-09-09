@@ -1,0 +1,34 @@
+{
+  "entity_id": "arcana_ore_morphosisShard",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Morphosis Shard",
+  "name_zh": "化形碎片",
+  "description_en": "A morphosis shard, spotted often in the surface of Evoaquatic planets. Can be used for smelting.",
+  "description_zh": "化形物质的碎片， 经常出现在化泾星球的表面。可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_morphosisBar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "biomes": [
+    {
+      "biome": "arcana_evoaquatic",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Morphosis Shard.md",
+  "quality_tier": "S"
+}

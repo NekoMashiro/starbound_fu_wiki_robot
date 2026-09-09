@@ -1,0 +1,68 @@
+{
+  "entity_id": "hellfireblade",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Blade",
+  "name_zh": "地狱火宽剑",
+  "description_en": "Hot and spicy with a side of die.\r\nInflicts Burning",
+  "description_zh": "一边感受着热，一边步入死亡！\n附加燃烧效果",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "hellfire",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 2,
+  "critBonus": 9,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 6
+        },
+        {
+          "item": "pyreitebar",
+          "count": 6
+        },
+        {
+          "item": "hellfireplantseed",
+          "count": 3
+        },
+        {
+          "item": "ignuschili",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

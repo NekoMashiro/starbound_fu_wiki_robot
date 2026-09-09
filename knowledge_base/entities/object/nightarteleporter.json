@@ -1,0 +1,45 @@
+{
+  "entity_id": "nightarteleporter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Teleporter",
+  "name_zh": "夜族传送器",
+  "description_en": "A personal teleporter, connects to bookmarked locations. \nDestroyed when broken.",
+  "description_zh": "一个私人传送门，连接着标记过的传送点。\n拆卸后将被永久破坏。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 300,
+  "tags": [
+    "misc",
+    "nightar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

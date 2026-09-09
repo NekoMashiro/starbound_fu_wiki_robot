@@ -1,0 +1,57 @@
+{
+  "entity_id": "fuhoneycrystalchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Crystal Chair",
+  "name_zh": "蜂蜜水晶椅子",
+  "description_en": "A honey crystal chair. Fit for a monarch.",
+  "description_zh": "一个蜂蜜水晶椅子。适合当做国王的宝座。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "bees",
+    "crystal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "waxchunk",
+          "count": 6
+        },
+        {
+          "item": "beesilk",
+          "count": 3
+        },
+        {
+          "item": "crystalblock",
+          "count": 6
+        },
+        {
+          "item": "fu_liquidhoney",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

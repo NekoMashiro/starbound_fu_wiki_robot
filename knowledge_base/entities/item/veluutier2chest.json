@@ -1,0 +1,95 @@
+{
+  "entity_id": "veluutier2chest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cat's Collar T2",
+  "name_zh": "猫项圈 T2",
+  "description_en": "A collar possessing protective powers. Made of somewhat sturdier materials.",
+  "description_zh": "具有保护能力的项圈。由更坚固的材料制成。",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 2400,
+  "tags": [
+    "tier2armour",
+    "balanced"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "cottonwool",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "fabric",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "veluutier3chest"
+  ],
+  "quality_tier": "A"
+}

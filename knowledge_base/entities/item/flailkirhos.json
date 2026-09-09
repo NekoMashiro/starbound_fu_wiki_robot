@@ -1,0 +1,51 @@
+{
+  "entity_id": "flailkirhos",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhos Striker",
+  "name_zh": "Kirhos打击者",
+  "description_en": "Heavy, cumbersome and awesome.\r\nBreaks blocks",
+  "description_zh": "超级笨重却又令人惊叹。\n能够破坏方块",
+  "rarity": "common",
+  "category": "Striker",
+  "price": 60,
+  "tags": [
+    "weapon",
+    "melee",
+    "flail",
+    "upgradeableWeapon",
+    "kirhos"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 11,
+  "critChance": 1.25,
+  "critBonus": 7,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "spacebarbottom",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Space Bar",
+  "name_zh": "空格酒吧",
+  "description_en": "A metal bar with with a smoothly polished surface.",
+  "description_zh": "有着光滑磨光表面的金属酒吧。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 280,
+  "tags": [
+    "commerce"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dinerChest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

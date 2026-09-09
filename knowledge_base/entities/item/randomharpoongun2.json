@@ -1,0 +1,39 @@
+{
+  "entity_id": "randomharpoongun2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Beth",
+  "name_zh": "贝丝",
+  "description_en": "Impale your enemies, rather than just killing them.\r\nInflicts bleeding\r\nHunting weapon.",
+  "description_zh": "让他们忍受穿刺之苦，可比直接做掉赏心悦目。\n附加出血效果\n狩猎武器。",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 9.0,
+  "critChance": 5,
+  "critBonus": 5,
+  "altAbilityType": "superharpoon",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0462,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

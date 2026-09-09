@@ -1,0 +1,62 @@
+{
+  "entity_id": "fuinvaderpants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Invader Greaves",
+  "name_zh": "侵略者腿甲",
+  "description_en": "Set Bonuses:\r\n Slowfall\r\n Fall Damage x0.75\r\n Magnorbs/Energy: Damage x1.2 and +5% Crit Chance\r\n Immune: Proto-Poison",
+  "description_zh": "套装奖励：\n 羽落\n 坠落伤害x0.75\n 磁力珠/能量武器: 伤害x1.2, +5% 暴击几率\n 免疫: 原毒",
+  "rarity": "rare",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 2
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        },
+        {
+          "item": "protocitebar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "kirhostier5spants"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

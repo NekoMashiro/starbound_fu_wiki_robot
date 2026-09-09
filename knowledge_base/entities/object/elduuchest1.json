@@ -1,0 +1,35 @@
+{
+  "entity_id": "elduuchest1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Small Crystal Chest",
+  "name_zh": "小型水晶箱子",
+  "description_en": "A chest made from cultivated crystals.",
+  "description_zh": "由人工水晶制成的箱子。",
+  "rarity": "uncommon",
+  "category": "storage",
+  "price": 500,
+  "tags": [
+    "elduukhar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 4
+        },
+        {
+          "item": "goldbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

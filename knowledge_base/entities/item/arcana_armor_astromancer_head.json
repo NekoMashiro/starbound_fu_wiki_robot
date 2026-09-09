@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_astromancer_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Astromancer Hood",
+  "name_zh": "星术师兜帽",
+  "description_en": "An Azure forged armor, worn commonly by the Stargazers. +10% Azure res.",
+  "description_zh": "蔚蓝锻造的盔甲，观星者间的普遍配备。5%蔚蓝抗性。",
+  "rarity": "Legendary",
+  "category": "headarmour",
+  "price": 1000,
+  "tags": [],
+  "level": 8,
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_stargazer",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

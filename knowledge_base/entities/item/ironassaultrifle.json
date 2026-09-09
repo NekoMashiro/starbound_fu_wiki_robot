@@ -1,0 +1,70 @@
+{
+  "entity_id": "ironassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Iron Assault Rifle",
+  "name_zh": "钢制突击步枪",
+  "description_en": "A fully automatic military grade rifle.",
+  "description_zh": "一把全自动军用步枪。",
+  "rarity": "Common",
+  "category": "assaultRifle",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 1,
+  "critBonus": 2,
+  "altAbilityType": "spray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 6
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

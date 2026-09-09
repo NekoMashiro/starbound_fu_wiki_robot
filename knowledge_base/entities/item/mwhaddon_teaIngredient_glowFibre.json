@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_glowFibre",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Glow Fibre Cluster",
+  "name_zh": "发光纤维簇",
+  "description_en": "Bulbous, bioluminescent plant fibres cluster. They glow with many colours!\n For 45 seconds after drinking, gain Glow.",
+  "description_zh": "球状、发出各种颜色光的植物纤维簇！\n饮用后45秒内获得发光。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

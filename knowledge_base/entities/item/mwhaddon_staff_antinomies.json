@@ -1,0 +1,36 @@
+{
+  "entity_id": "mwhaddon_staff_antinomies",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Antinomies",
+  "name_zh": "二律背反",
+  "description_en": "A staff that hosts the power of both fire and ice. Right clike to switch between the two elementals.",
+  "description_zh": "同时寄宿着烈焰和纱冰之力的法杖。右键从两种元素中进行切换。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 21,
+  "primaryAbilityType": "mwhaddon_staff_directShoot",
+  "altAbilityType": "mwhaddon_staff_directShootSwitch",
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter1_3_2",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

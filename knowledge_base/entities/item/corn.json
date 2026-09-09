@@ -1,0 +1,201 @@
+{
+  "entity_id": "corn",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Corn",
+  "name_zh": "玉米",
+  "description_en": "Sweet and corny, good for digestion! Type: Vegetable",
+  "description_zh": "甜的，糯的，好消化！\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 60,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cornbasket",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 18,
+        "examples": [
+          "apexfritter",
+          "candiedcorn",
+          "cattlefeed",
+          "corncob",
+          "cornpeckers"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "cornbasket"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "drop_sources": {
+    "total_pools": 71,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "cornHarvest",
+          "probability": 1.246,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntingtreasure",
+          "probability": 0.0436,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0436,
+        1.246
+      ]
+    },
+    "monster_drops": {
+      "count": 49,
+      "top": [
+        {
+          "pool": "foodTreasureMedium",
+          "probability": 0.5545,
+          "count": 3
+        },
+        {
+          "pool": "elduufoodTreasureMedium",
+          "probability": 0.5545,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.4421,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.4421,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxtrapogoIceTreasure",
+          "probability": 0.4421,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.5545
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "food",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "produce",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "elduufood",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "elduuproduce",
+          "probability": 0.1818,
+          "count": 3
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.1742,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1818
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0857,
+          "count": 3.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0674,
+          "count": 3
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0128,
+          "count": 3
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0127,
+          "count": 3
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0026,
+          "count": 3,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0025,
+        0.0857
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0171,
+          "count": 3,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0121,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.0121,
+        0.0171
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,174 @@
+{
+  "entity_id": "wrappedbodyalien",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrapped Alien Corpse",
+  "name_zh": "被包裹的外星尸体",
+  "description_en": "A wrapped corpse of an unknown alien species.",
+  "description_zh": "一具被包裹着的外星人尸体。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 460,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 23,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "huntingDarkMetroid",
+          "probability": 0.1316,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "tombstoneHarvest",
+          "probability": 0.009,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.009,
+        0.1316
+      ]
+    },
+    "monster_drops": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0249,
+          "count": 1.0
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0224,
+          "count": 1.0
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0138,
+          "count": 1.0
+        },
+        {
+          "pool": "aviantombTreasure",
+          "probability": 0.013,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0051,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0009,
+        0.0249
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0056,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0018,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0056
+      ]
+    },
+    "other": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "artifactloot",
+          "probability": 0.0056,
+          "count": 1
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.0035,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.0025,
+          "count": 1
+        },
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.0016,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0056
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0003,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0001,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0003
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

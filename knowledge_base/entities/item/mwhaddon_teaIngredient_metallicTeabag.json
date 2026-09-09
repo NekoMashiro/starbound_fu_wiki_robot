@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_metallicTeabag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Metallic Teabag",
+  "name_zh": "精选铁线茶包",
+  "description_en": "A teabag for brewing black tea at a tea brewer.\n For 60 seconds after drinking, gain +50% Energy Regen Rate.",
+  "description_zh": "泡茶机冲泡红茶用的茶袋。\n饮用后60秒内+50%能量恢复速率。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t1",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0833,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0833,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

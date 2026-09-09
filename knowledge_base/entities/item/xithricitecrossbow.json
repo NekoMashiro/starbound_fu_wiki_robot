@@ -1,0 +1,59 @@
+{
+  "entity_id": "xithricitecrossbow",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Crossbow",
+  "name_zh": "宇宙弩",
+  "description_en": "Eruptive cosmic blasts bring joy to children the world over.",
+  "description_zh": "爆发的宇宙爆裂会给全世界的孩子们带来欢乐。",
+  "rarity": "legendary",
+  "category": "crossbow",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "ranged",
+    "crossbow",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 8,
+  "altAbilityType": "markedshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 12
+        },
+        {
+          "item": "liquidaether",
+          "count": 60
+        },
+        {
+          "item": "fu_carbonpure",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

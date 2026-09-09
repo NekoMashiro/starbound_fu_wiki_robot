@@ -1,0 +1,96 @@
+{
+  "entity_id": "antineutronium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Anti-Neutronium Rod",
+  "name_zh": "反中子棒",
+  "description_en": "A 'natural' opposite to neutronium. Exceptionally unsafe.\n+600 Fuel",
+  "description_zh": "中子素的一种“自然的”反面存在。异常的不安全。\n燃料+600",
+  "rarity": "legendary",
+  "category": "fuel",
+  "price": 4300,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "neutronium",
+          "count": 1
+        },
+        {
+          "item": "precursorfluid",
+          "count": 20
+        },
+        {
+          "item": "darkmatter",
+          "count": 24
+        },
+        {
+          "item": "precursorgrease",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "energy": {
+        "count": 1,
+        "examples": [
+          "atomsmasher"
+        ]
+      },
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumchestkhe"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumheadkhe"
+        ]
+      },
+      "legarmour": {
+        "count": 1,
+        "examples": [
+          "densiniumlegskhe"
+        ]
+      },
+      "wire": {
+        "count": 1,
+        "examples": [
+          "isn_atmosregulatorwarped"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmmegacannon"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "neutronbomb"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "spacetimeobeliskmodified"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "quality_tier": "S"
+}

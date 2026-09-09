@@ -1,0 +1,285 @@
+{
+  "entity_id": "flare",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flare",
+  "name_zh": "照明棒",
+  "description_en": "Good for lighting up a dark cave before you dive into it.",
+  "description_zh": "能够照亮你准备进去探索的黑暗的洞穴。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 5,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    },
+    {
+      "inputs": [
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "string",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "string",
+          "count": 1
+        },
+        {
+          "item": "plantfibre",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 177,
+    "other": {
+      "count": 27,
+      "top": [
+        {
+          "pool": "mwhaddon_fortuneBox_flare",
+          "probability": 2.5,
+          "count": 4.6
+        },
+        {
+          "pool": "elduutool",
+          "probability": 0.3,
+          "count": 15
+        },
+        {
+          "pool": "tool",
+          "probability": 0.2903,
+          "count": 15
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.2875,
+          "count": 4.6
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.2509,
+          "count": 5.2
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        2.5
+      ]
+    },
+    "monster_drops": {
+      "count": 61,
+      "top": [
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.5432,
+          "count": 5.1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.5234,
+          "count": 5.2
+        },
+        {
+          "pool": "forestTreasure",
+          "probability": 0.3436,
+          "count": 5
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.27,
+          "count": 5.2
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.1045,
+          "count": 7.5,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.5432
+      ]
+    },
+    "chest_loot": {
+      "count": 76,
+      "top": [
+        {
+          "pool": "forestChestTreasure",
+          "probability": 0.49,
+          "count": 5.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.184,
+          "count": 8.1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.1728,
+          "count": 7.5
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0727,
+          "count": 5.2,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0718,
+          "count": 5.2
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.49
+      ]
+    },
+    "boss_mission": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "apexmissionBasic",
+          "probability": 0.2727,
+          "count": 1
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0144,
+          "count": 14.0
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0109,
+          "count": 15,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0003,
+          "count": 5
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0002,
+          "count": 5
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.2727
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0595,
+          "count": 14.8
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0069,
+          "count": 5.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0068,
+          "count": 5
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0059,
+          "count": 5
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0014,
+          "count": 5.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0595
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.0003,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

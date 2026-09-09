@@ -1,0 +1,75 @@
+{
+  "entity_id": "littlerascalseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uri Seed",
+  "name_zh": "乌里草种子",
+  "description_en": "Its produce will restore health and energy.",
+  "description_zh": "可以收获乌里草，食用后会提高生命值和能量值上限。",
+  "rarity": "common",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 32
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "cellmateria",
+          "count": 2
+        },
+        {
+          "item": "phosphorus",
+          "count": 14
+        },
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "petalred",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "melodistarseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "littlerascalHarvest",
+          "probability": 0.3182,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

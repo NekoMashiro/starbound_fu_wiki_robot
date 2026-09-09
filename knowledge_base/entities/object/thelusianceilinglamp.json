@@ -1,0 +1,39 @@
+{
+  "entity_id": "thelusianceilinglamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Ceiling Lamp",
+  "name_zh": "蚁族吊灯",
+  "description_en": "A ceiling light made from bioluminescent material.",
+  "description_zh": "由生物发光材料制成的吊灯。",
+  "rarity": "common",
+  "category": "light",
+  "price": 160,
+  "tags": [
+    "thelusian",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "titaniumdagger",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Dagger",
+  "name_zh": "钛制匕首",
+  "description_en": "This dagger is light, but incredibly durable.",
+  "description_zh": "这把匕首很轻，但是却难以置信的耐用。",
+  "rarity": "Uncommon",
+  "category": "dagger",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 9.0,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "锻造工作台",
+      "station_zh": "锻造工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

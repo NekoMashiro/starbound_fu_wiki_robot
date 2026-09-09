@@ -1,0 +1,43 @@
+{
+  "entity_id": "elduudecortele",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Eld'uukhar Teleporter",
+  "name_zh": "厄休安传送器",
+  "description_en": "A personal teleporter, connects to bookmarked locations. \nDestroyed when broken.",
+  "description_zh": "一个私人传送门，连接着标记过的传送点。\n拆卸后将被永久破坏。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 3000,
+  "tags": [
+    "misc",
+    "elduukhar"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 10
+        },
+        {
+          "item": "oceanite",
+          "count": 15
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Workbench",
+      "station_zh": "水晶工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

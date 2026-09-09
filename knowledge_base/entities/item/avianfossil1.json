@@ -1,0 +1,43 @@
+{
+  "entity_id": "avianfossil1",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avian Skull",
+  "name_zh": "翼族头骨",
+  "description_en": "A fossilised Avian skull.",
+  "description_zh": "一个翼族人的头骨化石。",
+  "rarity": "Uncommon",
+  "category": "mediumFossil",
+  "price": 50,
+  "tags": [
+    "fossil"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "humanoidfossil",
+          "probability": 0.04,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow1",
+          "probability": 0.014,
+          "count": 1
+        },
+        {
+          "pool": "fossilshallow2",
+          "probability": 0.014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.014,
+        0.04
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

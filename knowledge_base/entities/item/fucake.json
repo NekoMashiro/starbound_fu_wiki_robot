@@ -1,0 +1,134 @@
+{
+  "entity_id": "fucake",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frosted Cake",
+  "name_zh": "奶油蛋糕",
+  "description_en": "It's a delicious rich cake!\n+20% EP (500s) \nType: Fruits + Dairy + Eggs + Sugar",
+  "description_zh": "美味的油炸蛋糕！\n+20%EP(持续500s)\n类型：水果+蛋奶+甜食",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fufrostedcake",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "wheat",
+          "count": 2
+        },
+        {
+          "item": "honeyjar",
+          "count": 2
+        },
+        {
+          "item": "milk",
+          "count": 2
+        },
+        {
+          "item": "egg",
+          "count": 2
+        },
+        {
+          "item": "varanberry",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 240
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1672
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "fufrostedcake"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

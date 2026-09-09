@@ -1,0 +1,94 @@
+{
+  "entity_id": "arcana_misc_herb",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Herb",
+  "name_zh": "草药",
+  "description_en": "A collection of herb plants used for medical purposes.",
+  "description_zh": "用于医疗目的的草药植物的集合。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 60,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 2
+        }
+      ],
+      "output_count": 2,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_1.json",
+          "name_zh": ""
+        },
+        {
+          "name": "化学家之桌",
+          "name_zh": "化学家之桌"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 5,
+        "examples": [
+          "arcana_mwhaddon_healItem_1",
+          "arcana_mwhaddon_healItem_2",
+          "arcana_mwhaddon_healItem_3",
+          "arcana_mwhaddon_healItem_4",
+          "nanowrap"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "coralfragment",
+          "livingroot"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_crafting_alchemist"
+        ]
+      },
+      "furniture": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_misc_teaMachine"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "quality_tier": "S"
+}

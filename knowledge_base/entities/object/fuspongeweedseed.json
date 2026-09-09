@@ -1,0 +1,79 @@
+{
+  "entity_id": "fuspongeweedseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spongeweed Clump",
+  "name_zh": "海绵草种子",
+  "description_en": "This fragile plant is immune to poison.",
+  "description_zh": "可以收获海绵草，食用后会免疫中毒。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 22,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 8
+        },
+        {
+          "item": "cell_spliced",
+          "count": 1
+        },
+        {
+          "item": "avesmingoseed",
+          "count": 3
+        },
+        {
+          "item": "toxictop",
+          "count": 16
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 8
+        },
+        {
+          "item": "iodine",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 4
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "goldenseaspongeplant"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuspongeweedseedHarvest",
+          "probability": 0.1667,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

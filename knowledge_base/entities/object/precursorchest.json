@@ -1,0 +1,42 @@
+{
+  "entity_id": "precursorchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Chest",
+  "name_zh": "先驱之箱",
+  "description_en": "Stores stuff.",
+  "description_zh": "可用来储存物品。",
+  "rarity": "legendary",
+  "category": "storage",
+  "price": 700,
+  "tags": [
+    "precursor",
+    "outpost",
+    "tech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursorchest",
+    "precursorchest2"
+  ],
+  "quality_tier": "A"
+}

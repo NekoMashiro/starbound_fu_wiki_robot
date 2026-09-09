@@ -1,0 +1,30 @@
+{
+  "entity_id": "gnomecaphead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Gnome Cap",
+  "name_zh": "侏儒便帽",
+  "description_en": "A Gnomish cap. This is the largest size available.",
+  "description_zh": "一顶侏儒便帽。这是能提供的最大号的了。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "miniVillageTreasure",
+          "probability": 0.0015,
+          "count": 1,
+          "monsters": [
+            "gnomewarriors"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

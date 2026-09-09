@@ -1,0 +1,36 @@
+{
+  "entity_id": "iceresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Barrier",
+  "name_zh": "EPP模块（寒气屏障）",
+  "description_en": "An EPP module that resists the Ice element.\n+25% Ice Resist.\nImmune: Freeze, Slush, Ice Slip, Snow Slow.",
+  "description_zh": "一个能够抵抗寒气元素的EPP模块。\n寒气抗性+25%\n免疫：冻结，来自冰、雪和雪泥的减速和滑行效果",
+  "rarity": "Uncommon",
+  "category": "eppAugment",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 3
+        },
+        {
+          "item": "ff_plastic",
+          "count": 2
+        },
+        {
+          "item": "icecrystal",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

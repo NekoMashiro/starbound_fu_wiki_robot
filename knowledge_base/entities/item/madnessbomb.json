@@ -1,0 +1,53 @@
+{
+  "entity_id": "madnessbomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Madness Bomb",
+  "name_zh": "疯狂炸弹",
+  "description_en": "Scramble the brains of nearby sapient beings, making them kill each other!",
+  "description_zh": "搅乱附近智慧生物的大脑，让他们互相残杀！",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursorgel",
+          "count": 1
+        },
+        {
+          "item": "psionicenergy",
+          "count": 150
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Madness Bomb.md",
+  "quality_tier": "A"
+}

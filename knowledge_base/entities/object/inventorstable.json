@@ -1,0 +1,46 @@
+{
+  "entity_id": "inventorstable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Inventor's Table",
+  "name_zh": "发明家工作台",
+  "description_en": "The inventor's table is used to produce various crafting stations.",
+  "description_zh": "发明家工作台是用来制造各种各样的工作台的。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 35,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 12
+        },
+        {
+          "item": "logblock",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "bleuark_craftingstation_1"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Inventor's Table.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "uraniumshortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium War-Knife",
+  "name_zh": "铀制战刀",
+  "description_en": "It's actually quite deadly.",
+  "description_zh": "这把武器非常致命。",
+  "rarity": "Rare",
+  "category": "shortsword",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.4,
+  "critChance": 2,
+  "critBonus": 1,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 5
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

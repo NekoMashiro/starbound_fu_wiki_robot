@@ -1,0 +1,35 @@
+{
+  "entity_id": "stickynotepadfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sticky Note Pad",
+  "name_zh": "便笺簿",
+  "description_en": "Write yourself notes. Leave them everywhere. Drive your roommates crazy!",
+  "description_zh": "写下自己的笔记。把它们留在各地。把你的室友逼疯！",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 1,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 10
+        },
+        {
+          "item": "bone",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Sticky Note Pad.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "avaliaeroponics",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aeroponic Tubing",
+  "name_zh": "气培管",
+  "description_en": "Once tilled, these tubes transport a nutrient aerosol for growing plants within.",
+  "description_zh": "用于给作物输送营养气溶胶。",
+  "rarity": "legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glassmaterial",
+          "count": 10
+        },
+        {
+          "item": "fu_carbon",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Aeroponic Tubing.md",
+  "quality_tier": "A"
+}

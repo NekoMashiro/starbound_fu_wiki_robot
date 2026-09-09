@@ -1,0 +1,59 @@
+{
+  "entity_id": "hitechmetalblock",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hi-Tech Alloy Block",
+  "name_zh": "高科技合金块",
+  "description_en": "Advanced metals form a fantastic building alloy.",
+  "description_zh": "先进金属构成的奇妙建筑材料。",
+  "rarity": "legendary",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuLabParts",
+          "probability": 0.0826,
+          "count": 50
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

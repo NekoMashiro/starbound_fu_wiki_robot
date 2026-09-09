@@ -1,0 +1,45 @@
+{
+  "entity_id": "chemlab",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alchemy Table",
+  "name_zh": "炼金台",
+  "description_en": "Play with chemicals. Endless fun.",
+  "description_zh": "合理地使用化学来享受实验的乐趣。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 4
+        },
+        {
+          "item": "liquidwater",
+          "count": 30
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

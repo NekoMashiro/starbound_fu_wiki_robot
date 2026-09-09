@@ -1,0 +1,37 @@
+{
+  "entity_id": "geodechest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Geode Shirt",
+  "name_zh": "晶洞衬衫",
+  "description_en": "A speckled, comfortable shirt.",
+  "description_zh": "布满斑点的舒适衬衫。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "geodeChestTreasure",
+          "probability": 0.1724,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "geodeTreasure",
+          "probability": 0.0937,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

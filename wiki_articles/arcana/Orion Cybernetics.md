@@ -1,0 +1,15 @@
+# [Arcana] Orion Cybernetics
+
+**来源**: Arcana Wiki | **链接**: https://starboundarcana.miraheze.org/wiki/Orion_Cybernetics
+
+---
+
+Lore / Codex / Orion Cybernetics
+
+## Overview
+## Contents
+As the forefront of technological advances, Orion Cybernetics is one of the leading companies in the development of self-driven machines, as well as the research in neuro-implants and data intelligence. 
+
+Whilst their tech products are popular within the Coalition, Orion's main source of revenue comes from energy production, data collection, and trade of the aforementioned. Many companies within the coalition receive energy or data services from the Orion, while it also provides communication between colony IPNs.
+
+The Internet, also knowns as the IPN or Interplanetary Network, is an essential service within Coalition systems. Whilst communication between different IPNs between distant planets is costly and exceedingly time consuming to maintain and update, recent development of warp technologies have helped to accelerate this process, as well as leading to the construction of the first Coalition data-vault.

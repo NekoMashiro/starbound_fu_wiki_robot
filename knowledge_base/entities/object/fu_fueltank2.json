@@ -1,0 +1,38 @@
+{
+  "entity_id": "fu_fueltank2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fuel Tank MKII",
+  "name_zh": "燃料罐 MKII",
+  "description_en": "A tank for storing ship fuel. Holds 2000 Fuel. BYOS Only",
+  "description_zh": "用来储存船上燃料的油箱。可装2000单位的燃料。\n只限BYOS",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "mechanical"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solidfuel",
+          "count": 50
+        },
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "upgrademodule",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

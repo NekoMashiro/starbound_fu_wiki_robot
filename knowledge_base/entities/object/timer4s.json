@@ -1,0 +1,38 @@
+{
+  "entity_id": "timer4s",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Timer (4 Sec)",
+  "name_zh": "4秒计时器",
+  "description_en": "The timer output alternates between on and off every 4 seconds.",
+  "description_zh": "每隔4秒就切换输出信号的计时器。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

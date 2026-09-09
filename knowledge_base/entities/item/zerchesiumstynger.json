@@ -1,0 +1,59 @@
+{
+  "entity_id": "zerchesiumstynger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Zerchesium Stynger",
+  "name_zh": "高熔点发射器",
+  "description_en": "Makes blizzards out of frozen bolts.",
+  "description_zh": "用冰冻的弹头制造暴风雪。",
+  "rarity": "uncommon",
+  "category": "crossbow",
+  "price": 70,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "crossbow",
+    "zerchesium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 5,
+  "critChance": 3,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        },
+        {
+          "item": "solaricrystal",
+          "count": 1
+        },
+        {
+          "item": "silk",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

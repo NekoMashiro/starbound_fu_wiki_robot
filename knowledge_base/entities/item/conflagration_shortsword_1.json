@@ -1,0 +1,55 @@
+{
+  "entity_id": "conflagration_shortsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Molten Slasher",
+  "name_zh": "熔光剑刃",
+  "description_en": "A burning shortsword.",
+  "description_zh": "连同流火铸造其上的短剑。",
+  "rarity": "Uncommon",
+  "category": "shortsword",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword"
+  ],
+  "elementalType": "fire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 8.6,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

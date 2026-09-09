@@ -1,0 +1,30 @@
+{
+  "entity_id": "chipsobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chips",
+  "name_zh": "炸薯条",
+  "description_en": "Don't be fooled - most of that bag is just air.",
+  "description_zh": "别上当了，那个袋子里的大部分都是空气。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

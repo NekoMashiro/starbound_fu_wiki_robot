@@ -1,0 +1,69 @@
+{
+  "entity_id": "fuatropusshortspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fleshweave Shortspear",
+  "name_zh": "血肉短矛",
+  "description_en": "A revolting bio-weapon.\nPlague Bearing\nHunting weapon",
+  "description_zh": "令人作呕的生物武器。\n瘟疫附着\n狩猎武器",
+  "rarity": "rare",
+  "category": "shortspear",
+  "price": 550,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortspear",
+    "spear",
+    "upgradeableWeapon",
+    "atropus",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 2,
+  "critBonus": 2,
+  "primaryAbilityType": "shortspearcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fu_nodule",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "fleshstrand",
+          "count": 5
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

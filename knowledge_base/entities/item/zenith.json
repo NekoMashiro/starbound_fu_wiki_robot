@@ -1,0 +1,61 @@
+{
+  "entity_id": "zenith",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "ArCon Zenith",
+  "name_zh": "阿克恩手枪",
+  "description_en": "ArCon forces always have this handy.\r\nCounts as 'plasma' for set bonuses.",
+  "description_zh": "阿克恩部队总是有这种便利。\n等离子武器",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 220,
+  "tags": [
+    "weapon",
+    "ranged",
+    "plasma",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "baseDps": 5.2,
+  "critChance": 2,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 1
+        },
+        {
+          "item": "advancealloy",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

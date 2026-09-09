@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_tile21",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cathaya Panel",
+  "name_zh": "银杉嵌板",
+  "description_en": "A wooden wall panel.",
+  "description_zh": "木墙嵌板。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_tile16",
+          "count": 1
+        },
+        {
+          "item": "arcana_tile6",
+          "count": 1
+        },
+        {
+          "item": "paper",
+          "count": 1
+        }
+      ],
+      "output_count": 40,
+      "station": "秘境工作站",
+      "station_zh": "秘境工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

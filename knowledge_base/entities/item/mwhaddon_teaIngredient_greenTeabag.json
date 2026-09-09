@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_greenTeabag",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Selected Green Teabag",
+  "name_zh": "精选绿茶包",
+  "description_en": "A teabag for brewing green tea at a tea brewer.\n Gain Invulnerable for 3 second after drinking, but your Damage is decreased by 15% for 20 seconds.",
+  "description_zh": "泡茶机冲泡绿茶用的茶袋。\n饮用后3秒内获得无敌，但是后续获得20秒的15%的伤害下降。",
+  "rarity": "common",
+  "category": "tradingCard",
+  "price": 100,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaStarterPack",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,55 @@
+{
+  "entity_id": "advalloylongsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Longsword",
+  "name_zh": "宗师长剑",
+  "description_en": "Forged from carbon. Bolstered by rage.\r\nInflicts bleeding",
+  "description_zh": "由碳锻造，由狂暴加固。\n附加出血效果",
+  "rarity": "uncommon",
+  "category": "longsword",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "melee",
+    "longsword",
+    "effigium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 6.43,
+  "critChance": 0.5,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "carbonplate",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,332 @@
+{
+  "entity_id": "hardenedcarapace",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hardened Carapace",
+  "name_zh": "硬化甲壳",
+  "description_en": "A fragment of tough organic shell. Can be used for crafting.",
+  "description_zh": "坚硬有机外壳的碎片。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 9,
+        "examples": [
+          "blexplantseed",
+          "boltbulbseed",
+          "deathblossomseed",
+          "leafshellseed",
+          "mireurchinseed"
+        ]
+      },
+      "eppAugment": {
+        "count": 2,
+        "examples": [
+          "novakidartifactaugment",
+          "radienaugment1"
+        ]
+      },
+      "legarmour": {
+        "count": 2,
+        "examples": [
+          "chitinlegs",
+          "fflagoonlegs"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "chitinhead",
+          "fflagoonhead"
+        ]
+      },
+      "chestarmour": {
+        "count": 2,
+        "examples": [
+          "chitinchest",
+          "fflagoonchest"
+        ]
+      },
+      "decorative": {
+        "count": 2,
+        "examples": [
+          "juuxbox",
+          "madnesspoptop"
+        ]
+      },
+      "shield": {
+        "count": 2,
+        "examples": [
+          "reptileshield",
+          "zerchesiumshield"
+        ]
+      },
+      "chakram": {
+        "count": 1,
+        "examples": [
+          "hardchakram"
+        ]
+      }
+    },
+    "total": 26
+  },
+  "drop_sources": {
+    "total_pools": 194,
+    "monster_drops": {
+      "count": 75,
+      "top": [
+        {
+          "pool": "fleshreaperTreasure",
+          "probability": 1.0,
+          "count": 15
+        },
+        {
+          "pool": "webberhuntTreasure",
+          "probability": 0.2667,
+          "count": 1
+        },
+        {
+          "pool": "bobfaeVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "crustoiseVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "iguarmorVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "pandorasboxnocttoiseHunting",
+          "probability": 0.7843,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxhivetoiseHunting",
+          "probability": 0.7843,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxbeetoiseHunting",
+          "probability": 0.7843,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxeyevalveHunting",
+          "probability": 0.7619,
+          "count": 1
+        },
+        {
+          "pool": "seaclamHarvest",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "seaclam"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.7843
+      ]
+    },
+    "mining": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "extraMonsterRockHunting",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterRockBow",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "flintlit"
+          ]
+        },
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.3942,
+          "count": 1,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.16,
+          "count": 1,
+          "monsters": [
+            "flintlit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.16,
+        0.5
+      ]
+    },
+    "other": {
+      "count": 18,
+      "top": [
+        {
+          "pool": "sulphurtrollLoot",
+          "probability": 0.3942,
+          "count": 1
+        },
+        {
+          "pool": "fuheadcrabLoot",
+          "probability": 0.2113,
+          "count": 1,
+          "monsters": [
+            "headcrab"
+          ]
+        },
+        {
+          "pool": "corruptflyLoot",
+          "probability": 0.1824,
+          "count": 1,
+          "monsters": [
+            "fucorruptflylarge"
+          ]
+        },
+        {
+          "pool": "fugiantscorpionLoot",
+          "probability": 0.1712,
+          "count": 1
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.1633,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.3942
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.093,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0471,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0311,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0309,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.096
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.003
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

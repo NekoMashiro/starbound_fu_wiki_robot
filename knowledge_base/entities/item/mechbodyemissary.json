@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechbodyemissary",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Emissary Mech Body",
+  "name_zh": "信使机甲躯体",
+  "description_en": "Immune: Moderate Heat/Cold, Mild Radiation/Poison, Proto",
+  "description_zh": "免疫：中毒寒冷/炎热，轻度毒素/辐射，原毒",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 9200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodyemissaryproto",
+          "count": 1
+        },
+        {
+          "item": "corruptionseed",
+          "count": 12
+        },
+        {
+          "item": "carbonplate",
+          "count": 12
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 4
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

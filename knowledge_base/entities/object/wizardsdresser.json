@@ -1,0 +1,50 @@
+{
+  "entity_id": "wizardsdresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wizard's Dresser",
+  "name_zh": "巫师的梳妆台",
+  "description_en": "The real magic is how much storage space this thing has!",
+  "description_zh": "真正的魔力在于它有多大的存储空间！",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "wizard",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wizardset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "fumilitarygoods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Weapon Parts",
+  "name_zh": "武器零件",
+  "description_en": "A sealed crate of weapon components, valuable for interstellar trade.",
+  "description_zh": "一些密封的武器零件，对星际贸易很有价值。",
+  "rarity": "Common",
+  "category": "tradeGoods",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

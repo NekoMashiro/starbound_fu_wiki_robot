@@ -1,0 +1,43 @@
+{
+  "entity_id": "grainwater",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grain Water",
+  "name_zh": "瓶装酵母",
+  "description_en": "A bottle filled with the basis of yeast.",
+  "description_zh": "一个装满酵母的瓶子。",
+  "rarity": "Common",
+  "category": "cookingIngredient",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidwater",
+          "count": 3
+        },
+        {
+          "item": "wheat",
+          "count": 1
+        }
+      ],
+      "output_count": 3,
+      "station": "Mashing Tun",
+      "station_zh": "糖化桶",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "cookingIngredient": {
+        "count": 1,
+        "examples": [
+          "yeastwater"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

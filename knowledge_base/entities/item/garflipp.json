@@ -1,0 +1,69 @@
+{
+  "entity_id": "garflipp",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Garflipp",
+  "name_zh": "加布林",
+  "description_en": "A brain leech primarily found on Nitrogen seas.\n+2% HP (1m)\n-20% Risk of Madness Effects",
+  "description_zh": "一种脑水蛭，主要见于液氮海。\n+2%HP(持续1m)\n-20%疯癫带来的风险",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 350,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 350
+        }
+      ],
+      "output_count": 1,
+      "station": "Sstabbed-Thingss Emporium",
+      "station_zh": "刺刺物品商场",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodshopfloran.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "other": {
+        "count": 2,
+        "examples": [
+          "fumadnessresource",
+          "fumadnessresource"
+        ]
+      },
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "snarshedgarflipps"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "garflippTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "garflipp"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

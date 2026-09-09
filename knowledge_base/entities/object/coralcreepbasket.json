@@ -1,0 +1,45 @@
+{
+  "entity_id": "coralcreepbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coralcreep Basket",
+  "name_zh": "珊瑚果篮",
+  "description_en": "The coralcreep fruit turns red when cooked, like a lobster.",
+  "description_zh": "珊瑚果的果实煮熟后会变成红色，就像龙虾一样。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "ocean",
+    "hylotl",
+    "hylotlvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "coralcreep",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "coralcreep"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "arcana_shield_voltaicShield",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Voltaic Shield",
+  "name_zh": "电流护盾",
+  "description_en": "A standard Orion security shield.",
+  "description_zh": "制式俄里翁安保盾牌。",
+  "rarity": "Legendary",
+  "category": "shield",
+  "price": 800,
+  "tags": [
+    "shield"
+  ],
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_thoriumBar",
+          "count": 8
+        },
+        {
+          "item": "orion_crafting_orionTechCard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shield": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_shield_sorroulBastion"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "fusteampunkgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shock Rifle",
+  "name_zh": "电击步枪",
+  "description_en": "A pulse-blaster fueled by steam\r\nFast projectiles",
+  "description_zh": "利用蒸汽推动的脉冲武器。\n高射速",
+  "rarity": "rare",
+  "category": "sniperRifle",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "energy",
+    "electric",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 8.0,
+  "critChance": 6,
+  "critBonus": 3,
+  "altAbilityType": "steampunkburstshot",
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0089,
+          "count": 1
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0056,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0056,
+        0.0089
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

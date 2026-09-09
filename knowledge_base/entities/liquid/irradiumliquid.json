@@ -1,0 +1,44 @@
+{
+  "entity_id": "irradiumliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "irradiumliquid",
+  "name_zh": "",
+  "description_en": "Amazing, glistening liquid irradium.",
+  "description_zh": "太棒了，闪亮的液态镭。",
+  "status_effects": [
+    "swimming",
+    "radioactiveweathernew"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "materialResult": "rainbowsand"
+    },
+    {
+      "liquid": 3,
+      "materialResult": "rainbowsand"
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 41,
+      "materialResult": "rainbowsand"
+    },
+    {
+      "liquid": 44,
+      "materialResult": "rainbowsand"
+    },
+    {
+      "liquid": 45,
+      "materialResult": "corruptslime"
+    },
+    {
+      "liquid": 46,
+      "liquidResult": 46
+    }
+  ],
+  "quality_tier": "C"
+}

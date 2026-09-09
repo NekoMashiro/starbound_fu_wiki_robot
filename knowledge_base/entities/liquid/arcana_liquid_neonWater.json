@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_liquid_neonWater",
+  "entity_type": "liquid",
+  "source_mod": "Arcana",
+  "name_en": "arcana_liquid_neonWater",
+  "name_zh": "",
+  "description_en": "A neon colored liquid.",
+  "description_zh": "霓虹色的液体。",
+  "status_effects": [
+    "swimming"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "liquidResult": 173
+    },
+    {
+      "liquid": 3,
+      "liquidResult": 3
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 12,
+      "liquidResult": 12
+    },
+    {
+      "liquid": 6,
+      "liquidResult": 6
+    }
+  ],
+  "quality_tier": "C"
+}

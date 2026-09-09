@@ -1,0 +1,74 @@
+{
+  "entity_id": "enrichedplutonium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Enriched Plutonium Rod",
+  "name_zh": "浓缩钚棒",
+  "description_en": "An improved form of plutonium.\n+28 Fuel",
+  "description_zh": "一根浓缩的钚棒。\n燃料+28",
+  "rarity": "rare",
+  "category": "fuel",
+  "price": 300,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidfuel",
+          "count": 10
+        },
+        {
+          "item": "deuterium",
+          "count": 1
+        },
+        {
+          "item": "plutoniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "shotgun": {
+        "count": 1,
+        "examples": [
+          "chargecannon"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mecharmgravitymine"
+        ]
+      },
+      "pistol": {
+        "count": 1,
+        "examples": [
+          "pistolirradiumfu"
+        ]
+      },
+      "staff": {
+        "count": 1,
+        "examples": [
+          "plutoniumstaff"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "plutoniumwand"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "goldenegg",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Golden Egg",
+  "name_zh": "金蛋",
+  "description_en": "A Golden Egg! What!?",
+  "description_zh": "一个金蛋！什么！？",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 250,
+  "tags": [
+    "avian",
+    "pretty",
+    "valuable"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessChestTreasure",
+          "probability": 0.046,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wildernessTreasure",
+          "probability": 0.025,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

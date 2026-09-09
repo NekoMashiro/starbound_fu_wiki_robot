@@ -1,0 +1,31 @@
+{
+  "entity_id": "winecabinet",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wine Cabinet",
+  "name_zh": "酒柜",
+  "description_en": "A fine, sturdy cabinet for storing wine.",
+  "description_zh": "这是一种用于存放葡萄酒的精致、坚固的柜子。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 160,
+  "tags": [
+    "drunkard",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

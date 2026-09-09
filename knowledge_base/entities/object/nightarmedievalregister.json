@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarmedievalregister",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cash Register",
+  "name_zh": "收银机",
+  "description_en": "A mechanical cash register. Ka-ching!",
+  "description_zh": "机械收银机。啊-哈！",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 60,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "commerce"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 2
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

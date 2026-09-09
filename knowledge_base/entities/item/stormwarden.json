@@ -1,0 +1,46 @@
+{
+  "entity_id": "stormwarden",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stormwarden",
+  "name_zh": "风暴守卫",
+  "description_en": "Launches rapid-fire bomblets.",
+  "description_zh": "快速地发射小型炸弹。",
+  "rarity": "legendary",
+  "category": "grenadeLauncher",
+  "price": 360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 9,
+  "critChance": 5,
+  "critBonus": 3,
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "titanLoot",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0058,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0058,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

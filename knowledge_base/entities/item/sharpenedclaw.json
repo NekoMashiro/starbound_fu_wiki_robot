@@ -1,0 +1,311 @@
+{
+  "entity_id": "sharpenedclaw",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Sharpened Claw",
+  "name_zh": "锋利的爪",
+  "description_en": "A razor sharp monster claw. Can be used for crafting.",
+  "description_zh": "锋利的怪物爪。可以用于制作。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 50,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 6,
+        "examples": [
+          "fubearhead",
+          "fubearhead2",
+          "fuwolfhead",
+          "poptoptop",
+          "reptilianhead"
+        ]
+      },
+      "legarmour": {
+        "count": 4,
+        "examples": [
+          "fubearlegs",
+          "fubearlegs2",
+          "fuwolflegs",
+          "reptilianlegs"
+        ]
+      },
+      "chestarmour": {
+        "count": 4,
+        "examples": [
+          "fubearchest",
+          "fubearchest2",
+          "fuwolfchest",
+          "reptilianchest"
+        ]
+      },
+      "fistWeapon": {
+        "count": 2,
+        "examples": [
+          "clawglove",
+          "fuhellclaw"
+        ]
+      },
+      "wand": {
+        "count": 1,
+        "examples": [
+          "fuflamewand"
+        ]
+      },
+      "seed": {
+        "count": 1,
+        "examples": [
+          "pineappleseed"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "radienaugment1"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "reptileshield"
+        ]
+      }
+    },
+    "total": 21
+  },
+  "drop_sources": {
+    "total_pools": 215,
+    "hunting_harvest": {
+      "count": 28,
+      "top": [
+        {
+          "pool": "paraspriteHunting",
+          "probability": 0.997,
+          "count": 1,
+          "monsters": [
+            "lightsprite",
+            "parasprite"
+          ]
+        },
+        {
+          "pool": "poptopHarvest",
+          "probability": 0.95,
+          "count": 1.8
+        },
+        {
+          "pool": "pandorasboxmimetopHunting",
+          "probability": 0.7921,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterAnimalHunting",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "hemogoblinHunting",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "electrichemogoblinbutt",
+            "hemogoblinbutt"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.997
+      ]
+    },
+    "other": {
+      "count": 21,
+      "top": [
+        {
+          "pool": "shadowtopLoot",
+          "probability": 0.3412,
+          "count": 1,
+          "monsters": [
+            "tentaclecometsporefu"
+          ]
+        },
+        {
+          "pool": "minishoggothLoot",
+          "probability": 0.2335,
+          "count": 1,
+          "monsters": [
+            "fleshleech",
+            "fleshleech2",
+            "fleshleechold",
+            "minishoggoth",
+            "minishoggoth2"
+          ]
+        },
+        {
+          "pool": "fuheadcrabLoot",
+          "probability": 0.2113,
+          "count": 1,
+          "monsters": [
+            "headcrab"
+          ]
+        },
+        {
+          "pool": "bogLoot",
+          "probability": 0.1633,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterAnimal",
+          "probability": 0.16,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.3412
+      ]
+    },
+    "monster_drops": {
+      "count": 87,
+      "top": [
+        {
+          "pool": "adultpoptopVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "hemogoblinVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "lilodonVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "orbideVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        },
+        {
+          "pool": "petricubVaultTreasure",
+          "probability": 0.1988,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.1988
+      ]
+    },
+    "chest_loot": {
+      "count": 67,
+      "top": [
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.096,
+          "count": 1.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.093,
+          "count": 1.0
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0471,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0311,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0309,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.096
+      ]
+    },
+    "boss_mission": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "dinoLootBoss",
+          "probability": 0.0583,
+          "count": 5,
+          "monsters": [
+            "fuhugebiped"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.003,
+          "count": 1.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.0006,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.0003,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0583
+      ]
+    },
+    "quest_rewards": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0135,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0133,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0115,
+          "count": 1.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0027,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0026,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0006,
+        0.0135
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_nether_storage_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Cabinet",
+  "name_zh": "冥界柜",
+  "description_en": "A simple storage unit made from nether wood. Can store a few items in its cabinets.",
+  "description_zh": "使用冥界木制成的简易储存单元，可以在内部的柜子里存放少量物品。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "storage",
+    "nether",
+    "spectwing"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

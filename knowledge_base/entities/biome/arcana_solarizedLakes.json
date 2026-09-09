@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_solarizedLakes",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Solarized Lakes",
+  "name_zh": "炎阳群湖",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Solarized Lakes",
+  "friendly_name_zh": "炎阳群湖",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 1.0
+    },
+    {
+      "ore": "corefragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_atumiumOre",
+      "weight": 1.0
+    },
+    {
+      "ore": "gold",
+      "weight": 0.8
+    },
+    {
+      "ore": "solarium",
+      "weight": 0.4
+    }
+  ],
+  "monsters": [
+    "arcana_soli",
+    "bowbirdcritter",
+    "deserttortoisecritter",
+    "mousecritter",
+    "squeekcritter",
+    "toucritter"
+  ],
+  "quality_tier": "C"
+}

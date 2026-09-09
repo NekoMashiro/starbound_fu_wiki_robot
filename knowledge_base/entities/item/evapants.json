@@ -1,0 +1,52 @@
+{
+  "entity_id": "evapants",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "E.V.A Pants",
+  "name_zh": "E.V.A 裤子",
+  "description_en": "Set Bonuses\r\n Immune: Moderate Radiation, Radiation Burn, Pus, Liq. Nitrogen",
+  "description_zh": "套装奖励\n 免疫: 严酷辐射, 辐射烧伤, 脓液, 液氮",
+  "rarity": "uncommon",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee",
+    "explorer"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "ff_plastic",
+          "count": 1
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

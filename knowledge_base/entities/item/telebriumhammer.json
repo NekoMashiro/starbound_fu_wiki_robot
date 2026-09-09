@@ -1,0 +1,52 @@
+{
+  "entity_id": "telebriumhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Hammer",
+  "name_zh": "月海锤",
+  "description_en": "Infused with moon-laced hate.",
+  "description_zh": "充满了月亮的仇恨。",
+  "rarity": "common",
+  "category": "hammer",
+  "price": 220,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "telebrium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 12,
+  "critChance": 3,
+  "critBonus": 2,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "shockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

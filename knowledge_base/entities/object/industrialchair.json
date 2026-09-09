@@ -1,0 +1,41 @@
+{
+  "entity_id": "industrialchair",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Chair",
+  "name_zh": "工业椅",
+  "description_en": "A solid metal chair with only the slightest bit of padding.",
+  "description_zh": "只有一点点衬垫的坚固的金属椅。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 85,
+  "tags": [
+    "misc",
+    "industrial"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "hazard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

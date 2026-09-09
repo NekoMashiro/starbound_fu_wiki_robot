@@ -1,0 +1,54 @@
+{
+  "entity_id": "pyreitewhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pyreite Whip",
+  "name_zh": "永燃鞭",
+  "description_en": "There is no whip hotter than this. Take that as you will.\r\nInflicts Napalm",
+  "description_zh": "没有鞭子比这更热。想拿就拿吧。\n释放凝固汽油",
+  "rarity": "Legendary",
+  "category": "whip",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "pyreite",
+    "ice"
+  ],
+  "elementalType": "hellfire",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 7,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

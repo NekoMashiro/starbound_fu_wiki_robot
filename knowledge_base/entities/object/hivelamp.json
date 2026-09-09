@@ -1,0 +1,58 @@
+{
+  "entity_id": "hivelamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Hive Lamp",
+  "name_zh": "蜂巢灯",
+  "description_en": "An odd lamp made from a hive-like structure.",
+  "description_zh": "一个有着像蜂巢一样的结构的奇怪的灯。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 100,
+  "tags": [
+    "hive",
+    "light",
+    "odd"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hive",
+          "count": 15
+        },
+        {
+          "item": "larva",
+          "count": 10
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "labhatchhuge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Huge Lab Hatch",
+  "name_zh": "巨大实验室舱口",
+  "description_en": "This hatch is made of some sort of bulletproof material.",
+  "description_zh": "这种舱口是用某种防弹材料制成的。",
+  "rarity": "uncommon",
+  "category": "door",
+  "price": 250,
+  "tags": [
+    "fu",
+    "science",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 8
+        },
+        {
+          "item": "tungstenbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

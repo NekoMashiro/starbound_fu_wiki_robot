@@ -1,0 +1,36 @@
+{
+  "entity_id": "briefcase",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Briefcase",
+  "name_zh": "公文包",
+  "description_en": "Prepared or not, you'll still look the part with this briefcase at your side!",
+  "description_zh": "不管准备好与否，你仍然会看到这个公文包在你身边！",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

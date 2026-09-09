@@ -1,0 +1,55 @@
+{
+  "entity_id": "fu_byosteleporterprecursor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Ship Teleporter",
+  "name_zh": "先驱飞船传送门",
+  "description_en": "A ship teleporter crafted from an ancient Precursor schematic",
+  "description_zh": "一个根据古老的先驱蓝图制作成的飞船传送门。",
+  "rarity": "Legendary",
+  "category": "teleporter",
+  "price": 0,
+  "tags": [
+    "misc",
+    "precursor"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursorcore",
+          "count": 2
+        },
+        {
+          "item": "precursorbattery",
+          "count": 3
+        },
+        {
+          "item": "corruptionore",
+          "count": 15
+        },
+        {
+          "item": "precursorfuelcell",
+          "count": 1
+        },
+        {
+          "item": "precursordatadrive",
+          "count": 4
+        },
+        {
+          "item": "precursorram",
+          "count": 2
+        },
+        {
+          "item": "pukacolaquantum",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

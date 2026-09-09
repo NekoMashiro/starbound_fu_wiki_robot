@@ -1,0 +1,40 @@
+{
+  "entity_id": "dragonhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dragonhead Pistol",
+  "name_zh": "龙头手枪",
+  "description_en": "A pistol with a fiery temper. Here be Dragons.",
+  "description_zh": "一个有急躁脾气的手枪。这里是龙。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": false,
+  "critChance": 9,
+  "critBonus": 8,
+  "primaryAbilityType": "chargefire",
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "bonedragonTreasure",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "dragonboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

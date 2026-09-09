@@ -1,0 +1,68 @@
+{
+  "entity_id": "erithianalgaeseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Erithian Algae Seed",
+  "name_zh": "埃里西安藻豆荚种子",
+  "description_en": "Mutant strain of algae loaded with energy.",
+  "description_zh": "这种突变藻类的体内蕴含着巨大的能量。可以收获埃里西安藻豆荚，这是非常不错的燃料。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 18,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 28
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "reed",
+          "count": 20
+        },
+        {
+          "item": "kelp",
+          "count": 5
+        },
+        {
+          "item": "petalblue",
+          "count": 30
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "erithianalgaeHarvest",
+          "probability": 0.4,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,60 @@
+{
+  "entity_id": "arcana_misc_lunarInsignia",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Lunar Insignia",
+  "name_zh": "月见之印",
+  "description_en": "An insignia of the ancient Lunar tribe.",
+  "description_zh": "古代月见部落的徽章。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 800,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mwhaddon_misc_desolateInsignia",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_nullatusBar",
+          "arcana_sigils_lunarSigil"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_dheral",
+          "probability": 1.0,
+          "count": 4,
+          "monsters": [
+            "arcana_boss_dheral",
+            "arcana_boss_herald"
+          ]
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Lunar Insignia.md",
+  "quality_tier": "S"
+}

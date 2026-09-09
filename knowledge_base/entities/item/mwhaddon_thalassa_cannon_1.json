@@ -1,0 +1,54 @@
+{
+  "entity_id": "mwhaddon_thalassa_cannon_1",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Aquamarine Breeze",
+  "name_zh": "蔚海微风",
+  "description_en": "A launcher infused with oceanic magic.",
+  "description_zh": "注入了海洋魔法的发射器。",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 13,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_pinkAquamarine",
+          "count": 7
+        },
+        {
+          "item": "turbulent_tile1",
+          "count": 9
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

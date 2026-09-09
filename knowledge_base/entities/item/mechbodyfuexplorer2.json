@@ -1,0 +1,40 @@
+{
+  "entity_id": "mechbodyfuexplorer2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Explorer II Mech Body",
+  "name_zh": "探索者机甲躯体 II",
+  "description_en": "Immune: Acid, Moderate Heat/Radiation, Mild Cold/Poison, Proto",
+  "description_zh": "免疫：酸蚀，中度炎热/辐射，轻度毒素/寒冷，原毒",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 11200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mechbodyfuexplorer",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "battery",
+          "count": 1
+        },
+        {
+          "item": "carbonplate",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,50 @@
+{
+  "entity_id": "elduukhartier1broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Oceanite Broadsword",
+  "name_zh": "大洋石宽剑",
+  "description_en": "The first lesson for an apprentice gemcrafter. Not bad for a beginner.",
+  "description_zh": "宝石工匠学徒的第一课。对于新手来说还不错。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 10.8,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "spinslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "opul",
+          "count": 4
+        },
+        {
+          "item": "oceanite",
+          "count": 30
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

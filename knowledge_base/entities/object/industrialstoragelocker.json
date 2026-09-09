@@ -1,0 +1,41 @@
+{
+  "entity_id": "industrialstoragelocker",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Storage Locker",
+  "name_zh": "工业储物柜",
+  "description_en": "A wall mounted locker, complete with hazard stripes and a red light.",
+  "description_zh": "壁装式储物柜，由危险条纹和红灯装饰。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 225,
+  "tags": [
+    "industrial",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

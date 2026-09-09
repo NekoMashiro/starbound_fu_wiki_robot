@@ -1,0 +1,68 @@
+{
+  "entity_id": "arcana_eminsnow",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Eminsnow",
+  "name_zh": "明雪",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Eminsnow",
+  "friendly_name_zh": "明雪",
+  "ores": [
+    {
+      "ore": "arcana_mod_luminariumOre",
+      "weight": 1.1
+    },
+    {
+      "ore": "iron",
+      "weight": 0.8
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "silver",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_lunarPoptop",
+    "bobfae",
+    "bobot",
+    "bunnycommon",
+    "capricoat",
+    "frostfleck",
+    "frostfly",
+    "icetip",
+    "lilodon",
+    "pulpin",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "wintercritter",
+    "wisper",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:snow"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "arcana_status_cataclysm"
+  ],
+  "wiki_ref": "Eminsnow.md",
+  "quality_tier": "C"
+}

@@ -1,0 +1,67 @@
+{
+  "entity_id": "fugausssniper",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gauss Sniper Rifle",
+  "name_zh": "高斯狙击步枪",
+  "description_en": "Powerful capacitors with several coil stages.\r\nArea damage\r\nHunting weapon\r\nHigh velocity projectile",
+  "description_zh": "具有多匝线圈的强大电容器。\n范围伤害\n狩猎武器\n高速弹丸",
+  "rarity": "uncommon",
+  "category": "sniperRifle",
+  "price": 250,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle",
+    "upgradeableWeapon",
+    "gauss"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 8.5,
+  "critChance": 2,
+  "critBonus": 6,
+  "altAbilityType": "piercingshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 9
+        },
+        {
+          "item": "wire",
+          "count": 5
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        },
+        {
+          "item": "graphene",
+          "count": 3
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,76 @@
+{
+  "entity_id": "thelusscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Scythe",
+  "name_zh": "蚁族镰刀",
+  "description_en": "A jagged and chitinous curved reaper of flesh.\r\nCounts as Hunting weapon",
+  "description_zh": "一把锯齿状弯曲的割肉器。\n狩猎武器",
+  "rarity": "common",
+  "category": "scythe",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon",
+    "thelusian"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 4
+        },
+        {
+          "item": "fuamberchunk",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

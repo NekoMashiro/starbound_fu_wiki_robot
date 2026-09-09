@@ -1,0 +1,118 @@
+{
+  "entity_id": "rekite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rekite Crystal",
+  "name_zh": "瑞吉特水晶",
+  "description_en": "Reacts with the Oceanite in Eld'uukhar tech to create a small amount (+2) of fuel.",
+  "description_zh": "在厄休安龙人的技术中能与大洋石发生反应以生成少量(+2)燃料。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 600
+        }
+      ],
+      "output_count": 1,
+      "station": "Gems of Soul",
+      "station_zh": "灵魂宝石",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fugemshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "furniture": {
+        "count": 11,
+        "examples": [
+          "elduubed",
+          "elduubookcase",
+          "elduucabinet",
+          "elduuchair",
+          "elduucouch"
+        ]
+      },
+      "decorative": {
+        "count": 7,
+        "examples": [
+          "appleplush",
+          "elduuconsole1",
+          "elduuconsole2",
+          "elduuconsole3",
+          "elduuconsole4"
+        ]
+      },
+      "crafting": {
+        "count": 3,
+        "examples": [
+          "crystalloom",
+          "furniturestation",
+          "gemstation"
+        ]
+      },
+      "storage": {
+        "count": 3,
+        "examples": [
+          "elduuchest1",
+          "elduuchest2",
+          "elduunightstand"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 2,
+        "examples": [
+          "elduufridge",
+          "elduuminifridge"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "elduukharshipdoor",
+          "elduushiphatch"
+        ]
+      },
+      "seed": {
+        "count": 2,
+        "examples": [
+          "phositeseed",
+          "rukarseed"
+        ]
+      },
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "elduudecortele"
+        ]
+      }
+    },
+    "total": 34
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "feyaHarvest",
+          "probability": 0.87,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "xithricitemace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Xithricite Mace",
+  "name_zh": "赛德瑞瑟棍棒",
+  "description_en": "Smack em in the face with the cosmos.",
+  "description_zh": "用宇宙之力在他们的脸上扇一巴掌。",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 700,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.4,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 9
+        },
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "liquidaether",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

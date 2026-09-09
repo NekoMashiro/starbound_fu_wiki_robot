@@ -1,0 +1,43 @@
+{
+  "entity_id": "c_subliminalmessaging",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Subliminal Messaging",
+  "name_zh": "潜意识发信器",
+  "description_en": "Secretly emits subtle tones to make your tenants like your colony more. +12 Happiness\nRequires 12J every 5s.",
+  "description_zh": "秘密地发出微妙的声音，让你的房客更喜欢你的殖民地。+12幸福\n每5秒需要12J能量。",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 250,
+  "tags": [
+    "evil",
+    "apexresearchlab"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 5
+        },
+        {
+          "item": "fuprocessor",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 6
+        },
+        {
+          "item": "ff_mercury",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "snow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Snow",
+  "name_zh": "雪块",
+  "description_en": "Soft and fluffy snow.\nExtractable.",
+  "description_zh": "松软的雪块。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 3,
+        "examples": [
+          "acutaque",
+          "frostburntmeat",
+          "slushpaste"
+        ]
+      },
+      "terraformer": {
+        "count": 2,
+        "examples": [
+          "terraformersnow",
+          "terraformertundra"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "snowball"
+        ]
+      },
+      "toy": {
+        "count": 1,
+        "examples": [
+          "snowgun"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "peglacisnowpersongenerator"
+        ]
+      }
+    },
+    "total": 8
+  },
+  "blueprints_unlocked": [
+    "snowball"
+  ],
+  "wiki_ref": "Snow.md",
+  "quality_tier": "A"
+}

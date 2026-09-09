@@ -1,0 +1,70 @@
+{
+  "entity_id": "strangeseafloor",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strange Sea Floor",
+  "name_zh": "诡之海海底",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Strange Sea Floor",
+  "friendly_name_zh": "诡之海海底",
+  "ores": [
+    {
+      "ore": "cinnabar",
+      "weight": 0.9
+    },
+    {
+      "ore": "koanite",
+      "weight": 0.85
+    },
+    {
+      "ore": "fublooddiamond",
+      "weight": 0.8
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.8
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.7
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.7
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.65
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.27
+    },
+    {
+      "ore": "nocxium",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "aggroLargeFish",
+    "fufish",
+    "jellycritter",
+    "passiveLargeFish",
+    "seahornet",
+    "smallFishOcean1",
+    "smallFishOcean2",
+    "squidcritter",
+    "tidefly",
+    "wavebird"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arboreal"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

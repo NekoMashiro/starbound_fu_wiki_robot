@@ -1,0 +1,52 @@
+{
+  "entity_id": "apalite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apalite Crystal",
+  "name_zh": "磷灰石水晶",
+  "description_en": "A blue gem cut into sharp edges. It feels ice cold.",
+  "description_zh": "一颗蓝色宝石，被切出锐利边缘。触感冰凉。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 20,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "fu_aetherpowder"
+        ]
+      },
+      "clothingDye": {
+        "count": 1,
+        "examples": [
+          "apalitedye"
+        ]
+      },
+      "mechChip": {
+        "count": 1,
+        "examples": [
+          "mechchipfeather"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "apaliteHarvest",
+          "probability": 10.1,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "lunarirapier",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Rapier",
+  "name_zh": "月晶刺剑",
+  "description_en": "Purified crystalline stabber.",
+  "description_zh": "精制的水晶锥刺。",
+  "rarity": "Common",
+  "category": "Rapier",
+  "price": 120,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.87,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,51 @@
+{
+  "entity_id": "maverickhunterhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Maverick Ocular Implants",
+  "name_zh": "独行猎人眼部植入物",
+  "description_en": "Set Bonuses:\r\n +15% Speed, +15% Jump\r\n Arm Cannon: Damage x1.15",
+  "description_zh": "套装奖励：\n +15%速度, +15%跳跃高度\n 臂炮: 伤害x1.15",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 500,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "ranged"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "quietusbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

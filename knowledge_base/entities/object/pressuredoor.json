@@ -1,0 +1,31 @@
+{
+  "entity_id": "pressuredoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Pressurised Door",
+  "name_zh": "密封门",
+  "description_en": "A door that's good under pressure.",
+  "description_zh": "一扇坚固的密封门。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "hylotl",
+    "hylotloceancity",
+    "door"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0605,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

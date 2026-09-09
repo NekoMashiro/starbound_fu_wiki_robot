@@ -1,0 +1,31 @@
+{
+  "entity_id": "arcana_essence_vileEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Anima Essence",
+  "name_zh": "生源精纯",
+  "description_en": "A solidified essence of the cerulean spirits.",
+  "description_zh": "苍蓝神魄之凝髓。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 10,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_randomitem_immorite",
+          "probability": 0.4,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Anima Essence.md",
+  "quality_tier": "A"
+}

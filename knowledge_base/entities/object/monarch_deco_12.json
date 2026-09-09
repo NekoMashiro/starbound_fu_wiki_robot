@@ -1,0 +1,55 @@
+{
+  "entity_id": "monarch_deco_12",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Monarch Dining Banner",
+  "name_zh": "帝王餐饮条幅",
+  "description_en": "A dark banner indicating a dining area is nearby.",
+  "description_zh": "附近有一个表示餐饮区的深色条幅。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "glitch",
+    "glitchcastle",
+    "monarch",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 2
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Monarch Crafting Table",
+      "station_zh": "帝王制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

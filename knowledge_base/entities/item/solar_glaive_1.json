@@ -1,0 +1,55 @@
+{
+  "entity_id": "solar_glaive_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sundragon",
+  "name_zh": "烈阳龙戟",
+  "description_en": "An ancient glaive, forged to burn all away in the face of the heavenly sun.",
+  "description_zh": "古老的长戟，在高天的烈阳下灼烧一切。",
+  "rarity": "Essential",
+  "category": "spear",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "melee"
+  ],
+  "elementalType": "fire",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "primaryAbilityType": "arcana_fireglaive_combo",
+  "altAbilityType": "arcana_glaive_chargeslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "artifact_staff_solarron",
+          "count": 1
+        },
+        {
+          "item": "arcana_bar_atumiumBar",
+          "count": 60
+        },
+        {
+          "item": "arcana_essence_fireEssence",
+          "count": 600
+        },
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

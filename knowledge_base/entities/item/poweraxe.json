@@ -1,0 +1,59 @@
+{
+  "entity_id": "poweraxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tritanium Axe",
+  "name_zh": "三相斧",
+  "description_en": "Smile for the birdy!\r\nInflicts Electrified and Bouncy",
+  "description_zh": "为小鸟微笑！\n感电和反伤",
+  "rarity": "rare",
+  "category": "axe",
+  "price": 2440,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "tritanium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 12,
+  "critChance": 3,
+  "critBonus": 12,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tritaniumbar",
+          "count": 5
+        },
+        {
+          "item": "liquiddeuterium",
+          "count": 10
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

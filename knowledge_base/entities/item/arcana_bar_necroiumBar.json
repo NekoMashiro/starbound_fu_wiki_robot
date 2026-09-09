@@ -1,0 +1,228 @@
+{
+  "entity_id": "arcana_bar_necroiumBar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Necroium Bar",
+  "name_zh": "死金锭",
+  "description_en": "A necroium bar, can be used to craft Horizon equipment.",
+  "description_zh": "一块死金锭，可用于制作地平线装备。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 220,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_necroiumFragment",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_necroiumFragment",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1320
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "storage": {
+        "count": 12,
+        "examples": [
+          "arcana_horizon_canister_1",
+          "arcana_horizon_canister_2",
+          "horizon_bookcase_1",
+          "horizon_storage_1",
+          "horizon_storage_2"
+        ]
+      },
+      "furniture": {
+        "count": 9,
+        "examples": [
+          "horizon_bed_1",
+          "horizon_chair_1",
+          "horizon_chair_1",
+          "horizon_chair_2",
+          "horizon_chair_3"
+        ]
+      },
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "horizon_deco_1",
+          "horizon_deco_2",
+          "horizon_deco_3",
+          "horizon_deco_4",
+          "horizon_deco_5"
+        ]
+      },
+      "block": {
+        "count": 8,
+        "examples": [
+          "arcana_platform_necroiumPlatform",
+          "horizon_tile1",
+          "horizon_tile3",
+          "horizon_tile4",
+          "horizon_tile5"
+        ]
+      },
+      "light": {
+        "count": 6,
+        "examples": [
+          "horizon_light_1",
+          "horizon_light_2",
+          "horizon_light_3",
+          "horizon_switch_1",
+          "mwhaddon_horizon_console_1"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "arcana_bar_aureolaBar",
+          "elemental_crafting_evernightCrystal",
+          "horizon_crafting_horizonTechCard",
+          "horizon_crafting_horizonTechCard"
+        ]
+      },
+      "mechPart": {
+        "count": 4,
+        "examples": [
+          "mwhaddon_mech_arm_acheron",
+          "mwhaddon_mech_body_erebus",
+          "mwhaddon_mech_booster_erebus",
+          "mwhaddon_mech_leg_erebus"
+        ]
+      },
+      "crafting": {
+        "count": 3,
+        "examples": [
+          "arcana_horizon_crafting_1",
+          "horizon_deco_7",
+          "mwhaddon_crafting_horizonFurnace"
+        ]
+      }
+    },
+    "total": 80
+  },
+  "drop_sources": {
+    "total_pools": 19,
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_core",
+          "probability": 1.63,
+          "count": 3.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_necroiumBar",
+          "probability": 0.9999,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.778,
+          "count": 3.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_rare",
+          "probability": 0.63,
+          "count": 3
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.63,
+          "count": 3
+        }
+      ],
+      "prob_range": [
+        0.3041,
+        1.63
+      ]
+    },
+    "boss_mission": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 0.3399,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 0.3399,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 0.3399,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_upper_t2",
+          "probability": 0.2439,
+          "count": 2.0
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_under_t2",
+          "probability": 0.2205,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.039,
+        0.3399
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_necroiumBar"
+  ],
+  "wiki_ref": "Necroium Bar.md",
+  "quality_tier": "S"
+}

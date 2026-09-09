@@ -1,0 +1,51 @@
+{
+  "entity_id": "or",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "OR Gate",
+  "name_zh": "或门",
+  "description_en": "An /'OR'/ gate. Requires at least 1 input to be /'on'/ to work.",
+  "description_zh": "一个或门。至少需要接入一个输入节点才能激活/ON/。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 3,
+        "examples": [
+          "swtjc_wp_advancedor",
+          "swtjc_wp_advancedor_nolatch",
+          "swtjc_wp_masterlogic"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "swansongaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Swansong Figurine",
+  "name_zh": "绝唱手办",
+  "description_en": "The label reads, \"An experimental mech suit, built and piloted by Asra Nox.\"",
+  "description_zh": "标签上写着，\"由阿斯拉·诺克斯制造和驾驶的实验机甲套装。\"",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "swansongTreasure",
+          "probability": 0.05,
+          "count": 1,
+          "monsters": [
+            "swansong"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

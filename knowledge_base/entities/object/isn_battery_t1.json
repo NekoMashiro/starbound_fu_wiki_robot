@@ -1,0 +1,42 @@
+{
+  "entity_id": "isn_battery_t1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Basic Battery",
+  "name_zh": "基础电池",
+  "description_en": "A basic power storage unit. Scan for Info\nStorage Capacity: 1000J",
+  "description_zh": "基础的电力储存设备。\n扫描以查看更多信息\n储存电能：1000J",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

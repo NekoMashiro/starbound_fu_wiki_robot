@@ -1,0 +1,46 @@
+{
+  "entity_id": "fleshchest",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Flesh Chest",
+  "name_zh": "血肉箱子",
+  "description_en": "A squishy, fleshy chest. To store things in.",
+  "description_zh": "一个黏糊糊的肉质箱子，用来存放东西。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "flesh",
+    "odd",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fleshstrand",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

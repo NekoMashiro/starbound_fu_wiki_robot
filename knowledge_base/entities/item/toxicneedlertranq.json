@@ -1,0 +1,45 @@
+{
+  "entity_id": "toxicneedlertranq",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tranquilizer Pistol",
+  "name_zh": "",
+  "description_en": "Poisonous barbs tipped with neurotoxin.\r\nNon-lethal at range.",
+  "description_zh": "",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon",
+    "poison"
+  ],
+  "elementalType": "poison",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "C"
+}

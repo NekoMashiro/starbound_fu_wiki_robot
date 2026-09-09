@@ -1,0 +1,99 @@
+{
+  "entity_id": "arcana_misc_verrostinComponent",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verrostin Component",
+  "name_zh": "肃钉机件",
+  "description_en": "A rusty component made from verrostin.",
+  "description_zh": "由肃钉制成的锈色部件，别被它的外观劝退。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 100,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_hakenVerrostin",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 4
+        }
+      ],
+      "output_count": 4,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 9,
+        "examples": [
+          "arcana_steelblades_deco_1",
+          "arcana_steelblades_deco_2",
+          "arcana_steelblades_deco_3",
+          "arcana_steelblades_deco_4",
+          "arcana_steelblades_deco_5"
+        ]
+      },
+      "storage": {
+        "count": 8,
+        "examples": [
+          "arcana_steelblades_storage_1",
+          "arcana_steelblades_storage_2",
+          "arcana_steelblades_storage_3",
+          "arcana_steelblades_storage_4",
+          "arcana_steelblades_storage_5"
+        ]
+      },
+      "furniture": {
+        "count": 3,
+        "examples": [
+          "arcana_steelblades_chair_1",
+          "arcana_steelblades_table_1",
+          "arcana_steelblades_table_2"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_mech_body_steelblade",
+          "mwhaddon_mech_leg_steelblade"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "arcana_steelblades_door_1"
+        ]
+      },
+      "mwhaddon_submachineGun": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_submachineGun_eschatonSeeker"
+        ]
+      }
+    },
+    "total": 25
+  },
+  "wiki_ref": "Verrostin Component.md",
+  "quality_tier": "S"
+}

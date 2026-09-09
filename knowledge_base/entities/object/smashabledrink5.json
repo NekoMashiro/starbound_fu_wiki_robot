@@ -1,0 +1,54 @@
+{
+  "entity_id": "smashabledrink5",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Empty Fancy Water Bottle",
+  "name_zh": "空奇异水瓶",
+  "description_en": "An empty bottle of fancy water.",
+  "description_zh": "一个装奇异水的空瓶子。",
+  "rarity": "Common",
+  "category": "breakable",
+  "price": 5,
+  "tags": [
+    "hylotl",
+    "hylotloceancity"
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "novakidvillageSaloonTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.1103,
+          "count": 2
+        },
+        {
+          "pool": "hylotlcityTreasureMedium",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "hylotlruinedcityTreasure",
+          "probability": 0.028,
+          "count": 2
+        },
+        {
+          "pool": "hylotlcityTreasure",
+          "probability": 0.0232,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.013,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

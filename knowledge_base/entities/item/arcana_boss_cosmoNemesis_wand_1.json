@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_boss_cosmoNemesis_wand_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Hidama",
+  "name_zh": "火魂",
+  "description_en": "A wand that summons cosmic flames.",
+  "description_zh": "一把能召唤宇宙火焰的魔杖。",
+  "rarity": "Rare",
+  "category": "wand",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "wand"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_cosmoTendrils",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_animaBar",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

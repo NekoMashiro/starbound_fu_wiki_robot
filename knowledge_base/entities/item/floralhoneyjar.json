@@ -1,0 +1,32 @@
+{
+  "entity_id": "floralhoneyjar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floral Honey Jar",
+  "name_zh": "罐装芳香蜂蜜",
+  "description_en": "A jar of aromatic honey with slight healing properties.\nHeal106.67 (80s)",
+  "description_zh": "一罐具有轻微愈合效果的蜂蜜。\n治疗106.67点生命值(80s内)",
+  "rarity": "Common",
+  "category": "food",
+  "price": 20,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "flowercomb",
+          "count": 3
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Honey Extractor",
+      "station_zh": "蜂蜜提取器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

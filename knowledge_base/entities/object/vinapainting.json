@@ -1,0 +1,40 @@
+{
+  "entity_id": "vinapainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "A Xariwiek",
+  "name_zh": "仙灵",
+  "description_en": "A rare species, immortalized in art.",
+  "description_zh": "一种罕见的物种，在艺术中永垂不朽。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

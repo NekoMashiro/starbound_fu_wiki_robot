@@ -1,0 +1,47 @@
+{
+  "entity_id": "samurai2chest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neishin Breastplate",
+  "name_zh": "佞臣胸甲",
+  "description_en": "Set Bonuses:\r\n Katana: Damage x1.15, +3% Crit Chance, +10% Crit Damage\r\n Katana + Dagger: Additional +1% Crit Chance, Defense x1.14",
+  "description_zh": "套装奖励:\n 武士刀: 伤害x1.15, +3% 暴击几率, +10% 暴击伤害\n 武士刀 + 匕首 : +1% 暴击几率, 防御x1.14",
+  "rarity": "uncommon",
+  "category": "chestarmour",
+  "price": 2400,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fusamuraichest",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

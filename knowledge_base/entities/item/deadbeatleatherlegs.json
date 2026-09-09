@@ -1,0 +1,46 @@
+{
+  "entity_id": "deadbeatleatherlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Deadbeat Tough Trousers",
+  "name_zh": "落魄坚韧裤子",
+  "description_en": "Tough trousers, made from cured leather.",
+  "description_zh": "以固化皮革制成的结实的裤子。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

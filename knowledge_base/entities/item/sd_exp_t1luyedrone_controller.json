@@ -1,0 +1,44 @@
+{
+  "entity_id": "sd_exp_t1luyedrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Seeder Controller",
+  "name_zh": "播种机控制器",
+  "description_en": "An Orion security drone, typically only deployed for surveillance\r\n  [Primary]Spawn/Despawn，[Alt]Fire.",
+  "description_zh": "通过发射空爆茶种包来实现快速播种的绿叶机器。\n[左键]释放/收回，[右键]开火射击[Shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;1级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1300
+        },
+        {
+          "item": "luye_tile4",
+          "count": 5
+        },
+        {
+          "item": "luye_tile3",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

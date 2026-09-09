@@ -1,0 +1,50 @@
+{
+  "entity_id": "densealloyfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dense Alloy Fridge",
+  "name_zh": "致密合金冰箱",
+  "description_en": "A fridge made from dense alloy.",
+  "description_zh": "用致密合金制成的冰箱。",
+  "rarity": "rare",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "densealloy",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densealloy",
+          "count": 10
+        },
+        {
+          "item": "advancealloy",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

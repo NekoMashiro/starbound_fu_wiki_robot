@@ -1,0 +1,66 @@
+{
+  "entity_id": "blackglass",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Black Glass",
+  "name_zh": "黑色玻璃",
+  "description_en": "A dark-tinted panel of glass.",
+  "description_zh": "一块深色的玻璃板。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "blackdye",
+          "count": 1
+        }
+      ],
+      "output_count": 10,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "obsidian"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "obsidian"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "obsidian"
+    }
+  ],
+  "blueprints_unlocked": [
+    "blackglass"
+  ],
+  "quality_tier": "A"
+}

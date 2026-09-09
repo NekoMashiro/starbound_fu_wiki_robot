@@ -1,0 +1,79 @@
+{
+  "entity_id": "nightardagger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightarian Knife",
+  "name_zh": "夜之小刀",
+  "description_en": "Dull and nearly lifeless, but still dangerous. Upgrade for lethality.",
+  "description_zh": "死气沉沉且毫无生气，但却相当危险。升级以变得更加致命。",
+  "rarity": "common",
+  "category": "dagger",
+  "price": 240,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger",
+    "upgradeableWeapon",
+    "nightar"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "funightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "nightardagger.png",
+    "seed": "",
+    "shortdescription": "卓越的夜之刃",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

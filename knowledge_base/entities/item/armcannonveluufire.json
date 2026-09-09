@@ -1,0 +1,55 @@
+{
+  "entity_id": "armcannonveluufire",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vel'uuish Burner",
+  "name_zh": "灵猫燃尽者",
+  "description_en": "Attaches to the forearm. Fires fire blasts.\r\nFire weapon",
+  "description_zh": "附在前臂上。发射火焰冲击。\n狩猎武器",
+  "rarity": "common",
+  "category": "armcannon",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "armcannon",
+    "veluu",
+    "fire"
+  ],
+  "elementalType": "fire",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 8,
+  "critChance": 1,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "scorchedcore",
+          "count": 2
+        },
+        {
+          "item": "duskiline",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "lumivine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lumivine",
+  "name_zh": "卢蒂海带",
+  "description_en": "Immune: Pressure: 2m",
+  "description_zh": "免疫: 压强: 2m",
+  "rarity": "rare",
+  "category": "food",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fushadowstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lumivineHarvest",
+          "probability": 1.1926,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

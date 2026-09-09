@@ -1,0 +1,51 @@
+{
+  "entity_id": "fudarkrobeschest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Stalker's Robe",
+  "name_zh": "潜行者长袍",
+  "description_en": "Set Bonuses:\r\n +8% Speed, Fall Damage x0.75\r\n Bows/Crossbows, Sniper Rifles: Damage x1.15, +3% Crit Chance\r\n Immune: Poisoned, Bio-Ooze",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "chestarmour",
+  "price": 400,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 6
+        },
+        {
+          "item": "liquidblood",
+          "count": 20
+        },
+        {
+          "item": "tungstenbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

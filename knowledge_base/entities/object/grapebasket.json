@@ -1,0 +1,43 @@
+{
+  "entity_id": "grapebasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grape Basket",
+  "name_zh": "葡萄篮",
+  "description_en": "Grapes, nature's snackfood.",
+  "description_zh": "葡萄，大自然的零食。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "colorful"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapes",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "grapes"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

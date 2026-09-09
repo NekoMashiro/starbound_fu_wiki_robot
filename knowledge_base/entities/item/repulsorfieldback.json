@@ -1,0 +1,62 @@
+{
+  "entity_id": "repulsorfieldback",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Repulsor Field Pack",
+  "name_zh": "简易冷却背包",
+  "description_en": "+20% Phys. and +20% Fire Resist at the expense of 20% Cosmic Resist. Great for warm climates such as deserts and rainforests.",
+  "description_zh": "适合沙漠、热带雨林等温暖特征的星球。\n物理抗性/火炎抗性+20%，射线抗性-20%",
+  "rarity": "uncommon",
+  "category": "enviroProtectionPack",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "electromagnet",
+          "count": 4
+        },
+        {
+          "item": "cryonicextract",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "woodenkatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Practice Katana",
+  "name_zh": "练习用木刀",
+  "description_en": "Made of wood. Not sharp, but will still hurt like a bugger.\r\n3 hit combo",
+  "description_zh": "由木制成，并不锋利，但是仍然可以造成少量伤害。\n3连斩",
+  "rarity": "common",
+  "category": "katana",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "upgradeableWeapon",
+    "wood"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 5.25,
+  "critChance": 0.5,
+  "critBonus": 8,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

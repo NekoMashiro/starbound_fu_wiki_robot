@@ -1,0 +1,51 @@
+{
+  "entity_id": "rainbowunicornstatue",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Rainbow Unicorn Statue",
+  "name_zh": "彩虹独角兽雕像",
+  "description_en": "A stunning unicorn statue. Watch out for the horn!",
+  "description_zh": "一尊极具震撼力的独角兽雕塑，小心它的角！",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 700,
+  "tags": [
+    "pretty",
+    "valuable",
+    "odd",
+    "colourful"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.0243,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.0157,
+          "count": 1
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.0132,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0132,
+        0.0157
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

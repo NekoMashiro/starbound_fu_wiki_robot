@@ -1,0 +1,62 @@
+{
+  "entity_id": "mandrafloraaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Mandraflora Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"Its sleepy lifestyle allows it to flourish underground and reach impressive sizes.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mandrafloraVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "mandrafloraTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bandraflora",
+            "bandraflora2",
+            "bandraflora3",
+            "bandraflora4",
+            "mandraflora"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mandrafloraHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "bandraflora",
+            "bandraflora2",
+            "bandraflora3",
+            "bandraflora4",
+            "mandraflora"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

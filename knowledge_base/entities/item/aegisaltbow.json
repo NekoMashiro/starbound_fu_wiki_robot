@@ -1,0 +1,59 @@
+{
+  "entity_id": "aegisaltbow",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Aegisalt Bow",
+  "name_zh": "霓磷盐弓",
+  "description_en": "The traditional weapon for hunting Laser Deer.",
+  "description_zh": "这把传统武器被用于猎杀镭射鹿。",
+  "rarity": "rare",
+  "category": "bow",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "aegisalt",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 5,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 6
+        },
+        {
+          "item": "solariumstar",
+          "count": 6
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        },
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

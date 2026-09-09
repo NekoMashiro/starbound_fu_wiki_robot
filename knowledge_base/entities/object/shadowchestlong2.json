@@ -1,0 +1,49 @@
+{
+  "entity_id": "shadowchestlong2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Long Shadowy Chest",
+  "name_zh": "阴影长箱",
+  "description_en": "A large chest. It watches you search inside it.",
+  "description_zh": "一个大型的箱子。他在注释你的搜寻。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "shadow",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

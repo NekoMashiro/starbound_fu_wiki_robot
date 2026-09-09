@@ -1,0 +1,59 @@
+{
+  "entity_id": "corruptstaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Corrupt Staff",
+  "name_zh": "腐化法杖",
+  "description_en": "Conjures a noxious cloud of poisonous gas.",
+  "description_zh": "可释放出毒气团。",
+  "rarity": "rare",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "miasma",
+  "altAbilityType": "elementalaura",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "biosample",
+          "count": 6
+        },
+        {
+          "item": "corruptionseed",
+          "count": 8
+        },
+        {
+          "item": "darkmatter",
+          "count": 2
+        },
+        {
+          "item": "mutagene2",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "floralytcandy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Floralyt Candy",
+  "name_zh": "小碎花",
+  "description_en": "Heal 70: 2s",
+  "description_zh": "治疗70点HP: 2s",
+  "rarity": "rare",
+  "category": "food",
+  "price": 85,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floralytHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

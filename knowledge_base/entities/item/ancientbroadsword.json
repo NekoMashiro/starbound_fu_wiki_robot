@@ -1,0 +1,61 @@
+{
+  "entity_id": "ancientbroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ancient Broadsword",
+  "name_zh": "古代宽剑",
+  "description_en": "Lethal, and ancient beyond measure.\r\ninflicts Defense Debuff",
+  "description_zh": "超乎想象的致命和古老。\n附加防御下降效果",
+  "rarity": "legendary",
+  "category": "broadsword",
+  "price": 2500,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "plasma",
+    "upgradeableWeapon",
+    "ancient"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "flamethrowersword",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 8000
+        },
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

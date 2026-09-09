@@ -1,0 +1,48 @@
+{
+  "entity_id": "fu_vashtaturret",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vashta Turret",
+  "name_zh": "骨镖炮塔",
+  "description_en": "Base Damage: 4\r\nFire Rate: 0.4\r\nEnergy per Shot: 7\r\nRange: Mid",
+  "description_zh": "基础伤害: 4\n射速: 0.4\n每击能量消耗: 7\n范围: 中等",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 150,
+  "tags": [
+    "wired",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "standingturret",
+          "count": 1
+        },
+        {
+          "item": "vashtagun",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "bioweapon": {
+        "count": 1,
+        "examples": [
+          "vashtagun"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Vashta Turret.md",
+  "quality_tier": "S"
+}

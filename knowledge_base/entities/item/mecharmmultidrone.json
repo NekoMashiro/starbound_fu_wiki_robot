@@ -1,0 +1,37 @@
+{
+  "entity_id": "mecharmmultidrone",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Swarm Drone Mech Arm",
+  "name_zh": "蜂群机甲臂",
+  "description_en": "An advanced mech arm that can deploy multiple attack drones.",
+  "description_zh": "一种先进的机甲臂，可以部署多个攻击性无人机。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 30
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "wiki_ref": "Swarm Drone Mech Arm.md",
+  "quality_tier": "A"
+}

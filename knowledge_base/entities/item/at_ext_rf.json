@@ -1,0 +1,44 @@
+{
+  "entity_id": "at_ext_rf",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "R5A1",
+  "name_zh": "",
+  "description_en": "''bullet guards your private space.''\r\n  A rifle made from Dustrium. Used for self-defense",
+  "description_zh": "“子弹最能保卫你的私人空间。”\n由尘石制成的黑色步枪。用于单兵自卫。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 18,
+  "altAbilityType": "flashlight",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 150
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "B"
+}

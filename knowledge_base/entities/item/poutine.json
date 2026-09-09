@@ -1,0 +1,55 @@
+{
+  "entity_id": "poutine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Poutine",
+  "name_zh": "普丁",
+  "description_en": "The most important survivor of Earth.\n-35% Run, Jump (125s)",
+  "description_zh": "地球的最重要的幸存者。\n-35%速度和跳跃(持续125s)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fumadnessresource",
+          "count": 4
+        },
+        {
+          "item": "matterconverter",
+          "count": 1
+        },
+        {
+          "item": "faceskin",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 250
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

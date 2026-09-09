@@ -1,0 +1,43 @@
+{
+  "entity_id": "eggincubator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Incubator",
+  "name_zh": "孵化器",
+  "description_en": "An egg incubator.",
+  "description_zh": "一个孵化器。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        },
+        {
+          "item": "wheat",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Incubator.md",
+  "quality_tier": "A"
+}

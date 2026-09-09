@@ -1,0 +1,60 @@
+{
+  "entity_id": "uraniumaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Uranium Axe",
+  "name_zh": "铀制斧",
+  "description_en": "Made of enriched uranium.",
+  "description_zh": "由浓缩铀锻造而成的斧头。",
+  "rarity": "Rare",
+  "category": "axe",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "radioactive",
+    "upgradeableWeapon",
+    "uranium"
+  ],
+  "elementalType": "radioactive",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 10,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "enricheduranium",
+          "count": 3
+        },
+        {
+          "item": "graphene",
+          "count": 2
+        },
+        {
+          "item": "advancealloy",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

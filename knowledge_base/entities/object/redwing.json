@@ -1,0 +1,32 @@
+{
+  "entity_id": "redwing",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Redwing",
+  "name_zh": "红翼虫",
+  "description_en": "Not to be confused with the infamous Dreadwing.",
+  "description_zh": "不要与臭名昭着的骇翼混淆。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "redwing",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "redwing"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "railhook2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Powered Rail Hook",
+  "name_zh": "动能轨钩",
+  "description_en": "Ride the rails, gravity can't stop you now!\r\n\r\nSlow down with Shift+Click.",
+  "description_zh": "乘上轨道，而地心引力无法阻止你!\n\nShift+左键减速.",
+  "rarity": "legendary",
+  "category": "tool",
+  "price": 2000,
+  "tags": [],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "titaniumbar",
+          "count": 4
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Powered Rail Hook.md",
+  "quality_tier": "A"
+}

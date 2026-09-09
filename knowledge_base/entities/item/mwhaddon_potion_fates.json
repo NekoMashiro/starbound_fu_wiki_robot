@@ -1,0 +1,46 @@
+{
+  "entity_id": "mwhaddon_potion_fates",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "\"Fate's Favored Child\"",
+  "name_zh": "“命运的宠儿”",
+  "description_en": "The Gods will decide your destiny.\nMAY CAUSE DEATH! USE AT YOUR OWN RISK.",
+  "description_zh": "让神明决定你的命运。\n可能会导致死亡！使用后果自负。",
+  "rarity": "essential",
+  "category": "medicine",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_essence_azureEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_solarEssence",
+          "count": 1
+        },
+        {
+          "item": "arcana_essence_lunarEssence",
+          "count": 1
+        },
+        {
+          "item": "bottledwater",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "大术士之桌",
+      "station_zh": "大术士之桌",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

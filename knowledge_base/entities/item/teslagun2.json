@@ -1,0 +1,43 @@
+{
+  "entity_id": "teslagun2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mercy",
+  "name_zh": "",
+  "description_en": "A heavily modified Tesla gun.\r\nTricky, but dangerous.\r\nDecimating Alt Fire",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "assaultRifle",
+  "price": 860,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "energy",
+    "tesla",
+    "electric",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 50,
+  "critChance": 1,
+  "critBonus": 1,
+  "altAbilityType": "shockburstshot",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0462,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Mercy.md",
+  "quality_tier": "C"
+}

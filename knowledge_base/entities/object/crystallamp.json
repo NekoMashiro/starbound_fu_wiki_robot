@@ -1,0 +1,53 @@
+{
+  "entity_id": "crystallamp",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Crystal Lamp",
+  "name_zh": "水晶灯",
+  "description_en": "A glowing crystal which functions as a lamp.",
+  "description_zh": "一个发光的晶体被当成灯来使用。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 85,
+  "tags": [
+    "crystalline",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "industrialcomputer",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Industrial Computer",
+  "name_zh": "工业电脑",
+  "description_en": "An old metal computer tower. Untidy cables hang out of its back.",
+  "description_zh": "旧的金属计算机塔。不整洁的电缆从后面垂下来。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 140,
+  "tags": [
+    "industrial",
+    "electronic",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

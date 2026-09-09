@@ -1,0 +1,50 @@
+{
+  "entity_id": "neoncounter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Neon Cabinet",
+  "name_zh": "霓虹灯柜",
+  "description_en": "A sturdy neon countertop.",
+  "description_zh": "坚固的霓虹灯台面。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "neon",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "neonset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

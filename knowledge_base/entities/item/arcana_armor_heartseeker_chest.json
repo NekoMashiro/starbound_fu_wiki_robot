@@ -1,0 +1,47 @@
+{
+  "entity_id": "arcana_armor_heartseeker_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Heartseeker's Aspiration",
+  "name_zh": "寻心者之渴望",
+  "description_en": "An ancient armor forged with red aspirite. \n\nSet Bonus: \nGrants minor health regeneration, +5% Damage per 10% of missing health.",
+  "description_zh": "一副用红色吸风石锻造的古代盔甲。\n\n套装奖励: \n提供少量生命回复，每损失10%生命值增加+5%伤害。",
+  "rarity": "Essential",
+  "category": "chestwear",
+  "price": 4000,
+  "tags": [],
+  "level": 9,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 16
+        },
+        {
+          "item": "arcana_bar_nullatusBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_armor_catalytic_chest",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "恒金军备厂",
+      "station_zh": "恒金军备厂",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

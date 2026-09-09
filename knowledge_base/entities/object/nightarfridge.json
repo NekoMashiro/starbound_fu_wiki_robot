@@ -1,0 +1,42 @@
+{
+  "entity_id": "nightarfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Fridge",
+  "name_zh": "夜族冰箱",
+  "description_en": "Perfect for storing a lot of food and keeping it fresh.",
+  "description_zh": "完美适合于存储大量食物，并让他们保持新鲜。",
+  "rarity": "legendary",
+  "category": "fridgeStorage",
+  "price": 200,
+  "tags": [
+    "nightar",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

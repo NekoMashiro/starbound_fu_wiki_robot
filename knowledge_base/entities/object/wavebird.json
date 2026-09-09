@@ -1,0 +1,32 @@
+{
+  "entity_id": "wavebird",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Wavebird",
+  "name_zh": "海鸟虫",
+  "description_en": "A bug that can usually be found chasing the crest of a wave.",
+  "description_zh": "经常被发现在海浪顶端。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wavebird",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "wavebird"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

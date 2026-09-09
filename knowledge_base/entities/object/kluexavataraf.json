@@ -1,0 +1,32 @@
+{
+  "entity_id": "kluexavataraf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Kluex Avatar Figurine",
+  "name_zh": "克鲁西斯化身手办",
+  "description_en": "The label reads, \"A powerful winged guardian built in the image of the Avian god Kluex.\"",
+  "description_zh": "标签上写着：“一个强大的翼族守护者修建的克鲁西斯神像。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "kluexavatarTreasure",
+          "probability": 0.0556,
+          "count": 1,
+          "monsters": [
+            "kluexboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

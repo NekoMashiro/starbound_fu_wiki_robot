@@ -1,0 +1,36 @@
+{
+  "entity_id": "bloodbrandy",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blood Brandy",
+  "name_zh": "血腥白兰地",
+  "description_en": "Red honey and booze combine with a little blood. Super tasty!\nDrunk (1m)\nHeal 25% HP (15s)",
+  "description_zh": "红色蜂蜜和酒，加上一点血。 超级好喝！\n醉酒(持续1m)\n治疗25%HP(15s内)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 3000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "liquidblood",
+          "count": 5
+        },
+        {
+          "item": "agedrum",
+          "count": 1
+        },
+        {
+          "item": "redhoneyjar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

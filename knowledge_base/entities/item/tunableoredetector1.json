@@ -1,0 +1,53 @@
+{
+  "entity_id": "tunableoredetector1",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precision Ore Detector",
+  "name_zh": "精密矿石探测器",
+  "description_en": "Shift+click to configure. Scans one ore at a time. Upgrade using your Tricorder.",
+  "description_zh": "Shift+左键打开配置菜单。一次扫描一种矿物。\n可在三度仪进行升级。",
+  "rarity": "uncommon",
+  "category": "detector",
+  "price": 2500,
+  "tags": [
+    "tool",
+    "upgradeableTool",
+    "detector"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "tunableoredetectoricon2.png",
+    "seed": "",
+    "shortdescription": "精密矿石探测器 MKII ^cyan;^reset;",
+    "scripts": []
+  },
+  "wiki_ref": "Precision Ore Detector.md",
+  "quality_tier": "A"
+}

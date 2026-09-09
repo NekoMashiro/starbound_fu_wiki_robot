@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_viridescentTea",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Viridescent Tea",
+  "name_zh": "翠毒茶",
+  "description_en": "Toxic green tea made with viridescent acid. gives a minor run and jump boost for 240s and inflicts acidic burning.",
+  "description_zh": "毒素绿茶，以翠毒酸泡制。赋予240s的小幅移速与跳跃加成，并施加酸性烧伤。",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_teabag_viridescentTeabag",
+          "count": 1
+        },
+        {
+          "item": "arcana_liquid_viridescentAcid",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Tea Brewer",
+      "station_zh": "绿叶茶具",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_luye_crafting_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_teamug_viridescent"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_teamug_viridescent_drop",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

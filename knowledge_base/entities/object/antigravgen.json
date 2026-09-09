@@ -1,0 +1,45 @@
+{
+  "entity_id": "antigravgen",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Anti-Grav Generator",
+  "name_zh": "反重力发生器",
+  "description_en": "Reduces effects of gravity within 30 tiles.\nInput: On/Off Switch.",
+  "description_zh": "减少30格内的重力影响。\n输入: 电源开关。",
+  "rarity": "rare",
+  "category": "wire",
+  "price": 1600,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "hitech"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 8
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 25
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_water",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Clearwell Spring Water",
+  "name_zh": "清泠山泉水",
+  "description_en": "An ordinary bottle of mountain spring water, but one or two bottles can lift your spirits when you're thirsty.\nGrants the [Clearwell Spring Water] effect when consumed.",
+  "description_zh": "一瓶普通的山泉水，但口渴的时候喝上一两瓶也能让人心情舒畅。\n饮用后给予[清泠山泉]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 180
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "tungstenassaultrifle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tungsten Assault Rifle",
+  "name_zh": "钨制突击步枪",
+  "description_en": "A fully-automatic tungsten-cased rifle.",
+  "description_zh": "一把全自动的钨套步枪。",
+  "rarity": "Common",
+  "category": "assaultRifle",
+  "price": 260,
+  "tags": [
+    "weapon",
+    "ranged",
+    "upgradeableWeapon",
+    "assaultrifle"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 6,
+  "critBonus": 6,
+  "altAbilityType": "spray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Iron Anvil",
+          "name_zh": "铁砧"
+        },
+        {
+          "name": "铁砧工作台",
+          "name_zh": "铁砧工作台"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "军备作坊",
+          "name_zh": "军备作坊"
+        },
+        {
+          "name": "Basic Anvil",
+          "name_zh": "基础铁砧"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

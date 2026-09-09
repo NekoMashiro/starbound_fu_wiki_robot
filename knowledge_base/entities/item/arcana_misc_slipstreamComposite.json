@@ -1,0 +1,132 @@
+{
+  "entity_id": "arcana_misc_slipstreamComposite",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Synthweave",
+  "name_zh": "合成织布",
+  "description_en": "An artificial fiber material produced from industrial refineries.",
+  "description_zh": "一种由工业精炼剂生产的人造纤维材料。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 40,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Julius",
+      "station_zh": "尤利乌斯",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_vendor_adjutantJulius.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "legwear": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_aegis_legs",
+          "arcana_armor_gearsS8E_legs",
+          "arcana_armor_sleepwalker_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_aegis_head",
+          "arcana_armor_gearsS8E_head",
+          "arcana_armor_sleepwalker_head"
+        ]
+      },
+      "chestwear": {
+        "count": 3,
+        "examples": [
+          "arcana_armor_aegis_chest",
+          "arcana_armor_gearsS8E_chest",
+          "arcana_armor_sleepwalker_chest"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_stormDrive"
+        ]
+      }
+    },
+    "total": 11
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_orionTech",
+          "probability": 4.2,
+          "count": 1.7
+        },
+        {
+          "pool": "arcana_dungeonloots_orionBasicTreasure",
+          "probability": 0.75,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_orionHeavy",
+            "at_ext_orion_heavyrobot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.75,
+        4.2
+      ]
+    },
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_workshop_section8Elite",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_anarkyonselite",
+          "probability": 0.1111,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_pirate",
+          "probability": 0.1111,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

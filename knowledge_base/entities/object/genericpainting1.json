@@ -1,0 +1,40 @@
+{
+  "entity_id": "genericpainting1",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Curious Painting",
+  "name_zh": "奇妙的画",
+  "description_en": "Ahh The Son of Man, you make me hungry!",
+  "description_zh": "啊人类之子，你让我感到饥饿！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 900,
+  "tags": [
+    "pretty",
+    "valuable",
+    "odd"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0262,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0262,
+        0.0333
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

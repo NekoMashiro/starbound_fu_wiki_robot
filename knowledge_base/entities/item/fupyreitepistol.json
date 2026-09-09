@@ -1,0 +1,58 @@
+{
+  "entity_id": "fupyreitepistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Vengeance",
+  "name_zh": "复仇之魂",
+  "description_en": "Absolutely brutal, but slow firing.\r\nHigh-incendiary rounds",
+  "description_zh": "射速缓慢但火力凶残。\n高效燃烧弹",
+  "rarity": "legendary",
+  "category": "pistol",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "pyreite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 6.5,
+  "critChance": 4,
+  "critBonus": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 3
+        },
+        {
+          "item": "quietusbar",
+          "count": 2
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

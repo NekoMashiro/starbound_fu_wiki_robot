@@ -1,0 +1,63 @@
+{
+  "entity_id": "maple_dagger_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Heartroot Claw",
+  "name_zh": "心基之爪",
+  "description_en": "An ornate maple knife made with simple metals.",
+  "description_zh": "一把用普通金属制成的华美枫刀。",
+  "rarity": "Common",
+  "category": "dagger",
+  "price": 320,
+  "tags": [
+    "weapon",
+    "melee",
+    "dagger"
+  ],
+  "elementalType": "physical",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 10.0,
+  "primaryAbilityType": "arcana_daggercombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "petalred",
+          "count": 1
+        },
+        {
+          "item": "petalyellow",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

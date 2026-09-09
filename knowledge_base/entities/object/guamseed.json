@@ -1,0 +1,68 @@
+{
+  "entity_id": "guamseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rad Grass Seed",
+  "name_zh": "拉德草种子",
+  "description_en": "This mutant strain of guam can filter any radiation.",
+  "description_zh": "可以收获拉德草，食用后会免疫辐射、致命辐射。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 17,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 77
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 20
+        },
+        {
+          "item": "cell_mutated",
+          "count": 2
+        },
+        {
+          "item": "miraclegrassseed",
+          "count": 3
+        },
+        {
+          "item": "calciumnitrate",
+          "count": 42
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 50
+        },
+        {
+          "item": "ff_silicon",
+          "count": 20
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "guamHarvest",
+          "probability": 0.1818,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

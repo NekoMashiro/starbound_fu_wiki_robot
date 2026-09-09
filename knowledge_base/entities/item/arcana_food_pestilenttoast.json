@@ -1,0 +1,62 @@
+{
+  "entity_id": "arcana_food_pestilenttoast",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Pestilent Toast",
+  "name_zh": "有害吐司",
+  "description_en": "Why in the Cultivators name would you put this in your mouth? [Shroomie]\n\n+Acidic Burn Immunity 5 min.\n+Acidic Melting Immunity 5 min.\n+20% Max Energy 10 min.\n+Poisoned 10 sec.",
+  "description_zh": "我嘞个耕耘者在上啊你为什么要吃这个？[Shroomie]\n\n\n5分钟酸性烧伤免疫\n5分钟酸熔免疫\n10分钟+20%最大生命值\n10秒中毒",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 210,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "toxictopjam",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_virusac",
+          "count": 1
+        },
+        {
+          "item": "bread",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

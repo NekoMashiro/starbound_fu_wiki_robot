@@ -1,0 +1,55 @@
+{
+  "entity_id": "quietuswand",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Quietus Wand",
+  "name_zh": "寂灭魔杖",
+  "description_en": "Sufficiently Advanced Technology.",
+  "description_zh": "尤为先进的科技。",
+  "rarity": "rare",
+  "category": "wand",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "wand",
+    "upgradeableWeapon",
+    "quietus"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "primaryAbilityType": "plasmabarrage",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "quietusbar",
+          "count": 3
+        },
+        {
+          "item": "blooddiamond",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

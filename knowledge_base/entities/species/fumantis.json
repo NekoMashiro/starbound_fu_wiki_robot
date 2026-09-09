@@ -1,0 +1,57 @@
+{
+  "entity_id": "fumantis",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "甲虫人",
+  "description_en": "",
+  "description_zh": "繁殖快速，生命力顽强，甲虫人既不聪明，也不讨人喜欢。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.15
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 0.835
+      },
+      {
+        "stat": "maxFood",
+        "amount": 80
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "fireResistance",
+        "amount": -0.5
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.5
+      },
+      {
+        "stat": "insanityImmunity",
+        "amount": 1
+      }
+    ],
+    "diet": [
+      {
+        "ORGANIC": false,
+        "MEAT_RAW": true,
+        "HIGH_GLUCOSE": true
+      },
+      {
+        "PLANT": true
+      }
+    ],
+    "controlModifiers": {
+      "speedModifier": 1.08,
+      "airForce": 45,
+      "liquidForce": 20
+    }
+  },
+  "quality_tier": "B"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_nether_storage_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Nether Closet",
+  "name_zh": "冥界衣柜",
+  "description_en": "A closet for storing clothes and other personal belongings, made from nether wood.",
+  "description_zh": "用于存放衣物和个人物品的衣柜，使用冥界木制成。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 140,
+  "tags": [
+    "storage",
+    "nether",
+    "spectwing"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_spectwing_tile16",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

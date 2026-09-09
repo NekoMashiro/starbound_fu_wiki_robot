@@ -1,0 +1,89 @@
+{
+  "entity_id": "arcana_essence_electricEssence",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Electric Essence",
+  "name_zh": "雷鸣精纯",
+  "description_en": "An essence fragment of fissuring plasmic energy, extracted from Neon Water.",
+  "description_zh": "从霓液中提取的精纯碎片，内有裂隙离子能量。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent",
+    "arcana_essence"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "木制精纯提取器",
+      "station_zh": "木制精纯提取器",
+      "source_mod": "Arcana"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 4,
+        "examples": [
+          "arcana_chargeflowPotion",
+          "arcana_energizedNanopack",
+          "arcana_evoNanopack",
+          "mwhaddon_potion_electrolitePill"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "orion_crafting_enhancedBattery",
+          "staticcell"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_prima_chest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_prima_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_prima_legs"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "arcana_augment_13"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "arcana_auto_battery_1"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "arcana_shield_ampliftShield"
+        ]
+      }
+    },
+    "total": 13
+  },
+  "wiki_ref": "Electric Essence.md",
+  "quality_tier": "S"
+}

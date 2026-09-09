@@ -1,0 +1,55 @@
+{
+  "entity_id": "advalloyspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master's Spear",
+  "name_zh": "大师之矛",
+  "description_en": "A masterfully made alloy spear for puncturing enemies.\r\nHunting weapon\r\nInflicts bleeding",
+  "description_zh": "一种制作精良的合金矛，用于刺穿敌人。\n狩猎武器\n造成出血效果",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 780,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 3,
+  "critBonus": 4,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "parry",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 4
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

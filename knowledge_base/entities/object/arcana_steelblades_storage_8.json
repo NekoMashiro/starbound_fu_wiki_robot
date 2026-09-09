@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_steelblades_storage_8",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Large Metal Canister",
+  "name_zh": "大型金属燃料罐",
+  "description_en": "A large metal fuel canister.",
+  "description_zh": "一个大型金属燃料罐。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 120,
+  "tags": [
+    "steelblades",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 2
+        },
+        {
+          "item": "slopedrustypanel",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁工作站",
+      "station_zh": "俄里翁工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,223 @@
+{
+  "entity_id": "glass",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glass",
+  "name_zh": "玻璃",
+  "description_en": "A pane of glass used for crafting.",
+  "description_zh": "一片用于工艺制造的玻璃。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 3,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_sandprowler_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "sand2",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "bleuark_tile2",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢魔炉",
+      "station_zh": "秘钢魔炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "light": {
+        "count": 95,
+        "examples": [
+          "aetherlavalamp2",
+          "alarm",
+          "alienjuicelavalamp",
+          "apexpod2",
+          "apexshiplight"
+        ]
+      },
+      "block": {
+        "count": 39,
+        "examples": [
+          "arcana_spectwing_tile13",
+          "arcana_tile1",
+          "arcana_tile27",
+          "arcana_tile28",
+          "aurea_tile12"
+        ]
+      },
+      "decorative": {
+        "count": 35,
+        "examples": [
+          "apexbox",
+          "apexcoolshelf2",
+          "arcana_romantic_deco_8",
+          "arcana_romantic_deco_9",
+          "avaligun1"
+        ]
+      },
+      "wire": {
+        "count": 23,
+        "examples": [
+          "fuaetherconsole",
+          "fuaethermonitor",
+          "fuaetherwallconsole",
+          "fuaetherwallmonitor",
+          "fuenemysensor"
+        ]
+      },
+      "storage": {
+        "count": 13,
+        "examples": [
+          "c_blooddonation",
+          "c_hiddencameras",
+          "c_sewagetreatment",
+          "clonelab",
+          "cutedresser2"
+        ]
+      },
+      "crafting": {
+        "count": 12,
+        "examples": [
+          "beeexaminer",
+          "beeexaminer2",
+          "chemlab",
+          "fu_byosgravgen",
+          "fu_racializer"
+        ]
+      },
+      "headarmour": {
+        "count": 11,
+        "examples": [
+          "deckardhead",
+          "diplomathead",
+          "ff_divingmaskhead",
+          "fuinvaderhead",
+          "fureconhead"
+        ]
+      },
+      "door": {
+        "count": 8,
+        "examples": [
+          "arcana_archaic_door_1",
+          "foundrydoor",
+          "labdoor",
+          "labportcullis",
+          "prismdoor"
+        ]
+      }
+    },
+    "total": 284
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "drysand"
+    },
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "sand2"
+    },
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "retexsand2"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "drysand"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "sand2"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "retexsand2"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "drysand"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "sand2"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "retexsand2"
+    }
+  ],
+  "quality_tier": "S"
+}

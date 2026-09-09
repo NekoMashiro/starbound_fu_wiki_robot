@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_armor_covenant_legs",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Covenant Apprentice Bottoms",
+  "name_zh": "万法议会学徒下装",
+  "description_en": "Bottoms given to registered arcane apprentices by the Covenant. ",
+  "description_zh": "万法议会会给那些认证的奥术学徒颁发这件下装。",
+  "rarity": "rare",
+  "category": "legwear",
+  "price": 1000,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_magifluxExtract",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

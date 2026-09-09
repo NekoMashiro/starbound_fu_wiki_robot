@@ -1,0 +1,46 @@
+{
+  "entity_id": "avianskullhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Avian Skull Mask",
+  "name_zh": "翼族头骨面具",
+  "description_en": "It appears to be an Avian skull. The perfect hat!",
+  "description_zh": "这似乎是一个翼族头骨。完美的帽子！",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.0504,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneTreasure",
+          "probability": 0.0328,
+          "count": 1
+        },
+        {
+          "pool": "boneTreasure",
+          "probability": 0.0274,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0274,
+        0.0328
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

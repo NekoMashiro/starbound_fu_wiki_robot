@@ -1,0 +1,76 @@
+{
+  "entity_id": "potatogrids",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Potato Grids",
+  "name_zh": "网格炸土豆",
+  "description_en": "A crispy golden exterior protects the soft and fluffy potato within. Type: Vegetable",
+  "description_zh": "一片外皮金黄酥脆，内部蓬松土豆。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mashedpotato",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Campfire",
+      "station_zh": "篝火",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Basic Oven",
+          "name_zh": "基础烤箱"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Medieval Cooking Pot",
+          "name_zh": "中世烹饪锅"
+        },
+        {
+          "name": "Skath Microwave",
+          "name_zh": "绘世者微波炉"
+        },
+        {
+          "name": "Rustic Oven",
+          "name_zh": "田园炉"
+        },
+        {
+          "name": "Grill",
+          "name_zh": "烤架"
+        },
+        {
+          "name": "Nanostove",
+          "name_zh": "纳米炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu-Fast Food",
+      "station_zh": "菜单-快餐",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

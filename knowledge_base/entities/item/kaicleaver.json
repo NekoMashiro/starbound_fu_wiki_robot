@@ -1,0 +1,59 @@
+{
+  "entity_id": "kaicleaver",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kai Cleaver",
+  "name_zh": "卡伊劈刀",
+  "description_en": "A brutal-looking zerchesium cleaver.\r\nCauses long bleed\r\nCounts as Hunting weapon",
+  "description_zh": "一把凶残的高熔点劈刀。\n附加长时间的出血效果\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "longsword",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "longsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 3,
+  "critBonus": 7,
+  "primaryAbilityType": "battlebladecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "zerchesiumbar",
+          "count": 6
+        },
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "phasematter",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

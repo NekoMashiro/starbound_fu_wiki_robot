@@ -1,0 +1,64 @@
+{
+  "entity_id": "victorleaf",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Victor Leaf Seed",
+  "name_zh": "维克多叶种子",
+  "description_en": "Provides a massive run boost.",
+  "description_zh": "可以收获维克多叶芽，食用后会提高移动速度。",
+  "rarity": "Legendary",
+  "category": "seed",
+  "price": 40,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 96
+        },
+        {
+          "item": "cell_viral",
+          "count": 3
+        },
+        {
+          "item": "garikleaf",
+          "count": 3
+        },
+        {
+          "item": "ff_mercury",
+          "count": 94
+        },
+        {
+          "item": "leather",
+          "count": 9
+        },
+        {
+          "item": "bone",
+          "count": 48
+        }
+      ],
+      "output_count": 3,
+      "station": "基因设计实验室",
+      "station_zh": "基因设计实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "victorleaf",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "arcana_misc_myriadCrystal",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Myriad Crystal",
+  "name_zh": "无际晶体",
+  "description_en": "A green crystal, radiating toxic energy.",
+  "description_zh": "一种绿色的晶体，散发着剧毒能量。",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_myriadTerror",
+          "probability": 2.0,
+          "count": 1.6,
+          "monsters": [
+            "arcana_boss_myriadTerror",
+            "arcana_boss_myriadTerror_spawner"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

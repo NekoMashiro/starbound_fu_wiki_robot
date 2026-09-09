@@ -1,0 +1,40 @@
+{
+  "entity_id": "blisterwhiskey",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blister Whiskey",
+  "name_zh": "气泡威士忌",
+  "description_en": "Lumpy, slimey, and glowy.\nGlow (200s)\nDrunk (1m)",
+  "description_zh": "块状，粘粘的，还会发亮。\n发光(持续200s)\n醉酒(持续1m)",
+  "rarity": "rare",
+  "category": "drink",
+  "price": 675,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blisterbushplantfood",
+          "count": 3
+        },
+        {
+          "item": "sugar",
+          "count": 2
+        },
+        {
+          "item": "honeyjar",
+          "count": 1
+        },
+        {
+          "item": "bottle",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

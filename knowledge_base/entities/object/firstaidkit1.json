@@ -1,0 +1,51 @@
+{
+  "entity_id": "firstaidkit1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mounted First Aid Kit",
+  "name_zh": "急救箱",
+  "description_en": "A convenient wall-mounted medical kit. Safety first!",
+  "description_zh": "方便的壁挂式医疗包。安全第一！",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 0,
+  "tags": [
+    "barracks",
+    "medical",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "barracksset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

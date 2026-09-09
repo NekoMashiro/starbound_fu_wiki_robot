@@ -1,0 +1,58 @@
+{
+  "entity_id": "bloodgarbhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sanguine Crown",
+  "name_zh": "血色帽子",
+  "description_en": "+5% Healing Strength\r\nSet Bonuses:\r\n +10% Speed\r\n +5% Life Leech\r\n Dagger/Whip/Striker: +4% Crit Chance, +5% Life Leech",
+  "description_zh": "",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 300,
+  "tags": [
+    "upgradeableWeapon",
+    "offensive",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 3
+        },
+        {
+          "item": "volatilepowder",
+          "count": 1
+        },
+        {
+          "item": "liquidblood",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "chaoshead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "A"
+}

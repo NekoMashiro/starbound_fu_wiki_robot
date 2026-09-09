@@ -1,0 +1,33 @@
+{
+  "entity_id": "ixolingaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Ixoling Figurine",
+  "name_zh": "死亡执行者手办",
+  "description_en": "The label reads, \"If it survives for 200 years, it might become an Ixodoom.\"",
+  "description_zh": "标签上写着：“如果它能存活两百年，它可能会成长为一只死亡主宰。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ixolingTreasure",
+          "probability": 0.003,
+          "count": 1,
+          "monsters": [
+            "ixoling",
+            "ixolingsulphuricbaby"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

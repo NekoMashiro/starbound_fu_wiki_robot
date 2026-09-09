@@ -1,0 +1,35 @@
+{
+  "entity_id": "petpicrepair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Capture Pod Re-Imager",
+  "name_zh": "捕捉舱修复站",
+  "description_en": "Repairs broken capture pod images.",
+  "description_zh": "修复捕捉舱中的生物。",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "SuperPet",
+      "station_zh": "超级宠物",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fupetshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

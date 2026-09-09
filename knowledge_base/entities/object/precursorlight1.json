@@ -1,0 +1,48 @@
+{
+  "entity_id": "precursorlight1",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Light Orb",
+  "name_zh": "先驱夜明珠",
+  "description_en": "Interesting. A floating light source? What powers it?",
+  "description_zh": "有意思。浮动光源？它的动力是什么？",
+  "rarity": "Common",
+  "category": "light",
+  "price": 350,
+  "tags": [
+    "precursor",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursoralloy",
+          "count": 5
+        },
+        {
+          "item": "solaricrystal",
+          "count": 5
+        },
+        {
+          "item": "liquidgravrain",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "blueprints_unlocked": [
+    "precursorlight1"
+  ],
+  "quality_tier": "A"
+}

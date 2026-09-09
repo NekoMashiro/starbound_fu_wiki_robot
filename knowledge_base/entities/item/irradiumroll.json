@@ -1,0 +1,35 @@
+{
+  "entity_id": "irradiumroll",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Irradium Roll",
+  "name_zh": "镭射卷",
+  "description_en": "Not recommended for carbon-based lifeforms.\n+10% HP (45s)",
+  "description_zh": "不推荐碳基生物食用。\n+10%HP(持续45s)",
+  "rarity": "rare",
+  "category": "preparedFood",
+  "price": 95,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 120
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

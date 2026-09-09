@@ -1,0 +1,50 @@
+{
+  "entity_id": "network_grabbership",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Grabber (Ship)",
+  "name_zh": "抓斗（船）",
+  "description_en": "Specialized grabber only for use on ships. Absolutely massive range, but no storage.\r\nInput: On/Off Switch",
+  "description_zh": "专用抓取器仅用于船上。绝对大范围，但没有存储。\n 输入：On/Off开关",
+  "rarity": "essential",
+  "category": "wire",
+  "price": 64,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "network_grabber3",
+          "count": 1
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 1
+        },
+        {
+          "item": "refinedferozium",
+          "count": 1
+        },
+        {
+          "item": "refinedviolium",
+          "count": 1
+        },
+        {
+          "item": "corefragmentore",
+          "count": 1
+        },
+        {
+          "item": "teleportercore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "mwhaddon_armor_scrapsewnHeavy_head",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Heavy Scrapsewn Mask",
+  "name_zh": "重型残缝面甲",
+  "description_en": "A heavy mask made from scavenged scrap parts. \n\nSet Bonus: \nGrants +10% Ranged damage.",
+  "description_zh": "使用回收来的废料部件制成的重型面甲。\n\n套装效果：\n+10%远程伤害。",
+  "rarity": "Uncommon",
+  "category": "headarmour",
+  "price": 700,
+  "tags": [],
+  "level": 3,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_1_2",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

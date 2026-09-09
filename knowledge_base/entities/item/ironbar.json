@@ -1,0 +1,284 @@
+{
+  "entity_id": "ironbar",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Iron Bar",
+  "name_zh": "铁锭",
+  "description_en": "Ore for iron bars is primarily found on planets orbiting gentle stars.",
+  "description_zh": "铁矿常见于温和星系的行星。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 22,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bee_oremason_queen",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "Bee Refuge",
+      "station_zh": "蜜蜂庇护所",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    },
+    {
+      "inputs": [
+        {
+          "item": "ironore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 240
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 59,
+        "examples": [
+          "arcana_spectwing_tile5",
+          "bars",
+          "blacksteelblock",
+          "flowerybars",
+          "fu_blueslopedhullpanel"
+        ]
+      },
+      "decorative": {
+        "count": 44,
+        "examples": [
+          "apexbackgrounddoor",
+          "apexcoolshelf2",
+          "arcana_romantic_deco_8",
+          "arcana_romantic_deco_9",
+          "arcana_studio_deco_1"
+        ]
+      },
+      "furniture": {
+        "count": 38,
+        "examples": [
+          "densealloybed",
+          "densealloybookcase",
+          "densealloycabinet",
+          "densealloychair",
+          "densealloycouch"
+        ]
+      },
+      "crafting": {
+        "count": 34,
+        "examples": [
+          "arcana_bleuark_crafting_1",
+          "arcana_crafting_anvil_1",
+          "arcana_crafting_main_1",
+          "arcana_horizon_crafting_1",
+          "arcana_monarch_crafting_1"
+        ]
+      },
+      "light": {
+        "count": 32,
+        "examples": [
+          "arcana_romantic_deco_10",
+          "bughouse",
+          "densealloydesklamp",
+          "densealloylamp",
+          "ff_biolight1"
+        ]
+      },
+      "storage": {
+        "count": 32,
+        "examples": [
+          "c_recyclingcenter",
+          "c_sewagetreatment",
+          "densealloychestlarge",
+          "densealloychestsmall",
+          "energywoodbookcase"
+        ]
+      },
+      "wire": {
+        "count": 19,
+        "examples": [
+          "configurable3statecycler",
+          "fu_alternatorgenerator",
+          "fu_conduit",
+          "fu_rechargesensor",
+          "hydraulicdynamo"
+        ]
+      },
+      "headarmour": {
+        "count": 17,
+        "examples": [
+          "apextier1head",
+          "arcana_armor_disciple_head",
+          "arcana_florahusk_head",
+          "aviantier1head",
+          "bloodhoundhead"
+        ]
+      }
+    },
+    "total": 535
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "ironore"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "ironore"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "ironore"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 11,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 1.0321,
+          "count": 1.0
+        }
+      ]
+    },
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox_7",
+          "probability": 1.0,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox_7",
+          "probability": 1.0,
+          "count": 2.0
+        },
+        {
+          "pool": "arcana_vendor_1_goldenFortuneBox",
+          "probability": 0.4,
+          "count": 3.0
+        },
+        {
+          "pool": "arcana_vendor_1_silverFortuneBox",
+          "probability": 0.4,
+          "count": 2.0
+        }
+      ],
+      "prob_range": [
+        0.4,
+        1.0
+      ]
+    },
+    "boss_mission": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "hylotlmissionReward",
+          "probability": 0.534,
+          "count": 20
+        },
+        {
+          "pool": "apexmission1Reward",
+          "probability": 0.534,
+          "count": 20
+        },
+        {
+          "pool": "avianmission1Reward",
+          "probability": 0.4369,
+          "count": 20
+        },
+        {
+          "pool": "glitchmission1Reward",
+          "probability": 0.4306,
+          "count": 20
+        }
+      ],
+      "prob_range": [
+        0.4306,
+        0.534
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "miningtreasurelore",
+          "probability": 0.534,
+          "count": 20
+        },
+        {
+          "pool": "miningtreasure",
+          "probability": 0.0377,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0377,
+        0.534
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

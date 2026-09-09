@@ -1,0 +1,90 @@
+{
+  "entity_id": "shadowgasliquid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Caliginous Gas",
+  "name_zh": "暗影气体 (WF6CF4Po)",
+  "description_en": "WF6CF4Po. Able to absorb light and alter gravitic force through unusual carbon nanotube formations. Toxic.\nCentrifugable.",
+  "description_zh": "WF6CF4Po。能够通过不寻常的碳纳米管形成吸收光和改变引力。有毒。\n可离心。",
+  "rarity": "rare",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "darkmatter",
+          "reanimationfluid"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "fudarkness",
+          "fudarknesssloped"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          ""
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "fuaetherimmunityaugment"
+        ]
+      },
+      "storage": {
+        "count": 1,
+        "examples": [
+          "psionicloader"
+        ]
+      },
+      "shield": {
+        "count": 1,
+        "examples": [
+          "shadowshield"
+        ]
+      },
+      "terraformer": {
+        "count": 1,
+        "examples": [
+          "terraformermidnight"
+        ]
+      }
+    },
+    "total": 9
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "shadowgolemLoot",
+          "probability": 1.0,
+          "count": 15,
+          "monsters": [
+            "fushadowgolem",
+            "shadowgolem"
+          ]
+        },
+        {
+          "pool": "shadowgolemminiLoot",
+          "probability": 1.0,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "wiki_ref": "Caliginous Gas.md",
+  "quality_tier": "S"
+}

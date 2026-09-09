@@ -1,0 +1,36 @@
+{
+  "entity_id": "arcana_cerueonFields",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Cerueon Fields",
+  "name_zh": "蜡古领域",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Cerueon Fields",
+  "friendly_name_zh": "蜡古领域",
+  "ores": [
+    {
+      "ore": "copper",
+      "weight": 1.0
+    },
+    {
+      "ore": "gold",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_rawDiathrylium",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    }
+  ],
+  "monsters": [
+    "arcana_cerueonPearl",
+    "arcana_cerueonRaven",
+    "crystalbirdcritter",
+    "prismscabcritter"
+  ],
+  "quality_tier": "C"
+}

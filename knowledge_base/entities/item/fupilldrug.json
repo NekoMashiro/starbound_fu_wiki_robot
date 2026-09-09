@@ -1,0 +1,59 @@
+{
+  "entity_id": "fupilldrug",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cappa",
+  "name_zh": "卡巴",
+  "description_en": "Extracted from Capriole flowers. A heavy class-A narcotic.\n+20% Energy Regen, Heavily Intoxicated, -30 Defense, Insanity (220s) Madness Gain 3",
+  "description_zh": "从跳跃花中提取。一种强效的A类麻醉剂。\n+20%能量再生重度中毒-30 防御疯狂（220s）癫狂3",
+  "rarity": "rare",
+  "category": "medicine",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "capriole",
+          "count": 12
+        },
+        {
+          "item": "cocainium",
+          "count": 1
+        },
+        {
+          "item": "coalore",
+          "count": 1
+        },
+        {
+          "item": "kelp",
+          "count": 4
+        }
+      ],
+      "output_count": 10,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "Munchies' Dirt",
+      "station_zh": "饥饿泥土商店",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "radienshopdrug.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

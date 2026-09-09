@@ -1,0 +1,58 @@
+{
+  "entity_id": "telebriumminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Telebrium Mini Fridge",
+  "name_zh": "特勒贝晶体碎片迷你冰箱",
+  "description_en": "A small fridge made from Telebrium.",
+  "description_zh": "一个由特勒贝晶体碎片做的小冰箱。",
+  "rarity": "uncommon",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "telebrium",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonstonebar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "moonstone",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

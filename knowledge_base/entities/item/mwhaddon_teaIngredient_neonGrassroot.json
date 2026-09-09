@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_neonGrassroot",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Neon Grassroot",
+  "name_zh": "霓电草",
+  "description_en": "These herbs are often treated as mere weeds on Superstorm planets.\n For 30 seconds after drinking, +300% Energy Regen Rate when standing.",
+  "description_zh": "这种在奔雷星球的草药时常会被认为是某种杂草。\n饮用后30秒内，玩家静止站立时+300%能量恢复速率。",
+  "rarity": "legendary",
+  "category": "tradingCard",
+  "price": 500,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t4",
+          "probability": 0.1667,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.1667
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

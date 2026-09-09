@@ -1,0 +1,63 @@
+{
+  "entity_id": "peglacialloydoor2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Sliding Door",
+  "name_zh": "合金推拉门",
+  "description_en": "A sleek sliding door, formed from a mix of ice and wood and augmented with advanced technology.",
+  "description_zh": "一种光滑的滑动门，由冰和木材混合而成，并采用先进技术加以增强。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 100,
+  "tags": [
+    "peglaci",
+    "peglacivillage",
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

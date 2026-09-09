@@ -1,0 +1,54 @@
+{
+  "entity_id": "elduukhartier2broadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Emera Broadsword",
+  "name_zh": "艾米拉宽剑",
+  "description_en": "A greatsword crafted from crystal. The quality is not the best, but it gets the job done.",
+  "description_zh": "一把由水晶制成的大剑。质量算不上顶号，但能胜任工作。",
+  "rarity": "common",
+  "category": "broadsword",
+  "price": 280,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "poison",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 1,
+  "critBonus": 5,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "risingslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "emera",
+          "count": 15
+        },
+        {
+          "item": "oceanite",
+          "count": 20
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 20
+        },
+        {
+          "item": "ironbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

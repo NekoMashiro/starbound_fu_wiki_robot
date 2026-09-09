@@ -1,0 +1,32 @@
+{
+  "entity_id": "gasgiant",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Gasgiant",
+  "name_zh": "巨气虫",
+  "description_en": "These bugs float on updrafts of poisonous gases.",
+  "description_zh": "这些虫子漂浮在毒气的上升气流中。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gasgiant",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "gasgiant"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

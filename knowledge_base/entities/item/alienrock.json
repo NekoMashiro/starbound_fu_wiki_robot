@@ -1,0 +1,38 @@
+{
+  "entity_id": "alienrock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Alien Rock",
+  "name_zh": "外星岩",
+  "description_en": "This strange rock comes from an alien world.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "这种奇特的岩石来自一个外星世界。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "fu_nitrogen",
+        "vialproto",
+        "liquidnitrogenitem",
+        "fu_carbondioxide"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "fu_nitrogen",
+        "vialproto",
+        "liquidnitrogenitem",
+        "fu_carbondioxide"
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

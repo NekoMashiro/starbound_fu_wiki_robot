@@ -1,0 +1,41 @@
+{
+  "entity_id": "spookypieobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Spooky Pie",
+  "name_zh": "幽灵馅饼",
+  "description_en": "Just spooky enough.",
+  "description_zh": "够吓人的了。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "spookypie",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "spookypie"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

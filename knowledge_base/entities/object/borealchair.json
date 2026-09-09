@@ -1,0 +1,49 @@
+{
+  "entity_id": "borealchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Boreal Chair",
+  "name_zh": "北风椅",
+  "description_en": "A lovingly carved pine wood chair. The seat is remarkably plush.",
+  "description_zh": "一把雕刻精美的松木椅子。这个座位非常豪华。",
+  "rarity": "Uncommon",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "boreal"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "borealset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

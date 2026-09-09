@@ -1,0 +1,216 @@
+{
+  "entity_id": "ultrastim",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X-Stim",
+  "name_zh": "X物质",
+  "description_en": "+6 Defense (2m)\n-30% Gravity (15s)\nRepair 160% Shield HP (30s)\nHeal 40% HP (1m)\nMadness Gain 3",
+  "description_zh": "+6防御（2m）\n-30%重力（15s）\n 修复160%防护罩HP （30s）\n 治愈40%HP （1m）\n 癫狂3.",
+  "rarity": "legendary",
+  "category": "medicine",
+  "price": 200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vialproto",
+          "count": 2
+        },
+        {
+          "item": "aliencompound",
+          "count": 5
+        },
+        {
+          "item": "liquidorganicsoup",
+          "count": 4
+        },
+        {
+          "item": "iodine",
+          "count": 8
+        },
+        {
+          "item": "liquidirradium",
+          "count": 3
+        },
+        {
+          "item": "syringe",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "健康中心",
+      "station_zh": "健康中心",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 51,
+    "other": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "fuprecursorMedical",
+          "probability": 0.278,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0708,
+          "count": 2
+        },
+        {
+          "pool": "fuLootStims",
+          "probability": 0.0243,
+          "count": 1
+        },
+        {
+          "pool": "apexsupermutant",
+          "probability": 0.0054,
+          "count": 1
+        },
+        {
+          "pool": "fishinguncommon",
+          "probability": 0.0024,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.278
+      ]
+    },
+    "monster_drops": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.1,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0409,
+          "count": 1
+        },
+        {
+          "pool": "ffchemTreasure",
+          "probability": 0.0245,
+          "count": 1
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.0069,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0032,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1
+      ]
+    },
+    "chest_loot": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0961,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0504,
+          "count": 2
+        },
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0441,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0404,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.0282,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0961
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0376,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0376
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.001,
+          "count": 1.0
+        },
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

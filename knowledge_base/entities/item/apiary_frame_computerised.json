@@ -1,0 +1,38 @@
+{
+  "entity_id": "apiary_frame_computerised",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tech Frame",
+  "name_zh": "科技巢框",
+  "description_en": "Techy Queens!\n<beeData>",
+  "description_zh": "科学的养蜂！\n<beeData>",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "apiaryFrame"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 3
+        },
+        {
+          "item": "electromagnet",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

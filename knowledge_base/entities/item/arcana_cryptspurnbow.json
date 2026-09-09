@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_cryptspurnbow",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Cryptspurn Bow",
+  "name_zh": "墓蔑弓",
+  "description_en": "A bow modified by the Doctor, used by once proud soldiers of a lost city.",
+  "description_zh": "被医生改造的弓，由失落之城荣光不再的士兵所使用。",
+  "rarity": "Common",
+  "category": "bow",
+  "price": 1400,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow"
+  ],
+  "level": 6,
+  "twoHanded": true,
+  "primaryAbilityType": "bowshot",
+  "altAbilityType": "bowshot",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_graverotten",
+          "probability": 0.025,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

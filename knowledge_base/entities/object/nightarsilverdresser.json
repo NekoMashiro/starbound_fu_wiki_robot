@@ -1,0 +1,50 @@
+{
+  "entity_id": "nightarsilverdresser",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Silver Dresser",
+  "name_zh": "夜族银色梳妆台",
+  "description_en": "This dresser shines with the purity of silver.",
+  "description_zh": "这个梳妆台闪耀着银色的纯洁光芒。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 135,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

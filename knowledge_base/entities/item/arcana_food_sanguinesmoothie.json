@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_food_sanguinesmoothie",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sanguine Smoothie",
+  "name_zh": "蕴血冰纱",
+  "description_en": "A fine blend of a crushed bloody gem, a jungle mango and one or two tea leaves. [Ewok]\n\n+20% Max Energy 2 min.\n+20% Max Health 4 min.\n+20% Damage 4 min.\n+Nova 4 min.\n+Burning 5 sec.",
+  "description_zh": "碾碎的血钻果、丛林芒果与一两片茶叶的完美融合。[Ewok]\n\n2分钟+20%最大能量\n4分钟+20%最大生命值\n4分钟+20%伤害\n4分钟新星\n5秒燃烧",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 210,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_farmable_bloodyGem",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_jungleMango",
+          "count": 1
+        },
+        {
+          "item": "liquidwater",
+          "count": 2
+        },
+        {
+          "item": "arcana_farmable_teaPlant",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

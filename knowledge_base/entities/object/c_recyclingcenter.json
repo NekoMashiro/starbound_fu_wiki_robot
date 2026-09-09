@@ -1,0 +1,37 @@
+{
+  "entity_id": "c_recyclingcenter",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Recycling Center",
+  "name_zh": "回收中心",
+  "description_en": "Gives your tenants a place to dispose of their recyclable goods. \n+1 Happiness",
+  "description_zh": "给你的房客一个处理可回收物品的地方。\n+1幸福",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 15
+        },
+        {
+          "item": "ironbar",
+          "count": 10
+        },
+        {
+          "item": "whitedye",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Recycling Center.md",
+  "quality_tier": "A"
+}

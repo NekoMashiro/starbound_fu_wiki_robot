@@ -1,0 +1,46 @@
+{
+  "entity_id": "eyeballlegs",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Eyeball Skirt",
+  "name_zh": "眼球裙",
+  "description_en": "This all-in-one leg covering features a giant living eye. Creepy.",
+  "description_zh": "这个多功能护腿的特征是一个巨大的活体眼球。真可怕。",
+  "rarity": "Rare",
+  "category": "legwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "eyeChestTreasure",
+          "probability": 0.1227,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoEyeTreasure",
+          "probability": 0.0797,
+          "count": 1
+        },
+        {
+          "pool": "eyeTreasure",
+          "probability": 0.0667,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0667,
+        0.0797
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

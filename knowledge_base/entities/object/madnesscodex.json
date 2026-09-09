@@ -1,0 +1,53 @@
+{
+  "entity_id": "madnesscodex",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Tome Dais",
+  "name_zh": "宝典讲坛",
+  "description_en": "A place to write down magnificent, totally safe theories and lost knowledge.",
+  "description_zh": "一处能写下宏伟的，完全安全的理论和失落知识的地方。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 355,
+  "tags": [
+    "madness",
+    "evil",
+    "insanity",
+    "macabre"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "paper",
+          "count": 100
+        },
+        {
+          "item": "leather",
+          "count": 3
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "elderbookstandwood"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Tome Dais.md",
+  "quality_tier": "S"
+}

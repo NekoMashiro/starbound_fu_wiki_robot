@@ -1,0 +1,60 @@
+{
+  "entity_id": "xithricitegreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Greataxe",
+  "name_zh": "宇宙巨斧",
+  "description_en": "Deal absurd damage, and carve a hole in space-time.",
+  "description_zh": "造成荒谬的破坏，在时空中开凿一个洞。",
+  "rarity": "legendary",
+  "category": "greataxe",
+  "price": 940,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 3,
+  "critBonus": 6,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "shockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 15
+        },
+        {
+          "item": "effigiumbar",
+          "count": 7
+        },
+        {
+          "item": "liquidaether",
+          "count": 200
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

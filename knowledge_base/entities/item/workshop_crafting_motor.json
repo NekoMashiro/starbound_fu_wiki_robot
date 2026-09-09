@@ -1,0 +1,82 @@
+{
+  "entity_id": "workshop_crafting_motor",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Motor",
+  "name_zh": "发动机",
+  "description_en": "A simple motor that generates force for machines.",
+  "description_zh": "为其它机器提供动力的简易发动机。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 11,
+        "examples": [
+          "at_ext_b3",
+          "at_ext_condenser2",
+          "at_ext_extractor2",
+          "at_ext_foundry2",
+          "at_ext_mining3"
+        ]
+      },
+      "mysteriousReward": {
+        "count": 1,
+        "examples": [
+          "arcana_tech_quintJump"
+        ]
+      },
+      "currency": {
+        "count": 1,
+        "examples": [
+          "arcana_currency_credit"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_mech_booster_gravity"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 1.0,
+          "count": 3
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "hephaestus_wand_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Magifire Wand",
+  "name_zh": "火灵魔杖",
+  "description_en": "Flame-infused wand of the ancient fire.",
+  "description_zh": "注入了古老火炎的火焰魔杖。",
+  "rarity": "Common",
+  "category": "wand",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "wand"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "primaryAbilityType": "elementswarm",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "elemental_crafting_dryPlate",
+          "count": 2
+        },
+        {
+          "item": "elemental_crafting_magifireCrystal",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wand": {
+        "count": 1,
+        "examples": [
+          "hephaestus_wand_2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

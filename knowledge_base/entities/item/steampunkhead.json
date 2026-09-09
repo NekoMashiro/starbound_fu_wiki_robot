@@ -1,0 +1,38 @@
+{
+  "entity_id": "steampunkhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Steampunk Helmet",
+  "name_zh": "蒸汽朋克头盔",
+  "description_en": "An ornate helm that protects your head and lights your way. What more could you wish for?",
+  "description_zh": "这顶华丽的头盔不仅能保护你的头还能照亮你的道路。你还想要什么呢？",
+  "rarity": "Legendary",
+  "category": "headwear",
+  "price": 5000,
+  "tags": [],
+  "level": 5,
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringChestTreasure",
+          "probability": 0.1781,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "steamspringTreasure",
+          "probability": 0.0968,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

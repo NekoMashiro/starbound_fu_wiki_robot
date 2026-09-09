@@ -1,0 +1,76 @@
+{
+  "entity_id": "crabcanoaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Crabcano Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"It's always on edge. It walks sideways and erupts at the slightest confrontation.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "crabcanoVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "crabcanoTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_cerueonCrab",
+            "crabcano",
+            "icecrabcano"
+          ]
+        },
+        {
+          "pool": "icecrabcanoTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "icecrab",
+            "shadowcrab"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0008,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "icecrabcanoHunting",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "crabcanoHunting",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "arcana_monster_cerueonCrab",
+            "crabcano",
+            "icecrabcano"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0011
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

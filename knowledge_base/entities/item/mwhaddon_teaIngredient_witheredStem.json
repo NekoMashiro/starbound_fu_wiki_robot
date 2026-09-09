@@ -1,0 +1,38 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_witheredStem",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Withered Stem",
+  "name_zh": "枯莛",
+  "description_en": "What's really worth drinking is actually the fungus hosting the plant.\n For 40s after drinking, lose 2.5% of Max Health/s. +100% Crit DMG and grants lifesteal.",
+  "description_zh": "真正值得品鉴的其实是导致这种植物病变的真菌。\n饮用后40秒内每秒流失最大生命值2.5%的生命值。获得100%暴击伤害并获得吸血。",
+  "rarity": "essential",
+  "category": "tradingCard",
+  "price": 750,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t5",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0375,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0375,
+        0.25
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

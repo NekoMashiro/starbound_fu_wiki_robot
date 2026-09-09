@@ -1,0 +1,42 @@
+{
+  "entity_id": "pearlpeabasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pearlpea Basket",
+  "name_zh": "珍珠豆篮",
+  "description_en": "Pearlpeas, you'll need to bite down hard.",
+  "description_zh": "珍珠豆，你得咬紧点。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pearlpea",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "pearlpea"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

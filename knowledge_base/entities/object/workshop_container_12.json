@@ -1,0 +1,53 @@
+{
+  "entity_id": "workshop_container_12",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Titancorp Shipping Container",
+  "name_zh": "XXL工程师板条箱",
+  "description_en": "A giant shipping container.",
+  "description_zh": "一个巨大的金属板条箱，有一个橙色的框架。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 800,
+  "tags": [
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 4
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

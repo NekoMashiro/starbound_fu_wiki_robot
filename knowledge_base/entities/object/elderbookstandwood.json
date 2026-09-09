@@ -1,0 +1,77 @@
+{
+  "entity_id": "elderbookstandwood",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Writing Desk",
+  "name_zh": "著书桌",
+  "description_en": "Secrets can be gleaned from lost knowledge.",
+  "description_zh": "秘密可以从失去的知识之中探求。",
+  "rarity": "common",
+  "category": "crafting",
+  "price": 120,
+  "tags": [
+    "madness",
+    "insanity",
+    "elder"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "madnesscodex",
+          "count": 1
+        },
+        {
+          "item": "insaneramblings",
+          "count": 3
+        },
+        {
+          "item": "bizarrefiction",
+          "count": 1
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Writing Desk",
+      "station_zh": "著书桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Tome Dais",
+          "name_zh": "宝典讲坛"
+        },
+        {
+          "name": "Ancient Texts",
+          "name_zh": "古代文本"
+        },
+        {
+          "name": "Antediluvian Texts",
+          "name_zh": "上古文本"
+        },
+        {
+          "name": "tomedais.json",
+          "name_zh": ""
+        },
+        {
+          "name": "加工台",
+          "name_zh": "加工台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "elderbookstandrelic"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

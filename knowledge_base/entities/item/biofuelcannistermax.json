@@ -1,0 +1,42 @@
+{
+  "entity_id": "biofuelcannistermax",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Fuel Canister",
+  "name_zh": "原体燃料罐",
+  "description_en": "A truly amazing fuel source.\n+25 Fuel",
+  "description_zh": "一种实属惊人的燃料资源。\n燃料+25",
+  "rarity": "rare",
+  "category": "fuel",
+  "price": 330,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "vialproto",
+          "count": 1
+        },
+        {
+          "item": "fu_salt",
+          "count": 1
+        },
+        {
+          "item": "blobbushjelly",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "生化实验台",
+      "station_zh": "生化实验台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

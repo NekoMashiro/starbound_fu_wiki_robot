@@ -1,0 +1,69 @@
+{
+  "entity_id": "aeon_battleaxe_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Sagacity",
+  "name_zh": "睿智",
+  "description_en": "A battleaxe created with the timeless aeons.",
+  "description_zh": "一柄由须臾纪元之素制成的战斧。",
+  "rarity": "Legendary",
+  "category": "axe",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "melee",
+    "battleaxe",
+    "axe",
+    "aeon"
+  ],
+  "elementalType": "physical",
+  "level": 8,
+  "twoHanded": true,
+  "baseDps": 13.0,
+  "primaryAbilityType": "arcana_battleaxe_combo",
+  "altAbilityType": "kunaiblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_rawDiathrylium",
+          "count": 10
+        },
+        {
+          "item": "arcana_misc_eternalPage",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_copperComponent",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁装配机",
+      "station_zh": "俄里翁装配机",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_3__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "staff": {
+        "count": 1,
+        "examples": [
+          "artifact_battlestaff_chronologia"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

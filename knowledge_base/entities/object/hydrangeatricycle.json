@@ -1,0 +1,52 @@
+{
+  "entity_id": "hydrangeatricycle",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hydrangea Tricycle",
+  "name_zh": "绣球三轮车",
+  "description_en": "This tricycle has been repurposed into a flower display. Charming!",
+  "description_zh": "这辆三轮车已被改造成花卉展览。迷人！",
+  "rarity": "Uncommon",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "hydrangea",
+    "pretty",
+    "nature",
+    "valuable"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hydrangeaset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

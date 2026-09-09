@@ -1,0 +1,118 @@
+{
+  "entity_id": "arcana_bar_hakenVerrostin",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Haken Verrostin",
+  "name_zh": "织造肃钉",
+  "description_en": "A durable material found commonly in the Badlands. Can be used to craft Steelblades weapons & armor.",
+  "description_zh": "一种在荒原中常见的耐用材料。可用于制作钢刃武器和盔甲。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 190,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_ore_verrostinOre",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁铸炉",
+      "station_zh": "俄里翁铸炉",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_furnace_3.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 1140
+        }
+      ],
+      "output_count": 20,
+      "station": "...",
+      "station_zh": "…",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_mining.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 6,
+        "examples": [
+          "arcana_platform_verrostinPlatform",
+          "steelblades_tile2",
+          "steelblades_tile3",
+          "steelblades_tile5",
+          "steelblades_tile6"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_bar_hakenStahlite",
+          "arcana_misc_raidenComponent",
+          "arcana_misc_verrostinComponent"
+        ]
+      },
+      "mechPart": {
+        "count": 2,
+        "examples": [
+          "mwhaddon_mech_body_steelblade",
+          "mwhaddon_mech_leg_steelblade"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_verrostin_head"
+        ]
+      },
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_verrostin_chest"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_verrostin_legs"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "steelblades_assaultRifle_1"
+        ]
+      },
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "steelblades_blastRifle_1"
+        ]
+      }
+    },
+    "total": 19
+  },
+  "blueprints_unlocked": [
+    "arcana_bar_hakenVerrostin"
+  ],
+  "wiki_ref": "Haken Verrostin.md",
+  "quality_tier": "S"
+}

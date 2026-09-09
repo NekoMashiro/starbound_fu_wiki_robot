@@ -1,0 +1,36 @@
+{
+  "entity_id": "retrocomputer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Retro Computer",
+  "name_zh": "复古计算机",
+  "description_en": "A relic from a simpler time.",
+  "description_zh": "从一个更简单的时代遗留下来的东西。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "electronic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "arcana_bonestaff",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Bone Staff",
+  "name_zh": "骨头法杖",
+  "description_en": "A crude bone staff that can summon a skeleton minion.",
+  "description_zh": "可以生成骷髅仆从的粗糙骨杖。",
+  "rarity": "Rare",
+  "category": "staff",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "staff"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "primaryAbilityType": "elementswarm",
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_wanderingSpirit",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_wanderingSpirit"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

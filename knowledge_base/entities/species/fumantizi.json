@@ -1,0 +1,80 @@
+{
+  "entity_id": "fumantizi",
+  "entity_type": "species",
+  "source_mod": "Frackin' Universe",
+  "name_en": "",
+  "name_zh": "甲虫人",
+  "description_en": "",
+  "description_zh": "类似甲虫的杂食性双足动物，有着坚韧的甲壳，盛气凌人。\n\n  食性: 杂食性\n\n天赋:\n  +20HP, +5防御, 最大饱腹度 x1.5\n  抗性: +15% 物理抗性,+10% 火炎, 中毒 & 电系, +5% 辐射\n\n环境:\n  丛林, 沙漠, 硫酸 生物群落: 防御 & 能量 x1.1\n\n武器:\n  短矛精通: +25%\n  弓系精通:  +5%\n  盾: +2% 盾牌反伤, +2 盾牌击退距离\n  完美格挡恢复HP20%盾牌耐久\n\n弱点:\n  败家子: -25% 魅力\n  抗性: -15% 寒气抗性, -12% 射线抗性, -10% 暗影抗性",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 1.2
+      },
+      {
+        "stat": "protection",
+        "amount": 5
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 0.95
+      },
+      {
+        "stat": "maxFood",
+        "effectiveMultiplier": 1.5
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "cosmicResistance",
+        "amount": -0.12
+      },
+      {
+        "stat": "radioactiveResistance",
+        "amount": 0.05
+      },
+      {
+        "stat": "shadowResistance",
+        "amount": -0.1
+      },
+      {
+        "stat": "shortspearMastery",
+        "amount": 0.25
+      },
+      {
+        "stat": "bowMastery",
+        "amount": 0.05
+      }
+    ],
+    "diet": [
+      {
+        "ORGANIC": false,
+        "INORGANIC": false,
+        "ROBOT_PLANT": false
+      },
+      {
+        "ROCK_RAD": true
+      }
+    ]
+  },
+  "quality_tier": "B"
+}

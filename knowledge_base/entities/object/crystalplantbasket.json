@@ -1,0 +1,42 @@
+{
+  "entity_id": "crystalplantbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crystal Plant Basket",
+  "name_zh": "水晶植物篮",
+  "description_en": "A plant formed of crystal. Magical!",
+  "description_zh": "由水晶构成的植物。神奇的！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "crystalplantedible",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "crystalplantedible"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

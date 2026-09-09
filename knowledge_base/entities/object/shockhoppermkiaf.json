@@ -1,0 +1,32 @@
+{
+  "entity_id": "shockhoppermkiaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Shockhopper MK I Figurine",
+  "name_zh": "激斗机甲MK I手办",
+  "description_en": "The label reads, \"An experimental Penguin mech, wielding a flamethrower arm and a pneumatic fist.\"",
+  "description_zh": "标签上写着：“一台实验用的企鹅机甲，挥舞着装有火焰喷射器的手臂和气动拳头。”",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shockhopperDrop",
+          "probability": 0.025,
+          "count": 1,
+          "monsters": [
+            "robotboss"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

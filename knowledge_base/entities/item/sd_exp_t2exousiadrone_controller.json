@@ -1,0 +1,48 @@
+{
+  "entity_id": "sd_exp_t2exousiadrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "OSR-M2 Controller",
+  "name_zh": "天狼控制器",
+  "description_en": "Exousia Military drone with homing missiles.\r\n  [Primary]Spawn/Despawn，[Alt]Fire.",
+  "description_zh": "威权帝国的军用无人机，附带追踪导弹。不 含 A I\n[左键]释放/收回，[右键]射击。[shift]悬停。",
+  "rarity": "Legendary",
+  "category": "^yellow;2级攻击无人机",
+  "price": 0,
+  "tags": [],
+  "level": 7,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 2100
+        },
+        {
+          "item": "arcana_misc_behestDongle",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_exoslateComposite",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_enartzComposite",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

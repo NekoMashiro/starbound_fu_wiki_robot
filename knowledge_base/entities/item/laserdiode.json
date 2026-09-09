@@ -1,0 +1,287 @@
+{
+  "entity_id": "laserdiode",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Laser Diode",
+  "name_zh": "激光二极管",
+  "description_en": "It's a laser diode.",
+  "description_zh": "这是一个激光二极管。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 8,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 2
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 5,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 7,
+        "examples": [
+          "network_capacitySensor",
+          "network_containerlink",
+          "network_deedlink",
+          "network_grabber",
+          "network_itemsensor"
+        ]
+      },
+      "decorative": {
+        "count": 6,
+        "examples": [
+          "sentrybotcapturebot",
+          "sentrybotcraft",
+          "sentrybotcraft2",
+          "sentrybotcraft3",
+          "sentrybotdeathdroid"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "bothealingstation",
+          "servitorloader"
+        ]
+      },
+      "upgradeComponent": {
+        "count": 1,
+        "examples": [
+          "manipulatormodule"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "beeexaminer2"
+        ]
+      },
+      "machinePistol": {
+        "count": 1,
+        "examples": [
+          "laspistol"
+        ]
+      },
+      "assaultRifle": {
+        "count": 1,
+        "examples": [
+          "lasrifle"
+        ]
+      },
+      "door": {
+        "count": 1,
+        "examples": [
+          "ojsecuritygate"
+        ]
+      }
+    },
+    "total": 22
+  },
+  "drop_sources": {
+    "total_pools": 18,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 1.7267,
+          "count": 1.0,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "servitorTreasure",
+          "probability": 0.1818,
+          "count": 1,
+          "monsters": [
+            "eyebaht",
+            "fuchiropterror",
+            "fuomnicannon",
+            "fuomnicannon2",
+            "futrifangle"
+          ]
+        },
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0756,
+          "count": 1.0
+        },
+        {
+          "pool": "furobotTreasure",
+          "probability": 0.0016,
+          "count": 1.0,
+          "monsters": [
+            "deathdroid",
+            "deathdroid2",
+            "fualien",
+            "fumechspider",
+            "fumechspiderletheiafacility"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0016,
+        1.7267
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.4422,
+          "count": 4.2
+        },
+        {
+          "pool": "fuprecursorResources",
+          "probability": 0.2528,
+          "count": 1.0,
+          "monsters": [
+            "precursorsentry",
+            "spiderwalker2",
+            "spiderwalker3"
+          ]
+        },
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0756,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0756,
+        0.4422
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.3149,
+          "count": 4.2
+        },
+        {
+          "pool": "ffmetallicbigChest",
+          "probability": 0.2769,
+          "count": 1.6
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.188,
+          "count": 1.0
+        },
+        {
+          "pool": "ffmetallicChest",
+          "probability": 0.0756,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.0419,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0419,
+        0.3149
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.313,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.309,
+          "count": 1.0,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.309,
+        0.313
+      ]
+    },
+    "hunting_harvest": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "huntingmechanicalLarge",
+          "probability": 0.215,
+          "count": 1.0,
+          "monsters": [
+            "eyebaht",
+            "nanoswarm"
+          ]
+        },
+        {
+          "pool": "huntingmechanical",
+          "probability": 0.1653,
+          "count": 1,
+          "monsters": [
+            "fudrone"
+          ]
+        },
+        {
+          "pool": "furobotHunting",
+          "probability": 0.1111,
+          "count": 1,
+          "monsters": [
+            "serpentdroid"
+          ]
+        },
+        {
+          "pool": "servitorHunting",
+          "probability": 0.1111,
+          "count": 1,
+          "monsters": [
+            "fuchiropterror",
+            "fuomnicannon2",
+            "futrifangle",
+            "futwigun",
+            "futwigun2"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        0.215
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

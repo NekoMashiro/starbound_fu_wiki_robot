@@ -1,0 +1,69 @@
+{
+  "entity_id": "solar_crafting_solarCoreFragment",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Solar Core Fragment",
+  "name_zh": "日光之核碎片",
+  "description_en": "A piece of a broken down solar core.",
+  "description_zh": "一块坏掉的恒心之核。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 80,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_serpent_chest"
+        ]
+      },
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_serpent_head"
+        ]
+      },
+      "legwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_serpent_legs"
+        ]
+      },
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_mech_arm_salamander"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "solar_crafting_solarCore"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_soli",
+          "probability": 0.6,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_soli",
+            "arcana_monster_solstice",
+            "arcana_monster_tricanard"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

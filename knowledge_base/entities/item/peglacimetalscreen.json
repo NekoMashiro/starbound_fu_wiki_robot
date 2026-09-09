@@ -1,0 +1,55 @@
+{
+  "entity_id": "peglacimetalscreen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Screen",
+  "name_zh": "合金屏幕",
+  "description_en": "A metal screen decorated with Peglaci glyphs.\nExtractable.",
+  "description_zh": "装饰有羊蹄符号的金属屏幕。\n可萃取。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "icecrystal",
+          "count": 1
+        },
+        {
+          "item": "iceblock",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 50,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

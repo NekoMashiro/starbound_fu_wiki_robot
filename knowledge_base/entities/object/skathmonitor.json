@@ -1,0 +1,34 @@
+{
+  "entity_id": "skathmonitor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skath Monitor",
+  "name_zh": "绘世者监视器",
+  "description_en": "A Skath monitor, for monitoring things.",
+  "description_zh": "绘世者监视器，用于监视事物。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 65,
+  "tags": [
+    "skath"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tethyde",
+          "count": 2
+        },
+        {
+          "item": "hydroliumcircuitry",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者工作台",
+      "station_zh": "基础级绘世者工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

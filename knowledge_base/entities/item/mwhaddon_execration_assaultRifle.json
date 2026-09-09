@@ -1,0 +1,68 @@
+{
+  "entity_id": "mwhaddon_execration_assaultRifle",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Disintegration",
+  "name_zh": "裂解",
+  "description_en": "To vanquish and disintegrate opponents.",
+  "description_zh": "以征服与裂解敌手。",
+  "rarity": "Legendary",
+  "category": "assaultRifle",
+  "price": 1360,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "execration"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 40.0,
+  "altAbilityType": "shrapnelbomb",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 16
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 6
+        },
+        {
+          "item": "arcana_misc_omtreeSplinter",
+          "count": 3
+        },
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "horizon_assaultRifle_2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

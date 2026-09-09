@@ -1,0 +1,219 @@
+{
+  "entity_id": "battery",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Battery",
+  "name_zh": "电池",
+  "description_en": "This battery can be used to power hi-tech stations, weapons and wearables!",
+  "description_zh": "这种电池可用于为高科技站点、武器和设备供能！",
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "price": 500,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原子熔炉",
+          "name_zh": "原子熔炉"
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "自动组装器",
+          "name_zh": "自动组装器"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 110
+        }
+      ],
+      "output_count": 1,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 115
+        }
+      ],
+      "output_count": 1,
+      "station": "...",
+      "station_zh": "...",
+      "source_mod": "[Arcana]Titancorp Expansion"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 13,
+        "examples": [
+          "mecharmdrill",
+          "mecharmdrill2",
+          "mecharmheatrifle",
+          "mecharmpowerdrone",
+          "mecharmsplitshot"
+        ]
+      },
+      "crafting": {
+        "count": 6,
+        "examples": [
+          "3dprinter",
+          "arcana_crafting_furnace_2",
+          "arcana_crafting_techStation_3",
+          "arcana_orion_crafting_1",
+          "capturestation"
+        ]
+      },
+      "fridgeStorage": {
+        "count": 5,
+        "examples": [
+          "fridge",
+          "fuaetherfridge",
+          "fuaetherstarfridge",
+          "shadowfridge",
+          "shadowminifridge"
+        ]
+      },
+      "decorative": {
+        "count": 4,
+        "examples": [
+          "arcana_musicbox_1",
+          "fuaetherstarvending",
+          "fuaethervending",
+          "orion_deco_2"
+        ]
+      },
+      "assaultRifle": {
+        "count": 4,
+        "examples": [
+          "energyassault",
+          "exousia_police_blastRifle_1",
+          "ionrifle",
+          "mechgun"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 3,
+        "examples": [
+          "arcana_back_arcaneEPP",
+          "coldprotectionback",
+          "heatprotectionback"
+        ]
+      },
+      "broadsword": {
+        "count": 3,
+        "examples": [
+          "energyblade",
+          "exousia_imperialArmy_1_broadsword_2",
+          "violiumbroadsword"
+        ]
+      },
+      "^orange;Extraction Device^reset;": {
+        "count": 2,
+        "examples": [
+          "fu_liquidmixer",
+          "fu_rockcrusher"
+        ]
+      }
+    },
+    "total": 54
+  },
+  "drop_sources": {
+    "total_pools": 6,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "techconsole",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_2",
+          "probability": 0.1353,
+          "count": 5
+        },
+        {
+          "pool": "mwhaddon_fortuneBox_items_1",
+          "probability": 0.069,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_fortuneBox",
+          "probability": 0.0276,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0276,
+        1.0
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "huntingmechanicalLarge",
+          "probability": 0.0269,
+          "count": 1,
+          "monsters": [
+            "eyebaht",
+            "nanoswarm"
+          ]
+        }
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0161,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Battery.md",
+  "quality_tier": "S"
+}

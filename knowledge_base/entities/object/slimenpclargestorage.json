@@ -1,0 +1,42 @@
+{
+  "entity_id": "slimenpclargestorage",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Large Slime Storage",
+  "name_zh": "大型史莱姆储藏箱",
+  "description_en": "A hollow, thick slime substance.",
+  "description_zh": "一种中空的，粘稠的史莱姆物质。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 70,
+  "tags": [
+    "slimenpc",
+    "slimeperson",
+    "slimevillage",
+    "slimenpchuman",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 12
+        },
+        {
+          "item": "slime",
+          "count": 5
+        },
+        {
+          "item": "slimegoo",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

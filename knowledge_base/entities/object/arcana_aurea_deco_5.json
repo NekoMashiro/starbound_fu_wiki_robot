@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_aurea_deco_5",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Plant Hologram",
+  "name_zh": "金属花箱",
+  "description_en": "A hologram of a golden plant.",
+  "description_zh": "某种金色植物的全息影像。",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 200,
+  "tags": [
+    "light",
+    "aurea",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_archaicCircuit",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

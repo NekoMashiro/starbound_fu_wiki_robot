@@ -1,0 +1,75 @@
+{
+  "entity_id": "bananacon",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bananacon",
+  "name_zh": "香蕉培根",
+  "description_en": "With bacon, a banana and some wizardry, you get a bananacon. Type: Cooked Meat + Fruits",
+  "description_zh": "给一根香蕉裹上培根，再施点巫术，你就得到了香蕉培根。\n类型：熟肉食 + 水果",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 175,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rawbacon",
+          "count": 1
+        },
+        {
+          "item": "banana",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityfood",
+          "probability": 0.4286,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

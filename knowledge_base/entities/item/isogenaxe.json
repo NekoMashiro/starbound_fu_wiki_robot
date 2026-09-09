@@ -1,0 +1,56 @@
+{
+  "entity_id": "isogenaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Axe",
+  "name_zh": "寒霜斧",
+  "description_en": "Build snowmen with corpses.\r\nInflicts Freezing",
+  "description_zh": "用尸体搭建雪人。\n附加冻结效果",
+  "rarity": "legendary",
+  "category": "axe",
+  "price": 940,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "isogen",
+    "upgradeableWeapon",
+    "ice"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 12.35,
+  "critChance": 2,
+  "critBonus": 12,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,70 @@
+{
+  "entity_id": "arcana_food_tripledelightsalad",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Triple Delight Salad",
+  "name_zh": "三色沙拉",
+  "description_en": "A healthy mix of tropical, arctic and maritime ingredients. [Astrycion]\n\n+Restores 10 Health per second, 8 sec.\n+20% Max Energy 5 min.\n+10% Ice Resistance 5 min.",
+  "description_zh": "热带、寒带和海洋风味的完美融合。[Astrycion]\n\n8秒每秒恢复10生命\n5分钟+20%最大能量\n5分钟+10%冰纱抗性",
+  "rarity": "Uncommon",
+  "category": "preparedFood",
+  "price": 210,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "eggshoot",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_wintercorn",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_tidenut",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_seaberry",
+          "count": 1
+        },
+        {
+          "item": "arcana_farmable_jungleMango",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "化学家之桌",
+      "station_zh": "化学家之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "基础厨房",
+          "name_zh": "基础厨房"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_cookingStation_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

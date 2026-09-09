@@ -1,0 +1,54 @@
+{
+  "entity_id": "fuqueenlegs",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Queen's Skirt",
+  "name_zh": "蜂后裙子",
+  "description_en": "Set Bonuses:\r\n +25% Speed, +15% Jump\r\n Bee Weapons: +8% Crit Chance, +50% Crit Damage, Damage x1.2\r\n Immune: Beestings, Honey, Extreme Radiation",
+  "description_zh": "套装奖励:\n 速度+25%，跳跃+15%\n 蜜蜂武器: +8% 暴击几率, +50% 暴击伤害, 伤害 x1.2\n 免疫: 蜂蜇,蜂蜜，极端辐射",
+  "rarity": "Legendary",
+  "category": "legarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 7
+        },
+        {
+          "item": "fu_honeycombblock",
+          "count": 9
+        },
+        {
+          "item": "godlycomb",
+          "count": 8
+        },
+        {
+          "item": "beesilk",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

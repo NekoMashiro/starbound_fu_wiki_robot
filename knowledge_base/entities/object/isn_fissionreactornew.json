@@ -1,0 +1,45 @@
+{
+  "entity_id": "isn_fissionreactornew",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Fission Reactor",
+  "name_zh": "裂变反应堆",
+  "description_en": "Uses radioactive materials to generate power. Generates 10-360W, each fuel slot outputs independently. Higher power creates radiation. Left Input: On/Off Switch",
+  "description_zh": "可使用放射性物质发电。在最佳条件下可产生10-360W电力。每个燃料格独立输出。电力高低随放入物质的放射性强弱变化，高电力产出制造辐射。\n左侧输入：电源开关",
+  "rarity": "common",
+  "category": "wire",
+  "price": 11000,
+  "tags": [
+    "science",
+    "power",
+    "radioactive"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 12
+        },
+        {
+          "item": "skathreinforcedglass",
+          "count": 4
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "uraniumrod",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "能源设备制造器",
+      "station_zh": "能源设备制造器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Fission Reactor.md",
+  "quality_tier": "A"
+}

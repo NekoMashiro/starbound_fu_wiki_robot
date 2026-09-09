@@ -1,0 +1,45 @@
+{
+  "entity_id": "hylotlfloorornament",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Floor Ornament",
+  "name_zh": "地板装饰",
+  "description_en": "It's some sort of floor ornament. Frog spawn swirls inside.",
+  "description_zh": "某种地板装饰，里面盘旋着蛙卵。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 55,
+  "tags": [
+    "hylotl",
+    "hylotlvillage",
+    "odd"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "hylotlcityTreasureLarge",
+          "probability": 0.1103,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureMedium",
+          "probability": 0.0708,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasure",
+          "probability": 0.0232,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0232,
+        0.1103
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

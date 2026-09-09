@@ -1,0 +1,59 @@
+{
+  "entity_id": "durasteelgreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Durasteel Greataxe",
+  "name_zh": "耐钢巨斧",
+  "description_en": "A finely crafted durasteel greataxe.",
+  "description_zh": "使用耐钢矿精制而成巨大斧头。",
+  "rarity": "Uncommon",
+  "category": "greataxe",
+  "price": 600,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 11.5,
+  "critChance": 3,
+  "critBonus": 5,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "physicalshockwave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 5
+        },
+        {
+          "item": "goldbar",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "复制机",
+      "station_zh": "复制机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

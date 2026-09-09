@@ -1,0 +1,59 @@
+{
+  "entity_id": "wavyslimesword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Rapier",
+  "name_zh": "黏液刺剑",
+  "description_en": "A wobbly-looking sword made of slime.",
+  "description_zh": "用黏液制成的摇摇晃晃的剑。",
+  "rarity": "Uncommon",
+  "category": "Rapier",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "melee",
+    "rapier",
+    "slime",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.7,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "piercecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 15
+        },
+        {
+          "item": "slimegem",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "生化制作台",
+      "station_zh": "生化制作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffslimebanditTreasure",
+          "probability": 0.0342,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

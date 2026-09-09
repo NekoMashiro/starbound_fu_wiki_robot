@@ -1,0 +1,45 @@
+{
+  "entity_id": "fumineralgoods",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Minerals",
+  "name_zh": "矿物",
+  "description_en": "A sealed crate of minerals, valuable for interstellar trade.",
+  "description_zh": "一些密封的矿物箱，对星际贸易很有价值。",
+  "rarity": "Common",
+  "category": "tradeGoods",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 532
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingOre": {
+        "count": 1,
+        "examples": [
+          "thoriumore"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "flowergrey",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gray Flower",
+  "name_zh": "灰色花种子",
+  "description_en": "Drab in color, but smells nice",
+  "description_zh": "颜色很单调，但是闻起来很香！",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 0,
+  "tags": [
+    "nature"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "flowergreyHarvest",
+          "probability": 1.1818,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "gaea_boomerang_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Verdant Boomerang",
+  "name_zh": "蓊茏回旋镖",
+  "description_en": "A boomerang found in Verdant Sanctums. Inflicts poisoned.",
+  "description_zh": "在蓊茏圣堂找到的回旋镖。造成中毒",
+  "rarity": "Uncommon",
+  "category": "boomerang",
+  "price": 2000,
+  "tags": [
+    "weapon"
+  ],
+  "level": 5,
+  "twoHanded": false,
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_sigils_poisonSigil"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

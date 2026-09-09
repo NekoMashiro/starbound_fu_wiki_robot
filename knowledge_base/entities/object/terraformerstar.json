@@ -1,0 +1,56 @@
+{
+  "entity_id": "terraformerstar",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Aetheric Terraformer",
+  "name_zh": "星云转换器",
+  "description_en": "Transforms a planet to make a star-like landscape.",
+  "description_zh": "一种经过改造的地形改造器，可制作星状景观。警告：高度不可预测",
+  "rarity": "Legendary",
+  "category": "terraformer",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithriciteore",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingterraforge.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 2500
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densiniumbar",
+          "count": 20
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 2
+        },
+        {
+          "item": "xithricitecrystal",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

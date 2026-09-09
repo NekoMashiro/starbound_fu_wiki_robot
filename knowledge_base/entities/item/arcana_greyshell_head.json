@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_greyshell_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Greyshell Headplate",
+  "name_zh": "灰贝头甲",
+  "description_en": "A basic protective headwear.",
+  "description_zh": "基础的保护胸甲。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 750,
+  "tags": [],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "cottonwool",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "灵魂石",
+      "station_zh": "灵魂石",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_spectwing_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

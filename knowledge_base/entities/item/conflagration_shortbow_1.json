@@ -1,0 +1,54 @@
+{
+  "entity_id": "conflagration_shortbow_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Firestorm",
+  "name_zh": "烈焰风暴",
+  "description_en": "A fiery shortbow that shoots molten arrows from its center.",
+  "description_zh": "这把烈焰短弓会从其中心处射出熔岩之箭。",
+  "rarity": "Uncommon",
+  "category": "bow",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow"
+  ],
+  "level": 4,
+  "twoHanded": true,
+  "primaryAbilityType": "arcana_bowshot",
+  "altAbilityType": "arcana_bowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_conflagrationShard",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础铁砧",
+      "station_zh": "基础铁砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "Astral Crafting Table",
+          "name_zh": "群星制作站"
+        },
+        {
+          "name": "arcana_crafting_anvil_1__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

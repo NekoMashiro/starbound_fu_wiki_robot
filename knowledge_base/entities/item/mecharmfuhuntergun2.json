@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmfuhuntergun2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Laser II Mech Arm",
+  "name_zh": "激光机甲臂 II",
+  "description_en": "A step up from its lesser cousin.",
+  "description_zh": "相比上代有微小的改进。",
+  "rarity": "legendary",
+  "category": "mechPart",
+  "price": 6800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "mecharmfuhuntergun",
+          "count": 1
+        },
+        {
+          "item": "durasteelbar",
+          "count": 20
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,58 @@
+{
+  "entity_id": "rimewind",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Rimewind",
+  "name_zh": "霜岚",
+  "description_en": "Fires arrows imbued with crippling frost.",
+  "description_zh": "发射注有极端霜冻能量的箭矢。",
+  "rarity": "Legendary",
+  "category": "bow",
+  "price": 1160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 6,
+  "twoHanded": true,
+  "critChance": 6,
+  "critBonus": 6,
+  "primaryAbilityType": "rngbows_enhancedbowshot",
+  "altAbilityType": "rngbows_enhancedbowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cryonicextract",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        },
+        {
+          "item": "isogenbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "huntingtrophy2",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Shield Mounted Skull",
+  "name_zh": "裱着头骨的盾",
+  "description_en": "A finely carved plaque with a skull on display.",
+  "description_zh": "一块展示着一颗头骨的精雕饰板。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 50,
+  "tags": [
+    "floran",
+    "floranhuntinggrounds",
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "florancanyonTreasure",
+          "probability": 0.0339,
+          "count": 1
+        }
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.0172,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

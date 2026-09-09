@@ -1,0 +1,63 @@
+{
+  "entity_id": "fuplasmacannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasma Eruptor",
+  "name_zh": "等离子枪",
+  "description_en": "Focuses energy for supreme damage output.\r\nCounts as plasma weapon for set bonuses\r\nDestroys tiles",
+  "description_zh": "聚焦能量以获得最高的伤害输出。\n等离子武器\n可破坏物块",
+  "rarity": "rare",
+  "category": "energy",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 7.23,
+  "critChance": 4,
+  "critBonus": 15,
+  "altAbilityType": "plasmaburstshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "triangliumpyramid",
+          "count": 8
+        },
+        {
+          "item": "moltencore",
+          "count": 3
+        },
+        {
+          "item": "densealloy",
+          "count": 4
+        },
+        {
+          "item": "icecrystal",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

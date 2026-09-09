@@ -1,0 +1,46 @@
+{
+  "entity_id": "shortcapeback",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Short Cape",
+  "name_zh": "短披风",
+  "description_en": "Generally a short cape. Arguably a long cape for penguins. +15% Shadow Resist.",
+  "description_zh": "通常来说是短披肩。但是对于企鹅是一面长披肩。\n暗影抗性+15%",
+  "rarity": "Common",
+  "category": "enviroProtectionPack",
+  "price": 75,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cottonwool",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "缝纫机",
+      "station_zh": "缝纫机",
+      "source_mod": "Starbound"
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

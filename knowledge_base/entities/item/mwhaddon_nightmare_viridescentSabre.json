@@ -1,0 +1,50 @@
+{
+  "entity_id": "mwhaddon_nightmare_viridescentSabre",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Viridescent Sabre",
+  "name_zh": "翠毒军刀",
+  "description_en": "This venomous sabre is forged with Tsukikage arts.",
+  "description_zh": "这把充满剧毒的军刀使用了月影的锻造技艺。",
+  "rarity": "essential",
+  "category": "broadsword",
+  "price": 3000,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "otherworldly"
+  ],
+  "elementalType": "poison",
+  "level": 9,
+  "twoHanded": false,
+  "baseDps": 12,
+  "primaryAbilityType": "mwhaddon_execration_broadsword_combo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_aureolaBar",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_nightmareBlossom_1",
+          "count": 8
+        },
+        {
+          "item": "misc_katana_viridescentKatana",
+          "count": 1
+        },
+        {
+          "item": "lunar_katana_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "mwhaddon_crafting_memoryForge.json",
+      "station_zh": "",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon"
+    }
+  ],
+  "quality_tier": "A"
+}

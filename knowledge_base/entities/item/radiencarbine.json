@@ -1,0 +1,59 @@
+{
+  "entity_id": "radiencarbine",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Arm Blaster",
+  "name_zh": "艾肯手臂冲击者",
+  "description_en": "A strange X'i-formed weapon.\r\nSlows targets",
+  "description_zh": "一种奇怪的艾肯制式武器。\n减速目标",
+  "rarity": "uncommon",
+  "category": "bioweapon",
+  "price": 20,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "radien",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 1,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xibulb",
+          "count": 12
+        },
+        {
+          "item": "corefragmentore",
+          "count": 5
+        },
+        {
+          "item": "silverbar",
+          "count": 3
+        },
+        {
+          "item": "ff_silicon",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "X'ian Forming Bulb",
+      "station_zh": "艾肯球茎工坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "radien.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "shockshroomseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shock-Shroom",
+  "name_zh": "冲击蘑菇孢子",
+  "description_en": "Shock shrooms make useful weapons when processed.",
+  "description_zh": "可以收获冲击蘑菇，那是一种投掷型武器。",
+  "rarity": "Uncommon",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 15
+        },
+        {
+          "item": "cell_spliced",
+          "count": 2
+        },
+        {
+          "item": "toxictopseed",
+          "count": 3
+        },
+        {
+          "item": "shroom",
+          "count": 12
+        },
+        {
+          "item": "lead",
+          "count": 10
+        },
+        {
+          "item": "staticcell",
+          "count": 3
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "deathblossomseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shockshroomHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "elduukhartier9shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Opul Shortsword",
+  "name_zh": "欧普尔短剑",
+  "description_en": "This blade is useful, but it seems to have been made more for vanity.",
+  "description_zh": "这把刀刃非常有用，但是看起来只是出于虚荣心而造。",
+  "rarity": "legendary",
+  "category": "shortsword",
+  "price": 1080,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 2,
+  "critBonus": 10,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "rekite",
+          "count": 65
+        },
+        {
+          "item": "opul",
+          "count": 8
+        },
+        {
+          "item": "goldbar",
+          "count": 5
+        },
+        {
+          "item": "solariumstar",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

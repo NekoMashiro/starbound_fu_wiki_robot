@@ -1,0 +1,77 @@
+{
+  "entity_id": "dollhousewood",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dollhouse Ornate Wood",
+  "name_zh": "玩具屋华丽木材",
+  "description_en": "Expertly treated dollhouse ornate wood.",
+  "description_zh": "精心处理的玩具屋华丽木材。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ornatewood",
+          "count": 5
+        },
+        {
+          "item": "chromadirtmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 30,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "cutefountain1",
+          "cutefountain2",
+          "cutestand1",
+          "cutestand2",
+          "cutesupport"
+        ]
+      },
+      "light": {
+        "count": 4,
+        "examples": [
+          "cutechandelier",
+          "cutelamp",
+          "cutelamppost",
+          "cutesconce"
+        ]
+      },
+      "block": {
+        "count": 3,
+        "examples": [
+          "dollhousecrosshatch",
+          "dollhousepillar",
+          "dollhousewall"
+        ]
+      },
+      "door": {
+        "count": 2,
+        "examples": [
+          "cutedoor1",
+          "cutedoor2"
+        ]
+      }
+    },
+    "total": 14
+  },
+  "quality_tier": "S"
+}

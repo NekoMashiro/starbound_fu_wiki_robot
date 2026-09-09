@@ -1,0 +1,55 @@
+{
+  "entity_id": "magnorbxithricite",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Magnorb",
+  "name_zh": "宇宙磁力珠",
+  "description_en": "Erase them from existence with cosmic power.",
+  "description_zh": "用宇宙的力量将他们从存在中抹去。",
+  "rarity": "legendary",
+  "category": "Magnorb",
+  "price": 800,
+  "tags": [
+    "weapon",
+    "magnorb",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "level": 6,
+  "twoHanded": true,
+  "critChance": 2,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 10
+        },
+        {
+          "item": "liquidaether",
+          "count": 55
+        },
+        {
+          "item": "phasematter",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

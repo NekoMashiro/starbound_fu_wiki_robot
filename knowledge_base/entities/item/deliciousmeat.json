@@ -1,0 +1,57 @@
+{
+  "entity_id": "deliciousmeat",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Delicious Mystery Meat",
+  "name_zh": "美妙的神秘肉",
+  "description_en": "A wonderfully tasty looking morsel which you should *definitely* eat.\nBleeding (20s) Type: Cooked Meat",
+  "description_zh": "一种口味奇特的食物，你*绝对*要尝一尝。\n流血(持续20s)\n类型：熟肉食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 30,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "luckyseveredtoe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wagnerTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuCorpseMeat",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuStrangeFood",
+          "probability": 0.7332,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.7332,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

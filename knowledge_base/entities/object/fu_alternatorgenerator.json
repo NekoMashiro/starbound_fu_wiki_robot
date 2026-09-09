@@ -1,0 +1,40 @@
+{
+  "entity_id": "fu_alternatorgenerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alternator Generator",
+  "name_zh": "交流发电机",
+  "description_en": "A wood, coal or energiwood burning power source. Generates up to 4W power, fuel type determines consumption rate. Left Input: On/Off Switch",
+  "description_zh": "燃烧原木、煤或焦炭以提供能量。最大输出4W功率，燃料类型决定消耗率。\n左侧输入：电源开关",
+  "rarity": "common",
+  "category": "wire",
+  "price": 200,
+  "tags": [
+    "science",
+    "power"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Alternator Generator.md",
+  "quality_tier": "A"
+}

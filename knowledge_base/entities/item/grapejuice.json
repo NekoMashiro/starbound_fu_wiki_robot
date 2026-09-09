@@ -1,0 +1,147 @@
+{
+  "entity_id": "grapejuice",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Grape Juice",
+  "name_zh": "葡萄汁",
+  "description_en": "A sweet juice made of grapes. Type: Fruit",
+  "description_zh": "一杯甜甜的葡萄汁。\n类型：水果",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 150,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "grapes",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "grapejuiceobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Menu",
+      "station_zh": "菜单",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_food2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 2,
+        "examples": [
+          "champagne",
+          "winebottle"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "grapejuiceobject"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "wineglass"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.0484,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.0315,
+          "count": 1
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.0263,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0263,
+        0.0315
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "apegrapes"
+  ],
+  "quality_tier": "S"
+}

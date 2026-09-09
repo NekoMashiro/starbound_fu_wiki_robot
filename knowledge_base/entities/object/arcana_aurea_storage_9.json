@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_aurea_storage_9",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Aurea Ammo Storage",
+  "name_zh": "恒金弹药库",
+  "description_en": "Shelves full of ammunition.",
+  "description_zh": "满满一架子弹药。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 220,
+  "tags": [
+    "storage",
+    "aurea",
+    "combat"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_brassgoldMaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_auricPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "使徒之桌",
+      "station_zh": "使徒之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

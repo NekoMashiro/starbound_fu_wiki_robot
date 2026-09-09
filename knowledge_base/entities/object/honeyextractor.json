@@ -1,0 +1,35 @@
+{
+  "entity_id": "honeyextractor",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Honey Extractor",
+  "name_zh": "蜂蜜提取器",
+  "description_en": "Slowly turns combs and bottles into honey.",
+  "description_zh": "缓慢地将蜂巢和玻璃瓶转化成蜂蜜。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 50,
+  "tags": [
+    "bees"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 15
+        },
+        {
+          "item": "goldbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Honey Extractor.md",
+  "quality_tier": "A"
+}

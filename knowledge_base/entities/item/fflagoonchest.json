@@ -1,0 +1,55 @@
+{
+  "entity_id": "fflagoonchest",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chordata Chestplate",
+  "name_zh": "脊索胸甲",
+  "description_en": "Set Bonuses:\r\nHammer Mastery: 40%\r\n Swim Boost 1\r\n (Short) Spear: Damage x1.25\r\n Immune: Insanity, Oxygen, Poisoned",
+  "description_zh": "",
+  "rarity": "uncommon",
+  "category": "chestarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "defensive",
+    "melee"
+  ],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "hardenedcarapace",
+          "count": 5
+        },
+        {
+          "item": "monsterplating",
+          "count": 3
+        },
+        {
+          "item": "algaegreen",
+          "count": 12
+        },
+        {
+          "item": "neptuniumrod",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

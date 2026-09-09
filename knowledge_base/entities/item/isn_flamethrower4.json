@@ -1,0 +1,63 @@
+{
+  "entity_id": "isn_flamethrower4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Inferno",
+  "name_zh": "炼狱",
+  "description_en": "A rather large flame weapon.\r\nInflicts burning",
+  "description_zh": "巨大的喷火武器。\n附加燃烧效果",
+  "rarity": "rare",
+  "category": "assaultRifle",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "assaultrifle",
+    "flamethrower",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 8,
+  "critChance": 2,
+  "critBonus": 4,
+  "altAbilityType": "spatialcollapseblast",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 5
+        },
+        {
+          "item": "carbonplate",
+          "count": 7
+        },
+        {
+          "item": "liquidfuel",
+          "count": 15
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

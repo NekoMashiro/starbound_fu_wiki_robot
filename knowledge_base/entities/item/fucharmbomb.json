@@ -1,0 +1,52 @@
+{
+  "entity_id": "fucharmbomb",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Charm Bomb",
+  "name_zh": "摄魂爆弹",
+  "description_en": "Scramble the brains of nearby sapient beings, making them your friends!",
+  "description_zh": "扰乱附近生命形式的大脑，让他们成为你的朋友！",
+  "rarity": "rare",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [
+    "thrown_grenade"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "precursorgel",
+          "count": 1
+        },
+        {
+          "item": "psionicenergy2",
+          "count": 150
+        },
+        {
+          "item": "redmatter",
+          "count": 1
+        },
+        {
+          "item": "moonstonebar",
+          "count": 5
+        }
+      ],
+      "output_count": 5,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

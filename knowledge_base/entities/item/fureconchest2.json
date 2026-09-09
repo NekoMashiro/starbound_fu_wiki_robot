@@ -1,0 +1,62 @@
+{
+  "entity_id": "fureconchest2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Elite Recon Vest",
+  "name_zh": "精锐侦察胸甲",
+  "description_en": "Set Bonuses:\r\n +10% Speed\r\n Assault/Sniper Rifle: Damage x1.15, +2% Crit Chance\r\n Immune: Moderate Radiation, Radiation Burn",
+  "description_zh": "套装奖励:\n +10% 速度\n 突击/狙击步枪: 伤害 x1.15, +2% 暴击几率\n 免疫: 严酷辐射, 辐射烧伤",
+  "rarity": "uncommon",
+  "category": "chestarmour",
+  "price": 375,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fureconchest",
+          "count": 1
+        },
+        {
+          "item": "icecrystal",
+          "count": 3
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestarmour": {
+        "count": 1,
+        "examples": [
+          "fureconchest3"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechboostersimpleupgrade2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Improved Mech Boosters",
+  "name_zh": "改良机甲推进器",
+  "description_en": "Mass-produced mech boosters, with external fuel tank attachments.",
+  "description_zh": "批量生产的机甲推进器，附带有外置的燃料箱。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 10
+        },
+        {
+          "item": "mechboostersimpleupgrade",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "mechlegssimpleupgrade2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Improved Mech Legs",
+  "name_zh": "改良机甲足",
+  "description_en": "Mass-produced mech legs that allow for basic mobility.",
+  "description_zh": "批量生产的机甲足，基本的移动力。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 240,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 8
+        },
+        {
+          "item": "mechlegssimpleupgrade",
+          "count": 1
+        },
+        {
+          "item": "goldbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

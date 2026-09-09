@@ -1,0 +1,134 @@
+{
+  "entity_id": "seekerhelm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Seeker Helm",
+  "name_zh": "探求者头盔",
+  "description_en": "High energy reserve. Immune to Insanity.",
+  "description_zh": "高效的能量存储设备。 免疫精神错乱。",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 2500,
+  "tags": [],
+  "level": 4,
+  "drop_sources": {
+    "total_pools": 18,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuspecialLoot",
+          "probability": 0.0034,
+          "count": 1
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0034
+      ]
+    },
+    "chest_loot": {
+      "count": 7,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxHigh",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0006
+      ]
+    },
+    "monster_drops": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "ffbasicTreasureHobo",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "exsupertreasure",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "crystalminingtreasure",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0004
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

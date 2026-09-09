@@ -1,0 +1,49 @@
+{
+  "entity_id": "arcana_steelblades_storage_6",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Steelblades Cabinet",
+  "name_zh": "钢刃金属柜",
+  "description_en": "A metal cabinet. Can store a large amount of items.",
+  "description_zh": "一个金属柜。可以存放大量物品。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "steelblades",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_verrostinComponent",
+          "count": 1
+        },
+        {
+          "item": "slopedrustypanel",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁工作站",
+      "station_zh": "俄里翁工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

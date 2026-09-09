@@ -1,0 +1,46 @@
+{
+  "entity_id": "fumagmabed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Magma Bed",
+  "name_zh": "岩浆床",
+  "description_en": "Perhaps a bit warm for most people, but better than a pile of rocks.",
+  "description_zh": "也许对大多数人来说有些热，但总比睡在一堆石头上好。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 625,
+  "tags": [
+    "magma",
+    "bed",
+    "hellfire"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silk",
+          "count": 6
+        },
+        {
+          "item": "magmawall2",
+          "count": 4
+        },
+        {
+          "item": "agaranichor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

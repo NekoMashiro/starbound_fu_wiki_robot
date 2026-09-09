@@ -1,0 +1,77 @@
+{
+  "entity_id": "monarch_crafting_holosiumStar",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Holosium Star",
+  "name_zh": "空无之星",
+  "description_en": "A rare material synthesized from solarium and darklight.",
+  "description_zh": "由日耀石和黯光精纯合成的稀有材料。",
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "price": 160,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_holosiumBar",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_darklightResin",
+          "count": 1
+        },
+        {
+          "item": "solariumstar",
+          "count": 1
+        }
+      ],
+      "output_count": 2,
+      "station": "大法师之桌",
+      "station_zh": "大法师之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_main_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "通灵者之桌",
+          "name_zh": "通灵者之桌"
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_3.json",
+          "name_zh": ""
+        },
+        {
+          "name": "mwhaddon_crafting_alchemist_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "medicine": {
+        "count": 1,
+        "examples": [
+          "arcana_mwhaddon_healItem_2"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_illuminatedSpikes"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "quality_tier": "S"
+}

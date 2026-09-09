@@ -1,0 +1,37 @@
+{
+  "entity_id": "wizardhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wizard Hat",
+  "name_zh": "法师帽",
+  "description_en": "It's a floppy blue traffic cone. Why not wear it on your head?",
+  "description_zh": "一个软软的蓝色交通锥。为什么不把它戴着你的头上呢？",
+  "rarity": "Uncommon",
+  "category": "headwear",
+  "price": 250,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "glitchmission1Rare1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "royaltreasure",
+          "probability": 0.28,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

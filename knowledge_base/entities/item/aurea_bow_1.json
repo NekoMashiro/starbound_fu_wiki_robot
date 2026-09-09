@@ -1,0 +1,42 @@
+{
+  "entity_id": "aurea_bow_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Quaesitor",
+  "name_zh": "审判者",
+  "description_en": "The Divine Bow, Quaesitor. It shines brightly still, despite having long lost its true powers.",
+  "description_zh": "神圣之弓，审判者。尽管它真正的力量早已消散，其光辉依旧。",
+  "rarity": "Rare",
+  "category": "bow",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "ranged",
+    "bow"
+  ],
+  "level": 5,
+  "twoHanded": true,
+  "primaryAbilityType": "bowshot",
+  "altAbilityType": "bowshot",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonDiscipleBadge",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

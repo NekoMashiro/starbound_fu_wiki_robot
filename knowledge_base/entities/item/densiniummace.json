@@ -1,0 +1,55 @@
+{
+  "entity_id": "densiniummace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Densinium Mace",
+  "name_zh": "超致密钉头锤",
+  "description_en": "Superior weapon for superior murder. Design by Gezbo.\r\nInflicts Electrified",
+  "description_zh": "优秀的杀手的必备良药。由格兹博设计。\n感电",
+  "rarity": "legendary",
+  "category": "mace",
+  "price": 200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "densinium",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.4,
+  "critChance": 1,
+  "critBonus": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "densiniumbar",
+          "count": 4
+        },
+        {
+          "item": "densealloy",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "peglacitier8knife",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Backscatter",
+  "name_zh": "后向散射手雷",
+  "description_en": "Launches a grenade that accelerates before firing off three missiles the other way.",
+  "description_zh": "发射一枚手榴弹，加速后向相反方向再发射三枚导弹。",
+  "rarity": "Rare",
+  "category": "throwableItem",
+  "price": 300,
+  "tags": [],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 1
+        }
+      ],
+      "output_count": 4,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

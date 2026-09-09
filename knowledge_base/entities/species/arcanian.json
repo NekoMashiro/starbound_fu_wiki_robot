@@ -1,0 +1,57 @@
+{
+  "entity_id": "arcanian",
+  "entity_type": "species",
+  "source_mod": "Arcana",
+  "name_en": "",
+  "name_zh": "守秘族",
+  "description_en": "",
+  "description_zh": "守秘族是一支世代生活在沙漠的种族，因其生存环境的恶劣而秉性坚毅。他们在进化之中获得了对奥术能量的感知能力。现在他们在自己的绿洲中休养生息，钻研奥术和学术方面的问题。",
+  "race_effects": {
+    "stats": [
+      {
+        "stat": "maxHealth",
+        "effectiveMultiplier": 0.9
+      },
+      {
+        "stat": "maxEnergy",
+        "effectiveMultiplier": 1.1
+      },
+      {
+        "stat": "fuCharisma",
+        "baseMultiplier": 1.1
+      },
+      {
+        "stat": "physicalResistance",
+        "amount": 0.1
+      },
+      {
+        "stat": "electricResistance",
+        "amount": 0.15
+      },
+      {
+        "stat": "fireResistance",
+        "amount": 0.2
+      },
+      {
+        "stat": "mentalProtection",
+        "amount": 0.1
+      },
+      {
+        "stat": "poisonResistance",
+        "amount": -0.15
+      },
+      {
+        "stat": "iceResistance",
+        "amount": -0.4
+      }
+    ],
+    "diet": "omnivore",
+    "controlModifiers": {
+      "speedModifier": 1.1
+    },
+    "tech": [
+      "arcana_tech_energize"
+    ]
+  },
+  "quality_tier": "B"
+}

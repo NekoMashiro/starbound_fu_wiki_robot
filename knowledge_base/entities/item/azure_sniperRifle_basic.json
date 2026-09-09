@@ -1,0 +1,35 @@
+{
+  "entity_id": "azure_sniperRifle_basic",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Rusty Rifle",
+  "name_zh": "生锈的步枪",
+  "description_en": "A rusty sniper rifle used by Arcanian ship crew.",
+  "description_zh": "守秘族船员使用的生锈狙击步枪。",
+  "rarity": "Common",
+  "category": "sniperRifle",
+  "price": 0,
+  "tags": [
+    "weapon",
+    "ranged",
+    "sniperrifle"
+  ],
+  "elementalType": "arcana_azure",
+  "level": 1,
+  "twoHanded": true,
+  "baseDps": 5.0,
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcanianStarterTreasure_extras",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

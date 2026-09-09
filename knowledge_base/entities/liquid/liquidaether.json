@@ -1,0 +1,24 @@
+{
+  "entity_id": "liquidaether",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "liquidaether",
+  "name_zh": "",
+  "description_en": "Strange black liquid.",
+  "description_zh": "奇怪的黑色液体。",
+  "status_effects": [
+    "swimming",
+    "aetherweathernew"
+  ],
+  "interactions": [
+    {
+      "liquid": 2,
+      "materialResult": "retexaetherdust"
+    },
+    {
+      "liquid": 62,
+      "liquidResult": 66
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "nightarchest",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightarian Chest",
+  "name_zh": "夜族箱子",
+  "description_en": "A small Nightarian chest.",
+  "description_zh": "一个小型夜族箱子。",
+  "rarity": "common",
+  "category": "storage",
+  "price": 75,
+  "tags": [
+    "nightar",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 20
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

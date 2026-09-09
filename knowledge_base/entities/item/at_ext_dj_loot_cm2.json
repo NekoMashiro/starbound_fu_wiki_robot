@@ -1,0 +1,29 @@
+{
+  "entity_id": "at_ext_dj_loot_cm2",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Mutated Sample",
+  "name_zh": "变异样本罐",
+  "description_en": "A canister of mutated slime samples, with research value.\nCan be sold at the trade terminal!",
+  "description_zh": "变异的黏液样本罐，具有研究价值\n可在贸易终端处出售！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "at_ext_loots"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.0161,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

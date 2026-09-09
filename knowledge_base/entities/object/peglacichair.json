@@ -1,0 +1,58 @@
+{
+  "entity_id": "peglacichair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Chair",
+  "name_zh": "合金椅",
+  "description_en": "A comfortable chair made of a light, tough alloy.",
+  "description_zh": "一种由轻而结实的合金制成的舒适的椅子。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 10,
+  "tags": [
+    "peglaci",
+    "peglacivillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "iceblock",
+          "count": 10
+        },
+        {
+          "item": "logblock",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        },
+        {
+          "name": "Peglaci Box",
+          "name_zh": "企鹅族盒子"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

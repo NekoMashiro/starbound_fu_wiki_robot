@@ -1,0 +1,44 @@
+{
+  "entity_id": "feathercrownbasket",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Feathercrown Basket",
+  "name_zh": "羽冠花篮",
+  "description_en": "Feathercrown, you have to pluck it before consuming.",
+  "description_zh": "羽冠花，你必须在食用前摘下它。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
+  "tags": [
+    "nature",
+    "cooking",
+    "avian",
+    "avianvillage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "feathercrown",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "food": {
+        "count": 1,
+        "examples": [
+          "feathercrown"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

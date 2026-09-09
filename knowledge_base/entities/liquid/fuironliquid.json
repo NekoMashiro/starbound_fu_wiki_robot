@@ -1,0 +1,27 @@
+{
+  "entity_id": "fuironliquid",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "fuironliquid",
+  "name_zh": "",
+  "description_en": "An ocean of deadly molten metal.",
+  "description_zh": "一处由致命的熔化金属形成的海洋。",
+  "status_effects": [
+    "moltenmetal3"
+  ],
+  "interactions": [
+    {
+      "liquid": 100,
+      "materialResult": "retexaetherdust"
+    },
+    {
+      "liquid": 2,
+      "liquidResult": 2
+    },
+    {
+      "liquid": 45,
+      "liquidResult": 70
+    }
+  ],
+  "quality_tier": "C"
+}

@@ -1,0 +1,44 @@
+{
+  "entity_id": "fusubcontroller4",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gryphon Controller",
+  "name_zh": "狮鹫控制器",
+  "description_en": "Create a badass flyer from stored nanites.",
+  "description_zh": "这个纳米舱内储存有飞行器。",
+  "rarity": "legendary",
+  "category": "vehicleController",
+  "price": 5000,
+  "tags": [
+    "vehiclecontroller"
+  ],
+  "level": 1,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_plastic",
+          "count": 450
+        },
+        {
+          "item": "nuclearcore",
+          "count": 3
+        },
+        {
+          "item": "densiniumbar",
+          "count": 90
+        },
+        {
+          "item": "minirocketlauncher2",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

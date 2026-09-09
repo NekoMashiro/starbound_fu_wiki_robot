@@ -1,0 +1,37 @@
+{
+  "entity_id": "togocoffee",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Coffee to Go",
+  "name_zh": "外带咖啡",
+  "description_en": "Hopefully self-explanatory.",
+  "description_zh": "希望不言自明。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 300,
+  "tags": [
+    "cafe",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 312
+        }
+      ],
+      "output_count": 1,
+      "station": "Starbucks",
+      "station_zh": "星八克",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fustarbucks.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

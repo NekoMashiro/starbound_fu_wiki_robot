@@ -1,0 +1,54 @@
+{
+  "entity_id": "laboratoryverticaldoor",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Laboratory Hatch",
+  "name_zh": "实验室舱门",
+  "description_en": "A sleek vertical doorway, perfect for secret labs.",
+  "description_zh": "一个时尚的横向舱门，完美的秘密实验室。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 125,
+  "tags": [
+    "door",
+    "apex",
+    "apexmission1"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 1
+        },
+        {
+          "item": "smallbattery",
+          "count": 2
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

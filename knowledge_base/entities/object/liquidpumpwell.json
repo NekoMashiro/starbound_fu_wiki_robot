@@ -1,0 +1,62 @@
+{
+  "entity_id": "liquidpumpwell",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Water Generator",
+  "name_zh": "造水机",
+  "description_en": "Generates water better than a Well. Stores up to 1000 water. Less effective when stacked. Scan for Info.",
+  "description_zh": "比起井来说生成水的效果更好。最多可储存1000滴水。水堆叠时效率会降低。扫描以浏览更多信息。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 750,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "copperbar",
+          "count": 1
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "fu_portablewaterpumpback"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Water Generator.md",
+  "quality_tier": "S"
+}

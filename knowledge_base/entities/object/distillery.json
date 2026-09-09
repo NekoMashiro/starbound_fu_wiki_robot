@@ -1,0 +1,39 @@
+{
+  "entity_id": "distillery",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Distillery / Still",
+  "name_zh": "蒸馏器",
+  "description_en": "A machine that allows distillation of alcohol!",
+  "description_zh": "酿酒时用来进行蒸馏的机器。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 1,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cobblestonematerial",
+          "count": 35
+        },
+        {
+          "item": "ironbar",
+          "count": 15
+        },
+        {
+          "item": "copperbar",
+          "count": 7
+        }
+      ],
+      "output_count": 1,
+      "station": "Booze Kit",
+      "station_zh": "酿酒工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

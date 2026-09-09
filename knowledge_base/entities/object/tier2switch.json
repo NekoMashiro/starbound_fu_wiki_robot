@@ -1,0 +1,35 @@
+{
+  "entity_id": "tier2switch",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Tungsten Lever",
+  "name_zh": "钨拉杆",
+  "description_en": "A robust tungesten lever. Demands to be pulled.",
+  "description_zh": "一个坚固的钨拉杆。需要被拉动。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 40,
+  "tags": [
+    "wired",
+    "tier2"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

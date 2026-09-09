@@ -1,0 +1,45 @@
+{
+  "entity_id": "isogenchair",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Isogen Chair",
+  "name_zh": "寒霜椅子",
+  "description_en": "A chair that seems far too cold to sit on.",
+  "description_zh": "似乎太冷而不能坐的椅子。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 110,
+  "tags": [
+    "isogen",
+    "misc"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isogenbar",
+          "count": 5
+        },
+        {
+          "item": "liquidnitrogenitem",
+          "count": 5
+        },
+        {
+          "item": "icecrystal",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

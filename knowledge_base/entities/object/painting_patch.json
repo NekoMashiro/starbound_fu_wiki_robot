@@ -1,0 +1,32 @@
+{
+  "entity_id": "painting_patch",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Patchy Painting",
+  "name_zh": "残缺绘画",
+  "description_en": "Its reputation precedes its very presence!",
+  "description_zh": "未见其人，先闻其声！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 90,
+  "tags": [
+    "odd",
+    "pretty",
+    "avianairship",
+    "ccccc"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingTreasure",
+          "probability": 0.0333,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

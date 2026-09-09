@@ -1,0 +1,55 @@
+{
+  "entity_id": "blizzardcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blizzard Cannon",
+  "name_zh": "暴雪炮",
+  "description_en": "Freeze enemies with cryogenic rockets!\r\nFreeze enemies\r\nArea Clear",
+  "description_zh": "超低温火箭将会冰封你眼前的敌人！\n冻结敌人\n范围性武器",
+  "rarity": "uncommon",
+  "category": "rocketLauncher",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 10,
+  "critChance": 3,
+  "critBonus": 10,
+  "altAbilityType": "swtjc_ewg_explosivespray",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "cryonicextract",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Blizzard Cannon.md",
+  "quality_tier": "A"
+}

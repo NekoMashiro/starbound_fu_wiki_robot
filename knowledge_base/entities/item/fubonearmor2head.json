@@ -1,0 +1,47 @@
+{
+  "entity_id": "fubonearmor2head",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bone-Steel Mask",
+  "name_zh": "骨制钢胸甲",
+  "description_en": "Set Bonuses:\r\n Fall Damage x0.75\r\n Swords: Damage x1.15",
+  "description_zh": "套装奖励:\n 坠落伤害x0.75\n 剑: 伤害x1.15",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 0,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "melee"
+  ],
+  "level": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fubonearmorhead",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

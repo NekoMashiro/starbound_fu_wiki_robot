@@ -1,0 +1,39 @@
+{
+  "entity_id": "massincinerator",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mass Incinerator",
+  "name_zh": "大规模焚化炉",
+  "description_en": "Instantly destroys any item placed within. Great for mass disposal.",
+  "description_zh": "立即销毁放置在其中的任何物品。非常适合大规模处理。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 100,
+  "tags": [
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "isn_incinerator",
+          "count": 1
+        },
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "scorchedcore",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mass Incinerator.md",
+  "quality_tier": "A"
+}

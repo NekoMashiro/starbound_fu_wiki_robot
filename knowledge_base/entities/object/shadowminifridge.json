@@ -1,0 +1,58 @@
+{
+  "entity_id": "shadowminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadowy Mini Fridge",
+  "name_zh": "阴影迷你冰箱",
+  "description_en": "Ideal for storing food and keeping it fresh.",
+  "description_zh": "适合于存储食物，并让它们保持新鲜。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 90,
+  "tags": [
+    "shadow",
+    "storage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 10
+        },
+        {
+          "item": "penumbradirtmaterial",
+          "count": 10
+        },
+        {
+          "item": "cryonicextract",
+          "count": 1
+        },
+        {
+          "item": "battery",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

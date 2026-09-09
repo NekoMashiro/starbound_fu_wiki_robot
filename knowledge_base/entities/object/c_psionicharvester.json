@@ -1,0 +1,39 @@
+{
+  "entity_id": "c_psionicharvester",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Psionic Harvester",
+  "name_zh": "灵能收割机",
+  "description_en": "Steals your tenants' negative thoughts and emotions to create psionic energy. Requires 200W. +10 Happiness",
+  "description_zh": "偷走你房客的消极思想和情绪来创造灵能。\n需要200W电力。\n+10幸福",
+  "rarity": "rare",
+  "category": "storage",
+  "price": 1000,
+  "tags": [
+    "madness"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psioniclab",
+          "count": 1
+        },
+        {
+          "item": "hydrogencore",
+          "count": 1
+        },
+        {
+          "item": "refinedaegisalt",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Colony Station",
+      "station_zh": "殖民工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Psionic Harvester.md",
+  "quality_tier": "A"
+}

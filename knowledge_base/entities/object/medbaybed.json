@@ -1,0 +1,57 @@
+{
+  "entity_id": "medbaybed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Medical Bay",
+  "name_zh": "医疗舱",
+  "description_en": "Few things stitch up wounds faster than this sweet baby.",
+  "description_zh": "有着非常高效的医疗效果，没有比它更好的医疗设备了。",
+  "rarity": "rare",
+  "category": "furniture",
+  "price": 625,
+  "tags": [
+    "fu",
+    "science",
+    "scienceoutpost",
+    "medbay",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 6
+        },
+        {
+          "item": "advcircuit",
+          "count": 1
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 20
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 25
+        },
+        {
+          "item": "fuprocessor",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "医疗工作台",
+      "station_zh": "医疗工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "电能厨房",
+          "name_zh": "电能厨房"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Medical Bay.md",
+  "quality_tier": "A"
+}

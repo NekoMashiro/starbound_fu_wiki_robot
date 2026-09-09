@@ -1,0 +1,59 @@
+{
+  "entity_id": "impactslimetendrils3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Impact Slime Tendrils III",
+  "name_zh": "弹力粘液触须 III",
+  "description_en": "Knock enemies silly.",
+  "description_zh": "杀敌如智障。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 2.7,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "impactslimetendrils2",
+          "count": 1
+        },
+        {
+          "item": "solariumstar",
+          "count": 4
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "upgrade_path": {
+    "upgrades_to": "impactslimetendrilsstaricon.png",
+    "seed": "",
+    "shortdescription": "弹力粘液触须 ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

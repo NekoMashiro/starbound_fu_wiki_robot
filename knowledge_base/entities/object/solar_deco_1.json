@@ -1,0 +1,49 @@
+{
+  "entity_id": "solar_deco_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Solar Smoke Machine",
+  "name_zh": "日光烟雾发生器",
+  "description_en": "A smoke generator.",
+  "description_zh": "烟雾发生器。",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "solar",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solar_tile1",
+          "count": 4
+        },
+        {
+          "item": "solarized_tile3",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "俄里翁工作站",
+      "station_zh": "俄里翁工作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

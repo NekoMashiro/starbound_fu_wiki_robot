@@ -1,0 +1,93 @@
+{
+  "entity_id": "mashedpotato",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Mashed Potato",
+  "name_zh": "土豆泥",
+  "description_en": "Smashing potatoes is scientifically proven to make them 500% tastier. Type: Vegetable",
+  "description_zh": "科学证明粉碎马铃薯可以让它们美味5倍。\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "potato",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 125
+        }
+      ],
+      "output_count": 1,
+      "station": "Burger Fool",
+      "station_zh": "傻子汉堡包",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "fuburgerfool.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 4,
+        "examples": [
+          "fishpie",
+          "meatpie",
+          "potatogrids",
+          "roastdinner"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "blueprints_unlocked": [
+    "potatogrids"
+  ],
+  "quality_tier": "S"
+}

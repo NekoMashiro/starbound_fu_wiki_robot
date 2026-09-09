@@ -1,0 +1,37 @@
+{
+  "entity_id": "spacebartop",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Space Bar Top",
+  "name_zh": "太空酒吧顶部",
+  "description_en": "A bar fit for a space station.",
+  "description_zh": "适合空间站的酒吧。",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "commerce",
+    "space"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

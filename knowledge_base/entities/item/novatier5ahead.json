@@ -1,0 +1,58 @@
+{
+  "entity_id": "novatier5ahead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Bandito's Sombrero",
+  "name_zh": "土匪草帽",
+  "description_en": "Set Bonuses:\n Shotgun,Semi-Auto Pistol/Rifle, Sniper Rifle: Mastery +22%\n Immune: Shadow Taint",
+  "description_zh": "套装奖励:\n 非自动枪: 伤害 x1.22\n 免疫: 暗影污染",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 2880,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "ranged"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedaegisalt",
+          "count": 6
+        },
+        {
+          "item": "leather",
+          "count": 1
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军械制作台",
+      "station_zh": "军械制作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "novatier6ahead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

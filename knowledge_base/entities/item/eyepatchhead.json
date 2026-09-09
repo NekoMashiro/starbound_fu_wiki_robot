@@ -1,0 +1,88 @@
+{
+  "entity_id": "eyepatchhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dastardly Eyepatch",
+  "name_zh": "卑鄙眼罩",
+  "description_en": "Wearing this patch is well worth the loss of depth perception.",
+  "description_zh": "相比所失去的视觉，戴上这款眼罩是非常值得的。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fabric",
+          "count": 10
+        },
+        {
+          "item": "string",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "纺车",
+          "name_zh": "纺车"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 2000
+        }
+      ],
+      "output_count": 1,
+      "station": "Lorewalker's Shop",
+      "station_zh": "独行者的商店",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "kirhosshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.0219,
+          "count": 1
+        },
+        {
+          "pool": "avianairshipChestTreasure",
+          "probability": 0.0147,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0147,
+        0.0219
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.0154,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

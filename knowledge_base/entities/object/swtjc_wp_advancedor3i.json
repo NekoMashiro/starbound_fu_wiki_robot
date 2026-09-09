@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_advancedor3i",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced OR Gate (3 Inputs)",
+  "name_zh": "高级或门(三输入)",
+  "description_en": "An /'OR'/ gate with 3 inputs and a built-in Data Latch and Not Gate.",
+  "description_zh": "一个或门。具有三个输入接口、非门、锁存器。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_or3i",
+          "count": 1
+        },
+        {
+          "item": "not",
+          "count": 1
+        },
+        {
+          "item": "dlatch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

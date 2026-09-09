@@ -1,0 +1,75 @@
+{
+  "entity_id": "blisterbushplantseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blister Pod",
+  "name_zh": "泡荚种子",
+  "description_en": "A bioluminescent mutant plant, with numerous applications.",
+  "description_zh": "一种会发出生物光的突变植物，具有许多用途。可以收获泡荚，食用后会赋予照明。",
+  "rarity": "Rare",
+  "category": "seed",
+  "price": 15,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 25
+        },
+        {
+          "item": "cellmateria",
+          "count": 3
+        },
+        {
+          "item": "gazelemonseed",
+          "count": 3
+        },
+        {
+          "item": "biosample",
+          "count": 3
+        },
+        {
+          "item": "biospore",
+          "count": 10
+        },
+        {
+          "item": "liquidsulphuricacid",
+          "count": 50
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "neuropodseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "blisterbushHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

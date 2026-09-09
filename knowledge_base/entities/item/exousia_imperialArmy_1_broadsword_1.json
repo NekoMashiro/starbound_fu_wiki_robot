@@ -1,0 +1,69 @@
+{
+  "entity_id": "exousia_imperialArmy_1_broadsword_1",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "EIA1 Schwarzritter Sword",
+  "name_zh": "EIA1黑骑士剑",
+  "description_en": "A standard plasma blade wielded by Exousian Frontliners.",
+  "description_zh": "威权前线部队装配的制式等离子剑刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 920,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "exousia"
+  ],
+  "elementalType": "physical",
+  "level": 7,
+  "twoHanded": true,
+  "baseDps": 12.2,
+  "primaryAbilityType": "broadswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_exoslate",
+          "count": 10
+        },
+        {
+          "item": "durasteelbar",
+          "count": 4
+        },
+        {
+          "item": "arcana_misc_avostone",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Exousia Armory",
+      "station_zh": "威权军械库",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_exousia_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_exousia_T7",
+          "probability": 0.25,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "precursorverticaldoor2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Precursor Hatch",
+  "name_zh": "先驱舱门",
+  "description_en": "Ancient and glowy.",
+  "description_zh": "材质年代久远，并且还会发光。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 100,
+  "tags": [
+    "precursor",
+    "door"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.048,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.048,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.0267,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0267,
+        0.048
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

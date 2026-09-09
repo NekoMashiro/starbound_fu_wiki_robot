@@ -1,0 +1,39 @@
+{
+  "entity_id": "beeexaminer",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Basic Microscope",
+  "name_zh": "基础显微镜",
+  "description_en": "A basic microscope designed to inspect queen bees. User must be present.",
+  "description_zh": "用于检查蜂后的基本显微镜。使用者必须在场。",
+  "rarity": "common",
+  "category": "crafting",
+  "price": 100,
+  "tags": [
+    "research",
+    "bees"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 2
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Apiary Crafting Station",
+      "station_zh": "蜂场工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

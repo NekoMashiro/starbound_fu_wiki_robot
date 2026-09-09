@@ -1,0 +1,68 @@
+{
+  "entity_id": "automatoseed",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Automato Seed",
+  "name_zh": "硬番茄种子",
+  "description_en": "Automatoes! Be sure to spit out the screws.",
+  "description_zh": "硬番茄！务必要把螺丝钉给吐掉。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 20,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 12
+        },
+        {
+          "item": "tomatoseed",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 5
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 2,
+        "examples": [
+          "shinyacornseed",
+          "vanusflowerseed"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "automatoHarvest",
+          "probability": 0.014,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

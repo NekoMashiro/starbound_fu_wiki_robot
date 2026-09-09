@@ -1,0 +1,36 @@
+{
+  "entity_id": "iceglobespirit",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ice Spirits",
+  "name_zh": "冰镇酒",
+  "description_en": "A chilling drink. Har har.\nDrunk, +20% Ice Res (1m)",
+  "description_zh": "一种冷饮料。 哈哈。\n醉酒，+20%寒气抗性(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 1500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "cryonicextract",
+          "count": 2
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        },
+        {
+          "item": "greenhoneyjar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

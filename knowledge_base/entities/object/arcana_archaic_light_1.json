@@ -1,0 +1,42 @@
+{
+  "entity_id": "arcana_archaic_light_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Archaic Tree Lamp",
+  "name_zh": "古朴树灯",
+  "description_en": "A calming tree-like lamp that emits a golden glow.",
+  "description_zh": "一个令人平静的树状灯，散发着金色的光辉。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 90,
+  "tags": [
+    "light",
+    "gilten",
+    "archaic"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "bee_digger_queen",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Digger Queen",
+  "name_zh": "挖掘蜂后",
+  "description_en": "Digger Queen",
+  "description_zh": "挖掘蜂后",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "bee",
+    "queen"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 1,
+        "examples": [
+          "clay"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "minerqueen",
+          "probability": 0.5,
+          "count": 1,
+          "monsters": [
+            "minerbee"
+          ]
+        },
+        {
+          "pool": "bee_digger",
+          "probability": 0.4,
+          "count": 1,
+          "monsters": [
+            "bee_digger"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.4,
+        0.5
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

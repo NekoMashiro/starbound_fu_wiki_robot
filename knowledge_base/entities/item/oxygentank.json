@@ -1,0 +1,58 @@
+{
+  "entity_id": "oxygentank",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Oxygen Tank",
+  "name_zh": "氧气罐",
+  "description_en": "Handy oxygen source. +62.5s breath",
+  "description_zh": "方便的氧气源。\n呼吸时限+62.5s",
+  "rarity": "Rare",
+  "category": "enviroProtectionPack",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorChestTreasure",
+          "probability": 0.1239,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0425,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0425,
+        0.1239
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "oceanFloorTreasure",
+          "probability": 0.087,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorTreasure",
+          "probability": 0.0213,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0213,
+        0.087
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

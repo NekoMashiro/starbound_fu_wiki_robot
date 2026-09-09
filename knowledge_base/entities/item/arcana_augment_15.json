@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_augment_15",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amp - Maelstrom",
+  "name_zh": "增幅器 - 漩涡",
+  "description_en": "Grants immunity to burning, swim boost, +10% max health and +10% max energy.",
+  "description_zh": "赋予免疫烧伤，游泳加速。+10%最大生命与+10%最大能量。",
+  "rarity": "Legendary",
+  "category": "eppAugment",
+  "price": 1000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_refinedAspirite",
+          "count": 2
+        },
+        {
+          "item": "arcana_bar_refinedNoxion",
+          "count": 4
+        },
+        {
+          "item": "arcana_bar_refinedImmorite",
+          "count": 10
+        },
+        {
+          "item": "liquidhealing",
+          "count": 100
+        },
+        {
+          "item": "elemental_crafting_pinkAquamarine",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "基础科技站",
+      "station_zh": "基础科技站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_techStation_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

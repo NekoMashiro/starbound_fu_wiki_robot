@@ -1,0 +1,39 @@
+{
+  "entity_id": "pumpoutpressurefu",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pressurized Mover Pump",
+  "name_zh": "增压输出泵",
+  "description_en": "Blue - connect to Liquid Pump. Pressurizes released liquids.",
+  "description_zh": "蓝色端——连接至液体泵。对输出的液体加压。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 100,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Pressurized Mover Pump.md",
+  "quality_tier": "A"
+}

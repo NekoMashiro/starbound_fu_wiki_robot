@@ -1,0 +1,37 @@
+{
+  "entity_id": "beehivehead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Beehive",
+  "name_zh": "蜂窝",
+  "description_en": "I think I found some honey in here. Nope, just more bees.",
+  "description_zh": "我想我能在这里面找到一些蜂蜜。不，只有更多的蜜蜂。",
+  "rarity": "Common",
+  "category": "headwear",
+  "price": 0,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenChestTreasure",
+          "probability": 0.0219,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "gardenTreasure",
+          "probability": 0.0154,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

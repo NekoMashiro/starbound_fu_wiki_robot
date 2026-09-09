@@ -1,0 +1,55 @@
+{
+  "entity_id": "meadbottle",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Meadbee Mead",
+  "name_zh": "蜂蜜酒",
+  "description_en": "A jug of sweet meadbee mead!\n+3 Defense (45s)\n35% Slow, Drunk (1m)",
+  "description_zh": "一瓶蜂蜜酒！\n+3防御(持续45s)\n35%减速，n醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 830,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "wort",
+          "count": 5
+        },
+        {
+          "item": "hops",
+          "count": 2
+        },
+        {
+          "item": "honeybucket",
+          "count": 1
+        },
+        {
+          "item": "yeastwater",
+          "count": 10
+        },
+        {
+          "item": "bottle",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "Fermenter",
+      "station_zh": "发酵罐",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "placeablemead"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "kirhosscythe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Kirhos Scythe",
+  "name_zh": "Kirhos镰刀",
+  "description_en": "The preferred weapon of Kirhosi raiders.",
+  "description_zh": "鼠人掠袭者的首选武器",
+  "rarity": "common",
+  "category": "scythe",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "scythe",
+    "upgradeableWeapon",
+    "kirhos"
+  ],
+  "elementalType": "electric",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 2,
+  "critBonus": 11,
+  "primaryAbilityType": "largeedgedcombo",
+  "altAbilityType": "fuspearspin",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 2
+        },
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

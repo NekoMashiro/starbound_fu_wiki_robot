@@ -1,0 +1,42 @@
+{
+  "entity_id": "dollhousepillar",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dollhouse Pillar Block",
+  "name_zh": "玩具屋支柱方块",
+  "description_en": "A cute dollhouse pillar",
+  "description_zh": "一种可爱的玩具屋支柱。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dollhousewood",
+          "count": 5
+        },
+        {
+          "item": "chromadirtmaterial",
+          "count": 5
+        },
+        {
+          "item": "prisilitestar",
+          "count": 1
+        }
+      ],
+      "output_count": 30,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

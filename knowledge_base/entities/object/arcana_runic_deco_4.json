@@ -1,0 +1,38 @@
+{
+  "entity_id": "arcana_runic_deco_4",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Runic Cube Pottery",
+  "name_zh": "方形符文陶器",
+  "description_en": "A box-like cube pottery with simple runic patterns on its surfaces.",
+  "description_zh": "表面带有简易符文花纹的盒状方形陶器。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 40,
+  "tags": [
+    "runic"
+  ],
+  "drop_sources": {
+    "total_pools": 2,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.5245,
+          "count": 1
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecitybasic",
+          "probability": 0.2098,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2098,
+        0.5245
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

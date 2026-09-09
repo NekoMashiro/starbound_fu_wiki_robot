@@ -1,0 +1,46 @@
+{
+  "entity_id": "at_ext_hab",
+  "entity_type": "biome",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Titancorp Colony",
+  "name_zh": "",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Titancorp Colony",
+  "friendly_name_zh": "",
+  "ores": [
+    {
+      "ore": "arcana_mod_rawDustrium",
+      "weight": 0.8
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "copper",
+      "weight": 0.6
+    },
+    {
+      "ore": "iron",
+      "weight": 0.6
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.6
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.6
+    }
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:garden"
+      ]
+    ]
+  ],
+  "quality_tier": "D"
+}

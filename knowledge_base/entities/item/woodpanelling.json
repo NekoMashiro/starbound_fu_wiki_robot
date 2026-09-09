@@ -1,0 +1,55 @@
+{
+  "entity_id": "woodpanelling",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Wood Panelling",
+  "name_zh": "木嵌板",
+  "description_en": "This wood panelling was fashionable in a distant era.",
+  "description_zh": "这种木嵌板曾经在一个遥远的年代很流行。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 5,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "woodShed",
+          "probability": 0.0696,
+          "count": 15
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

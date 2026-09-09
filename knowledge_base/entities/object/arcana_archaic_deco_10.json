@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_archaic_deco_10",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Tall Golden Plant",
+  "name_zh": "高大金色盆景",
+  "description_en": "A tall golden plant embedded in a stone plant pot.",
+  "description_zh": "嵌入石制花盆中的金色植物。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 180,
+  "tags": [
+    "gilten",
+    "archaic",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "goldenForest_tile2",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_robustaWood",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_arkPlate",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,53 @@
+{
+  "entity_id": "workshop_container_1",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Small Mechanic's Crate",
+  "name_zh": "机械师的小箱子",
+  "description_en": "A small metal crate with an orange lid.",
+  "description_zh": "一个带有橙色盖子的小金属箱。",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 180,
+  "tags": [
+    "titancorp",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "workshop_crafting_dustriumPlate",
+          "count": 1
+        },
+        {
+          "item": "workshop_crafting_dustriumPanel",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Crafting Table",
+      "station_zh": "泰坦重工制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

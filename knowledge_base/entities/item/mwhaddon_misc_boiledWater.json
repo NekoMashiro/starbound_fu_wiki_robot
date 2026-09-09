@@ -1,0 +1,29 @@
+{
+  "entity_id": "mwhaddon_misc_boiledWater",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Boiled Water",
+  "name_zh": "开水",
+  "description_en": "Don't mock those who drink boiled water, their reason is quite heartbreaking.",
+  "description_zh": "别嘲笑那些喝开水的人，他们背后的历史令人心碎。",
+  "rarity": "uncommon",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_water",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

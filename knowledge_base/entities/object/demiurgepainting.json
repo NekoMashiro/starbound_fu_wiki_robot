@@ -1,0 +1,31 @@
+{
+  "entity_id": "demiurgepainting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Demiurge",
+  "name_zh": "造物主",
+  "description_en": "A truly insane painting depicting the raw essence of misery, anguish and despair.",
+  "description_zh": "画已病入膏肓，描绘了苦难、痛苦和绝望的本质。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous",
+    "madness"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

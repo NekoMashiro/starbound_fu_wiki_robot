@@ -1,0 +1,60 @@
+{
+  "entity_id": "deadbeatspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Junk Spear",
+  "name_zh": "废料长矛",
+  "description_en": "This looks... unsafe. Let's try it on something!\r\nInflicts bleeding\r\nHunting weapon",
+  "description_zh": "这看起来。。。不安全。我们来试一下吧！\n造成出血效果\n狩猎武器",
+  "rarity": "uncommon",
+  "category": "lance",
+  "price": 2780,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "deadbeat"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10.5,
+  "critChance": 4,
+  "critBonus": 1,
+  "primaryAbilityType": "heavyspearcombo",
+  "altAbilityType": "parry",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "scorchedcityChestTreasure",
+          "probability": 0.0297,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoScorchedCityTreasure",
+          "probability": 0.0249,
+          "count": 1
+        },
+        {
+          "pool": "scorchedcityTreasure",
+          "probability": 0.0208,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0208,
+        0.0249
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

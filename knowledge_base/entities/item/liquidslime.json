@@ -1,0 +1,94 @@
+{
+  "entity_id": "liquidslime",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Slime",
+  "name_zh": "黏液",
+  "description_en": "A slimey liquid.\nCentrifugable.",
+  "description_zh": "黏黏的液体。\n可离心。",
+  "rarity": "Common",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "greenslime",
+          "count": 2
+        },
+        {
+          "item": "liquidwater",
+          "count": 2
+        },
+        {
+          "item": "fu_oxygen",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "化学操作台",
+      "station_zh": "化学操作台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "slimebox"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "slimelavalamp"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lesserBossTreasure",
+          "probability": 0.99,
+          "count": 2
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "slimemonsterTreasure",
+          "probability": 0.1369,
+          "count": 2,
+          "monsters": [
+            "eyejelly",
+            "eyejellyking",
+            "eyejellykingpet",
+            "eyejellypet",
+            "eyeslime"
+          ]
+        },
+        {
+          "pool": "slimemonsterlargeTreasure",
+          "probability": 0.103,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.103,
+        0.1369
+      ]
+    }
+  },
+  "wiki_ref": "Slime.md",
+  "quality_tier": "S"
+}

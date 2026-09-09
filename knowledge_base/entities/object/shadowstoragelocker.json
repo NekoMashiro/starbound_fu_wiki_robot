@@ -1,0 +1,41 @@
+{
+  "entity_id": "shadowstoragelocker",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shadow Storage Locker",
+  "name_zh": "影裔储物柜",
+  "description_en": "A nice, spacious, wall-mounted storage solution.",
+  "description_zh": "这个又漂亮又大的壁挂式储物柜是你藏东西的最佳选择。",
+  "rarity": "common",
+  "category": "storage",
+  "price": 180,
+  "tags": [
+    "shadow",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 1
+        },
+        {
+          "item": "silverbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

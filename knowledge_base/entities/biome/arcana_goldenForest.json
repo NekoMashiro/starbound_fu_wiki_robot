@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_goldenForest",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Golden Forest",
+  "name_zh": "黄金森林",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Golden Forest",
+  "friendly_name_zh": "黄金森林",
+  "ores": [
+    {
+      "ore": "gold",
+      "weight": 1.2
+    },
+    {
+      "ore": "arcana_mod_arkFragment",
+      "weight": 0.6
+    },
+    {
+      "ore": "coal",
+      "weight": 0.5
+    },
+    {
+      "ore": "silver",
+      "weight": 0.5
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "arcana_birdcritter",
+    "arcana_fairi",
+    "arcana_owlcritter",
+    "arcana_trispiel",
+    "goldbuck",
+    "quibblecritter",
+    "reasonablecritter",
+    "redbreastcritter",
+    "wintercritter",
+    "yeticritter"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arcana_goldenForest"
+      ]
+    ]
+  ],
+  "quality_tier": "C"
+}

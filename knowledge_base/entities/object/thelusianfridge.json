@@ -1,0 +1,40 @@
+{
+  "entity_id": "thelusianfridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thelusian Food Locker",
+  "name_zh": "蚁族食品柜",
+  "description_en": "A chitin storage that keeps food fresh.",
+  "description_zh": "保持食物新鲜的几丁质储藏室。",
+  "rarity": "common",
+  "category": "fridgeStorage",
+  "price": 500,
+  "tags": [
+    "thelusian",
+    "cooking",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bugshell",
+          "count": 6
+        },
+        {
+          "item": "liquidwater",
+          "count": 1
+        },
+        {
+          "item": "agaranichor",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

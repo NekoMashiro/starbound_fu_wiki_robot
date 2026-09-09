@@ -1,0 +1,57 @@
+{
+  "entity_id": "fucarbonhandcannon",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blasthammer",
+  "name_zh": "爆裂战锤",
+  "description_en": "A brutally effective pistol.\nShotgun - style bursts ",
+  "description_zh": "残酷而高效的手枪。\n霰弹枪式爆射",
+  "rarity": "uncommon",
+  "category": "pistol",
+  "price": 460,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "radioactive",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7,
+  "critChance": 2,
+  "critBonus": 20,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 4
+        },
+        {
+          "item": "protocitebar",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

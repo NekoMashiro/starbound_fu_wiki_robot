@@ -1,0 +1,34 @@
+{
+  "entity_id": "psionicmagammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Overload Focus",
+  "name_zh": "超载弹舱",
+  "description_en": "Can contain enough energy for up to 30 uses.",
+  "description_zh": "可容纳多达30次使用的能量。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 300,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psionicbulletammo",
+          "count": 30
+        }
+      ],
+      "output_count": 1,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

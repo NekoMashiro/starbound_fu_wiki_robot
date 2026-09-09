@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_azureSea_floor",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Azure Sea Floor",
+  "name_zh": "蔚蓝海床",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Azure Sea Floor",
+  "friendly_name_zh": "蔚蓝海床",
+  "ores": [
+    {
+      "ore": "silver",
+      "weight": 1.0
+    },
+    {
+      "ore": "gold",
+      "weight": 1.0
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_geodestone",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_oceanite",
+      "weight": 0.8
+    },
+    {
+      "ore": "arcana_mod_renatineFragment",
+      "weight": 0.7
+    },
+    {
+      "ore": "coal",
+      "weight": 0.6
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.05
+    }
+  ],
+  "monsters": [
+    "aggroLargeFish",
+    "jellycritter",
+    "passiveLargeFish",
+    "smallFishOcean1",
+    "smallFishOcean2",
+    "squidcritter"
+  ],
+  "quality_tier": "C"
+}

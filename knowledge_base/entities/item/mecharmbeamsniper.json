@@ -1,0 +1,36 @@
+{
+  "entity_id": "mecharmbeamsniper",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Beam Sniper Mech Arm",
+  "name_zh": "光束狙击手机甲臂",
+  "description_en": "A mech arm gun that discharge fast-travelling beams of solar energy.",
+  "description_zh": "一种以恒星能驱动的，能发出高速移动光束的机甲臂。",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 5600,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solariumstar",
+          "count": 30
+        },
+        {
+          "item": "particlecore",
+          "count": 1
+        },
+        {
+          "item": "ff_focusingarray",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Starbound"
+    }
+  ],
+  "quality_tier": "A"
+}

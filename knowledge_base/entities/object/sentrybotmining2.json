@@ -1,0 +1,40 @@
+{
+  "entity_id": "sentrybotmining2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ore Drone II",
+  "name_zh": "矿石机器人 II",
+  "description_en": "Will scan ores up to Tier 4.",
+  "description_zh": "可扫描岩层内T4以下矿石。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 450,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ff_spareparts",
+          "count": 1
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        },
+        {
+          "item": "oredetector1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

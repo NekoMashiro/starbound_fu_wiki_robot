@@ -1,0 +1,29 @@
+{
+  "entity_id": "fudevtech_tech",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Secret dev tech",
+  "name_zh": "秘密开发中的科技",
+  "description_en": "I certainly hope you're a developer.",
+  "description_zh": "那你一定不是开发者了罢。",
+  "rarity": "rare",
+  "category": "Tech",
+  "price": 100,
+  "tags": [
+    "trophy"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

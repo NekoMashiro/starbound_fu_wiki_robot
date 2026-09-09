@@ -1,0 +1,44 @@
+{
+  "entity_id": "crewcontract_oceanographer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Oceanographer Contract",
+  "name_zh": "合同：海洋学家",
+  "description_en": "Hires an Oceanographer to help you swim much faster, and provides Lava and Liquid Nitrogen immunity.",
+  "description_zh": "雇用一名海洋学家，他能帮助你在液体中游得更快，且赋予你熔岩和液氮免疫。",
+  "rarity": "Rare",
+  "category": "crewcontract",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 12000
+        },
+        {
+          "item": "rawfish",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Hiring Office",
+      "station_zh": "船员招聘办",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "craftingcrewshop.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_furnace_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

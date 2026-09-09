@@ -1,0 +1,42 @@
+{
+  "entity_id": "orphanpasteobject",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Orphan Paste",
+  "name_zh": "孤儿膏",
+  "description_en": "Made from only the finest ingredients. A perfect food for Vegans!",
+  "description_zh": "由最好的原料制成。素食主义者的完美食物！",
+  "rarity": "Rare",
+  "category": "decorative",
+  "price": 65,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "orphanpaste",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "orphanpaste"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Orphan Paste.md",
+  "quality_tier": "S"
+}

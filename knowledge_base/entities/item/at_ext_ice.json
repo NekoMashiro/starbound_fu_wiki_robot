@@ -1,0 +1,37 @@
+{
+  "entity_id": "at_ext_ice",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Glacier Mint Fizz",
+  "name_zh": "劲爽冰川薄荷汽水",
+  "description_en": "A mint-flavored soda that sells exceptionally well in summer.\nGrants the [Glacier Mint Fizz] effect when consumed.",
+  "description_zh": "一款薄荷味的汽水，夏天十分畅销。\n饮用后给予[劲爽冰川]效果。",
+  "rarity": "Rare",
+  "category": "preparedFood",
+  "price": 0,
+  "tags": [
+    "at_ext_food"
+  ],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 400
+        }
+      ],
+      "output_count": 1,
+      "station": "Titan Vending Machine",
+      "station_zh": "泰坦自动贩卖机",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_vendingmachine.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

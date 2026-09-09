@@ -1,0 +1,44 @@
+{
+  "entity_id": "craftingfarm",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Foraging Table",
+  "name_zh": "采集工作台",
+  "description_en": "Used to produce items for hunting, mining and farming.",
+  "description_zh": "用于生产狩猎、采矿和耕作用的物品。",
+  "rarity": "Uncommon",
+  "category": "crafting",
+  "price": 35,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "logblock",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

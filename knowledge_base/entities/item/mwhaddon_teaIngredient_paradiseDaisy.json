@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_paradiseDaisy",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Paradise Bellis",
+  "name_zh": "天堂菊",
+  "description_en": "A white flower akin to a kind of daisy that blooms in the Empyrean planets.\n 20 seconds later after drinking, gain +40% Abyss and Light Res until Cooldown expires.",
+  "description_zh": "白色的花，近似产于皇天行星的某种雏菊。\n饮用的20秒后若茶杯仍处于冷却期间，+40%深渊和光辉抗性。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

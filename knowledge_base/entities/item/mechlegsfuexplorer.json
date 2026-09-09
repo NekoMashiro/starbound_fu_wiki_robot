@@ -1,0 +1,47 @@
+{
+  "entity_id": "mechlegsfuexplorer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Explorer Mech Legs",
+  "name_zh": "探索者机甲足",
+  "description_en": "A set of mech legs designed for exploration.",
+  "description_zh": "一种为探索而设计的机甲足。",
+  "rarity": "uncommon",
+  "category": "mechPart",
+  "price": 3200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 15
+        },
+        {
+          "item": "carbonplate",
+          "count": 8
+        },
+        {
+          "item": "liquidwater",
+          "count": 50
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "mechPart": {
+        "count": 1,
+        "examples": [
+          "mechlegsfuexplorer2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

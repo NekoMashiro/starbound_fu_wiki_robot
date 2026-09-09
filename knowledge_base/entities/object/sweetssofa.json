@@ -1,0 +1,49 @@
+{
+  "entity_id": "sweetssofa",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sweets Sofa",
+  "name_zh": "糖果沙发",
+  "description_en": "A surprisingly cushy biscuit. Comes with whipped cream and strawberry garnish!",
+  "description_zh": "令人惊讶的轻松饼干。搭配鲜奶油和草莓装饰！",
+  "rarity": "Rare",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "sweets"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sweetsset",
+          "probability": 1.0,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

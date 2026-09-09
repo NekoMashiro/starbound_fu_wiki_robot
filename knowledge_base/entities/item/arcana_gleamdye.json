@@ -1,0 +1,27 @@
+{
+  "entity_id": "arcana_gleamdye",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Gleam Dye",
+  "name_zh": "微光染料",
+  "description_en": "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "description_zh": "右键使用这瓶染料来改变盔甲或衣服的颜色。",
+  "rarity": "Legendary",
+  "category": "clothingDye",
+  "price": 25,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_gleamlightTreasure",
+          "probability": 0.4,
+          "count": 1.5
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

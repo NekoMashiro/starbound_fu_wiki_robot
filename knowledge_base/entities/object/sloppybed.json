@@ -1,0 +1,50 @@
+{
+  "entity_id": "sloppybed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sloppy Bed",
+  "name_zh": "邋遢的床",
+  "description_en": "You're just going to get back in it later - what's the point of making it up?",
+  "description_zh": "你以后会回来的——编出来有什么意义？",
+  "rarity": "Common",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "sloppy",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Prop Pack Truck",
+      "station_zh": "满是家具卡车",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "Prop Pack Online Catalog",
+          "name_zh": "满是家具在线目录"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "sloppyset",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

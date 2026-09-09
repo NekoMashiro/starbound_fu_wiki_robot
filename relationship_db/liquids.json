@@ -1,0 +1,1432 @@
+{
+  "fuhoneyred": {
+    "name_en": "fuhoneyred",
+    "name_zh": "",
+    "description_en": "Blood-colored honey.",
+    "description_zh": "血色蜂蜜。",
+    "statusEffects": [
+      "swimming",
+      "honeyslow2"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "redhoneycombmaterial"
+      },
+      {
+        "liquid": 73,
+        "materialResult": "redhoneycombmaterial"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "shadowgas": {
+    "name_en": "shadowgas",
+    "name_zh": "",
+    "description_en": "A dangerous gas named for its unique light and gravity absorption properties.",
+    "description_zh": "一种危险的气体，因其独特的光和重力吸收特性而得名。",
+    "statusEffects": [
+      "shadowgasfx"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "materialResult": "darkness"
+      },
+      {
+        "liquid": 8,
+        "materialResult": "darkstone"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "helium3gas": {
+    "name_en": "helium3gas",
+    "name_zh": "",
+    "description_en": "Handy energy-infused gas. Great for fusion.",
+    "description_zh": "充满能量的气体。很适合用来核聚变。",
+    "statusEffects": [
+      "biomeairless",
+      "helium3"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "liquidnitrogen": {
+    "name_en": "liquidnitrogen",
+    "name_zh": "",
+    "description_en": "Liquid nitrogen is a teency bit cold.",
+    "description_zh": "液氮真的是很冷。",
+    "statusEffects": [
+      "swimming",
+      "nitrogenfreeze"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "ice"
+      },
+      {
+        "liquid": 2,
+        "materialResult": "cloudblock"
+      },
+      {
+        "liquid": 12,
+        "materialResult": "ice"
+      },
+      {
+        "liquid": 13,
+        "materialResult": "iceblock4"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "bio_ooze": {
+    "name_en": "bio_ooze",
+    "name_zh": "",
+    "description_en": "A particularly potent toxic sludge loaded with parasites and ickiness.",
+    "description_zh": "特别致命的粘稠有毒污泥，内含寄生虫。",
+    "statusEffects": [
+      "swimming",
+      "biooozepoison"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "slime"
+      },
+      {
+        "liquid": 3,
+        "materialResult": "slime"
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 46,
+        "materialResult": "wastestone"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 48,
+        "liquidResult": 44
+      },
+      {
+        "liquid": 51,
+        "liquidResult": 51
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "metallichydrogen": {
+    "name_en": "metallichydrogen",
+    "name_zh": "",
+    "description_en": "Degenerate matter. Extremely valuable quantum/electrical conductor.",
+    "description_zh": "简并态物质。非常有价值的量子/电导体。",
+    "statusEffects": [
+      "biomeairless",
+      "gas"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "fuel": {
+    "name_en": "fuel",
+    "name_zh": "",
+    "description_en": "The instability of this Erchius-infused liquid makes it a valuable fuel.",
+    "description_zh": "这是厄尔吉斯晶体的液态形式，其内充满了能量，可以作为FTL引擎燃料。",
+    "statusEffects": [],
+    "interactions": [],
+    "source_mod": "Starbound"
+  },
+  "fuhoneyspirit": {
+    "name_en": "fuhoneyspirit",
+    "name_zh": "",
+    "description_en": "Semi-transparent, white-hued honey.",
+    "description_zh": "半透明，白色的蜂蜜。",
+    "statusEffects": [
+      "swimming",
+      "honeyslow"
+    ],
+    "interactions": [],
+    "source_mod": "Frackin' Universe"
+  },
+  "fuhoney": {
+    "name_en": "fuhoney",
+    "name_zh": "",
+    "description_en": "Pure, golden honey.",
+    "description_zh": "纯净的金色蜂蜜。",
+    "statusEffects": [
+      "swimming",
+      "honeyslow"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "honeycombmaterial"
+      },
+      {
+        "liquid": 73,
+        "materialResult": "honeycombmaterial"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "corelava": {
+    "name_en": "corelava",
+    "name_zh": "",
+    "description_en": "An ocean of deadly lava.",
+    "description_zh": "致命岩浆的海洋。",
+    "statusEffects": [
+      "melting"
+    ],
+    "interactions": {},
+    "source_mod": "Starbound"
+  },
+  "irradiumliquid": {
+    "name_en": "irradiumliquid",
+    "name_zh": "",
+    "description_en": "Amazing, glistening liquid irradium.",
+    "description_zh": "太棒了，闪亮的液态镭。",
+    "statusEffects": [
+      "swimming",
+      "radioactiveweathernew"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "rainbowsand"
+      },
+      {
+        "liquid": 3,
+        "materialResult": "rainbowsand"
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 41,
+        "materialResult": "rainbowsand"
+      },
+      {
+        "liquid": 44,
+        "materialResult": "rainbowsand"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "fuhydrogengas": {
+    "name_en": "fuhydrogengas",
+    "name_zh": "",
+    "description_en": "Pure hydrogen gas.",
+    "description_zh": "纯氢气。",
+    "statusEffects": [
+      "biomeairless",
+      "gas"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "sulphuricacid": {
+    "name_en": "sulphuricacid",
+    "name_zh": "",
+    "description_en": "Sulphuric acid pools are best avoided.",
+    "description_zh": "硫酸，你最好避开这种腐蚀性液体。",
+    "statusEffects": [
+      "swimming",
+      "sulphuricacideffect"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 41,
+        "materialResult": "wastestone"
+      },
+      {
+        "liquid": 42,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 42
+      },
+      {
+        "liquid": 44,
+        "materialResult": "wastestone"
+      },
+      {
+        "liquid": 47,
+        "liquidResult": 46
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "alienjuice": {
+    "name_en": "alienjuice",
+    "name_zh": "",
+    "description_en": "Strange, milk-like liquid of unknown composition.",
+    "description_zh": "由未知的奇怪牛奶状液体构成。",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "arcana_liquid_arcaneWater": {
+    "name_en": "arcana_liquid_arcaneWater",
+    "name_zh": "",
+    "description_en": "Water sprinkled with arcane magic.",
+    "description_zh": "灌注了秘境之力的水。",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 171
+      },
+      {
+        "liquid": 2,
+        "materialResult": "magmarock"
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 171
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 171
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 171
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 171
+      }
+    ],
+    "source_mod": "Arcana"
+  },
+  "mercuryliquid": {
+    "name_en": "mercuryliquid",
+    "name_zh": "",
+    "description_en": "Definitely unsafe levels of mercury.",
+    "description_zh": "系统显示，汞的含量已经超过了最低限度。",
+    "statusEffects": [
+      "mercurypoison"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 41,
+        "liquidResult": 44
+      },
+      {
+        "liquid": 42,
+        "liquidResult": 43
+      },
+      {
+        "liquid": 44,
+        "liquidResult": 47
+      },
+      {
+        "liquid": 46,
+        "materialResult": "wastestone"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "pus": {
+    "name_en": "pus",
+    "name_zh": "",
+    "description_en": "A putrid, repulsive pool of pus.",
+    "description_zh": "一个腐烂的，丑恶的脓液池沼。",
+    "statusEffects": [
+      "swimming",
+      "puseffect",
+      "wetpus"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 58
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 41
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 8
+      },
+      {
+        "liquid": 41,
+        "liquidResult": 41
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 55
+      },
+      {
+        "liquid": 44,
+        "liquidResult": 44
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      },
+      {
+        "liquid": 73,
+        "liquidResult": 58
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "arcana_liquid_neonWater": {
+    "name_en": "arcana_liquid_neonWater",
+    "name_zh": "",
+    "description_en": "A neon colored liquid.",
+    "description_zh": "霓虹色的液体。",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 173
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      }
+    ],
+    "source_mod": "Arcana"
+  },
+  "funitrogengas": {
+    "name_en": "funitrogengas",
+    "name_zh": "",
+    "description_en": "Pure nitrogen gas",
+    "description_zh": "纯氮气。",
+    "statusEffects": [
+      "biomeairless",
+      "gas"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "jellyliquid": {
+    "name_en": "jellyliquid",
+    "name_zh": "",
+    "description_en": "Vile, sticky slime.",
+    "description_zh": "恶心的，黏黏的史莱姆。",
+    "statusEffects": [
+      "slimeslow"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 2,
+        "liquidResult": 2
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "tarliquid": {
+    "name_en": "tarliquid",
+    "name_zh": "",
+    "description_en": "Thick, gooey, crude oil.",
+    "description_zh": "浓稠，黏黏的天然油。",
+    "statusEffects": [
+      "tarslow"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 2,
+        "liquidResult": 2
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "organicsoup": {
+    "name_en": "organicsoup",
+    "name_zh": "",
+    "description_en": "A unique and unusual biological liquid.",
+    "description_zh": "不寻常的生物液体。",
+    "statusEffects": [
+      "swimming",
+      "organicsoupeffect"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 41,
+        "materialResult": "slimedirt"
+      },
+      {
+        "liquid": 42,
+        "materialResult": "slime2"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 42
+      },
+      {
+        "liquid": 47,
+        "liquidResult": 47
+      },
+      {
+        "liquid": 48,
+        "liquidResult": 46
+      },
+      {
+        "liquid": 73,
+        "liquidResult": 3
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "arcana_liquid_ruinousWater": {
+    "name_en": "arcana_liquid_ruinousWater",
+    "name_zh": "",
+    "description_en": "A mysterious dark liquid.",
+    "description_zh": "神秘的暗色液体。",
+    "statusEffects": [
+      "arcana_status_ruinous"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 171,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 172,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 173,
+        "liquidResult": 174
+      },
+      {
+        "liquid": 175,
+        "liquidResult": 174
+      }
+    ],
+    "source_mod": "Arcana"
+  },
+  "bloodliquid": {
+    "name_en": "bloodliquid",
+    "name_zh": "",
+    "description_en": "This appears to be blood. Wonderful.",
+    "description_zh": "这似乎是血。太棒了。",
+    "statusEffects": [
+      "swimming",
+      "wetblood"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 47,
+        "materialResult": "bloodstonetile"
+      },
+      {
+        "liquid": 48,
+        "materialResult": "bloodstonetile2"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "poisongas": {
+    "name_en": "poisongas",
+    "name_zh": "",
+    "description_en": "Really poisonous gas.",
+    "description_zh": "有毒气体。",
+    "statusEffects": [
+      "biomeairless",
+      "biomepoisongas",
+      "gas"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "elderfluid": {
+    "name_en": "elderfluid",
+    "name_zh": "",
+    "description_en": "Strange, otherworldly liquid.",
+    "description_zh": "奇怪的，超凡的液体。",
+    "statusEffects": [
+      "swimming",
+      "insanity",
+      "wetelder"
+    ],
+    "interactions": [
+      {
+        "liquid": 100,
+        "materialResult": "protorock"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "water": {
+    "name_en": "water",
+    "name_zh": "",
+    "description_en": "Plain old water.",
+    "description_zh": "普通的水。",
+    "statusEffects": [
+      "swimming",
+      "wet"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      },
+      {
+        "liquid": 58,
+        "liquidResult": 58
+      },
+      {
+        "liquid": 69,
+        "liquidResult": 69
+      },
+      {
+        "liquid": 65,
+        "liquidResult": 69
+      },
+      {
+        "liquid": 40,
+        "liquidResult": 40
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      },
+      {
+        "liquid": 51,
+        "liquidResult": 51
+      },
+      {
+        "liquid": 73,
+        "liquidResult": 73
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "orangegravrain": {
+    "name_en": "orangegravrain",
+    "name_zh": "",
+    "description_en": "Strange, orange gravity-filled liquid. Likely artificial.",
+    "description_zh": "奇怪的橙色重力液体。 可能是人造的。",
+    "statusEffects": [
+      "orangegravrain"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 51
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 51
+      },
+      {
+        "liquid": 41,
+        "liquidResult": 51
+      },
+      {
+        "liquid": 42,
+        "liquidResult": 42
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 43
+      },
+      {
+        "liquid": 44,
+        "materialResult": "penumbradirt"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 47,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 73,
+        "liquidResult": 51
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "protociteliquid": {
+    "name_en": "protociteliquid",
+    "name_zh": "",
+    "description_en": "You could call this protoliquid.",
+    "description_zh": "你可以称之为原体液",
+    "statusEffects": [
+      "swimming",
+      "energyregenfu20"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "slime"
+      },
+      {
+        "liquid": 3,
+        "materialResult": "slime2"
+      },
+      {
+        "liquid": 8,
+        "materialResult": "fujellyblock"
+      },
+      {
+        "liquid": 41,
+        "liquidResult": 47
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 43
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "materialResult": "wastestone"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "sludge": {
+    "name_en": "sludge",
+    "name_zh": "",
+    "description_en": "Some sort of stench-ridden, putrid sludge.",
+    "description_zh": "某种恶臭，腐烂的污泥。",
+    "statusEffects": [
+      "swimming",
+      "wet"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "gravrain": {
+    "name_en": "gravrain",
+    "name_zh": "",
+    "description_en": "Strange, blue gravity-filled liquid. Likely artificial.",
+    "description_zh": "奇怪的蓝色重力液体。 可能是人造的。",
+    "statusEffects": [
+      "gravrain"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 42,
+        "liquidResult": 42
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 43
+      },
+      {
+        "liquid": 44,
+        "materialResult": "penumbradirt"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 47,
+        "materialResult": "retexaetherdust"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "liquidaether": {
+    "name_en": "liquidaether",
+    "name_zh": "",
+    "description_en": "Strange black liquid.",
+    "description_zh": "奇怪的黑色液体。",
+    "statusEffects": [
+      "swimming",
+      "aetherweathernew"
+    ],
+    "interactions": [
+      {
+        "liquid": 2,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 62,
+        "liquidResult": 66
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "fuironliquid": {
+    "name_en": "fuironliquid",
+    "name_zh": "",
+    "description_en": "An ocean of deadly molten metal.",
+    "description_zh": "一处由致命的熔化金属形成的海洋。",
+    "statusEffects": [
+      "moltenmetal3"
+    ],
+    "interactions": [
+      {
+        "liquid": 100,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 2,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 45,
+        "liquidResult": 70
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "crystalliquid": {
+    "name_en": "crystalliquid",
+    "name_zh": "",
+    "description_en": "How does one liquefy crystal, exactly?",
+    "description_zh": "一个液化水晶怎么样呢？",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "crystalblock"
+      },
+      {
+        "liquid": 3,
+        "materialResult": "aegisaltcrystal"
+      },
+      {
+        "liquid": 8,
+        "materialResult": "purplecrystal"
+      },
+      {
+        "liquid": 12,
+        "materialResult": "purplecrystal"
+      },
+      {
+        "liquid": 41,
+        "materialResult": "aegisaltcrystal"
+      },
+      {
+        "liquid": 42,
+        "materialResult": "crystalblock"
+      },
+      {
+        "liquid": 43,
+        "materialResult": "crystalblock"
+      },
+      {
+        "liquid": 44,
+        "materialResult": "aegisaltcrystal"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 46,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 47,
+        "materialResult": "retexaetherdust"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "blacktar": {
+    "name_en": "blacktar",
+    "name_zh": "",
+    "description_en": "Thick, encumbering, and goopy tar.",
+    "description_zh": "又厚又碍事的粘稠焦油。",
+    "statusEffects": [
+      "blacktarslow"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 8,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 41,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 44,
+        "liquidResult": 44
+      },
+      {
+        "liquid": 46,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 47,
+        "liquidResult": 47
+      },
+      {
+        "liquid": 60,
+        "materialResult": "tarstone"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "slimeliquid": {
+    "name_en": "slimeliquid",
+    "name_zh": "",
+    "description_en": "Vile, sticky slime.",
+    "description_zh": "真麻烦，黏糊糊的粘液。",
+    "statusEffects": [
+      "slimeslow"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 2,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 52,
+        "liquidResult": 2
+      },
+      {
+        "liquid": 1,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 41
+      },
+      {
+        "liquid": 73,
+        "liquidResult": 3
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "swampwater": {
+    "name_en": "swampwater",
+    "name_zh": "",
+    "description_en": "Dirty swamp water.",
+    "description_zh": "肮脏的沼泽水。",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "fuhoneyice": {
+    "name_en": "fuhoneyice",
+    "name_zh": "",
+    "description_en": "Icy honey.",
+    "description_zh": "冰冷的蜂蜜。",
+    "statusEffects": [
+      "swimming",
+      "honeyslow"
+    ],
+    "interactions": [],
+    "source_mod": "Frackin' Universe"
+  },
+  "lava": {
+    "name_en": "lava",
+    "name_zh": "",
+    "description_en": "Deadly molten lava!",
+    "description_zh": "致命的灼热岩浆！",
+    "statusEffects": [
+      "melting"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "magmarock"
+      },
+      {
+        "liquid": 5,
+        "materialResult": "asphalt"
+      },
+      {
+        "liquid": 40,
+        "materialResult": "bloodstonetile2"
+      },
+      {
+        "liquid": 42,
+        "materialResult": "andesite"
+      },
+      {
+        "liquid": 43,
+        "materialResult": "purplecrystal"
+      },
+      {
+        "liquid": 45,
+        "materialResult": "sulphurstone"
+      },
+      {
+        "liquid": 46,
+        "materialResult": "sulphurstone"
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "fuquicksand": {
+    "name_en": "fuquicksand",
+    "name_zh": "",
+    "description_en": "Dangerous, sandy quicksand.",
+    "description_zh": "流沙，危险。",
+    "statusEffects": [
+      "fuquicksand"
+    ],
+    "interactions": [],
+    "source_mod": "Frackin' Universe"
+  },
+  "fusaltwater": {
+    "name_en": "fusaltwater",
+    "name_zh": "",
+    "description_en": "Salty ocean water",
+    "description_zh": "海洋咸水",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      },
+      {
+        "liquid": 58,
+        "liquidResult": 58
+      },
+      {
+        "liquid": 40,
+        "liquidResult": 40
+      },
+      {
+        "liquid": 51,
+        "liquidResult": 51
+      },
+      {
+        "liquid": 69,
+        "liquidResult": 69
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      },
+      {
+        "liquid": 7,
+        "liquidResult": 7
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 65,
+        "liquidResult": 69
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "beer": {
+    "name_en": "beer",
+    "name_zh": "",
+    "description_en": "The purest, finest, tastiest of fluids.",
+    "description_zh": "最纯净，最好，最美味的液体。",
+    "statusEffects": [
+      "swimming",
+      "booze"
+    ],
+    "interactions": [],
+    "source_mod": "Frackin' Universe"
+  },
+  "liquiddeuterium": {
+    "name_en": "liquiddeuterium",
+    "name_zh": "",
+    "description_en": "Liquefied deuterium. A great quantum-state liquid.",
+    "description_zh": "这是液化氘，一种很棒的量子态液体。",
+    "statusEffects": [
+      "biomeairless",
+      "swimming"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "darkwater": {
+    "name_en": "darkwater",
+    "name_zh": "",
+    "description_en": "This probably isn't swim-safe.",
+    "description_zh": "在这里游泳很可能不安全！",
+    "statusEffects": [
+      "swimming",
+      "darkwaterpoison"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "materialResult": "penumbradirt"
+      },
+      {
+        "liquid": 6,
+        "materialResult": "penumbrastone"
+      },
+      {
+        "liquid": 41,
+        "materialResult": "corruptslime"
+      },
+      {
+        "liquid": 42,
+        "materialResult": "tarstone"
+      },
+      {
+        "liquid": 49,
+        "materialResult": "retexaetherdust"
+      },
+      {
+        "liquid": 50,
+        "materialResult": "retexaetherdust"
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "metallichydrogenliquid": {
+    "name_en": "metallichydrogenliquid",
+    "name_zh": "",
+    "description_en": "Liquefied metallic hydrogen.",
+    "description_zh": "这是液态金属氢。",
+    "statusEffects": [
+      "biomeairless",
+      "gas",
+      "swimming"
+    ],
+    "interactions": {},
+    "source_mod": "Frackin' Universe"
+  },
+  "mechfuel": {
+    "name_en": "mechfuel",
+    "name_zh": "",
+    "description_en": "Refined mech fuel.",
+    "description_zh": "提炼的机甲燃料",
+    "statusEffects": [
+      "biomeairless",
+      "swimming"
+    ],
+    "interactions": [],
+    "source_mod": "Frackin' Universe"
+  },
+  "wastewater": {
+    "name_en": "wastewater",
+    "name_zh": "",
+    "description_en": "Ew. Filthy water.",
+    "description_zh": "额，这水好脏。",
+    "statusEffects": [
+      "swimming",
+      "contaminatedpoison",
+      "wet"
+    ],
+    "interactions": [
+      {
+        "liquid": 3,
+        "materialResult": "clay"
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      }
+    ],
+    "source_mod": "Frackin' Universe"
+  },
+  "poison": {
+    "name_en": "poison",
+    "name_zh": "",
+    "description_en": "This liquid looks poisonous.",
+    "description_zh": "这些液体看起来有毒。",
+    "statusEffects": [
+      "swimming",
+      "weakpoison"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 43,
+        "liquidResult": 43
+      },
+      {
+        "liquid": 46,
+        "liquidResult": 46
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "arcana_liquid_viridescentAcid": {
+    "name_en": "arcana_liquid_viridescentAcid",
+    "name_zh": "",
+    "description_en": "A highly acidic liquid, found in Viridescent planets.",
+    "description_zh": "强酸性的液体，能在翠毒星球上发现。",
+    "statusEffects": [
+      "arcana_status_acidicMelting"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 1
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 8
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 171,
+        "liquidResult": 171
+      },
+      {
+        "liquid": 172,
+        "liquidResult": 172
+      },
+      {
+        "liquid": 173,
+        "liquidResult": 173
+      }
+    ],
+    "source_mod": "Arcana"
+  },
+  "milk": {
+    "name_en": "milk",
+    "name_zh": "",
+    "description_en": "Creamy milk from some alien animal or plant.",
+    "description_zh": "从某些外星动物或植物那来的奶白色的奶。",
+    "statusEffects": {
+      "-": "swimming"
+    },
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "healingliquid": {
+    "name_en": "healingliquid",
+    "name_zh": "",
+    "description_en": "This faintly glowing liquid looks unnaturally refreshing!",
+    "description_zh": "这些看起来不太自然的微微发光的液体令人精神焕发！",
+    "statusEffects": [
+      "swimming",
+      "wethealingwater",
+      "healingwater"
+    ],
+    "interactions": [
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 41,
+        "liquidResult": 41
+      }
+    ],
+    "source_mod": "Starbound"
+  },
+  "arcana_liquid_illuminatedWater": {
+    "name_en": "arcana_liquid_illuminatedWater",
+    "name_zh": "",
+    "description_en": "A pale colored liquid.",
+    "description_zh": "苍白色的液体。",
+    "statusEffects": [
+      "swimming"
+    ],
+    "interactions": [
+      {
+        "liquid": 1,
+        "liquidResult": 172
+      },
+      {
+        "liquid": 3,
+        "liquidResult": 3
+      },
+      {
+        "liquid": 8,
+        "liquidResult": 0
+      },
+      {
+        "liquid": 12,
+        "liquidResult": 12
+      },
+      {
+        "liquid": 6,
+        "liquidResult": 6
+      }
+    ],
+    "source_mod": "Arcana"
+  }
+}

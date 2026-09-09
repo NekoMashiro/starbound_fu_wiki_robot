@@ -1,0 +1,198 @@
+{
+  "entity_id": "cobblestonematerial",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Cobblestone",
+  "name_zh": "鹅卵石",
+  "description_en": "Hard cobblestones, smooth to the touch.\nExtractable, Crushable, Smeltable.",
+  "description_zh": "坚硬的石头，摸起来很光滑。\n可萃取，可粉碎，可冶炼。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "block": {
+        "count": 21,
+        "examples": [
+          "arcana_spectwing_tile8",
+          "asphalt",
+          "castlewalls1",
+          "castlewalls2",
+          "cobblestonebrick"
+        ]
+      },
+      "crafting": {
+        "count": 13,
+        "examples": [
+          "arcana_abyssal_crafting_1",
+          "arcana_bleuark_crafting_1",
+          "arcana_crafting_main_1",
+          "arcana_monarch_crafting_1",
+          "colonystation"
+        ]
+      },
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "fuunderworldchair2",
+          "fuunderworldeyestatue1",
+          "fuunderworldeyestatue2",
+          "fuunderworldtable2",
+          "fuunderworldtable3"
+        ]
+      },
+      "door": {
+        "count": 4,
+        "examples": [
+          "stonedoor",
+          "woodendoor",
+          "woodengate",
+          "woodenverticaldoor"
+        ]
+      },
+      "decorative": {
+        "count": 3,
+        "examples": [
+          "farmwell",
+          "fuunderworldfountain2",
+          "petalfountain"
+        ]
+      },
+      "throwableItem": {
+        "count": 2,
+        "examples": [
+          "huntingspear",
+          "throwingboulder"
+        ]
+      },
+      "storage": {
+        "count": 2,
+        "examples": [
+          "statuetether",
+          "stonechest"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "fubust"
+        ]
+      }
+    },
+    "total": 68
+  },
+  "machine_processing": [
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "sulphur",
+        "lead",
+        "ironore"
+      ]
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "output": "ff_silicon",
+      "bonus": [
+        "sulphur",
+        "lead",
+        "ironore"
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 12,
+    "hunting_harvest": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "pandorasboxpeblitHarvestSmall",
+          "probability": 1.0,
+          "count": 5
+        },
+        {
+          "pool": "pandorasboxpeblitHarvestMedium",
+          "probability": 1.0,
+          "count": 50
+        },
+        {
+          "pool": "pandorasboxpeblitHarvestLarge",
+          "probability": 1.0,
+          "count": 80
+        },
+        {
+          "pool": "tombstoneHarvest",
+          "probability": 1.0,
+          "count": 3
+        },
+        {
+          "pool": "pandorasboxpeblitHarvest",
+          "probability": 0.9999,
+          "count": 30.0
+        }
+      ],
+      "prob_range": [
+        0.9999,
+        1.0
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "geodeRewards",
+          "probability": 0.2632,
+          "count": 1
+        },
+        {
+          "pool": "elduugeodeRewards",
+          "probability": 0.2632,
+          "count": 1
+        },
+        {
+          "pool": "arcana_randomitem_geodestone",
+          "probability": 0.2,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.2,
+        0.2632
+      ]
+    },
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.1444,
+          "count": 15
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.1167,
+          "count": 15
+        },
+        {
+          "pool": "novakidvillageMiningTreasure",
+          "probability": 0.1111,
+          "count": 15
+        },
+        {
+          "pool": "mineTreasure",
+          "probability": 0.1111,
+          "count": 15
+        }
+      ],
+      "prob_range": [
+        0.1111,
+        0.1444
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

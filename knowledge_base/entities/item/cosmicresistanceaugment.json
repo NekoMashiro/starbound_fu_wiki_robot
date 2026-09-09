@@ -1,0 +1,32 @@
+{
+  "entity_id": "cosmicresistanceaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Barrier",
+  "name_zh": "EPP模块（射线屏障）",
+  "description_en": "An EPP module that resists the Cosmic element, +30% Cosmic Resist and  Aether Immunity.",
+  "description_zh": "一个能够抵抗射线元素的EPP模块。\n+30%射线抗性%且免疫以太。",
+  "rarity": "legendary",
+  "category": "eppAugment",
+  "price": 2500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuaetherimmunityaugment",
+          "count": 1
+        },
+        {
+          "item": "fucosmicresistanceaugment3",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,62 @@
+{
+  "entity_id": "fuhoneyhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Amber Hammer",
+  "name_zh": "琥珀之锤",
+  "description_en": "Truly solid amber condensed into a mallet.\r\nFloran",
+  "description_zh": "结实的琥珀制成了这把锤子。\n叶族",
+  "rarity": "uncommon",
+  "category": "hammer",
+  "price": 900,
+  "tags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon",
+    "bioweapon",
+    "bees",
+    "floran"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 12.6,
+  "critChance": 5,
+  "critBonus": 1,
+  "primaryAbilityType": "hammersmash",
+  "altAbilityType": "uppercut",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuamberchunk",
+          "count": 8
+        },
+        {
+          "item": "bone",
+          "count": 5
+        },
+        {
+          "item": "waxchunk",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

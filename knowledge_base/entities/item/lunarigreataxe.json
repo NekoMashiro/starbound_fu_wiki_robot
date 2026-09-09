@@ -1,0 +1,56 @@
+{
+  "entity_id": "lunarigreataxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Greataxe",
+  "name_zh": "月晶巨斧",
+  "description_en": "Glistening with crystalline beauty.\r\nSlows Enemies",
+  "description_zh": "",
+  "rarity": "common",
+  "category": "greataxe",
+  "price": 250,
+  "tags": [
+    "weapon",
+    "melee",
+    "greataxe",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": true,
+  "baseDps": 11.0,
+  "critChance": 2,
+  "critBonus": 8,
+  "primaryAbilityType": "greataxesmash",
+  "altAbilityType": "fusuperflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "crystal",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

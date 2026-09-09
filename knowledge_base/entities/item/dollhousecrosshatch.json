@@ -1,0 +1,38 @@
+{
+  "entity_id": "dollhousecrosshatch",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dollhouse Window Lattice",
+  "name_zh": "玩具屋窗格",
+  "description_en": "A simple lattice made of dollhouse wood.",
+  "description_zh": "一个用玩具屋木头做成的简单窗格。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "dollhousewood",
+          "count": 5
+        },
+        {
+          "item": "chromadirtmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 30,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

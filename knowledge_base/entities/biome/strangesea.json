@@ -1,0 +1,102 @@
+{
+  "entity_id": "strangesea",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Strange Sea",
+  "name_zh": "诡之海",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Strange Sea",
+  "friendly_name_zh": "诡之海",
+  "ores": [
+    {
+      "ore": "koanite",
+      "weight": 0.8
+    },
+    {
+      "ore": "cinnabar",
+      "weight": 0.6
+    },
+    {
+      "ore": "crystal",
+      "weight": 0.6
+    },
+    {
+      "ore": "moonstone",
+      "weight": 0.5
+    },
+    {
+      "ore": "fublooddiamond",
+      "weight": 0.4
+    },
+    {
+      "ore": "effigium",
+      "weight": 0.4
+    },
+    {
+      "ore": "prisilite",
+      "weight": 0.4
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.19
+    },
+    {
+      "ore": "nocxium",
+      "weight": 0.01
+    }
+  ],
+  "monsters": [
+    "bee_loamzipper",
+    "bee_stellar",
+    "crabcano",
+    "crabcritter",
+    "crutter2",
+    "darkmetroid",
+    "derrick",
+    "eyejelly",
+    "eyejellyking",
+    "eyeslime",
+    "eyeslimeking",
+    "fishberrycritter",
+    "fishchilicritter",
+    "fishlemoncritter",
+    "fualien",
+    "garflipp",
+    "gullcritter",
+    "jellycritter",
+    "maggot",
+    "miasmop",
+    "monopus",
+    "seahornet",
+    "skywhale",
+    "slimetop",
+    "snaggler",
+    "snuffishwater",
+    "squidcritter",
+    "tidefly",
+    "tortoisecritter",
+    "wavebird"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:arboreal",
+        "/weather.config:bloodstone",
+        "/weather.config:bogweird",
+        "/weather.config:atropus",
+        "/weather.config:arborealvolcanic",
+        "/weather.config:aetherharsh",
+        "/weather.config:icefire",
+        "/weather.config:infernus"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "biomepoisongas",
+    "strangeseadrain"
+  ],
+  "wiki_ref": "Strange Sea.md",
+  "quality_tier": "C"
+}

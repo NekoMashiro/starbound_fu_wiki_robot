@@ -1,0 +1,48 @@
+{
+  "entity_id": "kadavancactus",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Sliced Kadavan Cactus",
+  "name_zh": "卡达文仙人掌切片",
+  "description_en": "A refreshing, but somewhat tasteless, cactus. \n+10% Fire Res, Fire Immunity (2m) Type: Vegetable",
+  "description_zh": "这种仙人掌吃起来口感清爽，可惜没有什么味道。\ncyan;+10% 火炎抗性, 火炎免疫(2m)\n类型：蔬菜",
+  "rarity": "Common",
+  "category": "food",
+  "price": 80,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "avikanmeal"
+        ]
+      },
+      "drink": {
+        "count": 1,
+        "examples": [
+          "kadavancactusjuice"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "avikancactusHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "avikanmeal",
+    "kadavancactusjuice"
+  ],
+  "quality_tier": "S"
+}

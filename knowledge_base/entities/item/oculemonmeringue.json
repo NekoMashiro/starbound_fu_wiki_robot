@@ -1,0 +1,89 @@
+{
+  "entity_id": "oculemonmeringue",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Oculemon Meringue",
+  "name_zh": "眼球菜酥皮饼",
+  "description_en": "A sour oculemon-filled pie with a sweet meringue topping. Type: Meaty Plant Dairy Dessert",
+  "description_zh": "一份填满酸眼球菜的馅饼，覆盖着香甜酥脆的外皮。\n类型：肉性植物蛋奶甜食",
+  "rarity": "Common",
+  "category": "preparedFood",
+  "price": 390,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "oculemonmeringueobject",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Plating Table",
+      "station_zh": "摆盘桌",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "sugar",
+          "count": 1
+        },
+        {
+          "item": "oculemon",
+          "count": 1
+        },
+        {
+          "item": "egg",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "厨房柜台",
+      "station_zh": "厨房柜台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Industrial Kitchen Counter",
+          "name_zh": "工业厨房柜台"
+        },
+        {
+          "name": "Nightar Cooker",
+          "name_zh": "夜族炉灶"
+        },
+        {
+          "name": "Frontier Kitchen Counter",
+          "name_zh": "边境厨房柜台"
+        },
+        {
+          "name": "Apex Kitchen Counter",
+          "name_zh": "猿人厨房柜台"
+        },
+        {
+          "name": "Culinary Station",
+          "name_zh": "烹饪台"
+        },
+        {
+          "name": "Neon Cabinet",
+          "name_zh": "霓虹灯柜"
+        },
+        {
+          "name": "Human Kitchen Counter",
+          "name_zh": "人类厨房柜台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "oculemonmeringueobject"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

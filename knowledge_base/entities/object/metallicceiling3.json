@@ -1,0 +1,49 @@
+{
+  "entity_id": "metallicceiling3",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Power Node",
+  "name_zh": "电力节点",
+  "description_en": "A ceiling mounted power node of some sort.",
+  "description_zh": "某种安装在天花板上的电力节点。",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 20,
+  "tags": [
+    "metallic",
+    "precursor"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuWastesBookTreasure",
+          "probability": 0.0288,
+          "count": 1
+        }
+      ]
+    },
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "fuprecursorLoot",
+          "probability": 0.0288,
+          "count": 1
+        },
+        {
+          "pool": "fuprecursorFurniture",
+          "probability": 0.016,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.016,
+        0.0288
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,54 @@
+{
+  "entity_id": "lunarismg",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari SMG",
+  "name_zh": "月晶SMG",
+  "description_en": "Rapidly fired blasts of lunari charged projectiles.\r\nLights areas\r\nLong-lived projectiles",
+  "description_zh": "迅速发射的爆裂弓箭弹。\n照亮区域\n发射物长时间存在",
+  "rarity": "common",
+  "category": "machinePistol",
+  "price": 210,
+  "tags": [
+    "weapon",
+    "ranged",
+    "machinepistol",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 5.8,
+  "critChance": 2,
+  "critBonus": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 4
+        },
+        {
+          "item": "bone",
+          "count": 3
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

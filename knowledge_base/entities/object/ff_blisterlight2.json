@@ -1,0 +1,49 @@
+{
+  "entity_id": "ff_blisterlight2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Blisterpod Light",
+  "name_zh": "泡荚灯",
+  "description_en": "Made via gene engineering.",
+  "description_zh": "通过基因工程制造。",
+  "rarity": "Common",
+  "category": "light",
+  "price": 300,
+  "tags": [
+    "fu",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "blisterbushplantfood",
+          "count": 12
+        },
+        {
+          "item": "ironbar",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

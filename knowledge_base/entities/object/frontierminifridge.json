@@ -1,0 +1,33 @@
+{
+  "entity_id": "frontierminifridge",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Frontier Mini Fridge",
+  "name_zh": "边境迷你冰箱",
+  "description_en": "Ideal for storing food and keeping it fresh.",
+  "description_zh": "适合于存储食物，并让它们保持新鲜。",
+  "rarity": "Common",
+  "category": "fridgeStorage",
+  "price": 90,
+  "tags": [
+    "novakid",
+    "novakidvillage",
+    "storage",
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 1000
+        }
+      ],
+      "output_count": 1,
+      "station": "General Store",
+      "station_zh": "杂货店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

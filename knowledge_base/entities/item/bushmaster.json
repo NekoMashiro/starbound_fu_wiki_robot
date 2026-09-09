@@ -1,0 +1,49 @@
+{
+  "entity_id": "bushmaster",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bushmaster",
+  "name_zh": "大毒蛇",
+  "description_en": "A sturdy, reliable grenade launcher.\r\nExplosive",
+  "description_zh": "一把耐用、可靠的榴弹发射器。\n爆炸",
+  "rarity": "common",
+  "category": "grenadeLauncher",
+  "price": 160,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 2,
+  "twoHanded": false,
+  "baseDps": 6.25,
+  "critChance": 5,
+  "critBonus": 3,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 4
+        },
+        {
+          "item": "volatilepowder",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

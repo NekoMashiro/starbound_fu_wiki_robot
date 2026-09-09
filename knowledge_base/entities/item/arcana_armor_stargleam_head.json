@@ -1,0 +1,28 @@
+{
+  "entity_id": "arcana_armor_stargleam_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Stargleam Headpiece",
+  "name_zh": "星烁头饰",
+  "description_en": "A bygone outfit, once worn by Arcanian starfarers.",
+  "description_zh": "现已消失的服装，曾由守秘族星旅者所穿。",
+  "rarity": "Common",
+  "category": "headarmour",
+  "price": 60,
+  "tags": [],
+  "level": 1,
+  "drop_sources": {
+    "total_pools": 1,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_mission_desertstart_cosmetichead",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

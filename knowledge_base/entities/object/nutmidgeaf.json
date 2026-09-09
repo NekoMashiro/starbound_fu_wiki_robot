@@ -1,0 +1,54 @@
+{
+  "entity_id": "nutmidgeaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Nutmidge Figurine",
+  "name_zh": "",
+  "description_en": "The label reads, \"The king nutmidgeling is the only one whose head tuft hasn't been trampled to death.\"",
+  "description_zh": "",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "nutmidgelingVaultTreasure",
+          "probability": 0.0012,
+          "count": 1
+        },
+        {
+          "pool": "nutmidgelingTreasure",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "kingnutmidgeling"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.001,
+        0.0012
+      ]
+    },
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "nutmidgelingHunting",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "kingnutmidgeling"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "C"
+}

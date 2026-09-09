@@ -1,0 +1,27 @@
+{
+  "entity_id": "wubstem",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wubstem",
+  "name_zh": "常茎",
+  "description_en": "Immune: Electrified, Electric Storm & +10% Electric Res : 2m",
+  "description_zh": "免疫: 感电, 雷电风暴 & +10% 电系抗性 : 2m",
+  "rarity": "Common",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "wubstemHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

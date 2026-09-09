@@ -1,0 +1,100 @@
+{
+  "entity_id": "arcana_misc_horizonEliteBadge",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Horizon Elite Badge",
+  "name_zh": "地平线精英徽章",
+  "description_en": "A badge worn by the Horizon's elites.",
+  "description_zh": "地平线精英佩戴的徽章。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 900,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 3,
+        "examples": [
+          "arcana_essence_lightEssence",
+          "arcana_misc_horizonSpecialistBadge",
+          "mwhaddon_misc_assaultPowerCore"
+        ]
+      },
+      "legwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_cryoHoplite_legs",
+          "arcana_armor_pyroHoplite_legs"
+        ]
+      },
+      "headarmour": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_cryoHoplite_head",
+          "arcana_armor_pyroHoplite_head"
+        ]
+      },
+      "chestwear": {
+        "count": 2,
+        "examples": [
+          "arcana_armor_cryoHoplite_chest",
+          "arcana_armor_pyroHoplite_chest"
+        ]
+      },
+      "arcana_key": {
+        "count": 1,
+        "examples": [
+          "arcana_key_empyreanKey"
+        ]
+      },
+      "backwear": {
+        "count": 1,
+        "examples": [
+          "arcana_back_pyrocrazeBooster"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_back_exousiaPack"
+        ]
+      }
+    },
+    "total": 12
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "other": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "arcana_npcdrops_horizon_pyroHoplite",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "arcana_npcdrops_horizon_cryoHoplite",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_npc_horizon_arbiter",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_npc_horizon_omenkyrie",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

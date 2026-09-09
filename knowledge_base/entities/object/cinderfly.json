@@ -1,0 +1,32 @@
+{
+  "entity_id": "cinderfly",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cinderfly",
+  "name_zh": "煤渣苍蝇",
+  "description_en": "Thrives in desolate conditions.",
+  "description_zh": "茁壮成长在荒无人烟之地。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cinderfly",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "cinderfly"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

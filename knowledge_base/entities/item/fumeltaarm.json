@@ -1,0 +1,32 @@
+{
+  "entity_id": "fumeltaarm",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Melta Arm",
+  "name_zh": "熔化机械臂",
+  "description_en": "Melts walls and flesh with microwaves.",
+  "description_zh": "用微波熔化坚壁和血肉。",
+  "rarity": "uncommon",
+  "category": "mechPart",
+  "price": 1800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 15
+        },
+        {
+          "item": "densiniumbar",
+          "count": 15
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "fuapexclaws",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Force Gauntlet",
+  "name_zh": "力量臂铠",
+  "description_en": "A deadly fist weapon that projects kinetic force.",
+  "description_zh": "一种拥有致命动力的武器。",
+  "rarity": "legendary",
+  "category": "fistWeapon",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 13.0,
+  "critChance": 4,
+  "critBonus": 6,
+  "drop_sources": {
+    "total_pools": 2,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "apexsupermutant",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0058,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0058,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

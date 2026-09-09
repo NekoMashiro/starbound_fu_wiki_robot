@@ -1,0 +1,30 @@
+{
+  "entity_id": "applebarrel",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Apple Barrel",
+  "name_zh": "苹果桶",
+  "description_en": "The things you could do with these!",
+  "description_zh": "你可以用这些做什么！",
+  "rarity": "common",
+  "category": "furniture",
+  "price": 100,
+  "tags": [
+    "cooking"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 300
+        }
+      ],
+      "output_count": 1,
+      "station": "General Store",
+      "station_zh": "杂货店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

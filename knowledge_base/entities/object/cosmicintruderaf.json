@@ -1,0 +1,32 @@
+{
+  "entity_id": "cosmicintruderaf",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Cosmic Intruder Figurine",
+  "name_zh": "宇宙入侵者手办",
+  "description_en": "The label reads, \"An entity born outside of physical space and time.\"",
+  "description_zh": "标签上写着，\"在物理的空间和时间之外出生的实体。\"",
+  "rarity": "Legendary",
+  "category": "actionFigure",
+  "price": 5000,
+  "tags": [
+    "pretty"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "cosmicintruderTreasure",
+          "probability": 0.0008,
+          "count": 1,
+          "monsters": [
+            "cosmicintruder"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

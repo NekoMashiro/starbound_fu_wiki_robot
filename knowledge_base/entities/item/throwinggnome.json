@@ -1,0 +1,50 @@
+{
+  "entity_id": "throwinggnome",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Ball of Gnomes",
+  "name_zh": "一团侏儒",
+  "description_en": "Toss these little guys to do the fighting for you.",
+  "description_zh": "把这种小家伙投掷出去帮你战斗。",
+  "rarity": "Common",
+  "category": "throwableItem",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 1,
+        "examples": [
+          "gnomeandveggiesandwich"
+        ]
+      },
+      "crafting": {
+        "count": 1,
+        "examples": [
+          "gnomefactory"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "miniVillageTreasure",
+          "probability": 0.2982,
+          "count": 2.0,
+          "monsters": [
+            "gnomewarriors"
+          ]
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "gnomefactory"
+  ],
+  "quality_tier": "S"
+}

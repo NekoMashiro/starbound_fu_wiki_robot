@@ -1,0 +1,32 @@
+{
+  "entity_id": "shardwing",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Shardwing",
+  "name_zh": "鞘翅虫",
+  "description_en": "The wings of this bug are iridescent like ice.",
+  "description_zh": "翅膀像冰一样闪光。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shardwing",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "shardwing"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

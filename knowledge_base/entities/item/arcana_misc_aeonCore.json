@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_misc_aeonCore",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Aeon Core",
+  "name_zh": "古纪核心",
+  "description_en": "An ancient power device, dropped by the Aeon Timepiece.",
+  "description_zh": "一个古老的能源装置，由古纪之钟掉落。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 3800,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 2,
+        "examples": [
+          "arcana_back_tripolarEPP",
+          "mwhaddon_back_aureaProstheticWingEX"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "arcana_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "arcana_boss_aeonTimepiece"
+          ]
+        },
+        {
+          "pool": "mwhaddon_bossdrops_aeonTimepiece",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

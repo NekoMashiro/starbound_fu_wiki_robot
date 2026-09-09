@@ -1,0 +1,40 @@
+{
+  "entity_id": "shadowblock",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Shadow Rock",
+  "name_zh": "暗影块",
+  "description_en": "A rock as pitch black as shadow.\nExtractable, Crushable.",
+  "description_zh": "如暗影笼罩般的石头。\n可萃取，可破碎。",
+  "rarity": "Common",
+  "category": "block",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "broadsword": {
+        "count": 2,
+        "examples": [
+          "arcana_spectwing_broadsword_5",
+          "arcana_spectwing_scythe_5"
+        ]
+      },
+      "block": {
+        "count": 2,
+        "examples": [
+          "shadowspikeblock",
+          "shadowwallblock"
+        ]
+      },
+      "teleporter": {
+        "count": 1,
+        "examples": [
+          "blackteleporter"
+        ]
+      }
+    },
+    "total": 5
+  },
+  "wiki_ref": "Shadow Rock.md",
+  "quality_tier": "A"
+}

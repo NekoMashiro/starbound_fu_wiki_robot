@@ -1,0 +1,38 @@
+{
+  "entity_id": "fushovelspear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "The Diginator",
+  "name_zh": "挖掘终结者",
+  "description_en": "Pierce the heavens, or at least the earth.",
+  "description_zh": "可以捅破天空，或者刺穿大地。",
+  "rarity": "Legendary",
+  "category": "spear",
+  "price": 80,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "upgradeableWeapon",
+    "shovel"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 7.5,
+  "primaryAbilityType": "spearstab",
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0694,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

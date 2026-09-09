@@ -1,0 +1,66 @@
+{
+  "entity_id": "fuquantumhead",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Morphite Helm",
+  "name_zh": "异极头盔",
+  "description_en": "Set Bonuses:\r\n Immune: Sulphuric Acid",
+  "description_zh": "套装奖励：\n 免疫: 硫酸",
+  "rarity": "rare",
+  "category": "headarmour",
+  "price": 450,
+  "tags": [
+    "upgradeableWeapon",
+    "balanced",
+    "explorer"
+  ],
+  "level": 5,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "tritaniumbar",
+          "count": 4
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "headarmour": {
+        "count": 1,
+        "examples": [
+          "fuquantumheadadv"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

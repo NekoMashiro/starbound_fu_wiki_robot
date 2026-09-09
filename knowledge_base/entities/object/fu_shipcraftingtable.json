@@ -1,0 +1,43 @@
+{
+  "entity_id": "fu_shipcraftingtable",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Ship Component Assembler",
+  "name_zh": "飞船设备制造台",
+  "description_en": "Used to produce ship components.",
+  "description_zh": "用于生产模块化的定制飞船设备",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 30,
+  "tags": [
+    "crafting",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 6
+        },
+        {
+          "item": "wire",
+          "count": 4
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "加工台",
+      "station_zh": "加工台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

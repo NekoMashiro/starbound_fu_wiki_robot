@@ -1,0 +1,31 @@
+{
+  "entity_id": "luckycoin_khe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Gnawed Coin",
+  "name_zh": "被啃过的硬币",
+  "description_en": "A rare, ancient lucky coin. Somehow, it has been gnawed and is no longer recognizable.",
+  "description_zh": "一枚稀有的、古老的幸运硬币，它已经被啃过，不复原样。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 0,
+  "tags": [],
+  "machine_produced_by": [
+    {
+      "machine": "Electric Furnace",
+      "machine_zh": "电炉",
+      "input": "luckycoin"
+    },
+    {
+      "machine": "Blast Furnace",
+      "machine_zh": "高炉",
+      "input": "luckycoin"
+    },
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "luckycoin"
+    }
+  ],
+  "quality_tier": "A"
+}

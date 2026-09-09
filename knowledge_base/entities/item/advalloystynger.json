@@ -1,0 +1,58 @@
+{
+  "entity_id": "advalloystynger",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Alloy Stynger",
+  "name_zh": "合金发射器",
+  "description_en": "Incredibly lightweight considering the extra mass.",
+  "description_zh": "考虑到额外的重量，重量极轻。",
+  "rarity": "uncommon",
+  "category": "crossbow",
+  "price": 1000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "crossbow",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 4,
+  "critChance": 3,
+  "critBonus": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advancealloy",
+          "count": 3
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 2
+        },
+        {
+          "item": "mutaviskthread",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "extramissile",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Garuda Missile Launcher",
+  "name_zh": "迦楼罗导弹发射器",
+  "description_en": "Select missile and press the fire button.",
+  "description_zh": "选择导弹并按下开火按钮。",
+  "rarity": "Legendary",
+  "category": "rocketLauncher",
+  "price": 1500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketlauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 6,
+  "twoHanded": true,
+  "baseDps": 10.0,
+  "critChance": 10,
+  "critBonus": 12,
+  "altAbilityType": "supermissile",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "essence",
+          "count": 7000
+        }
+      ],
+      "output_count": 1,
+      "station": "Svetlana's Stall!",
+      "station_zh": "斯韦特兰娜商店",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "extrapenguinhighwaymissiles",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "blueprints_unlocked": [
+    "extramissile"
+  ],
+  "quality_tier": "S"
+}

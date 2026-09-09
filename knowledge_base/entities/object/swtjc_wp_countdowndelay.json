@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_countdowndelay",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Countdown Delay Timer",
+  "name_zh": "倒数激活器",
+  "description_en": "Only activates when its input node remains live for a set amount of time.",
+  "description_zh": "一个能在设定好的时间过了就会激活的计时器。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "smallbattery",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

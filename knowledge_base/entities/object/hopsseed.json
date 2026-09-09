@@ -1,0 +1,59 @@
+{
+  "entity_id": "hopsseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hops Seed",
+  "name_zh": "啤酒花种子",
+  "description_en": "Hops, used in the making of beer.",
+  "description_zh": "可以收获啤酒花，那是酿造啤酒的材料之一。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 14,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "vextongueseed"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hopsHarvest",
+          "probability": 0.4651,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

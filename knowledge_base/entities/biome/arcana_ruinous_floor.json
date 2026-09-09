@@ -1,0 +1,46 @@
+{
+  "entity_id": "arcana_ruinous_floor",
+  "entity_type": "biome",
+  "source_mod": "Arcana",
+  "name_en": "Ruinous Floor",
+  "name_zh": "祸津之底",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Ruinous Floor",
+  "friendly_name_zh": "祸津之底",
+  "ores": [
+    {
+      "ore": "titanium",
+      "weight": 1.0
+    },
+    {
+      "ore": "durasteel",
+      "weight": 1.0
+    },
+    {
+      "ore": "violium",
+      "weight": 1.0
+    },
+    {
+      "ore": "arcana_mod_necroiumFragment",
+      "weight": 1.0
+    },
+    {
+      "ore": "coal",
+      "weight": 0.8
+    },
+    {
+      "ore": "silver",
+      "weight": 0.8
+    }
+  ],
+  "monsters": [
+    "aggroLargeFish",
+    "jellycritter",
+    "passiveLargeFish",
+    "smallFishOcean1",
+    "smallFishOcean2",
+    "squidcritter"
+  ],
+  "quality_tier": "C"
+}

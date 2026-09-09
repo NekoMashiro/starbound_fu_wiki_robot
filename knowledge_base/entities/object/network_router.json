@@ -1,0 +1,49 @@
+{
+  "entity_id": "network_router",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Item Transference Device",
+  "name_zh": "物品传输器",
+  "description_en": "Moves items between containers.\r\nInput1: On/Off Switch\r\nInput2: item network\r\nOutput: item network\r\nWill not work when chained.",
+  "description_zh": "在容器之间移动项目。\n 输入1 ：On/Off开关\n 输入2 ：项目网络\n 输出：项目网络\n 被锁链锁住时不起作用",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 500,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "teleportercore",
+          "count": 1
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Item Transference Device.md",
+  "quality_tier": "A"
+}

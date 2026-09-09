@@ -1,0 +1,102 @@
+{
+  "entity_id": "infernus",
+  "entity_type": "biome",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Infernus",
+  "name_zh": "炼狱",
+  "description_en": "",
+  "description_zh": "",
+  "friendly_name": "Infernus",
+  "friendly_name_zh": "炼狱",
+  "ores": [
+    {
+      "ore": "coal",
+      "weight": 0.9
+    },
+    {
+      "ore": "sulphur",
+      "weight": 0.7
+    },
+    {
+      "ore": "cinnabar",
+      "weight": 0.5
+    },
+    {
+      "ore": "iron",
+      "weight": 0.45
+    },
+    {
+      "ore": "tungsten",
+      "weight": 0.45
+    },
+    {
+      "ore": "titanium",
+      "weight": 0.45
+    },
+    {
+      "ore": "durasteel",
+      "weight": 0.45
+    },
+    {
+      "ore": "aegisalt",
+      "weight": 0.45
+    },
+    {
+      "ore": "ferozium",
+      "weight": 0.45
+    },
+    {
+      "ore": "violium",
+      "weight": 0.45
+    },
+    {
+      "ore": "lead",
+      "weight": 0.4
+    },
+    {
+      "ore": "pyreite",
+      "weight": 0.25
+    },
+    {
+      "ore": "diamond",
+      "weight": 0.1
+    }
+  ],
+  "monsters": [
+    "bee_scoria",
+    "burntrotter",
+    "crabcano",
+    "crisper",
+    "firelit",
+    "firetop",
+    "fireygiant",
+    "flameroach",
+    "fuashgolem",
+    "ignome",
+    "infernusdroid",
+    "lavahopper",
+    "magmagolem",
+    "magmaslime",
+    "pyromantle",
+    "pyropod",
+    "smoglin",
+    "volpin"
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:infernus",
+        "/weather.config:infernusrainy",
+        "/weather.config:infernuswindy",
+        "/weather.config:infernusquake"
+      ]
+    ]
+  ],
+  "status_effects": [
+    "ffbiomeheat3",
+    "biomeairless"
+  ],
+  "wiki_ref": "Infernus.md",
+  "quality_tier": "C"
+}

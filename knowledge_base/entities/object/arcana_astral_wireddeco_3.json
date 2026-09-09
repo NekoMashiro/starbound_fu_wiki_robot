@@ -1,0 +1,50 @@
+{
+  "entity_id": "arcana_astral_wireddeco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Astral Desktop",
+  "name_zh": "群星笔记本电脑",
+  "description_en": "A modern desktop.",
+  "description_zh": "现代桌面办公电脑",
+  "rarity": "Rare",
+  "category": "light",
+  "price": 80,
+  "tags": [
+    "light",
+    "astral",
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_oceaniteComposite",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_oceanicTechCard",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Astral Crafting Table",
+      "station_zh": "群星制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "恒金工作站",
+          "name_zh": "恒金工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_4__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_4.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

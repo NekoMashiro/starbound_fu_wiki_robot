@@ -1,0 +1,50 @@
+{
+  "entity_id": "boozekit",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Booze Kit",
+  "name_zh": "酿酒工作台",
+  "description_en": "Your very own homebrewing kit.",
+  "description_zh": "属于你的酿酒工具台。",
+  "rarity": "rare",
+  "category": "crafting",
+  "price": 1,
+  "tags": [
+    "crafting",
+    "booze"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "copperbar",
+          "count": 5
+        },
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "bottle",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "魔导师之桌",
+      "station_zh": "魔导师之桌",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        },
+        {
+          "name": "发明家工作台",
+          "name_zh": "发明家工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Booze Kit.md",
+  "quality_tier": "A"
+}

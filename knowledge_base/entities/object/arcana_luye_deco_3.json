@@ -1,0 +1,53 @@
+{
+  "entity_id": "arcana_luye_deco_3",
+  "entity_type": "object",
+  "source_mod": "Arcana",
+  "name_en": "Luye Tea Plant",
+  "name_zh": "绿叶盆栽",
+  "description_en": "A tea plant planter.",
+  "description_zh": "茶树盆栽。",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 100,
+  "tags": [
+    "luye",
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "plantfibre",
+          "count": 6
+        },
+        {
+          "item": "arcana_bar_corrodiumBar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Luye Crafting Table",
+      "station_zh": "绿叶制作站",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3__Arcana.2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_workbench_3.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

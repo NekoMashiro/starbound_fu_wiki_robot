@@ -1,0 +1,34 @@
+{
+  "entity_id": "scb-sewerpipe-end",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "SCB Sewerpipe End",
+  "name_zh": "SCB下水道管端",
+  "description_en": "A sewer pipe used for transporting waste.",
+  "description_zh": "用于输送废物的下水道管。",
+  "rarity": "common",
+  "category": "trap",
+  "price": 0,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "sewage",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

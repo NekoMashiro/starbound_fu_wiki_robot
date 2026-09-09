@@ -1,0 +1,69 @@
+{
+  "entity_id": "mwhaddon_execration_broadsword",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Suppression",
+  "name_zh": "镇压",
+  "description_en": "To eradicate and suppress resistances.",
+  "description_zh": "以根除和镇压反抗。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 1360,
+  "tags": [
+    "weapon",
+    "melee",
+    "broadsword",
+    "execration"
+  ],
+  "elementalType": "arcana_abyss",
+  "level": 9,
+  "twoHanded": true,
+  "baseDps": 36,
+  "primaryAbilityType": "mwhaddon_execration_broadsword_combo",
+  "altAbilityType": "mwhaddon_abyssShield",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_bar_necroiumBar",
+          "count": 15
+        },
+        {
+          "item": "arcana_throwable_noveltyStar",
+          "count": 8
+        },
+        {
+          "item": "arcana_misc_omtreeSplinter",
+          "count": 3
+        },
+        {
+          "item": "horizon_crafting_horizonTechCard",
+          "count": 3
+        },
+        {
+          "item": "arcana_misc_raidenComponent",
+          "count": 1
+        },
+        {
+          "item": "mwhaddon_misc_bleakAssembler",
+          "count": 1
+        },
+        {
+          "item": "horizon_broadsword_1",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Necroium Ultismelter",
+      "station_zh": "死金至尊炉",
+      "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+      "also_at": [
+        {
+          "name": "mwhaddon_crafting_horizonFurnace.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

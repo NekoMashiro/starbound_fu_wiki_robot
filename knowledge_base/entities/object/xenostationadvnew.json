@@ -1,0 +1,41 @@
+{
+  "entity_id": "xenostationadvnew",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Advanced Xenolab",
+  "name_zh": "高级基因提取器",
+  "description_en": "A top of the line Quantum Xeno Lab for efficiently extracting genes from seeds.",
+  "description_zh": "基因提取器的升级版，用于从种子内提取基因。",
+  "rarity": "Legendary",
+  "category": "^orange;Extraction Device^reset;",
+  "price": 1250,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xenostation",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 1
+        },
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "densealloy",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Advanced Xenolab.md",
+  "quality_tier": "A"
+}

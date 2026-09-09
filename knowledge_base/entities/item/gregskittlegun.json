@@ -1,0 +1,57 @@
+{
+  "entity_id": "gregskittlegun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Skittles",
+  "name_zh": "彩虹糖",
+  "description_en": "There's no telling what this does.\nPrimary Fire: Grenades\nAlt: Magnorbs\nHold Shift: Rapid Fire mode",
+  "description_zh": "没有人知道这是用来做什么的。\n主要攻击：榴弹\n次要攻击：磁力珠\n按住Shift键：快速开火模式",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 15000,
+  "tags": [
+    "weapon",
+    "ranged",
+    "grenadelauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": true,
+  "baseDps": 5.0,
+  "altAbilityType": "Greg",
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "rainbowChestTreasure",
+          "probability": 0.0484,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoRainbowTreasure",
+          "probability": 0.0315,
+          "count": 1
+        },
+        {
+          "pool": "rainbowTreasure",
+          "probability": 0.0263,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0263,
+        0.0315
+      ]
+    }
+  },
+  "wiki_ref": "Skittles.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,43 @@
+{
+  "entity_id": "fupioneershield",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pioneer Shield",
+  "name_zh": "先锋盾",
+  "description_en": "+2% Energy Regen, Immune: Burning",
+  "description_zh": "能量回复速度+2%；免疫燃烧",
+  "rarity": "common",
+  "category": "shield",
+  "price": 100,
+  "tags": [
+    "shield",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "polymer",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

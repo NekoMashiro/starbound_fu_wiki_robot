@@ -1,0 +1,67 @@
+{
+  "entity_id": "algaeseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Algae Pod",
+  "name_zh": "藻豆荚种子",
+  "description_en": "An interesting algae type. Excellent biofuel.",
+  "description_zh": "可以收获藻豆荚，提炼后可以作为燃料。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 12,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 22
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 12
+        },
+        {
+          "item": "fu_nitrogen",
+          "count": 2
+        },
+        {
+          "item": "phosphorus",
+          "count": 2
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "seed": {
+        "count": 1,
+        "examples": [
+          "kamaranpodsplant"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "algaeHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

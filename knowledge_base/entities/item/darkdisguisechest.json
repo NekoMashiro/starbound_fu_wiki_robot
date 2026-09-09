@@ -1,0 +1,57 @@
+{
+  "entity_id": "darkdisguisechest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Dark Disguise Shirt",
+  "name_zh": "黑暗伪装衬衫",
+  "description_en": "This shirt wraps a dark void around the wearer.",
+  "description_zh": "黑暗虚空萦绕在穿戴者身周。",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "darkdisguisechestkhe"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shadowChestTreasure",
+          "probability": 0.2036,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoShadowTreasure",
+          "probability": 0.1708,
+          "count": 1
+        },
+        {
+          "pool": "shadowTreasure",
+          "probability": 0.1429,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1429,
+        0.1708
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

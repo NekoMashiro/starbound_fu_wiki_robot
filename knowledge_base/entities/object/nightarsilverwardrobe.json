@@ -1,0 +1,50 @@
+{
+  "entity_id": "nightarsilverwardrobe",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Nightar Silver Wardrobe",
+  "name_zh": "夜族银色衣柜",
+  "description_en": "Store your clothing in style, and be snobby about it.",
+  "description_zh": "以时尚的方式存放您的衣服，并因此变得势利。",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 135,
+  "tags": [
+    "nightar",
+    "nightarvillage",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "obsidian",
+          "count": 4
+        },
+        {
+          "item": "silverbar",
+          "count": 16
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

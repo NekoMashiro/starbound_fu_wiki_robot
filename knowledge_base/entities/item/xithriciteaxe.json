@@ -1,0 +1,59 @@
+{
+  "entity_id": "xithriciteaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cosmic Axe",
+  "name_zh": "赛德瑞瑟之斧",
+  "description_en": "The stuff of stars.\r\nInflicts Minor Vulnerability",
+  "description_zh": "这把武器诞生于宇宙之中。\n附加错调瑕疵效果",
+  "rarity": "legendary",
+  "category": "axe",
+  "price": 940,
+  "tags": [
+    "weapon",
+    "melee",
+    "axe",
+    "xithricite",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 6,
+  "twoHanded": false,
+  "baseDps": 7.2,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "axecleave",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xithricitecrystal",
+          "count": 6
+        },
+        {
+          "item": "effigiumbar",
+          "count": 4
+        },
+        {
+          "item": "liquidaether",
+          "count": 100
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

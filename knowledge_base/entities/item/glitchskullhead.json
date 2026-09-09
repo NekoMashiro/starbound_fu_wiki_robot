@@ -1,0 +1,46 @@
+{
+  "entity_id": "glitchskullhead",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Glitch Skull Mask",
+  "name_zh": "电子人头骨面具",
+  "description_en": "A Glitch skull. Well, not exactly a skull, but they tried.",
+  "description_zh": "一个电子人头骨。嗯，不完全是一个头骨，但是他们尽力了。",
+  "rarity": "Rare",
+  "category": "headwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "boneChestTreasure",
+          "probability": 0.0504,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoBoneTreasure",
+          "probability": 0.0328,
+          "count": 1
+        },
+        {
+          "pool": "boneTreasure",
+          "probability": 0.0274,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0274,
+        0.0328
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "fupowerglove",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Power Glove",
+  "name_zh": "能量手套",
+  "description_en": "All the tech since 1989 still couldn't save this travesty.",
+  "description_zh": "就算是1989年之后的所有科技都无法拯救这坨翔一样的游戏外设。\n译注：你最好离这坨屎有多远就走多远——詹姆斯.罗弗(喷神James)",
+  "rarity": "Legendary",
+  "category": "fistWeapon",
+  "price": 4000,
+  "tags": [
+    "weapon",
+    "fist",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 12.25,
+  "critChance": 3,
+  "critBonus": 4,
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "fuSuperWeapons",
+          "probability": 0.0231,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

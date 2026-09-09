@@ -1,0 +1,51 @@
+{
+  "entity_id": "lunariboomerang",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Lunari Boomerang",
+  "name_zh": "月晶回旋镖",
+  "description_en": "A shaped crystalline weapon that returns after striking.",
+  "description_zh": "一种结晶形状的武器，攻击后会返回。",
+  "rarity": "common",
+  "category": "boomerang",
+  "price": 220,
+  "tags": [
+    "weapon",
+    "boomerang",
+    "lunari",
+    "upgradeableWeapon"
+  ],
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 4,
+  "critBonus": 2,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "solaricrystal",
+          "count": 2
+        },
+        {
+          "item": "bone",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "军备作坊",
+      "station_zh": "军备作坊",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_id": "penumbrastaff",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Penumbra Staff",
+  "name_zh": "半影法杖",
+  "description_en": "Penumbral Power.",
+  "description_zh": "蕴藏着暗影之力。",
+  "rarity": "Uncommon",
+  "category": "staff",
+  "price": 1440,
+  "tags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "penumbrite",
+    "shadow"
+  ],
+  "elementalType": "shadow",
+  "level": 3,
+  "twoHanded": true,
+  "altAbilityType": "暗影之雨",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "penumbriteshard",
+          "count": 4
+        },
+        {
+          "item": "biosample",
+          "count": 4
+        },
+        {
+          "item": "titaniumbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

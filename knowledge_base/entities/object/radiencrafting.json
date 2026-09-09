@@ -1,0 +1,39 @@
+{
+  "entity_id": "radiencrafting",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "X'ian Forming Bulb",
+  "name_zh": "艾肯球茎工坊",
+  "description_en": "Allows a X'i to craft pieces of itself through direct melding.",
+  "description_zh": "允许艾肯通过直接融合来制作自己的装备。",
+  "rarity": "Common",
+  "category": "crafting",
+  "price": 2,
+  "tags": [
+    "crafting",
+    "radien"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "xi_bulb",
+          "count": 3
+        },
+        {
+          "item": "xibulb",
+          "count": 5
+        },
+        {
+          "item": "dirtmaterial",
+          "count": 25
+        }
+      ],
+      "output_count": 1,
+      "station": "Iron Crafting Table",
+      "station_zh": "铁制工作台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

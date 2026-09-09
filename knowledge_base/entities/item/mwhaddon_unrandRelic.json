@@ -1,0 +1,41 @@
+{
+  "entity_id": "mwhaddon_unrandRelic",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Relic",
+  "name_zh": "遗物",
+  "description_en": "Description",
+  "description_zh": "描述",
+  "rarity": "essential",
+  "category": "mwhaddon_regularRelic",
+  "price": 1000,
+  "tags": [
+    "arcana_relic",
+    "mwhaddon_regularRelic"
+  ],
+  "twoHanded": true,
+  "drop_sources": {
+    "total_pools": 2,
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "mwhaddon_treasurepool_unrandRelic",
+          "probability": 1.0,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

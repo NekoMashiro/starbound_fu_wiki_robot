@@ -1,0 +1,60 @@
+{
+  "entity_id": "dunestalkseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dunestalk Seed",
+  "name_zh": "沙语草种子",
+  "description_en": "Hardy dunestalk, a wheat-like plant found growing in arid locations.",
+  "description_zh": "这种类似于小麦的植物被发现于干旱的地方。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 10,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fugeneticmaterial",
+          "count": 3
+        },
+        {
+          "item": "wheatseed",
+          "count": 3
+        },
+        {
+          "item": "phosphorus",
+          "count": 3
+        },
+        {
+          "item": "sulphur",
+          "count": 3
+        },
+        {
+          "item": "liquidwater",
+          "count": 3
+        }
+      ],
+      "output_count": 3,
+      "station": "温室",
+      "station_zh": "温室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "dunestalkHarvest",
+          "probability": 1.7412,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

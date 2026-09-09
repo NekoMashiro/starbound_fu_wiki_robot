@@ -1,0 +1,56 @@
+{
+  "entity_id": "brackentreeseed",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bracken Tree Seed",
+  "name_zh": "蕨树种子",
+  "description_en": "Bracken provide essential Silk.",
+  "description_zh": "蕨树可以提供必不可少的丝绸。",
+  "rarity": "Common",
+  "category": "seed",
+  "price": 11,
+  "tags": [
+    "nature"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "fuscienceresource",
+          "count": 200
+        },
+        {
+          "item": "cellmateria",
+          "count": 1
+        },
+        {
+          "item": "livingroot",
+          "count": 4
+        },
+        {
+          "item": "cotton",
+          "count": 6
+        }
+      ],
+      "output_count": 3,
+      "station": "植物学实验室",
+      "station_zh": "植物学实验室",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "brackenHarvest",
+          "probability": 0.5,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,111 @@
+{
+  "entity_id": "slimebroadsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Morph Sword",
+  "name_zh": "变形黏液剑",
+  "description_en": "Through intense concentration, you're able to produce a sharp blade of slime.",
+  "description_zh": "通过高度浓缩，你得以制成一把黏液利刃。",
+  "rarity": "Legendary",
+  "category": "broadsword",
+  "price": 960,
+  "tags": [
+    "weapon",
+    "melee",
+    "slime",
+    "bioweapon",
+    "broadsword",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 3,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 1,
+  "critBonus": 2,
+  "primaryAbilityType": "broadswordcombo",
+  "altAbilityType": "slimeflipslash",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimegoo",
+          "count": 6
+        },
+        {
+          "item": "endomorphicjelly",
+          "count": 4
+        },
+        {
+          "item": "graphene",
+          "count": 4
+        },
+        {
+          "item": "slimegem",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "生化离心机",
+      "station_zh": "生化离心机",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "等离子级绘世者铸造台",
+          "name_zh": "等离子级绘世者铸造台"
+        },
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 5,
+    "monster_drops": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "slimesuperTreasure",
+          "probability": 0.25,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0078,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0065,
+          "count": 1
+        },
+        {
+          "pool": "slimenpcTreasure",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0013,
+        0.25
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.012,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

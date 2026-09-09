@@ -1,0 +1,62 @@
+{
+  "entity_id": "isn_plasmapistol",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Plasma Pistol",
+  "name_zh": "等离子手枪",
+  "description_en": "Unusual sidearm for an unusual age.\r\nCounts as plasma weapon for set bonuses\r\nBouncing projectiles",
+  "description_zh": "不寻常的手枪，不寻常的时代。\n等离子武器\n弹跳子弹",
+  "rarity": "rare",
+  "category": "pistol",
+  "price": 500,
+  "tags": [
+    "weapon",
+    "ranged",
+    "pistol",
+    "plasma",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "electric",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.4,
+  "critChance": 3,
+  "critBonus": 8,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "morphiteore",
+          "count": 5
+        },
+        {
+          "item": "fuplasmacore",
+          "count": 1
+        },
+        {
+          "item": "protocitebar",
+          "count": 4
+        },
+        {
+          "item": "fu_hydrogenmetallic",
+          "count": 12
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

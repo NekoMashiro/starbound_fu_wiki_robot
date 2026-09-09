@@ -1,0 +1,51 @@
+{
+  "entity_id": "gooshoategg",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Shoat Egg",
+  "name_zh": "小黏羊蛋",
+  "description_en": "Hatches into a vulnerable shoat lamb.",
+  "description_zh": "孵化出一只脆弱的小黏羊崽。",
+  "rarity": "Rare",
+  "category": "farmBeastEgg",
+  "price": 50,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 4,
+    "monster_drops": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "shoateggTreasure",
+          "probability": 0.0909,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0071,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0059,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0059,
+        0.0909
+      ]
+    },
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.0109,
+          "count": 1.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,151 @@
+{
+  "entity_id": "arcana_ore_necroiumFragment",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Necroium Fragment",
+  "name_zh": "死金碎片",
+  "description_en": "A necroium fragment scattered about in Desolate planets, can be used for smelting.",
+  "description_zh": "通常可在孤寂星球发现的死金碎片，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 120,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 2,
+        "examples": [
+          "arcana_bar_necroiumBar",
+          "arcana_bar_necroiumBar"
+        ]
+      },
+      "throwableItem": {
+        "count": 1,
+        "examples": [
+          "mwhaddon_throwable_ruinousBomb"
+        ]
+      }
+    },
+    "total": 3
+  },
+  "drop_sources": {
+    "total_pools": 22,
+    "chest_loot": {
+      "count": 8,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 1.0531,
+          "count": 2
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 1.0363,
+          "count": 2.4
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_itemPool_necroiumFragment",
+          "probability": 1.0,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_pool_space_horizon_common",
+          "probability": 0.49,
+          "count": 2.4
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizonDungeon_furnace",
+          "probability": 0.49,
+          "count": 2.4
+        }
+      ],
+      "prob_range": [
+        0.3009,
+        1.0531
+      ]
+    },
+    "boss_mission": {
+      "count": 14,
+      "top": [
+        {
+          "pool": "mwhaddon_bossdrops_execration",
+          "probability": 1.0,
+          "count": 30,
+          "monsters": [
+            "mwhaddon_boss_execration"
+          ]
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_1",
+          "probability": 0.4648,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_mainStory_chapter3_3_2",
+          "probability": 0.4648,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_4_t2",
+          "probability": 0.4648,
+          "count": 3.5
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_mission_horizon_2_upper_t2",
+          "probability": 0.4176,
+          "count": 3.5
+        }
+      ],
+      "prob_range": [
+        0.0568,
+        1.0
+      ]
+    }
+  },
+  "biomes": [
+    {
+      "biome": "arcana_ruinousSwamp",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_desolate_underground_2",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ferocious",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_desolate",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ferocious_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ruinous",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ferocious_underground_2",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_ruinous_floor",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_netherCave",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_desolate_underground_1",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Necroium Fragment.md",
+  "quality_tier": "S"
+}

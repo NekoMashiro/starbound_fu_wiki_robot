@@ -1,0 +1,36 @@
+{
+  "entity_id": "at_ext_dailysupply",
+  "entity_type": "object",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "[TCexp]Supply Dispensing Terminal",
+  "name_zh": "[泰坦拓展]补给分发终端",
+  "description_en": "Claim your supplies every 6 hours!\nRefunds 13000 credits when destroyed.",
+  "description_zh": "每6小时领取你的补给！\n被破坏后返还13000信用点。",
+  "rarity": "Essential",
+  "category": "crafting",
+  "price": 0,
+  "tags": [
+    "crafting"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 20000
+        }
+      ],
+      "output_count": 1,
+      "station": "Titancorp Credit Shop",
+      "station_zh": "泰坦重工信用点商店",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "titancorp.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

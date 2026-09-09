@@ -1,0 +1,54 @@
+{
+  "entity_id": "arcana_armor_embryonic_chest",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Embryonic Chestplate",
+  "name_zh": "萌芽胸甲",
+  "description_en": "An armor piece exhibiting a faint green aura. +5% Poison Res.",
+  "description_zh": "一件散发出微弱绿色光环的胸甲。+5% 毒素抗性",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 1000,
+  "tags": [],
+  "level": 7,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "syntheticmaterial",
+          "count": 2
+        },
+        {
+          "item": "arcana_misc_morphosisEgg",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "秘钢之砧",
+      "station_zh": "秘钢之砧",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_anvil_2.json",
+          "name_zh": ""
+        },
+        {
+          "name": "arcana_crafting_anvil_2__Arcana.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "chestwear": {
+        "count": 1,
+        "examples": [
+          "arcana_armor_skullbearer_chest"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

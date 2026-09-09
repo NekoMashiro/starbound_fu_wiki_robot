@@ -1,0 +1,27 @@
+{
+  "entity_id": "littlegoodberry",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Little Good Berry",
+  "name_zh": "小浆果",
+  "description_en": "Damage x1.15: 1m",
+  "description_zh": "伤害 x1.15: 1m",
+  "rarity": "Uncommon",
+  "category": "food",
+  "price": 5,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 1,
+    "hunting_harvest": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "littlegoodberryHarvest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

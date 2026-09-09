@@ -1,0 +1,66 @@
+{
+  "entity_id": "arcana_ore_thoriumOre",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Electrolite Ore",
+  "name_zh": "紫电矿",
+  "description_en": "An Electrolite ore found commonly in the Superstorm planets of neverending thunder, can be used for smelting.",
+  "description_zh": "通常可在雷霆永无止息的奔雷星球上发现的紫电矿石，可用于冶炼。",
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "price": 150,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "craftingMaterial": {
+        "count": 1,
+        "examples": [
+          "arcana_bar_thoriumBar"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "biomes": [
+    {
+      "biome": "arcana_neonCave",
+      "weight": 1.1
+    },
+    {
+      "biome": "arcana_geoelectra",
+      "weight": 1.1
+    },
+    {
+      "biome": "arcana_superstormExpanse_night",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_neonSea",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_superstormExpanse_day",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_superstormExpanse_underground_1",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_superstormExpanse",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_neonSea_floor",
+      "weight": 1.0
+    },
+    {
+      "biome": "arcana_neonForest",
+      "weight": 1.0
+    }
+  ],
+  "wiki_ref": "Electrolite Ore.md",
+  "quality_tier": "S"
+}

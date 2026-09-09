@@ -1,0 +1,36 @@
+{
+  "entity_id": "fucoldaugment2",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cold Shield II",
+  "name_zh": "EPP模块（寒冷护盾 II）",
+  "description_en": "An EPP module that repels all cold. Immune: Extreme Cold, Liquid Nitrogen",
+  "description_zh": "一种EPP模块，可以抵御一切寒冷。免疫：极端寒冷，液氮。",
+  "rarity": "rare",
+  "category": "eppAugment",
+  "price": 777,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "advcircuit",
+          "count": 2
+        },
+        {
+          "item": "durasteelbar",
+          "count": 2
+        },
+        {
+          "item": "fu_hydrogen",
+          "count": 6
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

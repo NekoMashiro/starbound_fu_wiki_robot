@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_farmable_amberplum",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Amberplum",
+  "name_zh": "琥珀梅",
+  "description_en": "A shiny plum that is suprisingly delicious and has a honey-like taste to it. Takes slightly longer to rot.",
+  "description_zh": "一个富有光泽且无比美味的梅子，尝起来像蜂蜜。腐烂需要的时间稍微有点长。",
+  "rarity": "Common",
+  "category": "food",
+  "price": 210,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "preparedFood": {
+        "count": 2,
+        "examples": [
+          "arcana_food_allslainbreakfast",
+          "arcana_food_sweetfeastmedley"
+        ]
+      }
+    },
+    "total": 2
+  },
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "arcana_farmable_amberplum",
+          "probability": 1.246,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

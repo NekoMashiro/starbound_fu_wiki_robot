@@ -1,0 +1,35 @@
+{
+  "entity_id": "pancakes",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Pancakes",
+  "name_zh": "煎饼",
+  "description_en": "A favorite in every galaxy. Type: Vegetables + Dairy + Eggs",
+  "description_zh": "颇受任何星系的人们的喜爱。\n类型：蔬菜 + 蛋奶",
+  "rarity": "common",
+  "category": "preparedFood",
+  "price": 6,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "money",
+          "count": 180
+        }
+      ],
+      "output_count": 1,
+      "station": "Murder-Twig's Yum-Yums",
+      "station_zh": "惊奇谋杀树枝",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true,
+      "also_at": [
+        {
+          "name": "fufoodstore.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

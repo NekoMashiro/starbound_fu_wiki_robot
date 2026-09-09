@@ -1,0 +1,39 @@
+{
+  "entity_id": "fu_crewbed2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Crew Bunk (Black)",
+  "name_zh": "船员用双层床(黑色)",
+  "description_en": "These cosy beds can stack on top of each other. Crew +1. Counts as a deed. BYOS Only",
+  "description_zh": "这些舒适的床可以叠在一起。船员数量上限+1 。算作契约。仅限BYOS",
+  "rarity": "Legendary",
+  "category": "furniture",
+  "price": 0,
+  "tags": [
+    "misc",
+    "bed"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "canvas",
+          "count": 3
+        },
+        {
+          "item": "carbonplate",
+          "count": 1
+        },
+        {
+          "item": "upgrademodule",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Ship Component Assembler",
+      "station_zh": "飞船设备制造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

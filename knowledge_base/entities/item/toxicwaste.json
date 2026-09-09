@@ -1,0 +1,69 @@
+{
+  "entity_id": "toxicwaste",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Toxic Waste",
+  "name_zh": "有毒废物",
+  "description_en": "Sludge this toxic shouldn't go to waste!",
+  "description_zh": "不应该浪费清除这种有毒物质的时间！",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_input": {
+    "by_category": {
+      "rocketLauncher": {
+        "count": 1,
+        "examples": [
+          "isn_irradiator"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 4,
+    "chest_loot": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "toxicChestTreasure",
+          "probability": 0.4668,
+          "count": 3.7
+        },
+        {
+          "pool": "arcana_dungeonloots_verdantTreasure",
+          "probability": 0.3275,
+          "count": 3.7
+        }
+      ],
+      "prob_range": [
+        0.3275,
+        0.4668
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoToxicTreasure",
+          "probability": 0.3918,
+          "count": 3.7
+        },
+        {
+          "pool": "toxicTreasure",
+          "probability": 0.3275,
+          "count": 3.7
+        }
+      ],
+      "prob_range": [
+        0.3275,
+        0.3918
+      ]
+    }
+  },
+  "wiki_ref": "Toxic Waste.md",
+  "quality_tier": "S"
+}

@@ -1,0 +1,334 @@
+{
+  "entity_id": "manipulatormodule",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Manipulator Module",
+  "name_zh": "物质枪模块",
+  "description_en": "This module can be used to upgrade a matter manipulator!",
+  "description_zh": "用来升级物质枪的模块。",
+  "rarity": "Legendary",
+  "category": "upgradeComponent",
+  "price": 500,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "laserdiode",
+          "count": 1
+        },
+        {
+          "item": "diamond",
+          "count": 1
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "penumbriteshard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "自动组装器",
+      "station_zh": "自动组装器",
+      "source_mod": "Frackin' Universe"
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 40
+        }
+      ],
+      "output_count": 1,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "detector": {
+        "count": 3,
+        "examples": [
+          "cavedetector1",
+          "oredetector1",
+          "tunableoredetector1"
+        ]
+      },
+      "other": {
+        "count": 3,
+        "examples": [
+          "mmgravgun",
+          "mmgravgun2",
+          "mmgravgun3"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "arcana_back_illuminatedEPP"
+        ]
+      },
+      "eppAugment": {
+        "count": 1,
+        "examples": [
+          "humanartifactaugment"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "brokenprotectoratebroadsword"
+        ]
+      },
+      "container": {
+        "count": 1,
+        "examples": [
+          "fu_sciencefuelhatch"
+        ]
+      }
+    },
+    "total": 10
+  },
+  "drop_sources": {
+    "total_pools": 421,
+    "monster_drops": {
+      "count": 249,
+      "top": [
+        {
+          "pool": "endTreasure",
+          "probability": 1.4544,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuendTreasure",
+          "probability": 1.4544,
+          "count": 1.0
+        },
+        {
+          "pool": "pandorasboxtrapogoValuableTreasure",
+          "probability": 0.6845,
+          "count": 1.0
+        },
+        {
+          "pool": "elduuvaluableTreasure",
+          "probability": 0.45,
+          "count": 1
+        },
+        {
+          "pool": "pandorasboxtrapogoAlienTreasure",
+          "probability": 0.4485,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        1.4544
+      ]
+    },
+    "boss_mission": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "mwhaddon_dungeonloots_mission_gilded_1",
+          "probability": 0.6939,
+          "count": 1.0
+        },
+        {
+          "pool": "cultistmission1Reward",
+          "probability": 0.2,
+          "count": 1
+        },
+        {
+          "pool": "dragonbosstreasure",
+          "probability": 0.0731,
+          "count": 1
+        },
+        {
+          "pool": "cultistmissionBasic",
+          "probability": 0.0574,
+          "count": 1
+        },
+        {
+          "pool": "hylotlmissionBasic",
+          "probability": 0.0203,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0142,
+        0.6939
+      ]
+    },
+    "chest_loot": {
+      "count": 117,
+      "top": [
+        {
+          "pool": "arcana_dungeonloots_spectwingrare",
+          "probability": 0.6939,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_relicchest",
+          "probability": 0.6939,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_arcanecityrare",
+          "probability": 0.6939,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_sealedarkrare",
+          "probability": 0.6939,
+          "count": 1.0
+        },
+        {
+          "pool": "arcana_dungeonloots_horizonChestTreasure",
+          "probability": 0.6939,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.027,
+        0.6939
+      ]
+    },
+    "other": {
+      "count": 39,
+      "top": [
+        {
+          "pool": "arcana_monsterdrops_electricGolem",
+          "probability": 0.6939,
+          "count": 1.0,
+          "monsters": [
+            "arcana_monster_electricGolem"
+          ]
+        },
+        {
+          "pool": "at_ext_d8_end",
+          "probability": 0.541,
+          "count": 1.0
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.2,
+          "count": 1.5
+        },
+        {
+          "pool": "naturalcaveLore",
+          "probability": 0.1592,
+          "count": 1.0
+        },
+        {
+          "pool": "fishingPrize",
+          "probability": 0.15,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.6939
+      ]
+    },
+    "quest_rewards": {
+      "count": 4,
+      "top": [
+        {
+          "pool": "at_ext_dailyjob1_bonus",
+          "probability": 0.5093,
+          "count": 1.2
+        },
+        {
+          "pool": "at_ext_dailyjob1_general",
+          "probability": 0.1361,
+          "count": 1.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.08,
+          "count": 1
+        },
+        {
+          "pool": "highValueQuestRewards",
+          "probability": 0.064,
+          "count": 2
+        }
+      ],
+      "prob_range": [
+        0.064,
+        0.5093
+      ]
+    },
+    "hunting_harvest": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "floranhuntinggroundsChestTreasure",
+          "probability": 0.3743,
+          "count": 1
+        },
+        {
+          "pool": "floranhuntinggroundsRareTreasure",
+          "probability": 0.1592,
+          "count": 1.0
+        },
+        {
+          "pool": "floranhuntinggroundsTreasure",
+          "probability": 0.1162,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.1162,
+        0.3743
+      ]
+    },
+    "mining": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "rocktrollLoot",
+          "probability": 0.0363,
+          "count": 1.0,
+          "monsters": [
+            "burntrotter",
+            "frostrotter",
+            "icetroll",
+            "rocktroll",
+            "rocktroll2"
+          ]
+        },
+        {
+          "pool": "pandorasboxrockgummiTreasure",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "extraMonsterRock",
+          "probability": 0.0005,
+          "count": 1,
+          "monsters": [
+            "flintlit"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.0363
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

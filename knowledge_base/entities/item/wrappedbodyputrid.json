@@ -1,0 +1,194 @@
+{
+  "entity_id": "wrappedbodyputrid",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Wrapped Putrid Corpse",
+  "name_zh": "被包裹的腐烂尸体",
+  "description_en": "A rotting, putrid corpse best avoided by the sane.",
+  "description_zh": "一具腐烂、发臭的尸体，理智告诉你最好还是避开它。",
+  "rarity": "rare",
+  "category": "craftingMaterial",
+  "price": 260,
+  "tags": [
+    "reagent"
+  ],
+  "drop_sources": {
+    "total_pools": 34,
+    "hunting_harvest": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "huntingDarkMetroid",
+          "probability": 0.1316,
+          "count": 1,
+          "monsters": [
+            "darkmetroid"
+          ]
+        },
+        {
+          "pool": "tombstoneHarvest",
+          "probability": 0.018,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.018,
+        0.1316
+      ]
+    },
+    "monster_drops": {
+      "count": 10,
+      "top": [
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.1244,
+          "count": 1.0
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.1122,
+          "count": 1.0
+        },
+        {
+          "pool": "ffcannibalTreasure",
+          "probability": 0.0603,
+          "count": 1
+        },
+        {
+          "pool": "aviantombTreasure",
+          "probability": 0.039,
+          "count": 1
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0276,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1244
+      ]
+    },
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "deadBodies",
+          "probability": 0.0924,
+          "count": 1
+        },
+        {
+          "pool": "deadloot",
+          "probability": 0.08,
+          "count": 1
+        },
+        {
+          "pool": "deadBodiesApex",
+          "probability": 0.0172,
+          "count": 1
+        },
+        {
+          "pool": "artifactloot",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "woodShed",
+          "probability": 0.007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0924
+      ]
+    },
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0112,
+          "count": 1.0
+        },
+        {
+          "pool": "ffwastelandChest",
+          "probability": 0.007,
+          "count": 1
+        },
+        {
+          "pool": "fficeChestTreasure",
+          "probability": 0.0036,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootbox",
+          "probability": 0.0001,
+          "count": 1.0
+        },
+        {
+          "pool": "fu_lootboxMid",
+          "probability": 0.0001,
+          "count": 1.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0112
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.0006,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        },
+        {
+          "pool": "fuprecursorLootBoss",
+          "probability": 0.0002,
+          "count": 1,
+          "monsters": [
+            "precursorwarbot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0006
+      ]
+    },
+    "quest_rewards": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0001,
+          "count": 1
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0001,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0001
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

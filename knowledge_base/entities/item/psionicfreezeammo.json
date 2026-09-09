@@ -1,0 +1,49 @@
+{
+  "entity_id": "psionicfreezeammo",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Cryokinesis Ammo",
+  "name_zh": "冷冻弹药",
+  "description_en": "Freeze enemies with your mind.",
+  "description_zh": "用意念冻结敌人。",
+  "rarity": "rare",
+  "category": "uniqueWeapon",
+  "price": 10,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "psionicenergy3",
+          "count": 50
+        },
+        {
+          "item": "cryonicextract",
+          "count": 2
+        }
+      ],
+      "output_count": 100,
+      "station": "Psionics Table",
+      "station_zh": "灵能工作台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "psionicbench.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "psionicfreezemagammo"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

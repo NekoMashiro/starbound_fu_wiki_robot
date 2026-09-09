@@ -1,0 +1,67 @@
+{
+  "entity_id": "slimetendrils3",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Slime Tendrils III",
+  "name_zh": "粘液触须 III",
+  "description_en": "Reach out and hit somebody.",
+  "description_zh": "伸手打人。",
+  "rarity": "Legendary",
+  "category": "uniqueWeapon",
+  "price": 750,
+  "tags": [
+    "weapon",
+    "ranged",
+    "livingweapon",
+    "upgradeableWeapon",
+    "slime",
+    "bioweapon"
+  ],
+  "elementalType": "bioweapon",
+  "level": 5,
+  "twoHanded": false,
+  "baseDps": 5.4,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "tentaclegun",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "slimetendrils2",
+          "count": 1
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "uniqueWeapon": {
+        "count": 1,
+        "examples": [
+          "guslimetendrils"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "upgrade_path": {
+    "upgrades_to": "slimetendrilsstaricon.png",
+    "seed": "",
+    "shortdescription": "粘液触须 ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "arcana_back_pyrocrazeBooster",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Pyrocraze Booster",
+  "name_zh": "癫热助推器",
+  "description_en": "A special Horizon booster designed for Pyro Hoplites. Grants +5% Fire Res and Pyrocraze.",
+  "description_zh": "为高温重装部队设计的特殊地平线推进器。 获得+5%烈焰抗性和癫热。 ",
+  "rarity": "Legendary",
+  "category": "backwear",
+  "price": 2600,
+  "tags": [],
+  "level": 6,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_misc_horizonEliteBadge",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Badge Exchange",
+      "station_zh": "徽章交易",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_aurea_crafting_2.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

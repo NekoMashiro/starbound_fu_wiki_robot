@@ -1,0 +1,43 @@
+{
+  "entity_id": "arcana_armor_zealot_head",
+  "entity_type": "item",
+  "source_mod": "Arcana",
+  "name_en": "Zealot Helm",
+  "name_zh": "热忱者头盔",
+  "description_en": "Armor worn by those with brimming faith in the holy light.",
+  "description_zh": "对神圣之光怀有虔诚信仰者所穿戴的盔甲。",
+  "rarity": "Rare",
+  "category": "headarmour",
+  "price": 2700,
+  "tags": [],
+  "level": 4,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 3
+        },
+        {
+          "item": "leather",
+          "count": 2
+        },
+        {
+          "item": "goldbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "随从之桌",
+      "station_zh": "随从之桌",
+      "source_mod": "Arcana",
+      "also_at": [
+        {
+          "name": "arcana_crafting_aurea_1_1.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

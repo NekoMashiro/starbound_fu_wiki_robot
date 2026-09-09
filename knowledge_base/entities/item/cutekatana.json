@@ -1,0 +1,61 @@
+{
+  "entity_id": "cutekatana",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Prismatic Katana",
+  "name_zh": "棱镜武士刀",
+  "description_en": "Honed to deadly perfection.\r\nCounts as 'energy' for set bonuses\r\n6-hit combo!",
+  "description_zh": "磨炼得致命而又完美的武器。\n能量武器\n6连斩",
+  "rarity": "rare",
+  "category": "katana",
+  "price": 400,
+  "tags": [
+    "weapon",
+    "melee",
+    "katana",
+    "energy",
+    "upgradeableWeapon",
+    "cute",
+    "cosmic"
+  ],
+  "elementalType": "cosmic",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.25,
+  "critChance": 2,
+  "critBonus": 6,
+  "primaryAbilityType": "katanacombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "prisilitestar",
+          "count": 2
+        },
+        {
+          "item": "moonstonebar",
+          "count": 4
+        },
+        {
+          "item": "solaricrystal",
+          "count": 3
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

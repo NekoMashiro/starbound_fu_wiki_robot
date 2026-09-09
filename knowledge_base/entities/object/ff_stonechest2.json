@@ -1,0 +1,49 @@
+{
+  "entity_id": "ff_stonechest2",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bloody Stone Chest",
+  "name_zh": "血石箱",
+  "description_en": "This is well made...",
+  "description_zh": "制作得真好！",
+  "rarity": "Common",
+  "category": "storage",
+  "price": 700,
+  "tags": [
+    "fu",
+    "storage"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "moonrock",
+          "count": 60
+        },
+        {
+          "item": "bloodstonematerial",
+          "count": 20
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

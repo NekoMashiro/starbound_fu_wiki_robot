@@ -1,0 +1,34 @@
+{
+  "entity_id": "swtjc_wp_compactvpersistentswitchinteractive",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Compact Persistent Switch (Interactive)",
+  "name_zh": "紧凑型持久开关(可交互)",
+  "description_en": "A persistent switch that I can also toggle manually.",
+  "description_zh": "这个持久开关我可以手动切换。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 20,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "swtjc_wp_compactvpersistentswitch",
+          "count": 1
+        },
+        {
+          "item": "wire",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "roadkillaugment",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "A Dead Animal",
+  "name_zh": "动物尸体",
+  "description_en": "A dead animal. What's wrong with you?\r\n+10% Poison Resist\r\nHaunting Meow",
+  "description_zh": "这就是一具动物尸体。你还好吗？\n毒素抗性+10%\n阴魂不散的猫叫",
+  "rarity": "common",
+  "category": "eppAugment",
+  "price": 5000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "bone",
+          "count": 42
+        },
+        {
+          "item": "fleshstrand",
+          "count": 22
+        },
+        {
+          "item": "leather",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe",
+      "requires_research": true
+    }
+  ],
+  "wiki_ref": "A Dead Animal.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "miningbench",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Upgrade Table",
+  "name_zh": "升级工作站",
+  "description_en": "Can be used to access your tricorder's upgrade interface. Largely cosmetic.",
+  "description_zh": "可用于访问三度仪的升级界面。已经是装饰的形状了（悲）。",
+  "rarity": "uncommon",
+  "category": "other",
+  "price": 0,
+  "tags": [
+    "tech",
+    "fu",
+    "science"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 5
+        },
+        {
+          "item": "moonstonebar",
+          "count": 3
+        },
+        {
+          "item": "advcircuit",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "物质汇编机",
+      "station_zh": "物质汇编机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Upgrade Table.md",
+  "quality_tier": "A"
+}

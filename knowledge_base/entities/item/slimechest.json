@@ -1,0 +1,46 @@
+{
+  "entity_id": "slimechest",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Slime Shirt",
+  "name_zh": "史莱姆衬衫",
+  "description_en": "Who knew goop could be so comfortable?",
+  "description_zh": "谁知道黏液会令人这么舒适呢？",
+  "rarity": "Rare",
+  "category": "chestwear",
+  "price": 2500,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "slimeChestTreasure",
+          "probability": 0.1194,
+          "count": 1.0
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoSlimeTreasure",
+          "probability": 0.0776,
+          "count": 1
+        },
+        {
+          "pool": "slimeTreasure",
+          "probability": 0.0649,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0649,
+        0.0776
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

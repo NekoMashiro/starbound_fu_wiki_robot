@@ -1,0 +1,322 @@
+{
+  "entity_id": "volatilepowder",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Volatile Powder",
+  "name_zh": "挥发性粉末",
+  "description_en": "A dangerous powder, useful for crafting explosives.",
+  "description_zh": "一种危险的粉末，对于制造炸爆炸物很有用。",
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "price": 0,
+  "tags": [
+    "reagent"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "Nightarian Furnace",
+          "name_zh": "夜族熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "基础级绘世者铸造台",
+          "name_zh": "基础级绘世者铸造台"
+        },
+        {
+          "name": "恒金锻造厂",
+          "name_zh": "恒金锻造厂"
+        },
+        {
+          "name": "原始熔炉",
+          "name_zh": "原始熔炉"
+        },
+        {
+          "name": "Medieval Furnace",
+          "name_zh": "中世纪熔炉"
+        },
+        {
+          "name": "Frontier Furnace",
+          "name_zh": "开拓者火炉"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 10
+        }
+      ],
+      "output_count": 10,
+      "station": "materialshop",
+      "station_zh": "materialshop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "at_ext_materialshop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "throwableItem": {
+        "count": 21,
+        "examples": [
+          "bomb",
+          "chilibomb",
+          "cockblock",
+          "firework",
+          "fireworkblue"
+        ]
+      },
+      "pistol": {
+        "count": 11,
+        "examples": [
+          "flaregun",
+          "floranneedler",
+          "isn_flintlock",
+          "kirhospistol",
+          "pistoldurasteelfu"
+        ]
+      },
+      "sniperRifle": {
+        "count": 8,
+        "examples": [
+          "fuprotectoratesniper",
+          "rifledurasteelfu",
+          "rifleferoziumfu",
+          "rifleironfu",
+          "riflequietusfu"
+        ]
+      },
+      "furniture": {
+        "count": 8,
+        "examples": [
+          "pyreitebed",
+          "pyreitecabinet",
+          "pyreitechair",
+          "pyreitecouch",
+          "pyreitedesk"
+        ]
+      },
+      "seed": {
+        "count": 7,
+        "examples": [
+          "aenemaflower",
+          "dragonsbeardseed",
+          "hellfireplantseed",
+          "ignuschili2seed",
+          "ignuschiliseed"
+        ]
+      },
+      "decorative": {
+        "count": 5,
+        "examples": [
+          "blastingdynamite",
+          "c4explosive",
+          "crudebomb",
+          "madnessmegapoptopfire",
+          "powderkeg"
+        ]
+      },
+      "storage": {
+        "count": 5,
+        "examples": [
+          "pyreitebookcase",
+          "pyreitechestlarge",
+          "pyreitechestsmall",
+          "pyreitedrawers",
+          "pyreitenightstand"
+        ]
+      },
+      "craftingMaterial": {
+        "count": 4,
+        "examples": [
+          "apiary_frame_dawn",
+          "calciumnitrate",
+          "calciumnitrate",
+          "fuelcatalyst"
+        ]
+      }
+    },
+    "total": 103
+  },
+  "drop_sources": {
+    "total_pools": 51,
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "slimemonstermagmaTreasure",
+          "probability": 0.2171,
+          "count": 1,
+          "monsters": [
+            "magmamicroslime",
+            "magmaslime",
+            "tarmicroslime"
+          ]
+        },
+        {
+          "pool": "ffatropusTreasure",
+          "probability": 0.0582,
+          "count": 9
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0435,
+          "count": 9,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0276,
+          "count": 9
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.0114,
+          "count": 9
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.2171
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "ffbeechestLoot",
+          "probability": 0.0735,
+          "count": 9
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0061,
+          "count": 9.0
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0059,
+          "count": 9.0
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.003,
+          "count": 9.0,
+          "monsters": [
+            "veilendrex"
+          ]
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0029,
+          "count": 9.0
+        }
+      ],
+      "prob_range": [
+        0.0003,
+        0.0735
+      ]
+    },
+    "other": {
+      "count": 12,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.0103,
+          "count": 9
+        },
+        {
+          "pool": "fuBasicChemMaterials",
+          "probability": 0.0036,
+          "count": 9
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0022,
+          "count": 9
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0018,
+          "count": 9
+        },
+        {
+          "pool": "fuSpaceBonus",
+          "probability": 0.0009,
+          "count": 9.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0103
+      ]
+    },
+    "quest_rewards": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "fuGenericQuestLoot",
+          "probability": 0.0009,
+          "count": 9.0
+        },
+        {
+          "pool": "fuGenericQuestLootMid",
+          "probability": 0.0008,
+          "count": 9.0
+        },
+        {
+          "pool": "fuGenericQuestLootHigh",
+          "probability": 0.0007,
+          "count": 9.0
+        },
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0002,
+          "count": 9.0
+        },
+        {
+          "pool": "mediumValueQuestRewards",
+          "probability": 0.0002,
+          "count": 9.0
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0009
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0002,
+          "count": 9.0
+        }
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

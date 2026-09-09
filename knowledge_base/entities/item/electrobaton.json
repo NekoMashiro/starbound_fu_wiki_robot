@@ -1,0 +1,100 @@
+{
+  "entity_id": "electrobaton",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Electro Baton",
+  "name_zh": "电警棍",
+  "description_en": "Originally developed for Miniknog riot police. It's shockingly effective.",
+  "description_zh": "起初开发给科技发展部的防暴警察。非常有效。",
+  "rarity": "Legendary",
+  "category": "shortsword",
+  "price": 640,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "upgradeableWeapon",
+    "energy",
+    "electric"
+  ],
+  "elementalType": "electric",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 4,
+  "critBonus": 10,
+  "primaryAbilityType": "shortswordcombo",
+  "drop_sources": {
+    "total_pools": 8,
+    "other": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "spaceWeapon",
+          "probability": 0.5,
+          "count": 1
+        },
+        {
+          "pool": "rareSpaceItem",
+          "probability": 0.01,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.01,
+        0.5
+      ]
+    },
+    "chest_loot": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "spaceChestTreasure",
+          "probability": 0.0107,
+          "count": 1.0
+        },
+        {
+          "pool": "miniknogshipChest",
+          "probability": 0.01,
+          "count": 1
+        },
+        {
+          "pool": "protectorateshipChest",
+          "probability": 0.01,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_dungeonloots_space_horizon_uncommon",
+          "probability": 0.01,
+          "count": 1
+        },
+        {
+          "pool": "cultistshipChest",
+          "probability": 0.0014,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0014,
+        0.0107
+      ]
+    },
+    "monster_drops": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "basicSpaceTreasure",
+          "probability": 0.0013,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "upgrade_path": {
+    "upgrades_to": "electrobatonicon_l6.png",
+    "seed": "",
+    "shortdescription": "电警棍 ^yellow;^reset;",
+    "scripts": []
+  },
+  "quality_tier": "A"
+}

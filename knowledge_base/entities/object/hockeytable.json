@@ -1,0 +1,30 @@
+{
+  "entity_id": "hockeytable",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Air Hockey Table",
+  "name_zh": "桌上冰球台",
+  "description_en": "A classic air hockey table. First to ten wins!",
+  "description_zh": "一个经典桌上冰球台。第一个得到十分的人赢！",
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 80,
+  "tags": [
+    "hylotl",
+    "hylotloceancity"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "chest_loot": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "hylotloceancityChestTreasure",
+          "probability": 0.0605,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

@@ -1,0 +1,64 @@
+{
+  "entity_id": "banespear",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Bane Spear",
+  "name_zh": "灾祸长矛",
+  "description_en": "A piercing weapon of great style and sophistication.\r\nHunting weapon",
+  "description_zh": "一把独具一格而复杂的尖锐武器。\n狩猎武器",
+  "rarity": "rare",
+  "category": "spear",
+  "price": 100,
+  "tags": [
+    "weapon",
+    "melee",
+    "spear",
+    "bioweapon",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "physical",
+  "level": 5,
+  "twoHanded": true,
+  "baseDps": 11,
+  "critChance": 1,
+  "critBonus": 9,
+  "primaryAbilityType": "spearstab",
+  "altAbilityType": "fucharge",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "refinedferozium",
+          "count": 7
+        },
+        {
+          "item": "fugeneticmaterial",
+          "count": 48
+        },
+        {
+          "item": "phasematter",
+          "count": 16
+        },
+        {
+          "item": "irradiumbar",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

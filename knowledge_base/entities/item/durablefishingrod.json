@@ -1,0 +1,44 @@
+{
+  "entity_id": "durablefishingrod",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Durable Fishing Rod",
+  "name_zh": "耐久鱼竿",
+  "description_en": "A durasteel rod for fishing in extreme environments.",
+  "description_zh": "一个用于在极端环境钓鱼的耐钢鱼竿。",
+  "rarity": "rare",
+  "category": "fishingRod",
+  "price": 1500,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "durasteelbar",
+          "count": 6
+        },
+        {
+          "item": "silverbar",
+          "count": 2
+        },
+        {
+          "item": "syntheticmaterial",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业级绘世者工作台",
+      "station_zh": "工业级绘世者工作台",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "农业工作台",
+          "name_zh": "农业工作台"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

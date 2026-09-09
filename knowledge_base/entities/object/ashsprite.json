@@ -1,0 +1,32 @@
+{
+  "entity_id": "ashsprite",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Ashsprite",
+  "name_zh": "灰烬虫",
+  "description_en": "These bugs appear to rise from clouds of ash.",
+  "description_zh": "这些虫子似乎从灰烬云中飞出。",
+  "rarity": "Common",
+  "category": "bug",
+  "price": 50,
+  "tags": [
+    "bug"
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ashsprite",
+          "probability": 1.0,
+          "count": 1,
+          "monsters": [
+            "ashsprite"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

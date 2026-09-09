@@ -1,0 +1,49 @@
+{
+  "entity_id": "elduukhartier1shortsword",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Oceanite Shortsword",
+  "name_zh": "大洋石短剑",
+  "description_en": "This sword is the a part of the apprentice gemcrafter's final test.",
+  "description_zh": "这把剑是宝石工匠学徒的最终测试的一部分。",
+  "rarity": "common",
+  "category": "shortsword",
+  "price": 180,
+  "tags": [
+    "weapon",
+    "melee",
+    "shortsword",
+    "crystal",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "ice",
+  "level": 1,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 1,
+  "critBonus": 4,
+  "primaryAbilityType": "shortswordcombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "opul",
+          "count": 2
+        },
+        {
+          "item": "oceanite",
+          "count": 15
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "Crystal Fusion Station",
+      "station_zh": "水晶融合站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

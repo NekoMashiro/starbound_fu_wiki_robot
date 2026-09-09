@@ -1,0 +1,33 @@
+{
+  "entity_id": "wastewater",
+  "entity_type": "liquid",
+  "source_mod": "Frackin' Universe",
+  "name_en": "wastewater",
+  "name_zh": "",
+  "description_en": "Ew. Filthy water.",
+  "description_zh": "额，这水好脏。",
+  "status_effects": [
+    "swimming",
+    "contaminatedpoison",
+    "wet"
+  ],
+  "interactions": [
+    {
+      "liquid": 3,
+      "materialResult": "clay"
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 0
+    },
+    {
+      "liquid": 12,
+      "liquidResult": 12
+    },
+    {
+      "liquid": 6,
+      "liquidResult": 6
+    }
+  ],
+  "quality_tier": "C"
+}

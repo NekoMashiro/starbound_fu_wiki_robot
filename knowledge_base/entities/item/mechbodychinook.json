@@ -1,0 +1,44 @@
+{
+  "entity_id": "mechbodychinook",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chinook Mech Body",
+  "name_zh": "奇努克机械机身",
+  "description_en": "Immune: L.Nitro, Proto, Moderate Heat/Cold/Radiation, Mild Poison\n+20% Armor, -10% Fuel",
+  "description_zh": "免疫：中度寒冷/炎热/辐射, 轻度毒素，原毒，液氮\n+20%护甲，-10%燃料",
+  "rarity": "Rare",
+  "category": "mechPart",
+  "price": 9200,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 20
+        },
+        {
+          "item": "icecrystal",
+          "count": 10
+        },
+        {
+          "item": "triangliumpyramid",
+          "count": 10
+        },
+        {
+          "item": "advcircuit",
+          "count": 5
+        },
+        {
+          "item": "powercore",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "craftingmech.json",
+      "station_zh": "",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

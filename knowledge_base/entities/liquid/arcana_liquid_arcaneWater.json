@@ -1,0 +1,39 @@
+{
+  "entity_id": "arcana_liquid_arcaneWater",
+  "entity_type": "liquid",
+  "source_mod": "Arcana",
+  "name_en": "arcana_liquid_arcaneWater",
+  "name_zh": "",
+  "description_en": "Water sprinkled with arcane magic.",
+  "description_zh": "灌注了秘境之力的水。",
+  "status_effects": [
+    "swimming"
+  ],
+  "interactions": [
+    {
+      "liquid": 1,
+      "liquidResult": 171
+    },
+    {
+      "liquid": 2,
+      "materialResult": "magmarock"
+    },
+    {
+      "liquid": 3,
+      "liquidResult": 171
+    },
+    {
+      "liquid": 8,
+      "liquidResult": 171
+    },
+    {
+      "liquid": 12,
+      "liquidResult": 171
+    },
+    {
+      "liquid": 6,
+      "liquidResult": 171
+    }
+  ],
+  "quality_tier": "C"
+}

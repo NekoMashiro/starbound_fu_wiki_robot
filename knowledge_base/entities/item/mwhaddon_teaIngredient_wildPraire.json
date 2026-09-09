@@ -1,0 +1,43 @@
+{
+  "entity_id": "mwhaddon_teaIngredient_wildPraire",
+  "entity_type": "item",
+  "source_mod": "[3.4 UPDATE]Voyage An Arcana Addon",
+  "name_en": "Juicy Praire",
+  "name_zh": "多汁篱棘",
+  "description_en": "A juicy flower that originates in Verdant planets.\n Restore an extra 100 Health while drinking. Any direct healing overflow turns into Max Health Bonus (cap at 200) until Cooldown expires.",
+  "description_zh": "一种原产自蓊茏星球的多汁的花。\n饮用后额外恢复100点生命值，溢出的直接治疗量在冷却时间内额外转化为最大生命值提升，至多计入200点生命值。",
+  "rarity": "rare",
+  "category": "tradingCard",
+  "price": 350,
+  "tags": [
+    "mwhaddon_teaIngredient"
+  ],
+  "drop_sources": {
+    "total_pools": 3,
+    "chest_loot": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "mwhaddon_lootbox_teaBox_t3",
+          "probability": 0.1429,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxEpic",
+          "probability": 0.0643,
+          "count": 1
+        },
+        {
+          "pool": "mwhaddon_lootbox_teaBoxCommon",
+          "probability": 0.0143,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0143,
+        0.1429
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

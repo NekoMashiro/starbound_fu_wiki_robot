@@ -1,0 +1,78 @@
+{
+  "entity_id": "liquiddeuterium",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Liquid Deuterium",
+  "name_zh": "液态氘",
+  "description_en": "A powerful cold-source and thus has many nuclear applications.\n+5 Fuel\nCentrifugable.",
+  "description_zh": "",
+  "rarity": "legendary",
+  "category": "liquid",
+  "price": 0,
+  "tags": [],
+  "recipes_input": {
+    "by_category": {
+      "wire": {
+        "count": 3,
+        "examples": [
+          "fu_quantumgenerator",
+          "isn_atmosregulatornew",
+          "isn_battery_t4_fero"
+        ]
+      },
+      "crossbow": {
+        "count": 2,
+        "examples": [
+          "lightningcrossbow",
+          "lightningstynger"
+        ]
+      },
+      "Chaingun": {
+        "count": 1,
+        "examples": [
+          "fuaegisaltminigun"
+        ]
+      },
+      "Quarterstaff": {
+        "count": 1,
+        "examples": [
+          "chainstaff"
+        ]
+      },
+      "light": {
+        "count": 1,
+        "examples": [
+          "deuteriumlavalamp"
+        ]
+      },
+      "broadsword": {
+        "count": 1,
+        "examples": [
+          "fuchainsword"
+        ]
+      },
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "lightningbackunique"
+        ]
+      },
+      "other": {
+        "count": 1,
+        "examples": [
+          "mmgravgun2"
+        ]
+      }
+    },
+    "total": 17
+  },
+  "machine_produced_by": [
+    {
+      "machine": "Arc Smelter",
+      "machine_zh": "电弧冶炼炉",
+      "input": "deuterium"
+    }
+  ],
+  "wiki_ref": "Liquid Deuterium.md",
+  "quality_tier": "A"
+}

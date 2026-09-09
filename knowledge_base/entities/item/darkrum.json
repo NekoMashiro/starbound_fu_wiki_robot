@@ -1,0 +1,47 @@
+{
+  "entity_id": "darkrum",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Dark Rum",
+  "name_zh": "黑朗姆酒",
+  "description_en": "Yo-ho-ho and a bottle of rum!\n35% Slow , Drunk (1m)",
+  "description_zh": "哟~嚯~嚯，一瓶朗姆酒。\n35%减速，醉酒(持续1m)",
+  "rarity": "Common",
+  "category": "drink",
+  "price": 4000,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "caramel",
+          "count": 5
+        },
+        {
+          "item": "agedrum",
+          "count": 1
+        },
+        {
+          "item": "spirits",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Distillery / Still",
+      "station_zh": "蒸馏器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "drink": {
+        "count": 1,
+        "examples": [
+          "fupinacolada"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,49 @@
+{
+  "entity_id": "effigiumdesklamp",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Effigium Desk Lamp",
+  "name_zh": "幻影台灯",
+  "description_en": "A purple desk lamp.",
+  "description_zh": "一盏紫色的台灯。",
+  "rarity": "legendary",
+  "category": "light",
+  "price": 160,
+  "tags": [
+    "effigium",
+    "light"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "effigiumbar",
+          "count": 5
+        },
+        {
+          "item": "crystal",
+          "count": 5
+        },
+        {
+          "item": "wire",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "工业合成台",
+      "station_zh": "工业合成台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "俄里翁工作站",
+          "name_zh": "俄里翁工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

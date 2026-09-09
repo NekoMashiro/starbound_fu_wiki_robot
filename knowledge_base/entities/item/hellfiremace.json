@@ -1,0 +1,58 @@
+{
+  "entity_id": "hellfiremace",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellfire Mace",
+  "name_zh": "地狱火钉头锤",
+  "description_en": "Burns with rage. And heat. And other hot stuff. Design by Gezbo.",
+  "description_zh": "烧吧，烧尽一切吧！由Gezbo设计。",
+  "rarity": "rare",
+  "category": "mace",
+  "price": 1200,
+  "tags": [
+    "weapon",
+    "melee",
+    "mace",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "hellfire",
+  "level": 4,
+  "twoHanded": false,
+  "baseDps": 7.5,
+  "critChance": 3,
+  "critBonus": 3,
+  "primaryAbilityType": "macecombo",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "corefragmentore",
+          "count": 4
+        },
+        {
+          "item": "corruptionseed",
+          "count": 5
+        },
+        {
+          "item": "scorchedcore",
+          "count": 5
+        }
+      ],
+      "output_count": 1,
+      "station": "等离子级绘世者铸造台",
+      "station_zh": "等离子级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械制作台",
+          "name_zh": "军械制作台"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

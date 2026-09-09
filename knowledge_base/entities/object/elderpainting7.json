@@ -1,0 +1,86 @@
+{
+  "entity_id": "elderpainting7",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Thing in the Dark",
+  "name_zh": "暗藏玄机",
+  "description_en": "Even looking at this painting hurts my eyes and yet I feel compelled to touch it...",
+  "description_zh": "即使看着这幅画也会刺痛我的眼睛，但我还是觉得有必要去接触它...",
+  "rarity": "rare",
+  "category": "decorative",
+  "price": 1350,
+  "tags": [
+    "elder",
+    "hideous"
+  ],
+  "drop_sources": {
+    "total_pools": 7,
+    "monster_drops": {
+      "count": 5,
+      "top": [
+        {
+          "pool": "shoggothTreasure",
+          "probability": 0.4715,
+          "count": 1
+        },
+        {
+          "pool": "ffelderStarspawnTreasure",
+          "probability": 0.0196,
+          "count": 1,
+          "monsters": [
+            "starspawn"
+          ]
+        },
+        {
+          "pool": "ffelderTreasure",
+          "probability": 0.0124,
+          "count": 1
+        },
+        {
+          "pool": "ffelderTreasureLesser",
+          "probability": 0.0112,
+          "count": 1
+        },
+        {
+          "pool": "paintingMadnessTreasure",
+          "probability": 0.0035,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0035,
+        0.4715
+      ]
+    },
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "shoggothFlesh",
+          "probability": 0.3493,
+          "count": 1,
+          "monsters": [
+            "shoggoth",
+            "shoggoth2"
+          ]
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "ffelderStarspawnTreasureBoss",
+          "probability": 0.031,
+          "count": 1,
+          "monsters": [
+            "starspawn2",
+            "starspawn3",
+            "starspawn4"
+          ]
+        }
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

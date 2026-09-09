@@ -1,0 +1,36 @@
+{
+  "entity_id": "sd_exp_aureadrone_controller",
+  "entity_type": "item",
+  "source_mod": "[Arcana]Titancorp Expansion",
+  "name_en": "Overseer Drone Controller",
+  "name_zh": "监督员无人机控制器",
+  "description_en": "A reconnaissance drone developed by Aurea Collective to assist seekers in their work\r\n    [Primary]Spawn/Despawn，[Alt]emit a terrain-detecting ping.Can be used to detect entities.",
+  "description_zh": "恒金联合开发的用于协助搜寻者们工作的侦查无人机。\n[左键]释放/收回，[右键]发射侦测脉冲，能用来检测实体。",
+  "rarity": "Legendary",
+  "category": "^#DBC5A6;侦察无人机工具",
+  "price": 0,
+  "tags": [],
+  "level": 1,
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "arcana_currency_credit",
+          "count": 500
+        }
+      ],
+      "output_count": 1,
+      "station": "Orion Cybernetics Drone Shop",
+      "station_zh": "Orion Cybernetics Drone Shop",
+      "source_mod": "[Arcana]Titancorp Expansion",
+      "also_at": [
+        {
+          "name": "sd_exp_shop.json",
+          "name_zh": ""
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "swtjc_wp_sequencer3bitv",
+  "entity_type": "object",
+  "source_mod": "Frackin' Universe",
+  "name_en": "3-Bit Sequencer",
+  "name_zh": "3-Bit定序器",
+  "description_en": "A 3-bit sequencer. Outputs a signal based on which of the 8 states it's currently on.",
+  "description_zh": "一个3-Bit定序器。输出信号取决于当前处于这八个状态中的哪一个。",
+  "rarity": "Common",
+  "category": "wire",
+  "price": 10,
+  "tags": [
+    "wired"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "persistentswitch",
+          "count": 3
+        },
+        {
+          "item": "dlatch",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Wiring Station",
+      "station_zh": "配线工作站",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "woodengate",
+  "entity_type": "object",
+  "source_mod": "Starbound",
+  "name_en": "Wooden Gate",
+  "name_zh": "木制门",
+  "description_en": "A crude wooden gate. Not very secure.",
+  "description_zh": "粗糙的木制门。并不是很安全。",
+  "rarity": "Common",
+  "category": "door",
+  "price": 10,
+  "tags": [
+    "door"
+  ],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 10
+        },
+        {
+          "item": "cobblestonematerial",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "木制合成台",
+          "name_zh": "木制合成台"
+        },
+        {
+          "name": "Tool Shelf",
+          "name_zh": "工具架"
+        },
+        {
+          "name": "秘境工作站",
+          "name_zh": "秘境工作站"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}

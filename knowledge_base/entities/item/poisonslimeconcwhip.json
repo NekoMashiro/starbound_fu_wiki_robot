@@ -1,0 +1,52 @@
+{
+  "entity_id": "poisonslimeconcwhip",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Concealed Poison Slime Whip",
+  "name_zh": "隐式毒液粘液鞭",
+  "description_en": "A concealed whip made of sticky, poisonous slime.",
+  "description_zh": "用粘性有毒粘液制成的隐蔽鞭子。",
+  "rarity": "Legendary",
+  "category": "whip",
+  "price": 1600,
+  "tags": [
+    "weapon",
+    "whip",
+    "upgradeableWeapon",
+    "slime",
+    "poison"
+  ],
+  "elementalType": "poison",
+  "level": 3,
+  "twoHanded": false,
+  "critChance": 2,
+  "critBonus": 4,
+  "primaryAbilityType": "whipcrack",
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "poisonslimewhip3",
+          "count": 1
+        },
+        {
+          "item": "venomsample",
+          "count": 15
+        },
+        {
+          "item": "unstableparticles",
+          "count": 1
+        },
+        {
+          "item": "slimegem",
+          "count": 8
+        }
+      ],
+      "output_count": 1,
+      "station": "生化微分器",
+      "station_zh": "生化微分器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "quality_tier": "A"
+}

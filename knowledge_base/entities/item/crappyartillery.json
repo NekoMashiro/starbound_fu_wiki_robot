@@ -1,0 +1,56 @@
+{
+  "entity_id": "crappyartillery",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Missile Strike",
+  "name_zh": "导弹突袭导引器",
+  "description_en": "Call in a minor missile assault from above.",
+  "description_zh": "从你的飞船上呼叫一轮微型导弹，对目标进行突袭打击。\n只适合在室外环境使用",
+  "rarity": "common",
+  "category": "rocketLauncher",
+  "price": 300,
+  "tags": [
+    "weapon",
+    "ranged",
+    "rocketLauncher",
+    "upgradeableWeapon"
+  ],
+  "elementalType": "fire",
+  "level": 2,
+  "twoHanded": false,
+  "critChance": 10,
+  "critBonus": 20,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 1
+        },
+        {
+          "item": "siliconboard",
+          "count": 2
+        },
+        {
+          "item": "cpu",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "基础级绘世者铸造台",
+      "station_zh": "基础级绘世者铸造台",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "军械车间",
+          "name_zh": "军械车间"
+        },
+        {
+          "name": "夜族复制器",
+          "name_zh": "夜族复制器"
+        }
+      ]
+    }
+  ],
+  "quality_tier": "A"
+}
