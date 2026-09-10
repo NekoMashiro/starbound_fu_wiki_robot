@@ -1,7 +1,7 @@
 """
 query.py — RAG 查询核心
 
-混合检索（BM25 关键词 + 向量语义）+ LLM 生成回答。
+混合检索（BM25 关键词 + 向量语义，RRF 融合）+ LLM 生成回答。
 完整文档上下文模式：检索到的文档完整传递给 LLM。
 """
 
@@ -21,14 +21,31 @@ from rank_bm25 import BM25Okapi
 from config import (
     CHROMA_DB_DIR, KNOWLEDGE_BASE_DIR, BM25_CACHE_PATH,
     OPENROUTER_API_KEY, OPENROUTER_API_BASE, LLM_MODEL,
-    TOP_K, BM25_WEIGHT, VECTOR_WEIGHT, MAX_CONTEXT_LENGTH,
+    TOP_K, CANDIDATE_K, RRF_K, FUSION, MAX_CLAUSES,
+    BM25_WEIGHT, VECTOR_WEIGHT, MAX_CONTEXT_LENGTH,
 )
-from embedding import get_embedding
+from embedding import get_embeddings
 from translator import Translator
 
 COLLECTION_NAME = 'fu_knowledge_base'
 
 _COLOR_CODE_RE = re.compile(r'\^[a-zA-Z#0-9]+;')
+# 标点 + 空白（空格/全角空格/Tab/换行）；不按英文句点切，避免拆开 S.A.I.L
+_CLAUSE_SPLIT_RE = re.compile(r'[，。；、！？!?\s]+')
+
+
+def split_query_clauses(query: str, min_len: int = 2, max_clauses: int = MAX_CLAUSES) -> list[str]:
+    """按标点和空白拆成检索子句；过短的丢掉，过多的尾部合并。"""
+    parts = [p.strip() for p in _CLAUSE_SPLIT_RE.split(query) if p and p.strip()]
+    clauses = [p for p in parts if len(p) >= min_len]
+    if not clauses:
+        stripped = query.strip()
+        return [stripped] if stripped else []
+    if len(clauses) > max_clauses:
+        head = clauses[:max_clauses - 1]
+        tail = '，'.join(clauses[max_clauses - 1:])
+        clauses = head + [tail]
+    return clauses
 
 def strip_color_codes(text: str) -> str:
     """去除 Starbound 游戏内的颜色标记。"""
@@ -168,76 +185,139 @@ class RAGEngine:
             self._bm25 = BM25Okapi(tokenized_corpus)
             self._save_bm25_cache(signature)
 
-    def search(self, query: str, top_k: int = TOP_K, quiet: bool = False) -> list[dict]:
-        """混合检索：BM25 + 向量检索，合并排序。"""
+    @staticmethod
+    def _blank_hit(doc_id: str, metadata: dict, content=None) -> dict:
+        return {
+            'id': doc_id,
+            'metadata': metadata,
+            'content': content,
+            'bm25_score': 0.0,
+            'vector_score': 0.0,
+            'bm25_rank': None,
+            'vector_rank': None,
+            'votes': [],
+            'final_score': 0.0,
+        }
+
+    def _ensure_hit(self, results: dict, doc_id: str, metadata: dict, content=None) -> dict:
+        if doc_id not in results:
+            results[doc_id] = self._blank_hit(doc_id, metadata, content)
+        elif content and results[doc_id]['content'] is None:
+            results[doc_id]['content'] = content
+        return results[doc_id]
+
+    @staticmethod
+    def _add_vote(hit: dict, src: str, rank: int, score: float):
+        hit['votes'].append({'src': src, 'rank': rank, 'score': score})
+        if src == 'bm25':
+            if hit['bm25_rank'] is None or rank < hit['bm25_rank']:
+                hit['bm25_rank'] = rank
+            if score > hit['bm25_score']:
+                hit['bm25_score'] = score
+        else:
+            if hit['vector_rank'] is None or rank < hit['vector_rank']:
+                hit['vector_rank'] = rank
+            if score > hit['vector_score']:
+                hit['vector_score'] = score
+
+    def _prepare_clauses(self, query: str) -> list[str]:
+        raw = split_query_clauses(query)
+        clauses = []
+        seen = set()
+        for part in raw:
+            enhanced = self._translator.enhance_query(part)
+            if enhanced not in seen:
+                seen.add(enhanced)
+                clauses.append(enhanced)
+        return clauses or [query.strip()]
+
+    def _retrieve_bm25_clause(self, results: dict, clause: str, per_k: int) -> int:
+        if not (self._bm25 and self._doc_index):
+            return 0
+        query_tokens = list(jieba.cut(clause.lower()))
+        bm25_scores = self._bm25.get_scores(query_tokens)
+        top_indices = sorted(
+            range(len(bm25_scores)),
+            key=lambda i: bm25_scores[i],
+            reverse=True,
+        )[:per_k]
+        max_bm25 = max(bm25_scores) if max(bm25_scores) > 0 else 1
+        hits = 0
+        rank = 0
+        for idx in top_indices:
+            if bm25_scores[idx] <= 0:
+                continue
+            rank += 1
+            doc = self._doc_index[idx]
+            hit = self._ensure_hit(results, doc['id'], doc['metadata'])
+            self._add_vote(hit, 'bm25', rank, bm25_scores[idx] / max_bm25)
+            hits += 1
+        return hits
+
+    def _retrieve_hybrid(self, query: str, candidate_k: int) -> tuple[dict, dict]:
+        """按子句分别 BM25 + 向量检索，票写入 votes 供 RRF。"""
         results = {}
         timings = {}
+        clauses = self._prepare_clauses(query)
+        timings['clauses'] = clauses
+        n_clauses = len(clauses)
+        per_k = candidate_k if n_clauses == 1 else max(12, candidate_k // 2)
 
-        # ── BM25 关键词检索 ──
         t1 = time.time()
         bm25_hits = 0
-        if self._bm25 and self._doc_index:
-            query_tokens = list(jieba.cut(query.lower()))
-            bm25_scores = self._bm25.get_scores(query_tokens)
-
-            top_indices = sorted(
-                range(len(bm25_scores)),
-                key=lambda i: bm25_scores[i],
-                reverse=True,
-            )[:top_k * 2]
-
-            max_bm25 = max(bm25_scores) if max(bm25_scores) > 0 else 1
-            for idx in top_indices:
-                if bm25_scores[idx] > 0:
-                    doc = self._doc_index[idx]
-                    doc_id = doc['id']
-                    normalized_score = bm25_scores[idx] / max_bm25
-                    results[doc_id] = {
-                        'id': doc_id,
-                        'metadata': doc['metadata'],
-                        'content': None,
-                        'bm25_score': normalized_score,
-                        'vector_score': 0,
-                    }
-                    bm25_hits += 1
+        for clause in clauses:
+            bm25_hits += self._retrieve_bm25_clause(results, clause, per_k)
         timings['bm25'] = time.time() - t1
+        timings['bm25_hits'] = bm25_hits
 
-        # ── 向量语义检索 ──
         t1 = time.time()
         vector_hits = 0
         try:
-            query_embedding = get_embedding(query)
+            embeddings = get_embeddings(clauses)
             chroma_results = self._collection.query(
-                query_embeddings=[query_embedding],
-                n_results=top_k * 2,
+                query_embeddings=embeddings,
+                n_results=per_k,
                 include=['documents', 'metadatas', 'distances'],
             )
-
-            if chroma_results['ids'] and chroma_results['ids'][0]:
-                for i, doc_id in enumerate(chroma_results['ids'][0]):
-                    distance = chroma_results['distances'][0][i]
-                    similarity = 1 - distance
-
-                    if doc_id in results:
-                        results[doc_id]['vector_score'] = similarity
-                        if results[doc_id]['content'] is None:
-                            results[doc_id]['content'] = chroma_results['documents'][0][i]
-                    else:
-                        results[doc_id] = {
-                            'id': doc_id,
-                            'metadata': chroma_results['metadatas'][0][i],
-                            'content': chroma_results['documents'][0][i],
-                            'bm25_score': 0,
-                            'vector_score': similarity,
-                        }
+            id_lists = chroma_results.get('ids') or []
+            for ci, ids in enumerate(id_lists):
+                docs = chroma_results['documents'][ci]
+                metas = chroma_results['metadatas'][ci]
+                dists = chroma_results['distances'][ci]
+                for i, doc_id in enumerate(ids):
+                    similarity = 1 - dists[i]
+                    hit = self._ensure_hit(results, doc_id, metas[i], docs[i])
+                    self._add_vote(hit, 'vector', i + 1, similarity)
                     vector_hits += 1
         except Exception as e:
             print(f'  ⚠️  向量检索失败: {e}')
         timings['vector'] = time.time() - t1
+        timings['vector_hits'] = vector_hits
+        return results, timings
 
-        # ── 混合排序 ──
-        # 实体类型权重：游戏实体高权重，纯文本类低权重（减少 codex 噪声）
-        _TYPE_WEIGHT = {
+    def _fuse(self, results: dict, fusion: str) -> list[dict]:
+        """按融合策略打分并降序排列（不截断）。"""
+        if fusion == 'weighted':
+            return self._fuse_weighted(results)
+        return self._fuse_rrf(results)
+
+    def _fuse_rrf(self, results: dict) -> list[dict]:
+        for r in results.values():
+            votes = r.get('votes') or []
+            if votes:
+                r['final_score'] = sum(1.0 / (RRF_K + v['rank']) for v in votes)
+            else:
+                score = 0.0
+                if r['bm25_rank'] is not None:
+                    score += 1.0 / (RRF_K + r['bm25_rank'])
+                if r['vector_rank'] is not None:
+                    score += 1.0 / (RRF_K + r['vector_rank'])
+                r['final_score'] = score
+        return sorted(results.values(), key=lambda x: x['final_score'], reverse=True)
+
+    def _fuse_weighted(self, results: dict) -> list[dict]:
+        """旧版加权求和，仅保留每路前 20，供评测对照。"""
+        type_weight_map = {
             'item': 1.0, 'object': 1.0, 'monster': 1.0,
             'biome': 1.0, 'tech': 1.0, 'liquid': 1.0,
             'wiki': 0.95,
@@ -245,32 +325,33 @@ class RAGEngine:
             'tenant': 0.8, 'collection': 0.8,
             'quest': 0.7, 'codex': 0.6,
         }
+        legacy_k = 20
+        ranked = []
         for r in results.values():
+            bm25 = r['bm25_score'] if (r['bm25_rank'] or 999) <= legacy_k else 0.0
+            vec = r['vector_score'] if (r['vector_rank'] or 999) <= legacy_k else 0.0
+            if bm25 <= 0 and vec <= 0:
+                continue
             tier_bonus = {'S': 0.1, 'A': 0.05}.get(
                 r['metadata'].get('quality_tier', ''), 0
             )
             etype = r['metadata'].get('entity_type', '')
-            type_weight = _TYPE_WEIGHT.get(etype, 0.8)
-            raw_score = (
-                BM25_WEIGHT * r['bm25_score'] +
-                VECTOR_WEIGHT * r['vector_score'] +
-                tier_bonus
-            )
-            # 仅当 BM25 命中但向量未命中时（纯关键词巧合）施加惩罚
-            if r['bm25_score'] > 0 and r['vector_score'] == 0:
-                type_weight *= 0.7  # 额外惩罚仅靠关键词匹配的结果
-            r['final_score'] = raw_score * type_weight
+            type_weight = type_weight_map.get(etype, 0.8)
+            if bm25 > 0 and vec == 0:
+                type_weight *= 0.7
+            scored = dict(r)
+            scored['bm25_score'] = bm25
+            scored['vector_score'] = vec
+            scored['final_score'] = (
+                BM25_WEIGHT * bm25 + VECTOR_WEIGHT * vec + tier_bonus
+            ) * type_weight
+            ranked.append(scored)
+        return sorted(ranked, key=lambda x: x['final_score'], reverse=True)
 
-        sorted_results = sorted(
-            results.values(),
-            key=lambda x: x['final_score'],
-            reverse=True,
-        )[:top_k]
-
-        # 加载未获取内容的文档
+    def _fetch_missing_content(self, ranked: list[dict]) -> tuple[int, float]:
         t1 = time.time()
         fetch_count = 0
-        for r in sorted_results:
+        for r in ranked:
             if r['content'] is None:
                 try:
                     fetched = self._collection.get(
@@ -279,27 +360,58 @@ class RAGEngine:
                     )
                     r['content'] = fetched['documents'][0] if fetched['documents'] else ''
                     fetch_count += 1
-                except:
+                except Exception:
                     r['content'] = ''
-        timings['fetch'] = time.time() - t1
+        return fetch_count, time.time() - t1
+
+    def search(
+        self,
+        query: str,
+        top_k: int = TOP_K,
+        quiet: bool = False,
+        fusion: str | None = None,
+        candidate_k: int | None = None,
+    ) -> list[dict]:
+        """混合检索：BM25 + 向量，默认 RRF 融合。"""
+        fusion = fusion or FUSION
+        candidate_k = CANDIDATE_K if candidate_k is None else candidate_k
+        results, timings = self._retrieve_hybrid(query, candidate_k)
+        sorted_results = self._fuse(results, fusion)[:top_k]
+        fetch_count, fetch_s = self._fetch_missing_content(sorted_results)
+        timings['fetch'] = fetch_s
 
         if not quiet:
-            print(f'  🔍 BM25: {bm25_hits} hits ({timings["bm25"]:.2f}s) | '
-                  f'向量: {vector_hits} hits ({timings["vector"]:.2f}s) | '
-                  f'合并: {len(results)} → top {len(sorted_results)}')
+            clauses = timings.get('clauses') or []
+            clause_info = f'{len(clauses)} 句 | ' if len(clauses) > 1 else ''
+            print(f'  🔍 {clause_info}BM25: {timings["bm25_hits"]} hits ({timings["bm25"]:.2f}s) | '
+                  f'向量: {timings["vector_hits"]} hits ({timings["vector"]:.2f}s) | '
+                  f'{fusion}: {len(results)} → top {len(sorted_results)}')
+            if len(clauses) > 1:
+                for i, c in enumerate(clauses, 1):
+                    preview = c if len(c) <= 40 else c[:40] + '…'
+                    print(f'     句{i}: {preview}')
             if fetch_count:
                 print(f'     补充加载 {fetch_count} 篇文档 ({timings["fetch"]:.2f}s)')
             for i, r in enumerate(sorted_results[:5]):
                 meta = r['metadata']
                 name = meta.get('name_zh') or meta.get('name_en') or meta.get('entity_id', '?')
                 etype = meta.get('entity_type', '')
-                score = r['final_score']
-                bm25 = r['bm25_score']
-                vec = r['vector_score']
+                br = r['bm25_rank'] if r['bm25_rank'] is not None else '-'
+                vr = r['vector_rank'] if r['vector_rank'] is not None else '-'
                 print(f'     #{i+1} [{etype}] {name} '
-                      f'(score={score:.3f}, bm25={bm25:.2f}, vec={vec:.2f})')
+                      f'(score={r["final_score"]:.4f}, bm25=#{br}, vec=#{vr})')
 
         return sorted_results
+
+    def search_compare(self, query: str, top_k: int = TOP_K) -> dict:
+        """一次召回，分别用旧加权和新 RRF 截断，供评测对照。"""
+        results, timings = self._retrieve_hybrid(query, CANDIDATE_K)
+        return {
+            'rrf': self._fuse(results, 'rrf')[:top_k],
+            'weighted': self._fuse(results, 'weighted')[:top_k],
+            'pool_size': len(results),
+            'timings': timings,
+        }
 
     def build_context(self, search_results: list[dict]) -> str:
         """将检索到的文档组装为 LLM 上下文。"""
@@ -359,7 +471,7 @@ class RAGEngine:
         if not quiet:
             print('  📚 混合检索...')
         t1 = time.time()
-        search_results = self.search(enhanced, top_k, quiet=quiet)
+        search_results = self.search(question, top_k, quiet=quiet)
         search_time = time.time() - t1
 
         if not search_results:
@@ -409,7 +521,7 @@ class RAGEngine:
         total_t0 = time.time()
         enhanced = self._translator.enhance_query(question)
         t1 = time.time()
-        search_results = self.search(enhanced, top_k, quiet=quiet)
+        search_results = self.search(question, top_k, quiet=quiet)
         search_time = time.time() - t1
 
         if not search_results:

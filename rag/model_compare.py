@@ -127,7 +127,7 @@ def main():
         print("\n  📚 检索中...")
         t0 = time.time()
         enhanced = engine._translator.enhance_query(question)
-        search_results = engine.search(enhanced, TOP_K)
+        search_results = engine.search(question, TOP_K)
         context = engine.build_context(search_results)
         translation_ref = engine._translator.build_translation_context(context)
         search_time = time.time() - t0

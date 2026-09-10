@@ -23,9 +23,13 @@ CHROMA_DB_DIR = Path(__file__).parent / 'chroma_db'
 BM25_CACHE_PATH = Path(__file__).parent / 'bm25_cache.pkl'
 
 # ── 检索参数 ──
-TOP_K = 10                 # hybrid 召回文档数
-BM25_WEIGHT = 0.4          # BM25 在混合检索中的权重
-VECTOR_WEIGHT = 0.6        # 向量检索在混合检索中的权重
+TOP_K = 10                 # 最终返回 / 喂给 LLM 的文档数
+CANDIDATE_K = 40           # 每路（BM25 / 向量）召回候选数
+RRF_K = 60                 # Reciprocal Rank Fusion 常数
+MAX_CLAUSES = 15           # 长问句最多拆成几段分别检索，超出的尾部合并成一句
+FUSION = 'rrf'             # rrf | weighted（weighted 仅作评测对照）
+BM25_WEIGHT = 0.4          # 仅 fusion=weighted 时使用
+VECTOR_WEIGHT = 0.6        # 仅 fusion=weighted 时使用
 MAX_CONTEXT_LENGTH = 48000 # 发给 LLM 的上下文最大字符数（~24K token）
 
 # ── 质量过滤 ──
