@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from config import (
     ZHIPU_API_KEY, ZHIPU_API_BASE,
     OPENROUTER_API_KEY, OPENROUTER_API_BASE,
-    TOP_K,
+    TOP_K, openrouter_provider_prefs,
 )
 from query import RAGEngine, SYSTEM_PROMPT, strip_color_codes
 
@@ -75,6 +75,7 @@ def call_openrouter(model_id: str, user_message: str, timeout: float = 120) -> d
                 'temperature': 0.3,
                 'max_tokens': 2000,
                 'reasoning': {'effort': 'none'},
+                'provider': openrouter_provider_prefs(),
             },
             timeout=timeout,
         )

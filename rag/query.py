@@ -21,6 +21,7 @@ from rank_bm25 import BM25Okapi
 from config import (
     CHROMA_DB_DIR, KNOWLEDGE_BASE_DIR, BM25_CACHE_PATH,
     OPENROUTER_API_KEY, OPENROUTER_API_BASE, LLM_MODEL,
+    openrouter_provider_prefs,
     TOP_K, CANDIDATE_K, RRF_K, FUSION, MAX_CLAUSES,
     BM25_WEIGHT, VECTOR_WEIGHT, MAX_CONTEXT_LENGTH,
 )
@@ -632,12 +633,7 @@ class RAGEngine:
         }
         if LLM_PROVIDER == 'openrouter':
             request_body['reasoning'] = {'effort': 'none'}
-            request_body['provider'] = {
-                'sort': 'latency',
-                'preferred_max_latency': {'p90': 25},
-                'ignore': ['OpenInference'],
-                'allow_fallbacks': True,
-            }
+            request_body['provider'] = openrouter_provider_prefs()
         return api_base, headers, request_body
 
     def _iter_llm_stream(self, user_message: str):

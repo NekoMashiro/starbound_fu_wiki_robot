@@ -40,6 +40,19 @@ ZHIPU_API_BASE = 'https://open.bigmodel.cn/api/paas/v4'
 
 # ── OpenRouter API ──
 OPENROUTER_API_BASE = 'https://openrouter.ai/api/v1'
+# 优先走的上游；逗号分隔，默认 Wafer，失败再回退其他服务商
+OPENROUTER_PROVIDER_ORDER = [
+    x.strip() for x in os.getenv('OPENROUTER_PROVIDER_ORDER', 'wafer').split(',') if x.strip()
+]
+
+
+def openrouter_provider_prefs() -> dict:
+    """OpenRouter provider 路由：先试 order，不可用再 fallback。"""
+    return {
+        'order': OPENROUTER_PROVIDER_ORDER,
+        'allow_fallbacks': True,
+        'ignore': ['OpenInference'],
+    }
 
 # ── QQ 官方机器人 ──
 QQ_APP_ID = os.getenv('QQ_APP_ID', '')
