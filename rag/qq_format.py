@@ -84,7 +84,7 @@ def _split_chunks(text: str, size: int = CHUNK_SIZE) -> list[str]:
 def format_markdown_chunks(result: dict) -> list[str]:
     """群聊：完整 Markdown，超长拆成最多 5 条。闲聊不挂来源。"""
     sources = result.get('sources') or []
-    if result.get('intent') == 'chat':
+    if result.get('intent') in ('chat', 'random'):
         sources = []
     text = append_sources(result.get('answer') or '', sources)
     chunks = _split_chunks(text)

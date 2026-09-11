@@ -26,6 +26,12 @@ def _print_result(question: str, result: dict):
     intent = result.get('intent') or 'ask'
     enhanced = result.get('enhanced_query', '')
     print(f'\n🎯 intent={intent}')
+    pool = result.get('pool')
+    if pool:
+        print(f'🎲 pool={pool}')
+    pick = result.get('pick')
+    if pick:
+        print(f'🎯 pick={pick}')
     if enhanced and enhanced != question:
         print(f'🔄 查询增强: {enhanced}')
 
@@ -33,7 +39,7 @@ def _print_result(question: str, result: dict):
     print(result['answer'])
 
     sources = result.get('sources') or []
-    if sources and intent != 'chat':
+    if sources and intent not in ('chat', 'random'):
         print(f'\n📚 参考来源 ({len(sources)} 篇):')
         for s in sources[:5]:
             name_en = strip_color_codes(s.get('name_en', ''))

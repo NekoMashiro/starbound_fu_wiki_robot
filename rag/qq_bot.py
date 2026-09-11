@@ -267,8 +267,10 @@ class WikiClient(botpy.Client):
                 result = await self._answer_group_markdown(question, send)
             total = (result.get('timings') or {}).get('total')
             intent = result.get('intent') or 'ask'
+            pool = result.get('pool') or '-'
+            pick = result.get('pick') or '-'
             _log.info(
-                f'answered kind={kind} intent={intent} '
+                f'answered kind={kind} intent={intent} pool={pool} pick={pick} '
                 f'q={question[:40]!r} time={total}'
             )
         except Exception:
@@ -354,7 +356,7 @@ class WikiClient(botpy.Client):
         result = await fut
         visible = visible_markdown(raw) or visible_markdown(result.get('answer') or '')
         sources = result.get('sources') or []
-        if result.get('intent') == 'chat':
+        if result.get('intent') in ('chat', 'random'):
             sources = []
         final = append_sources(visible, sources)
         if last_sent and not final.startswith(last_sent):
