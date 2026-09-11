@@ -236,8 +236,10 @@ class RAGEngine:
         return results[doc_id]
 
     @staticmethod
-    def _add_vote(hit: dict, src: str, rank: int, score: float):
-        hit['votes'].append({'src': src, 'rank': rank, 'score': score})
+    def _add_vote(hit: dict, src: str, rank: int, score: float, clause: int = 0):
+        hit['votes'].append({
+            'src': src, 'rank': rank, 'score': score, 'clause': clause,
+        })
         if src == 'bm25':
             if hit['bm25_rank'] is None or rank < hit['bm25_rank']:
                 hit['bm25_rank'] = rank
@@ -260,7 +262,9 @@ class RAGEngine:
                 clauses.append(enhanced)
         return clauses or [query.strip()]
 
-    def _retrieve_bm25_clause(self, results: dict, clause: str, per_k: int) -> int:
+    def _retrieve_bm25_clause(
+        self, results: dict, clause: str, per_k: int, clause_i: int = 0,
+    ) -> int:
         if not (self._bm25 and self._doc_index):
             return 0
         query_tokens = list(jieba.cut(clause.lower()))
@@ -279,12 +283,14 @@ class RAGEngine:
             rank += 1
             doc = self._doc_index[idx]
             hit = self._ensure_hit(results, doc['id'], doc['metadata'])
-            self._add_vote(hit, 'bm25', rank, bm25_scores[idx] / max_bm25)
+            self._add_vote(
+                hit, 'bm25', rank, bm25_scores[idx] / max_bm25, clause=clause_i,
+            )
             hits += 1
         return hits
 
     def _retrieve_hybrid(self, query: str, candidate_k: int) -> tuple[dict, dict]:
-        """按子句分别 BM25 + 向量检索，票写入 votes 供 RRF。"""
+        """按子句分别 BM25 + 向量检索，票写入 votes；融合时句内相加、跨句取 max。"""
         results = {}
         timings = {}
         clauses = self._prepare_clauses(query)
@@ -294,8 +300,10 @@ class RAGEngine:
 
         t1 = time.time()
         bm25_hits = 0
-        for clause in clauses:
-            bm25_hits += self._retrieve_bm25_clause(results, clause, per_k)
+        for clause_i, clause in enumerate(clauses):
+            bm25_hits += self._retrieve_bm25_clause(
+                results, clause, per_k, clause_i,
+            )
         timings['bm25'] = time.time() - t1
         timings['bm25_hits'] = bm25_hits
 
@@ -316,7 +324,7 @@ class RAGEngine:
                 for i, doc_id in enumerate(ids):
                     similarity = 1 - dists[i]
                     hit = self._ensure_hit(results, doc_id, metas[i], docs[i])
-                    self._add_vote(hit, 'vector', i + 1, similarity)
+                    self._add_vote(hit, 'vector', i + 1, similarity, clause=ci)
                     vector_hits += 1
         except Exception as e:
             print(f'  ⚠️  向量检索失败: {e}')
@@ -331,10 +339,15 @@ class RAGEngine:
         return self._fuse_rrf(results)
 
     def _fuse_rrf(self, results: dict) -> list[dict]:
+        """句内 BM25+向量票相加，跨句取最高分，避免土豆这类词叠多句刷屏。"""
         for r in results.values():
             votes = r.get('votes') or []
             if votes:
-                r['final_score'] = sum(1.0 / (RRF_K + v['rank']) for v in votes)
+                by_clause: dict[int, float] = {}
+                for v in votes:
+                    ci = v.get('clause', 0)
+                    by_clause[ci] = by_clause.get(ci, 0.0) + 1.0 / (RRF_K + v['rank'])
+                r['final_score'] = max(by_clause.values())
             else:
                 score = 0.0
                 if r['bm25_rank'] is not None:
