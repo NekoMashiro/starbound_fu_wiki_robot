@@ -10,10 +10,10 @@ import re
 _COLOR_CODE_RE = re.compile(r'\^[a-zA-Z#0-9]+;')
 _THINK_RE = re.compile(r'<think>.*?</think>', re.DOTALL)
 
-EMPTY_TEXT = '请输入问题。'
-BUSY_TEXT = '当前查询较多，请稍后再试。'
-IN_FLIGHT_TEXT = '上一条还在生成，请稍候。'
-ERROR_TEXT = '查询失败，请稍后再试。'
+EMPTY_TEXT = '摘希这边没有收到问题呢 (´・ω・`)'
+BUSY_TEXT = '摘希同时处理的询问有点多，请稍等一下哦 (´・ω・`)'
+IN_FLIGHT_TEXT = '上一条摘希还在整理，请稍候 (´・ω・`)'
+ERROR_TEXT = '摘希刚才走神了，请再问一次 (//∇//)'
 
 CHUNK_SIZE = 1800
 MAX_ANSWER_CHUNKS = 5

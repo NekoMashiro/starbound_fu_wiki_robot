@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-cli.py — FU Wiki Robot 命令行交互式问答
+cli.py — 本地命令行问答（不启动 QQ）
 
 用法:
     cd rag
     python cli.py
+    python cli.py 钨矿怎么熔炼
+    python cli.py -- 嘿，S.A.I.L助手，帮我点一份烤肋排
 """
 
 import sys
@@ -13,72 +15,84 @@ from query import RAGEngine, strip_color_codes
 
 WELCOME = """
 ╔══════════════════════════════════════════════════╗
-║   🎮 Starbound + FU + Arcana Wiki Robot          ║
-║   输入问题即可查询，支持中英文                   ║
-║   输入 quit / exit / q 退出                      ║
+║   宇艇摘析  ·  本地问答                          ║
+║   直接回车后输入，或: python cli.py 你的问题     ║
+║   quit / exit / q 退出                           ║
 ╚══════════════════════════════════════════════════╝
 """
 
 
+def _print_result(question: str, result: dict):
+    intent = result.get('intent') or 'ask'
+    enhanced = result.get('enhanced_query', '')
+    print(f'\n🎯 intent={intent}')
+    if enhanced and enhanced != question:
+        print(f'🔄 查询增强: {enhanced}')
+
+    print(f'\n💬 摘希:\n')
+    print(result['answer'])
+
+    sources = result.get('sources') or []
+    if sources and intent != 'chat':
+        print(f'\n📚 参考来源 ({len(sources)} 篇):')
+        for s in sources[:5]:
+            name_en = strip_color_codes(s.get('name_en', ''))
+            name_zh = strip_color_codes(s.get('name_zh', ''))
+            etype = s.get('entity_type', '')
+            label = name_zh or name_en or '?'
+            if name_zh and name_en:
+                label = f'{name_zh} ({name_en})'
+            if etype:
+                label = f'[{etype}] {label}'
+            print(f'   • {label}  (score: {s.get("score", 0)})')
+    elif sources and intent == 'chat':
+        print('\n📚 (闲聊未下发来源，检索到: '
+              + ', '.join(
+                  (s.get('name_zh') or s.get('name_en') or '?')
+                  for s in sources[:5]
+              )
+              + ')')
+
+    timings = result.get('timings') or {}
+    print(f'\n⚙️  {result.get("model")}  total={timings.get("total")}s')
+    print('─' * 50)
+
+
 def main():
-    print(WELCOME)
+    oneshot = [a for a in sys.argv[1:] if a != '--']
+    if not oneshot:
+        print(WELCOME)
 
     try:
         engine = RAGEngine()
     except Exception as e:
-        print(f'❌ 初始化失败: {e}')
-        print('   请确保已运行 python ingest.py --reset 导入知识库')
+        print(f'初始化失败: {e}')
+        print('请确保 rag/chroma_db 已存在')
         sys.exit(1)
 
-    print()
+    def run(question: str):
+        print('🔍 检索中...')
+        result = engine.ask(question)
+        _print_result(question, result)
 
+    if oneshot:
+        run(' '.join(oneshot))
+        return
+
+    print()
     while True:
         try:
-            question = input('🎯 你的问题: ').strip()
+            question = input('船长: ').strip()
         except (EOFError, KeyboardInterrupt):
-            print('\n👋 再见！')
+            print('\n摘希先挂起通讯啦 (´・ω・`)')
             break
 
         if not question:
             continue
         if question.lower() in ('quit', 'exit', 'q', '退出'):
-            print('👋 再见！')
+            print('摘希先挂起通讯啦 (´・ω・`)')
             break
-
-        print('🔍 检索中...')
-        result = engine.ask(question)
-
-        # 显示查询增强
-        enhanced = result.get('enhanced_query', '')
-        if enhanced and enhanced != question:
-            print(f'🔄 查询增强: {enhanced}')
-
-        # 显示回答
-        print(f'\n💬 回答:\n')
-        print(result['answer'])
-
-        # 显示参考来源
-        if result['sources']:
-            print(f'\n📚 参考来源 ({len(result["sources"])} 篇):')
-            for s in result['sources']:
-                name_en = strip_color_codes(s.get('name_en', ''))
-                name_zh = strip_color_codes(s.get('name_zh', ''))
-                etype = s.get('entity_type', '')
-                mod = s.get('source_mod', '')
-                score = s.get('score', 0)
-
-                label = f'{name_en}'
-                if name_zh:
-                    label += f' ({name_zh})'
-                if etype:
-                    label = f'[{etype}] {label}'
-                if mod:
-                    label += f' [{mod}]'
-
-                print(f'   • {label}  (score: {score})')
-
-        print(f'\n⚙️  模型: {result["model"]}')
-        print('─' * 50)
+        run(question)
 
 
 if __name__ == '__main__':
