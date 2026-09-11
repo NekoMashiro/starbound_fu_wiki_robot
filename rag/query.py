@@ -124,12 +124,15 @@ CHAT_SYSTEM_PROMPT = PERSONA + """
 
 
 RANDOM_SYSTEM_PROMPT = PERSONA + """
-现在船长让摘希随便抽一条词条来玩。这不是每日任务，也不是值班简报，就是此刻抽到什么聊什么。参考资料里只有最终抽中的那一条。
+现在是抽签。以用户消息里的「抽签说明」为准，不要自己改剧情。这不是每日任务，也不是值班简报。参考资料里只有最终抽中的那一条。
 
 开场必须让船长明白这三件事（写进对话里，不要做成冷冰冰的字段表）：
 1. 船长想抽的是什么类型
 2. 摘希这边有没有这个类型。没有对上、或这种类型的签筒是空的，都要老实认，不要装成本来就要抽后面那个
 3. 最终实际抽到的是哪一条
+
+对不上类型时，就说找不到船长要的分类、摘希就随机一个词条；不要说成「船长让随便找」。
+船长本来就说随便时，才是没指定种类、摘希自己转签筒。
 
 语气再活一点：
 - 像舰桥上随手转了下签筒，抽到了就对着船长分享。可以吐槽、起哄、脑补船长拿去干什么，也可以问船长要不要再抽一次
@@ -628,12 +631,18 @@ class RAGEngine:
             name_zh = hit['metadata'].get('name_zh') or ''
             name_en = hit['metadata'].get('name_en') or ''
             name = f'{name_zh}({name_en})' if name_zh and name_en else (name_zh or name_en or draw.candidate.entity_id)
-            result = (
+            drawn = (
                 f'{draw.pool.label_zh}池里的 {name}，'
                 f'entity_id={draw.candidate.entity_id}'
             )
-            if draw.asked_pool.id == 'any' and draw.pool.id != 'any':
-                result = f'从随便转到{draw.pool.label_zh}，抽到 {result}'
+            if fallback == 'unknown_type':
+                result = f'找不到船长要的分类，摘希就随机一个词条，抽到 {drawn}'
+            elif fallback == 'empty_pool':
+                result = f'「{match.pool.label_zh}」签筒是空的，摘希改抽了，抽到 {drawn}'
+            elif draw.asked_pool.id == 'any' and draw.pool.id != 'any':
+                result = f'从随便转到{draw.pool.label_zh}，抽到 {drawn}'
+            else:
+                result = drawn
         else:
             result = '没有抽到任何词条'
 

@@ -21,16 +21,48 @@ WEAPON_CATEGORIES = (
     'bow',
     'broadsword',
     'shortsword',
+    'longsword',
     'dagger',
     'katana',
+    'Rapier',
     'spear',
+    'shortspear',
     'axe',
+    'greataxe',
     'hammer',
     'mace',
     'staff',
     'wand',
     'whip',
+    'Quarterstaff',
+    'quarterstaff',
+    'fistWeapon',
+    'crossbow',
+    'scythe',
+    'boomerang',
+    'chakram',
+    'grenadeLauncher',
+    'armcannon',
+    'Magnorb',
+    'flamethrower',
+    'liquidGun',
+    'lance',
+    'bioweapon',
     'uniqueWeapon',
+)
+
+# 防具只要 armour，不要 wear（那是时装）。
+ARMOR_CATEGORIES = (
+    'headarmour',
+    'chestarmour',
+    'legarmour',
+)
+
+CLOTHING_CATEGORIES = (
+    'headwear',
+    'chestwear',
+    'legwear',
+    'backwear',
 )
 
 
@@ -169,14 +201,14 @@ POOLS: tuple[Pool, ...] = (
         '矛',
         ('长矛', '战矛', 'spear'),
         entity_type='item',
-        categories=('spear',),
+        categories=('spear', 'shortspear'),
     ),
     Pool(
         'axe',
         '斧',
         ('战斧', '巨斧', '斧头', 'axe'),
         entity_type='item',
-        categories=('axe',),
+        categories=('axe', 'greataxe'),
     ),
     Pool(
         'hammer',
@@ -214,6 +246,48 @@ POOLS: tuple[Pool, ...] = (
         categories=('whip',),
     ),
     Pool(
+        'longsword',
+        '长剑',
+        ('长剑', 'longsword'),
+        entity_type='item',
+        categories=('longsword',),
+    ),
+    Pool(
+        'rapier',
+        '刺剑',
+        ('刺剑', '细剑', 'rapier'),
+        entity_type='item',
+        categories=('Rapier',),
+    ),
+    Pool(
+        'fist',
+        '拳套',
+        ('拳套', '拳刃', '拳击手套'),
+        entity_type='item',
+        categories=('fistWeapon',),
+    ),
+    Pool(
+        'crossbow',
+        '弩',
+        ('十字弩', '来把弩', 'crossbow'),
+        entity_type='item',
+        categories=('crossbow',),
+    ),
+    Pool(
+        'scythe',
+        '镰刀',
+        ('镰刀', 'scythe'),
+        entity_type='item',
+        categories=('scythe',),
+    ),
+    Pool(
+        'boomerang',
+        '回旋镖',
+        ('回旋镖', '飞镖', 'boomerang'),
+        entity_type='item',
+        categories=('boomerang',),
+    ),
+    Pool(
         'shield',
         '盾',
         ('盾牌', '来个盾', 'shield'),
@@ -226,6 +300,76 @@ POOLS: tuple[Pool, ...] = (
         ('武器', '来把枪', '来把刀', 'weapon'),
         entity_type='item',
         categories=WEAPON_CATEGORIES,
+    ),
+    Pool(
+        'head_armor',
+        '头盔',
+        ('头盔', '头甲', 'headarmour'),
+        entity_type='item',
+        categories=('headarmour',),
+    ),
+    Pool(
+        'chest_armor',
+        '胸甲',
+        ('胸甲', '胸铠', 'chestarmour'),
+        entity_type='item',
+        categories=('chestarmour',),
+    ),
+    Pool(
+        'leg_armor',
+        '护腿',
+        ('护腿', '腿甲', 'legarmour'),
+        entity_type='item',
+        categories=('legarmour',),
+    ),
+    Pool(
+        'armor',
+        '防具',
+        ('来套防具', '来套装备', '防具', '盔甲', '装备', 'armor'),
+        entity_type='item',
+        categories=ARMOR_CATEGORIES,
+    ),
+    Pool(
+        'headwear',
+        '帽子',
+        ('帽子', '头饰', 'headwear'),
+        entity_type='item',
+        categories=('headwear',),
+    ),
+    Pool(
+        'cape',
+        '披风',
+        ('披风', '斗篷', '背饰'),
+        entity_type='item',
+        categories=('backwear',),
+    ),
+    Pool(
+        'clothing',
+        '服装',
+        ('来套衣服', '时装', '服装', '衣服', 'cosmetic'),
+        entity_type='item',
+        categories=CLOTHING_CATEGORIES,
+    ),
+    Pool(
+        'epp',
+        '环境包',
+        ('环境背包', '环境包', '来个EPP', 'EPP', 'epp'),
+        entity_type='item',
+        categories=('enviroProtectionPack',),
+    ),
+    Pool(
+        'augment',
+        '增强件',
+        ('增强件', '增强模块', 'eppAugment', 'augment'),
+        entity_type='item',
+        categories=('eppAugment',),
+    ),
+    Pool(
+        'tool',
+        '工具',
+        ('来个工具', '采矿激光', '工具', 'tool'),
+        entity_type='item',
+        categories=('tool', 'Tool'),
     ),
     Pool(
         'bee',
@@ -276,6 +420,68 @@ POOLS: tuple[Pool, ...] = (
         entity_type='object',
         categories=('storage',),
     ),
+    Pool(
+        'fridge',
+        '冰箱',
+        ('来个冰箱', '冰箱', 'fridge'),
+        entity_type='object',
+        categories=('fridgeStorage',),
+    ),
+    Pool(
+        'workbench',
+        '工作台',
+        ('来个工作台', '制作台', '工作台'),
+        entity_type='object',
+        categories=('crafting',),
+    ),
+    Pool(
+        'platform',
+        '平台',
+        ('来个平台', '平台', 'platform'),
+        entity_type='item',
+        categories=('platform',),
+    ),
+    Pool(
+        'instrument',
+        '乐器',
+        ('来个乐器', '乐器', 'musicalInstrument'),
+        entity_type='item',
+        categories=('musicalInstrument',),
+    ),
+    Pool(
+        'terraformer',
+        '改造器',
+        ('地形改造', '来个改造器', '改造器', 'terraformer'),
+        entity_type='object',
+        categories=('terraformer',),
+    ),
+    Pool(
+        'bug',
+        '虫子',
+        ('来个虫子', '昆虫', '虫子'),
+        entity_type='object',
+        categories=('bug',),
+    ),
+    Pool(
+        'furniture',
+        '家具',
+        ('家具', '来件家具', '来个家具', '摆件', 'furniture'),
+        entity_type='object',
+        categories=('furniture', 'decorative'),
+    ),
+    Pool(
+        'block',
+        '方块',
+        ('方块', '来个方块', '砖块', '地砖', 'block'),
+        entity_type='item',
+        categories=('block',),
+    ),
+    Pool(
+        'liquid',
+        '液体',
+        ('液体', '来桶液体', '来点液体', 'liquid'),
+        entity_type='liquid',
+    ),
     # any 必须放最后一档匹配，避免「来一个吃的」被「来一个」抢走。
     Pool(
         'any',
@@ -288,24 +494,23 @@ POOLS: tuple[Pool, ...] = (
 POOL_BY_ID = {p.id: p for p in POOLS}
 
 # ---------------------------------------------------------------------------
-# 以后再说（有池，但人话不稳定或 tag 脏，先不要对表）
+# 不对表（人话不稳、tag 脏，或玩家根本不会喊这类词）
 #
-# 近战/远程大类：ranged / melee —— 用 weapon 兜，别名太容易和具体枪型抢。
+# 近战/远程：ranged / melee —— 别名和具体枪型抢，用 weapon 兜。
 # 脏武器 tag：upgradeableWeapon / balanced / energy / hyper / bioweapon /
-#   defensive / offensive / explorer（例子里会混进裤子、面罩）。
-# 材料：zerchesium / telebrium / lunari / xithricite / penumbrite /
-#   irradium / isogen / ice / slime / shadow / bone / cosmic / atropus /
-#   aether / elder / ancient / precursor。玩家更常问「怎么挖」，是 ask。
-# 种族家具：floran / hylotl / apex / avian / human / glitch / novakid /
-#   avali / nightar / peglaci / elduukhar / mantizi / skath / orion /
-#   titancorp / exousia / horizon / luye / gilten / aurea。
-# 殖民地套装：glitchcastle / floranvillage / humanprison / avalicamp /
-#   hylotloceancity / novakidvillage / … 几乎没人会喊内部房间 id。
-# 形容词/内部：pretty / misc / fu / valuable / hideous / cute / odd / evil /
-#   combat / commerce / science / knowledge / wired / electronic。
-# 家具细类：furniture / decorative / cooking / fridgeStorage / trophy。
-# 其它：uniqueWeapon / species / liquid / christmas / musical / urban /
-#   industrial / hive / bug / teaIngredient / protectorate。
+#   defensive / offensive / explorer（会混进裤子、面罩）。bioweapon 只收
+#   category，不收 tag。
+# 材料 / 矿石 / 基因：craftingMaterial、craftingOre、craftingGene，以及
+#   zerchesium / lunari / … 材料 tag。玩家更常问「怎么挖」，是 ask。
+# 种族 / 殖民地房间 id / 形容词 tag / mod 内部 category（swtjc_ewg_*、
+#   species、christmas、urban、industrial、hive、teaIngredient、
+#   protectorate）：不会有人喊这些抽签。
+# 机甲零件 mechPart：抽到的是手臂/腿/机体，不是「来个机甲」。
+# 船员合同 / 载具控制器 / 染料 / 投掷物：合同卡、控制器、手雷混荧光棒。
+# 传送器 / 电路 / 陷阱：出口门、炮塔、尖刺一堆，池子看起来像坏了。
+# cooking tag：冰箱已经单独开；剩下是装饰杯碟。
+# EPP 的 category 叫 enviroProtectionPack，实际混了箭袋、翅膀、功能背包；
+#   别名只收「EPP / 环境包」，不收「背包」（会和箱子抢）。
 # ---------------------------------------------------------------------------
 
 

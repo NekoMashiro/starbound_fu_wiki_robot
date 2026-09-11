@@ -37,6 +37,23 @@ def test_matches_pool() -> int:
         ({'entity_type': 'item', 'category': 'preparedFood'}, monster, False),
         ({'entity_type': 'item', 'tags': ['bee']}, bee, True),
         ({'entity_type': 'item', 'tags': ['weapon']}, bee, False),
+        ({'entity_type': 'object', 'category': 'decorative'}, POOL_BY_ID['furniture'], True),
+        ({'entity_type': 'object', 'category': 'furniture'}, POOL_BY_ID['furniture'], True),
+        ({'entity_type': 'object', 'category': 'door'}, POOL_BY_ID['furniture'], False),
+        ({'entity_type': 'item', 'category': 'block'}, POOL_BY_ID['block'], True),
+        ({'entity_type': 'liquid'}, POOL_BY_ID['liquid'], True),
+        ({'entity_type': 'item', 'category': 'block'}, POOL_BY_ID['liquid'], False),
+        ({'entity_type': 'item', 'category': 'headarmour'}, POOL_BY_ID['armor'], True),
+        ({'entity_type': 'item', 'category': 'headwear'}, POOL_BY_ID['armor'], False),
+        ({'entity_type': 'item', 'category': 'headwear'}, POOL_BY_ID['clothing'], True),
+        ({'entity_type': 'item', 'category': 'headarmour'}, POOL_BY_ID['clothing'], False),
+        ({'entity_type': 'item', 'category': 'enviroProtectionPack'}, POOL_BY_ID['epp'], True),
+        ({'entity_type': 'item', 'category': 'tool'}, POOL_BY_ID['tool'], True),
+        ({'entity_type': 'item', 'category': 'Tool'}, POOL_BY_ID['tool'], True),
+        ({'entity_type': 'object', 'category': 'crafting'}, POOL_BY_ID['workbench'], True),
+        ({'entity_type': 'object', 'category': 'fridgeStorage'}, POOL_BY_ID['fridge'], True),
+        ({'entity_type': 'item', 'category': 'longsword'}, POOL_BY_ID['weapon'], True),
+        ({'entity_type': 'item', 'category': 'crossbow'}, POOL_BY_ID['weapon'], True),
     ]
     failed = 0
     for entity, pool, expect in cases:
