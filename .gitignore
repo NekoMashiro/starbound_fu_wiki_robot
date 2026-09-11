@@ -5,6 +5,7 @@ rag/.env
 # 向量库和 BM25 缓存（体积大，本机 ingest 后单独 rsync）
 rag/chroma_db/
 rag/bm25_cache.pkl
+rag/search_corpus.jsonl
 
 # 解包的游戏资源，不进仓库
 unpacked_data/
@@ -29,3 +30,9 @@ wiki_knowledge_base/
 # 系统
 .DS_Store
 *.log
+
+# 手动上传包（含向量库，不要 push）
+deploy/*.tar.gz
+deploy/*.tgz
+deploy/*.part-*
+deploy/*.sha256

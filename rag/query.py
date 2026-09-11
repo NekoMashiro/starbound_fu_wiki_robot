@@ -24,6 +24,7 @@ from config import (
     openrouter_provider_prefs,
     TOP_K, CANDIDATE_K, RRF_K, FUSION, MAX_CLAUSES,
     BM25_WEIGHT, VECTOR_WEIGHT, MAX_CONTEXT_LENGTH,
+    SEARCH_CORPUS_PATH,
 )
 from embedding import get_embeddings
 from translator import Translator
@@ -121,10 +122,18 @@ class RAGEngine:
         print(f'✅ RAG 引擎就绪 (总耗时 {elapsed:.1f}s, LLM: {LLM_MODEL})\n')
 
     def _bm25_signature(self) -> tuple:
-        """知识库变更时让 BM25 缓存失效。"""
+        """知识库或检索语料变更时让 BM25 缓存失效。"""
         hash_path = Path(__file__).parent / 'doc_hashes.json'
         hash_mtime = hash_path.stat().st_mtime if hash_path.exists() else 0
-        return ('v2-meta-only', self._collection.count(), round(hash_mtime, 3))
+        corpus_mtime = (
+            SEARCH_CORPUS_PATH.stat().st_mtime if SEARCH_CORPUS_PATH.exists() else 0
+        )
+        return (
+            'v3-search-corpus',
+            self._collection.count(),
+            round(hash_mtime, 3),
+            round(corpus_mtime, 3),
+        )
 
     def _load_bm25_cache(self, signature: tuple) -> bool:
         if not BM25_CACHE_PATH.exists():
@@ -151,24 +160,44 @@ class RAGEngine:
         except Exception as e:
             print(f'\n     ⚠️  BM25 缓存写入失败: {e}', end='')
 
-    def _build_bm25_index(self):
-        """用名称/ID 建 BM25；命中磁盘缓存则跳过分词。
+    def _iter_bm25_rows(self):
+        """优先用 ingest 写出的 embed 短文本；没有语料文件则退回 metadata。"""
+        if SEARCH_CORPUS_PATH.exists():
+            with open(SEARCH_CORPUS_PATH, encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        row = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+                    yield row.get('id', ''), row.get('metadata') or {}, row.get('search_text') or ''
+            return
 
-        不再对全文 JSON 分词：23k 篇 × 2000 字会让每次启动卡住十几秒，
-        而且 JSON 字段名还会污染关键词匹配。语义内容交给向量检索。
-        """
+        all_data = self._collection.get(include=['metadatas'])
+        for i, doc_id in enumerate(all_data.get('ids') or []):
+            meta = (all_data['metadatas'][i] or {})
+            index_text = ' '.join(filter(None, [
+                meta.get('name_en', ''),
+                meta.get('name_zh', ''),
+                meta.get('entity_id', ''),
+                meta.get('entity_type', ''),
+                meta.get('source_mod', ''),
+            ]))
+            yield doc_id, meta, index_text
+
+    def _build_bm25_index(self):
+        """用 embed 短文本建 BM25；命中磁盘缓存则跳过分词。"""
         signature = self._bm25_signature()
         if self._load_bm25_cache(signature):
             print(' (缓存命中)', end='')
             return
 
-        all_data = self._collection.get(include=['metadatas'])
-        if not all_data['ids']:
-            return
-
         tokenized_corpus = []
-        for i, doc_id in enumerate(all_data['ids']):
-            meta = all_data['metadatas'][i] or {}
+        for doc_id, meta, search_text in self._iter_bm25_rows():
+            if not doc_id:
+                continue
             self._doc_index.append({
                 'id': doc_id,
                 'metadata': meta,
@@ -177,8 +206,7 @@ class RAGEngine:
                 meta.get('name_en', ''),
                 meta.get('name_zh', ''),
                 meta.get('entity_id', ''),
-                meta.get('entity_type', ''),
-                meta.get('source_mod', ''),
+                search_text,
             ])).lower()
             tokenized_corpus.append(list(jieba.cut(index_text)))
 
@@ -430,7 +458,7 @@ class RAGEngine:
             source_mod = meta.get('source_mod', '')
 
             header = f"[参考资料 {i + 1}] "
-            if doc_kind == 'wiki':
+            if doc_kind in ('wiki', 'wiki_chunk'):
                 header += f"Wiki: {name_en}"
                 if source_mod:
                     header += f" (来源: {source_mod})"

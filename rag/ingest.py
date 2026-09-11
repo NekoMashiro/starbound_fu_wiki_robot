@@ -20,14 +20,22 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
+from collections import defaultdict
 from pathlib import Path
 
 import chromadb
 
-from config import KNOWLEDGE_BASE_DIR, CHROMA_DB_DIR, SKIP_QUALITY_TIERS, BM25_CACHE_PATH
+from config import (
+    KNOWLEDGE_BASE_DIR, CHROMA_DB_DIR, SKIP_QUALITY_TIERS,
+    BM25_CACHE_PATH, SEARCH_CORPUS_PATH, INDEX_JSONL,
+)
 from embedding import get_embeddings
+
+_WIKI_HEADING_RE = re.compile(r'^(#{2,3})\s+(.+)$', re.M)
+_SLUG_RE = re.compile(r'[^\w\u4e00-\u9fff]+', re.UNICODE)
 
 COLLECTION_NAME = 'fu_knowledge_base'
 BATCH_SIZE = 32
@@ -50,16 +58,118 @@ def _split_hash(h: str) -> tuple[str, str]:
     return h, h  # 兼容旧格式
 
 
+def _resolve_id(entity_id: str, names: dict[str, tuple[str, str]]) -> str:
+    if entity_id in names:
+        return entity_id
+    for alt in (
+        f'{entity_id}ore',
+        entity_id.replace('_mod_', '_ore_'),
+        entity_id.replace('_mod_', '_'),
+    ):
+        if alt in names:
+            return alt
+    return entity_id
+
+
+def _label(entity_id: str, names: dict[str, tuple[str, str]]) -> str:
+    eid = _resolve_id(entity_id, names)
+    zh, en = names.get(eid, ('', ''))
+    if zh and en:
+        return f'{zh}({en})'
+    return zh or en or entity_id
+
+
+def load_name_index(kb_dir: Path) -> dict[str, tuple[str, str]]:
+    """entity_id → (name_zh, name_en)，含 D 级，供 embed 反查。"""
+    names: dict[str, tuple[str, str]] = {}
+    path = kb_dir / 'index.jsonl'
+    if not path.exists() and INDEX_JSONL.exists():
+        path = INDEX_JSONL
+    if not path.exists():
+        return names
+    with open(path, encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            eid = row.get('entity_id') or ''
+            if eid:
+                names[eid] = (row.get('name_zh') or '', row.get('name_en') or '')
+    return names
+
+
+def build_relation_index(entities: list[dict]) -> dict[str, list[str]]:
+    """pool 名 / 怪物 id → 会掉落的物品 id（来自已入库实体的 drop_sources）。"""
+    pool_to_items: dict[str, list[str]] = defaultdict(list)
+    seen: dict[str, set[str]] = defaultdict(set)
+    for entity in entities:
+        item_id = entity.get('entity_id') or ''
+        if not item_id:
+            continue
+        drops = entity.get('drop_sources') or {}
+        for key, data in drops.items():
+            if key == 'total_pools' or not isinstance(data, dict):
+                continue
+            for src in data.get('top') or []:
+                pool = src.get('pool') or ''
+                if pool and item_id not in seen[pool]:
+                    seen[pool].add(item_id)
+                    pool_to_items[pool].append(item_id)
+                for mid in src.get('monsters') or []:
+                    if mid and item_id not in seen[mid]:
+                        seen[mid].add(item_id)
+                        pool_to_items[mid].append(item_id)
+    return pool_to_items
+
+
+def _wiki_slug(heading: str) -> str:
+    slug = _SLUG_RE.sub('-', heading.strip()).strip('-')
+    return (slug or 'section')[:48]
+
+
+def split_wiki_sections(content: str) -> list[tuple[str, str]]:
+    """按 ## / ### 切成 (标题, 正文)。无标题的开头归为引言。"""
+    matches = list(_WIKI_HEADING_RE.finditer(content))
+    if not matches:
+        return []
+    sections: list[tuple[str, str]] = []
+    intro = content[:matches[0].start()].strip()
+    if intro:
+        sections.append(('引言', intro))
+    for i, m in enumerate(matches):
+        heading = m.group(2).strip()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
+        body = content[m.end():end].strip()
+        if heading:
+            sections.append((heading, body))
+    return sections
+
+
+def write_search_corpus(docs: list[dict]):
+    """把每篇的 embed_text 写成 BM25 语料，不依赖 Chroma 是否已更新。"""
+    with open(SEARCH_CORPUS_PATH, 'w', encoding='utf-8') as f:
+        for d in docs:
+            f.write(json.dumps({
+                'id': d['id'],
+                'search_text': d['embed_text'][:2000],
+                'metadata': d['metadata'],
+            }, ensure_ascii=False) + '\n')
+
+
 def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
     """
     从 knowledge_base/ 加载所有文档。
 
     实体文档: 读取 JSON，生成结构化 embedding 文本
-    Wiki 文档: 读取 Markdown 原文
+    Wiki 文档: 短页保持整页；长页按标题切块并保留父文档
     """
-    docs = []
+    names = load_name_index(kb_dir)
+    entities: list[dict] = []
 
-    # ── 实体文档 ──
     entities_dir = kb_dir / 'entities'
     if entities_dir.exists():
         for type_dir in sorted(entities_dir.iterdir()):
@@ -73,38 +183,37 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                         entity = json.load(f)
                 except (json.JSONDecodeError, UnicodeDecodeError):
                     continue
-
                 if not isinstance(entity, dict):
                     continue
-
-                tier = entity.get('quality_tier', 'D')
-                if tier in SKIP_QUALITY_TIERS:
+                if entity.get('quality_tier', 'D') in SKIP_QUALITY_TIERS:
                     continue
+                entities.append(entity)
 
-                doc_id = f"{entity.get('entity_type', 'unknown')}:{entity.get('entity_id', fn)}"
-                embed_text = build_entity_embed_text(entity)
-                full_content = json.dumps(entity, ensure_ascii=False, indent=2)
+    relations = build_relation_index(entities)
+    docs = []
 
-                docs.append({
-                    'id': doc_id,
-                    'embed_text': embed_text,
-                    'content': full_content,
-                    'hash': _content_hash(embed_text, full_content[:5000]),
-                    'metadata': {
-                        'entity_id': entity.get('entity_id', ''),
-                        'entity_type': entity.get('entity_type', ''),
-                        'name_en': entity.get('name_en', ''),
-                        'name_zh': entity.get('name_zh', ''),
-                        'source_mod': entity.get('source_mod', ''),
-                        'quality_tier': tier,
-                        'doc_kind': 'entity',
-                    },
-                })
+    for entity in entities:
+        doc_id = f"{entity.get('entity_type', 'unknown')}:{entity.get('entity_id', '')}"
+        embed_text = build_entity_embed_text(entity, names, relations)
+        full_content = json.dumps(entity, ensure_ascii=False, indent=2)
+        docs.append({
+            'id': doc_id,
+            'embed_text': embed_text,
+            'content': full_content,
+            'hash': _content_hash(embed_text, full_content[:5000]),
+            'metadata': {
+                'entity_id': entity.get('entity_id', ''),
+                'entity_type': entity.get('entity_type', ''),
+                'name_en': entity.get('name_en', ''),
+                'name_zh': entity.get('name_zh', ''),
+                'source_mod': entity.get('source_mod', ''),
+                'quality_tier': entity.get('quality_tier', ''),
+                'doc_kind': 'entity',
+            },
+        })
+        if limit and len(docs) >= limit:
+            return docs
 
-                if limit and len(docs) >= limit:
-                    return docs
-
-    # ── Wiki 文档 ──
     wiki_dir = kb_dir / 'wiki'
     if wiki_dir.exists():
         for mod_dir in sorted(wiki_dir.iterdir()):
@@ -117,14 +226,21 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                     continue
 
                 title = md_file.stem.replace('_', ' ')
-                doc_id = f"wiki:{mod_dir.name}:{md_file.stem}"
-                embed_text = f"{title}\n{content[:3000]}"
+                parent_id = f"wiki:{mod_dir.name}:{md_file.stem}"
+                sections = split_wiki_sections(content)
+                long_wiki = len(content) > 1500 and len(sections) >= 2
+
+                if long_wiki:
+                    toc = '；'.join(h for h, _ in sections[:20])
+                    parent_embed = f"{title}\n章节: {toc}\n{content[:1500]}"
+                else:
+                    parent_embed = f"{title}\n{content[:3000]}"
 
                 docs.append({
-                    'id': doc_id,
-                    'embed_text': embed_text,
+                    'id': parent_id,
+                    'embed_text': parent_embed,
                     'content': content,
-                    'hash': _content_hash(embed_text, content[:5000]),
+                    'hash': _content_hash(parent_embed, content[:5000]),
                     'metadata': {
                         'entity_id': md_file.stem,
                         'entity_type': 'wiki',
@@ -135,23 +251,53 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                         'doc_kind': 'wiki',
                     },
                 })
-
                 if limit and len(docs) >= limit:
                     return docs
+
+                if long_wiki:
+                    for heading, body in sections:
+                        if len(body) < 40:
+                            continue
+                        chunk_id = f"{parent_id}#{_wiki_slug(heading)}"
+                        embed_text = f"{title} {heading}\n{body[:2000]}"
+                        chunk_content = f"# {title}\n\n## {heading}\n\n{body}"
+                        docs.append({
+                            'id': chunk_id,
+                            'embed_text': embed_text,
+                            'content': chunk_content,
+                            'hash': _content_hash(embed_text, chunk_content[:5000]),
+                            'metadata': {
+                                'entity_id': md_file.stem,
+                                'entity_type': 'wiki',
+                                'name_en': f'{title} / {heading}',
+                                'name_zh': '',
+                                'source_mod': mod_dir.name,
+                                'quality_tier': 'S',
+                                'doc_kind': 'wiki_chunk',
+                                'parent_id': parent_id,
+                            },
+                        })
+                        if limit and len(docs) >= limit:
+                            return docs
 
     return docs
 
 
-def build_entity_embed_text(entity: dict) -> str:
+def build_entity_embed_text(
+    entity: dict,
+    names: dict[str, tuple[str, str]] | None = None,
+    relations: dict[str, list[str]] | None = None,
+) -> str:
     """
     构建实体的 embedding 文本。
 
     将关键字段拼接为可检索的文本，确保中英文名称、描述、
-    标签、配方材料等都能被向量检索命中。
+    标签、配方材料、掉落物、生态等都能被向量检索命中。
     """
+    names = names or {}
+    relations = relations or {}
     parts = []
 
-    # 名称（中英文，权重最高）
     name_en = entity.get('name_en', '')
     name_zh = entity.get('name_zh', '')
     entity_id = entity.get('entity_id', '')
@@ -162,7 +308,6 @@ def build_entity_embed_text(entity: dict) -> str:
     if entity_id:
         parts.append(entity_id)
 
-    # 类型和 mod 来源
     etype = entity.get('entity_type', '')
     mod = entity.get('source_mod', '')
     if etype:
@@ -170,7 +315,6 @@ def build_entity_embed_text(entity: dict) -> str:
     if mod:
         parts.append(f"mod: {mod}")
 
-    # 描述
     desc_en = entity.get('description_en', '')
     desc_zh = entity.get('description_zh', '')
     if desc_en:
@@ -178,7 +322,6 @@ def build_entity_embed_text(entity: dict) -> str:
     if desc_zh:
         parts.append(desc_zh)
 
-    # 标签和分类
     tags = entity.get('tags', [])
     if tags:
         parts.append(f"tags: {', '.join(tags)}")
@@ -189,7 +332,6 @@ def build_entity_embed_text(entity: dict) -> str:
     if rarity:
         parts.append(f"rarity: {rarity}")
 
-    # 武器属性
     weapon_parts = []
     if entity.get('elementalType'):
         weapon_parts.append(f"element:{entity['elementalType']}")
@@ -204,46 +346,78 @@ def build_entity_embed_text(entity: dict) -> str:
     if weapon_parts:
         parts.append(f"weapon: {', '.join(weapon_parts)}")
 
-    # 配方产出（怎么制作这个物品）
     recipes = entity.get('recipes_output', [])
     if recipes:
         recipe_strs = []
-        for r in recipes[:5]:
-            inputs = ', '.join(f"{i['item']}x{i['count']}" for i in r.get('inputs', []))
+        for r in recipes[:10]:
+            inputs = ', '.join(
+                f"{_label(i['item'], names)}x{i['count']}"
+                for i in r.get('inputs', [])
+            )
             station = r.get('station_zh', '') or r.get('station', '')
             recipe_strs.append(f"{inputs} @ {station}")
         parts.append("制作方式: " + '; '.join(recipe_strs))
 
-    # 配方用途（这个物品能做什么）
     usage = entity.get('recipes_input', {})
     if usage:
         total = usage.get('total', 0)
-        cats = list(usage.get('by_category', {}).keys())
-        parts.append(f"用途: {total}个配方, 类别: {', '.join(cats[:5])}")
+        examples = []
+        for info in (usage.get('by_category') or {}).values():
+            if isinstance(info, dict):
+                for ex in info.get('examples') or []:
+                    examples.append(_label(ex, names))
+        extra = f", 例如: {', '.join(examples[:8])}" if examples else ''
+        cats = list((usage.get('by_category') or {}).keys())
+        parts.append(f"用途: {total}个配方, 类别: {', '.join(cats[:5])}{extra}")
 
-    # 掉落来源
     drops = entity.get('drop_sources', {})
     if drops:
-        parts.append(f"掉落来源: {drops.get('total_pools', 0)}个pool")
+        bits = [f"{drops.get('total_pools', 0)}个pool"]
+        for cat in ('monster_drops', 'chest_loot', 'quest_rewards', 'boss_mission', 'other'):
+            block = drops.get(cat)
+            if not isinstance(block, dict):
+                continue
+            labels = []
+            for src in (block.get('top') or [])[:4]:
+                for mid in src.get('monsters') or []:
+                    labels.append(_label(mid, names))
+                pool = src.get('pool') or ''
+                if pool and not src.get('monsters'):
+                    labels.append(pool)
+            if labels:
+                bits.append(f"{cat}: {', '.join(labels[:8])}")
+        parts.append("掉落来源: " + '；'.join(bits))
 
-    # 生态
     biomes = entity.get('biomes', [])
     if biomes:
-        biome_names = [b['biome'] if isinstance(b, dict) else str(b) for b in biomes[:5]]
-        parts.append(f"生态: {', '.join(biome_names)}")
+        biome_labels = []
+        for b in biomes[:10]:
+            bid = b['biome'] if isinstance(b, dict) else str(b)
+            biome_labels.append(_label(bid, names))
+        parts.append(f"生态: {', '.join(biome_labels)}")
 
-    # Wiki 引用
     wiki_ref = entity.get('wiki_ref', '')
     if wiki_ref:
         parts.append(f"wiki: {wiki_ref}")
 
-    # 怪物特有
     if etype == 'monster':
+        drop_ids: list[str] = []
+        seen_drop = set()
+        for key in (
+            entity_id,
+            entity.get('drop_pool_default') or '',
+            entity.get('drop_pool_hunting') or '',
+        ):
+            for item_id in relations.get(key, []):
+                if item_id not in seen_drop:
+                    seen_drop.add(item_id)
+                    drop_ids.append(item_id)
+        if drop_ids:
+            parts.append("掉落物: " + ', '.join(_label(i, names) for i in drop_ids[:12]))
         dp = entity.get('drop_pool_default', '')
         if dp:
             parts.append(f"掉落池: {dp}")
 
-    # 生态特有
     if etype == 'biome':
         fn = entity.get('friendly_name', '')
         fn_zh = entity.get('friendly_name_zh', '')
@@ -253,11 +427,13 @@ def build_entity_embed_text(entity: dict) -> str:
             parts.append(fn_zh)
         ores = entity.get('ores', [])
         if ores:
-            ore_names = [o['ore'] for o in ores[:10]]
+            ore_names = [_label(o['ore'], names) for o in ores[:12]]
             parts.append(f"矿石: {', '.join(ore_names)}")
         monsters = entity.get('monsters', [])
         if monsters:
-            parts.append(f"怪物: {', '.join(monsters[:10])}")
+            parts.append(
+                "怪物: " + ', '.join(_label(m, names) for m in monsters[:10])
+            )
 
     return '\n'.join(parts)
 
@@ -410,6 +586,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
 
         new_hashes = {d['id']: d['hash'] for d in docs}
         save_hash_index(new_hashes)
+        write_search_corpus(docs)
     else:
         # ── 增量更新 ──
         old_hashes = load_hash_index()
@@ -425,6 +602,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
             _embed_and_upsert(collection, docs, '首次导入')
             new_hashes = {d['id']: d['hash'] for d in docs}
             save_hash_index(new_hashes)
+            write_search_corpus(docs)
         else:
             diff = compute_diff(docs, old_hashes)
 
@@ -445,6 +623,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
             total_changes = need_embed + n_content + n_delete
             if total_changes == 0:
                 print(f'\n✅ 知识库无变化，无需更新！')
+                write_search_corpus(docs)
                 return
 
             if need_embed > 0:
@@ -503,6 +682,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
 
             # 保存新哈希
             save_hash_index(diff['new_hashes'])
+            write_search_corpus(docs)
 
     # 知识库变了，让下次启动重建 BM25
     if BM25_CACHE_PATH.exists():
@@ -515,6 +695,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
     print(f'  ✅ 完成! ChromaDB: {final_count} 条, 耗时 {total_time:.1f}s')
     print(f'  数据库: {CHROMA_DB_DIR}')
     print(f'  哈希索引: {HASH_INDEX_PATH}')
+    print(f'  BM25 语料: {SEARCH_CORPUS_PATH}')
     print(f'{"═" * 50}')
 
 
