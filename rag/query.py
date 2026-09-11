@@ -28,6 +28,8 @@ from config import (
 )
 from embedding import get_embeddings
 from intent import classify_intent
+from random_draw import RandomCatalog, build_catalog, load_entity
+from random_pools import POOL_BY_ID, resolve_pool
 from translator import Translator
 
 COLLECTION_NAME = 'fu_knowledge_base'
@@ -121,6 +123,28 @@ CHAT_SYSTEM_PROMPT = PERSONA + """
 """
 
 
+RANDOM_SYSTEM_PROMPT = PERSONA + """
+现在船长让摘希随便抽一条词条来玩。这不是每日任务，也不是值班简报，就是此刻抽到什么聊什么。参考资料里只有最终抽中的那一条。
+
+开场必须让船长明白这三件事（写进对话里，不要做成冷冰冰的字段表）：
+1. 船长想抽的是什么类型
+2. 摘希这边有没有这个类型。没有对上、或这种类型的签筒是空的，都要老实认，不要装成本来就要抽后面那个
+3. 最终实际抽到的是哪一条
+
+语气再活一点：
+- 像舰桥上随手转了下签筒，抽到了就对着船长分享。可以吐槽、起哄、脑补船长拿去干什么，也可以问船长要不要再抽一次
+- 点评多一点：好不好用、看起来可不可怜、适不适合塞进背包、会不会把飞船搞砸。脑洞可以跳，但不要油、不要网络喷子
+- 用 Markdown 写短篇：名称要醒目，后面跟几句点评和关键效果/获取。不要写成词条说明书，也不要只有一句「抽到了」
+
+事实还是要守：
+- 游戏事实只能来自参考资料。不要编坐标、商店、没写出来的配方或掉落
+- 脑洞和玩笑可以飞，但要让人分得清哪句是资料、哪句是摘希在瞎想
+- 不要假装船长已经拥有，不要列来源，不要提其它没抽中的词条
+- 不要写「今日推荐」「每日一抽」「值班简报」这类日程味标题
+- 物品名称格式仍是 **中文名(English Name)**
+"""
+
+
 class RAGEngine:
     """RAG 检索增强生成引擎。"""
 
@@ -146,6 +170,13 @@ class RAGEngine:
         t1 = time.time()
         self._build_bm25_index()
         _done(t1, f'{len(self._doc_index)} 条')
+
+        _step('🎲 加载随机池...')
+        t1 = time.time()
+        self._random_catalog = build_catalog()
+        filled = sum(1 for n in self._random_catalog.sizes().values() if n)
+        members = sum(self._random_catalog.sizes().values())
+        _done(t1, f'{filled} 个池 / {members} 条')
 
         elapsed = time.time() - t0
         print(f'✅ RAG 引擎就绪 (总耗时 {elapsed:.1f}s, LLM: {LLM_MODEL})\n')
@@ -525,18 +556,115 @@ class RAGEngine:
 
     @staticmethod
     def _system_prompt_for(intent: str) -> str:
-        return CHAT_SYSTEM_PROMPT if intent == 'chat' else SYSTEM_PROMPT
+        if intent == 'chat':
+            return CHAT_SYSTEM_PROMPT
+        if intent == 'random':
+            return RANDOM_SYSTEM_PROMPT
+        return SYSTEM_PROMPT
+
+    def _ensure_random_catalog(self, quiet: bool = False) -> RandomCatalog:
+        if self._random_catalog is None:
+            self._random_catalog = build_catalog()
+        return self._random_catalog
+
+    def _hit_from_draw(self, draw) -> dict | None:
+        entity = load_entity(draw.candidate)
+        if not entity:
+            return None
+        cand = draw.candidate
+        return {
+            'id': f'{cand.entity_type}:{cand.entity_id}',
+            'metadata': {
+                'name_en': cand.name_en or entity.get('name_en', ''),
+                'name_zh': cand.name_zh or entity.get('name_zh', ''),
+                'entity_type': cand.entity_type,
+                'source_mod': entity.get('source_mod', ''),
+                'doc_kind': 'entity',
+                'quality_tier': entity.get('quality_tier', ''),
+                'entity_id': cand.entity_id,
+            },
+            'content': json.dumps(entity, ensure_ascii=False, indent=2),
+            'final_score': 1.0,
+        }
+
+    def _prepare_random(self, question: str, quiet: bool = False):
+        """返回 (draw, hit, pool_id, elapsed, brief)。池空或读失败则 hit 为 None。"""
+        catalog = self._ensure_random_catalog(quiet)
+        match = resolve_pool(question)
+        t1 = time.time()
+        if match is None:
+            fallback = 'unknown_type'
+            asked = POOL_BY_ID['any']
+        elif not match.pool.rotate and not catalog.members(match.pool.id):
+            fallback = 'empty_pool'
+            asked = POOL_BY_ID['any']
+        else:
+            fallback = None
+            asked = match.pool
+        draw = catalog.draw(asked)
+        elapsed = time.time() - t1
+        hit = self._hit_from_draw(draw) if draw else None
+        pool_id = draw.pool.id if draw else asked.id
+        brief = self._random_brief(question, match, draw, hit, fallback)
+        return draw, hit, pool_id, elapsed, brief
 
     @staticmethod
-    def _build_user_message(question: str, context: str, translation_ref: str, intent: str) -> str:
+    def _random_brief(question: str, match, draw, hit, fallback: str | None) -> str:
+        if match:
+            wanted = f'{match.pool.label_zh}（对上别名 {match.alias!r}）'
+        else:
+            wanted = f'未能对上已知类型（原话：{question}）'
+
+        if fallback == 'unknown_type':
+            have = '没有。摘希的签筒对不上船长说的这个类型'
+        elif fallback == 'empty_pool':
+            have = f'有「{match.pool.label_zh}」这个类型，但签筒是空的'
+        elif match and match.pool.id == 'any':
+            have = '有。船长没指定种类，走随便抽'
+        else:
+            have = f'有「{match.pool.label_zh}」这个类型'
+
+        if draw and hit:
+            name_zh = hit['metadata'].get('name_zh') or ''
+            name_en = hit['metadata'].get('name_en') or ''
+            name = f'{name_zh}({name_en})' if name_zh and name_en else (name_zh or name_en or draw.candidate.entity_id)
+            result = (
+                f'{draw.pool.label_zh}池里的 {name}，'
+                f'entity_id={draw.candidate.entity_id}'
+            )
+            if draw.asked_pool.id == 'any' and draw.pool.id != 'any':
+                result = f'从随便转到{draw.pool.label_zh}，抽到 {result}'
+        else:
+            result = '没有抽到任何词条'
+
+        return (
+            '抽签说明（请据此告诉船长，不要照抄标题）：\n'
+            f'- 船长想抽的类型: {wanted}\n'
+            f'- 摘希有没有这个类型: {have}\n'
+            f'- 最终随机结果: {result}'
+        )
+
+    @staticmethod
+    def _build_user_message(
+        question: str, context: str, translation_ref: str, intent: str,
+        extra: str | None = None,
+    ) -> str:
         user_parts = [f'参考资料:\n{context}']
         if translation_ref:
             user_parts.append(translation_ref)
         user_parts.append(f'玩家问题: {question}')
+        if extra:
+            user_parts.append(extra)
         if intent == 'chat':
             user_parts.append(
                 '请以摘希的口吻用 Markdown 闲聊，顺应对方场景，使用颜文字而不是 emoji。'
                 '不要耍贫，不要列来源，不要引用无关参考条目。'
+            )
+        elif intent == 'random':
+            user_parts.append(
+                '请先交代船长想抽什么、有没有这个类型、最终抽到了什么，'
+                '再活泼地介绍抽中的那一条。多点评、多互动、可以有脑洞，'
+                '使用颜文字而不是 emoji。不要写成今日推荐，不要列来源，不要提没抽中的词条。'
             )
         else:
             user_parts.append(
@@ -544,15 +672,75 @@ class RAGEngine:
             )
         return '\n\n'.join(user_parts)
 
-    def _empty_ask(self, question: str, enhanced: str, total_t0: float, intent: str) -> dict:
+    def _empty_ask(self, question: str, enhanced: str, total_t0: float, intent: str, pool: str | None = None) -> dict:
         return {
             'answer': '摘希在资料库里没有找到相关记录呢 (´・ω・`)\n\n换个关键词再让摘希找一次？',
             'sources': [],
             'model': LLM_MODEL,
             'enhanced_query': enhanced,
             'intent': intent,
+            'pool': pool,
+            'pick': None,
             'timings': {'total': time.time() - total_t0},
         }
+
+    def _ask_random(self, question: str, total_t0: float, quiet: bool = False, on_delta=None) -> dict:
+        self._ensure_random_catalog(quiet)
+        if not quiet:
+            _step('🎲 抽签...')
+        draw, hit, pool_id, search_time, brief = self._prepare_random(question, quiet=True)
+        if not draw or not hit:
+            if not quiet:
+                print(' ✗ 池是空的')
+            result = self._empty_ask(question, question, total_t0, 'random', pool=pool_id)
+            if on_delta:
+                on_delta(result['answer'])
+            return result
+        if not quiet:
+            name = hit['metadata'].get('name_zh') or hit['metadata'].get('name_en') or draw.candidate.entity_id
+            print(f' ✓ {search_time:.2f}s {draw.pool.label_zh} → {name}')
+
+        context = self.build_context([hit])
+        translation_ref = self._translator.build_translation_context(context)
+        user_message = self._build_user_message(
+            question, context, translation_ref, 'random', extra=brief,
+        )
+
+        if not quiet:
+            _step(f'🤖 调用 {LLM_MODEL}...')
+        t1 = time.time()
+        if on_delta is None:
+            answer = self._call_llm(
+                user_message, system_prompt=self._system_prompt_for('random'),
+            )
+        else:
+            parts = []
+            try:
+                for piece in self._iter_llm_stream(
+                    user_message, system_prompt=self._system_prompt_for('random'),
+                ):
+                    parts.append(piece)
+                    on_delta(piece)
+                answer = ''.join(parts)
+                answer = re.sub(r'<think>.*?</think>', '', answer, flags=re.DOTALL).strip()
+                if not answer:
+                    answer = '⚠️ 模型返回空内容，请重新提问。'
+                    if not parts:
+                        on_delta(answer)
+            except Exception as e:
+                answer = f'⚠️ LLM 调用失败: {e}'
+                if not parts:
+                    on_delta(answer)
+        llm_time = time.time() - t1
+        if not quiet:
+            _done(t1, f'{len(answer)} 字')
+
+        return self._finalize_ask(
+            question, question, [hit], answer,
+            search_time, llm_time, total_t0, quiet,
+            translate=on_delta is None,
+            intent='random', pool=pool_id, pick=draw.candidate.entity_id,
+        )
 
     def ask(self, question: str, top_k: int = TOP_K, quiet: bool = False) -> dict:
         """完整的 RAG 问答流程。quiet=True 时不打印步骤（给 QQ 并发用）。"""
@@ -564,6 +752,9 @@ class RAGEngine:
         intent = classify_intent(question)
         if not quiet:
             _done(t1, intent)
+
+        if intent == 'random':
+            return self._ask_random(question, total_t0, quiet=quiet)
 
         # Step 1: 查询增强
         if not quiet:
@@ -620,6 +811,8 @@ class RAGEngine:
         """和 ask() 相同，但 LLM 边生成边回调 on_delta(str)。检索阶段仍是同步的。"""
         total_t0 = time.time()
         intent = classify_intent(question)
+        if intent == 'random':
+            return self._ask_random(question, total_t0, quiet=quiet, on_delta=on_delta)
         enhanced = self._translator.enhance_query(question)
         t1 = time.time()
         search_results = self.search(question, top_k, quiet=quiet)
@@ -666,6 +859,7 @@ class RAGEngine:
     def _finalize_ask(
         self, question, enhanced, search_results, answer,
         search_time, llm_time, total_t0, quiet, translate=True, intent='ask',
+        pool=None, pick=None,
     ) -> dict:
         if translate:
             answer = self._translator.translate_output(answer)
@@ -691,6 +885,8 @@ class RAGEngine:
             'model': LLM_MODEL,
             'enhanced_query': enhanced,
             'intent': intent,
+            'pool': pool,
+            'pick': pick,
             'timings': {
                 'search': round(search_time, 2),
                 'llm': round(llm_time, 2),

@@ -22,6 +22,7 @@ INDEX_JSONL = KNOWLEDGE_BASE_DIR / 'index.jsonl'
 CHROMA_DB_DIR = Path(__file__).parent / 'chroma_db'
 BM25_CACHE_PATH = Path(__file__).parent / 'bm25_cache.pkl'
 SEARCH_CORPUS_PATH = Path(__file__).parent / 'search_corpus.jsonl'
+RANDOM_CATALOG_PATH = Path(__file__).parent / 'random_catalog.pkl'
 
 # ── 检索参数 ──
 TOP_K = 10                 # 最终返回 / 喂给 LLM 的文档数
