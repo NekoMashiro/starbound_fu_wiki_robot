@@ -27,6 +27,7 @@ from config import (
     SEARCH_CORPUS_PATH,
 )
 from embedding import get_embeddings
+from intent import classify_intent
 from translator import Translator
 
 COLLECTION_NAME = 'fu_knowledge_base'
@@ -90,6 +91,16 @@ SYSTEM_PROMPT = """你是 Starbound 游戏知识助手，精通 Frackin' Univers
 回答格式：
 - 物品查询：名称、描述、关键属性、制作方式、获取途径
 - 攻略问题：步骤和建议"""
+
+
+CHAT_SYSTEM_PROMPT = """你是玩家的朋友，精通 Starbound 以及 Frackin' Universe、Arcana、Voyage 等主流 mod，正在 QQ 里闲聊。
+
+规则：
+1. 用中文，语气可以贫、可以接梗、可以跟着角色扮演走
+2. 游戏事实必须来自参考资料；资料不够就直说，不要编配方、掉率、任务流程
+3. 物品名称格式仍用 "中文名(English Name)"，方便对方对照
+4. 不要自我介绍成百科或助手，不要按「名称-属性-制作」卡片输出
+5. 不要在回答末尾列参考来源"""
 
 
 class RAGEngine:
@@ -494,9 +505,40 @@ class RAGEngine:
 
         return '\n\n---\n\n'.join(context_parts)
 
+    @staticmethod
+    def _system_prompt_for(intent: str) -> str:
+        return CHAT_SYSTEM_PROMPT if intent == 'chat' else SYSTEM_PROMPT
+
+    @staticmethod
+    def _build_user_message(question: str, context: str, translation_ref: str, intent: str) -> str:
+        user_parts = [f'参考资料:\n{context}']
+        if translation_ref:
+            user_parts.append(translation_ref)
+        user_parts.append(f'玩家问题: {question}')
+        if intent == 'chat':
+            user_parts.append('用闲聊口吻回答，不要列来源清单。')
+        return '\n\n'.join(user_parts)
+
+    def _empty_ask(self, question: str, enhanced: str, total_t0: float, intent: str) -> dict:
+        return {
+            'answer': '抱歉，没有找到与你的问题相关的信息。请尝试换个关键词。',
+            'sources': [],
+            'model': LLM_MODEL,
+            'enhanced_query': enhanced,
+            'intent': intent,
+            'timings': {'total': time.time() - total_t0},
+        }
+
     def ask(self, question: str, top_k: int = TOP_K, quiet: bool = False) -> dict:
         """完整的 RAG 问答流程。quiet=True 时不打印步骤（给 QQ 并发用）。"""
         total_t0 = time.time()
+
+        if not quiet:
+            _step('🎯 意图识别...')
+        t1 = time.time()
+        intent = classify_intent(question)
+        if not quiet:
+            _done(t1, intent)
 
         # Step 1: 查询增强
         if not quiet:
@@ -519,13 +561,7 @@ class RAGEngine:
         if not search_results:
             if not quiet:
                 print('  ❌ 未找到相关文档')
-            return {
-                'answer': '抱歉，没有找到与你的问题相关的信息。请尝试换个关键词。',
-                'sources': [],
-                'model': LLM_MODEL,
-                'enhanced_query': enhanced,
-                'timings': {'total': time.time() - total_t0},
-            }
+            return self._empty_ask(question, enhanced, total_t0, intent)
 
         # Step 3: 组装上下文
         if not quiet:
@@ -538,29 +574,27 @@ class RAGEngine:
         if not quiet:
             _done(t1, f'{ctx_docs} 篇, {ctx_chars:,} 字符')
 
-        # Step 4: 调用 LLM
-        user_parts = [f'参考资料:\n{context}']
-        if translation_ref:
-            user_parts.append(translation_ref)
-        user_parts.append(f'玩家问题: {question}')
-        user_message = '\n\n'.join(user_parts)
+        user_message = self._build_user_message(
+            question, context, translation_ref, intent,
+        )
 
         if not quiet:
             _step(f'🤖 调用 {LLM_MODEL}...')
         t1 = time.time()
-        answer = self._call_llm(user_message)
+        answer = self._call_llm(user_message, system_prompt=self._system_prompt_for(intent))
         llm_time = time.time() - t1
         if not quiet:
             _done(t1, f'{len(answer)} 字')
 
         return self._finalize_ask(
             question, enhanced, search_results, answer,
-            search_time, llm_time, total_t0, quiet,
+            search_time, llm_time, total_t0, quiet, intent=intent,
         )
 
     def ask_stream(self, question: str, on_delta=None, top_k: int = TOP_K, quiet: bool = True) -> dict:
         """和 ask() 相同，但 LLM 边生成边回调 on_delta(str)。检索阶段仍是同步的。"""
         total_t0 = time.time()
+        intent = classify_intent(question)
         enhanced = self._translator.enhance_query(question)
         t1 = time.time()
         search_results = self.search(question, top_k, quiet=quiet)
@@ -570,26 +604,20 @@ class RAGEngine:
             answer = '抱歉，没有找到与你的问题相关的信息。请尝试换个关键词。'
             if on_delta:
                 on_delta(answer)
-            return {
-                'answer': answer,
-                'sources': [],
-                'model': LLM_MODEL,
-                'enhanced_query': enhanced,
-                'timings': {'total': time.time() - total_t0},
-            }
+            return self._empty_ask(question, enhanced, total_t0, intent)
 
         context = self.build_context(search_results)
         translation_ref = self._translator.build_translation_context(context)
-        user_parts = [f'参考资料:\n{context}']
-        if translation_ref:
-            user_parts.append(translation_ref)
-        user_parts.append(f'玩家问题: {question}')
-        user_message = '\n\n'.join(user_parts)
+        user_message = self._build_user_message(
+            question, context, translation_ref, intent,
+        )
 
         t1 = time.time()
         parts = []
         try:
-            for piece in self._iter_llm_stream(user_message):
+            for piece in self._iter_llm_stream(
+                user_message, system_prompt=self._system_prompt_for(intent),
+            ):
                 parts.append(piece)
                 if on_delta:
                     on_delta(piece)
@@ -607,12 +635,12 @@ class RAGEngine:
 
         return self._finalize_ask(
             question, enhanced, search_results, answer,
-            search_time, llm_time, total_t0, quiet, translate=False,
+            search_time, llm_time, total_t0, quiet, translate=False, intent=intent,
         )
 
     def _finalize_ask(
         self, question, enhanced, search_results, answer,
-        search_time, llm_time, total_t0, quiet, translate=True,
+        search_time, llm_time, total_t0, quiet, translate=True, intent='ask',
     ) -> dict:
         if translate:
             answer = self._translator.translate_output(answer)
@@ -637,6 +665,7 @@ class RAGEngine:
             ],
             'model': LLM_MODEL,
             'enhanced_query': enhanced,
+            'intent': intent,
             'timings': {
                 'search': round(search_time, 2),
                 'llm': round(llm_time, 2),
@@ -644,7 +673,7 @@ class RAGEngine:
             },
         }
 
-    def _llm_endpoint(self) -> tuple[str, dict, dict]:
+    def _llm_endpoint(self, system_prompt: str | None = None) -> tuple[str, dict, dict]:
         from config import LLM_PROVIDER, ZHIPU_API_KEY, ZHIPU_API_BASE
 
         if LLM_PROVIDER == 'zhipu':
@@ -667,7 +696,7 @@ class RAGEngine:
         request_body = {
             'model': LLM_MODEL,
             'messages': [
-                {'role': 'system', 'content': SYSTEM_PROMPT},
+                {'role': 'system', 'content': system_prompt or SYSTEM_PROMPT},
             ],
             'temperature': 0.3,
             'max_tokens': 2000,
@@ -677,9 +706,9 @@ class RAGEngine:
             request_body['provider'] = openrouter_provider_prefs()
         return api_base, headers, request_body
 
-    def _iter_llm_stream(self, user_message: str):
+    def _iter_llm_stream(self, user_message: str, system_prompt: str | None = None):
         """OpenAI 兼容 SSE，产出 content delta。"""
-        api_base, headers, request_body = self._llm_endpoint()
+        api_base, headers, request_body = self._llm_endpoint(system_prompt)
         request_body = dict(request_body)
         request_body['messages'] = list(request_body['messages']) + [
             {'role': 'user', 'content': user_message},
@@ -716,9 +745,9 @@ class RAGEngine:
                     if delta:
                         yield delta
 
-    def _call_llm(self, user_message: str) -> str:
+    def _call_llm(self, user_message: str, system_prompt: str | None = None) -> str:
         """调用 LLM API（支持智谱和 OpenRouter）。"""
-        api_base, headers, request_body = self._llm_endpoint()
+        api_base, headers, request_body = self._llm_endpoint(system_prompt)
         request_body = dict(request_body)
         request_body['messages'] = list(request_body['messages']) + [
             {'role': 'user', 'content': user_message},
