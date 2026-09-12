@@ -131,8 +131,9 @@ RANDOM_SYSTEM_PROMPT = PERSONA + """
 2. 摘希这边有没有这个类型。没有对上、或这种类型的签筒是空的，都要老实认，不要装成本来就要抽后面那个
 3. 最终实际抽到的是哪一条
 
-对不上类型时，就说找不到船长要的分类、摘希就随机一个词条；不要说成「船长让随便找」。
-船长本来就说随便时，才是没指定种类、摘希自己转签筒。
+对不上类型时，剧情必须是这三拍：船长想随机 xxx，但是没有相应品类，于是最终全局随机。
+xxx 用船长原话里要抽的那个。不要说成「船长让随便找」，也不要跳过「没有这个品类」直接报结果。
+船长说今日推荐、随便来一个、随机一个时，那是指定了「全局随机」，不是对不上品类。
 
 语气再活一点：
 - 像舰桥上随手转了下签筒，抽到了就对着船长分享。可以吐槽、起哄、脑补船长拿去干什么，也可以问船长要不要再抽一次
@@ -613,19 +614,20 @@ class RAGEngine:
 
     @staticmethod
     def _random_brief(question: str, match, draw, hit, fallback: str | None) -> str:
-        if match:
-            wanted = f'{match.pool.label_zh}（对上别名 {match.alias!r}）'
-        else:
-            wanted = f'未能对上已知类型（原话：{question}）'
-
         if fallback == 'unknown_type':
-            have = '没有。摘希的签筒对不上船长说的这个类型'
-        elif fallback == 'empty_pool':
-            have = f'有「{match.pool.label_zh}」这个类型，但签筒是空的'
-        elif match and match.pool.id == 'any':
-            have = '有。船长没指定种类，走随便抽'
+            wanted = f'船长想随机「{question}」里说的那个'
+            have = '没有相应品类'
+        elif match:
+            wanted = f'船长想随机「{match.pool.label_zh}」（对上别名 {match.alias!r}）'
+            if fallback == 'empty_pool':
+                have = f'有「{match.pool.label_zh}」这个品类，但签筒是空的'
+            elif match.pool.id == 'any':
+                have = '船长指定了全局随机，不限品类'
+            else:
+                have = f'有「{match.pool.label_zh}」这个品类'
         else:
-            have = f'有「{match.pool.label_zh}」这个类型'
+            wanted = f'船长想随机「{question}」里说的那个'
+            have = '没有相应品类'
 
         if draw and hit:
             name_zh = hit['metadata'].get('name_zh') or ''
@@ -636,11 +638,11 @@ class RAGEngine:
                 f'entity_id={draw.candidate.entity_id}'
             )
             if fallback == 'unknown_type':
-                result = f'找不到船长要的分类，摘希就随机一个词条，抽到 {drawn}'
+                result = f'没有相应品类，于是最终全局随机，抽到 {drawn}'
             elif fallback == 'empty_pool':
-                result = f'「{match.pool.label_zh}」签筒是空的，摘希改抽了，抽到 {drawn}'
+                result = f'「{match.pool.label_zh}」签筒是空的，于是最终全局随机，抽到 {drawn}'
             elif draw.asked_pool.id == 'any' and draw.pool.id != 'any':
-                result = f'从随便转到{draw.pool.label_zh}，抽到 {drawn}'
+                result = f'全局随机转到{draw.pool.label_zh}，抽到 {drawn}'
             else:
                 result = drawn
         else:
@@ -671,7 +673,8 @@ class RAGEngine:
             )
         elif intent == 'random':
             user_parts.append(
-                '请先交代船长想抽什么、有没有这个类型、最终抽到了什么，'
+                '请先交代船长想随机什么、有没有这个品类、最终抽到了什么。'
+                '对不上品类时必须说清：想随机 xxx，但是没有相应品类，于是最终全局随机。'
                 '再活泼地介绍抽中的那一条。多点评、多互动、可以有脑洞，'
                 '使用颜文字而不是 emoji。不要写成今日推荐，不要列来源，不要提没抽中的词条。'
             )
