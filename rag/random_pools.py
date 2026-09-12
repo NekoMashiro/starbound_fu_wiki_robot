@@ -83,14 +83,14 @@ POOLS: tuple[Pool, ...] = (
     Pool(
         'food',
         '食物',
-        ('做好的食物', 'preparedFood', '料理', '吃的', '食物'),
+        ('做好的食物', 'preparedFood', '料理', '吃什么', '吃的', '食物'),
         entity_type='item',
         categories=('preparedFood', 'food'),
     ),
     Pool(
         'drink',
         '饮料',
-        ('饮料', '喝的', '来杯酒', 'drink'),
+        ('饮料', '喝什么', '喝的', '来杯酒', 'drink'),
         entity_type='item',
         categories=('drink',),
     ),
@@ -116,7 +116,7 @@ POOLS: tuple[Pool, ...] = (
     Pool(
         'tech',
         '科技',
-        ('主动技', '来个科技', '随机科技', 'tech'),
+        ('主动技', '来个科技', '随机科技', '科技', 'tech'),
         entity_type='tech',
     ),
     Pool(
@@ -297,7 +297,7 @@ POOLS: tuple[Pool, ...] = (
     Pool(
         'weapon',
         '武器',
-        ('武器', '来把枪', '来把刀', 'weapon'),
+        ('武器', '一把枪', '一把刀', '来把枪', '来把刀', 'weapon'),
         entity_type='item',
         categories=WEAPON_CATEGORIES,
     ),
@@ -395,7 +395,7 @@ POOLS: tuple[Pool, ...] = (
     Pool(
         'light',
         '灯',
-        ('灯具', '来个灯', '照明'),
+        ('灯具', '推荐个灯', '来盏灯', '来个灯', '照明'),
         entity_type='object',
         categories=('light',),
     ),
@@ -486,7 +486,7 @@ POOLS: tuple[Pool, ...] = (
     Pool(
         'any',
         '全局随机',
-        ('今日推荐', '随便来一个', '随机一个', '随便', '随机'),
+        ('今日推荐', '随便来一个', '随机一个', '来一个', '抽签', '随便', '随机'),
         rotate=('food', 'drink', 'monster', 'biome'),
     ),
 )

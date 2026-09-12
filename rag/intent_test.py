@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from intent import classify_intent, looks_like_random, parse_intent
+from intent import classify_intent, decide_intent, looks_like_random, parse_intent
 
 PARSE_CASES = [
     ('ask', 'ask'),
@@ -27,11 +27,36 @@ HINT_CASES = [
     ('来个蜜蜂', True),
     ('今天去哪', True),
     ('随便来一个', True),
+    ('抽签', True),
+    ('来点吃的', True),
+    ('随机一把枪', True),
+    ('吃什么好', True),
+    ('来个烤肋排', True),
     ('武士刀的掉落率是多少？', False),
     ('钨矿怎么熔炼啊呜呜呜', False),
     ('嘿 S.A.I.L 帮我去餐厅点烤肋排', False),
     ('疯狂星期四 v我50日耀矿', False),
     ('怎么做烤肋排', False),
+]
+
+DECIDE_CASES = [
+    ('推荐个吃的', 'random'),
+    ('来把步枪', 'random'),
+    ('来个蜜蜂', 'random'),
+    ('今天去哪', 'random'),
+    ('随便来一个', 'random'),
+    ('抽签', 'random'),
+    ('来点吃的', 'random'),
+    ('随机一把枪', 'random'),
+    ('吃什么好', 'random'),
+    ('可爱的摘希哟 去飞船柜子里随机拿一件时装打扮一下自己吧！', 'random'),
+    ('来个烤肋排', None),
+    ('来一个烤肋排', None),
+    ('嘿 帮我看看 烤肋排 再来个汉堡', None),
+    ('武士刀的掉落率是多少？', None),
+    ('钨矿怎么熔炼啊呜呜呜', None),
+    ('嘿 S.A.I.L 帮我去餐厅点烤肋排', None),
+    ('疯狂星期四 v我50日耀矿', None),
 ]
 
 CASES = [
@@ -44,6 +69,9 @@ CASES = [
     ('来个蜜蜂', 'random'),
     ('今天去哪', 'random'),
     ('随便来一个', 'random'),
+    ('抽签', 'random'),
+    ('随机一把枪', 'random'),
+    ('吃什么好', 'random'),
     ('疯狂星期四 v我50日耀矿', 'chat'),
     (
         '嘿，S.A.I.L助手，帮我导航到前哨站的2站传送商店前的餐厅，'
@@ -61,6 +89,17 @@ def test_parse_intent() -> int:
         got = parse_intent(raw)
         ok = got == expect
         print(f'  [{"OK" if ok else "FAIL"}] parse {raw!r} -> {got} (expect {expect})')
+        if not ok:
+            failed += 1
+    return failed
+
+
+def test_decide_intent() -> int:
+    failed = 0
+    for text, expect in DECIDE_CASES:
+        got = decide_intent(text)
+        ok = got == expect
+        print(f'  [{"OK" if ok else "FAIL"}] decide {text!r} -> {got} (expect {expect})')
         if not ok:
             failed += 1
     return failed
@@ -94,10 +133,15 @@ def main():
     parse_fail = test_parse_intent()
     print('\nlooks_like_random')
     hint_fail = test_looks_like_random()
-    print('\nclassify_intent (hint or live LLM)')
+    print('\ndecide_intent')
+    decide_fail = test_decide_intent()
+    print('\nclassify_intent (rule or live LLM)')
     live_fail = test_classify()
-    total = parse_fail + hint_fail + live_fail
-    print(f'\nfailed {total} / {len(PARSE_CASES) + len(HINT_CASES) + len(CASES)}')
+    total = parse_fail + hint_fail + decide_fail + live_fail
+    print(
+        f'\nfailed {total} / '
+        f'{len(PARSE_CASES) + len(HINT_CASES) + len(DECIDE_CASES) + len(CASES)}'
+    )
     sys.exit(1 if total else 0)
 
 

@@ -13,8 +13,13 @@ from config import (
     ZHIPU_API_KEY,
     openrouter_provider_prefs,
 )
+from random_pools import resolve_pool
+
 INTENTS = ('ask', 'chat', 'random')
 DEFAULT_INTENT = 'ask'
+
+# 短句才敢用规则直接判 random；点菜单、角色扮演通常更长。
+_RULE_RANDOM_MAX_LEN = 32
 
 _THINK_RE = re.compile(r'<think>.*?</think>', re.DOTALL)
 _TOKEN_RE = re.compile(r'\b(ask|chat|random)\b', re.IGNORECASE)
@@ -24,10 +29,17 @@ _ASK_HINT_RE = re.compile(
     r'怎么|如何|配方|熔炼|掉落|在哪|哪里|为什么|能不能|是谁|是什么|多少|任务|boss',
     re.IGNORECASE,
 )
-# 像在抽签。故意不写单字「抽」，避免「抽出物」这类问句。
+# 自己就要抽 / 随便给，不必再对上具体品类。
+_STRONG_RANDOM_RE = re.compile(
+    r'随便|随机|抽一个|抽个|抽签|今日推荐|今天去哪|去哪玩|吃什么|喝什么',
+)
+# 「来个 / 推荐个」太容易出现在点菜、点名，必须再对上品类才敢直接判。
+_SOFT_RANDOM_RE = re.compile(
+    r'推荐个|推荐一|推荐点|来个|来只|来把|来张|来杯|来点|来套|来件|来盏'
+    r'|给个|整一个|整把|整套',
+)
 _RANDOM_HINT_RE = re.compile(
-    r'推荐个|推荐一|推荐点|随便来|随便抽|随便一个|来个|来只|来把|来张|来杯'
-    r'|今日推荐|今天去哪|去哪玩|随机一个|随机来|抽一个|抽个',
+    _STRONG_RANDOM_RE.pattern + '|' + _SOFT_RANDOM_RE.pattern
 )
 
 
@@ -57,28 +69,52 @@ chat：闲聊、打招呼、复读玩梗、角色扮演（假装 S.A.I.L 点具�
 - 来个蜜蜂 → random
 - 今天去哪 → random
 - 随便来一个 → random
+- 抽签 → random
+- 随机一把枪 → random
+- 吃什么好 → random
+- 来个烤肋排 → chat
 - 疯狂星期四 v我50日耀矿 → chat
 - 给我转50像素快点 → chat
 - 嘿 S.A.I.L 帮我去餐厅点烤肋排 → chat
+- 嘿帮我看看烤肋排再来个汉堡 → chat
 - 怎么骗殖民地 npc 替我种棉花 → chat
 """
 
 
 def looks_like_random(text: str) -> bool:
-    """口令像抽签、又不像在查资料。不对池子，避免「武士刀」问句误入 random。"""
+    """口令像在要一样未知的东西，又不像在查资料。"""
     text = (text or '').strip()
     if not text or _ASK_HINT_RE.search(text):
         return False
     return bool(_RANDOM_HINT_RE.search(text))
 
 
-def classify_intent(text: str) -> str:
-    """返回 ask / chat / random。任何失败都回落到 ask。"""
+def decide_intent(text: str) -> str | None:
+    """规则能看准时直接返回；看不准返回 None，交给模型。"""
     text = (text or '').strip()
     if not text:
         return DEFAULT_INTENT
-    if looks_like_random(text):
+    if _ASK_HINT_RE.search(text):
+        return None
+    if len(text) > _RULE_RANDOM_MAX_LEN:
+        return None
+    strong = bool(_STRONG_RANDOM_RE.search(text))
+    soft = bool(_SOFT_RANDOM_RE.search(text))
+    match = resolve_pool(text)
+    if strong:
         return 'random'
+    # 「来一个烤肋排」会对上 any，不能当作品类已对上。
+    if soft and match is not None and match.pool.id != 'any':
+        return 'random'
+    return None
+
+
+def classify_intent(text: str) -> str:
+    """返回 ask / chat / random。任何失败都回落到 ask。"""
+    text = (text or '').strip()
+    decided = decide_intent(text)
+    if decided:
+        return decided
     try:
         raw = _complete(text)
     except Exception:

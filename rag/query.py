@@ -124,28 +124,15 @@ CHAT_SYSTEM_PROMPT = PERSONA + """
 
 
 RANDOM_SYSTEM_PROMPT = PERSONA + """
-现在是抽签。以用户消息里的「抽签说明」为准，不要自己改剧情。这不是每日任务，也不是值班简报。参考资料里只有最终抽中的那一条。
+现在是给船长随手变一样东西（或一个去处）。参考资料里只有最终那一条。
+顺着船长原话把结果嵌进去，不要自己改剧情，也不要改成抽签——除非船长自己就要抽。
+船长没提签筒、今日推荐、值班简报，就不要写这些。
 
-开场必须让船长明白这三件事（写进对话里，不要做成冷冰冰的字段表）：
-1. 船长想抽的是什么类型
-2. 摘希这边有没有这个类型。没有对上、或这种类型的签筒是空的，都要老实认，不要装成本来就要抽后面那个
-3. 最终实际抽到的是哪一条
+类型对得上时直接给结果，不用说「你要的是 X，摘希有 X」。
+类型对不上或池子是空的：用一句带过「这个品类没有，先随便给一个」，然后进入正题。船长本来就说随便 / 随机 / 今日推荐，那是指定全局，不是对不上。
 
-对不上类型时，剧情必须是这三拍：船长想随机 xxx，但是没有相应品类，于是最终全局随机。
-xxx 用船长原话里要抽的那个。不要说成「船长让随便找」，也不要跳过「没有这个品类」直接报结果。
-船长说今日推荐、随便来一个、随机一个时，那是指定了「全局随机」，不是对不上品类。
-
-语气再活一点：
-- 像舰桥上随手转了下签筒，抽到了就对着船长分享。可以吐槽、起哄、脑补船长拿去干什么，也可以问船长要不要再抽一次
-- 点评多一点：好不好用、看起来可不可怜、适不适合塞进背包、会不会把飞船搞砸。脑洞可以跳，但不要油、不要网络喷子
-- 用 Markdown 写短篇：名称要醒目，后面跟几句点评和关键效果/获取。不要写成词条说明书，也不要只有一句「抽到了」
-
-事实还是要守：
-- 游戏事实只能来自参考资料。不要编坐标、商店、没写出来的配方或掉落
-- 脑洞和玩笑可以飞，但要让人分得清哪句是资料、哪句是摘希在瞎想
-- 不要假装船长已经拥有，不要列来源，不要提其它没抽中的词条
-- 不要写「今日推荐」「每日一抽」「值班简报」这类日程味标题
-- 物品名称格式仍是 **中文名(English Name)**
+语气随意：一句报名称也行，不必每条都点评，不要写成评测。
+名称用 **中文名(English Name)**。游戏事实只能来自参考资料；不要列来源，不要提没抽中的词条。
 """
 
 
@@ -615,44 +602,34 @@ class RAGEngine:
     @staticmethod
     def _random_brief(question: str, match, draw, hit, fallback: str | None) -> str:
         if fallback == 'unknown_type':
-            wanted = f'船长想随机「{question}」里说的那个'
-            have = '没有相应品类'
+            kind = '船长原话里的品类对不上，已改走全局'
+        elif fallback == 'empty_pool' and match:
+            kind = f'有「{match.pool.label_zh}」这个品类，但池子是空的，已改走全局'
+        elif match and match.pool.id == 'any':
+            kind = '船长没限定品类，全局随便给'
         elif match:
-            wanted = f'船长想随机「{match.pool.label_zh}」（对上别名 {match.alias!r}）'
-            if fallback == 'empty_pool':
-                have = f'有「{match.pool.label_zh}」这个品类，但签筒是空的'
-            elif match.pool.id == 'any':
-                have = '船长指定了全局随机，不限品类'
-            else:
-                have = f'有「{match.pool.label_zh}」这个品类'
+            kind = f'对上了「{match.pool.label_zh}」'
         else:
-            wanted = f'船长想随机「{question}」里说的那个'
-            have = '没有相应品类'
+            kind = '船长原话里的品类对不上，已改走全局'
 
         if draw and hit:
             name_zh = hit['metadata'].get('name_zh') or ''
             name_en = hit['metadata'].get('name_en') or ''
-            name = f'{name_zh}({name_en})' if name_zh and name_en else (name_zh or name_en or draw.candidate.entity_id)
-            drawn = (
-                f'{draw.pool.label_zh}池里的 {name}，'
-                f'entity_id={draw.candidate.entity_id}'
+            name = (
+                f'{name_zh}({name_en})' if name_zh and name_en
+                else (name_zh or name_en or draw.candidate.entity_id)
             )
-            if fallback == 'unknown_type':
-                result = f'没有相应品类，于是最终全局随机，抽到 {drawn}'
-            elif fallback == 'empty_pool':
-                result = f'「{match.pool.label_zh}」签筒是空的，于是最终全局随机，抽到 {drawn}'
-            elif draw.asked_pool.id == 'any' and draw.pool.id != 'any':
-                result = f'全局随机转到{draw.pool.label_zh}，抽到 {drawn}'
-            else:
-                result = drawn
+            given = f'{name}（{draw.pool.label_zh}）'
+            if fallback:
+                given += '；先用一句带过品类对不上，再进入正题'
         else:
-            result = '没有抽到任何词条'
+            given = '没有给到任何词条'
 
         return (
-            '抽签说明（请据此告诉船长，不要照抄标题）：\n'
-            f'- 船长想抽的类型: {wanted}\n'
-            f'- 摘希有没有这个类型: {have}\n'
-            f'- 最终随机结果: {result}'
+            '抽到的结果（顺着船长原话接，不要改成抽签）：\n'
+            f'- 船长原话: {question}\n'
+            f'- 类型: {kind}\n'
+            f'- 结果: {given}'
         )
 
     @staticmethod
@@ -673,10 +650,8 @@ class RAGEngine:
             )
         elif intent == 'random':
             user_parts.append(
-                '请先交代船长想随机什么、有没有这个品类、最终抽到了什么。'
-                '对不上品类时必须说清：想随机 xxx，但是没有相应品类，于是最终全局随机。'
-                '再活泼地介绍抽中的那一条。多点评、多互动、可以有脑洞，'
-                '使用颜文字而不是 emoji。不要写成今日推荐，不要列来源，不要提没抽中的词条。'
+                '顺着船长原话把结果嵌进去。不必每条都点评。'
+                '使用颜文字而不是 emoji。不要列来源，不要提没抽中的词条。'
             )
         else:
             user_parts.append(
@@ -699,7 +674,7 @@ class RAGEngine:
     def _ask_random(self, question: str, total_t0: float, quiet: bool = False, on_delta=None) -> dict:
         self._ensure_random_catalog(quiet)
         if not quiet:
-            _step('🎲 抽签...')
+            _step('🎲 随机...')
         draw, hit, pool_id, search_time, brief = self._prepare_random(question, quiet=True)
         if not draw or not hit:
             if not quiet:
@@ -724,12 +699,14 @@ class RAGEngine:
         if on_delta is None:
             answer = self._call_llm(
                 user_message, system_prompt=self._system_prompt_for('random'),
+                temperature=0.75,
             )
         else:
             parts = []
             try:
                 for piece in self._iter_llm_stream(
                     user_message, system_prompt=self._system_prompt_for('random'),
+                    temperature=0.75,
                 ):
                     parts.append(piece)
                     on_delta(piece)
@@ -906,7 +883,9 @@ class RAGEngine:
             },
         }
 
-    def _llm_endpoint(self, system_prompt: str | None = None) -> tuple[str, dict, dict]:
+    def _llm_endpoint(
+        self, system_prompt: str | None = None, temperature: float = 0.3,
+    ) -> tuple[str, dict, dict]:
         from config import LLM_PROVIDER, ZHIPU_API_KEY, ZHIPU_API_BASE
 
         if LLM_PROVIDER == 'zhipu':
@@ -931,7 +910,7 @@ class RAGEngine:
             'messages': [
                 {'role': 'system', 'content': system_prompt or SYSTEM_PROMPT},
             ],
-            'temperature': 0.3,
+            'temperature': temperature,
             'max_tokens': 2000,
         }
         if LLM_PROVIDER == 'openrouter':
@@ -939,9 +918,14 @@ class RAGEngine:
             request_body['provider'] = openrouter_provider_prefs()
         return api_base, headers, request_body
 
-    def _iter_llm_stream(self, user_message: str, system_prompt: str | None = None):
+    def _iter_llm_stream(
+        self, user_message: str, system_prompt: str | None = None,
+        temperature: float = 0.3,
+    ):
         """OpenAI 兼容 SSE，产出 content delta。"""
-        api_base, headers, request_body = self._llm_endpoint(system_prompt)
+        api_base, headers, request_body = self._llm_endpoint(
+            system_prompt, temperature=temperature,
+        )
         request_body = dict(request_body)
         request_body['messages'] = list(request_body['messages']) + [
             {'role': 'user', 'content': user_message},
@@ -978,9 +962,14 @@ class RAGEngine:
                     if delta:
                         yield delta
 
-    def _call_llm(self, user_message: str, system_prompt: str | None = None) -> str:
+    def _call_llm(
+        self, user_message: str, system_prompt: str | None = None,
+        temperature: float = 0.3,
+    ) -> str:
         """调用 LLM API（支持智谱和 OpenRouter）。"""
-        api_base, headers, request_body = self._llm_endpoint(system_prompt)
+        api_base, headers, request_body = self._llm_endpoint(
+            system_prompt, temperature=temperature,
+        )
         request_body = dict(request_body)
         request_body['messages'] = list(request_body['messages']) + [
             {'role': 'user', 'content': user_message},
