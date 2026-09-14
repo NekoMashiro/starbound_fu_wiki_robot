@@ -67,6 +67,8 @@ rsync -av rag/bm25_cache.pkl user@vps:/opt/fu_wiki_robot/rag/
 
 ### 以后更新
 
+日常操作（当前机器路径、gh-proxy 脚本、分卷传索引）见 [SERVER_UPDATE.md](SERVER_UPDATE.md)。
+
 代码：
 
 ```bash

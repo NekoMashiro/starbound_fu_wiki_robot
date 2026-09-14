@@ -53,7 +53,7 @@ def openrouter_provider_prefs() -> dict:
     return {
         'order': OPENROUTER_PROVIDER_ORDER,
         'allow_fallbacks': True,
-        'ignore': ['OpenInference'],
+        'ignore': ['OpenInference', 'digitalocean'],
     }
 
 # ── QQ 官方机器人 ──
