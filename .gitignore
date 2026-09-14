@@ -1,6 +1,8 @@
 # 密钥
 .env
 rag/.env
+*.pem
+*.key
 
 # 向量库和 BM25 缓存（体积大，本机 ingest 后单独 rsync）
 rag/chroma_db/
