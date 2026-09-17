@@ -229,6 +229,8 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                 parent_id = f"wiki:{mod_dir.name}:{md_file.stem}"
                 sections = split_wiki_sections(content)
                 long_wiki = len(content) > 1500 and len(sections) >= 2
+                name_zh = title if re.search(r'[\u4e00-\u9fff]', title) else ''
+                name_en = '' if name_zh else title
 
                 if long_wiki:
                     toc = '；'.join(h for h, _ in sections[:20])
@@ -244,8 +246,8 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                     'metadata': {
                         'entity_id': md_file.stem,
                         'entity_type': 'wiki',
-                        'name_en': title,
-                        'name_zh': '',
+                        'name_en': name_en,
+                        'name_zh': name_zh,
                         'source_mod': mod_dir.name,
                         'quality_tier': 'S',
                         'doc_kind': 'wiki',
@@ -269,8 +271,8 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                             'metadata': {
                                 'entity_id': md_file.stem,
                                 'entity_type': 'wiki',
-                                'name_en': f'{title} / {heading}',
-                                'name_zh': '',
+                                'name_en': '' if name_zh else f'{title} / {heading}',
+                                'name_zh': f'{title} / {heading}' if name_zh else '',
                                 'source_mod': mod_dir.name,
                                 'quality_tier': 'S',
                                 'doc_kind': 'wiki_chunk',
