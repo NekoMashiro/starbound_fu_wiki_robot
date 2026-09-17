@@ -1,0 +1,57 @@
+{
+  "entity_id": "mmgravgun",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Morphite Manipulator",
+  "name_zh": "异极合金物质枪",
+  "description_en": "A vastly superior upgrade to the Matter Manipulator.",
+  "description_zh": "这是对物质枪的极大升级。",
+  "rarity": "legendary",
+  "category": "Matter Manipulator",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "nuclearcore",
+          "count": 1
+        },
+        {
+          "item": "aichip",
+          "count": 2
+        },
+        {
+          "item": "manipulatormodule",
+          "count": 2
+        },
+        {
+          "item": "morphiteore",
+          "count": 4
+        },
+        {
+          "item": "refinedferozium",
+          "count": 10
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Matter Manipulator": {
+        "count": 1,
+        "examples": [
+          "mmgravgun2"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "wiki_ref": "Morphite Manipulator.md",
+  "quality_tier": "S"
+}

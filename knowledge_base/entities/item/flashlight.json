@@ -1,0 +1,71 @@
+{
+  "entity_id": "flashlight",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flashlight",
+  "name_zh": "手电筒",
+  "description_en": "A handy flashlight!",
+  "description_zh": "手持式手电筒！",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "glass",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "Tool": {
+        "count": 1,
+        "examples": [
+          "fuflashlight"
+        ]
+      },
+      "headwear": {
+        "count": 1,
+        "examples": [
+          "mininghathead"
+        ]
+      },
+      "decorative": {
+        "count": 1,
+        "examples": [
+          "sentrybotlightbot"
+        ]
+      },
+      "tool": {
+        "count": 1,
+        "examples": [
+          "tacticalmug"
+        ]
+      }
+    },
+    "total": 4
+  },
+  "quality_tier": "S"
+}

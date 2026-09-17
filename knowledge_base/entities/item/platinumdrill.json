@@ -1,0 +1,38 @@
+{
+  "entity_id": "platinumdrill",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Titanium Drill",
+  "name_zh": "钛制钻头",
+  "description_en": "Drills fast but breaks quickly. A temporary alternative to the matter manipulator.",
+  "description_zh": "钻得快坏的也快。物质枪的临时替代品。",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 375,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "titaniumbar",
+          "count": 3
+        },
+        {
+          "item": "wire",
+          "count": 2
+        },
+        {
+          "item": "electromagnet",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Titanium Drill.md",
+  "quality_tier": "A"
+}

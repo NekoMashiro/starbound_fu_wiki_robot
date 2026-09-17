@@ -1,0 +1,38 @@
+{
+  "entity_id": "hellhammer",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hellhammer",
+  "name_zh": "地狱之锤",
+  "description_en": "An amazing mining tool. Burn your way to riches.",
+  "description_zh": "一个非常棒的挖掘工具，我想它可以带领你走向致富之路。",
+  "rarity": "rare",
+  "category": "Tool",
+  "price": 450,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "pyreitebar",
+          "count": 3
+        },
+        {
+          "item": "fu_carbondioxide",
+          "count": 25
+        },
+        {
+          "item": "zerchesiumbar",
+          "count": 4
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Hellhammer.md",
+  "quality_tier": "A"
+}

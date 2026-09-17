@@ -1,0 +1,57 @@
+{
+  "entity_id": "chainsaw",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Chainsaw",
+  "name_zh": "电锯",
+  "description_en": "Great for chopping down trees. Try to avoid massacres.",
+  "description_zh": "这真是一种伟大的砍伐树木的发明。请尽量避免用于杀戮。",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "liquidoil",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "woodShed",
+          "probability": 0.0139,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Chainsaw.md",
+  "quality_tier": "S"
+}

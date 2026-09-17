@@ -1,0 +1,34 @@
+{
+  "entity_id": "pickaxe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Iron Pickaxe",
+  "name_zh": "铁制镐",
+  "description_en": "Pickaxes are so last millennium!",
+  "description_zh": "镐子是如此古老的工具！",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 50,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 3
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Iron Pickaxe.md",
+  "quality_tier": "A"
+}

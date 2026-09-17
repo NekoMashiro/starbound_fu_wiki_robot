@@ -1,0 +1,48 @@
+{
+  "entity_id": "hoe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Hoe",
+  "name_zh": "锄头",
+  "description_en": "This hoe lets you till soil. The tilled soil can then be used to grow all sorts of crops!",
+  "description_zh": "它让我能耕地。然后就能种各种植物！",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 125,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "darkwoodmaterial",
+          "count": 25
+        },
+        {
+          "item": "copperbar",
+          "count": 4
+        },
+        {
+          "item": "string",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Hoe.md",
+  "quality_tier": "A"
+}

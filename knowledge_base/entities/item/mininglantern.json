@@ -1,0 +1,155 @@
+{
+  "entity_id": "mininglantern",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Explorer's Lantern",
+  "name_zh": "探险家灯笼",
+  "description_en": "This lantern can be carried by explorers to light the surrounding area.",
+  "description_zh": "一盏被探险家带着的用来照亮周围区域灯笼。",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 800,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 5
+        },
+        {
+          "item": "liquidoil",
+          "count": 10
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Starbound",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "recipes_input": {
+    "by_category": {
+      "enviroProtectionPack": {
+        "count": 1,
+        "examples": [
+          "lanternstickback"
+        ]
+      }
+    },
+    "total": 1
+  },
+  "drop_sources": {
+    "total_pools": 20,
+    "chest_loot": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "desertChestTreasure",
+          "probability": 0.1583,
+          "count": 1
+        },
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0005,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterChestTreasure",
+          "probability": 0.0003,
+          "count": 1
+        },
+        {
+          "pool": "tidewaterFloorChestTreasure",
+          "probability": 0.0003,
+          "count": 1,
+          "monsters": [
+            "veilendrex"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1583
+      ]
+    },
+    "monster_drops": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "pandorasboxtrapogoDesertTreasure",
+          "probability": 0.1329,
+          "count": 1
+        },
+        {
+          "pool": "desertTreasure",
+          "probability": 0.1111,
+          "count": 1
+        },
+        {
+          "pool": "ffshadowTreasure",
+          "probability": 0.002,
+          "count": 1
+        },
+        {
+          "pool": "ffrainforestTreasure",
+          "probability": 0.0011,
+          "count": 1
+        },
+        {
+          "pool": "ffprimevalTreasure",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.1329
+      ]
+    },
+    "other": {
+      "count": 3,
+      "top": [
+        {
+          "pool": "bogLoot",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "futenantLoot",
+          "probability": 0.0002,
+          "count": 1
+        },
+        {
+          "pool": "fuBasicMaterials",
+          "probability": 0.0002,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.001
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

@@ -1,0 +1,79 @@
+{
+  "entity_id": "flashlight_new",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Faulty Flashlight",
+  "name_zh": "故障的手电筒",
+  "description_en": "A crappy flashlight.",
+  "description_zh": "亮度没普通的亮，凑合着用吧。",
+  "rarity": "common",
+  "category": "Tool",
+  "price": 100,
+  "tags": [],
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "ironbar",
+          "count": 1
+        },
+        {
+          "item": "torch",
+          "count": 1
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 19,
+    "monster_drops": {
+      "count": 19,
+      "top": [
+        {
+          "pool": "catStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "juuxStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "veluuStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "spectwingStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        },
+        {
+          "pool": "nightarStarterTreasure",
+          "probability": 1.0,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "quality_tier": "S"
+}

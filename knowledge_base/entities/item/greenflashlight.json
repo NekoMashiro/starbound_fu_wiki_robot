@@ -1,0 +1,163 @@
+{
+  "entity_id": "greenflashlight",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Flashlight",
+  "name_zh": "绿手电",
+  "description_en": "A green flashlight! A mighty glow.",
+  "description_zh": "绿光！一个鲜艳的光源。",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 100,
+  "tags": [],
+  "drop_sources": {
+    "total_pools": 35,
+    "other": {
+      "count": 6,
+      "top": [
+        {
+          "pool": "elduutool",
+          "probability": 0.01,
+          "count": 1
+        },
+        {
+          "pool": "tool",
+          "probability": 0.0097,
+          "count": 1
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "merchantGift",
+          "probability": 0.001,
+          "count": 1
+        },
+        {
+          "pool": "ffcosmicSurprise",
+          "probability": 0.0007,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.01
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0019,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0014,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0006,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0005,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.0019
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0019,
+          "count": 1
+        }
+      ]
+    },
+    "monster_drops": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.001,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0009,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0009,
+          "count": 1
+        },
+        {
+          "pool": "naturalcaveTreasureOld",
+          "probability": 0.0008,
+          "count": 1
+        },
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.0008,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0001,
+        0.001
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0004,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0004,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0004,
+        0.0004
+      ]
+    }
+  },
+  "quality_tier": "A"
+}

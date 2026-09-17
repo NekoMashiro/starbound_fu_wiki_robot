@@ -1,0 +1,38 @@
+{
+  "entity_id": "scantoolproto",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Protocite Scanning Tool",
+  "name_zh": "原体扫描工具",
+  "description_en": "With this protocite-infused tool you can scan at much greater ranges.",
+  "description_zh": "使用这种注入了原体物质的工具，你可以进行更大范围的扫描。",
+  "rarity": "Essential",
+  "category": "Tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "protocitebar",
+          "count": 6
+        },
+        {
+          "item": "powercore",
+          "count": 1
+        },
+        {
+          "item": "fuprocessor",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Protocite Scanning Tool.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,183 @@
+{
+  "entity_id": "silverpickaxe",
+  "entity_type": "item",
+  "source_mod": "Starbound",
+  "name_en": "Silver Pickaxe",
+  "name_zh": "银镐",
+  "description_en": "This tool won't last long, but I'll be able to dig pretty fast with it.",
+  "description_zh": "不能持久，但可以挖的很快。",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 75,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "silverbar",
+          "count": 3
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "改造台",
+      "station_zh": "改造台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 43,
+    "other": {
+      "count": 11,
+      "top": [
+        {
+          "pool": "diggingTool",
+          "probability": 0.3,
+          "count": 1
+        },
+        {
+          "pool": "elduudiggingTool",
+          "probability": 0.3,
+          "count": 1
+        },
+        {
+          "pool": "elduutool",
+          "probability": 0.09,
+          "count": 1
+        },
+        {
+          "pool": "tool",
+          "probability": 0.0871,
+          "count": 1
+        },
+        {
+          "pool": "villagerGift",
+          "probability": 0.0087,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.3
+      ]
+    },
+    "monster_drops": {
+      "count": 16,
+      "top": [
+        {
+          "pool": "miningtreasure",
+          "probability": 0.0189,
+          "count": 1
+        },
+        {
+          "pool": "warbotTreasure",
+          "probability": 0.0087,
+          "count": 1,
+          "monsters": [
+            "fuheavydrone",
+            "warbot"
+          ]
+        },
+        {
+          "pool": "naturalcaveTreasureLarge",
+          "probability": 0.0084,
+          "count": 1
+        },
+        {
+          "pool": "ffbasicTreasure",
+          "probability": 0.0078,
+          "count": 1,
+          "monsters": [
+            "largebipedminiboss",
+            "largeflyingminiboss",
+            "largequadrupedminiboss"
+          ]
+        },
+        {
+          "pool": "hylotlcityTreasureOld",
+          "probability": 0.0069,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0002,
+        0.0189
+      ]
+    },
+    "chest_loot": {
+      "count": 13,
+      "top": [
+        {
+          "pool": "fuspaceElevatorChest",
+          "probability": 0.0175,
+          "count": 1.0
+        },
+        {
+          "pool": "cuteChestTreasure",
+          "probability": 0.0129,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxCommonModule",
+          "probability": 0.0074,
+          "count": 1
+        },
+        {
+          "pool": "fu_lootboxUncommonModule",
+          "probability": 0.0051,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicChestSurprise",
+          "probability": 0.0044,
+          "count": 1
+        }
+      ],
+      "prob_range": [
+        0.0005,
+        0.0175
+      ]
+    },
+    "quest_rewards": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "lowValueQuestRewards",
+          "probability": 0.0174,
+          "count": 1
+        }
+      ]
+    },
+    "boss_mission": {
+      "count": 2,
+      "top": [
+        {
+          "pool": "ffjunkerTreasureBoss",
+          "probability": 0.0039,
+          "count": 1
+        },
+        {
+          "pool": "ffmetallicbossChest",
+          "probability": 0.0033,
+          "count": 1,
+          "monsters": [
+            "fatalcircuit",
+            "gorillaking",
+            "infernusdroid",
+            "zombot"
+          ]
+        }
+      ],
+      "prob_range": [
+        0.0033,
+        0.0039
+      ]
+    }
+  },
+  "wiki_ref": "Silver Pickaxe.md",
+  "quality_tier": "S"
+}

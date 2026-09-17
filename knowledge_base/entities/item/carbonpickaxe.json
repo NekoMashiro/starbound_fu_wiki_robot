@@ -1,0 +1,34 @@
+{
+  "entity_id": "carbonpickaxe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Carbon Pickaxe",
+  "name_zh": "碳制镐",
+  "description_en": "This tool will last a long time, and I'll be able to dig pretty fast with it.",
+  "description_zh": "这个工具有着很高的耐久，且能快速的挖掘。",
+  "rarity": "Common",
+  "category": "Tool",
+  "price": 150,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "carbonplate",
+          "count": 3
+        },
+        {
+          "item": "tungstenbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "工程台",
+      "station_zh": "工程台",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Carbon Pickaxe.md",
+  "quality_tier": "A"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "handhoe",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Hand Hoe",
+  "name_zh": "便携锄头",
+  "description_en": "This hoe lets you till soil but with half the hands and time!",
+  "description_zh": "普通锄头可以干的活儿，这种锄头只需要一半的时间。",
+  "rarity": "Uncommon",
+  "category": "Tool",
+  "price": 225,
+  "tags": [
+    "upgradeableWeapon"
+  ],
+  "level": 3,
+  "twoHanded": false,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "tungstenbar",
+          "count": 2
+        },
+        {
+          "item": "darkwoodmaterial",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "Medieval Workstation",
+      "station_zh": "中古工作站",
+      "source_mod": "Frackin' Universe",
+      "also_at": [
+        {
+          "name": "基础级绘世者工作台",
+          "name_zh": "基础级绘世者工作台"
+        },
+        {
+          "name": "采集工作台",
+          "name_zh": "采集工作台"
+        }
+      ]
+    }
+  ],
+  "wiki_ref": "Hand Hoe.md",
+  "quality_tier": "A"
+}

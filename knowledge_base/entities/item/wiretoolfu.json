@@ -1,0 +1,34 @@
+{
+  "entity_id": "wiretoolfu",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Mechanic's Wrench",
+  "name_zh": "技工扳手",
+  "description_en": "With this you can play electrician, linking up power nodes.",
+  "description_zh": "有了它，你就可以使用类似于物质枪上的连线功能了。",
+  "rarity": "common",
+  "category": "Tool",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "lead",
+          "count": 1
+        },
+        {
+          "item": "ironbar",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "电子设备制造机",
+      "station_zh": "电子设备制造机",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "wiki_ref": "Mechanic's Wrench.md",
+  "quality_tier": "A"
+}

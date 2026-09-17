@@ -1,0 +1,51 @@
+{
+  "entity_id": "fumastermanipulator",
+  "entity_type": "item",
+  "source_mod": "Frackin' Universe",
+  "name_en": "Master Manipulator",
+  "name_zh": "始源物质枪",
+  "description_en": "God-like power to reshape matter.",
+  "description_zh": "藉由造物主之力，重塑世间万物。",
+  "rarity": "legendary",
+  "category": "Matter Manipulator",
+  "price": 0,
+  "tags": [],
+  "twoHanded": true,
+  "recipes_output": [
+    {
+      "inputs": [
+        {
+          "item": "humanartifactaugment",
+          "count": 1
+        },
+        {
+          "item": "precursorbattery",
+          "count": 2
+        },
+        {
+          "item": "precursorfuelcell",
+          "count": 2
+        }
+      ],
+      "output_count": 1,
+      "station": "纳米加工器",
+      "station_zh": "纳米加工器",
+      "source_mod": "Frackin' Universe"
+    }
+  ],
+  "drop_sources": {
+    "total_pools": 1,
+    "other": {
+      "count": 1,
+      "top": [
+        {
+          "pool": "devtest",
+          "probability": 1.0,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "wiki_ref": "Master Manipulator.md",
+  "quality_tier": "S"
+}
