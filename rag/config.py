@@ -34,8 +34,8 @@ BM25_WEIGHT = 0.4          # 仅 fusion=weighted 时使用
 VECTOR_WEIGHT = 0.6        # 仅 fusion=weighted 时使用
 MAX_CONTEXT_LENGTH = 48000 # 发给 LLM 的上下文最大字符数（~24K token）
 
-# ── 质量过滤 ──
-SKIP_QUALITY_TIERS = {'D'}  # ingest 时跳过的质量等级
+# ── 词条完善度过滤（不是物品稀有度）──
+SKIP_ENTRY_COMPLETENESS = {'D'}  # ingest 时跳过信息过少的词条
 
 # ── 智谱 API ──
 ZHIPU_API_BASE = 'https://open.bigmodel.cn/api/paas/v4'

@@ -29,7 +29,7 @@ from pathlib import Path
 import chromadb
 
 from config import (
-    KNOWLEDGE_BASE_DIR, CHROMA_DB_DIR, SKIP_QUALITY_TIERS,
+    KNOWLEDGE_BASE_DIR, CHROMA_DB_DIR, SKIP_ENTRY_COMPLETENESS,
     BM25_CACHE_PATH, SEARCH_CORPUS_PATH, INDEX_JSONL,
 )
 from embedding import get_embeddings
@@ -185,7 +185,7 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                     continue
                 if not isinstance(entity, dict):
                     continue
-                if entity.get('quality_tier', 'D') in SKIP_QUALITY_TIERS:
+                if entity.get('entry_completeness', 'D') in SKIP_ENTRY_COMPLETENESS:
                     continue
                 entities.append(entity)
 
@@ -200,14 +200,14 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
             'id': doc_id,
             'embed_text': embed_text,
             'content': full_content,
-            'hash': _content_hash(embed_text, full_content[:5000]),
+            'hash': _content_hash(embed_text, full_content),
             'metadata': {
                 'entity_id': entity.get('entity_id', ''),
                 'entity_type': entity.get('entity_type', ''),
                 'name_en': entity.get('name_en', ''),
                 'name_zh': entity.get('name_zh', ''),
                 'source_mod': entity.get('source_mod', ''),
-                'quality_tier': entity.get('quality_tier', ''),
+                'entry_completeness': entity.get('entry_completeness', ''),
                 'doc_kind': 'entity',
             },
         })
@@ -249,7 +249,7 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                         'name_en': name_en,
                         'name_zh': name_zh,
                         'source_mod': mod_dir.name,
-                        'quality_tier': 'S',
+                        'entry_completeness': 'S',
                         'doc_kind': 'wiki',
                     },
                 })
@@ -274,7 +274,7 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                                 'name_en': '' if name_zh else f'{title} / {heading}',
                                 'name_zh': f'{title} / {heading}' if name_zh else '',
                                 'source_mod': mod_dir.name,
-                                'quality_tier': 'S',
+                                'entry_completeness': 'S',
                                 'doc_kind': 'wiki_chunk',
                                 'parent_id': parent_id,
                             },
@@ -608,7 +608,7 @@ def ingest(limit: int | None = None, reset: bool = False, dry_run: bool = False)
     entity_count = sum(1 for d in docs if d['metadata']['doc_kind'] == 'entity')
     wiki_count = sum(1 for d in docs if d['metadata']['doc_kind'] == 'wiki')
     print(f'   共 {len(docs)} 条（实体 {entity_count} + Wiki {wiki_count}）'
-          f'，已跳过 D 级，加载耗时 {time.time()-t0:.1f}s')
+          f'，已跳过完善度 D 的词条，加载耗时 {time.time()-t0:.1f}s')
 
     # 初始化 ChromaDB
     CHROMA_DB_DIR.mkdir(parents=True, exist_ok=True)

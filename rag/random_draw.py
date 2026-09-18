@@ -9,7 +9,7 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
-from config import INDEX_JSONL, KNOWLEDGE_BASE_DIR, RANDOM_CATALOG_PATH, SKIP_QUALITY_TIERS
+from config import INDEX_JSONL, KNOWLEDGE_BASE_DIR, RANDOM_CATALOG_PATH, SKIP_ENTRY_COMPLETENESS
 from random_pools import POOL_BY_ID, POOLS, Pool
 
 CACHE_VERSION = 1
@@ -37,7 +37,7 @@ def now_ms() -> int:
 
 
 def is_drawable(entity: dict) -> bool:
-    if (entity.get('quality_tier') or '') in SKIP_QUALITY_TIERS:
+    if (entity.get('entry_completeness') or '') in SKIP_ENTRY_COMPLETENESS:
         return False
     name = (entity.get('name_zh') or entity.get('name_en') or '').strip()
     return bool(name)

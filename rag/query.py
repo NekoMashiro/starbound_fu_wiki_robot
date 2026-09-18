@@ -109,6 +109,7 @@ SYSTEM_PROMPT = PERSONA + """
 - centrifuges_into / sifts_into / crushes_into: 放入对应机器可能得到的产物 ID
 - condensed_on: 空气冷凝器可收集该物品的星球 ID
 - condenser_outputs: 该生态上空气冷凝器的产出 ID
+- entry_completeness: 知识库词条完善度（S 最全，D 信息最少），不是物品稀有度、装备等级或品质。回答时不要提这个字段，更不要把它说成物品等级
 - requires_research: true 表示需先在研究系统解锁
 
 物品查询用短标题+列表写名称、关键属性、制作、获取；攻略类写步骤和建议。"""
@@ -435,7 +436,9 @@ class RAGEngine:
             if bm25 <= 0 and vec <= 0:
                 continue
             tier_bonus = {'S': 0.1, 'A': 0.05}.get(
-                r['metadata'].get('quality_tier', ''), 0
+                r['metadata'].get('entry_completeness')
+                or r['metadata'].get('quality_tier', ''),
+                0,
             )
             etype = r['metadata'].get('entity_type', '')
             type_weight = type_weight_map.get(etype, 0.8)
@@ -580,7 +583,7 @@ class RAGEngine:
                 'entity_type': cand.entity_type,
                 'source_mod': entity.get('source_mod', ''),
                 'doc_kind': 'entity',
-                'quality_tier': entity.get('quality_tier', ''),
+                'entry_completeness': entity.get('entry_completeness', ''),
                 'entity_id': cand.entity_id,
             },
             'content': json.dumps(entity, ensure_ascii=False, indent=2),

@@ -630,11 +630,11 @@ def find_biomes_for_monster(monster_id: str, loader: DataLoader) -> list | None:
 
 
 # ─────────────────────────────────────────────
-# 质量分级
+# 词条完善度（知识库信息密度，不是物品等级）
 # ─────────────────────────────────────────────
 
-def compute_quality_tier(doc: dict) -> str:
-    """根据信息密度计算质量分级。"""
+def compute_entry_completeness(doc: dict) -> str:
+    """根据词条信息密度计算完善度：S 最全，D 最薄。"""
     score = 0
 
     # 有中文名
@@ -954,8 +954,8 @@ def build_entity_doc(
     if wiki_ref:
         doc["wiki_ref"] = wiki_ref
 
-    # ── 质量分级 ──
-    doc["quality_tier"] = compute_quality_tier(doc)
+    # ── 词条完善度 ──
+    doc["entry_completeness"] = compute_entry_completeness(doc)
 
     return doc
 
@@ -1033,7 +1033,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
 
             total += 1
             by_type[entity_type] += 1
-            by_tier[doc["quality_tier"]] += 1
+            by_tier[doc["entry_completeness"]] += 1
             if doc.get("wiki_ref"):
                 wiki_matched += 1
 
@@ -1044,7 +1044,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
                 "name_en": doc.get("name_en", ""),
                 "name_zh": doc.get("name_zh", ""),
                 "source_mod": doc.get("source_mod", ""),
-                "quality_tier": doc["quality_tier"],
+                "entry_completeness": doc["entry_completeness"],
                 "file": str(out_path.relative_to(output_dir)),
             })
 
@@ -1074,7 +1074,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
                         "name_en": md.stem.replace("_", " "),
                         "name_zh": "",
                         "source_mod": subdir.name,
-                        "quality_tier": "S",
+                        "entry_completeness": "S",
                         "file": f"wiki/{subdir.name}/{md.name}",
                     })
     print(f"   {wiki_count} 篇")
@@ -1098,7 +1098,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
         "wiki_articles": wiki_count,
         "total_documents": total + wiki_count,
         "by_type": dict(sorted(by_type.items())),
-        "by_quality_tier": dict(sorted(by_tier.items())),
+        "by_entry_completeness": dict(sorted(by_tier.items())),
         "wiki_matched": wiki_matched,
         "build_time_seconds": round(time.time() - start, 1),
     }
@@ -1115,7 +1115,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
     print(f"  Wiki 文章: {wiki_count}")
     print(f"  总文档数: {total + wiki_count}")
     print(f"  Wiki 匹配: {wiki_matched} 个实体关联了 Wiki")
-    print(f"  质量分布:")
+    print(f"  词条完善度:")
     for tier in ["S", "A", "B", "C", "D"]:
         count = by_tier.get(tier, 0)
         pct = count / total * 100 if total else 0
@@ -1128,7 +1128,7 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
     if sample_docs:
         print(f"\n📋 随机采样 {len(sample_docs)} 个文档:")
         for doc in sample_docs:
-            print(f"\n  --- {doc['entity_id']} ({doc['entity_type']}) [{doc['quality_tier']}] ---")
+            print(f"\n  --- {doc['entity_id']} ({doc['entity_type']}) [{doc['entry_completeness']}] ---")
             print(f"  EN: {doc.get('name_en', '')}")
             print(f"  ZH: {doc.get('name_zh', '')}")
             if doc.get("recipes_output"):
@@ -1198,7 +1198,7 @@ def patch_machine_fields(output_dir: Path, extraction: bool = True, processing: 
                     stats[key] += 1
             if not changed:
                 continue
-            doc["quality_tier"] = compute_quality_tier(doc)
+            doc["entry_completeness"] = compute_entry_completeness(doc)
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(doc, f, ensure_ascii=False, indent=2)
                 f.write("\n")
