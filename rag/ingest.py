@@ -403,9 +403,13 @@ def build_entity_embed_text(
             labels.append(f'等{len(ids)}种')
         return labels
 
+    subject = name_zh or name_en or entity_id
     extracted = _id_labels(entity.get('extracted_from'))
     if extracted:
-        parts.append("萃取获得 提取 萃取实验室: " + ', '.join(extracted))
+        parts.append(
+            f"可通过萃取获得{subject} 萃取获得{subject}的原料 提取 萃取实验室: "
+            + ', '.join(extracted)
+        )
 
     extracts_into = _id_labels(entity.get('extracts_into'))
     if extracts_into:

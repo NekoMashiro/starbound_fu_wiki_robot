@@ -34,6 +34,7 @@ class Translator:
         self.zh_to_en: dict[str, str] = {}      # 超致密锭 → Densinium Bar
         self.zh_to_id: dict[str, str] = {}      # 超致密锭 → densiniumbar
         self.en_to_zh: dict[str, str] = {}      # densinium bar → 超致密锭 (小写key)
+        self.zh_entries: dict[str, list[dict]] = {}  # 中文名 → 候选实体
 
         self._build()
 
@@ -61,12 +62,64 @@ class Translator:
                 if title_zh:
                     self.id_to_zh[doc_id] = title_zh
 
+                if title_zh:
+                    self.zh_entries.setdefault(title_zh, []).append({
+                        'entity_id': doc_id,
+                        'entity_type': doc.get('entity_type', ''),
+                        'name_en': title_en,
+                        'name_zh': title_zh,
+                    })
                 if title_zh and title_en:
                     self.zh_to_en[title_zh] = title_en
                     self.zh_to_id[title_zh] = doc_id
                     self.en_to_zh[title_en.lower()] = title_zh
 
         print(f'📖 翻译词典已加载: {len(self.id_to_zh)} 条中英对照')
+
+    def _usable_zh_name(self, zh_name: str) -> bool:
+        """双字以上照常匹配；单字仅当唯一指向 item/liquid（如「油」）。"""
+        if len(zh_name) >= 2:
+            return True
+        if len(zh_name) != 1 or not ('\u4e00' <= zh_name <= '\u9fff'):
+            return False
+        entries = [
+            e for e in (self.zh_entries.get(zh_name) or [])
+            if e.get('entity_type') in ('item', 'liquid')
+        ]
+        return len(entries) == 1
+
+    def mentioned_entities(self, query: str) -> list[dict]:
+        """从问句里抽出已点名的实体（最长匹配，不重叠）。"""
+        if not query:
+            return []
+        sorted_zh = sorted(
+            (n for n in self.zh_entries if self._usable_zh_name(n)),
+            key=len,
+            reverse=True,
+        )
+        matched_positions = set()
+        found = []
+        seen_ids = set()
+        for zh_name in sorted_zh:
+            pos = query.find(zh_name)
+            if pos == -1:
+                continue
+            name_range = set(range(pos, pos + len(zh_name)))
+            if name_range & matched_positions:
+                continue
+            matched_positions |= name_range
+            entries = self.zh_entries.get(zh_name) or []
+            if len(zh_name) == 1:
+                entries = [e for e in entries if e.get('entity_type') in ('item', 'liquid')]
+            prefer = [e for e in entries if e.get('entity_type') in ('item', 'liquid')]
+            chosen = (prefer or entries)[:1]
+            for e in chosen:
+                key = f"{e.get('entity_type')}:{e.get('entity_id')}"
+                if key in seen_ids:
+                    continue
+                seen_ids.add(key)
+                found.append(e)
+        return found
 
     def enhance_query(self, query: str) -> str:
         """
@@ -76,12 +129,14 @@ class Translator:
         """
         appended = []
 
-        sorted_zh = sorted(self.zh_to_en.keys(), key=len, reverse=True)
+        sorted_zh = sorted(
+            (n for n in self.zh_to_en if self._usable_zh_name(n)),
+            key=len,
+            reverse=True,
+        )
         matched_positions = set()
 
         for zh_name in sorted_zh:
-            if len(zh_name) < 2:
-                continue
             pos = query.find(zh_name)
             if pos == -1:
                 continue

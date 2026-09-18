@@ -104,7 +104,7 @@ SYSTEM_PROMPT = PERSONA + """
 - drop_sources: 掉落来源
 - biomes: 生态环境
 - machine_processing: 机器加工
-- extracted_from / extracts_into: 可萃取获得该物品的原料 ID / 该物品可萃取成的产物 ID（研磨机或物质萃取器；列表已列全，无产量）
+- extracted_from / extracts_into: 可萃取获得该物品的原料 ID / 该物品可萃取成的产物 ID（研磨机或物质萃取器；extracted_from 已列全，不要只根据其他词条的 extracts_into 拼凑后说「就这些」）
 - centrifuged_from / sifted_from / crushed_from: 离心机 / 筛粉机 / 碎岩机可产出该物品的原料 ID（概率，不是保底）
 - centrifuges_into / sifts_into / crushes_into: 放入对应机器可能得到的产物 ID
 - condensed_on: 空气冷凝器可收集该物品的星球 ID
@@ -418,6 +418,36 @@ class RAGEngine:
                 r['final_score'] = score
         return sorted(results.values(), key=lambda x: x['final_score'], reverse=True)
 
+    def _pin_mentioned_entities(
+        self, query: str, results: dict,
+    ) -> tuple[list[dict], float]:
+        """问句点名的物品置顶，避免「萃取获得油」只命中几个原料词条。"""
+        t0 = time.time()
+        pinned = []
+        seen = set()
+        for ent in self._translator.mentioned_entities(query):
+            doc_id = f"{ent.get('entity_type')}:{ent.get('entity_id')}"
+            if not ent.get('entity_id') or doc_id in seen:
+                continue
+            seen.add(doc_id)
+            if doc_id in results:
+                hit = results[doc_id]
+            else:
+                try:
+                    got = self._collection.get(
+                        ids=[doc_id], include=['documents', 'metadatas'],
+                    )
+                except Exception:
+                    continue
+                if not got.get('ids'):
+                    continue
+                meta = (got.get('metadatas') or [{}])[0] or {}
+                content = (got.get('documents') or [''])[0]
+                hit = self._ensure_hit(results, doc_id, meta, content)
+            hit['final_score'] = max(float(hit.get('final_score') or 0), 1.0)
+            pinned.append(hit)
+        return pinned, time.time() - t0
+
     def _fuse_weighted(self, results: dict) -> list[dict]:
         """旧版加权求和，仅保留每路前 20，供评测对照。"""
         type_weight_map = {
@@ -481,16 +511,24 @@ class RAGEngine:
         fusion = fusion or FUSION
         candidate_k = CANDIDATE_K if candidate_k is None else candidate_k
         results, timings = self._retrieve_hybrid(query, candidate_k)
-        sorted_results = self._fuse(results, fusion)[:top_k]
+        sorted_results = self._fuse(results, fusion)
+        pinned, pin_s = self._pin_mentioned_entities(query, results)
+        timings['pin'] = pin_s
+        if pinned:
+            pinned_ids = {r['id'] for r in pinned}
+            sorted_results = pinned + [r for r in sorted_results if r['id'] not in pinned_ids]
+        sorted_results = sorted_results[:top_k]
         fetch_count, fetch_s = self._fetch_missing_content(sorted_results)
         timings['fetch'] = fetch_s
 
         if not quiet:
             clauses = timings.get('clauses') or []
             clause_info = f'{len(clauses)} 句 | ' if len(clauses) > 1 else ''
+            pin_n = len(pinned)
+            pin_note = f' | 置顶 {pin_n}' if pin_n else ''
             print(f'  🔍 {clause_info}BM25: {timings["bm25_hits"]} hits ({timings["bm25"]:.2f}s) | '
                   f'向量: {timings["vector_hits"]} hits ({timings["vector"]:.2f}s) | '
-                  f'{fusion}: {len(results)} → top {len(sorted_results)}')
+                  f'{fusion}: {len(results)} → top {len(sorted_results)}{pin_note}')
             if len(clauses) > 1:
                 for i, c in enumerate(clauses, 1):
                     preview = c if len(c) <= 40 else c[:40] + '…'
