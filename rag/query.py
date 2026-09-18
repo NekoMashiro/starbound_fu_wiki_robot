@@ -104,6 +104,11 @@ SYSTEM_PROMPT = PERSONA + """
 - drop_sources: 掉落来源
 - biomes: 生态环境
 - machine_processing: 机器加工
+- extracted_from / extracts_into: 可萃取获得该物品的原料 ID / 该物品可萃取成的产物 ID（研磨机或物质萃取器；列表已列全，无产量）
+- centrifuged_from / sifted_from / crushed_from: 离心机 / 筛粉机 / 碎岩机可产出该物品的原料 ID（概率，不是保底）
+- centrifuges_into / sifts_into / crushes_into: 放入对应机器可能得到的产物 ID
+- condensed_on: 空气冷凝器可收集该物品的星球 ID
+- condenser_outputs: 该生态上空气冷凝器的产出 ID
 - requires_research: true 表示需先在研究系统解锁
 
 物品查询用短标题+列表写名称、关键属性、制作、获取；攻略类写步骤和建议。"""

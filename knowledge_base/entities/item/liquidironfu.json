@@ -64,5 +64,23 @@
       "input": "ironfilings"
     }
   ],
-  "quality_tier": "S"
+  "quality_tier": "S",
+  "extracted_from": [
+    "ironore"
+  ],
+  "extracts_into": [
+    "fu_carbon"
+  ],
+  "centrifuges_into": [
+    "ironore",
+    "fu_carbondioxide",
+    "liquidoil",
+    "fu_carbon"
+  ],
+  "crushed_from": [
+    "steelstonematerial"
+  ],
+  "condensed_on": [
+    "metallicmoon"
+  ]
 }

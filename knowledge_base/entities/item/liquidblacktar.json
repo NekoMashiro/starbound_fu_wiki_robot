@@ -78,5 +78,24 @@
       ]
     }
   },
-  "quality_tier": "S"
+  "quality_tier": "S",
+  "extracted_from": [
+    "tarstonematerial"
+  ],
+  "extracts_into": [
+    "liquidoil"
+  ],
+  "centrifuges_into": [
+    "liquidwastewater",
+    "liquidoil",
+    "fu_carbon"
+  ],
+  "crushed_from": [
+    "tarstonematerial",
+    "asphalt"
+  ],
+  "condensed_on": [
+    "tarball",
+    "sulphuric"
+  ]
 }

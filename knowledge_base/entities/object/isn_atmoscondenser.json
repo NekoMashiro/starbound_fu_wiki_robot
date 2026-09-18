@@ -39,5 +39,99 @@
     }
   ],
   "wiki_ref": "Atmospheric Condenser.md",
-  "quality_tier": "A"
+  "quality_tier": "A",
+  "atmosphere_outputs": {
+    "note": "产出取决于星球类型；飞船环绕该星球时用同一张表。附近气井会减速。",
+    "biome_count": 24,
+    "examples": [
+      {
+        "biome": "default",
+        "biome_zh": "普通星球(default)",
+        "common": [
+          "liquidwater",
+          "fu_oxygen",
+          "fu_hydrogen",
+          "fu_nitrogen"
+        ]
+      },
+      {
+        "biome": "desert",
+        "biome_zh": "Desert",
+        "common": [
+          "sand",
+          "fu_oxygen",
+          "liquidoil",
+          "calichewall",
+          "fu_hydrogen",
+          "fu_nitrogen"
+        ]
+      },
+      {
+        "biome": "infernus",
+        "biome_zh": "炼狱(Infernus)",
+        "common": [
+          "liquidlava",
+          "fu_carbon",
+          "sulphur",
+          "corefragmentore",
+          "fu_carbondioxide"
+        ]
+      },
+      {
+        "biome": "tarball",
+        "biome_zh": "焦油(Tar Ball)",
+        "common": [
+          "liquidblacktar",
+          "liquidoil",
+          "corefragmentore",
+          "fu_hydrogen",
+          "sulphur",
+          "lead"
+        ]
+      },
+      {
+        "biome": "ocean",
+        "biome_zh": "Tropical Ocean",
+        "common": [
+          "fu_salt",
+          "sand",
+          "fu_oxygen",
+          "cellmatter"
+        ]
+      },
+      {
+        "biome": "moon",
+        "biome_zh": "Moon",
+        "common": [
+          "coalore",
+          "fu_hydrogen",
+          "fu_nitrogen",
+          "solidfuel"
+        ]
+      },
+      {
+        "biome": "atropus",
+        "biome_zh": "肉源(Atropus)",
+        "common": [
+          "liquidpus",
+          "liquidblood",
+          "fu_oxygen",
+          "fleshstrand",
+          "fu_carbondioxide"
+        ]
+      },
+      {
+        "biome": "toxic",
+        "biome_zh": "Toxic",
+        "common": [
+          "ammoniumsulfate",
+          "toxicwaste",
+          "alienwoodsap",
+          "fu_hydrogen",
+          "fu_nitrogen",
+          "methanol"
+        ]
+      }
+    ]
+  }
 }

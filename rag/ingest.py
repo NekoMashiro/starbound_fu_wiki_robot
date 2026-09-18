@@ -390,6 +390,59 @@ def build_entity_embed_text(
                 bits.append(f"{cat}: {', '.join(labels[:8])}")
         parts.append("掉落来源: " + '；'.join(bits))
 
+    def _id_labels(raw, limit=24) -> list[str]:
+        ids = []
+        for row in raw or []:
+            if isinstance(row, str):
+                ids.append(row)
+            elif isinstance(row, dict):
+                ids.append(row.get('item') or row.get('input') or row.get('output') or row.get('biome') or '')
+        ids = [i for i in ids if i]
+        labels = [_label(i, names) for i in ids[:limit]]
+        if len(ids) > limit:
+            labels.append(f'等{len(ids)}种')
+        return labels
+
+    extracted = _id_labels(entity.get('extracted_from'))
+    if extracted:
+        parts.append("萃取获得 提取 萃取实验室: " + ', '.join(extracted))
+
+    extracts_into = _id_labels(entity.get('extracts_into'))
+    if extracts_into:
+        parts.append("可萃取成: " + ', '.join(extracts_into))
+
+    for key, verb in (
+        ('centrifuged_from', '离心获得 离心机'),
+        ('sifted_from', '筛粉获得 筛粉机'),
+        ('crushed_from', '碎岩获得 碎岩机 破岩机'),
+        ('centrifuges_into', '可离心成'),
+        ('sifts_into', '可筛成'),
+        ('crushes_into', '可粉碎成'),
+    ):
+        labels = _id_labels(entity.get(key))
+        if labels:
+            parts.append(f"{verb}: " + ', '.join(labels))
+
+    condensed = entity.get('condensed_on')
+    if isinstance(condensed, dict):
+        condensed = [b.get('biome') for b in (condensed.get('biomes') or []) if b.get('biome')]
+    condensed_labels = _id_labels(condensed)
+    if condensed_labels:
+        parts.append("空气冷凝器 大气提取 冷凝获得: " + ', '.join(condensed_labels))
+
+    condenser_out = entity.get('condenser_outputs') or {}
+    if isinstance(condenser_out, dict) and (condenser_out.get('common') or condenser_out.get('uncommon')):
+        common = ', '.join(_label(i, names) for i in (condenser_out.get('common') or [])[:8])
+        parts.append(f"空气冷凝器产出: {common}")
+
+    atmos_machine = entity.get('atmosphere_outputs') or {}
+    if isinstance(atmos_machine, dict) and atmos_machine.get('examples'):
+        bits = [
+            f"{ex.get('biome_zh') or ex.get('biome')}"
+            for ex in atmos_machine['examples'][:8]
+        ]
+        parts.append("空气冷凝器按星球出货: " + ', '.join(bits))
+
     biomes = entity.get('biomes', [])
     if biomes:
         biome_labels = []

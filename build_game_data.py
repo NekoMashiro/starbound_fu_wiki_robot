@@ -45,6 +45,7 @@ MAX_RECIPES_INPUT_CATEGORIES = 8
 MAX_RECIPES_OUTPUT = 15
 MAX_DROP_TOP_PER_CATEGORY = 5
 MAX_BIOMES = 10
+RARITY_RANK = {"common": 0, "normal": 1, "uncommon": 2, "rare": 3, "rarest": 4}
 
 # drop pool 分类关键词
 POOL_CATEGORY_RULES = [
@@ -76,6 +77,13 @@ class DataLoader:
         self.recipes: list = []             # [recipe] 按行号索引
         self.machine_input: dict = defaultdict(list)   # item → [mp]
         self.machine_output: dict = defaultdict(list)   # item → [mp]
+        self.extraction_input: dict = defaultdict(list)  # item → [ex]
+        self.extraction_output: dict = defaultdict(list)  # item → [ex]
+        self.centrifuge_input: dict = defaultdict(list)
+        self.centrifuge_output: dict = defaultdict(list)
+        self.atmos_output: dict = defaultdict(list)
+        self.atmos_biome: dict = defaultdict(list)
+        self.biome_names: dict = {}
         self.drop_sources: dict = {}        # item → [{pool, probability, count}]
         self.monster_pools: dict = {}       # pool → [monster_id]
         self.blueprints: dict = {}          # item → [blueprint]
@@ -142,7 +150,59 @@ class DataLoader:
                     self.machine_input[mp["input_item"]].append(mp)
                     self.machine_output[mp["output_item"]].append(mp)
 
-        print(f"   配方: {len(self.recipes)}, 机器: {sum(len(v) for v in self.machine_input.values())}")
+        ex_path = RECIPE_DB / "extraction.jsonl"
+        if ex_path.exists():
+            with open(ex_path) as f:
+                for line in f:
+                    ex = json.loads(line)
+                    out_item = ex.get("output_item")
+                    if out_item:
+                        self.extraction_output[out_item].append(ex)
+                    for inp in ex.get("inputs") or []:
+                        item = inp.get("item")
+                        if item:
+                            self.extraction_input[item].append(ex)
+
+        cf_path = RECIPE_DB / "centrifuge.jsonl"
+        if cf_path.exists():
+            with open(cf_path) as f:
+                for line in f:
+                    row = json.loads(line)
+                    if row.get("output_item"):
+                        self.centrifuge_output[row["output_item"]].append(row)
+                    if row.get("input_item"):
+                        self.centrifuge_input[row["input_item"]].append(row)
+
+        at_path = RECIPE_DB / "atmos.jsonl"
+        if at_path.exists():
+            with open(at_path) as f:
+                for line in f:
+                    row = json.loads(line)
+                    if row.get("output_item"):
+                        self.atmos_output[row["output_item"]].append(row)
+                    if row.get("biome"):
+                        self.atmos_biome[row["biome"]].append(row)
+
+        biome_dir = Path("knowledge_base/entities/biome")
+        if biome_dir.exists():
+            for p in biome_dir.glob("*.json"):
+                try:
+                    with open(p, encoding="utf-8") as f:
+                        bdoc = json.load(f)
+                except (json.JSONDecodeError, OSError):
+                    continue
+                bid = bdoc.get("entity_id") or p.stem
+                self.biome_names[bid] = {
+                    "name_en": bdoc.get("name_en") or bdoc.get("friendly_name") or bid,
+                    "name_zh": bdoc.get("name_zh") or bdoc.get("friendly_name_zh") or "",
+                }
+
+        print(
+            f"   配方: {len(self.recipes)}, 机器: {sum(len(v) for v in self.machine_input.values())}, "
+            f"萃取: {sum(len(v) for v in self.extraction_output.values())}, "
+            f"离心族: {sum(len(v) for v in self.centrifuge_output.values())}, "
+            f"冷凝: {sum(len(v) for v in self.atmos_output.values())}"
+        )
 
     def _load_treasure(self):
         dp_path = TREASURE_DB / "item_drop_sources.json"
@@ -386,6 +446,157 @@ def summarize_machine_processing(item_id: str, loader: DataLoader) -> list | Non
     } for mp in mps]
 
 
+def _extraction_yield(ex: dict) -> float:
+    oc = ex.get("output_count") or {}
+    out_n = max(int(oc.get("basic", 0) or 0), int(oc.get("advanced", 0) or 0),
+                int(oc.get("quantum", 0) or 0), 0)
+    in_n = sum(int(i.get("count", 1) or 1) for i in (ex.get("inputs") or [])) or 1
+    return out_n / in_n
+
+
+def summarize_extracted_from(item_id: str, loader: DataLoader) -> list | None:
+    """可萃取获得该物品的原料 ID，按转化率排序，全部保留。"""
+    rows = loader.extraction_output.get(item_id, [])
+    if not rows:
+        return None
+    ranked = sorted(rows, key=_extraction_yield, reverse=True)
+    out, seen = [], set()
+    for ex in ranked:
+        for inp in ex.get("inputs") or []:
+            item = inp.get("item")
+            if item and item not in seen:
+                seen.add(item)
+                out.append(item)
+    return out or None
+
+
+def summarize_extracts_into(item_id: str, loader: DataLoader) -> list | None:
+    """该物品可萃取成的产物 ID，按转化率排序，全部保留。"""
+    rows = loader.extraction_input.get(item_id, [])
+    if not rows:
+        return None
+    ranked = sorted(rows, key=_extraction_yield, reverse=True)
+    out, seen = [], set()
+    for ex in ranked:
+        output_item = ex.get("output_item")
+        if output_item and output_item not in seen:
+            seen.add(output_item)
+            out.append(output_item)
+    return out or None
+
+
+def _rarity_key(row: dict) -> tuple:
+    return (RARITY_RANK.get(str(row.get("rarity", "")).lower(), 9), -int(row.get("weight") or 0))
+
+
+def _biome_label(biome_id: str, loader: DataLoader) -> str:
+    if biome_id == "default":
+        return "普通星球(default)"
+    info = loader.biome_names.get(biome_id) or {}
+    zh = info.get("name_zh") or ""
+    en = info.get("name_en") or ""
+    if zh and en and zh != en:
+        return f"{zh}({en})"
+    return zh or en or biome_id
+
+
+def summarize_process_from(item_id: str, loader: DataLoader, family: str) -> list | None:
+    rows = [r for r in loader.centrifuge_output.get(item_id, []) if r.get("family") == family]
+    if not rows:
+        return None
+    ranked = sorted(rows, key=_rarity_key)
+    out, seen = [], set()
+    for row in ranked:
+        item = row.get("input_item")
+        if item and item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out or None
+
+
+def summarize_process_into(item_id: str, loader: DataLoader, family: str) -> list | None:
+    rows = [r for r in loader.centrifuge_input.get(item_id, []) if r.get("family") == family]
+    if not rows:
+        return None
+    ranked = sorted(rows, key=_rarity_key)
+    out, seen = [], set()
+    for row in ranked:
+        item = row.get("output_item")
+        if item and item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out or None
+
+
+def summarize_condensed_on(item_id: str, loader: DataLoader) -> list | None:
+    rows = loader.atmos_output.get(item_id, [])
+    if not rows:
+        return None
+    best = {}
+    for row in rows:
+        biome = row.get("alias_of") or row.get("biome")
+        if not biome:
+            continue
+        rarity = row.get("rarity") or "common"
+        if biome not in best or _rarity_key({"rarity": rarity}) < _rarity_key({"rarity": best[biome]}):
+            best[biome] = rarity
+    ranked = sorted(best, key=lambda b: (RARITY_RANK.get(str(best[b]).lower(), 9), b))
+    return ranked or None
+
+
+def summarize_condenser_outputs(biome_id: str, loader: DataLoader) -> dict | None:
+    rows = loader.atmos_biome.get(biome_id, [])
+    if not rows:
+        # 别名星球：尝试找指向自己的表
+        return None
+    buckets = defaultdict(list)
+    for row in rows:
+        if row.get("alias_of"):
+            continue
+        rarity = row.get("rarity") or "common"
+        item = row.get("output_item")
+        if item and item not in buckets[rarity]:
+            buckets[rarity].append(item)
+    if not buckets:
+        return None
+    return {
+        "common": buckets.get("common", []),
+        "uncommon": buckets.get("uncommon", []),
+        "rare": buckets.get("rare", []),
+    }
+
+
+def summarize_atmosphere_machine(loader: DataLoader) -> dict | None:
+    if not loader.atmos_biome:
+        return None
+    examples = []
+    prefer = ["default", "desert", "infernus", "tarball", "ocean", "moon", "atropus", "toxic"]
+    seen = set()
+    for biome in prefer + sorted(loader.atmos_biome):
+        if biome in seen:
+            continue
+        rows = loader.atmos_biome.get(biome) or []
+        if not rows or any(r.get("alias_of") for r in rows):
+            continue
+        seen.add(biome)
+        common = []
+        for row in rows:
+            if row.get("rarity") == "common" and row.get("output_item") not in common:
+                common.append(row["output_item"])
+        examples.append({
+            "biome": biome,
+            "biome_zh": _biome_label(biome, loader),
+            "common": common[:6],
+        })
+        if len(examples) >= 8:
+            break
+    return {
+        "note": "产出取决于星球类型；飞船环绕该星球时用同一张表。附近气井会减速。",
+        "biome_count": len({b for b, rows in loader.atmos_biome.items() if not any(r.get('alias_of') for r in rows)}),
+        "examples": examples,
+    }
+
+
 # ─────────────────────────────────────────────
 # 生态关联
 # ─────────────────────────────────────────────
@@ -447,7 +658,9 @@ def compute_quality_tier(doc: dict) -> str:
         score += 1
     # 有关系数据
     for k in ["blueprints_unlocked", "machine_processing", "race_effects",
-              "research_node", "collection_in"]:
+              "research_node", "collection_in", "extracted_from", "extracts_into",
+              "centrifuged_from", "sifted_from", "crushed_from", "condensed_on",
+              "condenser_outputs"]:
         if doc.get(k):
             score += 0.5
 
@@ -594,6 +807,30 @@ def build_entity_doc(
                 "machine_zh": clean_color(m.get("machine_name_zh", "")),
                 "input": m["input_item"],
             } for m in mp_out]
+        extracted_from = summarize_extracted_from(entity_id, loader)
+        if extracted_from:
+            doc["extracted_from"] = extracted_from
+        extracts_into = summarize_extracts_into(entity_id, loader)
+        if extracts_into:
+            doc["extracts_into"] = extracts_into
+        for family, from_key, into_key in (
+            ("centrifuge", "centrifuged_from", "centrifuges_into"),
+            ("sifter", "sifted_from", "sifts_into"),
+            ("crusher", "crushed_from", "crushes_into"),
+        ):
+            from_rows = summarize_process_from(entity_id, loader, family)
+            if from_rows:
+                doc[from_key] = from_rows
+            into_rows = summarize_process_into(entity_id, loader, family)
+            if into_rows:
+                doc[into_key] = into_rows
+        condensed = summarize_condensed_on(entity_id, loader)
+        if condensed:
+            doc["condensed_on"] = condensed
+        if entity_id == "isn_atmoscondenser":
+            atmos_machine = summarize_atmosphere_machine(loader)
+            if atmos_machine:
+                doc["atmosphere_outputs"] = atmos_machine
 
         # 掉落
         ds = summarize_drop_sources(entity_id, loader)
@@ -664,6 +901,9 @@ def build_entity_doc(
         se = entity.get("statusEffects", [])
         if se:
             doc["status_effects"] = se
+        condenser = summarize_condenser_outputs(entity_id, loader)
+        if condenser:
+            doc["condenser_outputs"] = condenser
 
     elif entity_type == "codex":
         info = loader.codex_info.get(entity_id, {})
@@ -901,14 +1141,91 @@ def build_knowledge_base(output_dir: Path, sample_count: int = 0):
                 print(f"  Wiki: {doc['wiki_ref']}")
 
 
+def _set_or_clear(doc: dict, key: str, value) -> bool:
+    if value:
+        if doc.get(key) != value:
+            doc[key] = value
+            return True
+        return False
+    if key in doc:
+        del doc[key]
+        return True
+    return False
+
+
+def patch_extraction_fields(output_dir: Path) -> int:
+    """给已有知识库文档补 extracted_from / extracts_into，避免全量重建。"""
+    return patch_machine_fields(output_dir, extraction=True, processing=False)
+
+
+def patch_machine_fields(output_dir: Path, extraction: bool = True, processing: bool = True) -> int:
+    """给已有知识库文档补萃取 / 离心 / 筛粉 / 碎岩 / 冷凝字段。"""
+    loader = DataLoader()
+    loader.load_all()
+    patched = 0
+    stats = defaultdict(int)
+    types = ("item", "object", "liquid", "biome") if processing else ("item", "object", "liquid")
+    for entity_type in types:
+        type_dir = output_dir / "entities" / entity_type
+        if not type_dir.exists():
+            continue
+        for path in type_dir.glob("*.json"):
+            with open(path, encoding="utf-8") as f:
+                doc = json.load(f)
+            eid = doc.get("entity_id") or path.stem
+            changed = False
+            updates = {}
+            if extraction and entity_type != "biome":
+                updates["extracted_from"] = summarize_extracted_from(eid, loader)
+                updates["extracts_into"] = summarize_extracts_into(eid, loader)
+            if processing and entity_type != "biome":
+                for family, from_key, into_key in (
+                    ("centrifuge", "centrifuged_from", "centrifuges_into"),
+                    ("sifter", "sifted_from", "sifts_into"),
+                    ("crusher", "crushed_from", "crushes_into"),
+                ):
+                    updates[from_key] = summarize_process_from(eid, loader, family)
+                    updates[into_key] = summarize_process_into(eid, loader, family)
+                updates["condensed_on"] = summarize_condensed_on(eid, loader)
+                if eid == "isn_atmoscondenser":
+                    updates["atmosphere_outputs"] = summarize_atmosphere_machine(loader)
+            if processing and entity_type == "biome":
+                updates["condenser_outputs"] = summarize_condenser_outputs(eid, loader)
+            for key, value in updates.items():
+                if _set_or_clear(doc, key, value):
+                    changed = True
+                if value:
+                    stats[key] += 1
+            if not changed:
+                continue
+            doc["quality_tier"] = compute_quality_tier(doc)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(doc, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+            patched += 1
+    print(f"机器字段已写入 {patched} 个文档 {dict(stats)}")
+    return patched
+
+
 def main():
     parser = argparse.ArgumentParser(description="知识库组装引擎")
     parser.add_argument("-o", "--output", type=Path, default=Path("knowledge_base"),
                         help="输出目录")
     parser.add_argument("--sample", type=int, default=0,
                         help="随机采样 N 个文档展示")
+    parser.add_argument("--patch-extraction", action="store_true",
+                        help="只给现有文档补萃取字段")
+    parser.add_argument("--patch-processing", action="store_true",
+                        help="只给现有文档补离心/筛粉/碎岩/冷凝字段")
 
     args = parser.parse_args()
+    if args.patch_extraction or args.patch_processing:
+        patch_machine_fields(
+            args.output,
+            extraction=args.patch_extraction,
+            processing=args.patch_processing or not args.patch_extraction,
+        )
+        return
     build_knowledge_base(args.output, args.sample)
 
 
