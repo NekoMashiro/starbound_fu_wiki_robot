@@ -44,7 +44,7 @@ from qq_format import (
 )
 
 _log = logging.get_logger()
-_MENTION_RE = re.compile(r'<@!?[^>]+>')
+_MENTION_RE = re.compile(r'<@!?([^>]+)>')
 
 # 群聊被动回复最多 5 条；单聊流式共用一个 msg_seq
 _MAX_PASSIVE_REPLIES = 5
@@ -52,8 +52,60 @@ _STREAM_MIN_CHARS = 24
 _STREAM_MIN_INTERVAL = 0.35
 
 
-def _clean_question(content: str | None) -> str:
-    return _MENTION_RE.sub('', content or '').strip()
+def _mention_ids(user: dict) -> list[str]:
+    ids = []
+    for key in ('id', 'member_openid', 'user_openid'):
+        value = str(user.get(key) or '').strip()
+        if value and value not in ids:
+            ids.append(value)
+    return ids
+
+
+def _mention_label(user: dict) -> str:
+    name = str(user.get('username') or '').strip()
+    return name or '某人'
+
+
+def _clean_question(content: str | None, mentions: list | None = None) -> str:
+    """去掉 @机器人留下的空标记，把 @其他人换成昵称。"""
+    text = content or ''
+    users = [user for user in (mentions or []) if isinstance(user, dict)]
+    used: set[int] = set()
+
+    def replace(match: re.Match) -> str:
+        token = match.group(1)
+        for index, user in enumerate(users):
+            if token in _mention_ids(user):
+                used.add(index)
+                return '@' + _mention_label(user)
+        return '@某人'
+
+    text = _MENTION_RE.sub(replace, text)
+    missing = []
+    for index, user in enumerate(users):
+        if index in used:
+            continue
+        label = '@' + _mention_label(user)
+        if label in text:
+            continue
+        missing.append(label)
+    if missing:
+        text = ' '.join(missing) + ' ' + text
+    return re.sub(r'[ \t]{2,}', ' ', text).strip()
+
+
+def _install_mention_capture() -> None:
+    """botpy 解析群消息时丢掉了 mentions.username，这里把原始列表留在消息上。"""
+    from botpy.connection import ConnectionSession
+    from botpy.message import GroupMessage
+
+    def parse_group_at_message_create(self, payload):
+        data = payload.get('d') or {}
+        message = GroupMessage(self.api, payload.get('id', None), data)
+        message.mention_users = list(data.get('mentions') or [])
+        self._dispatch('group_at_message_create', message)
+
+    ConnectionSession.parse_group_at_message_create = parse_group_at_message_create
 
 
 def _speaker_key(kind: str, scene_id: str, user_id: str) -> str:
@@ -212,6 +264,7 @@ class WikiClient(botpy.Client):
             user_id=user_id,
             msg_id=message.id,
             content=message.content,
+            mentions=getattr(message, 'mention_users', None),
             send=lambda text, seq, md=False: self._reply_group(message, text, seq, markdown=md),
         )
 
@@ -227,12 +280,15 @@ class WikiClient(botpy.Client):
             stream_openid=user_id,
         )
 
-    async def _handle(self, *, kind, scene_id, user_id, msg_id, content, send, stream_openid=None):
+    async def _handle(
+        self, *, kind, scene_id, user_id, msg_id, content, send,
+        stream_openid=None, mentions=None,
+    ):
         if not self._remember_msg(msg_id):
             _log.info(f'drop duplicate msg_id={msg_id}')
             return
 
-        question = _clean_question(content)
+        question = _clean_question(content, mentions)
         if not question:
             await send(EMPTY_TEXT, 1)
             return
@@ -396,6 +452,7 @@ def main():
 
     # 先建完索引再拉起 botpy，避免它把 jieba 日志打成 DEBUG、看起来像卡死
     intents = botpy.Intents(public_messages=True)
+    _install_mention_capture()
     client = WikiClient(intents=intents, echo_only=echo_only, log_level=20)
     if engine is not None:
         client.attach_engine(engine)
