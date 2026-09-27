@@ -1,4 +1,4 @@
-"""提问 / 闲聊 / 随机。失败或不确定时默认 ask，避免真问题被当成玩梗或抽签。"""
+"""提问 / 闲聊 / 随机。是否抽签只由模型判断，失败或不确定时默认 ask。"""
 
 import re
 
@@ -13,46 +13,26 @@ from config import (
     ZHIPU_API_KEY,
     openrouter_provider_prefs,
 )
-from random_pools import resolve_pool
 
 INTENTS = ('ask', 'chat', 'random')
 DEFAULT_INTENT = 'ask'
 
-# 短句才敢用规则直接判 random；点菜单、角色扮演通常更长。
-_RULE_RANDOM_MAX_LEN = 32
-
 _THINK_RE = re.compile(r'<think>.*?</think>', re.DOTALL)
 _TOKEN_RE = re.compile(r'\b(ask|chat|random)\b', re.IGNORECASE)
-
-# 像在查资料：即使带「来个」也交给模型或回落到 ask。
-_ASK_HINT_RE = re.compile(
-    r'怎么|如何|配方|熔炼|掉落|在哪|哪里|为什么|能不能|是谁|是什么|多少|任务|boss',
-    re.IGNORECASE,
-)
-# 自己就要抽 / 随便给，不必再对上具体品类。
-_STRONG_RANDOM_RE = re.compile(
-    r'随便|随机|抽一个|抽个|抽签|今日推荐|今天去哪|去哪玩|吃什么|喝什么',
-)
-# 「来个 / 推荐个」太容易出现在点菜、点名，必须再对上品类才敢直接判。
-_SOFT_RANDOM_RE = re.compile(
-    r'推荐个|推荐一|推荐点|来个|来只|来把|来张|来杯|来点|来套|来件|来盏'
-    r'|给个|整一个|整把|整套',
-)
-_RANDOM_HINT_RE = re.compile(
-    _STRONG_RANDOM_RE.pattern + '|' + _SOFT_RANDOM_RE.pattern
-)
 
 
 CLASSIFY_SYSTEM = """你在给 Starbound / Frackin' Universe QQ 机器人做意图分类。
 只输出一个词：ask、chat 或 random。不要解释。
 
-ask：玩家在查游戏事实——配方、熔炼、掉落、任务、boss、机制、在哪挖、怎么做、能不能、为什么没有。
+ask：玩家在查游戏事实——配方、熔炼、掉落、任务、boss、机制、在哪挖、怎么做、能不能、为什么没有、有哪些可以做。
 即使带语气词、哭腔、玩梗用词，只要有要查的点，就是 ask。
 「推荐一下某某怎么做 / 掉落率」也是 ask，不是 random。
+「随便」「随机」如果是在问哪些东西可以随便做、随便合成、不限材料，仍是 ask。
 
 random：想让机器人从某一类里抽一条，还没有指定具体词条。
 例如推荐个吃的、来把枪、来个怪、今天去哪、随便来一个。
 不要输出具体 category / tag 名，只要 random。
+句子里出现「随便」「随机」本身不够，必须是在要一条未知词条。
 
 chat：闲聊、打招呼、复读玩梗、角色扮演（假装 S.A.I.L 点具体菜、殖民地段子）、吐槽群友。
 点了明确的已有物品名称、不是「抽一个未知的」——算 chat，不算 random。
@@ -72,6 +52,7 @@ chat：闲聊、打招呼、复读玩梗、角色扮演（假装 S.A.I.L 点具�
 - 抽签 → random
 - 随机一把枪 → random
 - 吃什么好 → random
+- 已经藻豆荚自由了！现在有哪些东西是可以随便做的 → ask
 - 来个烤肋排 → chat
 - 疯狂星期四 v我50日耀矿 → chat
 - 给我转50像素快点 → chat
@@ -81,31 +62,10 @@ chat：闲聊、打招呼、复读玩梗、角色扮演（假装 S.A.I.L 点具�
 """
 
 
-def looks_like_random(text: str) -> bool:
-    """口令像在要一样未知的东西，又不像在查资料。"""
-    text = (text or '').strip()
-    if not text or _ASK_HINT_RE.search(text):
-        return False
-    return bool(_RANDOM_HINT_RE.search(text))
-
-
 def decide_intent(text: str) -> str | None:
-    """规则能看准时直接返回；看不准返回 None，交给模型。"""
-    text = (text or '').strip()
-    if not text:
+    """空话直接 ask。其余一律交给模型，不用关键词抢判 random。"""
+    if not (text or '').strip():
         return DEFAULT_INTENT
-    if _ASK_HINT_RE.search(text):
-        return None
-    if len(text) > _RULE_RANDOM_MAX_LEN:
-        return None
-    strong = bool(_STRONG_RANDOM_RE.search(text))
-    soft = bool(_SOFT_RANDOM_RE.search(text))
-    match = resolve_pool(text)
-    if strong:
-        return 'random'
-    # 「来一个烤肋排」会对上 any，不能当作品类已对上。
-    if soft and match is not None and match.pool.id != 'any':
-        return 'random'
     return None
 
 

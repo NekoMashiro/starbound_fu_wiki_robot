@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from intent import classify_intent, decide_intent, looks_like_random, parse_intent
+from intent import classify_intent, decide_intent, parse_intent
 
 PARSE_CASES = [
     ('ask', 'ask'),
@@ -21,35 +21,19 @@ PARSE_CASES = [
     ('hello', 'ask'),
 ]
 
-HINT_CASES = [
-    ('推荐个吃的', True),
-    ('来把步枪', True),
-    ('来个蜜蜂', True),
-    ('今天去哪', True),
-    ('随便来一个', True),
-    ('抽签', True),
-    ('来点吃的', True),
-    ('随机一把枪', True),
-    ('吃什么好', True),
-    ('来个烤肋排', True),
-    ('武士刀的掉落率是多少？', False),
-    ('钨矿怎么熔炼啊呜呜呜', False),
-    ('嘿 S.A.I.L 帮我去餐厅点烤肋排', False),
-    ('疯狂星期四 v我50日耀矿', False),
-    ('怎么做烤肋排', False),
-]
-
 DECIDE_CASES = [
-    ('推荐个吃的', 'random'),
-    ('来把步枪', 'random'),
-    ('来个蜜蜂', 'random'),
-    ('今天去哪', 'random'),
-    ('随便来一个', 'random'),
-    ('抽签', 'random'),
-    ('来点吃的', 'random'),
-    ('随机一把枪', 'random'),
-    ('吃什么好', 'random'),
-    ('可爱的摘希哟 去飞船柜子里随机拿一件时装打扮一下自己吧！', 'random'),
+    ('', 'ask'),
+    ('推荐个吃的', None),
+    ('来把步枪', None),
+    ('来个蜜蜂', None),
+    ('今天去哪', None),
+    ('随便来一个', None),
+    ('抽签', None),
+    ('来点吃的', None),
+    ('随机一把枪', None),
+    ('吃什么好', None),
+    ('可爱的摘希哟 去飞船柜子里随机拿一件时装打扮一下自己吧！', None),
+    ('已经藻豆荚自由了！现在有哪些东西是可以随便做的', None),
     ('来个烤肋排', None),
     ('来一个烤肋排', None),
     ('嘿 帮我看看 烤肋排 再来个汉堡', None),
@@ -72,6 +56,8 @@ CASES = [
     ('抽签', 'random'),
     ('随机一把枪', 'random'),
     ('吃什么好', 'random'),
+    ('已经藻豆荚自由了！现在有哪些东西是可以随便做的', 'ask'),
+    ('哪些装备可以随便做', 'ask'),
     ('疯狂星期四 v我50日耀矿', 'chat'),
     (
         '嘿，S.A.I.L助手，帮我导航到前哨站的2站传送商店前的餐厅，'
@@ -105,17 +91,6 @@ def test_decide_intent() -> int:
     return failed
 
 
-def test_looks_like_random() -> int:
-    failed = 0
-    for text, expect in HINT_CASES:
-        got = looks_like_random(text)
-        ok = got is expect
-        print(f'  [{"OK" if ok else "FAIL"}] looks_like_random {text!r} -> {got} (expect {expect})')
-        if not ok:
-            failed += 1
-    return failed
-
-
 def test_classify() -> int:
     failed = 0
     for text, expect in CASES:
@@ -131,16 +106,14 @@ def test_classify() -> int:
 def main():
     print('parse_intent')
     parse_fail = test_parse_intent()
-    print('\nlooks_like_random')
-    hint_fail = test_looks_like_random()
     print('\ndecide_intent')
     decide_fail = test_decide_intent()
-    print('\nclassify_intent (rule or live LLM)')
+    print('\nclassify_intent (live LLM)')
     live_fail = test_classify()
-    total = parse_fail + hint_fail + decide_fail + live_fail
+    total = parse_fail + decide_fail + live_fail
     print(
         f'\nfailed {total} / '
-        f'{len(PARSE_CASES) + len(HINT_CASES) + len(DECIDE_CASES) + len(CASES)}'
+        f'{len(PARSE_CASES) + len(DECIDE_CASES) + len(CASES)}'
     )
     sys.exit(1 if total else 0)
 
