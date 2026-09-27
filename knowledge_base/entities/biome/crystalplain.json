@@ -53,5 +53,77 @@
     "snowskater",
     "xenofly"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crystal"
+    ],
+    "ground": [
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "41.67%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "14.58%"
+      },
+      {
+        "id": "feyaseed",
+        "name": "菲亚水晶种子(Feya Crystal Seed)",
+        "rate": "14.58%"
+      },
+      {
+        "id": "oceaniteseed",
+        "name": "大洋石水晶种子(Oceanite Crystal Seed)",
+        "rate": "14.58%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "14.58%"
+      }
+    ],
+    "planets": [
+      "水晶世界(Crystalline)",
+      "冰冻火山(Frozen Volcanic)",
+      "雪(Dark Snow)",
+      "诡之海(Strange Sea)",
+      "Super Dense",
+      "冻土(Dark Tundra)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "水晶世界(Crystalline)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

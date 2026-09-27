@@ -72,5 +72,77 @@
       ]
     ]
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Lushy",
+      "Jungle Palm",
+      "Jungle",
+      "Twisty",
+      "Spikey",
+      "Scrag"
+    ],
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "cellpodsplant",
+        "name": "细胞豆荚种子(Cellpod Seed)",
+        "rate": "15.63%"
+      },
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "15.63%"
+      },
+      {
+        "id": "gemglowseed",
+        "name": "宝石果种子(Gemglow Seed)",
+        "rate": "15.63%"
+      },
+      {
+        "id": "piruseed",
+        "name": "piruseed",
+        "rate": "15.63%"
+      },
+      {
+        "id": "nakatiseed",
+        "name": "nakatiseed",
+        "rate": "10.94%"
+      },
+      {
+        "id": "phasefruitseed",
+        "name": "相位果种子(Phasefruit Seeds)",
+        "rate": "10.94%"
+      },
+      {
+        "id": "kamaranpodsplant",
+        "name": "卡玛兰豆荚种子(Kamaran Pod Seed)",
+        "rate": "7.81%"
+      }
+    ],
+    "planets": [
+      "多岩潮汐(Tidewater)",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

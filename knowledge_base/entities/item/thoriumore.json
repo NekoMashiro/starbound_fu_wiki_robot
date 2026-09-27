@@ -162,5 +162,73 @@
     "irradiated",
     "chromatic",
     "tarball"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "Alien",
+          "Forest",
+          "Garden",
+          "Jungle",
+          "Midnight",
+          "Savannah",
+          "Scorched",
+          "Snowy",
+          "Tundra",
+          "Volcanic"
+        ]
+      },
+      {
+        "surface_weight": 0.8,
+        "planets": [
+          "火山原始森林(Volcanic Primeval)",
+          "凝胶(Gelatinous)",
+          "冰冻废土(Ice Waste)",
+          "Super Dense"
+        ]
+      },
+      {
+        "surface_weight": 0.75,
+        "planets": [
+          "Desert",
+          "红色废土(Dark Red Desert)",
+          "黑暗原始森林(Dark Primeval)",
+          "红色废土(Red Desert)",
+          "真菌(Fungal)"
+        ]
+      },
+      {
+        "surface_weight": 0.62,
+        "planets": [
+          "辐射(Irradiated)",
+          "无光星球(Lightless)",
+          "Shadow",
+          "焦油(Tar Ball)"
+        ]
+      },
+      {
+        "surface_weight": 0.6,
+        "planets": [
+          "极地(Dark Arctic)",
+          "冰冻火山(Frozen Volcanic)",
+          "冰冻废土(Dark Ice Waste)",
+          "雪(Dark Snow)",
+          "冻土(Dark Tundra)"
+        ]
+      },
+      {
+        "surface_weight": 0.5,
+        "planets": [
+          "原毒世界(Proto World)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      }
+    ],
+    "more_ore_bands": 2,
+    "unmapped_biomes": 25,
+    "core_or_space_only_planets": 31
+  }
 }

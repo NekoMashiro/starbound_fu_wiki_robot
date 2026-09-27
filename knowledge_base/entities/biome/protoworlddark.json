@@ -119,5 +119,98 @@
   "status_effects": [
     "protoweather2"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Alien Bubble",
+      "Alien Weird",
+      "Alien Striped",
+      "Big",
+      "Circle",
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Lushy",
+      "Jungly",
+      "Jungle Palm",
+      "Jungle",
+      "Proto",
+      "protoleaves",
+      "Twisty"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "blisterbushplantseed",
+        "name": "泡荚种子(Blister Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "corvexseed",
+        "name": "凸球萌芽种子(Corvex Sprout)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "mutaviskseed",
+        "name": "飞螳种子(Mutavisk)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "nakatiseed",
+        "name": "nakatiseed",
+        "rate": "14.29%"
+      },
+      {
+        "id": "pasakavineseed",
+        "name": "帕斯卡果种子(Pasaka Vine)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "vextongueseed",
+        "name": "凸舌蕊种子(Vextongue Seed)",
+        "rate": "14.29%"
+      }
+    ],
+    "planets": [
+      "原毒世界(Shadow Proto World)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

@@ -7,5 +7,40 @@
   "description_en": "Lures in prey with its shiny head bobble. Infamous among fish for being a bit of a jerk.",
   "description_zh": "它发光的头顶上那根诱引猎物的鱼饵轻轻的晃动着。因为比较混蛋而在鱼圈中臭名昭著。",
   "level": 1,
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "鱼类",
+        "biome": "Arctic",
+        "where": "钓鱼",
+        "rate": "0.98%",
+        "note": "night only, deep",
+        "planets": [
+          "Arctic",
+          "液氮海(Nitrogen Sea)"
+        ]
+      },
+      {
+        "kind": "鱼类",
+        "biome": "极地(Dark Arctic)",
+        "where": "钓鱼",
+        "rate": "0.98%",
+        "note": "night only, deep",
+        "planets": [
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "鱼类",
+        "biome": "液氮海(Nitrogen Sea)",
+        "where": "钓鱼",
+        "rate": "0.98%",
+        "note": "night only, deep",
+        "planets": [
+          "液氮海(Nitrogen Sea)"
+        ]
+      }
+    ]
+  }
 }

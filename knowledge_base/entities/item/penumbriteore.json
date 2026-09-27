@@ -280,5 +280,90 @@
   ],
   "condensed_on": [
     "penumbra"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "可破坏物掉落",
+        "biome": "怪异旷野(Horrific Field)",
+        "where": "地表",
+        "planets": [
+          "肉源(Atropus)",
+          "黑暗肉源(Nightmare Atropus)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "远古洞穴(Horrific Caverns)",
+        "where": "地下",
+        "planets": [
+          "黑暗肉源(Nightmare Atropus)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "怪异旷野(Eldritch Field)",
+        "where": "地表",
+        "planets": [
+          "以太世界(Aether World)",
+          "Alien",
+          "原始森林(Primeval Forest)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "远古地核(Elder Core)",
+        "where": "地下",
+        "planets": [
+          "黑暗肉源(Nightmare Atropus)",
+          "诡之海(Strange Sea)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "远古洞穴(Elder Caverns)",
+        "where": "地下",
+        "planets": [
+          "以太世界(Aether World)",
+          "以太(Aetheric)",
+          "无光星球(Lightless)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "暗影洞穴(Shadow Cave)",
+        "where": "地下",
+        "planets": [
+          "以太世界(Aether World)",
+          "以太(Aetheric)",
+          "血石(Bloodstone)"
+        ]
+      }
+    ],
+    "more_places": 6,
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 1.0,
+        "planets": [
+          "半影(Penumbra)",
+          "Shadow"
+        ]
+      },
+      {
+        "surface_weight": 0.8,
+        "planets": [
+          "以太(Aetheric)"
+        ]
+      },
+      {
+        "surface_weight": 0.3,
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      }
+    ],
+    "unmapped_biomes": 1
+  }
 }

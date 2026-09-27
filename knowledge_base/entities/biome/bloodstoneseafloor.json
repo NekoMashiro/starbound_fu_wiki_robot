@@ -94,5 +94,39 @@
     "insanitynew2",
     "insanity2"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Blood",
+      "Kelp"
+    ],
+    "ground": [
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "50%"
+      },
+      {
+        "id": "piruseed",
+        "name": "piruseed",
+        "rate": "50%"
+      }
+    ],
+    "planets": [
+      "肉源海(Atropus Sea)",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "肉源海(Atropus Sea)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表下层",
+      "role": "次级生态"
+    }
+  ]
 }

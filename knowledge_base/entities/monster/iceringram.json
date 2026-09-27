@@ -9,5 +9,76 @@
   "level": 1,
   "drop_pool_default": "ringramTreasure",
   "drop_pool_hunting": "ringramHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "Alpine",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "planets": [
+          "Forest",
+          "Snowy",
+          "Tundra"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "冰冻火山(Frozen Volcanic)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "20.76%",
+        "planets": [
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "岩石高原(Rocky Highlands)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "冰火森林(Icefire Forest)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "20%",
+        "planets": [
+          "Alien",
+          "冰冻卫星(Frozen Moon)",
+          "冰冻废土(Ice Waste)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "山脉(Mountainous)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "23.28%",
+        "planets": [
+          "山脉(Mountainous)",
+          "Super Dense",
+          "诡之海(Strange Sea)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "山脉II(Mountainous II)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "23.28%",
+        "planets": [
+          "山脉(Mountainous)",
+          "Super Dense",
+          "诡之海(Strange Sea)"
+        ]
+      }
+    ],
+    "more_places": 2
+  }
 }

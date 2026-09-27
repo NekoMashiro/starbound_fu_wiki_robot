@@ -100,5 +100,114 @@
     ]
   ],
   "wiki_ref": "Garden.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Piney",
+      "Pine"
+    ],
+    "ground": [
+      {
+        "id": "cornseed",
+        "name": "玉米种子(Corn Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "cottonseed",
+        "name": "棉花种子(Cotton Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "pearlpeaseed",
+        "name": "珍珠豆种子(Pearlpea Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "potatoseed",
+        "name": "土豆种子(Potato Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "riceseed",
+        "name": "大米种子(Rice Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "wheatseed",
+        "name": "小麦种子(Wheat Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "flowerred",
+        "name": "红色花朵(Red Flower)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "floweryellow",
+        "name": "黄色花朵(Yellow Flower)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "cinnamonseed",
+        "name": "肉桂种子(Cinnamon Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "hopsseed",
+        "name": "啤酒花种子(Hops Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "miraclegrassseed",
+        "name": "奇迹草种子(Miracle Grass)",
+        "rate": "20.59%"
+      }
+    ],
+    "more_ground": 7,
+    "planets": [
+      "Garden",
+      "Forest",
+      "Jungle",
+      "Savannah",
+      "Snowy",
+      "Tundra"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Garden",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Snowy",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

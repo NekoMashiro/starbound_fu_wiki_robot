@@ -64,5 +64,91 @@
     "sunskipper",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Bark",
+      "Beach",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves",
+      "Alien P."
+    ],
+    "ground": [
+      {
+        "id": "automatoseed",
+        "name": "硬番茄种子(Automato Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "boltbulbseed",
+        "name": "螺钉球种子(Boltbulb Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "currentcornseed",
+        "name": "液体玉米种子(Currentcorn Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "kiwiseed",
+        "name": "猕猴桃种子(Kiwi Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "sugarcaneseed",
+        "name": "甘蔗种子(Sugarcane Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Desert",
+      "红色废土(Red Desert)",
+      "红色废土(Dark Red Desert)",
+      "山脉(Mountainous)",
+      "Savannah",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "山脉(Mountainous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

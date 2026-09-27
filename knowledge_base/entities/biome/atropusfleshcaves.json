@@ -87,5 +87,64 @@
     "stinkjack",
     "xenofly"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "fleshstem",
+      "fleshfoliage"
+    ],
+    "ground": [
+      {
+        "id": "pussplumseed",
+        "name": "圣女果种子(Pussplum Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "肉源(Atropus)",
+      "黑暗肉源(Nightmare Atropus)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地表下层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地表下层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下深层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下深层",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -185,7 +185,8 @@ def load_documents(kb_dir: Path, limit: int | None = None) -> list[dict]:
                     continue
                 if not isinstance(entity, dict):
                     continue
-                if entity.get('entry_completeness', 'D') in SKIP_ENTRY_COMPLETENESS:
+                sparse = entity.get('entry_completeness', 'D') in SKIP_ENTRY_COMPLETENESS
+                if sparse and not entity.get('appears_on'):
                     continue
                 entities.append(entity)
 
@@ -448,12 +449,22 @@ def build_entity_embed_text(
         parts.append("空气冷凝器按星球出货: " + ', '.join(bits))
 
     biomes = entity.get('biomes', [])
-    if biomes:
+    if biomes and etype != 'planet':
         biome_labels = []
         for b in biomes[:10]:
             bid = b['biome'] if isinstance(b, dict) else str(b)
             biome_labels.append(_label(bid, names))
         parts.append(f"生态: {', '.join(biome_labels)}")
+
+    found = entity.get('found_on') or {}
+    if isinstance(found, dict):
+        planet_names = []
+        for place in (found.get('places') or [])[:4]:
+            planet_names.extend(place.get('planets') or [])
+        for band in (found.get('ore_planets') or [])[:4]:
+            planet_names.extend(band.get('planets') or [])
+        if planet_names:
+            parts.append('生成星球 生成率: ' + ', '.join(planet_names[:12]))
 
     wiki_ref = entity.get('wiki_ref', '')
     if wiki_ref:
@@ -493,6 +504,44 @@ def build_entity_embed_text(
             parts.append(
                 "怪物: " + ', '.join(_label(m, names) for m in monsters[:10])
             )
+        plants = entity.get('plants') or {}
+        if isinstance(plants, dict):
+            bits = []
+            if plants.get('trees'):
+                bits.append('树 ' + ', '.join(plants['trees'][:8]))
+            ground = plants.get('ground') or []
+            if ground:
+                bits.append('植物 ' + ', '.join(
+                    (row.get('name') or row.get('id') or '') for row in ground[:8]
+                ))
+            if bits:
+                parts.append('植物生态: ' + '；'.join(bits))
+        appears = entity.get('appears_on') or []
+        if isinstance(appears, list) and appears:
+            planets = []
+            for row in appears:
+                name = row.get('planet') if isinstance(row, dict) else ''
+                if name and name not in planets:
+                    planets.append(name)
+            if planets:
+                parts.append('出现星球: ' + ', '.join(planets[:16]))
+
+    if etype == 'planet':
+        parts.append('星球')
+        lo = str(entity.get('min_tier') or '')
+        hi = str(entity.get('max_tier') or '')
+        if lo or hi:
+            parts.append(f"威胁 {lo}-{hi}" if lo and hi and lo != hi else f"威胁 {lo or hi}")
+        names = []
+        for layer in entity.get('biomes') or []:
+            if not isinstance(layer, dict):
+                continue
+            for key in ('主生态', '次级生态'):
+                for name in layer.get(key) or []:
+                    if name not in names:
+                        names.append(name)
+        if names:
+            parts.append('有什么生态: ' + ', '.join(names[:24]))
 
     return '\n'.join(parts)
 

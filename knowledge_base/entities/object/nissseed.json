@@ -71,5 +71,31 @@
   "extracts_into": [
     "clay",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "钙质矿脉(Caliche Vein)",
+        "where": "地表",
+        "rate": "25%",
+        "planets": [
+          "Desert",
+          "红色废土(Red Desert)",
+          "红色废土(Dark Red Desert)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Volcanic",
+        "where": "地表",
+        "rate": "23%",
+        "planets": [
+          "Volcanic",
+          "Super Dense",
+          "极地(Dark Arctic)"
+        ]
+      }
+    ]
+  }
 }

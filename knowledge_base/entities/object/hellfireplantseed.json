@@ -98,5 +98,52 @@
   "entry_completeness": "S",
   "extracts_into": [
     "ammoniumsulfate"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "地狱火花园(Hellfire Field)",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "红色废土(Red Desert)",
+          "红色废土(Dark Red Desert)",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "灼热洞穴(Scorching Caverns)",
+        "where": "地下",
+        "rate": "100%",
+        "planets": [
+          "炼狱(Infernus)",
+          "炼狱(Dark Infernus)",
+          "岩浆(Dark Magma)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Infernus)",
+        "where": "地表",
+        "rate": "20%",
+        "planets": [
+          "炼狱(Infernus)",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Dark Infernus)",
+        "where": "地表",
+        "rate": "20%",
+        "planets": [
+          "炼狱(Dark Infernus)",
+          "Shadow"
+        ]
+      }
+    ]
+  }
 }

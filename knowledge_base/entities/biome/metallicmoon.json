@@ -120,5 +120,54 @@
       "cpu",
       "fuprocessor"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Metal",
+      "rustflower",
+      "steelpiping",
+      "steelpipingfoliage",
+      "rustypipes",
+      "Rust"
+    ],
+    "ground": [
+      {
+        "id": "automatoseed",
+        "name": "硬番茄种子(Automato Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "currentcornseed",
+        "name": "液体玉米种子(Currentcorn Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "diodiaseed",
+        "name": "双梅种子(Diodia Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "金属卫星(Cyber Sphere)",
+      "Shadow",
+      "Super Dense"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "金属卫星(Cyber Sphere)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

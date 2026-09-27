@@ -59,5 +59,64 @@
   "extracts_into": [
     "plantfibre",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "Scorched Wasteland",
+        "where": "地表",
+        "rate": "100%"
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Scorched",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "Scorched",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "以太世界(Aether World)",
+        "where": "地下",
+        "rate": "33.33%",
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "以太世界(Aether World)",
+        "where": "地表",
+        "rate": "33.33%",
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "以太海海底(Aether Sea Floor)",
+        "where": "地表",
+        "rate": "33.33%",
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "以太地层(Aether Underground)",
+        "where": "地下",
+        "rate": "33.33%",
+        "planets": [
+          "以太世界(Aether World)",
+          "以太(Aetheric)"
+        ]
+      }
+    ],
+    "more_places": 6
+  }
 }

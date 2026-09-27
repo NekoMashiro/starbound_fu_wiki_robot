@@ -63,5 +63,125 @@
     "voltip",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Old",
+      "Barren",
+      "Skeletal",
+      "Stripe"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "thornplant",
+        "name": "刺果种子(Thorny Plant)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "血石(Bloodstone)",
+      "多彩(Chromatic)",
+      "红色废土(Red Desert)",
+      "红色废土(Dark Red Desert)",
+      "真菌(Fungal)",
+      "辐射(Irradiated)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "真菌(Fungal)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "山脉(Mountainous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "废土(Wasteland)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -82,5 +82,29 @@
     "ffbiomeheat3"
   ],
   "wiki_ref": "Magma.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Ash",
+      "Coal",
+      "Magma"
+    ],
+    "ground": [
+      {
+        "id": "chiliseed",
+        "name": "辣椒种子(Chilli Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "岩浆(Dark Magma)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "岩浆(Dark Magma)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

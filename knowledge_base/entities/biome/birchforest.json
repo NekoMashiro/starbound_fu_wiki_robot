@@ -69,5 +69,172 @@
     "sporelingcritter",
     "squirrelcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Rose",
+      "Cloudy",
+      "Lotus",
+      "Spike",
+      "Birch",
+      "Bubble",
+      "Frump",
+      "Greenleaves",
+      "Hang",
+      "Leaf",
+      "Lush",
+      "Orange Flower",
+      "Pine",
+      "Redleaves",
+      "Scrag"
+    ],
+    "ground": [
+      {
+        "id": "mushroomseed",
+        "name": "蘑菇种子(Mushroom Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "carrotseed",
+        "name": "胡萝卜种子(Carrot Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "coffeeseed",
+        "name": "咖啡种子(Coffee Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "tomatoseed",
+        "name": "番茄种子(Tomato Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "flowerblack",
+        "name": "黑色花种子(Black Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerbrown",
+        "name": "棕色花种子(Brown Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowergreen",
+        "name": "绿色花种子(Green Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowergrey",
+        "name": "灰色花种子(Gray Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorange",
+        "name": "橙色花种子(Orange Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorchid",
+        "name": "黑色兰花种子(Black Orchid)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorchid2",
+        "name": "紫色兰花种子(Purple Orchid)",
+        "rate": "6.67%"
+      }
+    ],
+    "more_ground": 7,
+    "planets": [
+      "原始森林(Primeval Forest)",
+      "火山原始森林(Volcanic Primeval)",
+      "黑暗原始森林(Dark Primeval)",
+      "多彩(Chromatic)",
+      "伊甸(Eden)",
+      "Forest"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗原始森林(Dark Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "伊甸(Eden)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "真菌(Fungal)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Garden",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "山脉(Mountainous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -98,5 +98,76 @@
     "biomeairless"
   ],
   "wiki_ref": "Infernus.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Grump",
+      "Ash",
+      "Coal",
+      "Magma",
+      "Crisp",
+      "Lava",
+      "Fluff",
+      "Grey",
+      "Red Molten"
+    ],
+    "ground": [
+      {
+        "id": "hellfireplantseed",
+        "name": "地狱火藤蔓种子(Hellfire Plant Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "plasmangoseed",
+        "name": "等离子芒果种子(Plasmango Seed)",
+        "rate": "15%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "15%"
+      },
+      {
+        "id": "ignuschiliseed",
+        "name": "伊格纳斯辣椒种子(Ignus Chili Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "oonfortaseed",
+        "name": "奥弗塔球种子(Oonforta Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "petrifiedrootseed",
+        "name": "暗影根茎种子(Umbral Root Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "phositeseed",
+        "name": "磷酸水晶种子(Phosite Crystal Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "rockrootseed",
+        "name": "石之根茎种子(Rockroot Seed)",
+        "rate": "10%"
+      }
+    ],
+    "planets": [
+      "炼狱(Dark Infernus)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "炼狱(Dark Infernus)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

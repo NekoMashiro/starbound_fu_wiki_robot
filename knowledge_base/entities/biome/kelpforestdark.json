@@ -64,5 +64,37 @@
     "tortoisecritter",
     "wavebird"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Leaf",
+      "kelp",
+      "kelpy",
+      "seaweed",
+      "flowy",
+      "wavy"
+    ],
+    "ground": [
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "多岩潮汐(Tidewater)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地表下层",
+      "role": "次级生态"
+    }
+  ]
 }

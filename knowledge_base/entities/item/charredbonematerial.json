@@ -14,5 +14,42 @@
   "extracts_into": [
     "liquidoil",
     "fu_carbon"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "焦肉(Charred Flesh)",
+        "where": "地面"
+      },
+      {
+        "kind": "地面方块",
+        "biome": "腐化卫星(Corrupted Moon)",
+        "where": "地面",
+        "planets": [
+          "血石(Bloodstone)",
+          "水晶世界(Crystalline)",
+          "红色废土(Red Desert)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "焦油坑(Tar Pits)",
+        "where": "地面",
+        "planets": [
+          "沼泽(Bog)",
+          "Desert",
+          "红色废土(Red Desert)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "废土II(Wasteland II)",
+        "where": "地面",
+        "planets": [
+          "废土(Wasteland)"
+        ]
+      }
+    ]
+  }
 }

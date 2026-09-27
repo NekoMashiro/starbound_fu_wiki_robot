@@ -59,5 +59,53 @@
     "savybirdcritter",
     "snaggler"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Old",
+      "Barren",
+      "Skeletal",
+      "Stripe",
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Arid Pine",
+      "Autumn",
+      "Weird",
+      "Patch",
+      "Lushy",
+      "Jungly",
+      "Jungle Palm",
+      "Jungle"
+    ],
+    "ground": [
+      {
+        "id": "feathercrownseed",
+        "name": "羽冠花种子(Feathercrown Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "riceseed",
+        "name": "大米种子(Rice Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "诡之海(Strange Sea)",
+      "多岩潮汐(Tidewater)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

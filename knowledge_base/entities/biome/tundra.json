@@ -50,5 +50,53 @@
     "ffbiomecold1"
   ],
   "wiki_ref": "Tundra.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Geometric",
+      "Ice Sphere",
+      "geometricfoliage",
+      "icespherefoliage"
+    ],
+    "ground": [
+      {
+        "id": "diodiaseed",
+        "name": "双梅种子(Diodia Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "eggshootseed",
+        "name": "射蛋果种子(Eggshoot Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Tundra",
+      "原始森林(Primeval Forest)",
+      "Midnight",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Midnight",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

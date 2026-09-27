@@ -114,5 +114,79 @@
       "deuterium",
       "fu_carbon"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Alien Bubble",
+      "Alien Weird",
+      "Big",
+      "Circle",
+      "mushroomstalkbio",
+      "mushroomredtopbio",
+      "mushroomyellowtopbio",
+      "Oldwood",
+      "Woody",
+      "Energy Orb",
+      "energyorbfoliage",
+      "Dead",
+      "Leaves",
+      "Moss",
+      "Underwood",
+      "Penumbral"
+    ],
+    "more_trees": 7,
+    "ground": [
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "31.58%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "21.05%"
+      },
+      {
+        "id": "tokaniteseed",
+        "name": "托卡尼特水晶种子(Tokanite Crystal Seed)",
+        "rate": "15.79%"
+      },
+      {
+        "id": "ghostmushroomseed",
+        "name": "幽灵菇(Ghost Mushroom)",
+        "rate": "12.63%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "10.53%"
+      },
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "8.42%"
+      }
+    ],
+    "planets": [
+      "半影(Penumbra)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

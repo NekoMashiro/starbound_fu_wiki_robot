@@ -105,5 +105,33 @@
       "uraniumore",
       "plutoniumore"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "toxiccoral"
+    ],
+    "ground": [
+      {
+        "id": "toxictopseed",
+        "name": "毒果种子(Toxictop Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Toxic",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Toxic",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

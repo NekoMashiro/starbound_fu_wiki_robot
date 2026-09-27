@@ -189,5 +189,63 @@
     "frozenstonematerial",
     "biorock",
     "biorock2"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 1.0,
+        "planets": [
+          "Snowy",
+          "Tundra"
+        ]
+      },
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "surface_weight": 0.7,
+        "planets": [
+          "诡之海(Strange Sea)"
+        ]
+      },
+      {
+        "surface_weight": 0.6,
+        "planets": [
+          "气态巨行星(Gas Giant)",
+          "原体巨行星(Proto Giant)",
+          "火焰巨行星(Flame Giant)",
+          "冰霜巨行星(Ice Giant)",
+          "毒性巨行星(Toxic Giant)",
+          "冰冻卫星(Frozen Moon)",
+          "暗影卫星(Shadow Moon)",
+          "Shadow",
+          "冰冻废土(Dark Ice Waste)"
+        ]
+      },
+      {
+        "surface_weight": 0.52,
+        "planets": [
+          "水晶世界(Crystalline)",
+          "Super Dense"
+        ]
+      },
+      {
+        "surface_weight": 0.5,
+        "planets": [
+          "极地(Dark Arctic)",
+          "冰冻火山(Frozen Volcanic)",
+          "冰冻废土(Ice Waste)",
+          "半影(Penumbra)",
+          "雪(Dark Snow)",
+          "冻土(Dark Tundra)"
+        ]
+      }
+    ],
+    "unmapped_biomes": 10,
+    "core_or_space_only_planets": 32
+  }
 }

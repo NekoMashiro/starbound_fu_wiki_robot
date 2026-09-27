@@ -59,5 +59,44 @@
   "crushed_from": [
     "moonstone",
     "moonrock"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "Moon",
+        "where": "地面",
+        "planets": [
+          "Lunar"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "毒性卫星地层(Toxic Moon Underground)",
+        "where": "地面",
+        "planets": [
+          "卫星(Toxic Moon)",
+          "Lunar"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Lunar Underground",
+        "where": "地面",
+        "planets": [
+          "Lunar"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "厄尔吉斯平原(Erchius Expanse)",
+        "where": "地面",
+        "planets": [
+          "Lunar",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)"
+        ]
+      }
+    ]
+  }
 }

@@ -58,5 +58,39 @@
     "snagglerocean",
     "squidcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "gemglowseed",
+        "name": "宝石果种子(Gemglow Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Oceanic"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Oceanic",
+      "where": "地表下层",
+      "role": "次级生态"
+    }
+  ]
 }

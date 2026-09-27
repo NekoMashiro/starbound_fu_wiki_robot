@@ -98,5 +98,88 @@
       "tritium",
       "thoriumore"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Burnt",
+      "Leaves",
+      "Moss",
+      "Old",
+      "Barren",
+      "Skeletal",
+      "Stripe",
+      "Arid Pine",
+      "Autumn",
+      "Weird",
+      "Patch",
+      "Ash",
+      "Coal",
+      "Magma",
+      "Willow",
+      "Pitchy"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "20%"
+      },
+      {
+        "id": "pasakavineseed",
+        "name": "帕斯卡果种子(Pasaka Vine)",
+        "rate": "20%"
+      },
+      {
+        "id": "porphisplantseed",
+        "name": "态射草种子(Porphis Bulb)",
+        "rate": "20%"
+      },
+      {
+        "id": "rockrootseed",
+        "name": "石之根茎种子(Rockroot Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "tyvokkseed",
+        "name": "糖果棒种子(Tyvokk Dart)",
+        "rate": "20%"
+      },
+      {
+        "id": "blexplantseed",
+        "name": "球状仙人掌种子(Blex Cactus Bulb)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "lactariusindigoseed",
+        "name": "靛兰乳菇孢子(Lactarius Indigo)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "talonseedseed",
+        "name": "鹰爪芽种子(Talon Seed)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "焦油(Tar Ball)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "焦油(Tar Ball)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

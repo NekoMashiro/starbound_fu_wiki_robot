@@ -118,5 +118,116 @@
       ]
     ]
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cocoa",
+      "Fleshy",
+      "Wood",
+      "Pine",
+      "Root",
+      "Something",
+      "Twist",
+      "Cloudy",
+      "Grump",
+      "Slime",
+      "Spikey",
+      "Slob",
+      "Piney",
+      "Bubble",
+      "Frump",
+      "Greenleaves"
+    ],
+    "more_trees": 3,
+    "ground": [
+      {
+        "id": "avesmingoseed",
+        "name": "百味果种子(Avesmingo Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "currentcornseed",
+        "name": "液体玉米种子(Currentcorn Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "dirturchinseed",
+        "name": "泥海胆种子(Dirturchin Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "tinselbush",
+        "name": "金丝灌种子(Tinselbush)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "violirootseed",
+        "name": "维奥根种子(Violiroot Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "yellowfootseed",
+        "name": "黄脚菇孢子(Yellowfoot Shroom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "flowerblack",
+        "name": "黑色花种子(Black Flower)",
+        "rate": "10%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "10%"
+      },
+      {
+        "id": "flowerbrown",
+        "name": "棕色花种子(Brown Flower)",
+        "rate": "10%"
+      },
+      {
+        "id": "flowergrey",
+        "name": "灰色花种子(Gray Flower)",
+        "rate": "10%"
+      },
+      {
+        "id": "flowerorange",
+        "name": "橙色花种子(Orange Flower)",
+        "rate": "10%"
+      },
+      {
+        "id": "flowerorchid",
+        "name": "黑色兰花种子(Black Orchid)",
+        "rate": "10%"
+      }
+    ],
+    "more_ground": 4,
+    "planets": [
+      "山脉(Mountainous)",
+      "Super Dense",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "山脉(Mountainous)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

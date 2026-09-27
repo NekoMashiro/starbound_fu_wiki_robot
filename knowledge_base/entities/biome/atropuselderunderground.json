@@ -55,5 +55,67 @@
     "starspawn2",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Lush",
+      "Magma",
+      "Alien P.",
+      "Grass",
+      "Grey",
+      "Blue Bell"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "oonfortaseed",
+        "name": "奥弗塔球种子(Oonforta Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "toxictopseed",
+        "name": "毒果种子(Toxictop Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "vashtaplantseed",
+        "name": "骨刺种子(Vashta)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "黑暗肉源(Nightmare Atropus)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地表下层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下深层",
+      "role": "次级生态"
+    }
+  ]
 }

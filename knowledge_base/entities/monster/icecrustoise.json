@@ -9,5 +9,78 @@
   "level": 1,
   "drop_pool_default": "crustoiseTreasure",
   "drop_pool_hunting": "crustoiseHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "细胞洞窟（肉源）(Cell Caves (Atropus))",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "50%",
+        "planets": [
+          "肉源(Atropus)",
+          "黑暗肉源(Nightmare Atropus)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "秋日森林(Autumn Forest)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "12.5%",
+        "planets": [
+          "Forest"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "仙人掌沙漠(Cactus Place)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "37.5%",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "钙质矿脉(Caliche Vein)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "37.5%",
+        "planets": [
+          "Desert",
+          "红色废土(Red Desert)",
+          "红色废土(Dark Red Desert)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "云朵森林(Cloud Forest)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "38.07%",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "水晶世界(Crystalline)",
+          "伊甸(Eden)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "水晶世界(Crystalline)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "25%",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "Super Dense"
+        ]
+      }
+    ],
+    "more_places": 33
+  }
 }

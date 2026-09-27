@@ -9,5 +9,76 @@
   "level": 1,
   "drop_pool_default": "crabcanoTreasure",
   "drop_pool_hunting": "crabcanoHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "以太防波堤(Aether Breakwater)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "33.33%",
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "防波堤(Breakwater)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "33.33%",
+        "planets": [
+          "诡之海(Strange Sea)",
+          "多岩潮汐(Tidewater)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "红色废土(Red Desert)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "30%",
+        "planets": [
+          "红色废土(Red Desert)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "红色废土(Dark Red Desert)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "30%",
+        "planets": [
+          "红色废土(Dark Red Desert)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "焦油坑(Tar Pit)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "25%",
+        "planets": [
+          "焦油(Tar Ball)",
+          "以太世界(Aether World)",
+          "以太(Aetheric)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "污泥场(Sludge Field)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "25%",
+        "planets": [
+          "卫星(Desert Moon)",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)"
+        ]
+      }
+    ],
+    "more_places": 20
+  }
 }

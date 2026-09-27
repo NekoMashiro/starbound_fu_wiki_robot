@@ -97,5 +97,33 @@
     "wormmass",
     "xenofly"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "fleshstem",
+      "fleshfoliage",
+      "fleshstem2",
+      "Blood",
+      "fleshfoliage2",
+      "Kelp",
+      "Doom",
+      "Wood"
+    ],
+    "planets": [
+      "肉源(Atropus)",
+      "黑暗肉源(Nightmare Atropus)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

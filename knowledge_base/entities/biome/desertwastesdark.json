@@ -87,5 +87,82 @@
   "status_effects": [
     "desertweathernewdeadly"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Bark",
+      "Beach",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves",
+      "Alien P."
+    ],
+    "ground": [
+      {
+        "id": "avikancactusseed",
+        "name": "卡达文仙人掌种子(Kadavan Cactus Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "avikanspiceplantseed",
+        "name": "卡达文香料果种子(Kadavan Spice Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "bolbohnseed",
+        "name": "波庞薯种子(Bolbohn Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "dunestalkseed",
+        "name": "沙语草种子(Dunestalk Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "ignuschiliseed",
+        "name": "伊格纳斯辣椒种子(Ignus Chili Seed)",
+        "rate": "12.5%"
+      },
+      {
+        "id": "quellstem",
+        "name": "奎尔茎芽种子(Quell Stem)",
+        "rate": "12.5%"
+      }
+    ],
+    "planets": [
+      "红色废土(Dark Red Desert)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

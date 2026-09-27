@@ -86,5 +86,72 @@
     "warbot",
     "zombot"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Metal",
+      "rustflower"
+    ],
+    "ground": [
+      {
+        "id": "automatoseed",
+        "name": "硬番茄种子(Automato Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "boltbulbseed",
+        "name": "螺钉球种子(Boltbulb Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "currentcornseed",
+        "name": "液体玉米种子(Currentcorn Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "diodiaseed",
+        "name": "双梅种子(Diodia Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "naileryseed",
+        "name": "射钉草种子(Nailery Seed)",
+        "rate": "20%"
+      }
+    ],
+    "planets": [
+      "金属卫星(Cyber Sphere)",
+      "Shadow",
+      "诡之海(Strange Sea)",
+      "雨林(Rainforest)",
+      "废土(Wasteland)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "金属卫星(Cyber Sphere)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "废土(Wasteland)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

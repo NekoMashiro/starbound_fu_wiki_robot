@@ -86,5 +86,190 @@
     "ffbiomecold0"
   ],
   "wiki_ref": "Snow.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "Alpine",
+        "where": "地面",
+        "planets": [
+          "Forest",
+          "Snowy",
+          "Tundra"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Bioluminescence",
+        "where": "地面",
+        "planets": [
+          "Midnight",
+          "Shadow",
+          "Snowy"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "岩石高原(Rocky Highlands)",
+        "where": "地面",
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Ice",
+        "where": "地面",
+        "planets": [
+          "冰冻火山(Frozen Volcanic)",
+          "冰冻卫星(Frozen Moon)",
+          "冰冻废土(Ice Waste)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Ice Caves",
+        "where": "地面",
+        "planets": [
+          "Alien",
+          "Arctic",
+          "Desert"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "冰云(Ice Clouds)",
+        "where": "地面",
+        "planets": [
+          "冰冻废土(Ice Waste)",
+          "冰冻废土(Dark Ice Waste)"
+        ]
+      }
+    ],
+    "more_places": 13
+  },
+  "plants": {
+    "trees": [
+      "Snow Piney",
+      "Snow Birch",
+      "Snow Cocoa",
+      "Snow Flesh",
+      "Snow Grump",
+      "Snow Pine",
+      "Snow Slime",
+      "Snow Something",
+      "Snow Spike",
+      "Snow Twist",
+      "Snow",
+      "Snowpine",
+      "Snowscraggy",
+      "Snowleafy",
+      "Snowfrumpy",
+      "Snowredleaves"
+    ],
+    "more_trees": 1,
+    "ground": [
+      {
+        "id": "automatoseed",
+        "name": "硬番茄种子(Automato Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "fusnowberryseed",
+        "name": "雪浆果种子(Snowberry Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "miraclegrassseed",
+        "name": "奇迹草种子(Miracle Grass)",
+        "rate": "25%"
+      },
+      {
+        "id": "pekkitseed",
+        "name": "霜草种子(Pekkit Seed)",
+        "rate": "25%"
+      }
+    ],
+    "planets": [
+      "Snowy",
+      "原始森林(Primeval Forest)",
+      "多彩(Chromatic)",
+      "冰冻火山(Frozen Volcanic)",
+      "冰冻废土(Ice Waste)",
+      "冰冻废土(Dark Ice Waste)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Snowy",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Dark Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Midnight",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "液氮海(Nitrogen Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

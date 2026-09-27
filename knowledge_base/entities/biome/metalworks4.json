@@ -48,5 +48,48 @@
     "spiderwalker",
     "spiderwalker2"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "diodiaseed",
+        "name": "双梅种子(Diodia Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "金属卫星(Cyber Sphere)",
+      "Shadow",
+      "诡之海(Strange Sea)",
+      "Super Dense",
+      "废土(Wasteland)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "金属卫星(Cyber Sphere)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "废土(Wasteland)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

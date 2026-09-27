@@ -65,5 +65,38 @@
     "ff_spareparts",
     "lead",
     "titaniumore"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "废土(Wasteland)",
+        "where": "地面",
+        "planets": [
+          "废土(Wasteland)",
+          "Super Dense"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "废土迷你生态群落(Wasteland Mini Biome)",
+        "where": "地面",
+        "planets": [
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "废土迷你生态群落（卫星）(Wasteland Mini Biome (moon))",
+        "where": "地面",
+        "planets": [
+          "Lunar",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)"
+        ]
+      }
+    ]
+  }
 }

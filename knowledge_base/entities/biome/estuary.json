@@ -58,5 +58,60 @@
     "snagglerocean",
     "squidcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Bark",
+      "Beach",
+      "Coconut",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Palm",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves"
+    ],
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "gemglowseed",
+        "name": "宝石果种子(Gemglow Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "riceseed",
+        "name": "大米种子(Rice Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "sweetscoopseed",
+        "name": "糖果笼种子(Sweetscoop Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Oceanic",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Oceanic",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

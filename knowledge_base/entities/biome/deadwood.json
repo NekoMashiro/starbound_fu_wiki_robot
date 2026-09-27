@@ -65,5 +65,98 @@
     "voltip",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Old",
+      "Barren",
+      "Skeletal",
+      "Stripe",
+      "Dead",
+      "Moss",
+      "Edelwood"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "100%"
+      },
+      {
+        "id": "futombstone",
+        "name": "坟墓(Grave)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "火山原始森林(Volcanic Primeval)",
+      "黑暗原始森林(Dark Primeval)",
+      "沼泽(Bog)",
+      "Forest",
+      "Jungle",
+      "Scorched"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗原始森林(Dark Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "沼泽(Bog)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Scorched",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "废土(Wasteland)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -82,5 +82,74 @@
   "status_effects": [
     "ffbiomeheat2"
   ],
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "ground": [
+      {
+        "id": "wartweedseed",
+        "name": "瓦特果种子(Wartweed Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Scorched",
+      "Super Dense",
+      "冰冻火山(Frozen Volcanic)",
+      "Shadow",
+      "雪(Dark Snow)",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Scorched",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Volcanic",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -87,5 +87,49 @@
     "ffbiomecold1"
   ],
   "wiki_ref": "Snow.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Snow Piney",
+      "Snow Birch",
+      "Snow Cocoa",
+      "Snow Flesh",
+      "Snow Grump",
+      "Snow Pine",
+      "Snow Slime",
+      "Snow Something",
+      "Snow Spike",
+      "Snow Twist",
+      "Snow",
+      "Snowpine",
+      "Snowscraggy",
+      "Snowleafy",
+      "Snowfrumpy",
+      "Snowredleaves"
+    ],
+    "more_trees": 1,
+    "ground": [
+      {
+        "id": "automatoseed",
+        "name": "硬番茄种子(Automato Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "雪(Dark Snow)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

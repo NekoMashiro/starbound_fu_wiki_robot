@@ -91,5 +91,43 @@
     "nautileech",
     "squeem"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Doom",
+      "Wood"
+    ],
+    "ground": [
+      {
+        "id": "gazelemonseed",
+        "name": "目力柠檬种子(Gazelemon Seed)",
+        "rate": "28.26%"
+      },
+      {
+        "id": "lasherplantseed",
+        "name": "鞭笞者种子(Lasher Seed)",
+        "rate": "28.26%"
+      },
+      {
+        "id": "shockshroomseed",
+        "name": "冲击蘑菇孢子(Shock-Shroom)",
+        "rate": "28.26%"
+      },
+      {
+        "id": "bloodrootseed",
+        "name": "血之根茎种子(Blood Root Seed)",
+        "rate": "15.22%"
+      }
+    ],
+    "planets": [
+      "血石(Bloodstone)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

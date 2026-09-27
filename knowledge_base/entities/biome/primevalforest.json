@@ -71,5 +71,108 @@
     "redbreastcritter",
     "squirrelcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cocoa",
+      "Fleshy",
+      "Wood",
+      "Pine",
+      "Root",
+      "Something",
+      "Twist",
+      "Rose",
+      "Cloudy",
+      "Lotus",
+      "Redwood",
+      "redwood1",
+      "Birch",
+      "Grump",
+      "Slime",
+      "Spikey"
+    ],
+    "more_trees": 11,
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "bambooseed",
+        "name": "竹笋(Micro-Bamboo)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "talonseedseed",
+        "name": "鹰爪芽种子(Talon Seed)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "Forest",
+      "Jungle",
+      "半影(Penumbra)",
+      "原毒世界(Proto World)",
+      "原毒世界(Shadow Proto World)",
+      "凝胶(Gelatinous)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

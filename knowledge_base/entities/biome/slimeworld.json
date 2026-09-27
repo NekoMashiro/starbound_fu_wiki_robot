@@ -129,5 +129,48 @@
       "tritium",
       "deuterium"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Slime Tree",
+      "slimefoliage"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "50%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "50%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "22.03%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "22.03%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "11.86%"
+      }
+    ],
+    "planets": [
+      "凝胶(Gelatinous)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

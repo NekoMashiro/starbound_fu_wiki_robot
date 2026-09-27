@@ -87,5 +87,44 @@
     "snowskater",
     "wisper"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Doom",
+      "Wood"
+    ],
+    "ground": [
+      {
+        "id": "bloodrootseed",
+        "name": "血之根茎种子(Blood Root Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "mutaviskseed",
+        "name": "飞螳种子(Mutavisk)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "neuropodseed",
+        "name": "神经荚种子(Neuropod Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "肉源(Atropus)",
+      "黑暗肉源(Nightmare Atropus)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

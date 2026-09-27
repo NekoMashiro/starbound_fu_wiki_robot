@@ -15,5 +15,44 @@
     "liquidoil",
     "bone",
     "fu_carbon"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "枯木林(Deadwood)",
+        "where": "地面",
+        "planets": [
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "沼泽(Bog)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "枯木林(卫星)(Deadwood (moon))",
+        "where": "地面"
+      },
+      {
+        "kind": "地面方块",
+        "biome": "闹鬼森林(Haunted Forest)",
+        "where": "地面",
+        "planets": [
+          "Alien",
+          "Forest",
+          "半影(Penumbra)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "闹鬼坟墓(Haunted Graveyard)",
+        "where": "地面",
+        "planets": [
+          "Forest",
+          "半影(Penumbra)",
+          "Savannah"
+        ]
+      }
+    ]
+  }
 }

@@ -7,5 +7,21 @@
   "description_en": "This delicate creature uses the tiny, winglike fins on its back to ride gentle currents in the flowing magma.",
   "description_zh": "这种奇妙的生物使用它背上微小的翼状鳍在流动的岩浆产生平稳的动力。",
   "level": 1,
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "鱼类",
+        "biome": "Lava",
+        "where": "钓鱼",
+        "rate": "0.98%",
+        "note": "night only",
+        "planets": [
+          "Lava",
+          "半影(Penumbra)",
+          "原毒世界(Proto World)"
+        ]
+      }
+    ]
+  }
 }

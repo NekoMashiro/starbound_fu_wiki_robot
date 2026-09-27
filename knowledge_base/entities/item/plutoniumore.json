@@ -201,5 +201,41 @@
     "irradiated",
     "chromatic",
     "toxic"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "卫星(Desert Moon)",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)",
+          "卫星(Volcanic Moon)"
+        ]
+      },
+      {
+        "surface_weight": 0.62,
+        "planets": [
+          "辐射(Irradiated)"
+        ]
+      },
+      {
+        "surface_weight": 0.5,
+        "planets": [
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "surface_weight": 0.35,
+        "planets": [
+          "Lunar",
+          "暗影卫星(Shadow Moon)",
+          "Shadow"
+        ]
+      }
+    ],
+    "unmapped_biomes": 8,
+    "core_or_space_only_planets": 64
+  }
 }

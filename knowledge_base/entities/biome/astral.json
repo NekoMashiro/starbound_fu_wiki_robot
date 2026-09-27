@@ -92,5 +92,49 @@
     "aetherweathernew"
   ],
   "wiki_ref": "Aetheric.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Aen",
+      "Aetherial",
+      "darkrock"
+    ],
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "bonebooseed",
+        "name": "骨竹种子(Boneboo Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "pussplumseed",
+        "name": "圣女果种子(Pussplum Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "wartweedseed",
+        "name": "瓦特果种子(Wartweed Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "boltbulbseed",
+        "name": "螺钉球种子(Boltbulb Seed)",
+        "rate": "25%"
+      }
+    ],
+    "planets": [
+      "以太(Aetheric)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "以太(Aetheric)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

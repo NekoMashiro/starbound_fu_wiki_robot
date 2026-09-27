@@ -67,5 +67,41 @@
   "entry_completeness": "S",
   "extracts_into": [
     "cellmatter"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "怪异森林(Eldritch Forest)",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Infernus)",
+        "where": "地表",
+        "rate": "10%",
+        "planets": [
+          "炼狱(Infernus)",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Dark Infernus)",
+        "where": "地表",
+        "rate": "10%",
+        "planets": [
+          "炼狱(Dark Infernus)",
+          "Shadow"
+        ]
+      }
+    ]
+  }
 }

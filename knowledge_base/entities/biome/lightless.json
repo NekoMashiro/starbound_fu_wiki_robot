@@ -117,5 +117,40 @@
       "tritium",
       "aliencompound"
     ]
-  }
+  },
+  "plants": {
+    "ground": [
+      {
+        "id": "darklightflower",
+        "name": "夜光花种子(Darklight Flower)",
+        "rate": "43.75%"
+      },
+      {
+        "id": "shadowrootseed",
+        "name": "暗影草种子(Shadowroot Seed)",
+        "rate": "43.75%"
+      },
+      {
+        "id": "exoniteseed",
+        "name": "长石晶体种子(Exonite Crystal Seed)",
+        "rate": "12.5%"
+      }
+    ],
+    "planets": [
+      "无光星球(Lightless)",
+      "Shadow"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "无光星球(Lightless)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

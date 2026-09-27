@@ -113,5 +113,111 @@
       "liquidirradium",
       "irradiumore"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Alien Striped",
+      "Big",
+      "Circle",
+      "Rose",
+      "Lotus",
+      "Gloom",
+      "Savannah Bleak",
+      "Spike",
+      "Bonk",
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Lushy",
+      "Jungly",
+      "Jungle Palm"
+    ],
+    "more_trees": 16,
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "blisterbushplantseed",
+        "name": "泡荚种子(Blister Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "pasakavineseed",
+        "name": "帕斯卡果种子(Pasaka Vine)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "vextongueseed",
+        "name": "凸舌蕊种子(Vextongue Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "dragonsbeardseed",
+        "name": "龙须草种子(Dragonsbeard)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "garpberryseed",
+        "name": "彭泽浆果种子(Garp Berry Plant)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "11.11%"
+      }
+    ],
+    "more_ground": 4,
+    "planets": [
+      "辐射(Irradiated)",
+      "多彩(Chromatic)",
+      "无光星球(Lightless)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "无光星球(Lightless)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

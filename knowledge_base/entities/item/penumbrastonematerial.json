@@ -83,5 +83,38 @@
     "ff_silicon",
     "iodine",
     "titaniumore"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "黑暗地带(Dark Zone)",
+        "where": "地面",
+        "planets": [
+          "Alien",
+          "沼泽(Bog)",
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "半影(Penumbra)",
+        "where": "地面",
+        "planets": [
+          "半影(Penumbra)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "无光洞穴（半影）(Lightless Cave (Penumbra))",
+        "where": "地面",
+        "planets": [
+          "半影(Penumbra)",
+          "Shadow",
+          "以太世界(Aether World)"
+        ]
+      }
+    ]
+  }
 }

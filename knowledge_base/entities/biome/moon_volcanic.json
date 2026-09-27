@@ -74,5 +74,30 @@
     "biomeairless"
   ],
   "wiki_ref": "Moon.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Ash",
+      "Coal",
+      "Magma",
+      "Lava"
+    ],
+    "ground": [
+      {
+        "id": "chiliseed",
+        "name": "辣椒种子(Chilli Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "卫星(Volcanic Moon)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "卫星(Volcanic Moon)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

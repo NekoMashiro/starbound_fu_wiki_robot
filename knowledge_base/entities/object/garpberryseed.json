@@ -55,5 +55,40 @@
   "entry_completeness": "S",
   "extracts_into": [
     "aliencompound"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "生物废料区(Biowaste Zone)",
+        "where": "地表",
+        "rate": "33.33%",
+        "planets": [
+          "辐射(Irradiated)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "辐射(Irradiated)",
+        "where": "地表",
+        "rate": "11.11%",
+        "planets": [
+          "辐射(Irradiated)",
+          "多彩(Chromatic)",
+          "无光星球(Lightless)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "辐射洞穴(Irradiated Cavern)",
+        "where": "地下",
+        "rate": "11.11%",
+        "planets": [
+          "辐射(Irradiated)",
+          "原毒世界(Proto World)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      }
+    ]
+  }
 }

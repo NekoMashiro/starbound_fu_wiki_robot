@@ -9,5 +9,76 @@
   "level": 1,
   "drop_pool_default": "wisperTreasure",
   "drop_pool_hunting": "wisperHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "Arctic",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "16.67%",
+        "planets": [
+          "Arctic",
+          "液氮海(Nitrogen Sea)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "极地(Dark Arctic)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "28.57%",
+        "planets": [
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "血块森林(肉源)(Gore Forest (Atropus))",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "50%",
+        "planets": [
+          "肉源(Atropus)",
+          "黑暗肉源(Nightmare Atropus)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "冰河(Glacial)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "42.32%",
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "血块森林(Gore Forest)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "50%",
+        "planets": [
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "闹鬼森林(Haunted Forest)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "37.5%",
+        "planets": [
+          "Alien",
+          "Forest",
+          "半影(Penumbra)"
+        ]
+      }
+    ],
+    "more_places": 20
+  }
 }

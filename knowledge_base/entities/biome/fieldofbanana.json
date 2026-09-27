@@ -88,5 +88,93 @@
     "mandraflora",
     "petalcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Lushy",
+      "Jungly",
+      "Jungle Palm",
+      "Jungle",
+      "Twisty",
+      "Banana",
+      "bananatreeleaf"
+    ],
+    "ground": [
+      {
+        "id": "bananaseed",
+        "name": "香蕉种子(Banana Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "flowerblack",
+        "name": "黑色花种子(Black Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerbrown",
+        "name": "棕色花种子(Brown Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowergreen",
+        "name": "绿色花种子(Green Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowergrey",
+        "name": "灰色花种子(Gray Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorange",
+        "name": "橙色花种子(Orange Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorchid",
+        "name": "黑色兰花种子(Black Orchid)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorchid2",
+        "name": "紫色兰花种子(Purple Orchid)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerorchid3",
+        "name": "蓝色兰花种子(Blue Orchid)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerpink",
+        "name": "粉红色花种子(Pink Flower)",
+        "rate": "6.67%"
+      },
+      {
+        "id": "flowerpurple",
+        "name": "紫色花种子(Purple Flower)",
+        "rate": "6.67%"
+      }
+    ],
+    "more_ground": 4,
+    "planets": [
+      "雨林(Rainforest)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

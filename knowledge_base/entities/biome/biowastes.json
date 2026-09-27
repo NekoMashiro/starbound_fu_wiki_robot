@@ -70,5 +70,41 @@
     "toxiccrabcritter",
     "toxin"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Twisty"
+    ],
+    "ground": [
+      {
+        "id": "garpberryseed",
+        "name": "彭泽浆果种子(Garp Berry Plant)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "toxictopseed",
+        "name": "毒果种子(Toxictop Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "辐射(Irradiated)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

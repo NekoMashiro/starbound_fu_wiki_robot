@@ -76,5 +76,52 @@
     "radioactiveweathernew"
   ],
   "wiki_ref": "Alien.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Alien Striped",
+      "Big",
+      "Circle"
+    ],
+    "ground": [
+      {
+        "id": "dirturchinseed",
+        "name": "泥海胆种子(Dirturchin Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Alien",
+      "Super Dense",
+      "Jungle",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Alien",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

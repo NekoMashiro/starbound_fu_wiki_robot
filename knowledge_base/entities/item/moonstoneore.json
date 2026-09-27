@@ -130,5 +130,43 @@
   ],
   "condensed_on": [
     "moon"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.75,
+        "planets": [
+          "Lunar",
+          "卫星(Desert Moon)",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)",
+          "卫星(Volcanic Moon)",
+          "暗影卫星(Shadow Moon)",
+          "Shadow"
+        ]
+      },
+      {
+        "surface_weight": 0.7,
+        "planets": [
+          "冰冻卫星(Frozen Moon)",
+          "半影(Penumbra)",
+          "冰冻废土(Dark Ice Waste)",
+          "诡之海(Strange Sea)"
+        ]
+      },
+      {
+        "surface_weight": 0.5,
+        "planets": [
+          "气态巨行星(Gas Giant)",
+          "原体巨行星(Proto Giant)",
+          "火焰巨行星(Flame Giant)",
+          "冰霜巨行星(Ice Giant)",
+          "毒性巨行星(Toxic Giant)"
+        ]
+      }
+    ],
+    "unmapped_biomes": 9,
+    "core_or_space_only_planets": 40
+  }
 }

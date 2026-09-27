@@ -56,5 +56,107 @@
     "smallFishOcean1",
     "smallFishOcean2"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "kelp",
+      "kelpy"
+    ],
+    "ground": [
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "kamaranpodsplant",
+        "name": "卡玛兰豆荚种子(Kamaran Pod Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "极地(Dark Arctic)",
+      "冰冻火山(Frozen Volcanic)",
+      "液氮海(Nitrogen Sea)",
+      "雪(Dark Snow)",
+      "冻土(Dark Tundra)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "极地(Dark Arctic)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "液氮海(Nitrogen Sea)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地下深层",
+      "role": "主生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地下深层",
+      "role": "主生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地下深层",
+      "role": "主生态"
+    }
+  ]
 }

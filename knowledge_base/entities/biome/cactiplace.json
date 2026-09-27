@@ -66,5 +66,96 @@
     "voltip",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Baobab",
+      "baobab"
+    ],
+    "ground": [
+      {
+        "id": "blexplantseed",
+        "name": "球状仙人掌种子(Blex Cactus Bulb)",
+        "rate": "25%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "thornplant",
+        "name": "刺果种子(Thorny Plant)",
+        "rate": "25%"
+      },
+      {
+        "id": "varanberryseed",
+        "name": "瓦兰浆果种子(Varan Berry Bush)",
+        "rate": "25%"
+      }
+    ],
+    "planets": [
+      "原始森林(Primeval Forest)",
+      "火山原始森林(Volcanic Primeval)",
+      "黑暗原始森林(Dark Primeval)",
+      "沼泽(Bog)",
+      "Desert",
+      "红色废土(Red Desert)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗原始森林(Dark Primeval)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "沼泽(Bog)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "真菌(Fungal)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

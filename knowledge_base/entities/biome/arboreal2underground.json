@@ -99,5 +99,59 @@
     "snailcritter",
     "tortoisecritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "20%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "20%"
+      },
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "talonseedseed",
+        "name": "鹰爪芽种子(Talon Seed)",
+        "rate": "20%"
+      }
+    ],
+    "planets": [
+      "火山原始森林(Volcanic Primeval)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "火山原始森林(Volcanic Primeval)",
+      "where": "地下深层",
+      "role": "主生态"
+    }
+  ]
 }

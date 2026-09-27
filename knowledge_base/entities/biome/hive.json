@@ -53,5 +53,130 @@
     "swarmcritter",
     "swarmflyingcritter"
   ],
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "怪异森林(Eldritch Forest)",
+        "where": "地面",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "怪异旷野(Eldritch Field)",
+        "where": "地面",
+        "planets": [
+          "以太世界(Aether World)",
+          "Alien",
+          "原始森林(Primeval Forest)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "远古地核(Elder Core)",
+        "where": "地面",
+        "planets": [
+          "黑暗肉源(Nightmare Atropus)",
+          "诡之海(Strange Sea)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "远古洞穴(Elder Caverns)",
+        "where": "地面",
+        "planets": [
+          "以太世界(Aether World)",
+          "以太(Aetheric)",
+          "无光星球(Lightless)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "外星丛林(Alien Jungle)",
+        "where": "地面"
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Hive",
+        "where": "地面",
+        "planets": [
+          "Midnight",
+          "Shadow",
+          "血石(Bloodstone)"
+        ]
+      }
+    ],
+    "more_places": 2
+  },
+  "plants": {
+    "trees": [
+      "hive"
+    ],
+    "planets": [
+      "Midnight",
+      "Shadow",
+      "血石(Bloodstone)",
+      "无光星球(Lightless)",
+      "Scorched",
+      "硫酸(Dark Sulphur)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Midnight",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "无光星球(Lightless)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Scorched",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Dark Sulphur)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "焦油(Tar Ball)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Volcanic",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

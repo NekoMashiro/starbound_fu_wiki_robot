@@ -134,5 +134,54 @@
   ],
   "crushed_from": [
     "geode"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 1.4,
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "surface_weight": 0.95,
+        "planets": [
+          "废土(Wasteland)"
+        ]
+      },
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "surface_weight": 0.8,
+        "planets": [
+          "硫酸(Sulphuric)",
+          "硫酸(Dark Sulphur)"
+        ]
+      },
+      {
+        "surface_weight": 0.75,
+        "planets": [
+          "Super Dense"
+        ]
+      },
+      {
+        "surface_weight": 0.71,
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "无人区(Tabula Rasa)",
+          "伊甸(Eden)"
+        ]
+      }
+    ],
+    "more_ore_bands": 3,
+    "unmapped_biomes": 1,
+    "core_or_space_only_planets": 54
+  }
 }

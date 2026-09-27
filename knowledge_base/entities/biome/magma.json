@@ -76,5 +76,69 @@
     "ffbiomeheat3"
   ],
   "wiki_ref": "Magma.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Ash",
+      "Coal",
+      "Magma"
+    ],
+    "ground": [
+      {
+        "id": "chiliseed",
+        "name": "辣椒种子(Chilli Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Lava",
+      "半影(Penumbra)",
+      "原毒世界(Proto World)",
+      "原毒世界(Shadow Proto World)",
+      "凝胶(Gelatinous)",
+      "硫酸(Sulphuric)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Lava",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Sulphuric)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Dark Sulphur)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "焦油(Tar Ball)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

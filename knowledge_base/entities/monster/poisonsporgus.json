@@ -9,5 +9,41 @@
   "level": 1,
   "drop_pool_default": "sporgusTreasure",
   "drop_pool_hunting": "sporgusHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "真菌(Fungal)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "9.1%",
+        "planets": [
+          "真菌(Fungal)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "Mushroom Patch",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "planets": [
+          "Forest",
+          "Jungle",
+          "Alien"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "Mushrooms",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "planets": [
+          "Alien",
+          "Arctic",
+          "Desert"
+        ]
+      }
+    ]
+  }
 }

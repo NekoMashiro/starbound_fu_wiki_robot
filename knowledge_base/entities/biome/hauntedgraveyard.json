@@ -64,5 +64,108 @@
     "webber",
     "wisper"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Old",
+      "Barren",
+      "Skeletal",
+      "Stripe",
+      "Weird",
+      "Willow",
+      "Edelwood",
+      "edelwoodleaves"
+    ],
+    "ground": [
+      {
+        "id": "futombstone",
+        "name": "坟墓(Grave)",
+        "rate": "100%"
+      },
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "biscornseed",
+        "name": "双子玉米种子(Biscorn Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "bloodrootseed",
+        "name": "血之根茎种子(Blood Root Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "carrotseed",
+        "name": "胡萝卜种子(Carrot Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "ginsengseed",
+        "name": "心之根茎种子(Heartroot Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "greenleafseed",
+        "name": "绿叶草种子(Greenleaf Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "leafshellseed",
+        "name": "叶壳花种子(Leafshell Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "miraclegrassseed",
+        "name": "奇迹草种子(Miracle Grass)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "mutaviskseed",
+        "name": "飞螳种子(Mutavisk)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "potatoseed",
+        "name": "土豆种子(Potato Seed)",
+        "rate": "7.69%"
+      },
+      {
+        "id": "talonseedseed",
+        "name": "鹰爪芽种子(Talon Seed)",
+        "rate": "7.69%"
+      }
+    ],
+    "more_ground": 2,
+    "planets": [
+      "Forest",
+      "半影(Penumbra)",
+      "Savannah",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

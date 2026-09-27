@@ -9,5 +9,64 @@
   "level": 1,
   "drop_pool_default": "paraspriteTreasure",
   "drop_pool_hunting": "paraspriteHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "无光星球(Lightless)",
+        "where": "怪物刷新",
+        "rate": "30.12%",
+        "note": "night only",
+        "planets": [
+          "无光星球(Lightless)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "暗影卫星(Shadow Moon)",
+        "where": "怪物刷新",
+        "rate": "27.27%",
+        "note": "night only",
+        "planets": [
+          "暗影卫星(Shadow Moon)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "焦油(Tar Ball)",
+        "where": "怪物刷新",
+        "rate": "24.47%",
+        "note": "night only",
+        "planets": [
+          "焦油(Tar Ball)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "生物废料区(Biowaste Zone)",
+        "where": "怪物刷新",
+        "rate": "21.83%",
+        "note": "night only",
+        "planets": [
+          "辐射(Irradiated)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "辐射(Irradiated)",
+        "where": "怪物刷新",
+        "rate": "20.71%",
+        "note": "night only",
+        "planets": [
+          "辐射(Irradiated)",
+          "多彩(Chromatic)",
+          "无光星球(Lightless)"
+        ]
+      }
+    ]
+  }
 }

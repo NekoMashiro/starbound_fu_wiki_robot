@@ -92,5 +92,98 @@
       ]
     ]
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Au. Birch",
+      "Au. Cocoa",
+      "Au. Flesh",
+      "Au. Grump",
+      "Au. Pine",
+      "Au. Root",
+      "Au. Slime",
+      "Au. Something",
+      "Au. Spiked",
+      "Au. Twisted",
+      "Au. Wood",
+      "Frumpy",
+      "Greenleaves",
+      "Leafy",
+      "Redleaves",
+      "Scraggy"
+    ],
+    "ground": [
+      {
+        "id": "carrotseed",
+        "name": "胡萝卜种子(Carrot Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "wheatseed",
+        "name": "小麦种子(Wheat Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "cottonseed",
+        "name": "棉花种子(Cotton Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "hopsseed",
+        "name": "啤酒花种子(Hops Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "onionseed",
+        "name": "胶洋葱种子(Gurn Onion Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "flowerblack",
+        "name": "黑色花种子(Black Flower)",
+        "rate": "7.14%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "7.14%"
+      },
+      {
+        "id": "flowerbrown",
+        "name": "棕色花种子(Brown Flower)",
+        "rate": "7.14%"
+      },
+      {
+        "id": "flowergreen",
+        "name": "绿色花种子(Green Flower)",
+        "rate": "7.14%"
+      },
+      {
+        "id": "flowerorange",
+        "name": "橙色花种子(Orange Flower)",
+        "rate": "7.14%"
+      }
+    ],
+    "more_ground": 9,
+    "planets": [
+      "Forest"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

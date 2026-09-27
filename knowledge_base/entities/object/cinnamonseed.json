@@ -52,5 +52,51 @@
   "extracts_into": [
     "fu_nitrogen",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "Savannah",
+        "where": "地表",
+        "rate": "33.33%",
+        "planets": [
+          "Savannah",
+          "Alien",
+          "原始森林(Primeval Forest)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Lush",
+        "where": "地表",
+        "rate": "20.59%",
+        "planets": [
+          "Garden",
+          "Forest",
+          "Jungle"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Jungle",
+        "where": "地表",
+        "rate": "9.09%",
+        "planets": [
+          "Jungle",
+          "Alien",
+          "原始森林(Primeval Forest)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "雨林(Rainforest)",
+        "where": "地表",
+        "rate": "8.05%",
+        "planets": [
+          "雨林(Rainforest)"
+        ]
+      }
+    ]
+  }
 }

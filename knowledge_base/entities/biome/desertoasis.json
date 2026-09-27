@@ -53,5 +53,80 @@
     "squeekcritter",
     "toumingo"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Bark",
+      "Beach",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves",
+      "Alien P."
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "100%"
+      },
+      {
+        "id": "blexplantseed",
+        "name": "球状仙人掌种子(Blex Cactus Bulb)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "Desert",
+      "红色废土(Red Desert)",
+      "红色废土(Dark Red Desert)",
+      "诡之海(Strange Sea)",
+      "Super Dense"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

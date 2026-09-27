@@ -324,5 +324,106 @@
   ],
   "condensed_on": [
     "moon"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "可破坏物掉落",
+        "biome": "Arctic",
+        "where": "地表",
+        "planets": [
+          "Arctic",
+          "液氮海(Nitrogen Sea)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "极地(Dark Arctic)",
+        "where": "地表",
+        "planets": [
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "冰冻苔原(Frozen Taiga)",
+        "where": "地表",
+        "planets": [
+          "Tundra"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "魔法雪地(Magic Snow Land)",
+        "where": "地表",
+        "planets": [
+          "液氮海(Nitrogen Sea)",
+          "Snowy",
+          "诡之海(Strange Sea)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "Snowy",
+        "where": "地表",
+        "planets": [
+          "Snowy",
+          "原始森林(Primeval Forest)",
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "雪(Dark Snow)",
+        "where": "地表",
+        "planets": [
+          "雪(Dark Snow)",
+          "Shadow"
+        ]
+      }
+    ],
+    "more_places": 5,
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 1.0,
+        "planets": [
+          "Alien",
+          "Forest",
+          "Garden",
+          "Jungle",
+          "Midnight",
+          "Savannah",
+          "Scorched",
+          "Snowy",
+          "Tundra",
+          "Volcanic"
+        ]
+      },
+      {
+        "surface_weight": 0.95,
+        "planets": [
+          "雨林(Rainforest)"
+        ]
+      },
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "Arctic",
+          "Desert",
+          "Lava",
+          "Oceanic",
+          "多岩潮汐(Tidewater)",
+          "Toxic",
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "血石(Bloodstone)"
+        ],
+        "more": 27
+      }
+    ],
+    "unmapped_biomes": 117,
+    "core_or_space_only_planets": 19
+  }
 }

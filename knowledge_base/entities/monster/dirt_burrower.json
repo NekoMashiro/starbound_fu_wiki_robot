@@ -7,5 +7,29 @@
   "description_en": "A camoflauged worm burrowing through the earth",
   "description_zh": "一只在地里钻来钻去的拟态蠕虫",
   "level": 1,
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "山脉洞穴(Mountain Caverns)",
+        "where": "怪物刷新",
+        "rate": "41.23%",
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "辐射洞穴(Irradiated Cavern)",
+        "where": "怪物刷新",
+        "rate": "35.81%",
+        "planets": [
+          "辐射(Irradiated)",
+          "原毒世界(Proto World)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      }
+    ]
+  }
 }

@@ -76,5 +76,84 @@
     "pyropod",
     "smoglin"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "hellfireplantseed",
+        "name": "地狱火藤蔓种子(Hellfire Plant Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "ignuschiliseed",
+        "name": "伊格纳斯辣椒种子(Ignus Chili Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "plasmangoseed",
+        "name": "等离子芒果种子(Plasmango Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "红色废土(Red Desert)",
+      "红色废土(Dark Red Desert)",
+      "冰冻火山(Frozen Volcanic)",
+      "雪(Dark Snow)",
+      "诡之海(Strange Sea)",
+      "硫酸(Sulphuric)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Sulphuric)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Dark Sulphur)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Volcanic",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

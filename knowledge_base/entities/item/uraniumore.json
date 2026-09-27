@@ -230,5 +230,58 @@
     "irradiated",
     "chromatic",
     "toxic"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 1.0,
+        "planets": [
+          "多彩(Chromatic)"
+        ]
+      },
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "以太(Aetheric)",
+          "辐射(Irradiated)"
+        ]
+      },
+      {
+        "surface_weight": 0.71,
+        "planets": [
+          "凝胶(Gelatinous)"
+        ]
+      },
+      {
+        "surface_weight": 0.62,
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "肉源(Atropus)",
+          "黑暗肉源(Nightmare Atropus)",
+          "Shadow",
+          "无人区(Tabula Rasa)",
+          "雨林(Rainforest)",
+          "伊甸(Eden)"
+        ]
+      },
+      {
+        "surface_weight": 0.6,
+        "planets": [
+          "血石(Bloodstone)"
+        ]
+      },
+      {
+        "surface_weight": 0.5,
+        "planets": [
+          "沼泽(Bog)"
+        ]
+      }
+    ],
+    "more_ore_bands": 4,
+    "unmapped_biomes": 9,
+    "core_or_space_only_planets": 46
+  }
 }

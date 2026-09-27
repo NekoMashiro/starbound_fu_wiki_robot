@@ -86,5 +86,64 @@
     "savybirdcritter",
     "snaggler"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "cellpodsplant",
+        "name": "细胞豆荚种子(Cellpod Seed)",
+        "rate": "17.54%"
+      },
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "17.54%"
+      },
+      {
+        "id": "gemglowseed",
+        "name": "宝石果种子(Gemglow Seed)",
+        "rate": "17.54%"
+      },
+      {
+        "id": "piruseed",
+        "name": "piruseed",
+        "rate": "17.54%"
+      },
+      {
+        "id": "nakatiseed",
+        "name": "nakatiseed",
+        "rate": "12.28%"
+      },
+      {
+        "id": "kamaranpodsplant",
+        "name": "卡玛兰豆荚种子(Kamaran Pod Seed)",
+        "rate": "8.77%"
+      }
+    ],
+    "planets": [
+      "多岩潮汐(Tidewater)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地下深层",
+      "role": "主生态"
+    }
+  ]
 }

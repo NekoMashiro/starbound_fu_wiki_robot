@@ -96,5 +96,49 @@
     "snakecritter",
     "tinycrocodilecritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Weeping",
+      "Dead",
+      "Moss"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "20%"
+      },
+      {
+        "id": "bloodrootseed",
+        "name": "血之根茎种子(Blood Root Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "ginsengseed",
+        "name": "心之根茎种子(Heartroot Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "wartweedseed",
+        "name": "瓦特果种子(Wartweed Seed)",
+        "rate": "20%"
+      }
+    ],
+    "planets": [
+      "沼泽(Bog)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "沼泽(Bog)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

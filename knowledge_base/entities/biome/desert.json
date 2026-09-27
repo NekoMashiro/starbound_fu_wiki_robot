@@ -123,5 +123,121 @@
       "tritium",
       "volatilepowder"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Bark",
+      "Beach",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves",
+      "Alien P."
+    ],
+    "ground": [
+      {
+        "id": "beakseedseed",
+        "name": "鸟喙果种子(Beakseed Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "bolbohnseed",
+        "name": "波庞薯种子(Bolbohn Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "dunestalkseed",
+        "name": "沙语草种子(Dunestalk Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Desert",
+      "Super Dense",
+      "Midnight",
+      "半影(Penumbra)",
+      "原毒世界(Proto World)",
+      "原毒世界(Shadow Proto World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Midnight",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Volcanic",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -87,5 +87,62 @@
       "tritium",
       "aliencompound"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Geometric",
+      "Ice Sphere",
+      "geometricfoliage",
+      "icespherefoliage",
+      "purewhite",
+      "purewhitey"
+    ],
+    "ground": [
+      {
+        "id": "fusnowberryseed",
+        "name": "雪浆果种子(Snowberry Seed)",
+        "rate": "50%"
+      },
+      {
+        "id": "pekkitseed",
+        "name": "霜草种子(Pekkit Seed)",
+        "rate": "50%"
+      },
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "20%"
+      },
+      {
+        "id": "blizzberryseed",
+        "name": "暴风雪浆果种子(Blizzberry Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "mireurchinseed",
+        "name": "沼泽海胆种子(Mireurchin Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "20%"
+      }
+    ],
+    "planets": [
+      "液氮海(Nitrogen Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "液氮海(Nitrogen Sea)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

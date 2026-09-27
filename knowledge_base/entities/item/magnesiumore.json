@@ -291,5 +291,68 @@
   "sifted_from": [
     "clay",
     "gravelmaterial"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)",
+          "肉源(Atropus)",
+          "黑暗肉源(Nightmare Atropus)",
+          "Shadow",
+          "无人区(Tabula Rasa)",
+          "硫酸(Sulphuric)",
+          "硫酸(Dark Sulphur)",
+          "硫酸(Sulphuric Sea)"
+        ],
+        "more": 2
+      },
+      {
+        "surface_weight": 0.85,
+        "planets": [
+          "金属卫星(Cyber Sphere)"
+        ]
+      },
+      {
+        "surface_weight": 0.8,
+        "planets": [
+          "血石(Bloodstone)",
+          "无光星球(Lightless)",
+          "原毒世界(Proto World)",
+          "原毒世界(Shadow Proto World)",
+          "焦油(Tar Ball)",
+          "雨林(Rainforest)"
+        ]
+      },
+      {
+        "surface_weight": 0.75,
+        "planets": [
+          "沼泽(Bog)",
+          "凝胶(Gelatinous)",
+          "真菌(Fungal)"
+        ]
+      },
+      {
+        "surface_weight": 0.7,
+        "planets": [
+          "辐射(Irradiated)",
+          "冰冻卫星(Frozen Moon)",
+          "冰冻废土(Ice Waste)"
+        ]
+      },
+      {
+        "surface_weight": 0.66,
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      }
+    ],
+    "more_ore_bands": 4,
+    "unmapped_biomes": 35,
+    "core_or_space_only_planets": 13
+  }
 }

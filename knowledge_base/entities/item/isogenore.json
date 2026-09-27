@@ -61,5 +61,28 @@
   ],
   "condensed_on": [
     "icewaste"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.85,
+        "planets": [
+          "极地(Dark Arctic)",
+          "冰冻火山(Frozen Volcanic)",
+          "冰冻废土(Ice Waste)",
+          "冰冻废土(Dark Ice Waste)",
+          "雪(Dark Snow)",
+          "冻土(Dark Tundra)"
+        ]
+      },
+      {
+        "surface_weight": 0.25,
+        "planets": [
+          "Super Dense"
+        ]
+      }
+    ],
+    "unmapped_biomes": 1
+  }
 }

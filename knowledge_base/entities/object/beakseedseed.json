@@ -65,5 +65,31 @@
   "extracts_into": [
     "livingroot",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "云朵森林(Cloud Forest)",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "水晶世界(Crystalline)",
+          "伊甸(Eden)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Desert",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "Desert",
+          "Super Dense",
+          "Midnight"
+        ]
+      }
+    ]
+  }
 }

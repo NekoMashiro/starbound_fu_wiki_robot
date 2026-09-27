@@ -70,5 +70,131 @@
     "slime",
     "toxiccrabcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "toxiccoral",
+      "Sharp Grass"
+    ],
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "blisterbushplantseed",
+        "name": "泡荚种子(Blister Pod)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "erithianalgaeseed",
+        "name": "埃里西安藻豆荚种子(Erithian Algae Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "pasakavineseed",
+        "name": "帕斯卡果种子(Pasaka Vine)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "vextongueseed",
+        "name": "凸舌蕊种子(Vextongue Seed)",
+        "rate": "14.29%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "dragonsbeardseed",
+        "name": "龙须草种子(Dragonsbeard)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "11.11%"
+      },
+      {
+        "id": "garpberryseed",
+        "name": "彭泽浆果种子(Garp Berry Plant)",
+        "rate": "11.11%"
+      }
+    ],
+    "more_ground": 5,
+    "planets": [
+      "辐射(Irradiated)",
+      "原毒世界(Proto World)",
+      "原毒世界(Shadow Proto World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "辐射(Irradiated)",
+      "where": "地下深层",
+      "role": "主生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地下深层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地下深层",
+      "role": "次级生态"
+    }
+  ]
 }

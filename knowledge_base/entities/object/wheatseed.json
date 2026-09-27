@@ -203,5 +203,40 @@
   "extracts_into": [
     "plantfibre",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "秋日森林(Autumn Forest)",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "Forest"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "麦田(Wheat Field)",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "伊甸(Eden)",
+          "Forest"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "Lush",
+        "where": "地表",
+        "rate": "100%",
+        "planets": [
+          "Garden",
+          "Forest",
+          "Jungle"
+        ]
+      }
+    ]
+  }
 }

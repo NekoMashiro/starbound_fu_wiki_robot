@@ -51,5 +51,109 @@
     "pulpin",
     "wisper"
   ],
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "Arctic",
+        "where": "地面",
+        "planets": [
+          "Arctic",
+          "液氮海(Nitrogen Sea)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "极地(Dark Arctic)",
+        "where": "地面",
+        "planets": [
+          "极地(Dark Arctic)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "Arctic Ocean Floor",
+        "where": "地面",
+        "planets": [
+          "Arctic"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "冰封洞穴(Frost Cavern)",
+        "where": "地面",
+        "planets": [
+          "极地(Dark Arctic)",
+          "多彩(Chromatic)",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "冰冻火山(Frozen Volcanic)",
+        "where": "地表",
+        "planets": [
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "冰冻火山洞穴(Frozen Volcanic Cavern)",
+        "where": "地下"
+      }
+    ],
+    "more_places": 31
+  },
+  "plants": {
+    "trees": [
+      "Geometric",
+      "geometricfoliage"
+    ],
+    "planets": [
+      "冰冻火山(Frozen Volcanic)",
+      "冰冻卫星(Frozen Moon)",
+      "冰冻废土(Ice Waste)",
+      "冰冻废土(Dark Ice Waste)",
+      "雪(Dark Snow)",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻卫星(Frozen Moon)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Dark Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

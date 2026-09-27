@@ -74,5 +74,40 @@
   "entry_completeness": "S",
   "extracts_into": [
     "cobblestonematerial"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "焦油(Tar Ball)",
+        "where": "地下",
+        "rate": "20%",
+        "planets": [
+          "焦油(Tar Ball)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Infernus)",
+        "where": "地表",
+        "rate": "10%",
+        "planets": [
+          "炼狱(Infernus)",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "炼狱(Dark Infernus)",
+        "where": "地表",
+        "rate": "10%",
+        "planets": [
+          "炼狱(Dark Infernus)",
+          "Shadow"
+        ]
+      }
+    ]
+  }
 }

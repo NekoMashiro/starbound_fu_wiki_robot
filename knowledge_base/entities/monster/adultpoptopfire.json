@@ -8,5 +8,75 @@
   "description_zh": "我不建议把它们收为宠物，太致命了。",
   "level": 1,
   "drop_pool_default": "ashgolemLoot",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "炼狱(Infernus)",
+        "where": "怪物刷新",
+        "rate": "28.57%",
+        "planets": [
+          "炼狱(Infernus)",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "焦油坑(Tar Pit)",
+        "where": "怪物刷新",
+        "rate": "25%",
+        "planets": [
+          "焦油(Tar Ball)",
+          "以太世界(Aether World)",
+          "以太(Aetheric)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "污泥场(Sludge Field)",
+        "where": "怪物刷新",
+        "rate": "25%",
+        "planets": [
+          "卫星(Desert Moon)",
+          "卫星(Rocky Moon)",
+          "卫星(Toxic Moon)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "火山洞穴(Volcanic Caves)",
+        "where": "怪物刷新",
+        "rate": "25%",
+        "planets": [
+          "以太世界(Aether World)",
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "地狱火花园(Hellfire Field)",
+        "where": "怪物刷新",
+        "rate": "25%",
+        "planets": [
+          "红色废土(Red Desert)",
+          "红色废土(Dark Red Desert)",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "炼狱(Dark Infernus)",
+        "where": "怪物刷新",
+        "rate": "21.43%",
+        "planets": [
+          "炼狱(Dark Infernus)",
+          "Shadow"
+        ]
+      }
+    ],
+    "more_places": 1
+  }
 }

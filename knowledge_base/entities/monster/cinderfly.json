@@ -12,5 +12,28 @@
     "scorched",
     "scorchedcity"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "Scorched Wasteland",
+        "where": "怪物刷新",
+        "rate": "30%",
+        "note": "peaceful"
+      },
+      {
+        "kind": "怪物",
+        "biome": "Scorched",
+        "where": "怪物刷新",
+        "rate": "30%",
+        "note": "peaceful",
+        "planets": [
+          "Scorched",
+          "Super Dense",
+          "冰冻火山(Frozen Volcanic)"
+        ]
+      }
+    ]
+  }
 }

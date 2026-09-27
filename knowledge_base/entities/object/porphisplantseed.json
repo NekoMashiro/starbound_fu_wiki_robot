@@ -68,5 +68,51 @@
   "extracts_into": [
     "plantfibre",
     "phosphorus"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "场景物体",
+        "biome": "焦油(Tar Ball)",
+        "where": "地下",
+        "rate": "20%",
+        "planets": [
+          "焦油(Tar Ball)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "焦油(Tar Ball)",
+        "where": "地表",
+        "rate": "16.67%",
+        "planets": [
+          "焦油(Tar Ball)",
+          "Shadow"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "辐射(Irradiated)",
+        "where": "地表",
+        "rate": "11.11%",
+        "planets": [
+          "辐射(Irradiated)",
+          "多彩(Chromatic)",
+          "无光星球(Lightless)"
+        ]
+      },
+      {
+        "kind": "场景物体",
+        "biome": "辐射洞穴(Irradiated Cavern)",
+        "where": "地下",
+        "rate": "11.11%",
+        "planets": [
+          "辐射(Irradiated)",
+          "原毒世界(Proto World)",
+          "原毒世界(Shadow Proto World)"
+        ]
+      }
+    ]
+  }
 }

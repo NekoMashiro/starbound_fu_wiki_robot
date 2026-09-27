@@ -160,5 +160,99 @@
       "deuterium",
       "tritium"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Weeping",
+      "Leaf",
+      "magictree",
+      "Cocoa",
+      "Fleshy",
+      "Wood",
+      "Root",
+      "Something",
+      "Grump",
+      "Frump",
+      "Hang",
+      "Lush",
+      "Redleaves",
+      "Scrag",
+      "Dead",
+      "Leaves"
+    ],
+    "more_trees": 4,
+    "ground": [
+      {
+        "id": "reedseed",
+        "name": "芦苇种子(Reeds)",
+        "rate": "100%"
+      },
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "18.97%"
+      },
+      {
+        "id": "bloodrootseed",
+        "name": "血之根茎种子(Blood Root Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "ginsengseed",
+        "name": "心之根茎种子(Heartroot Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "minkocoapodseed",
+        "name": "可可荚种子(Minkocoa Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "pussplumseed",
+        "name": "圣女果种子(Pussplum Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "wartweedseed",
+        "name": "瓦特果种子(Wartweed Seed)",
+        "rate": "12.07%"
+      },
+      {
+        "id": "flowerblack",
+        "name": "黑色花种子(Black Flower)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "flowerblue",
+        "name": "蓝色花朵(Blue Flower)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "flowerbrown",
+        "name": "棕色花种子(Brown Flower)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "flowergrey",
+        "name": "灰色花种子(Gray Flower)",
+        "rate": "9.09%"
+      }
+    ],
+    "more_ground": 8,
+    "planets": [
+      "沼泽(Bog)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "沼泽(Bog)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

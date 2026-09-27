@@ -59,5 +59,77 @@
     "smallFishOcean2",
     "squidcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Leaf",
+      "kelp",
+      "kelpy",
+      "seaweed",
+      "flowy",
+      "wavy"
+    ],
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "14.49%"
+      },
+      {
+        "id": "fuspongeweedseed",
+        "name": "海绵草种子(Spongeweed Clump)",
+        "rate": "14.49%"
+      },
+      {
+        "id": "goldenseaspongeplant",
+        "name": "金色海苔种子(Golden Sea Sponge Seed)",
+        "rate": "14.49%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "14.49%"
+      },
+      {
+        "id": "cellpodsplant",
+        "name": "细胞豆荚种子(Cellpod Seed)",
+        "rate": "13.89%"
+      },
+      {
+        "id": "nakatiseed",
+        "name": "nakatiseed",
+        "rate": "10.14%"
+      },
+      {
+        "id": "phasefruitseed",
+        "name": "相位果种子(Phasefruit Seeds)",
+        "rate": "10.14%"
+      },
+      {
+        "id": "aquapodseed",
+        "name": "水荚种子(Aquapod Bud)",
+        "rate": "7.25%"
+      },
+      {
+        "id": "kamaranpodsplant",
+        "name": "卡玛兰豆荚种子(Kamaran Pod Seed)",
+        "rate": "7.25%"
+      }
+    ],
+    "planets": [
+      "多岩潮汐(Tidewater)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地表下层",
+      "role": "主生态"
+    }
+  ]
 }

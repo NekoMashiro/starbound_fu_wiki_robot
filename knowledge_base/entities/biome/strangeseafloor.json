@@ -66,5 +66,70 @@
       ]
     ]
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Blood",
+      "Kelp",
+      "Bubble",
+      "Leaf",
+      "kelp",
+      "kelpy",
+      "seaweed",
+      "flowy",
+      "wavy"
+    ],
+    "ground": [
+      {
+        "id": "cellpodsplant",
+        "name": "细胞豆荚种子(Cellpod Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "kamaranpodsplant",
+        "name": "卡玛兰豆荚种子(Kamaran Pod Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "feyaseed",
+        "name": "菲亚水晶种子(Feya Crystal Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "nakatiseed",
+        "name": "nakatiseed",
+        "rate": "10%"
+      },
+      {
+        "id": "rasilineseed",
+        "name": "罗莎琳水晶(Rasiline Crystal Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "10%"
+      },
+      {
+        "id": "tokaniteseed",
+        "name": "托卡尼特水晶种子(Tokanite Crystal Seed)",
+        "rate": "10%"
+      }
+    ],
+    "planets": [
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表下层",
+      "role": "主生态"
+    }
+  ]
 }

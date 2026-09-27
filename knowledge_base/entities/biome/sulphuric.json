@@ -116,5 +116,50 @@
       "neptuniumore",
       "fu_oxygen"
     ]
-  }
+  },
+  "plants": {
+    "ground": [
+      {
+        "id": "whitespine",
+        "name": "白棘壳种子(Whitespine)",
+        "rate": "30%"
+      },
+      {
+        "id": "apaliteseed",
+        "name": "磷灰石水晶种子(Apalite Crystal Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "duskilineseed",
+        "name": "薄暮水晶种子(Duskiline Crystal Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "20%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "10%"
+      }
+    ],
+    "planets": [
+      "硫酸(Sulphuric)",
+      "Super Dense"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "硫酸(Sulphuric)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

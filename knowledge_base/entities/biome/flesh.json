@@ -52,5 +52,44 @@
     "maggotcritter",
     "vulturecritter"
   ],
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "fleshstem",
+      "fleshfoliage"
+    ],
+    "planets": [
+      "Alien",
+      "Super Dense",
+      "Jungle",
+      "诡之海(Strange Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Alien",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

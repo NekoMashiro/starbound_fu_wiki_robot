@@ -9,5 +9,21 @@
   "level": 1,
   "drop_pool_default": "generatedGroundMonsterTreasure",
   "drop_pool_hunting": "hunting",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "牧场(Meadow)",
+        "where": "怪物刷新",
+        "rate": "42.86%",
+        "note": "night only",
+        "planets": [
+          "Forest",
+          "Garden",
+          "Jungle"
+        ]
+      }
+    ]
+  }
 }

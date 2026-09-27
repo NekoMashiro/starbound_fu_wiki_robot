@@ -9,5 +9,32 @@
   "level": 1,
   "drop_pool_default": "trictusTreasure",
   "drop_pool_hunting": "trictusHunting",
-  "entry_completeness": "A"
+  "entry_completeness": "A",
+  "found_on": {
+    "places": [
+      {
+        "kind": "怪物",
+        "biome": "罪恶之地(Badlands)",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "group_rate": "50%",
+        "planets": [
+          "Alien",
+          "Desert",
+          "红色废土(Red Desert)"
+        ]
+      },
+      {
+        "kind": "怪物",
+        "biome": "Colourful",
+        "where": "怪物刷新",
+        "rate": "1%",
+        "planets": [
+          "Desert",
+          "Savannah",
+          "Super Dense"
+        ]
+      }
+    ]
+  }
 }

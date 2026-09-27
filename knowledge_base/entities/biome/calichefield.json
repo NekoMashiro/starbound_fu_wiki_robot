@@ -65,5 +65,69 @@
     "voltip",
     "wurmcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "mireurchinseed",
+        "name": "沼泽海胆种子(Mireurchin Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "nissseed",
+        "name": "尼斯花种子(Niss Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "thornplant",
+        "name": "刺果种子(Thorny Plant)",
+        "rate": "25%"
+      }
+    ],
+    "planets": [
+      "Desert",
+      "红色废土(Red Desert)",
+      "红色废土(Dark Red Desert)",
+      "Savannah",
+      "诡之海(Strange Sea)",
+      "Super Dense"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "红色废土(Dark Red Desert)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

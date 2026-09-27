@@ -62,5 +62,90 @@
     "smoglin"
   ],
   "wiki_ref": "Icefire Forest.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Geometric",
+      "Ice Sphere",
+      "geometricfoliage",
+      "icespherefoliage"
+    ],
+    "ground": [
+      {
+        "id": "blizzberryseed",
+        "name": "暴风雪浆果种子(Blizzberry Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "melodistarseed",
+        "name": "旋律星种子(Melodistar Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Alien",
+      "冰冻卫星(Frozen Moon)",
+      "冰冻废土(Ice Waste)",
+      "冰冻废土(Dark Ice Waste)",
+      "半影(Penumbra)",
+      "原毒世界(Proto World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Alien",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻卫星(Frozen Moon)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻废土(Dark Ice Waste)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

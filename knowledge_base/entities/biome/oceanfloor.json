@@ -64,5 +64,52 @@
     "snagglerocean",
     "squidcritter"
   ],
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Leaf",
+      "kelp",
+      "kelpy",
+      "seaweed",
+      "flowy",
+      "wavy"
+    ],
+    "ground": [
+      {
+        "id": "coralcreepseed",
+        "name": "珊瑚果种子(Coralcreep Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "reefpodseed",
+        "name": "礁荚种子(Reefpod Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "feyaseed",
+        "name": "菲亚水晶种子(Feya Crystal Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "oceaniteseed",
+        "name": "大洋石水晶种子(Oceanite Crystal Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Oceanic"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Oceanic",
+      "where": "地表下层",
+      "role": "主生态"
+    }
+  ]
 }

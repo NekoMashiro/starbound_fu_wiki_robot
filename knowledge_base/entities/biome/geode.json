@@ -54,5 +54,239 @@
     "squeem"
   ],
   "wiki_ref": "Geode.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "found_on": {
+    "places": [
+      {
+        "kind": "可破坏物掉落",
+        "biome": "以太结晶沙漠(Aether Crystalline Desert)",
+        "where": "地下",
+        "planets": [
+          "以太世界(Aether World)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "水晶世界(Crystalline)",
+        "where": "地表",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "Super Dense"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "水晶世界(Crystalline)",
+        "where": "地下",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "Super Dense"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "水晶洞穴(Crystal Caverns)",
+        "where": "地下",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "卫星(Desert Moon)",
+          "卫星(Rocky Moon)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "结晶火山(Crystalline Volcanic)",
+        "where": "地表",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "冰冻火山(Frozen Volcanic)",
+          "雪(Dark Snow)"
+        ]
+      },
+      {
+        "kind": "可破坏物掉落",
+        "biome": "结晶火山(Crystalline Volcanic)",
+        "where": "地下",
+        "planets": [
+          "水晶世界(Crystalline)",
+          "冰冻火山(Frozen Volcanic)",
+          "雪(Dark Snow)"
+        ]
+      }
+    ],
+    "more_places": 11
+  },
+  "plants": {
+    "trees": [
+      "Geode",
+      "geodefoliage"
+    ],
+    "ground": [
+      {
+        "id": "neonmelonseed",
+        "name": "霓虹瓜种子(Neonmelon Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "20.97%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "feyaseed",
+        "name": "菲亚水晶种子(Feya Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "mintseed",
+        "name": "星光薄荷种子(Star Mint Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "oceaniteseed",
+        "name": "大洋石水晶种子(Oceanite Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "wubstemseed",
+        "name": "常茎种子(Wubstem Seed)",
+        "rate": "11.29%"
+      }
+    ],
+    "planets": [
+      "Super Dense",
+      "Volcanic",
+      "极地(Dark Arctic)",
+      "水晶世界(Crystalline)",
+      "冰冻火山(Frozen Volcanic)",
+      "炼狱(Infernus)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Volcanic",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "极地(Dark Arctic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "水晶世界(Crystalline)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冰冻火山(Frozen Volcanic)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "炼狱(Infernus)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "炼狱(Dark Infernus)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "岩浆(Dark Magma)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Scorched",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Shadow",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雪(Dark Snow)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Sulphuric)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "硫酸(Dark Sulphur)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "焦油(Tar Ball)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "冻土(Dark Tundra)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

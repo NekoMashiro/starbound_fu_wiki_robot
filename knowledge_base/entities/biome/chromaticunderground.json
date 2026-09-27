@@ -86,5 +86,39 @@
     "tritrotscritter",
     "voltip"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "lumivineseed",
+        "name": "卢蒂海带种子(Lumivine Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "多彩(Chromatic)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "多彩(Chromatic)",
+      "where": "地下深层",
+      "role": "主生态"
+    }
+  ]
 }

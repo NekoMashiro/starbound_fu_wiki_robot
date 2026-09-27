@@ -88,5 +88,117 @@
     ]
   ],
   "wiki_ref": "Savannah.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Spiked",
+      "Bleake",
+      "Murk",
+      "Savah",
+      "Flatte",
+      "Burly"
+    ],
+    "ground": [
+      {
+        "id": "currentcornseed",
+        "name": "液体玉米种子(Currentcorn Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "thornplant",
+        "name": "刺果种子(Thorny Plant)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "cinnamonseed",
+        "name": "肉桂种子(Cinnamon Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "vanusflowerseed",
+        "name": "金星花种子(Vanus Flower Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "Savannah",
+      "Alien",
+      "原始森林(Primeval Forest)",
+      "Desert",
+      "伊甸(Eden)",
+      "Jungle"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Alien",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Desert",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "伊甸(Eden)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "废土(Wasteland)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

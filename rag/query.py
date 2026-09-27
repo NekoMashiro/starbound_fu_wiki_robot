@@ -102,7 +102,11 @@ SYSTEM_PROMPT = PERSONA + """
 - recipes_output: 制作方式（inputs=材料, station=工作台）
 - recipes_input: 作为材料的用途
 - drop_sources: 掉落来源
-- biomes: 生态环境
+- biomes: 物品词条上是矿脉生态 ID 和权重，只是截断后的线索，不能单独用来回答「在哪种星球」。星球词条上的 biomes 是各层生态，见下面
+- found_on: 这个词条自己的生成位置。places.rate 是生成率百分比，group_rate 是该组被抽中的概率。ore_planets.surface_weight 是矿脉权重，不是百分比。more_places / more_ore_bands 表示还有没写完的，不要说成只有这些
+- plants: 生态词条上的植物。trees 是这里生成的树，ground 是地表植物或种子（rate 是生成率）。more_trees / more_ground 表示还有没写完的
+- appears_on: 这个生态会出现在哪些星球。where 是图层，role 是主生态或次级生态。问「某生态出现在什么星球」看这个字段
+- 星球词条的 biomes: 这颗星球每一层的主生态和次级生态。问「某星球有什么生态」看星球词条，不要拿生态词条的 appears_on 反过来凑
 - machine_processing: 机器加工
 - extracted_from / extracts_into: 可萃取获得该物品的原料 ID / 该物品可萃取成的产物 ID（研磨机或物质萃取器；extracted_from 已列全，不要只根据其他词条的 extracts_into 拼凑后说「就这些」）
 - centrifuged_from / sifted_from / crushed_from: 离心机 / 筛粉机 / 碎岩机可产出该物品的原料 ID（概率，不是保底）
@@ -452,7 +456,7 @@ class RAGEngine:
         """旧版加权求和，仅保留每路前 20，供评测对照。"""
         type_weight_map = {
             'item': 1.0, 'object': 1.0, 'monster': 1.0,
-            'biome': 1.0, 'tech': 1.0, 'liquid': 1.0,
+            'biome': 1.0, 'planet': 1.0, 'tech': 1.0, 'liquid': 1.0,
             'wiki': 0.95,
             'statuseffect': 0.85, 'species': 0.85,
             'tenant': 0.8, 'collection': 0.8,
@@ -823,7 +827,7 @@ class RAGEngine:
         if not quiet:
             _step('📝 组装上下文...')
         t1 = time.time()
-        context = self.build_context(search_results)
+        context = self.build_context(search_results) if search_results else '没有其他词条。'
         translation_ref = self._translator.build_translation_context(context)
         ctx_chars = len(context)
         ctx_docs = min(len(search_results), context.count('[参考资料'))

@@ -76,5 +76,24 @@
     "ixolingsulphuric",
     "sulphurtroll"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "whitespine",
+        "name": "白棘壳种子(Whitespine)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "多岩潮汐(Tidewater)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "多岩潮汐(Tidewater)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

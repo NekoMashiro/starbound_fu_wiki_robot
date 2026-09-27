@@ -423,5 +423,65 @@
     "magmarock",
     "jellystone",
     "gabbromaterial"
-  ]
+  ],
+  "found_on": {
+    "ore_weight_note": "分布权重不是生成率百分比；低威胁星球不一定刷得出",
+    "ore_planets": [
+      {
+        "surface_weight": 0.95,
+        "planets": [
+          "沼泽(Bog)",
+          "凝胶(Gelatinous)"
+        ]
+      },
+      {
+        "surface_weight": 0.9,
+        "planets": [
+          "Alien",
+          "Forest",
+          "Garden",
+          "冰冻卫星(Frozen Moon)",
+          "Jungle",
+          "Midnight",
+          "暗影卫星(Shadow Moon)",
+          "Savannah",
+          "Scorched",
+          "Shadow"
+        ],
+        "more": 4
+      },
+      {
+        "surface_weight": 0.8,
+        "planets": [
+          "金属卫星(Cyber Sphere)",
+          "Super Dense"
+        ]
+      },
+      {
+        "surface_weight": 0.75,
+        "planets": [
+          "Desert",
+          "血石(Bloodstone)",
+          "红色废土(Dark Red Desert)",
+          "黑暗原始森林(Dark Primeval)",
+          "红色废土(Red Desert)"
+        ]
+      },
+      {
+        "surface_weight": 0.7,
+        "planets": [
+          "山脉(Mountainous)"
+        ]
+      },
+      {
+        "surface_weight": 0.65,
+        "planets": [
+          "废土(Wasteland)"
+        ]
+      }
+    ],
+    "more_ore_bands": 5,
+    "unmapped_biomes": 67,
+    "core_or_space_only_planets": 25
+  }
 }

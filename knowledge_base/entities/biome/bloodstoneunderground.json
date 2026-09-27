@@ -90,5 +90,122 @@
     "nautileech",
     "squeem"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "blisterbushplantseed",
+        "name": "泡荚种子(Blister Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "pasakavineseed",
+        "name": "帕斯卡果种子(Pasaka Vine)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "slimeplantseed",
+        "name": "泥叶种子(Slime Glob Bush)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "vextongueseed",
+        "name": "凸舌蕊种子(Vextongue Seed)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "血石(Bloodstone)",
+      "肉源(Atropus)",
+      "黑暗肉源(Nightmare Atropus)",
+      "肉源海(Atropus Sea)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地表下层",
+      "role": "主生态"
+    },
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地下浅层",
+      "role": "主生态"
+    },
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地下中层",
+      "role": "主生态"
+    },
+    {
+      "planet": "血石(Bloodstone)",
+      "where": "地下深层",
+      "role": "主生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地表下层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地表下层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源海(Atropus Sea)",
+      "where": "地下浅层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源海(Atropus Sea)",
+      "where": "地下中层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源(Atropus)",
+      "where": "地下深层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "地下深层",
+      "role": "次级生态"
+    },
+    {
+      "planet": "肉源海(Atropus Sea)",
+      "where": "地下深层",
+      "role": "次级生态"
+    }
+  ]
 }

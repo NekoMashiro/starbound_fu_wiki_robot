@@ -71,5 +71,73 @@
     "snowymolecritter",
     "wisper"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Snow Piney",
+      "Snowpine"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "25%"
+      },
+      {
+        "id": "blizzberryseed",
+        "name": "暴风雪浆果种子(Blizzberry Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "ighantseed",
+        "name": "艾恩茎种子(Ighant Seed)",
+        "rate": "25%"
+      },
+      {
+        "id": "talonseedseed",
+        "name": "鹰爪芽种子(Talon Seed)",
+        "rate": "25%"
+      }
+    ],
+    "planets": [
+      "Forest",
+      "Garden",
+      "Snowy",
+      "诡之海(Strange Sea)",
+      "Super Dense",
+      "Tundra"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Garden",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Snowy",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Tundra",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

@@ -70,5 +70,96 @@
     "slimetop",
     "toxiccrabcritter"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Twisty"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "oonfortaseed",
+        "name": "奥弗塔球种子(Oonforta Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "toxictopseed",
+        "name": "毒果种子(Toxictop Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "vashtaplantseed",
+        "name": "骨刺种子(Vashta)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "水晶世界(Crystalline)",
+      "Jungle",
+      "半影(Penumbra)",
+      "原毒世界(Proto World)",
+      "原毒世界(Shadow Proto World)",
+      "Savannah"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "水晶世界(Crystalline)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "半影(Penumbra)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Savannah",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "凝胶(Gelatinous)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

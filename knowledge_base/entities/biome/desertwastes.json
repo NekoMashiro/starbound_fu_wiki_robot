@@ -93,5 +93,66 @@
   "status_effects": [
     "desertweathernewdeadly"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Cactus",
+      "Flowers",
+      "Big Flowers",
+      "Bark",
+      "Beach",
+      "Cross",
+      "Desert P.",
+      "Palmy",
+      "Plain",
+      "Twirl",
+      "Elegant",
+      "Lush",
+      "Palmleaves",
+      "Roseleaves",
+      "Alien P."
+    ],
+    "ground": [
+      {
+        "id": "avikancactusseed",
+        "name": "卡达文仙人掌种子(Kadavan Cactus Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "avikanspiceplantseed",
+        "name": "卡达文香料果种子(Kadavan Spice Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "ignuschiliseed",
+        "name": "伊格纳斯辣椒种子(Ignus Chili Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "quellstem",
+        "name": "奎尔茎芽种子(Quell Stem)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "红色废土(Red Desert)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "红色废土(Red Desert)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

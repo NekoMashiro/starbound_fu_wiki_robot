@@ -106,5 +106,39 @@
       "tritium",
       "fu_carbondioxide"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Aen",
+      "Aetherial",
+      "darkrock"
+    ],
+    "ground": [
+      {
+        "id": "bonebooseed",
+        "name": "骨竹种子(Boneboo Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "pussplumseed",
+        "name": "圣女果种子(Pussplum Seed)",
+        "rate": "33.33%"
+      },
+      {
+        "id": "wartweedseed",
+        "name": "瓦特果种子(Wartweed Seed)",
+        "rate": "33.33%"
+      }
+    ],
+    "planets": [
+      "以太世界(Aether World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "以太世界(Aether World)",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

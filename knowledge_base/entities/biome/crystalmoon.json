@@ -83,5 +83,69 @@
       "aliencompound",
       "fu_carbondioxide"
     ]
-  }
+  },
+  "plants": {
+    "trees": [
+      "Crystal",
+      "Full"
+    ],
+    "ground": [
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "38.24%"
+      },
+      {
+        "id": "jillyrootseed",
+        "name": "吉利根茎种子(Jilly Root Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "mintseed",
+        "name": "星光薄荷种子(Star Mint Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "wubstemseed",
+        "name": "常茎种子(Wubstem Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "emeraseed",
+        "name": "艾莫拉水晶种子(Emera Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "feyaseed",
+        "name": "菲亚水晶种子(Feya Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "oceaniteseed",
+        "name": "大洋石水晶种子(Oceanite Crystal Seed)",
+        "rate": "11.29%"
+      },
+      {
+        "id": "thanatiteseed",
+        "name": "心叶石水晶种子(Thanatite Crystal Seed)",
+        "rate": "11.29%"
+      }
+    ],
+    "planets": [
+      "水晶世界(Crystalline)",
+      "Super Dense"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "水晶世界(Crystalline)",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Super Dense",
+      "where": "地表",
+      "role": "主生态"
+    }
+  ]
 }

@@ -91,5 +91,136 @@
     "radioactiveweathernew"
   ],
   "wiki_ref": "Jungle.md",
-  "entry_completeness": "D"
+  "entry_completeness": "D",
+  "plants": {
+    "trees": [
+      "Crackly",
+      "Oldwood",
+      "Palmy",
+      "Woody",
+      "Lushy",
+      "Jungly",
+      "Jungle Palm",
+      "Jungle",
+      "Twisty"
+    ],
+    "ground": [
+      {
+        "id": "avesmingoseed",
+        "name": "百味果种子(Avesmingo Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "bananaseed",
+        "name": "香蕉种子(Banana Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "cocoaseed",
+        "name": "可可种子(Cocoa Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "coffeeseed",
+        "name": "咖啡种子(Coffee Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "pineappleseed",
+        "name": "菠萝种子(Pineapple Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "sugarcaneseed",
+        "name": "甘蔗种子(Sugarcane Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "brackentreeseed",
+        "name": "蕨树种子(Bracken Tree Seed)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "caprioleplantseed",
+        "name": "跳跃花种子(Capriole Seed)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "cinnamonseed",
+        "name": "肉桂种子(Cinnamon Seed)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "guamseed",
+        "name": "拉德草种子(Rad Grass Seed)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "itaseed",
+        "name": "伊达花种子(Ita Flower Seed)",
+        "rate": "9.09%"
+      },
+      {
+        "id": "littlegoodberryseed",
+        "name": "小浆果种子(Little Good Berry Seed)",
+        "rate": "9.09%"
+      }
+    ],
+    "more_ground": 7,
+    "planets": [
+      "Jungle",
+      "Alien",
+      "原始森林(Primeval Forest)",
+      "沼泽(Bog)",
+      "伊甸(Eden)",
+      "Forest"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "Jungle",
+      "where": "地表",
+      "role": "主生态"
+    },
+    {
+      "planet": "Alien",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "原始森林(Primeval Forest)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "沼泽(Bog)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "伊甸(Eden)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "Forest",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "真菌(Fungal)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "地表",
+      "role": "次级生态"
+    },
+    {
+      "planet": "雨林(Rainforest)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

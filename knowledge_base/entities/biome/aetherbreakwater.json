@@ -61,5 +61,34 @@
     "savybirdcritter",
     "snaggler"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Aen",
+      "Aetherial",
+      "darkrock"
+    ],
+    "ground": [
+      {
+        "id": "feathercrownseed",
+        "name": "羽冠花种子(Feathercrown Seed)",
+        "rate": "100%"
+      },
+      {
+        "id": "riceseed",
+        "name": "大米种子(Rice Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "以太世界(Aether World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "以太世界(Aether World)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

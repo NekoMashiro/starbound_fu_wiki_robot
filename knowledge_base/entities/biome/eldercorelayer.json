@@ -55,5 +55,63 @@
     "wurmcritter"
   ],
   "wiki_ref": "Elder Core.md",
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Energy Orb",
+      "energyorbfoliage",
+      "Edelwood",
+      "edelwoodleaves",
+      "Dark"
+    ],
+    "ground": [
+      {
+        "id": "algaeseed",
+        "name": "藻豆荚种子(Algae Pod)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "deathblossomseed",
+        "name": "死亡蘑菇孢子(Deathblossom)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "oonfortaseed",
+        "name": "奥弗塔球种子(Oonforta Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "toxictopseed",
+        "name": "毒果种子(Toxictop Seed)",
+        "rate": "16.67%"
+      },
+      {
+        "id": "vashtaplantseed",
+        "name": "骨刺种子(Vashta)",
+        "rate": "16.67%"
+      }
+    ],
+    "planets": [
+      "黑暗肉源(Nightmare Atropus)",
+      "诡之海(Strange Sea)",
+      "原毒世界(Shadow Proto World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "黑暗肉源(Nightmare Atropus)",
+      "where": "核心层",
+      "role": "主生态"
+    },
+    {
+      "planet": "诡之海(Strange Sea)",
+      "where": "核心层",
+      "role": "主生态"
+    },
+    {
+      "planet": "原毒世界(Shadow Proto World)",
+      "where": "核心层",
+      "role": "次级生态"
+    }
+  ]
 }

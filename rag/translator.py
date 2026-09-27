@@ -112,7 +112,14 @@ class Translator:
             if len(zh_name) == 1:
                 entries = [e for e in entries if e.get('entity_type') in ('item', 'liquid')]
             prefer = [e for e in entries if e.get('entity_type') in ('item', 'liquid')]
-            chosen = (prefer or entries)[:1]
+            types = {e.get('entity_type') for e in entries}
+            if not prefer and 'planet' in types and 'biome' in types:
+                chosen = [
+                    e for e in entries
+                    if e.get('entity_type') in ('planet', 'biome')
+                ]
+            else:
+                chosen = (prefer or entries)[:1]
             for e in chosen:
                 key = f"{e.get('entity_type')}:{e.get('entity_id')}"
                 if key in seen_ids:

@@ -49,5 +49,45 @@
     "tritrotscritter",
     "voltip"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Crystal",
+      "Full",
+      "solaristem",
+      "solarifoliage"
+    ],
+    "ground": [
+      {
+        "id": "crystalplantseed",
+        "name": "晶体植物种子(Crystal Plant Seed)",
+        "rate": "38.24%"
+      },
+      {
+        "id": "melodistarseed",
+        "name": "旋律星种子(Melodistar Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "pekkitseed",
+        "name": "霜草种子(Pekkit Seed)",
+        "rate": "20.59%"
+      },
+      {
+        "id": "wubstemseed",
+        "name": "常茎种子(Wubstem Seed)",
+        "rate": "20.59%"
+      }
+    ],
+    "planets": [
+      "以太世界(Aether World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "以太世界(Aether World)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

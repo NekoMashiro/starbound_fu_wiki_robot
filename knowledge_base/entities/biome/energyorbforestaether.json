@@ -64,5 +64,28 @@
     "scandroid",
     "swarpion"
   ],
-  "entry_completeness": "C"
+  "entry_completeness": "C",
+  "plants": {
+    "trees": [
+      "Energy Orb",
+      "energyorbfoliage"
+    ],
+    "ground": [
+      {
+        "id": "energiflowerseed",
+        "name": "能量花种子(Energiflower Seed)",
+        "rate": "100%"
+      }
+    ],
+    "planets": [
+      "以太世界(Aether World)"
+    ]
+  },
+  "appears_on": [
+    {
+      "planet": "以太世界(Aether World)",
+      "where": "地表",
+      "role": "次级生态"
+    }
+  ]
 }

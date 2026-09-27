@@ -48,5 +48,39 @@
     "vialproto",
     "aliencompound",
     "deuterium"
-  ]
+  ],
+  "found_on": {
+    "places": [
+      {
+        "kind": "地面方块",
+        "biome": "Alien",
+        "where": "地面",
+        "planets": [
+          "Alien",
+          "Super Dense",
+          "Jungle"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "外星森林(Alien Forest)",
+        "where": "地面",
+        "planets": [
+          "Alien",
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)"
+        ]
+      },
+      {
+        "kind": "地面方块",
+        "biome": "怪异森林(Eldritch Forest)",
+        "where": "地面",
+        "planets": [
+          "原始森林(Primeval Forest)",
+          "火山原始森林(Volcanic Primeval)",
+          "黑暗原始森林(Dark Primeval)"
+        ]
+      }
+    ]
+  }
 }
