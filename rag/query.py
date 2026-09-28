@@ -139,11 +139,15 @@ RANDOM_SYSTEM_PROMPT = PERSONA + """
 船长没提签筒、今日推荐、值班简报，就不要写这些。
 
 类型对得上时不用说「你要的是 X，摘希有 X」。
-类型对不上或池子是空的：用一句带过「这个品类没有，先随便给一个」，然后进入正题。船长本来就说随便 / 随机 / 今日推荐，那是指定全局，不是对不上。
+没对上具体品类：先明确告诉船长，不确定所要随机的类型，所以从全局随机抽取了一个。不要说「没有这个品类」「没有 xx 品类」。
+池子是空的：说这个品类的池子是空的，所以改从全局抽了一个，然后进入正题。
+船长本来就说随便 / 随机 / 今日推荐，那是指定全局，直接给，不要说成不确定类型。
+
+若抽到的结果要求先说明不确定类型，介绍之前先单独说那一句，再说下面两拍。
 
 分两拍写，不要合成一句敷衍：
 
-1. 先详细介绍这一条。用 Markdown 把资料摊开：名称、游戏内描述、品类、关键属性或效果、能写的制作/获取。资料里有的要写出来，没有的不要编。怪物、生态、科技同样：机制、危险、哪里出现。
+1. 详细介绍这一条。用 Markdown 把资料摊开：名称、游戏内描述、品类、关键属性或效果、能写的制作/获取。资料里有的要写出来，没有的不要编。怪物、生态、科技同样：机制、危险、哪里出现。
 2. 介绍完再接一段反应。船长原话里让摘希做事（穿上、吃掉、拿上、装上、去那里等），就按原话演一两句；没有这类指令，再点评或轻轻吐槽。不要写成评测表，不要每条都问再来一次。
 
 名称用 **中文名(English Name)**。游戏事实只能来自参考资料；不要列来源，不要提没抽中的词条。
@@ -656,15 +660,15 @@ class RAGEngine:
     @staticmethod
     def _random_brief(question: str, match, draw, hit, fallback: str | None) -> str:
         if fallback == 'unknown_type':
-            kind = '船长原话里的品类对不上，已改走全局'
+            kind = '没对上具体品类。先明确说：不确定船长所要随机的类型，所以从全局随机抽取了一个。不要说没有这个品类'
         elif fallback == 'empty_pool' and match:
             kind = f'有「{match.pool.label_zh}」这个品类，但池子是空的，已改走全局'
         elif match and match.pool.id == 'any':
-            kind = '船长没限定品类，全局随便给'
+            kind = '船长指定了全局，直接给，不要说成不确定类型'
         elif match:
             kind = f'对上了「{match.pool.label_zh}」'
         else:
-            kind = '船长原话里的品类对不上，已改走全局'
+            kind = '没对上具体品类。先明确说：不确定船长所要随机的类型，所以从全局随机抽取了一个。不要说没有这个品类'
 
         if draw and hit:
             name_zh = hit['metadata'].get('name_zh') or ''
@@ -674,8 +678,10 @@ class RAGEngine:
                 else (name_zh or name_en or draw.candidate.entity_id)
             )
             given = f'{name}（{draw.pool.label_zh}）'
-            if fallback:
-                given += '；先用一句带过品类对不上，再进入正题'
+            if fallback == 'unknown_type':
+                given += '；开口先说明不确定类型、所以从全局抽了一个，再介绍这一条'
+            elif fallback:
+                given += '；先说明这个品类的池子是空的，再进入正题'
         else:
             given = '没有给到任何词条'
 
