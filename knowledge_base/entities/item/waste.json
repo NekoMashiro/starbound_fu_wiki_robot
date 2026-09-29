@@ -26,7 +26,7 @@
       ]
     }
   },
-  "entry_completeness": "A",
+  "entry_completeness": "S",
   "extracts_into": [
     "toxicwaste"
   ],
@@ -84,5 +84,15 @@
         ]
       }
     ]
-  }
+  },
+  "mixed_from": [
+    [
+      "dirtmaterial",
+      "liquidwastewater"
+    ],
+    [
+      "liquidwastewater",
+      "retexdirt"
+    ]
+  ]
 }

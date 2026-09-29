@@ -428,6 +428,18 @@ def build_entity_embed_text(
         if labels:
             parts.append(f"{verb}: " + ', '.join(labels))
 
+    mixed = entity.get('mixed_from') or []
+    if mixed:
+        bits = []
+        for pair in mixed:
+            if not isinstance(pair, list):
+                continue
+            labels = [_label(i, names) for i in pair if i]
+            if labels:
+                bits.append(' + '.join(labels))
+        if bits:
+            parts.append("液体混合器 混合获得 可由液体混合而出: " + '; '.join(bits))
+
     condensed = entity.get('condensed_on')
     if isinstance(condensed, dict):
         condensed = [b.get('biome') for b in (condensed.get('biomes') or []) if b.get('biome')]

@@ -26,7 +26,7 @@
     "total": 10
   },
   "wiki_ref": "Contaminated Water.md",
-  "entry_completeness": "A",
+  "entry_completeness": "S",
   "centrifuged_from": [
     "liquidalienjuice",
     "liquidnitrogenitem",
@@ -62,5 +62,23 @@
     "fu_hydrogen",
     "fu_oxygen",
     "liquidwater"
+  ],
+  "mixed_from": [
+    [
+      "fusaltwater",
+      "liquidpus"
+    ],
+    [
+      "fusaltwater",
+      "liquidwastewater"
+    ],
+    [
+      "liquidpus",
+      "liquidwater"
+    ],
+    [
+      "liquidwastewater",
+      "liquidwater"
+    ]
   ]
 }

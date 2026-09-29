@@ -111,6 +111,7 @@ SYSTEM_PROMPT = PERSONA + """
 - extracted_from / extracts_into: 可萃取获得该物品的原料 ID / 该物品可萃取成的产物 ID（研磨机或物质萃取器；extracted_from 已列全，不要只根据其他词条的 extracts_into 拼凑后说「就这些」）
 - centrifuged_from / sifted_from / crushed_from: 离心机 / 筛粉机 / 碎岩机可产出该物品的原料 ID（概率，不是保底）
 - centrifuges_into / sifts_into / crushes_into: 放入对应机器可能得到的产物 ID
+- mixed_from: 液体混合器混合出该物品的原料组合。每一项是两种原料的物品 ID，例如 [["liquidwater", "liquidpoison"]]。已列全，不要说成只有这些。没有数量。没有这个字段就表示混合器不能产出该物品
 - condensed_on: 空气冷凝器可收集该物品的星球 ID
 - condenser_outputs: 该生态上空气冷凝器的产出 ID
 - entry_completeness: 知识库词条完善度（S 最全，D 信息最少），不是物品稀有度、装备等级或品质。回答时不要提这个字段，更不要把它说成物品等级

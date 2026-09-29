@@ -10,6 +10,7 @@ recipe_index.py — 配方索引引擎
 5. 萃取索引：extractionlab_recipes（研磨机 / 物质萃取器 / 量子萃取器）
 6. 离心/筛粉/碎岩：centrifuge_recipes（按 centrifugeType 分表）
 7. 空气冷凝器：按星球类型出货
+8. 液体混合器：只索引产物（这个物品可以由什么混合出来）
 
 用法:
     python3 recipe_index.py --assets resolved_assets -o recipe_db
@@ -482,6 +483,63 @@ def parse_centrifuge_recipes(assets_dir: Path) -> list[dict]:
     return recipes
 
 
+def parse_liquid_mixer_recipes(assets_dir: Path) -> list[dict]:
+    """液体混合器：每种产物一条，记录原料和数量。"""
+    chosen = find_resolved_file(assets_dir / "config", "fu_liquidmixer_recipes")
+    if chosen is None:
+        return []
+    try:
+        with open(chosen, encoding="utf-8") as f:
+            doc = json.load(f)
+    except (json.JSONDecodeError, UnicodeDecodeError, OSError):
+        return []
+
+    rows = doc.get("_raw") if isinstance(doc, dict) else doc
+    if not isinstance(rows, list):
+        return []
+    source_mod = "Frackin' Universe"
+    if isinstance(doc, dict):
+        source_mod = (doc.get("_meta") or {}).get("source_mod", "") or source_mod
+
+    recipes = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        inputs_raw = row.get("inputs") or {}
+        outputs_raw = row.get("outputs") or {}
+        if not isinstance(inputs_raw, dict) or not isinstance(outputs_raw, dict):
+            continue
+        inputs = []
+        for item, count in inputs_raw.items():
+            if not item:
+                continue
+            inputs.append({
+                "item": str(item),
+                "count": int(count) if isinstance(count, (int, float)) else 1,
+            })
+        if not inputs:
+            continue
+        inputs.sort(key=lambda i: i["item"])
+        for out_item, out_raw in outputs_raw.items():
+            if not out_item:
+                continue
+            recipes.append({
+                "type": "liquid_mixer",
+                "inputs": inputs,
+                "output_item": str(out_item),
+                "output_count": int(out_raw) if isinstance(out_raw, (int, float)) else 1,
+                "station": "液体混合器",
+                "station_id": "fu_liquidmixer",
+                "source_mod": source_mod,
+            })
+    recipes.sort(key=lambda r: (
+        r["output_item"],
+        tuple(i["item"] for i in r["inputs"]),
+        r["output_count"],
+    ))
+    return recipes
+
+
 def parse_atmos_outputs(assets_dir: Path) -> list[dict]:
     """空气冷凝器：按 world.type() 出货，无消耗原料。"""
     chosen = find_resolved_file(assets_dir / "object", "isn_atmoscondenser.json")
@@ -543,6 +601,7 @@ class RecipeIndex:
         self.extractions: list[dict] = []
         self.centrifuges: list[dict] = []
         self.atmos: list[dict] = []
+        self.mixers: list[dict] = []
 
         # 正向索引：output_item → [recipe_idx]
         self.output_index: dict[str, list[int]] = defaultdict(list)
@@ -560,6 +619,7 @@ class RecipeIndex:
         self.centrifuge_input_index: dict[str, list[int]] = defaultdict(list)
         self.atmos_output_index: dict[str, list[int]] = defaultdict(list)
         self.atmos_biome_index: dict[str, list[int]] = defaultdict(list)
+        self.mixer_output_index: dict[str, list[int]] = defaultdict(list)
 
         self.station_map: dict = {}
 
@@ -589,6 +649,10 @@ class RecipeIndex:
         self._index_atmos(parse_atmos_outputs(assets_dir))
         print(f"   {len(self.atmos)} 条冷凝产出")
 
+        print("🧪 解析液体混合器...")
+        self._index_mixers(parse_liquid_mixer_recipes(assets_dir))
+        print(f"   {len(self.mixers)} 条混合产出")
+
         print("📇 构建索引...")
         for i, r in enumerate(self.recipes):
             if r["output_item"]:
@@ -613,6 +677,7 @@ class RecipeIndex:
         print(f"   centrifuge output 索引: {len(self.centrifuge_output_index)} 个产出")
         print(f"   centrifuge input 索引: {len(self.centrifuge_input_index)} 个输入")
         print(f"   atmos output 索引: {len(self.atmos_output_index)} 个产出")
+        print(f"   mixer output 索引: {len(self.mixer_output_index)} 个产出")
 
     def _index_extractions(self, recipes: list[dict]):
         self.extractions = recipes
@@ -634,6 +699,13 @@ class RecipeIndex:
                 self.centrifuge_output_index[row["output_item"]].append(i)
             if row.get("input_item"):
                 self.centrifuge_input_index[row["input_item"]].append(i)
+
+    def _index_mixers(self, recipes: list[dict]):
+        self.mixers = recipes
+        self.mixer_output_index = defaultdict(list)
+        for i, row in enumerate(self.mixers):
+            if row.get("output_item"):
+                self.mixer_output_index[row["output_item"]].append(i)
 
     def _index_atmos(self, recipes: list[dict]):
         self.atmos = recipes
@@ -683,6 +755,7 @@ class RecipeIndex:
             "centrifuged_from": [],
             "centrifuges_into": [],
             "condensed_on": [],
+            "mixed_from": [],
         }
 
         # 配方产出
@@ -726,6 +799,8 @@ class RecipeIndex:
             result["centrifuges_into"].append(self.centrifuges[idx])
         for idx in self.atmos_output_index.get(item_id, []):
             result["condensed_on"].append(self.atmos[idx])
+        for idx in self.mixer_output_index.get(item_id, []):
+            result["mixed_from"].append(self.mixers[idx])
 
         return result
 
@@ -745,6 +820,7 @@ class RecipeIndex:
 
         self.save_extraction(output_dir, update_meta=False)
         self.save_processing(output_dir, update_meta=False)
+        self.save_mixer(output_dir, update_meta=False)
 
         # 保存工作站映射
         with open(output_dir / "station_map.json", "w", encoding="utf-8") as f:
@@ -772,6 +848,8 @@ class RecipeIndex:
             "total_atmos_rows": len(self.atmos),
             "unique_atmos_outputs": len(self.atmos_output_index),
             "unique_atmos_biomes": len(self.atmos_biome_index),
+            "total_mixer_recipes": len(self.mixers),
+            "unique_mixer_outputs": len(self.mixer_output_index),
             "unique_outputs": len(self.output_index),
             "unique_inputs": len(self.input_index),
             "unique_stations": len(self.station_index),
@@ -785,6 +863,7 @@ class RecipeIndex:
         print(f"   extraction.jsonl: {len(self.extractions)} 条萃取产出")
         print(f"   centrifuge.jsonl: {len(self.centrifuges)} 条概率产出")
         print(f"   atmos.jsonl: {len(self.atmos)} 条冷凝产出")
+        print(f"   mixer.jsonl: {len(self.mixers)} 条混合产出")
         print(f"   station_map.json: {len(self.station_map)} 个 group→station 映射")
         print(f"   output_index.json: {len(self.output_index)} 个物品产出索引")
         print(f"   input_index.json: {len(self.input_index)} 个材料使用索引")
@@ -847,6 +926,27 @@ class RecipeIndex:
         print(f"   centrifuge.jsonl: {len(self.centrifuges)} 条概率产出")
         print(f"   atmos.jsonl: {len(self.atmos)} 条冷凝产出")
 
+    def save_mixer(self, output_dir: Path, update_meta: bool = True):
+        """只写液体混合器产物索引。"""
+        output_dir.mkdir(parents=True, exist_ok=True)
+        with open(output_dir / "mixer.jsonl", "w", encoding="utf-8") as f:
+            for row in self.mixers:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        with open(output_dir / "mixer_output_index.json", "w", encoding="utf-8") as f:
+            json.dump(dict(self.mixer_output_index), f, ensure_ascii=False, indent=2)
+        if update_meta:
+            meta_path = output_dir / "metadata.json"
+            meta = {}
+            if meta_path.exists():
+                with open(meta_path, encoding="utf-8") as f:
+                    meta = json.load(f)
+            meta["total_mixer_recipes"] = len(self.mixers)
+            meta["unique_mixer_outputs"] = len(self.mixer_output_index)
+            with open(meta_path, "w", encoding="utf-8") as f:
+                json.dump(meta, f, ensure_ascii=False, indent=2)
+        print(f"   mixer.jsonl: {len(self.mixers)} 条混合产出")
+        print(f"   mixer outputs: {len(self.mixer_output_index)}")
+
 
 # ─────────────────────────────────────────────
 # CLI
@@ -864,6 +964,8 @@ def main():
                         help="只解析并写出萃取索引")
     parser.add_argument("--processing-only", action="store_true",
                         help="只解析并写出离心/筛粉/碎岩和空气冷凝器")
+    parser.add_argument("--mixer-only", action="store_true",
+                        help="只解析并写出液体混合器产物索引")
 
     args = parser.parse_args()
 
@@ -904,6 +1006,21 @@ def main():
                 print(f"    {row['biome']} [{row['rarity']}]")
             return
         idx.save_processing(args.output)
+        return
+
+    if args.mixer_only:
+        print("🧪 解析液体混合器...")
+        idx._index_mixers(parse_liquid_mixer_recipes(args.assets))
+        print(f"   {len(idx.mixers)} 条混合产出")
+        print(f"   mixer outputs: {len(idx.mixer_output_index)}")
+        if args.query:
+            result = idx.query_item(args.query)
+            print(f"\n🧪 液体混合器产出 {args.query}: {len(result['mixed_from'])}")
+            for row in result["mixed_from"]:
+                inputs_str = " + ".join(f"{i['item']}x{i['count']}" for i in row["inputs"])
+                print(f"    {inputs_str} → x{row['output_count']}")
+            return
+        idx.save_mixer(args.output)
         return
 
     idx.build(args.assets)

@@ -83,6 +83,7 @@ class DataLoader:
         self.centrifuge_output: dict = defaultdict(list)
         self.atmos_output: dict = defaultdict(list)
         self.atmos_biome: dict = defaultdict(list)
+        self.mixer_output: dict = defaultdict(list)
         self.biome_names: dict = {}
         self.drop_sources: dict = {}        # item → [{pool, probability, count}]
         self.monster_pools: dict = {}       # pool → [monster_id]
@@ -183,6 +184,14 @@ class DataLoader:
                     if row.get("biome"):
                         self.atmos_biome[row["biome"]].append(row)
 
+        mx_path = RECIPE_DB / "mixer.jsonl"
+        if mx_path.exists():
+            with open(mx_path, encoding="utf-8") as f:
+                for line in f:
+                    row = json.loads(line)
+                    if row.get("output_item"):
+                        self.mixer_output[row["output_item"]].append(row)
+
         biome_dir = Path("knowledge_base/entities/biome")
         if biome_dir.exists():
             for p in biome_dir.glob("*.json"):
@@ -201,7 +210,8 @@ class DataLoader:
             f"   配方: {len(self.recipes)}, 机器: {sum(len(v) for v in self.machine_input.values())}, "
             f"萃取: {sum(len(v) for v in self.extraction_output.values())}, "
             f"离心族: {sum(len(v) for v in self.centrifuge_output.values())}, "
-            f"冷凝: {sum(len(v) for v in self.atmos_output.values())}"
+            f"冷凝: {sum(len(v) for v in self.atmos_output.values())}, "
+            f"液体混合: {sum(len(v) for v in self.mixer_output.values())}"
         )
 
     def _load_treasure(self):
@@ -528,6 +538,26 @@ def summarize_process_into(item_id: str, loader: DataLoader, family: str) -> lis
     return out or None
 
 
+def summarize_mixed_from(item_id: str, loader: DataLoader) -> list | None:
+    """液体混合器可产出该物品的原料对。每项是两个物品 ID，不含数量。"""
+    rows = loader.mixer_output.get(item_id, [])
+    if not rows:
+        return None
+    pairs = []
+    seen = set()
+    for row in rows:
+        items = sorted(i["item"] for i in (row.get("inputs") or []) if i.get("item"))
+        if len(items) < 2:
+            continue
+        key = tuple(items)
+        if key in seen:
+            continue
+        seen.add(key)
+        pairs.append(items)
+    pairs.sort()
+    return pairs or None
+
+
 def summarize_condensed_on(item_id: str, loader: DataLoader) -> list | None:
     rows = loader.atmos_output.get(item_id, [])
     if not rows:
@@ -660,7 +690,7 @@ def compute_entry_completeness(doc: dict) -> str:
     for k in ["blueprints_unlocked", "machine_processing", "race_effects",
               "research_node", "collection_in", "extracted_from", "extracts_into",
               "centrifuged_from", "sifted_from", "crushed_from", "condensed_on",
-              "condenser_outputs"]:
+              "condenser_outputs", "mixed_from"]:
         if doc.get(k):
             score += 0.5
 
@@ -827,6 +857,9 @@ def build_entity_doc(
         condensed = summarize_condensed_on(entity_id, loader)
         if condensed:
             doc["condensed_on"] = condensed
+        mixed_from = summarize_mixed_from(entity_id, loader)
+        if mixed_from:
+            doc["mixed_from"] = mixed_from
         if entity_id == "isn_atmoscondenser":
             atmos_machine = summarize_atmosphere_machine(loader)
             if atmos_machine:
@@ -1158,6 +1191,57 @@ def patch_extraction_fields(output_dir: Path) -> int:
     return patch_machine_fields(output_dir, extraction=True, processing=False)
 
 
+def _sync_index_completeness(output_dir: Path, updates: dict[tuple[str, str], str]) -> None:
+    """把词条完善度写回 index.jsonl。updates 的键是 (entity_type, entity_id)。"""
+    if not updates:
+        return
+    index_path = output_dir / "index.jsonl"
+    if not index_path.exists():
+        return
+    lines = []
+    with open(index_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            row = json.loads(line)
+            key = (row.get("entity_type") or "", row.get("entity_id") or "")
+            new_tier = updates.get(key)
+            if new_tier and row.get("entry_completeness") != new_tier:
+                row["entry_completeness"] = new_tier
+            lines.append(json.dumps(row, ensure_ascii=False))
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+
+def patch_mixer_fields(output_dir: Path) -> int:
+    """给已有物品词条补 mixed_from：这个物品可以由什么混合出来。"""
+    loader = DataLoader()
+    loader.load_all()
+    patched = 0
+    tier_updates = {}
+    for entity_type in ("item", "object"):
+        type_dir = output_dir / "entities" / entity_type
+        if not type_dir.exists():
+            continue
+        for path in type_dir.glob("*.json"):
+            with open(path, encoding="utf-8") as f:
+                doc = json.load(f)
+            eid = doc.get("entity_id") or path.stem
+            value = summarize_mixed_from(eid, loader)
+            if not _set_or_clear(doc, "mixed_from", value):
+                continue
+            doc["entry_completeness"] = compute_entry_completeness(doc)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(doc, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+            tier_updates[(entity_type, eid)] = doc["entry_completeness"]
+            patched += 1
+    _sync_index_completeness(output_dir, tier_updates)
+    print(f"液体混合产物已写入 {patched} 个文档，覆盖 {len(loader.mixer_output)} 种产物")
+    return patched
+
+
 def patch_machine_fields(output_dir: Path, extraction: bool = True, processing: bool = True) -> int:
     """给已有知识库文档补萃取 / 离心 / 筛粉 / 碎岩 / 冷凝字段。"""
     loader = DataLoader()
@@ -1217,14 +1301,22 @@ def main():
                         help="只给现有文档补萃取字段")
     parser.add_argument("--patch-processing", action="store_true",
                         help="只给现有文档补离心/筛粉/碎岩/冷凝字段")
+    parser.add_argument("--patch-mixer", action="store_true",
+                        help="只给现有文档补液体混合器产物来源 mixed_from")
 
     args = parser.parse_args()
+    ran = False
     if args.patch_extraction or args.patch_processing:
         patch_machine_fields(
             args.output,
             extraction=args.patch_extraction,
             processing=args.patch_processing or not args.patch_extraction,
         )
+        ran = True
+    if args.patch_mixer:
+        patch_mixer_fields(args.output)
+        ran = True
+    if ran:
         return
     build_knowledge_base(args.output, args.sample)
 
